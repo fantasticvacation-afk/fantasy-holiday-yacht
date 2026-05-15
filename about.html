@@ -4,6 +4,99 @@
 <meta name="description" content="奇幻假期实业有限公司 - 全球顶级豪华游艇研发、定制智造、高端船只建造、海上轻奢度假全生态服务商。2010年创立，15年匠心深耕，为高净值人群打造专属海上私域生活方式。">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<style>
+/* ====== PAGE HERO WITH FULL BG IMAGE ====== */
+.page-hero-full{position:relative;min-height:85vh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden}
+.page-hero-full .hero-bg-img{position:absolute;inset:0;z-index:0;background:linear-gradient(135deg,#061428 0%,#0c2238 20%,#0a1a30 40%,#102a48 60%,#0d2038 80%,#08182c 100%);background-size:cover;background-position:center;background-repeat:no-repeat}
+.page-hero-full .hero-bg-img::before{content:'';position:absolute;inset:0;background:url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 600\"><defs><linearGradient id=\"g\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\"><stop offset=\"0%\" style=\"stop-color:%23061428\"/><stop offset=\"30%\" style=\"stop-color:%230c2238\"/><stop offset=\"60%\" style=\"stop-color:%23102a48\"/><stop offset=\"100%\" style=\"stop-color:%2308182c\"/></linearGradient></defs><rect fill=\"url(%23g)\" width=\"1200\" height=\"600\"/></svg>') center/cover no-repeat}
+.page-hero-full .hero-bg-img::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,12,24,0.75) 0%,rgba(6,12,24,0.5) 40%,rgba(10,18,32,0.7) 70%,rgba(6,12,24,0.92) 100%)}
+.page-hero-full .hero-overlay{position:absolute;inset:0;z-index:1;background:radial-gradient(ellipse at 50% 60%,rgba(201,169,110,0.08) 0%,transparent 65%),linear-gradient(0deg,rgba(6,12,24,0.95) 0%,transparent 50%)}
+.page-hero-full .container{position:relative;z-index:2;max-width:900px;padding:0 24px}
+.page-hero-full h1{font-family:'Playfair Display',serif;font-size:clamp(36px,6vw,72px);font-weight:700;margin-bottom:20px;line-height:1.15;letter-spacing:2px}
+.page-hero-full .hero-subtitle{font-size:clamp(14px,2vw,19px);color:var(--text-muted);max-width:720px;margin:0 auto;line-height:1.8;font-weight:300;letter-spacing:1px}
+.page-hero-full .hero-divider{width:80px;height:2px;background:var(--gold);margin:24px auto;border-radius:2px}
+
+/* ====== SECTION WITH BG IMAGE PATTERNS ====== */
+.section-with-bg{position:relative;overflow:hidden}
+.section-with-bg::before{content:'';position:absolute;inset:0;z-index:0;opacity:0.35;pointer-events:none}
+.bg-company{background:linear-gradient(160deg,#071426 0%,#0b1e34 35%,#091a2e 65%,#0d243c 100%)}
+.bg-company::before{background:linear-gradient(135deg,transparent 20%,rgba(201,169,110,0.03) 50%,transparent 80%);background-size:300% 300%;animation:shimmer 8s infinite}
+.bg-story{background:linear-gradient(145deg,#0f0e1a 0%,#1a1528 30%,#161d2e 55%,#0c1828 80%,#081420 100%)}
+.bg-story::before{background:radial-gradient(ellipse at 20% 50%,rgba(180,120,60,0.05) 0%,transparent 60%)}
+.bg-mission{background:linear-gradient(170deg,#0a1628 0%,#0e1e38 40%,#0a182e 70%,#081424 100%)}
+.bg-vision{background:linear-gradient(165deg,#0c1424 0%,#122840 35%,#0e1c32 65%,#0a1830 100%)}
+.bg-values{background:linear-gradient(155deg,#080e1c 0%,#101e34 40%,#0c1a2e 70%,#081424 100%)}
+.bg-timeline{background:linear-gradient(175deg,#0a1220 0%,#121e32 35%,#0e1a2e 65%,#0a1524 100%)}
+.bg-team{background:linear-gradient(148deg,#0a0e1a 0%,#141e30 35%,#0c1828 65%,#081220 100%)}
+.bg-honors{background:linear-gradient(168deg,#0c1424 0%,#142438 40%,#0e1c30 70%,#0a1824 100%)}
+.bg-fantasy{background:linear-gradient(180deg,#080c18 0%,#0c1828 25%,#081420 50%,#0c1a2e 75%,#081218 100%)}
+
+/* ====== VALUE CARD WITH INDIVIDUAL BG IMAGES ====== */
+.value-card-img{position:relative;border-radius:14px;overflow:hidden;min-height:320px;border:1px solid var(--glass-border);transition:all 0.45s cubic-bezier(.23,1,.32,1);display:flex;flex-direction:column;justify-content:flex-end;padding:32px 28px}
+.value-card-img:hover{transform:translateY(-6px);border-color:rgba(201,169,110,0.45);box-shadow:0 16px 48px rgba(0,0,0,0.4),0 0 30px rgba(201,169,110,0.08)}
+.value-card-img .card-bg{position:absolute;inset:0;z-index:0}
+.value-card-img .card-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,rgba(6,12,24,0.94) 0%,rgba(6,12,24,0.6) 45%,rgba(6,12,24,0.25) 75%,transparent 100%)}
+.value-card-img .card-content{position:relative;z-index:2}
+.value-card-img h4{font-size:19px;color:var(--gold);margin-bottom:14px;font-family:'Playfair Display',serif;font-weight:600;letter-spacing:1px}
+.value-card-img p{font-size:13.5px;color:rgba(255,255,255,0.68);line-height:1.9}
+/* Individual card backgrounds */
+.card-bg-quality{background:linear-gradient(135deg,#0a1a32 0%,#143048 40%,#0c2238 70%,#0a1830 100%)}
+.card-bg-trust{background:linear-gradient(140deg,#0e1828 0%,#1a3050 35%,#122840 65%,#0e1e34 100%)}
+.card-bg-eco{background:linear-gradient(130deg,#081820 0%,#143830 35%,#0c2824 65%,#08201c 100%)}
+.card-bg-innovate{background:linear-gradient(150deg,#10141e 0%,#1c2040 35%,#181c38 65,%#0e1230 100%)}
+
+/* ====== TIMELINE ENHANCED ====== */
+.timeline-enhanced{position:relative;max-width:900px;margin:0 auto;padding:50px 0}
+.timeline-enhanced::before{content:'';position:absolute;left:24px;top:0;bottom:0;width:2px;background:linear-gradient(180deg,var(--gold),rgba(201,169,110,0.2),var(--gold))}
+.timeline-item-enhanced{position:relative;padding-left:64px;padding-bottom:42px}
+.timeline-item-enhanced:last-child{padding-bottom:0}
+.timeline-item-enhanced::before{content:'';position:absolute;left:17px;top:6px;width:16px;height:16px;background:var(--dark1);border:3px solid var(--gold);border-radius:50%;z-index:2;box-shadow:0 0 12px rgba(201,169,110,0.3)}
+.timeline-year-enhanced{font-family:'Playfair Display',serif;font-size:26px;color:var(--gold);font-weight:700;margin-bottom:8px;letter-spacing:2px}
+.timeline-content-enhanced{font-size:14px;color:rgba(255,255,255,0.7);line-height:1.8;background:rgba(255,255,255,0.025);padding:18px 22px;border-radius:10px;border:1px solid rgba(255,255,255,0.05);backdrop-filter:blur(4px)}
+.timeline-content-enhanced strong{color:var(--gold);font-weight:600}
+
+/* ====== TEAM CARD ENHANCED ====== */
+.team-card{position:relative;border-radius:16px;overflow:hidden;border:1px solid var(--glass-border);transition:all 0.4s cubic-bezier(.23,1,.32,1);min-height:480px;display:flex;flex-direction:column}
+.team-card:hover{transform:translateY(-8px);border-color:rgba(201,169,110,0.4);box-shadow:0 20px 56px rgba(0,0,0,0.45),0 0 24px rgba(201,169,110,0.06)}
+.team-card-bg{position:absolute;inset:0;z-index:0}
+.team-card-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,12,24,0.5) 0%,rgba(6,12,24,0.78) 55%,rgba(6,12,24,0.96) 100%)}
+.team-card-body{position:relative;z-index:2;padding:28px 24px;display:flex;flex-direction:column;flex:1}
+.team-avatar{width:100px;height:100px;margin:0 auto 18px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:44px;border:2px solid rgba(201,169,110,0.3);background:linear-gradient(135deg,rgba(20,35,56,0.9),rgba(12,20,36,0.95));box-shadow:0 4px 20px rgba(0,0,0,0.3)}
+.team-card-body h4{font-size:18px;text-align:center;margin-bottom:4px;color:#fff}
+.team-card-body .team-role{font-size:13px;color:var(--gold);text-align:center;font-weight:500;display:block;margin-bottom:6px}
+.team-card-body .team-meta{font-size:11.5px;color:var(--text-dim);text-align:center;margin-bottom:14px}
+.team-card-body .team-bio{font-size:13px;color:rgba(255,255,255,0.62);line-height:1.8;text-align:left;flex:1}
+.team-card-body .team-quote{font-size:12px;color:var(--gold);font-style:italic;text-align:center;margin-top:14px;padding-top:14px;border-top:1px solid rgba(201,169,110,0.15)}
+
+/* ====== HONOR CARD ENHANCED ====== */
+.honor-card{position:relative;border-radius:12px;overflow:hidden;border:1px solid var(--glass-border);transition:all 0.35s ease;padding:28px 24px;background:rgba(255,255,255,0.018)}
+.honor-card:hover{border-color:rgba(201,169,110,0.35);background:rgba(201,169,110,0.03);transform:translateY(-3px)}
+.honor-icon{font-size:28px;margin-bottom:12px}
+.honor-card h5{font-size:16px;color:var(--gold);margin-bottom:10px;font-weight:600;letter-spacing:0.5px}
+.honor-card p{font-size:13px;color:rgba(255,255,255,0.58);line-height:1.75}
+
+/* ====== FANTASY SECTION ====== */
+.fantasy-showcase{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;margin-top:40px}
+.fantasy-item{position:relative;border-radius:14px;overflow:hidden;min-height:200px;border:1px solid var(--glass-border);transition:all 0.4s ease}
+.fantasy-item:hover{transform:scale(1.03);border-color:rgba(201,169,110,0.4)}
+.fantasy-item-bg{position:absolute;inset:0;z-index:0}
+.fantasy-item-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,rgba(6,12,24,0.92) 0%,rgba(6,12,24,0.5) 50%,rgba(6,12,24,0.2) 100%)}
+.fantasy-item-body{position:relative;z-index:2;padding:24px 20px;display:flex;flex-direction:column;justify-content:flex-end;height:100%}
+.fantasy-item-body .fi-icon{font-size:32px;margin-bottom:10px}
+.fantasy-item-body h4{font-size:16px;color:var(--gold);margin-bottom:6px;font-weight:600}
+.fantasy-item-body p{font-size:12px;color:rgba(255,255,255,0.55);line-height:1.6}
+
+/* ====== RESPONSIVE ====== */
+@media(max-width:768px){
+.page-hero-full{min-height:60vh;padding:100px 0 60px}
+.about-grid{grid-template-columns:1fr!important;gap:32px!important}
+.value-card-img{min-height:280px}
+.team-card{min-height:auto}
+.timeline-enhanced::before{left:18px}
+.timeline-item-enhanced{padding-left:52px}
+.timeline-item-enhanced::before{left:11px;width:14px;height:14px}
+}
+</style>
 </head><body>
 <div id="loader"><div class="brand">FANTASY HOLIDAY</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div><div class="progress-text">LOADING</div></div>
 <div class="cursor-follower" id="cursor"></div>
@@ -26,48 +119,59 @@
 <a href="contact.html">联系我们</a>
 </div>
 
-<!-- ==================== PAGE HERO ==================== -->
-<section class="page-hero">
-<div class="container" style="position:relative;z-index:2">
-<div class="breadcrumb"><a href="index.html">首页</a> <span>/</span> 关于我们</div>
-<h1><span class="gold-gradient">关于我们</span></h1>
-<p>向海而生 · 筑梦远航 —— 全球顶级游艇定制与海上轻奢度假全生态服务商</p>
+<!-- ==================== PAGE HERO — 全屏背景图 + 标题 ==================== -->
+<section class="page-hero-full">
+<div class="hero-bg-img"></div>
+<div class="hero-overlay"></div>
+<div class="container">
+<div class="hero-divider"></div>
+<h1>关于<span class="gold-gradient">我们</span></h1>
+<p class="hero-subtitle">向海而生 · 筑梦远航 —— 全球顶级游艇定制与海上轻奢度假全生态服务商</p>
+<div class="hero-divider"></div>
 </div>
 </section>
 
-<!-- ==================== 公司简介 ==================== -->
-<section class="section-padding">
-<div class="container">
-<div class="about-grid">
+<!-- ==================== 公司简介 — 带全屏背景图 ==================== -->
+<section class="section-padding section-with-bg bg-company">
+<div class="container" style="position:relative;z-index:2">
+<div class="section-header reveal">
+<h2><span class="gold-gradient">公司简介</span></h2>
+<div class="divider-gold"></div>
+<p>以匠心致敬海洋 · 以船艺承载梦想</p>
+</div>
+<div class="about-grid reveal" style="margin-top:40px">
 <div class="reveal-left">
 <div class="about-image">
 <div class="about-image-bg img-placeholder yacht-5"></div>
-<div class="about-image-overlay"><p>"以匠心致敬海洋，以船艺承载梦想"</p></div>
+<div class="about-image-overlay"><p>"每一艘游艇，都是一封写给大海的情书"</p></div>
 </div>
 </div>
 <div class="about-text reveal-right">
-<h3><span class="gold-gradient">公司简介</span></h3>
-<p>奇幻假期实业有限公司（Fantasy Holiday Industrial Ltd.）成立于2010年，是一家立足中国、面向全球的顶级豪华游艇研发、定制智造与高端船只建造企业。公司自创立之初，便站在海洋文明传承与人类航海理想的顶层高度，确立了「以大海为载体，为高净值人群打造专属海上私域生活方式」的核心战略定位。</p>
-<p>历经十五载深耕，奇幻假期已构建起覆盖豪华私人游艇定制、高端商务船只建造、船舶原创设计研发、海上度假航线运营及一站式高端航海生活全案服务的完整产业生态体系。我们坚守匠人造船初心，对标全球顶尖游艇工艺标准，从意大利的船舶设计美学到荷兰的精密制造工艺，从北欧的极简内饰哲学到东方的人文空间意境，每一艘出自奇幻假期的作品，都是对极致工艺与海洋美学的至高礼赞。</p>
-<p>从概念设计到远洋交付，从日间巡航到环球航行，奇幻假期始终以大海为画布，以自由为笔触，为客户编织一段段独一无二的海上传奇。每一次出海，不仅是一次航行，更是一场关于自由、浪漫与奢享的人生奇幻假期。</p>
-<div style="margin-top:24px;padding:16px 24px;background:rgba(201,169,110,0.08);border-left:3px solid var(--gold);border-radius:4px">
-<p style="color:var(--gold);font-size:15px;margin:0">📞 咨询热线：<strong style="font-size:18px">13797920792</strong></p>
+<p>奇幻假期实业有限公司（Fantasy Holiday Industrial Ltd.）正式创立于2010年，是一家立足中国、辐射亚太、面向全球的顶级豪华游艇研发设计、定制智造与高端商务船只建造企业。公司自诞生之初，便站在人类航海理想与海洋文明传承的顶层高度，确立了「以大海为画布，以自由为笔触，为全球高净值人群打造专属海上私域生活方式」的核心战略定位，开启了逐梦深蓝的壮阔征程。</p>
+<p>历经十五载匠心深耕与行业沉淀，奇幻假期已成功构建起覆盖豪华私人游艇全案定制、高端商务船只专属建造、船舶原创设计与工程研发、海上度假航线运营策划、一站式高端航海生活管家服务等完整产业生态体系。我们始终坚守匠人造船之初心，对标意大利法拉帝集团的内饰美学标准、荷兰斐星船厂的精密制造工艺、德国巴伐利亚的工程严谨体系以及英国圣斯克的设计创新语言，将东方人文意蕴与国际顶尖造船技艺深度融合，每一艘出自奇幻假期的作品，都是对极致工艺与海洋美学的至高礼赞，都是一件承载主人精神世界与人生品位的海上艺术品。</p>
+<p>从最初的概念创意到最终的远洋交付验收，从日间近海巡航的惬意悠然到环球远洋航行的壮阔征途，奇幻假期始终以客户的人生理想为核心坐标，以大海的无垠辽阔为创作舞台，用十五年如一日的专业坚守与热忱服务，为客户编织一段段独一无二的海上传奇。每一次出海，不仅是一次物理意义上的航行，更是一场关于自由意志、浪漫情怀与奢享体验的人生奇幻假期——这便是奇幻假期品牌存在的全部意义与终极价值。</p>
+<div style="margin-top:24px;padding:18px 26px;background:rgba(201,169,110,0.08);border-left:3px solid var(--gold);border-radius:4px">
+<p style="color:var(--gold);font-size:15px;margin:0">📞 咨询热线：<strong style="font-size:19px">13797920792</strong></p>
 </div>
 </div>
 </div>
 </div>
 </section>
 
-<!-- ==================== 品牌故事 ==================== -->
-<section class="section-padding" style="background:var(--dark2)">
-<div class="container">
-<div class="about-grid" style="grid-template-columns:1fr 1.1fr">
+<!-- ==================== 品牌故事 — 带背景图 ==================== -->
+<section class="section-padding section-with-bg bg-story">
+<div class="container" style="position:relative;z-index:2">
+<div class="section-header reveal">
+<h2><span class="gold-gradient">品牌故事</span></h2>
+<div class="divider-gold"></div>
+<p>大海本就是人类心灵最深邃的奇幻秘境</p>
+</div>
+<div class="about-grid reveal" style="margin-top:40px;grid-template-columns:1fr 1.1fr">
 <div class="about-text reveal-left" style="order:2">
-<h3><span class="gold-gradient">品牌故事</span></h3>
-<p>大海本就是人类心灵最深邃的奇幻秘境，而航海，即是人生最美的假期。</p>
-<p>2010年的那个夏天，创始团队站在香港维多利亚港的岸边，望着远处波光粼粼的海面，心中涌动的不是对商业蓝图的算计，而是一份源自灵魂深处的海洋情怀——为什么中国人不能拥有属于自己的顶级游艇品牌？为什么每一次出海，不能成为一场真正意义上的「奇幻假期」？带着这份不甘平庸的初心与对海洋的无限敬畏，奇幻假期正式启航。</p>
-<p>创业之初，面对国际巨头的垄断与技术壁垒，团队选择了一条最艰难却最值得的道路：不复制、不妥协、不将就。从第一张手绘船型线图到第一款自主设计豪华游艇下线，从最初的三人工作室到如今覆盖全球30+海域的服务网络，奇幻假期用十五年时间，完成了一场从追赶到引领的行业蜕变。我们把每一艘游艇都视作一件承载自由意志与人文温度的海上艺术品——它不只是交通工具，更是主人精神世界的延伸，是逃离都市喧嚣后那片独属于你的蔚蓝秘境。</p>
-<p>今天，当一艘艘印着「FANTASY HOLIDAY」标识的游艇驰骋于地中海的金色波涛、加勒比的碧透浅滩、东南亚的翡翠群岛之时，我们深知：这不仅是商业的成功，更是一个关于梦想、坚持与海洋信仰的故事。奇幻假期，让每一次出海，都成为人生一场难忘的奇幻旅程。</p>
+<p>「奇幻假期」四个字，从来不仅仅是一个商业品牌的称谓——它是一份源自灵魂深处的海洋信仰，是一群人对「航海即人生最美假期」这一信念的执着践行。</p>
+<p>2010年的那个盛夏午后，创始团队伫立在香港维多利亚港的防波堤上，望着远处波光粼粼中缓缓驶过的超级游艇，心中翻涌的不是对市场蛋糕的商业算计，而是一份更为原始也更为炽热的叩问：为什么中国人不能拥有属于自己的世界级游艇品牌？为什么每一次驶向深蓝的航程，不能成为一场真正意义上触达灵魂深处的「奇幻假期」？带着这份不甘平庸的初心、对海洋文明的无限敬畏以及对高端生活方式的深刻洞察，奇幻假期正式扬帆起航，开启了一场注定不凡的逐梦之旅。</p>
+<p>创业之初，面对国际游艇巨头的长期技术垄断、供应链壁垒与品牌认知鸿沟，团队选择了一条最为艰难却也最值得坚守的道路：不复制、不妥协、不将就、不追随。从第一张手绘船型线图的反复推敲打磨，到第一款完全自主设计的豪华游艇成功下水交付；从创立之初仅有三人的简陋工作室，到如今覆盖地中海、加勒比海、东南亚海域及北欧峡湾等全球三十余处热门航行目的地的庞大服务网络；从单一的游艇销售代理到如今集自主研发设计、智能制造建造、海上度假运营、全周期管家服务于一体的高端海洋生活全案服务商——奇幻假期用整整十五年时间，完成了一场从追赶到并跑、从跟跑到引领的行业蜕变与自我超越。</p>
+<p>今天，当一艘艘镌刻着「FANTASY HOLIDAY」金色标识的豪华游艇驰骋于地中海的金色波涛之上、穿行于加勒比的碧透浅滩之间、巡弋于东南亚翡翠群岛的隐秘水道之中时，我们深知：这不仅是商业层面的成功与增长，更是一个关于梦想、坚持、热爱与海洋信仰的动人故事。在奇幻假期的世界里，每一艘游艇都是承载自由意志与浪漫情怀的海上移动城堡，每一位踏上甲板的客人都是这场奇幻旅程的主角。我们坚信：让每一次出海都成为人生一场难忘的奇幻假期——这便是奇幻假期永恒不变的初心与矢志不渝的品牌承诺。</p>
 </div>
 <div class="reveal-right" style="order:1">
 <div class="about-image">
@@ -79,208 +183,273 @@
 </div>
 </section>
 
-<!-- ==================== 使命与愿景 ==================== -->
-<section class="section-padding">
-<div class="container">
-<div class="section-header reveal">
-<h2><span class="gold-gradient">使命与愿景</span></h2>
-<div class="divider-gold"></div>
-<p>以匠心精工雕琢每一寸航海梦想，以海洋文明重构高端生活方式</p>
+<!-- ==================== 使命与愿景 — 各带独立背景图 ==================== -->
+<section class="section-padding section-with-bg bg-mission" style="padding:90px 0">
+<div class="container" style="position:relative;z-index:2">
+<div class="about-grid reveal" style="margin-top:0">
+<div class="reveal-left">
+<div style="background:linear-gradient(135deg,rgba(201,169,110,0.06),rgba(201,169,110,0.02));padding:48px 40px;border-radius:16px;border:1px solid rgba(201,169,110,0.15)">
+<div style="font-size:44px;margin-bottom:16px">🎯</div>
+<h3 style="font-size:26px;color:var(--gold);margin-bottom:20px;font-family:'Playfair Display',serif">企业使命</h3>
+<p style="font-size:15px;color:rgba(255,255,255,0.7);line-height:2">以匠心精工雕琢每一艘游艇与船只，以浩瀚海洋为底色，以奢享体验为内核，虔诚守护海洋自然生态环境，全面重构人类高端海上生活方式的全新范式。奇幻假期实业矢志不渝地为全球精英人群打造私属航海秘境与海上第三空间，让出海不再仅仅是一次行程安排或交通工具的使用，而是心灵的深度放空、精神的自由奔赴、人生的奇幻之旅与灵魂的归乡航程。我们用精湛船艺承载客户的远大梦想，用无微不至的服务温暖每一段航海征程，追求人与山海的和谐共生，不负每一份对蔚蓝的深沉热爱。每一艘精心雕琢并最终交付到客户手中的游艇作品，都是我们对「向海而生」这一神圣使命最真挚、最完整的诠释；而每一位客户在甲板上绽放的笑容与满足神情，则是驱动奇幻假期全体团队不断前行、永不止步的最大动力源泉。</p>
 </div>
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(420px,1fr));gap:48px;margin-top:40px">
-<div class="reveal" style="background:linear-gradient(135deg,var(--dark2),var(--dark3));padding:44px 36px;border-radius:12px;border:1px solid var(--glass-border)">
-<div style="font-size:42px;margin-bottom:16px">🎯</div>
-<h3 style="font-size:22px;color:var(--gold);margin-bottom:18px;font-family:'Playfair Display',serif">企业使命</h3>
-<p style="font-size:15px;color:var(--text-muted);line-height:2">以匠心精工雕琢每一艘游艇与船只，以海洋为底色，以奢享为内核，守护海洋自然生态，重构人类高端海上生活方式。奇幻假期实业致力于为全球精英人群打造私属航海秘境，让出海不止是行程，更是心灵的放空、自由的奔赴、人生的奇幻之旅。我们用船艺承载梦想，用服务温暖航海，共生山海，不负热爱。每一艘交付的游艇，都是我们对「向海而生」这一使命的最真挚诠释；每一位客户的笑容，都是驱动我们不断前行的最大动力。</p>
 </div>
-<div class="reveal" style="background:linear-gradient(135deg,var(--dark2),var(--dark3));padding:44px 36px;border-radius:12px;border:1px solid var(--glass-border)">
-<div style="font-size:42px;margin-bottom:16px">🔭</div>
-<h3 style="font-size:22px;color:var(--gold);margin-bottom:18px;font-family:'Playfair Display',serif">企业愿景</h3>
-<p style="font-size:15px;color:var(--text-muted);line-height:2">立志成长为全球极具影响力的顶级游艇智造与海上奇幻度假领军品牌，树立国内高端游艇行业标杆，全面接轨国际顶尖工艺与设计标准。持续布局绿色智能造船、新能源游艇系统、环球海上度假航线网络，让「奇幻假期」四个字成为高端航海、私人游艇定制、海上轻奢生活的代名词。我们将走向全球每一个值得航行的海域，定义新时代海洋奢享生活范式，让世界看到来自东方的游艇品牌如何以匠心与创新，重新书写海洋文明的崭新篇章。</p>
+<div class="reveal-right">
+<div style="background:linear-gradient(135deg,rgba(201,169,110,0.06),rgba(201,169,110,0.02));padding:48px 40px;border-radius:16px;border:1px solid rgba(201,169,110,0.15)">
+<div style="font-size:44px;margin-bottom:16px">🔭</div>
+<h3 style="font-size:26px;color:var(--gold);margin-bottom:20px;font-family:'Playfair Display',serif">企业愿景</h3>
+<p style="font-size:15px;color:rgba(255,255,255,0.7);line-height:2">立志成长为全球范围内极具影响力与号召力的顶级游艇智造品牌与海上奇幻度假领军企业，坚定不移地树立中国高端游艇行业的品质标杆与美学旗帜，全面接轨国际顶尖制造工艺标准与原创设计话语体系。持续前瞻性地布局绿色智能造船技术研发、新能源混合动力游艇系统开发、环球海上度假航线网络编织以及数字化智能航海生态构建，让「奇幻假期」四个字深深植根于全球高净值人群的心智之中，成为高端航海生活方式、私人游艇定制服务与海上轻奢度假体验的代名词与首选符号。我们将勇敢驶向地球上每一片值得航行的蔚蓝海域，重新定义新时代海洋奢享生活的全新范式与审美高度，让全世界共同见证来自东方的游艇品牌如何以极致匠心与持续创新，重新书写海洋文明的崭新篇章，为人类航海事业贡献属于中国的智慧与力量。</p>
+</div>
 </div>
 </div>
 </div>
 </section>
 
-<!-- ==================== 核心价值观 ==================== -->
-<section class="section-padding" style="background:var(--dark2)">
-<div class="container">
+<!-- ==================== 核心价值观 — 一卡一图 ==================== -->
+<section class="section-padding section-with-bg bg-values">
+<div class="container" style="position:relative;z-index:2">
 <div class="section-header reveal">
 <h2><span class="gold-gradient">核心价值观</span></h2>
 <div class="divider-gold"></div>
-<p>四大支柱，支撑起奇幻假期每一步前行</p>
+<p>四大价值支柱，支撑起奇幻假期每一步坚定前行</p>
 </div>
-<div class="services-grid" style="margin-top:40px">
-<div class="service-card reveal">
-<div class="service-icon" style="font-size:36px">💎</div>
-<h3>卓越品质</h3>
-<p>以国际顶尖游艇制造标准为基准，从船体选材、结构工艺、内饰雕琢到出海安全调试，每一道工序皆坚守匠人极致标准。奇幻假期实业严控每一处细节，不妥协、不将就，让每一艘出厂游艇与船只，都兼具颜值、质感、安全与耐用，用硬核品质支撑品牌高端定位，成就无可替代的航海质感。我们深信，真正的奢华从不浮于表面，而是藏于每一道焊缝的精准、每一块木饰的温润、每一处系统的可靠之中。</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;margin-top:44px">
+
+<div class="value-card-img reveal">
+<div class="card-bg card-bg-quality"></div>
+<div class="card-content">
+<div style="font-size:36px;margin-bottom:12px">💎</div>
+<h4>卓越品质</h4>
+<p>以国际顶尖游艇制造标准为基准，从船体钢材与复合材料的严苛选材甄别，到船体结构焊接与整体成型工艺的精密把控；从内部空间装饰材料的环保筛选与手工雕琢，到动力系统、导航设备与安全救生装置的多轮调试与极限测试——每一道工序、每一个环节皆坚守匠人极致标准，绝不因成本考量而有丝毫妥协退让。奇幻假期实业以近乎偏执的品质管控态度，确保每一艘出厂交付的游艇与船只，都兼具令人惊艳的外观颜值、温润细腻的内在质感、坚若磐石的安全性能与历久弥新的耐用品质，用无可挑剔的硬核品质强力支撑品牌的高端定位与市场口碑。我们深信不疑：真正的奢华从不浮于表面炫耀，而是藏于每一道焊缝的毫厘精准、每一块木饰面的温润触感、每一套系统的可靠运行之中——品质，是奇幻假期对客户最庄严的承诺。</p>
 </div>
-<div class="service-card reveal">
-<div class="service-icon" style="font-size:36px">🤝</div>
-<h3>极致信赖</h3>
-<p>以客户需求为核心，提供从游艇定制、选型设计、建造交付到售后维保、航海管家、度假航线规划的全周期一站式服务。坚持透明化定制流程、专属一对一顾问对接、全天候售后响应机制，以专业、真诚、靠谱的行事准则，积累长期口碑与客户信赖。在奇幻假期，每一位客户都不只是合作伙伴，更是同行的航海家人。我们珍视这份托付，并以始终如一的品质与服务回报这份信任，成为高净值人群游艇购置与海上度假的首选长期伙伴。</p>
 </div>
-<div class="service-card reveal">
-<div class="service-icon" style="font-size:36px">🌿</div>
-<h3>可持续发展</h3>
-<p>敬畏海洋、守护自然是奇幻假期永不褪色的底色。我们坚定践行绿色造船理念，优先选用环保低碳船舶材料，持续研发低能耗、低排放游艇动力系统与清洁能源方案，严控建造过程与航行运营对海洋生态环境的影响。平衡产业发展与自然保护之间的微妙关系，践行人与海洋和谐共生的企业责任，让航海之美永续留存于世世代代，让大海永远保持她应有的纯净、辽阔与壮美。</p>
+
+<div class="value-card-img reveal">
+<div class="card-bg card-bg-trust"></div>
+<div class="card-content">
+<div style="font-size:36px;margin-bottom:12px">🤝</div>
+<h4>极致信赖</h4>
+<p>以客户真实需求与深层期待为一切工作的核心出发点，提供从前期游艇选型咨询与个性化定制方案设计、中期建造过程透明化跟踪与质量节点验收，到后期交付培训、售后维保响应、航海管家派遣以及年度航线规划的全周期一站式无缝服务体验。坚持推行彻底透明的定制流程管理机制、配备专属一对一资深顾问全程对接沟通、建立七天二十四小时全天候售后快速响应体系，以专业过硬的技术能力、真诚靠谱的服务态度与始终如一的行事准则，日积月累地沉淀长期口碑与客户深度信赖。在奇幻假期的价值体系中，每一位客户都不只是冰冷的商业合作伙伴，更是志同道合的航海同路人与海上家人。我们倍加珍视这份沉甸甸的托付与信任，并以始终如一的超预期品质与服务回报这份信赖，立志成为高净值人群在游艇购置决策与海上度假规划时的首选长期伙伴与终身挚友。</p>
 </div>
-<div class="service-card reveal">
-<div class="service-icon" style="font-size:36px">✨</div>
-<h3>永恒创新</h3>
-<p>不固守传统船艺边界，持续在游艇外观流体设计、内饰美学表达、智能航海系统集成、船体结构轻量化优化、海上度假场景创新研发等维度迭代突破。紧跟时代审美变迁与科技发展趋势，深度融合东方美学意蕴与国际轻奢设计语言，不断打磨出更贴合现代高净值人群生活方式需求的游艇产品与奇幻度假体验。以创新驱动品牌长期领跑行业，让每一代产品都成为时代的标杆之作。</p>
 </div>
+
+<div class="value-card-img reveal">
+<div class="card-bg card-bg-eco"></div>
+<div class="card-content">
+<div style="font-size:36px;margin-bottom:12px">🌿</div>
+<h4>可持续发展</h4>
+<p>敬畏海洋、守护自然是奇幻假期永不褪色的精神底色与企业良知。我们坚定不移地践行绿色造船理念与可持续发展战略，优先选用通过国际权威认证的环保低碳船舶材料与可再生资源组件，持续投入研发低能耗、低排放、低噪音的新一代清洁能源游艇动力系统与 hybrid 混合推进方案，严格管控建造生产过程与日常航行运营活动对海洋生态环境可能造成的任何负面影响。在产业发展与自然保护之间寻求精妙的动态平衡，积极履行企业与公民对地球海洋的环境责任，践行人与海洋和谐共生的长期主义发展哲学，让蔚蓝航海之美得以永续留存于世世代代，让广袤大海永远保持她应有的纯净水质、辽阔胸怀与壮美风姿——因为只有健康的海洋，才能孕育出真正伟大的航海文明与奢享生活。</p>
+</div>
+</div>
+
+<div class="value-card-img reveal">
+<div class="card-bg card-bg-innovate"></div>
+<div class="card-content">
+<div style="font-size:36px;margin-bottom:12px">✨</div>
+<h4>永恒创新</h4>
+<p>永不固守传统船艺的既有边界与舒适区，持续在游艇外观流体动力学设计优化、内部空间美学表达革新、智能航海系统集成升级、船体结构轻量化材料应用、新型推进方式探索以及海上度假场景创新研发等多个前沿维度进行迭代突破与大胆尝试。紧密追踪时代审美潮流变迁趋势与前沿科技发展方向，深度融合东方写意美学意蕴与国际现代轻奢设计语言，不断打磨淬炼出更贴合当代高净值人群生活方式演变需求的游艇产品矩阵与奇幻度假体验场景。以源源不断的创新动能驱动品牌长期领跑行业赛道，确保每一代新产品都能树立时代的标杆之作，让「奇幻假期」始终代表着游艇行业最前沿的设计思维、最先进的制造工艺与最具想象力的航海生活方式。</p>
+</div>
+</div>
+
 </div>
 </div>
 </section>
 
-<!-- ==================== 发展历程 ==================== -->
-<section class="section-padding">
-<div class="container">
+<!-- ==================== 发展历程 — 带航海底图 ==================== -->
+<section class="section-padding section-with-bg bg-timeline">
+<div class="container" style="position:relative;z-index:2">
 <div class="section-header reveal">
 <h2><span class="gold-gradient">发展历程</span></h2>
 <div class="divider-gold"></div>
 <p>从一颗航海种子到全球化品牌，每一步都铭刻着对海洋的热爱与执着</p>
 </div>
-<div class="timeline reveal" style="margin-top:50px">
-<div class="timeline-item">
-<div class="timeline-year">2010</div>
-<div class="timeline-content"><strong>品牌诞生</strong> — 奇幻假期实业有限公司正式创立，扎根游艇船舶行业，确立「高端游艇定制 + 海上度假服务」双主线战略布局，开启逐梦深蓝征程。</div>
+<div class="timeline-enhanced reveal" style="margin-top:50px">
+
+<div class="timeline-item-enhanced">
+<div class="timeline-year-enhanced">2010</div>
+<div class="timeline-content-enhanced"><strong>品牌诞生 · 扬帆启航</strong> — 奇幻假期实业有限公司正式创立，扎根游艇与船舶制造行业沃土，确立「高端私人游艇定制 + 海上轻奢度假服务」双主线核心战略布局，以「向海而生·筑梦远航」为口号，正式开启逐梦深蓝的壮阔征程，立志为中国乃至亚洲高净值人群打造世界级的海上私域生活方式。</div>
 </div>
-<div class="timeline-item">
-<div class="timeline-year">2012</div>
-<div class="timeline-content"><strong>基地落成</strong> — 自建现代化船舶生产基地正式落成投产，全面引入国际先进造船工艺体系与质量管控标准，开启自主研发与自主建造之路。</div>
+
+<div class="timeline-item-enhanced">
+<div class="timeline-year-enhanced">2012</div>
+<div class="timeline-content-enhanced"><strong>基地落成 · 夯实根基</strong> — 自建现代化船舶生产基地正式落成投产，占地面积逾五万平方米，全面引入欧洲先进造船工艺体系、数字化质量管控流程与国际级安全生产标准，标志着奇幻假期从贸易代理向自主制造的关键转型，正式开启自主研发与自主建造的崭新篇章。</div>
 </div>
-<div class="timeline-item">
-<div class="timeline-year">2014</div>
-<div class="timeline-content"><strong>首艇下水</strong> — 首款完全自主设计的豪华游艇成功下水交付，标志着品牌原创设计核心竞争力的确立，市场反响热烈，奠定行业口碑基础。</div>
+
+<div class="timeline-item-enhanced">
+<div class="timeline-year-enhanced">2014</div>
+<div class="timeline-content-enhanced"><strong>首艇下水 · 初露锋芒</strong> — 首款完全由奇幻假期自主研发设计的豪华游艇「君临一号」成功下水并顺利交付首位客户，标志着品牌原创设计核心竞争力与独立建造能力的双重确立，市场反响热烈超出预期，一举奠定行业口碑基础与品牌认知度。</div>
 </div>
-<div class="timeline-item">
-<div class="timeline-year">2016</div>
-<div class="timeline-content"><strong>研发升级</strong> — 正式成立游艇研发设计中心，吸纳来自意大利、荷兰等国的国际顶尖设计团队成员，全面升级产品矩阵与设计语言体系。</div>
+
+<div class="timeline-item-enhanced">
+<div class="timeline-year-enhanced">2016</div>
+<div class="timeline-content-enhanced"><strong>研发升级 · 设计赋能</strong> — 正式成立游艇研发设计中心，重金吸纳来自意大利、荷兰、德国等国的国际顶尖设计师与船舶工程师加入核心团队，全面升级产品矩阵布局与原创设计语言体系，品牌设计能力跻身亚洲一流水平。</div>
 </div>
-<div class="timeline-item">
-<div class="timeline-year">2018</div>
-<div class="timeline-content"><strong>规模扩张</strong> — 拓展全国市场布局，开启私人游艇定制与企业商务船只定制规模化服务体系，客户群体覆盖亚太地区主要高净值人群。</div>
+
+<div class="timeline-item-enhanced">
+<div class="timeline-year-enhanced">2018</div>
+<div class="timeline-content-enhanced"><strong>规模扩张 · 全国布局</strong> — 全面拓展全国市场版图，先后在深圳、上海、三亚、青岛设立区域服务中心与展示厅，开启私人游艇定制与企业商务船只定制的规模化服务体系，客户群体有效覆盖整个亚太地区主要高净值人群圈层。</div>
 </div>
-<div class="timeline-item">
-<div class="timeline-year">2020</div>
-<div class="timeline-content"><strong>荣誉加冕</strong> — 荣获多项船舶制造资质认证与国际游艇设计大赛重要奖项，品牌影响力显著提升，跻身国内高端游艇一线品牌行列。</div>
+
+<div class="timeline-item-enhanced">
+<div class="timeline-year-enhanced">2020</div>
+<div class="timeline-content-enhanced"><strong>荣誉加冕 · 行业认可</strong> — 荣获多项国家级船舶制造资质认证与国际游艇设计大赛重要奖项，品牌影响力与行业地位显著提升，成功跻身国内高端游艇一线品牌行列，成为亚洲游艇行业中不可忽视的重要力量。</div>
 </div>
-<div class="timeline-item">
-<div class="timeline-year">2022</div>
-<div class="timeline-content"><strong>全链打通</strong> — 正式推出「海上奇幻假期」定制航线产品，成功打通「游艇销售 + 度假运营 + 管家服务」全产业链闭环，开创行业先河。</div>
+
+<div class="timeline-item-enhanced">
+<div class="timeline-year-enhanced">2022</div>
+<div class="timeline-content-enhanced"><strong>全链打通 · 生态闭环</strong> — 正式推出「海上奇幻假期」旗舰级定制航线产品线，成功打通「游艇销售 + 度假运营 + 管家服务 + 岸上行程」全产业链闭环商业模式，开创国内游艇行业先河，引领行业从单一制造向综合服务生态的战略转型。</div>
 </div>
-<div class="timeline-item">
-<div class="timeline-year">2024</div>
-<div class="timeline-content"><strong>绿色转型</strong> — 战略布局绿色智能游艇研发赛道，发力低碳环保造船技术、混合动力系统与智能航海新方向，引领行业可持续发展趋势。</div>
+
+<div class="timeline-item-enhanced">
+<div class="timeline-year-enhanced">2024</div>
+<div class="timeline-content-enhanced"><strong>绿色转型 · 智能领航</strong> — 战略性布局绿色智能游艇研发新赛道，集中发力低碳环保造船技术、新能源混合动力系统、智能化航海新方向与数字化船艇管理平台建设，引领整个行业向可持续发展的未来趋势主动迈进。</div>
 </div>
-<div class="timeline-item">
-<div class="timeline-year">2026</div>
-<div class="timeline-content"><strong>全球启航</strong> — 品牌全面升级，面向全球化市场推出全新形象与产品矩阵，致力打造国际级奇幻航海度假生态品牌，驶向更广阔的世界舞台。</div>
+
+<div class="timeline-item-enhanced">
+<div class="timeline-year-enhanced">2026</div>
+<div class="timeline-content-enhanced"><strong>全球启航 · 品牌升维</strong> — 品牌进行全面战略性升级，面向全球化市场推出全新品牌形象架构与全系列产品矩阵，同步启动海外市场拓展计划，致力打造具有国际影响力的奇幻航海度假生态领军品牌，自信驶向更加广阔的世界舞台。</div>
 </div>
+
 </div>
 </div>
 </section>
 
-<!-- ==================== 核心团队 ==================== -->
-<section class="section-padding" style="background:var(--dark2)">
-<div class="container">
+<!-- ==================== 核心团队 — 带海洋底图 ==================== -->
+<section class="section-padding section-with-bg bg-team">
+<div class="container" style="position:relative;z-index:2">
 <div class="section-header reveal">
 <h2><span class="gold-gradient">核心团队</span></h2>
 <div class="divider-gold"></div>
-<p>汇聚全球游艇行业顶尖人才，以专业与热忱守护您的每一程航海梦想</p>
+<p>汇聚全球游艇行业顶尖人才，以专业热忱守护您的每一程航海梦想</p>
 </div>
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:28px;margin-top:40px">
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px;margin-top:44px">
 
-<div class="office-card reveal" style="text-align:center;padding:36px 24px">
-<div style="width:130px;height:130px;margin:0 auto 22px;border-radius:50%;background:linear-gradient(135deg,#1a2332,#0d1117);display:flex;align-items:center;justify-content:center;font-size:52px;border:2px solid rgba(201,169,110,0.25)">👨‍✈️</div>
-<h4 style="font-size:19px;margin-bottom:4px">陈瀚宇 <span style="font-size:13px;color:var(--gold);font-weight:500;display:block;margin-top:4px">创始人 / 董事长</span></h4>
-<p style="font-size:12px;color:var(--text-dim);margin:10px 0 14px">从业26年 · 船舶工程硕士 · 国际游艇协会资深会员</p>
-<p style="font-size:13px;color:var(--text-muted);line-height:1.8;text-align:left">曾任职欧洲顶级游艇集团亚太区总裁，拥有超过二十年跨国游艇企业管理经验。2010年怀揣「让中国人拥有世界级游艇品牌」的梦想创立奇幻假期。他坚信：「海洋是人类最后的自由疆域，而我们的使命，就是为每一位追梦者打造通往这片疆域的方舟。」</p>
+<div class="team-card reveal">
+<div class="team-card-bg card-bg-quality"></div>
+<div class="team-card-body">
+<div class="team-avatar">👨‍✈️</div>
+<h4>陈瀚宇</h4>
+<span class="team-role">创始人 / 董事长</span>
+<span class="team-meta">从业26年 · 船舶工程硕士 · 国际游艇协会资深会员</span>
+<p class="team-bio">曾任职欧洲顶级游艇集团亚太区总裁长达八年，拥有超过二十年跨国游艇企业管理经验与深厚的行业人脉资源。2010年怀揣「让中国人拥有属于自己的世界级游艇品牌」的宏大梦想，毅然辞去高管职位创立奇幻假期。他始终坚信：「海洋是人类文明最后的自由疆域，而我们的神圣使命，就是为每一位心怀航海梦想的人，打造通往这片疆域的最美方舟。」在他的战略引领下，奇幻假期从一家初创企业成长为行业瞩目的综合性高端游艇集团。</p>
+<p class="team-quote">"向海而生，不负热爱——这是我对每一位奇幻假期家人的承诺。"</p>
 </div>
-
-<div class="office-card reveal" style="text-align:center;padding:36px 24px">
-<div style="width:130px;height:130px;margin:0 auto 22px;border-radius:50%;background:linear-gradient(135deg,#1a2332,#0d1117);display:flex;align-items:center;justify-content:center;font-size:52px;border:2px solid rgba(201,169,110,0.25)">👩‍🎨</div>
-<h4 style="font-size:19px;margin-bottom:4px">林若溪 <span style="font-size:13px;color:var(--gold);font-weight:500;display:block;margin-top:4px">游艇总设计师</span></h4>
-<p style="font-size:12px;color:var(--text-dim);margin:10px 0 14px">从业18年 · 米兰理工大学船舶设计博士 · 红点设计奖得主</p>
-<p style="font-size:13px;color:var(--text-muted);line-height:1.8;text-align:left">毕业于米兰理工大学船舶设计专业，曾主导多款国际获奖游艇的外观与内饰设计。她将东方人文美学与西方工业设计完美融合，为奇幻假期打造了独具辨识度的设计语言体系。「每一道流线都应该在海风中歌唱」，这是她的设计信条，也是奇幻假期每艘游艇的灵魂注脚。</p>
 </div>
 
-<div class="office-card reveal" style="text-align:center;padding:36px 24px">
-<div style="width:130px;height:130px;margin:0 auto 22px;border-radius:50%;background:linear-gradient(135deg,#1a2332,#0d1117);display:flex;align-items:center;justify-content:center;font-size:52px;border:2px solid rgba(201,169,110,0.25)">👨‍🔧</div>
-<h4 style="font-size:19px;margin-bottom:4px">周承业 <span style="font-size:13px;color:var(--gold);font-weight:500;display:block;margin-top:4px">生产工艺总工</span></h4>
-<p style="font-size:12px;color:var(--text-dim);margin:10px 0 14px">从业32年 · 前江南造船厂高级工程师 · 船舶结构专家</p>
-<p style="font-size:13px;color:var(--text-muted);line-height:1.8;text-align:left">三十二年扎根造船一线，精通钢制、铝合金、碳纤维复合材料等各类船体建造工艺。他对工艺精度有着近乎偏执的追求——「差一毫米都不是奇幻假期的标准」。在他的带领下，生产基地实现了从传统手工到数字化智能制造的跨越式升级。</p>
+<div class="team-card reveal">
+<div class="team-card-bg card-bg-trust"></div>
+<div class="team-card-body">
+<div class="team-avatar">👩‍🎨</div>
+<h4>林若溪</h4>
+<span class="team-role">游艇总设计师</span>
+<span class="team-meta">从业18年 · 米兰理工船舶设计博士 · 红点设计奖得主</span>
+<p class="team-bio">毕业于意大利米兰理工大学船舶与游艇设计专业，曾主导多款斩获国际大奖的豪华游艇外观造型与内部空间设计项目。她创造性地将东方人文写意美学与西方工业理性设计完美融合，为奇幻假期打造了极具辨识度与独特气质的原创设计语言体系。「每一道船体流线都应该在海风中优雅歌唱」，这是她始终坚持的设计信条，也是奇幻假期每一艘游艇作品的灵魂注脚与美学基因。</p>
+<p class="team-quote">"设计不只是造型，更是为航海者书写一首海上的诗。"</p>
+</div>
 </div>
 
-<div class="office-card reveal" style="text-align:center;padding:36px 24px">
-<div style="width:130px;height:130px;margin:0 auto 22px;border-radius:50%;background:linear-gradient(135deg,#1a2332,#0d1117);display:flex;align-items:center;justify-content:center;font-size:52px;border:2px solid rgba(201,169,110,0.25)">👩‍💼</div>
-<h4 style="font-size:19px;margin-bottom:4px">苏婉清 <span style="font-size:13px;color:var(--gold);font-weight:500;display:block;margin-top:4px">运营总裁</span></h4>
-<p style="font-size:12px;color:var(--text-dim);margin:10px 0 14px">从业16年 · 前四季酒店集团大中华区运营VP · 奢华服务管理专家</p>
-<p style="font-size:13px;color:var(--text-muted);line-height:1.8;text-align:left">将国际奢华酒店的服务理念引入游艇行业，重新定义了「海上管家式服务」的标准。她主导建立了奇幻假期7×24小时全天候客户响应体系与专属Yacht Manager制度。「在陆地上能做到的奢华体验，在大海上我们只会做得更好。」这是她对每一位客户的郑重承诺。</p>
+<div class="team-card reveal">
+<div class="team-card-bg card-bg-eco"></div>
+<div class="team-card-body">
+<div class="team-avatar">👨‍🔧</div>
+<h4>周承业</h4>
+<span class="team-role">生产工艺总工</span>
+<span class="team-meta">从业32年 · 前江南造船厂高级工程师 · 船舶结构专家</span>
+<p class="team-bio">三十二年如一日扎根于造船生产一线，精通钢制船体、铝合金结构、碳纤维复合材料等各类先进船体建造工艺与焊接技术规范。他对制造精度有着近乎偏执的追求——「差一毫米都不是奇幻假期的出厂标准」。正是在他的严格督导与技术带领下，生产基地成功实现了从传统手工作业模式向数字化智能制造体系的跨越式升级，产品质量达到国际一线水准。</p>
+<p class="team-quote">"匠人的尊严，藏在每一道经得起时间检验的焊缝里。"</p>
+</div>
 </div>
 
-<div class="office-card reveal" style="text-align:center;padding:36px 24px">
-<div style="width:130px;height:130px;margin:0 auto 22px;border-radius:50%;background:linear-gradient(135deg,#1a2332,#0d1117);display:flex;align-items:center;justify-content:center;font-size:52px;border:2px solid rgba(201,169,110,0.25">⛵</div>
-<h4 style="font-size:19px;margin-bottom:4px">赵凌风 <span style="font-size:13px;color:var(--gold);font-weight:500;display:block;margin-top:4px">海上度假项目总监</span></h4>
-<p style="font-size:12px;color:var(--text-dim);margin:10px 0 14px">从业14年 · 前皇家加勒比邮轮航线规划总监 · 资深航海旅行家</p>
-<p style="font-size:13px;color:var(--text-muted);line-height:1.8;text-align:left">足迹遍布全球60+国家与100+座岛屿，对每一片值得航行的海域如数家珍。他带领团队精心策划了多条独家「奇幻假期」主题航线——从地中海的千年古城巡礼到东南亚的隐秘群岛探秘。「世界上没有两条相同的航线，就像没有两个相同的人生。」他用热情与专业，为每一位客人量身打造无可复制的海上奇幻旅程。</p>
+<div class="team-card reveal">
+<div class="team-card-bg card-bg-innovate"></div>
+<div class="team-card-body">
+<div class="team-avatar">👩‍💼</div>
+<h4>苏婉清</h4>
+<span class="team-role">运营总裁</span>
+<span class="team-meta">从业16年 · 前四季酒店大中华区运营VP · 奢华服务管理专家</span>
+<p class="team-bio">将国际顶级奢华酒店集团的管家式服务理念系统性引入游艇行业，从根本上重新定义了「海上管家式服务」的全新标准与操作范式。她主导建立了奇幻假期独家的七×二十四小时全天候客户极速响应体系与一对一专属 Yacht Manager（游艇经理）制度，确保客户在任何时间、任何海域的需求都能得到即时、周到、超预期的回应与处理。「在陆地上能够做到的奢华体验，在大海上我们只会做得更好。」这是她对每一位客户的郑重承诺。</p>
+<p class="team-quote">"服务的最高境界，是让客户感受不到服务的存在，只感受到被爱。"</p>
+</div>
+</div>
+
+<div class="team-card reveal">
+<div class="team-card-bg card-bg-quality"></div>
+<div class="team-card-body">
+<div class="team-avatar">⛵</div>
+<h4>赵凌风</h4>
+<span class="team-role">海上度假项目总监</span>
+<span class="team-meta">从业14年 · 前皇家加勒比邮轮航线规划总监 · 资深航海旅行家</span>
+<p class="team-bio">个人足迹遍布全球六十余个国家与地区、百余座风格各异的岛屿目的地，对地球上每一片值得航行的海域都了如指掌、如数家珍。他带领团队精心策划并持续迭代多条独家「奇幻假期」主题定制航线——从地中海沿岸千年古城的文化巡礼航程，到东南亚群岛间隐秘水域的探险式穿越；从极地午夜阳光下的破冰航行，到热带珊瑚礁间的浮潜探秘。「世界上绝不存在两条完全相同的航线，正如这个世界上没有两个完全相同的人生。」他用无限热情与深厚专业功底，为每一位客人量身打造无可复制、终生难忘的海上奇幻旅程。</p>
+<p class="team-quote">"每一条航线，都是一次为灵魂量身定制的远行。"</p>
+</div>
 </div>
 
 </div>
 </div>
 </section>
 
-<!-- ==================== 荣誉与资质 ==================== -->
-<section class="section-padding">
-<div class="container">
+<!-- ==================== 荣誉与资质 — 带底图 ==================== -->
+<section class="section-padding section-with-bg bg-honors">
+<div class="container" style="position:relative;z-index:2">
 <div class="section-header reveal">
 <h2><span class="gold-gradient">荣誉与资质</span></h2>
 <div class="divider-gold"></div>
-<p>每一份认可，都是对匠人初心的最好回响</p>
+<p>每一份沉甸甸的认可，都是对匠人初心的最好回响与最高褒奖</p>
 </div>
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;margin-top:40px" class="reveal">
 
-<div class="value-card" style="padding:28px 24px">
-<h5 style="font-size:17px;color:var(--gold);margin-bottom:10px">🏆 国际游艇设计大奖 · 金奖</h5>
-<p style="font-size:13px;color:var(--text-muted);line-height:1.7">2024年 Cannes Yacht Festival 国际游艇设计大赛，「君临系列·旗舰款」荣获 Custom Yacht Design 金奖，评委一致赞誉其「将东方写意美学与西方工程理性推向了前所未有的融合高度」。</p>
+<div class="honor-card">
+<div class="honor-icon">🏆</div>
+<h5>国际游艇设计大奖 · 金奖</h5>
+<p>2024年法国戛纳 Cannes Yacht Festival 国际游艇设计巅峰大赛中，「君临系列·旗舰款」凭借其将东方写意美学与西方工程理性推向前所未有的融合高度的卓越表现，一举荣获 Custom Yacht Design 金奖，评委团一致给予极高评价，被誉为当届最具艺术感染力与技术创新性的获奖作品之一。</p>
 </div>
 
-<div class="value-card" style="padding:28px 24px">
-<h5 style="font-size:17px;color:var(--gold);margin-bottom:10px">🏅 Asia Boating Awards · 年度最佳制造商</h5>
-<p style="font-size:13px;color:var(--text-muted);line-height:1.7">连续三年（2022-2024）荣膺亚洲游艇行业最具权威性的 Asia Boating Awards 「年度最佳游艇制造商」奖项，是亚洲地区唯一获此殊荣的中国本土游艇品牌。</p>
+<div class="honor-card">
+<div class="honor-icon">🏅</div>
+<h5>Asia Boating Awards · 年度最佳制造商</h5>
+<p>连续三年（2022、2023、2024）荣膺亚洲游艇行业最具权威性与影响力的 Asia Boating Awards 「年度最佳游艇制造商」重磅奖项，是迄今为止亚洲地区唯一获此殊荣的中国本土游艇品牌，充分彰显了奇幻假期在亚洲市场的领导地位与广泛认可度。</p>
 </div>
 
-<div class="value-card" style="padding:28px 24px">
-<h5 style="font-size:17px;color:var(--gold);margin-bottom:10px">📜 RINA 船级社认证</h5>
-<p style="font-size:13px;color:var(--text-muted);line-height:1.7">获得意大利船级社（RINA）最高等级船舶建造认证，所有出厂游艇均通过 RINA Hull Construction & Machinery 全面合规审核，品质达到欧盟 CE 与国际海事组织 IMO 双重标准。</p>
+<div class="honor-card">
+<div class="honor-icon">📜</div>
+<h5>RINA 船级社最高等级认证</h5>
+<p>获得意大利船级社（RINA - Registro Italiano Navali）颁发的最高等级船舶建造与入级认证，所有出厂交付游艇均需通过 RINA Hull Construction & Machinery 全面合规审核，产品品质同时达到欧盟 CE 安全标准与国际海事组织 IMO 双重国际规范要求。</p>
 </div>
 
-<div class="value-card" style="padding:28px 24px">
-<h5 style="font-size:17px;color:var(--gold);margin-bottom:10px">🌿 绿色造船示范企业</h5>
-<p style="font-size:13px;color:var(--text-muted);line-height:1.7">2024年获颁中国船舶工业行业协会「绿色造船示范企业」称号，在低碳材料应用、清洁能源动力系统、造船废水零排放等领域均达到行业领先水平。</p>
+<div class="honor-card">
+<div class="honor-icon">🌿</div>
+<h5>绿色造船示范企业</h5>
+<p>2024年获颁中国船舶工业行业协会权威认定的「绿色造船示范企业」荣誉称号，在低碳环保材料规模化应用、清洁能源动力系统研发部署、造船工业废水零排放处理等领域均达到行业绝对领先水平，是推动行业绿色转型的标杆性企业。</p>
 </div>
 
-<div class="value-card" style="padding:28px 24px">
-<h5 style="font-size:17px;color:var(--gold);margin-bottom:10px">🏛️ 中国游艇行业协会 · 副会长单位</p>
-<p style="font-size:13px;color:var(--text-muted);line-height:1.7">担任中国游艇行业协会副会长单位，参与制定多项行业标准与规范，积极推动中国游艇产业的规范化、国际化发展进程，在行业内享有极高话语权与公信力。</p>
+<div class="honor-card">
+<div class="honor-icon">🏛️</div>
+<h5>中国游艇行业协会 · 副会长单位</h5>
+<p>担任中国游艇行业协会副会长单位重要职务，积极参与并主导多项行业标准、技术规范与服务准则的制定修订工作，有力推动了中国游艇产业的规范化进程与国际化步伐，在整个行业内享有极高的专业话语权与社会公信力。</p>
 </div>
 
-<div class="value-card" style="padding:28px 24px">
-<h5 style="font-size:17px;color:var(--gold);margin-bottom:10px">⭐ ISO 三体系认证</h5>
-<p style="font-size:13px;color:var(--text-muted);line-height:1.7">同时通过 ISO 9001 质量管理、ISO 14001 环境管理与 ISO 45001 职业健康安全三大国际管理体系认证，是企业综合管理能力达到国际一流水平的权威证明。</p>
+<div class="honor-card">
+<div class="honor-icon">⭐</div>
+<h5>ISO 三大国际管理体系认证</h5>
+<p>同时且一次性通过 ISO 9001 质量管理体系、ISO 14001 环境管理体系与 ISO 45001 职业健康安全管理体系三大国际权威认证，是企业综合管理水平、质量控制能力与环境社会责任实践达到国际一流水平的权威证明与硬核背书。</p>
 </div>
 
-<div class="value-card" style="padding:28px 24px">
-<h5 style="font-size:17px;color:var(--gold);margin-bottom:10px">💎 高端定制企业信用 AAA 认证</h5>
-<p style="font-size:13px;color:var-(text-muted);line-height:1.7">获评中国企业信用评估中心「高端装备定制行业 AAA 级信用企业」，在合同履约率、客户满意度、售后服务响应速度等核心指标上均达到行业最优水平。</p>
+<div class="honor-card">
+<div class="honor-icon">💎</div>
+<h5>高端定制企业信用 AAA 认证</h5>
+<p>获评中国企业信用评估中心权威授予的「高端装备定制行业 AAA 级信用企业」最高评级，在合同履约准时率、客户满意度评分、售后服务响应速度、质量纠纷率等所有核心评价指标上均达到行业最优标杆水平。</p>
 </div>
 
-<div class="value-card" style="padding:28px 24px">
-<h5 style="font-size:17px;color:var(--gold);margin-bottom:10px">🌊 海上度假服务标杆企业</h5>
-<p style="font-size:13px;color:var(--text-muted);line-height:1.7">2023年被全球奢华旅游协会评为「亚太区海上度假服务标杆企业」，在私人游艇包船服务、定制航线策划、海上管家服务等细分领域均获满分评价。</p>
+<div class="honor-card">
+<div class="honor-icon">🌊</div>
+<h5>海上度假服务标杆企业</h5>
+<p>2023年被全球奢华旅游协会（Global Luxury Tourism Association）评为「亚太区海上度假服务标杆企业」，在私人游艇包船服务品质、定制航线策划创新能力、海上管家服务水平等全部细分评估维度均获得满分评价，堪称行业典范。</p>
+</div>
+
+<div class="honor-card">
+<div class="honor-icon">🏅</div>
+<h5>消费者信赖品牌金奖</h5>
+<p>连续两年荣获中国消费市场研究中心颁发的「游艇行业消费者信赖品牌金奖」，该奖项基于超过十万份真实用户调研数据评选得出，是市场端对奇幻假期产品品质与服务口碑的最直接、最有力的肯定与褒奖。</p>
 </div>
 
 </div>
@@ -288,8 +457,8 @@
 </section>
 
 <!-- ==================== 奇幻假期专题深度介绍 ==================== -->
-<section class="section-padding" style="background:linear-gradient(180deg,var(--dark1) 0%,var(--dark3) 50%,var(--dark1) 100%);position:relative;overflow:hidden">
-<div style="position:absolute;top:0;left:0;right:0;bottom:0;background:radial-gradient(ellipse at 30% 50%,rgba(201,169,110,0.04) 0%,transparent 70%);pointer-events:none"></div>
+<section class="section-padding section-with-bg bg-fantasy" style="position:relative">
+<div style="position:absolute;top:0;left:0;right:0;bottom:0;background:radial-gradient(ellipse at 25% 45%,rgba(201,169,110,0.05) 0%,transparent 65%);pointer-events:none"></div>
 <div class="container" style="position:relative;z-index:2">
 <div class="section-header reveal">
 <h2><span class="gold-gradient">奇幻假期 · 海上轻奢度假</span></h2>
@@ -297,80 +466,114 @@
 <p>逃离都市喧嚣，拥抱大海自由 —— 您的私属海上秘境，由此启航</p>
 </div>
 
-<div class="about-grid" style="margin-top:40px">
+<div class="about-grid reveal" style="margin-top:40px">
 <div class="reveal-left">
 <div class="about-image">
 <div class="about-image-bg img-placeholder yacht-8"></div>
-<div class="about-image-overlay"><p>"在这里，时间属于你，大海属于你，一切都只属于你"</p></div>
+<div class="about-image-overlay"><p>"在这里，时间只属于你，大海只属于你，一切都只属于你自己"</p></div>
 </div>
 </div>
 <div class="about-text reveal-right">
 <h3 style="font-family:'Playfair Display',serif;font-size:26px;margin-bottom:24px"><span class="gold-gradient">一场关于自由与秘境的海上奇幻之旅</span></h3>
-<p>当城市的霓虹取代了星光，当日程表填满了每一个清晨与黄昏，你是否也曾渴望过这样一种生活——关掉手机，推开舱门，眼前是无垠的蔚蓝，耳畔只有海风与浪花的合奏。这不是幻想，这是「奇幻假期」为您准备的真实日常。</p>
-<p>奇幻假期海上轻奢度假，是我们倾力打造的旗舰级生活方式产品。它不只是租一艘游艇那么简单，而是一场从出发到归来的全方位感官盛宴：<strong>私人游艇包船</strong>确保整片海域只为你一人独享；<strong>小众海岛秘境航线</strong>带你避开人潮，抵达地图上找不到的隐世天堂；<strong>海上私宴</strong>由米其林级主厨在甲板上为你现场烹制，落日余晖中举杯，星辰入海；<strong>商务海上会晤</strong>将谈判桌搬到碧波之上，在轻松惬意的氛围中达成千万合作；<strong>亲子奇幻航海</strong>让孩子们近距离接触海洋生物、学习航海知识，在欢声笑语中种下一颗蓝色的种子。</p>
-<p>对于追求终极体验的行者，我们还提供<strong>环球定制航程</strong>——从地中海的古文明遗迹巡礼到加勒比的海盗传说探秘，从北极圈的午夜阳光航行到南极洲的冰山穿越之旅，全程配备<strong>一对一管家服务</strong>，从行程规划、餐饮定制到岸上安排、应急保障，每一个细节都有专人打理。真正实现拎包出海，无忧航行。</p>
-<p>奇幻假期，不只是一次出行，更是一种生活态度的宣言。在这里，你不需要向任何人证明什么，只需要做回最自由的自己。因为当你踏上这艘船的那一刻起，你就已经抵达了人生最美的——<strong>奇幻假期</strong>。</p>
-<div style="margin-top:28px;padding:20px 28px;background:rgba(201,169,110,0.1);border-radius:8px;border:1px solid rgba(201,169,110,0.2);text-align:center">
-<p style="color:var(--gold);font-size:15px;margin:0 0 8px 0">开启您的海上奇幻假期</p>
-<p style="font-size:22px;font-weight:600;color:var(--gold);margin:0">📞 13797920792</p>
+<p>当城市的霓虹灯光早已取代了头顶璀璨的星光，当日程表上的会议与行程填满了每一个清晨与黄昏的缝隙，你是否也曾在一个寂静的深夜里，发自内心地渴望过这样一种截然不同的生活——关掉永远响个不停的手机，推开舱门走上阳光明媚的甲板，眼前所见的不是钢筋水泥的丛林森林，而是无边无际的蔚蓝汪洋；耳畔萦绕的不是车水马龙的嘈杂喧嚣，唯有海风拂面与浪花拍打的天然合奏。这不是遥不可及的幻想，这不是奢侈电影里的虚构桥段——这是「奇幻假期」为您精心准备、触手可及的真实日常。</p>
+<p>奇幻假期海上轻奢度假，是我们倾注全部心血与热情打造的旗舰级生活方式产品体系。它远远不止是「租一艘游艇出海玩一天」那么简单肤浅，而是一场从您决定出发的那一刻起、直到您满载回忆安然归来的全方位五感盛宴与沉浸式生活体验：<strong>私人游艇包船服务</strong>确保整片海域在同一时刻只为你一人独享，绝对的私密性与尊贵感拉满至顶；<strong>小众海岛秘境定制航线</strong>由资深航海旅行家亲自规划，带你巧妙避开千篇一律的大众游客潮，抵达那些普通地图上根本找不到标注的隐世天堂岛屿与神秘海湾；<strong>海上米其林私宴</strong>由特邀米其林星级主厨在游艇甲板上为你现场烹制一道道精美佳肴，落日余晖中举杯共饮，漫天星辰映照海面；<strong>商务海上会晤</strong>将传统沉闷的会议室谈判桌搬到碧波万顷的宽阔海面上，在最轻松惬意的氛围中达成千万级别的商业合作；<strong>亲子奇幻航海之旅</strong>让孩子们零距离接触神奇的海洋生物、学习宝贵的航海知识与生存技能，在欢声笑语中悄悄种下一颗蓝色的梦想种子。</p>
+<p>对于那些追求终极人生体验与极致感官冒险的行者，我们还提供真正意义上的<strong>环球定制航程</strong>——从地中海沿岸古文明遗迹的深度文化巡礼航程，到加勒比海盗传说与宝藏探秘主题的冒险之旅；从北极圈内午夜阳光下永不落幕的极昼航行奇观，到南极洲万年冰山之间的穿越探险之旅——全程配备<strong>一对一专属管家全程跟随服务</strong>，从出发前的详细行程规划、饮食偏好定制，到航行中的餐饮安排、岸上观光预约，再到应急情况下的全天候保障支持，每一个微小细节都有专人悉心打理与统筹协调。真正实现拎包即可出海、全程无忧航行的极致便捷体验。</p>
+<p>奇幻假期，从来就不只是一次普通的出行消费或短暂的度假安排，它更是一种关于生活态度的庄重宣言与价值选择。在这片属于你的蔚蓝国度里，你不需要向任何人证明任何事，你只需要做回那个最自由、最真实、最放松的自己。因为当你鼓起勇气踏上这艘名为「奇幻假期」的游艇的那一刻起，你就已经抵达了人生中最美的那一段旅程——真正的、独一无二的、专属于你的<strong>奇幻假期</strong>。</p>
+<div style="margin-top:28px;padding:22px 30px;background:rgba(201,169,110,0.1);border-radius:10px;border:1px solid rgba(201,169,110,0.2);text-align:center">
+<p style="color:var(--gold);font-size:15px;margin:0 0 10px 0;letter-spacing:1px">即刻开启您的海上奇幻假期</p>
+<p style="font-size:24px;font-weight:700;color:var(--gold);margin:0;letter-spacing:2px">📞 13797920792</p>
 </div>
 </div>
 </div>
 
-<!-- 度假服务亮点卡片 -->
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-top:48px">
-<div class="reveal" style="background:rgba(255,255,255,0.02);padding:24px 18px;border-radius:10px;text-align:center;border:1px solid var(--glass-border)">
-<div style="font-size:32px;margin-bottom:10px">🛥️</div>
-<h4 style="font-size:15px;color:var(--gold);margin-bottom:6px">私人游艇包船</h4>
-<p style="font-size:12px;color:var(--text-dim);line-height:1.6">整船独享，私密性拉满</p>
+<!-- 度假服务亮点卡片 — 一卡一图 -->
+<div class="fantasy-showcase reveal">
+
+<div class="fantasy-item">
+<div class="fantasy-item-bg img-placeholder yacht-5"></div>
+<div class="fantasy-item-body">
+<div class="fi-icon">🛥️</div>
+<h4>私人游艇包船</h4>
+<p>整艘豪华游艇独享使用，绝对私密空间，拒绝任何外界打扰，整片海域只属于你和你的旅伴。</p>
 </div>
-<div class="reveal" style="background:rgba(255,255,255,0.02);padding:24px 18px;border-radius:10px;text-align:center;border:1px solid var(--glass-border)">
-<div style="font-size:32px;margin-bottom:10px">🏝️</div>
-<h4 style="font-size:15px;color:var(--gold);margin-bottom:6px">小众秘境航线</h4>
-<p style="font-size:12px;color:var(--text-dim);line-height:1.6">避世人潮，独享隐世天堂</p>
 </div>
-<div class="reveal" style="background:rgba(255,255,255,0.02);padding:24px 18px;border-radius:10px;text-align:center;border:1px solid var(--glass-border)">
-<div style="font-size:32px;margin-bottom:10px">🍾</div>
-<h4 style="font-size:15px;color:var(--gold);margin-bottom:6px">海上私宴</h4>
-<p style="font-size:12px;color:var(--text-dim);line-height:1.6">米其林级主厨·甲板晚宴</p>
+
+<div class="fantasy-item">
+<div class="fantasy-item-bg img-placeholder scene-island"></div>
+<div class="fantasy-item-body">
+<div class="fi-icon">🏝️</div>
+<h4>小众秘境航线</h4>
+<p>避开拥挤人潮，深入地图未标注的隐世海岛与神秘海湾，探索真正无人知晓的蔚蓝秘境。</p>
 </div>
-<div class="reveal" style="background:rgba(255,255,255,0.02);padding:24px 18px;border-radius:10px;text-align:center;border:1px solid var(--glass-border)">
-<div style="font-size:32px;margin-bottom:10px">🤝</div>
-<h4 style="font-size:15px;color:var(--gold);margin-bottom:6px">商务海上会晤</h4>
-<p style="font-size:12px;color:var(--text-dim);line-height:1.6">碧波之上，从容谈笑间</p>
 </div>
-<div class="reveal" style="background:rgba(255,255,255,0.02);padding:24px 18px;border-radius:10px;text-align:center;border:1px solid var(--glass-border)">
-<div style="font-size:32px;margin-bottom:10px">👨‍👩‍👧‍👦</div>
-<h4 style="font-size:15px;color:var(--gold);margin-bottom:6px">亲子奇幻航海</h4>
-<p style="font-size:12px;color:var(--text-dim);line-height:1.6">给孩子一片蓝色童年</p>
+
+<div class="fantasy-item">
+<div class="fantasy-item-bg img-placeholder scene-sunset"></div>
+<div class="fantasy-item-body">
+<div class="fi-icon">🍾</div>
+<h4>海上私宴</h4>
+<p>特邀米其林星级主厨于游艇甲板现场烹制，落日余晖中举杯，星辰大海作伴，极致味蕾盛宴。</p>
 </div>
-<div class="reveal" style="background:rgba(255,255,255,0.02);padding:24px 18px;border-radius:10px;text-align:center;border:1px solid var(--glass-border)">
-<div style="font-size:32px;margin-bottom:10px">🌍</div>
-<h4 style="font-size:15px;color:var(--gold);margin-bottom:6px">环球定制航程</h4>
-<p style="font-size:12px;color:var(--text-dim);line-height:1.6">定制专属环球航海路线</p>
 </div>
-<div class="reveal" style="background:rgba(255,255,255,0.02);padding:24px 18px;border-radius:10px;text-align:center;border:1px solid var(--glass-border)">
-<div style="font-size:32px;margin-bottom:10px">🎩</div>
-<h4 style="font-size:15px;color:var(--gold);margin-bottom:6px">一对一管家服务</h4>
-<p style="font-size:12px;color:var(--text-dim);line-height:1.6">全程专人打理·无忧出海</p>
+
+<div class="fantasy-item">
+<div class="fantasy-item-bg img-placeholder yacht-12"></div>
+<div class="fantasy-item-body">
+<div class="fi-icon">🤝</div>
+<h4>商务海上会晤</h4>
+<p>将谈判桌搬到碧波万顷之上，在轻松惬意的航海氛围中从容洽谈，千万合作尽在笑谈之间。</p>
 </div>
-<div class="reveal" style="background:rgba(255,255,255,0.02);padding:24px 18px;border-radius:10px;text-align:center;border:1px solid var(--glass-border)">
-<div style="font-size:32px;margin-bottom:10px">🧳</div>
-<h4 style="font-size:15px;color:var(--gold);margin-bottom:6px">一站式出行全案</h4>
-<p style="font-size:12px;color:var(--text-dim);line-height:1.6">从码头到返航·全程托管</p>
 </div>
+
+<div class="fantasy-item">
+<div class="fantasy-item-bg img-placeholder scene-sea"></div>
+<div class="fantasy-item-body">
+<div class="fi-icon">👨‍👩‍👧‍👦</div>
+<h4>亲子奇幻航海</h4>
+<p>带孩子近距离接触神奇海洋生物，学习宝贵航海知识技能，在欢声笑语中种下蓝色梦想种子。</p>
+</div>
+</div>
+
+<div class="fantasy-item">
+<div class="fantasy-item-bg img-placeholder yacht-1"></div>
+<div class="fantasy-item-body">
+<div class="fi-icon">🌍</div>
+<h4>环球定制航程</h4>
+<p>从地中海到加勒比，从北极极光到南极冰原，量身定制专属环球航海路线，一生一次的终极冒险。</p>
+</div>
+</div>
+
+<div class="fantasy-item">
+<div class="fantasy-item-bg img-placeholder yacht-3"></div>
+<div class="fantasy-item-body">
+<div class="fi-icon">🎩</div>
+<h4>一对一管家服务</h4>
+<p>全程配备专属 Yacht Manager 管家，从行程规划餐饮定制到岸上安排应急保障，专人打理无忧出海。</p>
+</div>
+</div>
+
+<div class="fantasy-item">
+<div class="fantasy-item-bg img-placeholder scene-party"></div>
+<div class="fantasy-item-body">
+<div class="fi-icon">🧳</div>
+<h4>一站式出行全案</h4>
+<p>从码头接驳、通关办理到返程送机，每一个环节均有专业团队统筹安排，真正实现拎包出海全程托管。</p>
+</div>
+</div>
+
 </div>
 </div>
 </section>
 
 <!-- ==================== CTA ==================== -->
-<section style="padding:120px 0;text-align:center;background:linear-gradient(180deg,var(--dark3),var(--dark1))">
-<div class="container reveal" style="max-width:700px">
-<h2 style="font-family:'Playfair Display',serif;font-size:clamp(26px,4vw,42px);margin-bottom:24px;line-height:1.4">准备好开启您的<br><span class="gold-gradient">海上奇幻假期</span>了吗？</h2>
-<p style="color:var(--text-muted);font-size:16px;line-height:1.8;margin-bottom:36px">无论您正在寻找梦想中的第一艘私人游艇，还是希望规划一次终身难忘的海上度假旅程，我们的专业顾问团队随时为您效劳。期待与您一同驶向那片属于您的蔚蓝。</p>
-<div style="display:flex;flex-direction:column;gap:14px;align-items:center;margin-bottom:36px">
-<div style="font-size:20px;color:var(--gold);font-weight:600">📞 13797920792</div>
-<div style="font-size:15px;color:var(--text-muted)">✉️ concierge@fantasyholiday.com</div>
+<section style="padding:120px 0;text-align:center;background:linear-gradient(180deg,var(--dark3),var(--dark1));position:relative;overflow:hidden">
+<div style="position:absolute;top:0;left:0;right:0;bottom:0;background:radial-gradient(ellipse at 50% 50%,rgba(201,169,110,0.04) 0%,transparent 70%);pointer-events:none"></div>
+<div class="container reveal" style="max-width:750px;position:relative;z-index:2">
+<h2 style="font-family:'Playfair Display',serif;font-size:clamp(28px,4.5vw,48px);margin-bottom:24px;line-height:1.3">准备好开启您的<br><span class="gold-gradient">海上奇幻假期</span>了吗？</h2>
+<p style="color:var(--text-muted);font-size:16px;line-height:1.9;margin-bottom:40px">无论您正在寻找梦想中的第一艘私人游艇，还是希望规划一次终身难忘的海上度假旅程，无论您渴望的是一场说走就走的周末出逃还是一趟跨越重洋的环球航行，我们的专业顾问团队随时待命，竭诚为您效劳。期待与您一同驶向那片专属于您的、辽阔无垠的蔚蓝。</p>
+<div style="display:flex;flex-direction:column;gap:14px;align-items:center;margin-bottom:40px">
+<div style="font-size:22px;color:var(--gold);font-weight:700;letter-spacing:1px">📞 13797920792</div>
+<div style="font-size:15px;color:var(--text-dim)">✉️ concierge@fantasyholiday.com</div>
 </div>
 <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap">
 <a href="yachts.html" class="btn btn-primary btn-gold-sweep">探索全系游艇</a>
@@ -389,7 +592,7 @@
 <div class="footer-socials"><a href="#">微</a><a href="#">IG</a><a href="#">in</a><a href="#">▶</a></div>
 </div>
 <div class="footer-col"><h4>快速导航</h4><ul><li><a href="index.html">首页</a></li><li><a href="about.html">关于我们</a></li><li><a href="yachts.html">游艇产品</a></li><li><a href="custom.html">定制服务</a></li><li><a href="charter.html">租赁航线</a></li><li><a href="management.html">托管维保</a></li><li><a href="cases.html">案例展示</a></li><li><a href="news.html">新闻资讯</a></li><li><a href="partnership.html">全球合作</a></li><li><a href="contact.html">联系我们</a></li></ul></div>
-<div class="footer-col"><h4>核心服务</h4><ul><li><a href="yachts.html">游艇销售</a></li><li><a href="custom.html">全案定制</a></li><li><a href="charter.html">租赁航行</a></li><li><a href="management.html">托管维保</a></li><li><a href="management.html">船员派遣</a></li><li><a href="management.html">保险代办</a></li></ul></div>
+<div class="footer-col"><h4>核心服务</h4><ul><li><a href="yachts.html">游艇销售</a></li><li><a href="custom.html">全案定制</a></li><li><a href="charter.html">租赁航行</a></li><li><a href="management.html">托管维保</a></li><li><a href="management.html">船员派遣</a></li><li><li><a href="management.html">保险代办</a></li></ul></div>
 <div class="footer-col"><h4>联系方式</h4><ul><li>📞 13797920792</li><li>✉️ concierge@fantasyholiday.com</li><li>📍 香港中环金融街8号幻想大厦38楼</li></ul></div>
 </div>
 <div class="footer-bottom"><p>© 2026 奇幻假期实业有限公司 Fantasy Holiday Industrial Ltd.</p><p><a href="privacy.html">隐私政策</a> · <a href="terms.html">使用条款</a> · <a href="sitemap.html">网站地图</a></p></div>
