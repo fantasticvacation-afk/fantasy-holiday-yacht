@@ -1,68 +1,197 @@
 <!DOCTYPE html><html lang="zh-CN"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>月光·潮汐 | 奇幻假期实业有限公司</title>
+<title>君临92 领航版 | 奇幻假期 FANTASY HOLIDAY - 商务旗舰</title>
+<meta name="description" content="君临92领航版 FH-92 Navigator，92米商务旗舰，会议室、董事会厅、商务中心，适合高端商务接待。">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<style>
+.detail-hero{position:relative;min-height:85vh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;background:linear-gradient(135deg,#101520 0%,#1a2535 40%,#2a1a15 80%,#1a1510 100%)}
+.detail-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 80% 50% at 20% 80%,rgba(201,169,110,0.08) 0%,transparent 60%),radial-gradient(ellipse 60% 40% at 80% 20%,rgba(200,200,255,0.06) 0%,transparent 50%);pointer-events:none}
+.detail-hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:250px;background:linear-gradient(to top,var(--dark1),transparent);pointer-events:none}
+.detail-hero-content{position:relative;z-index:3;padding:0 20px}
+.detail-hero h1{font-family:'Playfair Display',serif;font-size:clamp(32px,5vw,56px);font-weight:800;letter-spacing:3px;margin-bottom:12px}
+.detail-hero .series-badge{display:inline-block;padding:6px 20px;border-radius:30px;font-size:12px;font-weight:600;letter-spacing:2px;background:linear-gradient(135deg,rgba(201,169,110,0.2),rgba(201,169,110,0.05));border:1px solid rgba(201,169,110,0.3);color:var(--gold);margin-bottom:16px}
+.detail-hero .subtitle{font-size:clamp(14px,1.6vw,18px);color:var(--text-muted);font-weight:300;letter-spacing:2px}
+.specs-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:20px;max-width:900px;margin:40px auto 0}
+.spec-item{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.05);border-radius:12px;padding:20px 12px}
+.spec-value{font-size:28px;font-weight:700;color:var(--gold);font-family:'Playfair Display',serif}
+.spec-label{font-size:11px;color:var(--text-dim);margin-top:6px;letter-spacing:1px;text-transform:uppercase}
+.detail-specs{padding:80px 0;background:var(--dark1)}
+.detail-specs h2{font-family:'Playfair Display',serif;font-size:28px;margin-bottom:40px;text-align:center}
+.specs-table{width:100%;max-width:800px;margin:0 auto;border-collapse:collapse}
+.specs-table tr{border-bottom:1px solid rgba(255,255,255,0.05)}
+.specs-table td{padding:16px 12px;font-size:14px}
+.specs-table td:first-child{color:var(--text-dim);width:40%}
+.specs-table td:last-child{color:#fff;text-align:right}
+.detail-desc{padding:80px 0;background:var(--dark2)}
+.detail-desc h2{font-family:'Playfair Display',serif;font-size:28px;margin-bottom:32px;text-align:center}
+.desc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;max-width:1100px;margin:0 auto}
+.desc-card{background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.04);border-radius:16px;padding:28px}
+.desc-card h3{font-size:16px;font-weight:600;color:var(--gold);margin-bottom:12px}
+.desc-card p{font-size:14px;color:var(--text-muted);line-height:1.7}
+.gallery{padding:80px 0;background:var(--dark1)}
+.gallery h2{font-family:'Playfair Display',serif;font-size:28px;margin-bottom:40px;text-align:center}
+.gallery-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px}
+.gallery-item{aspect-ratio:16/10;background:linear-gradient(135deg,#101520 0%,#1a2535 40%,#2a1a15 80%,#1a1510 100%);border-radius:12px;position:relative;overflow:hidden}
+.gallery-item::after{content:attr(data-caption);position:absolute;bottom:12px;left:12px;font-size:12px;color:var(--text-muted);background:rgba(0,0,0,0.6);padding:4px 12px;border-radius:4px}
+.related{padding:80px 0;background:var(--dark2)}
+.related h2{font-family:'Playfair Display',serif;font-size:28px;margin-bottom:32px;text-align:center}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:24px;max-width:1100px;margin:0 auto}
+.related-card{background:linear-gradient(145deg,rgba(20,26,42,0.9),rgba(12,16,28,0.95));border:1px solid var(--glass-border);border-radius:16px;padding:24px;transition:all 0.4s}
+.related-card:hover{border-color:rgba(201,169,110,0.3);transform:translateY(-4px)}
+.related-card h3{font-family:'Playfair Display',serif;font-size:18px;margin-bottom:8px}
+.related-card p{font-size:13px;color:var(--text-muted)}
+.related-card a{display:inline-block;margin-top:16px;font-size:13px;color:var(--gold);text-decoration:none}
+.price-cta{padding:60px 0;text-align:center;background:linear-gradient(135deg,rgba(201,169,110,0.08),transparent)}
+.price-cta .price{font-family:'Playfair Display',serif;font-size:36px;font-weight:700;color:var(--gold);margin-bottom:8px}
+.price-cta .price-note{font-size:13px;color:var(--text-dim);margin-bottom:24px}
+</style>
 </head><body>
+<div id="loader"><div class="brand">FANTASY HOLIDAY</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div><div class="progress-text">LOADING</div></div>
+<div class="cursor-follower" id="cursor"></div>
+
 <nav id="navbar"><div class="container"><div class="nav-inner">
 <a href="index.html" class="nav-logo"><svg viewBox="0 0 32 32" fill="none"><path d="M4 24L16 4l12 20H4z" stroke="#c9a96e" stroke-width="1.5" fill="none"/><path d="M8 20h16l-8-12-8 12z" stroke="#c9a96e" stroke-width="1" fill="rgba(201,169,110,0.1)"/></svg>FANTASY HOLIDAY</a>
-<div class="nav-links"><a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html" class="active">游艇产品</a><a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a><a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a><a href="contact.html" class="nav-cta">联系我们</a></div>
+<div class="nav-links">
+<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a>
+<a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a>
+<a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a>
+<a href="contact.html" class="nav-cta">联系我们</a>
+</div>
 <div class="hamburger" onclick="toggleMobile()"><span></span><span></span><span></span></div>
 </div></div></nav>
+
 <div class="mobile-menu" id="mobile-menu">
-<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a><a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a><a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a><a href="contact.html">联系我们</a>
+<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a>
+<a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a>
+<a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a>
+<a href="contact.html">联系我们</a>
 </div>
-<div class="yacht-detail-hero"><div class="container">
-<div class="breadcrumb"><a href="index.html">首页</a> / <a href="yachts.html">游艇产品</a> / <span style="color:var(--gold)">月光·潮汐</span></div>
-<div class="yacht-detail-img"><div class="img-placeholder yacht-4"></div></div>
-<h1 style="font-size:clamp(28px,4vw,48px);margin-bottom:4px">月光·潮汐</h1>
-<p style="color:var(--text-dim);font-size:14px;letter-spacing:2px;margin-bottom:24px">Moonlit Tide · 小型轻奢休闲</p>
-<p style="color:var(--text-muted);font-size:15px;line-height:1.8;max-width:700px;margin-bottom:32px">日落派对与星空晚宴</p>
-<div class="yacht-detail-specs">
-<div class="detail-spec"><div class="detail-spec-val">11.5m</div><div class="detail-spec-label">全长</div></div>
-<div class="detail-spec"><div class="detail-spec-val">3.5m</div><div class="detail-spec-label">型宽</div></div>
-<div class="detail-spec"><div class="detail-spec-val">1.1m</div><div class="detail-spec-label">吃水</div></div>
-<div class="detail-spec"><div class="detail-spec-val">26 knots</div><div class="detail-spec-label">航速</div></div>
-<div class="detail-spec"><div class="detail-spec-val">12 guests</div><div class="detail-spec-label">载客</div></div>
-<div class="detail-spec"><div class="detail-spec-val">2 cabins</div><div class="detail-spec-label">客舱</div></div>
-<div class="detail-spec"><div class="detail-spec-val" style="font-size:18px">¥228万起</div><div class="detail-spec-label">参考价格</div></div>
+
+<section class="detail-hero">
+<div class="detail-hero-content">
+<span class="series-badge">君临系列</span>
+<h1><span class="gold-gradient">君临92 领航版</span></h1>
+<p class="subtitle">FH-92 Navigator · 商务旗舰 · 高端会议专家</p>
+<div class="specs-grid">
+<div class="spec-item"><div class="spec-value">92m</div><div class="spec-label">总长</div></div>
+<div class="spec-item"><div class="spec-value">24</div><div class="spec-label">载客</div></div>
+<div class="spec-item"><div class="spec-value">18kn</div><div class="spec-label">航速</div></div>
 </div>
-<h4 style="color:var(--gold);margin-bottom:16px;font-size:16px">核心配置</h4>
-<div class="feature-tags"><span class="feature-tag">飞桥甲板</span><span class="feature-tag">派对灯光</span><span class="feature-tag">酒吧台</span><span class="feature-tag">烧烤站</span><span class="feature-tag">环绕音响</span><span class="feature-tag">星空顶棚</span></div>
-<h4 style="color:var(--gold);margin:32px 0 16px;font-size:16px">游艇图赏</h4>
-<div class="yacht-gallery-grid"><div class="yacht-gallery-item"><div class="img-placeholder yacht-4" style="filter:none"></div></div><div class="yacht-gallery-item"><div class="img-placeholder yacht-4" style="filter:brightness(0.8)"></div></div><div class="yacht-gallery-item"><div class="img-placeholder yacht-4" style="filter:hue-rotate(20deg)"></div></div><div class="yacht-gallery-item"><div class="img-placeholder yacht-4" style="filter:brightness(1.1)"></div></div></div>
-<a href="contact.html" class="btn btn-primary btn-gold-sweep" style="margin-top:24px">💎 立即预约咨询</a>
-</div></div><section class="section-padding" style="background:var(--dark2)"><div class="container">
-<div class="section-header reveal"><h2>同类型推荐</h2><div class="divider-gold"></div></div>
-<div class="yachts-grid"><a href="yacht-1.html" class="yacht-card reveal">
-<div class="yacht-card-img"><div class="yacht-card-img-bg img-placeholder yacht-1"></div></div>
-<div class="yacht-card-body"><h3>幻影·晨曦</h3><div class="yacht-en">Phantom Dawn</div>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">8.5m</div><div class="yacht-spec-label">全长</div></div><div class="yacht-spec"><div class="yacht-spec-val">32 knots</div><div class="yacht-spec-label">航速</div></div><div class="yacht-spec"><div class="yacht-spec-val">1 cabin</div><div class="yacht-spec-label">客舱</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price">¥128万起</span><span class="yacht-detail-btn">查看详情 →</span></div></div></a><a href="yacht-2.html" class="yacht-card reveal">
-<div class="yacht-card-img"><div class="yacht-card-img-bg img-placeholder yacht-2"></div></div>
-<div class="yacht-card-body"><h3>璀璨·星尘</h3><div class="yacht-en">Stardust</div>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">10.2m</div><div class="yacht-spec-label">全长</div></div><div class="yacht-spec"><div class="yacht-spec-val">28 knots</div><div class="yacht-spec-label">航速</div></div><div class="yacht-spec"><div class="yacht-spec-val">2 cabins</div><div class="yacht-spec-label">客舱</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price">¥188万起</span><span class="yacht-detail-btn">查看详情 →</span></div></div></a><a href="yacht-3.html" class="yacht-card reveal">
-<div class="yacht-card-img"><div class="yacht-card-img-bg img-placeholder yacht-3"></div></div>
-<div class="yacht-card-body"><h3>翡翠·涟漪</h3><div class="yacht-en">Jade Ripple</div>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">9.8m</div><div class="yacht-spec-label">全长</div></div><div class="yacht-spec"><div class="yacht-spec-val">35 knots</div><div class="yacht-spec-label">航速</div></div><div class="yacht-spec"><div class="yacht-spec-val">1 cabin</div><div class="yacht-spec-label">客舱</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price">¥158万起</span><span class="yacht-detail-btn">查看详情 →</span></div></div></a></div></div></section>
-<footer style="background:var(--dark1);border-top:1px solid var(--glass-border);padding:80px 0 0">
-<div class="container"><div style="display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;padding-bottom:60px">
-<div><a href="index.html" class="nav-logo"><svg viewBox="0 0 32 32" fill="none"><path d="M4 24L16 4l12 20H4z" stroke="#c9a96e" stroke-width="1.5" fill="none"/><path d="M8 20h16l-8-12-8 12z" stroke="#c9a96e" stroke-width="1" fill="rgba(201,169,110,0.1)"/></svg>FANTASY HOLIDAY</a><p style="color:var(--text-dim);font-size:13px;line-height:1.7;margin-top:16px;max-width:300px">奇幻假期实业有限公司 — 全球一体化高端游艇定制、销售、租赁、环球旅行、私人托管全产业链跨国企业。</p></div>
-<div><h4 style="font-size:13px;color:var(--gold);letter-spacing:2px;text-transform:uppercase;margin-bottom:20px;font-family:Inter,sans-serif;font-weight:600">游艇产品</h4><ul style="list-style:none"><li style="margin-bottom:10px"><a href="yachts.html" style="font-size:13px;color:var(--text-dim)">全部产品</a></li><li style="margin-bottom:10px"><a href="yachts.html?cat=small" style="font-size:13px;color:var(--text-dim)">小型休闲游艇</a></li><li style="margin-bottom:10px"><a href="yachts.html?cat=medium" style="font-size:13px;color:var(--text-dim)">中型商务游艇</a></li><li style="margin-bottom:10px"><a href="yachts.html?cat=large" style="font-size:13px;color:var(--text-dim)">大型超级游艇</a></li></ul></div>
-<div><h4 style="font-size:13px;color:var(--gold);letter-spacing:2px;text-transform:uppercase;margin-bottom:20px;font-family:Inter,sans-serif;font-weight:600">服务体系</h4><ul style="list-style:none"><li style="margin-bottom:10px"><a href="custom.html" style="font-size:13px;color:var(--text-dim)">私人定制</a></li><li style="margin-bottom:10px"><a href="charter.html" style="font-size:13px;color:var(--text-dim)">租赁航线</a></li><li style="margin-bottom:10px"><a href="management.html" style="font-size:13px;color:var(--text-dim)">托管维保</a></li><li style="margin-bottom:10px"><a href="cases.html" style="font-size:13px;color:var(--text-dim)">案例展示</a></li></ul></div>
-<div><h4 style="font-size:13px;color:var(--gold);letter-spacing:2px;text-transform:uppercase;margin-bottom:20px;font-family:Inter,sans-serif;font-weight:600">关于我们</h4><ul style="list-style:none"><li style="margin-bottom:10px"><a href="about.html" style="font-size:13px;color:var(--text-dim)">公司简介</a></li><li style="margin-bottom:10px"><a href="partnership.html" style="font-size:13px;color:var(--text-dim)">全球合作</a></li><li style="margin-bottom:10px"><a href="privacy.html" style="font-size:13px;color:var(--text-dim)">隐私政策</a></li><li style="margin-bottom:10px"><a href="terms.html" style="font-size:13px;color:var(--text-dim)">服务条款</a></li><li style="margin-bottom:10px"><a href="sitemap.html" style="font-size:13px;color:var(--text-dim)">网站地图</a></li></ul></div>
-</div><div style="border-top:1px solid var(--glass-border);padding:24px 0;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px">
-<p style="font-size:12px;color:var(--text-dim)">&copy; 2025 Fantasy Holiday Industrial Co., Ltd. All Rights Reserved.</p>
-</div></div></footer>
-<button class="floating-cta" onclick="location.href='contact.html'">💎 在线咨询</button>
+</div>
+</section>
+
+<section class="detail-specs">
+<div class="container">
+<h2><span class="gold-gradient">核心参数</span></h2>
+<table class="specs-table">
+<tr><td>总长</td><td>92米</td></tr>
+<tr><td>型宽</td><td>13.8米</td></tr>
+<tr><td>吃水</td><td>5.0米</td></tr>
+<tr><td>最大航速</td><td>18节</td></tr>
+<tr><td>经济航速</td><td>12节</td></tr>
+<tr><td>续航力</td><td>5,500海里</td></tr>
+<tr><td>载客人数</td><td>24位宾客</td></tr>
+<tr><td>客舱数</td><td>10间套房</td></tr>
+<tr><td>卧室数</td><td>10间</td></tr>
+<tr><td>卫生间数</td><td>12间</td></tr>
+<tr><td>发动机</td><td>4 × MTU 12V 4000 (10,400 HP)</td></tr>
+<tr><td>动力系统</td><td>四机柴油动力</td></tr>
+<tr><td>船体材质</td><td>钢铝复合</td></tr>
+<tr><td>参考价格</td><td>询价</td></tr>
+</table>
+</div>
+</section>
+
+<section class="detail-desc">
+<div class="container">
+<h2><span class="gold-gradient">设计亮点</span></h2>
+<div class="desc-grid">
+<div class="desc-card">
+<h3>🏢 会议室</h3>
+<p>船上设3个会议室，分别容纳6人、12人、20人。视频会议系统支持4K超清，配备同声传译（6语种）。</p>
+</div>
+<div class="desc-card">
+<h3>🎯 董事会厅</h3>
+<p>专属董事会厅（40㎡）设椭圆形会议桌，配投票系统、屏幕显示。独立隔音，确保会议隐私。</p>
+</div>
+<div class="desc-card">
+<h3>📡 商务中心</h3>
+<p>独立商务中心（30㎡）配6个工作位、高速网络。打印复印扫描一体机、碎纸机。</p>
+</div>
+<div class="desc-card">
+<h3>✈️ 接驳服务</h3>
+<p>停靠直升机坪，可快速接驳。提供游艇会专属码头，VIP接待室。安排豪华车队接送。</p>
+</div>
+<div class="desc-card">
+<h3>🍽️ 外交晚宴</h3>
+<p>船上可举办40人规模正式晚宴。配备高级餐具、专业侍者。外宴厨师团队可定制菜单。</p>
+</div>
+<div class="desc-card">
+<h3>🔒 安保级别</h3>
+<p>高安全等级船体，配备防弹窗。24小时安保团队，可加装GPS定位与应急通讯。</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="gallery">
+<div class="container">
+<h2><span class="gold-gradient">实拍图库</span></h2>
+<div class="gallery-grid">
+<div class="gallery-item" data-caption="外观全景"></div>
+<div class="gallery-item" data-caption="董事会厅"></div>
+<div class="gallery-item" data-caption="会议室"></div>
+<div class="gallery-item" data-caption="商务中心"></div>
+<div class="gallery-item" data-caption="VIP接待室"></div>
+<div class="gallery-item" data-caption="宴会厅"></div>
+<div class="gallery-item" data-caption="直升机坪"></div>
+<div class="gallery-item" data-caption="码头接驳"></div>
+</div>
+</div>
+
+<section class="price-cta">
+<div class="container">
+<div class="price">询价</div>
+<p class="price-note">含商务配置，实际价格根据配置确定</p>
+<a href="contact.html" class="btn btn-primary btn-gold-sweep">预约顾问获取详细方案</a>
+</div>
+</section>
+
+<section class="related">
+<div class="container">
+<h2><span class="gold-gradient">同系列推荐</span></h2>
+<div class="related-grid">
+<div class="related-card"><h3>君临120 旗舰版</h3><p>120m · 36客 · 跨洋旗舰</p><a href="yacht-1.html">查看详情 →</a></div>
+<div class="related-card"><h3>君临110 至尊版</h3><p>110m · 30客 · 远航巨舰</p><a href="yacht-2.html">查看详情 →</a></div>
+<div class="related-card"><h3>君临85 尊享版</h3><p>85m · 22客 · 家族传承</p><a href="yacht-5.html">查看详情 →</a></div>
+<div class="related-card"><h3>君临78 驰骋版</h3><p>78m · 20客 · 极地认证</p><a href="yacht-6.html">查看详情 →</a></div>
+</div>
+</div>
+</section>
+
+<footer id="footer"><div class="container">
+<div class="footer-grid">
+<div class="footer-brand">
+<a href="index.html" class="nav-logo"><svg viewBox="0 0 32 32" fill="none" style="width:32px;height:32px"><path d="M4 24L16 4l12 20H4z" stroke="#c9a96e" stroke-width="1.5" fill="none"/><path d="M8 20h16l-8-12-8 12z" stroke="#c9a96e" stroke-width="1" fill="rgba(201,169,110,0.1)"/></svg>FANTASY HOLIDAY</a>
+<p>奇幻假期实业有限公司</p>
+</div>
+<div class="footer-col"><h4>快速导航</h4><ul><li><a href="yachts.html">返回游艇产品</a></li><li><a href="custom.html">定制服务</a></li><li><a href="contact.html">联系我们</a></li></ul></div>
+</div>
+<div class="footer-bottom"><p>© 2026 奇幻假期实业有限公司</p></div>
+</div></footer>
+
 <script>
-function toggleMobile(){document.getElementById('mobile-menu').classList.toggle('active');document.querySelector('.hamburger').classList.toggle('active')}
-window.addEventListener('scroll',()=>{const n=document.getElementById('navbar');if(n)n.classList.toggle('scrolled',window.scrollY>50)});
-function initReveal(){const obs=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('revealed');obs.unobserve(x.target)}})},{threshold:0.1,rootMargin:'0px 0px -50px 0px'});document.querySelectorAll('.reveal,.reveal-left,.reveal-right,.reveal-scale').forEach(el=>obs.observe(el))}
-function animateCounter(el){const t=parseInt(el.dataset.count);const d=2000;const s=performance.now();function u(n){const p=Math.min((n-s)/d,1);el.textContent=Math.floor((1-Math.pow(1-p,3))*t);if(p<1)requestAnimationFrame(u);else el.textContent=t}requestAnimationFrame(u)}
-function initCounters(){const obs=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting){animateCounter(x.target);obs.unobserve(x.target)}})},{threshold:0.5});document.querySelectorAll('[data-count]').forEach(el=>obs.observe(el))}
-document.addEventListener('DOMContentLoaded',()=>{initReveal();initCounters()});
+window.addEventListener("DOMContentLoaded",function(){
+var loader=document.getElementById("loader");
+if(!loader)return;
+var progressEl=document.getElementById("progress");
+var progress=0;
+var interval=setInterval(function(){progress+=Math.random()*12+8;if(progress>=100){progress=100;clearInterval(interval);if(progressEl)progressEl.style.width="100%";setTimeout(function(){if(loader)loader.style.display="none";document.body.style.overflow=""},400)}else if(progressEl)progressEl.style.width=progress+"%"},180);
+setTimeout(function(){clearInterval(interval);if(loader)loader.style.display="none";document.body.style.overflow=""},5000);
+});
+window.addEventListener("scroll",function(){var nav=document.getElementById("navbar");if(window.scrollY>50)nav.classList.add("scrolled");else nav.classList.remove("scrolled")});
+function toggleMobile(){document.getElementById("mobile-menu").classList.toggle("active");document.querySelector(".hamburger").classList.toggle("active")}
+(function(){var c=document.getElementById("cursor");if(c)document.addEventListener("mousemove",function(e){c.style.left=e.pageX+"px";c.style.top=e.pageY+"px"})})();
 </script>
 </body></html>

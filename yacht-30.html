@@ -1,60 +1,122 @@
 <!DOCTYPE html><html lang="zh-CN"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>风帆·远征 | 奇幻假期实业有限公司</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<title>日间10 运动王 | 奇幻假期 FANTASY HOLIDAY - 入门</title>
+<meta name="description" content="日间10运动王 FH-10 Sport，10米入门运动游艇，经典入门首选。">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<style>
+.hero{position:relative;min-height:85vh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;background:linear_gradient(152deg,#000820 0%,#001430 52%,#002030 85%,#000818 100%)}
+.hero::before{content:'';position:absolute;inset:0;background:radial_gradient(ellipse 52% 27% at 66% 10%,rgba(60,120,255,0.07) 0%,transparent 36%)}
+.hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:268px;background:linear_gradient(to top,#000308,transparent)}
+.con{position:relative;z-index:3;padding:0 20px}
+.hero h1{font-family:'Playfair Display',serif;font-size:clamp(25px,4vw,48px);font_weight:800;letter-spacing:2px;margin-bottom:11px}
+.badge{display:inline-block;padding:5px 19px;border-radius:26px;font-size:9px;font_weight:600;letter-spacing:1.5px;background:linear_gradient(135deg,rgba(60,120,255,0.19),rgba(60,120,255,0.028));border:1px solid rgba(60,120,255,0.29);color:#3078ff;margin-bottom:15px}
+.sub{font-size:clamp(10px,1.2vw,15px);color:#4477aa;font-weight:300;letter-spacing:1.5px}
+.speclist{display:grid;grid-template_columns:repeat(auto_fit,minmax(133px,1fr));gap:15px;max_width:845px;margin:36px auto 0}
+.specbox{background:rgba(255,255,255,0.026);border:1px solid rgba(255,255,255,0.044);border-radius:10px;padding:15px 10px}
+.specval{font-size:23px;font-weight:700;color:#3078ff;font_family:'Playfair Display',serif}
+.speclab{font-size:7px;color:#0033aa;margin-top:4px;letter-spacing:0.75px;text-transform:uppercase}
+.sec{padding:70px 0;background:#000308}.sec h2{font-family:'Playfair Display',serif;font-size:23px;margin-bottom:36px;text-align:center}
+.tbl{width:100%;max_width:745px;margin:0 auto;border-collapse:collapse}.tbl tr{border-bottom:1px solid rgba(255,255,255,0.04)}.tbl td{padding:13px 8px;font-size:10px}.tbl td:first-child{color:#0033aa;width:46%}.tbl td:last-child{color:#6699ff;text-align:right}
+.desc{padding:70px 0;background:#000820}.desc h2{font-family:'Playfair Display',serif;font-size:23px;margin-bottom:26px;text-align:center}
+.grd{display:grid;grid-template_columns:repeat(auto_fit,minmax(244px,1fr));gap:20px;max_width:990px;margin:0 auto}
+.card{background:rgba(255,255,255,0.013);border:1px solid rgba(255,255,255,0.026);border-radius:13px;padding:23px}
+.card h3{font-size:12px;font-weight:600;color:#3078ff;margin-bottom:9px}
+.card p{font-size:11px;color:#4477aa;line-height:1.62}
+.gal{padding:70px 0;background:#000308}.gal h2{font-family:'Playfair Display',serif;font-size:23px;margin-bottom:36px;text-align:center}
+.galgrid{display:grid;grid-template_columns:repeat(auto_fill,minmax(244px,1fr));gap:17px}
+.galitem{aspect-ratio:16/10.8;background:linear_gradient(152deg,#000820 0%,#001430 52%,#002030 85%,#000818 100%);border-radius:9px;position:relative;overflow:hidden}
+.galitem::after{content:attr(data-caption);position:absolute;bottom:9px;left:9px;font-size:9px;color:#4477aa;background:rgba(0,0,0,0.7);padding:2px 9px;border-radius:2px}
+.rel{padding:70px 0;background:#000820}.rel h2{font-family:'Playfair Display',serif;font-size:23px;margin-bottom:26px;text-align:center}
+.relgrid{display:grid;grid-template_columns:repeat(auto_fill,minmax(244px,1fr));gap:20px;max_width:990px;margin:0 auto}
+.relcard{background:linear_gradient(146deg,rgba(0,14,32,0.97),rgba(0,4,24,1));border:1px solid var(--glass-border);border-radius:13px;padding:20px;transition:all 0.3s}
+.relcard:hover{border-color:rgba(60,120,255,0.26);transform:translate_y(-2px)}
+.relcard h3{font-family:'Playfair Display',serif;font-size:14px;margin-bottom:4px}
+.relcard p{font-size:10px;color:#4477aa}
+.relcard a{display:inline-block;margin-top:15px;font-size:10px;color:#3078ff;text-decoration:none}
+.cta{padding:50px 0;text-align:center;background:linear_gradient(146deg,rgba(60,120,255,0.07),transparent)}
+.cta .price{font-family:'Playfair Display',serif;font-size:30px;font-weight:700;color:#3078ff;margin-bottom:5px}
+.cta .note{font-size:10px;color:#0033aa;margin-bottom:20px}
+</style>
 </head><body>
+<div id="loader"><div class="brand">FANTASY HOLIDAY</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div><div class="progress-text">LOADING</div></div>
+<div class="cursor-follower" id="cursor"></div>
 <nav id="navbar"><div class="container"><div class="nav-inner">
 <a href="index.html" class="nav-logo"><svg viewBox="0 0 32 32" fill="none"><path d="M4 24L16 4l12 20H4z" stroke="#c9a96e" stroke-width="1.5" fill="none"/><path d="M8 20h16l-8-12-8 12z" stroke="#c9a96e" stroke-width="1" fill="rgba(201,169,110,0.1)"/></svg>FANTASY HOLIDAY</a>
-<div class="nav-links"><a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html" class="active">游艇产品</a><a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a><a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a><a href="contact.html" class="nav-cta">联系我们</a></div>
+<div class="nav-links">
+<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a>
+<a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a>
+<a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a>
+<a href="contact.html" class="nav-cta">联系我们</a>
+</div>
 <div class="hamburger" onclick="toggleMobile()"><span></span><span></span><span></span></div>
 </div></div></nav>
 <div class="mobile-menu" id="mobile-menu">
-<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a><a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a><a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a><a href="contact.html">联系我们</a>
+<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a>
+<a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a>
+<a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a>
+<a href="contact.html">联系我们</a>
 </div>
-<div class="yacht-detail-hero"><div class="container">
-<div class="breadcrumb"><a href="index.html">首页</a> / <a href="yachts.html">游艇产品</a> / <span style="color:var(--gold)">风帆·远征</span></div>
-<div class="yacht-detail-img"><div class="img-placeholder yacht-6"></div></div>
-<h1 style="font-size:clamp(28px,4vw,48px);margin-bottom:4px">风帆·远征</h1>
-<p style="color:var(--text-dim);font-size:14px;letter-spacing:2px;margin-bottom:24px">Sail Expedition · 豪华帆船</p>
-<p style="color:var(--text-muted);font-size:15px;line-height:1.8;max-width:700px;margin-bottom:32px">帆船浪漫与现代科技融合</p>
-<div class="yacht-detail-specs">
-<div class="detail-spec"><div class="detail-spec-val">25m</div><div class="detail-spec-label">全长</div></div>
-<div class="detail-spec"><div class="detail-spec-val">6.2m</div><div class="detail-spec-label">型宽</div></div>
-<div class="detail-spec"><div class="detail-spec-val">3.5m</div><div class="detail-spec-label">吃水</div></div>
-<div class="detail-spec"><div class="detail-spec-val">12 knots</div><div class="detail-spec-label">航速</div></div>
-<div class="detail-spec"><div class="detail-spec-val">8 guests</div><div class="detail-spec-label">载客</div></div>
-<div class="detail-spec"><div class="detail-spec-val">3 cabins</div><div class="detail-spec-label">客舱</div></div>
-<div class="detail-spec"><div class="detail-spec-val" style="font-size:18px">¥1200万起</div><div class="detail-spec-label">参考价格</div></div>
+<section class="hero"><div class="con">
+<span class="badge">日间系列</span>
+<h1><span class="gold-gradient">日间10 运动王</span></h1>
+<p class="sub">FH-10 Sport · 经典入门 · 入门首选</p>
+<div class="speclist"><div class="specbox"><div class="specval">10m</div><div class="speclab">总长</div></div>
+<div class="specbox"><div class="specval">4</div><div class="speclab">载客</div></div>
+<div class="specbox"><div class="specval">14kn</div><div class="speclab">航速</div></div>
 </div>
-<h4 style="color:var(--gold);margin-bottom:16px;font-size:16px">核心配置</h4>
-<div class="feature-tags"><span class="feature-tag">全自动帆操作</span><span class="feature-tag">混合动力</span><span class="feature-tag">导航雷达</span><span class="feature-tag">防侧翻系统</span><span class="feature-tag">柴油发电机</span><span class="feature-tag">卫星通讯</span></div>
-<h4 style="color:var(--gold);margin:32px 0 16px;font-size:16px">游艇图赏</h4>
-<div class="yacht-gallery-grid"><div class="yacht-gallery-item"><div class="img-placeholder yacht-6" style="filter:none"></div></div><div class="yacht-gallery-item"><div class="img-placeholder yacht-6" style="filter:brightness(0.8)"></div></div><div class="yacht-gallery-item"><div class="img-placeholder yacht-6" style="filter:hue-rotate(20deg)"></div></div><div class="yacht-gallery-item"><div class="img-placeholder yacht-6" style="filter:brightness(1.1)"></div></div></div>
-<a href="contact.html" class="btn btn-primary btn-gold-sweep" style="margin-top:24px">💎 立即预约咨询</a>
-</div></div><section class="section-padding" style="background:var(--dark2)"><div class="container">
-<div class="section-header reveal"><h2>同类型推荐</h2><div class="divider-gold"></div></div>
-<div class="yachts-grid"><a href="yacht-31.html" class="yacht-card reveal">
-<div class="yacht-card-img"><div class="yacht-card-img-bg img-placeholder yacht-7"></div></div>
-<div class="yacht-card-body"><h3>帆影·传奇</h3><div class="yacht-en">Sail Legend</div>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">35m</div><div class="yacht-spec-label">全长</div></div><div class="yacht-spec"><div class="yacht-spec-val">14 knots</div><div class="yacht-spec-label">航速</div></div><div class="yacht-spec"><div class="yacht-spec-val">5 cabins</div><div class="yacht-spec-label">客舱</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price">¥3500万起</span><span class="yacht-detail-btn">查看详情 →</span></div></div></a></div></div></section>
-<footer style="background:var(--dark1);border-top:1px solid var(--glass-border);padding:80px 0 0">
-<div class="container"><div style="display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;padding-bottom:60px">
-<div><a href="index.html" class="nav-logo"><svg viewBox="0 0 32 32" fill="none"><path d="M4 24L16 4l12 20H4z" stroke="#c9a96e" stroke-width="1.5" fill="none"/><path d="M8 20h16l-8-12-8 12z" stroke="#c9a96e" stroke-width="1" fill="rgba(201,169,110,0.1)"/></svg>FANTASY HOLIDAY</a><p style="color:var(--text-dim);font-size:13px;line-height:1.7;margin-top:16px;max-width:300px">奇幻假期实业有限公司 — 全球一体化高端游艇定制、销售、租赁、环球旅行、私人托管全产业链跨国企业。</p></div>
-<div><h4 style="font-size:13px;color:var(--gold);letter-spacing:2px;text-transform:uppercase;margin-bottom:20px;font-family:Inter,sans-serif;font-weight:600">游艇产品</h4><ul style="list-style:none"><li style="margin-bottom:10px"><a href="yachts.html" style="font-size:13px;color:var(--text-dim)">全部产品</a></li><li style="margin-bottom:10px"><a href="yachts.html?cat=small" style="font-size:13px;color:var(--text-dim)">小型休闲游艇</a></li><li style="margin-bottom:10px"><a href="yachts.html?cat=medium" style="font-size:13px;color:var(--text-dim)">中型商务游艇</a></li><li style="margin-bottom:10px"><a href="yachts.html?cat=large" style="font-size:13px;color:var(--text-dim)">大型超级游艇</a></li></ul></div>
-<div><h4 style="font-size:13px;color:var(--gold);letter-spacing:2px;text-transform:uppercase;margin-bottom:20px;font-family:Inter,sans-serif;font-weight:600">服务体系</h4><ul style="list-style:none"><li style="margin-bottom:10px"><a href="custom.html" style="font-size:13px;color:var(--text-dim)">私人定制</a></li><li style="margin-bottom:10px"><a href="charter.html" style="font-size:13px;color:var(--text-dim)">租赁航线</a></li><li style="margin-bottom:10px"><a href="management.html" style="font-size:13px;color:var(--text-dim)">托管维保</a></li><li style="margin-bottom:10px"><a href="cases.html" style="font-size:13px;color:var(--text-dim)">案例展示</a></li></ul></div>
-<div><h4 style="font-size:13px;color:var(--gold);letter-spacing:2px;text-transform:uppercase;margin-bottom:20px;font-family:Inter,sans-serif;font-weight:600">关于我们</h4><ul style="list-style:none"><li style="margin-bottom:10px"><a href="about.html" style="font-size:13px;color:var(--text-dim)">公司简介</a></li><li style="margin-bottom:10px"><a href="partnership.html" style="font-size:13px;color:var(--text-dim)">全球合作</a></li><li style="margin-bottom:10px"><a href="privacy.html" style="font-size:13px;color:var(--text-dim)">隐私政策</a></li><li style="margin-bottom:10px"><a href="terms.html" style="font-size:13px;color:var(--text-dim)">服务条款</a></li><li style="margin-bottom:10px"><a href="sitemap.html" style="font-size:13px;color:var(--text-dim)">网站地图</a></li></ul></div>
-</div><div style="border-top:1px solid var(--glass-border);padding:24px 0;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px">
-<p style="font-size:12px;color:var(--text-dim)">&copy; 2025 Fantasy Holiday Industrial Co., Ltd. All Rights Reserved.</p>
-</div></div></footer>
-<button class="floating-cta" onclick="location.href='contact.html'">💎 在线咨询</button>
+</div></section>
+<section class="sec"><div class="container"><h2><span class="gold-gradient">核心参数</span></h2>
+<table class="tbl"><tr><td>总长</td><td>10米</td></tr><tr><td>型宽</td><td>1.8米</td></tr><tr><td>吃水</td><td>0.3米</td></tr>
+<tr><td>最大航速</td><td>14节</td></tr><tr><td>经济航速</td><td>7节</td></tr><tr><td>续航力</td><td>150海里</td></tr>
+<tr><td>载客</td><td>4位</td></tr><tr><td>客舱</td><td>1间</td></tr><tr><td>卧室</td><td>1间</td></tr>
+<tr><td>卫生间</td><td>1间</td></tr><tr><td>发动机</td><td>2 × CAT 3508 (800 HP)</td></tr>
+<tr><td>动力</td><td>双机柴油</td></tr><tr><td>材质</td><td>玻璃钢</td></tr>
+<tr><td>价格</td><td>询价</td></tr>
+</table>
+</div></section>
+<section class="desc"><div class="container"><h2><span class="gold-gradient">设计亮点</span></h2>
+<div class="grd">
+<div class="card"><h3>⚡ 经典</h3><p>经典设计，入门首选。经典之选。</p></div>
+<div class="card"><h3>🏄 运动</h3><p>运动设计，水上运动。爱好者选。</p></div>
+<div class="card"><h3>🎣 钓鱼</h3><p>海钓区，钓鱼体验。休闲首选。</p></div>
+<div class="card"><h3>🏊 游泳</h3><p>游泳区，水上活动。简单方便。</p></div>
+<div class="card"><h3>🛶 皮划艇</h3><p>皮划艇，简单活动。乐趣多多。</p></div>
+<div class="card"><h3>💰 入门</h3><p>价格实惠，入门首选。经典入门。</p></div>
+</div>
+</div></section>
+<section class="gal"><div class="container"><h2><span class="gold-gradient">实拍图库</span></h2>
+<div class="galgrid">
+<div class="galitem" data-caption="经典姿态"></div>
+<div class="galitem" data-caption="船头"></div>
+<div class="galitem" data-caption="海钓"></div>
+<div class="galitem" data-caption="游泳"></div>
+<div class="galitem" data-caption="皮划艇"></div>
+<div class="galitem" data-caption="船体"></div>
+<div class="galitem" data-caption="侧面"></div>
+<div class="galitem" data-caption="海浪"></div>
+</div>
+</section>
+<section class="cta"><div class="container"><div class="price">询价</div><p class="note">经典入门</p>
+<a href="contact.html" class="btn btn-primary btn-gold-sweep">预约顾问</a></div>
+</section>
+<section class="rel"><div class="container"><h2><span class="gold-gradient">同系列推荐</span></h2>
+<div class="relgrid">
+<div class="relcard"><h3>日间11 运动王</h3><p>11m · 4客 · 小型</p><a href="yacht-29.html">查看详情 →</a></div>
+<div class="relcard"><h3>日间16 运动王</h3><p>16m · 6客 · 运动</p><a href="yacht-26.html">查看详情 →</a></div>
+<div class="relcard"><h3>日间10 运动王</h3><p>10m · 4客 · 经典入门</p><a href="yacht-30.html">查看详情 →</a></div>
+<div class="relcard"><h3>飞桥10 派对王</h3><p>10m · 4客 · 派对</p><a href="yacht-24.html">查看详情 →</a></div>
+</div>
+</div></section>
+<footer id="footer"><div class="container">
+<div class="footer-grid"><div class="footer-brand"><a href="index.html" class="nav-logo"><svg viewBox="0 0 32 32" fill="none" style="width:32px;height:32px"><path d="M4 24L16 4l12 20H4z" stroke="#c9a96e" stroke-width="1.5" fill="none"/><path d="M8 20h16l-8-12-8 12z" stroke="#c9a96e" stroke-width="1" fill="rgba(201,169,110,0.1)"/></svg>FANTASY HOLIDAY</a><p>奇幻假期实业有限公司</p></div>
+<div class="footer-col"><h4>快速导航</h4><ul><li><a href="yachts.html">返回游艇</a></li><li><a href="custom.html">定制</a></li><li><a href="contact.html">联系</a></li></ul></div>
+</div><div class="footer-bottom"><p>© 2026 奇幻假期</p></div>
+</div></footer>
 <script>
-function toggleMobile(){document.getElementById('mobile-menu').classList.toggle('active');document.querySelector('.hamburger').classList.toggle('active')}
-window.addEventListener('scroll',()=>{const n=document.getElementById('navbar');if(n)n.classList.toggle('scrolled',window.scrollY>50)});
-function initReveal(){const obs=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('revealed');obs.unobserve(x.target)}})},{threshold:0.1,rootMargin:'0px 0px -50px 0px'});document.querySelectorAll('.reveal,.reveal-left,.reveal-right,.reveal-scale').forEach(el=>obs.observe(el))}
-function animateCounter(el){const t=parseInt(el.dataset.count);const d=2000;const s=performance.now();function u(n){const p=Math.min((n-s)/d,1);el.textContent=Math.floor((1-Math.pow(1-p,3))*t);if(p<1)requestAnimationFrame(u);else el.textContent=t}requestAnimationFrame(u)}
-function initCounters(){const obs=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting){animateCounter(x.target);obs.unobserve(x.target)}})},{threshold:0.5});document.querySelectorAll('[data-count]').forEach(el=>obs.observe(el))}
-document.addEventListener('DOMContentLoaded',()=>{initReveal();initCounters()});
+window.addEventListener("DOMContentLoaded",function(){var l=document.getElementById("loader");if(!l)return;var p=document.getElementById("progress");var v=0;var i=setInterval(function(){v+=Math.random()*9+5;if(v>=100){v=100;clearInterval(i);if(p)p.style.width="100%";setTimeout(function(){if(l)l.style.display="none";document.body.style.overflow=""},340)}else if(p)p.style.width=v+"%"},170);setTimeout(function(){clearInterval(i);if(l)l.style.display="none";document.body.style.overflow=""},4700)});
+window.addEventListener("scroll",function(){var n=document.getElementById("navbar");if(window.scrollY>50)n.classList.add("scrolled");else n.classList.remove("scrolled")});
+function toggleMobile(){document.getElementById("mobile-menu").classList.toggle("active");document.querySelector(".hamburger").classList.toggle("active")}
+(function(){var c=document.getElementById("cursor");if(c)document.addEventListener("mousemove",function(e){c.style.left=e.pageX+"px";c.style.top=e.pageY+"px"})})();
 </script>
 </body></html>

@@ -4,6 +4,212 @@
 <meta name="description" content="奇幻假期游艇产品线覆盖10米日间巡航到120米超级游艇，四大核心系列32款船型，满足从入门级到顶奢的全谱系需求。">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<style>
+/* ===== Yachts Page Enhanced Styles ===== */
+.yacht-hero-enhanced {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  background: linear-gradient(135deg, #0a0e1a 0%, #0d1526 20%, #132844 40%, #1a3a5c 55%, #2d4a3a 70%, #4a3520 85%, #1a1208 100%);
+}
+.yacht-hero-enhanced::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background:
+    radial-gradient(ellipse 80% 50% at 20% 80%, rgba(201,169,110,0.08) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 40% at 80% 20%, rgba(255,180,100,0.06) 0%, transparent 50%),
+    radial-gradient(ellipse 100% 60% at 50% 100%, rgba(201,169,110,0.05) 0%, transparent 40%);
+  pointer-events: none;
+}
+.yacht-hero-enhanced::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 200px;
+  background: linear-gradient(to top, var(--dark1), transparent);
+  pointer-events: none;
+}
+/* Animated ocean waves */
+.wave-container {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 180px;
+  overflow: hidden;
+  opacity: 0.15;
+}
+.wave {
+  position: absolute;
+  bottom: -10px;
+  left: -10%;
+  width: 120%;
+  height: 100px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120'%3E%3Cpath fill='%23c9a96e' d='M0,60 C200,100 400,20 600,60 C800,100 1000,20 1200,60 L1200,120 L0,120 Z'/%3E%3C/svg%3E") repeat-x;
+  background-size: 600px 100px;
+  animation: wave-move 12s linear infinite;
+}
+.wave:nth-child(2) { bottom: 5px; opacity: 0.5; animation-duration: 9s; animation-delay: -3s; }
+.wave:nth-child(3) { bottom: 15px; opacity: 0.3; animation-duration: 15s; animation-delay: -7s; }
+@keyframes wave-move { from { transform: translateX(0); } to { transform: translateX(-600px); } }
+/* Sun glow */
+.sun-glow {
+  position: absolute;
+  top: 12%; right: 18%;
+  width: 300px; height: 300px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,180,100,0.25) 0%, rgba(255,140,60,0.1) 30%, transparent 70%);
+  filter: blur(40px);
+  animation: sun-pulse 8s ease-in-out infinite alternate;
+}
+@keyframes sun-pulse { from { opacity: 0.6; transform: scale(1); } to { opacity: 1; transform: scale(1.15); } }
+/* Yacht silhouette overlay */
+.yacht-silhouette {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 700px; height: 160px;
+  opacity: 0.06;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 700 160'%3E%3Cpath fill='%23c9a96e' d='M50,100 Q100,60 200,65 Q350,75 500,60 Q600,50 650,80 L660,105 Q550,115 350,118 Q150,120 50,115 Z M200,65 L210,45 Q220,30 250,28 L280,32 L275,62 Z M380,68 L395,42 Q410,25 450,24 L485,28 L478,66 Z M520,58 L530,38 L560,36 L565,56 Z'/%3E%3C/svg%3E") no-repeat center;
+  background-size: contain;
+}
+.hero-content { position: relative; z-index: 3; padding: 0 20px; }
+.hero-content h1 { font-family:'Playfair Display',serif; font-size:clamp(42px,6vw,72px); font-weight:800; letter-spacing:4px; margin-bottom:20px; }
+.hero-content .hero-sub { font-size:clamp(14px,1.8vw,20px); color:var(--text-muted); font-weight:300; letter-spacing:3px; max-width:650px; margin:0 auto; }
+.hero-stats { display:flex; justify-content:center; gap:48px; margin-top:40px; flex-wrap:wrap; }
+.hero-stat { text-align:center; }
+.hero-stat-num { font-family:'Playfair Display',serif; font-size:36px; font-weight:700; color:var(--gold); }
+.hero-stat-label { font-size:13px; color:var(--text-dim); margin-top:4px; letter-spacing:1px; }
+
+/* Filter buttons enhanced */
+.yacht-filters { display:flex; gap:12px; flex-wrap:wrap; justify-content:center; margin:0 auto; padding:20px 0; }
+.filter-btn {
+  padding:12px 28px; border-radius:50px; font-size:14px; font-weight:500;
+  background:rgba(255,255,255,0.04); border:1px solid rgba(201,169,110,0.15);
+  color:var(--text-muted); cursor:pointer; transition:all 0.4s cubic-bezier(.4,0,.2,1);
+  letter-spacing:1px; position:relative; overflow:hidden;
+}
+.filter-btn::before { content:''; position:absolute; inset:0; background:linear-gradient(135deg,var(--gold),#e0c080); opacity:0; transition:opacity 0.4s; z-index:-1; border-radius:inherit; }
+.filter-btn:hover { border-color:var(--gold); color:#fff; transform:translateY(-2px); box-shadow:0 8px 30px rgba(201,169,110,0.15); }
+.filter-btn.active { background:linear-gradient(135deg,var(--gold),#dbb87a); color:#0a0e1a; border-color:transparent; font-weight:600; box-shadow:0 8px 32px rgba(201,169,110,0.3); }
+.filter-btn.active:hover { transform:translateY(-2px); box-shadow:0 12px 40px rgba(201,169,110,0.4); }
+
+/* Yachts grid masonry-style */
+.yachts-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(340px,1fr)); gap:28px; }
+@media(max-width:768px){ .yachts-grid{ grid-template-columns:1fr; } }
+
+/* Yacht card enhanced */
+.yacht-card {
+  background:linear-gradient(145deg, rgba(20,26,42,0.9), rgba(12,16,28,0.95));
+  border:1px solid var(--glass-border); border-radius:16px; overflow:hidden;
+  transition:all 0.5s cubic-bezier(.4,0,.2,1);
+  position:relative;
+}
+.yacht-card::before {
+  content:''; position:absolute; inset:0; border-radius:inherit;
+  background:linear-gradient(135deg, rgba(201,169,110,0.05), transparent 60%);
+  opacity:0; transition:opacity 0.5s; pointer-events:none; z-index:1;
+}
+.yacht-card:hover { transform:translateY(-8px); border-color:rgba(201,169,110,0.3); box-shadow:0 20px 60px rgba(0,0,0,0.4), 0 0 40px rgba(201,169,110,0.06); }
+.yacht-card:hover::before { opacity:1; }
+
+.yacht-card-img {
+  position:relative; height:240px; overflow:hidden;
+}
+.img-placeholder {
+  width:100%; height:100%;
+  transition:transform 0.8s cubic-bezier(.4,0,.2,1);
+}
+.yacht-card:hover .img-placeholder { transform:scale(1.06); }
+
+/* Series-specific placeholder gradients */
+.sov-bg-1 { background:linear-gradient(135deg,#0d1a2d 0%,#1a3a5c 30%,#2d1810 70%,#1a0f08 100%); }
+.sov-bg-2 { background:linear-gradient(135deg,#0f1729 0%,#224466 30%,#3d2010 70,#1a1008 100%); }
+.sov-bg-3 { background:linear-gradient(135deg,#101828 0%,#1e3d5a 30%,#352010 70,#1c0f08 100%); }
+.sov-bg-4 { background:linear-gradient(135deg,#0c1622 0,##183552 30%,#301810 70,#180e08 100%); }
+.sov-bg-5 { background:linear-gradient(135deg,#0e1826 0%,#1c4060 30%,#2d1a0e 70,#1a0e08 100%); }
+.sov-bg-6 { background:linear-gradient(135deg,#111929 0%,#203c58 30%,#381e10 70,#1d1008 100%); }
+.sov-bg-7 { background:linear-gradient(135deg,#0d1724 0%,#1a3a56 30,##332010 70,#1b0e08 100%); }
+.sov-bg-8 { background:linear-gradient(135deg,#0f1a28 0%,#1e3e5e 30%,#3a2012 70,#1e1008 100%); }
+
+.exp-bg-1 { background:linear-gradient(135deg,#0a1a1a 0%,#1a3a3a 40%,#2a2510 80%,#151208 100%); }
+.exp-bg-2 { background:linear-gradient(135deg,#0c1c1c 0%,#1e4040 40%,#302a10 80,#161308 100%); }
+.exp-bg-3 { background:linear-gradient(135deg,#0e1e1e 0%,#204646 40%,#362f10 80,#171408 100%); }
+.exp-bg-4 { background:linear-gradient(135deg,#0a1818 0%,#183838 40%,#25200e 80,#141108 100%); }
+.exp-bg-5 { background:linear-gradient(135deg,#0c1c1c 0%,#1c3e3e 40%,#2e2810 80,#161308 100%); }
+.exp-bg-6 { background:linear-gradient(135deg,#0e1e1e 0%,#204242 40%,#322c10 80,#171408 100%); }
+.exp-bg-7 { background:linear-gradient(135deg,#0a1a1a 0%,#1a3a3a 40%,#2a2510 80,#151208 100%); }
+.exp-bg-8 { background:linear-gradient(135deg,#0c1c1c 0%,#1e4040 40%,#302a10 80,#161308 100%); }
+
+.fly-bg-1 { background:linear-gradient(135deg,#1a1028 0%,#3a2060 40%,#4a3010 80,#200e08 100%); }
+.fly-bg-2 { background:linear-gradient(135deg,#1c1230 0%,#402268 40%,#503410 82,#221008 100%); }
+.fly-bg-3 { background:linear-gradient(135deg,#180e28 0%,#381e58 40%,#482e10 80,#1f0e08 100%); }
+.fly-bg-4 { background:linear-gradient(135deg,#1a1030 0%,#3c2060 40%,#4c3210 82,#211008 100%); }
+.fly-bg-5 { background:linear-gradient(135deg,#160e26 0,##361c56 40%,#462c10 80,#1e0e08 100%); }
+.fly-bg-6 { background:linear-gradient(135deg,#181228 0,##3a1e5a 40%,#4a2e10 80,#200e08 100%); }
+.fly-bg-7 { background:linear-gradient(135deg,#141024 0,#341a54 40%,#442a10 80,#1d0e08 100%); }
+.fly-bg-8 { background:linear-gradient(135deg,#1a1028 0,#3a2060 40,#4a3010 80,#200e08 100%); }
+
+.cru-bg-1 { background:linear-gradient(135deg,#0a2040 0%,#1a5080 50%,#c9a96e 100%); }
+.cru-bg-2 { background:linear-gradient(135deg,#0c2250 0%,#1e6090 50%,#d4b47a 100%); }
+.cru-bg-3 { background:linear-gradient(135deg,#0e1e48 0%,#1c5878 50%,#c09a60 100%); }
+.cru-bg-4 { background:linear-gradient(135deg,#081c38 0,#185868 50%,#b89058 100%); }
+.cru-bg-5 { background:linear-gradient(135deg,#0a2040 0,#1a5080 50%,#c9a96e 100%); }
+.cru-bg-6 { background:linear-gradient(135deg,#0c2250 0,#1e6090 50%,#d4b47a 100%); }
+.cru-bg-7 { background:linear-gradient(135deg,#0e1e48 0,#1c5878 50%,#c09a60 100%); }
+.cru-bg-8 { background:linear-gradient(135deg,#081c38 0,#185868 50%,#b89058 100%); }
+
+/* Placeholder inner pattern for yacht feel */
+.img-placeholder::after {
+  content:''; position:absolute; inset:0;
+  background:
+    repeating-linear-gradient(90deg, transparent, transparent 60px, rgba(255,255,255,0.02) 60px, rgba(255,255,255,0.02) 61px),
+    repeating-linear-gradient(0deg, transparent, transparent 40px, rgba(255,255,255,0.015) 40px, rgba(255,255,255,0.015) 41px);
+}
+
+.yacht-card-badge {
+  position:absolute; top:14px; left:14px;
+  padding:5px 14px; border-radius:20px; font-size:11px; font-weight:600;
+  letter-spacing:1px; z-index:2;
+  backdrop-filter:blur(10px);
+}
+.badge-sov { background:linear-gradient(135deg,rgba(201,169,110,0.2),rgba(201,169,110,0.05)); border:1px solid rgba(201,169,110,0.3); color:var(--gold); }
+.badge-exp { background:linear-gradient(135deg,rgba(100,200,200,0.15),rgba(100,200,200,0.03)); border:1px solid rgba(100,200,200,0.25); color:#64c8c8; }
+.badge-fly { background:linear-gradient(135deg,rgba(180,140,220,0.15),rgba(180,140,220,0.03)); border:1px solid rgba(180,140,220,0.25); color:#b4b8dc; }
+.badge-cru { background:linear-gradient(135deg,rgba(80,180,240,0.15),rgba(80,180,240,0.03)); border:1px solid rgba(80,180,240,0.25); color:#50b4f0; }
+
+.yacht-card-body { padding:24px; position:relative; z-index:2; }
+.yacht-card-body h3 { font-family:'Playfair Display',serif; font-size:20px; font-weight:700; margin-bottom:4px; color:#fff; }
+.yacht-en { font-size:12px; color:var(--text-dim); margin-bottom:14px; letter-spacing:0.5px; }
+
+.yacht-specs { display:flex; gap:16px; margin-bottom:14px; }
+.yacht-spec { text-align:center; flex:1; padding:10px 4px; background:rgba(255,255,255,0.02); border-radius:10px; border:1px solid rgba(255,255,255,0.04); }
+.yacht-spec-val { font-size:18px; font-weight:700; color:var(--gold); font-family:'Playfair Display',serif; }
+.yacht-spec-label { font-size:10px; color:var(--text-dim); margin-top:2px; letter-spacing:1px; text-transform:uppercase; }
+
+.yacht-desc { font-size:13px; color:var(--text-muted); line-height:1.6; margin:14px 0; min-height:42px; }
+
+.yacht-card-footer { display:flex; justify-content:space-between; align-items:center; margin-top:16px; padding-top:16px; border-top:1px solid rgba(255,255,255,0.04); }
+.yacht-price { font-size:17px; font-weight:700; color:var(--gold); font-family:'Playfair Display',serif; }
+.yacht-detail-btn {
+  font-size:13px; color:var(--gold); text-decoration:none; font-weight:500;
+  padding:8px 20px; border:1px solid rgba(201,169,110,0.3); border-radius:20px;
+  transition:all 0.3s; letter-spacing:0.5px;
+}
+.yacht-detail-btn:hover { background:var(--gold); color:#0a0e1a; border-color:var(--gold); }
+
+/* CTA section */
+.cta-section { padding:100px 0; text-align:center; background:var(--dark2); border-top:1px solid var(--glass-border); position:relative; overflow:hidden; }
+.cta-section::before { content:''; position:absolute; inset:0; background:radial-gradient(ellipse at center, rgba(201,169,110,0.04), transparent 70%); }
+
+/* Animation for reveal */
+.yacht-card.revealed { animation:card-in 0.6s ease forwards; }
+@keyframes card-in { from { opacity:0; transform:translateY(30px); } to { opacity:1; transform:translateY(0); } }
+</style>
 </head><body>
 <div id="loader"><div class="brand">FANTASY HOLIDAY</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div><div class="progress-text">LOADING</div></div>
 <div class="cursor-follower" id="cursor"></div>
@@ -26,200 +232,389 @@
 <a href="contact.html">联系我们</a>
 </div>
 
-<!-- PAGE HERO -->
-<section class="page-hero">
-<div class="container" style="position:relative;z-index:2">
-<div class="breadcrumb"><a href="index.html">首页</a> <span>/</span> 游艇产品</div>
+<!-- ===== ENHANCED HERO WITH FULLSCREEN BG IMAGE EFFECT ===== -->
+<section class="yacht-hero-enhanced">
+<div class="sun-glow"></div>
+<div class="yacht-silhouette"></div>
+<div class="wave-container"><div class="wave"></div><div class="wave"></div><div class="wave"></div></div>
+<div class="hero-content">
 <h1><span class="gold-gradient">游艇产品</span></h1>
-<p>四大核心系列 · 32款船型 · 从入门到顶奢的全谱系覆盖</p>
+<p class="hero-sub">四大核心系列 · 32款船型 · 从入门到顶奢的全谱系覆盖</p>
+<div class="hero-stats">
+<div class="hero-stat"><div class="hero-stat-num">4</div><div class="hero-stat-label">核心系列</div></div>
+<div class="hero-stat"><div class="hero-stat-num">32</div><div class="hero-stat-label">船型款式</div></div>
+<div class="hero-stat"><div class="hero-stat-num">10-120<span style="font-size:18px">M</span></div><div class="hero-stat-label">尺寸跨度</div></div>
+</div>
 </div>
 </section>
 
-<!-- FILTERS -->
-<section class="section-padding" style="padding-top:60px;padding-bottom:40px">
+<!-- ===== FILTER BUTTONS ===== -->
+<section class="section-padding" style="padding-top:60px;padding-bottom:40px;background:var(--dark1)">
 <div class="container">
 <div class="yacht-filters reveal">
 <button class="filter-btn active" data-filter="all">全部系列</button>
-<button class="filter-btn" data-filter="sovereign">君临系列 60-120m</button>
-<button class="filter-btn" data-filter="expedition">远征系列 40-70m</button>
-<button class="filter-btn" data-filter="flybridge">飞桥系列 18-45m</button>
-<button class="filter-btn" data-filter="cruiser">日间系列 10-18m</button>
+<button class="filter-btn" data-filter="sovereign">君临系列 60-120M</button>
+<button class="filter-btn" data-filter="expedition">远征系列 40-70M</button>
+<button class="filter-btn" data-filter="flybridge">飞桥系列 18-45M</button>
+<button class="filter-btn" data-filter="cruiser">日间系列 10-18M</button>
 </div>
 </div>
 </section>
 
-<!-- YACHTS GRID -->
-<section style="padding-bottom:100px">
+<!-- ===== 32 YACHTS GRID ===== -->
+<section style="padding-bottom:100px;background:var(--dark1)">
 <div class="container">
 <div class="yachts-grid">
-<!-- Sovereign Series -->
+
+<!-- ==================== 君临系列 SOVEREIGN (8艘) ==================== -->
+
+<!-- 1. 君临120 旗舰版 -->
 <div class="yacht-card reveal" data-series="sovereign">
-<div class="yacht-card-img"><div class="img-placeholder yacht-1"></div><span class="yacht-card-badge">君临系列</span></div>
+<div class="yacht-card-img"><div class="img-placeholder sov-bg-1"></div><span class="yacht-card-badge badge-sov">君临系列</span></div>
 <div class="yacht-card-body">
-<h3>FH-120 Sovereign Elite</h3>
-<p class="yacht-en">120m | 36客 | 无限航区</p>
+<h3>君临120 旗舰版</h3><p class="yacht-en">FH-120 Sovereign Elite · 120m · 36客 · 无限航区</p>
 <div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">120m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">36</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">18kn</div><div class="yacht-spec-label">航速</div></div></div>
-<p style="font-size:13px;color:var(--text-muted);margin:12px 0">旗舰之作，搭载直升机坪、潜艇库、IMAX影院、医疗中心，宫殿级海上行宫。</p>
+<p class="yacht-desc">跨洋旗舰之作，搭载直升机坪、潜艇库、IMAX影院与医疗中心，宫殿级海上行宫，重新定义超级游艇奢华标准。</p>
 <div class="yacht-card-footer"><span class="yacht-price">询价</span><a href="yacht-1.html" class="yacht-detail-btn">详情 →</a></div>
-</div>
-</div>
+</div></div>
+
+<!-- 2. 君临110 至尊版 -->
 <div class="yacht-card reveal" data-series="sovereign">
-<div class="yacht-card-img"><div class="img-placeholder yacht-2"></div><span class="yacht-card-badge">君临系列</span></div>
+<div class="yacht-card-img"><div class="img-placeholder sov-bg-2"></div><span class="yacht-card-badge badge-sov">君临系列</span></div>
 <div class="yacht-card-body">
-<h3>FH-100 Sovereign</h3>
-<p class="yacht-en">100m | 28客 | 无限航区</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">100m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">28</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">20kn</div><div class="yacht-spec-label">航速</div></div></div>
-<p style="font-size:13px;color:var(--text-muted);margin:12px 0">超级游艇标杆，无边泳池、水疗中心、多层甲板娱乐空间。</p>
+<h3>君临110 至尊版</h3><p class="yacht-en">FH-110 Imperial · 110m · 30客 · 无限航区</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">110m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">30</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">19kn</div><div class="yacht-spec-label">航速</div></div></div>
+<p class="yacht-desc">远航巨舰，全球探险级超级游艇。无边泳池、水疗中心、多层甲板娱乐空间，专为环球航行打造。</p>
 <div class="yacht-card-footer"><span class="yacht-price">询价</span><a href="yacht-2.html" class="yacht-detail-btn">详情 →</a></div>
-</div>
-</div>
+</div></div>
+
+<!-- 3. 君临100 典藏版 -->
 <div class="yacht-card reveal" data-series="sovereign">
-<div class="yacht-card-img"><div class="img-placeholder yacht-3"></div><span class="yacht-card-badge">君临系列</span></div>
+<div class="yacht-card-img"><div class="img-placeholder sov-bg-3"></div><span class="yacht-card-badge badge-sov">君临系列</span></div>
 <div class="yacht-card-body">
-<h3>FH-85 Sovereign</h3>
-<p class="yacht-en">85m | 22客 | 无限航区</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">85m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">22</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">22kn</div><div class="yacht-spec-label">航速</div></div></div>
-<p style="font-size:13px;color:var(--text-muted);margin:12px 0">灵活多功能的超级游艇，适合家族环球航行或商务接待。</p>
+<h3>君临100 典藏版</h3><p class="yacht-en">FH-100 Heritage · 100m · 28客 · 无限航区</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">100m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">28</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">20kn</div><div class="yacht-spec-label">航速</div></div></div>
+<p class="yacht-desc">经典传承之作，欧式宫廷风格超级游艇。手工雕刻装饰、古董艺术品陈列、皇室级服务标准。</p>
 <div class="yacht-card-footer"><span class="yacht-price">询价</span><a href="yacht-3.html" class="yacht-detail-btn">详情 →</a></div>
-</div>
-</div>
+</div></div>
+
+<!-- 4. 君临92 领航版 -->
 <div class="yacht-card reveal" data-series="sovereign">
-<div class="yacht-card-img"><div class="img-placeholder yacht-4"></div><span class="yacht-card-badge">君临系列</span></div>
+<div class="yacht-card-img"><div class="img-placeholder sov-bg-4"></div><span class="yacht-card-badge badge-sov">君临系列</span></div>
 <div class="yacht-card-body">
-<h3>FH-70 Sovereign</h3>
-<p class="yacht-en">70m | 18客 | 无限航区</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">70m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">18</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">24kn</div><div class="yacht-spec-label">航速</div></div></div>
-<p style="font-size:13px;color:var(--text-muted);margin:12px 0">入门级超级游艇，经典优雅，易于操作管理。</p>
+<h3>君临92 领航版</h3><p class="yacht-en">FH-92 Navigator · 92m · 24客 · 无限航区</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">92m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">24</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">21kn</div><div class="yacht-spec-label">航速</div></div></div>
+<p class="yacht-desc">商务旗舰，会议接待专用超级游艇。配备多功能会议厅、同声传译系统、私密会客厅。</p>
 <div class="yacht-card-footer"><span class="yacht-price">询价</span><a href="yacht-4.html" class="yacht-detail-btn">详情 →</a></div>
-</div>
-</div>
-<!-- Expedition Series -->
-<div class="yacht-card reveal" data-series="expedition">
-<div class="yacht-card-img"><div class="img-placeholder yacht-5"></div><span class="yacht-card-badge">远征系列</span></div>
+</div></div>
+
+<!-- 5. 君临85 尊享版 -->
+<div class="yacht-card reveal" data-series="sovereign">
+<div class="yacht-card-img"><div class="img-placeholder sov-bg-5"></div><span class="yacht-card-badge badge-sov">君临系列</span></div>
 <div class="yacht-card-body">
-<h3>FH-65 Explorer Pro</h3>
-<p class="yacht-en">65m | 16客 | 极地冰级</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">65m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">16</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">9000nm</div><div class="yacht-spec-label">续航</div></div></div>
-<p style="font-size:13px;color:var(--text-muted);margin:12px 0">极地探险旗舰，冰级船体认证，可深入南极与北极海域。</p>
+<h3>君临85 尊享版</h3><p class="yacht-en">FH-85 Prestige · 85m · 22客 · 无限航区</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">85m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">22</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">22kn</div><div class="yacht-spec-label">航速</div></div></div>
+<p class="yacht-desc">家族传承之选，多代同堂海上庄园。独立家庭翼楼、儿童专属活动区、私人影院与图书馆。</p>
 <div class="yacht-card-footer"><span class="yacht-price">询价</span><a href="yacht-5.html" class="yacht-detail-btn">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="expedition">
-<div class="yacht-card-img"><div class="img-placeholder yacht-6"></div><span class="yacht-card-badge">远征系列</span></div>
+</div></div>
+
+<!-- 6. 君临78 驰骋版 -->
+<div class="yacht-card reveal" data-series="sovereign">
+<div class="yacht-card-img"><div class="img-placeholder sov-bg-6"></div><span class="yacht-card-badge badge-sov">君临系列</span></div>
 <div class="yacht-card-body">
-<h3>FH-55 Explorer</h3>
-<p class="yacht-en">55m | 14客 | 远洋级</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">55m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">14</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">7000nm</div><div class="yacht-spec-label">续航</div></div></div>
-<p style="font-size:13px;color:var(--text-muted);margin:12px 0">环球探险利器，大油舱设计，直升机起降能力。</p>
+<h3>君临78 驰骋版</h3><p class="yacht-en">FH-78 Voyager · 78m · 20客 · 极地冰级</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">78m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">20</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">7500nm</div><div class="yacht-spec-label">续航</div></div></div>
+<p class="yacht-desc">环球远征力作，极地冰级认证探险游艇。加固船体可深入极地海域，科考级设备配置。</p>
 <div class="yacht-card-footer"><span class="yacht-price">询价</span><a href="yacht-6.html" class="yacht-detail-btn">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="expedition">
-<div class="yacht-card-img"><div class="img-placeholder yacht-7"></div><span class="yacht-card-badge">远征系列</span></div>
+</div></div>
+
+<!-- 7. 君临70 荣耀版 -->
+<div class="yacht-card reveal" data-series="sovereign">
+<div class="yacht-card-img"><div class="img-placeholder sov-bg-7"></div><span class="yacht-card-badge badge-sov">君临系列</span></div>
 <div class="yacht-card-body">
-<h3>FH-45 Explorer</h3>
-<p class="yacht-en">45m | 12客 | 远洋级</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">45m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">12</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">5000nm</div><div class="yacht-spec-label">续航</div></div></div>
-<p style="font-size:13px;color:var(--text-muted);margin:12px 0">紧凑型探险游艇，高性价比，适合远洋跳岛航行。</p>
+<h3>君临70 荣耀版</h3><p class="yacht-en">FH-70 Glory · 70m · 18客 · 无限航区</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">70m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">18</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">24kn</div><div class="yacht-spec-label">航速</div></div></div>
+<p class="yacht-desc">入门级超级游艇标杆，经典优雅设计，易于操作管理。适合首次进入超艇领域的船东。</p>
 <div class="yacht-card-footer"><span class="yacht-price">询价</span><a href="yacht-7.html" class="yacht-detail-btn">详情 →</a></div>
-</div>
-</div>
-<!-- Flybridge Series -->
-<div class="yacht-card reveal" data-series="flybridge">
-<div class="yacht-card-img"><div class="img-placeholder yacht-8"></div><span class="yacht-card-badge">飞桥系列</span></div>
+</div></div>
+
+<!-- 8. 君临62 星耀版 -->
+<div class="yacht-card reveal" data-series="sovereign">
+<div class="yacht-card-img"><div class="img-placeholder sov-bg-8"></div><span class="yacht-card-badge badge-sov">君临系列</span></div>
 <div class="yacht-card-body">
-<h3>FH-45 Flybridge</h3>
-<p class="yacht-en">45m | 14客 | 沿海级</p>
+<h3>君临62 星耀版</h3><p class="yacht-en">FH-62 Stellar · 62m · 16客 · 无限航区</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">62m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">16</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">25kn</div><div class="yacht-spec-label">航速</div></div></div>
+<p class="yacht-desc">紧凑型旗舰，都市精英首选超级游艇。在有限尺寸内实现最大化空间利用与豪华配置。</p>
+<div class="yacht-card-footer"><span class="yacht-price">询价</span><a href="yacht-8.html" class="yacht-detail-btn">详情 →</a></div>
+</div></div>
+
+
+<!-- ==================== 远征系列 EXPEDITION (8艘) ==================== -->
+
+<!-- 9. 远征68 极地王 -->
+<div class="yacht-card reveal" data-series="expedition">
+<div class="yacht-card-img"><div class="img-placeholder exp-bg-1"></div><span class="yacht-card-badge badge-exp">远征系列</span></div>
+<div class="yacht-card-body">
+<h3>远征68 极地王</h3><p class="yacht-en">FH-68 Polar King · 68m · 16客 · 极地冰级</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">68m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">16</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">9000nm</div><div class="yacht-spec-label">续航</div></div></div>
+<p class="yacht-desc">极地探险旗舰，冰级船体认证，可深入南极与北极海域。专业科考设备与破冰能力兼备。</p>
+<div class="yacht-card-footer"><span class="yacht-price">¥5,800万起</span><a href="yacht-9.html" class="yacht-detail-btn">详情 →</a></div>
+</div></div>
+
+<!-- 10. 远征60 远航家 -->
+<div class="yacht-card reveal" data-series="expedition">
+<div class="yacht-card-img"><div class="img-placeholder exp-bg-2"></div><span class="yacht-card-badge badge-exp">远征系列</span></div>
+<div class="yacht-card-body">
+<h3>远征60 远航家</h3><p class="yacht-en">FH-60 Voyager Pro · 60m · 14客 · 远洋级</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">60m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">14</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">7500nm</div><div class="yacht-spec-label">续航</div></div></div>
+<p class="yacht-desc">环球巡航专家，超大油舱设计实现超长续航，直升机起降平台，真正的全球探险利器。</p>
+<div class="yacht-card-footer"><span class="yacht-price">¥4,500万起</span><a href="yacht-10.html" class="yacht-detail-btn">详情 →</a></div>
+</div></div>
+
+<!-- 11. 远征55 探索者 -->
+<div class="yacht-card reveal" data-series="expedition">
+<div class="yacht-card-img"><div class="img-placeholder exp-bg-3"></div><span class="yacht-card-badge badge-exp">远征系列</span></div>
+<div class="yacht-card-body">
+<h3>远征55 探索者</h3><p class="yacht-en">FH-55 Pathfinder · 55m · 14客 · 远洋级</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">55m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">14</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">7000nm</div><div class="yacht-spec-label">续航</div></div></div>
+<p class="yacht-desc">多功能探险游艇，搭载直升机起降平台与潜水器接口，满足从热带珊瑚礁到极地冰川的全域探索需求。</p>
+<div class="yacht-card-footer"><span class="yacht-price">¥3,600万起</span><a href="yacht-11.html" class="yacht-detail-btn">详情 →</a></div>
+</div></div>
+
+<!-- 12. 远征48 冒险家 -->
+<div class="yacht-card reveal" data-series="expedition">
+<div class="yacht-card-img"><div class="img-placeholder exp-bg-4"></div><span class="yacht-card-badge badge-exp">远征系列</span></div>
+<div class="yacht-card-body">
+<h3>远征48 冒险家</h3><p class="yacht-en">FH-48 Adventurer · 48m · 12客 · 远洋级</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">48m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">12</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">5500nm</div><div class="yacht-spec-label">续航</div></div></div>
+<p class="yacht-desc">高性价比远洋探险游艇，坚固耐造的船体设计，适合家庭环球航行与跳岛探险。</p>
+<div class="yacht-card-footer"><span class="yacht-price">¥2,800万起</span><a href="yacht-12.html" class="yacht-detail-btn">详情 →</a></div>
+</div></div>
+
+<!-- 13. 远征42 航海士 -->
+<div class="yacht-card reveal" data-series="expedition">
+<div class="yacht-card-img"><div class="img-placeholder exp-bg-5"></div><span class="yacht-card-badge badge-exp">远征系列</span></div>
+<div class="yacht-card-body">
+<h3>远征42 航海士</h3><p class="yacht-en">FH-42 Mariner · 42m · 10客 · 远洋级</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">42m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">10</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">4500nm</div><div class="yacht-spec-label">续航</div></div></div>
+<p class="yacht-desc">专业远航游艇，科考级导航与通信设备配置，为热爱海洋探索的专业人士量身打造。</p>
+<div class="yacht-card-footer"><span class="yacht-price">¥2,200万起</span><a href="yacht-13.html" class="yacht-detail-btn">详情 →</a></div>
+</div></div>
+
+<!-- 14. 远征38 破浪者 -->
+<div class="yacht-card reveal" data-series="expedition">
+<div class="yacht-card-img"><div class="img-placeholder exp-bg-6"></div><span class="yacht-card-badge badge-exp">远征系列</span></div>
+<div class="yacht-card-body">
+<h3>远征38 破浪者</h3><p class="yacht-en">FH-38 Wavebreaker · 38m · 10客 · 沿海+近海</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">38m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">10</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">4000nm</div><div class="yacht-spec-label">续航</div></div></div>
+<p class="yacht-desc">坚固耐造的紧凑型探险游艇，极简主义探险美学，低运营成本高可靠性。</p>
+<div class="yacht-card-footer"><span class="yacht-price">¥1,800万起</span><a href="yacht-14.html" class="yacht-detail-btn">详情 →</a></div>
+</div></div>
+
+<!-- 15. 远征35 自由魂 -->
+<div class="yacht-card reveal" data-series="expedition">
+<div class="yacht-card-img"><div class="img-placeholder exp-bg-7"></div><span class="yacht-card-badge badge-exp">远征系列</span></div>
+<div class="yacht-card-body">
+<h3>远征35 自由魂</h3><p class="yacht-en">FH-35 Free Spirit · 35m · 8客 · 近海级</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">35m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">8</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">3500nm</div><div class="yacht-spec-label">续航</div></div></div>
+<p class="yacht-desc">轻量探险游艇，灵活操控低运营成本，适合近海岛屿探索与周末远航冒险。</p>
+<div class="yacht-card-footer"><span class="yacht-price">¥1,500万起</span><a href="yacht-15.html" class="yacht-detail-btn">详情 →</a></div>
+</div></div>
+
+<!-- 16. 远征40 追风号 -->
+<div class="yacht-card reveal" data-series="expedition">
+<div class="yacht-card-img"><div class="img-placeholder exp-bg-8"></div><span class="yacht-card-badge badge-exp">远征系列</span></div>
+<div class="yacht-card-body">
+<h3>远征40 追风号</h3><p class="yacht-en">FH-40 Windchaser · 40m · 10客 · 远洋级</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">40m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">10</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">22kn</div><div class="yacht-spec-label">航速</div></div></div>
+<p class="yacht-desc">运动探险融合之作，高速远航双优表现，混合动力系统兼顾性能与环保。</p>
+<div class="yacht-card-footer"><span class="yacht-price">¥2,000万起</span><a href="yacht-16.html" class="yacht-detail-btn">详情 →</a></div>
+</div></div>
+
+
+<!-- ==================== 飞桥系列 FLYBRIDGE (8艘) ==================== -->
+
+<!-- 17. 飞桥45 皇家号 -->
+<div class="yacht-card reveal" data-series="flybridge">
+<div class="yacht-card-img"><div class="img-placeholder fly-bg-1"></div><span class="yacht-card-badge badge-fly">飞桥系列</span></div>
+<div class="yacht-card-body">
+<h3>飞桥45 皇家号</h3><p class="yacht-en">FH-45 Royal Fly · 45m · 14客 · 沿海级</p>
 <div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">45m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">14</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">28kn</div><div class="yacht-spec-label">航速</div></div></div>
-<p style="font-size:13px;color:var(--text-muted);margin:12px 0">大型飞桥运动游艇，宽敞飞桥甲板适合社交娱乐。</p>
-<div class="yacht-card-footer"><span class="yacht-price">¥5,800万起</span><a href="yacht-8.html" class="yacht-detail-btn">详情 →</a></div>
-</div>
-</div>
+<p class="yacht-desc">大型飞桥旗舰，社交娱乐空间之王。超大飞桥甲板配露天酒吧与按摩浴缸，派对与商务两全其美。</p>
+<div class="yacht-card-footer"><span class="yacht-price">¥3,200万起</span><a href="yacht-17.html" class="yacht-detail-btn">详情 →</a></div>
+</div></div>
+
+<!-- 18. 飞桥38 盛宴号 -->
 <div class="yacht-card reveal" data-series="flybridge">
-<div class="yacht-card-img"><div class="img-placeholder yacht-1"></div><span class="yacht-card-badge">飞桥系列</span></div>
+<div class="yacht-card-img"><div class="img-placeholder fly-bg-2"></div><span class="yacht-card-badge badge-fly">飞桥系列</span></div>
 <div class="yacht-card-body">
-<h3>FH-35 Flybridge</h3>
-<p class="yacht-en">35m | 12客 | 沿海级</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">35m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">12</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">30kn</div><div class="yacht-spec-label">航速</div></div></div>
-<p style="font-size:13px;color:var(--text-muted);margin:12px 0">经典飞桥游艇，平衡速度与优雅，地中海巡航首选。</p>
-<div class="yacht-card-footer"><span class="yacht-price">¥3,200万起</span><a href="yacht-9.html" class="yacht-detail-btn">详情 →</a></div>
-</div>
-</div>
+<h3>飞桥38 盛宴号</h3><p class="yacht-en">FH-38 Gala Fly · 38m · 12客 · 沿海级</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">38m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">12</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">30kn</div><div class="yacht-spec-label">航速</div></div></div>
+<p class="yacht-desc">派对专家，超大飞桥甲板设计，内置户外厨房与环绕音响系统，海上派对的终极选择。</p>
+<div class="yacht-card-footer"><span class="yacht-price">¥2,400万起</span><a href="yacht-18.html" class="yacht-detail-btn">详情 →</a></div>
+</div></div>
+
+<!-- 19. 飞桥32 领航者 -->
 <div class="yacht-card reveal" data-series="flybridge">
-<div class="yacht-card-img"><div class="img-placeholder yacht-2"></div><span class="yacht-card-badge">飞桥系列</span></div>
+<div class="yacht-card-img"><div class="img-placeholder fly-bg-3"></div><span class="yacht-card-badge badge-fly">飞桥系列</span></div>
 <div class="yacht-card-body">
-<h3>FH-28 Flybridge</h3>
-<p class="yacht-en">28m | 10客 | 沿海级</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">28m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">10</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">32kn</div><div class="yacht-spec-label">航速</div></div></div>
-<p style="font-size:13px;color:var(--text-muted);margin:12px 0">中型飞桥游艇，灵活操控，低运营成本。</p>
-<div class="yacht-card-footer"><span class="yacht-price">¥1,800万起</span><a href="yacht-10.html" class="yacht-detail-btn">详情 →</a></div>
-</div>
-</div>
+<h3>飞桥32 领航者</h3><p class="yacht-en">FH-32 Pilot Fly · 32m · 10客 · 沿海级</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">32m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">10</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">32kn</div><div class="yacht-spec-label">航速</div></div></div>
+<p class="yacht-desc">经典飞桥游艇，完美平衡速度与优雅，地中海巡航首选，兼具舒适性与操控乐趣。</p>
+<div class="yacht-card-footer"><span class="yacht-price">¥1,600万起</span><a href="yacht-19.html" class="yacht-detail-btn">详情 →</a></div>
+</div></div>
+
+<!-- 20. 飞桥28 悦享号 -->
 <div class="yacht-card reveal" data-series="flybridge">
-<div class="yacht-card-img"><div class="img-placeholder yacht-3"></div><span class="yacht-card-badge">飞桥系列</span></div>
+<div class="yacht-card-img"><div class="img-placeholder fly-bg-4"></div><span class="yacht-card-badge badge-fly">飞桥系列</span></div>
 <div class="yacht-card-body">
-<h3>FH-22 Flybridge</h3>
-<p class="yacht-en">22m | 8客 | 沿海级</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">22m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">8</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">35kn</div><div class="yacht-spec-label">航速</div></div></div>
-<p style="font-size:13px;color:var(--text-muted);margin:12px 0">入门级飞桥，周末出游或商务接待的理想选择。</p>
-<div class="yacht-card-footer"><span class="yacht-price">¥880万起</span><a href="yacht-11.html" class="yacht-detail-btn">详情 →</a></div>
-</div>
-</div>
-<!-- Day Cruiser Series -->
+<h3>飞桥28 悦享号</h3><p class="yacht-en">FH-28 Joy Fly · 28m · 10客 · 沿海级</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">28m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">10</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">34kn</div><div class="yacht-spec-label">航速</div></div></div>
+<p class="yacht-desc">中型飞桥游艇，灵活操控低运营成本，宽敞飞桥甲板适合家庭出游与朋友聚会。</p>
+<div class="yacht-card-footer"><span class="yacht-price">¥1,100万起</span><a href="yacht-20.html" class="yacht-detail-btn">详情 →</a></div>
+</div></div>
+
+<!-- 21. 飞桥25 璀璨号 -->
+<div class="yacht-card reveal" data-series="flybridge">
+<div class="yacht-card-img"><div class="img-placeholder fly-bg-5"></div><span class="yacht-card-badge badge-fly">飞桥系列</span></div>
+<div class="yacht-card-body">
+<h3>飞桥25 璀璨号</h3><p class="yacht-en">FH-25 Brilliant Fly · 25m · 8客 · 沿海级</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">25m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">8</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">35kn</div><div class="yacht-spec-label">航速</div></div></div>
+<p class="yacht-desc">入门级飞桥游艇，周末出游或商务接待的理想选择，性价比出众。</p>
+<div class="yacht-card-footer"><span class="yacht-price">¥750万起</span><a href="yacht-21.html" class="yacht-detail-btn">详情 →</a></div>
+</div></div>
+
+<!-- 22. 飞桥22 星光号 -->
+<div class="yacht-card reveal" data-series="flybridge">
+<div class="yacht-card-img"><div class="img-placeholder fly-bg-6"></div><span class="yacht-card-badge badge-fly">飞桥系列</span></div>
+<div class="yacht-card-body">
+<h3>飞桥22 星光号</h3><p class="yacht-en">FH-22 Starlight Fly · 22m · 8客 · 沿海级</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">22m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">8</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">36kn</div><div class="yacht-spec-label">航速</div></div></div>
+<p class="yacht-desc">紧凑型飞桥游艇，商务接待与休闲出游两相宜，停泊灵活易于管理。</p>
+<div class="yacht-card-footer"><span class="yacht-price">¥580万起</span><a href="yacht-22.html" class="yacht-detail-btn">详情 →</a></div>
+</div></div>
+
+<!-- 23. 飞桥20 晨曦号 -->
+<div class="yacht-card reveal" data-series="flybridge">
+<div class="yacht-card-img"><div class="img-placeholder fly-bg-7"></div><span class="yacht-card-badge badge-fly">飞桥系列</span></div>
+<div class="yacht-card-body">
+<h3>飞桥20 晨曦号</h3><p class="yacht-en">FH-20 Dawn Fly · 20m · 6客 · 沿海级</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">20m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">6</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">38kn</div><div class="yacht-spec-label">航速</div></div></div>
+<p class="yacht-desc">轻巧飞桥游艇，近海短途完美伴侣，日出巡航与日落巡游的最佳拍档。</p>
+<div class="yacht-card-footer"><span class="yacht-price">¥480万起</span><a href="yacht-23.html" class="yacht-detail-btn">详情 →</a></div>
+</div></div>
+
+<!-- 24. 飞桥18 微风号 -->
+<div class="yacht-card reveal" data-series="flybridge">
+<div class="yacht-card-img"><div class="img-placeholder fly-bg-8"></div><span class="yacht-card-badge badge-fly">飞桥系列</span></div>
+<div class="yacht-card-body">
+<h3>飞桥18 微风号</h3><p class="yacht-en">FH-18 Breeze Fly · 18m · 6客 · 沿海级</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">18m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">6</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">38kn</div><div class="yacht-spec-label">航速</div></div></div>
+<p class="yacht-desc">最小飞桥游艇，入门体验飞桥生活的最佳起点，经济实惠且功能完备。</p>
+<div class="yacht-card-footer"><span class="yacht-price">¥380万起</span><a href="yacht-24.html" class="yacht-detail-btn">详情 →</a></div>
+</div></div>
+
+
+<!-- ==================== 日间系列 CRUISER (8艘) ==================== -->
+
+<!-- 25. 日间18 疾风号 -->
 <div class="yacht-card reveal" data-series="cruiser">
-<div class="yacht-card-img"><div class="img-placeholder yacht-4"></div><span class="yacht-card-badge">日间系列</span></div>
+<div class="yacht-card-img"><div class="img-placeholder cru-bg-1"></div><span class="yacht-card-badge badge-cru">日间系列</span></div>
 <div class="yacht-card-body">
-<h3>FH-18 Day Cruiser</h3>
-<p class="yacht-en">18m | 12客 | 沿海级</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">18m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">12</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">38kn</div><div class="yacht-spec-label">航速</div></div></div>
-<p style="font-size:13px;color:var(--text-muted);margin:12px 0">大型日间巡航游艇，宽敞甲板与快艇级性能。</p>
-<div class="yacht-card-footer"><span class="yacht-price">¥480万起</span><a href="yacht-12.html" class="yacht-detail-btn">详情 →</a></div>
-</div>
-</div>
+<h3>日间18 疾风号</h3><p class="yacht-en">FH-18 Gale Cruiser · 18m · 12客 · 沿海级</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">18m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">12</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">40kn</div><div class="yacht-spec-label">航速</div></div></div>
+<p class="yacht-desc">大型日间巡航游艇，快艇级性能表现，宽敞甲板与强劲动力完美结合。</p>
+<div class="yacht-card-footer"><span class="yacht-price">¥480万起</span><a href="yacht-25.html" class="yacht-detail-btn">详情 →</a></div>
+</div></div>
+
+<!-- 26. 日间15 闪电号 -->
 <div class="yacht-card reveal" data-series="cruiser">
-<div class="yacht-card-img"><div class="img-placeholder yacht-5"></div><span class="yacht-card-badge">日间系列</span></div>
+<div class="yacht-card-img"><div class="img-placeholder cru-bg-2"></div><span class="yacht-card-badge badge-cru">日间系列</span></div>
 <div class="yacht-card-body">
-<h3>FH-15 Day Cruiser</h3>
-<p class="yacht-en">15m | 10客 | 沿海级</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">15m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">10</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">42kn</div><div class="yacht-spec-label">航速</div></div></div>
-<p style="font-size:13px;color:var(--text-muted);margin:12px 0">经典日间巡航游艇，适合沿海城市周末出游。</p>
-<div class="yacht-card-footer"><span class="yacht-price">¥320万起</span><a href="yacht-13.html" class="yacht-detail-btn">详情 →</a></div>
-</div>
-</div>
+<h3>日间15 闪电号</h3><p class="yacht-en">FH-15 Lightning Cruiser · 15m · 10客 · 沿海级</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">15m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">10</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">44kn</div><div class="yacht-spec-label">航速</div></div></div>
+<p class="yacht-desc">经典日间巡航游艇，沿海城市周末出游首选，速度与舒适性的黄金平衡。</p>
+<div class="yacht-card-footer"><span class="yacht-price">¥320万起</span><a href="yacht-26.html" class="yacht-detail-btn">详情 →</a></div>
+</div></div>
+
+<!-- 27. 日间13 追潮号 -->
 <div class="yacht-card reveal" data-series="cruiser">
-<div class="yacht-card-img"><div class="img-placeholder yacht-6"></div><span class="yacht-card-badge">日间系列</span></div>
+<div class="yacht-card-img"><div class="img-placeholder cru-bg-3"></div><span class="yacht-card-badge badge-cru">日间系列</span></div>
 <div class="yacht-card-body">
-<h3>FH-12 Day Cruiser</h3>
-<p class="yacht-en">12m | 8客 | 沿海级</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">12m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">8</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">45kn</div><div class="yacht-spec-label">航速</div></div></div>
-<p style="font-size:13px;color:var(--text-muted);margin:12px 0">紧凑型日间游艇，灵活高速，易于停泊管理。</p>
-<div class="yacht-card-footer"><span class="yacht-price">¥280万起</span><a href="yacht-14.html" class="yacht-detail-btn">详情 →</a></div>
-</div>
-</div>
+<h3>日间13 追潮号</h3><p class="yacht-en">FH-13 Tide Chaser · 13m · 8客 · 沿海级</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">13m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">8</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">46kn</div><div class="yacht-spec-label">航速</div></div></div>
+<p class="yacht-desc">运动型日间游艇，速度与激情的化身，深V船底设计确保高速稳定性。</p>
+<div class="yacht-card-footer"><span class="yacht-price">¥240万起</span><a href="yacht-27.html" class="yacht-detail-btn">详情 →</a></div>
+</div></div>
+
+<!-- 28. 日间11 极速号 -->
 <div class="yacht-card reveal" data-series="cruiser">
-<div class="yacht-card-img"><div class="img-placeholder yacht-7"></div><span class="yacht-card-badge">日间系列</span></div>
+<div class="yacht-card-img"><div class="img-placeholder cru-bg-4"></div><span class="yacht-card-badge badge-cru">日间系列</span></div>
 <div class="yacht-card-body">
-<h3>FH-10 Day Cruiser</h3>
-<p class="yacht-en">10m | 6客 | 沿海级</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">10m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">6</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">48kn</div><div class="yacht-spec-label">航速</div></div></div>
-<p style="font-size:13px;color:var(--text-muted);margin:12px 0">入门级日间游艇，适合首次体验游艇生活的新船东。</p>
-<div class="yacht-card-footer"><span class="yacht-price">¥180万起</span><a href="yacht-15.html" class="yacht-detail-btn">详情 →</a></div>
-</div>
-</div>
-</div>
-<div style="text-align:center;margin-top:48px" class="reveal">
-<p style="color:var(--text-muted);margin-bottom:20px">以上展示部分船型，完整产品线请咨询顾问</p>
-<a href="contact.html" class="btn btn-primary btn-gold-sweep">预约产品顾问</a>
+<h3>日间11 极速号</h3><p class="yacht-en">FH-11 Velocity Cruiser · 11m · 6客 · 沿海级</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">11m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">6</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">48kn</div><div class="yacht-spec-label">航速</div></div></div>
+<p class="yacht-desc">紧凑型运动游艇，灵活高速易停泊，城市港口穿梭的理想选择。</p>
+<div class="yacht-card-footer"><span class="yacht-price">¥180万起</span><a href="yacht-28.html" class="yacht-detail-btn">详情 →</a></div>
+</div></div>
+
+<!-- 29. 日间10 先锋号 -->
+<div class="yacht-card reveal" data-series="cruiser">
+<div class="yacht-card-img"><div class="img-placeholder cru-bg-5"></div><span class="yacht-card-badge badge-cru">日间系列</span></div>
+<div class="yacht-card-body">
+<h3>日间10 先锋号</h3><p class="yacht-en">FH-10 Pioneer Cruiser · 10m · 6客 · 沿海级</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">10m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">6</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">50kn</div><div class="yacht-spec-label">航速</div></div></div>
+<p class="yacht-desc">入门级日间游艇，首次体验游艇生活的理想起点，操作简单维护便捷。</p>
+<div class="yacht-card-footer"><span class="yacht-price">¥150万起</span><a href="yacht-29.html" class="yacht-detail-btn">详情 →</a></div>
+</div></div>
+
+<!-- 30. 日间16 骑士号 -->
+<div class="yacht-card reveal" data-series="cruiser">
+<div class="yacht-card-img"><div class="img-placeholder cru-bg-6"></div><span class="yacht-card-badge badge-cru">日间系列</span></div>
+<div class="yacht-card-body">
+<h3>日间16 骑士号</h3><p class="yacht-en">FH-16 Knight Cruiser · 16m · 10客 · 沿海级</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">16m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">10</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">42kn</div><div class="yacht-spec-label">航速</div></div></div>
+<p class="yacht-desc">中型日间巡航游艇，载客量与速度的黄金平衡，适合团体出海活动。</p>
+<div class="yacht-card-footer"><span class="yacht-price">¥380万起</span><a href="yacht-30.html" class="yacht-detail-btn">详情 →</a></div>
+</div></div>
+
+<!-- 31. 日间14 浪花号 -->
+<div class="yacht-card reveal" data-series="cruiser">
+<div class="yacht-card-img"><div class="img-placeholder cru-bg-7"></div><span class="yacht-card-badge badge-cru">日间系列</span></div>
+<div class="yacht-card-body">
+<h3>日间14 浪花号</h3><p class="yacht-en">FH-14 Spray Cruiser · 14m · 8客 · 沿海级</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">14m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">8</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">45kn</div><div class="yacht-spec-label">航速</div></div></div>
+<p class="yacht-desc">休闲型日间游艇，水上玩具友好设计，尾波冲浪与拖曳浮排的绝佳平台。</p>
+<div class="yacht-card-footer"><span class="yacht-price">¥280万起</span><a href="yacht-31.html" class="yacht-detail-btn">详情 →</a></div>
+</div></div>
+
+<!-- 32. 日间12 航行者 -->
+<div class="yacht-card reveal" data-series="cruiser">
+<div class="yacht-card-img"><div class="img-placeholder cru-bg-8"></div><span class="yacht-card-badge badge-cru">日间系列</span></div>
+<div class="yacht-card-body">
+<h3>日间12 航行者</h3><p class="yacht-en">FH-12 Voyager Cruiser · 12m · 8客 · 沿海级</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">12m</div><div class="yacht-spec-label">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">8</div><div class="yacht-spec-label">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">47kn</div><div class="yacht-spec-label">航速</div></div></div>
+<p class="yacht-desc">实用型日间游艇，高性价比入门选择，功能齐全且维护成本低廉。</p>
+<div class="yacht-card-footer"><span class="yacht-price">¥220万起</span><a href="yacht-32.html" class="yacht-detail-btn">详情 →</a></div>
+</div></div>
+
+</div><!-- end yachts-grid -->
+
+<div style="text-align:center;margin-top:56px" class="reveal">
+<p style="color:var(--text-muted);margin-bottom:20px;font-size:15px">以上展示全部 32 款船型，每款均可深度定制</p>
+<a href="contact.html" class="btn btn-primary btn-gold-sweep">预约产品顾问获取详细方案</a>
 </div>
 </div>
 </section>
 
 <!-- CTA -->
-<section style="padding:80px 0;text-align:center;background:var(--dark2);border-top:1px solid var(--glass-border)">
-<div class="container reveal" style="max-width:600px">
-<h3 style="font-size:24px;margin-bottom:16px">找不到心仪的船型？</h3>
-<p style="color:var(--text-muted);margin-bottom:24px">我们提供全流程定制服务，从概念到交付，打造独一无二的专属游艇</p>
+<section class="cta-section">
+<div class="container reveal" style="max-width:620px;position:relative;z-index:2">
+<h3 style="font-size:26px;margin-bottom:16px;font-family:'Playfair Display',serif">找不到心仪的船型？</h3>
+<p style="color:var(--text-muted);margin-bottom:28px;line-height:1.7">我们提供全流程定制服务，从概念设计到交付运营，打造独一无二的专属游艇。奇幻假期原创设计团队将您的愿景变为现实。</p>
+<div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap">
 <a href="custom.html" class="btn btn-outline">了解定制服务 →</a>
+<a href="contact.html" class="btn btn-primary btn-gold-sweep">立即咨询</a>
+</div>
 </div>
 </section>
 
@@ -233,11 +628,10 @@
 </div>
 <div class="footer-col"><h4>快速导航</h4><ul><li><a href="index.html">首页</a></li><li><a href="about.html">关于我们</a></li><li><a href="yachts.html">游艇产品</a></li><li><a href="custom.html">定制服务</a></li><li><a href="charter.html">租赁航线</a></li><li><a href="management.html">托管维保</a></li><li><a href="cases.html">案例展示</a></li><li><a href="news.html">新闻资讯</a></li><li><a href="partnership.html">全球合作</a></li><li><a href="contact.html">联系我们</a></li></ul></div>
 <div class="footer-col"><h4>核心服务</h4><ul><li><a href="yachts.html">游艇销售</a></li><li><a href="custom.html">全案定制</a></li><li><a href="charter.html">租赁航行</a></li><li><a href="management.html">托管维保</a></li></ul></div>
-<div class="footer-col"><h4>联系方式</h4><ul><li>📞 +86 400-888-9999</li><li>✉️ concierge@fantasyholiday.com</li><li>📍 香港中环金融街8号</li></ul></div>
+<div class="footer-col"><h4>联系方式</h4><ul><li>📞 +86 137-9792-0792</li><li>✉️ concierge@fantasyholiday.com</li><li>📍 香港中环金融街8号</li></ul></div>
 </div>
 <div class="footer-bottom"><p>© 2026 奇幻假期实业有限公司</p><p><a href="privacy.html">隐私政策</a> · <a href="terms.html">使用条款</a></p></div>
 </div></footer>
-
 
 <script>
 window.addEventListener("DOMContentLoaded",function(){
@@ -252,5 +646,28 @@ window.addEventListener("scroll",function(){var nav=document.getElementById("nav
 function toggleMobile(){document.getElementById("mobile-menu").classList.toggle("active");document.querySelector(".hamburger").classList.toggle("active")}
 (function(){var c=document.getElementById("cursor");if(c)document.addEventListener("mousemove",function(e){c.style.left=e.pageX+"px";c.style.top=e.pageY+"px"})})();
 (function(){var o=new IntersectionObserver(function(e){e.forEach(function(e){if(e.isIntersecting)e.target.classList.add("revealed")})},{threshold:0.1});document.querySelectorAll(".reveal,.reveal-left,.reveal-right,.reveal-scale").forEach(function(e){o.observe(e)})})();
+
+// Filter functionality
+(function(){
+  var btns=document.querySelectorAll('.filter-btn');
+  var cards=document.querySelectorAll('.yacht-card');
+  btns.forEach(function(btn){
+    btn.addEventListener('click',function(){
+      btns.forEach(function(b){b.classList.remove('active')});
+      btn.classList.add('active');
+      var filter=btn.getAttribute('data-filter');
+      cards.forEach(function(card){
+        if(filter==='all'||card.getAttribute('data-series')===filter){
+          card.style.display='';
+          setTimeout(function(){card.style.opacity='1';card.style.transform='translateY(0)'},50);
+        }else{
+          card.style.opacity='0';
+          card.style.transform='translateY(20px)';
+          setTimeout(function(){card.style.display='none'},400);
+        }
+      });
+    });
+  });
+})();
 </script>
 </body></html>
