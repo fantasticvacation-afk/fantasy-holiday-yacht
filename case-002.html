@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>地中海30天深度巡航 | 奇幻假期 fantastic.vacation 租赁航行案例</title>
+<meta name="description" content="奇幻假期地中海30天深度巡航案例，65米超级游艇途经12个国家24个港口，配备米其林主厨、私人潜水教练及多语言礼宾团队，全程无意外满意度100%。">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+.case-hero{position:relative;min-height:90vh;display:flex;align-items:flex-end;overflow:hidden;background:#0a1628}
+.case-hero-bg{position:absolute;inset:0;background:url('images/yttp/yacht-023.jpg') center/cover no-repeat fixed;opacity:0.48;filter:saturate(0.7)}
+.case-hero::before{content:'';position:absolute;inset:0;background:linear-gradient(to top,#0a1628 0%,rgba(10,22,40,0.7) 50%,rgba(10,22,40,0.3) 100%)}
+.case-hero-content{position:relative;z-index:3;padding:60px 24px;max-width:1000px}
+.case-hero-tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
+.case-hero-tag{font-size:10px;padding:6px 16px;border-radius:24px;background:rgba(201,169,110,0.15);border:1px solid rgba(201,169,110,0.3);color:#c9a96e;text-transform:uppercase;letter-spacing:1.5px}
+.case-hero h1{font-family:'Playfair Display',serif;font-size:clamp(36px,5vw,62px);font-weight:800;letter-spacing:2px;margin-bottom:14px;color:#e8eef5}
+.case-hero-sub{font-size:clamp(14px,1.5vw,18px);color:rgba(200,210,225,0.6);font-weight:300;letter-spacing:1px;margin-bottom:30px;max-width:700px}
+.case-stats-row{display:flex;flex-wrap:wrap;gap:32px;margin-top:36px}
+.case-stat{display:flex;flex-direction:column}
+.case-stat-num{font-family:'Playfair Display',serif;font-size:28px;font-weight:700;color:#c9a96e}
+.case-stat-label{font-size:11px;color:rgba(200,210,225,0.5);margin-top:4px;letter-spacing:1px;text-transform:uppercase}
+.section-case{padding:80px 0}
+.section-case-alt{padding:80px 0;background:linear-gradient(180deg,#0c1829 0%,#0a1628 100%)}
+.section-header-case{margin-bottom:48px}
+.section-header-case h2{font-family:'Playfair Display',serif;font-size:clamp(26px,3vw,36px);font-weight:700;color:#e8eef5;margin-bottom:12px;letter-spacing:1px}
+.section-header-case p{font-size:14px;color:rgba(200,210,225,0.55);max-width:600px}
+.info-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.info-card{background:linear-gradient(145deg,rgba(255,255,255,0.025),rgba(255,255,255,0.005));border:1px solid rgba(201,169,110,0.08);border-radius:14px;padding:28px 24px;text-align:center}
+.info-card-label{font-size:10px;color:rgba(200,210,225,0.5);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:10px}
+.info-card-value{font-family:'Playfair Display',serif;font-size:22px;font-weight:700;color:#e8eef5}
+.info-card-note{font-size:12px;color:rgba(201,169,110,0.8);margin-top:6px}
+.content-block{margin-bottom:48px}
+.content-block h3{font-size:18px;font-weight:600;color:#e8eef5;margin-bottom:16px;letter-spacing:0.5px}
+.content-block p{font-size:14px;color:rgba(200,210,225,0.6);line-height:1.85;margin-bottom:14px}
+.content-block ul{list-style:none;padding:0;margin:0}
+.content-block li{font-size:14px;color:rgba(200,210,225,0.6);line-height:1.85;padding-left:24px;position:relative;margin-bottom:10px}
+.content-block li::before{content:'✓';position:absolute;left:0;color:#c9a96e;font-weight:700}
+.process-timeline{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.process-step{background:linear-gradient(145deg,rgba(255,255,255,0.02),rgba(255,255,255,0.005));border:1px solid rgba(201,169,110,0.08);border-radius:16px;padding:32px 24px;position:relative}
+.process-num{position:absolute;top:-14px;left:28px;width:32px;height:32px;border-radius:50%;background:linear-gradient(135deg,#c9a96e,#dbb872);color:#0a1628;font-family:'Playfair Display',serif;font-size:16px;font-weight:700;display:flex;align-items:center;justify-content:center}
+.process-step h4{font-size:16px;font-weight:600;color:#e8eef5;margin-bottom:14px;margin-top:8px}
+.process-step ul{list-style:none;padding:0;margin:0}
+.process-step li{font-size:12.5px;color:rgba(200,210,225,0.55);line-height:1.7;padding-left:16px;position:relative;margin-bottom:6px}
+.process-step li::before{content:'·';position:absolute;left:0;color:#c9a96e;font-weight:700;font-size:16px}
+.gallery-grid-c{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.gallery-item-c{aspect-ratio:16/10;background:linear-gradient(135deg,#0d1f35 0%,#152a42 100%);border-radius:12px;overflow:hidden;position:relative}
+.gallery-item-c img{width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease}
+.gallery-item-c:hover img{transform:scale(1.06)}
+.gallery-item-c::after{content:attr(data-label);position:absolute;bottom:10px;left:12px;font-size:10px;color:rgba(200,210,225,0.6);background:rgba(0,0,0,0.6);padding:4px 10px;border-radius:4px}
+.highlight-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.highlight-card{background:linear-gradient(145deg,rgba(201,169,110,0.08),rgba(201,169,110,0.02));border:1px solid rgba(201,169,110,0.15);border-radius:16px;padding:32px 24px;text-align:center}
+.highlight-card h4{font-size:16px;font-weight:600;color:#c9a96e;margin-bottom:14px}
+.highlight-card p{font-size:13px;color:rgba(200,210,225,0.6);line-height:1.75}
+.feedback-box{background:linear-gradient(145deg,rgba(255,255,255,0.025),rgba(255,255,255,0.005));border:1px solid rgba(201,169,110,0.1);border-radius:18px;padding:40px}
+.feedback-quote{font-family:'Playfair Display',serif;font-size:clamp(18px,2.2vw,26px);font-style:italic;color:rgba(200,210,225,0.8);line-height:1.7;margin-bottom:24px}
+.feedback-author{font-size:13px;color:rgba(200,210,225,0.5)}
+.result-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:36px}
+.result-stat{text-align:center}
+.result-stat-num{font-family:'Playfair Display',serif;font-size:36px;font-weight:800;color:#c9a96e}
+.result-stat-label{font-size:11px;color:rgba(200,210,225,0.5);margin-top:6px;letter-spacing:1px}
+.cta-case{padding:80px 0;text-align:center;background:linear-gradient(180deg,#0a1628 0%,#0c1829 100%)}
+.cta-case h2{font-family:'Playfair Display',serif;font-size:clamp(28px,3.5vw,42px);font-weight:700;margin-bottom:16px;background:linear-gradient(135deg,#c9a96e,#e8d5a8);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.cta-case p{font-size:15px;color:rgba(200,210,225,0.55);margin-bottom:32px;max-width:560px;margin-left:auto;margin-right:auto}
+.cta-case .cta-email{display:inline-flex;align-items:center;gap:12px;padding:16px 40px;border-radius:30px;background:linear-gradient(135deg,rgba(201,169,110,0.15),rgba(201,169,110,0.04));border:1px solid rgba(201,169,110,0.35);color:#c9a96e;font-size:15px;text-decoration:none}
+@media (max-width:1024px){.info-grid,.process-timeline,.highlight-cards,.result-stats{grid-template-columns:repeat(2,1fr)}.gallery-grid-c{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:640px){.info-grid,.process-timeline,.highlight-cards,.result-stats,.gallery-grid-c{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div id="loader"><div class="brand">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div></div>
+<nav id="navbar"><div class="container"><div class="nav-inner">
+<a href="index.html" class="nav-logo"><svg viewBox="0 0 32 32" fill="none"><path d="M4 24L16 4l12 20H4z" stroke="#c9a96e" stroke-width="1.5" fill="none"/><path d="M8 20h16l-8-12-8 12z" stroke="#c9a96e" stroke-width="1" fill="rgba(201,169,110,0.1)"/></svg>FANTASTIC VACATION</a>
+<div class="nav-links">
+<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a><a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a><a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a><a href="contact.html" class="nav-cta">联系我们</a>
+</div>
+<div class="hamburger" onclick="toggleMobile()"><span></span><span></span><span></span></div>
+</div></div></nav>
+<div class="mobile-menu" id="mobile-menu">
+<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a><a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a><a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a><a href="contact.html">联系我们</a>
+</div>
+
+<!-- ===== CASE HERO ===== -->
+<section class="case-hero">
+<div class="case-hero-bg"></div>
+<div class="case-hero-content">
+<div class="case-hero-tags reveal">
+<span class="case-hero-tag">租赁航行</span>
+<span class="case-hero-tag">65m超级游艇</span>
+<span class="case-hero-tag">地中海</span>
+<span class="case-hero-tag">30天</span>
+</div>
+<h1 class="reveal">地中海30天深度巡航</h1>
+<p class="case-hero-sub reveal">为欧洲家族企业定制，途经12个国家24个港口，配备米其林主厨、私人潜水教练及多语言礼宾团队。全程无意外，满意度100%。</p>
+<div class="case-stats-row reveal">
+<div class="case-stat"><span class="case-stat-num">65m</span><span class="case-stat-label">游艇总长</span></div>
+<div class="case-stat"><span class="case-stat-num">12</span><span class="case-stat-label">途经国家</span></div>
+<div class="case-stat"><span class="case-stat-num">24</span><span class="case-stat-label">停靠港口</span></div>
+<div class="case-stat"><span class="case-stat-num">30</span><span class="case-stat-label">天航程</span></div>
+</div>
+</div>
+</section>
+
+<!-- ===== CASE OVERVIEW ===== -->
+<section class="section-case">
+<div class="container">
+<div class="section-header-case reveal"><h2>案例概览</h2></div>
+<div class="info-grid reveal">
+<div class="info-card"><div class="info-card-label">游艇名称</div><div class="info-card-value">Mediterranean Queen</div><div class="info-card-note">地中海皇后号</div></div>
+<div class="info-card"><div class="info-card-label">游艇总长</div><div class="info-card-value">65米</div><div class="info-card-note">钢铝复合结构</div></div>
+<div class="info-card"><div class="info-card-label">服务类型</div><div class="info-card-value">租赁航行</div><div class="info-card-note">私人定制航线</div></div>
+<div class="info-card"><div class="info-card-label">服务海域</div><div class="info-card-value">地中海</div><div class="info-card-note">12国24港</div></div>
+</div>
+<div class="info-grid reveal" style="margin-top:24px">
+<div class="info-card"><div class="info-card-label">客户背景</div><div class="info-card-value">欧洲家族企业</div><div class="info-card-note">私人度假+商务接待</div></div>
+<div class="info-card"><div class="info-card-label">服务年份</div><div class="info-card-value">2023年</div><div class="info-card-note">7月-8月航程</div></div>
+<div class="info-card"><div class="info-card-label">团队规模</div><div class="info-card-value">28人</div><div class="info-card-note">含6名专业向导</div></div>
+<div class="info-card"><div class="info-card-label">核心亮点</div><div class="info-card-value">米其林主厨+潜水教练</div><div class="info-card-note">满意度100%</div></div>
+</div>
+</div>
+</section>
+
+<!-- ===== CLIENT NEEDS ===== -->
+<section class="section-case-alt">
+<div class="container">
+<div class="section-header-case reveal"><h2>客户需求与项目背景</h2><p>深度理解客户诉求，定制专属解决方案</p></div>
+<div class="content-block reveal">
+<h3>📋 项目背景</h3>
+<p>客户为欧洲知名家族企业，计划举办为期30天的地中海深度度假活动，需途经法国、意大利、希腊、西班牙等12个国家，涵盖商务接待、家族聚会、水上活动等多种场景。</p>
+</div>
+<div class="content-block reveal">
+<h3>🎯 核心诉求</h3>
+<ul>
+<li>65米以上超级游艇，可容纳22位宾客及28名服务人员</li>
+<li>配备米其林星级主厨，提供多国料理定制服务</li>
+<li>私人潜水教练及水上活动团队，支持深海探险</li>
+<li>多语言礼宾团队（英/法/意/德/西），无障碍沟通</li>
+<li>12个国家24个港口的靠泊协调与岸上活动安排</li>
+<li>全程医疗安全保障，配备随船医生</li>
+<li>高规格安保与隐私保护，适合商务接待</li>
+</ul>
+</div>
+<div class="content-block reveal">
+<h3>⚠️ 项目难点</h3>
+<ul>
+<li>12国24港的靠泊预约与入境合规办理</li>
+<li>30天超长航程的物资补给与能源管理</li>
+<li>多国美食定制的食材采购与保鲜物流</li>
+<li>地中海夏季高峰期的港口资源竞争</li>
+<li>商务接待场景的灵活调度与VIP保护</li>
+</ul>
+</div>
+</div>
+</section>
+
+<!-- ===== SERVICE PROCESS ===== -->
+<section class="section-case">
+<div class="container">
+<div class="section-header-case reveal"><h2>全流程服务拆解</h2><p>透明化展示，让客户全程放心</p></div>
+<div class="process-timeline reveal">
+<div class="process-step">
+<div class="process-num">1</div>
+<h4>前期方案定制</h4>
+<ul>
+<li>深度需求沟通与行程场景分析</li>
+<li>12国24港航线规划与靠泊预约</li>
+<li>游艇选型与船员团队组建</li>
+<li>多语言礼宾团队配置</li>
+<li>物资采购与补给计划制定</li>
+</ul>
+</div>
+<div class="process-step">
+<div class="process-num">2</div>
+<h4>游艇筹备阶段</h4>
+<ul>
+<li>65米超级游艇整备与清洁</li>
+<li>米其林主厨团队进驻</li>
+<li>潜水与水上活动设备配置</li>
+<li>医疗保障系统搭建</li>
+<li>安保与隐私保护方案部署</li>
+</ul>
+</div>
+<div class="process-step">
+<div class="process-num">3</div>
+<h4>航行执行阶段</h4>
+<ul>
+<li>30天全程24小时管家服务</li>
+<li>每日靠泊协调与岸上活动</li>
+<li>多国美食定制与宴会安排</li>
+<li>潜水教练全程陪同指导</li>
+<li>商务接待场景灵活调度</li>
+</ul>
+</div>
+</div>
+<div class="process-timeline reveal" style="margin-top:28px">
+<div class="process-step">
+<div class="process-num">4</div>
+<h4>收尾与反馈</h4>
+<ul>
+<li>行程结束后的宾客满意度调查</li>
+<li>物品清点与安全归还</li>
+<li>航程数据汇总与优化建议</li>
+<li>客户关系维护与后续服务</li>
+</ul>
+</div>
+<div class="process-step">
+<div class="process-num">5</div>
+<h4>合规与保险</h4>
+<ul>
+<li>12国入境文件办理与归档</li>
+<li>游艇航行日志与合规年审</li>
+<li>全额责任险与特殊险种理赔</li>
+<li>商务活动合规审查</li>
+</ul>
+</div>
+<div class="process-step">
+<div class="process-num">6</div>
+<h4>增值服务</h4>
+<ul>
+<li>航程照片与视频纪录片制作</li>
+<li>目的地美食与文化深度导览</li>
+<li>VIP客人个性化纪念品定制</li>
+<li>后续航线规划与复购优惠</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ===== GALLERY ===== -->
+<section class="section-case-alt">
+<div class="container">
+<div class="section-header-case reveal"><h2>实景与服务细节</h2><p>图文沉浸，见证每一个精彩瞬间</p></div>
+<div class="gallery-grid-c reveal">
+<div class="gallery-item-c" data-label="全貌航拍"><img src="images/yttp/yacht-023.jpg" alt="地中海皇后号全貌" style="width:100%;height:100%;object-fit:cover"></div>
+<div class="gallery-item-c" data-label="希腊圣托里尼"><img src="images/yttp/yacht-024.jpg" alt="希腊圣托里尼" style="width:100%;height:100%;object-fit:cover"></div>
+<div class="gallery-item-c" data-label="意大利阿马尔菲"><img src="images/yttp/yacht-025.jpg" alt="意大利阿马尔菲" style="width:100%;height:100%;object-fit:cover"></div>
+<div class="gallery-item-c" data-label="法国蔚蓝海岸"><img src="images/yttp/yacht-026.jpg" alt="法国蔚蓝海岸" style="width:100%;height:100%;object-fit:cover"></div>
+<div class="gallery-item-c" data-label="米其林定制晚宴"><img src="images/yttp/yacht-027.jpg" alt="米其林定制晚宴" style="width:100%;height:100%;object-fit:cover"></div>
+<div class="gallery-item-c" data-label="私人潜水活动"><img src="images/yttp/yacht-028.jpg" alt="私人潜水活动" style="width:100%;height:100%;object-fit:cover"></div>
+<div class="gallery-item-c" data-label="商务接待场景"><img src="images/yttp/yacht-029.jpg" alt="商务接待场景" style="width:100%;height:100%;object-fit:cover"></div>
+<div class="gallery-item-c" data-label="海上日落时光"><img src="images/yttp/yacht-030.jpg" alt="海上日落时光" style="width:100%;height:100%;object-fit:cover"></div>
+</div>
+</div>
+</section>
+
+<!-- ===== HIGHLIGHTS ===== -->
+<section class="section-case">
+<div class="container">
+<div class="section-header-case reveal"><h2>核心服务亮点</h2><p>差异化能力，打造独一无二的海上旅程</p></div>
+<div class="highlight-cards reveal">
+<div class="highlight-card">
+<h4>👨‍🍳 米其林主厨团队</h4>
+<p>配备米其林二星主厨团队，提供法式、意式、西班牙、希腊等多国料理定制。支持私人宴会、商务接待、主题晚宴等多种场景。</p>
+</div>
+<div class="highlight-card">
+<h4>🤿 私人潜水教练</h4>
+<p>配备2名PADI认证潜水教练，提供从入门体验至进阶考证的全流程服务。支持深海探险、水下摄影、沉船探访等特色活动。</p>
+</div>
+<div class="highlight-card">
+<h4>🌐 多语言礼宾团队</h4>
+<p>28人服务团队涵盖英/法/意/德/西/中6种语言，实现全程无障碍沟通。支持岸上活动、商务接待、VIP保护等场景。</p>
+</div>
+<div class="highlight-card">
+<h4>🏥 医疗安全保障</h4>
+<p>配备随船全科医生及急救设备，实现常见疾病诊疗与紧急医疗转运。12国24港均有合作医疗机构。</p>
+</div>
+<div class="highlight-card">
+<h4>🛡️ 安保与隐私保护</h4>
+<p>配备专业安保团队，支持VIP保护、隐私隔离、信息加密。商务接待场景可实现独立区域管控。</p>
+</div>
+<div class="highlight-card">
+<h4>⚓ 12国靠泊一站式协调</h4>
+<p>30天内完成12国24港的靠泊预约、入境办理、物资补给。地中海夏季高峰期仍保持100%靠泊成功率。</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ===== FEEDBACK ===== -->
+<section class="section-case-alt">
+<div class="container">
+<div class="section-header-case reveal"><h2>客户反馈与成果数据</h2><p>真实数据，见证服务价值</p></div>
+<div class="feedback-box reveal">
+<div class="feedback-quote">"这不仅仅是一次度假，更是一场改变生活方式的旅程。奇幻假期团队的细节把控与专业服务，让我们重新定义了什么是真正的奢华。30天，12个国家，每一个港口都是一段新的故事。"</div>
+<div class="feedback-author">— 家族企业董事长，2023年9月</div>
+</div>
+<div class="result-stats reveal">
+<div class="result-stat"><div class="result-stat-num">100%</div><div class="result-stat-label">服务满意度</div></div>
+<div class="result-stat"><div class="result-stat-num">12</div><div class="result-stat-label">途经国家</div></div>
+<div class="result-stat"><div class="result-stat-num">0</div><div class="result-stat-label">重大安全事故</div></div>
+<div class="result-stat"><div class="result-stat-num">24</div><div class="result-stat-label">停靠港口</div></div>
+</div>
+</div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="cta-case">
+<div class="container reveal">
+<h2>预约同款航线方案</h2>
+<p>我们的专业团队将为您量身打造专属的地中海深度巡航体验</p>
+<a href="mailto:fantastic.vacation@yahoo.com" class="cta-email">📧 fantastic.vacation@yahoo.com</a>
+</div>
+</section>
+
+<footer id="footer"><div class="container"><div class="footer-grid">
+<div class="footer-brand"><a href="index.html" class="nav-logo">FANTASTIC VACATION</a><p>奇幻假期fantastic.vacation</p></div>
+<div class="footer-col"><h4>快速导航</h4><ul><li><a href="index.html">首页</a></li><li><a href="yachts.html">游艇产品</a></li><li><a href="contact.html">联系我们</a></li></ul></div>
+<div class="footer-col"><h4>案例分类</h4><ul><li><a href="cases-custom.html">全案定制</a></li><li><a href="cases-charter.html">租赁航行</a></li><li><a href="cases-management.html">托管运维</a></li></ul></div>
+<div class="footer-col"><h4>联系方式</h4><ul><li>📧 <a href="mailto:fantastic.vacation@yahoo.com">fantastic.vacation@yahoo.com</a></li></ul></div>
+</div><div class="footer-bottom"><p>© 2026 奇幻假期fantastic.vacation</p></div></div></footer>
+
+<script>
+window.addEventListener("DOMContentLoaded",function(){var l=document.getElementById("loader");if(l){var p=document.getElementById("progress"),i=0,t=setInterval(function(){i+=Math.random()*12+8;if(i>=100){i=100;clearInterval(t);if(p)p.style.width="100%";setTimeout(function(){if(l)l.style.display="none"},400)}else if(p)p.style.width=i+"%"},180);setTimeout(function(){clearInterval(t);if(l)l.style.display="none"},5000)}});
+window.addEventListener("scroll",function(){var n=document.getElementById("navbar");if(window.scrollY>50)n.classList.add("scrolled");else n.classList.remove("scrolled")});
+function toggleMobile(){document.getElementById("mobile-menu").classList.toggle("active")}
+(function(){var o=new IntersectionObserver(function(e){e.forEach(function(e){if(e.isIntersecting)e.target.classList.add("revealed")})},{threshold:0.1});document.querySelectorAll(".reveal").forEach(function(e){o.observe(e)})})();
+</script>
+</body>
+</html>

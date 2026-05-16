@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>商务活动案例 | 奇幻假期 fantastic.vacation — 海上活动专家</title>
+<meta name="description" content="奇幻假期fantastic.vacation商务活动案例集，涵盖企业年会海上托管、地中海帆船赛赛事保障、品牌发布会海上活动等标杆项目。">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+.sub-hero{position:relative;min-height:70vh;display:flex;align-items:center;justify-content:center;overflow:hidden;background:linear-gradient(135deg,#0a1628 0%,#0d2137 40%,#1a3045 70%,#0f1e30 100%)}
+.sub-hero .hero-bg-img{position:absolute;inset:0;background:url('images/yttp/yacht-055.jpg') center/cover no-repeat;opacity:0.45;filter:saturate(0.65)}
+.sub-hero::before{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(10,22,40,0.3),rgba(10,22,40,0.9) 70%,#0a1628);z-index:1}
+.sub-hero .hero-inner{position:relative;z-index:3;text-align:center;padding:0 24px;max-width:800px}
+.sub-hero h1{font-family:'Playfair Display',serif;font-size:clamp(32px,4.5vw,52px);font-weight:800;letter-spacing:3px;margin-bottom:16px;background:linear-gradient(135deg,#c9a96e,#e8d5a8);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.sub-hero .hero-sub{font-size:clamp(13px,1.4vw,16px);color:rgba(200,210,225,0.65);font-weight:300;letter-spacing:1.5px}
+.breadcrumb{padding:20px 0;background:#0a1628;text-align:center}
+.breadcrumb a{color:rgba(201,169,110,0.8);text-decoration:none;font-size:12px;letter-spacing:1px}
+.breadcrumb span{color:rgba(200,210,225,0.4);margin:0 10px}
+.breadcrumb .current{color:rgba(200,210,225,0.6)}
+.case-list-section{padding:70px 0;background:linear-gradient(180deg,#0c1829 0%,#0a1628 100%)}
+.case-grid-s{display:grid;grid-template-columns:repeat(2,1fr);gap:32px}
+.case-card-l{background:linear-gradient(145deg,rgba(255,255,255,0.025),rgba(255,255,255,0.005));border:1px solid rgba(201,169,110,0.08);border-radius:18px;overflow:hidden;transition:all 0.4s ease;display:flex;flex-direction:column}
+.case-card-l:hover{transform:translateY(-6px);border-color:rgba(201,169,110,0.3);box-shadow:0 20px 60px rgba(0,0,0,0.35)}
+.case-card-l img{width:100%;height:280px;object-fit:cover;transition:transform 0.5s ease}
+.case-card-l:hover img{transform:scale(1.05)}
+.case-card-l-body{padding:28px 24px 32px;flex:1;display:flex;flex-direction:column}
+.case-card-l h3{font-family:'Playfair Display',serif;font-size:20px;font-weight:700;color:#e8eef5;margin-bottom:10px}
+.case-card-l p{font-size:13.5px;color:rgba(200,210,225,0.55);line-height:1.7;margin-bottom:16px;flex:1}
+.case-card-l .tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:18px}
+.case-card-l .tag{font-size:10px;padding:4px 12px;border-radius:20px;background:rgba(201,169,110,0.1);border:1px solid rgba(201,169,110,0.15);color:rgba(201,169,110,0.9);text-transform:uppercase}
+.case-card-l .link-btn{display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:600;color:#c9a96e;text-decoration:none;transition:gap 0.3s}
+.case-card-l .link-btn:hover{gap:12px}
+@media (max-width:768px){.case-grid-s{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div id="loader"><div class="brand">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div></div>
+<nav id="navbar"><div class="container"><div class="nav-inner">
+<a href="index.html" class="nav-logo"><svg viewBox="0 0 32 32" fill="none"><path d="M4 24L16 4l12 20H4z" stroke="#c9a96e" stroke-width="1.5" fill="none"/><path d="M8 20h16l-8-12-8 12z" stroke="#c9a96e" stroke-width="1" fill="rgba(201,169,110,0.1)"/></svg>FANTASTIC VACATION</a>
+<div class="nav-links">
+<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a><a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a><a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a><a href="contact.html" class="nav-cta">联系我们</a>
+</div>
+<div class="hamburger" onclick="toggleMobile()"><span></span><span></span><span></span></div>
+</div></div></nav>
+<div class="mobile-menu" id="mobile-menu">
+<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a><a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a><a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a><a href="contact.html">联系我们</a>
+</div>
+
+<section class="sub-hero">
+<div class="hero-bg-img"></div>
+<div class="hero-inner">
+<h1>商务活动案例</h1>
+<p class="hero-sub">企业年会、品牌发布会、VIP接待，海上活动专业保障</p>
+</div>
+</section>
+
+<div class="breadcrumb">
+<a href="index.html">首页</a><span>/</span><a href="cases.html">案例展示</a><span>/</span><span class="current">商务活动</span>
+</div>
+
+<section class="case-list-section">
+<div class="container">
+<div class="case-grid-s reveal">
+<div class="case-card-l">
+<img src="images/yttp/yacht-055.jpg" alt="企业年会海上托管">
+<div class="case-card-l-body">
+<h3>跨国企业年会海上托管</h3>
+<p>为跨国企业年度峰会提供的海上活动托管，3艘游艇编队航行，200名高管及嘉宾，全程无意外。荣获企业"最佳年度活动合作伙伴"称号。</p>
+<div class="tags">
+<span class="tag">商务活动</span>
+<span class="tag">船队编队</span>
+<span class="tag">200人</span>
+<span class="tag">东南亚</span>
+</div>
+<a href="case-006.html" class="link-btn">查看完整案例 <span>→</span></a>
+</div>
+</div>
+
+<div class="case-card-l">
+<img src="images/yttp/yacht-087.jpg" alt="地中海帆船赛赛事保障">
+<div class="case-card-l-body">
+<h3>地中海帆船赛赛事保障</h3>
+<p>为国际帆船赛组委会提供的赛事保障服务，租用38米游艇作为裁判船及VIP观赛平台。服务周期21天，零安全事故，获组委会高度评价。</p>
+<div class="tags">
+<span class="tag">赛事保障</span>
+<span class="tag">38m</span>
+<span class="tag">地中海</span>
+<span class="tag">21天</span>
+</div>
+<a href="case-010.html" class="link-btn">查看完整案例 <span>→</span></a>
+</div>
+</div>
+
+<div class="case-card-l">
+<img src="images/yttp/yacht-111.jpg" alt="奢侈品品牌发布会">
+<div class="case-card-l-body">
+<h3>奢侈品牌海上发布会</h3>
+<p>为欧洲奢侈品牌新品发布定制的海上活动，租用52米超级游艇，宾客180人，配备品牌展示区、沉浸式体验空间、VIP私密洽谈区。</p>
+<div class="tags">
+<span class="tag">商务活动</span>
+<span class="tag">品牌发布</span>
+<span class="tag">52m</span>
+<span class="tag">180人</span>
+</div>
+<a href="case-016.html" class="link-btn">查看完整案例 <span>→</span></a>
+</div>
+</div>
+
+<div class="case-card-l">
+<img src="images/yttp/yacht-119.jpg" alt="VIP客户海上接待">
+<div class="case-card-l-body">
+<h3>金融机构VIP海上接待</h3>
+<p>为国际投资银行提供的VIP客户海上接待活动，45米游艇，宾客50人，配备私密洽谈室、全景宴会厅、直升机接送服务。</p>
+<div class="tags">
+<span class="tag">商务活动</span>
+<span class="tag">VIP接待</span>
+<span class="tag">45m</span>
+<span class="tag">金融客户</span>
+</div>
+<a href="case-017.html" class="link-btn">查看完整案例 <span>→</span></a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<footer id="footer"><div class="container"><div class="footer-grid">
+<div class="footer-brand"><a href="index.html" class="nav-logo">FANTASTIC VACATION</a><p>奇幻假期fantastic.vacation</p></div>
+<div class="footer-col"><h4>快速导航</h4><ul><li><a href="index.html">首页</a></li><li><a href="yachts.html">游艇产品</a></li><li><a href="contact.html">联系我们</a></li></ul></div>
+<div class="footer-col"><h4>案例分类</h4><ul><li><a href="cases-custom.html">全案定制</a></li><li><a href="cases-charter.html">租赁航行</a></li><li><a href="cases-management.html">托管运维</a></li></ul></div>
+<div class="footer-col"><h4>联系方式</h4><ul><li>📧 <a href="mailto:fantastic.vacation@yahoo.com">fantastic.vacation@yahoo.com</a></li></ul></div>
+</div><div class="footer-bottom"><p>© 2026 奇幻假期fantastic.vacation</p></div></div></footer>
+
+<script>
+window.addEventListener("DOMContentLoaded",function(){var l=document.getElementById("loader");if(l){var p=document.getElementById("progress"),i=0,t=setInterval(function(){i+=Math.random()*12+8;if(i>=100){i=100;clearInterval(t);if(p)p.style.width="100%";setTimeout(function(){if(l)l.style.display="none"},400)}else if(p)p.style.width=i+"%"},180);setTimeout(function(){clearInterval(t);if(l)l.style.display="none"},5000)}});
+window.addEventListener("scroll",function(){var n=document.getElementById("navbar");if(window.scrollY>50)n.classList.add("scrolled");else n.classList.remove("scrolled")});
+function toggleMobile(){document.getElementById("mobile-menu").classList.toggle("active")}
+(function(){var o=new IntersectionObserver(function(e){e.forEach(function(e){if(e.isIntersecting)e.target.classList.add("revealed")})},{threshold:0.1});document.querySelectorAll(".reveal").forEach(function(e){o.observe(e)})})();
+</script>
+</body>
+</html>
