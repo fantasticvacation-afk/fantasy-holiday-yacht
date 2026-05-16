@@ -738,21 +738,21 @@ nav .container{max-width:1280px;margin:0 auto;padding:0 24px}
 <p>提交需求后，专业顾问将在24小时内与您联系</p>
 <form id="bookingForm" onsubmit="return handleSubmit(event)">
 <div class="form-grid">
-<div class="form-group"><label>您的姓名</label><input type="text" id="booking_name" placeholder="张三"></div>
-<div class="form-group"><label>联系电话</label><input type="tel" id="booking_phone" placeholder="138 0000 0000"></div>
+<div class="form-group"><label>您的姓名</label><input type="text" name="from_name" id="booking_name" placeholder="张三"></div>
+<div class="form-group"><label>联系电话</label><input type="tel" name="phone" id="booking_phone" placeholder="138 0000 0000"></div>
 <div class="form-group"><label>意向目的地</label>
-<select id="booking_destination"><option value="">请选择</option><option>地中海（法意/希腊/土耳其）</option><option>加勒比海（巴哈马/BVI）</option><option>东南亚（泰缅/印尼/越南）</option><option>马尔代夫/塞舌尔</option><option>大溪地/日本冲绳</option><option>其他/待规划</option></select>
+<select name="destination" id="booking_destination"><option value="">请选择</option><option>地中海（法意/希腊/土耳其）</option><option>加勒比海（巴哈马/BVI）</option><option>东南亚（泰缅/印尼/越南）</option><option>马尔代夫/塞舌尔</option><option>大溪地/日本冲绳</option><option>其他/待规划</option></select>
 </div>
 <div class="form-group"><label>出行时间</label>
-<select id="booking_departure"><option value="">请选择</option><option>近1个月</option><option>1-3个月</option><option>3-6个月</option><option>6-12个月</option><option>12个月以上</option></select>
+<select name="departure" id="booking_departure"><option value="">请选择</option><option>近1个月</option><option>1-3个月</option><option>3-6个月</option><option>6-12个月</option><option>12个月以上</option></select>
 </div>
 <div class="form-group"><label>同行人数</label>
-<select id="booking_people"><option value="">请选择</option><option>2-4人</option><option>5-8人</option><option>9-16人</option><option>16人以上</option></select>
+<select name="people" id="booking_people"><option value="">请选择</option><option>2-4人</option><option>5-8人</option><option>9-16人</option><option>16人以上</option></select>
 </div>
 <div class="form-group"><label>预算区间</label>
-<select id="booking_budget"><option value="">请选择</option><option>¥30-50万/周</option><option>¥50-80万/周</option><option>¥80-150万/周</option><option>¥150-300万/周</option><option>¥300万以上/周</option></select>
+<select name="budget" id="booking_budget"><option value="">请选择</option><option>¥30-50万/周</option><option>¥50-80万/周</option><option>¥80-150万/周</option><option>¥150-300万/周</option><option>¥300万以上/周</option></select>
 </div>
-<div class="form-group full"><label>其他需求（可选）</label><textarea id="booking_notes" rows="3" placeholder="请描述您的特殊需求，如：求婚布置、商务接待、家庭度假等"></textarea></div>
+<div class="form-group full"><label>其他需求（可选）</label><textarea name="notes" id="booking_notes" rows="3" placeholder="请描述您的特殊需求，如：求婚布置、商务接待、家庭度假等"></textarea></div>
 </div>
 <button type="submit" class="form-submit">🔒 提交预约</button>
 </form>
@@ -784,52 +784,10 @@ function handleSubmit(e) {
     btn.textContent = '⏳ 提交中...';
     btn.disabled = true;
     
-    // ================================================================
-    // 📋 EmailJS 配置说明（请替换为您的实际参数）
-    // ================================================================
-    // 1. 注册 https://www.emailjs.com （免费50封/月）
-    // 2. 创建 Email Service（推荐QQ邮箱/SMTP）
-    // 3. 创建 Email Template，模板变量如下：
-    //    {{from_name}}   → 客户姓名
-    //    {{phone}}      → 联系电话
-    //    {{destination}}→ 意向目的地
-    //    {{departure}}  → 出行时间
-    //    {{people}}     → 同行人数
-    //    {{budget}}     → 预算区间
-    //    {{notes}}      → 其他需求
-    //    {{submit_time}} → 提交时间
-    // 4. 复制您的：PUBLIC_KEY / SERVICE_ID / TEMPLATE_ID
-    // 5. 替换下面3个占位符值后，取消注释 EMAILJS_INIT 和实际发送代码
-    // ================================================================
+    emailjs.init("Zd2aqFx07w53193-R");
     
-    // === 方式1：手动配置（请填写您的EmailJS参数）===
-    // emailjs.init("YOUR_PUBLIC_KEY");  // ← 替换为您的 Public Key
-    // emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", {
-    //     from_name: name,
-    //     phone: phone,
-    //     destination: document.getElementById('booking_destination').value,
-    //     departure: document.getElementById('booking_departure').value,
-    //     people: document.getElementById('booking_people').value,
-    //     budget: document.getElementById('booking_budget').value,
-    //     notes: document.getElementById('booking_notes').value,
-    //     submit_time: new Date().toLocaleString('zh-CN', {timeZone:'Asia/Hong_Kong'})
-    // }).then(function() {
-    //     btn.textContent = '✓ 预约已提交！';
-    //     btn.style.background = 'linear-gradient(135deg,#2a8a4a,#3cb371)';
-    //     form.reset();
-    //     setTimeout(function(){btn.textContent='🔒 提交预约';btn.disabled=false;btn.style.background=''},4000);
-    // }).catch(function(err) {
-    //     btn.textContent = '⚠ 提交失败，请重试';
-    //     btn.style.background = 'linear-gradient(135deg,#c0392b,#e74c3c)';
-    //     setTimeout(function(){btn.textContent='🔒 提交预约';btn.disabled=false;btn.style.background=''},3000);
-    // });
-    
-    // === 方式2：使用表单直传（表单的name属性触发发送）===
-    // 只需在每个input/select/textarea上添加 name="xxx" 属性，
-    // 然后调用：emailjs.sendForm('SERVICE_ID', 'TEMPLATE_ID', '#bookingForm')
-    
-    // === 当前使用：模拟成功演示（替换上面真实发送代码即可使用）===
-    setTimeout(function() {
+    emailjs.sendForm('service_8qtlqco', 'template_9kydp7r', form)
+    .then(function(response) {
         btn.textContent = '✓ 预约已提交！';
         btn.style.background = 'linear-gradient(135deg,#2a8a4a,#3cb371)';
         form.reset();
@@ -838,7 +796,16 @@ function handleSubmit(e) {
             btn.disabled = false;
             btn.style.background = '';
         }, 4000);
-    }, 1500);
+    }).catch(function(err) {
+        console.error('EmailJS error:', err);
+        btn.textContent = '⚠️ 提交失败，请重试';
+        btn.style.background = 'linear-gradient(135deg,#c0392b,#e74c3c)';
+        setTimeout(function(){
+            btn.textContent = '🔒 提交预约';
+            btn.disabled = false;
+            btn.style.background = '';
+        }, 3000);
+    });
     
     return false;
 }
