@@ -779,26 +779,17 @@ nav .container{max-width:1280px;margin:0 auto;padding:0 24px}
 <script>
 function handleSubmit(e) {
     e.preventDefault();
-    var btn = e.target.querySelector('.form-submit');
     var form = document.getElementById('bookingForm');
-    var name = document.getElementById('booking_name').value.trim();
-    var phone = document.getElementById('booking_phone').value.trim();
-    
-    if (!name) { alert('请填写您的姓名'); return false; }
-    if (!phone || phone.length < 7) { alert('请填写有效的联系电话'); return false; }
-    
-    btn.textContent = '⏳ 提交中...';
+    var btn = form.querySelector('.form-submit');
     btn.disabled = true;
-    
-    console.log('EmailJS sending...', {service: 'service_8qtlqco', template: 'template_9kydp7r'});
+    btn.textContent = '⏳ 提交中...';
     
     emailjs.sendForm('service_8qtlqco', 'template_9kydp7r', form)
-    .then(function(response) {
-        console.log('EmailJS success:', response);
+    .then(function() {
         btn.textContent = '✓ 预约已提交！';
         btn.style.background = 'linear-gradient(135deg,#2a8a4a,#3cb371)';
         form.reset();
-        setTimeout(function(){
+        setTimeout(function() {
             btn.textContent = '🔒 提交预约';
             btn.disabled = false;
             btn.style.background = '';
@@ -807,53 +798,78 @@ function handleSubmit(e) {
         console.error('EmailJS error:', err);
         btn.textContent = '⚠️ 提交失败，请重试';
         btn.style.background = 'linear-gradient(135deg,#c0392b,#e74c3c)';
-        setTimeout(function(){
+        setTimeout(function() {
             btn.textContent = '🔒 提交预约';
             btn.disabled = false;
             btn.style.background = '';
         }, 3000);
     });
-    
-    return false;
-}}
-    if (!phone || phone.length < 7) { alert('请填写有效的联系电话'); return false; }
-    
-    btn.textContent = '⏳ 提交中...';
-    btn.disabled = true;
-    
-    emailjs.init("Zd2aqFx07w53193R");
-    
-    emailjs.sendForm('service_8qtlqco', 'template_9kydp7r', form)
-    .then(function(response) {
-        btn.textContent = '✓ 预约已提交！';
-        btn.style.background = 'linear-gradient(135deg,#2a8a4a,#3cb371)';
-        form.reset();
-        setTimeout(function(){
-            btn.textContent = '🔒 提交预约';
-            btn.disabled = false;
-            btn.style.background = '';
-        }, 4000);
-    }).catch(function(err) {
-        console.error('EmailJS error:', err);
-        btn.textContent = '⚠️ 提交失败，请重试';
-        btn.style.background = 'linear-gradient(135deg,#c0392b,#e74c3c)';
-        setTimeout(function(){
-            btn.textContent = '🔒 提交预约';
-            btn.disabled = false;
-            btn.style.background = '';
-        }, 3000);
-    });
-    
     return false;
 }
-window.addEventListener("DOMContentLoaded",function(){var loader=document.getElementById("loader");if(!loader)return;var progressEl=document.getElementById("progress");var progress=0;var interval=setInterval(function(){progress+=Math.random()*12+8;if(progress>=100){progress=100;clearInterval(interval);if(progressEl)progressEl.style.width="100%";setTimeout(function(){if(loader)loader.style.display="none";document.body.style.overflow=""},400)}else if(progressEl)progressEl.style.width=progress+"%"},180);setTimeout(function(){clearInterval(interval);if(loader)loader.style.display="none";document.body.style.overflow=""},5000)});
-window.addEventListener("scroll",function(){var nav=document.getElementById("navbar");if(window.scrollY>50)nav.classList.add("scrolled");else nav.classList.remove("scrolled")});
-function toggleMobile(){document.getElementById("mobile-menu").classList.toggle("active");document.querySelector(".hamburger").classList.toggle("active")}
-(function(){var c=document.getElementById("cursor");if(c)document.addEventListener("mousemove",function(e){c.style.left=e.pageX+"px";c.style.top=e.pageY+"px"})})();
+
+// Loader
 (function(){
-var o=new IntersectionObserver(function(e){e.forEach(function(e){if(e.isIntersecting)e.target.classList.add("revealed")})},{threshold:0.1});
-document.querySelectorAll(".reveal,.reveal-left,.reveal-right,.reveal-scale").forEach(function(e){o.observe(e)});
+    var loader=document.getElementById("loader");
+    var progressEl=document.getElementById("progress");
+    var w=0;
+    var interval=setInterval(function(){
+        w+=Math.random()*15+5;
+        if(w>=100){w=100;clearInterval(interval);
+            setTimeout(function(){
+                if(loader)loader.style.display="none";
+                document.body.style.overflow="";
+            },300);
+        }
+        if(progressEl)progressEl.style.width=w+"%";
+    },150);
 })();
-function filterRoutes(region,btn){document.querySelectorAll('.cat-btn').forEach(function(b){b.classList.remove('active')});btn.classList.add('active');document.querySelectorAll('.route-card').forEach(function(c){if(region==='all'||c.dataset.region===region)c.style.display='';else c.style.display='none'})}
+
+// Reveal animation
+(function(){
+    var o=new IntersectionObserver(function(entries){
+        entries.forEach(function(e){
+            if(e.isIntersecting)e.target.classList.add("revealed");
+        });
+    },{threshold:0.1});
+    document.querySelectorAll(".reveal,.reveal-left,.reveal-right,.reveal-scale").forEach(function(e){o.observe(e)});
+})();
+
+// Counter animation
+(function(){
+    var counters=document.querySelectorAll(".counter");
+    var o=new IntersectionObserver(function(entries){
+        entries.forEach(function(entry){
+            if(entry.isIntersecting){
+                var el=entry.target;
+                var target=parseInt(el.getAttribute("data-count"));
+                var current=0;
+                var step=Math.ceil(target/60);
+                var timer=setInterval(function(){
+                    current+=step;
+                    if(current>=target){current=target;clearInterval(timer);}
+                    el.textContent=current.toLocaleString();
+                },30);
+                o.unobserve(el);
+            }
+        });
+    },{threshold:0.5});
+    counters.forEach(function(c){o.observe(c)});
+})();
+
+// Filter routes
+function filterRoutes(region,btn){
+    document.querySelectorAll('.cat-btn').forEach(function(b){b.classList.remove('active')});
+    btn.classList.add('active');
+    document.querySelectorAll('.route-card').forEach(function(c){
+        if(region==='all'||c.dataset.region===region)c.style.display='';
+        else c.style.display='none';
+    });
+}
+
+// Mobile menu
+function toggleMobile(){
+    var m=document.getElementById("mobile-menu");
+    m.classList.toggle("active");
+}
 </script>
 </body></html>
