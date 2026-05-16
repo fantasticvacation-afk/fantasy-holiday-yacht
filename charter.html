@@ -215,6 +215,12 @@ nav .container{max-width:1280px;margin:0 auto;padding:0 24px}
 @media(max-width:768px){.nav-links{display:none}.hamburger{display:flex}.vp-grid,.routes-grid,.services-grid,.testi-grid,.trust-grid,.match-grid,.vip-grid{grid-template-columns:1fr}.process-grid{grid-template-columns:repeat(2,1fr)}.hero-stats{gap:24px}.form-grid{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr}.section-padding{padding:60px 0}}
 </style>
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+  // EmailJS 初始化（页面加载时执行一次）
+  emailjs.init("Zd2aqFx07w53193R");
+  console.log("EmailJS initialized:", typeof emailjs);
+</script>
 </head><body>
 <div id="loader"><div class="brand">FANTASY HOLIDAY</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div><div class="progress-text">LOADING</div></div>
 <div class="cursor-follower" id="cursor"></div>
@@ -784,7 +790,38 @@ function handleSubmit(e) {
     btn.textContent = '⏳ 提交中...';
     btn.disabled = true;
     
-    emailjs.init("Zd2aqFx07w53193-R");
+    console.log('EmailJS sending...', {service: 'service_8qtlqco', template: 'template_9kydp7r'});
+    
+    emailjs.sendForm('service_8qtlqco', 'template_9kydp7r', form)
+    .then(function(response) {
+        console.log('EmailJS success:', response);
+        btn.textContent = '✓ 预约已提交！';
+        btn.style.background = 'linear-gradient(135deg,#2a8a4a,#3cb371)';
+        form.reset();
+        setTimeout(function(){
+            btn.textContent = '🔒 提交预约';
+            btn.disabled = false;
+            btn.style.background = '';
+        }, 4000);
+    }).catch(function(err) {
+        console.error('EmailJS error:', err);
+        btn.textContent = '⚠️ 提交失败，请重试';
+        btn.style.background = 'linear-gradient(135deg,#c0392b,#e74c3c)';
+        setTimeout(function(){
+            btn.textContent = '🔒 提交预约';
+            btn.disabled = false;
+            btn.style.background = '';
+        }, 3000);
+    });
+    
+    return false;
+}}
+    if (!phone || phone.length < 7) { alert('请填写有效的联系电话'); return false; }
+    
+    btn.textContent = '⏳ 提交中...';
+    btn.disabled = true;
+    
+    emailjs.init("Zd2aqFx07w53193R");
     
     emailjs.sendForm('service_8qtlqco', 'template_9kydp7r', form)
     .then(function(response) {
