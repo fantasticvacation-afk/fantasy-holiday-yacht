@@ -820,31 +820,6 @@ function handleBookingSubmit(e) {
 </script>
 
 <script>
-function handleBookingSubmit(e) {
-    e.preventDefault();
-    var form = document.getElementById('bookingForm');
-    var btn = form.querySelector('.btn-submit');
-    btn.disabled = true;
-    btn.textContent = '提交中...';
-    
-    emailjs.sendForm('service_8qtlqco', 'template_9kydp7r', form)
-        .then(function() {
-            btn.textContent = '✓ 提交成功！我们将尽快联系您';
-            btn.style.background = 'linear-gradient(135deg,#2d5a27,#4a8c3f)';
-            form.reset();
-        })
-        .catch(function(error) {
-            btn.textContent = '提交失败，请重试';
-            btn.style.background = '#8b2500';
-            console.error('EmailJS Error:', error);
-            setTimeout(function() {
-                btn.textContent = '🔒 提交预约';
-                btn.style.background = '';
-                btn.disabled = false;
-            }, 3000);
-        });
-    
-    return false;
-}
+
 </script>
 </body></html>
