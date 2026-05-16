@@ -1,104 +1,848 @@
-<!DOCTYPE html><html lang="zh-CN"><head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>托管维保 | 奇幻假期 FANTASY HOLIDAY</title>
-<meta name="description" content="奇幻假期提供专业游艇托管服务，涵盖日常运营、定期保养、专业维修、合规年检、保险理赔等全方位资产管理，让您的海上资产始终处于最佳状态。">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>托管维保 | 奇幻假期 fantastic.vacation — 高端私人游艇全托管一站式服务</title>
+<meta name="description" content="奇幻假期fantastic.vacation提供专业游艇托管维保服务，涵盖日常运营管理、全品类维护保养、专业维修、海事合规代办、船员管理、航线统筹、资产保值规划、保险理赔等全维度一站式管家式服务。">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-</head><body>
-<div id="loader"><div class="brand">FANTASY HOLIDAY</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div></div>
+<style>
+/* ===== MGMT PAGE STYLES ===== */
+.mgmt-hero {
+  position: relative;
+  min-height: 92vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: linear-gradient(135deg, #0a1628 0%, #0d2137 35%, #1a3045 65%, #0f1e30 100%);
+}
+.mgmt-hero .hero-bg-img {
+  position: absolute;
+  inset: 0;
+  background: url('images/yttp/yacht-006.jpg') center/cover no-repeat;
+  opacity: 0.45;
+  filter: saturate(0.7) brightness(0.6);
+}
+.mgmt-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 20% 80%, rgba(201,169,110,0.08) 0%, transparent 55%),
+              radial-gradient(ellipse at 80% 20%, rgba(100,150,200,0.06) 0%, transparent 50%),
+              linear-gradient(to bottom, rgba(10,22,40,0.3) 0%, rgba(10,22,40,0.85) 70%, #0a1628 100%);
+  z-index: 1;
+}
+.mgmt-hero .hero-inner {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  padding: 0 24px;
+  max-width: 900px;
+}
+.mgmt-hero .hero-badge {
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 40px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, rgba(201,169,110,0.18), rgba(201,169,110,0.04));
+  border: 1px solid rgba(201,169,110,0.3);
+  color: #c9a96e;
+  margin-bottom: 24px;
+}
+.mgmt-hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(36px, 5.5vw, 64px);
+  font-weight: 800;
+  letter-spacing: 4px;
+  line-height: 1.15;
+  margin-bottom: 20px;
+  background: linear-gradient(135deg, #c9a96e 0%, #e8d5a8 50%, #c9a96e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.mgmt-hero .hero-sub {
+  font-size: clamp(15px, 1.7vw, 19px);
+  color: rgba(200,210,225,0.75);
+  font-weight: 300;
+  letter-spacing: 2px;
+  line-height: 1.6;
+  max-width: 650px;
+  margin: 0 auto 36px;
+}
+.mgmt-hero .hero-stats {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.mgmt-hero .stat-item {
+  text-align: center;
+}
+.mgmt-hero .stat-num {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(28px, 3.5vw, 42px);
+  font-weight: 700;
+  color: #c9a96e;
+  line-height: 1;
+}
+.mgmt-hero .stat-label {
+  font-size: 12px;
+  color: rgba(200,210,225,0.5);
+  letter-spacing: 1.5px;
+  margin-top: 6px;
+  text-transform: uppercase;
+}
+
+/* Section Common */
+.mgmt-section {
+  padding: 90px 0;
+  position: relative;
+}
+.mgmt-section-dark {
+  background: linear-gradient(180deg, #0c1829 0%, #0a1424 50%, #0d1a2b 100%);
+}
+.mgmt-section-gold {
+  background: linear-gradient(135deg, rgba(201,169,110,0.06) 0%, rgba(10,22,40,0) 50%, rgba(201,169,110,0.03) 100%);
+  border-top: 1px solid rgba(201,169,110,0.08);
+  border-bottom: 1px solid rgba(201,169,110,0.08);
+}
+.section-header-c {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.section-header-c h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(26px, 3vw, 38px);
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 14px;
+  background: linear-gradient(135deg, #c9a96e, #e8d5a8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.section-header-c p {
+  font-size: 15px;
+  color: rgba(200,210,225,0.55);
+  max-width: 620px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+.divider-line {
+  width: 60px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #c9a96e, transparent);
+  margin: 16px auto 0;
+}
+
+/* Service Cards Grid */
+.service-grid-m {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+.svc-card {
+  background: linear-gradient(145deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
+  border: 1px solid rgba(201,169,110,0.1);
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.45s cubic-bezier(0.25,0.46,0.45,0.94);
+  position: relative;
+}
+.svc-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(201,169,110,0.35);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.35), 0 0 40px rgba(201,169,110,0.06);
+}
+.svc-card-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+.svc-card:hover .svc-card-img {
+  transform: scale(1.05);
+}
+.svc-card-body {
+  padding: 28px 24px 32px;
+}
+.svc-icon-wrap {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(201,169,110,0.15), rgba(201,169,110,0.04));
+  border: 1px solid rgba(201,169,110,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  font-size: 22px;
+}
+.svc-card-body h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 19px;
+  font-weight: 700;
+  color: #e8eef5;
+  margin-bottom: 12px;
+  letter-spacing: 0.5px;
+}
+.svc-card-body p {
+  font-size: 13.5px;
+  color: rgba(200,210,225,0.55);
+  line-height: 1.75;
+  margin-bottom: 16px;
+}
+.svc-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.svc-tag {
+  font-size: 11px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  background: rgba(201,169,110,0.07);
+  border: 1px solid rgba(201,169,110,0.12);
+  color: rgba(201,169,110,0.85);
+  letter-spacing: 0.3px;
+}
+
+/* Process Timeline */
+.process-timeline {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-left: 40px;
+}
+.process-timeline::before {
+  content: '';
+  position: absolute;
+  left: 15px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, #c9a96e, rgba(201,169,110,0.15));
+}
+.proc-step {
+  position: relative;
+  padding-bottom: 48px;
+  padding-left: 36px;
+}
+.proc-step:last-child { padding-bottom: 0; }
+.proc-dot {
+  position: absolute;
+  left: -33px;
+  top: 4px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #0a1628;
+  border: 2px solid #c9a96e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: #c9a96e;
+  font-family: 'Playfair Display', serif;
+  z-index: 2;
+}
+.proc-step h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #e8eef5;
+  margin-bottom: 8px;
+}
+.proc-step p {
+  font-size: 13.5px;
+  color: rgba(200,210,225,0.55);
+  line-height: 1.7;
+}
+
+/* Pricing Plans */
+.plans-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  align-items: start;
+}
+.plan-card {
+  background: linear-gradient(160deg, rgba(255,255,255,0.025), rgba(255,255,255,0.008));
+  border: 1px solid rgba(201,169,110,0.12);
+  border-radius: 20px;
+  padding: 40px 32px 36px;
+  text-align: center;
+  transition: all 0.4s ease;
+  position: relative;
+}
+.plan-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(201,169,110,0.3);
+}
+.plan-card.featured {
+  border: 2px solid #c9a96e;
+  background: linear-gradient(160deg, rgba(201,169,110,0.06), rgba(201,169,110,0.01), rgba(255,255,255,0.01));
+}
+.plan-badge {
+  position: absolute;
+  top: -13px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(135deg, #c9a96e, #dbb872);
+  color: #0a1628;
+  padding: 5px 22px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.plan-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #c9a96e;
+  margin-bottom: 8px;
+}
+.plan-desc {
+  font-size: 13px;
+  color: rgba(200,210,225,0.45);
+  margin-bottom: 28px;
+}
+.plan-price {
+  font-family: 'Playfair Display', serif;
+  font-size: 34px;
+  font-weight: 800;
+  color: #e8eef5;
+  margin-bottom: 6px;
+}
+.plan-price span {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(200,210,225,0.4);
+}
+.plan-unit {
+  font-size: 12px;
+  color: rgba(200,210,225,0.35);
+  margin-bottom: 28px;
+}
+.plan-list {
+  list-style: none;
+  text-align: left;
+  margin-bottom: 32px;
+}
+.plan-list li {
+  padding: 8px 0;
+  font-size: 13.5px;
+  color: rgba(200,210,225,0.7);
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.plan-list li::before {
+  content: '✓';
+  color: #c9a96e;
+  font-weight: 700;
+  font-size: 13px;
+  flex-shrink: 0;
+}
+.plan-btn {
+  display: inline-block;
+  padding: 13px 32px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: all 0.35s ease;
+  border: 1px solid #c9a96e;
+  color: #c9a96e;
+  background: transparent;
+}
+.plan-btn:hover {
+  background: #c9a96e;
+  color: #0a1628;
+  box-shadow: 0 8px 30px rgba(201,169,110,0.25);
+}
+.plan-card.featured .plan-btn {
+  background: linear-gradient(135deg, #c9a96e, #dbb872);
+  color: #0a1628;
+  border: none;
+}
+.plan-card.featured .plan-btn:hover {
+  box-shadow: 0 8px 30px rgba(201,169,110,0.4);
+  transform: translateY(-2px);
+}
+
+/* Advantages */
+.adv-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+.adv-item {
+  text-align: center;
+  padding: 36px 20px;
+  border-radius: 16px;
+  background: linear-gradient(145deg, rgba(255,255,255,0.02), transparent);
+  border: 1px solid rgba(255,255,255,0.04);
+  transition: all 0.4s ease;
+}
+.adv-item:hover {
+  border-color: rgba(201,169,110,0.2);
+  background: linear-gradient(145deg, rgba(201,169,110,0.04), transparent);
+  transform: translateY(-4px);
+}
+.adv-icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 18px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(201,169,110,0.12), rgba(201,169,110,0.02));
+  border: 1px solid rgba(201,169,110,0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+}
+.adv-item h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: #e8eef5;
+  margin-bottom: 10px;
+}
+.adv-item p {
+  font-size: 12.5px;
+  color: rgba(200,210,225,0.5);
+  line-height: 1.65;
+}
+
+/* CTA */
+.cta-block {
+  text-align: center;
+  padding: 80px 0;
+}
+.cta-block h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(28px, 3.5vw, 42px);
+  font-weight: 700;
+  margin-bottom: 16px;
+  background: linear-gradient(135deg, #c9a96e, #e8d5a8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.cta-block p {
+  font-size: 15px;
+  color: rgba(200,210,225,0.55);
+  margin-bottom: 32px;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cta-email {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 32px;
+  border-radius: 30px;
+  background: linear-gradient(135deg, rgba(201,169,110,0.12), rgba(201,169,110,0.04));
+  border: 1px solid rgba(201,169,110,0.3);
+  color: #c9a96e;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.cta-email a {
+  color: #c9a96e;
+  text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .service-grid-m { grid-template-columns: repeat(2, 1fr); }
+  .plans-grid { grid-template-columns: 1fr; max-width: 480px; margin: 0 auto; }
+  .adv-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 640px) {
+  .service-grid-m { grid-template-columns: 1fr; }
+  .adv-grid { grid-template-columns: 1fr; }
+  .mgmt-hero .hero-stats { gap: 28px; }
+  .process-timeline { padding-left: 28px; }
+  .proc-step { padding-left: 24px; }
+  .proc-dot { left: -27px; width: 26px; height: 26px; font-size: 11px; }
+}
+</style>
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader"><div class="brand">FANTASY HOLIDAY</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div><div class="progress-text">LOADING</div></div>
+
+<!-- NAV -->
 <nav id="navbar"><div class="container"><div class="nav-inner">
 <a href="index.html" class="nav-logo"><svg viewBox="0 0 32 32" fill="none"><path d="M4 24L16 4l12 20H4z" stroke="#c9a96e" stroke-width="1.5" fill="none"/><path d="M8 20h16l-8-12-8 12z" stroke="#c9a96e" stroke-width="1" fill="rgba(201,169,110,0.1)"/></svg>FANTASY HOLIDAY</a>
 <div class="nav-links">
-<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a><a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html" class="active">托管维保</a><a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a><a href="contact.html" class="nav-cta">联系我们</a>
+<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a>
+<a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html" class="active">托管维保</a>
+<a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a>
+<a href="contact.html" class="nav-cta">联系我们</a>
 </div>
 <div class="hamburger" onclick="toggleMobile()"><span></span><span></span><span></span></div>
 </div></div></nav>
-<div class="mobile-menu" id="mobile-menu"><a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a><a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a><a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a><a href="contact.html">联系我们</a></div>
 
-<section id="hero">
-<div class="hero-bg" style="background: url('images/yttp/yacht-006.jpg') center/cover no-repeat fixed;"></div>
-<div class="hero-content">
-<div class="hero-badge">✦ 托管维保 ✦</div>
-<h1 class="hero-title"><span class="gold-gradient">托管维保</span></h1>
-<p class="hero-sub">专业管家式服务，全程无忧</p>
-</div></section>
-
-<section class="section-padding"><div class="container">
-<div class="section-header reveal"><h2><span class="gold-gradient">核心服务模块</span></h2><div class="divider-gold"></div><p>全生命周期覆盖，一站式解决游艇资产管理难题</p></div>
-
-<div class="services-grid">
-<div class="service-card<img src="images/yttp/yacht-014.jpg" alt="游艇服务" style="width:100%;height:180px;object-fit:cover;border-radius:12px 12px 0 0;margin-bottom:12px;"> reveal"><div class="service-icon">📋</div><h3>日常运营管理</h3><p>船员招聘与培训、日程调度与管理、物资供应链管理、财务核算与报表、证书档案电子化管理、船东专属APP实时查看</p></div>
-<div class="service-card<img src="images/yttp/yacht-022.jpg" alt="游艇服务" style="width:100%;height:180px;object-fit:cover;border-radius:12px 12px 0 0;margin-bottom:12px;"> reveal"><div class="service-icon">🔧</div><h3>定期保养维护</h3><p>发动机定期保养、防污漆年度更新、导航设备校准、安全系统检测、空调系统清洗、季节性入坞维护</p></div>
-<div class="service-card<img src="images/yttp/yacht-030.jpg" alt="游艇服务" style="width:100%;height:180px;object-fit:cover;border-radius:12px 12px 0 0;margin-bottom:12px;"> reveal"><div class="service-icon">🔩</div><h3>专业维修服务</h3><p>24/7紧急故障抢修、船体损伤修复、机械系统大修、电子设备升级改造、内饰翻新修复、游艇改装升级</p></div>
-<div class="service-card<img src="images/yttp/yacht-038.jpg" alt="游艇服务" style="width:100%;height:180px;object-fit:cover;border-radius:12px 12px 0 0;margin-bottom:12px;"> reveal"><div class="service-icon">📜</div><h3>合规年检代办</h3><p>船级社检验协调、法定证书更新、国际海事法规合规、船旗国注册续期、环保认证维护、安全管理体系审核</p></div>
-<div class="service-card<img src="images/yttp/yacht-046.jpg" alt="游艇服务" style="width:100%;height:180px;object-fit:cover;border-radius:12px 12px 0 0;margin-bottom:12px;"> reveal"><div class="service-icon">🛡️</div><h3>保险理赔协助</h3><p>H&M保险方案安排、P&I俱乐部对接、事故处理全程协助、损失评估与谈判、理赔材料准备、风险预防咨询</p></div>
-<div class="service-card<img src="images/yttp/yacht-054.jpg" alt="游艇服务" style="width:100%;height:180px;object-fit:cover;border-radius:12px 12px 0 0;margin-bottom:12px;"> reveal"><div class="service-icon">📊</div><h3>资产保值规划</h3><p>市场价值评估、最佳出售时机分析、改装升级建议、成本效益优化、税务合规咨询、传承规划方案</p></div>
+<div class="mobile-menu" id="mobile-menu">
+<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a>
+<a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a>
+<a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a>
+<a href="contact.html">联系我们</a>
 </div>
-</div></section>
 
-<section class="section-padding" style="background:var(--dark2)"><div class="container">
-<div class="section-header reveal"><h2><span class="gold-gradient">托管服务套餐</span></h2><div class="divider-gold"></div><p>三种套餐覆盖不同需求，灵活组合定制方案</p></div>
+<!-- ========== HERO ========== -->
+<section class="mgmt-hero">
+<div class="hero-bg-img"></div>
+<div class="hero-inner">
+<div class="hero-badge">Yacht Management &amp; Maintenance</div>
+<h1>托管 · 维保 · 管家</h1>
+<p class="hero-sub">奇幻假期fantastic.vacation为您的海上资产提供全生命周期管家式托管服务<br>从日常运营到资产增值，让每一艘游艇始终处于巅峰状态</p>
+<div class="hero-stats">
+<div class="stat-item"><div class="stat-num" data-count="15">0</div><div class="stat-label">年行业经验</div></div>
+<div class="stat-item"><div class="stat-num" data-count="86">0</div><div class="stat-label">在管游艇</div></div>
+<div class="stat-item"><div class="stat-num" data-count="42">0</div><div class="stat-label">专业团队</div></div>
+<div class="stat-item"><div class="stat-num" data-count="99">0</div><div class="stat-label">%客户满意度</div></div>
+</div>
+</div>
+</section>
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px">
-<div class="value-card reveal" style="border:1px solid var(--glass-border);padding:32px">
-<h3 style="color:var(--gold);font-size:20px;margin-bottom:16px">基础托管</h3>
-<ul style="color:var(--text-muted);line-height:2;font-size:14px">
-<li>✓ 年度保养计划制定</li>
-<li>✓ 定期巡检与报告</li>
-<li>✓ 紧急维修响应</li>
-<li>✓ 证书到期提醒</li>
-<li>✓ 基础保险代办</li>
+<!-- ========== 核心服务模块 ========== -->
+<section class="mgmt-section">
+<div class="container">
+<div class="section-header-c reveal">
+<h2>核心服务模块</h2>
+<p>六大维度覆盖游艇资产管理全生命周期，一站式解决所有运营难题</p>
+<div class="divider-line"></div>
+</div>
+
+<div class="service-grid-m reveal">
+<!-- Card 1 -->
+<div class="svc-card">
+<img src="images/yttp/yacht-010.jpg" alt="日常运营管理" class="svc-card-img">
+<div class="svc-card-body">
+<div class="svc-icon-wrap">⚓</div>
+<h3>日常运营管理</h3>
+<p>全方位接管游艇日常运营事务，从船员调度到财务核算，让您真正实现「拥有但不操心」的轻奢生活方式。</p>
+<div class="svc-tags">
+<span class="svc-tag">船员派遣与管理</span>
+<span class="svc-tag">航行日程调度</span>
+<span class="svc-tag">物资供应链</span>
+<span class="svc-tag">财务报表系统</span>
+<span class="svc-tag">船东专属APP</span>
+</div>
+</div>
+</div>
+
+<!-- Card 2 -->
+<div class="svc-card">
+<img src="images/yttp/yacht-018.jpg" alt="定期保养维护" class="svc-card-img">
+<div class="svc-card-body">
+<div class="svc-icon-wrap">🔧</div>
+<h3>定期保养维护</h3>
+<p>基于每艘游艇的材质、航区和使用频率，定制科学严谨的预防性维护计划，将故障消灭在萌芽状态。</p>
+<div class="svc-tags">
+<span class="svc-tag">发动机深度保养</span>
+<span class="svc-tag">防污漆年度更新</span>
+<span class="svc-tag">导航设备校准</span>
+<span class="svc-tag">安全系统检测</span>
+<span class="svc-tag">季节性入坞维护</span>
+</div>
+</div>
+</div>
+
+<!-- Card 3 -->
+<div class="svc-card">
+<img src="images/yttp/yacht-026.jpg" alt="专业维修服务" class="svc-card-img">
+<div class="svc-card-body">
+<div class="svc-icon-wrap">⚙️</div>
+<h3>专业维修服务</h3>
+<p>配备资深轮机工程师团队，提供从紧急抢修到系统性大修的全谱系维修能力，确保最短停航时间。</p>
+<div class="svc-tags">
+<span class="svc-tag">24/7紧急抢修</span>
+<span class="svc-tag">船体损伤修复</span>
+<span class="svc-tag">机械系统大修</span>
+<span class="svc-tag">电子设备升级</span>
+<span class="svc-tag">内饰翻新改造</span>
+</div>
+</div>
+</div>
+
+<!-- Card 4 -->
+<div class="svc-card">
+<img src="images/yttp/yacht-034.jpg" alt="海事合规代办" class="svc-card-img">
+<div class="svc-card-body">
+<div class="svc-icon-wrap">📜</div>
+<h3>海事合规代办</h3>
+<p>精通国际海事法规体系（SOLAS/MLC/ISPS），为您提供从船级社检验到证书续期的全套合规解决方案。</p>
+<div class="svc-tags">
+<span class="svc-tag">船级社检验协调</span>
+<span class="svc-tag">法定证书更新</span>
+<span class="svc-tag">船旗国注册续期</span>
+<span class="svc-tag">环保认证维护</span>
+<span class="svc-tag">安全管理体系审核</span>
+</div>
+</div>
+</div>
+
+<!-- Card 5 -->
+<div class="svc-card">
+<img src="images/yttp/yacht-042.jpg" alt="保险理赔协助" class="svc-card-img">
+<div class="svc-card-body">
+<div class="svc-icon-wrap">🛡️</div>
+<h3>保险理赔协助</h3>
+<p>与全球顶级H&M保险公司及P&I俱乐部建立战略合作，为您构建完整的风险保障与快速理赔通道。</p>
+<div class="svc-tags">
+<span class="svc-tag">H&M保险方案</span>
+<span class="svc-tag">P&I俱乐部对接</span>
+<span class="svc-tag">事故全程处理</span>
+<span class="svc-tag">损失评估谈判</span>
+<span class="svc-tag">风险预防咨询</span>
+</div>
+</div>
+</div>
+
+<!-- Card 6 -->
+<div class="svc-card">
+<img src="images/yttp/yacht-050.jpg" alt="资产保值规划" class="svc-card-img">
+<div class="svc-card-body">
+<div class="svc-icon-wrap">💎</div>
+<h3>资产保值规划</h3>
+<p>依托深厚的行业数据积累和市场洞察力，为您的游艇资产提供从价值评估到传承规划的长期财富管理建议。</p>
+<div class="svc-tags">
+<span class="svc-tag">市场价值评估</span>
+<span class="svc-tag">最佳出售时机</span>
+<span class="svc-tag">改装升级建议</span>
+<span class="svc-tag">成本效益优化</span>
+<span class="svc-tag">税务合规咨询</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ========== 服务流程 ========== -->
+<section class="mgmt-section mgmt-section-dark">
+<div class="container">
+<div class="section-header-c reveal">
+<h2>托管服务流程</h2>
+<p>六步标准化流程，从签约到交付，全程透明可控</p>
+<div class="divider-line"></div>
+</div>
+
+<div class="process-timeline reveal">
+<div class="proc-step">
+<div class="proc-dot">01</div>
+<h3>资产评估与需求分析</h3>
+<p>全面勘察游艇现状，包括船龄、设备状况、证书有效期、历史维修记录等，结合船东使用偏好制定个性化托管方案。</p>
+</div>
+<div class="proc-step">
+<div class="proc-dot">02</div>
+<h3>定制化托管方案设计</h3>
+<p>根据评估结果，量身定制包含人员配置、维护计划、预算分配、航线规划的完整托管方案，明确服务范围与KPI指标。</p>
+</div>
+<div class="proc-step">
+<div class="proc-dot">03</div>
+<h3>专业团队入驻交接</h3>
+<p>派遣持证船长、轮机长及服务团队完成全面交接，建立数字化档案管理系统，开通船东专属APP实时监控端口。</p>
+</div>
+<div class="proc-step">
+<div class="proc-dot">04</div>
+<h3>常态化运营与维护执行</h3>
+<p>按计划执行日常运营调度、定期巡检保养、月度财务报告、季度安全审计，所有关键节点均需船东确认后推进。</p>
+</div>
+<div class="proc-step">
+<div class="proc-step">
+<div class="proc-dot">05</div>
+<h3>年度综合评估报告</h3>
+<p>每年出具详尽的《游艇资产健康报告》，含技术状态评级、市场估值变化、下一年度优化建议及预算规划。</p>
+</div>
+<div class="proc-step">
+<div class="proc-dot">06</div>
+<h3>持续优化与增值服务</h3>
+<p>根据使用数据和行业趋势，主动提出改装升级、航线拓展、共享租赁等增值方案，助力资产持续升值。</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ========== 托管套餐 ========== -->
+<section class="mgmt-section mgmt-section-gold">
+<div class="container">
+<div class="section-header-c reveal">
+<h2>托管服务套餐</h3>
+<p>三档灵活方案，满足不同规模与需求的船东选择</p>
+<div class="divider-line"></div>
+</div>
+
+<div class="plans-grid reveal">
+<!-- Plan 1 -->
+<div class="plan-card">
+<div class="plan-name">基础托管</div>
+<div class="plan-desc">适合自配船员、寻求专业技术支持的船东</div>
+<div class="plan-price">¥<span data-count="88">0</span><span>/年起</span></div>
+<div class="plan-unit">起价，具体视船型而定</div>
+<ul class="plan-list">
+<li>年度保养计划制定与跟踪</li>
+<li>每月一次现场巡检与报告</li>
+<li>紧急维修24小时响应</li>
+<li>全部法定证书到期提醒</li>
+<li>基础保险代办服务</li>
+<li>年度资产健康报告</li>
 </ul>
-<p style="margin-top:20px;color:var(--gold)">适合：自配船员、寻求技术支持的船东</p>
+<a href="contact.html" class="plan-btn">咨询此方案</a>
 </div>
 
-<div class="value-card reveal" style="border:2px solid var(--gold);padding:32px;position:relative">
-<div style="position:absolute;top:-12px;left:24px;background:var(--gold);color:var(--dark1);padding:4px 16px;font-size:10px;letter-spacing:1px">推荐</div>
-<h3 style="color:var(--gold);font-size:20px;margin-bottom:16px">全托管服务</h3>
-<ul style="color:var(--text-muted);line-height:2;font-size:14px">
-<li>✓ 全部基础托管服务</li>
-<li>✓ 专业船员团队派遣</li>
-<li>✓ 日常运营全托管</li>
-<li>✓ 财务核算与报表</li>
-<li>✓ 航线规划与预订</li>
-<li>✓ 完整保险方案</li>
+<!-- Plan 2 (Featured) -->
+<div class="plan-card featured">
+<div class="plan-badge">★ 最受欢迎</div>
+<div class="plan-name">全托管服务</div>
+<div class="plan-desc">适合希望省心管理游艇资产的船东</div>
+<div class="plan-price">¥<span data-count="280">0</span><span>/年起</span></div>
+<div class="plan-unit">起价，具体视船型而定</div>
+<ul class="plan-list">
+<li>全部基础托管服务内容</li>
+<li>专业船员团队全职派遣</li>
+<li>日常运营全权托管</li>
+<li>月度财务核算与报表</li>
+<li>航线规划与预订服务</li>
+<li>完整H&M+P&I保险方案</li>
+<li>船东APP实时监控</li>
+<li>季度安全审计报告</li>
 </ul>
-<p style="margin-top:20px;color:var(--gold)">适合：希望省心管理游艇资产的船东</p>
+<a href="contact.html" class="plan-btn">咨询此方案</a>
 </div>
 
-<div class="value-card reveal" style="border:1px solid var(--glass-border);padding:32px">
-<h3 style="color:var(--gold);font-size:20px;margin-bottom:16px">至尊管家</h3>
-<ul style="color:var(--text-muted);line-height:2;font-size:14px">
-<li>✓ 全部全托管服务</li>
-<li>✓ 7×24专属管家</li>
-<li>✓ 全球停靠协调</li>
-<li>✓ 高端活动策划</li>
-<li>✓ VIP生活服务对接</li>
-<li>✓ 游艇资产传承规划</li>
+<!-- Plan 3 -->
+<div class="plan-card">
+<div class="plan-name">至尊管家</div>
+<div class="plan-desc">适合追求极致服务的超高净值客户</div>
+<div class="plan-price">¥<span count="680">0</span><span>/年起</span></div>
+<div class="plan-unit">起价，具体视船型而定</div>
+<ul class="plan-list">
+<li>全部全托管服务内容</li>
+<li>7×24小时专属管家一对一</li>
+<li>全球港口停靠协调服务</li>
+<li>高端海上活动策划定制</li>
+<li>VIP生活服务无缝对接</li>
+<li>游艇资产传承规划咨询</li>
+<li>优先享用奇幻假期全系资源</li>
+<li>年度游艇升级置换顾问</li>
 </ul>
-<p style="margin-top:20px;color:var(--gold)">适合：追求极致服务的超高净值客户</p>
+<a href="contact.html" class="plan-btn">咨询此方案</a>
 </div>
 </div>
-</div></section>
+</div>
+</section>
 
-<section class="section-padding"><div class="container">
-<div class="section-header reveal"><h2><span class="gold-gradient">为什么选择我们</span></h2><div class="divider-gold"></div></div>
-<div class="services-grid" style="grid-template-columns:repeat(auto-fit,minmax(220px,1fr))">
-<div class="service-card<img src="images/yttp/yacht-062.jpg" alt="游艇服务" style="width:100%;height:180px;object-fit:cover;border-radius:12px 12px 0 0;margin-bottom:12px;"> reveal" style="padding:24px;text-align:center"><div class="service-icon" style="margin:0 auto 12px">🎓</div><h3 style="font-size:15px">专业团队</h3><p style="font-size:12px">持证船长、轮机工程师、保险专员全程服务</p></div>
-<div class="service-card<img src="images/yttp/yacht-070.jpg" alt="游艇服务" style="width:100%;height:180px;object-fit:cover;border-radius:12px 12px 0 0;margin-bottom:12px;"> reveal" style="padding:24px;text-align:center"><div class="service-icon" style="margin:0 auto 12px">📡</div><h3 style="font-size:15px">智能管理</h3><p style="font-size:12px">船东APP实时查看游艇状态、航行轨迹、财务报表</p></div>
-<div class="service-card<img src="images/yttp/yacht-078.jpg" alt="游艇服务" style="width:100%;height:180px;object-fit:cover;border-radius:12px 12px 0 0;margin-bottom:12px;"> reveal" style="padding:24px;text-align:center"><div class="service-icon" style="margin:0 auto 12px">🌐</div><h3 style="font-size:15px">全球网络</h3><p style="font-size:12px">30+海域服务基地，无论您的游艇停靠何处都能响应</p></div>
-<div class="service-card<img src="images/yttp/yacht-086.jpg" alt="游艇服务" style="width:100%;height:180px;object-fit:cover;border-radius:12px 12px 0 0;margin-bottom:12px;"> reveal" style="padding:24px;text-align:center"><div class="service-icon" style="margin:0 auto 12px">💰</div><h3 style="font-size:15px">成本优化</h3><p style="font-size:12px">集团采购议价能力，平均节省运营成本15-20%</p></div>
+<!-- ========== 服务优势 ========== -->
+<section class="mgmt-section mgmt-section-dark">
+<div class="container">
+<div class="section-header-c reveal">
+<h2>为什么选择奇幻假期</h2>
+<p>四大核心优势，定义行业标准</p>
+<div class="divider-line"></div>
 </div>
-</div></section>
 
+<div class="adv-grid reveal">
+<div class="adv-item">
+<div class="adv-icon">🎓</div>
+<h3>精英专业团队</h3>
+<p>持证船长、注册轮机工程师、海事法律顾问、保险精算师组成的复合型专家团队，平均从业经验超过12年。</p>
+</div>
+<div class="adv-item">
+<div class="adv-icon">📡</div>
+<h3>智能数字管理</h3>
+<p>自主研发船东专属APP，实时查看游艇位置、航行轨迹、设备状态、财务报表，一切尽在掌握。</p>
+</div>
+<div class="adv-item">
+<div class="adv-icon">🌐</div>
+<h3>全球服务网络</h3>
+<p>在亚太、地中海、加勒比海三大核心区域设有服务基地，覆盖全球30+主要游艇停靠港。</p>
+</div>
+<div class="adv-item">
+<div class="adv-icon">💰</div>
+<h3>成本优化能力</h3>
+<p>依托集团级采购议价能力和精细化运营管理，帮助船东平均降低15%-20%的年度持有成本。</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ========== 行业资质与保障 ========== -->
+<section class="mgmt-section">
+<div class="container">
+<div class="section-header-c reveal">
+<h2>资质认证与服务保障</h2>
+<p>权威认证背书，多重保障护航</p>
+<div class="divider-line"></div>
+</div>
+
+<div class="service-grid-m reveal" style="grid-template-columns: repeat(4, 1fr);">
+<div class="svc-card" style="text-align:center;padding:36px 20px;">
+<div style="font-size:40px;margin-bottom:14px;">🏆</div>
+<h3 style="font-size:16px;">ISO 9001 认证</h3>
+<p style="font-size:12.5px;color:rgba(200,210,225,0.5);">通过国际质量管理体系认证，服务流程标准化、可追溯</p>
+</div>
+<div class="svc-card" style="text-align:center;padding:36px 20px;">
+<div style="font-size:40px;margin-bottom:14px;">⚖️</div>
+<h3 style="font-size:16px;">船级社合作资质</h3>
+<p style="font-size:12.5px;color:rgba(200,210,225,0.5);">与DNV、BV、CCS等主流船级社建立长期检验合作关系</p>
+</div>
+<div class="svc-card" style="text-align:center;padding:36px 20px;">
+<div style="font-size:40px;margin-bottom:14px;">🔒</div>
+<h3 style="font-size:16px;">全额责任保险</h3>
+<p style="font-size:12.5px;color:rgba(200,210,225,0.5);">每艘托管游艇均投保足额职业责任险，最高赔付额达亿元级别</p>
+</div>
+<div class="svc-card" style="text-align:center;padding:36px 20px;">
+<div style="font-size:40px;margin-bottom:14px;">📋</div>
+<h3 style="font-size:16px;">SLA服务承诺</h3>
+<p style="font-size:12.5px;color:rgba(200,210,225,0.5);">签订正式SLA协议，承诺响应时效与服务质量，违约即赔偿</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ========== CTA ========== -->
+<section class="cta-block mgmt-section-dark">
+<div class="container reveal">
+<h2>让您的游艇始终处于巅峰状态</h2>
+<p>立即联系我们的专业顾问，获取免费资产评估与定制化托管方案</p>
+<div class="cta-email">
+📧 <a href="mailto:fantastic.vacation@yahoo.com">fantastic.vacation@yahoo.com</a>
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
 <footer id="footer"><div class="container"><div class="footer-grid">
-<div class="footer-brand"><a href="index.html" class="nav-logo">FANTASY HOLIDAY</a><p>奇幻假期实业有限公司</p></div>
-<div class="footer-col"><h4>快速导航</h4><ul><li><a href="index.html">首页</a></li><li><a href="about.html">关于我们</a></li><li><a href="yachts.html">游艇产品</a></li><li><a href="contact.html">联系我们</a></li></ul></div>
-<div class="footer-col"><h4>联系方式</h4><ul><li>📞 +86 400-888-9999</li><li>✉️ management@fantasyholiday.com</li></ul></div>
-</div><div class="footer-bottom"><p>© 2026 奇幻假期实业有限公司</p></div></div></footer>
-
+<div class="footer-brand"><a href="index.html" class="nav-logo">FANTASY HOLIDAY</a><p>奇幻假期fantastic.vacation</p><p style="font-size:12px;color:var(--text-muted);margin-top:8px;">高端私人游艇全托管一站式服务商</p></div>
+<div class="footer-col"><h4>快速导航</h4><ul><li><a href="index.html">首页</a></li><li><a href="yachts.html">游艇产品</a></li><li><a href="charter.html">租赁航线</a></li><li><a href="management.html">托管维保</a></li><li><a href="contact.html">联系我们</a></li></ul></div>
+<div class="footer-col"><h4>服务项目</h4><ul><li><a href="custom.html">定制服务</a></li><li><a href="charter.html">航线租赁</a></li><li><a href="management.html">托管维保</a></li><li><a href="cases.html">案例展示</a></li></ul></div>
+<div class="footer-col"><h4>联系方式</h4><ul><li>📧 <a href="mailto:fantastic.vacation@yahoo.com" style="color:var(--text-muted);text-decoration:none;">fantastic.vacation@yahoo.com</a></li><li style="margin-top:8px;font-size:12px;color:var(--text-dim)">香港·新加坡·摩纳哥</li></ul></div>
+</div><div class="footer-bottom"><p>© 2026 奇幻假期fantastic.vacation. All Rights Reserved.</p></div></div></footer>
 
 <script>
+// Loader
 window.addEventListener("DOMContentLoaded",function(){
 var loader=document.getElementById("loader");
 if(!loader)return;
@@ -107,9 +851,43 @@ var progress=0;
 var interval=setInterval(function(){progress+=Math.random()*12+8;if(progress>=100){progress=100;clearInterval(interval);if(progressEl)progressEl.style.width="100%";setTimeout(function(){if(loader)loader.style.display="none";document.body.style.overflow=""},400)}else if(progressEl)progressEl.style.width=progress+"%"},180);
 setTimeout(function(){clearInterval(interval);if(loader)loader.style.display="none";document.body.style.overflow=""},5000);
 });
+
+// Nav scroll
 window.addEventListener("scroll",function(){var nav=document.getElementById("navbar");if(window.scrollY>50)nav.classList.add("scrolled");else nav.classList.remove("scrolled")});
+
+// Mobile menu
 function toggleMobile(){document.getElementById("mobile-menu").classList.toggle("active");document.querySelector(".hamburger").classList.toggle("active")}
+
+// Cursor follower
 (function(){var c=document.getElementById("cursor");if(c)document.addEventListener("mousemove",function(e){c.style.left=e.pageX+"px";c.style.top=e.pageY+"px"})})();
+
+// Reveal on scroll
 (function(){var o=new IntersectionObserver(function(e){e.forEach(function(e){if(e.isIntersecting)e.target.classList.add("revealed")})},{threshold:0.1});document.querySelectorAll(".reveal,.reveal-left,.reveal-right,.reveal-scale").forEach(function(e){o.observe(e)})})();
+
+// Counter animation
+(function(){
+var counters=document.querySelectorAll('[data-count]');
+var ob=new IntersectionObserver(function(entries){
+entries.forEach(function(e){
+if(!e.isIntersecting)return;
+var el=e.target;
+var target=parseInt(el.getAttribute('data-count'));
+var duration=2000;
+var start=0;
+var startTime=null;
+function step(ts){
+if(!startTime)startTime=ts;
+var progress=Math.min((ts-startTime)/duration,1);
+el.textContent=Math.floor(progress*target);
+if(progress<1)requestAnimationFrame(step);
+else el.textContent=target;
+}
+requestAnimationFrame(step);
+ob.unobserve(el);
+});
+},{threshold:0.5});
+counters.forEach(function(c){ob.observe(c)});
+})();
 </script>
-</body></html>
+</body>
+</html>
