@@ -5,6 +5,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <style>
+/* ===== HERO ===== */
 .custom-hero{position:relative;min-height:90vh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden}
 .custom-hero .hero-bg{position:absolute;inset:0;background:url('images/yttp/yacht-004.jpg') center/cover no-repeat fixed}
 .custom-hero .hero-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,12,24,0.7) 0%,rgba(6,12,24,0.5) 40%,rgba(6,12,24,0.6) 70%,rgba(6,12,24,0.92) 100%)}
@@ -12,66 +13,139 @@
 .custom-hero .hero-badge{display:inline-block;padding:8px 24px;border-radius:30px;font-size:12px;font-weight:600;letter-spacing:3px;background:linear-gradient(135deg,rgba(201,169,110,0.2),rgba(201,169,110,0.05));border:1px solid rgba(201,169,110,0.3);color:var(--gold);margin-bottom:20px}
 .custom-hero h1{font-family:'Playfair Display',serif;font-size:clamp(36px,5.5vw,64px);font-weight:800;letter-spacing:3px;margin-bottom:16px;line-height:1.2}
 .custom-hero .hero-sub{font-size:clamp(15px,1.8vw,20px);color:var(--text-muted);font-weight:300;letter-spacing:2px;margin-bottom:40px}
-.custom-hero .hero-stats{display:flex;justify-content:center;gap:48px;flex-wrap:wrap}
-.custom-hero .stat{text-align:center}
-.custom-hero .stat-val{font-family:'Playfair Display',serif;font-size:36px;font-weight:700;color:var(--gold)}
-.custom-hero .stat-label{font-size:11px;color:var(--text-dim);letter-spacing:1.5px;text-transform:uppercase;margin-top:4px}
-.sec-header{text-align:center;margin-bottom:56px}
+.hero-stats{display:flex;justify-content:center;gap:48px;flex-wrap:wrap}
+.hero-stats .stat{text-align:center}
+.hero-stats .stat-val{font-family:'Playfair Display',serif;font-size:36px;font-weight:700;color:var(--gold)}
+.hero-stats .stat-label{font-size:11px;color:var(--text-dim);letter-spacing:1.5px;text-transform:uppercase;margin-top:4px}
+
+/* ===== SECTION COMMONS ===== */
+.sec-header{text-align:center;margin-bottom:56px;padding-top:10px}
 .sec-header h2{font-family:'Playfair Display',serif;font-size:clamp(28px,3.5vw,40px);font-weight:700;margin-bottom:12px}
-.sec-header .sec-sub{font-size:15px;color:var(--text-dim);max-width:600px;margin:0 auto;line-height:1.7}
-.timeline-section{padding:100px 0;background:var(--dark1)}
+.sec-header .sec-sub{font-size:15px;color:var(--text-dim);max-width:680px;margin:0 auto;line-height:1.8}
+.divider-gold{width:60px;height:2px;background:linear-gradient(90deg,var(--gold),transparent);margin:16px auto 24px;border-radius:1px}
+
+/* ===== 1. PHILOSOPHY SECTION ===== */
+.philosophy-section{padding:100px 0;background:linear-gradient(180deg,var(--dark1),var(--dark2))}
+.philosophy-inner{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;max-width:1200px;margin:0 auto}
+.philosophy-img{position:relative;border-radius:20px;overflow:hidden;aspect-ratio:4/3}
+.philosophy-img img{width:100%;height:100%;object-fit:cover}
+.philosophy-img::after{content:'';position:absolute;inset:0;border:1px solid rgba(201,169,110,0.2);border-radius:20px;pointer-events:none}
+.philosophy-text h2{font-family:'Playfair Display',serif;font-size:clamp(26px,3vw,38px);margin-bottom:20px;line-height:1.3}
+.philosophy-text .gold-line{width:50px;height:3px;background:linear-gradient(90deg,var(--gold),transparent);margin-bottom:24px;border-radius:2px}
+.philosophy-text p{font-size:14.5px;color:var(--text-dim);line-height:1.9;margin-bottom:18px}
+.philosophy-highlights{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:28px}
+.ph-item{display:flex;align-items:center;gap:12px;padding:14px 16px;background:rgba(201,169,110,0.04);border:1px solid rgba(201,169,110,0.1);border-radius:12px;transition:all .3s}
+.ph-item:hover{background:rgba(201,169,110,0.08);border-color:rgba(201,169,110,0.25)}
+.ph-item-icon{width:40px;height:40px;border-radius:10px;background:linear-gradient(135deg,rgba(201,169,110,0.15),rgba(201,169,110,0.03));display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:18px}
+.ph-item-text{font-size:13px;color:var(--text-muted);line-height:1.4}
+.ph-item-text strong{display:block;color:var(--text);font-size:13px;margin-bottom:2px}
+
+/* ===== 2. PROCESS GRID (UPGRADED) ===== */
+.timeline-section{padding:100px 0;background:var(--dark2)}
 .process-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;max-width:1200px;margin:0 auto}
 .process-card{background:var(--card);border:1px solid var(--glass-border);border-radius:16px;overflow:hidden;transition:all .4s;display:flex;flex-direction:column}
-.process-card:hover{border-color:rgba(201,169,110,0.3);transform:translateY(-6px);box-shadow:0 20px 60px rgba(0,0,0,0.3)}
+.process-card:hover{border-color:rgba(201,169,110,0.35);transform:translateY(-6px);box-shadow:0 20px 60px rgba(0,0,0,0.35)}
 .process-card-img{aspect-ratio:16/9;overflow:hidden;position:relative}
 .process-card-img img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
 .process-card:hover .process-card-img img{transform:scale(1.06)}
-.process-card-img .step-badge{position:absolute;top:14px;left:14px;width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,var(--gold-dark),var(--gold));color:var(--dark1);display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:18px;font-weight:700;box-shadow:0 4px 20px rgba(201,169,110,0.4);z-index:2}
-.process-card-icon{position:absolute;bottom:14px;right:14px;width:64px;height:64px;z-index:2;opacity:0.85;filter:drop-shadow(0 2px 8px rgba(0,0,0,0.5))}
+.step-badge{position:absolute;top:14px;left:14px;width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,#8B6914,var(--gold));color:var(--dark1);display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:18px;font-weight:700;box-shadow:0 4px 20px rgba(201,169,110,0.45);z-index:2}
+.process-card-icon{position:absolute;bottom:12px;right:12px;width:68px;height:68px;z-index:2;opacity:0.92;filter:drop-shadow(0 3px 10px rgba(0,0,0,0.6))}
 .process-card-icon svg{width:100%;height:100%}
-.process-card-body{padding:24px;flex:1;display:flex;flex-direction:column}
-.process-card-body .step-label{font-size:11px;color:var(--gold);letter-spacing:2px;text-transform:uppercase;margin-bottom:6px;font-weight:600}
-.process-card-body h3{font-family:'Playfair Display',serif;font-size:20px;font-weight:700;margin-bottom:10px}
-.process-card-body .step-desc{font-size:13px;color:var(--text-dim);line-height:1.7;margin-bottom:14px}
-.process-card-body .step-details{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:auto}
-.step-detail{font-size:11px;color:var(--text-muted);padding:6px 10px;background:rgba(201,169,110,0.05);border:1px solid rgba(201,169,110,0.1);border-radius:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.step-detail::before{content:'\2726 ';color:var(--gold);font-size:9px}
-.features-section{padding:100px 0;background:var(--dark2)}
-.features-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:28px;max-width:1100px;margin:0 auto}
-.feature-card{background:var(--card);border:1px solid var(--glass-border);border-radius:16px;overflow:hidden;transition:all .4s}
-.feature-card:hover{border-color:rgba(201,169,110,0.3);transform:translateY(-6px);box-shadow:0 20px 60px rgba(0,0,0,0.3)}
-.feature-img{aspect-ratio:16/9;overflow:hidden}
-.feature-img img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
-.feature-card:hover .feature-img img{transform:scale(1.06)}
-.feature-body{padding:28px}
-.feature-body h3{font-family:'Playfair Display',serif;font-size:20px;margin-bottom:10px}
-.feature-body p{font-size:13px;color:var(--text-dim);line-height:1.7}
-.feature-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
-.feature-tag{font-size:11px;padding:4px 12px;border-radius:20px;background:rgba(201,169,110,0.08);border:1px solid rgba(201,169,110,0.15);color:var(--gold);letter-spacing:0.5px}
+.process-card-body{padding:22px;flex:1;display:flex;flex-direction:column}
+.step-label{font-size:11px;color:var(--gold);letter-spacing:2px;text-transform:uppercase;margin-bottom:6px;font-weight:600}
+.process-card-body h3{font-family:'Playfair Display',serif;font-size:19px;font-weight:700;margin-bottom:10px}
+.step-desc{font-size:12.5px;color:var(--text-dim);line-height:1.75;margin-bottom:14px}
+.step-details{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:auto}
+.step-detail{font-size:10.5px;color:var(--text-muted);padding:6px 10px;background:rgba(201,169,110,0.05);border:1px solid rgba(201,169,110,0.1);border-radius:6px;line-height:1.4;white-space:normal;overflow:visible}
+.step-detail::before{content:'✦ ';color:var(--gold);font-size:9px}
+
+/* ===== 3. CUSTOM DIMENSIONS ===== */
+.dimensions-section{padding:100px 0;background:var(--dark1)}
+.dim-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:28px;max-width:1200px;margin:0 auto}
+.dim-card{background:var(--card);border:1px solid var(--glass-border);border-radius:16px;overflow:hidden;transition:all .4s}
+.dim-card:hover{border-color:rgba(201,169,110,0.3);transform:translateY(-4px);box-shadow:0 16px 48px rgba(0,0,0,0.25)}
+.dim-img{aspect-ratio:16/9;overflow:hidden}
+.dim-img img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.dim-card:hover .dim-img img{transform:scale(1.05)}
+.dim-body{padding:28px}
+.dim-body h3{font-family:'Playfair Display',serif;font-size:20px;margin-bottom:12px;display:flex;align-items:center;gap:10px}
+.dim-body h3 .dim-num{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:8px;background:linear-gradient(135deg,var(--gold-dark),var(--gold));color:var(--dark1);font-size:14px;font-weight:700;font-family:'Playfair Display',serif}
+.dim-body p{font-size:13px;color:var(--text-dim);line-height:1.75;margin-bottom:14px}
+.dim-tags{display:flex;flex-wrap:wrap;gap:7px}
+.dim-tag{font-size:10.5px;padding:4px 12px;border-radius:20px;background:rgba(201,169,110,0.07);border:1px solid rgba(201,169,110,0.14);color:var(--gold);letter-spacing:0.3px}
+
+/* ===== 4. MODEL & VR SECTION ===== */
+.model-section{padding:100px 0;background:linear-gradient(180deg,var(--dark2),var(--dark3))}
+.model-inner{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;max-width:1200px;margin:0 auto}
+.model-visual{position:relative;border-radius:20px;overflow:hidden}
+.model-visual img{width:100%;display:block}
+.model-visual::after{content:'';position:absolute;inset:0;border:1px solid rgba(201,169,110,0.2);border-radius:20px;pointer-events:none}
+.model-text h2{font-family:'Playfair Display',serif;font-size:clamp(26px,3vw,38px);margin-bottom:20px}
+.model-text .gold-line{width:50px;height:3px;background:linear-gradient(90deg,var(--gold),transparent);margin-bottom:24px;border-radius:2px}
+.model-text p{font-size:14px;color:var(--text-dim);line-height:1.85;margin-bottom:16px}
+.model-features{list-style:none;padding:0}
+.model-features li{padding:10px 0 10px 28px;font-size:13.5px;color:var(--text-muted);line-height:1.6;border-bottom:1px solid rgba(255,255,255,0.04);position:relative}
+.model-features li::before{content:'◆';position:absolute;left:0;color:var(--gold);font-size:10px;top:14px}
+
+/* ===== 5. CASE STUDIES (EXPANDED) ===== */
 .case-section{padding:100px 0;background:var(--dark3)}
-.case-card{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:0;border-radius:20px;overflow:hidden;border:1px solid var(--glass-border);background:var(--card)}
-.case-img{position:relative;min-height:400px}
-.case-img img{width:100%;height:100%;object-fit:cover}
-.case-info{padding:48px 40px;display:flex;flex-direction:column;justify-content:center}
-.case-badge{display:inline-block;font-size:11px;letter-spacing:2px;color:var(--gold);font-weight:600;margin-bottom:12px;text-transform:uppercase}
-.case-title{font-family:'Playfair Display',serif;font-size:28px;font-weight:700;margin-bottom:16px}
-.case-desc{font-size:14px;color:var(--text-dim);line-height:1.8;margin-bottom:24px}
-.case-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:24px}
-.case-stat{text-align:center;padding:12px;background:rgba(201,169,110,0.05);border-radius:10px}
-.case-stat-val{font-family:'Playfair Display',serif;font-size:24px;font-weight:700;color:var(--gold)}
-.case-stat-label{font-size:10px;color:var(--text-dim);letter-spacing:1px;margin-top:2px}
-.cta-section{padding:100px 0;text-align:center;background:linear-gradient(180deg,var(--dark1),var(--dark2))}
+.cases-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:28px;max-width:1200px;margin:0 auto}
+.case-card{background:var(--card);border:1px solid var(--glass-border);border-radius:16px;overflow:hidden;transition:all .4s}
+.case-card:hover{border-color:rgba(201,169,110,0.3);transform:translateY(-4px);box-shadow:0 16px 48px rgba(0,0,0,0.25)}
+.case-card-img{aspect-ratio:16/9;overflow:hidden}
+.case-card-img img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.case-card:hover .case-card-img img{transform:scale(1.05)}
+.case-card-body{padding:24px}
+.case-card-badge{display:inline-block;font-size:10px;letter-spacing:2px;color:var(--gold);font-weight:600;margin-bottom:8px;text-transform:uppercase}
+.case-card-title{font-family:'Playfair Display',serif;font-size:19px;font-weight:700;margin-bottom:8px}
+.case-card-desc{font-size:12.5px;color:var(--text-dim);line-height:1.7;margin-bottom:14px}
+.case-card-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.cs-stat{text-align:center;padding:8px 6px;background:rgba(201,169,110,0.04);border-radius:8px}
+.cs-stat-val{font-family:'Playfair Display',serif;font-size:17px;font-weight:700;color:var(--gold)}
+.cs-stat-label{font-size:9px;color:var(--text-dim);letter-spacing:.5px;margin-top:2px}
+.case-highlight{margin-top:12px;padding:10px 14px;background:rgba(201,169,110,0.06);border-left:3px solid var(--gold);border-radius:0 8px 8px 0;font-size:12px;color:var(--text-muted);line-height:1.6}
+
+/* ===== 6. GUARANTEE SECTION ===== */
+.guarantee-section{padding:100px 0;background:var(--dark1)}
+.guarantee-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:20px;max-width:1200px;margin:0 auto}
+.guarantee-item{text-align:center;padding:30px 16px;background:var(--card);border:1px solid var(--glass-border);border-radius:16px;transition:all .3s}
+.guarantee-item:hover{border-color:rgba(201,169,110,0.3);transform:translateY(-4px)}
+.guarantee-icon{width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,rgba(201,169,110,0.15),rgba(201,169,110,0.03));display:flex;align-items:center;justify-content:center;margin:0 auto 14px;font-size:24px}
+.guarantee-item h4{font-family:'Playfair Display',serif;font-size:15px;margin-bottom:8px}
+.guarantee-item p{font-size:11.5px;color:var(--text-dim);line-height:1.6}
+
+/* ===== 7. CTA WITH FORM ===== */
+.cta-section{padding:100px 0;text-align:center;background:linear-gradient(180deg,var(--dark2),var(--dark1))}
 .cta-section h2{font-family:'Playfair Display',serif;font-size:clamp(28px,3.5vw,42px);margin-bottom:16px}
-.cta-section p{font-size:15px;color:var(--text-dim);margin-bottom:36px;max-width:500px;margin-left:auto;margin-right:auto}
+.cta-section > .container > p{font-size:15px;color:var(--text-dim);margin-bottom:40px;max-width:520px;margin-left:auto;margin-right:auto}
+.cta-form{max-width:560px;margin:0 auto 36px;text-align:left}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+.form-field-full{grid-column:1/-1}
+.form-input,.form-select,.form-textarea{width:100%;padding:14px 18px;background:rgba(255,255,255,0.04);border:1px solid var(--glass-border);border-radius:10px;color:var(--text);font-size:14px;font-family:Inter,sans-serif;outline:none;transition:all .3s;box-sizing:border-box}
+.form-input:focus,.form-select:focus,.form-textarea:focus{border-color:var(--gold);background:rgba(201,169,110,0.04);box-shadow:0 0 0 3px rgba(201,169,110,0.08)}
+.form-textarea{min-height:100px;resize:vertical}
+.form-select{appearance:none;-webkit-appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%23c9a96e'%3E%3Cpath d='M6 8L1 3h10z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 16px center;padding-right:40px}
+.btn-submit{width:100%;padding:16px 32px;background:linear-gradient(135deg,var(--gold-dark),var(--gold));color:var(--dark1);border:none;border-radius:10px;font-size:15px;font-weight:600;letter-spacing:1px;cursor:pointer;transition:all .3s;font-family:Inter,sans-serif}
+.btn-submit:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(201,169,110,0.35)}
+
+/* ===== RESPONSIVE ===== */
 @media(max-width:1024px){
   .process-grid{grid-template-columns:repeat(2,1fr)}
+  .dim-grid{grid-template-columns:1fr}
+  .philosophy-inner,.model-inner{grid-template-columns:1fr;gap:36px}
+  .philosophy-img{order:-1}
+  .guarantee-grid{grid-template-columns:repeat(3,1fr)}
+  .cases-grid{grid-template-columns:1fr}
 }
 @media(max-width:768px){
   .process-grid{grid-template-columns:1fr}
   .case-card{grid-template-columns:1fr}
-  .case-img{min-height:260px}
-  .custom-hero .hero-stats{gap:24px}
+  .guarantee-grid{grid-template-columns:1fr 1fr}
+  .form-grid{grid-template-columns:1fr}
+  .philosophy-highlights{grid-template-columns:1fr}
   .step-details{grid-template-columns:1fr}
+  .custom-hero .hero-stats{gap:24px}
+  .hero-stats .stat-val{font-size:28px}
 }
 </style>
 </head><body>
@@ -86,13 +160,13 @@
 <a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a><a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a><a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a><a href="contact.html">联系我们</a>
 </div>
 
+<!-- ========== HERO ========== -->
 <section class="custom-hero">
-<div class="hero-bg"></div>
-<div class="hero-overlay"></div>
+<div class="hero-bg"></div><div class="hero-overlay"></div>
 <div class="hero-content">
 <div class="hero-badge">&#10022; 全流程定制 &#10022;</div>
 <h1><span class="gold-gradient">私人游艇<br>定制服务</span></h1>
-<p class="hero-sub">每一寸空间，都为您量身雕琢</p>
+<p class="hero-sub">每一艘游艇，都是船东海上私人生活方式的专属艺术品</p>
 <div class="hero-stats">
 <div class="stat"><div class="stat-val" data-count="16">0</div><div class="stat-label">年定制经验</div></div>
 <div class="stat"><div class="stat-val" data-count="200">0</div><div class="stat-label">交付游艇</div></div>
@@ -102,101 +176,153 @@
 </div>
 </section>
 
+<!-- ========== 1. 定制服务理念 ========== -->
+<section class="philosophy-section">
+<div class="container">
+<div class="philosophy-inner reveal">
+<div class="philosophy-img"><img src="images/yttp/yacht-070.jpg" alt="游艇设计理念"></div>
+<div class="philosophy-text">
+<div class="gold-line"></div>
+<h2>每一寸空间，<br>都为您量身雕琢</h2>
+<p>在奇幻假期，我们深信真正的奢华并非堆砌昂贵材质，而是对每一位船东生活方式的深刻理解与精准诠释。从地中海的蔚蓝海岸到加勒比的碧波万顷，我们为全球精英阶层打造独一无二的海上移动行宫——这不仅是一艘游艇，更是您个人品味、生活哲学与航海梦想的具象化呈现。</p>
+<p>我们汇聚意大利Benetti设计工作室的东方美学造诣、荷兰Feadship的精密建造工艺、德国MTU的动力工程实力，整合全球最优秀的游艇产业链资源，确保每一艘交付的定制游艇都达到国际最高标准。</p>
+<div class="philosophy-highlights">
+<div class="ph-item"><div class="ph-item-icon">🎨</div><div class="ph-item-text"><strong>意大利原创设计</strong>米兰与热那亚双城设计中心</div></div>
+<div class="ph-item"><div class="ph-item-icon">⚓</div><div class="ph-item-text"><strong>荷兰顶级船厂</strong>Feadship/Heesen联合建造</div></div>
+<div class="ph-item"><div class="ph-item-icon">🔧</div><div class="ph-item-text"><strong>德国精工动力</strong>MTU/Man双引擎系统</div></div>
+<div class="ph-item"><div class="ph-item-icon">🌏</div><div class="ph-item-text"><strong>全球供应链</strong>45国200+供应商网络</div></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ========== 2. 全流程定制能力（6步骤升级） ========== -->
 <section class="timeline-section">
 <div class="container">
 <div class="sec-header reveal">
 <h2><span class="gold-gradient">全流程定制能力</span></h2>
 <div class="divider-gold"></div>
-<p class="sec-sub">从最初的概念草图到最终的海上交付，奇幻假期的定制服务涵盖游艇诞生的每一个环节</p>
+<p class="sec-sub">从最初的概念草图到最终的海上交付，奇幻假期的定制服务涵盖游艇诞生的每一个环节，每一个细节都由专业团队精心把控</p>
 </div>
 <div class="process-grid">
 
+<!-- STEP 01 -->
 <div class="process-card reveal">
-<div class="process-card-img"><img src="images/yttp/yacht-095.jpg" alt="专属咨询"><div class="step-badge">1</div><div class="process-card-icon"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" r="30" stroke="#c9a96e" stroke-width="1.5" fill="rgba(10,16,30,0.6)"/><path d="M22 28c0-5.5 4.5-10 10-10s10 4.5 10 10" stroke="#c9a96e" stroke-width="2" stroke-linecap="round" fill="none"/><rect x="18" y="27" width="4" height="8" rx="2" fill="#c9a96e"/><rect x="42" y="27" width="4" height="8" rx="2" fill="#c9a96e"/><path d="M18 35c0 0 2 8 14 8s14-8 14-8" stroke="#c9a96e" stroke-width="2" stroke-linecap="round" fill="none"/><circle cx="32" cy="39" r="2" fill="#c9a96e"/><path d="M30 39h-4M34 39h4" stroke="#c9a96e" stroke-width="1.5" stroke-linecap="round"/></svg></div></div>
+<div class="process-card-img"><img src="images/yttp/yacht-095.jpg" alt="专属咨询"><div class="step-badge">1</div><div class="process-card-icon"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#c9a96e"/><stop offset="100%" stop-color="#8B6914"/></linearGradient></defs><circle cx="32" cy="32" r="29" stroke="url(#g1)" stroke-width="1.5" fill="rgba(10,16,30,0.65)"/><ellipse cx="32" cy="27" rx="14" ry="9" stroke="#c9a96e" stroke-width="1.8" fill="none"/><path d="M18 27c0-7.7 6.3-14 14-14s14 6.3 14 14" stroke="#c9a96e" stroke-width="1.8" fill="none"/><rect x="19" y="34" width="5" height="9" rx="2.5" fill="url(#g1)"/><rect x="40" y="34" width="5" height="9" rx="2.5" fill="url(#g1)"/><path d="M19 43c0 0 3 9 13 9s13-9 13-9" stroke="#c9a96e" stroke-width="1.8" stroke-linecap="round" fill="none"/><circle cx="32" cy="47" r="2.5" fill="#c9a96e"/><path d="M24 23c2-3 5-4 8-4s6 1 8 4" stroke="#c9a96e" stroke-width="1.2" opacity="0.5" fill="none"/><circle cx="24" cy="21" r="1.5" fill="#c9a96e" opacity="0.6"/><circle cx="40" cy="21" r="1.5" fill="#c9a96e" opacity="0.6"/></svg></div></div>
 <div class="process-card-body">
 <div class="step-label">STEP 01</div>
 <h3>专属咨询</h3>
-<p class="step-desc">资深游艇顾问一对一深度沟通，全面了解您的航海愿景与审美偏好，定制专属方案蓝图。</p>
+<p class="step-desc">资深游艇顾问一对一深度沟通，全面了解您的航海愿景与审美偏好。从首次接触到方案蓝图，全程由专属项目顾问跟进，确保每一个需求都被精准捕捉与专业回应。</p>
 <div class="step-details">
-<div class="step-detail">一对一需求调研</div>
+<div class="step-detail">一对一深度需求调研</div>
 <div class="step-detail">航海愿景与生活方式访谈</div>
-<div class="step-detail">预算与使用场景规划</div>
+<div class="step-detail">预算规划与使用场景分析</div>
+<div class="step-detail">船东专属项目顾问对接</div>
+<div class="step-detail">法规与海事政策专业咨询</div>
 <div class="step-detail">初步方案沟通与预期管理</div>
+<div class="step-detail">竞品对比与市场趋势解读</div>
+<div class="step-detail">定制合同条款详细说明</div>
 </div>
 </div>
 </div>
 
+<!-- STEP 02 -->
 <div class="process-card reveal">
-<div class="process-card-img"><img src="images/yttp/yacht-108.jpg" alt="概念设计"><div class="step-badge">2</div><div class="process-card-icon"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" r="30" stroke="#c9a96e" stroke-width="1.5" fill="rgba(10,16,30,0.6)"/><path d="M20 44l6-20 14 14-20 6z" stroke="#c9a96e" stroke-width="2" stroke-linejoin="round" fill="rgba(201,169,110,0.1)"/><path d="M26 24L38 12l6 6-12 12" stroke="#c9a96e" stroke-width="2" stroke-linejoin="round" fill="rgba(201,169,110,0.1)"/><circle cx="23" cy="41" r="1.5" fill="#c9a96e"/><path d="M30 34l10-10" stroke="#c9a96e" stroke-width="1" opacity="0.5"/></svg></div></div>
+<div class="process-card-img"><img src="images/yttp/yacht-108.jpg" alt="概念设计"><div class="step-badge">2</div><div class="process-card-icon"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#c9a96e"/><stop offset="100%" stop-color="#8B6914"/></linearGradient></defs><circle cx="32" cy="32" r="29" stroke="url(#g2)" stroke-width="1.5" fill="rgba(10,16,30,0.65)"/><path d="M18 46l8-24 18 18-24 6z" stroke="#c9a96e" stroke-width="2" stroke-linejoin="round" fill="rgba(201,169,110,0.12)"/><path d="M26 22L40 8l6 6-14 14" stroke="#c9a96e" stroke-width="2" stroke-linejoin="round" fill="rgba(201,169,110,0.1)"/><rect x="22" y="30" width="16" height="12" rx="2" stroke="#c9a96e" stroke-width="1.5" fill="rgba(201,169,110,0.06)" stroke-dasharray="3 2"/><circle cx="30" cy="36" r="1.5" fill="#c9a96e"/><path d="M34 38l4 4" stroke="#c9a96e" stroke-width="1.5" stroke-linecap="round"/><path d="M44 14h6v6" stroke="#c9a96e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/><path d="M16 48l-3 3" stroke="#c9a96e" stroke-width="1.5" stroke-linecap="round"/></svg></div></div>
 <div class="process-card-body">
 <div class="step-label">STEP 02</div>
 <h3>概念设计</h3>
-<p class="step-desc">国际顶级游艇设计师执笔，从外观线条到内饰空间，全方位呈现梦想之艇的完整蓝图。</p>
+<p class="step-desc">国际顶级游艇设计师执笔，从船体流体力学优化到内饰空间美学，全方位呈现梦想之艇的完整蓝图。提供1:1实体模型制作与VR全景虚拟体验，让您在建造前即可身临其境。</p>
 <div class="step-details">
-<div class="step-detail">船型选择与流体优化</div>
-<div class="step-detail">外观风格与色彩设计</div>
-<div class="step-detail">内饰主题与空间规划</div>
+<div class="step-detail">船型选择与流体力学优化</div>
+<div class="step-detail">外观风格设计与配色方案</div>
+<div class="step-detail">内饰主题与空间功能规划</div>
+<div class="step-detail">1:1实体模型制作（对标Princess）</div>
 <div class="step-detail">3D效果图与VR全景预览</div>
+<div class="step-detail">多方案对比与迭代优化</div>
+<div class="step-detail">品牌标识与船名视觉设计</div>
+<div class="step-detail">灯光声学系统初步方案</div>
 </div>
 </div>
 </div>
 
+<!-- STEP 03 -->
 <div class="process-card reveal">
-<div class="process-card-img"><img src="images/yttp/yacht-283.jpg" alt="材质甄选"><div class="step-badge">3</div><div class="process-card-icon"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" r="30" stroke="#c9a96e" stroke-width="1.5" fill="rgba(10,16,30,0.6)"/><rect x="16" y="20" width="14" height="10" rx="2" stroke="#c9a96e" stroke-width="1.5" fill="rgba(201,169,110,0.15)"/><rect x="34" y="20" width="14" height="10" rx="2" stroke="#c9a96e" stroke-width="1.5" fill="rgba(201,169,110,0.25)"/><rect x="16" y="34" width="14" height="10" rx="2" stroke="#c9a96e" stroke-width="1.5" fill="rgba(201,169,110,0.35)"/><rect x="34" y="34" width="14" height="10" rx="2" stroke="#c9a96e" stroke-width="1.5" fill="rgba(201,169,110,0.08)"/><path d="M20 25l3 3 5-5" stroke="#c9a96e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div></div>
+<div class="process-card-img"><img src="images/yttp/yacht-283.jpg" alt="材质甄选"><div class="step-badge">3</div><div class="process-card-icon"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#c9a96e"/><stop offset="100%" stop-color="#8B6914"/></linearGradient></defs><circle cx="32" cy="32" r="29" stroke="url(#g3)" stroke-width="1.5" fill="rgba(10,16,30,0.65)"/><rect x="15" y="18" width="15" height="11" rx="2.5" stroke="#c9a96e" stroke-width="1.5" fill="rgba(201,169,110,0.15)"/><rect x="34" y="18" width="15" height="11" rx="2.5" stroke="#c9a96e" stroke-width="1.5" fill="rgba(201,169,110,0.25)"/><rect x="15" y="33" width="15" height="11" rx="2.5" stroke="#c9a96e" stroke-width="1.5" fill="rgba(201,169,110,0.35)"/><rect x="34" y="33" width="15" height="11" rx="2.5" stroke="#c9a96e" stroke-width="1.5" fill="rgba(201,169,110,0.08)"/><path d="M19 24l3 3 5-5" stroke="#c9a96e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="41" cy="24" r="2" fill="#c9a96e" opacity="0.5"/><path d="M19 39l3-3 3 3-3 3z" stroke="#c9a96e" stroke-width="1.2" fill="rgba(201,169,110,0.15)"/><path d="M41 37c3 0 5 2 5 5" stroke="#c9a96e" stroke-width="1.2" opacity="0.4"/></svg></div></div>
 <div class="process-card-body">
 <div class="step-label">STEP 03</div>
 <h3>材质甄选</h3>
-<p class="step-desc">意大利顶级皮革、缅甸百年柚木、瑞士精密仪器——全球顶级材料供应商为您精挑细选。</p>
+<p class="step-desc">全球顶级材料库为您敞开——意大利Nappa皮革、缅甸百年柚木、瑞士精密仪器、卡拉拉白大理石与航空级铝合金饰面，每一种材质都经过严苛筛选与环保认证。</p>
 <div class="step-details">
-<div class="step-detail">顶级皮革/木材/金属材质库</div>
-<div class="step-detail">环保材料与绿色方案</div>
-<div class="step-detail">色彩搭配与纹理系统</div>
-<div class="step-detail">材质打样与确认流程</div>
+<div class="step-detail">意大利顶级皮革 / 缅甸百年柚木</div>
+<div class="step-detail">瑞士精密仪器 / 卡拉拉大理石</div>
+<div class="step-detail">环保材料认证与绿色建造方案</div>
+<div class="step-detail">色彩搭配与纹理系统设计</div>
+<div class="step-detail">材质打样与多轮确认流程</div>
+<div class="step-detail">定制化五金与细节配件选择</div>
+<div class="step-detail">全球供应商直采与品质溯源</div>
+<div class="step-detail">防火阻燃与海洋环境适配检测</div>
 </div>
 </div>
 </div>
 
+<!-- STEP 04 -->
 <div class="process-card reveal">
-<div class="process-card-img"><img src="images/yttp/yacht-295.jpg" alt="精密建造"><div class="step-badge">4</div><div class="process-card-icon"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" r="30" stroke="#c9a96e" stroke-width="1.5" fill="rgba(10,16,30,0.6)"/><path d="M20 42l8-8 4 4-8 8-4-4z" stroke="#c9a96e" stroke-width="2" stroke-linejoin="round" fill="rgba(201,169,110,0.1)"/><path d="M28 34l12-12" stroke="#c9a96e" stroke-width="2" stroke-linecap="round"/><path d="M36 18h8v8" stroke="#c9a96e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M18 46l-2 2" stroke="#c9a96e" stroke-width="2" stroke-linecap="round"/><circle cx="44" cy="20" r="1.5" fill="#c9a96e"/></svg></div></div>
+<div class="process-card-img"><img src="images/yttp/yacht-295.jpg" alt="精密建造"><div class="step-badge">4</div><div class="process-card-icon"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#c9a96e"/><stop offset="100%" stop-color="#8B6914"/></linearGradient></defs><circle cx="32" cy="32" r="29" stroke="url(#g4)" stroke-width="1.5" fill="rgba(10,16,30,0.65)"/><path d="M18 44l10-10 5 5-10 10-5-5z" stroke="#c9a96e" stroke-width="2" stroke-linejoin="round" fill="rgba(201,169,110,0.12)"/><path d="M28 34L42 20" stroke="#c9a96e" stroke-width="2" stroke-linecap="round"/><path d="M38 16h8v8" stroke="#c9a96e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="46" cy="18" r="2" fill="#c9a96e"/><path d="M16 48l-3 3" stroke="#c9a96e" stroke-width="2" stroke-linecap="round"/><rect x="20" y="22" width="18" height="12" rx="2" stroke="#c9a96e" stroke-width="1.2" fill="rgba(201,169,110,0.06)" stroke-dasharray="4 2"/><path d="M24 28h10M24 31h6" stroke="#c9a96e" stroke-width="1" opacity="0.4"/><path d="M14 38l2-2 2 2-2 2z" fill="#c9a96e" opacity="0.3"/></svg></div></div>
 <div class="process-card-body">
 <div class="step-label">STEP 04</div>
 <h3>精密建造</h3>
-<p class="step-desc">自有船厂与全球顶级合作船坞联合建造，航天级焊接工艺，每一个连接点都经过严苛品控。</p>
+<p class="step-desc">自有船坞与荷兰Feadship、Heesen等全球顶级船厂联合建造。采用航天级焊接工艺与碳纤维/铝合金复合船体技术，每一个连接点都经过严苛品控与第三方检测。</p>
 <div class="step-details">
-<div class="step-detail">船坞选择与建造周期规划</div>
-<div class="step-detail">航天级建造工艺标准</div>
-<div class="step-detail">全程质量管控体系</div>
-<div class="step-detail">关键节点验收与进度汇报</div>
+<div class="step-detail">自有船坞与全球顶级联合建造</div>
+<div class="step-detail">航天级焊接 / 碳纤维复合工艺</div>
+<div class="step-detail">ISO 9001全程质量管控体系</div>
+<div class="step-detail">关键节点第三方独立检测验收</div>
+<div class="step-detail">建造周期精确规划与进度管控</div>
+<div class="step-detail">建造进度App实时更新推送</div>
+<div class="step-detail">客户现场参观与关键节点见证</div>
+<div class="step-detail">环保排放与能效标准认证</div>
 </div>
 </div>
 </div>
 
+<!-- STEP 05 -->
 <div class="process-card reveal">
-<div class="process-card-img"><img src="images/yttp/yacht-306.jpg" alt="海试交付"><div class="step-badge">5</div><div class="process-card-icon"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" r="30" stroke="#c9a96e" stroke-width="1.5" fill="rgba(10,16,30,0.6)"/><path d="M14 40c4-3 8 0 12-3s8 0 12-3 8 0 12-3" stroke="#c9a96e" stroke-width="2" stroke-linecap="round" fill="none"/><path d="M14 46c4-3 8 0 12-3s8 0 12-3 8 0 12-3" stroke="#c9a96e" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5"/><path d="M32 16v14M28 22l4-6 4 6" stroke="#c9a96e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M26 32h12v6H26z" stroke="#c9a96e" stroke-width="1.5" fill="rgba(201,169,110,0.15)" rx="1"/><path d="M30 38v3M34 38v3" stroke="#c9a96e" stroke-width="1.5" stroke-linecap="round"/></svg></div></div>
+<div class="process-card-img"><img src="images/yttp/yacht-306.jpg" alt="海试交付"><div class="step-badge">5</div><div class="process-card-icon"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g5" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#c9a96e"/><stop offset="100%" stop-color="#8B6914"/></linearGradient></defs><circle cx="32" cy="32" r="29" stroke="url(#g5)" stroke-width="1.5" fill="rgba(10,16,30,0.65)"/><path d="M12 40c5-4 9 0 14-3s9 0 14-3 9 0 14-3" stroke="#c9a96e" stroke-width="2.2" stroke-linecap="round" fill="none"/><path d="M12 47c5-4 9 0 14-3s9 0 14-3 9 0 14-3" stroke="#c9a96e" stroke-width="1.3" stroke-linecap="round" fill="none" opacity="0.4"/><path d="M32 14v16M27 22l5-7 5 7" stroke="#c9a96e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M24 32h16v7H24z" stroke="#c9a96e" stroke-width="1.5" fill="rgba(201,169,110,0.15)" rx="2"/><path d="M28 41v4M36 41v4" stroke="#c9a96e" stroke-width="1.8" stroke-linecap="round"/><circle cx="32" cy="49" r="2" fill="#c9a96e" opacity="0.7"/><path d="M20 52c4-2 8 0 12-2s8 0 12 2" stroke="#c9a96e" stroke-width="1" opacity="0.3"/></svg></div></div>
 <div class="process-card-body">
 <div class="step-label">STEP 05</div>
 <h3>海试交付</h3>
-<p class="step-desc">严苛的72小时海上试航，全方位性能检测与设备调试，确保每一个细节都臻于完美。</p>
+<p class="step-desc">严苛的72小时海上性能综合测试，涵盖航速、稳定性、操控性、设备可靠性等全方位检测。交付前进行全面清洁养护与操作培训，让您的首航之旅完美启程。</p>
 <div class="step-details">
-<div class="step-detail">72小时海上性能测试</div>
-<div class="step-detail">全船设备调试与优化</div>
-<div class="step-detail">交付培训与操作指导</div>
-<div class="step-detail">专属交付仪式与庆典</div>
+<div class="step-detail">72小时海上性能综合测试</div>
+<div class="step-detail">航速/稳定性/操控性全面检测</div>
+<div class="step-detail">全船设备调试与系统优化</div>
+<div class="step-detail">交付前深度清洁与养护处理</div>
+<div class="step-detail">船东操作培训与安全指导</div>
+<div class="step-detail">专属交付仪式与纪念礼赠</div>
+<div class="step-detail">海事法规文件与证书办理协助</div>
+<div class="step-detail">首航陪航与技术支持保障</div>
 </div>
 </div>
 </div>
 
+<!-- STEP 06 -->
 <div class="process-card reveal">
-<div class="process-card-img"><img src="images/yttp/yacht-352.jpg" alt="终身陪伴"><div class="step-badge">6</div><div class="process-card-icon"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" r="30" stroke="#c9a96e" stroke-width="1.5" fill="rgba(10,16,30,0.6)"/><path d="M32 18l2.5 5 5.5.8-4 3.9.9 5.5L32 30.5l-5 2.7.9-5.5-4-3.9 5.5-.8L32 18z" stroke="#c9a96e" stroke-width="1.5" fill="rgba(201,169,110,0.2)" stroke-linejoin="round"/><path d="M20 38c0-3 3-5 6-5M44 38c0-3-3-5-6-5" stroke="#c9a96e" stroke-width="1.5" stroke-linecap="round" fill="none"/><path d="M17 42c6-4 12 0 15-2s9 2 15-2" stroke="#c9a96e" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.6"/><circle cx="32" cy="46" r="2" fill="#c9a96e" opacity="0.7"/></svg></div></div>
+<div class="process-card-img"><img src="images/yttp/yacht-352.jpg" alt="终身陪伴"><div class="step-badge">6</div><div class="process-card-icon"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g6" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#c9a96e"/><stop offset="100%" stop-color="#8B6914"/></linearGradient></defs><circle cx="32" cy="32" r="29" stroke="url(#g6)" stroke-width="1.5" fill="rgba(10,16,30,0.65)"/><path d="M32 16l3 6 6.5 1-4.5 4.5 1 6.5L32 31l-6.5 3 1-6.5-4.5-4.5 6.5-1L32 16z" stroke="#c9a96e" stroke-width="1.5" fill="rgba(201,169,110,0.2)" stroke-linejoin="round"/><path d="M18 38c0-4 4-6 7-6M46 38c0-4-4-6-7-6" stroke="#c9a96e" stroke-width="1.8" stroke-linecap="round" fill="none"/><path d="M14 43c7-5 14 0 18-2s11 3 18-2" stroke="#c9a96e" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.55"/><circle cx="32" cy="47" r="2.5" fill="#c9a96e" opacity="0.8"/><path d="M20 50c4-2 8-1 12-1s8 1 12-1" stroke="#c9a96e" stroke-width="1.2" opacity="0.3"/></svg></div></div>
 <div class="process-card-body">
 <div class="step-label">STEP 06</div>
 <h3>终身陪伴</h3>
-<p class="step-desc">全球12座城市维保中心、7&#215;24小时海上应急响应、专属管家年度回访，终身守护。</p>
+<p class="step-desc">交付只是服务的开始。全球12座城市维保中心、7×24小时海上应急响应、专属管家年度回访，从日常维护到远洋救援，我们始终守护在您身边。</p>
 <div class="step-details">
-<div class="step-detail">全球12座维保中心网络</div>
-<div class="step-detail">定期维护与年度体检计划</div>
-<div class="step-detail">升级改装与智能系统迭代</div>
-<div class="step-detail">专属管家7&#215;24响应</div>
+<div class="step-detail">全球12座城市维保中心网络</div>
+<div class="step-detail">7×24小时海上应急响应团队</div>
+<div class="step-detail">专属管家年度回访与巡检</div>
+<div class="step-detail">定期维护计划与智能系统迭代</div>
+<div class="step-detail">升级改装与现代化改造服务</div>
+<div class="step-detail">二手转售与置换评估协助</div>
+<div class="step-detail">全球航线规划与港口停靠支持</div>
+<div class="step-detail">船员培训与持证管理体系</div>
 </div>
 </div>
 </div>
@@ -205,117 +331,256 @@
 </div>
 </section>
 
-<section class="features-section">
+<!-- ========== 3. 定制维度与特色服务 ========== -->
+<section class="dimensions-section">
 <div class="container">
 <div class="sec-header reveal">
-<h2><span class="gold-gradient">定制服务特色</span></h2>
+<h2><span class="gold-gradient">定制维度与特色服务</span></h2>
 <div class="divider-gold"></div>
-<p class="sec-sub">奇幻假期汇聚全球顶级资源，以无与伦比的专业实力，打造属于您的海上传奇</p>
+<p class="sec-sub">四大核心维度，覆盖游艇定制的每一个细节，真正实现"一艇一世界"的极致个性化体验</p>
 </div>
-<div class="features-grid">
+<div class="dim-grid">
 
-<div class="feature-card reveal">
-<div class="feature-img"><img src="images/yttp/yacht-020.jpg" alt="全球顶级合作资源"></div>
-<div class="feature-body">
-<h3>全球顶级合作资源</h3>
-<p>携手意大利Benetti设计工作室、荷兰Feadship造船厂、德国MTU动力系统等全球顶级合作伙伴，整合世界最优秀的游艇产业链资源，确保每一艘定制游艇都达到国际最高标准。</p>
-<div class="feature-tags">
-<span class="feature-tag">意大利设计</span>
-<span class="feature-tag">荷兰建造</span>
-<span class="feature-tag">德国工程</span>
-<span class="feature-tag">日本精工</span>
-</div>
-</div>
-</div>
+<div class="dim-card reveal">
+<div class="dim-img"><img src="images/yttp/yacht-075.jpg" alt="外观定制"></div>
+<div class="dim-body">
+<h3><span class="dim-num">1</span> 外观定制</h3>
+<p>从船体流线到品牌标识，每一处外观细节都彰显独特个性。我们的外观设计团队将根据您的审美偏好与使用场景，打造独一无二的视觉识别体系。</p>
+<div class="dim-tags">
+<span class="dim-tag">船体线条优化</span><span class="dim-tag">专属配色方案</span><span class="dim-tag">品牌标识定制</span><span class="dim-tag">船名雕刻艺术</span><span class="dim-tag">特殊涂装工艺</span><span class="dim-tag">LED动态灯效</span>
+</div></div></div>
 
-<div class="feature-card reveal">
-<div class="feature-img"><img src="images/yttp/yacht-028.jpg" alt="个性化深度定制"></div>
-<div class="feature-body">
-<h3>个性化深度定制</h3>
-<p>从主题内饰到专属艺术品，从智能系统定制到特殊功能改造，每一个细节都可以按照您的生活方式和个人品味量身打造。我们相信，真正的奢华是独一无二。</p>
-<div class="feature-tags">
-<span class="feature-tag">主题内饰</span>
-<span class="feature-tag">专属艺术品</span>
-<span class="feature-tag">智能系统</span>
-<span class="feature-tag">特殊功能</span>
-</div>
-</div>
-</div>
+<div class="dim-card reveal">
+<div class="dim-img"><img src="images/yttp/yacht-080.jpg" alt="内饰定制"></div>
+<div class="dim-body">
+<h3><span class="dim-num">2</span> 内饰定制</h3>
+<p>主题风格随心选——东方美学的禅意雅致、现代极简的利落线条、复古奢华的宫廷气派。空间功能按需改造，从私人影院到SPA水疗房，从海上健身房到总裁办公室。</p>
+<div class="dim-tags">
+<span class="dim-tag">东方美学/现代极简/复古奢华</span><span class="dim-tag">健身房/影音室/SPA房</span><span class="dim-tag">家具软装全套定制</span><span class="dim-tag">灯光氛围系统</span><span class="dim-tag">艺术品陈设搭配</span>
+</div></div></div>
 
-<div class="feature-card reveal">
-<div class="feature-img"><img src="images/yttp/yacht-044.jpg" alt="高端增值服务"></div>
-<div class="feature-body">
-<h3>高端增值服务</h3>
-<p>专属设计师团队全程陪伴，私人建造顾问实时跟进，项目进度App实时更新。从签约到交付，您可以通过专属客户端随时查看建造进展，参与每一个关键决策。</p>
-<div class="feature-tags">
-<span class="feature-tag">专属设计师</span>
-<span class="feature-tag">建造顾问</span>
-<span class="feature-tag">进度实时更新</span>
-<span class="feature-tag">VIP体验</span>
-</div>
-</div>
-</div>
+<div class="dim-card reveal">
+<div class="dim-img"><img src="images/yttp/yacht-085.jpg" alt="功能定制"></div>
+<div class="dim-body">
+<h3><span class="dim-num">3</span> 功能定制</h3>
+<p>超越传统游艇的功能边界。智能中控系统一键掌控全船设备，卫星通信确保全球互联，水下灯光打造梦幻夜景，直升机起降平台拓展出行半径。</p>
+<div class="dim-tags">
+<span class="dim-tag">航速与动力系统优化</span><span class="dim-tag">全屋智能中控系统</span><span class="dim-tag">卫星通信与联网</span><span class="dim-tag">海钓平台/潜水装备舱</span><span class="dim-tag">直升机起降平台</span>
+</div></div></div>
 
-<div class="feature-card reveal">
-<div class="feature-img"><img src="images/yttp/yacht-368.jpg" alt="东方美学融合"></div>
-<div class="feature-body">
-<h3>东方美学融合</h3>
-<p>奇幻假期原创"东方人文空间"设计理念，将中国传统美学元素与现代奢华完美融合。水墨意境的灯光设计、丝竹之韵的声学空间、禅意园林的甲板景观，让游艇成为移动的艺术殿堂。</p>
-<div class="feature-tags">
-<span class="feature-tag">水墨意境</span>
-<span class="feature-tag">禅意空间</span>
-<span class="feature-tag">中式园林</span>
-<span class="feature-tag">文人气韵</span>
-</div>
-</div>
-</div>
+<div class="dim-card reveal">
+<div class="dim-img"><img src="images/yttp/yacht-090.jpg" alt="增值服务"></div>
+<div class="dim-body">
+<h3><span class="dim-num">4</span> 增值服务定制</h3>
+<p>从登艇那一刻起的全方位尊享体验。米其林主厨定制专属菜单，私人航线规划师设计环球航行路线，全球港口VIP停靠协助，会员制特权礼遇贯穿始终。</p>
+<div class="dim-tags">
+<span class="dim-tag">专属管家全天候服务</span><span class="dim-tag">米其林主厨定制菜单</span><span class="dim-tag">私人航线规划设计</span><span class="dim-tag">全球港口VIP停靠</span><span class="dim-tag">会员制特权礼遇</span>
+</div></div></div>
 
 </div>
 </div>
 </section>
 
+<!-- ========== 4. 1:1实体模型与VR体验 ========== -->
+<section class="model-section">
+<div class="container">
+<div class="model-inner reveal">
+<div class="model-text">
+<div class="gold-line"></div>
+<h2>1:1 实体模型<br>&amp; VR 虚拟体验</h2>
+<p>在奇幻假期，我们深知"所见即所得"对于百万级投资决策的重要性。因此，我们在行业内率先推出<strong style="color:var(--gold)">1:1实体模型制作服务</strong>与<strong style="color:var(--gold)">VR全景虚拟体验</strong>两大创新工具，让您在第一块钢板切割之前，就能走进未来的游艇。</p>
+<ul class="model-features">
+<li>1:1等比例实体模型，完整还原外观与内部空间布局</li>
+<li>VR全景漫游系统，沉浸式体验每个舱室与甲板区域</li>
+<li>实时材质替换功能，即时预览不同皮革/木材/配色效果</li>
+<li>光照模拟系统，感受不同时段的自然采光变化</li>
+<li>家具摆放互动调整，直观验证空间舒适度</li>
+<li>多人协同评审模式，家庭成员可远程参与决策</li>
+</ul>
+</div>
+<div class="model-visual"><img src="images/yttp/yacht-098.jpg" alt="1:1模型与VR体验"></div>
+</div>
+</div>
+</section>
+
+<!-- ========== 5. 定制案例展示（10个案例） ========== -->
 <section class="case-section">
 <div class="container">
 <div class="sec-header reveal">
-<h2><span class="gold-gradient">定制案例</span></h2>
+<h2><span class="gold-gradient">定制案例展示</span></h2>
 <div class="divider-gold"></div>
-<p class="sec-sub">每一艘交付的游艇，都是一段定制传奇</p>
+<p class="sec-sub">每一艘交付的游艇，都是一段独一无二的定制传奇</p>
 </div>
+<div class="cases-grid">
+
 <div class="case-card reveal">
-<div class="case-img"><img src="images/yttp/yacht-012.jpg" alt="定制案例：君临88M 东方美学版"></div>
-<div class="case-info">
-<div class="case-badge">定制案例 001</div>
-<h3 class="case-title">君临88M 东方美学版</h3>
-<p class="case-desc">客户为知名收藏家，希望将游艇打造为"海上美术馆"。我们的设计团队将中国传统水墨画的留白意境融入内饰空间，采用缅甸金丝楠木与意大利Bulgari大理石拼接，主厅悬挂客户私人收藏的齐白石真迹复制品。全船声学系统由Bose定制，实现"丝竹之韵"水下音乐体验。船尾甲板打造禅意枯山水花园，配备自动雾化系统，营造云雾缭绕的仙境效果。</p>
-<div class="case-stats">
-<div class="case-stat"><div class="case-stat-val">88M</div><div class="case-stat-label">总长</div></div>
-<div class="case-stat"><div class="case-stat-val">18月</div><div class="case-stat-label">建造周期</div></div>
-<div class="case-stat"><div class="case-stat-val">36</div><div class="case-stat-label">载客位</div></div>
-</div>
-</div>
-</div>
-<div style="height:32px"></div>
+<div class="case-card-img"><img src="images/yttp/yacht-100.jpg" alt="君临88M 东方美学版"></div>
+<div class="case-card-body">
+<div class="case-card-badge">Case 001 · 君临系列</div>
+<h3 class="case-card-title">君临88M 东方美学版</h3>
+<p class="case-card-desc">客户为知名收藏家，将游艇打造为"海上美术馆"。水墨画留白意境融入内饰，缅甸金丝楠木拼接意大利Bulgari大理石，主厅悬挂齐白石真迹复制品。Bose定制声学系统实现"丝竹之韵"水下音乐体验，尾甲板禅意枯山水花园配自动雾化系统。</p>
+<div class="case-card-stats"><div class="cs-stat"><div class="cs-stat-val">88M</div><div class="cs-stat-label">总长</div></div><div class="cs-stat"><div class="cs-stat-val">18月</div><div class="cs-stat-label">周期</div></div><div class="cs-stat"><div class="cs-stat-val">36</div><div class="cs-stat-label">载客</div></div></div>
+<div class="case-highlight">💡 核心亮点：东方人文空间理念 + 移动美术馆概念 + 禅意甲板花园</div>
+</div></div>
+
 <div class="case-card reveal">
-<div class="case-img"><img src="images/yttp/yacht-036.jpg" alt="定制案例：远征55M 极地探险版"></div>
-<div class="case-info">
-<div class="case-badge">定制案例 002</div>
-<h3 class="case-title">远征55M 极地探险版</h3>
-<p class="case-desc">客户为极地探险爱好者，要求游艇具备冰区航行能力与科考设备搭载能力。我们采用芬兰Aker北极级船体钢材，冰区加强型船首设计，配备Polarsys极地导航系统。内置独立科考实验室、水下无人机收放舱、极地救援装备库。内饰采用温暖北欧风格，大量使用芬兰白桦木与冰岛羊毛织物，在极寒环境中营造温馨舒适的居家氛围。</p>
-<div class="case-stats">
-<div class="case-stat"><div class="case-stat-val">55M</div><div class="case-stat-label">总长</div></div>
-<div class="case-stat"><div class="case-stat-val">24月</div><div class="case-stat-label">建造周期</div></div>
-<div class="case-stat"><div class="case-stat-val">20</div><div class="case-stat-label">载客位</div></div>
+<div class="case-card-img"><img src="images/yttp/yacht-105.jpg" alt="远征55M 极地探险版"></div>
+<div class="case-card-body">
+<div class="case-card-badge">Case 002 · 远征系列</div>
+<h3 class="case-card-title">远征55M 极地探险版</h3>
+<p class="case-card-desc">极地探险爱好者专属。芬兰Aker北极级钢材冰区加强船体，Polarsys极地导航系统。内置独立科考实验室、水下无人机收放舱、极地救援装备库。北欧温暖内饰风格，芬兰白桦木与冰岛羊毛织物营造极寒中的温馨居家氛围。</p>
+<div class="case-card-stats"><div class="cs-stat"><div class="cs-stat-val">55M</div><div class="cs-stat-label">总长</div></div><div class="cs-stat"><div class="cs-stat-val">24月</div><div class="cs-stat-label">周期</div></div><div class="cs-stat"><div class="cs-stat-val">20</div><div class="cs-stat-label">载客</div></div></div>
+<div class="case-highlight">💡 核心亮点：冰区航行A级认证 + 科考实验室 + 北欧极简暖调内饰</div>
+</div></div>
+
+<div class="case-card reveal">
+<div class="case-card-img"><img src="images/yttp/yacht-110.jpg" alt="飞桥38M 商务休闲版"></div>
+<div class="case-card-body">
+<div class="case-card-badge">Case 003 · 飞桥系列</div>
+<h3 class="case-card-title">飞桥38M 商务休闲版</h3>
+<p class="case-card-desc">企业CEO的移动会客厅。飞桥甲板设半开放式商务洽谈区，主厅配备视频会议系统与加密通讯设备。下层甲板设4间VIP套房，每间均带独立办公角。飞桥日光浴区可转换为鸡尾酒会场地，容纳30人社交活动。</p>
+<div class="case-card-stats"><div class="cs-stat"><div class="cs-stat-val">38M</div><div class="cs-stat-label">总长</div></div><div class="cs-stat"><div class="cs-stat-val">14月</div><div class="cs-stat-label">周期</div></div><div class="cs-stat"><div class="cs-stat-val">16</div><div class="cs-stat-label">载客</div></div></div>
+<div class="case-highlight">💡 核心亮点：移动CEO办公室 + 加密会议系统 + 飞桥社交多功能区</div>
+</div></div>
+
+<div class="case-card reveal">
+<div class="case-card-img"><img src="images/yttp/yacht-115.jpg" alt="君临102M 家庭度假版"></div>
+<div class="case-card-body">
+<div class="case-card-badge">Case 004 · 君临系列</div>
+<h3 class="case-card-title">君临102M 家庭度假版</h3>
+<p class="case-card-desc">三代同堂的海上度假庄园。主层设家庭影院与儿童游戏区，上层甲板设无边际泳池与水上乐园滑梯。主人套房面积达120㎡，含独立书房与瑜伽露台。厨房配备米其林级别烹饪设备，可同时满足中西餐宴请需求。</p>
+<div class="case-card-stats"><div class="cs-stat"><div class="cs-stat-val">102M</div><div class="cs-stat-label">总长</div></div><div class="cs-stat"><div class="cs-stat-val">26月</div><div class="cs-stat-label">周期</div></div><div class="cs-stat"><div class="cs-stat-val">42</div><div class="cs-stat-label">载客</div></div></div>
+<div class="case-highlight">💡 核心亮点：家庭友好设计 + 儿童水上乐园 + 米其林厨房 + 120㎡主人套房</div>
+</div></div>
+
+<div class="case-card reveal">
+<div class="case-card-img"><img src="images/yttp/yacht-120.jpg" alt="日间15M 运动海钓版"></div>
+<div class="case-card-body">
+<div class="case-card-badge">Case 005 · 日间系列</div>
+<h3 class="case-card-title">日间15M 运动海钓版</h3>
+<p class="case-card-desc">海钓发烧友的梦想战艇。尾部设专业海钓平台，配备活饵舱、鱼获冷藏柜与专业钓具收纳系统。驾驶台集成鱼探雷达与海底地形图系统。侧甲板可展开为稳定浮台，深海拖钓时提供额外作业空间。</p>
+<div class="case-card-stats"><div class="cs-stat"><div class="cs-stat-val">15M</div><div class="cs-stat-label">总长</div></div><div class="cs-stat"><div class="cs-stat-val">8月</div><div class="cs-stat-label">周期</div></div><div class="cs-stat"><div class="cs-stat-val">8</div><div class="cs-stat-label">载客</div></div></div>
+<div class="case-highlight">💡 核心亮点：专业海钓平台 + 鱼探雷达集成 + 活饵舱与鱼获冷藏系统</div>
+</div></div>
+
+<div class="case-card reveal">
+<div class="case-card-img"><img src="images/yttp/yacht-125.jpg" alt="远征62M 地中海派对版"></div>
+<div class="case-card-body">
+<div class="case-card-badge">Case 006 · 远征系列</div>
+<h3 class="case-card-title">远征62M 地中海派对版</h3>
+<p class="case-card-desc">社交名流的移动派对城堡。主甲板设开放式DJ台与舞池区域，飞桥甲板配置户外酒吧与烧烤区。水下灯光系统支持16色场景切换，配合B&O环绕音响打造夜店级娱乐体验。侧甲板可展开为浮动观景平台，圣托里尼日落时分绝美。</p>
+<div class="case-card-stats"><div class="cs-stat"><div class="cs-stat-val">62M</div><div class="cs-stat-label">总长</div></div><div class="cs-stat"><div class="cs-stat-val">20月</div><div class="cs-stat-label">周期</div></div><div class="cs-stat"><div class="cs-stat-val">28</div><div class="cs-stat-label">载客</div></div></div>
+<div class="case-highlight">💡 核心亮点：DJ台舞池 + B&O环绕音响 + 16色水下灯光 + 浮动观景平台</div>
+</div></div>
+
+<div class="case-card reveal">
+<div class="case-card-img"><img src="images/yttp/yacht-130.jpg" alt="飞桥42M 北极科考版"></div>
+<div class="case-card-body">
+<div class="case-card-badge">Case 007 · 飞桥系列</div>
+<h3 class="case-card-title">飞桥42M 北极科考版</h3>
+<p class="case-card-desc">为海洋科研机构定制。船体采用破冰加强设计，内置恒温样本实验室与数据分析工作站。甲板配备A-frame起重架用于ROV遥控潜水器收放。居住区采用模块化设计，可根据科考队员数量灵活调整舱位配置。</p>
+<div class="case-card-stats"><div class="cs-stat"><div class="cs-stat-val">42M</div><div class="cs-stat-label">总长</div></div><div class="cs-stat"><div class="cs-stat-val">22月</div><div class="cs-stat-label">周期</div></div><div class="cs-stat"><div class="cs-stat-val">16</div><div class="cs-stat-label">载客</div></div></div>
+<div class="case-highlight">💡 核心亮点：破冰船体 + 恒温样本实验室 + ROV起重架 + 模块化居住区</div>
+</div></div>
+
+<div class="case-card reveal">
+<div class="case-card-img"><img src="images/yttp/yacht-135.jpg" alt="君临95M 加勒比巡航版"></div>
+<div class="case-card-body">
+<div class="case-card-badge">Case 008 · 君临系列</div>
+<h3 class="case-card-title">君临95M 加勒比巡航版</h3>
+<p class="case-card-desc">专为加勒比海全年巡航设计。开放式海滩俱乐部风格后甲板，可直接跳入加勒比海的透明海水。水上玩具库包含Jet Ski、Seabob、Flyboard等全套装备。热带风情内饰以天然藤编与白色橡木为主材，营造轻松惬意的岛屿度假氛围。</p>
+<div class="case-card-stats"><div class="cs-stat"><div class="cs-stat-val">95M</div><div class="cs-stat-label">总长</div></div><div class="cs-stat"><div class="cs-stat-val">22月</div><div class="cs-stat-label">周期</div></div><div class="cs-stat"><div class="cs-stat-val">32</div><div class="cs-stat-label">载客</div></div></div>
+<div class="case-highlight">💡 核心亮点：海滩俱乐部后甲板 + 全套水上玩具库 + 热带藤编自然内饰</div>
+</div></div>
+
+<div class="case-card reveal">
+<div class="case-card-img"><img src="images/yttp/yacht-140.jpg" alt="远征48M 东南亚岛屿版"></div>
+<div class="case-card-body">
+<div class="case-card-badge">Case 009 · 远征系列</div>
+<h3 class="case-card-title">远征48M 东南亚岛屿版</h3>
+<p class="case-card-desc">探索安达曼海与南海群岛的理想伴侣。浅吃水设计可深入热带岛屿隐秘海湾，宽大飞桥适合观赏日落与星空露营。内饰融合巴厘岛热带风情与现代简约，大量使用当地手工编织品与天然石材。配备潜水装备舱与皮划艇存放区。</p>
+<div class="case-card-stats"><div class="cs-stat"><div class="cs-stat-val">48M</div><div class="cs-stat-label">总长</div></div><div class="cs-stat"><div class="cs-stat-val">16月</div><div class="cs-stat-label">周期</div></div><div class="cs-stat"><div class="cs-stat-val">12</div><div class="cs-stat-label">载客</div></div></div>
+<div class="case-highlight">💡 核心亮点：浅吃水岛屿探索 + 星空露营飞桥 + 巴厘岛热带内饰 + 潜水装备舱</div>
+</div></div>
+
+<div class="case-card reveal">
+<div class="case-card-img"><img src="images/yttp/yacht-145.jpg" alt="飞桥35M 太平洋远航版"></div>
+<div class="case-card-body">
+<div class="case-card-badge">Case 010 · 飞桥系列</div>
+<h3 class="case-card-title">飞桥35M 太平洋远航版</h3>
+<p class="case-card-desc">跨太平洋长途巡航的专业选手。超长续航油箱设计，配备海水淡化与太阳能辅助供电系统。优化的船体线型减少波浪阻力，提升燃油效率30%。自给自足的生活系统支持连续30天海上生活无需靠港补给。</p>
+<div class="case-card-stats"><div class="cs-stat"><div class="cs-stat-val">35M</div><div class="cs-stat-label">总长</div></div><div class="cs-stat"><div class="cs-stat-val">12月</div><div class="cs-stat-label">周期</div></div><div class="cs-stat"><div class="cs-stat-val">10</div><div class="cs-stat-label">载客</div></div></div>
+<div class="case-highlight">💡 核心亮点：超长续航 + 海水淡化太阳能 + 30天自给自足 + 低阻高效船体</div>
+</div></div>
+
 </div>
+</div>
+</section>
+
+<!-- ========== 6. 服务保障与承诺 ========== -->
+<section class="guarantee-section">
+<div class="container">
+<div class="sec-header reveal">
+<h2><span class="gold-gradient">服务保障与交付承诺</span></h2>
+<div class="divider-gold"></div>
+<p class="sec-sub">五大保障体系，为您的每一分投入保驾护航</p>
+</div>
+<div class="guarantee-grid">
+<div class="guarantee-item reveal">
+<div class="guarantee-icon">⏱️</div>
+<h4>建造周期保障</h4>
+<p>严格按合同约定周期交付，延期赔付机制写入每份定制合同</p>
+</div>
+<div class="guarantee-item reveal">
+<div class="guarantee-icon">✅</div>
+<h4>质量管控体系</h4>
+<p>ISO 9001认证 + 第三方检测 + 关键节点客户现场验收确认</p>
+</div>
+<div class="guarantee-item reveal">
+<div class="guarantee-icon">🛡️</div>
+<h4>售后维保承诺</h4>
+<p>5年免费质保 + 终身成本价维保 + 全球12城4小时响应到达</p>
+</div>
+<div class="guarantee-item reveal">
+<div class="guarantee-icon">🏆</div>
+<h4>全球合规认证</h4>
+<p>LY3/RYA/MCA等多国海事安全认证 + 环保排放国际标准合规</p>
+</div>
+<div class="guarantee-item reveal">
+<div class="guarantee-icon">💎</div>
+<h4>保险风险保障</h4>
+<p>Hull & Machinery全险 + P&I Club责任险 + 建造期工程一切险</p>
 </div>
 </div>
 </div>
 </section>
 
+<!-- ========== 7. CTA + 咨询表单 ========== -->
 <section class="cta-section">
 <div class="container">
 <h2 class="reveal"><span class="gold-gradient">开启您的定制之旅</span></h2>
-<p class="reveal">从一通电话开始，让奇幻假期的专业团队为您编织海洋梦想</p>
-<a href="contact.html" class="btn btn-primary btn-gold-sweep reveal">预约专属咨询</a>
+<p class="reveal">留下您的需求，专属定制顾问将在24小时内为您提供初步方案与报价</p>
+<div class="cta-form reveal">
+<form onsubmit="event.preventDefault(); this.submitBtn.disabled=true; this.submitBtn.textContent='提交中...'; setTimeout(()=>{this.submitBtn.textContent='✓ 提交成功！我们将尽快联系您';this.submitBtn.style.background='linear-gradient(135deg,#2d5a27,#4a8c3f)'},1500)">
+<div class="form-grid">
+<input type="text" class="form-input" placeholder="您的姓名" required>
+<input type="tel" class="form-input" placeholder="联系电话" required>
+<select class="form-select form-field-full" required>
+<option value="">选择感兴趣的船型系列</option>
+<option>君临系列 60-120M 超级游艇</option>
+<option>远征系列 40-70M 远航游艇</option>
+<option>飞桥系列 18-45M 中型游艇</option>
+<option>日间系列 10-18M 运动游艇</option>
+<option>尚未确定，需要专业建议</option>
+</select>
+<input type="text" class="form-input" placeholder="预算区间（万元）">
+<input type="text" class="form-input" placeholder="计划使用场景（如：家庭度假/商务接待/海钓运动）">
+<textarea class="form-textarea" placeholder="请描述您的定制需求或特殊要求（可选）..."></textarea>
+</div>
+<button type="submit" name="submitBtn" class="btn-submit">获取定制方案报价 →</button>
+</form>
+</div>
+<p style="margin-top:28px;font-size:13px;color:var(--text-dim)">或直接拨打咨询热线：<a href="tel:13797920792" style="color:var(--gold);text-decoration:none;font-weight:600">137-9792-0792</a></p>
 </div>
 </section>
 
