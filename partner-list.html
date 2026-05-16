@@ -1,0 +1,273 @@
+<!DOCTYPE html><html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>核心合作伙伴列表 | 奇幻假期 fantastic.vacation</title>
+<meta name="description" content="奇幻假期全球合作伙伴网络，涵盖顶级船厂、全球码头、私人航空、奢华酒店等全领域高端品牌。">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+.sub-hero{position:relative;min-height:50vh;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(135deg,#0a1628 0%,#1a2a48 50%,#2d1810 100%)}
+.sub-hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:150px;background:linear-gradient(to top,var(--dark1),transparent)}
+.breadcrumb{font-size:12px;color:var(--text-muted);margin-bottom:20px;letter-spacing:1px}
+.breadcrumb a{color:var(--gold);text-decoration:none}
+
+.partner-categories{display:flex;gap:16px;flex-wrap:wrap;justify-content:center;margin-bottom:48px}
+.partner-category-btn{padding:10px 24px;border-radius:24px;font-size:13px;font-weight:500;letter-spacing:1px;background:rgba(255,255,255,0.03);border:1px solid rgba(201,169,110,0.15);color:var(--text-muted);cursor:pointer;transition:all 0.3s}
+.partner-category-btn:hover,.partner-category-btn.active{background:rgba(201,169,110,0.15);border-color:var(--gold);color:var(--gold)}
+
+.partners-detail-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:28px}
+.partner-detail-card{background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.08);border-radius:16px;overflow:hidden;transition:all 0.4s}
+.partner-detail-card:hover{transform:translateY(-6px);border-color:rgba(201,169,110,0.25);box-shadow:0 20px 60px rgba(0,0,0,0.3)}
+.partner-detail-img{height:200px;overflow:hidden;position:relative}
+.partner-detail-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.6s}
+.partner-detail-card:hover .partner-detail-img img{transform:scale(1.08)}
+.partner-category-badge{position:absolute;top:12px;left:12px;padding:4px 12px;border-radius:12px;font-size:10px;font-weight:600;letter-spacing:1px;background:rgba(0,0,0,0.7);backdrop-filter:blur(8px)}
+.partner-category-badge.shipyard{color:#64b4ff}
+.partner-category-badge.marina{color:#50c878}
+.partner-category-badge.aviation{color:#ff9f43}
+.partner-category-badge.hotel{color:#ee5a24}
+.partner-category-badge.art{color:#9b59b6}
+.partner-detail-body{padding:24px}
+.partner-detail-body h3{font-size:18px;font-weight:600;margin-bottom:8px}
+.partner-detail-body .origin{font-size:12px;color:var(--text-dim);margin-bottom:12px}
+.partner-detail-body p{font-size:13px;color:var(--text-muted);line-height:1.7;margin-bottom:16px}
+.partner-benefits{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.partner-benefit{padding:4px 10px;background:rgba(201,169,110,0.08);border-radius:8px;font-size:11px;color:var(--gold)}
+</style>
+</head>
+<body>
+<div id="loader"><div class="brand">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div></div>
+<nav id="navbar"><div class="container"><div class="nav-inner">
+<a href="index.html" class="nav-logo"><svg viewBox="0 0 32 32" fill="none"><path d="M4 24L16 4l12 20H4z" stroke="#c9a96e" stroke-width="1.5" fill="none"/><path d="M8 20h16l-8-12-8 12z" stroke="#c9a96e" stroke-width="1" fill="rgba(201,169,110,0.1)"/></svg>FANTASTIC VACATION</a>
+<div class="nav-links">
+<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a>
+<a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a>
+<a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html" class="active">全球合作</a>
+<a href="contact.html" class="nav-cta">联系我们</a>
+</div>
+<div class="hamburger" onclick="toggleMobile()"><span></span><span></span><span></span></div>
+</div></div></nav>
+<div class="mobile-menu" id="mobile-menu">
+<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a>
+<a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a>
+<a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a>
+<a href="contact.html">联系我们</a>
+</div>
+
+<section class="sub-hero">
+<div class="container" style="position:relative;z-index:2">
+<div class="breadcrumb"><a href="partnership.html">全球合作</a> / 核心合作伙伴</div>
+<h1><span class="gold-gradient">核心合作伙伴</span></h1>
+<p style="color:var(--text-muted);font-size:16px;margin-top:16px">20+全球顶级品牌资源网络</p>
+</div>
+</section>
+
+<section class="section-padding">
+<div class="container">
+<div class="partner-categories reveal">
+<button class="partner-category-btn active" data-filter="all">全部</button>
+<button class="partner-category-btn" data-filter="shipyard">顶级船厂</button>
+<button class="partner-category-btn" data-filter="marina">全球码头</button>
+<button class="partner-category-btn" data-filter="aviation">私人航空</button>
+<button class="partner-category-btn" data-filter="hotel">奢华酒店</button>
+<button class="partner-category-btn" data-filter="art">艺术收藏</button>
+</div>
+
+<div class="partners-detail-grid">
+<div class="partner-detail-card reveal" data-category="shipyard">
+<div class="partner-detail-img"><img src="images/yttp/yacht-017.jpg" alt="Ferretti Group"><span class="partner-category-badge shipyard">顶级船厂</span></div>
+<div class="partner-detail-body">
+<h3>Ferretti Group</h3>
+<p class="origin">意大利 · 成立于1968年</p>
+<p>全球领先的豪华游艇制造商，旗下拥有Ferretti Yachts、Pershing、Riva等顶级品牌。</p>
+<div class="partner-benefits">
+<span class="partner-benefit">优先排产权</span>
+<span class="partner-benefit">定制化产能</span>
+<span class="partner-benefit">原厂售后</span>
+</div>
+</div>
+</div>
+
+<div class="partner-detail-card reveal" data-category="shipyard">
+<div class="partner-detail-img"><img src="images/yttp/yacht-018.jpg" alt="Feadship"><span class="partner-category-badge shipyard">顶级船厂</span></div>
+<div class="partner-detail-body">
+<h3>Feadship</h3>
+<p class="origin">荷兰 · 成立于1949年</p>
+<p>世界顶级定制超级游艇制造商，以极致工艺与创新设计著称。</p>
+<div class="partner-benefits">
+<span class="partner-benefit">全定制建造</span>
+<span class="partner-benefit">技术支持</span>
+<span class="partner-benefit">监造通道</span>
+</div>
+</div>
+</div>
+
+<div class="partner-detail-card reveal" data-category="shipyard">
+<div class="partner-detail-img"><img src="images/yttp/yacht-019.jpg" alt="Lürssen"><span class="partner-category-badge shipyard">顶级船厂</span></div>
+<div class="partner-detail-body">
+<h3>Lürssen</h3>
+<p class="origin">德国 · 成立于1875年</p>
+<p>全球最大超级游艇制造商之一，专注建造100米以上顶级游艇。</p>
+<div class="partner-benefits">
+<span class="partner-benefit">超级游艇专长</span>
+<span class="partner-benefit">工程支持</span>
+<span class="partner-benefit">品质保障</span>
+</div>
+</div>
+</div>
+
+<div class="partner-detail-card reveal" data-category="shipyard">
+<div class="partner-detail-img"><img src="images/yttp/yacht-020.jpg" alt="Sunseeker"><span class="partner-category-badge shipyard">顶级船厂</span></div>
+<div class="partner-detail-body">
+<h3>Sunseeker</h3>
+<p class="origin">英国 · 成立于1969年</p>
+<p>英国顶级豪华游艇品牌，以性能与设计完美结合闻名。</p>
+<div class="partner-benefits">
+<span class="partner-benefit">运动艇专长</span>
+<span class="partner-benefit">快速交付</span>
+<span class="partner-benefit">全球服务</span>
+</div>
+</div>
+</div>
+
+<div class="partner-detail-card reveal" data-category="marina">
+<div class="partner-detail-img"><img src="images/yttp/yacht-025.jpg" alt="Port Hercules"><span class="partner-category-badge marina">全球码头</span></div>
+<div class="partner-detail-body">
+<h3>Port Hercules Monaco</h3>
+<p class="origin">摩纳哥 · 地中海核心</p>
+<p>世界最著名的游艇港口，位于地中海核心位置的顶级停泊地。</p>
+<div class="partner-benefits">
+<span class="partner-benefit">专属泊位</span>
+<span class="partner-benefit">VIP接待</span>
+<span class="partner-benefit">税费优惠</span>
+</div>
+</div>
+</div>
+
+<div class="partner-detail-card reveal" data-category="marina">
+<div class="partner-detail-img"><img src="images/yttp/yacht-026.jpg" alt="Palm Jumeirah"><span class="partner-category-badge marina">全球码头</span></div>
+<div class="partner-detail-body">
+<h3>Palm Jumeirah Marina</h3>
+<p class="origin">迪拜 · 中东门户</p>
+<p>中东地区最顶级的游艇码头，服务与设施世界一流。</p>
+<div class="partner-benefits">
+<span class="partner-benefit">中东枢纽</span>
+<span class="partner-benefit">全年运营</span>
+<span class="partner-benefit">奢华配套</span>
+</div>
+</div>
+</div>
+
+<div class="partner-detail-card reveal" data-category="marina">
+<div class="partner-detail-img"><img src="images/yttp/yacht-027.jpg" alt="ONE°15"><span class="partner-category-badge marina">全球码头</span></div>
+<div class="partner-detail-body">
+<h3>ONE°15 Marina</h3>
+<p class="origin">新加坡 · 东南亚枢纽</p>
+<p>新加坡顶级游艇俱乐部，东南亚地区游艇服务标杆。</p>
+<div class="partner-benefits">
+<span class="partner-benefit">亚洲枢纽</span>
+<span class="partner-benefit">优先停泊</span>
+<span class="partner-benefit">俱乐部权益</span>
+</div>
+</div>
+</div>
+
+<div class="partner-detail-card reveal" data-category="aviation">
+<div class="partner-detail-img"><img src="images/yttp/yacht-033.jpg" alt="VistaJet"><span class="partner-category-badge aviation">私人航空</span></div>
+<div class="partner-detail-body">
+<h3>VistaJet</h3>
+<p class="origin">马耳他 · 全球运营</p>
+<p>全球领先的私人公务机运营商，覆盖187个国家。</p>
+<div class="partner-benefits">
+<span class="partner-benefit">全球覆盖</span>
+<span class="partner-benefit">海空联运</span>
+<span class="partner-benefit">零等待转乘</span>
+</div>
+</div>
+</div>
+
+<div class="partner-detail-card reveal" data-category="aviation">
+<div class="partner-detail-img"><img src="images/yttp/yacht-034.jpg" alt="NetJets"><span class="partner-category-badge aviation">私人航空</span></div>
+<div class="partner-detail-body">
+<h3>NetJets</h3>
+<p class="origin">美国 · 巴菲特旗下</p>
+<p>全球最大的私人飞机共享所有权公司，沃伦·巴菲特旗下企业。</p>
+<div class="partner-benefits">
+<span class="partner-benefit">共享所有权</span>
+<span class="partner-benefit">灵活调度</span>
+<span class="partner-benefit">尊贵体验</span>
+</div>
+</div>
+</div>
+
+<div class="partner-detail-card reveal" data-category="hotel">
+<div class="partner-detail-img"><img src="images/yttp/yacht-041.jpg" alt="Aman"><span class="partner-category-badge hotel">奢华酒店</span></div>
+<div class="partner-detail-body">
+<h3>Aman Resorts</h3>
+<p class="origin">全球 · 顶级度假</p>
+<p>全球最顶级的精品度假酒店品牌，以极致私密与奢华著称。</p>
+<div class="partner-benefits">
+<span class="partner-benefit">联动套餐</span>
+<span class="partner-benefit">海上抵达</span>
+<span class="partner-benefit">专属礼遇</span>
+</div>
+</div>
+</div>
+
+<div class="partner-detail-card reveal" data-category="hotel">
+<div class="partner-detail-img"><img src="images/yttp/yacht-042.jpg" alt="Four Seasons"><span class="partner-category-badge hotel">奢华酒店</span></div>
+<div class="partner-detail-body">
+<h3>Four Seasons</h3>
+<p class="origin">全球 · 奢华连锁</p>
+<p>全球顶级豪华酒店品牌，服务标准行业标杆。</p>
+<div class="partner-benefits">
+<span class="partner-benefit">全球网络</span>
+<span class="partner-benefit">会员互认</span>
+<span class="partner-benefit">礼宾对接</span>
+</div>
+</div>
+</div>
+
+<div class="partner-detail-card reveal" data-category="art">
+<div class="partner-detail-img"><img src="images/yttp/yacht-049.jpg" alt="Sotheby's"><span class="partner-category-badge art">艺术收藏</span></div>
+<div class="partner-detail-body">
+<h3>Sotheby's</h3>
+<p class="origin">全球 · 顶级拍卖行</p>
+<p>全球最古老的拍卖行之一，艺术品收藏领域的权威。</p>
+<div class="partner-benefits">
+<span class="partner-benefit">私人鉴赏</span>
+<span class="partner-benefit">艺术定制</span>
+<span class="partner-benefit">运输保险</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<footer id="footer"><div class="container"><div class="footer-grid">
+<div class="footer-brand"><a href="index.html" class="nav-logo">FANTASTIC VACATION</a><p>奇幻假期实业有限公司</p><p style="font-size:12px;color:var(--text-muted);margin-top:8px">✉️ fantastic.vacation@yahoo.com</p></div>
+<div class="footer-col"><h4>快速导航</h4><ul><li><a href="index.html">首页</a></li><li><a href="about.html">关于我们</a></li><li><a href="yachts.html">游艇产品</a></li><li><a href="contact.html">联系我们</a></li></ul></div>
+<div class="footer-col"><h4>联系方式</h4><ul><li>📞 +86 400-888-9999</li><li>✉️ fantastic.vacation@yahoo.com</li></ul></div>
+</div><div class="footer-bottom"><p>© 2026 奇幻假期实业有限公司 fantastic.vacation</p></div></div></footer>
+
+<script>
+window.addEventListener("DOMContentLoaded",function(){
+var loader=document.getElementById("loader");if(!loader)return;var progressEl=document.getElementById("progress");var progress=0;var interval=setInterval(function(){progress+=Math.random()*12+8;if(progress>=100){progress=100;clearInterval(interval);if(progressEl)progressEl.style.width="100%";setTimeout(function(){if(loader)loader.style.display="none";document.body.style.overflow=""},400)}else if(progressEl)progressEl.style.width=progress+"%"},180);setTimeout(function(){clearInterval(interval);if(loader)loader.style.display="none";document.body.style.overflow=""},5000);
+});
+window.addEventListener("scroll",function(){var nav=document.getElementById("navbar");if(window.scrollY>50)nav.classList.add("scrolled");else nav.classList.remove("scrolled")});
+function toggleMobile(){document.getElementById("mobile-menu").classList.toggle("active");document.querySelector(".hamburger").classList.toggle("active")}
+(function(){var o=new IntersectionObserver(function(e){e.forEach(function(e){if(e.isIntersecting)e.target.classList.add("revealed")})},{threshold:0.1});document.querySelectorAll(".reveal").forEach(function(e){o.observe(e)})})();
+document.querySelectorAll('.partner-category-btn').forEach(function(btn){
+btn.addEventListener('click',function(){
+document.querySelectorAll('.partner-category-btn').forEach(function(b){b.classList.remove('active')});
+this.classList.add('active');
+var filter=this.dataset.filter;
+document.querySelectorAll('.partner-detail-card').forEach(function(item){
+if(filter==='all'||item.dataset.category===filter){item.style.display='block'}else{item.style.display='none'}
+});
+});
+});
+</script>
+</body></html>

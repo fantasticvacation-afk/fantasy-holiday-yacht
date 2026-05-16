@@ -1,0 +1,204 @@
+<!DOCTYPE html><html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>合作意向申请 | 奇幻假期 fantastic.vacation</title>
+<meta name="description" content="提交您与奇幻假期的合作意向，我们将尽快与您联系。">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+.form-hero{position:relative;min-height:50vh;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(135deg,#0a1628 0%,#1a2a48 50%,#2d1810 100%)}
+.form-hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:150px;background:linear-gradient(to top,var(--dark1),transparent)}
+.breadcrumb{font-size:12px;color:var(--text-muted);margin-bottom:20px;letter-spacing:1px}
+.breadcrumb a{color:var(--gold);text-decoration:none}
+
+.apply-form{max-width:800px;margin:0 auto;background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.1);border-radius:20px;padding:48px}
+.form-section{margin-bottom:32px}
+.form-section h3{font-size:16px;font-weight:600;margin-bottom:20px;padding-bottom:12px;border-bottom:1px solid rgba(201,169,110,0.1)}
+.form-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;margin-bottom:20px}
+.form-group{margin-bottom:20px}
+.form-group label{display:block;font-size:12px;color:var(--text-muted);margin-bottom:8px;letter-spacing:0.5px}
+.form-group input,.form-group select,.form-group textarea{width:100%;padding:14px 16px;background:rgba(255,255,255,0.03);border:1px solid rgba(201,169,110,0.15);border-radius:10px;font-size:14px;color:var(--text);transition:all 0.3s;font-family:inherit}
+.form-group input:focus,.form-group select:focus,.form-group textarea:focus{outline:none;border-color:var(--gold);background:rgba(255,255,255,0.05)}
+.form-group textarea{min-height:120px;resize:vertical}
+.form-group select{cursor:pointer;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%23c9a96e' viewBox='0 0 16 16'%3E%3Cpath d='M8 11L3 6h10l-5 5z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 16px center}
+.form-group select option{background:var(--dark2);color:var(--text)}
+.checkbox-group{display:flex;flex-wrap:wrap;gap:12px}
+.checkbox-item{display:flex;align-items:center;gap:8px;padding:10px 16px;background:rgba(255,255,255,0.03);border:1px solid rgba(201,169,110,0.1);border-radius:8px;cursor:pointer;transition:all 0.3s}
+.checkbox-item:hover{border-color:rgba(201,169,110,0.3)}
+.checkbox-item input{width:16px;height:16px;accent-color:var(--gold)}
+.checkbox-item span{font-size:13px}
+.form-note{font-size:12px;color:var(--text-dim);margin-top:16px;padding:12px;background:rgba(201,169,110,0.05);border-radius:8px;line-height:1.6}
+.form-submit{text-align:center;margin-top:40px}
+.form-submit button{padding:16px 48px;font-size:14px;letter-spacing:1px}
+.form-contact-info{margin-top:32px;padding-top:24px;border-top:1px solid rgba(201,169,110,0.1);text-align:center}
+.form-contact-info p{font-size:13px;color:var(--text-muted);margin-bottom:8px}
+.form-contact-info a{color:var(--gold);text-decoration:none}
+</style>
+</head>
+<body>
+<div id="loader"><div class="brand">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div></div>
+<nav id="navbar"><div class="container"><div class="nav-inner">
+<a href="index.html" class="nav-logo"><svg viewBox="0 0 32 32" fill="none"><path d="M4 24L16 4l12 20H4z" stroke="#c9a96e" stroke-width="1.5" fill="none"/><path d="M8 20h16l-8-12-8 12z" stroke="#c9a96e" stroke-width="1" fill="rgba(201,169,110,0.1)"/></svg>FANTASTIC VACATION</a>
+<div class="nav-links">
+<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a>
+<a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a>
+<a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html" class="active">全球合作</a>
+<a href="contact.html" class="nav-cta">联系我们</a>
+</div>
+<div class="hamburger" onclick="toggleMobile()"><span></span><span></span><span></span></div>
+</div></div></nav>
+<div class="mobile-menu" id="mobile-menu">
+<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a>
+<a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a>
+<a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a>
+<a href="contact.html">联系我们</a>
+</div>
+
+<section class="form-hero">
+<div class="container" style="position:relative;z-index:2">
+<div class="breadcrumb"><a href="partnership.html">全球合作</a> / 合作意向申请</div>
+<h1><span class="gold-gradient">合作意向申请</span></h1>
+<p style="color:var(--text-muted);font-size:16px;margin-top:16px">期待与您建立深度合作关系</p>
+</div>
+</section>
+
+<section class="section-padding">
+<div class="container">
+<form class="apply-form reveal" action="https://formspree.io/f/xgodgjld" method="POST">
+
+<div class="form-section">
+<h3>合作类型</h3>
+<p style="font-size:13px;color:var(--text-muted);margin-bottom:16px">请选择您感兴趣的合作类型（可多选）</p>
+<div class="checkbox-group">
+<label class="checkbox-item"><input type="checkbox" name="coop_type" value="船厂战略合作"><span>船厂战略合作</span></label>
+<label class="checkbox-item"><input type="checkbox" name="coop_type" value="码头/港口联盟"><span>码头/港口联盟</span></label>
+<label class="checkbox-item"><input type="checkbox" name="coop_type" value="私人航空合作"><span>私人航空合作</span></label>
+<label class="checkbox-item"><input type="checkbox" name="coop_type" value="酒店/度假地合作"><span>酒店/度假地合作</span></label>
+<label class="checkbox-item"><input type="checkbox" name="coop_type" value="品牌联名"><span>品牌联名</span></label>
+<label class="checkbox-item"><input type="checkbox" name="coop_type" value="渠道代理"><span>渠道代理</span></label>
+<label class="checkbox-item"><input type="checkbox" name="coop_type" value="服务整合"><span>服务整合</span></label>
+<label class="checkbox-item"><input type="checkbox" name="coop_type" value="技术合作"><span>技术合作</span></label>
+</div>
+</div>
+
+<div class="form-section">
+<h3>企业信息</h3>
+<div class="form-row">
+<div class="form-group">
+<label>企业名称 *</label>
+<input type="text" name="company_name" required placeholder="请输入企业全称">
+</div>
+<div class="form-group">
+<label>所属行业 *</label>
+<select name="industry" required>
+<option value="">请选择</option>
+<option value="游艇制造">游艇制造</option>
+<option value="码头/港口">码头/港口</option>
+<option value="私人航空">私人航空</option>
+<option value="酒店/度假">酒店/度假</option>
+<option value="艺术品/收藏">艺术品/收藏</option>
+<option value="金融服务">金融服务</option>
+<option value="奢侈品">奢侈品</option>
+<option value="其他">其他</option>
+</select>
+</div>
+</div>
+<div class="form-row">
+<div class="form-group">
+<label>企业规模</label>
+<select name="company_size">
+<option value="">请选择</option>
+<option value="10人以下">10人以下</option>
+<option value="10-50人">10-50人</option>
+<option value="50-200人">50-200人</option>
+<option value="200-1000人">200-1000人</option>
+<option value="1000人以上">1000人以上</option>
+</select>
+</div>
+<div class="form-group">
+<label>企业所在地</label>
+<input type="text" name="location" placeholder="例：上海">
+</div>
+</div>
+</div>
+
+<div class="form-section">
+<h3>联系人信息</h3>
+<div class="form-row">
+<div class="form-group">
+<label>联系人姓名 *</label>
+<input type="text" name="contact_name" required placeholder="您的姓名">
+</div>
+<div class="form-group">
+<label>职位</label>
+<input type="text" name="position" placeholder="您的职位">
+</div>
+</div>
+<div class="form-row">
+<div class="form-group">
+<label>联系电话 *</label>
+<input type="tel" name="phone" required placeholder="您的手机号码">
+</div>
+<div class="form-group">
+<label>电子邮箱 *</label>
+<input type="email" name="email" required placeholder="您的邮箱地址">
+</div>
+</div>
+</div>
+
+<div class="form-section">
+<h3>合作需求</h3>
+<div class="form-group">
+<label>合作需求描述 *</label>
+<textarea name="requirements" required placeholder="请详细描述您的合作意向、资源优势、期望达成的目标等"></textarea>
+</div>
+<div class="form-group">
+<label>预期合作时间</label>
+<select name="timeline">
+<option value="">请选择</option>
+<option value="1个月内">1个月内</option>
+<option value="1-3个月">1-3个月</option>
+<option value="3-6个月">3-6个月</option>
+<option value="6个月以上">6个月以上</option>
+<option value="长期合作">长期合作</option>
+</select>
+</div>
+</div>
+
+<input type="hidden" name="_subject" value="【奇幻假期】新的合作意向申请">
+
+<div class="form-note">
+<p>📌 提交后，我们的商务团队将在5个工作日内与您联系。</p>
+<p>📧 官方邮箱：fantastic.vacation@yahoo.com</p>
+<p>📞 商务合作专线：+86 400-888-9999</p>
+</div>
+
+<div class="form-submit">
+<button type="submit" class="btn btn-primary btn-gold-sweep">提交合作意向</button>
+</div>
+
+<div class="form-contact-info">
+<p>如有任何疑问，欢迎随时联系我们</p>
+<p>📧 <a href="mailto:partnership@fantastic.vacation">partnership@fantastic.vacation</a></p>
+</div>
+
+</form>
+</div>
+</section>
+
+<footer id="footer"><div class="container"><div class="footer-grid">
+<div class="footer-brand"><a href="index.html" class="nav-logo">FANTASTIC VACATION</a><p>奇幻假期实业有限公司</p><p style="font-size:12px;color:var(--text-muted);margin-top:8px">✉️ fantastic.vacation@yahoo.com</p></div>
+<div class="footer-col"><h4>快速导航</h4><ul><li><a href="index.html">首页</a></li><li><a href="about.html">关于我们</a></li><li><a href="yachts.html">游艇产品</a></li><li><a href="contact.html">联系我们</a></li></ul></div>
+<div class="footer-col"><h4>联系方式</h4><ul><li>📞 +86 400-888-9999</li><li>✉️ fantastic.vacation@yahoo.com</li></ul></div>
+</div><div class="footer-bottom"><p>© 2026 奇幻假期实业有限公司 fantastic.vacation</p></div></div></footer>
+
+<script>
+window.addEventListener("DOMContentLoaded",function(){
+var loader=document.getElementById("loader");if(!loader)return;var progressEl=document.getElementById("progress");var progress=0;var interval=setInterval(function(){progress+=Math.random()*12+8;if(progress>=100){progress=100;clearInterval(interval);if(progressEl)progressEl.style.width="100%";setTimeout(function(){if(loader)loader.style.display="none";document.body.style.overflow=""},400)}else if(progressEl)progressEl.style.width=progress+"%"},180);setTimeout(function(){clearInterval(interval);if(loader)loader.style.display="none";document.body.style.overflow=""},5000);
+});
+window.addEventListener("scroll",function(){var nav=document.getElementById("navbar");if(window.scrollY>50)nav.classList.add("scrolled");else nav.classList.remove("scrolled")});
+function toggleMobile(){document.getElementById("mobile-menu").classList.toggle("active");document.querySelector(".hamburger").classList.toggle("active")}
+(function(){var o=new IntersectionObserver(function(e){e.forEach(function(e){if(e.isIntersecting)e.target.classList.add("revealed")})},{threshold:0.1});document.querySelectorAll(".reveal").forEach(function(e){o.observe(e)})})();
+</script>
+</body></html>

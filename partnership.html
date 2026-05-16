@@ -1,115 +1,538 @@
-<!DOCTYPE html><html lang="zh-CN"><head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>全球合作 | 奇幻假期 FANTASY HOLIDAY</title>
-<meta name="description" content="奇幻假期携手全球顶级合作伙伴，共建海洋奢华生态系统。涵盖顶级船厂、码头网络、奢华生活配套等全链条资源。">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<!DOCTYPE html><html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>全球合作网络 | 奇幻假期 fantastic.vacation</title>
+<meta name="description" content="奇幻假期全球合作网络，覆盖80+顶级码头、20+全球船厂、100+高端生活方式品牌。从造船到停泊，从飞行到收藏，构建完整奢华生活体验链。">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-</head><body>
-<div id="loader"><div class="brand">FANTASY HOLIDAY</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div></div>
+<style>
+.partnership-hero{position:relative;min-height:85vh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;background:linear-gradient(135deg,#0a1628 0%,#1a2a48 40%,#2d1810 80%,#1a0f08 100%)}
+.partnership-hero::before{content:'';position:absolute;inset:0;background:url('images/yttp/yacht-009.jpg') center/cover no-repeat;opacity:0.25;transform:scale(1.1)}
+.partnership-hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:250px;background:linear-gradient(to top,var(--dark1),transparent)}
+.partnership-hero-content{position:relative;z-index:3;padding:0 20px;max-width:1000px}
+.partnership-hero h1{font-family:'Playfair Display',serif;font-size:clamp(32px,5vw,56px);font-weight:800;letter-spacing:3px;margin-bottom:16px}
+.partnership-hero .subtitle{font-size:clamp(14px,1.6vw,20px);color:var(--text-muted);font-weight:300;letter-spacing:2px;margin-bottom:32px;line-height:1.7}
+.stats-row{display:flex;justify-content:center;gap:48px;margin-top:40px;flex-wrap:wrap}
+.stat-item{display:flex;flex-direction:column;align-items:center}
+.stat-val{font-size:clamp(32px,4vw,48px);font-weight:700;color:var(--gold);font-family:'Playfair Display',serif}
+.stat-label{font-size:12px;color:var(--text-muted);letter-spacing:1px;margin-top:8px;text-transform:uppercase}
+.cta-buttons{display:flex;gap:20px;justify-content:center;margin-top:48px;flex-wrap:wrap}
+
+.types-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:24px;margin-top:48px}
+.type-card{background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.1);border-radius:16px;overflow:hidden;transition:all 0.4s;position:relative}
+.type-card:hover{transform:translateY(-8px);border-color:rgba(201,169,110,0.3);box-shadow:0 20px 60px rgba(0,0,0,0.4)}
+.type-card-img{height:180px;overflow:hidden;position:relative}
+.type-card-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.6s}
+.type-card:hover .type-card-img img{transform:scale(1.1)}
+.type-card-img::after{content:'';position:absolute;bottom:0;left:0;right:0;height:80px;background:linear-gradient(to top,rgba(10,22,40,0.95),transparent)}
+.type-card-body{padding:24px}
+.type-card-icon{font-size:28px;margin-bottom:12px}
+.type-card h3{font-size:18px;font-weight:600;margin-bottom:12px}
+.type-card p{font-size:13px;color:var(--text-muted);line-height:1.7;margin-bottom:16px}
+.type-tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.type-tag{padding:4px 12px;background:rgba(201,169,110,0.1);border-radius:12px;font-size:11px;color:var(--gold);letter-spacing:0.5px}
+.type-link{font-size:12px;color:var(--gold);letter-spacing:1px;text-decoration:none;display:inline-flex;align-items:center;gap:6px;transition:gap 0.3s}
+.type-link:hover{gap:12px}
+
+.partners-section{padding:100px 0;background:var(--dark2)}
+.partners-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:48px;flex-wrap:wrap;gap:24px}
+.partner-filters{display:flex;gap:12px;flex-wrap:wrap}
+.partner-filter{padding:8px 20px;border-radius:20px;font-size:12px;font-weight:500;letter-spacing:1px;background:rgba(255,255,255,0.03);border:1px solid rgba(201,169,110,0.15);color:var(--text-muted);cursor:pointer;transition:all 0.3s}
+.partner-filter:hover,.partner-filter.active{background:rgba(201,169,110,0.15);border-color:var(--gold);color:var(--gold)}
+
+.logo-wall{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:20px}
+.logo-item{background:rgba(255,255,255,0.03);border:1px solid rgba(201,169,110,0.08);border-radius:12px;padding:32px 24px;display:flex;align-items:center;justify-content:center;min-height:100px;transition:all 0.3s;cursor:pointer}
+.logo-item:hover{background:rgba(255,255,255,0.06);border-color:rgba(201,169,110,0.2);transform:scale(1.05)}
+.logo-item span{font-size:14px;font-weight:600;letter-spacing:1px;text-align:center}
+.logo-item[data-category="shipyard"] span{color:#64b4ff}
+.logo-item[data-category="marina"] span{color:#50c878}
+.logo-item[data-category="aviation"] span{color:#ff9f43}
+.logo-item[data-category="hotel"] span{color:#ee5a24}
+
+.network-map-section{padding:100px 0;background:linear-gradient(180deg,var(--dark1),var(--dark3))}
+.map-container{position:relative;border-radius:20px;overflow:hidden;background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.1);min-height:500px;display:flex;align-items:center;justify-content:center}
+.map-placeholder{color:var(--text-muted);font-size:14px;text-align:center;padding:40px}
+.map-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:24px;margin-top:48px}
+.map-stat{background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.1);border-radius:12px;padding:24px;text-align:center}
+.map-stat-val{font-size:32px;font-weight:700;color:var(--gold);font-family:'Playfair Display',serif}
+.map-stat-label{font-size:12px;color:var(--text-muted);margin-top:8px;letter-spacing:1px}
+
+.cases-preview{padding:100px 0}
+.case-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(350px,1fr));gap:28px;margin-top:48px}
+.case-card{background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.08);border-radius:16px;overflow:hidden;transition:all 0.4s}
+.case-card:hover{transform:translateY(-6px);border-color:rgba(201,169,110,0.25);box-shadow:0 20px 60px rgba(0,0,0,0.3)}
+.case-card-img{height:200px;overflow:hidden;position:relative}
+.case-card-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.6s}
+.case-card:hover .case-card-img img{transform:scale(1.08)}
+.case-card-body{padding:24px}
+.case-card-badge{display:inline-block;padding:4px 12px;background:rgba(201,169,110,0.15);border-radius:12px;font-size:10px;color:var(--gold);letter-spacing:1px;margin-bottom:12px}
+.case-card h3{font-size:16px;font-weight:600;margin-bottom:12px}
+.case-card p{font-size:13px;color:var(--text-muted);line-height:1.7;margin-bottom:16px}
+.case-result{display:flex;gap:24px;padding-top:16px;border-top:1px solid rgba(201,169,110,0.1)}
+.case-result-item{flex:1}
+.case-result-val{font-size:18px;font-weight:700;color:var(--gold)}
+.case-result-label{font-size:11px;color:var(--text-dim);margin-top:4px}
+
+.process-section{padding:100px 0;background:var(--dark2)}
+.process-timeline{display:flex;justify-content:space-between;position:relative;margin-top:60px;flex-wrap:wrap;gap:24px}
+.process-timeline::before{content:'';position:absolute;top:40px;left:10%;right:10%;height:2px;background:linear-gradient(90deg,transparent,rgba(201,169,110,0.3),transparent)}
+.process-step{flex:1;min-width:180px;max-width:220px;text-align:center;position:relative}
+.process-step-num{width:80px;height:80px;border-radius:50%;background:linear-gradient(135deg,rgba(201,169,110,0.2),rgba(201,169,110,0.05));border:2px solid rgba(201,169,110,0.3);display:flex;align-items:center;justify-content:center;margin:0 auto 20px;font-size:24px;font-weight:700;color:var(--gold);font-family:'Playfair Display',serif}
+.process-step h4{font-size:14px;font-weight:600;margin-bottom:8px}
+.process-step p{font-size:12px;color:var(--text-muted);line-height:1.6}
+
+.cta-section{padding:120px 0;text-align:center;background:linear-gradient(180deg,var(--dark3),var(--dark1));position:relative;overflow:hidden}
+.cta-section::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,rgba(201,169,110,0.06) 0%,transparent 70%);pointer-events:none}
+.cta-content{position:relative;z-index:2;max-width:700px;margin:0 auto}
+.cta-section h2{font-family:'Playfair Display',serif;font-size:clamp(28px,4vw,44px);margin-bottom:24px}
+.cta-section p{color:var(--text-muted);font-size:16px;line-height:1.8;margin-bottom:40px}
+.cta-contact{display:flex;flex-direction:column;gap:12px;margin-bottom:32px}
+.cta-contact div{font-size:15px;color:var(--text)}
+.cta-contact a{color:var(--gold);text-decoration:none}
+</style>
+</head>
+<body>
+<div id="loader"><div class="brand">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div></div>
+
 <nav id="navbar"><div class="container"><div class="nav-inner">
-<a href="index.html" class="nav-logo"><svg viewBox="0 0 32 32" fill="none"><path d="M4 24L16 4l12 20H4z" stroke="#c9a96e" stroke-width="1.5" fill="none"/><path d="M8 20h16l-8-12-8 12z" stroke="#c9a96e" stroke-width="1" fill="rgba(201,169,110,0.1)"/></svg>FANTASY HOLIDAY</a>
+<a href="index.html" class="nav-logo"><svg viewBox="0 0 32 32" fill="none"><path d="M4 24L16 4l12 20H4z" stroke="#c9a96e" stroke-width="1.5" fill="none"/><path d="M8 20h16l-8-12-8 12z" stroke="#c9a96e" stroke-width="1" fill="rgba(201,169,110,0.1)"/></svg>FANTASTIC VACATION</a>
 <div class="nav-links">
-<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a><a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a><a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html" class="active">全球合作</a><a href="contact.html" class="nav-cta">联系我们</a>
+<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a>
+<a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a>
+<a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html" class="active">全球合作</a>
+<a href="contact.html" class="nav-cta">联系我们</a>
 </div>
 <div class="hamburger" onclick="toggleMobile()"><span></span><span></span><span></span></div>
 </div></div></nav>
-<div class="mobile-menu" id="mobile-menu"><a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a><a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a><a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a><a href="contact.html">联系我们</a></div>
 
-<section id="hero">
-<div class="hero-bg" style="background: url('images/yttp/yacht-009.jpg') center/cover no-repeat fixed;"></div>
-<div class="hero-content">
-<div class="hero-badge">✦ 全球合作 ✦</div>
-<h1 class="hero-title"><span class="gold-gradient">全球合作</span></h1>
-<p class="hero-sub">携手共创，合作共赢</p>
-</div></section>
-
-<section class="section-padding"><div class="container">
-<div class="section-header reveal"><h2><span class="gold-gradient">核心合作伙伴</span></h2><div class="divider-gold"></div><p>从造船到停泊，从飞行到收藏，为您构建完整的奢华生活体验链</p></div>
-
-<div class="partnership-grid">
-<div class="partner-card<img src="images/yttp/yacht-017.jpg" alt="游艇服务" style="width:100%;height:180px;object-fit:cover;border-radius:12px 12px 0 0;margin-bottom:12px;"> reveal">
-<h3>🏗️ 顶级船厂合作</h3>
-<p>与意大利 Ferretti Group、荷兰 Feadship、德国 Lürssen、英国 Sunseeker 等世界一流造船集团建立战略合作伙伴关系。</p>
-<ul class="partner-features">
-<li>优先排产权与定制化产能保障</li>
-<li>联合研发新技术与新船型</li>
-<li>工厂参观与监造绿色通道</li>
-<li>原厂认证的售后服务支持</li>
-</ul>
+<div class="mobile-menu" id="mobile-menu">
+<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a>
+<a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a>
+<a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a>
+<a href="contact.html">联系我们</a>
 </div>
 
-<div class="partner-card<img src="images/yttp/yacht-025.jpg" alt="游艇服务" style="width:100%;height:180px;object-fit:cover;border-radius:12px 12px 0 0;margin-bottom:12px;"> reveal">
-<h3>🏝️ Marina码头网络</h3>
-<p>覆盖全球80+顶级游艇码头与 Marina Club，为客户提供专属泊位预订与 VIP 接待服务。</p>
-<ul class="partner-features">
-<li>摩纳哥 Port Hercules 专属泊位</li>
-<li>迪拜 Palm Jumeirah Marina 合作伙伴</li>
-<li>香港愉景湾游艇会会员权益</li>
-<li>新加坡 ONE°15 优先停泊权</li>
-</ul>
+<!-- Hero Section -->
+<section class="partnership-hero">
+<div class="partnership-hero-content">
+<h1><span class="gold-gradient">FANTASTIC VACATION</span></h1>
+<h1 style="font-size:clamp(24px,3vw,36px);margin-top:8px">全球合作网络</h1>
+<p class="subtitle">从造船到停泊，从飞行到收藏，为您构建完整的奢华生活体验链</p>
+
+<div class="stats-row">
+<div class="stat-item"><div class="stat-val">80+</div><div class="stat-label">顶级码头合作</div></div>
+<div class="stat-item"><div class="stat-val">20+</div><div class="stat-label">全球船厂联盟</div></div>
+<div class="stat-item"><div class="stat-val">100+</div><div class="stat-label">高端生活方式品牌</div></div>
+<div class="stat-item"><div class="stat-val">30+</div><div class="stat-label">国家与地区覆盖</div></div>
 </div>
 
-<div class="partner-card<img src="images/yttp/yacht-033.jpg" alt="游艇服务" style="width:100%;height:180px;object-fit:cover;border-radius:12px 12px 0 0;margin-bottom:12px;"> reveal">
-<h3>✈️ 私人飞行网络</h3>
-<p>与 VistaJet、NetJets 等顶级私人航空运营商合作，实现海空无缝衔接。</p>
-<ul class="partner-features">
-<li>全球任意地点直升机接送</li>
-<li>游艇停机坪认证与维护</li>
-<li>私人飞机转机服务</li>
-</ul>
-</div>
-
-<div class="partner-card<img src="images/yttp/yacht-041.jpg" alt="游艇服务" style="width:100%;height:180px;object-fit:cover;border-radius:12px 12px 0 0;margin-bottom:12px;"> reveal">
-<h3>🏨 奢华酒店联盟</h3>
-<p>与 Aman、Four Seasons、Ritz-Carlton 等顶级度假酒店建立专属协议。</p>
-<ul class="partner-features">
-<li>游艇与酒店联动套餐</li>
-<li>海上抵达礼宾接待</li>
-<li>会员级别互认权益</li>
-</ul>
-</div>
-
-<div class="partner-card<img src="images/yttp/yacht-049.jpg" alt="游艇服务" style="width:100%;height:180px;object-fit:cover;border-radius:12px 12px 0 0;margin-bottom:12px;"> reveal">
-<h3>🎨 艺术品收藏</h3>
-<p>对接苏富比、佳士得等顶级拍卖行，为客户提供艺术品投资与游艇内饰收藏服务。</p>
-<ul class="partner-features">
-<li>游艇专属艺术定制</li>
-<li>私人藏品鉴赏与拍卖</li>
-<li>艺术品海上运输与保险</li>
-</ul>
-</div>
-
-<div class="partner-card<img src="images/yttp/yacht-057.jpg" alt="游艇服务" style="width:100%;height:180px;object-fit:cover;border-radius:12px 12px 0 0;margin-bottom:12px;"> reveal">
-<h3>🎓 教育与文化</h3>
-<p>与顶级学府与文化机构合作，为船东家族提供教育规划与文化交流活动。</p>
-<ul class="partner-features">
-<li>海上家族办公室服务</li>
-<li>青少年航海教育营地</li>
-<li>私人博物馆与文化沙龙</li>
-</ul>
+<div class="cta-buttons">
+<a href="#types" class="btn btn-primary btn-gold-sweep">了解合作模式</a>
+<a href="partner-apply.html" class="btn btn-outline">提交合作意向</a>
 </div>
 </div>
-</div></section>
+</section>
 
-<section class="section-padding" style="background:var(--dark2)"><div class="container">
-<div class="section-header reveal"><h2><span class="gold-gradient">成为合作伙伴</span></h2><div class="divider-gold"></div><p>我们欢迎与高端生活方式品牌、服务机构建立深度合作关系</p></div>
-
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px" class="reveal">
-<div class="value-card"><h5>品牌联名合作</h5><p>联合推出限量版游艇、联名活动、品牌跨界项目</p></div>
-<div class="value-card"><h5>服务整合合作</h5><p>将您的服务融入奇幻假期客户服务体系，共享高净值客群</p></div>
-<div class="value-card"><h5>渠道代理合作</h5><p>成为奇幻假期区域代理商，共享品牌资源与销售支持</p></div>
-<div class="value-card"><h5>技术合作</h5><p>共同研发游艇新技术、新材料、智能系统解决方案</p></div>
+<!-- 合作类型总览 -->
+<section class="section-padding" id="types">
+<div class="container">
+<div class="section-header reveal">
+<h2><span class="gold-gradient">十大合作类型</span></h2>
+<div class="divider-gold"></div>
+<p>覆盖游艇全生命周期与高端生活方式的完整合作生态</p>
 </div>
 
-<div style="text-align:center;margin-top:48px" class="reveal"><a href="contact.html" class="btn btn-primary btn-gold-sweep">提交合作意向</a></div>
-</div></section>
+<div class="types-grid">
+<div class="type-card reveal">
+<div class="type-card-img"><img src="images/yttp/yacht-017.jpg" alt="船厂合作"></div>
+<div class="type-card-body">
+<div class="type-card-icon">🏗️</div>
+<h3>顶级船厂战略合作</h3>
+<p>与全球顶尖游艇制造商建立深度合作关系，为客户提供优先排产权、定制化产能保障与原厂级售后支持。</p>
+<div class="type-tags">
+<span class="type-tag">优先排产</span>
+<span class="type-tag">定制保障</span>
+<span class="type-tag">原厂售后</span>
+</div>
+<a href="partner-type-shipyard.html" class="type-link">了解更多 →</a>
+</div>
+</div>
 
-<footer id="footer"><div class="container"><div class="footer-grid">
-<div class="footer-brand"><a href="index.html" class="nav-logo">FANTASY HOLIDAY</a><p>奇幻假期实业有限公司</p></div>
-<div class="footer-col"><h4>快速导航</h4><ul><li><a href="index.html">首页</a></li><li><a href="about.html">关于我们</a></li><li><a href="yachts.html">游艇产品</a></li><li><a href="contact.html">联系我们</a></li></ul></div>
-<div class="footer-col"><h4>联系方式</h4><ul><li>📞 +86 400-888-9999</li><li>✉️ partnership@fantasyholiday.com</li></ul></div>
-</div><div class="footer-bottom"><p>© 2026 奇幻假期实业有限公司</p></div></div></footer>
+<div class="type-card reveal">
+<div class="type-card-img"><img src="images/yttp/yacht-025.jpg" alt="码头网络"></div>
+<div class="type-card-body">
+<div class="type-card-icon">🏝️</div>
+<h3>全球码头/港口联盟</h3>
+<p>覆盖全球80+顶级游艇码头，提供专属泊位预订、VIP接待通道、港口税费优惠与紧急维修绿色通道。</p>
+<div class="type-tags">
+<span class="type-tag">专属泊位</span>
+<span class="type-tag">VIP通道</span>
+<span class="type-tag">税费优惠</span>
+</div>
+<a href="partner-type-marina.html" class="type-link">了解更多 →</a>
+</div>
+</div>
 
+<div class="type-card reveal">
+<div class="type-card-img"><img src="images/yttp/yacht-033.jpg" alt="私人航空"></div>
+<div class="type-card-body">
+<div class="type-card-icon">✈️</div>
+<h3>私人航空/海陆空联运</h3>
+<p>与VistaJet、NetJets等顶级私人航空运营商合作，实现全球任意地点直升机接送、游艇停机坪认证与海空无缝衔接。</p>
+<div class="type-tags">
+<span class="type-tag">直升机接送</span>
+<span class="type-tag">停机坪认证</span>
+<span class="type-tag">海空联运</span>
+</div>
+<a href="partner-type-aviation.html" class="type-link">了解更多 →</a>
+</div>
+</div>
+
+<div class="type-card reveal">
+<div class="type-card-img"><img src="images/yttp/yacht-041.jpg" alt="奢华酒店"></div>
+<div class="type-card-body">
+<div class="type-card-icon">🏨</div>
+<h3>高端酒店/度假地合作</h3>
+<p>与Aman、Four Seasons、Ritz-Carlton等顶级度假酒店建立专属协议，提供游艇与酒店联动套餐、海上抵达礼宾服务。</p>
+<div class="type-tags">
+<span class="type-tag">联动套餐</span>
+<span class="type-tag">海上抵达</span>
+<span class="type-tag">会员互认</span>
+</div>
+<a href="partner-type-hotel.html" class="type-link">了解更多 →</a>
+</div>
+</div>
+
+<div class="type-card reveal">
+<div class="type-card-img"><img src="images/yttp/yacht-049.jpg" alt="艺术品收藏"></div>
+<div class="type-card-body">
+<div class="type-card-icon">🎨</div>
+<h3>艺术品收藏/高端生活</h3>
+<p>对接苏富比、佳士得等顶级拍卖行，提供游艇专属艺术定制、私人藏品鉴赏与艺术品海上运输保险服务。</p>
+<div class="type-tags">
+<span class="type-tag">艺术定制</span>
+<span class="type-tag">藏品鉴赏</span>
+<span class="type-tag">运输保险</span>
+</div>
+<a href="partner-type-art.html" class="type-link">了解更多 →</a>
+</div>
+</div>
+
+<div class="type-card reveal">
+<div class="type-card-img"><img src="images/yttp/yacht-057.jpg" alt="行业协会"></div>
+<div class="type-card-body">
+<div class="type-card-icon">🏛️</div>
+<h3>行业协会/监管机构</h3>
+<p>与国际游艇协会、海事监管机构保持紧密合作，确保合规运营、获取最新政策信息与行业资源。</p>
+<div class="type-tags">
+<span class="type-tag">合规保障</span>
+<span class="type-tag">政策信息</span>
+<span class="type-tag">行业资源</span>
+</div>
+<a href="partner-type-association.html" class="type-link">了解更多 →</a>
+</div>
+</div>
+
+<div class="type-card reveal">
+<div class="type-card-img"><img src="images/yttp/yacht-065.jpg" alt="品牌联名"></div>
+<div class="type-card-body">
+<div class="type-card-icon">🤝</div>
+<h3>品牌联名合作</h3>
+<p>与顶级奢侈品牌、高端生活方式品牌联合推出限量版游艇、联名活动与跨界项目，共创品牌价值。</p>
+<div class="type-tags">
+<span class="type-tag">限量定制</span>
+<span class="type-tag">联名活动</span>
+<span class="type-tag">跨界营销</span>
+</div>
+<a href="partner-type-brand.html" class="type-link">了解更多 →</a>
+</div>
+</div>
+
+<div class="type-card reveal">
+<div class="type-card-img"><img src="images/yttp/yacht-073.jpg" alt="服务整合"></div>
+<div class="type-card-body">
+<div class="type-card-icon">🔗</div>
+<h3>服务整合合作</h3>
+<p>将您的优质服务融入奇幻假期客户服务体系，共享高净值客群资源，实现互利共赢。</p>
+<div class="type-tags">
+<span class="type-tag">客群共享</span>
+<span class="type-tag">服务整合</span>
+<span class="type-tag">互利共赢</span>
+</div>
+<a href="partner-type-service.html" class="type-link">了解更多 →</a>
+</div>
+</div>
+
+<div class="type-card reveal">
+<div class="type-card-img"><img src="images/yttp/yacht-081.jpg" alt="渠道代理"></div>
+<div class="type-card-body">
+<div class="type-card-icon">🌐</div>
+<h3>渠道代理合作</h3>
+<p>成为奇幻假期区域代理商，共享品牌资源、销售支持与培训体系，共同开拓区域市场。</p>
+<div class="type-tags">
+<span class="type-tag">品牌授权</span>
+<span class="type-tag">销售支持</span>
+<span class="type-tag">区域独家</span>
+</div>
+<a href="partner-type-agent.html" class="type-link">了解更多 →</a>
+</div>
+</div>
+
+<div class="type-card reveal">
+<div class="type-card-img"><img src="images/yttp/yacht-089.jpg" alt="技术合作"></div>
+<div class="type-card-body">
+<div class="type-card-icon">⚙️</div>
+<h3>技术合作</h3>
+<p>与船舶设计公司、智能系统供应商、新能源技术企业合作，共同推动游艇技术创新与升级。</p>
+<div class="type-tags">
+<span class="type-tag">联合研发</span>
+<span class="type-tag">技术升级</span>
+<span class="type-tag">创新应用</span>
+</div>
+<a href="partner-type-tech.html" class="type-link">了解更多 →</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- 核心合作伙伴 Logo墙 -->
+<section class="partners-section">
+<div class="container">
+<div class="partners-header">
+<div class="section-header reveal" style="margin-bottom:0">
+<h2><span class="gold-gradient">核心合作伙伴</span></h2>
+<p style="color:var(--text-muted);font-size:14px;margin-top:12px">全球顶级品牌资源网络</p>
+</div>
+<div class="partner-filters reveal">
+<button class="partner-filter active" data-filter="all">全部</button>
+<button class="partner-filter" data-filter="shipyard">船厂</button>
+<button class="partner-filter" data-filter="marina">码头</button>
+<button class="partner-filter" data-filter="aviation">航空</button>
+<button class="partner-filter" data-filter="hotel">酒店</button>
+</div>
+</div>
+
+<div class="logo-wall reveal">
+<div class="logo-item" data-category="shipyard"><span>Ferretti Group</span></div>
+<div class="logo-item" data-category="shipyard"><span>Feadship</span></div>
+<div class="logo-item" data-category="shipyard"><span>Lürssen</span></div>
+<div class="logo-item" data-category="shipyard"><span>Sunseeker</span></div>
+<div class="logo-item" data-category="shipyard"><span>Azimut-Benetti</span></div>
+<div class="logo-item" data-category="shipyard"><span>Princess Yachts</span></div>
+<div class="logo-item" data-category="marina"><span>Port Hercules Monaco</span></div>
+<div class="logo-item" data-category="marina"><span>Palm Jumeirah Marina</span></div>
+<div class="logo-item" data-category="marina"><span>ONE°15 Marina</span></div>
+<div class="logo-item" data-category="marina"><span>香港愉景湾游艇会</span></div>
+<div class="logo-item" data-category="marina"><span>Marina Bay Sands</span></div>
+<div class="logo-item" data-category="marina"><span>Portofino Marina</span></div>
+<div class="logo-item" data-category="aviation"><span>VistaJet</span></div>
+<div class="logo-item" data-category="aviation"><span>NetJets</span></div>
+<div class="logo-item" data-category="aviation"><span>Flexjet</span></div>
+<div class="logo-item" data-category="hotel"><span>Aman Resorts</span></div>
+<div class="logo-item" data-category="hotel"><span>Four Seasons</span></div>
+<div class="logo-item" data-category="hotel"><span>Ritz-Carlton</span></div>
+<div class="logo-item" data-category="hotel"><span>One&Only</span></div>
+<div class="logo-item" data-category="shipyard"><span>Heesen Yachts</span></div>
+</div>
+
+<div style="text-align:center;margin-top:48px" class="reveal">
+<a href="partner-list.html" class="btn btn-outline">查看全部合作伙伴 →</a>
+</div>
+</div>
+</section>
+
+<!-- 全球网络地图 -->
+<section class="network-map-section">
+<div class="container">
+<div class="section-header reveal">
+<h2><span class="gold-gradient">全球服务网络</span></h2>
+<div class="divider-gold"></div>
+<p>覆盖全球30+国家与地区，为您提供无缝衔接的全球服务体验</p>
+</div>
+
+<div class="map-container reveal">
+<div class="map-placeholder">
+<p style="font-size:16px;margin-bottom:12px">🗺️ 全球合作网络地图</p>
+<p>地中海 | 加勒比海 | 东南亚 | 中东 | 南太平洋 | 北欧</p>
+</div>
+</div>
+
+<div class="map-stats reveal">
+<div class="map-stat">
+<div class="map-stat-val">80+</div>
+<div class="map-stat-label">合作码头</div>
+</div>
+<div class="map-stat">
+<div class="map-stat-val">30+</div>
+<div class="map-stat-label">服务国家</div>
+</div>
+<div class="map-stat">
+<div class="map-stat-val">50+</div>
+<div class="map-stat-label">港口城市</div>
+</div>
+<div class="map-stat">
+<div class="map-stat-val">5</div>
+<div class="map-stat-label">大洲覆盖</div>
+</div>
+</div>
+
+<div style="text-align:center;margin-top:48px" class="reveal">
+<a href="partner-map.html" class="btn btn-outline">查看详细地图 →</a>
+</div>
+</div>
+</section>
+
+<!-- 合作案例 -->
+<section class="cases-preview">
+<div class="container">
+<div class="section-header reveal">
+<h2><span class="gold-gradient">标杆合作案例</span></h2>
+<div class="divider-gold"></div>
+<p>真实合作案例，见证奇幻假期的全球资源整合实力</p>
+</div>
+
+<div class="case-cards">
+<div class="case-card reveal">
+<div class="case-card-img"><img src="images/yttp/yacht-095.jpg" alt="Ferretti合作案例"></div>
+<div class="case-card-body">
+<span class="case-card-badge">船厂战略合作</span>
+<h3>与Ferretti Group联合定制项目</h3>
+<p>为中东王室客户定制82米超级游艇，从设计到交付全程跟踪，协调Ferretti优先产能，节省18个月等待时间。</p>
+<div class="case-result">
+<div class="case-result-item">
+<div class="case-result-val">18个月</div>
+<div class="case-result-label">等待时间节省</div>
+</div>
+<div class="case-result-item">
+<div class="case-result-val">100%</div>
+<div class="case-result-label">客户满意度</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="case-card reveal">
+<div class="case-card-img"><img src="images/yttp/yacht-103.jpg" alt="码头合作案例"></div>
+<div class="case-card-body">
+<span class="case-card-badge">码头联盟</span>
+<h3>新加坡ONE°15 Marina长期停泊合作</h3>
+<p>为亚洲区客户提供新加坡优先停泊权，VIP接待通道，港口税费优惠30%，实现72小时内任意港口应急响应。</p>
+<div class="case-result">
+<div class="case-result-item">
+<div class="case-result-val">30%</div>
+<div class="case-result-label">税费优惠</div>
+</div>
+<div class="case-result-item">
+<div class="case-result-val">72小时</div>
+<div class="case-result-label">应急响应</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="case-card reveal">
+<div class="case-card-img"><img src="images/yttp/yacht-111.jpg" alt="海空联运案例"></div>
+<div class="case-card-body">
+<span class="case-card-badge">海空联运</span>
+<h3>VistaJet海陆空无缝衔接服务</h3>
+<p>与VistaJet合作实现全球任意地点直升机接送服务，从私人飞机到游艇的零等待转乘体验。</p>
+<div class="case-result">
+<div class="case-result-item">
+<div class="case-result-val">0等待</div>
+<div class="case-result-label">转乘体验</div>
+</div>
+<div class="case-result-item">
+<div class="case-result-val">24/7</div>
+<div class="case-result-label">全球响应</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div style="text-align:center;margin-top:48px" class="reveal">
+<a href="partner-cases.html" class="btn btn-outline">查看全部案例 →</a>
+</div>
+</div>
+</section>
+
+<!-- 合作流程 -->
+<section class="process-section">
+<div class="container">
+<div class="section-header reveal">
+<h2><span class="gold-gradient">合作流程</span></h2>
+<div class="divider-gold"></div>
+<p>从意向提交到项目落地，全程专业服务</p>
+</div>
+
+<div class="process-timeline reveal">
+<div class="process-step">
+<div class="process-step-num">1</div>
+<h4>意向提交</h4>
+<p>填写合作意向表单，说明合作类型与需求</p>
+</div>
+<div class="process-step">
+<div class="process-step-num">2</div>
+<h4>资质审核</h4>
+<p>我们将在5个工作日内完成资质评估与背景调查</p>
+</div>
+<div class="process-step">
+<div class="process-step-num">3</div>
+<h4>方案沟通</h4>
+<p>双方深入沟通，制定定制化合作方案</p>
+</div>
+<div class="process-step">
+<div class="process-step-num">4</div>
+<h4>签约合作</h4>
+<p>签署正式合作协议，明确双方权责</p>
+</div>
+<div class="process-step">
+<div class="process-step-num">5</div>
+<h4>项目落地</h4>
+<p>启动合作项目，持续跟踪与优化</p>
+</div>
+</div>
+
+<div style="text-align:center;margin-top:60px" class="reveal">
+<a href="partner-process.html" class="btn btn-outline">了解详细流程 →</a>
+</div>
+</div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+<div class="container">
+<div class="cta-content reveal">
+<h2>成为<span class="gold-gradient">奇幻假期</span>合作伙伴</h2>
+<p>无论您是顶级船厂、奢华酒店、私人航空还是高端生活方式品牌，我们都期待与您建立深度合作关系，共同为高净值客户提供极致体验。</p>
+<div class="cta-contact">
+<div>📧 <a href="mailto:partnership@fantastic.vacation">partnership@fantastic.vacation</a></div>
+<div>📞 +86 400-888-9999（商务合作专线）</div>
+</div>
+<div style="display:flex;gap:20px;justify-content:center;flex-wrap:wrap">
+<a href="partner-apply.html" class="btn btn-primary btn-gold-sweep">提交合作意向</a>
+<a href="contact.html" class="btn btn-outline">联系我们</a>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer id="footer"><div class="container">
+<div class="footer-grid">
+<div class="footer-brand">
+<a href="index.html" class="nav-logo"><svg viewBox="0 0 32 32" fill="none" style="width:32px;height:32px"><path d="M4 24L16 4l12 20H4z" stroke="#c9a96e" stroke-width="1.5" fill="none"/><path d="M8 20h16l-8-12-8 12z" stroke="#c9a96e" stroke-width="1" fill="rgba(201,169,110,0.1)"/></svg>FANTASTIC VACATION</a>
+<p>奇幻假期实业有限公司——全球一体化高端游艇定制与私人海享生活缔造者。</p>
+<div class="footer-socials"><a href="#">微</a><a href="#">IG</a><a href="#">in</a><a href="#">▶</a></div>
+</div>
+<div class="footer-col"><h4>快速导航</h4><ul><li><a href="index.html">首页</a></li><li><a href="about.html">关于我们</a></li><li><a href="yachts.html">游艇产品</a></li><li><a href="custom.html">定制服务</a></li><li><a href="charter.html">租赁航线</a></li><li><a href="management.html">托管维保</a></li><li><a href="cases.html">案例展示</a></li><li><a href="news.html">新闻资讯</a></li><li><a href="partnership.html">全球合作</a></li><li><a href="contact.html">联系我们</a></li></ul></div>
+<div class="footer-col"><h4>核心服务</h4><ul><li><a href="yachts.html">游艇销售</a></li><li><a href="custom.html">全案定制</a></li><li><a href="charter.html">租赁航行</a></li><li><a href="management.html">托管维保</a></li></ul></div>
+<div class="footer-col"><h4>联系方式</h4><ul><li>📞 +86 400-888-9999</li><li>✉️ fantastic.vacation@yahoo.com</li><li>📍 香港中环金融街8号幻想大厦38楼</li></ul></div>
+</div>
+<div class="footer-bottom"><p>© 2026 奇幻假期实业有限公司 Fantasy Holiday Industrial Ltd.</p><p><a href="privacy.html">隐私政策</a> · <a href="terms.html">使用条款</a> · <a href="sitemap.html">网站地图</a></p></div>
+</div></footer>
 
 <script>
 window.addEventListener("DOMContentLoaded",function(){
@@ -122,7 +545,16 @@ setTimeout(function(){clearInterval(interval);if(loader)loader.style.display="no
 });
 window.addEventListener("scroll",function(){var nav=document.getElementById("navbar");if(window.scrollY>50)nav.classList.add("scrolled");else nav.classList.remove("scrolled")});
 function toggleMobile(){document.getElementById("mobile-menu").classList.toggle("active");document.querySelector(".hamburger").classList.toggle("active")}
-(function(){var c=document.getElementById("cursor");if(c)document.addEventListener("mousemove",function(e){c.style.left=e.pageX+"px";c.style.top=e.pageY+"px"})})();
 (function(){var o=new IntersectionObserver(function(e){e.forEach(function(e){if(e.isIntersecting)e.target.classList.add("revealed")})},{threshold:0.1});document.querySelectorAll(".reveal,.reveal-left,.reveal-right,.reveal-scale").forEach(function(e){o.observe(e)})})();
+document.querySelectorAll('.partner-filter').forEach(function(btn){
+btn.addEventListener('click',function(){
+document.querySelectorAll('.partner-filter').forEach(function(b){b.classList.remove('active')});
+this.classList.add('active');
+var filter=this.dataset.filter;
+document.querySelectorAll('.logo-item').forEach(function(item){
+if(filter==='all'||item.dataset.category===filter){item.style.display='flex'}else{item.style.display='none'}
+});
+});
+});
 </script>
 </body></html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html><html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>全球服务网络地图 | 奇幻假期 fantastic.vacation</title>
+<meta name="description" content="奇幻假期全球服务网络覆盖30+国家、80+码头、50+港口城市。">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+.map-hero{position:relative;min-height:50vh;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(135deg,#0a1628 0%,#1a2a48 50%,#2d1810 100%)}
+.map-hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:150px;background:linear-gradient(to top,var(--dark1),transparent)}
+.global-map{min-height:600px;background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.1);border-radius:20px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+.global-map::before{content:'🌍';font-size:200px;opacity:0.1}
+.map-overlay{position:absolute;inset:0;display:grid;grid-template-columns:repeat(6,1fr);grid-template-rows:repeat(4,1fr);gap:16px;padding:40px;pointer-events:none}
+.map-point{width:12px;height:12px;background:var(--gold);border-radius:50%;position:absolute;animation:pulse 2s infinite;pointer-events:auto;cursor:pointer}
+.map-point:hover{transform:scale(1.5)}
+.map-point::after{content:attr(data-name);position:absolute;bottom:20px;left:50%;transform:translateX(-50%);white-space:nowrap;background:rgba(0,0,0,0.8);padding:6px 12px;border-radius:6px;font-size:11px;color:var(--text);opacity:0;transition:opacity 0.3s;pointer-events:none}
+.map-point:hover::after{opacity:1}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(201,169,110,0.4)}50%{box-shadow:0 0 0 10px rgba(201,169,110,0)}}
+.region-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;margin-top:48px}
+.region-card{background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.1);border-radius:16px;padding:32px;transition:all 0.3s}
+.region-card:hover{border-color:rgba(201,169,110,0.3);transform:translateY(-4px)}
+.region-card h3{font-size:18px;font-weight:600;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.region-card .count{font-size:28px;font-weight:700;color:var(--gold);font-family:'Playfair Display',serif;margin-bottom:8px}
+.region-card .label{font-size:12px;color:var(--text-dim)}
+.region-card ul{margin-top:16px;padding-left:0;list-style:none}
+.region-card li{font-size:13px;color:var(--text-muted);padding:6px 0;border-bottom:1px solid rgba(201,169,110,0.05)}
+</style>
+</head>
+<body>
+<div id="loader"><div class="brand">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div></div>
+<nav id="navbar"><div class="container"><div class="nav-inner">
+<a href="index.html" class="nav-logo"><svg viewBox="0 0 32 32" fill="none"><path d="M4 24L16 4l12 20H4z" stroke="#c9a96e" stroke-width="1.5" fill="none"/><path d="M8 20h16l-8-12-8 12z" stroke="#c9a96e" stroke-width="1" fill="rgba(201,169,110,0.1)"/></svg>FANTASTIC VACATION</a>
+<div class="nav-links">
+<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a>
+<a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a>
+<a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html" class="active">全球合作</a>
+<a href="contact.html" class="nav-cta">联系我们</a>
+</div>
+<div class="hamburger" onclick="toggleMobile()"><span></span><span></span><span></span></div>
+</div></div></nav>
+<div class="mobile-menu" id="mobile-menu">
+<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a>
+<a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a>
+<a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a>
+<a href="contact.html">联系我们</a>
+</div>
+
+<section class="map-hero">
+<div class="container" style="position:relative;z-index:2">
+<div class="breadcrumb"><a href="partnership.html">全球合作</a> / 服务网络地图</div>
+<h1><span class="gold-gradient">全球服务网络</span></h1>
+<p style="color:var(--text-muted);font-size:16px;margin-top:16px">覆盖5大洲 · 30+国家 · 80+码头 · 50+港口城市</p>
+</div>
+</section>
+
+<section class="section-padding">
+<div class="container">
+<div class="global-map reveal">
+<div class="map-point" data-name="摩纳哥" style="top:30%;left:48%"></div>
+<div class="map-point" data-name="意大利" style="top:32%;left:50%"></div>
+<div class="map-point" data-name="法国" style="top:28%;left:47%"></div>
+<div class="map-point" data-name="西班牙" style="top:32%;left:44%"></div>
+<div class="map-point" data-name="希腊" style="top:35%;left:54%"></div>
+<div class="map-point" data-name="迪拜" style="top:42%;left:60%"></div>
+<div class="map-point" data-name="新加坡" style="top:52%;left:75%"></div>
+<div class="map-point" data-name="香港" style="top:38%;left:78%"></div>
+<div class="map-point" data-name="迈阿密" style="top:35%;left:25%"></div>
+<div class="map-point" data-name="加勒比" style="top:42%;left:22%"></div>
+<div class="map-point" data-name="巴哈马" style="top:32%;left:23%"></div>
+<div class="map-point" data-name="马尔代夫" style="top:50%;left:68%"></div>
+</div>
+
+<div class="region-cards reveal">
+<div class="region-card">
+<h3>🌊 地中海</h3>
+<div class="count">25+</div>
+<div class="label">合作码头</div>
+<ul>
+<li>摩纳哥 Port Hercules</li>
+<li>意大利波托菲诺</li>
+<li>法国圣特罗佩</li>
+<li>西班牙巴塞罗那</li>
+<li>希腊雅典</li>
+</ul>
+</div>
+
+<div class="region-card">
+<h3>🌴 加勒比海</h3>
+<div class="count">18+</div>
+<div class="label">合作码头</div>
+<ul>
+<li>巴哈马拿骚</li>
+<li>圣巴泰勒米</li>
+<li>安提瓜</li>
+<li>英属维尔京群岛</li>
+<li>美属维尔京群岛</li>
+</ul>
+</div>
+
+<div class="region-card">
+<h3>🌏 东南亚</h3>
+<div class="count">15+</div>
+<div class="label">合作码头</div>
+<ul>
+<li>新加坡 ONE°15</li>
+<li>泰国普吉岛</li>
+<li>印尼巴厘岛</li>
+<li>马来西亚兰卡威</li>
+<li>菲律宾巴拉望</li>
+</ul>
+</div>
+
+<div class="region-card">
+<h3>🏜️ 中东</h3>
+<div class="count">12+</div>
+<div class="label">合作码头</div>
+<ul>
+<li>迪拜 Palm Jumeirah</li>
+<li>阿布扎比</li>
+<li>卡塔尔多哈</li>
+<li>巴林</li>
+</ul>
+</div>
+
+<div class="region-card">
+<h3>🏖️ 大洋洲</h3>
+<div class="count">8+</div>
+<div class="label">合作码头</div>
+<ul>
+<li>澳大利亚悉尼</li>
+<li>澳大利亚黄金海岸</li>
+<li>新西兰奥克兰</li>
+<li>斐济</li>
+</ul>
+</div>
+
+<div class="region-card">
+<h3>❄️ 北欧</h3>
+<div class="count">6+</div>
+<div class="label">合作码头</div>
+<ul>
+<li>挪威奥斯陆</li>
+<li>瑞典斯德哥尔摩</li>
+<li>丹麦哥本哈根</li>
+<li>芬兰赫尔辛基</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+
+<footer id="footer"><div class="container"><div class="footer-grid">
+<div class="footer-brand"><a href="index.html" class="nav-logo">FANTASTIC VACATION</a><p>奇幻假期实业有限公司</p><p style="font-size:12px;color:var(--text-muted);margin-top:8px">✉️ fantastic.vacation@yahoo.com</p></div>
+<div class="footer-col"><h4>快速导航</h4><ul><li><a href="index.html">首页</a></li><li><a href="about.html">关于我们</a></li><li><a href="yachts.html">游艇产品</a></li><li><a href="contact.html">联系我们</a></li></ul></div>
+<div class="footer-col"><h4>联系方式</h4><ul><li>📞 +86 400-888-9999</li><li>✉️ fantastic.vacation@yahoo.com</li></ul></div>
+</div><div class="footer-bottom"><p>© 2026 奇幻假期实业有限公司 fantastic.vacation</p></div></div></footer>
+
+<script>
+window.addEventListener("DOMContentLoaded",function(){var loader=document.getElementById("loader");if(!loader)return;var progressEl=document.getElementById("progress");var progress=0;var interval=setInterval(function(){progress+=Math.random()*12+8;if(progress>=100){progress=100;clearInterval(interval);if(progressEl)progressEl.style.width="100%";setTimeout(function(){if(loader)loader.style.display="none";document.body.style.overflow=""},400)}else if(progressEl)progressEl.style.width=progress+"%"},180);setTimeout(function(){clearInterval(interval);if(loader)loader.style.display="none";document.body.style.overflow=""},5000)});
+window.addEventListener("scroll",function(){var nav=document.getElementById("navbar");if(window.scrollY>50)nav.classList.add("scrolled");else nav.classList.remove("scrolled")});
+function toggleMobile(){document.getElementById("mobile-menu").classList.toggle("active");document.querySelector(".hamburger").classList.toggle("active")}
+(function(){var o=new IntersectionObserver(function(e){e.forEach(function(e){if(e.isIntersecting)e.target.classList.add("revealed")})},{threshold:0.1});document.querySelectorAll(".reveal").forEach(function(e){o.observe(e)})})();
+</script>
+</body></html>
