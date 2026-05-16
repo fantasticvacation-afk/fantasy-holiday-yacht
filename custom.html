@@ -148,6 +148,8 @@
   .hero-stats .stat-val{font-size:28px}
 }
 </style>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>emailjs.init('Zd2aqFx07w53193R');</script>
 </head><body>
 <div id="loader"><div class="brand">FANTASY HOLIDAY</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div><div class="progress-text">LOADING</div></div>
 <div class="cursor-follower" id="cursor"></div>
@@ -642,6 +644,35 @@ function handleCustomSubmit(e) {
         btn.textContent = '获取定制方案报价 →'; 
         btn.style.background = '';
     }, 3000);
+    
+    return false;
+}
+</script>
+
+<script>
+function handleCustomSubmit(e) {
+    e.preventDefault();
+    var form = document.getElementById('customForm');
+    var btn = form.querySelector('.btn-submit');
+    btn.disabled = true;
+    btn.textContent = '提交中...';
+    
+    emailjs.sendForm('service_8qtlqco', 'template_9kydp7r', form)
+        .then(function() {
+            btn.textContent = '✓ 提交成功！我们将尽快联系您';
+            btn.style.background = 'linear-gradient(135deg,#2d5a27,#4a8c3f)';
+            form.reset();
+        })
+        .catch(function(error) {
+            btn.textContent = '提交失败，请重试';
+            btn.style.background = '#8b2500';
+            console.error('EmailJS Error:', error);
+            setTimeout(function() {
+                btn.textContent = '获取定制方案报价 →';
+                btn.style.background = '';
+                btn.disabled = false;
+            }, 3000);
+        });
     
     return false;
 }

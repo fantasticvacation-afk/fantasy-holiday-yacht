@@ -215,6 +215,8 @@ nav .container{max-width:1280px;margin:0 auto;padding:0 24px}
 @media(max-width:768px){.nav-links{display:none}.hamburger{display:flex}.vp-grid,.routes-grid,.services-grid,.testi-grid,.trust-grid,.match-grid,.vip-grid{grid-template-columns:1fr}.process-grid{grid-template-columns:repeat(2,1fr)}.hero-stats{gap:24px}.form-grid{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr}.section-padding{padding:60px 0}}
 </style>
 
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>emailjs.init('Zd2aqFx07w53193R');</script>
 </head><body>
 <div id="loader"><div class="brand">FANTASY HOLIDAY</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div><div class="progress-text">LOADING</div></div>
 <div class="cursor-follower" id="cursor"></div>
@@ -812,6 +814,35 @@ function handleBookingSubmit(e) {
         btn.textContent = '🔒 提交预约'; 
         btn.style.background = '';
     }, 3000);
+    
+    return false;
+}
+</script>
+
+<script>
+function handleBookingSubmit(e) {
+    e.preventDefault();
+    var form = document.getElementById('bookingForm');
+    var btn = form.querySelector('.btn-submit');
+    btn.disabled = true;
+    btn.textContent = '提交中...';
+    
+    emailjs.sendForm('service_8qtlqco', 'template_9kydp7r', form)
+        .then(function() {
+            btn.textContent = '✓ 提交成功！我们将尽快联系您';
+            btn.style.background = 'linear-gradient(135deg,#2d5a27,#4a8c3f)';
+            form.reset();
+        })
+        .catch(function(error) {
+            btn.textContent = '提交失败，请重试';
+            btn.style.background = '#8b2500';
+            console.error('EmailJS Error:', error);
+            setTimeout(function() {
+                btn.textContent = '🔒 提交预约';
+                btn.style.background = '';
+                btn.disabled = false;
+            }, 3000);
+        });
     
     return false;
 }
