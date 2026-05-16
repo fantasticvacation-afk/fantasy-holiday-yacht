@@ -214,13 +214,7 @@ nav .container{max-width:1280px;margin:0 auto;padding:0 24px}
 @media(max-width:1024px){.routes-grid,.services-grid,.testi-grid{grid-template-columns:repeat(2,1fr)}.process-grid{grid-template-columns:repeat(2,1fr)}.vp-grid{grid-template-columns:repeat(2,1fr)}.match-grid{grid-template-columns:repeat(2,1fr)}.cta-grid{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:768px){.nav-links{display:none}.hamburger{display:flex}.vp-grid,.routes-grid,.services-grid,.testi-grid,.trust-grid,.match-grid,.vip-grid{grid-template-columns:1fr}.process-grid{grid-template-columns:repeat(2,1fr)}.hero-stats{gap:24px}.form-grid{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr}.section-padding{padding:60px 0}}
 </style>
-<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
-<script>
-  // EmailJS 初始化（页面加载时执行一次）
-  emailjs.init("Zd2aqFx07w53193R");
-  console.log("EmailJS initialized:", typeof emailjs);
-</script>
 </head><body>
 <div id="loader"><div class="brand">FANTASY HOLIDAY</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div><div class="progress-text">LOADING</div></div>
 <div class="cursor-follower" id="cursor"></div>
@@ -778,44 +772,41 @@ nav .container{max-width:1280px;margin:0 auto;padding:0 24px}
 
 <script>
 
-emailjs.init("Zd2aqFx07w53193R");
-
 function handleSubmit(e) {
     e.preventDefault();
-    var btn = e.target.querySelector('.form-submit');
     var form = document.getElementById('bookingForm');
-    var name = document.getElementById('booking_name').value.trim();
-    var phone = document.getElementById('booking_phone').value.trim();
+    var name = document.getElementById('booking_name').value.trim() || '未填写';
+    var phone = document.getElementById('booking_phone').value.trim() || '未填写';
+    var dest = document.getElementById('booking_destination') ? document.getElementById('booking_destination').value : '';
+    var date = document.getElementById('booking_departure') ? document.getElementById('booking_departure').value : '';
+    var guests = document.getElementById('booking_people') ? document.getElementById('booking_people').value : '';
+    var budget = document.getElementById('booking_budget') ? document.getElementById('booking_budget').value : '';
+    var notes = document.getElementById('booking_notes') ? document.getElementById('booking_notes').value.trim() : '';
+
+    if (!name || name === '未填写') { alert('请填写您的姓名'); return false; }
+    if (!phone || phone === '未填写' || phone.length < 7) { alert('请填写有效的联系电话'); return false; }
+
+    var subject = encodeURIComponent('🛥️ 游艇预约咨询 - ' + name);
+    var body = encodeURIComponent(
+        '您好，我想咨询游艇租赁服务：\n' +
+        '\n📋 预约信息：' +
+        '\n------------------------' +
+        '\n👤 姓名：' + name +
+        '\n📱 电话：' + phone +
+        (dest ? '\n📍 目的地：' + dest : '') +
+        (date ? '\n📅 出行时间：' + date : '') +
+        (guests ? '\n👥 同行人数：' + guests : '') +
+        (budget ? '\n💰 预算范围：' + budget : '') +
+        (notes ? '\n📝 其他需求：' + notes : '') +
+        '\n------------------------' +
+        '\n此邮件由奇幻假期官网预约系统自动生成'
+    );
+
+    window.location.href = 'mailto:fantastic.vacation@yahoo.com?subject=' + subject + '&body=' + body;
     
-    if (!name) { alert('请填写您的姓名'); return false; }
-    if (!phone || phone.length < 7) { alert('请填写有效的联系电话'); return false; }
-    
-    btn.textContent = '⏳ 提交中...';
-    btn.disabled = true;
-    
-    console.log('EmailJS sending...', {service: 'service_8qtlqco', template: 'template_9kydp7r'});
-    
-    emailjs.sendForm('service_8qtlqco', 'template_9kydp7r', form)
-    .then(function(response) {
-        console.log('EmailJS success:', response);
-        btn.textContent = '✓ 预约已提交！';
-        btn.style.background = 'linear-gradient(135deg,#2a8a4a,#3cb371)';
-        form.reset();
-        setTimeout(function(){
-            btn.textContent = '🔒 提交预约';
-            btn.disabled = false;
-            btn.style.background = '';
-        }, 4000);
-    }).catch(function(err) {
-        console.error('EmailJS error:', err);
-        btn.textContent = '⚠️ 提交失败，请重试';
-        btn.style.background = 'linear-gradient(135deg,#c0392b,#e74c3c)';
-        setTimeout(function(){
-            btn.textContent = '🔒 提交预约';
-            btn.disabled = false;
-            btn.style.background = '';
-        }, 3000);
-    });
+    var btn = form.querySelector('.form-submit');
+    btn.textContent = '✓ 正在打开邮箱...';
+    setTimeout(function(){ btn.textContent = '🔒 提交预约'; }, 3000);
     
     return false;
 }
