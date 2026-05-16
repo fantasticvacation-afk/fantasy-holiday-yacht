@@ -1,0 +1,149 @@
+<!DOCTYPE html><html lang="zh-CN"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>日间15 竞速号 | 奇幻假期 FANTASY HOLIDAY</title>
+<meta name="description" content="日间15 竞速号，15米日间系列游艇，奇幻假期FANTASY HOLIDAY高端定制。">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+.detail-hero{position:relative;min-height:85vh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;background:linear-gradient(135deg,#0d1a2d 0%,#1a3a5c 30%,#2d1810 70%,#1a0f08 100%)}
+.detail-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 80% 50% at 20% 80%,rgba(201,169,110,0.08) 0%,transparent 60%)}
+.detail-hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:250px;background:linear-gradient(to top,var(--dark1),transparent)}
+.detail-hero-content{position:relative;z-index:3;padding:0 20px}
+.detail-hero h1{font-family:'Playfair Display',serif;font-size:clamp(32px,5vw,56px);font-weight:800;letter-spacing:3px;margin-bottom:12px}
+.series-badge{display:inline-block;padding:6px 20px;border-radius:30px;font-size:12px;font-weight:600;letter-spacing:2px;background:linear-gradient(135deg,rgba(201,169,110,0.2),rgba(201,169,110,0.05));border:1px solid rgba(201,169,110,0.3);color:var(--gold);margin-bottom:16px}
+.subtitle{font-size:clamp(14px,1.6vw,18px);color:var(--text-muted);font-weight:300;letter-spacing:2px}
+.specs-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:20px;max-width:900px;margin:40px auto 0}
+.spec-item{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.05);border-radius:12px;padding:20px 12px}
+.spec-value{font-size:28px;font-weight:700;color:var(--gold);font-family:'Playfair Display',serif}
+.spec-label{font-size:11px;color:var(--text-dim);margin-top:6px;letter-spacing:1px}
+.detail-specs{padding:80px 0;background:var(--dark1)}
+.detail-specs h2{font-family:'Playfair Display',serif;font-size:28px;margin-bottom:40px;text-align:center}
+.specs-table{width:100%;max-width:800px;margin:0 auto;border-collapse:collapse}
+.specs-table tr{border-bottom:1px solid rgba(255,255,255,0.05)}
+.specs-table td{padding:16px 12px;font-size:14px}
+.specs-table td:first-child{color:var(--text-dim);width:40%}
+.specs-table td:last-child{color:#fff;text-align:right}
+.gallery{padding:80px 0;background:var(--dark1)}
+.gallery h2{font-family:'Playfair Display',serif;font-size:28px;margin-bottom:40px;text-align:center}
+.gallery-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px}
+.gallery-item{aspect-ratio:16/10;border-radius:12px;overflow:hidden}
+.gallery-item img{transition:transform 0.4s}
+.gallery-item:hover img{transform:scale(1.05)}
+.related{padding:80px 0;background:var(--dark2)}
+.related h2{font-family:'Playfair Display',serif;font-size:28px;margin-bottom:32px;text-align:center}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:24px;max-width:1100px;margin:0 auto}
+.related-card{background:linear-gradient(145deg,rgba(20,26,42,0.9),rgba(12,16,28,0.95));border:1px solid var(--glass-border);border-radius:16px;padding:24px;transition:all 0.4s}
+.related-card:hover{border-color:rgba(201,169,110,0.3);transform:translateY(-4px)}
+.related-card h3{font-family:'Playfair Display',serif;font-size:18px;margin-bottom:8px}
+.related-card p{font-size:13px;color:var(--text-muted)}
+.related-card a{display:inline-block;margin-top:16px;font-size:13px;color:var(--gold);text-decoration:none}
+.price-cta{padding:60px 0;text-align:center;background:linear-gradient(135deg,rgba(201,169,110,0.08),transparent)}
+.price-cta .price{font-family:'Playfair Display',serif;font-size:36px;font-weight:700;color:var(--gold);margin-bottom:8px}
+.price-cta .price-note{font-size:13px;color:var(--text-dim);margin-bottom:24px}
+</style>
+</head><body>
+<div id="loader"><div class="brand">FANTASY HOLIDAY</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div><div class="progress-text">LOADING</div></div>
+<div class="cursor-follower" id="cursor"></div>
+<nav id="navbar"><div class="container"><div class="nav-inner">
+<a href="index.html" class="nav-logo"><svg viewBox="0 0 32 32" fill="none"><path d="M4 24L16 4l12 20H4z" stroke="#c9a96e" stroke-width="1.5" fill="none"/><path d="M8 20h16l-8-12-8 12z" stroke="#c9a96e" stroke-width="1" fill="rgba(201,169,110,0.1)"/></svg>FANTASY HOLIDAY</a>
+<div class="nav-links">
+<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a>
+<a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a>
+<a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a>
+<a href="contact.html" class="nav-cta">联系我们</a>
+</div>
+<div class="hamburger" onclick="toggleMobile()"><span></span><span></span><span></span></div>
+</div></div></nav>
+<div class="mobile-menu" id="mobile-menu">
+<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a>
+<a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a>
+<a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a>
+<a href="contact.html">联系我们</a>
+</div>
+
+<section class="detail-hero">
+<div class="detail-hero-content">
+<span class="series-badge">日间系列</span>
+<h1><span class="gold-gradient">日间15 竞速号</span></h1>
+<p class="subtitle">FH-15 · 15米 · 4位宾客 · 无限航区</p>
+<div class="specs-grid">
+<div class="spec-item"><div class="spec-value">15m</div><div class="spec-label">总长</div></div>
+<div class="spec-item"><div class="spec-value">4</div><div class="spec-label">载客</div></div>
+<div class="spec-item"><div class="spec-value">32kn</div><div class="spec-label">航速</div></div>
+</div>
+</div>
+</section>
+
+<section class="detail-specs"><div class="container">
+<h2><span class="gold-gradient">核心参数</span></h2>
+<table class="specs-table">
+<tr><td>总长</td><td>15米</td></tr>
+<tr><td>型宽</td><td>4.4米</td></tr>
+<tr><td>吃水</td><td>1.0米</td></tr>
+<tr><td>最大航速</td><td>32节</td></tr>
+<tr><td>经济航速</td><td>20节</td></tr>
+<tr><td>续航力</td><td>450海里</td></tr>
+<tr><td>载客人数</td><td>4位宾客</td></tr>
+<tr><td>客舱数</td><td>1间套房</td></tr>
+<tr><td>卧室数</td><td>1间</td></tr>
+<tr><td>卫生间数</td><td>1间</td></tr>
+<tr><td>发动机</td><td>2 × Volvo D4 (320 HP)</td></tr>
+<tr><td>动力系统</td><td>双机柴油动力</td></tr>
+<tr><td>船体材质</td><td>玻璃钢</td></tr>
+<tr><td>参考价格</td><td>¥32万起</td></tr>
+</table>
+</div></section>
+
+<section class="gallery"><div class="container">
+<h2><span class="gold-gradient">实拍图库</span></h2>
+<div class="gallery-grid">
+<div class="gallery-item"><img src="images/yttp/yacht-305.jpg" alt="日间15 竞速号 - 外观全景" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+<div class="gallery-item"><img src="images/yttp/yacht-306.png" alt="日间15 竞速号 - 侧舷细节" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+<div class="gallery-item"><img src="images/yttp/yacht-307.jpg" alt="日间15 竞速号 - 驾驶舱" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+<div class="gallery-item"><img src="images/yttp/yacht-308.jpg" alt="日间15 竞速号 - 内饰客厅" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+<div class="gallery-item"><img src="images/yttp/yacht-309.jpg" alt="日间15 竞速号 - 卧室套房" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+<div class="gallery-item"><img src="images/yttp/yacht-310.jpg" alt="日间15 竞速号 - 甲板休闲区" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+<div class="gallery-item"><img src="images/yttp/yacht-311.jpg" alt="日间15 竞速号 - 航行实拍" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+<div class="gallery-item"><img src="images/yttp/yacht-312.jpg" alt="日间15 竞速号 - 落日余晖" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+
+</div>
+</div></section>
+
+<section class="related"><div class="container">
+<h2><span class="gold-gradient">相关游艇</span></h2>
+<div class="related-grid">
+<div class="related-card">
+<h3>飞桥27 晨曦号</h3><p>27m | 高端定制</p>
+<a href="yacht-37.html">查看详情 →</a></div>
+<div class="related-card">
+<h3>日间18 运动王</h3><p>18m | 高端定制</p>
+<a href="yacht-38.html">查看详情 →</a></div>
+<div class="related-card">
+<h3>日间13 飞鱼号</h3><p>13m | 高端定制</p>
+<a href="yacht-40.html">查看详情 →</a></div>
+<div class="related-card">
+<h3>日间11 闪电号</h3><p>11m | 高端定制</p>
+<a href="yacht-41.html">查看详情 →</a></div>
+
+</div>
+</div></section>
+
+<section class="price-cta"><div class="container">
+<div class="price">¥32万起</div>
+<p class="price-note">参考价格，实际价格以定制配置为准</p>
+<a href="contact.html" style="display:inline-block;padding:14px 40px;background:var(--gold);color:#0a0e1a;border-radius:30px;font-weight:600;font-size:16px;text-decoration:none;letter-spacing:1px;">咨询定制</a>
+</div></section>
+
+<footer style="background:var(--dark1);padding:60px 0 30px;border-top:1px solid var(--glass-border);">
+<div class="container" style="text-align:center;">
+<p style="color:var(--text-dim);font-size:13px;">© 2026 奇幻假期 FANTASY HOLIDAY · 全球顶级游艇定制与海上轻奢度假服务商</p>
+<p style="color:var(--text-dim);font-size:12px;margin-top:8px;"><a href="privacy.html" style="color:var(--text-muted);">隐私政策</a> | <a href="terms.html" style="color:var(--text-muted);">服务条款</a> | <a href="sitemap.html" style="color:var(--text-muted);">网站地图</a></p>
+</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script>
+window.addEventListener('load',function(){document.getElementById('loader').classList.add('hidden')});
+if(document.getElementById('cursor')){var c=document.getElementById('cursor');document.addEventListener('mousemove',function(e){c.style.left=e.clientX+'px';c.style.top=e.clientY+'px'})}
+</script>
+</body></html>
