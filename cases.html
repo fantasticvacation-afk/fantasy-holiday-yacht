@@ -1,98 +1,609 @@
-<!DOCTYPE html><html lang="zh-CN"><head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>案例展示 | 奇幻假期 FANTASY HOLIDAY</title>
-<meta name="description" content="奇幻假期成功案例展示，涵盖全案定制、租赁航行、托管服务等全品类项目，每一个案例都铸就新的行业标准。">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>案例展示 | 奇幻假期 fantastic.vacation — 全球游艇服务案例集</title>
+<meta name="description" content="奇幻假期fantastic.vacation全球游艇服务案例集，涵盖超级游艇全案定制、跨海域环球航行、长期托管运维、企业商务活动、高端婚礼包船等100+标杆案例，服务满意度98%+。">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-</head><body>
-<div id="loader"><div class="brand">FANTASY HOLIDAY</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div></div>
+<style>
+/* ===== CASES PAGE STYLES ===== */
+.cases-hero {
+  position: relative;
+  min-height: 88vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: linear-gradient(135deg, #0a1628 0%, #0d2137 35%, #1a3045 65%, #0f1e30 100%);
+}
+.cases-hero .hero-bg-img {
+  position: absolute;
+  inset: 0;
+  background: url('images/yttp/yacht-007.jpg') center/cover no-repeat fixed;
+  opacity: 0.42;
+  filter: saturate(0.65) brightness(0.55);
+}
+.cases-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 15% 85%, rgba(201,169,110,0.1) 0%, transparent 50%),
+              radial-gradient(ellipse at 85% 15%, rgba(100,150,200,0.07) 0%, transparent 45%),
+              linear-gradient(to bottom, rgba(10,22,40,0.2) 0%, rgba(10,22,40,0.9) 70%, #0a1628 100%);
+  z-index: 1;
+}
+.cases-hero .hero-inner {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  padding: 0 24px;
+  max-width: 950px;
+}
+.cases-hero .hero-badge {
+  display: inline-block;
+  padding: 8px 32px;
+  border-radius: 40px;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, rgba(201,169,110,0.2), rgba(201,169,110,0.04));
+  border: 1px solid rgba(201,169,110,0.35);
+  color: #c9a96e;
+  margin-bottom: 28px;
+}
+.cases-hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(34px, 5vw, 58px);
+  font-weight: 800;
+  letter-spacing: 3px;
+  line-height: 1.18;
+  margin-bottom: 22px;
+  background: linear-gradient(135deg, #c9a96e 0%, #e8d5a8 50%, #c9a96e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.cases-hero .hero-sub {
+  font-size: clamp(14px, 1.6vw, 18px);
+  color: rgba(200,210,225,0.7);
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  line-height: 1.7;
+  max-width: 680px;
+  margin: 0 auto 30px;
+}
+.cases-hero .hero-stats {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+.cases-hero .stat-item {
+  text-align: center;
+}
+.cases-hero .stat-num {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(30px, 4vw, 46px);
+  font-weight: 700;
+  color: #c9a96e;
+  line-height: 1;
+}
+.cases-hero .stat-label {
+  font-size: 11.5px;
+  color: rgba(200,210,225,0.5);
+  letter-spacing: 2px;
+  margin-top: 8px;
+  text-transform: uppercase;
+}
+.cases-hero .hero-btns {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 36px;
+}
+.cases-hero .btn-filter {
+  padding: 14px 36px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  border: 1px solid rgba(201,169,110,0.4);
+  color: #c9a96e;
+  background: rgba(201,169,110,0.08);
+  transition: all 0.35s ease;
+}
+.cases-hero .btn-filter:hover {
+  background: #c9a96e;
+  color: #0a1628;
+  box-shadow: 0 8px 30px rgba(201,169,110,0.25);
+}
+.cases-hero .btn-cta {
+  padding: 14px 36px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  background: linear-gradient(135deg, #c9a96e, #dbb872);
+  color: #0a1628;
+  transition: all 0.35s ease;
+}
+.cases-hero .btn-cta:hover {
+  box-shadow: 0 8px 35px rgba(201,169,110,0.4);
+  transform: translateY(-2px);
+}
+
+/* Filter Section */
+.filter-section {
+  padding: 36px 0;
+  background: linear-gradient(180deg, #0c1829 0%, #0a1424 100%);
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  position: sticky;
+  top: 70px;
+  z-index: 100;
+}
+.filter-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  padding: 0 20px;
+}
+.filter-btn {
+  padding: 10px 22px;
+  border-radius: 24px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.02);
+  color: rgba(200,210,225,0.6);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.filter-btn:hover, .filter-btn.active {
+  border-color: rgba(201,169,110,0.5);
+  background: rgba(201,169,110,0.1);
+  color: #c9a96e;
+}
+
+/* Cases Grid */
+.cases-section {
+  padding: 80px 0;
+  background: linear-gradient(180deg, #0a1424 0%, #0c1829 50%, #0a1628 100%);
+}
+.cases-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+.case-card {
+  background: linear-gradient(155deg, rgba(255,255,255,0.025), rgba(255,255,255,0.005));
+  border: 1px solid rgba(201,169,110,0.08);
+  border-radius: 18px;
+  overflow: hidden;
+  transition: all 0.45s cubic-bezier(0.25,0.46,0.45,0.94);
+  position: relative;
+}
+.case-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(201,169,110,0.35);
+  box-shadow: 0 25px 70px rgba(0,0,0,0.4), 0 0 50px rgba(201,169,110,0.06);
+}
+.case-card-img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.6s ease;
+}
+.case-card:hover .case-card-img {
+  transform: scale(1.08);
+}
+.case-card-body {
+  padding: 26px 24px 30px;
+}
+.case-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+.case-tag {
+  font-size: 10px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  background: rgba(201,169,110,0.1);
+  border: 1px solid rgba(201,169,110,0.15);
+  color: rgba(201,169,110,0.9);
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+.case-card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #e8eef5;
+  margin-bottom: 10px;
+  letter-spacing: 0.3px;
+  line-height: 1.35;
+}
+.case-card p {
+  font-size: 13px;
+  color: rgba(200,210,225,0.55);
+  line-height: 1.7;
+  margin-bottom: 18px;
+}
+.case-card-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #c9a96e;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.case-card-link:hover {
+  gap: 12px;
+}
+
+/* Stats Banner */
+.stats-banner {
+  padding: 60px 0;
+  background: linear-gradient(135deg, rgba(201,169,110,0.08) 0%, rgba(201,169,110,0.02) 50%, rgba(201,169,110,0.05) 100%);
+  border-top: 1px solid rgba(201,169,110,0.1);
+  border-bottom: 1px solid rgba(201,169,110,0.1);
+}
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  text-align: center;
+}
+.stats-item .stat-num {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(36px, 4.5vw, 52px);
+  font-weight: 800;
+  color: #c9a96e;
+  line-height: 1;
+}
+.stats-item .stat-label {
+  font-size: 13px;
+  color: rgba(200,210,225,0.6);
+  margin-top: 10px;
+  letter-spacing: 1.5px;
+}
+
+/* CTA */
+.cases-cta {
+  padding: 80px 0;
+  text-align: center;
+  background: linear-gradient(180deg, #0a1628 0%, #0c1829 100%);
+}
+.cases-cta h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(28px, 3.5vw, 40px);
+  font-weight: 700;
+  margin-bottom: 16px;
+  background: linear-gradient(135deg, #c9a96e, #e8d5a8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.cases-cta p {
+  font-size: 15px;
+  color: rgba(200,210,225,0.55);
+  margin-bottom: 32px;
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cases-cta .cta-email {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 36px;
+  border-radius: 30px;
+  background: linear-gradient(135deg, rgba(201,169,110,0.15), rgba(201,169,110,0.04));
+  border: 1px solid rgba(201,169,110,0.35);
+  color: #c9a96e;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+.cases-cta .cta-email a {
+  color: #c9a96e;
+  text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .cases-grid { grid-template-columns: repeat(2, 1fr); }
+  .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 30px; }
+}
+@media (max-width: 640px) {
+  .cases-grid { grid-template-columns: 1fr; }
+  .stats-grid { grid-template-columns: 1fr 1fr; }
+  .cases-hero .hero-stats { gap: 32px; }
+  .filter-grid { gap: 8px; }
+  .filter-btn { padding: 8px 16px; font-size: 11px; }
+}
+</style>
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader"><div class="brand">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div><div class="progress-text">LOADING</div></div>
+
+<!-- NAV -->
 <nav id="navbar"><div class="container"><div class="nav-inner">
-<a href="index.html" class="nav-logo"><svg viewBox="0 0 32 32" fill="none"><path d="M4 24L16 4l12 20H4z" stroke="#c9a96e" stroke-width="1.5" fill="none"/><path d="M8 20h16l-8-12-8 12z" stroke="#c9a96e" stroke-width="1" fill="rgba(201,169,110,0.1)"/></svg>FANTASY HOLIDAY</a>
+<a href="index.html" class="nav-logo"><svg viewBox="0 0 32 32" fill="none"><path d="M4 24L16 4l12 20H4z" stroke="#c9a96e" stroke-width="1.5" fill="none"/><path d="M8 20h16l-8-12-8 12z" stroke="#c9a96e" stroke-width="1" fill="rgba(201,169,110,0.1)"/></svg>FANTASTIC VACATION</a>
 <div class="nav-links">
-<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a><a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a><a href="cases.html" class="active">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a><a href="contact.html" class="nav-cta">联系我们</a>
+<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a>
+<a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a>
+<a href="cases.html" class="active">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a>
+<a href="contact.html" class="nav-cta">联系我们</a>
 </div>
 <div class="hamburger" onclick="toggleMobile()"><span></span><span></span><span></span></div>
 </div></div></nav>
-<div class="mobile-menu" id="mobile-menu"><a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a><a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a><a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a><a href="contact.html">联系我们</a></div>
 
-<section id="hero">
-<div class="hero-bg" style="background: url('images/yttp/yacht-007.jpg') center/cover no-repeat fixed;"></div>
-<div class="hero-content">
-<div class="hero-badge">✦ 案例展示 ✦</div>
-<h1 class="hero-title"><span class="gold-gradient">案例展示</span></h1>
-<p class="hero-sub">经典案例，品质见证</p>
-</div></section>
+<div class="mobile-menu" id="mobile-menu">
+<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a>
+<a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a>
+<a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a>
+<a href="contact.html">联系我们</a>
+</div>
 
-<section class="section-padding"><div class="container">
-<div class="section-header reveal"><h2><span class="gold-gradient">精选案例</span></h2><div class="divider-gold"></div><p>从超级游艇定制到环球航行托管，我们的足迹遍布全球每一片蔚蓝</p></div>
+<!-- ========== HERO ========== -->
+<section class="cases-hero">
+<div class="hero-bg-img"></div>
+<div class="hero-inner">
+<div class="hero-badge">CASE STUDIES</div>
+<h1>FANTASTIC VACATION<br>全球游艇服务案例集</h1>
+<p class="hero-sub">从超级游艇定制到环球航行托管，我们的足迹遍布全球每一片蔚蓝<br>每一个案例，都是对极致服务的最好诠释</p>
+<div class="hero-stats">
+<div class="stat-item"><div class="stat-num" data-count="100">0</div><div class="stat-label">+服务案例</div></div>
+<div class="stat-item"><div class="stat-num" data-count="20">0</div><div class="stat-label">+覆盖海域</div></div>
+<div class="stat-item"><div class="stat-num" data-count="98">0</div><div class="stat-label">%满意度</div></div>
+<div class="stat-item"><div class="stat-num" data-count="5">0</div><div class="stat-label">年零事故</div></div>
+</div>
+<div class="hero-btns">
+<a href="#filter" class="btn-filter">按服务类型筛选</a>
+<a href="contact.html" class="btn-cta">预约同款定制方案</a>
+</div>
+</div>
+</section>
 
-<div class="cases-masonry">
-<div class="case-item reveal" style="--aspect:16/9">
-<div class="case-img"><img src="images/yttp/yacht-015.jpg" alt="游艇" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
-<div class="case-info">
-<span style="font-size:10px;color:var(--gold);letter-spacing:2px;text-transform:uppercase">全案定制</span>
-<h4>82米超级游艇「幻蓝号」Fantasy Blue</h4>
+<!-- ========== FILTER SECTION ========== -->
+<section class="filter-section" id="filter">
+<div class="filter-grid reveal">
+<button class="filter-btn active" data-filter="all">全部案例</button>
+<button class="filter-btn" data-filter="custom">全案定制</button>
+<button class="filter-btn" data-filter="charter">租赁航行</button>
+<button class="filter-btn" data-filter="management">托管运维</button>
+<button class="filter-btn" data-filter="event">商务活动</button>
+<button class="filter-btn" data-filter="wedding">婚礼包船</button>
+<button class="filter-btn" data-filter="refit">改装翻新</button>
+<button class="filter-btn" data-filter="global">环球航线</button>
+</div>
+</section>
+
+<!-- ========== CASES GRID ========== -->
+<section class="cases-section">
+<div class="container">
+<div class="cases-grid reveal">
+
+<!-- Case 01 -->
+<div class="case-card" data-category="custom">
+<img src="images/yttp/yacht-015.jpg" alt="82米超级游艇幻蓝号" class="case-card-img">
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag">全案定制</span>
+<span class="case-tag">82m超级游艇</span>
+<span class="case-tag">中东海域</span>
+</div>
+<h3>82米超级游艇「幻蓝号」Fantasy Blue</h3>
 <p>中东王室委托的全案定制项目，历时38个月完成。搭载直升机平台、潜艇车库、医疗中心及IMAX影院。2024年荣获Asia Boating Awards年度最佳定制游艇大奖。</p>
+<a href="case-001.html" class="case-card-link">查看完整案例 <span>→</span></a>
 </div>
 </div>
 
-<div class="case-item reveal" style="--aspect:4/3">
-<div class="case-img"><img src="images/yttp/yacht-023.jpg" alt="游艇" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
-<div class="case-info">
-<span style="font-size:10px;color:var(--gold);letter-spacing:2px;text-transform:uppercase">租赁航行</span>
-<h4>地中海30天深度巡航</h4>
-<p>为欧洲家族企业定制，途经12个国家24个港口，配备米其林主厨、私人潜水教练及多语言礼宾团队。</p>
+<!-- Case 02 -->
+<div class="case-card" data-category="charter">
+<img src="images/yttp/yacht-023.jpg" alt="地中海30天深度巡航" class="case-card-img">
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag">租赁航行</span>
+<span class="case-tag">65m游艇</span>
+<span class="case-tag">地中海</span>
+</div>
+<h3>地中海30天深度巡航</h3>
+<p>为欧洲家族企业定制，途经12个国家24个港口，配备米其林主厨、私人潜水教练及多语言礼宾团队。全程无意外，满意度100%。</p>
+<a href="case-002.html" class="case-card-link">查看完整案例 <span>→</span></a>
 </div>
 </div>
 
-<div class="case-item reveal" style="--aspect:16/10">
-<div class="case-img"><img src="images/yttp/yacht-031.jpg" alt="游艇" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
-<div class="case-info">
-<span style="font-size:10px;color:var(--gold);letter-spacing:2px;text-transform:uppercase">托管服务</span>
-<h4>中东王室船队5年全托管</h4>
-<p>管理3艘超级游艇（45m/62m/88m）的全托管项目，连续5年零重大事故运营记录，年服务满意度98%。</p>
+<!-- Case 03 -->
+<div class="case-card" data-category="management">
+<img src="images/yttp/yacht-031.jpg" alt="中东王室船队5年全托管" class="case-card-img">
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag">托管运维</span>
+<span class="case-tag">船队管理</span>
+<span class="case-tag">中东海域</span>
+</div>
+<h3>中东王室船队5年全托管</h3>
+<p>管理3艘超级游艇（45m/62m/88m）的全托管项目，连续5年零重大事故运营记录，年服务满意度98%，累计节省运营成本18%。</p>
+<a href="case-003.html" class="case-card-link">查看完整案例 <span>→</span></a>
 </div>
 </div>
 
-<div class="case-item reveal" style="--aspect:4/3">
-<div class="case-img"><img src="images/yttp/yacht-039.jpg" alt="游艇" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
-<div class="case-info">
-<span style="font-size:10px;color:var(--gold);letter-spacing:2px;text-transform:uppercase">定制服务</span>
-<h4>45米探险游艇「极光号」</h4>
-<p>为环保企业家打造的极地探险游艇，冰级船体认证，可深入南极与阿拉斯加海域，太阳能混合动力系统。</p>
+<!-- Case 04 -->
+<div class="case-card" data-category="custom global">
+<img src="images/yttp/yacht-039.jpg" alt="45米探险游艇极光号" class="case-card-img">
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag">全案定制</span>
+<span class="case-tag">45m探险游艇</span>
+<span class="case-tag">极地航线</span>
+</div>
+<h3>45米探险游艇「极光号」Aurora</h3>
+<p>为环保企业家打造的极地探险游艇，冰级船体认证，可深入南极与阿拉斯加海域，太阳能混合动力系统，续航力达8,000海里。</p>
+<a href="case-004.html" class="case-card-link">查看完整案例 <span>→</span></a>
 </div>
 </div>
 
-<div class="case-item reveal" style="--aspect:16/10">
-<div class="case-img"><img src="images/yttp/yacht-047.jpg" alt="游艇" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
-<div class="case-info">
-<span style="font-size:10px;color:var(--gold);letter-spacing:2px;text-transform:uppercase">租赁航行</span>
-<h4>加勒比海豪华婚礼包船</h4>
-<p>为亚洲家族举办的世纪海上婚礼，租用85米超级游艇，宾客120人，7天6夜，航线：巴哈马→开曼群岛。</p>
+<!-- Case 05 -->
+<div class="case-card" data-category="wedding charter">
+<img src="images/yttp/yacht-047.jpg" alt="加勒比海豪华婚礼包船" class="case-card-img">
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag">婚礼包船</span>
+<span class="case-tag">85m超级游艇</span>
+<span class="case-tag">加勒比海</span>
+</div>
+<h3>加勒比海豪华婚礼包船</h3>
+<p>为亚洲家族举办的世纪海上婚礼，租用85米超级游艇，宾客120人，7天6夜，航线：巴哈马→开曼群岛。全程零意外，获评"年度最佳海上婚礼"。</p>
+<a href="case-005.html" class="case-card-link">查看完整案例 <span>→</span></a>
 </div>
 </div>
 
-<div class="case-item reveal" style="--aspect:4/3">
-<div class="case-img"><img src="images/yttp/yacht-055.jpg" alt="游艇" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
-<div class="case-info">
-<span style="font-size:10px;color:var(--gold);letter-spacing:2px;text-transform:uppercase">托管服务</span>
-<h4>企业年会海上托管</h4>
-<p>为跨国企业年度峰会提供的海上活动托管，3艘游艇编队航行，200名高管及嘉宾，全程无意外。</p>
+<!-- Case 06 -->
+<div class="case-card" data-category="event management">
+<img src="images/yttp/yacht-055.jpg" alt="企业年会海上托管" class="case-card-img">
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag">商务活动</span>
+<span class="case-tag">船队编队</span>
+<span class="case-tag">东南亚</span>
 </div>
+<h3>跨国企业年会海上托管</h3>
+<p>为跨国企业年度峰会提供的海上活动托管，3艘游艇编队航行，200名高管及嘉宾，全程无意外。荣获企业"最佳年度活动合作伙伴"称号。</p>
+<a href="case-006.html" class="case-card-link">查看完整案例 <span>→</span></a>
 </div>
 </div>
 
-<div style="text-align:center;margin-top:48px" class="reveal"><a href="contact.html" class="btn btn-primary btn-gold-sweep">咨询您的专属方案</a></div>
-</div></section>
+<!-- Case 07 - 新增 -->
+<div class="case-card" data-category="global">
+<img src="images/yttp/yacht-063.jpg" alt="环球航行120天" class="case-card-img">
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag">环球航行</span>
+<span class="case-tag">72m超级游艇</span>
+<span class="case-tag">全球航线</span>
+</div>
+<h3>72米超级游艇环球航行120天</h3>
+<p>为东南亚企业家定制环球航线，途经28个国家56个港口，全程120天，跨太平洋、印度洋、地中海、大西洋。零重大事故，零合规问题。</p>
+<a href="case-007.html" class="case-card-link">查看完整案例 <span>→</span></a>
+</div>
+</div>
 
+<!-- Case 08 - 新增 -->
+<div class="case-card" data-category="refit">
+<img src="images/yttp/yacht-071.jpg" alt="游艇内饰翻新" class="case-card-img">
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag">改装翻新</span>
+<span class="case-tag">58m游艇</span>
+<span class="case-tag">地中海</span>
+</div>
+<h3>58米游艇全船内饰翻新改造</h3>
+<p>为欧洲船东执行的18个月全船内饰翻新项目，采用意大利进口大理石、缅甸黑木、英国Bentley皮革。项目预算控制率97%，获Superyacht Interiors Awards提名。</p>
+<a href="case-008.html" class="case-card-link">查看完整案例 <span>→</span></a>
+</div>
+</div>
+
+<!-- Case 09 - 新增 -->
+<div class="case-card" data-category="charter">
+<img src="images/yttp/yacht-079.jpg" alt="东南亚航线定制" class="case-card-img">
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag">租赁航行</span>
+<span class="case-tag">42m游艇</span>
+<span class="case-tag">东南亚</span>
+</div>
+<h3>东南亚15天私人度假航线</h3>
+<p>为科技新贵定制的私人度假航线，途经泰国普吉岛→马来西亚兰卡威→新加坡→印尼巴厘岛。配备私人潜水教练、冲浪教练、水上活动团队。</p>
+<a href="case-009.html" class="case-card-link">查看完整案例 <span>→</span></a>
+</div>
+</div>
+
+<!-- Case 10 - 新增 -->
+<div class="case-card" data-category="event">
+<img src="images/yttp/yacht-087.jpg" alt="赛事保障案例" class="case-card-img">
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag">赛事保障</span>
+<span class="case-tag">38m游艇</span>
+<span class="case-tag">地中海</span>
+</div>
+<h3>地中海帆船赛赛事保障</h3>
+<p>为国际帆船赛组委会提供的赛事保障服务，租用38米游艇作为裁判船及VIP观赛平台。服务周期21天，零安全事故，获组委会高度评价。</p>
+<a href="case-010.html" class="case-card-link">查看完整案例 <span>→</span></a>
+</div>
+</div>
+
+</div>
+
+<!-- Load More -->
+<div style="text-align:center;margin-top:50px;" class="reveal">
+<a href="cases-all.html" class="btn btn-primary btn-gold-sweep">浏览全部案例</a>
+</div>
+</div>
+</section>
+
+<!-- ========== STATS BANNER ========== -->
+<section class="stats-banner">
+<div class="container">
+<div class="stats-grid reveal">
+<div class="stats-item">
+<div class="stat-num" data-count="100">0</div>
+<div class="stat-label">+成功案例</div>
+</div>
+<div class="stats-item">
+<div class="stat-num" data-count="20">0</div>
+<div class="stat-label">+服务海域</div>
+</div>
+<div class="stats-item">
+<div class="stat-num" data-count="86">0</div>
+<div class="stat-label">艘在管游艇</div>
+</div>
+<div class="stats-item">
+<div class="stat-num" data-count="98">0</div>
+<div class="stat-label">%客户满意度</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ========== CTA ========== -->
+<section class="cases-cta">
+<div class="container reveal">
+<h2>您的游艇故事，从奇幻假期开始</h2>
+<p>无论您梦想的是超级游艇定制、环球航线规划，还是无忧托管运维，我们的专业团队都将为您量身打造</p>
+<div class="cta-email">
+📧 <a href="mailto:fantastic.vacation@yahoo.com">fantastic.vacation@yahoo.com</a>
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
 <footer id="footer"><div class="container"><div class="footer-grid">
-<div class="footer-brand"><a href="index.html" class="nav-logo">FANTASY HOLIDAY</a><p>奇幻假期实业有限公司</p></div>
-<div class="footer-col"><h4>快速导航</h4><ul><li><a href="index.html">首页</a></li><li><a href="about.html">关于我们</a></li><li><a href="yachts.html">游艇产品</a></li><li><a href="contact.html">联系我们</a></li></ul></div>
-<div class="footer-col"><h4>联系方式</h4><ul><li>📞 +86 400-888-9999</li><li>✉️ cases@fantasyholiday.com</li></ul></div>
-</div><div class="footer-bottom"><p>© 2026 奇幻假期实业有限公司</p></div></div></footer>
-
+<div class="footer-brand"><a href="index.html" class="nav-logo">FANTASTIC VACATION</a><p>奇幻假期fantastic.vacation</p><p style="font-size:12px;color:var(--text-muted);margin-top:8px;">高端私人游艇全托管一站式服务商</p></div>
+<div class="footer-col"><h4>快速导航</h4><ul><li><a href="index.html">首页</a></li><li><a href="yachts.html">游艇产品</a></li><li><a href="charter.html">租赁航线</a></li><li><a href="management.html">托管维保</a></li><li><a href="contact.html">联系我们</a></li></ul></div>
+<div class="footer-col"><h4>案例分类</h4><ul><li><a href="cases-custom.html">全案定制</a></li><li><a href="cases-charter.html">租赁航行</a></li><li><a href="cases-management.html">托管运维</a></li><li><a href="cases-event.html">商务活动</a></li></ul></div>
+<div class="footer-col"><h4>联系方式</h4><ul><li>📧 <a href="mailto:fantastic.vacation@yahoo.com" style="color:var(--text-muted);text-decoration:none;">fantastic.vacation@yahoo.com</a></li><li style="margin-top:8px;font-size:12px;color:var(--text-dim)">香港·新加坡·摩纳哥</li></ul></div>
+</div><div class="footer-bottom"><p>© 2026 奇幻假期fantastic.vacation. All Rights Reserved.</p></div></div></footer>
 
 <script>
+// Loader
 window.addEventListener("DOMContentLoaded",function(){
 var loader=document.getElementById("loader");
 if(!loader)return;
@@ -101,9 +612,63 @@ var progress=0;
 var interval=setInterval(function(){progress+=Math.random()*12+8;if(progress>=100){progress=100;clearInterval(interval);if(progressEl)progressEl.style.width="100%";setTimeout(function(){if(loader)loader.style.display="none";document.body.style.overflow=""},400)}else if(progressEl)progressEl.style.width=progress+"%"},180);
 setTimeout(function(){clearInterval(interval);if(loader)loader.style.display="none";document.body.style.overflow=""},5000);
 });
+
+// Nav scroll
 window.addEventListener("scroll",function(){var nav=document.getElementById("navbar");if(window.scrollY>50)nav.classList.add("scrolled");else nav.classList.remove("scrolled")});
+
+// Mobile menu
 function toggleMobile(){document.getElementById("mobile-menu").classList.toggle("active");document.querySelector(".hamburger").classList.toggle("active")}
+
+// Cursor follower
 (function(){var c=document.getElementById("cursor");if(c)document.addEventListener("mousemove",function(e){c.style.left=e.pageX+"px";c.style.top=e.pageY+"px"})})();
+
+// Reveal on scroll
 (function(){var o=new IntersectionObserver(function(e){e.forEach(function(e){if(e.isIntersecting)e.target.classList.add("revealed")})},{threshold:0.1});document.querySelectorAll(".reveal,.reveal-left,.reveal-right,.reveal-scale").forEach(function(e){o.observe(e)})})();
+
+// Counter animation
+(function(){
+var counters=document.querySelectorAll('[data-count]');
+var ob=new IntersectionObserver(function(entries){
+entries.forEach(function(e){
+if(!e.isIntersecting)return;
+var el=e.target;
+var target=parseInt(el.getAttribute('data-count'));
+var duration=2200;
+var start=0;
+var startTime=null;
+function step(ts){
+if(!startTime)startTime=ts;
+var progress=Math.min((ts-startTime)/duration,1);
+el.textContent=Math.floor(progress*target);
+if(progress<1)requestAnimationFrame(step);
+else el.textContent=target;
+}
+requestAnimationFrame(step);
+ob.unobserve(el);
+});
+},{threshold:0.5});
+counters.forEach(function(c){ob.observe(c)});
+})();
+
+// Filter functionality
+(function(){
+var buttons=document.querySelectorAll('.filter-btn');
+var cards=document.querySelectorAll('.case-card');
+buttons.forEach(function(btn){
+btn.addEventListener('click',function(){
+buttons.forEach(function(b){b.classList.remove('active');});
+btn.classList.add('active');
+var filter=btn.getAttribute('data-filter');
+cards.forEach(function(card){
+if(filter==='all'||card.getAttribute('data-category').includes(filter)){
+card.style.display='block';
+}else{
+card.style.display='none';
+}
+});
+});
+});
+})();
 </script>
-</body></html>
+</body>
+</html>
