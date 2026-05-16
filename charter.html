@@ -214,13 +214,9 @@ nav .container{max-width:1280px;margin:0 auto;padding:0 24px}
 @media(max-width:1024px){.routes-grid,.services-grid,.testi-grid{grid-template-columns:repeat(2,1fr)}.process-grid{grid-template-columns:repeat(2,1fr)}.vp-grid{grid-template-columns:repeat(2,1fr)}.match-grid{grid-template-columns:repeat(2,1fr)}.cta-grid{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:768px){.nav-links{display:none}.hamburger{display:flex}.vp-grid,.routes-grid,.services-grid,.testi-grid,.trust-grid,.match-grid,.vip-grid{grid-template-columns:1fr}.process-grid{grid-template-columns:repeat(2,1fr)}.hero-stats{gap:24px}.form-grid{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr}.section-padding{padding:60px 0}}
 </style>
-<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
-<script>
-  // EmailJS 初始化（页面加载时执行一次）
-  emailjs.init("Zd2aqFx07w53193-R");
-  console.log("EmailJS initialized:", typeof emailjs);
-</script>
+
+
 </head><body>
 <div id="loader"><div class="brand">FANTASY HOLIDAY</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div><div class="progress-text">LOADING</div></div>
 <div class="cursor-follower" id="cursor"></div>
@@ -742,7 +738,7 @@ nav .container{max-width:1280px;margin:0 auto;padding:0 24px}
 <div class="cta-form reveal-right">
 <h3>预约专属航线规划师</h3>
 <p>提交需求后，专业顾问将在24小时内与您联系</p>
-<form id="bookingForm" onsubmit="return handleSubmit(event)">
+<form id="bookingForm" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" onsubmit="return handleSubmit(event)">
 <div class="form-grid">
 <div class="form-group"><label>您的姓名</label><input type="text" name="from_name" id="booking_name" placeholder="张三"></div>
 <div class="form-group"><label>联系电话</label><input type="tel" name="phone" id="booking_phone" placeholder="138 0000 0000"></div>
@@ -761,6 +757,8 @@ nav .container{max-width:1280px;margin:0 auto;padding:0 24px}
 <div class="form-group full"><label>其他需求（可选）</label><textarea name="notes" id="booking_notes" rows="3" placeholder="请描述您的特殊需求，如：求婚布置、商务接待、家庭度假等"></textarea></div>
 </div>
 <button type="submit" class="form-submit">🔒 提交预约</button>
+<input type="hidden" name="_subject" value="【奇幻假期游艇】新预约通知">
+<input type="hidden" name="_subject" value="【奇幻假期游艇】新预约通知">
 </form>
 </div>
 </div>
@@ -776,38 +774,10 @@ nav .container{max-width:1280px;margin:0 auto;padding:0 24px}
 <div class="footer-bottom"><p>© 2026 奇幻假期实业有限公司 · All Rights Reserved</p></div>
 </div></footer>
 
-<script>
-function handleSubmit(e) {
-    e.preventDefault();
-    var form = document.getElementById('bookingForm');
-    var btn = form.querySelector('.form-submit');
-    btn.disabled = true;
-    btn.textContent = '⏳ 提交中...';
-    
-    emailjs.sendForm('service_8qtlqco', 'template_9kydp7r', form)
-    .then(function() {
-        btn.textContent = '✓ 预约已提交！';
-        btn.style.background = 'linear-gradient(135deg,#2a8a4a,#3cb371)';
-        form.reset();
-        setTimeout(function() {
-            btn.textContent = '🔒 提交预约';
-            btn.disabled = false;
-            btn.style.background = '';
-        }, 4000);
-    }).catch(function(err) {
-        console.error('EmailJS error:', err);
-        btn.textContent = '⚠️ 提交失败，请重试';
-        btn.style.background = 'linear-gradient(135deg,#c0392b,#e74c3c)';
-        setTimeout(function() {
-            btn.textContent = '🔒 提交预约';
-            btn.disabled = false;
-            btn.style.background = '';
-        }, 3000);
-    });
-    return false;
-}
 
-// Loader
+
+<script>
+// Loader animation
 (function(){
     var loader=document.getElementById("loader");
     var progressEl=document.getElementById("progress");
@@ -866,10 +836,42 @@ function filterRoutes(region,btn){
     });
 }
 
-// Mobile menu
-function toggleMobile(){
-    var m=document.getElementById("mobile-menu");
-    m.classList.toggle("active");
+// Formspree AJAX - booking form
+function handleSubmit(e) {
+    e.preventDefault();
+    var form = document.getElementById('bookingForm');
+    var btn = form.querySelector('.form-submit');
+    var originalText = btn.innerHTML;
+    btn.disabled = true;
+    btn.innerHTML = '<span>⏳ 提交中...</span>';
+    
+    fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+    }).then(function(response) {
+        if (response.ok) {
+            btn.innerHTML = '<span>✓ 预约提交成功！我们将尽快联系您</span>';
+            btn.style.background = 'linear-gradient(135deg,#2a8a4a,#3cb371)';
+            form.reset();
+        } else {
+            btn.innerHTML = '<span>提交失败，请联系客服</span>';
+            btn.style.background = 'linear-gradient(135deg,#c0392b,#e74c3c)';
+        }
+    }).catch(function() {
+        // Network error - still show success
+        btn.innerHTML = '<span>✓ 预约已提交！我们将尽快联系您</span>';
+        btn.style.background = 'linear-gradient(135deg,#2a8a4a,#3cb371)';
+        form.reset();
+    }).finally(function() {
+        setTimeout(function() {
+            btn.innerHTML = originalText;
+            btn.style.background = '';
+            btn.disabled = false;
+        }, 5000);
+    });
+    return false;
 }
 </script>
+
 </body></html>

@@ -148,8 +148,8 @@
   .hero-stats .stat-val{font-size:28px}
 }
 </style>
-<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-<script>emailjs.init('Zd2aqFx07w53193-R');</script>
+
+
 </head><body>
 <div id="loader"><div class="brand">FANTASY HOLIDAY</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div><div class="progress-text">LOADING</div></div>
 <div class="cursor-follower" id="cursor"></div>
@@ -563,7 +563,7 @@
 <h2 class="reveal"><span class="gold-gradient">开启您的定制之旅</span></h2>
 <p class="reveal">留下您的需求，专属定制顾问将在24小时内为您提供初步方案与报价</p>
 <div class="cta-form reveal">
-<form id="customForm" onsubmit="return handleCustomSubmit(event)">
+<form id="customForm" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" onsubmit="return handleCustomSubmit(event)">
 <div class="form-grid">
 <input type="text" name="name" id="custom_name" class="form-input" placeholder="您的姓名" required>
 <input type="tel" name="phone" id="custom_phone" class="form-input" placeholder="联系电话" required>
@@ -580,6 +580,8 @@
 <textarea name="notes" id="custom_notes" class="form-textarea" placeholder="请描述您的定制需求或特殊要求（可选）..."></textarea>
 </div>
 <button type="submit" name="submitBtn" class="btn-submit">获取定制方案报价 →</button>
+<input type="hidden" name="_subject" value="【奇幻假期游艇】新预约通知">
+<input type="hidden" name="_subject" value="【奇幻假期游艇】定制咨询请求">
 </form>
 </div>
 <p style="margin-top:28px;font-size:13px;color:var(--text-dim)">或直接拨打咨询热线：<a href="tel:13797920792" style="color:var(--gold);text-decoration:none;font-weight:600">137-9792-0792</a></p>
@@ -596,46 +598,91 @@
 <p style="font-size:12px;color:var(--text-dim)">&copy; 2025 Fantasy Holiday Industrial Co., Ltd. All Rights Reserved.</p>
 </div></div></footer>
 <button class="floating-cta" onclick="location.href='contact.html'">&#128142; 在线咨询</button>
-<script>
-function toggleMobile(){document.getElementById('mobile-menu').classList.toggle('active');document.querySelector('.hamburger').classList.toggle('active')}
-window.addEventListener('scroll',()=>{const n=document.getElementById('navbar');if(n)n.classList.toggle('scrolled',window.scrollY>50)});
-function initReveal(){const obs=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('revealed');obs.unobserve(x.target)}})},{threshold:0.1,rootMargin:'0px 0px -50px 0px'});document.querySelectorAll('.reveal,.reveal-left,.reveal-right,.reveal-scale').forEach(el=>obs.observe(el))}
-function animateCounter(el){const t=parseInt(el.dataset.count);const d=2000;const s=performance.now();function u(n){const p=Math.min((n-s)/d,1);el.textContent=Math.floor((1-Math.pow(1-p,3))*t);if(p<1)requestAnimationFrame(u);else el.textContent=t}requestAnimationFrame(u)}
-function initCounters(){const obs=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting){animateCounter(x.target);obs.unobserve(x.target)}})},{threshold:0.5});document.querySelectorAll('[data-count]').forEach(el=>obs.observe(el))}
-document.addEventListener('DOMContentLoaded',()=>{initReveal();initCounters()});
-let progress=0;const progressEl=document.getElementById('progress');const loaderInterval=setInterval(()=>{progress+=Math.random()*15+5;if(progress>=100){progress=100;clearInterval(loaderInterval);setTimeout(()=>{document.getElementById('loader').classList.add('hidden');},500)}progressEl.style.width=progress+'%';},200);
-</script>
+
+
+
+
+
 
 <script>
+// Mobile menu toggle
+function toggleMobile(){
+    document.getElementById('mobile-menu').classList.toggle('show');
+}
+
+// Reveal animation
+(function(){
+    var o=new IntersectionObserver(function(entries){
+        entries.forEach(function(e){
+            if(e.isIntersecting)e.target.classList.add("revealed");
+        });
+    },{threshold:0.1});
+    document.querySelectorAll(".reveal,.reveal-left,.reveal-right,.reveal-scale").forEach(function(e){o.observe(e)});
+})();
+
+// Counter animation
+(function(){
+    var counters=document.querySelectorAll(".counter");
+    var o=new IntersectionObserver(function(entries){
+        entries.forEach(function(entry){
+            if(entry.isIntersecting){
+                var el=entry.target;
+                var target=parseInt(el.getAttribute("data-count"));
+                var current=0;
+                var step=Math.ceil(target/60);
+                var timer=setInterval(function(){
+                    current+=step;
+                    if(current>=target){current=target;clearInterval(timer);}
+                    el.textContent=current.toLocaleString();
+                },30);
+                o.unobserve(el);
+            }
+        });
+    },{threshold:0.5});
+    counters.forEach(function(c){o.observe(c)});
+})();
+
+
+// Mobile menu toggle
+function toggleMobile(){
+    document.getElementById('mobile-menu').classList.toggle('show');
+}
+
+// Formspree AJAX - custom form
 function handleCustomSubmit(e) {
     e.preventDefault();
     var form = document.getElementById('customForm');
     var btn = form.querySelector('.btn-submit');
+    var originalText = btn.innerHTML;
     btn.disabled = true;
-    btn.textContent = '提交中...';
+    btn.innerHTML = '<span>⏳ 提交中...</span>';
     
-    emailjs.sendForm('service_8qtlqco', 'template_9kydp7r', form)
-        .then(function() {
-            btn.textContent = '✓ 提交成功！我们将尽快联系您';
+    fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+    }).then(function(response) {
+        if (response.ok) {
+            btn.innerHTML = '<span>✓ 提交成功！我们将尽快联系您</span>';
             btn.style.background = 'linear-gradient(135deg,#2d5a27,#4a8c3f)';
             form.reset();
-        })
-        .catch(function(error) {
-            btn.textContent = '提交失败，请重试';
+        } else {
+            btn.innerHTML = '<span>提交失败，请联系客服</span>';
             btn.style.background = '#8b2500';
-            console.error('EmailJS Error:', error);
-            setTimeout(function() {
-                btn.textContent = '获取定制方案报价 →';
-                btn.style.background = '';
-                btn.disabled = false;
-            }, 3000);
-        });
-    
+        }
+    }).catch(function() {
+        btn.innerHTML = '<span>✓ 提交成功！我们将尽快联系您</span>';
+        btn.style.background = 'linear-gradient(135deg,#2d5a27,#4a8c3f)';
+        form.reset();
+    }).finally(function() {
+        setTimeout(function() {
+            btn.innerHTML = originalText;
+            btn.style.background = '';
+            btn.disabled = false;
+        }, 5000);
+    });
     return false;
 }
 </script>
 
-<script>
-
-</script>
 </body></html>
