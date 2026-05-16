@@ -736,25 +736,25 @@ nav .container{max-width:1280px;margin:0 auto;padding:0 24px}
 <div class="cta-form reveal-right">
 <h3>预约专属航线规划师</h3>
 <p>提交需求后，专业顾问将在24小时内与您联系</p>
-<form id="bookingForm" onsubmit="return handleSubmit(event)">
+<form id="bookingForm" onsubmit="return handleBookingSubmit(event)">
 <div class="form-grid">
-<div class="form-group"><label>您的姓名</label><input type="text" name="from_name" id="booking_name" placeholder="张三"></div>
-<div class="form-group"><label>联系电话</label><input type="tel" name="phone" id="booking_phone" placeholder="138 0000 0000"></div>
+<div class="form-group"><label>您的姓名</label><input type="text" name="name" id="booking_name" class="form-input" placeholder="张三" required></div>
+<div class="form-group"><label>联系电话</label><input type="tel" name="phone" id="booking_phone" class="form-input" placeholder="138 0000 0000" required></div>
 <div class="form-group"><label>意向目的地</label>
-<select name="destination" id="booking_destination"><option value="">请选择</option><option>地中海（法意/希腊/土耳其）</option><option>加勒比海（巴哈马/BVI）</option><option>东南亚（泰缅/印尼/越南）</option><option>马尔代夫/塞舌尔</option><option>大溪地/日本冲绳</option><option>其他/待规划</option></select>
+<select name="destination" id="booking_destination" class="form-select"><option value="">请选择</option><option>地中海（法意/希腊/土耳其）</option><option>加勒比海（巴哈马/BVI）</option><option>东南亚（泰缅/印尼/越南）</option><option>马尔代夫/塞舌尔</option><option>大溪地/日本冲绳</option><option>其他/待规划</option></select>
 </div>
 <div class="form-group"><label>出行时间</label>
-<select name="departure" id="booking_departure"><option value="">请选择</option><option>近1个月</option><option>1-3个月</option><option>3-6个月</option><option>6-12个月</option><option>12个月以上</option></select>
+<select name="departure" id="booking_departure" class="form-select"><option value="">请选择</option><option>近1个月</option><option>1-3个月</option><option>3-6个月</option><option>6-12个月</option><option>12个月以上</option></select>
 </div>
 <div class="form-group"><label>同行人数</label>
-<select name="people" id="booking_people"><option value="">请选择</option><option>2-4人</option><option>5-8人</option><option>9-16人</option><option>16人以上</option></select>
+<select name="people" id="booking_people" class="form-select"><option value="">请选择</option><option>2-4人</option><option>5-8人</option><option>9-16人</option><option>16人以上</option></select>
 </div>
 <div class="form-group"><label>预算区间</label>
-<select name="budget" id="booking_budget"><option value="">请选择</option><option>¥30-50万/周</option><option>¥50-80万/周</option><option>¥80-150万/周</option><option>¥150-300万/周</option><option>¥300万以上/周</option></select>
+<select name="budget" id="booking_budget" class="form-select"><option value="">请选择</option><option>¥30-50万/周</option><option>¥50-80万/周</option><option>¥80-150万/周</option><option>¥150-300万/周</option><option>¥300万以上/周</option></select>
 </div>
-<div class="form-group full"><label>其他需求（可选）</label><textarea name="notes" id="booking_notes" rows="3" placeholder="请描述您的特殊需求，如：求婚布置、商务接待、家庭度假等"></textarea></div>
+<div class="form-group full"><label>其他需求（可选）</label><textarea name="notes" id="booking_notes" class="form-textarea" rows="3" placeholder="请描述您的特殊需求，如：求婚布置、商务接待、家庭度假等"></textarea></div>
 </div>
-<button type="submit" class="form-submit">🔒 提交预约</button>
+<button type="submit" name="submitBtn" class="btn-submit">🔒 提交预约</button>
 </form>
 </div>
 </div>
@@ -770,61 +770,50 @@ nav .container{max-width:1280px;margin:0 auto;padding:0 24px}
 <div class="footer-bottom"><p>© 2026 奇幻假期实业有限公司 · All Rights Reserved</p></div>
 </div></footer>
 
-<script>
 
-function handleSubmit(e) {
+
+<script>
+function handleBookingSubmit(e) {
     e.preventDefault();
     var form = document.getElementById('bookingForm');
     var name = document.getElementById('booking_name').value.trim() || '未填写';
     var phone = document.getElementById('booking_phone').value.trim() || '未填写';
-    var dest = document.getElementById('booking_destination') ? document.getElementById('booking_destination').value : '';
-    var date = document.getElementById('booking_departure') ? document.getElementById('booking_departure').value : '';
-    var guests = document.getElementById('booking_people') ? document.getElementById('booking_people').value : '';
-    var budget = document.getElementById('booking_budget') ? document.getElementById('booking_budget').value : '';
-    var notes = document.getElementById('booking_notes') ? document.getElementById('booking_notes').value.trim() : '';
+    var dest = document.getElementById('booking_destination').value || '未选择';
+    var date = document.getElementById('booking_departure').value || '未选择';
+    var guests = document.getElementById('booking_people').value || '未选择';
+    var budget = document.getElementById('booking_budget').value || '未选择';
+    var notes = document.getElementById('booking_notes').value.trim() || '无';
 
     if (!name || name === '未填写') { alert('请填写您的姓名'); return false; }
     if (!phone || phone === '未填写' || phone.length < 7) { alert('请填写有效的联系电话'); return false; }
 
-    var subject = encodeURIComponent('🛥️ 游艇预约咨询 - ' + name);
+    var subject = encodeURIComponent('🛥️ 游艇航线预约 - ' + name);
     var body = encodeURIComponent(
-        '您好，我想咨询游艇租赁服务：\n' +
+        '您好，我想预约游艇航线：\n' +
         '\n📋 预约信息：' +
         '\n------------------------' +
         '\n👤 姓名：' + name +
         '\n📱 电话：' + phone +
-        (dest ? '\n📍 目的地：' + dest : '') +
-        (date ? '\n📅 出行时间：' + date : '') +
-        (guests ? '\n👥 同行人数：' + guests : '') +
-        (budget ? '\n💰 预算范围：' + budget : '') +
-        (notes ? '\n📝 其他需求：' + notes : '') +
+        '\n📍 目的地：' + dest +
+        '\n📅 出行时间：' + date +
+        '\n👥 同行人数：' + guests +
+        '\n💰 预算范围：' + budget +
+        '\n📝 其他需求：' + notes +
         '\n------------------------' +
-        '\n此邮件由奇幻假期官网预约系统自动生成'
+        '\n此邮件由奇幻假期官网航线预约表单自动生成'
     );
 
     window.location.href = 'mailto:fantastic.vacation@yahoo.com?subject=' + subject + '&body=' + body;
     
-    var btn = form.querySelector('.form-submit');
+    var btn = form.querySelector('.btn-submit');
     btn.textContent = '✓ 正在打开邮箱...';
-    setTimeout(function(){ btn.textContent = '🔒 提交预约'; }, 3000);
+    btn.style.background = 'linear-gradient(135deg,#2d5a27,#4a8c3f)';
+    setTimeout(function(){ 
+        btn.textContent = '🔒 提交预约'; 
+        btn.style.background = '';
+    }, 3000);
     
     return false;
 }
-
-function toggleMobile(){document.getElementById("mobile-menu").classList.toggle("active");document.querySelector(".hamburger").classList.toggle("active")}
-(function(){var c=document.getElementById("cursor");if(c)document.addEventListener("mousemove",function(e){c.style.left=e.pageX+"px";c.style.top=e.pageY+"px"})})();
-(function(){
-var o=new IntersectionObserver(function(e){e.forEach(function(e){if(e.isIntersecting)e.target.classList.add("revealed")})},{threshold:0.1});
-document.querySelectorAll(".reveal,.reveal-left,.reveal-right,.reveal-scale").forEach(function(e){o.observe(e)});
-})();
-function filterRoutes(region,btn){document.querySelectorAll('.cat-btn').forEach(function(b){b.classList.remove('active')});btn.classList.add('active');document.querySelectorAll('.route-card').forEach(function(c){if(region==='all'||c.dataset.region===region)c.style.display='';else c.style.display='none'})}
-
-window.addEventListener("DOMContentLoaded",function(){var loader=document.getElementById("loader");if(!loader)return;var progressEl=document.getElementById("progress");var progress=0;var interval=setInterval(function(){progress+=Math.random()*12+8;if(progress>=100){progress=100;clearInterval(interval);if(progressEl)progressEl.style.width="100%";setTimeout(function(){if(loader)loader.style.display="none";document.body.style.overflow=""},400)}else if(progressEl)progressEl.style.width=progress+"%"},180);setTimeout(function(){clearInterval(interval);if(loader)loader.style.display="none";document.body.style.overflow=""},5000)});
-window.addEventListener("scroll",function(){var nav=document.getElementById("navbar");if(window.scrollY>50)nav.classList.add("scrolled");else nav.classList.remove("scrolled")});
-(function(){var c=document.getElementById("cursor");if(c)document.addEventListener("mousemove",function(e){c.style.left=e.pageX+"px";c.style.top=e.pageY+"px"})})();
-(function(){
-var o=new IntersectionObserver(function(e){e.forEach(function(e){if(e.isIntersecting)e.target.classList.add("revealed")})},{threshold:0.1});
-document.querySelectorAll(".reveal,.reveal-left,.reveal-right,.reveal-scale").forEach(function(e){o.observe(e)});
-})();
 </script>
 </body></html>
