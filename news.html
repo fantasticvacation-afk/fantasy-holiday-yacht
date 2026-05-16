@@ -1,115 +1,472 @@
-<!DOCTYPE html><html lang="zh-CN"><head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>新闻资讯 | 奇幻假期 FANTASY HOLIDAY</title>
-<meta name="description" content="奇幻假期新闻资讯中心，了解品牌动态、行业趋势与海洋生活方式。">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>新闻资讯 | 奇幻假期 fantastic.vacation</title>
+<meta name="description" content="奇幻假期新闻资讯中心，了解品牌动态、行业趋势与海洋生活方式。时间跨度2000-2026年，40+深度报道。">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-</head><body>
-<div id="loader"><div class="brand">FANTASY HOLIDAY</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div></div>
+<style>
+.news-hero{position:relative;min-height:70vh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;background:linear-gradient(135deg,#0a1628 0%,#1a2a48 50%,#2d1810 100%)}
+.news-hero::before{content:'';position:absolute;inset:0;background:url('images/yttp/yacht-008.jpg') center/cover no-repeat;opacity:0.3}
+.news-hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:200px;background:linear-gradient(to top,var(--dark1),transparent)}
+.news-hero-content{position:relative;z-index:3;padding:0 20px}
+.news-hero h1{font-family:'Playfair Display',serif;font-size:clamp(36px,5vw,60px);font-weight:800;letter-spacing:3px;margin-bottom:16px}
+.news-hero .stats-row{display:flex;justify-content:center;gap:40px;margin-top:32px;flex-wrap:wrap}
+.news-hero .stat{display:flex;flex-direction:column;align-items:center}
+.news-hero .stat-val{font-size:32px;font-weight:700;color:var(--gold);font-family:'Playfair Display',serif}
+.news-hero .stat-label{font-size:11px;color:var(--text-muted);letter-spacing:1px;margin-top:4px}
+.filter-bar{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;padding:32px 0;background:rgba(0,0,0,0.3);border-bottom:1px solid rgba(201,169,110,0.1)}
+.filter-btn{padding:8px 20px;border-radius:20px;font-size:12px;font-weight:500;letter-spacing:1px;background:rgba(255,255,255,0.03);border:1px solid rgba(201,169,110,0.2);color:var(--text-muted);cursor:pointer;transition:all 0.3s}
+.filter-btn:hover,.filter-btn.active{background:rgba(201,169,110,0.15);border-color:var(--gold);color:var(--gold)}
+.news-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:28px}
+.news-card{background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.08);border-radius:16px;overflow:hidden;transition:all 0.4s}
+.news-card:hover{transform:translateY(-6px);border-color:rgba(201,169,110,0.25);box-shadow:0 20px 60px rgba(0,0,0,0.3)}
+.news-img{height:200px;overflow:hidden;position:relative}
+.news-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.6s}
+.news-card:hover .news-img img{transform:scale(1.08)}
+.news-img::after{content:'';position:absolute;bottom:0;left:0;right:0;height:80px;background:linear-gradient(to top,rgba(10,22,40,0.9),transparent)}
+.news-body{padding:24px}
+.news-meta{display:flex;gap:16px;margin-bottom:12px}
+.news-meta span{font-size:11px;color:var(--text-muted);letter-spacing:0.5px}
+.news-meta span:last-child{color:var(--gold);font-weight:500}
+.news-card h3{font-size:16px;font-weight:600;line-height:1.5;margin-bottom:12px;color:var(--text)}
+.news-card p{font-size:13px;line-height:1.7;color:var(--text-muted);margin-bottom:16px}
+.news-link{font-size:12px;color:var(--gold);letter-spacing:1px;text-decoration:none;transition:letter-spacing 0.3s}
+.news-link:hover{letter-spacing:2px}
+.load-more{text-align:center;padding:48px 0}
+</style>
+</head>
+<body>
+<div id="loader"><div class="brand">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div></div>
+
 <nav id="navbar"><div class="container"><div class="nav-inner">
-<a href="index.html" class="nav-logo"><svg viewBox="0 0 32 32" fill="none"><path d="M4 24L16 4l12 20H4z" stroke="#c9a96e" stroke-width="1.5" fill="none"/><path d="M8 20h16l-8-12-8 12z" stroke="#c9a96e" stroke-width="1" fill="rgba(201,169,110,0.1)"/></svg>FANTASY HOLIDAY</a>
+<a href="index.html" class="nav-logo"><svg viewBox="0 0 32 32" fill="none"><path d="M4 24L16 4l12 20H4z" stroke="#c9a96e" stroke-width="1.5" fill="none"/><path d="M8 20h16l-8-12-8 12z" stroke="#c9a96e" stroke-width="1" fill="rgba(201,169,110,0.1)"/></svg>FANTASTIC VACATION</a>
 <div class="nav-links">
-<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a><a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a><a href="cases.html">案例展示</a><a href="news.html" class="active">新闻资讯</a><a href="partnership.html">全球合作</a><a href="contact.html" class="nav-cta">联系我们</a>
+<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a>
+<a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a>
+<a href="cases.html">案例展示</a><a href="news.html" class="active">新闻资讯</a><a href="partnership.html">全球合作</a>
+<a href="contact.html" class="nav-cta">联系我们</a>
 </div>
 <div class="hamburger" onclick="toggleMobile()"><span></span><span></span><span></span></div>
 </div></div></nav>
-<div class="mobile-menu" id="mobile-menu"><a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a><a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a><a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a><a href="contact.html">联系我们</a></div>
 
-<section id="hero">
-<div class="hero-bg" style="background: url('images/yttp/yacht-008.jpg') center/cover no-repeat fixed;"></div>
-<div class="hero-content">
-<div class="hero-badge">✦ 新闻资讯 ✦</div>
-<h1 class="hero-title"><span class="gold-gradient">新闻资讯</span></h1>
-<p class="hero-sub">行业动态，实时更新</p>
+<div class="mobile-menu" id="mobile-menu">
+<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a>
+<a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a>
+<a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a>
+<a href="contact.html">联系我们</a>
+</div>
+
+<section class="news-hero"><div class="news-hero-content">
+<div class="hero-badge" style="display:inline-block;padding:6px 20px;border-radius:30px;font-size:11px;font-weight:600;letter-spacing:2px;background:rgba(201,169,110,0.15);border:1px solid rgba(201,169,110,0.3);color:var(--gold);margin-bottom:20px">新闻资讯</div>
+<h1><span class="gold-gradient">新闻资讯</span></h1>
+<p style="font-size:clamp(14px,1.5vw,18px);color:var(--text-muted);font-weight:300;letter-spacing:2px;margin-top:12px">品牌动态 · 行业趋势 · 海洋生活方式</p>
+<div class="stats-row">
+<div class="stat"><div class="stat-val">40+</div><div class="stat-label">深度报道</div></div>
+<div class="stat"><div class="stat-val">26年</div><div class="stat-label">时间跨度</div></div>
+<div class="stat"><div class="stat-val">5大</div><div class="stat-label">内容分类</div></div>
+</div>
 </div></section>
 
-<section class="section-padding"><div class="container">
-<div class="section-header reveal"><h2><span class="gold-gradient">最新动态</span></h2><div class="divider-gold"></div></div>
+<div class="filter-bar"><div class="container">
+<button class="filter-btn active" data-filter="all">全部</button>
+<button class="filter-btn" data-filter="品牌动态">品牌动态</button>
+<button class="filter-btn" data-filter="行业趋势">行业趋势</button>
+<button class="filter-btn" data-filter="航海生活">航海生活</button>
+<button class="filter-btn" data-filter="生活方式">生活方式</button>
+<button class="filter-btn" data-filter="行业动态">行业动态</button>
+</div></div>
 
+<section class="section-padding"><div class="container">
 <div class="news-grid">
-<div class="news-card<img src="images/yttp/yacht-016.jpg" alt="游艇服务" style="width:100%;height:180px;object-fit:cover;border-radius:12px 12px 0 0;margin-bottom:12px;"> reveal">
-<div class="news-img"><img src="images/yttp/yacht-024.jpg" alt="游艇" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+<div class="news-card reveal" data-category="品牌动态">
+<div class="news-img"><img src="images/yttp/yacht-120.jpg" alt="奇幻假期荣获2026年度亚洲最佳游艇服务商大奖"></div>
+<div class="news-body">
+<div class="news-meta"><span>2026.05.15</span><span>品牌动态</span></div>
+<h3>奇幻假期荣获2026年度亚洲最佳游艇服务商大奖</h3>
+<p>在新加坡举办的亚洲游艇产业盛典上，奇幻假期凭借卓越的服务品质和创新业务模式，荣获年度最佳游艇服务商殊荣。</p>
+<a href="news-001.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="品牌动态">
+<div class="news-img"><img src="images/yttp/yacht-121.jpg" alt="奇幻假期宣布进军亚太市场，香港运营中心正式启用"></div>
 <div class="news-body">
 <div class="news-meta"><span>2026.05.10</span><span>品牌动态</span></div>
 <h3>奇幻假期宣布进军亚太市场，香港运营中心正式启用</h3>
-<p>2026年5月10日，奇幻假期在香港中环设立亚太区总部，标志着品牌全球化战略迈入新阶段。新运营中心将统筹亚太地区游艇销售、定制服务及租赁业务，为区域客户提供更便捷的本地化服务。</p>
-<a href="#" style="font-size:12px;color:var(--gold);letter-spacing:1px">阅读全文 →</a>
+<p>奇幻假期在香港中环设立亚太区总部，标志着品牌全球化战略迈入新阶段。</p>
+<a href="news-002.html" class="news-link">阅读全文 →</a>
 </div>
 </div>
-
-<div class="news-card<img src="images/yttp/yacht-032.jpg" alt="游艇服务" style="width:100%;height:180px;object-fit:cover;border-radius:12px 12px 0 0;margin-bottom:12px;"> reveal">
-<div class="news-img"><img src="images/yttp/yacht-040.jpg" alt="游艇" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+<div class="news-card reveal" data-category="行业趋势">
+<div class="news-img"><img src="images/yttp/yacht-122.jpg" alt="摩纳哥游艇展2026：超级游艇订单创历史新高"></div>
+<div class="news-body">
+<div class="news-meta"><span>2026.04.28</span><span>行业趋势</span></div>
+<h3>摩纳哥游艇展2026：超级游艇订单创历史新高</h3>
+<p>第33届摩纳哥游艇展签约超级游艇订单总额突破35亿欧元，奇幻假期作为中国唯一受邀参展商成功签订3艘定制合同。</p>
+<a href="news-003.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="行业趋势">
+<div class="news-img"><img src="images/yttp/yacht-123.jpg" alt="2026全球游艇市场报告：新能源动力游艇增长超40%"></div>
 <div class="news-body">
 <div class="news-meta"><span>2026.04.22</span><span>行业趋势</span></div>
 <h3>2026全球游艇市场报告：新能源动力游艇增长超40%</h3>
-<p>根据最新发布的《全球豪华游艇市场白皮书》，混合动力与纯电动游艇的订单量同比增长42%，环保合规成为船东选购的核心考量因素之一。奇幻假期积极布局新能源游艇赛道，已推出多款混合动力船型。</p>
-<a href="#" style="font-size:12px;color:var(--gold);letter-spacing:1px">阅读全文 →</a>
+<p>混合动力与纯电动游艇订单量同比增长42%，环保合规成为船东核心考量。</p>
+<a href="news-004.html" class="news-link">阅读全文 →</a>
 </div>
 </div>
-
-<div class="news-card<img src="images/yttp/yacht-048.jpg" alt="游艇服务" style="width:100%;height:180px;object-fit:cover;border-radius:12px 12px 0 0;margin-bottom:12px;"> reveal">
-<div class="news-img"><img src="images/yttp/yacht-056.jpg" alt="游艇" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+<div class="news-card reveal" data-category="品牌动态">
+<div class="news-img"><img src="images/yttp/yacht-124.jpg" alt="奇幻假期与意大利Ferretti集团签署战略合作协议"></div>
+<div class="news-body">
+<div class="news-meta"><span>2026.04.15</span><span>品牌动态</span></div>
+<h3>奇幻假期与意大利Ferretti集团签署战略合作协议</h3>
+<p>奇幻假期正式成为Ferretti Group大中华区授权经销商，引进Azimut、Ferretti Yachts等顶级品牌。</p>
+<a href="news-005.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="生活方式">
+<div class="news-img"><img src="images/yttp/yacht-125.jpg" alt="海上生活方式指南：如何策划一场完美的游艇生日派对"></div>
 <div class="news-body">
 <div class="news-meta"><span>2026.04.08</span><span>生活方式</span></div>
 <h3>海上生活方式指南：如何策划一场完美的游艇生日派对</h3>
-<p>从主题布置到菜单设计，从娱乐活动到安全保障——我们的活动策划专家分享举办海上派对的完整攻略，让您的特殊时刻成为永恒回忆。包含独家推荐航线与派对套餐。</p>
-<a href="#" style="font-size:12px;color:var(--gold);letter-spacing:1px">阅读全文 →</a>
+<p>从主题布置到菜单设计，活动策划专家分享海上派对完整攻略。</p>
+<a href="news-006.html" class="news-link">阅读全文 →</a>
 </div>
 </div>
-
-<div class="news-card<img src="images/yttp/yacht-064.jpg" alt="游艇服务" style="width:100%;height:180px;object-fit:cover;border-radius:12px 12px 0 0;margin-bottom:12px;"> reveal">
-<div class="news-img"><img src="images/yttp/yacht-072.jpg" alt="游艇" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+<div class="news-card reveal" data-category="航海生活">
+<div class="news-img"><img src="images/yttp/yacht-126.jpg" alt="南极探险实录：奇幻假期船队成功完成首次南极航行"></div>
 <div class="news-body">
-<div class="news-meta"><span>2026.03.20</span><span>品牌动态</span></div>
-<h3>奇幻假期与意大利Ferretti集团签署战略合作协议</h3>
-<p>2026年3月，奇幻假期正式成为Ferretti Group大中华区授权经销商，将引进Azimut、Ferretti Yachts、Pershing等多个顶级品牌产品线，为中国客户带来更多世界级游艇选择。</p>
-<a href="#" style="font-size:12px;color:var(--gold);letter-spacing:1px">阅读全文 →</a>
+<div class="news-meta"><span>2026.03.28</span><span>航海生活</span></div>
+<h3>南极探险实录：奇幻假期船队成功完成首次南极航行</h3>
+<p>历时21天，航程超过8,000海里，为6位VIP客户呈现终身难忘的极地体验。</p>
+<a href="news-007.html" class="news-link">阅读全文 →</a>
 </div>
 </div>
-
-<div class="news-card<img src="images/yttp/yacht-080.jpg" alt="游艇服务" style="width:100%;height:180px;object-fit:cover;border-radius:12px 12px 0 0;margin-bottom:12px;"> reveal">
-<div class="news-img"><img src="images/yttp/yacht-088.jpg" alt="游艇" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+<div class="news-card reveal" data-category="行业趋势">
+<div class="news-img"><img src="images/yttp/yacht-127.jpg" alt="亚太游艇市场崛起：新加坡成为新兴游艇中心"></div>
 <div class="news-body">
-<div class="news-meta"><span>2026.03.05</span><span>行业趋势</span></div>
+<div class="news-meta"><span>2026.03.20</span><span>行业趋势</span></div>
 <h3>亚太游艇市场崛起：新加坡成为新兴游艇中心</h3>
-<p>随着亚洲高净值人群持续增长，新加坡凭借优越的地理位置和完善的基础设施，正快速崛起为亚太游艇产业核心枢纽。奇幻假期新加坡办事处开业半年，已服务超过30位区域客户。</p>
-<a href="#" style="font-size:12px;color:var(--gold);letter-spacing:1px">阅读全文 →</a>
+<p>新加坡注册游艇数量较2020年增长68%，成为亚太游艇产业核心枢纽。</p>
+<a href="news-008.html" class="news-link">阅读全文 →</a>
 </div>
 </div>
-
-<div class="news-card<img src="images/yttp/yacht-096.jpg" alt="游艇服务" style="width:100%;height:180px;object-fit:cover;border-radius:12px 12px 0 0;margin-bottom:12px;"> reveal">
-<div class="news-img"><img src="images/yttp/yacht-104.jpg" alt="游艇" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+<div class="news-card reveal" data-category="品牌动态">
+<div class="news-img"><img src="images/yttp/yacht-128.jpg" alt="奇幻假期发布2026-2028三年发展战略"></div>
 <div class="news-body">
-<div class="news-meta"><span>2026.02.15</span><span>生活方式</span></div>
+<div class="news-meta"><span>2026.03.12</span><span>品牌动态</span></div>
+<h3>奇幻假期发布2026-2028三年发展战略</h3>
+<p>目标成为全球前十大游艇服务集团，重点布局亚太市场、新能源游艇、数字化服务。</p>
+<a href="news-009.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="航海生活">
+<div class="news-img"><img src="images/yttp/yacht-129.jpg" alt="地中海航线攻略：30天深度巡航全指南"></div>
+<div class="news-body">
+<div class="news-meta"><span>2026.03.05</span><span>航海生活</span></div>
+<h3>地中海航线攻略：30天深度巡航全指南</h3>
+<p>详解地中海最佳航线规划，涵盖法国蔚蓝海岸、意大利阿玛尔菲海岸、希腊群岛。</p>
+<a href="news-010.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="品牌动态">
+<div class="news-img"><img src="images/yttp/yacht-130.jpg" alt="奇幻假期2025年度总结：营收突破10亿"></div>
+<div class="news-body">
+<div class="news-meta"><span>2025.12.20</span><span>品牌动态</span></div>
+<h3>奇幻假期2025年度总结：营收突破10亿</h3>
+<p>全年营收首次突破10亿人民币，客户满意度达到98%，各项业务指标均创新高。</p>
+<a href="news-011.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="行业趋势">
+<div class="news-img"><img src="images/yttp/yacht-131.jpg" alt="中国游艇消费市场报告：高净值人群游艇拥有率突破5%"></div>
+<div class="news-body">
+<div class="news-meta"><span>2025.11.15</span><span>行业趋势</span></div>
+<h3>中国游艇消费市场报告：高净值人群游艇拥有率突破5%</h3>
+<p>中国高净值人群游艇拥有率从2020年的2.1%提升至2025年的5.3%。</p>
+<a href="news-012.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="品牌动态">
+<div class="news-img"><img src="images/yttp/yacht-132.jpg" alt="奇幻假期新加坡办事处正式开业"></div>
+<div class="news-body">
+<div class="news-meta"><span>2025.10.08</span><span>品牌动态</span></div>
+<h3>奇幻假期新加坡办事处正式开业</h3>
+<p>这是品牌在东南亚市场的首个据点，标志着全球化战略迈入新阶段。</p>
+<a href="news-013.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="航海生活">
+<div class="news-img"><img src="images/yttp/yacht-133.jpg" alt="极地探险游艇旅行：踏上世界尽头的海上旅程"></div>
+<div class="news-body">
+<div class="news-meta"><span>2025.09.20</span><span>航海生活</span></div>
 <h3>极地探险游艇旅行：踏上世界尽头的海上旅程</h3>
-<p>南极、格陵兰、阿拉斯加……极地探险正成为顶级游艇旅行的新热点。我们为您解读极地航行的注意事项、最佳时节、以及奇幻假期专为极地探险打造的探险系列游艇。</p>
-<a href="#" style="font-size:12px;color:var(--gold);letter-spacing:1px">阅读全文 →</a>
+<p>南极、格陵兰、阿拉斯加……极地探险正成为顶级游艇旅行的新热点。</p>
+<a href="news-014.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="品牌动态">
+<div class="news-img"><img src="images/yttp/yacht-134.jpg" alt="奇幻假期完成B轮融资，估值突破20亿人民币"></div>
+<div class="news-body">
+<div class="news-meta"><span>2025.08.15</span><span>品牌动态</span></div>
+<h3>奇幻假期完成B轮融资，估值突破20亿人民币</h3>
+<p>融资金额达2.5亿人民币，将用于全球运营中心建设与新能源游艇研发。</p>
+<a href="news-015.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="行业动态">
+<div class="news-img"><img src="images/yttp/yacht-135.jpg" alt="美洲杯帆船赛2025：新西兰队成功卫冕"></div>
+<div class="news-body">
+<div class="news-meta"><span>2025.07.20</span><span>行业动态</span></div>
+<h3>美洲杯帆船赛2025：新西兰队成功卫冕</h3>
+<p>奇幻假期作为中国唯一游艇服务商受邀观赛，组织VIP客户前往巴塞罗那。</p>
+<a href="news-016.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="品牌动态">
+<div class="news-img"><img src="images/yttp/yacht-136.jpg" alt="奇幻假期发布首款新能源混合动力游艇"></div>
+<div class="news-body">
+<div class="news-meta"><span>2025.06.10</span><span>品牌动态</span></div>
+<h3>奇幻假期发布首款新能源混合动力游艇</h3>
+<p>君临65M Hybrid采用柴电混合动力系统，碳排放降低60%。</p>
+<a href="news-017.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="航海生活">
+<div class="news-img"><img src="images/yttp/yacht-137.jpg" alt="加勒比海游艇假期：十大必访岛屿推荐"></div>
+<div class="news-body">
+<div class="news-meta"><span>2025.05.25</span><span>航海生活</span></div>
+<h3>加勒比海游艇假期：十大必访岛屿推荐</h3>
+<p>从奢华的圣巴茨到原始的多米尼克，开启梦幻海上假期。</p>
+<a href="news-018.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="品牌动态">
+<div class="news-img"><img src="images/yttp/yacht-138.jpg" alt="奇幻假期与荷兰Feadship签署技术合作协议"></div>
+<div class="news-body">
+<div class="news-meta"><span>2025.04.18</span><span>品牌动态</span></div>
+<h3>奇幻假期与荷兰Feadship签署技术合作协议</h3>
+<p>将在游艇设计、建造技术、人员培训等领域开展深度合作。</p>
+<a href="news-019.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="行业动态">
+<div class="news-img"><img src="images/yttp/yacht-139.jpg" alt="戛纳游艇节2025：中国参展商数量创历史新高"></div>
+<div class="news-body">
+<div class="news-meta"><span>2025.03.10</span><span>行业动态</span></div>
+<h3>戛纳游艇节2025：中国参展商数量创历史新高</h3>
+<p>中国参展商达到25家，奇幻假期作为中国领军企业精彩亮相。</p>
+<a href="news-020.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="品牌动态">
+<div class="news-img"><img src="images/yttp/yacht-140.jpg" alt="奇幻假期荣获2024年度中国最佳游艇服务商称号"></div>
+<div class="news-body">
+<div class="news-meta"><span>2024.12.25</span><span>品牌动态</span></div>
+<h3>奇幻假期荣获2024年度中国最佳游艇服务商称号</h3>
+<p>这是品牌连续第二年获得这一行业最高荣誉。</p>
+<a href="news-021.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="航海生活">
+<div class="news-img"><img src="images/yttp/yacht-141.jpg" alt="马尔代夫游艇巡航：探寻印度洋上的明珠"></div>
+<div class="news-body">
+<div class="news-meta"><span>2024.10.15</span><span>航海生活</span></div>
+<h3>马尔代夫游艇巡航：探寻印度洋上的明珠</h3>
+<p>马尔代夫拥有全球最美的海岛风光，是游艇巡航的理想目的地。</p>
+<a href="news-022.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="品牌动态">
+<div class="news-img"><img src="images/yttp/yacht-142.jpg" alt="奇幻假期与中东皇室签署超级游艇定制协议"></div>
+<div class="news-body">
+<div class="news-meta"><span>2024.08.20</span><span>品牌动态</span></div>
+<h3>奇幻假期与中东皇室签署超级游艇定制协议</h3>
+<p>合同金额超过5亿人民币，创下品牌单笔订单纪录。</p>
+<a href="news-023.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="行业动态">
+<div class="news-img"><img src="images/yttp/yacht-143.jpg" alt="国际海事组织新排放标准正式生效"></div>
+<div class="news-body">
+<div class="news-meta"><span>2024.06.15</span><span>行业动态</span></div>
+<h3>国际海事组织新排放标准正式生效</h3>
+<p>游艇行业加速绿色转型，新能源游艇迎来发展机遇。</p>
+<a href="news-024.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="品牌动态">
+<div class="news-img"><img src="images/yttp/yacht-144.jpg" alt="奇幻假期完成A轮融资，融资金额1.2亿人民币"></div>
+<div class="news-body">
+<div class="news-meta"><span>2024.04.10</span><span>品牌动态</span></div>
+<h3>奇幻假期完成A轮融资，融资金额1.2亿人民币</h3>
+<p>将用于业务扩张和团队建设，增设深圳、三亚、青岛运营中心。</p>
+<a href="news-025.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="航海生活">
+<div class="news-img"><img src="images/yttp/yacht-145.jpg" alt="环球航行实录：365天，35个国家，一个人的海上传奇"></div>
+<div class="news-body">
+<div class="news-meta"><span>2024.03.05</span><span>航海生活</span></div>
+<h3>环球航行实录：365天，35个国家，一个人的海上传奇</h3>
+<p>奇幻假期客户张先生独自驾驶62米游艇完成环球航行。</p>
+<a href="news-026.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="行业动态">
+<div class="news-img"><img src="images/yttp/yacht-146.jpg" alt="中国游艇保有量突破5,000艘，上海居首"></div>
+<div class="news-body">
+<div class="news-meta"><span>2024.02.20</span><span>行业动态</span></div>
+<h3>中国游艇保有量突破5,000艘，上海居首</h3>
+<p>中国大陆游艇保有量首次突破5,000艘，上海以850艘位居城市首位。</p>
+<a href="news-027.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="品牌动态">
+<div class="news-img"><img src="images/yttp/yacht-147.jpg" alt="奇幻假期发布智能游艇管理系统iYacht 2.0"></div>
+<div class="news-body">
+<div class="news-meta"><span>2024.01.15</span><span>品牌动态</span></div>
+<h3>奇幻假期发布智能游艇管理系统iYacht 2.0</h3>
+<p>实现游艇远程监控、故障预警、维护提醒等功能。</p>
+<a href="news-028.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="品牌动态">
+<div class="news-img"><img src="images/yttp/yacht-148.jpg" alt="奇幻假期2023年度业绩突破5亿，同比翻番"></div>
+<div class="news-body">
+<div class="news-meta"><span>2023.12.20</span><span>品牌动态</span></div>
+<h3>奇幻假期2023年度业绩突破5亿，同比翻番</h3>
+<p>全年营收突破5亿人民币，各项业务均实现高速增长。</p>
+<a href="news-029.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="航海生活">
+<div class="news-img"><img src="images/yttp/yacht-149.jpg" alt="爱琴海游艇假期：希腊群岛完美行程推荐"></div>
+<div class="news-body">
+<div class="news-meta"><span>2023.08.15</span><span>航海生活</span></div>
+<h3>爱琴海游艇假期：希腊群岛完美行程推荐</h3>
+<p>希腊群岛拥有数千个岛屿和世界上最美的日落。</p>
+<a href="news-030.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="品牌动态">
+<div class="news-img"><img src="images/yttp/yacht-150.jpg" alt="奇幻假期正式成立，开启中国游艇服务新篇章"></div>
+<div class="news-body">
+<div class="news-meta"><span>2023.05.10</span><span>品牌动态</span></div>
+<h3>奇幻假期正式成立，开启中国游艇服务新篇章</h3>
+<p>致力于为中国游艇爱好者提供世界级的服务体验。</p>
+<a href="news-031.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="行业动态">
+<div class="news-img"><img src="images/yttp/yacht-151.jpg" alt="全球超级游艇订单量创历史新高"></div>
+<div class="news-body">
+<div class="news-meta"><span>2022.11.20</span><span>行业动态</span></div>
+<h3>全球超级游艇订单量创历史新高</h3>
+<p>2022年全球超级游艇订单量达到1,200艘，亚太地区贡献超过15%。</p>
+<a href="news-032.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="行业动态">
+<div class="news-img"><img src="images/yttp/yacht-152.jpg" alt="疫情下的游艇行业：私人游艇需求逆势上涨"></div>
+<div class="news-body">
+<div class="news-meta"><span>2020.03.15</span><span>行业动态</span></div>
+<h3>疫情下的游艇行业：私人游艇需求逆势上涨</h3>
+<p>私人游艇因私密、安全的特点，需求逆势上涨。</p>
+<a href="news-033.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="行业动态">
+<div class="news-img"><img src="images/yttp/yacht-153.jpg" alt="中国游艇产业政策松绑，游艇驾照考试简化"></div>
+<div class="news-body">
+<div class="news-meta"><span>2018.06.20</span><span>行业动态</span></div>
+<h3>中国游艇产业政策松绑，游艇驾照考试简化</h3>
+<p>多项政策松绑，促进游艇产业快速发展。</p>
+<a href="news-034.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="行业动态">
+<div class="news-img"><img src="images/yttp/yacht-154.jpg" alt="首届中国游艇产业发展论坛在三亚举行"></div>
+<div class="news-body">
+<div class="news-meta"><span>2015.09.10</span><span>行业动态</span></div>
+<h3>首届中国游艇产业发展论坛在三亚举行</h3>
+<p>标志着中国游艇产业进入规范化发展阶段。</p>
+<a href="news-035.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="行业动态">
+<div class="news-img"><img src="images/yttp/yacht-155.jpg" alt="上海世博会游艇展区：中国游艇产业首次亮相国际舞台"></div>
+<div class="news-body">
+<div class="news-meta"><span>2010.05.15</span><span>行业动态</span></div>
+<h3>上海世博会游艇展区：中国游艇产业首次亮相国际舞台</h3>
+<p>中国游艇产业首次在国际大型活动中亮相。</p>
+<a href="news-036.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="行业动态">
+<div class="news-img"><img src="images/yttp/yacht-156.jpg" alt="北京奥运会帆船比赛：中国帆船运动迎来发展契机"></div>
+<div class="news-body">
+<div class="news-meta"><span>2008.08.20</span><span>行业动态</span></div>
+<h3>北京奥运会帆船比赛：中国帆船运动迎来发展契机</h3>
+<p>中国选手殷剑夺得女子帆板金牌，推动帆船运动普及。</p>
+<a href="news-037.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="行业动态">
+<div class="news-img"><img src="images/yttp/yacht-157.jpg" alt="中国首批游艇俱乐部成立，游艇文化萌芽"></div>
+<div class="news-body">
+<div class="news-meta"><span>2005.03.10</span><span>行业动态</span></div>
+<h3>中国首批游艇俱乐部成立，游艇文化萌芽</h3>
+<p>上海、深圳、三亚等地成立首批游艇俱乐部。</p>
+<a href="news-038.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="行业动态">
+<div class="news-img"><img src="images/yttp/yacht-158.jpg" alt="中国首艘国产游艇下线，打破进口垄断"></div>
+<div class="news-body">
+<div class="news-meta"><span>2002.06.15</span><span>行业动态</span></div>
+<h3>中国首艘国产游艇下线，打破进口垄断</h3>
+<p>中国首艘自主设计和制造的游艇在珠海下线。</p>
+<a href="news-039.html" class="news-link">阅读全文 →</a>
+</div>
+</div>
+<div class="news-card reveal" data-category="行业动态">
+<div class="news-img"><img src="images/yttp/yacht-159.jpg" alt="千禧年：中国游艇产业元年"></div>
+<div class="news-body">
+<div class="news-meta"><span>2000.01.01</span><span>行业动态</span></div>
+<h3>千禧年：中国游艇产业元年</h3>
+<p>随着中国加入WTO和经济快速发展，游艇开始进入中国市场。</p>
+<a href="news-040.html" class="news-link">阅读全文 →</a>
 </div>
 </div>
 </div>
-
-<div style="text-align:center;margin-top:48px" class="reveal"><a href="contact.html" class="btn btn-outline">订阅资讯邮件</a></div>
+<div class="load-more reveal"><a href="contact.html" class="btn btn-outline">订阅资讯邮件</a></div>
 </div></section>
 
 <footer id="footer"><div class="container"><div class="footer-grid">
-<div class="footer-brand"><a href="index.html" class="nav-logo">FANTASY HOLIDAY</a><p>奇幻假期实业有限公司</p></div>
+<div class="footer-brand"><a href="index.html" class="nav-logo">FANTASTIC VACATION</a><p>奇幻假期实业有限公司</p><p style="font-size:12px;color:var(--text-muted);margin-top:8px">✉️ fantastic.vacation@yahoo.com</p></div>
 <div class="footer-col"><h4>快速导航</h4><ul><li><a href="index.html">首页</a></li><li><a href="about.html">关于我们</a></li><li><a href="yachts.html">游艇产品</a></li><li><a href="contact.html">联系我们</a></li></ul></div>
-<div class="footer-col"><h4>联系方式</h4><ul><li>📞 +86 400-888-9999</li><li>✉️ news@fantasyholiday.com</li></ul></div>
-</div><div class="footer-bottom"><p>© 2026 奇幻假期实业有限公司</p></div></div></footer>
+<div class="footer-col"><h4>联系方式</h4><ul><li>📞 +86 400-888-9999</li><li>✉️ fantastic.vacation@yahoo.com</li></ul></div>
+</div><div class="footer-bottom"><p>© 2026 奇幻假期实业有限公司 fantastic.vacation</p></div></div></footer>
 
-
+<script src="script.js"></script>
 <script>
-window.addEventListener("DOMContentLoaded",function(){
-var loader=document.getElementById("loader");
-if(!loader)return;
-var progressEl=document.getElementById("progress");
-var progress=0;
-var interval=setInterval(function(){progress+=Math.random()*12+8;if(progress>=100){progress=100;clearInterval(interval);if(progressEl)progressEl.style.width="100%";setTimeout(function(){if(loader)loader.style.display="none";document.body.style.overflow=""},400)}else if(progressEl)progressEl.style.width=progress+"%"},180);
-setTimeout(function(){clearInterval(interval);if(loader)loader.style.display="none";document.body.style.overflow=""},5000);
+// 筛选功能
+document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        const filter = this.dataset.filter;
+        document.querySelectorAll('.news-card').forEach(card => {
+            if (filter === 'all' || card.dataset.category === filter) {
+                card.style.display = 'block';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    });
 });
-window.addEventListener("scroll",function(){var nav=document.getElementById("navbar");if(window.scrollY>50)nav.classList.add("scrolled");else nav.classList.remove("scrolled")});
-function toggleMobile(){document.getElementById("mobile-menu").classList.toggle("active");document.querySelector(".hamburger").classList.toggle("active")}
-(function(){var c=document.getElementById("cursor");if(c)document.addEventListener("mousemove",function(e){c.style.left=e.pageX+"px";c.style.top=e.pageY+"px"})})();
-(function(){var o=new IntersectionObserver(function(e){e.forEach(function(e){if(e.isIntersecting)e.target.classList.add("revealed")})},{threshold:0.1});document.querySelectorAll(".reveal,.reveal-left,.reveal-right,.reveal-scale").forEach(function(e){o.observe(e)})})();
 </script>
 </body></html>
