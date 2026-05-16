@@ -610,49 +610,6 @@ let progress=0;const progressEl=document.getElementById('progress');const loader
 function handleCustomSubmit(e) {
     e.preventDefault();
     var form = document.getElementById('customForm');
-    var name = document.getElementById('custom_name').value.trim() || '未填写';
-    var phone = document.getElementById('custom_phone').value.trim() || '未填写';
-    var series = document.getElementById('custom_series').value || '未选择';
-    var budget = document.getElementById('custom_budget').value.trim() || '未填写';
-    var scene = document.getElementById('custom_scene').value.trim() || '未填写';
-    var notes = document.getElementById('custom_notes').value.trim() || '无';
-
-    if (!name || name === '未填写') { alert('请填写您的姓名'); return false; }
-    if (!phone || phone === '未填写' || phone.length < 7) { alert('请填写有效的联系电话'); return false; }
-
-    var subject = encodeURIComponent('🛥️ 游艇定制咨询 - ' + name);
-    var body = encodeURIComponent(
-        '您好，我想咨询游艇定制服务：\n' +
-        '\n📋 定制需求信息：' +
-        '\n------------------------' +
-        '\n👤 姓名：' + name +
-        '\n📱 电话：' + phone +
-        '\n🚢 船型系列：' + series +
-        '\n💰 预算区间：' + budget + ' 万元' +
-        '\n🎯 使用场景：' + scene +
-        '\n📝 其他需求：' + notes +
-        '\n------------------------' +
-        '\n此邮件由奇幻假期官网定制服务表单自动生成'
-    );
-
-    window.location.href = 'mailto:fantastic.vacation@yahoo.com?subject=' + subject + '&body=' + body;
-    
-    var btn = form.querySelector('.btn-submit');
-    btn.textContent = '✓ 正在打开邮箱...';
-    btn.style.background = 'linear-gradient(135deg,#2d5a27,#4a8c3f)';
-    setTimeout(function(){ 
-        btn.textContent = '获取定制方案报价 →'; 
-        btn.style.background = '';
-    }, 3000);
-    
-    return false;
-}
-</script>
-
-<script>
-function handleCustomSubmit(e) {
-    e.preventDefault();
-    var form = document.getElementById('customForm');
     var btn = form.querySelector('.btn-submit');
     btn.disabled = true;
     btn.textContent = '提交中...';
@@ -676,5 +633,9 @@ function handleCustomSubmit(e) {
     
     return false;
 }
+</script>
+
+<script>
+
 </script>
 </body></html>
