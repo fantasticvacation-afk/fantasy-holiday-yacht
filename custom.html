@@ -561,11 +561,11 @@
 <h2 class="reveal"><span class="gold-gradient">开启您的定制之旅</span></h2>
 <p class="reveal">留下您的需求，专属定制顾问将在24小时内为您提供初步方案与报价</p>
 <div class="cta-form reveal">
-<form onsubmit="event.preventDefault(); this.submitBtn.disabled=true; this.submitBtn.textContent='提交中...'; setTimeout(()=>{this.submitBtn.textContent='✓ 提交成功！我们将尽快联系您';this.submitBtn.style.background='linear-gradient(135deg,#2d5a27,#4a8c3f)'},1500)">
+<form id="customForm" onsubmit="return handleCustomSubmit(event)">
 <div class="form-grid">
-<input type="text" class="form-input" placeholder="您的姓名" required>
-<input type="tel" class="form-input" placeholder="联系电话" required>
-<select class="form-select form-field-full" required>
+<input type="text" name="name" id="custom_name" class="form-input" placeholder="您的姓名" required>
+<input type="tel" name="phone" id="custom_phone" class="form-input" placeholder="联系电话" required>
+<select name="series" id="custom_series" class="form-select form-field-full" required>
 <option value="">选择感兴趣的船型系列</option>
 <option>君临系列 60-120M 超级游艇</option>
 <option>远征系列 40-70M 远航游艇</option>
@@ -573,9 +573,9 @@
 <option>日间系列 10-18M 运动游艇</option>
 <option>尚未确定，需要专业建议</option>
 </select>
-<input type="text" class="form-input" placeholder="预算区间（万元）">
-<input type="text" class="form-input" placeholder="计划使用场景（如：家庭度假/商务接待/海钓运动）">
-<textarea class="form-textarea" placeholder="请描述您的定制需求或特殊要求（可选）..."></textarea>
+<input type="text" name="budget" id="custom_budget" class="form-input" placeholder="预算区间（万元）">
+<input type="text" name="scene" id="custom_scene" class="form-input" placeholder="计划使用场景（如：家庭度假/商务接待/海钓运动）">
+<textarea name="notes" id="custom_notes" class="form-textarea" placeholder="请描述您的定制需求或特殊要求（可选）..."></textarea>
 </div>
 <button type="submit" name="submitBtn" class="btn-submit">获取定制方案报价 →</button>
 </form>
@@ -602,5 +602,48 @@ function animateCounter(el){const t=parseInt(el.dataset.count);const d=2000;cons
 function initCounters(){const obs=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting){animateCounter(x.target);obs.unobserve(x.target)}})},{threshold:0.5});document.querySelectorAll('[data-count]').forEach(el=>obs.observe(el))}
 document.addEventListener('DOMContentLoaded',()=>{initReveal();initCounters()});
 let progress=0;const progressEl=document.getElementById('progress');const loaderInterval=setInterval(()=>{progress+=Math.random()*15+5;if(progress>=100){progress=100;clearInterval(loaderInterval);setTimeout(()=>{document.getElementById('loader').classList.add('hidden');},500)}progressEl.style.width=progress+'%';},200);
+</script>
+
+<script>
+function handleCustomSubmit(e) {
+    e.preventDefault();
+    var form = document.getElementById('customForm');
+    var name = document.getElementById('custom_name').value.trim() || '未填写';
+    var phone = document.getElementById('custom_phone').value.trim() || '未填写';
+    var series = document.getElementById('custom_series').value || '未选择';
+    var budget = document.getElementById('custom_budget').value.trim() || '未填写';
+    var scene = document.getElementById('custom_scene').value.trim() || '未填写';
+    var notes = document.getElementById('custom_notes').value.trim() || '无';
+
+    if (!name || name === '未填写') { alert('请填写您的姓名'); return false; }
+    if (!phone || phone === '未填写' || phone.length < 7) { alert('请填写有效的联系电话'); return false; }
+
+    var subject = encodeURIComponent('🛥️ 游艇定制咨询 - ' + name);
+    var body = encodeURIComponent(
+        '您好，我想咨询游艇定制服务：\n' +
+        '\n📋 定制需求信息：' +
+        '\n------------------------' +
+        '\n👤 姓名：' + name +
+        '\n📱 电话：' + phone +
+        '\n🚢 船型系列：' + series +
+        '\n💰 预算区间：' + budget + ' 万元' +
+        '\n🎯 使用场景：' + scene +
+        '\n📝 其他需求：' + notes +
+        '\n------------------------' +
+        '\n此邮件由奇幻假期官网定制服务表单自动生成'
+    );
+
+    window.location.href = 'mailto:fantastic.vacation@yahoo.com?subject=' + subject + '&body=' + body;
+    
+    var btn = form.querySelector('.btn-submit');
+    btn.textContent = '✓ 正在打开邮箱...';
+    btn.style.background = 'linear-gradient(135deg,#2d5a27,#4a8c3f)';
+    setTimeout(function(){ 
+        btn.textContent = '获取定制方案报价 →'; 
+        btn.style.background = '';
+    }, 3000);
+    
+    return false;
+}
 </script>
 </body></html>
