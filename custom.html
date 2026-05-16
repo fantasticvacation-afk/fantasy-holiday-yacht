@@ -20,22 +20,20 @@
 .sec-header h2{font-family:'Playfair Display',serif;font-size:clamp(28px,3.5vw,40px);font-weight:700;margin-bottom:12px}
 .sec-header .sec-sub{font-size:15px;color:var(--text-dim);max-width:600px;margin:0 auto;line-height:1.7}
 .timeline-section{padding:100px 0;background:var(--dark1)}
-.timeline{position:relative;max-width:1000px;margin:0 auto}
-.timeline::before{content:'';position:absolute;left:50%;top:0;bottom:0;width:2px;background:linear-gradient(to bottom,transparent,var(--gold),transparent);transform:translateX(-50%)}
-.timeline-item{display:flex;align-items:flex-start;margin-bottom:80px;position:relative}
-.timeline-item:nth-child(even){flex-direction:row-reverse}
-.timeline-item:last-child{margin-bottom:0}
-.timeline-content{width:calc(50% - 48px);background:var(--card);border:1px solid var(--glass-border);border-radius:16px;padding:36px;position:relative;transition:all .4s}
-.timeline-content:hover{border-color:rgba(201,169,110,0.3);transform:translateY(-4px);box-shadow:0 20px 60px rgba(0,0,0,0.3)}
-.timeline-img{width:calc(50% - 48px);border-radius:16px;overflow:hidden;aspect-ratio:16/10}
-.timeline-img img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
-.timeline-node{position:absolute;left:50%;top:36px;transform:translateX(-50%);width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,var(--gold-dark),var(--gold));color:var(--dark1);display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:20px;font-weight:700;z-index:2;box-shadow:0 0 30px rgba(201,169,110,0.3)}
-.timeline-step{font-size:11px;color:var(--gold);letter-spacing:2px;text-transform:uppercase;margin-bottom:8px;font-weight:600}
-.timeline-title{font-family:'Playfair Display',serif;font-size:22px;font-weight:700;margin-bottom:12px}
-.timeline-desc{font-size:14px;color:var(--text-dim);line-height:1.8;margin-bottom:16px}
-.timeline-details{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.timeline-detail{font-size:12px;color:var(--text-muted);padding:8px 12px;background:rgba(201,169,110,0.05);border:1px solid rgba(201,169,110,0.1);border-radius:8px}
-.timeline-detail::before{content:'\2726 ';color:var(--gold);font-size:10px}
+.process-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;max-width:1200px;margin:0 auto}
+.process-card{background:var(--card);border:1px solid var(--glass-border);border-radius:16px;overflow:hidden;transition:all .4s;display:flex;flex-direction:column}
+.process-card:hover{border-color:rgba(201,169,110,0.3);transform:translateY(-6px);box-shadow:0 20px 60px rgba(0,0,0,0.3)}
+.process-card-img{aspect-ratio:16/9;overflow:hidden;position:relative}
+.process-card-img img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.process-card:hover .process-card-img img{transform:scale(1.06)}
+.process-card-img .step-badge{position:absolute;top:14px;left:14px;width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,var(--gold-dark),var(--gold));color:var(--dark1);display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:18px;font-weight:700;box-shadow:0 4px 20px rgba(201,169,110,0.4);z-index:2}
+.process-card-body{padding:24px;flex:1;display:flex;flex-direction:column}
+.process-card-body .step-label{font-size:11px;color:var(--gold);letter-spacing:2px;text-transform:uppercase;margin-bottom:6px;font-weight:600}
+.process-card-body h3{font-family:'Playfair Display',serif;font-size:20px;font-weight:700;margin-bottom:10px}
+.process-card-body .step-desc{font-size:13px;color:var(--text-dim);line-height:1.7;margin-bottom:14px}
+.process-card-body .step-details{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:auto}
+.step-detail{font-size:11px;color:var(--text-muted);padding:6px 10px;background:rgba(201,169,110,0.05);border:1px solid rgba(201,169,110,0.1);border-radius:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.step-detail::before{content:'\2726 ';color:var(--gold);font-size:9px}
 .features-section{padding:100px 0;background:var(--dark2)}
 .features-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:28px;max-width:1100px;margin:0 auto}
 .feature-card{background:var(--card);border:1px solid var(--glass-border);border-radius:16px;overflow:hidden;transition:all .4s}
@@ -63,16 +61,15 @@
 .cta-section{padding:100px 0;text-align:center;background:linear-gradient(180deg,var(--dark1),var(--dark2))}
 .cta-section h2{font-family:'Playfair Display',serif;font-size:clamp(28px,3.5vw,42px);margin-bottom:16px}
 .cta-section p{font-size:15px;color:var(--text-dim);margin-bottom:36px;max-width:500px;margin-left:auto;margin-right:auto}
+@media(max-width:1024px){
+  .process-grid{grid-template-columns:repeat(2,1fr)}
+}
 @media(max-width:768px){
-  .timeline::before{left:28px}
-  .timeline-item,.timeline-item:nth-child(even){flex-direction:column;padding-left:72px}
-  .timeline-content,.timeline-img{width:100%}
-  .timeline-img{margin-bottom:16px;aspect-ratio:16/9}
-  .timeline-node{left:28px;top:0}
+  .process-grid{grid-template-columns:1fr}
   .case-card{grid-template-columns:1fr}
   .case-img{min-height:260px}
   .custom-hero .hero-stats{gap:24px}
-  .timeline-details{grid-template-columns:1fr}
+  .step-details{grid-template-columns:1fr}
 }
 </style>
 </head><body>
@@ -110,102 +107,96 @@
 <div class="divider-gold"></div>
 <p class="sec-sub">从最初的概念草图到最终的海上交付，奇幻假期的定制服务涵盖游艇诞生的每一个环节</p>
 </div>
-<div class="timeline">
+<div class="process-grid">
 
-<div class="timeline-item reveal">
-<div class="timeline-content">
-<div class="timeline-step">STEP 01</div>
-<h3 class="timeline-title">专属咨询</h3>
-<p class="timeline-desc">资深游艇顾问一对一深度沟通，全面了解您的航海愿景与审美偏好，定制专属方案蓝图。</p>
-<div class="timeline-details">
-<div class="timeline-detail">一对一需求调研</div>
-<div class="timeline-detail">航海愿景与生活方式访谈</div>
-<div class="timeline-detail">预算与使用场景规划</div>
-<div class="timeline-detail">初步方案沟通与预期管理</div>
+<div class="process-card reveal">
+<div class="process-card-img"><img src="images/yttp/yacht-095.jpg" alt="专属咨询"><div class="step-badge">1</div></div>
+<div class="process-card-body">
+<div class="step-label">STEP 01</div>
+<h3>专属咨询</h3>
+<p class="step-desc">资深游艇顾问一对一深度沟通，全面了解您的航海愿景与审美偏好，定制专属方案蓝图。</p>
+<div class="step-details">
+<div class="step-detail">一对一需求调研</div>
+<div class="step-detail">航海愿景与生活方式访谈</div>
+<div class="step-detail">预算与使用场景规划</div>
+<div class="step-detail">初步方案沟通与预期管理</div>
 </div>
 </div>
-<div class="timeline-img"><img src="images/yttp/yacht-095.jpg" alt="专属咨询"></div>
-<div class="timeline-node">1</div>
-</div>
-
-<div class="timeline-item reveal">
-<div class="timeline-content">
-<div class="timeline-step">STEP 02</div>
-<h3 class="timeline-title">概念设计</h3>
-<p class="timeline-desc">国际顶级游艇设计师执笔，从外观线条到内饰空间，全方位呈现梦想之艇的完整蓝图。</p>
-<div class="timeline-details">
-<div class="timeline-detail">船型选择与流体优化</div>
-<div class="timeline-detail">外观风格与色彩设计</div>
-<div class="timeline-detail">内饰主题与空间规划</div>
-<div class="timeline-detail">3D效果图与VR全景预览</div>
-</div>
-</div>
-<div class="timeline-img"><img src="images/yttp/yacht-108.jpg" alt="概念设计"></div>
-<div class="timeline-node">2</div>
 </div>
 
-<div class="timeline-item reveal">
-<div class="timeline-content">
-<div class="timeline-step">STEP 03</div>
-<h3 class="timeline-title">材质甄选</h3>
-<p class="timeline-desc">意大利顶级皮革、缅甸百年柚木、瑞士精密仪器——全球顶级材料供应商为您精挑细选每一种材质。</p>
-<div class="timeline-details">
-<div class="timeline-detail">顶级皮革/木材/金属材质库</div>
-<div class="timeline-detail">环保材料与绿色方案</div>
-<div class="timeline-detail">色彩搭配与纹理系统</div>
-<div class="timeline-detail">材质打样与确认流程</div>
+<div class="process-card reveal">
+<div class="process-card-img"><img src="images/yttp/yacht-108.jpg" alt="概念设计"><div class="step-badge">2</div></div>
+<div class="process-card-body">
+<div class="step-label">STEP 02</div>
+<h3>概念设计</h3>
+<p class="step-desc">国际顶级游艇设计师执笔，从外观线条到内饰空间，全方位呈现梦想之艇的完整蓝图。</p>
+<div class="step-details">
+<div class="step-detail">船型选择与流体优化</div>
+<div class="step-detail">外观风格与色彩设计</div>
+<div class="step-detail">内饰主题与空间规划</div>
+<div class="step-detail">3D效果图与VR全景预览</div>
 </div>
 </div>
-<div class="timeline-img"><img src="images/yttp/yacht-283.jpg" alt="材质甄选"></div>
-<div class="timeline-node">3</div>
-</div>
-
-<div class="timeline-item reveal">
-<div class="timeline-content">
-<div class="timeline-step">STEP 04</div>
-<h3 class="timeline-title">精密建造</h3>
-<p class="timeline-desc">自有船厂与全球顶级合作船坞联合建造，航天级焊接工艺，每一个连接点都经过严苛品控。</p>
-<div class="timeline-details">
-<div class="timeline-detail">船坞选择与建造周期规划</div>
-<div class="timeline-detail">航天级建造工艺标准</div>
-<div class="timeline-detail">全程质量管控体系</div>
-<div class="timeline-detail">关键节点验收与进度汇报</div>
-</div>
-</div>
-<div class="timeline-img"><img src="images/yttp/yacht-295.jpg" alt="精密建造"></div>
-<div class="timeline-node">4</div>
 </div>
 
-<div class="timeline-item reveal">
-<div class="timeline-content">
-<div class="timeline-step">STEP 05</div>
-<h3 class="timeline-title">海试交付</h3>
-<p class="timeline-desc">严苛的72小时海上试航，全方位性能检测与设备调试，确保每一个细节都臻于完美。</p>
-<div class="timeline-details">
-<div class="timeline-detail">72小时海上性能测试</div>
-<div class="timeline-detail">全船设备调试与优化</div>
-<div class="timeline-detail">交付培训与操作指导</div>
-<div class="timeline-detail">专属交付仪式与庆典</div>
+<div class="process-card reveal">
+<div class="process-card-img"><img src="images/yttp/yacht-283.jpg" alt="材质甄选"><div class="step-badge">3</div></div>
+<div class="process-card-body">
+<div class="step-label">STEP 03</div>
+<h3>材质甄选</h3>
+<p class="step-desc">意大利顶级皮革、缅甸百年柚木、瑞士精密仪器——全球顶级材料供应商为您精挑细选。</p>
+<div class="step-details">
+<div class="step-detail">顶级皮革/木材/金属材质库</div>
+<div class="step-detail">环保材料与绿色方案</div>
+<div class="step-detail">色彩搭配与纹理系统</div>
+<div class="step-detail">材质打样与确认流程</div>
 </div>
 </div>
-<div class="timeline-img"><img src="images/yttp/yacht-306.jpg" alt="海试交付"></div>
-<div class="timeline-node">5</div>
 </div>
 
-<div class="timeline-item reveal">
-<div class="timeline-content">
-<div class="timeline-step">STEP 06</div>
-<h3 class="timeline-title">终身陪伴</h3>
-<p class="timeline-desc">全球12座城市维保中心、7&#215;24小时海上应急响应、专属管家年度回访，终身守护您的航海生活。</p>
-<div class="timeline-details">
-<div class="timeline-detail">全球12座维保中心网络</div>
-<div class="timeline-detail">定期维护与年度体检计划</div>
-<div class="timeline-detail">升级改装与智能系统迭代</div>
-<div class="timeline-detail">专属管家7&#215;24响应</div>
+<div class="process-card reveal">
+<div class="process-card-img"><img src="images/yttp/yacht-295.jpg" alt="精密建造"><div class="step-badge">4</div></div>
+<div class="process-card-body">
+<div class="step-label">STEP 04</div>
+<h3>精密建造</h3>
+<p class="step-desc">自有船厂与全球顶级合作船坞联合建造，航天级焊接工艺，每一个连接点都经过严苛品控。</p>
+<div class="step-details">
+<div class="step-detail">船坞选择与建造周期规划</div>
+<div class="step-detail">航天级建造工艺标准</div>
+<div class="step-detail">全程质量管控体系</div>
+<div class="step-detail">关键节点验收与进度汇报</div>
 </div>
 </div>
-<div class="timeline-img"><img src="images/yttp/yacht-352.jpg" alt="终身陪伴"></div>
-<div class="timeline-node">6</div>
+</div>
+
+<div class="process-card reveal">
+<div class="process-card-img"><img src="images/yttp/yacht-306.jpg" alt="海试交付"><div class="step-badge">5</div></div>
+<div class="process-card-body">
+<div class="step-label">STEP 05</div>
+<h3>海试交付</h3>
+<p class="step-desc">严苛的72小时海上试航，全方位性能检测与设备调试，确保每一个细节都臻于完美。</p>
+<div class="step-details">
+<div class="step-detail">72小时海上性能测试</div>
+<div class="step-detail">全船设备调试与优化</div>
+<div class="step-detail">交付培训与操作指导</div>
+<div class="step-detail">专属交付仪式与庆典</div>
+</div>
+</div>
+</div>
+
+<div class="process-card reveal">
+<div class="process-card-img"><img src="images/yttp/yacht-352.jpg" alt="终身陪伴"><div class="step-badge">6</div></div>
+<div class="process-card-body">
+<div class="step-label">STEP 06</div>
+<h3>终身陪伴</h3>
+<p class="step-desc">全球12座城市维保中心、7&#215;24小时海上应急响应、专属管家年度回访，终身守护。</p>
+<div class="step-details">
+<div class="step-detail">全球12座维保中心网络</div>
+<div class="step-detail">定期维护与年度体检计划</div>
+<div class="step-detail">升级改装与智能系统迭代</div>
+<div class="step-detail">专属管家7&#215;24响应</div>
+</div>
+</div>
 </div>
 
 </div>
