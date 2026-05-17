@@ -153,7 +153,8 @@
 </head><body>
 <div id="loader"><div class="brand">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div><div class="progress-text">LOADING</div></div>
 <div class="cursor-follower" id="cursor"></div>
-<nav id="navbar"><div class="container"><div class="nav-inner">
+<nav id="navbar">
+  <div class="nav-inner">
     <!-- Logo -->
     <a href="index.html" class="nav-logo">
       <svg viewBox="0 0 32 32" width="32" height="32" fill="none">
@@ -169,7 +170,7 @@
 
       <!-- About Us - Dropdown -->
       <div class="nav-dropdown">
-        <a href="about.html" class="">关于我们 <span class="nav-arrow">▼</span></a>
+        <a href="about.html">关于我们 <span class="nav-arrow">▼</span></a>
         <div class="nav-dropdown-menu">
           <a href="about.html">公司简介</a>
           <a href="about.html#timeline">发展历程</a>
@@ -182,7 +183,7 @@
 
       <!-- Business - Dropdown -->
       <div class="nav-dropdown">
-        <a class="active" href="custom.html" class="">业务板块 <span class="nav-arrow">▼</span></a>
+        <a class="active" href="custom.html">业务板块 <span class="nav-arrow">▼</span></a>
         <div class="nav-dropdown-menu">
           <a href="custom.html">全案定制</a>
           <a href="charter.html">租赁航线</a>
@@ -193,7 +194,7 @@
 
       <!-- Products & Services - Dropdown -->
       <div class="nav-dropdown">
-        <a href="yachts.html" class="">产品与服务 <span class="nav-arrow">▼</span></a>
+        <a href="yachts.html">产品与服务 <span class="nav-arrow">▼</span></a>
         <div class="nav-dropdown-menu">
           <a href="yachts.html">全系游艇</a>
           <a href="custom.html">定制解决方案</a>
@@ -205,7 +206,7 @@
 
       <!-- News Center - Dropdown -->
       <div class="nav-dropdown">
-        <a href="news.html" class="">新闻中心 <span class="nav-arrow">▼</span></a>
+        <a href="news.html">新闻中心 <span class="nav-arrow">▼</span></a>
         <div class="nav-dropdown-menu">
           <a href="news.html">公司动态</a>
           <a href="news.html#industry">行业资讯</a>
@@ -215,7 +216,7 @@
       </div>
 
       <!-- Investor Relations -->
-      <a href="sitemap.html" class="">投资者关系</a>
+      <a href="sitemap.html">投资者关系</a>
 
       <!-- Contact Us -->
       <a href="contact.html" class="nav-cta-btn ">联系我们</a>
@@ -236,10 +237,76 @@
           <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
         </svg>
       </button>
-      <div class="hamburger" onclick="toggleMobile()"><span></span><span></span><span></span></div>
-</div></div></nav>
+      <div class="hamburger" onclick="toggleMobile()">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Search Overlay -->
+<div class="search-overlay" id="searchOverlay">
+  <div class="search-box">
+    <input type="text" class="search-input" placeholder="搜索产品、新闻、案例..." id="searchInput" autocomplete="off">
+    <button class="search-close" onclick="toggleSearch()">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+      </svg>
+    </button>
+  </div>
+  <div class="search-suggestions">
+    <div class="search-suggestion-item" onclick="window.location='yachts.html'">→ 探索全系游艇</div>
+    <div class="search-suggestion-item" onclick="window.location='custom.html'">→ 定制专属游艇</div>
+    <div class="search-suggestion-item" onclick="window.location='charter.html'">→ 浏览全球航线</div>
+    <div class="search-suggestion-item" onclick="window.location='contact.html'">→ 联系专业顾问</div>
+  </div>
+</div>
+
+<!-- Mobile Menu -->
 <div class="mobile-menu" id="mobile-menu">
-<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a><a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a><a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a><a href="contact.html">联系我们</a>
+  <button class="mobile-menu-close" onclick="toggleMobile()">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+    </svg>
+  </button>
+  <div class="mobile-menu-logo">
+    <svg viewBox="0 0 32 32" width="40" height="40" fill="none">
+      <path d="M4 24L16 4l12 20H4z" stroke="#c9a96e" stroke-width="1.5" fill="none"/>
+      <path d="M8 20h16l-8-12-8 12z" stroke="#c9a96e" stroke-width="1" fill="rgba(201,169,110,0.15)"/>
+    </svg>
+    <span>奇幻假期</span>
+  </div>
+  <a href="index.html" class="mobile-nav-link">首页</a>
+  <div class="mobile-nav-group">
+    <div class="mobile-nav-group-title">关于我们</div>
+    <a href="about.html" class="mobile-nav-link sub">公司简介</a>
+    <a href="about.html#timeline" class="mobile-nav-link sub">发展历程</a>
+    <a href="about.html#culture" class="mobile-nav-link sub">企业文化</a>
+    <a href="honors.html" class="mobile-nav-link sub">荣誉资质</a>
+  </div>
+  <div class="mobile-nav-group">
+    <div class="mobile-nav-group-title">业务板块</div>
+    <a href="custom.html" class="mobile-nav-link sub">全案定制</a>
+    <a href="charter.html" class="mobile-nav-link sub">租赁航线</a>
+    <a href="management.html" class="mobile-nav-link sub">托管维保</a>
+    <a href="partnership.html" class="mobile-nav-link sub">全球合作</a>
+  </div>
+  <div class="mobile-nav-group">
+    <div class="mobile-nav-group-title">产品与服务</div>
+    <a href="yachts.html" class="mobile-nav-link sub">全系游艇</a>
+    <a href="cases.html" class="mobile-nav-link sub">客户案例</a>
+  </div>
+  <div class="mobile-nav-group">
+    <div class="mobile-nav-group-title">新闻中心</div>
+    <a href="news.html" class="mobile-nav-link sub">公司动态</a>
+    <a href="press.html" class="mobile-nav-link sub">媒体报道</a>
+  </div>
+  <a href="sitemap.html" class="mobile-nav-link">投资者关系</a>
+  <a href="contact.html" class="mobile-nav-link mobile-cta">联系我们</a>
+  <div class="mobile-menu-footer">
+    <span>电话：0755-31530188</span>
+    <span>邮箱：hs@fantastic-vacation.com</span>
+  </div>
 </div>
 
 <!-- ========== HERO ========== -->
