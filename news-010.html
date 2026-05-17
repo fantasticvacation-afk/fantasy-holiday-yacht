@@ -60,4 +60,8 @@
 </div><div class="footer-bottom"><p>© 2026 奇幻假期实业有限公司 fantastic.vacation</p></div></div></footer>
 
 <script src="script.js"></script>
+<script>window.addEventListener("DOMContentLoaded",function(){var l=document.getElementById("loader");var p=document.getElementById("progress");var w=0;var t=setInterval(function(){w+=Math.random()*15;p.style.width=Math.min(w,"%");if(w>=100){clearInterval(t);l.classList.add("hidden")}},30)});
+window.addEventListener("scroll",function(){var n=document.getElementById("navbar");n.classList.toggle("scrolled",window.scrollY>80)});
+function toggleMobile(){document.getElementById("mobile-menu").classList.toggle("active");document.querySelector(".hamburger").classList.toggle("active")}
+(function(){var o=new IntersectionObserver(function(e){e.forEach(function(e){if(e.isIntersecting)e.target.classList.add("revealed")})},{threshold:0.1});document.querySelectorAll(".reveal").forEach(function(e){o.observe(e)})})();</script>
 </body></html>
