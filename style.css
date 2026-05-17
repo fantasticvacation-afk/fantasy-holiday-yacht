@@ -516,6 +516,8 @@ img{max-width:100%;display:block}
 /* Dropdown container */
 .nav-dropdown{
   position:relative;
+  /* Ensure dropdown can overflow */
+  overflow:visible !important;
 }
 .nav-dropdown:hover .nav-arrow{
   transform:rotate(180deg);
@@ -527,28 +529,26 @@ img{max-width:100%;display:block}
  */
 .nav-dropdown-menu{
   position:absolute;
-  top:calc(100% + 6px);
+  top:100%;
   left:50%;
-  transform:translateX(-50%) translateY(4px);
+  transform:translateX(-50%);
   background:#ffffff;
   border:1px solid #e2e8f0;
   border-radius:10px;
-  padding:8px 0;
+  padding:16px 0 8px 0;
   min-width:180px;
   opacity:0;
   visibility:hidden;
-  transition:opacity .2s ease, transform .2s ease, visibility .2s ease;
+  /* KEY: visibility has 0.25s delay when HIDING - gives mouse time to reach dropdown */
+  transition:opacity .25s ease, visibility 0s ease .25s;
   box-shadow:0 10px 36px rgba(0,0,0,.1);
   z-index:10000;
-  /* Prevent layout shift when shown */
   margin:0;
-  pointer-events:none;
 }
 .nav-dropdown:hover .nav-dropdown-menu{
   opacity:1;
   visibility:visible;
-  transform:translateX(-50%) translateY(0);
-  pointer-events:auto;
+  transition:opacity .2s ease, visibility 0s;
 }
 
 /* Dropdown items - same font as main nav */
@@ -820,6 +820,8 @@ body.dark-mode .nav-dropdown-menu{
   background:#1e293b;
   border-color:#334155;
   box-shadow:0 10px 36px rgba(0,0,0,.3);
+  /* Same hover bridge as light mode */
+  padding-top:16px !important;
 }
 body.dark-mode .nav-dropdown-menu a{
   color:#cbd5e1 !important;
@@ -874,46 +876,4 @@ body.dark-mode .search-suggestion-item:hover{background:#0f172a;color:#c9a96e}
   .footer-links{columns:1}
   .footer-bottom-inner{flex-direction:column;text-align:center;padding:0 20px}
   .copyright,.legal-links{text-align:center}
-}
-
-/* ===== NAVBAR FINAL OVERRIDE (must be last in file) =====
- * This loads AFTER all other rules.  Highest priority for equal-specificity.
- */
-#navbar,
-#navbar a,
-#navbar .nav-links > a,
-#navbar .nav-dropdown-menu a,
-#navbar .nav-logo-text {
-  font-family: Inter, 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
-}
-#navbar {
-  position: fixed !important;
-  top: 0 !important;
-  left: 0 !important;
-  right: 0 !important;
-  z-index: 9999 !important;
-  background: #ffffff !important;
-  border-bottom: 2px solid #94a3b8 !important;
-  height: 72px !important;
-}
-#navbar a,
-#navbar .nav-links > a,
-#navbar .nav-dropdown-menu a {
-  color: #111827 !important;
-  font-weight: 400 !important;
-  font-size: 14px !important;
-}
-#navbar .nav-logo-text {
-  color: #111827 !important;
-  font-weight: 600 !important;
-  font-size: 15px !important;
-}
-#navbar .nav-logo-text em {
-  color: #c9a96e !important;
-  font-weight: 500 !important;
-  font-size: 10px !important;
-}
-#navbar .nav-dropdown-menu {
-  background: #ffffff !important;
-  border: 1px solid #e2e8f0 !important;
 }
