@@ -57,8 +57,6 @@ img{max-width:100%;display:block}
 .nav-dropdown{position:relative}
 .nav-dropdown-menu{position:absolute;top:100%;left:50%;transform:translateX(-50%) translateY(10px);background:rgba(12,18,32,0.95);backdrop-filter:blur(20px);border:1px solid var(--glass-border);border-radius:var(--radius);padding:12px 0;min-width:220px;opacity:0;visibility:hidden;transition:var(--transition);box-shadow:var(--shadow)}
 .nav-dropdown:hover .nav-dropdown-menu{opacity:1;visibility:visible;transform:translateX(-50%) translateY(0)}
-.nav-dropdown-menu a{display:block;padding:10px 24px;font-size:12px;letter-spacing:1px;text-transform:uppercase}
-.nav-dropdown-menu a:hover{background:rgba(201,169,110,0.08);color:var(--gold)}
 .nav-cta{background:linear-gradient(135deg,var(--gold-dark),var(--gold));color:var(--dark1)!important;padding:10px 28px;border-radius:4px;font-weight:600;letter-spacing:1px!important;text-transform:uppercase!important;font-size:12px!important;transition:var(--transition)!important}
 .nav-cta:hover{transform:translateY(-2px);box-shadow:var(--shadow-gold)}
 .nav-cta::after{display:none!important}
@@ -416,8 +414,6 @@ img{max-width:100%;display:block}
 .compliance-page a:hover{text-decoration:underline}
 
 /* ==================== NEW NAVBAR (overrides old) ==================== */
-#navbar{position:fixed;top:0;left:0;right:0;z-index:1000;background:#fff;border-bottom:1px solid #e5e7eb;height:80px;transition:box-shadow .3s ease,border-color .3s ease}
-#navbar.scrolled{box-shadow:0 4px 24px rgba(0,0,0,.08);border-bottom-color:#d1d5db}
 .nav-inner{display:flex;align-items:center;justify-content:space-between;height:100%;padding:0 40px;max-width:1440px;margin:0 auto;width:100%;box-sizing:border-box}
 .nav-logo{display:flex;align-items:center;gap:12px;text-decoration:none;flex-shrink:0}
 .nav-logo-text{font-family:'Playfair Display',serif;font-size:16px;color:#1a1a2e;font-weight:700;letter-spacing:.5px;line-height:1.2}
@@ -428,11 +424,6 @@ img{max-width:100%;display:block}
 .nav-links>a.active{color:#c9a96e;font-weight:600;background:rgba(201,169,110,.08)}
 .nav-links>a::after{display:none!important}
 .nav-arrow{font-size:9px;margin-left:4px;opacity:.6}
-.nav-dropdown{position:relative}
-.nav-dropdown-menu{position:absolute;top:calc(100%+8px);left:50%;transform:translateX(-50%) translateY(8px);background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:8px 0;min-width:200px;opacity:0;visibility:hidden;transition:opacity .2s,transform .2s,visibility .2s;box-shadow:0 8px 32px rgba(0,0,0,.12);z-index:1001}
-.nav-dropdown:hover .nav-dropdown-menu{opacity:1;visibility:visible;transform:translateX(-50%) translateY(0)}
-.nav-dropdown-menu a{display:block;padding:10px 20px;font-size:13px;color:#374151;text-decoration:none;transition:color .15s,background .15s;border-radius:0}
-.nav-dropdown-menu a:hover{color:#c9a96e;background:rgba(201,169,110,.06)}
 .nav-cta-btn{display:inline-flex;align-items:center;padding:10px 24px;background:linear-gradient(135deg,#c9a96e,#a8893f);color:#fff!important;font-size:12px;font-weight:600;letter-spacing:1px;border-radius:8px;text-decoration:none;transition:transform .2s,box-shadow .2s;margin-left:8px;white-space:nowrap}
 .nav-cta-btn:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(201,169,110,.35);color:#fff}
 .nav-cta-btn::after{display:none!important}
@@ -505,7 +496,6 @@ body.dark-mode .search-suggestion-item:hover{background:#1e2d3d;color:#c9a96e}
 .footer-bottom-inner{padding:0 24px}
 }
 @media(max-width:768px){
-#navbar{height:60px}
 .nav-logo-text{font-size:14px}
 .nav-logo-text em{font-size:10px}
 .footer-main{padding-left:20px;padding-right:20px}
