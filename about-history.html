@@ -20,7 +20,84 @@
     </a>
 
     <!-- Main Navigation -->
-    <div class="nav-links"><a href="index.html">首页</a><div class="nav-dropdown"><a href="about.html" class="active">关于我们 <span>▼</span></a><div class="nav-dropdown-menu"><a href="about.html">公司简介</a><a href="about-history.html">发展历程</a><a href="about-culture.html">企业文化</a><a href="about-structure.html">组织架构</a><a href="honors.html">荣誉资质</a><a href="about-responsibility.html">社会责任</a></div></div><div class="nav-dropdown"><a href="custom.html">业务板块 <span>▼</span></a><div class="nav-dropdown-menu"><a href="custom.html">全案定制</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a><a href="partnership.html">全球合作</a></div></div><div class="nav-dropdown"><a href="yachts.html">产品与服务 <span>▼</span></a><div class="nav-dropdown-menu"><a href="yachts.html">全系游艇</a><a href="custom.html">定制方案</a><a href="charter.html">租赁服务</a><a href="management.html">托管服务</a><a href="cases.html">客户案例</a></div></div><div class="nav-dropdown"><a href="news.html">新闻中心 <span>▼</span></a><div class="nav-dropdown-menu"><a href="news.html">公司动态</a><a href="press.html">媒体报道</a></div></div><a href="ir.html">投资者关系</a><a href="contact.html" class="nav-cta">立即咨询</a></div></div></nav>
+    <div class="nav-links">
+      <a href="index.html">首页</a>
+
+      <!-- About Us - Dropdown -->
+      <div class="nav-dropdown">
+        <a href="about.html">关于我们 <span class="nav-arrow">▼</span></a>
+        <div class="nav-dropdown-menu">
+          <a href="about.html">公司简介</a>
+          <a href="about-history.html">发展历程</a>
+          <a href="about-culture.html">企业文化</a>
+          <a href="about-structure.html">组织架构</a>
+          <a href="honors.html">荣誉资质</a>
+          <a href="about-responsibility.html">社会责任</a>
+        </div>
+      </div>
+
+      <!-- Business - Dropdown -->
+      <div class="nav-dropdown">
+        <a href="custom.html">业务板块 <span class="nav-arrow">▼</span></a>
+        <div class="nav-dropdown-menu">
+          <a href="custom.html">全案定制</a>
+          <a href="charter.html">租赁航线</a>
+          <a href="management.html">托管维保</a>
+          <a href="partnership.html">全球合作</a>
+        </div>
+      </div>
+
+      <!-- Products & Services - Dropdown -->
+      <div class="nav-dropdown">
+        <a href="yachts.html">产品与服务 <span class="nav-arrow">▼</span></a>
+        <div class="nav-dropdown-menu">
+          <a href="yachts.html">全系游艇</a>
+          <a href="custom.html">定制解决方案</a>
+          <a href="charter.html">租赁服务</a>
+          <a href="management.html">托管服务</a>
+          <a href="cases.html">客户案例</a>
+        </div>
+      </div>
+
+      <!-- News Center - Dropdown -->
+      <div class="nav-dropdown">
+        <a href="news.html">新闻中心 <span class="nav-arrow">▼</span></a>
+        <div class="nav-dropdown-menu">
+          <a href="news.html">公司动态</a>
+          <a href="news.html#industry">行业资讯</a>
+          <a href="press.html">媒体报道</a>
+          <a href="news.html#announce">公告通知</a>
+        </div>
+      </div>
+
+      <!-- Investor Relations -->
+      <a href="sitemap.html">投资者关系</a>
+
+      <!-- Contact Us -->
+      <a href="contact.html" class="nav-cta-btn ">联系我们</a>
+    </div>
+
+    <!-- Right Actions -->
+    <div class="nav-actions">
+      <button class="nav-search-btn" onclick="toggleSearch()" title="搜索">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+        </svg>
+      </button>
+      <button class="nav-dark-toggle" onclick="toggleDarkMode()" title="深色模式" id="darkToggle">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-moon">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-sun" style="display:none">
+          <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+        </svg>
+      </button>
+      <div class="hamburger" onclick="toggleMobile()">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </div>
+</nav>
 
 <section class="page-hero" style="min-height:45vh;background:linear-gradient(135deg,#0d1520,#1a2740);display:flex;align-items:center;justify-content:center;padding:60px 20px;text-align:center;">
 <h1 style="font-family:'Playfair Display',serif;font-size:clamp(36px,5vw,64px);color:#c9a96e;">发展历程</h1>
