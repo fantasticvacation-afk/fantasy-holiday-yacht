@@ -875,3 +875,45 @@ body.dark-mode .search-suggestion-item:hover{background:#0f172a;color:#c9a96e}
   .footer-bottom-inner{flex-direction:column;text-align:center;padding:0 20px}
   .copyright,.legal-links{text-align:center}
 }
+
+/* ===== NAVBAR FINAL OVERRIDE (must be last in file) =====
+ * This loads AFTER all other rules.  Highest priority for equal-specificity.
+ */
+#navbar,
+#navbar a,
+#navbar .nav-links > a,
+#navbar .nav-dropdown-menu a,
+#navbar .nav-logo-text {
+  font-family: Inter, 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
+}
+#navbar {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 9999 !important;
+  background: #ffffff !important;
+  border-bottom: 2px solid #94a3b8 !important;
+  height: 72px !important;
+}
+#navbar a,
+#navbar .nav-links > a,
+#navbar .nav-dropdown-menu a {
+  color: #111827 !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+}
+#navbar .nav-logo-text {
+  color: #111827 !important;
+  font-weight: 600 !important;
+  font-size: 15px !important;
+}
+#navbar .nav-logo-text em {
+  color: #c9a96e !important;
+  font-weight: 500 !important;
+  font-size: 10px !important;
+}
+#navbar .nav-dropdown-menu {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+}
