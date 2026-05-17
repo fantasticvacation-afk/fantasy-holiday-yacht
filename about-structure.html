@@ -1,16 +1,17 @@
-<!DOCTYPE html><html lang="zh-CN"><head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>媒体报道 | 奇幻假期 fantastic.vacation 媒体新闻中心</title>
-<meta name="description" content="奇幻假期媒体报道：新浪财经、网易新闻、腾讯财经、凤凰网、游艇世界杂志等主流媒体对奇幻假期的报道与采访。">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>组织架构 | 奇幻假期</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-<style>.press-hero{position:relative;min-height:70vh;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(135deg,#0a1628 0%,#1a2a48 50%,#0d1a2d 100%)}.press-hero h1{font-family:'Playfair Display',serif;font-size:clamp(32px,5vw,56px);font-weight:800;letter-spacing:3px;margin-bottom:16px}.section-press{padding:80px 0}.press-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}.press-card{background:linear-gradient(145deg,rgba(255,255,255,0.02),rgba(255,255,255,0.005));border:1px solid rgba(201,169,110,0.08);border-radius:16px;padding:32px;transition:all 0.3s}.press-card:hover{border-color:rgba(201,169,110,0.25);transform:translateY(-3px)}.press-source{font-size:11px;color:#c9a96e;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:12px}.press-title{font-size:18px;font-weight:600;color:#e8eef5;margin-bottom:14px}.press-excerpt{font-size:13px;color:rgba(200,210,225,0.6);line-height:1.75;margin-bottom:16px}.press-date{font-size:11px;color:rgba(200,210,225,0.4)}@media (max-width:1024px){.press-grid{grid-template-columns:1fr}}
-</style></head><body>
-<div id="loader"><div class="brand">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div></div>
+</head>
+<body>
 <nav id="navbar">
   <div class="nav-inner">
     <!-- Logo -->
-    <a href="index.html" class="nav-logo">
+    <a class="active" href="index.html" class="nav-logo">
       <svg viewBox="0 0 32 32" width="32" height="32" fill="none">
         <path d="M4 24L16 4l12 20H4z" stroke="#c9a96e" stroke-width="1.5" fill="none"/>
         <path d="M8 20h16l-8-12-8 12z" stroke="#c9a96e" stroke-width="1" fill="rgba(201,169,110,0.15)"/>
@@ -24,7 +25,7 @@
 
       <!-- About Us - Dropdown -->
       <div class="nav-dropdown">
-        <a href="about-intro.html">关于我们 <span class="nav-arrow">▼</span></a>
+        <a href="about-intro.html" class="active">关于我们 <span class="nav-arrow">▼</span></a>
         <div class="nav-dropdown-menu">
           <a href="about-intro.html">公司简介</a>
           <a href="about.html#timeline">发展历程</a>
@@ -64,7 +65,7 @@
         <div class="nav-dropdown-menu">
           <a href="news.html">公司动态</a>
           <a href="news.html#industry">行业资讯</a>
-          <a class="active" href="press.html">媒体报道</a>
+          <a href="press.html">媒体报道</a>
           <a href="news.html#announce">公告通知</a>
         </div>
       </div>
@@ -98,92 +99,16 @@
   </div>
 </nav>
 
-<!-- Search Overlay -->
-<div class="search-overlay" id="searchOverlay">
-  <div class="search-box">
-    <input type="text" class="search-input" placeholder="搜索产品、新闻、案例..." id="searchInput" autocomplete="off">
-    <button class="search-close" onclick="toggleSearch()">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
-      </svg>
-    </button>
-  </div>
-  <div class="search-suggestions">
-    <div class="search-suggestion-item" onclick="window.location='yachts.html'">→ 探索全系游艇</div>
-    <div class="search-suggestion-item" onclick="window.location='custom.html'">→ 定制专属游艇</div>
-    <div class="search-suggestion-item" onclick="window.location='charter.html'">→ 浏览全球航线</div>
-    <div class="search-suggestion-item" onclick="window.location='contact.html'">→ 联系专业顾问</div>
-  </div>
+<section class="page-hero" style="min-height:45vh;background:linear-gradient(135deg,#0d1520,#1a2740);display:flex;align-items:center;justify-content:center;padding:60px 20px;">
+<div style="text-align:center;">
+<h1 style="font-family:'Playfair Display',serif;font-size:clamp(32px,4vw,56px);color:#c9a96e;">组织架构</h1>
+<p style="color:#94a3b8;margin-top:16px;font-size:18px;">奇幻假期 FANTASTIC VACATION</p>
 </div>
-
-<!-- Mobile Menu -->
-<div class="mobile-menu" id="mobile-menu">
-  <button class="mobile-menu-close" onclick="toggleMobile()">
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-      <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
-    </svg>
-  </button>
-  <div class="mobile-menu-logo">
-    <svg viewBox="0 0 32 32" width="40" height="40" fill="none">
-      <path d="M4 24L16 4l12 20H4z" stroke="#c9a96e" stroke-width="1.5" fill="none"/>
-      <path d="M8 20h16l-8-12-8 12z" stroke="#c9a96e" stroke-width="1" fill="rgba(201,169,110,0.15)"/>
-    </svg>
-    <span>奇幻假期</span>
-  </div>
-  <a href="index.html" class="mobile-nav-link">首页</a>
-  <div class="mobile-nav-group">
-    <div class="mobile-nav-group-title">关于我们</div>
-    <a href="about-intro.html" class="mobile-nav-link sub">公司简介</a>
-    <a href="about.html#timeline" class="mobile-nav-link sub">发展历程</a>
-    <a href="about.html#culture" class="mobile-nav-link sub">企业文化</a>
-    <a href="honors.html" class="mobile-nav-link sub">荣誉资质</a>
-  </div>
-  <div class="mobile-nav-group">
-    <div class="mobile-nav-group-title">业务板块</div>
-    <a href="custom.html" class="mobile-nav-link sub">全案定制</a>
-    <a href="charter.html" class="mobile-nav-link sub">租赁航线</a>
-    <a href="management.html" class="mobile-nav-link sub">托管维保</a>
-    <a href="partnership.html" class="mobile-nav-link sub">全球合作</a>
-  </div>
-  <div class="mobile-nav-group">
-    <div class="mobile-nav-group-title">产品与服务</div>
-    <a href="yachts.html" class="mobile-nav-link sub">全系游艇</a>
-    <a href="cases.html" class="mobile-nav-link sub">客户案例</a>
-  </div>
-  <div class="mobile-nav-group">
-    <div class="mobile-nav-group-title">新闻中心</div>
-    <a href="news.html" class="mobile-nav-link sub">公司动态</a>
-    <a href="press.html" class="mobile-nav-link sub">媒体报道</a>
-  </div>
-  <a href="sitemap.html" class="mobile-nav-link">投资者关系</a>
-  <a href="contact.html" class="mobile-nav-link mobile-cta">联系我们</a>
-  <div class="mobile-menu-footer">
-    <span>电话：0755-31530188</span>
-    <span>邮箱：hs@fantastic-vacation.com</span>
-  </div>
-</div>
-
-<section class="press-hero"><div class="container reveal">
-<h1><span class="gold-gradient">媒体报道</span></h1>
-<p>奇幻假期fantastic.vacation — 主流媒体持续关注的行业标杆</p>
-</div></section>
-
-<section class="section-press"><div class="container">
-<div class="press-grid">
-<div class="press-card reveal"><div class="press-source">新浪财经</div><div class="press-title">奇幻假期斩获亚洲最佳游艇服务商大奖</div><div class="press-excerpt">在2024年度亚洲游艇行业颁奖盛典上，奇幻假期凭借卓越的服务品质与创新能力，荣获"亚洲最佳游艇服务商"称号，成为中国首家获此殊荣的企业。</div><div class="press-date">2024年12月15日</div></div>
-
-<div class="press-card reveal"><div class="press-source">游艇世界杂志</div><div class="press-title">专访奇幻假期创始人：游艇行业的东方力量</div><div class="press-excerpt">从一家小型游艇租赁公司到亚洲顶级游艇服务集团，奇幻假期用10年时间书写了中国游艇行业的传奇。创始人接受本刊独家专访，分享成功背后的故事。</div><div class="press-date">2024年11月20日</div></div>
-
-<div class="press-card reveal"><div class="press-source">凤凰网财经</div><div class="press-title">奇幻假期82米超级游艇"幻蓝号"交付</div><div class="press-excerpt">国内首艘完全自主设计的80米以上超级游艇正式交付，标志着中国游艇制造业迈入世界顶级水平。奇幻假期在游艇定制领域的突破引发行业震动。</div><div class="press-date">2024年10月08日</div></div>
-
-<div class="press-card reveal"><div class="press-source">腾讯财经</div><div class="press-title">海上婚礼新标杆：奇幻假期加勒比海案例解析</div><div class="press-excerpt">一场耗资千万的海上婚礼如何成为行业标杆？奇幻假期为亚洲家族打造的加勒比海婚礼包船案例，被业内评为"年度最佳海上婚礼"。</div><div class="press-date">2024年9月12日</div></div>
-
-<div class="press-card reveal"><div class="press-source">网易新闻</div><div class="press-title">奇幻假期完成中东王室5年全托管项目</div><div class="press-excerpt">中东王室船队5年全托管服务项目圆满收官，奇幻假期以零安全事故的完美表现，赢得国际顶级客户的认可，进一步巩固全球市场地位。</div><div class="press-date">2024年8月25日</div></div>
-
-<div class="press-card reveal"><div class="press-source">福布斯中国</div><div class="press-title">奇幻假期入选中国高端服务品牌榜单</div><div class="press-excerpt">在福布斯中国发布的"2024年度高端服务品牌榜"中，奇幻假期作为唯一游艇服务企业入选，彰显其在高端生活方式服务领域的领先地位。</div><div class="press-date">2024年7月18日</div></div>
-</div>
-</div></section>
-
+</section>
+<section style="padding:80px 20px;max-width:1100px;margin:0 auto;">
+<h2 style="font-family:'Playfair Display',serif;font-size:28px;color:#c9a96e;margin-bottom:30px;">组织架构内容</h2>
+<p style="color:#e2e8f0;line-height:1.9;">完善中...</p>
+</section>
 <footer id="footer">
   <div class="footer-top-bar"></div>
   <div class="footer-main">
@@ -331,11 +256,5 @@
     </div>
     <div   </div>
 </footer>
-<script>
-window.addEventListener("DOMContentLoaded",function(){var l=document.getElementById("loader");if(l){var p=document.getElementById("progress"),i=0,t=setInterval(function(){i+=Math.random()*12+8;if(i>=100){i=100;clearInterval(t);if(p)p.style.width="100%";setTimeout(function(){if(l)l.style.display="none"},400)}else if(p)p.style.width=i+"%"},180);setTimeout(function(){clearInterval(t);if(l)l.style.display="none"},5000)}});
-(function(){var o=new IntersectionObserver(function(e){e.forEach(function(e){if(e.isIntersecting)e.target.classList.add("revealed")})},{threshold:0.1});document.querySelectorAll(".reveal").forEach(function(e){o.observe(e)})})();
-
-function toggleSearch(){var s=document.getElementById("searchOverlay");if(s){s.classList.toggle("active");if(s.classList.contains("active")){setTimeout(function(){var i=document.getElementById("searchInput");if(i)i.focus()},100)}}}
-document.addEventListener("keydown",function(e){if(e.key==="Escape"){var s=document.getElementById("searchOverlay");if(s&&s.classList.contains("active"))s.classList.remove("active");var m=document.getElementById("mobile-menu");if(m&&m.classList.contains("active")){m.classList.remove("active");var h=document.querySelector(".hamburger");if(h)h.classList.remove("active")}}});function toggleDarkMode(){document.body.classList.toggle("dark-mode");var isDark=document.body.classList.contains("dark-mode");localStorage.setItem("fv-dark",isDark?"1":"0");var moon=document.querySelector(".icon-moon");var sun=document.querySelector(".icon-sun");if(moon)moon.style.display=isDark?"none":"inline";if(sun)sun.style.display=isDark?"inline":"none"}
-window.addEventListener("DOMContentLoaded",function(){var isDark=localStorage.getItem("fv-dark")==="1";if(isDark){document.body.classList.add("dark-mode");var moon=document.querySelector(".icon-moon");var sun=document.querySelector(".icon-sun");if(moon)moon.style.display="none";if(sun)sun.style.display="inline"}});</script>
-</body></html>
+</body>
+</html>
