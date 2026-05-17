@@ -154,9 +154,89 @@
 <div id="loader"><div class="brand">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div><div class="progress-text">LOADING</div></div>
 <div class="cursor-follower" id="cursor"></div>
 <nav id="navbar"><div class="container"><div class="nav-inner">
-<a href="index.html" class="nav-logo"><svg viewBox="0 0 32 32" fill="none"><path d="M4 24L16 4l12 20H4z" stroke="#c9a96e" stroke-width="1.5" fill="none"/><path d="M8 20h16l-8-12-8 12z" stroke="#c9a96e" stroke-width="1" fill="rgba(201,169,110,0.1)"/></svg>FANTASTIC VACATION</a>
-<div class="nav-links"><a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a><a href="custom.html" class="active">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a><a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a><a href="contact.html" class="nav-cta">联系我们</a></div>
-<div class="hamburger" onclick="toggleMobile()"><span></span><span></span><span></span></div>
+    <!-- Logo -->
+    <a href="index.html" class="nav-logo">
+      <svg viewBox="0 0 32 32" width="32" height="32" fill="none">
+        <path d="M4 24L16 4l12 20H4z" stroke="#c9a96e" stroke-width="1.5" fill="none"/>
+        <path d="M8 20h16l-8-12-8 12z" stroke="#c9a96e" stroke-width="1" fill="rgba(201,169,110,0.15)"/>
+      </svg>
+      <span class="nav-logo-text">奇幻假期 <em>FANTASTIC VACATION</em></span>
+    </a>
+
+    <!-- Main Navigation -->
+    <div class="nav-links">
+      <a href="index.html">首页</a>
+
+      <!-- About Us - Dropdown -->
+      <div class="nav-dropdown">
+        <a href="about.html" class="">关于我们 <span class="nav-arrow">▼</span></a>
+        <div class="nav-dropdown-menu">
+          <a href="about.html">公司简介</a>
+          <a href="about.html#timeline">发展历程</a>
+          <a href="about.html#culture">企业文化</a>
+          <a href="about.html#team">组织架构</a>
+          <a href="honors.html">荣誉资质</a>
+          <a href="about.html#responsibility">社会责任</a>
+        </div>
+      </div>
+
+      <!-- Business - Dropdown -->
+      <div class="nav-dropdown">
+        <a class="active" href="custom.html" class="">业务板块 <span class="nav-arrow">▼</span></a>
+        <div class="nav-dropdown-menu">
+          <a href="custom.html">全案定制</a>
+          <a href="charter.html">租赁航线</a>
+          <a href="management.html">托管维保</a>
+          <a href="partnership.html">全球合作</a>
+        </div>
+      </div>
+
+      <!-- Products & Services - Dropdown -->
+      <div class="nav-dropdown">
+        <a href="yachts.html" class="">产品与服务 <span class="nav-arrow">▼</span></a>
+        <div class="nav-dropdown-menu">
+          <a href="yachts.html">全系游艇</a>
+          <a href="custom.html">定制解决方案</a>
+          <a href="charter.html">租赁服务</a>
+          <a href="management.html">托管服务</a>
+          <a href="cases.html">客户案例</a>
+        </div>
+      </div>
+
+      <!-- News Center - Dropdown -->
+      <div class="nav-dropdown">
+        <a href="news.html" class="">新闻中心 <span class="nav-arrow">▼</span></a>
+        <div class="nav-dropdown-menu">
+          <a href="news.html">公司动态</a>
+          <a href="news.html#industry">行业资讯</a>
+          <a href="press.html">媒体报道</a>
+          <a href="news.html#announce">公告通知</a>
+        </div>
+      </div>
+
+      <!-- Investor Relations -->
+      <a href="sitemap.html" class="">投资者关系</a>
+
+      <!-- Contact Us -->
+      <a href="contact.html" class="nav-cta-btn ">联系我们</a>
+    </div>
+
+    <!-- Right Actions -->
+    <div class="nav-actions">
+      <button class="nav-search-btn" onclick="toggleSearch()" title="搜索">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+        </svg>
+      </button>
+      <button class="nav-dark-toggle" onclick="toggleDarkMode()" title="深色模式" id="darkToggle">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-moon">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-sun" style="display:none">
+          <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+        </svg>
+      </button>
+      <div class="hamburger" onclick="toggleMobile()"><span></span><span></span><span></span></div>
 </div></div></nav>
 <div class="mobile-menu" id="mobile-menu">
 <a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a><a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a><a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a><a href="contact.html">联系我们</a>
@@ -211,7 +291,7 @@
 
 <!-- STEP 01 -->
 <div class="process-card reveal">
-<div class="process-card-img"><img src="images/yttp/yacht-095.jpg" alt="专属咨询"><div class="step-badge">1</div><div class="process-card-icon"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#c9a96e"/><stop offset="100%" stop-color="#8B6914"/></linearGradient></defs><circle cx="32" cy="32" r="29" stroke="url(#g1)" stroke-width="1.5" fill="rgba(10,16,30,0.65)"/><ellipse cx="32" cy="27" rx="14" ry="9" stroke="#c9a96e" stroke-width="1.8" fill="none"/><path d="M18 27c0-7.7 6.3-14 14-14s14 6.3 14 14" stroke="#c9a96e" stroke-width="1.8" fill="none"/><rect x="19" y="34" width="5" height="9" rx="2.5" fill="url(#g1)"/><rect x="40" y="34" width="5" height="9" rx="2.5" fill="url(#g1)"/><path d="M19 43c0 0 3 9 13 9s13-9 13-9" stroke="#c9a96e" stroke-width="1.8" stroke-linecap="round" fill="none"/><circle cx="32" cy="47" r="2.5" fill="#c9a96e"/><path d="M24 23c2-3 5-4 8-4s6 1 8 4" stroke="#c9a96e" stroke-width="1.2" opacity="0.5" fill="none"/><circle cx="24" cy="21" r="1.5" fill="#c9a96e" opacity="0.6"/><circle cx="40" cy="21" r="1.5" fill="#c9a96e" opacity="0.6"/></svg></div></div>
+<div class="process-card-img"><img src="images/yttp/yacht-095.png" alt="专属咨询"><div class="step-badge">1</div><div class="process-card-icon"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#c9a96e"/><stop offset="100%" stop-color="#8B6914"/></linearGradient></defs><circle cx="32" cy="32" r="29" stroke="url(#g1)" stroke-width="1.5" fill="rgba(10,16,30,0.65)"/><ellipse cx="32" cy="27" rx="14" ry="9" stroke="#c9a96e" stroke-width="1.8" fill="none"/><path d="M18 27c0-7.7 6.3-14 14-14s14 6.3 14 14" stroke="#c9a96e" stroke-width="1.8" fill="none"/><rect x="19" y="34" width="5" height="9" rx="2.5" fill="url(#g1)"/><rect x="40" y="34" width="5" height="9" rx="2.5" fill="url(#g1)"/><path d="M19 43c0 0 3 9 13 9s13-9 13-9" stroke="#c9a96e" stroke-width="1.8" stroke-linecap="round" fill="none"/><circle cx="32" cy="47" r="2.5" fill="#c9a96e"/><path d="M24 23c2-3 5-4 8-4s6 1 8 4" stroke="#c9a96e" stroke-width="1.2" opacity="0.5" fill="none"/><circle cx="24" cy="21" r="1.5" fill="#c9a96e" opacity="0.6"/><circle cx="40" cy="21" r="1.5" fill="#c9a96e" opacity="0.6"/></svg></div></div>
 <div class="process-card-body">
 <div class="step-label">STEP 01</div>
 <h3>专属咨询</h3>
@@ -231,7 +311,7 @@
 
 <!-- STEP 02 -->
 <div class="process-card reveal">
-<div class="process-card-img"><img src="images/yttp/yacht-108.jpg" alt="概念设计"><div class="step-badge">2</div><div class="process-card-icon"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#c9a96e"/><stop offset="100%" stop-color="#8B6914"/></linearGradient></defs><circle cx="32" cy="32" r="29" stroke="url(#g2)" stroke-width="1.5" fill="rgba(10,16,30,0.65)"/><path d="M18 46l8-24 18 18-24 6z" stroke="#c9a96e" stroke-width="2" stroke-linejoin="round" fill="rgba(201,169,110,0.12)"/><path d="M26 22L40 8l6 6-14 14" stroke="#c9a96e" stroke-width="2" stroke-linejoin="round" fill="rgba(201,169,110,0.1)"/><rect x="22" y="30" width="16" height="12" rx="2" stroke="#c9a96e" stroke-width="1.5" fill="rgba(201,169,110,0.06)" stroke-dasharray="3 2"/><circle cx="30" cy="36" r="1.5" fill="#c9a96e"/><path d="M34 38l4 4" stroke="#c9a96e" stroke-width="1.5" stroke-linecap="round"/><path d="M44 14h6v6" stroke="#c9a96e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/><path d="M16 48l-3 3" stroke="#c9a96e" stroke-width="1.5" stroke-linecap="round"/></svg></div></div>
+<div class="process-card-img"><img src="images/yttp/yacht-108.png" alt="概念设计"><div class="step-badge">2</div><div class="process-card-icon"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#c9a96e"/><stop offset="100%" stop-color="#8B6914"/></linearGradient></defs><circle cx="32" cy="32" r="29" stroke="url(#g2)" stroke-width="1.5" fill="rgba(10,16,30,0.65)"/><path d="M18 46l8-24 18 18-24 6z" stroke="#c9a96e" stroke-width="2" stroke-linejoin="round" fill="rgba(201,169,110,0.12)"/><path d="M26 22L40 8l6 6-14 14" stroke="#c9a96e" stroke-width="2" stroke-linejoin="round" fill="rgba(201,169,110,0.1)"/><rect x="22" y="30" width="16" height="12" rx="2" stroke="#c9a96e" stroke-width="1.5" fill="rgba(201,169,110,0.06)" stroke-dasharray="3 2"/><circle cx="30" cy="36" r="1.5" fill="#c9a96e"/><path d="M34 38l4 4" stroke="#c9a96e" stroke-width="1.5" stroke-linecap="round"/><path d="M44 14h6v6" stroke="#c9a96e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/><path d="M16 48l-3 3" stroke="#c9a96e" stroke-width="1.5" stroke-linecap="round"/></svg></div></div>
 <div class="process-card-body">
 <div class="step-label">STEP 02</div>
 <h3>概念设计</h3>
@@ -251,7 +331,7 @@
 
 <!-- STEP 03 -->
 <div class="process-card reveal">
-<div class="process-card-img"><img src="images/yttp/yacht-283.jpg" alt="材质甄选"><div class="step-badge">3</div><div class="process-card-icon"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#c9a96e"/><stop offset="100%" stop-color="#8B6914"/></linearGradient></defs><circle cx="32" cy="32" r="29" stroke="url(#g3)" stroke-width="1.5" fill="rgba(10,16,30,0.65)"/><rect x="15" y="18" width="15" height="11" rx="2.5" stroke="#c9a96e" stroke-width="1.5" fill="rgba(201,169,110,0.15)"/><rect x="34" y="18" width="15" height="11" rx="2.5" stroke="#c9a96e" stroke-width="1.5" fill="rgba(201,169,110,0.25)"/><rect x="15" y="33" width="15" height="11" rx="2.5" stroke="#c9a96e" stroke-width="1.5" fill="rgba(201,169,110,0.35)"/><rect x="34" y="33" width="15" height="11" rx="2.5" stroke="#c9a96e" stroke-width="1.5" fill="rgba(201,169,110,0.08)"/><path d="M19 24l3 3 5-5" stroke="#c9a96e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="41" cy="24" r="2" fill="#c9a96e" opacity="0.5"/><path d="M19 39l3-3 3 3-3 3z" stroke="#c9a96e" stroke-width="1.2" fill="rgba(201,169,110,0.15)"/><path d="M41 37c3 0 5 2 5 5" stroke="#c9a96e" stroke-width="1.2" opacity="0.4"/></svg></div></div>
+<div class="process-card-img"><img src="images/yttp/yacht-283.png" alt="材质甄选"><div class="step-badge">3</div><div class="process-card-icon"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#c9a96e"/><stop offset="100%" stop-color="#8B6914"/></linearGradient></defs><circle cx="32" cy="32" r="29" stroke="url(#g3)" stroke-width="1.5" fill="rgba(10,16,30,0.65)"/><rect x="15" y="18" width="15" height="11" rx="2.5" stroke="#c9a96e" stroke-width="1.5" fill="rgba(201,169,110,0.15)"/><rect x="34" y="18" width="15" height="11" rx="2.5" stroke="#c9a96e" stroke-width="1.5" fill="rgba(201,169,110,0.25)"/><rect x="15" y="33" width="15" height="11" rx="2.5" stroke="#c9a96e" stroke-width="1.5" fill="rgba(201,169,110,0.35)"/><rect x="34" y="33" width="15" height="11" rx="2.5" stroke="#c9a96e" stroke-width="1.5" fill="rgba(201,169,110,0.08)"/><path d="M19 24l3 3 5-5" stroke="#c9a96e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="41" cy="24" r="2" fill="#c9a96e" opacity="0.5"/><path d="M19 39l3-3 3 3-3 3z" stroke="#c9a96e" stroke-width="1.2" fill="rgba(201,169,110,0.15)"/><path d="M41 37c3 0 5 2 5 5" stroke="#c9a96e" stroke-width="1.2" opacity="0.4"/></svg></div></div>
 <div class="process-card-body">
 <div class="step-label">STEP 03</div>
 <h3>材质甄选</h3>
@@ -271,7 +351,7 @@
 
 <!-- STEP 04 -->
 <div class="process-card reveal">
-<div class="process-card-img"><img src="images/yttp/yacht-295.jpg" alt="精密建造"><div class="step-badge">4</div><div class="process-card-icon"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#c9a96e"/><stop offset="100%" stop-color="#8B6914"/></linearGradient></defs><circle cx="32" cy="32" r="29" stroke="url(#g4)" stroke-width="1.5" fill="rgba(10,16,30,0.65)"/><path d="M18 44l10-10 5 5-10 10-5-5z" stroke="#c9a96e" stroke-width="2" stroke-linejoin="round" fill="rgba(201,169,110,0.12)"/><path d="M28 34L42 20" stroke="#c9a96e" stroke-width="2" stroke-linecap="round"/><path d="M38 16h8v8" stroke="#c9a96e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="46" cy="18" r="2" fill="#c9a96e"/><path d="M16 48l-3 3" stroke="#c9a96e" stroke-width="2" stroke-linecap="round"/><rect x="20" y="22" width="18" height="12" rx="2" stroke="#c9a96e" stroke-width="1.2" fill="rgba(201,169,110,0.06)" stroke-dasharray="4 2"/><path d="M24 28h10M24 31h6" stroke="#c9a96e" stroke-width="1" opacity="0.4"/><path d="M14 38l2-2 2 2-2 2z" fill="#c9a96e" opacity="0.3"/></svg></div></div>
+<div class="process-card-img"><img src="images/yttp/yacht-295.png" alt="精密建造"><div class="step-badge">4</div><div class="process-card-icon"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#c9a96e"/><stop offset="100%" stop-color="#8B6914"/></linearGradient></defs><circle cx="32" cy="32" r="29" stroke="url(#g4)" stroke-width="1.5" fill="rgba(10,16,30,0.65)"/><path d="M18 44l10-10 5 5-10 10-5-5z" stroke="#c9a96e" stroke-width="2" stroke-linejoin="round" fill="rgba(201,169,110,0.12)"/><path d="M28 34L42 20" stroke="#c9a96e" stroke-width="2" stroke-linecap="round"/><path d="M38 16h8v8" stroke="#c9a96e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="46" cy="18" r="2" fill="#c9a96e"/><path d="M16 48l-3 3" stroke="#c9a96e" stroke-width="2" stroke-linecap="round"/><rect x="20" y="22" width="18" height="12" rx="2" stroke="#c9a96e" stroke-width="1.2" fill="rgba(201,169,110,0.06)" stroke-dasharray="4 2"/><path d="M24 28h10M24 31h6" stroke="#c9a96e" stroke-width="1" opacity="0.4"/><path d="M14 38l2-2 2 2-2 2z" fill="#c9a96e" opacity="0.3"/></svg></div></div>
 <div class="process-card-body">
 <div class="step-label">STEP 04</div>
 <h3>精密建造</h3>
@@ -291,7 +371,7 @@
 
 <!-- STEP 05 -->
 <div class="process-card reveal">
-<div class="process-card-img"><img src="images/yttp/yacht-306.jpg" alt="海试交付"><div class="step-badge">5</div><div class="process-card-icon"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g5" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#c9a96e"/><stop offset="100%" stop-color="#8B6914"/></linearGradient></defs><circle cx="32" cy="32" r="29" stroke="url(#g5)" stroke-width="1.5" fill="rgba(10,16,30,0.65)"/><path d="M12 40c5-4 9 0 14-3s9 0 14-3 9 0 14-3" stroke="#c9a96e" stroke-width="2.2" stroke-linecap="round" fill="none"/><path d="M12 47c5-4 9 0 14-3s9 0 14-3 9 0 14-3" stroke="#c9a96e" stroke-width="1.3" stroke-linecap="round" fill="none" opacity="0.4"/><path d="M32 14v16M27 22l5-7 5 7" stroke="#c9a96e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M24 32h16v7H24z" stroke="#c9a96e" stroke-width="1.5" fill="rgba(201,169,110,0.15)" rx="2"/><path d="M28 41v4M36 41v4" stroke="#c9a96e" stroke-width="1.8" stroke-linecap="round"/><circle cx="32" cy="49" r="2" fill="#c9a96e" opacity="0.7"/><path d="M20 52c4-2 8 0 12-2s8 0 12 2" stroke="#c9a96e" stroke-width="1" opacity="0.3"/></svg></div></div>
+<div class="process-card-img"><img src="images/yttp/yacht-306.png" alt="海试交付"><div class="step-badge">5</div><div class="process-card-icon"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g5" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#c9a96e"/><stop offset="100%" stop-color="#8B6914"/></linearGradient></defs><circle cx="32" cy="32" r="29" stroke="url(#g5)" stroke-width="1.5" fill="rgba(10,16,30,0.65)"/><path d="M12 40c5-4 9 0 14-3s9 0 14-3 9 0 14-3" stroke="#c9a96e" stroke-width="2.2" stroke-linecap="round" fill="none"/><path d="M12 47c5-4 9 0 14-3s9 0 14-3 9 0 14-3" stroke="#c9a96e" stroke-width="1.3" stroke-linecap="round" fill="none" opacity="0.4"/><path d="M32 14v16M27 22l5-7 5 7" stroke="#c9a96e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M24 32h16v7H24z" stroke="#c9a96e" stroke-width="1.5" fill="rgba(201,169,110,0.15)" rx="2"/><path d="M28 41v4M36 41v4" stroke="#c9a96e" stroke-width="1.8" stroke-linecap="round"/><circle cx="32" cy="49" r="2" fill="#c9a96e" opacity="0.7"/><path d="M20 52c4-2 8 0 12-2s8 0 12 2" stroke="#c9a96e" stroke-width="1" opacity="0.3"/></svg></div></div>
 <div class="process-card-body">
 <div class="step-label">STEP 05</div>
 <h3>海试交付</h3>
@@ -311,7 +391,7 @@
 
 <!-- STEP 06 -->
 <div class="process-card reveal">
-<div class="process-card-img"><img src="images/yttp/yacht-352.jpg" alt="终身陪伴"><div class="step-badge">6</div><div class="process-card-icon"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g6" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#c9a96e"/><stop offset="100%" stop-color="#8B6914"/></linearGradient></defs><circle cx="32" cy="32" r="29" stroke="url(#g6)" stroke-width="1.5" fill="rgba(10,16,30,0.65)"/><path d="M32 16l3 6 6.5 1-4.5 4.5 1 6.5L32 31l-6.5 3 1-6.5-4.5-4.5 6.5-1L32 16z" stroke="#c9a96e" stroke-width="1.5" fill="rgba(201,169,110,0.2)" stroke-linejoin="round"/><path d="M18 38c0-4 4-6 7-6M46 38c0-4-4-6-7-6" stroke="#c9a96e" stroke-width="1.8" stroke-linecap="round" fill="none"/><path d="M14 43c7-5 14 0 18-2s11 3 18-2" stroke="#c9a96e" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.55"/><circle cx="32" cy="47" r="2.5" fill="#c9a96e" opacity="0.8"/><path d="M20 50c4-2 8-1 12-1s8 1 12-1" stroke="#c9a96e" stroke-width="1.2" opacity="0.3"/></svg></div></div>
+<div class="process-card-img"><img src="images/yttp/yacht-352.png" alt="终身陪伴"><div class="step-badge">6</div><div class="process-card-icon"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g6" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#c9a96e"/><stop offset="100%" stop-color="#8B6914"/></linearGradient></defs><circle cx="32" cy="32" r="29" stroke="url(#g6)" stroke-width="1.5" fill="rgba(10,16,30,0.65)"/><path d="M32 16l3 6 6.5 1-4.5 4.5 1 6.5L32 31l-6.5 3 1-6.5-4.5-4.5 6.5-1L32 16z" stroke="#c9a96e" stroke-width="1.5" fill="rgba(201,169,110,0.2)" stroke-linejoin="round"/><path d="M18 38c0-4 4-6 7-6M46 38c0-4-4-6-7-6" stroke="#c9a96e" stroke-width="1.8" stroke-linecap="round" fill="none"/><path d="M14 43c7-5 14 0 18-2s11 3 18-2" stroke="#c9a96e" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.55"/><circle cx="32" cy="47" r="2.5" fill="#c9a96e" opacity="0.8"/><path d="M20 50c4-2 8-1 12-1s8 1 12-1" stroke="#c9a96e" stroke-width="1.2" opacity="0.3"/></svg></div></div>
 <div class="process-card-body">
 <div class="step-label">STEP 06</div>
 <h3>终身陪伴</h3>
@@ -584,7 +664,7 @@
 <input type="hidden" name="_subject" value="【奇幻假期游艇】定制咨询请求">
 </form>
 </div>
-<p style="margin-top:28px;font-size:13px;color:var(--text-dim)">或直接拨打咨询热线：<a href="tel:0755-31530188" style="color:var(--gold);text-decoration:none;font-weight:600">400-888-9999</a></p>
+<p style="margin-top:28px;font-size:13px;color:var(--text-dim)">或直接拨打咨询热线：<a href="tel:0755-31530188" style="color:var(--gold);text-decoration:none;font-weight:600">0755-31530188</a></p>
 </div>
 </section>
 
