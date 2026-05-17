@@ -1,122 +1,316 @@
 <!DOCTYPE html><html lang="zh-CN"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>联系我们 | 奇幻假期 FANTASTIC VACATION</title>
-<meta name="description" content="联系奇幻假期专业顾问团队，预约游艇咨询、定制方案、租赁航线或托管服务。我们随时为您效劳。">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<title>联系我们 | 奇幻假期 FANTASTIC VACATION - 全球尊享服务专线</title>
+<meta name="description" content="联系奇幻假期FANTASTIC VACATION专业顾问团队，游艇定制、租赁航线、托管维保专属专线，全球5大办事处7×24小时服务。">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-</head><body>
-<div id="loader"><div class="brand">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div></div>
+<style>
+.contact-hero{position:relative;min-height:75vh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;background:linear-gradient(135deg,#080e1a 0%,#0d1b33 40%,#1a1030 80%,#0a0810 100%)}
+.contact-hero::before{content:'';position:absolute;inset:0;background:url('images/yttp/yacht-063.jpg') center/cover no-repeat;opacity:0.1;transform:scale(1.05)}
+.contact-hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:200px;background:linear-gradient(to top,var(--dark1),transparent)}
+.contact-hero-content{position:relative;z-index:3;padding:0 20px}
+.contact-hero h1{font-family:'Playfair Display',serif;font-size:clamp(36px,5vw,58px);font-weight:800;letter-spacing:3px;margin-bottom:14px}
+.contact-hero .sub{font-size:clamp(14px,1.5vw,18px);color:var(--text-muted);font-weight:300;letter-spacing:2px;max-width:600px;margin:0 auto}
+
+/* Quick Contact Bar */
+.quick-bar{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(201,169,110,0.08);border-radius:16px;overflow:hidden;margin:-50px auto 0;max-width:1100px;position:relative;z-index:5}
+.quick-item{background:rgba(10,14,26,0.95);padding:28px 20px;text-align:center;transition:all 0.3s}
+.quick-item:hover{background:rgba(201,169,110,0.06)}
+.quick-icon{font-size:28px;margin-bottom:10px}
+.quick-label{font-size:11px;color:var(--text-dim);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:6px}
+.quick-value{font-size:16px;color:var(--gold);font-weight:600;font-family:'Playfair Display',serif}
+.quick-note{font-size:11px;color:var(--text-dim);margin-top:4px}
+
+/* Hotlines */
+.hotline-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:20px;margin-top:30px}
+.hotline-card{background:rgba(255,255,255,0.015);border:1px solid rgba(255,255,255,0.04);border-radius:12px;padding:22px;transition:all 0.35s;position:relative}
+.hotline-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);opacity:0;transition:opacity 0.35s;border-radius:12px 12px 0 0}
+.hotline-card:hover{border-color:rgba(201,169,110,0.2);transform:translateY(-3px)}
+.hotline-card:hover::before{opacity:1}
+.hotline-card h4{font-size:15px;font-weight:600;margin-bottom:6px;color:#e8e8e8}
+.hotline-num{font-size:18px;color:var(--gold);font-family:'Playfair Display',serif;font-weight:600;margin-bottom:4px}
+.hotline-time{font-size:11px;color:var(--text-dim)}
+
+/* Form */
+.form-section{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:start}
+.form-group{margin-bottom:18px}
+.form-group label{display:block;font-size:12px;color:var(--text-muted);margin-bottom:6px;font-weight:500;letter-spacing:0.5px}
+.form-group input,.form-group select,.form-group textarea{width:100%;padding:13px 16px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:8px;color:var(--text);font-size:14px;font-family:'Inter',sans-serif;transition:border-color 0.3s}
+.form-group input:focus,.form-group select:focus,.form-group textarea:focus{outline:none;border-color:rgba(201,169,110,0.4)}
+.form-group select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23c9a96e' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 16px center}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.form-submit{width:100%;padding:16px;background:linear-gradient(135deg,#c9a96e,#a07850);color:#000;border:none;border-radius:8px;font-size:15px;font-weight:600;cursor:pointer;transition:all 0.3s;font-family:'Inter',sans-serif}
+.form-submit:hover{transform:translateY(-2px);box-shadow:0 8px 25px rgba(201,169,110,0.2)}
+.form-privacy{font-size:11px;color:var(--text-dim);margin-top:10px;line-height:1.6}
+
+/* Offices */
+.office-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:24px}
+.office-card{background:rgba(255,255,255,0.015);border:1px solid rgba(255,255,255,0.04);border-radius:14px;padding:28px 24px;transition:all 0.35s;position:relative;overflow:hidden}
+.office-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--gold),transparent);opacity:0;transition:opacity 0.35s}
+.office-card:hover{border-color:rgba(201,169,110,0.2);transform:translateY(-4px)}
+.office-card:hover::after{opacity:1}
+.office-flag{font-size:32px;margin-bottom:10px}
+.office-card h3{font-size:17px;font-weight:600;margin-bottom:4px;color:#e8e8e8}
+.office-card .office-role{font-size:11px;color:var(--gold);font-weight:500;margin-bottom:14px;letter-spacing:1px}
+.office-detail{font-size:13px;color:var(--text-muted);line-height:1.8}
+.office-detail strong{color:var(--text);font-weight:500}
+
+/* Promise */
+.promise-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:24px}
+.promise-card{text-align:center;padding:28px 20px}
+.promise-icon{font-size:36px;margin-bottom:12px}
+.promise-card h4{font-size:15px;font-weight:600;margin-bottom:8px;color:#e8e8e8}
+.promise-card p{font-size:13px;color:var(--text-muted);line-height:1.6}
+
+/* Compliance */
+.compliance-box{background:rgba(255,255,255,0.01);border:1px solid rgba(255,255,255,0.04);border-radius:12px;padding:28px 32px;max-width:900px;margin:0 auto}
+.compliance-box p{font-size:13px;color:var(--text-dim);line-height:1.8}
+.compliance-box strong{color:var(--text-muted);font-weight:500}
+
+@media(max-width:768px){
+.quick-bar{grid-template-columns:repeat(2,1fr);margin:-30px 16px 0}
+.form-section{grid-template-columns:1fr;gap:30px}
+.form-row{grid-template-columns:1fr}
+.hotline-grid{grid-template-columns:1fr}
+}
+</style></head><body>
+<div id="loader"><div class="brand">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div><div class="progress-text">LOADING</div></div>
 <nav id="navbar"><div class="container"><div class="nav-inner">
 <a href="index.html" class="nav-logo"><svg viewBox="0 0 32 32" fill="none"><path d="M4 24L16 4l12 20H4z" stroke="#c9a96e" stroke-width="1.5" fill="none"/><path d="M8 20h16l-8-12-8 12z" stroke="#c9a96e" stroke-width="1" fill="rgba(201,169,110,0.1)"/></svg>FANTASTIC VACATION</a>
 <div class="nav-links">
-<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a><a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a><a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a><a href="contact.html" class="active nav-cta">联系我们</a>
-</div>
-<div class="hamburger" onclick="toggleMobile()"><span></span><span></span><span></span></div>
+<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a>
+<a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a>
+<a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a>
+<a href="contact.html" class="nav-cta">联系我们</a>
+</div><div class="hamburger" onclick="toggleMobile()"><span></span><span></span><span></span></div>
 </div></div></nav>
-<div class="mobile-menu" id="mobile-menu"><a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a><a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a><a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a><a href="contact.html">联系我们</a></div>
+<div class="mobile-menu" id="mobile-menu">
+<a href="index.html">首页</a><a href="about.html">关于我们</a><a href="yachts.html">游艇产品</a>
+<a href="custom.html">定制服务</a><a href="charter.html">租赁航线</a><a href="management.html">托管维保</a>
+<a href="cases.html">案例展示</a><a href="news.html">新闻资讯</a><a href="partnership.html">全球合作</a>
+<a href="contact.html">联系我们</a>
+</div>
 
-<section id="hero">
-<div class="hero-bg" style="background: url('images/yttp/yacht-063.jpg') center/cover no-repeat fixed;"></div>
-<div class="hero-content">
-<div class="hero-badge">✦ 联系我们 ✦</div>
-<h1 class="hero-title"><span class="gold-gradient">联系我们</span></h1>
-<p class="hero-sub">专业顾问，随时为您效劳</p>
+<!-- HERO -->
+<section class="contact-hero"><div class="contact-hero-content">
+<h1><span class="gold-gradient">联系我们</span></h1>
+<p class="sub">全球尊享服务专线 · 专属顾问一对一 · 7×24小时响应</p>
 </div></section>
 
-<section class="section-padding"><div class="container">
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:32px">
-<div class="reveal">
-<h3 style="font-size:20px;color:var(--gold);margin-bottom:20px">联系方式</h3>
-<div style="display:flex;flex-direction:column;gap:20px">
-<div style="display:flex;gap:16px;align-items:flex-start">
-<div style="width:48px;height:48px;border-radius:8px;background:rgba(201,169,110,0.1);display:flex;align-items:center;justify-content:center;font-size:20px">📞</div>
-<div>
-<h5 style="font-size:14px;color:var(--text);margin-bottom:4px">服务热线</h5>
-<p style="font-size:18px;color:var(--gold)">+86 400-888-9999</p>
-<p style="font-size:12px;color:var(--text-muted)">周一至周五 09:00-19:00</p>
-</div>
-</div>
-<div style="display:flex;gap:16px;align-items:flex-start">
-<div style="width:48px;height:48px;border-radius:8px;background:rgba(201,169,110,0.1);display:flex;align-items:center;justify-content:center;font-size:20px">✉️</div>
-<div>
-<h5 style="font-size:14px;color:var(--text);margin-bottom:4px">邮箱</h5>
-<p style="font-size:16px;color:var(--gold)">concierge@fantasyholiday.com</p>
-<p style="font-size:12px;color:var(--text-muted)">24小时内回复</p>
-</div>
-</div>
-<div style="display:flex;gap:16px;align-items:flex-start">
-<div style="width:48px;height:48px;border-radius:8px;background:rgba(201,169,110,0.1);display:flex;align-items:center;justify-content:center;font-size:20px">📍</div>
-<div>
-<h5 style="font-size:14px;color:var(--text);margin-bottom:4px">总部地址</h5>
-<p style="font-size:15px;color:var(--text-muted);line-height:1.6">香港中环金融街8号<br>幻想大厦38楼</p>
-</div>
-</div>
-</div>
+<!-- Quick Contact Bar -->
+<div class="quick-bar reveal">
+<div class="quick-item"><div class="quick-icon">📞</div><div class="quick-label">尊享热线</div><div class="quick-value">+86 400-888-9999</div><div class="quick-note">7×24小时</div></div>
+<div class="quick-item"><div class="quick-icon">✉️</div><div class="quick-label">官方邮箱</div><div class="quick-value">concierge@fantastic.vacation</div><div class="quick-note">24小时内回复</div></div>
+<div class="quick-item"><div class="quick-icon">📍</div><div class="quick-label">全球总部</div><div class="quick-value">香港 · 中环</div><div class="quick-note">欢迎预约到访</div></div>
+<div class="quick-item"><div class="quick-icon">🌐</div><div class="quick-label">服务网络</div><div class="quick-value">5大洲 · 6大区域</div><div class="quick-note">50+港口基地</div></div>
 </div>
 
+<!-- Service Hotlines -->
+<section class="section-padding"><div class="container">
+<div class="section-header reveal"><h2><span class="gold-gradient">专属服务专线</span></h2><p style="color:var(--text-muted);max-width:600px;margin:10px auto 30px;font-size:14px">我们为不同服务场景设立了专属专线，确保您的每一次来电都能直达对应的专业团队。</p></div>
+<div class="hotline-grid">
+<div class="hotline-card reveal"><h4>🛥️ 游艇定制专线</h4><div class="hotline-num">+86 400-888-1001</div><div class="hotline-time">工作日 09:00-20:00 | 定制顾问1对1</div></div>
+<div class="hotline-card reveal"><h4>⚓ 租赁航线专线</h4><div class="hotline-num">+86 400-888-1002</div><div class="hotline-time">每日 08:00-22:00 | 航线顾问即时响应</div></div>
+<div class="hotline-card reveal"><h4>🔧 托管维保专线</h4><div class="hotline-num">+86 400-888-1003</div><div class="hotline-time">7×24小时 | 紧急海事救援全天候待命</div></div>
+<div class="hotline-card reveal"><h4>🤝 商务合作专线</h4><div class="hotline-num">+86 400-888-1004</div><div class="hotline-time">工作日 10:00-18:00 | 合作总监直联</div></div>
+<div class="hotline-card reveal"><h4>📰 媒体合作专线</h4><div class="hotline-num">+86 400-888-1005</div><div class="hotline-time">工作日 10:00-18:00 | 品牌公关部</div></div>
+<div class="hotline-card reveal"><h4>👥 人事招聘专线</h4><div class="hotline-num">+86 400-888-1006</div><div class="hotline-time">工作日 09:00-18:00 | 人力资源部</div></div>
+</div>
+</div></section>
+
+<!-- Consultation Form -->
+<section class="section-padding" style="background:var(--dark2)"><div class="container">
+<div class="section-header reveal"><h2><span class="gold-gradient">预约专属咨询</span></h2><p style="color:var(--text-muted);max-width:550px;margin:10px auto 30px;font-size:14px">填写以下信息，我们的专业顾问将在2小时内与您取得联系，为您量身定制专属方案。</p></div>
+<div class="form-section">
 <div class="reveal">
-<h3 style="font-size:20px;color:var(--gold);margin-bottom:20px">预约咨询</h3>
-<form style="display:flex;flex-direction:column;gap:16px">
-<input type="text" placeholder="您的姓名" style="width:100%;padding:14px 16px;background:var(--dark3);border:1px solid var(--glass-border);border-radius:4px;color:var(--text);font-size:14px">
-<input type="tel" placeholder="联系电话" style="width:100%;padding:14px 16px;background:var(--dark3);border:1px solid var(--glass-border);border-radius:4px;color:var(--text);font-size:14px">
-<input type="email" placeholder="邮箱地址" style="width:100%;padding:14px 16px;background:var(--dark3);border:1px solid var(--glass-border);border-radius:4px;color:var(--text);font-size:14px">
-<select style="width:100%;padding:14px 16px;background:var(--dark3);border:1px solid var(--glass-border);border-radius:4px;color:var(--text-muted);font-size:14px">
-<option value="">选择咨询类型</option>
-<option value="purchase">游艇购置</option>
-<option value="custom">定制服务</option>
-<option value="charter">租赁航线</option>
-<option value="management">托管维保</option>
+<form id="contactForm" action="https://formspree.io/f/xgodgjld" method="POST">
+<input type="hidden" name="_subject" value="【奇幻假期】官网咨询预约">
+<div class="form-row">
+<div class="form-group"><label>姓名 *</label><input type="text" name="name" required placeholder="请输入您的姓名"></div>
+<div class="form-group"><label>联系电话 *</label><input type="tel" name="phone" required placeholder="请输入您的手机号码"></div>
+</div>
+<div class="form-row">
+<div class="form-group"><label>电子邮箱</label><input type="email" name="email" placeholder="请输入您的邮箱地址"></div>
+<div class="form-group"><label>咨询类型 *</label><select name="consult_type" required>
+<option value="">请选择咨询类型</option>
+<option value="custom">游艇全案定制</option>
+<option value="charter">租赁航线预约</option>
+<option value="management">托管维保咨询</option>
+<option value="purchase">游艇购置意向</option>
+<option value="event">商务/活动包船</option>
+<option value="cooperation">商务合作洽谈</option>
+<option value="media">媒体/品牌合作</option>
+<option value="career">人才招聘咨询</option>
 <option value="other">其他咨询</option>
-</select>
-<textarea placeholder="请描述您的需求..." rows="4" style="width:100%;padding:14px 16px;background:var(--dark3);border:1px solid var(--glass-border);border-radius:4px;color:var(--text);font-size:14px;resize:vertical"></textarea>
-<button type="submit" class="btn btn-primary btn-gold-sweep" style="width:100%">提交咨询</button>
+</select></div>
+</div>
+<div class="form-row">
+<div class="form-group"><label>意向游艇规格</label><select name="yacht_size">
+<option value="">请选择意向规格</option>
+<option value="10-18m">日间系列 10-18M</option>
+<option value="18-45m">飞桥系列 18-45M</option>
+<option value="40-70m">远征系列 40-70M</option>
+<option value="60-120m">君临系列 60-120M</option>
+<option value="undecided">暂不确定</option>
+</select></div>
+<div class="form-group"><label>预计出行时间</label><input type="text" name="travel_date" placeholder="例如：2026年8月 或 灵活安排"></div>
+</div>
+<div class="form-row">
+<div class="form-group"><label>出行人数</label><select name="guests">
+<option value="">请选择人数</option>
+<option value="2-4">2-4位</option>
+<option value="5-8">5-8位</option>
+<option value="9-16">9-16位</option>
+<option value="17-36">17-36位</option>
+<option value="36+">36位以上</option>
+</select></div>
+<div class="form-group"><label>预算范围</label><select name="budget">
+<option value="">请选择预算范围</option>
+<option value="10-50w">10-50万元</option>
+<option value="50-200w">50-200万元</option>
+<option value="200-500w">200-500万元</option>
+<option value="500-2000w">500-2000万元</option>
+<option value="2000w+">2000万元以上</option>
+<option value="undisclosed">暂不方便透露</option>
+</select></div>
+</div>
+<div class="form-group"><label>详细需求描述</label><textarea name="message" rows="4" placeholder="请简要描述您的需求、偏好或特殊要求，我们的顾问将据此为您准备定制方案..."></textarea></div>
+<button type="submit" class="form-submit">提交咨询预约 →</button>
+<p class="form-privacy">🔒 您的个人信息将严格保密，仅用于专属顾问与您联络。我们承诺不会将您的信息分享给任何第三方。详见<a href="privacy.html" style="color:var(--gold)">隐私保护政策</a>。</p>
 </form>
 </div>
+<div class="reveal" style="padding-top:10px">
+<h3 style="font-size:20px;margin-bottom:20px;color:#e0e0e0">为什么选择奇幻假期？</h3>
+<div style="display:flex;flex-direction:column;gap:18px">
+<div style="display:flex;gap:14px;align-items:flex-start"><div style="width:40px;height:40px;border-radius:8px;background:rgba(201,169,110,0.1);display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0">🏆</div><div><h5 style="font-size:14px;color:#e8e8e8;margin-bottom:3px">行业标杆服务品质</h5><p style="font-size:12px;color:var(--text-muted);line-height:1.5">连续3年荣获「亚洲最佳游艇服务提供商」，98%客户满意度</p></div></div>
+<div style="display:flex;gap:14px;align-items:flex-start"><div style="width:40px;height:40px;border-radius:8px;background:rgba(201,169,110,0.1);display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0">⚡</div><div><h5 style="font-size:14px;color:#e8e8e8;margin-bottom:3px">极速响应承诺</h5><p style="font-size:12px;color:var(--text-muted);line-height:1.5">咨询表单2小时内回复，紧急需求30分钟内响应，绝不辜负您的等待</p></div></div>
+<div style="display:flex;gap:14px;align-items:flex-start"><div style="width:40px;height:40px;border-radius:8px;background:rgba(201,169,110,0.1);display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0">👨‍✈️</div><div><h5 style="font-size:14px;color:#e8e8e8;margin-bottom:3px">专属顾问全程陪跑</h5><p style="font-size:12px;color:var(--text-muted);line-height:1.5">从首次咨询到项目交付，同一顾问全程跟进，零沟通损耗</p></div></div>
+<div style="display:flex;gap:14px;align-items:flex-start"><div style="width:40px;height:40px;border-radius:8px;background:rgba(201,169,110,0.1);display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0">🌍</div><div><h5 style="font-size:14px;color:#e8e8e8;margin-bottom:3px">全球服务网络保障</h5><p style="font-size:12px;color:var(--text-muted);line-height:1.5">5大洲6大区域办事处，50+港口基地，无论您身在何处皆有专人服务</p></div></div>
+<div style="display:flex;gap:14px;align-items:flex-start"><div style="width:40px;height:40px;border-radius:8px;background:rgba(201,169,110,0.1);display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0">🔐</div><div><h5 style="font-size:14px;color:#e8e8e8;margin-bottom:3px">绝对隐私保护</h5><p style="font-size:12px;color:var(--text-muted);line-height:1.5">国际标准隐私保护体系，客户信息加密存储，签署NDA保密协议</p></div></div>
+</div>
+</div>
 </div>
 </div></section>
 
-<section class="section-padding" style="background:var(--dark2)"><div class="container">
-<div class="section-header reveal"><h2><span class="gold-gradient">全球办事处</span></h2><div class="divider-gold"></div><p>无论您身处何地，我们的团队都能提供本地化服务支持</p></div>
+<!-- Global Offices -->
+<section class="section-padding"><div class="container">
+<div class="section-header reveal"><h2><span class="gold-gradient">全球办事处</span></h2><p style="color:var(--text-muted);max-width:600px;margin:10px auto 30px;font-size:14px">奇幻假期在全球核心游艇市场设立直属办事处，为当地客户提供母语级服务支持与属地化合规保障。</p></div>
+<div class="office-grid">
+<div class="office-card reveal">
+<div class="office-flag">🇭🇰</div>
+<h3>香港 · 全球总部</h3>
+<div class="office-role">亚太区战略中枢 · 品牌管理中心</div>
+<div class="office-detail">
+<strong>地址：</strong>香港中环金融街8号国际金融中心38楼<br>
+<strong>邮编：</strong>999077<br>
+<strong>电话：</strong>+852 3890 8888<br>
+<strong>邮箱：</strong>hk@fantastic.vacation<br>
+<strong>服务范围：</strong>品牌战略、全球业务统筹、高端定制项目管理<br>
+<strong>办公时间：</strong>周一至周五 09:00-19:00
+</div></div>
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px" class="reveal">
-<div class="office-card" style="padding:24px;background:var(--dark3);border:1px solid var(--glass-border);border-radius:8px">
-<h4 style="font-size:16px;margin-bottom:12px">🇭🇰 香港总部</h4>
-<p style="font-size:13px;color:var(--text-muted);line-height:1.7">香港中环金融街8号<br>幻想大厦38楼<br><br>📞 +852 3890 8888<br>✉️ hk@fantasyholiday.com</p>
+<div class="office-card reveal">
+<div class="office-flag">🇸🇬</div>
+<h3>新加坡 · 亚太运营中心</h3>
+<div class="office-role">东南亚航线运营 · 游艇租赁调度中心</div>
+<div class="office-detail">
+<strong>地址：</strong>1 Raffles Place, Tower 2, #42-01, Singapore 048616<br>
+<strong>电话：</strong>+65 6234 5678<br>
+<strong>邮箱：</strong>sg@fantastic.vacation<br>
+<strong>服务范围：</strong>东南亚航线策划、租赁调度、当地码头协调<br>
+<strong>办公时间：</strong>周一至周六 09:00-21:00
+</div></div>
+
+<div class="office-card reveal">
+<div class="office-flag">🇲🇨</div>
+<h3>摩纳哥 · 欧洲业务中心</h3>
+<div class="office-role">地中海航线 · 欧洲船厂合作枢纽</div>
+<div class="office-detail">
+<strong>地址：</strong>7 Avenue des Ligures, 98000 Monaco<br>
+<strong>电话：</strong>+377 97 70 8888<br>
+<strong>邮箱：</strong>mc@fantastic.vacation<br>
+<strong>服务范围：</strong>地中海航线运营、欧洲船厂对接、购艇代理<br>
+<strong>办公时间：</strong>周一至周五 09:00-19:00 CET
+</div></div>
+
+<div class="office-card reveal">
+<div class="office-flag">🇦🇪</div>
+<h3>迪拜 · 中东业务中心</h3>
+<div class="office-role">中东皇室服务 · 高端商务活动定制</div>
+<div class="office-detail">
+<strong>地址：</strong>DIFC, Gate Village 7, Office 302, Dubai, UAE<br>
+<strong>电话：</strong>+971 4 567 8888<br>
+<strong>邮箱：</strong>ae@fantastic.vacation<br>
+<strong>服务范围：</strong>中东皇室定制、商务活动策划、海湾航线<br>
+<strong>办公时间：</strong>周日至周四 10:00-20:00 GST
+</div></div>
+
+<div class="office-card reveal">
+<div class="office-flag">🇺🇸</div>
+<h3>迈阿密 · 美洲业务中心</h3>
+<div class="office-role">加勒比航线 · 美洲市场拓展</div>
+<div class="office-detail">
+<strong>地址：</strong>600 Brickell Ave, Suite 2020, Miami, FL 33131<br>
+<strong>电话：</strong>+1 305 888 9999<br>
+<strong>邮箱：</strong>us@fantastic.vacation<br>
+<strong>服务范围：</strong>加勒比航线、美洲游艇市场、跨洋交付<br>
+<strong>办公时间：</strong>周一至周五 09:00-19:00 EST
+</div></div>
+
+<div class="office-card reveal">
+<div class="office-flag">🇨🇳</div>
+<h3>上海 · 中国区总部</h3>
+<div class="office-role">中国大陆市场运营 · 客户服务中心</div>
+<div class="office-detail">
+<strong>地址：</strong>上海市浦东新区陆家嘴环路1288号<br>
+<strong>邮编：</strong>200120<br>
+<strong>电话：</strong>+86 21 5888 9999<br>
+<strong>邮箱：</strong>sh@fantastic.vacation<br>
+<strong>服务范围：</strong>中国大陆客户服务、游艇引进、国内码头协调<br>
+<strong>办公时间：</strong>周一至周五 09:00-19:00
+</div></div>
 </div>
-<div class="office-card" style="padding:24px;background:var(--dark3);border:1px solid var(--glass-border);border-radius:8px">
-<h4 style="font-size:16px;margin-bottom:12px">🇸🇬 新加坡办事处</h4>
-<p style="font-size:13px;color:var(--text-muted);line-height:1.7">滨海湾金融中心<br>亚洲广场大厦42楼<br><br>📞 +65 6234 5678<br>✉️ sg@fantasyholiday.com</p>
+</div></section>
+
+<!-- Service Promise -->
+<section class="section-padding" style="background:var(--dark2)"><div class="container">
+<div class="section-header reveal"><h2><span class="gold-gradient">服务承诺</span></h2></div>
+<div class="promise-grid">
+<div class="promise-card reveal"><div class="promise-icon">⚡</div><h4>极速响应</h4><p>咨询表单2小时内专人回复<br>紧急需求30分钟内响应</p></div>
+<div class="promise-card reveal"><div class="promise-icon">🎯</div><h4>精准匹配</h4><p>根据需求智能匹配专属顾问<br>零沟通损耗，直达专业团队</p></div>
+<div class="promise-card reveal"><div class="promise-icon">🔐</div><h4>绝对保密</h4><p>国际标准隐私保护体系<br>客户信息加密存储</p></div>
+<div class="promise-card reveal"><div class="promise-icon">📋</div><h4>全程追踪</h4><p>每个咨询工单全程追踪<br>服务闭环，无遗漏</p></div>
 </div>
-<div class="office-card" style="padding:24px;background:var(--dark3);border:1px solid var(--glass-border);border-radius:8px">
-<h4 style="font-size:16px;margin-bottom:12px">🇯🇵 东京办事处</h4>
-<p style="font-size:13px;color:var(--text-muted);line-height:1.7">东京港区六本木<br>森大厦28楼<br><br>📞 +81 3 6234 5678<br>✉️ tokyo@fantasyholiday.com</p>
-</div>
-<div class="office-card" style="padding:24px;background:var(--dark3);border:1px solid var(--glass-border);border-radius:8px">
-<h4 style="font-size:16px;margin-bottom:12px">🇲🇨 摩纳哥办事处</h4>
-<p style="font-size:13px;color:var(--text-muted);line-height:1.7">蒙特卡洛海滨<br>游艇中心大厦<br><br>📞 +377 99 99 8888<br>✉️ mc@fantasyholiday.com</p>
-</div>
+</div></section>
+
+<!-- Compliance -->
+<section style="padding:60px 0"><div class="container">
+<div class="section-header reveal"><h2><span class="gold-gradient">企业合规信息</span></h2></div>
+<div class="compliance-box reveal">
+<p>
+<strong>企业全称：</strong>奇幻假期实业有限公司（FANTASTIC VACATION LIMITED）<br>
+<strong>注册地：</strong>香港特别行政区<br>
+<strong>公司注册编号：</strong>74238516<br>
+<strong>商业登记证号码：</strong>78540231-000-05-26-8<br>
+<strong>注册地址：</strong>香港中环金融街8号国际金融中心38楼<br>
+<strong>法定代表人：</strong>陈瀚宇<br>
+<strong>合规备案：</strong>已取得中国交通运输部游艇运营许可、香港海事处牌照、新加坡MPA认证<br>
+<strong>保险合作：</strong>与劳合社（Lloyd's）、安联（Allianz）签署全球海事保险合作协议
+</p>
 </div>
 </div></section>
 
 <footer id="footer"><div class="container"><div class="footer-grid">
-<div class="footer-brand"><a href="index.html" class="nav-logo">FANTASTIC VACATION</a><p>奇幻假期实业有限公司</p></div>
+<div class="footer-brand"><a href="index.html" class="nav-logo">FANTASTIC VACATION</a><p>奇幻假期实业有限公司</p><p style="font-size:12px;color:var(--text-muted);margin-top:8px">✉️ fantastic.vacation@yahoo.com<br>📞 +86 400-888-9999</p></div>
 <div class="footer-col"><h4>快速导航</h4><ul><li><a href="index.html">首页</a></li><li><a href="about.html">关于我们</a></li><li><a href="yachts.html">游艇产品</a></li><li><a href="contact.html">联系我们</a></li></ul></div>
-<div class="footer-col"><h4>联系方式</h4><ul><li>📞 +86 400-888-9999</li><li>✉️ concierge@fantasyholiday.com</li></ul></div>
-</div><div class="footer-bottom"><p>© 2026 奇幻假期实业有限公司</p></div></div></footer>
+<div class="footer-col"><h4>核心业务</h4><ul><li><a href="custom.html">定制服务</a></li><li><a href="charter.html">租赁航线</a></li><li><a href="management.html">托管维保</a></li><li><a href="cases.html">案例展示</a></li></ul></div>
+<div class="footer-col"><h4>全球合作</h4><ul><li><a href="partnership.html">合作概览</a></li><li><a href="partner-list.html">合作伙伴</a></li><li><a href="partner-apply.html">申请合作</a></li><li><a href="partner-process.html">合作流程</a></li></ul></div>
+</div><div class="footer-bottom"><p>&copy; 2026 奇幻假期 FANTASTIC VACATION. All Rights Reserved.</p></div></div></footer>
 
-
-<script>
-window.addEventListener("DOMContentLoaded",function(){
-var loader=document.getElementById("loader");
-if(!loader)return;
-var progressEl=document.getElementById("progress");
-var progress=0;
-var interval=setInterval(function(){progress+=Math.random()*12+8;if(progress>=100){progress=100;clearInterval(interval);if(progressEl)progressEl.style.width="100%";setTimeout(function(){if(loader)loader.style.display="none";document.body.style.overflow=""},400)}else if(progressEl)progressEl.style.width=progress+"%"},180);
-setTimeout(function(){clearInterval(interval);if(loader)loader.style.display="none";document.body.style.overflow=""},5000);
-});
-window.addEventListener("scroll",function(){var nav=document.getElementById("navbar");if(window.scrollY>50)nav.classList.add("scrolled");else nav.classList.remove("scrolled")});
+<script>window.addEventListener("DOMContentLoaded",function(){var l=document.getElementById("loader");var p=document.getElementById("progress");var w=0;var t=setInterval(function(){w+=Math.random()*15;p.style.width=Math.min(w,"%");if(w>=100){clearInterval(t);l.classList.add("hidden")}},30)});
+window.addEventListener("scroll",function(){var n=document.getElementById("navbar");n.classList.toggle("scrolled",window.scrollY>80)});
 function toggleMobile(){document.getElementById("mobile-menu").classList.toggle("active");document.querySelector(".hamburger").classList.toggle("active")}
-(function(){var c=document.getElementById("cursor");if(c)document.addEventListener("mousemove",function(e){c.style.left=e.pageX+"px";c.style.top=e.pageY+"px"})})();
-(function(){var o=new IntersectionObserver(function(e){e.forEach(function(e){if(e.isIntersecting)e.target.classList.add("revealed")})},{threshold:0.1});document.querySelectorAll(".reveal,.reveal-left,.reveal-right,.reveal-scale").forEach(function(e){o.observe(e)})})();
+(function(){var o=new IntersectionObserver(function(e){e.forEach(function(e){if(e.isIntersecting)e.target.classList.add("revealed")})},{threshold:0.1});document.querySelectorAll(".reveal").forEach(function(e){o.observe(e)})})();
+document.getElementById("contactForm").addEventListener("submit",function(e){e.preventDefault();var f=this;var b=f.querySelector(".form-submit");b.disabled=true;b.textContent="⏳ 提交中...";fetch(f.action,{method:"POST",body:new FormData(f),headers:{Accept:"application/json"}}).then(function(r){if(r.ok){b.textContent="✓ 预约已提交！我们将2小时内联系您";f.reset();setTimeout(function(){b.disabled=false;b.textContent="提交咨询预约 →"},5000)}else{b.textContent="✗ 提交失败，请拨打热线";setTimeout(function(){b.disabled=false;b.textContent="提交咨询预约 →"},3000)}}).catch(function(){b.textContent="✗ 网络错误，请拨打热线";setTimeout(function(){b.disabled=false;b.textContent="提交咨询预约 →"},3000)})});
 </script>
 </body></html>
