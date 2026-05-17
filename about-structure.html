@@ -21,11 +21,17 @@
 
     <!-- Main Navigation -->
     <div class="nav-links">
-      <a href="index.html">首页</a>
+      <!-- 首页 -->
+      <div class="nav-dropdown">
+        <a href="index.html">首页</a>
+      </div>
 
       <!-- 关于我们 -->
-      <div class="nav-dropdown">
-        <a href="about.html" class="active">关于我们 <span class="nav-arrow"></span></a>
+      <div class="nav-dropdown has-dropdown">
+        <a href="about.html">
+          关于我们
+          <span class="nav-arrow"></span>
+        </a>
         <div class="nav-dropdown-menu">
           <a href="about.html">公司简介</a>
           <a href="about-history.html">发展历程</a>
@@ -37,8 +43,11 @@
       </div>
 
       <!-- 业务板块 -->
-      <div class="nav-dropdown">
-        <a href="custom.html">业务板块 <span class="nav-arrow"></span></a>
+      <div class="nav-dropdown has-dropdown">
+        <a href="custom.html">
+          业务板块
+          <span class="nav-arrow"></span>
+        </a>
         <div class="nav-dropdown-menu">
           <a href="custom.html">全案定制</a>
           <a href="charter.html">租赁航线</a>
@@ -48,8 +57,11 @@
       </div>
 
       <!-- 产品与服务 -->
-      <div class="nav-dropdown">
-        <a href="yachts.html">产品与服务 <span class="nav-arrow"></span></a>
+      <div class="nav-dropdown has-dropdown">
+        <a href="yachts.html">
+          产品与服务
+          <span class="nav-arrow"></span>
+        </a>
         <div class="nav-dropdown-menu">
           <a href="yachts.html">全系游艇</a>
           <a href="custom.html">定制解决方案</a>
@@ -60,8 +72,11 @@
       </div>
 
       <!-- 新闻中心 -->
-      <div class="nav-dropdown">
-        <a href="news.html">新闻中心 <span class="nav-arrow"></span></a>
+      <div class="nav-dropdown has-dropdown">
+        <a href="news.html">
+          新闻中心
+          <span class="nav-arrow"></span>
+        </a>
         <div class="nav-dropdown-menu">
           <a href="news.html">公司动态</a>
           <a href="news.html#industry">行业资讯</a>
@@ -71,8 +86,11 @@
       </div>
 
       <!-- 投资者关系 -->
-      <div class="nav-dropdown">
-        <a href="ir.html">投资者关系 <span class="nav-arrow"></span></a>
+      <div class="nav-dropdown has-dropdown">
+        <a href="ir.html">
+          投资者关系
+          <span class="nav-arrow"></span>
+        </a>
         <div class="nav-dropdown-menu">
           <a href="ir.html">公司概况</a>
           <a href="ir-financial.html">财务报告</a>
@@ -106,19 +124,216 @@
   </div>
 </nav>
 
+<!-- Search Overlay -->
+<div class="search-overlay" id="searchOverlay">
+  <div class="search-box">
+    <input type="text" class="search-input" placeholder="搜索产品、新闻、案例..." id="searchInput" autocomplete="off">
+    <button class="search-close" onclick="toggleSearch()" aria-label="关闭搜索">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="18" y1="6" x2="6" y2="18"/>
+        <line x1="6" y1="6" x2="18" y2="18"/>
+      </svg>
+    </button>
+  </div>
+  <div class="search-suggestions">
+    <div class="search-suggestion-item" onclick="window.location='yachts.html'">→ 探索全系游艇</div>
+    <div class="search-suggestion-item" onclick="window.location='cases.html'">→ 查看客户案例</div>
+    <div class="search-suggestion-item" onclick="window.location='custom.html'">→ 定制您的专属方案</div>
+    <div class="search-suggestion-item" onclick="window.location='about.html'">→ 了解奇幻假期</div>
+  </div>
+</div>
 
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobile-menu">
+  <button class="mobile-menu-close" onclick="toggleMobile()" aria-label="关闭菜单">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <line x1="18" y1="6" x2="6" y2="18"/>
+      <line x1="6" y1="6" x2="18" y2="18"/>
+    </svg>
+  </button>
+  <a href="index.html" class="mobile-menu-item">首页</a>
+  <a href="about.html" class="mobile-menu-item">关于我们</a>
+  <a href="custom.html" class="mobile-menu-item">全案定制</a>
+  <a href="yachts.html" class="mobile-menu-item">产品展示</a>
+  <a href="ir.html" class="mobile-menu-item">投资者关系</a>
+  <a href="contact.html" class="mobile-menu-item">联系我们</a>
+</div>
 
-
+<!-- Page Hero -->
 <section class="page-hero" style="min-height:45vh;background:linear-gradient(135deg,#0d1520,#1a2740);display:flex;align-items:center;justify-content:center;padding:60px 20px;">
 <div style="text-align:center;">
-<h1 style="font-family:'Playfair Display',serif;font-size:clamp(32px,4vw,56px);color:#c9a96e;">组织架构</h1>
-<p style="color:#94a3b8;margin-top:16px;font-size:18px;">奇幻假期 FANTASTIC VACATION</p>
+<h1 style="font-family:'Playfair Display',serif;font-size:clamp(36px,5vw,64px);color:#c9a96e;">组织架构</h1>
+<p style="color:#94a3b8;margin-top:20px;font-size:18px;">专业团队 · 高效协作 · 全球布局</p>
 </div>
 </section>
-<section style="padding:80px 20px;max-width:1100px;margin:0 auto;">
-<h2 style="font-family:'Playfair Display',serif;font-size:28px;color:#c9a96e;margin-bottom:30px;">组织架构内容</h2>
-<p style="color:#e2e8f0;line-height:1.9;">完善中...</p>
+
+<!-- Organization Structure Content -->
+<section style="padding:80px 20px;max-width:1200px;margin:0 auto;">
+<h2 style="font-family:'Playfair Display',serif;font-size:32px;color:#c9a96e;margin-bottom:40px;text-align:center;">组织架构</h2>
+
+<!-- CEO Introduction -->
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(201,169,110,0.15);border-radius:16px;padding:48px;margin-bottom:60px;text-align:center;">
+<div style="width:120px;height:120px;background:linear-gradient(135deg,#c9a96e,#a8893f);border-radius:50%;margin:0 auto 24px;display:flex;align-items:center;justify-content:center;">
+<span style="font-size:42px;color:#fff;font-weight:700;">CEO</span>
+</div>
+<h3 style="font-family:'Playfair Display',serif;font-size:28px;color:#c9a96e;margin-bottom:12px;">首席执行官</h3>
+<p style="color:#94a3b8;font-size:16px;line-height:1.8;max-width:600px;margin:0 auto;">负责公司整体战略规划与决策，统筹全球业务发展，引领行业创新方向。</p>
+</div>
+
+<!-- Department Grid -->
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:32px;margin-bottom:60px;">
+
+<!-- Sales Department -->
+<div style="background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.1);border-radius:16px;padding:36px;transition:transform .3s,box-shadow .3s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 12px 40px rgba(201,169,110,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+<div style="width:56px;height:56px;background:rgba(201,169,110,0.1);border-radius:14px;display:flex;align-items:center;justify-content:center;margin-bottom:20px;">
+<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#c9a96e" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+</div>
+<h3 style="font-size:22px;color:#f1f5f9;margin-bottom:12px;">销售部</h3>
+<p style="color:#94a3b8;line-height:1.8;font-size:15px;">负责全球游艇销售、定制方案咨询与客户关系维护。团队拥有丰富的行业经验，为客户提供专业的购艇建议与金融服务方案。</p>
+<ul style="margin-top:16px;padding-left:20px;color:#6b7280;font-size:14px;line-height:2;">
+<li>新艇销售与二手艇交易</li>
+<li>定制化需求分析与方案设计</li>
+<li>金融租赁与保险服务</li>
+<li>VIP客户专属顾问</li>
+</ul>
+</div>
+
+<!-- Charter Department -->
+<div style="background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.1);border-radius:16px;padding:36px;transition:transform .3s,box-shadow .3s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 12px 40px rgba(201,169,110,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+<div style="width:56px;height:56px;background:rgba(201,169,110,0.1);border-radius:14px;display:flex;align-items:center;justify-content:center;margin-bottom:20px;">
+<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#c9a96e" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+</div>
+<h3 style="font-size:22px;color:#f1f5f9;margin-bottom:12px;">租赁运营部</h3>
+<p style="color:#94a3b8;line-height:1.8;font-size:15px;">管理全球租赁航线运营，包括船期安排、航线规划、船员管理与客户体验优化，确保每一次航行都完美无瑕。</p>
+<ul style="margin-top:16px;padding-left:20px;color:#6b7280;font-size:14px;line-height:2;">
+<li>全球热门航线开发与管理</li>
+<li>船期调度与运力优化</li>
+<li>船员培训与服务标准制定</li>
+<li>客户行程定制与现场服务</li>
+</ul>
+</div>
+
+<!-- Technical Department -->
+<div style="background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.1);border-radius:16px;padding:36px;transition:transform .3s,box-shadow .3s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 12px 40px rgba(201,169,110,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+<div style="width:56px;height:56px;background:rgba(201,169,110,0.1);border-radius:14px;display:flex;align-items:center;justify-content:center;margin-bottom:20px;">
+<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#c9a96e" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+</div>
+<h3 style="font-size:22px;color:#f1f5f9;margin-bottom:12px;">技术服务部</h3>
+<p style="color:#94a3b8;line-height:1.8;font-size:15px;">提供全方位的游艇技术支持，包括日常维保、年度检修、升级改装及紧急救援服务，保障每艘游艇始终处于最佳状态。</p>
+<ul style="margin-top:16px;padding-left:20px;color:#6b7280;font-size:14px;line-height:2;">
+<li>预防性维护与定期保养</li>
+<li>发动机与电子系统维修</li>
+<li>内饰升级与外观翻新</li>
+<li>24/7紧急救援与技术支持</li>
+</ul>
+</div>
+
+<!-- Marketing Department -->
+<div style="background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.1);border-radius:16px;padding:36px;transition:transform .3s,box-shadow .3s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 12px 40px rgba(201,169,110,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+<div style="width:56px;height:56px;background:rgba(201,169,110,0.1);border-radius:14px;display:flex;align-items:center;justify-content:center;margin-bottom:20px;">
+<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#c9a96e" stroke-width="1.5"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+</div>
+<h3 style="font-size:22px;color:#f1f5f9;margin-bottom:12px;">市场品牌部</h3>
+<p style="color:#94a3b8;line-height:1.8;font-size:15px;">负责品牌建设、市场推广与公关活动，通过多渠道营销策略提升品牌影响力，打造行业标杆形象。</p>
+<ul style="margin-top:16px;padding-left:20px;color:#6b7280;font-size:14px;line-height:2;">
+<li>品牌战略规划与视觉管理</li>
+<li>数字营销与社交媒体运营</li>
+<li>展会策划与公关活动执行</li>
+<li>媒体关系与内容创作</li>
+</ul>
+</div>
+
+<!-- Finance Department -->
+<div style="background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.1);border-radius:16px;padding:36px;transition:transform .3s,box-shadow .3s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 12px 40px rgba(201,169,110,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+<div style="width:56px;height:56px;background:rgba(201,169,110,0.1);border-radius:14px;display:flex;align-items:center;justify-content:center;margin-bottom:20px;">
+<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#c9a96e" stroke-width="1.5"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+</div>
+<h3 style="font-size:22px;color:#f1f5f9;margin-bottom:12px;">财务部</h3>
+<p style="color:#94a3b8;line-height:1.8;font-size:15px;">负责公司财务管理、资金运作、税务筹划与风险控制，为业务发展提供稳健的财务支撑与战略建议。</p>
+<ul style="margin-top:16px;padding-left:20px;color:#6b7280;font-size:14px;line-height:2;">
+<li>财务报表编制与分析</li>
+<li>资金管理与融资筹划</li>
+<li>成本控制与预算管理</li>
+<li>税务合规与审计对接</li>
+</ul>
+</div>
+
+<!-- HR Department -->
+<div style="background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.1);border-radius:16px;padding:36px;transition:transform .3s,box-shadow .3s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 12px 40px rgba(201,169,110,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+<div style="width:56px;height:56px;background:rgba(201,169,110,0.1);border-radius:14px;display:flex;align-items:center;justify-content:center;margin-bottom:20px;">
+<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#c9a96e" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/><path d="M20 8H4"/><path d="M20 16H4"/></svg>
+</div>
+<h3 style="font-size:22px;color:#f1f5f9;margin-bottom:12px;">人力资源部</h3>
+<p style="color:#94a3b8;line-height:1.8;font-size:15px;">负责人才招聘、培训发展、绩效管理与企业文化建设，打造高素质的专业团队，为公司持续发展提供人才保障。</p>
+<ul style="margin-top:16px;padding-left:20px;color:#6b7280;font-size:14px;line-height:2;">
+<li>人才招聘与梯队建设</li>
+<li>员工培训与职业发展规划</li>
+<li>绩效考核与薪酬体系管理</li>
+<li>企业文化活动与员工关怀</li>
+</ul>
+</div>
+
+</div>
+
+<!-- Global Offices -->
+<h2 style="font-family:'Playfair Display',serif;font-size:32px;color:#c9a96e;margin-bottom:40px;text-align:center;">全球布局</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;margin-bottom:80px;">
+
+<div style="background:rgba(201,169,110,0.05);border:1px solid rgba(201,169,110,0.15);border-radius:12px;padding:28px;text-align:center;">
+<div style="font-size:28px;margin-bottom:12px;">🇨🇳</div>
+<h4 style="color:#c9a96e;font-size:18px;margin-bottom:8px;">深圳总部</h4>
+<p style="color:#94a3b8;font-size:14px;line-height:1.6;">广东省深圳市宝安区松岗工业园1号<br>TEL: 0755-31530188</p>
+</div>
+
+<div style="background:rgba(201,169,110,0.05);border:1px solid rgba(201,169,110,0.15);border-radius:12px;padding:28px;text-align:center;">
+<div style="font-size:28px;margin-bottom:12px;">🇭🇰</div>
+<h4 style="color:#c9a96e;font-size:18px;margin-bottom:8px;">香港分公司</h4>
+<p style="color:#94a3b8;font-size:14px;line-height:1.6;">香港中环金融街8号国际金融中心<br>TEL: +852-3919-8888</p>
+</div>
+
+<div style="background:rgba(201,169,110,0.05);border:1px solid rgba(201,169,110,0.15);border-radius:12px;padding:28px;text-align:center;">
+<div style="font-size:28px;margin-bottom:12px;">🇲🇴</div>
+<h4 style="color:#c9a96e;font-size:18px;margin-bottom:8px;">澳门办事处</h4>
+<p style="color:#94a3b8;font-size:14px;line-height:1.6;">澳门宋玉生广场光辉商业中心<br>TEL: +853-2871-6666</p>
+</div>
+
+<div style="background:rgba(201,169,110,0.05);border:1px solid rgba(201,169,110,0.15);border-radius:12px;padding:28px;text-align:center;">
+<div style="font-size:28px;margin-bottom:12px;">🇸🇬</div>
+<h4 style="color:#c9a96e;font-size:18px;margin-bottom:8px;">新加坡办事处</h4>
+<p style="color:#94a3b8;font-size:14px;line-height:1.6;">新加坡莱佛士坊金融中心<br>TEL: +65-6888-9999</p>
+</div>
+
+</div>
+
+<!-- Team Values -->
+<div style="background:linear-gradient(135deg,rgba(201,169,110,0.08),rgba(168,137,63,0.04));border:1px solid rgba(201,169,110,0.2);border-radius:20px;padding:60px 40px;text-align:center;">
+<h2 style="font-family:'Playfair Display',serif;font-size:32px;color:#c9a96e;margin-bottom:32px;">我们的团队理念</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:32px;max-width:900px;margin:0 auto;">
+<div>
+<div style="font-size:36px;margin-bottom:12px;">⚓</div>
+<h4 style="color:#f1f5f9;font-size:18px;margin-bottom:8px;">专业专注</h4>
+<p style="color:#94a3b8;font-size:14px;">深耕游艇行业15年<br>每一位成员都是领域专家</p>
+</div>
+<div>
+<div style="font-size:36px;margin-bottom:12px;">🌊</div>
+<h4 style="color:#f1f5f9;font-size:18px;margin-bottom:8px;">创新进取</h4>
+<p style="color:#94a3b8;font-size:14px;">持续探索行业前沿<br>引领高端生活方式新趋势</p>
+</div>
+<div>
+<div style="font-size:36px;margin-bottom:12px;">💎</div>
+<h4 style="color:#f1f5f9;font-size:18px;margin-bottom:8px;">卓越品质</h4>
+<p style="color:#94a3b8;font-size:14px;">以匠心致初心<br>每个细节都追求极致完美</p>
+</div>
+<div>
+<div style="font-size:36px;margin-bottom:12px;">🤝</div>
+<h4 style="color:#f1f5f9;font-size:18px;margin-bottom:8px;">协作共赢</h4>
+<p style="color:#94a3b8;font-size:14px;">跨部门高效协同<br>与客户、伙伴共同成长</p>
+</div>
+</div>
+</div>
+
 </section>
+
 <footer id="footer">
   <div class="footer-top-bar"></div>
   <div class="footer-main">
@@ -147,7 +362,7 @@
             <span>微博</span>
           </a>
           <a href="javascript:void(0)" class="social-item" title="抖音">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.82a8.18 8.18 0 0 0 4.77 1.52V6.68a4.85 4.85 0 0 1-1-.02z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 0 0 0 6.33-6.34V8.82a8.18 8.18 0 0 0 4.77 1.52V6.68a4.85 4.85 0 0 1-1-.02z"/></svg>
             <span>抖音</span>
           </a>
           <a href="javascript:void(0)" class="social-item" title="LinkedIn">
@@ -264,8 +479,9 @@
         <a href="sitemap.html">网站地图</a>
       </div>
     </div>
-    <div   </div>
+  </div>
 </footer>
 
+<script src="nav-component.js"></script>
 </body>
 </html>
