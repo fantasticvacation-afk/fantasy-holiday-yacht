@@ -427,7 +427,8 @@ img{max-width:100%;display:block}
 .nav-links>a:hover{color:#c9a96e;background:rgba(201,169,110,.08)}
 .nav-links>a.active{color:#c9a96e;font-weight:600;background:rgba(201,169,110,.08)}
 .nav-links>a::after{display:none!important}
-.nav-arrow{font-size:9px;margin-left:4px;opacity:.6}
+.nav-arrow{display:inline-block;width:0;height:0;margin-left:6px;border-left:4px solid transparent;border-right:4px solid transparent;border-top:5px solid currentColor;opacity:.6;transition:transform .2s,opacity .2s;vertical-align:middle}
+.nav-dropdown:hover .nav-arrow{transform:rotate(180deg);opacity:1}
 .nav-dropdown{position:relative}
 .nav-dropdown-menu{position:absolute;top:calc(100%+8px);left:50%;transform:translateX(-50%) translateY(8px);background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:8px 0;min-width:200px;opacity:0;visibility:hidden;transition:opacity .2s,transform .2s,visibility .2s;box-shadow:0 8px 32px rgba(0,0,0,.12);z-index:1001}
 .nav-dropdown:hover .nav-dropdown-menu{opacity:1;visibility:visible;transform:translateX(-50%) translateY(0)}
