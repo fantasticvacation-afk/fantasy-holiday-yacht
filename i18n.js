@@ -19107,7 +19107,12 @@ function applyI18n(lang) {
   document.querySelectorAll('[data-i18n]').forEach(function(el) {
     var key = el.getAttribute('data-i18n');
     if (dict[key] && dict[key][lang]) {
-      el.textContent = dict[key][lang];
+      // 只更新没有子元素的叶子节点，防止破坏容器结构
+      // 容器元素（有 children）应该跳过，避免替换掉所有子元素
+      if (el.children.length === 0) {
+        el.textContent = dict[key][lang];
+      }
+      // TODO: 未来可以用 TreeWalker 只更新文本节点，保留子元素
     }
   });
   // 处理 data-i18n-attr 属性翻译
