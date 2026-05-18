@@ -1,0 +1,2526 @@
+{
+  "dict": {
+    "page.index.0": {
+      "zh": "奇幻假期 FANTASTIC VACATION | 全球高端游艇定制与私人海享生活缔造者",
+      "en": ""
+    },
+    "page.index.1": {
+      "zh": "FANTASTIC VACATION",
+      "en": ""
+    },
+    "page.index.2": {
+      "zh": "LOADING",
+      "en": ""
+    },
+    "page.index.3": {
+      "zh": "奇幻假期",
+      "en": ""
+    },
+    "page.index.4": {
+      "zh": "FANTASTIC VACATION",
+      "en": ""
+    },
+    "page.index.5": {
+      "zh": "首页",
+      "en": ""
+    },
+    "page.index.6": {
+      "zh": "关于我们",
+      "en": ""
+    },
+    "page.index.7": {
+      "zh": "公司简介",
+      "en": ""
+    },
+    "page.index.8": {
+      "zh": "发展历程",
+      "en": ""
+    },
+    "page.index.9": {
+      "zh": "企业文化",
+      "en": ""
+    },
+    "page.index.10": {
+      "zh": "组织架构",
+      "en": ""
+    },
+    "page.index.11": {
+      "zh": "荣誉资质",
+      "en": ""
+    },
+    "page.index.12": {
+      "zh": "社会责任",
+      "en": ""
+    },
+    "page.index.13": {
+      "zh": "业务板块",
+      "en": ""
+    },
+    "page.index.14": {
+      "zh": "全案定制",
+      "en": ""
+    },
+    "page.index.15": {
+      "zh": "租赁航线",
+      "en": ""
+    },
+    "page.index.16": {
+      "zh": "托管维保",
+      "en": ""
+    },
+    "page.index.17": {
+      "zh": "全球合作",
+      "en": ""
+    },
+    "page.index.18": {
+      "zh": "产品与服务",
+      "en": ""
+    },
+    "page.index.19": {
+      "zh": "全系游艇",
+      "en": ""
+    },
+    "page.index.20": {
+      "zh": "定制解决方案",
+      "en": ""
+    },
+    "page.index.21": {
+      "zh": "租赁服务",
+      "en": ""
+    },
+    "page.index.22": {
+      "zh": "托管服务",
+      "en": ""
+    },
+    "page.index.23": {
+      "zh": "客户案例",
+      "en": ""
+    },
+    "page.index.24": {
+      "zh": "新闻中心",
+      "en": ""
+    },
+    "page.index.25": {
+      "zh": "公司动态",
+      "en": ""
+    },
+    "page.index.26": {
+      "zh": "行业资讯",
+      "en": ""
+    },
+    "page.index.27": {
+      "zh": "媒体报道",
+      "en": ""
+    },
+    "page.index.28": {
+      "zh": "公告通知",
+      "en": ""
+    },
+    "page.index.29": {
+      "zh": "投资者关系",
+      "en": ""
+    },
+    "page.index.30": {
+      "zh": "公司概况",
+      "en": ""
+    },
+    "page.index.31": {
+      "zh": "财务报告",
+      "en": ""
+    },
+    "page.index.32": {
+      "zh": "公告披露",
+      "en": ""
+    },
+    "page.index.33": {
+      "zh": "联系我们",
+      "en": ""
+    },
+    "page.index.34": {
+      "zh": "EN",
+      "en": ""
+    },
+    "page.index.35": {
+      "zh": "→ 探索全系游艇",
+      "en": ""
+    },
+    "page.index.36": {
+      "zh": "→ 定制专属游艇",
+      "en": ""
+    },
+    "page.index.37": {
+      "zh": "→ 浏览全球航线",
+      "en": ""
+    },
+    "page.index.38": {
+      "zh": "→ 联系专业顾问",
+      "en": ""
+    },
+    "page.index.39": {
+      "zh": "奇幻假期",
+      "en": ""
+    },
+    "page.index.40": {
+      "zh": "首页",
+      "en": ""
+    },
+    "page.index.41": {
+      "zh": "关于我们",
+      "en": ""
+    },
+    "page.index.42": {
+      "zh": "公司简介",
+      "en": ""
+    },
+    "page.index.43": {
+      "zh": "发展历程",
+      "en": ""
+    },
+    "page.index.44": {
+      "zh": "企业文化",
+      "en": ""
+    },
+    "page.index.45": {
+      "zh": "荣誉资质",
+      "en": ""
+    },
+    "page.index.46": {
+      "zh": "业务板块",
+      "en": ""
+    },
+    "page.index.47": {
+      "zh": "全案定制",
+      "en": ""
+    },
+    "page.index.48": {
+      "zh": "租赁航线",
+      "en": ""
+    },
+    "page.index.49": {
+      "zh": "托管维保",
+      "en": ""
+    },
+    "page.index.50": {
+      "zh": "全球合作",
+      "en": ""
+    },
+    "page.index.51": {
+      "zh": "产品与服务",
+      "en": ""
+    },
+    "page.index.52": {
+      "zh": "全系游艇",
+      "en": ""
+    },
+    "page.index.53": {
+      "zh": "客户案例",
+      "en": ""
+    },
+    "page.index.54": {
+      "zh": "新闻中心",
+      "en": ""
+    },
+    "page.index.55": {
+      "zh": "公司动态",
+      "en": ""
+    },
+    "page.index.56": {
+      "zh": "行业资讯",
+      "en": ""
+    },
+    "page.index.57": {
+      "zh": "媒体报道",
+      "en": ""
+    },
+    "page.index.58": {
+      "zh": "公告通知",
+      "en": ""
+    },
+    "page.index.59": {
+      "zh": "投资者关系",
+      "en": ""
+    },
+    "page.index.60": {
+      "zh": "联系我们",
+      "en": ""
+    },
+    "page.index.61": {
+      "zh": "电话：13797920792 / +86 0755 3353-0188",
+      "en": ""
+    },
+    "page.index.62": {
+      "zh": "邮箱：hs@fantastic-vacation.com",
+      "en": ""
+    },
+    "page.index.63": {
+      "zh": "✦ EST. 2010 · GLOBAL LUXURY MARINE ✦",
+      "en": ""
+    },
+    "page.index.64": {
+      "zh": "驾驭蔚蓝之巅",
+      "en": ""
+    },
+    "page.index.65": {
+      "zh": "定义海洋奢华",
+      "en": ""
+    },
+    "page.index.66": {
+      "zh": "全球一体化高端游艇定制 · 私人海享生活缔造者",
+      "en": ""
+    },
+    "page.index.67": {
+      "zh": "从概念设计到远洋交付，从日间巡航到环球航行，我们重新定义每一寸海洋体验。",
+      "en": ""
+    },
+    "page.index.68": {
+      "zh": "探索全系游艇",
+      "en": ""
+    },
+    "page.index.69": {
+      "zh": "预约专属顾问",
+      "en": ""
+    },
+    "page.index.70": {
+      "zh": "SCROLL",
+      "en": ""
+    },
+    "page.index.71": {
+      "zh": "年行业深耕",
+      "en": ""
+    },
+    "page.index.72": {
+      "zh": "全球高净值客户",
+      "en": ""
+    },
+    "page.index.73": {
+      "zh": "运营豪华游艇",
+      "en": ""
+    },
+    "page.index.74": {
+      "zh": "覆盖国际海域",
+      "en": ""
+    },
+    "page.index.75": {
+      "zh": "为何选择奇幻假期",
+      "en": ""
+    },
+    "page.index.76": {
+      "zh": "我们不只是游艇服务商，更是您海洋生活方式的全方位策展人",
+      "en": ""
+    },
+    "page.index.77": {
+      "zh": "⚓",
+      "en": ""
+    },
+    "page.index.78": {
+      "zh": "全产业链整合",
+      "en": ""
+    },
+    "page.index.79": {
+      "zh": "从游艇研发设计、船厂制造监造，到交付后的运营管理、维修保养、保险合规——我们提供游艇全生命周期的一站式解决方案。",
+      "en": ""
+    },
+    "page.index.80": {
+      "zh": "了解更多 →",
+      "en": ""
+    },
+    "page.index.81": {
+      "zh": "🎨",
+      "en": ""
+    },
+    "page.index.82": {
+      "zh": "顶级设计能力",
+      "en": ""
+    },
+    "page.index.83": {
+      "zh": "携手意大利、荷兰、德国等全球顶尖船舶设计事务所，将艺术美学与工程性能完美融合，每艘游艇都是独一无二的海上艺术品。",
+      "en": ""
+    },
+    "page.index.84": {
+      "zh": "探索定制 →",
+      "en": ""
+    },
+    "page.index.85": {
+      "zh": "🌍",
+      "en": ""
+    },
+    "page.index.86": {
+      "zh": "全球网络覆盖",
+      "en": ""
+    },
+    "page.index.87": {
+      "zh": "在地中海、加勒比海、东南亚、中东、北欧等全球30+热门海域设有服务基地，无论您的航程指向何方，我们都能即时响应。",
+      "en": ""
+    },
+    "page.index.88": {
+      "zh": "查看航线 →",
+      "en": ""
+    },
+    "page.index.89": {
+      "zh": "🛡️",
+      "en": ""
+    },
+    "page.index.90": {
+      "zh": "管家式服务体系",
+      "en": ""
+    },
+    "page.index.91": {
+      "zh": "每位客户配备专属Yacht Manager，7×24小时响应需求，从航线规划到岸上行程，真正实现\"拎包出海\"的无忧体验。",
+      "en": ""
+    },
+    "page.index.92": {
+      "zh": "了解托管 →",
+      "en": ""
+    },
+    "page.index.93": {
+      "zh": "四大核心系列",
+      "en": ""
+    },
+    "page.index.94": {
+      "zh": "覆盖从精致日间巡航到百米超级游艇的全谱系产品矩阵",
+      "en": ""
+    },
+    "page.index.95": {
+      "zh": "旗舰系列",
+      "en": ""
+    },
+    "page.index.96": {
+      "zh": "Fantasy Sovereign",
+      "en": ""
+    },
+    "page.index.97": {
+      "zh": "君临系列",
+      "en": ""
+    },
+    "page.index.98": {
+      "zh": "60m - 120m Superyacht",
+      "en": ""
+    },
+    "page.index.99": {
+      "zh": "60-120m",
+      "en": ""
+    },
+    "page.index.100": {
+      "zh": "总长度",
+      "en": ""
+    },
+    "page.index.101": {
+      "zh": "最大载客",
+      "en": ""
+    },
+    "page.index.102": {
+      "zh": "无限航区",
+      "en": ""
+    },
+    "page.index.103": {
+      "zh": "航行等级",
+      "en": ""
+    },
+    "page.index.104": {
+      "zh": "专为全球顶级富豪打造，融合宫殿级居住空间与尖端航海科技。",
+      "en": ""
+    },
+    "page.index.105": {
+      "zh": "咨询报价",
+      "en": ""
+    },
+    "page.index.106": {
+      "zh": "查看全系 →",
+      "en": ""
+    },
+    "page.index.107": {
+      "zh": "远征系列",
+      "en": ""
+    },
+    "page.index.108": {
+      "zh": "Fantasy Expedition",
+      "en": ""
+    },
+    "page.index.109": {
+      "zh": "远征系列",
+      "en": ""
+    },
+    "page.index.110": {
+      "zh": "40m - 70m Explorer Yacht",
+      "en": ""
+    },
+    "page.index.111": {
+      "zh": "40-70m",
+      "en": ""
+    },
+    "page.index.112": {
+      "zh": "总长度",
+      "en": ""
+    },
+    "page.index.113": {
+      "zh": "最大载客",
+      "en": ""
+    },
+    "page.index.114": {
+      "zh": "极地/冰级",
+      "en": ""
+    },
+    "page.index.115": {
+      "zh": "特殊认证",
+      "en": ""
+    },
+    "page.index.116": {
+      "zh": "探险型远洋游艇，可深入南极、阿拉斯加等极地海域，不失五星舒适度。",
+      "en": ""
+    },
+    "page.index.117": {
+      "zh": "咨询报价",
+      "en": ""
+    },
+    "page.index.118": {
+      "zh": "查看全系 →",
+      "en": ""
+    },
+    "page.index.119": {
+      "zh": "飞桥系列",
+      "en": ""
+    },
+    "page.index.120": {
+      "zh": "Fantasy Flybridge",
+      "en": ""
+    },
+    "page.index.121": {
+      "zh": "飞桥系列",
+      "en": ""
+    },
+    "page.index.122": {
+      "zh": "18m - 45m Motor Yacht",
+      "en": ""
+    },
+    "page.index.123": {
+      "zh": "18-45m",
+      "en": ""
+    },
+    "page.index.124": {
+      "zh": "总长度",
+      "en": ""
+    },
+    "page.index.125": {
+      "zh": "最大载客",
+      "en": ""
+    },
+    "page.index.126": {
+      "zh": "28kn+",
+      "en": ""
+    },
+    "page.index.127": {
+      "zh": "最高航速",
+      "en": ""
+    },
+    "page.index.128": {
+      "zh": "经典飞桥运动游艇，适合地中海沿岸巡航与岛屿跳岛之旅。",
+      "en": ""
+    },
+    "page.index.129": {
+      "zh": "¥880万起",
+      "en": ""
+    },
+    "page.index.130": {
+      "zh": "查看全系 →",
+      "en": ""
+    },
+    "page.index.131": {
+      "zh": "日间系列",
+      "en": ""
+    },
+    "page.index.132": {
+      "zh": "Fantasy Day Cruiser",
+      "en": ""
+    },
+    "page.index.133": {
+      "zh": "日间系列",
+      "en": ""
+    },
+    "page.index.134": {
+      "zh": "10m - 18m Day Cruiser",
+      "en": ""
+    },
+    "page.index.135": {
+      "zh": "10-18m",
+      "en": ""
+    },
+    "page.index.136": {
+      "zh": "总长度",
+      "en": ""
+    },
+    "page.index.137": {
+      "zh": "最大载客",
+      "en": ""
+    },
+    "page.index.138": {
+      "zh": "35kn+",
+      "en": ""
+    },
+    "page.index.139": {
+      "zh": "最高航速",
+      "en": ""
+    },
+    "page.index.140": {
+      "zh": "精致紧凑的日间巡航游艇，入门级奢华海享方案。",
+      "en": ""
+    },
+    "page.index.141": {
+      "zh": "¥280万起",
+      "en": ""
+    },
+    "page.index.142": {
+      "zh": "查看全系 →",
+      "en": ""
+    },
+    "page.index.143": {
+      "zh": "浏览全部50艘游艇 →",
+      "en": ""
+    },
+    "page.index.144": {
+      "zh": "\"我们不制造游艇，我们编织海洋梦想。\"",
+      "en": ""
+    },
+    "page.index.145": {
+      "zh": "全流程定制能力",
+      "en": ""
+    },
+    "page.index.146": {
+      "zh": "从最初的概念草图到最终的海上交付，奇幻假期的定制服务涵盖游艇诞生的每一个环节。",
+      "en": ""
+    },
+    "page.index.147": {
+      "zh": "我们的国际化团队汇聚了来自意大利、荷兰、德国、日本的顶尖设计师与工程师，在船体流体力学、内部空间规划、智能系统集成、环保动力方案等领域拥有深厚的专业积累。",
+      "en": ""
+    },
+    "page.index.148": {
+      "zh": "外观设计",
+      "en": ""
+    },
+    "page.index.149": {
+      "zh": "联合全球顶级船舶设计工作室，打造独一无二的视觉语言",
+      "en": ""
+    },
+    "page.index.150": {
+      "zh": "内饰配置",
+      "en": ""
+    },
+    "page.index.151": {
+      "zh": "精选意大利皮革、法国橡木、西班牙大理石等顶级材料",
+      "en": ""
+    },
+    "page.index.152": {
+      "zh": "功能系统",
+      "en": ""
+    },
+    "page.index.153": {
+      "zh": "稳定系统、减摇鳍、零速鳍、岸电系统全面定制",
+      "en": ""
+    },
+    "page.index.154": {
+      "zh": "智能科技",
+      "en": ""
+    },
+    "page.index.155": {
+      "zh": "全船智能中控、卫星通信、水下灯光、影院系统",
+      "en": ""
+    },
+    "page.index.156": {
+      "zh": "开启定制之旅",
+      "en": ""
+    },
+    "page.index.157": {
+      "zh": "精选全球航线",
+      "en": ""
+    },
+    "page.index.158": {
+      "zh": "从地中海的蔚蓝海岸到加勒比的珍珠群岛，为您呈现地球上最令人心动的海上旅程",
+      "en": ""
+    },
+    "page.index.159": {
+      "zh": "地中海",
+      "en": ""
+    },
+    "page.index.160": {
+      "zh": "7-14天",
+      "en": ""
+    },
+    "page.index.161": {
+      "zh": "蔚蓝海岸 · 地中海经典环线",
+      "en": ""
+    },
+    "page.index.162": {
+      "zh": "摩纳哥→尼斯→戛纳→热那亚→阿马尔菲海岸，途经世界顶级游艇俱乐部。",
+      "en": ""
+    },
+    "page.index.163": {
+      "zh": "€85,000起/周",
+      "en": ""
+    },
+    "page.index.164": {
+      "zh": "含船长船员",
+      "en": ""
+    },
+    "page.index.165": {
+      "zh": "加勒比海",
+      "en": ""
+    },
+    "page.index.166": {
+      "zh": "10-21天",
+      "en": ""
+    },
+    "page.index.167": {
+      "zh": "珍珠群岛 · 加勒比海奢享之旅",
+      "en": ""
+    },
+    "page.index.168": {
+      "zh": "巴哈马→特克斯凯科斯→英属维尔京群岛，清澈温水与隐秘海湾。",
+      "en": ""
+    },
+    "page.index.169": {
+      "zh": "$95,000起/周",
+      "en": ""
+    },
+    "page.index.170": {
+      "zh": "含全套服务",
+      "en": ""
+    },
+    "page.index.171": {
+      "zh": "东南亚",
+      "en": ""
+    },
+    "page.index.172": {
+      "zh": "5-14天",
+      "en": ""
+    },
+    "page.index.173": {
+      "zh": "翡翠海域 · 安达曼海秘境巡游",
+      "en": ""
+    },
+    "page.index.174": {
+      "zh": "普吉岛→皮皮岛→缅甸丹老群岛，丰富水上活动与地道泰式料理。",
+      "en": ""
+    },
+    "page.index.175": {
+      "zh": "¥380,000起/周",
+      "en": ""
+    },
+    "page.index.176": {
+      "zh": "含全套服务",
+      "en": ""
+    },
+    "page.index.177": {
+      "zh": "查看全部航线 →",
+      "en": ""
+    },
+    "page.index.178": {
+      "zh": "360° 托管维保体系",
+      "en": ""
+    },
+    "page.index.179": {
+      "zh": "专业的游艇资产管理服务，让您的海上资产始终处于最佳状态",
+      "en": ""
+    },
+    "page.index.180": {
+      "zh": "📋",
+      "en": ""
+    },
+    "page.index.181": {
+      "zh": "日常运营",
+      "en": ""
+    },
+    "page.index.182": {
+      "zh": "船员管理、日程调度、财务核算",
+      "en": ""
+    },
+    "page.index.183": {
+      "zh": "🔧",
+      "en": ""
+    },
+    "page.index.184": {
+      "zh": "定期保养",
+      "en": ""
+    },
+    "page.index.185": {
+      "zh": "发动机保养、防污漆更新、设备检测",
+      "en": ""
+    },
+    "page.index.186": {
+      "zh": "🔩",
+      "en": ""
+    },
+    "page.index.187": {
+      "zh": "专业维修",
+      "en": ""
+    },
+    "page.index.188": {
+      "zh": "紧急抢修、船体修复、系统升级",
+      "en": ""
+    },
+    "page.index.189": {
+      "zh": "📜",
+      "en": ""
+    },
+    "page.index.190": {
+      "zh": "合规年检",
+      "en": ""
+    },
+    "page.index.191": {
+      "zh": "船级社检验、法定证书更新",
+      "en": ""
+    },
+    "page.index.192": {
+      "zh": "🛡️",
+      "en": ""
+    },
+    "page.index.193": {
+      "zh": "保险理赔",
+      "en": ""
+    },
+    "page.index.194": {
+      "zh": "H&M安排、P&I对接、事故处理",
+      "en": ""
+    },
+    "page.index.195": {
+      "zh": "了解完整托管方案 →",
+      "en": ""
+    },
+    "page.index.196": {
+      "zh": "精选项目案例",
+      "en": ""
+    },
+    "page.index.197": {
+      "zh": "每一个案例都是我们对卓越的不懈追求",
+      "en": ""
+    },
+    "page.index.198": {
+      "zh": "全案定制",
+      "en": ""
+    },
+    "page.index.199": {
+      "zh": "82米超级游艇「幻蓝号」",
+      "en": ""
+    },
+    "page.index.200": {
+      "zh": "中东王室委托，历时38个月，搭载直升机平台、潜艇车库、IMAX影院。2024年荣获Asia Boating Awards年度最佳定制游艇。",
+      "en": ""
+    },
+    "page.index.201": {
+      "zh": "租赁航行",
+      "en": ""
+    },
+    "page.index.202": {
+      "zh": "地中海30天深度巡航",
+      "en": ""
+    },
+    "page.index.203": {
+      "zh": "欧洲家族企业定制，途经12个国家24个港口，配备米其林主厨与私人潜水教练。",
+      "en": ""
+    },
+    "page.index.204": {
+      "zh": "托管服务",
+      "en": ""
+    },
+    "page.index.205": {
+      "zh": "中东王室船队5年全托管",
+      "en": ""
+    },
+    "page.index.206": {
+      "zh": "管理3艘超级游艇（45m/62m/88m），5年零重大事故运营记录。",
+      "en": ""
+    },
+    "page.index.207": {
+      "zh": "查看全部案例 →",
+      "en": ""
+    },
+    "page.index.208": {
+      "zh": "新闻与动态",
+      "en": ""
+    },
+    "page.index.209": {
+      "zh": "了解奇幻假期的最新动态与海洋生活方式资讯",
+      "en": ""
+    },
+    "page.index.210": {
+      "zh": "品牌动态",
+      "en": ""
+    },
+    "page.index.211": {
+      "zh": "奇幻假期香港运营中心正式启用",
+      "en": ""
+    },
+    "page.index.212": {
+      "zh": "2026年5月，奇幻假期在香港中环设立亚太区总部，统筹亚太地区业务。",
+      "en": ""
+    },
+    "page.index.213": {
+      "zh": "行业趋势",
+      "en": ""
+    },
+    "page.index.214": {
+      "zh": "新能源动力游艇增长超40%",
+      "en": ""
+    },
+    "page.index.215": {
+      "zh": "混合动力与纯电动游艇订单量大幅增长，环保合规成为船东核心考量。",
+      "en": ""
+    },
+    "page.index.216": {
+      "zh": "生活方式",
+      "en": ""
+    },
+    "page.index.217": {
+      "zh": "海上派对策划完整指南",
+      "en": ""
+    },
+    "page.index.218": {
+      "zh": "从主题布置到菜单设计，活动策划专家分享海上派对举办攻略。",
+      "en": ""
+    },
+    "page.index.219": {
+      "zh": "更多资讯 →",
+      "en": ""
+    },
+    "page.index.220": {
+      "zh": "全球合作网络",
+      "en": ""
+    },
+    "page.index.221": {
+      "zh": "携手世界顶级合作伙伴，共建海洋奢华生态系统",
+      "en": ""
+    },
+    "page.index.222": {
+      "zh": "🏗️ 顶级船厂合作",
+      "en": ""
+    },
+    "page.index.223": {
+      "zh": "与Ferretti Group、Feadship、Lürssen等世界一流造船集团建立战略伙伴关系。",
+      "en": ""
+    },
+    "page.index.224": {
+      "zh": "🏝️ Marina网络",
+      "en": ""
+    },
+    "page.index.225": {
+      "zh": "覆盖全球80+顶级游艇码头，为客户提供专属泊位预订与VIP接待服务。",
+      "en": ""
+    },
+    "page.index.226": {
+      "zh": "✈️ 奢华生活配套",
+      "en": ""
+    },
+    "page.index.227": {
+      "zh": "整合私人航空、顶级酒店、艺术品收藏等资源，打造无缝奢华体验链。",
+      "en": ""
+    },
+    "page.index.228": {
+      "zh": "了解合作详情 →",
+      "en": ""
+    },
+    "page.index.229": {
+      "zh": "我们不制造游艇，我们编织海洋梦想。",
+      "en": ""
+    },
+    "page.index.230": {
+      "zh": "每一艘出自奇幻假期的作品，都是对极致生活方式的重新定义。",
+      "en": ""
+    },
+    "page.index.231": {
+      "zh": "准备好开启您的",
+      "en": ""
+    },
+    "page.index.232": {
+      "zh": "海上传奇",
+      "en": ""
+    },
+    "page.index.233": {
+      "zh": "了吗？",
+      "en": ""
+    },
+    "page.index.234": {
+      "zh": "无论您正在寻找梦想中的第一艘游艇，还是希望升级现有服务体验，我们的专业顾问团队随时为您效劳。",
+      "en": ""
+    },
+    "page.index.235": {
+      "zh": "📞 +86 0755 3353-0188",
+      "en": ""
+    },
+    "page.index.236": {
+      "zh": "✉️ hs@fantastic-vacation.com",
+      "en": ""
+    },
+    "page.index.237": {
+      "zh": "立即预约咨询",
+      "en": ""
+    },
+    "page.index.238": {
+      "zh": "奇幻假期",
+      "en": ""
+    },
+    "page.index.239": {
+      "zh": "FANTASTIC VACATION",
+      "en": ""
+    },
+    "page.index.240": {
+      "zh": "「探索全球，不负假期」",
+      "en": ""
+    },
+    "page.index.241": {
+      "zh": "全球一体化高端游艇定制与私人海享生活缔造者",
+      "en": ""
+    },
+    "page.index.242": {
+      "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+      "en": ""
+    },
+    "page.index.243": {
+      "zh": "微信公众号",
+      "en": ""
+    },
+    "page.index.244": {
+      "zh": "微博",
+      "en": ""
+    },
+    "page.index.245": {
+      "zh": "抖音",
+      "en": ""
+    },
+    "page.index.246": {
+      "zh": "LinkedIn",
+      "en": ""
+    },
+    "page.index.247": {
+      "zh": "YouTube",
+      "en": ""
+    },
+    "page.index.248": {
+      "zh": "快速导航",
+      "en": ""
+    },
+    "page.index.249": {
+      "zh": "首页",
+      "en": ""
+    },
+    "page.index.250": {
+      "zh": "关于我们",
+      "en": ""
+    },
+    "page.index.251": {
+      "zh": "全系游艇",
+      "en": ""
+    },
+    "page.index.252": {
+      "zh": "全案定制",
+      "en": ""
+    },
+    "page.index.253": {
+      "zh": "租赁航线",
+      "en": ""
+    },
+    "page.index.254": {
+      "zh": "托管维保",
+      "en": ""
+    },
+    "page.index.255": {
+      "zh": "案例展示",
+      "en": ""
+    },
+    "page.index.256": {
+      "zh": "新闻资讯",
+      "en": ""
+    },
+    "page.index.257": {
+      "zh": "全球合作",
+      "en": ""
+    },
+    "page.index.258": {
+      "zh": "网站地图",
+      "en": ""
+    },
+    "page.index.259": {
+      "zh": "联系我们",
+      "en": ""
+    },
+    "page.index.260": {
+      "zh": "公司地址",
+      "en": ""
+    },
+    "page.index.261": {
+      "zh": "广东省深圳市宝安区",
+      "en": ""
+    },
+    "page.index.262": {
+      "zh": "松岗工业园1号",
+      "en": ""
+    },
+    "page.index.263": {
+      "zh": "咨询热线",
+      "en": ""
+    },
+    "page.index.264": {
+      "zh": "/",
+      "en": ""
+    },
+    "page.index.265": {
+      "zh": "传真",
+      "en": ""
+    },
+    "page.index.266": {
+      "zh": "商务邮箱",
+      "en": ""
+    },
+    "page.index.267": {
+      "zh": "hs@fantastic-vacation.com",
+      "en": ""
+    },
+    "page.index.268": {
+      "zh": "在线咨询",
+      "en": ""
+    },
+    "page.index.269": {
+      "zh": "资质与合作",
+      "en": ""
+    },
+    "page.index.270": {
+      "zh": "ISO 9001质量管理体系认证",
+      "en": ""
+    },
+    "page.index.271": {
+      "zh": "意大利Ferretti集团授权经销商",
+      "en": ""
+    },
+    "page.index.272": {
+      "zh": "荷兰Feadship技术合作伙伴",
+      "en": ""
+    },
+    "page.index.273": {
+      "zh": "地中海船坞协会认证会员",
+      "en": ""
+    },
+    "page.index.274": {
+      "zh": "亚洲最佳游艇服务商三连冠",
+      "en": ""
+    },
+    "page.index.275": {
+      "zh": "加入我们 · 招聘职位",
+      "en": ""
+    },
+    "page.index.276": {
+      "zh": "© 2020-2026 奇幻假期实业有限公司 FANTASTIC VACATION INDUSTRIAL CO., LTD. 保留所有权利。",
+      "en": ""
+    },
+    "page.index.277": {
+      "zh": "隐私政策",
+      "en": ""
+    },
+    "page.index.278": {
+      "zh": "使用条款",
+      "en": ""
+    },
+    "page.index.279": {
+      "zh": "网站地图",
+      "en": ""
+    }
+  },
+  "lines": [
+    {
+      "file": "index.html",
+      "text": "奇幻假期 FANTASTIC VACATION | 全球高端游艇定制与私人海享生活缔造者",
+      "key": "page.index.0"
+    },
+    {
+      "file": "index.html",
+      "text": "FANTASTIC VACATION",
+      "key": "page.index.1"
+    },
+    {
+      "file": "index.html",
+      "text": "LOADING",
+      "key": "page.index.2"
+    },
+    {
+      "file": "index.html",
+      "text": "奇幻假期",
+      "key": "page.index.3"
+    },
+    {
+      "file": "index.html",
+      "text": "FANTASTIC VACATION",
+      "key": "page.index.4"
+    },
+    {
+      "file": "index.html",
+      "text": "首页",
+      "key": "page.index.5"
+    },
+    {
+      "file": "index.html",
+      "text": "关于我们",
+      "key": "page.index.6"
+    },
+    {
+      "file": "index.html",
+      "text": "公司简介",
+      "key": "page.index.7"
+    },
+    {
+      "file": "index.html",
+      "text": "发展历程",
+      "key": "page.index.8"
+    },
+    {
+      "file": "index.html",
+      "text": "企业文化",
+      "key": "page.index.9"
+    },
+    {
+      "file": "index.html",
+      "text": "组织架构",
+      "key": "page.index.10"
+    },
+    {
+      "file": "index.html",
+      "text": "荣誉资质",
+      "key": "page.index.11"
+    },
+    {
+      "file": "index.html",
+      "text": "社会责任",
+      "key": "page.index.12"
+    },
+    {
+      "file": "index.html",
+      "text": "业务板块",
+      "key": "page.index.13"
+    },
+    {
+      "file": "index.html",
+      "text": "全案定制",
+      "key": "page.index.14"
+    },
+    {
+      "file": "index.html",
+      "text": "租赁航线",
+      "key": "page.index.15"
+    },
+    {
+      "file": "index.html",
+      "text": "托管维保",
+      "key": "page.index.16"
+    },
+    {
+      "file": "index.html",
+      "text": "全球合作",
+      "key": "page.index.17"
+    },
+    {
+      "file": "index.html",
+      "text": "产品与服务",
+      "key": "page.index.18"
+    },
+    {
+      "file": "index.html",
+      "text": "全系游艇",
+      "key": "page.index.19"
+    },
+    {
+      "file": "index.html",
+      "text": "定制解决方案",
+      "key": "page.index.20"
+    },
+    {
+      "file": "index.html",
+      "text": "租赁服务",
+      "key": "page.index.21"
+    },
+    {
+      "file": "index.html",
+      "text": "托管服务",
+      "key": "page.index.22"
+    },
+    {
+      "file": "index.html",
+      "text": "客户案例",
+      "key": "page.index.23"
+    },
+    {
+      "file": "index.html",
+      "text": "新闻中心",
+      "key": "page.index.24"
+    },
+    {
+      "file": "index.html",
+      "text": "公司动态",
+      "key": "page.index.25"
+    },
+    {
+      "file": "index.html",
+      "text": "行业资讯",
+      "key": "page.index.26"
+    },
+    {
+      "file": "index.html",
+      "text": "媒体报道",
+      "key": "page.index.27"
+    },
+    {
+      "file": "index.html",
+      "text": "公告通知",
+      "key": "page.index.28"
+    },
+    {
+      "file": "index.html",
+      "text": "投资者关系",
+      "key": "page.index.29"
+    },
+    {
+      "file": "index.html",
+      "text": "公司概况",
+      "key": "page.index.30"
+    },
+    {
+      "file": "index.html",
+      "text": "财务报告",
+      "key": "page.index.31"
+    },
+    {
+      "file": "index.html",
+      "text": "公告披露",
+      "key": "page.index.32"
+    },
+    {
+      "file": "index.html",
+      "text": "联系我们",
+      "key": "page.index.33"
+    },
+    {
+      "file": "index.html",
+      "text": "EN",
+      "key": "page.index.34"
+    },
+    {
+      "file": "index.html",
+      "text": "→ 探索全系游艇",
+      "key": "page.index.35"
+    },
+    {
+      "file": "index.html",
+      "text": "→ 定制专属游艇",
+      "key": "page.index.36"
+    },
+    {
+      "file": "index.html",
+      "text": "→ 浏览全球航线",
+      "key": "page.index.37"
+    },
+    {
+      "file": "index.html",
+      "text": "→ 联系专业顾问",
+      "key": "page.index.38"
+    },
+    {
+      "file": "index.html",
+      "text": "奇幻假期",
+      "key": "page.index.39"
+    },
+    {
+      "file": "index.html",
+      "text": "首页",
+      "key": "page.index.40"
+    },
+    {
+      "file": "index.html",
+      "text": "关于我们",
+      "key": "page.index.41"
+    },
+    {
+      "file": "index.html",
+      "text": "公司简介",
+      "key": "page.index.42"
+    },
+    {
+      "file": "index.html",
+      "text": "发展历程",
+      "key": "page.index.43"
+    },
+    {
+      "file": "index.html",
+      "text": "企业文化",
+      "key": "page.index.44"
+    },
+    {
+      "file": "index.html",
+      "text": "荣誉资质",
+      "key": "page.index.45"
+    },
+    {
+      "file": "index.html",
+      "text": "业务板块",
+      "key": "page.index.46"
+    },
+    {
+      "file": "index.html",
+      "text": "全案定制",
+      "key": "page.index.47"
+    },
+    {
+      "file": "index.html",
+      "text": "租赁航线",
+      "key": "page.index.48"
+    },
+    {
+      "file": "index.html",
+      "text": "托管维保",
+      "key": "page.index.49"
+    },
+    {
+      "file": "index.html",
+      "text": "全球合作",
+      "key": "page.index.50"
+    },
+    {
+      "file": "index.html",
+      "text": "产品与服务",
+      "key": "page.index.51"
+    },
+    {
+      "file": "index.html",
+      "text": "全系游艇",
+      "key": "page.index.52"
+    },
+    {
+      "file": "index.html",
+      "text": "客户案例",
+      "key": "page.index.53"
+    },
+    {
+      "file": "index.html",
+      "text": "新闻中心",
+      "key": "page.index.54"
+    },
+    {
+      "file": "index.html",
+      "text": "公司动态",
+      "key": "page.index.55"
+    },
+    {
+      "file": "index.html",
+      "text": "行业资讯",
+      "key": "page.index.56"
+    },
+    {
+      "file": "index.html",
+      "text": "媒体报道",
+      "key": "page.index.57"
+    },
+    {
+      "file": "index.html",
+      "text": "公告通知",
+      "key": "page.index.58"
+    },
+    {
+      "file": "index.html",
+      "text": "投资者关系",
+      "key": "page.index.59"
+    },
+    {
+      "file": "index.html",
+      "text": "联系我们",
+      "key": "page.index.60"
+    },
+    {
+      "file": "index.html",
+      "text": "电话：13797920792 / +86 0755 3353-0188",
+      "key": "page.index.61"
+    },
+    {
+      "file": "index.html",
+      "text": "邮箱：hs@fantastic-vacation.com",
+      "key": "page.index.62"
+    },
+    {
+      "file": "index.html",
+      "text": "✦ EST. 2010 · GLOBAL LUXURY MARINE ✦",
+      "key": "page.index.63"
+    },
+    {
+      "file": "index.html",
+      "text": "驾驭蔚蓝之巅",
+      "key": "page.index.64"
+    },
+    {
+      "file": "index.html",
+      "text": "定义海洋奢华",
+      "key": "page.index.65"
+    },
+    {
+      "file": "index.html",
+      "text": "全球一体化高端游艇定制 · 私人海享生活缔造者",
+      "key": "page.index.66"
+    },
+    {
+      "file": "index.html",
+      "text": "从概念设计到远洋交付，从日间巡航到环球航行，我们重新定义每一寸海洋体验。",
+      "key": "page.index.67"
+    },
+    {
+      "file": "index.html",
+      "text": "探索全系游艇",
+      "key": "page.index.68"
+    },
+    {
+      "file": "index.html",
+      "text": "预约专属顾问",
+      "key": "page.index.69"
+    },
+    {
+      "file": "index.html",
+      "text": "SCROLL",
+      "key": "page.index.70"
+    },
+    {
+      "file": "index.html",
+      "text": "年行业深耕",
+      "key": "page.index.71"
+    },
+    {
+      "file": "index.html",
+      "text": "全球高净值客户",
+      "key": "page.index.72"
+    },
+    {
+      "file": "index.html",
+      "text": "运营豪华游艇",
+      "key": "page.index.73"
+    },
+    {
+      "file": "index.html",
+      "text": "覆盖国际海域",
+      "key": "page.index.74"
+    },
+    {
+      "file": "index.html",
+      "text": "为何选择奇幻假期",
+      "key": "page.index.75"
+    },
+    {
+      "file": "index.html",
+      "text": "我们不只是游艇服务商，更是您海洋生活方式的全方位策展人",
+      "key": "page.index.76"
+    },
+    {
+      "file": "index.html",
+      "text": "⚓",
+      "key": "page.index.77"
+    },
+    {
+      "file": "index.html",
+      "text": "全产业链整合",
+      "key": "page.index.78"
+    },
+    {
+      "file": "index.html",
+      "text": "从游艇研发设计、船厂制造监造，到交付后的运营管理、维修保养、保险合规——我们提供游艇全生命周期的一站式解决方案。",
+      "key": "page.index.79"
+    },
+    {
+      "file": "index.html",
+      "text": "了解更多 →",
+      "key": "page.index.80"
+    },
+    {
+      "file": "index.html",
+      "text": "🎨",
+      "key": "page.index.81"
+    },
+    {
+      "file": "index.html",
+      "text": "顶级设计能力",
+      "key": "page.index.82"
+    },
+    {
+      "file": "index.html",
+      "text": "携手意大利、荷兰、德国等全球顶尖船舶设计事务所，将艺术美学与工程性能完美融合，每艘游艇都是独一无二的海上艺术品。",
+      "key": "page.index.83"
+    },
+    {
+      "file": "index.html",
+      "text": "探索定制 →",
+      "key": "page.index.84"
+    },
+    {
+      "file": "index.html",
+      "text": "🌍",
+      "key": "page.index.85"
+    },
+    {
+      "file": "index.html",
+      "text": "全球网络覆盖",
+      "key": "page.index.86"
+    },
+    {
+      "file": "index.html",
+      "text": "在地中海、加勒比海、东南亚、中东、北欧等全球30+热门海域设有服务基地，无论您的航程指向何方，我们都能即时响应。",
+      "key": "page.index.87"
+    },
+    {
+      "file": "index.html",
+      "text": "查看航线 →",
+      "key": "page.index.88"
+    },
+    {
+      "file": "index.html",
+      "text": "🛡️",
+      "key": "page.index.89"
+    },
+    {
+      "file": "index.html",
+      "text": "管家式服务体系",
+      "key": "page.index.90"
+    },
+    {
+      "file": "index.html",
+      "text": "每位客户配备专属Yacht Manager，7×24小时响应需求，从航线规划到岸上行程，真正实现\"拎包出海\"的无忧体验。",
+      "key": "page.index.91"
+    },
+    {
+      "file": "index.html",
+      "text": "了解托管 →",
+      "key": "page.index.92"
+    },
+    {
+      "file": "index.html",
+      "text": "四大核心系列",
+      "key": "page.index.93"
+    },
+    {
+      "file": "index.html",
+      "text": "覆盖从精致日间巡航到百米超级游艇的全谱系产品矩阵",
+      "key": "page.index.94"
+    },
+    {
+      "file": "index.html",
+      "text": "旗舰系列",
+      "key": "page.index.95"
+    },
+    {
+      "file": "index.html",
+      "text": "Fantasy Sovereign",
+      "key": "page.index.96"
+    },
+    {
+      "file": "index.html",
+      "text": "君临系列",
+      "key": "page.index.97"
+    },
+    {
+      "file": "index.html",
+      "text": "60m - 120m Superyacht",
+      "key": "page.index.98"
+    },
+    {
+      "file": "index.html",
+      "text": "60-120m",
+      "key": "page.index.99"
+    },
+    {
+      "file": "index.html",
+      "text": "总长度",
+      "key": "page.index.100"
+    },
+    {
+      "file": "index.html",
+      "text": "最大载客",
+      "key": "page.index.101"
+    },
+    {
+      "file": "index.html",
+      "text": "无限航区",
+      "key": "page.index.102"
+    },
+    {
+      "file": "index.html",
+      "text": "航行等级",
+      "key": "page.index.103"
+    },
+    {
+      "file": "index.html",
+      "text": "专为全球顶级富豪打造，融合宫殿级居住空间与尖端航海科技。",
+      "key": "page.index.104"
+    },
+    {
+      "file": "index.html",
+      "text": "咨询报价",
+      "key": "page.index.105"
+    },
+    {
+      "file": "index.html",
+      "text": "查看全系 →",
+      "key": "page.index.106"
+    },
+    {
+      "file": "index.html",
+      "text": "远征系列",
+      "key": "page.index.107"
+    },
+    {
+      "file": "index.html",
+      "text": "Fantasy Expedition",
+      "key": "page.index.108"
+    },
+    {
+      "file": "index.html",
+      "text": "远征系列",
+      "key": "page.index.109"
+    },
+    {
+      "file": "index.html",
+      "text": "40m - 70m Explorer Yacht",
+      "key": "page.index.110"
+    },
+    {
+      "file": "index.html",
+      "text": "40-70m",
+      "key": "page.index.111"
+    },
+    {
+      "file": "index.html",
+      "text": "总长度",
+      "key": "page.index.112"
+    },
+    {
+      "file": "index.html",
+      "text": "最大载客",
+      "key": "page.index.113"
+    },
+    {
+      "file": "index.html",
+      "text": "极地/冰级",
+      "key": "page.index.114"
+    },
+    {
+      "file": "index.html",
+      "text": "特殊认证",
+      "key": "page.index.115"
+    },
+    {
+      "file": "index.html",
+      "text": "探险型远洋游艇，可深入南极、阿拉斯加等极地海域，不失五星舒适度。",
+      "key": "page.index.116"
+    },
+    {
+      "file": "index.html",
+      "text": "咨询报价",
+      "key": "page.index.117"
+    },
+    {
+      "file": "index.html",
+      "text": "查看全系 →",
+      "key": "page.index.118"
+    },
+    {
+      "file": "index.html",
+      "text": "飞桥系列",
+      "key": "page.index.119"
+    },
+    {
+      "file": "index.html",
+      "text": "Fantasy Flybridge",
+      "key": "page.index.120"
+    },
+    {
+      "file": "index.html",
+      "text": "飞桥系列",
+      "key": "page.index.121"
+    },
+    {
+      "file": "index.html",
+      "text": "18m - 45m Motor Yacht",
+      "key": "page.index.122"
+    },
+    {
+      "file": "index.html",
+      "text": "18-45m",
+      "key": "page.index.123"
+    },
+    {
+      "file": "index.html",
+      "text": "总长度",
+      "key": "page.index.124"
+    },
+    {
+      "file": "index.html",
+      "text": "最大载客",
+      "key": "page.index.125"
+    },
+    {
+      "file": "index.html",
+      "text": "28kn+",
+      "key": "page.index.126"
+    },
+    {
+      "file": "index.html",
+      "text": "最高航速",
+      "key": "page.index.127"
+    },
+    {
+      "file": "index.html",
+      "text": "经典飞桥运动游艇，适合地中海沿岸巡航与岛屿跳岛之旅。",
+      "key": "page.index.128"
+    },
+    {
+      "file": "index.html",
+      "text": "¥880万起",
+      "key": "page.index.129"
+    },
+    {
+      "file": "index.html",
+      "text": "查看全系 →",
+      "key": "page.index.130"
+    },
+    {
+      "file": "index.html",
+      "text": "日间系列",
+      "key": "page.index.131"
+    },
+    {
+      "file": "index.html",
+      "text": "Fantasy Day Cruiser",
+      "key": "page.index.132"
+    },
+    {
+      "file": "index.html",
+      "text": "日间系列",
+      "key": "page.index.133"
+    },
+    {
+      "file": "index.html",
+      "text": "10m - 18m Day Cruiser",
+      "key": "page.index.134"
+    },
+    {
+      "file": "index.html",
+      "text": "10-18m",
+      "key": "page.index.135"
+    },
+    {
+      "file": "index.html",
+      "text": "总长度",
+      "key": "page.index.136"
+    },
+    {
+      "file": "index.html",
+      "text": "最大载客",
+      "key": "page.index.137"
+    },
+    {
+      "file": "index.html",
+      "text": "35kn+",
+      "key": "page.index.138"
+    },
+    {
+      "file": "index.html",
+      "text": "最高航速",
+      "key": "page.index.139"
+    },
+    {
+      "file": "index.html",
+      "text": "精致紧凑的日间巡航游艇，入门级奢华海享方案。",
+      "key": "page.index.140"
+    },
+    {
+      "file": "index.html",
+      "text": "¥280万起",
+      "key": "page.index.141"
+    },
+    {
+      "file": "index.html",
+      "text": "查看全系 →",
+      "key": "page.index.142"
+    },
+    {
+      "file": "index.html",
+      "text": "浏览全部50艘游艇 →",
+      "key": "page.index.143"
+    },
+    {
+      "file": "index.html",
+      "text": "\"我们不制造游艇，我们编织海洋梦想。\"",
+      "key": "page.index.144"
+    },
+    {
+      "file": "index.html",
+      "text": "全流程定制能力",
+      "key": "page.index.145"
+    },
+    {
+      "file": "index.html",
+      "text": "从最初的概念草图到最终的海上交付，奇幻假期的定制服务涵盖游艇诞生的每一个环节。",
+      "key": "page.index.146"
+    },
+    {
+      "file": "index.html",
+      "text": "我们的国际化团队汇聚了来自意大利、荷兰、德国、日本的顶尖设计师与工程师，在船体流体力学、内部空间规划、智能系统集成、环保动力方案等领域拥有深厚的专业积累。",
+      "key": "page.index.147"
+    },
+    {
+      "file": "index.html",
+      "text": "外观设计",
+      "key": "page.index.148"
+    },
+    {
+      "file": "index.html",
+      "text": "联合全球顶级船舶设计工作室，打造独一无二的视觉语言",
+      "key": "page.index.149"
+    },
+    {
+      "file": "index.html",
+      "text": "内饰配置",
+      "key": "page.index.150"
+    },
+    {
+      "file": "index.html",
+      "text": "精选意大利皮革、法国橡木、西班牙大理石等顶级材料",
+      "key": "page.index.151"
+    },
+    {
+      "file": "index.html",
+      "text": "功能系统",
+      "key": "page.index.152"
+    },
+    {
+      "file": "index.html",
+      "text": "稳定系统、减摇鳍、零速鳍、岸电系统全面定制",
+      "key": "page.index.153"
+    },
+    {
+      "file": "index.html",
+      "text": "智能科技",
+      "key": "page.index.154"
+    },
+    {
+      "file": "index.html",
+      "text": "全船智能中控、卫星通信、水下灯光、影院系统",
+      "key": "page.index.155"
+    },
+    {
+      "file": "index.html",
+      "text": "开启定制之旅",
+      "key": "page.index.156"
+    },
+    {
+      "file": "index.html",
+      "text": "精选全球航线",
+      "key": "page.index.157"
+    },
+    {
+      "file": "index.html",
+      "text": "从地中海的蔚蓝海岸到加勒比的珍珠群岛，为您呈现地球上最令人心动的海上旅程",
+      "key": "page.index.158"
+    },
+    {
+      "file": "index.html",
+      "text": "地中海",
+      "key": "page.index.159"
+    },
+    {
+      "file": "index.html",
+      "text": "7-14天",
+      "key": "page.index.160"
+    },
+    {
+      "file": "index.html",
+      "text": "蔚蓝海岸 · 地中海经典环线",
+      "key": "page.index.161"
+    },
+    {
+      "file": "index.html",
+      "text": "摩纳哥→尼斯→戛纳→热那亚→阿马尔菲海岸，途经世界顶级游艇俱乐部。",
+      "key": "page.index.162"
+    },
+    {
+      "file": "index.html",
+      "text": "€85,000起/周",
+      "key": "page.index.163"
+    },
+    {
+      "file": "index.html",
+      "text": "含船长船员",
+      "key": "page.index.164"
+    },
+    {
+      "file": "index.html",
+      "text": "加勒比海",
+      "key": "page.index.165"
+    },
+    {
+      "file": "index.html",
+      "text": "10-21天",
+      "key": "page.index.166"
+    },
+    {
+      "file": "index.html",
+      "text": "珍珠群岛 · 加勒比海奢享之旅",
+      "key": "page.index.167"
+    },
+    {
+      "file": "index.html",
+      "text": "巴哈马→特克斯凯科斯→英属维尔京群岛，清澈温水与隐秘海湾。",
+      "key": "page.index.168"
+    },
+    {
+      "file": "index.html",
+      "text": "$95,000起/周",
+      "key": "page.index.169"
+    },
+    {
+      "file": "index.html",
+      "text": "含全套服务",
+      "key": "page.index.170"
+    },
+    {
+      "file": "index.html",
+      "text": "东南亚",
+      "key": "page.index.171"
+    },
+    {
+      "file": "index.html",
+      "text": "5-14天",
+      "key": "page.index.172"
+    },
+    {
+      "file": "index.html",
+      "text": "翡翠海域 · 安达曼海秘境巡游",
+      "key": "page.index.173"
+    },
+    {
+      "file": "index.html",
+      "text": "普吉岛→皮皮岛→缅甸丹老群岛，丰富水上活动与地道泰式料理。",
+      "key": "page.index.174"
+    },
+    {
+      "file": "index.html",
+      "text": "¥380,000起/周",
+      "key": "page.index.175"
+    },
+    {
+      "file": "index.html",
+      "text": "含全套服务",
+      "key": "page.index.176"
+    },
+    {
+      "file": "index.html",
+      "text": "查看全部航线 →",
+      "key": "page.index.177"
+    },
+    {
+      "file": "index.html",
+      "text": "360° 托管维保体系",
+      "key": "page.index.178"
+    },
+    {
+      "file": "index.html",
+      "text": "专业的游艇资产管理服务，让您的海上资产始终处于最佳状态",
+      "key": "page.index.179"
+    },
+    {
+      "file": "index.html",
+      "text": "📋",
+      "key": "page.index.180"
+    },
+    {
+      "file": "index.html",
+      "text": "日常运营",
+      "key": "page.index.181"
+    },
+    {
+      "file": "index.html",
+      "text": "船员管理、日程调度、财务核算",
+      "key": "page.index.182"
+    },
+    {
+      "file": "index.html",
+      "text": "🔧",
+      "key": "page.index.183"
+    },
+    {
+      "file": "index.html",
+      "text": "定期保养",
+      "key": "page.index.184"
+    },
+    {
+      "file": "index.html",
+      "text": "发动机保养、防污漆更新、设备检测",
+      "key": "page.index.185"
+    },
+    {
+      "file": "index.html",
+      "text": "🔩",
+      "key": "page.index.186"
+    },
+    {
+      "file": "index.html",
+      "text": "专业维修",
+      "key": "page.index.187"
+    },
+    {
+      "file": "index.html",
+      "text": "紧急抢修、船体修复、系统升级",
+      "key": "page.index.188"
+    },
+    {
+      "file": "index.html",
+      "text": "📜",
+      "key": "page.index.189"
+    },
+    {
+      "file": "index.html",
+      "text": "合规年检",
+      "key": "page.index.190"
+    },
+    {
+      "file": "index.html",
+      "text": "船级社检验、法定证书更新",
+      "key": "page.index.191"
+    },
+    {
+      "file": "index.html",
+      "text": "🛡️",
+      "key": "page.index.192"
+    },
+    {
+      "file": "index.html",
+      "text": "保险理赔",
+      "key": "page.index.193"
+    },
+    {
+      "file": "index.html",
+      "text": "H&M安排、P&I对接、事故处理",
+      "key": "page.index.194"
+    },
+    {
+      "file": "index.html",
+      "text": "了解完整托管方案 →",
+      "key": "page.index.195"
+    },
+    {
+      "file": "index.html",
+      "text": "精选项目案例",
+      "key": "page.index.196"
+    },
+    {
+      "file": "index.html",
+      "text": "每一个案例都是我们对卓越的不懈追求",
+      "key": "page.index.197"
+    },
+    {
+      "file": "index.html",
+      "text": "全案定制",
+      "key": "page.index.198"
+    },
+    {
+      "file": "index.html",
+      "text": "82米超级游艇「幻蓝号」",
+      "key": "page.index.199"
+    },
+    {
+      "file": "index.html",
+      "text": "中东王室委托，历时38个月，搭载直升机平台、潜艇车库、IMAX影院。2024年荣获Asia Boating Awards年度最佳定制游艇。",
+      "key": "page.index.200"
+    },
+    {
+      "file": "index.html",
+      "text": "租赁航行",
+      "key": "page.index.201"
+    },
+    {
+      "file": "index.html",
+      "text": "地中海30天深度巡航",
+      "key": "page.index.202"
+    },
+    {
+      "file": "index.html",
+      "text": "欧洲家族企业定制，途经12个国家24个港口，配备米其林主厨与私人潜水教练。",
+      "key": "page.index.203"
+    },
+    {
+      "file": "index.html",
+      "text": "托管服务",
+      "key": "page.index.204"
+    },
+    {
+      "file": "index.html",
+      "text": "中东王室船队5年全托管",
+      "key": "page.index.205"
+    },
+    {
+      "file": "index.html",
+      "text": "管理3艘超级游艇（45m/62m/88m），5年零重大事故运营记录。",
+      "key": "page.index.206"
+    },
+    {
+      "file": "index.html",
+      "text": "查看全部案例 →",
+      "key": "page.index.207"
+    },
+    {
+      "file": "index.html",
+      "text": "新闻与动态",
+      "key": "page.index.208"
+    },
+    {
+      "file": "index.html",
+      "text": "了解奇幻假期的最新动态与海洋生活方式资讯",
+      "key": "page.index.209"
+    },
+    {
+      "file": "index.html",
+      "text": "品牌动态",
+      "key": "page.index.210"
+    },
+    {
+      "file": "index.html",
+      "text": "奇幻假期香港运营中心正式启用",
+      "key": "page.index.211"
+    },
+    {
+      "file": "index.html",
+      "text": "2026年5月，奇幻假期在香港中环设立亚太区总部，统筹亚太地区业务。",
+      "key": "page.index.212"
+    },
+    {
+      "file": "index.html",
+      "text": "行业趋势",
+      "key": "page.index.213"
+    },
+    {
+      "file": "index.html",
+      "text": "新能源动力游艇增长超40%",
+      "key": "page.index.214"
+    },
+    {
+      "file": "index.html",
+      "text": "混合动力与纯电动游艇订单量大幅增长，环保合规成为船东核心考量。",
+      "key": "page.index.215"
+    },
+    {
+      "file": "index.html",
+      "text": "生活方式",
+      "key": "page.index.216"
+    },
+    {
+      "file": "index.html",
+      "text": "海上派对策划完整指南",
+      "key": "page.index.217"
+    },
+    {
+      "file": "index.html",
+      "text": "从主题布置到菜单设计，活动策划专家分享海上派对举办攻略。",
+      "key": "page.index.218"
+    },
+    {
+      "file": "index.html",
+      "text": "更多资讯 →",
+      "key": "page.index.219"
+    },
+    {
+      "file": "index.html",
+      "text": "全球合作网络",
+      "key": "page.index.220"
+    },
+    {
+      "file": "index.html",
+      "text": "携手世界顶级合作伙伴，共建海洋奢华生态系统",
+      "key": "page.index.221"
+    },
+    {
+      "file": "index.html",
+      "text": "🏗️ 顶级船厂合作",
+      "key": "page.index.222"
+    },
+    {
+      "file": "index.html",
+      "text": "与Ferretti Group、Feadship、Lürssen等世界一流造船集团建立战略伙伴关系。",
+      "key": "page.index.223"
+    },
+    {
+      "file": "index.html",
+      "text": "🏝️ Marina网络",
+      "key": "page.index.224"
+    },
+    {
+      "file": "index.html",
+      "text": "覆盖全球80+顶级游艇码头，为客户提供专属泊位预订与VIP接待服务。",
+      "key": "page.index.225"
+    },
+    {
+      "file": "index.html",
+      "text": "✈️ 奢华生活配套",
+      "key": "page.index.226"
+    },
+    {
+      "file": "index.html",
+      "text": "整合私人航空、顶级酒店、艺术品收藏等资源，打造无缝奢华体验链。",
+      "key": "page.index.227"
+    },
+    {
+      "file": "index.html",
+      "text": "了解合作详情 →",
+      "key": "page.index.228"
+    },
+    {
+      "file": "index.html",
+      "text": "我们不制造游艇，我们编织海洋梦想。",
+      "key": "page.index.229"
+    },
+    {
+      "file": "index.html",
+      "text": "每一艘出自奇幻假期的作品，都是对极致生活方式的重新定义。",
+      "key": "page.index.230"
+    },
+    {
+      "file": "index.html",
+      "text": "准备好开启您的",
+      "key": "page.index.231"
+    },
+    {
+      "file": "index.html",
+      "text": "海上传奇",
+      "key": "page.index.232"
+    },
+    {
+      "file": "index.html",
+      "text": "了吗？",
+      "key": "page.index.233"
+    },
+    {
+      "file": "index.html",
+      "text": "无论您正在寻找梦想中的第一艘游艇，还是希望升级现有服务体验，我们的专业顾问团队随时为您效劳。",
+      "key": "page.index.234"
+    },
+    {
+      "file": "index.html",
+      "text": "📞 +86 0755 3353-0188",
+      "key": "page.index.235"
+    },
+    {
+      "file": "index.html",
+      "text": "✉️ hs@fantastic-vacation.com",
+      "key": "page.index.236"
+    },
+    {
+      "file": "index.html",
+      "text": "立即预约咨询",
+      "key": "page.index.237"
+    },
+    {
+      "file": "index.html",
+      "text": "奇幻假期",
+      "key": "page.index.238"
+    },
+    {
+      "file": "index.html",
+      "text": "FANTASTIC VACATION",
+      "key": "page.index.239"
+    },
+    {
+      "file": "index.html",
+      "text": "「探索全球，不负假期」",
+      "key": "page.index.240"
+    },
+    {
+      "file": "index.html",
+      "text": "全球一体化高端游艇定制与私人海享生活缔造者",
+      "key": "page.index.241"
+    },
+    {
+      "file": "index.html",
+      "text": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+      "key": "page.index.242"
+    },
+    {
+      "file": "index.html",
+      "text": "微信公众号",
+      "key": "page.index.243"
+    },
+    {
+      "file": "index.html",
+      "text": "微博",
+      "key": "page.index.244"
+    },
+    {
+      "file": "index.html",
+      "text": "抖音",
+      "key": "page.index.245"
+    },
+    {
+      "file": "index.html",
+      "text": "LinkedIn",
+      "key": "page.index.246"
+    },
+    {
+      "file": "index.html",
+      "text": "YouTube",
+      "key": "page.index.247"
+    },
+    {
+      "file": "index.html",
+      "text": "快速导航",
+      "key": "page.index.248"
+    },
+    {
+      "file": "index.html",
+      "text": "首页",
+      "key": "page.index.249"
+    },
+    {
+      "file": "index.html",
+      "text": "关于我们",
+      "key": "page.index.250"
+    },
+    {
+      "file": "index.html",
+      "text": "全系游艇",
+      "key": "page.index.251"
+    },
+    {
+      "file": "index.html",
+      "text": "全案定制",
+      "key": "page.index.252"
+    },
+    {
+      "file": "index.html",
+      "text": "租赁航线",
+      "key": "page.index.253"
+    },
+    {
+      "file": "index.html",
+      "text": "托管维保",
+      "key": "page.index.254"
+    },
+    {
+      "file": "index.html",
+      "text": "案例展示",
+      "key": "page.index.255"
+    },
+    {
+      "file": "index.html",
+      "text": "新闻资讯",
+      "key": "page.index.256"
+    },
+    {
+      "file": "index.html",
+      "text": "全球合作",
+      "key": "page.index.257"
+    },
+    {
+      "file": "index.html",
+      "text": "网站地图",
+      "key": "page.index.258"
+    },
+    {
+      "file": "index.html",
+      "text": "联系我们",
+      "key": "page.index.259"
+    },
+    {
+      "file": "index.html",
+      "text": "公司地址",
+      "key": "page.index.260"
+    },
+    {
+      "file": "index.html",
+      "text": "广东省深圳市宝安区",
+      "key": "page.index.261"
+    },
+    {
+      "file": "index.html",
+      "text": "松岗工业园1号",
+      "key": "page.index.262"
+    },
+    {
+      "file": "index.html",
+      "text": "咨询热线",
+      "key": "page.index.263"
+    },
+    {
+      "file": "index.html",
+      "text": "/",
+      "key": "page.index.264"
+    },
+    {
+      "file": "index.html",
+      "text": "传真",
+      "key": "page.index.265"
+    },
+    {
+      "file": "index.html",
+      "text": "商务邮箱",
+      "key": "page.index.266"
+    },
+    {
+      "file": "index.html",
+      "text": "hs@fantastic-vacation.com",
+      "key": "page.index.267"
+    },
+    {
+      "file": "index.html",
+      "text": "在线咨询",
+      "key": "page.index.268"
+    },
+    {
+      "file": "index.html",
+      "text": "资质与合作",
+      "key": "page.index.269"
+    },
+    {
+      "file": "index.html",
+      "text": "ISO 9001质量管理体系认证",
+      "key": "page.index.270"
+    },
+    {
+      "file": "index.html",
+      "text": "意大利Ferretti集团授权经销商",
+      "key": "page.index.271"
+    },
+    {
+      "file": "index.html",
+      "text": "荷兰Feadship技术合作伙伴",
+      "key": "page.index.272"
+    },
+    {
+      "file": "index.html",
+      "text": "地中海船坞协会认证会员",
+      "key": "page.index.273"
+    },
+    {
+      "file": "index.html",
+      "text": "亚洲最佳游艇服务商三连冠",
+      "key": "page.index.274"
+    },
+    {
+      "file": "index.html",
+      "text": "加入我们 · 招聘职位",
+      "key": "page.index.275"
+    },
+    {
+      "file": "index.html",
+      "text": "© 2020-2026 奇幻假期实业有限公司 FANTASTIC VACATION INDUSTRIAL CO., LTD. 保留所有权利。",
+      "key": "page.index.276"
+    },
+    {
+      "file": "index.html",
+      "text": "隐私政策",
+      "key": "page.index.277"
+    },
+    {
+      "file": "index.html",
+      "text": "使用条款",
+      "key": "page.index.278"
+    },
+    {
+      "file": "index.html",
+      "text": "网站地图",
+      "key": "page.index.279"
+    }
+  ]
+}

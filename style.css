@@ -625,6 +625,40 @@ img{max-width:100%;display:block}
   color:#c9a96e;
   border-color:#c9a96e;
 }
+
+/* Language Switch Button */
+.lang-switch-btn{
+  height:34px;
+  padding:0 12px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:transparent;
+  border:1px solid #e2e8f0;
+  border-radius:6px;
+  color:#64748b;
+  font-size:13px;
+  font-weight:600;
+  cursor:pointer;
+  transition:all .15s ease;
+  flex-shrink:0;
+  letter-spacing:0.5px;
+}
+.lang-switch-btn:hover{
+  background:#f8fafc;
+  color:#c9a96e;
+  border-color:#c9a96e;
+}
+body.dark-mode .lang-switch-btn{
+  border-color:#334155;
+  color:#94a3b8;
+}
+body.dark-mode .lang-switch-btn:hover{
+  background:#1e293b;
+  color:#c9a96e;
+  border-color:#c9a96e;
+}
+
 .icon-sun{display:none}
 .icon-moon{display:inline}
 
