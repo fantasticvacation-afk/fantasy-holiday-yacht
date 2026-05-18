@@ -375,7 +375,7 @@
 <a data-i18n="partner-type-association.521" href="sitemap.html">网站地图</a>
 </div>
 </div>
-<div <="" div="">
+<div></div>
 </div></div></footer>
 <script>
 window.addEventListener("DOMContentLoaded",function(){var loader=document.getElementById("loader");if(!loader)return;var progressEl=document.getElementById("progress");var progress=0;var interval=setInterval(function(){progress+=Math.random()*12+8;if(progress>=100){progress=100;clearInterval(interval);if(progressEl)progressEl.style.width="100%";setTimeout(function(){if(loader)loader.style.display="none";document.body.style.overflow=""},400)}else if(progressEl)progressEl.style.width=progress+"%"},180);setTimeout(function(){clearInterval(interval);if(loader)loader.style.display="none";document.body.style.overflow=""},5000)});
@@ -387,4 +387,5 @@ function toggleSearch(){var s=document.getElementById("searchOverlay");if(s){s.c
 document.addEventListener("keydown",function(e){if(e.key==="Escape"){var s=document.getElementById("searchOverlay");if(s&&s.classList.contains("active"))s.classList.remove("active");var m=document.getElementById("mobile-menu");if(m&&m.classList.contains("active")){m.classList.remove("active");var h=document.querySelector(".hamburger");if(h)h.classList.remove("active")}}});function toggleDarkMode(){document.body.classList.toggle("dark-mode");var isDark=document.body.classList.contains("dark-mode");localStorage.setItem("fv-dark",isDark?"1":"0");var moon=document.querySelector(".icon-moon");var sun=document.querySelector(".icon-sun");if(moon)moon.style.display=isDark?"none":"inline";if(sun)sun.style.display=isDark?"inline":"none"}
 window.addEventListener("DOMContentLoaded",function(){var isDark=localStorage.getItem("fv-dark")==="1";if(isDark){document.body.classList.add("dark-mode");var moon=document.querySelector(".icon-moon");var sun=document.querySelector(".icon-sun");if(moon)moon.style.display="none";if(sun)sun.style.display="inline"}});window.addEventListener("DOMContentLoaded",function(){document.querySelectorAll(".search-suggestion-item").forEach(function(el){el.addEventListener("click",function(){var t=this.textContent.trim();if(t.indexOf("全系")!==-1||t.indexOf("All Yachts")!==-1)window.location.href="yachts.html";else if(t.indexOf("定制")!==-1||t.indexOf("Custom")!==-1)window.location.href="custom.html";else if(t.indexOf("航线")!==-1||t.indexOf("Routes")!==-1)window.location.href="charter.html";else if(t.indexOf("联系")!==-1||t.indexOf("Contact")!==-1||t.indexOf("顾问")!==-1||t.indexOf("Advisor")!==-1)window.location.href="contact.html"})})});</script>
 <script src="i18n.js"></script>
+<script src="main.js"></script>
 </body></html>
