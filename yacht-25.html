@@ -117,14 +117,14 @@
 </div>
 <!-- Right Actions -->
 <div class="nav-actions" data-i18n="yacht-25.135">
-<button class="nav-search-btn" data-i18n-attr="title:nav.search" title="搜索">
+<button class="nav-search-btn" onclick="toggleSearch()" data-i18n-attr="title:nav.search" title="搜索">
 <svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18">
 <circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path>
 </svg>
 </button>
 <!-- 语言切换按钮 -->
 <button class="lang-switch-btn" data-i18n="yacht-25.137" id="langSwitchBtn" title="Switch Language">EN</button>
-<button class="nav-dark-toggle" data-i18n-attr="title:nav.dark_mode" id="darkToggle" title="深色模式">
+<button class="nav-dark-toggle" data-i18n-attr="title:nav.dark_mode" id="darkToggle" onclick="toggleDarkMode()" title="深色模式">
 <svg class="icon-moon" fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18">
 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
 </svg>
