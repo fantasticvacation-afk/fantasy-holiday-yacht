@@ -6,6 +6,18 @@
 <meta content="奇幻假期真实客户评价，来自全球游艇业主、企业客户、私人度假宾客的真实反馈，满意度98%，行业领先。" name="description"/>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="style.css" rel="stylesheet"/>
+<style>
+/* Loader 自动消失 - 三重保障 */
+@keyframes autoHideLoader{
+  0%,80%{opacity:1;visibility:visible}
+  85%{opacity:0.5}
+  90%{opacity:0.2}
+  95%{opacity:0;visibility:hidden}
+  100%{display:none}
+}
+#loader{animation:autoHideLoader 6s ease-in-out forwards}
+#loader.hidden,#loader[style*="display:none"]{animation:none!important;display:none!important}
+</style>
 <style>.reviews-hero{position:relative;min-height:70vh;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(135deg,#0a1628 0%,#1a2a48 50%,#0d1a2d 100%)}.reviews-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 80% 50% at 50% 30%,rgba(201,169,110,0.08) 0%,transparent 60%)}.reviews-hero h1{font-family:'Playfair Display',serif;font-size:clamp(32px,5vw,56px);font-weight:800;letter-spacing:3px;margin-bottom:16px}.reviews-hero p{font-size:16px;color:rgba(200,210,225,0.6);max-width:600px;margin:0 auto}.reviews-stats{display:flex;justify-content:center;gap:48px;margin-top:48px}.stat-box{text-align:center}.stat-num{font-family:'Playfair Display',serif;font-size:48px;font-weight:800;color:#c9a96e}.stat-label{font-size:12px;color:rgba(200,210,225,0.5);margin-top:8px;letter-spacing:1px}.section-reviews{padding:80px 0}.reviews-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}.review-card{background:linear-gradient(145deg,rgba(255,255,255,0.02),rgba(255,255,255,0.005));border:1px solid rgba(201,169,110,0.08);border-radius:16px;padding:32px}.review-card.featured{border-color:rgba(201,169,110,0.25);background:linear-gradient(145deg,rgba(201,169,110,0.08),rgba(201,169,110,0.02))}.review-stars{color:#c9a96e;font-size:16px;margin-bottom:16px;letter-spacing:4px}.review-text{font-size:14px;color:rgba(200,210,225,0.7);line-height:1.8;margin-bottom:20px;font-style:italic}.review-author{display:flex;align-items:center;gap:12px}.review-avatar{width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,#c9a96e,#dbb872);display:flex;align-items:center;justify-content:center;color:#0a1628;font-family:'Playfair Display',serif;font-weight:700;font-size:18px}.review-name{font-weight:600;color:#e8eef5;font-size:14px}.review-title{font-size:11px;color:rgba(200,210,225,0.5);margin-top:4px}.review-service{display:inline-block;margin-top:12px;padding:4px 12px;border-radius:12px;background:rgba(201,169,110,0.1);font-size:10px;color:#c9a96e;letter-spacing:1px}.filter-tabs{display:flex;justify-content:center;gap:12px;margin-bottom:48px;flex-wrap:wrap}.filter-tab{padding:10px 24px;border-radius:24px;border:1px solid rgba(201,169,110,0.2);background:transparent;color:rgba(200,210,225,0.6);font-size:12px;cursor:pointer;transition:all 0.3s}.filter-tab:hover,.filter-tab.active{background:rgba(201,169,110,0.15);color:#c9a96e;border-color:rgba(201,169,110,0.4)}@media (max-width:1024px){.reviews-grid{grid-template-columns:repeat(2,1fr)}.reviews-stats{gap:32px}}@media (max-width:640px){.reviews-grid{grid-template-columns:1fr}.reviews-stats{flex-direction:column;gap:24px}}
 </style></head><body data-i18n="reviews.154">
 <div id="loader"><div class="brand" data-i18n="reviews.10">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div></div>
@@ -339,6 +351,18 @@
 <div></div>
 </div></div></footer>
 <script>
+/* 立即执行 - 不等 DOMContentLoaded */
+(function(){
+  var ld=document.getElementById("loader");
+  if(!ld)return;
+  /* 5.5秒后强制隐藏 - 兜底 */
+  setTimeout(function(){
+    if(ld){ld.style.display="none";ld.style.visibility="hidden"}
+    document.body.style.overflow="";
+  },5500);
+})();
+</script>
+<script>
 window.addEventListener("DOMContentLoaded",function(){var l=document.getElementById("loader");if(l){var p=document.getElementById("progress"),i=0,t=setInterval(function(){i+=Math.random()*12+8;if(i>=100){i=100;clearInterval(t);if(p)p.style.width="100%";setTimeout(function(){if(l)l.style.display="none"},400)}else if(p)p.style.width=i+"%"},180);setTimeout(function(){clearInterval(t);if(l)l.style.display="none"},5000)}});
 document.querySelectorAll('.filter-tab').forEach(function(tab){tab.addEventListener('click',function(){document.querySelectorAll('.filter-tab').forEach(function(t){t.classList.remove('active')});this.classList.add('active');var filter=this.dataset.filter;document.querySelectorAll('.review-card').forEach(function(card){if(filter==='all'||card.dataset.category===filter){card.style.display='block'}else{card.style.display='none'}})})});
 (function(){var o=new IntersectionObserver(function(e){e.forEach(function(e){if(e.isIntersecting)e.target.classList.add("revealed")})},{threshold:0.1});document.querySelectorAll(".reveal").forEach(function(e){o.observe(e)})})();
@@ -346,6 +370,6 @@ document.querySelectorAll('.filter-tab').forEach(function(tab){tab.addEventListe
 function toggleSearch(){var s=document.getElementById("searchOverlay");if(s){s.classList.toggle("active");if(s.classList.contains("active")){setTimeout(function(){var i=document.getElementById("searchInput");if(i)i.focus()},100)}}}
 document.addEventListener("keydown",function(e){if(e.key==="Escape"){var s=document.getElementById("searchOverlay");if(s&&s.classList.contains("active"))s.classList.remove("active");var m=document.getElementById("mobile-menu");if(m&&m.classList.contains("active")){m.classList.remove("active");var h=document.querySelector(".hamburger");if(h)h.classList.remove("active")}}});function toggleDarkMode(){document.body.classList.toggle("dark-mode");var isDark=document.body.classList.contains("dark-mode");localStorage.setItem("fv-dark",isDark?"1":"0");var moon=document.querySelector(".icon-moon");var sun=document.querySelector(".icon-sun");if(moon)moon.style.display=isDark?"none":"inline";if(sun)sun.style.display=isDark?"inline":"none"}
 window.addEventListener("DOMContentLoaded",function(){var isDark=localStorage.getItem("fv-dark")==="1";if(isDark){document.body.classList.add("dark-mode");var moon=document.querySelector(".icon-moon");var sun=document.querySelector(".icon-sun");if(moon)moon.style.display="none";if(sun)sun.style.display="inline"}});window.addEventListener("DOMContentLoaded",function(){document.querySelectorAll(".search-suggestion-item").forEach(function(el){el.addEventListener("click",function(){var t=this.textContent.trim();if(t.indexOf("全系")!==-1||t.indexOf("All Yachts")!==-1)window.location.href="yachts.html";else if(t.indexOf("定制")!==-1||t.indexOf("Custom")!==-1)window.location.href="custom.html";else if(t.indexOf("航线")!==-1||t.indexOf("Routes")!==-1)window.location.href="charter.html";else if(t.indexOf("联系")!==-1||t.indexOf("Contact")!==-1||t.indexOf("顾问")!==-1||t.indexOf("Advisor")!==-1)window.location.href="contact.html"})})});</script>
-<script src="i18n.js"></script>
 <script src="main.js"></script>
+<script src="i18n.js"></script>
 </body></html>

@@ -5,6 +5,18 @@
 <title data-i18n="privacy.3">隐私政策 | 奇幻假期实业有限公司</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="style.css" rel="stylesheet"/>
+<style>
+/* Loader 自动消失 - 三重保障 */
+@keyframes autoHideLoader{
+  0%,80%{opacity:1;visibility:visible}
+  85%{opacity:0.5}
+  90%{opacity:0.2}
+  95%{opacity:0;visibility:hidden}
+  100%{display:none}
+}
+#loader{animation:autoHideLoader 6s ease-in-out forwards}
+#loader.hidden,#loader[style*="display:none"]{animation:none!important;display:none!important}
+</style>
 </head><body data-i18n="privacy.150">
 <nav id="navbar">
 <div class="nav-inner" data-i18n="privacy.13">
@@ -340,6 +352,6 @@ function toggleSearch(){var s=document.getElementById("searchOverlay");if(s){s.c
 </div>
 </div>
 </div>
-<script src="i18n.js"></script>
 <script src="main.js"></script>
+<script src="i18n.js"></script>
 </body></html>

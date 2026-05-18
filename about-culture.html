@@ -7,6 +7,18 @@
 <title data-i18n="about-culture.6">企业文化 | 奇幻假期</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="style.css" rel="stylesheet"/>
+<style>
+/* Loader 自动消失 - 三重保障 */
+@keyframes autoHideLoader{
+  0%,80%{opacity:1;visibility:visible}
+  85%{opacity:0.5}
+  90%{opacity:0.2}
+  95%{opacity:0;visibility:hidden}
+  100%{display:none}
+}
+#loader{animation:autoHideLoader 6s ease-in-out forwards}
+#loader.hidden,#loader[style*="display:none"]{animation:none!important;display:none!important}
+</style>
 </head>
 <body>
 <nav id="navbar">
@@ -278,7 +290,7 @@
 </div>
 <div></div>
 </div></div></footer>
-<script src="i18n.js"></script>
 <script src="main.js"></script>
+<script src="i18n.js"></script>
 </body>
 </html>

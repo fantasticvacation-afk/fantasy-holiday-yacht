@@ -6,6 +6,18 @@
 <meta content="奇幻假期常见问题解答：游艇定制流程、租赁航线安排、托管维保服务、价格费用、安全保险等问题。" name="description"/>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="style.css" rel="stylesheet"/>
+<style>
+/* Loader 自动消失 - 三重保障 */
+@keyframes autoHideLoader{
+  0%,80%{opacity:1;visibility:visible}
+  85%{opacity:0.5}
+  90%{opacity:0.2}
+  95%{opacity:0;visibility:hidden}
+  100%{display:none}
+}
+#loader{animation:autoHideLoader 6s ease-in-out forwards}
+#loader.hidden,#loader[style*="display:none"]{animation:none!important;display:none!important}
+</style>
 <style>.faq-hero{position:relative;min-height:70vh;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(135deg,#0a1628 0%,#1a2a48 50%,#0d1a2d 100%)}.faq-hero h1{font-family:'Playfair Display',serif;font-size:clamp(32px,5vw,56px);font-weight:800;letter-spacing:3px;margin-bottom:16px}.section-faq{padding:80px 0}.faq-categories{display:flex;justify-content:center;gap:12px;margin-bottom:48px;flex-wrap:wrap}.faq-cat{padding:10px 24px;border-radius:24px;border:1px solid rgba(201,169,110,0.2);background:transparent;color:rgba(200,210,225,0.6);font-size:12px;cursor:pointer;transition:all 0.3s}.faq-cat:hover,.faq-cat.active{background:rgba(201,169,110,0.15);color:#c9a96e;border-color:rgba(201,169,110,0.4)}.faq-list{max-width:800px;margin:0 auto}.faq-item{background:linear-gradient(145deg,rgba(255,255,255,0.02),rgba(255,255,255,0.005));border:1px solid rgba(201,169,110,0.08);border-radius:14px;margin-bottom:16px;overflow:hidden}.faq-question{padding:24px;display:flex;justify-content:space-between;align-items:center;cursor:pointer;font-size:15px;font-weight:500;color:#e8eef5}.faq-question:hover{color:#c9a96e}.faq-arrow{font-size:12px;color:#c9a96e;transition:transform 0.3s}.faq-item.open .faq-arrow{transform:rotate(180deg)}.faq-answer{max-height:0;overflow:hidden;transition:max-height 0.4s ease}.faq-answer-inner{padding:0 24px 24px;font-size:14px;color:rgba(200,210,225,0.6);line-height:1.85}.faq-item.open .faq-answer{max-height:500px}
 </style></head><body data-i18n="faq.154">
 <div id="loader"><div class="brand" data-i18n="faq.10">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div></div>
@@ -336,6 +348,18 @@
 <div></div>
 </div></div></footer>
 <script>
+/* 立即执行 - 不等 DOMContentLoaded */
+(function(){
+  var ld=document.getElementById("loader");
+  if(!ld)return;
+  /* 5.5秒后强制隐藏 - 兜底 */
+  setTimeout(function(){
+    if(ld){ld.style.display="none";ld.style.visibility="hidden"}
+    document.body.style.overflow="";
+  },5500);
+})();
+</script>
+<script>
 window.addEventListener("DOMContentLoaded",function(){var l=document.getElementById("loader");if(l){var p=document.getElementById("progress"),i=0,t=setInterval(function(){i+=Math.random()*12+8;if(i>=100){i=100;clearInterval(t);if(p)p.style.width="100%";setTimeout(function(){if(l)l.style.display="none"},400)}else if(p)p.style.width=i+"%"},180);setTimeout(function(){clearInterval(t);if(l)l.style.display="none"},5000)}});
 document.querySelectorAll('.faq-question').forEach(function(q){q.addEventListener('click',function(){var item=this.parentElement;var isOpen=item.classList.contains('open');document.querySelectorAll('.faq-item').forEach(function(i){i.classList.remove('open')});if(!isOpen)item.classList.add('open')})});
 document.querySelectorAll('.faq-cat').forEach(function(cat){cat.addEventListener('click',function(){document.querySelectorAll('.faq-cat').forEach(function(c){c.classList.remove('active')});this.classList.add('active');var filter=this.dataset.cat;document.querySelectorAll('.faq-item').forEach(function(item){if(filter==='all'||item.dataset.category===filter){item.style.display='block'}else{item.style.display='none'}})})});
@@ -344,6 +368,6 @@ document.querySelectorAll('.faq-cat').forEach(function(cat){cat.addEventListener
 function toggleSearch(){var s=document.getElementById("searchOverlay");if(s){s.classList.toggle("active");if(s.classList.contains("active")){setTimeout(function(){var i=document.getElementById("searchInput");if(i)i.focus()},100)}}}
 document.addEventListener("keydown",function(e){if(e.key==="Escape"){var s=document.getElementById("searchOverlay");if(s&&s.classList.contains("active"))s.classList.remove("active");var m=document.getElementById("mobile-menu");if(m&&m.classList.contains("active")){m.classList.remove("active");var h=document.querySelector(".hamburger");if(h)h.classList.remove("active")}}});function toggleDarkMode(){document.body.classList.toggle("dark-mode");var isDark=document.body.classList.contains("dark-mode");localStorage.setItem("fv-dark",isDark?"1":"0");var moon=document.querySelector(".icon-moon");var sun=document.querySelector(".icon-sun");if(moon)moon.style.display=isDark?"none":"inline";if(sun)sun.style.display=isDark?"inline":"none"}
 window.addEventListener("DOMContentLoaded",function(){var isDark=localStorage.getItem("fv-dark")==="1";if(isDark){document.body.classList.add("dark-mode");var moon=document.querySelector(".icon-moon");var sun=document.querySelector(".icon-sun");if(moon)moon.style.display="none";if(sun)sun.style.display="inline"}});window.addEventListener("DOMContentLoaded",function(){document.querySelectorAll(".search-suggestion-item").forEach(function(el){el.addEventListener("click",function(){var t=this.textContent.trim();if(t.indexOf("全系")!==-1||t.indexOf("All Yachts")!==-1)window.location.href="yachts.html";else if(t.indexOf("定制")!==-1||t.indexOf("Custom")!==-1)window.location.href="custom.html";else if(t.indexOf("航线")!==-1||t.indexOf("Routes")!==-1)window.location.href="charter.html";else if(t.indexOf("联系")!==-1||t.indexOf("Contact")!==-1||t.indexOf("顾问")!==-1||t.indexOf("Advisor")!==-1)window.location.href="contact.html"})})});</script>
-<script src="i18n.js"></script>
 <script src="main.js"></script>
+<script src="i18n.js"></script>
 </body></html>
