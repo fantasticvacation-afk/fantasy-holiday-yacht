@@ -19103,6 +19103,27 @@ var dict = {
   "news.10": { "zh": "新加坡游艇展：奇幻假期签约5艘超级游艇订单", "en": "Singapore Yacht Show: Fantastic Vacation Signs 5 Superyacht Orders" },
 };
 
+function applyI18n(lang) {
+  document.querySelectorAll('[data-i18n]').forEach(function(el) {
+    var key = el.getAttribute('data-i18n');
+    if (dict[key] && dict[key][lang]) {
+      el.textContent = dict[key][lang];
+    }
+  });
+  // 处理 data-i18n-attr 属性翻译
+  document.querySelectorAll('[data-i18n-attr]').forEach(function(el) {
+    var attrSpec = el.getAttribute('data-i18n-attr');
+    var parts = attrSpec.split(':');
+    if (parts.length === 2) {
+      var attrName = parts[0];
+      var attrKey = parts[1];
+      if (dict[attrKey] && dict[attrKey][lang]) {
+        el.setAttribute(attrName, dict[attrKey][lang]);
+      }
+    }
+  });
+}
+
 function switchLang(lang) {
   if (lang !== 'zh' && lang !== 'en') lang = 'zh';
   try { localStorage.setItem('fv-lang', lang); } catch(e){}
