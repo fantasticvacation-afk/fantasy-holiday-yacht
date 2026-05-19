@@ -76677,6 +76677,8 @@ function applyI18n(lang) {
     });
   });
   document.documentElement.lang = lang === 'en' ? 'en' : 'zh-CN';
+}
+
 function switchLang(lang) {
   if (lang !== 'zh' && lang !== 'en') lang = 'zh';
   try { localStorage.setItem('fv-lang', lang); } catch(e){}
