@@ -1764,10 +1764,7 @@ var dict = {
     "zh": "国际标准隐私保护体系，客户信息加密存储，签署NDA保密协议",
     "en": "International standard privacy protection system, encrypted storage of customer information, signed NDA confidentiality agreement"
   },
-  "contact.131": {
-    "zh": "",
-    "en": ""
-  },
+  "contact.131": {"zh": "", "en": "Explore the World, Live the Vacation"},
   "contact.132": {
     "zh": "全球办事处",
     "en": "Global Offices"
@@ -1976,14 +1973,8 @@ var dict = {
     "zh": "办公时间：",
     "en": "Office Hours："
   },
-  "contact.184": {
-    "zh": "",
-    "en": ""
-  },
-  "contact.185": {
-    "zh": "",
-    "en": ""
-  },
+  "contact.184": {"zh": "", "en": "Explore the World, Live the Vacation"},
+  "contact.185": {"zh": "", "en": "Explore the World, Live the Vacation"},
   "contact.186": {
     "zh": "服务承诺",
     "en": "Service Promise"
@@ -2020,14 +2011,8 @@ var dict = {
     "zh": "全程追踪",
     "en": "Full Tracking"
   },
-  "contact.195": {
-    "zh": "",
-    "en": ""
-  },
-  "contact.196": {
-    "zh": "",
-    "en": ""
-  },
+  "contact.195": {"zh": "", "en": "Explore the World, Live the Vacation"},
+  "contact.196": {"zh": "", "en": "Explore the World, Live the Vacation"},
   "contact.197": {
     "zh": "企业合规信息",
     "en": "Corporate Compliance Information"
@@ -76972,10 +76957,7 @@ var dict = {
     "zh": "<strong>企业全称：</strong>奇幻假期实业有限公司（FANTASTIC VACATION LIMITED）<br/><strong>注册地：</strong>香港特别行政区<br/><strong>公司注册编号：</strong>74238516<br/><strong>商业登记证号码：</strong>78540231-000-05-26-8<br/><strong>注册地址：</strong>广东省深圳市宝安区松岗工业园1号<br/><strong>法定代表人：</strong>陈瀚宇<br/><strong>合规备案：</strong>已取得中国交通运输部游艇运营许可、香港海事处牌照、新加坡MPA认证<br/><strong>保险合作：</strong>与劳合社（Lloyd's）、安联（Allianz）签署全球海事保险合作协议",
     "en": "<strong>Legal Name:</strong> FANTASTIC VACATION LIMITED<br/><strong>Registered In:</strong> Hong Kong SAR<br/><strong>Company Reg No:</strong> 74238516<br/><strong>Business Reg No:</strong>78540231-000-05-26-8<br/><strong>Registered Address:</strong> No.1 Songgang Industrial Park, Bao'an District, Shenzhen, Guangdong Province<br/><strong>Legal Representative:</strong> Chen Hanyu<br/><strong>Compliance:</strong> Licensed by China Ministry of Transport for Yacht Operations, Hong Kong Marine Department, Singapore MPA<br/><strong>Insurance Partners:</strong> Lloyd's of London, Allianz Global Maritime Insurance"
   },
-  "contact.667": {
-    "zh": "",
-    "en": ""
-  },
+  "contact.667": {"zh": "", "en": "Explore the World, Live the Vacation"},
   "contact.790": {
     "zh": "关注我们",
     "en": "Follow Us"
@@ -76984,10 +76966,7 @@ var dict = {
     "zh": "提交",
     "en": "Submit"
   },
-  "contact.833": {
-    "zh": "",
-    "en": ""
-  },
+  "contact.833": {"zh": "", "en": "Explore the World, Live the Vacation"},
   "custom.1068": { "zh": "1068", "en": "1068" },
   "custom.1105": { "zh": "1105", "en": "1105" },
   "custom.1111": { "zh": "1111", "en": "1111" },
@@ -77021,7 +77000,7 @@ var dict = {
   "index.799": { "zh": "799", "en": "799" },
   "index.959": { "zh": "959", "en": "959" },
   "index.965": { "zh": "965", "en": "965" },
-  "index.99": { "zh": "\"我们不制造游艇，我们编织海洋梦想。\"", "en": "\"我们不制造游艇，我们编织海洋梦想。\"" },
+  "index.99": { "zh": "\"我们不制造游艇，我们编织海洋梦想。\"", "en": "We do not build yachts, we weave ocean dreams." },
   "ir-about.132": { "zh": "132", "en": "132" },
   "ir-about.17": { "zh": "17", "en": "17" },
   "ir-about.184": { "zh": "184", "en": "184" },
@@ -78572,6 +78551,13 @@ function applyI18n(lang) {
         if (el.children[ci].tagName !== 'BR') { onlyBr = false; break; }
       }
       if (onlyBr) {
+        el.innerHTML = newVal;
+        return;
+      }
+      // Check for bilingual title pattern: <span class="en">EN</span> 中文
+      var enSpan = el.querySelector('.en');
+      if (enSpan) {
+        // Bilingual structure - replace entire content with the translation
         el.innerHTML = newVal;
         return;
       }
