@@ -911,3 +911,103 @@ body.dark-mode .search-suggestion-item:hover{background:#0f172a;color:#c9a96e}
   .footer-bottom-inner{flex-direction:column;text-align:center;padding:0 20px}
   .copyright,.legal-links{text-align:center}
 }
+
+/* ========== 响应式断点补充 - 手机端优化 ========== */
+
+/* 大屏手机 (480px - 大多数 Android 手机) */
+@media(max-width:480px){
+  /* 导航栏 */
+  .nav-logo-text{font-size:12px !important}
+  .nav-logo-text em{font-size:10px !important}
+
+  /* 英雄区域 */
+  .hero-title{font-size:28px !important}
+  .hero-subtitle{font-size:14px !important;line-height:1.6 !important}
+  .hero-actions{gap:12px !important}
+  .btn{padding:12px 24px !important;font-size:11px !important}
+
+  /* 区块标题 */
+  .section-header h2{font-size:24px !important}
+  .section-header p{font-size:14px !important}
+
+  /* 卡片 */
+  .yacht-card,.news-card,.case-card{margin-bottom:20px !important}
+  .card-title{font-size:16px !important}
+
+  /* 表格 */
+  table{font-size:12px !important}
+  th,td{padding:8px 12px !important}
+
+  /* 表单 */
+  .form-group{margin-bottom:16px !important}
+  input,textarea,select{font-size:14px !important;padding:10px 14px !important}
+
+  /* 按钮 */
+  .btn{padding:10px 20px !important;font-size:11px !important;letter-spacing:1px !important}
+
+  /* 间距 */
+  .section-padding{padding:60px 0 !important}
+  .container{padding:0 16px !important}
+}
+
+/* 小屏手机 (375px - iPhone SE, iPhone 12 mini 等) */
+@media(max-width:375px){
+  /* 导航栏 */
+  .nav-logo-text{font-size:11px !important}
+  .nav-logo-text em{font-size:9px !important}
+  .nav-actions{gap:8px !important}
+  .nav-search-btn,.nav-dark-toggle,.lang-switch-btn{width:32px !important;height:32px !important}
+
+  /* 英雄区域 */
+  .hero-title{font-size:24px !important;line-height:1.2 !important}
+  .hero-subtitle{font-size:13px !important;line-height:1.5 !important}
+  .hero-actions{flex-direction:column !important;gap:10px !important}
+  .btn{width:100% !important;justify-content:center !important}
+
+  /* 区块标题 */
+  .section-header h2{font-size:20px !important}
+  .section-header p{font-size:13px !important;line-height:1.6 !important}
+
+  /* 统计数字 */
+  .stat-number{font-size:28px !important}
+  .stat-label{font-size:10px !important}
+
+  /* 卡片 */
+  .yacht-card,.news-card,.case-card{margin-bottom:16px !important}
+  .card-title{font-size:14px !important}
+  .card-text{font-size:12px !important;line-height:1.5 !important}
+
+  /* 表格 */
+  table{font-size:11px !important}
+  th,td{padding:6px 10px !important}
+
+  /* 表单 */
+  .form-group{margin-bottom:12px !important}
+  input,textarea,select{font-size:13px !important;padding:8px 12px !important}
+  button[type="submit"]{padding:10px 16px !important;font-size:11px !important}
+
+  /* 按钮 */
+  .btn{padding:8px 16px !important;font-size:10px !important;letter-spacing:0.5px !important}
+
+  /* 页脚 */
+  .footer-logo-name{font-size:14px !important}
+  .footer-links a{font-size:12px !important}
+  .copyright{font-size:11px !important}
+
+  /* 间距 */
+  .section-padding{padding:40px 0 !important}
+  .container{padding:0 12px !important}
+
+  /* 隐藏装饰元素 */
+  .hero-particles,.cursor-follower{display:none !important}
+}
+
+/* 超小屏手机 (320px - iPhone 5/SE 1st gen) */
+@media(max-width:320px){
+  .hero-title{font-size:20px !important}
+  .section-header h2{font-size:18px !important}
+  .stat-number{font-size:24px !important}
+  .card-title{font-size:13px !important}
+  .btn{font-size:9px !important;padding:6px 12px !important}
+  .container{padding:0 10px !important}
+}
