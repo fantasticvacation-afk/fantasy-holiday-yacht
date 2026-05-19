@@ -1,0 +1,175 @@
+{
+  "stats": {
+    "total_html": 150,
+    "total_links": 10178,
+    "total_images": 677,
+    "total_translations": 57492
+  },
+  "issues": {
+    "broken_links": [
+      {
+        "file": "cases.html",
+        "link": "cases-all.html",
+        "reason": "目标文件不存在"
+      },
+      {
+        "file": "news.html",
+        "link": "news-011.html",
+        "reason": "目标文件不存在"
+      },
+      {
+        "file": "news.html",
+        "link": "news-012.html",
+        "reason": "目标文件不存在"
+      },
+      {
+        "file": "news.html",
+        "link": "news-013.html",
+        "reason": "目标文件不存在"
+      },
+      {
+        "file": "news.html",
+        "link": "news-014.html",
+        "reason": "目标文件不存在"
+      },
+      {
+        "file": "news.html",
+        "link": "news-015.html",
+        "reason": "目标文件不存在"
+      },
+      {
+        "file": "news.html",
+        "link": "news-016.html",
+        "reason": "目标文件不存在"
+      },
+      {
+        "file": "news.html",
+        "link": "news-017.html",
+        "reason": "目标文件不存在"
+      },
+      {
+        "file": "news.html",
+        "link": "news-018.html",
+        "reason": "目标文件不存在"
+      },
+      {
+        "file": "news.html",
+        "link": "news-019.html",
+        "reason": "目标文件不存在"
+      },
+      {
+        "file": "news.html",
+        "link": "news-020.html",
+        "reason": "目标文件不存在"
+      },
+      {
+        "file": "news.html",
+        "link": "news-021.html",
+        "reason": "目标文件不存在"
+      },
+      {
+        "file": "news.html",
+        "link": "news-022.html",
+        "reason": "目标文件不存在"
+      },
+      {
+        "file": "news.html",
+        "link": "news-023.html",
+        "reason": "目标文件不存在"
+      },
+      {
+        "file": "news.html",
+        "link": "news-024.html",
+        "reason": "目标文件不存在"
+      },
+      {
+        "file": "news.html",
+        "link": "news-025.html",
+        "reason": "目标文件不存在"
+      },
+      {
+        "file": "news.html",
+        "link": "news-026.html",
+        "reason": "目标文件不存在"
+      },
+      {
+        "file": "news.html",
+        "link": "news-027.html",
+        "reason": "目标文件不存在"
+      },
+      {
+        "file": "news.html",
+        "link": "news-028.html",
+        "reason": "目标文件不存在"
+      },
+      {
+        "file": "news.html",
+        "link": "news-029.html",
+        "reason": "目标文件不存在"
+      },
+      {
+        "file": "news.html",
+        "link": "news-030.html",
+        "reason": "目标文件不存在"
+      },
+      {
+        "file": "news.html",
+        "link": "news-031.html",
+        "reason": "目标文件不存在"
+      },
+      {
+        "file": "news.html",
+        "link": "news-032.html",
+        "reason": "目标文件不存在"
+      },
+      {
+        "file": "news.html",
+        "link": "news-033.html",
+        "reason": "目标文件不存在"
+      },
+      {
+        "file": "news.html",
+        "link": "news-034.html",
+        "reason": "目标文件不存在"
+      },
+      {
+        "file": "news.html",
+        "link": "news-035.html",
+        "reason": "目标文件不存在"
+      },
+      {
+        "file": "news.html",
+        "link": "news-036.html",
+        "reason": "目标文件不存在"
+      },
+      {
+        "file": "news.html",
+        "link": "news-037.html",
+        "reason": "目标文件不存在"
+      },
+      {
+        "file": "news.html",
+        "link": "news-038.html",
+        "reason": "目标文件不存在"
+      },
+      {
+        "file": "news.html",
+        "link": "news-039.html",
+        "reason": "目标文件不存在"
+      },
+      {
+        "file": "news.html",
+        "link": "news-040.html",
+        "reason": "目标文件不存在"
+      }
+    ],
+    "missing_files": [],
+    "missing_translations": [],
+    "duplicate_ids": [],
+    "empty_pages": [],
+    "missing_images": [],
+    "css_issues": [],
+    "js_issues": []
+  },
+  "timestamp": "2026-05-19T10:58:00+08:00"
+}
