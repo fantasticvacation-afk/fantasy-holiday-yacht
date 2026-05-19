@@ -26334,7 +26334,7 @@ var dict = {
   },
   "contact.682": {
     "zh": "「探索全球，不负假期」<br/>全球一体化高端游艇定制与私人海享生活缔造者",
-    "en": ""Explore the World, Embrace the Vacation"<br/>Global Integrated Premium Yacht Customization & Private Seaside Living Creator"
+    "en": ""Explore the World, Embrace the Vacation"<br/>Global Integrated Premium Yacht Customization & Private Seaside Life Creator"Explore the World, Embrace the Vacation"<br/>Global Integrated Premium Yacht Customization & Private Seaside Living Creator"
   },
   "contact.718": {
     "zh": "快速导航",
@@ -77824,18 +77824,30 @@ function applyI18n(lang) {
 
     var newVal = dict[key][lang];
 
-    // Strategy: if element has child elements, only translate direct text nodes
+    // Strategy: handle elements with child elements
     if (el.children.length > 0) {
-      // Has child elements - walk text nodes and replace them
+      // If the new value contains HTML tags, use innerHTML (translations are pre-formatted)
+      if (newVal.indexOf('<') >= 0) {
+        el.innerHTML = newVal;
+        return;
+      }
+      // Check if children are only <br> tags (safe for innerHTML replacement)
+      var onlyBr = true;
+      for (var ci = 0; ci < el.children.length; ci++) {
+        if (el.children[ci].tagName !== 'BR') { onlyBr = false; break; }
+      }
+      if (onlyBr) {
+        el.innerHTML = newVal;
+        return;
+      }
+      // Has complex child elements - walk text nodes and replace direct text only
       var walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null, false);
       var nodes = [];
       var node;
       while (node = walker.nextNode()) nodes.push(node);
       if (nodes.length === 1) {
-        // Only one text node - safe to replace
         nodes[0].nodeValue = newVal;
       }
-      // If multiple text nodes or mixed content, skip to avoid breaking structure
       return;
     }
 
