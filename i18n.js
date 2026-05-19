@@ -26852,102 +26852,39 @@ var dict = {
     "zh": "从船体流线到品牌标识，每一处外观细节都彰显独特个性。我们的外观设计团队将根据您的审美偏好与使用场景，打造独一无二的视觉识别体系。",
     "en": "From the streamlines of the hull to the brand logo, every exterior detail expresses unique personality. Our appearance design team will create a unique visual identity system based on your aesthetic preferences and usage scenarios."
   },
-  "custom.545": {
-    "zh": "船体线条优化",
-    "en": "Hull line optimization"
-  },
-  "custom.546": {
-    "zh": "专属配色方案",
-    "en": "Exclusive color scheme"
-  },
-  "custom.547": {
-    "zh": "品牌标识定制",
-    "en": "Brand identity customization"
-  },
-  "custom.548": {
-    "zh": "船名雕刻艺术",
-    "en": "Ship name engraving art"
-  },
-  "custom.549": {
-    "zh": "特殊涂装工艺",
-    "en": "Special coating process"
-  },
-  "custom.550": {
-    "zh": "LED动态灯效",
-    "en": "LED dynamic lighting effects"
-  },
+  "custom.545": { "zh": "船体线条优化", "en": "Hull line optimization" },
+  "custom.546": { "zh": "专属配色方案", "en": "Exclusive color scheme" },
+  "custom.547": { "zh": "品牌标识定制", "en": "Brand identity customization" },
+  "custom.548": { "zh": "船名雕刻艺术", "en": "Ship name engraving art" },
+  "custom.549": { "zh": "特殊涂装工艺", "en": "Special coating process" },
+  "custom.550": { "zh": "LED动态灯效", "en": "LED dynamic lighting effects" },
   "custom.559": {
     "zh": "主题风格随心选——东方美学的禅意雅致、现代极简的利落线条、复古奢华的宫廷气派。空间功能按需改造，从私人影院到SPA水疗房，从海上健身房到总裁办公室。",
     "en": "You can choose the theme style as you like - the Zen elegance of oriental aesthetics, the neat lines of modern minimalism, the retro luxurious palace style. Space functions are transformed as needed, from private theaters to spa rooms, from offshore gyms to the president's office."
   },
-  "custom.562": {
-    "zh": "东方美学/现代极简/复古奢华",
-    "en": "Oriental aesthetics/modern minimalism/retro luxury"
-  },
-  "custom.563": {
-    "zh": "健身房/影音室/SPA房",
-    "en": "Gym/video room/SPA room"
-  },
-  "custom.564": {
-    "zh": "家具软装全套定制",
-    "en": "Full set of customized furniture and soft furnishings"
-  },
-  "custom.565": {
-    "zh": "灯光氛围系统",
-    "en": "Lighting atmosphere system"
-  },
-  "custom.566": {
-    "zh": "艺术品陈设搭配",
-    "en": "Art display matching"
-  },
+  "custom.562": { "zh": "东方美学/现代极简/复古奢华", "en": "Oriental aesthetics/modern minimalist/retro luxury" },
+  "custom.563": { "zh": "健身房/影音室/SPA房", "en": "Gym/video room/SPA room" },
+  "custom.564": { "zh": "家具软装全套定制", "en": "Full set of customized furniture and furnishings" },
+  "custom.565": { "zh": "灯光氛围系统", "en": "Lighting atmosphere system" },
+  "custom.566": { "zh": "艺术品陈设搭配", "en": "Art display matching" },
   "custom.575": {
     "zh": "超越传统游艇的功能边界。智能中控系统一键掌控全船设备，卫星通信确保全球互联，水下灯光打造梦幻夜景，直升机起降平台拓展出行半径。",
     "en": "Beyond the functional boundaries of traditional yachts. The intelligent central control system controls all ship equipment with one click, satellite communications ensure global interconnection, underwater lighting creates a dreamy night scene, and the helicopter landing platform expands the travel radius."
   },
-  "custom.578": {
-    "zh": "航速与动力系统优化",
-    "en": "Speed ​​and power system optimization"
-  },
-  "custom.579": {
-    "zh": "全屋智能中控系统",
-    "en": "Whole house intelligent central control system"
-  },
-  "custom.580": {
-    "zh": "卫星通信与联网",
-    "en": "Satellite communications and networking"
-  },
-  "custom.581": {
-    "zh": "海钓平台/潜水装备舱",
-    "en": "Fishing platform/diving equipment cabin"
-  },
-  "custom.582": {
-    "zh": "直升机起降平台",
-    "en": "Helicopter landing platform"
-  },
+  "custom.578": { "zh": "航速与动力系统优化", "en": "Speed and power system optimization" },
+  "custom.579": { "zh": "全屋智能中控系统", "en": "Whole house intelligent central control system" },
+  "custom.580": { "zh": "卫星通信与联网", "en": "Satellite communication and networking" },
+  "custom.581": { "zh": "海钓平台/潜水装备舱", "en": "Fishing platform/diving equipment cabin" },
+  "custom.582": { "zh": "直升机起降平台", "en": "Helicopter landing platform" },
   "custom.591": {
     "zh": "从登艇那一刻起的全方位尊享体验。米其林主厨定制专属菜单，私人航线规划师设计环球航行路线，全球港口VIP停靠协助，会员制特权礼遇贯穿始终。",
     "en": "An all-round exclusive experience from the moment you board the boat. Michelin chefs customize exclusive menus, private route planners design global sailing routes, VIP docking assistance at global ports, and membership privileges are provided throughout."
   },
-  "custom.594": {
-    "zh": "专属管家全天候服务",
-    "en": "Dedicated butler service around the clock"
-  },
-  "custom.595": {
-    "zh": "米其林主厨定制菜单",
-    "en": "Michelin chef customized menu"
-  },
-  "custom.596": {
-    "zh": "私人航线规划设计",
-    "en": "Private route planning and design"
-  },
-  "custom.597": {
-    "zh": "全球港口VIP停靠",
-    "en": "VIP calls at global ports"
-  },
-  "custom.598": {
-    "zh": "会员制特权礼遇",
-    "en": "Membership privileges"
-  },
+  "custom.594": { "zh": "专属管家全天候服务", "en": "Dedicated butler service around the clock" },
+  "custom.595": { "zh": "米其林主厨定制菜单", "en": "Michelin chef customized menu" },
+  "custom.596": { "zh": "私人航线规划设计", "en": "Private route planning and design" },
+  "custom.597": { "zh": "全球港口VIP停靠", "en": "VIP docking at global ports" },
+  "custom.598": { "zh": "会员制特权礼遇", "en": "Membership privileges" },
   "custom.611": {
     "zh": "1:1 实体模型",
     "en": "1:1 physical model"
@@ -27492,10 +27429,7 @@ var dict = {
     "zh": "FANTASTIC VACATION",
     "en": "FANTASTIC VACATION"
   },
-  "custom.960": {
-    "zh": "「探索全球，不负假期」",
-    "en": "\"Explore the world and live up to your vacation\""
-  },
+  "custom.960": { "zh": "「探索全球，不负假期」", "en": "Explore the Globe, Make Every Vacation Count" },
   "custom.963": {
     "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
@@ -77065,10 +76999,10 @@ var dict = {
   "custom.310": { "zh": "<strong>全球供应链</strong>45国200+供应商网络", "en": "<strong>global supply chain</strong>200+ suppliers across 45 countries" },
   "custom.329": { "zh": "329", "en": "329" },
   "custom.34": { "zh": "34", "en": "34" },
-  "custom.540": { "zh": "1", "en": "1" },
-  "custom.557": { "zh": "2", "en": "2" },
-  "custom.573": { "zh": "3", "en": "3" },
-  "custom.589": { "zh": "4", "en": "4" },
+  "custom.540": { "zh": "<span class=\"dim-num\">1</span> 外观定制", "en": "<span class=\"dim-num\">1</span> Exterior Customization" },
+  "custom.557": { "zh": "<span class=\"dim-num\">2</span> 内饰定制", "en": "<span class=\"dim-num\">2</span> Interior Customization" },
+  "custom.573": { "zh": "<span class=\"dim-num\">3</span> 功能定制", "en": "<span class=\"dim-num\">3</span> Functional Customization" },
+  "custom.589": { "zh": "<span class=\"dim-num\">4</span> 增值服务定制", "en": "<span class=\"dim-num\">4</span> Value-Added Services" },
   "custom.945": { "zh": "945", "en": "945" },
   "faq.132": { "zh": "132", "en": "132" },
   "faq.17": { "zh": "17", "en": "17" },
