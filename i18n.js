@@ -26010,6 +26010,11 @@ var dict = {
     "zh": "提交需求后，专业顾问将在24小时内与您联系",
     "en": "After submitting your request, a professional consultant will contact you within 24 hours"
   },
+
+  "charter.email_label": {
+    "zh": "电子邮箱",
+    "en": "Email"
+  },
   "charter.1179": {
     "zh": "您的姓名",
     "en": "Your Name"

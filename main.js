@@ -203,3 +203,91 @@ window.addEventListener("DOMContentLoaded", function() {
     observer.observe(document.querySelector("[data-count]").parentElement || document.body);
   }
 });
+
+
+/* ===== 预约表单验证与提交 ===== */
+function handleSubmit(e) {
+  e.preventDefault();
+  var form = document.getElementById("bookingForm");
+  var name = document.getElementById("booking_name");
+  var phone = document.getElementById("booking_phone");
+  var email = document.getElementById("booking_email");
+  var dest = document.getElementById("booking_destination");
+  var depart = document.getElementById("booking_departure");
+  var people = document.getElementById("booking_people");
+  var budget = document.getElementById("booking_budget");
+
+  if (!name || !name.value.trim()) { alert("请输入您的姓名"); name && name.focus(); return false; }
+  if (!phone || !phone.value.trim()) { alert("请输入您的联系电话"); phone && phone.focus(); return false; }
+  var phoneVal = phone.value.trim();
+  if (!/^[\d\s\-+()（）]{7,20}$/.test(phoneVal)) { alert("请输入有效的联系电话"); phone.focus(); return false; }
+  if (email && email.value.trim() && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value.trim())) { alert("请输入有效的电子邮箱"); email.focus(); return false; }
+  if (dest && !dest.value.trim()) { alert("请选择意向目的地"); dest.focus(); return false; }
+  if (depart && !depart.value.trim()) { alert("请选择出行时间"); depart.focus(); return false; }
+  if (people && !people.value.trim()) { alert("请选择同行人数"); people.focus(); return false; }
+  if (budget && !budget.value.trim()) { alert("请选择预算区间"); budget.focus(); return false; }
+
+  // 显示提交状态
+  var btn = form.querySelector("button[type=submit]");
+  var orig = btn.textContent;
+  btn.textContent = "⏳ 提交中...";
+  btn.disabled = true;
+
+  var data = new FormData(form);
+  fetch(form.action, { method: "POST", body: data, headers: { "Accept": "application/json" } })
+    .then(function(r) {
+      if (r.ok) {
+        alert("✅ 预约已提交成功！我们的顾问将在24小时内与您联系。");
+        form.reset();
+      } else {
+        alert("⚠️ 提交失败，请稍后重试。或直接致电 0755-3353-0188");
+      }
+    })
+    .catch(function() {
+      alert("⚠️ 网络异常，提交失败。请检查网络连接后重试，或直接致电 0755-3353-0188");
+    })
+    .finally(function() {
+      btn.textContent = orig;
+      btn.disabled = false;
+    });
+  return false;
+}
+
+/* ===== 定制表单验证与提交 ===== */
+function handleCustomSubmit(e) {
+  e.preventDefault();
+  var form = document.getElementById("customForm");
+  var name = document.getElementById("custom_name");
+  var phone = document.getElementById("custom_phone");
+  var series = document.getElementById("custom_series");
+
+  if (!name || !name.value.trim()) { alert("请输入您的姓名"); name && name.focus(); return false; }
+  if (!phone || !phone.value.trim()) { alert("请输入您的联系电话"); phone && phone.focus(); return false; }
+  var phoneVal = phone.value.trim();
+  if (!/^[\d\s\-+()（）]{7,20}$/.test(phoneVal)) { alert("请输入有效的联系电话"); phone.focus(); return false; }
+  if (series && !series.value.trim()) { alert("请选择感兴趣的船型系列"); series.focus(); return false; }
+
+  var btn = form.querySelector("button[type=submit]");
+  var orig = btn.textContent;
+  btn.textContent = "⏳ 提交中...";
+  btn.disabled = true;
+
+  var data = new FormData(form);
+  fetch(form.action, { method: "POST", body: data, headers: { "Accept": "application/json" } })
+    .then(function(r) {
+      if (r.ok) {
+        alert("✅ 定制咨询已提交成功！我们的顾问将在24小时内与您联系。");
+        form.reset();
+      } else {
+        alert("⚠️ 提交失败，请稍后重试。或直接致电 0755-3353-0188");
+      }
+    })
+    .catch(function() {
+      alert("⚠️ 网络异常，提交失败。请检查网络连接后重试，或直接致电 0755-3353-0188");
+    })
+    .finally(function() {
+      btn.textContent = orig;
+      btn.disabled = false;
+    });
+  return false;
+}
