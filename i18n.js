@@ -105,8 +105,8 @@ var dict = {
     "en": "Company News"
   },
   "index.26": {
-    "zh": "行业资讯",
-    "en": "Industry News"
+    "zh": "奇幻假期",
+    "en": "FANTASTIC VACATION"
   },
   "index.27": {
     "zh": "媒体报道",
@@ -1017,8 +1017,8 @@ var dict = {
     "en": "🏢"
   },
   "about.24": {
-    "zh": "上海总部",
-    "en": "Shanghai HQ"
+    "zh": "奇幻假期",
+    "en": "FANTASTIC VACATION"
   },
   "about.25": {
     "zh": "中国区运营中心",
@@ -1345,8 +1345,8 @@ var dict = {
     "en": "Company news"
   },
   "contact.26": {
-    "zh": "行业资讯",
-    "en": "Industry information"
+    "zh": "奇幻假期",
+    "en": "FANTASTIC VACATION"
   },
   "contact.27": {
     "zh": "媒体报道",
@@ -2330,8 +2330,8 @@ var dict = {
     "en": "Media Reports"
   },
   "yachts.28": {
-    "zh": "公告通知",
-    "en": "Announcements"
+    "zh": "奇幻假期",
+    "en": "FANTASTIC VACATION"
   },
   "yachts.29": {
     "zh": "投资者关系",
@@ -4187,7 +4187,7 @@ var dict = {
   },
   "about-culture.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "about-culture.25": {
     "zh": "FANTASTIC VACATION",
@@ -4523,7 +4523,7 @@ var dict = {
   },
   "about-history.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "about-history.25": {
     "zh": "FANTASTIC VACATION",
@@ -4791,7 +4791,7 @@ var dict = {
   },
   "about-intro.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "about-intro.25": {
     "zh": "FANTASTIC VACATION",
@@ -5115,7 +5115,7 @@ var dict = {
   },
   "about-responsibility.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "about-responsibility.25": {
     "zh": "FANTASTIC VACATION",
@@ -5399,7 +5399,7 @@ var dict = {
   },
   "about-structure.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "about-structure.25": {
     "zh": "FANTASTIC VACATION",
@@ -5943,7 +5943,7 @@ var dict = {
   },
   "case-001.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "case-001.30": {
     "zh": "FANTASTIC VACATION",
@@ -6739,7 +6739,7 @@ var dict = {
   },
   "case-002.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "case-002.30": {
     "zh": "FANTASTIC VACATION",
@@ -7523,7 +7523,7 @@ var dict = {
   },
   "case-003.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "case-003.30": {
     "zh": "FANTASTIC VACATION",
@@ -8311,7 +8311,7 @@ var dict = {
   },
   "case-004.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "case-004.30": {
     "zh": "FANTASTIC VACATION",
@@ -9095,7 +9095,7 @@ var dict = {
   },
   "case-005.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "case-005.30": {
     "zh": "FANTASTIC VACATION",
@@ -9871,7 +9871,7 @@ var dict = {
   },
   "case-006.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "case-006.25": {
     "zh": "FANTASTIC VACATION",
@@ -10491,7 +10491,7 @@ var dict = {
   },
   "case-007.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "case-007.25": {
     "zh": "FANTASTIC VACATION",
@@ -10995,7 +10995,7 @@ var dict = {
   },
   "case-008.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "case-008.25": {
     "zh": "FANTASTIC VACATION",
@@ -11451,7 +11451,7 @@ var dict = {
   },
   "case-009.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "case-009.25": {
     "zh": "FANTASTIC VACATION",
@@ -11911,7 +11911,7 @@ var dict = {
   },
   "case-010.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "case-010.25": {
     "zh": "FANTASTIC VACATION",
@@ -12371,7 +12371,7 @@ var dict = {
   },
   "case-011.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "case-011.30": {
     "zh": "FANTASTIC VACATION",
@@ -12855,7 +12855,7 @@ var dict = {
   },
   "case-012.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "case-012.30": {
     "zh": "FANTASTIC VACATION",
@@ -13331,7 +13331,7 @@ var dict = {
   },
   "case-013.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "case-013.30": {
     "zh": "FANTASTIC VACATION",
@@ -13803,7 +13803,7 @@ var dict = {
   },
   "case-014.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "case-014.30": {
     "zh": "FANTASTIC VACATION",
@@ -14275,7 +14275,7 @@ var dict = {
   },
   "case-015.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "case-015.30": {
     "zh": "FANTASTIC VACATION",
@@ -14747,7 +14747,7 @@ var dict = {
   },
   "case-016.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "case-016.30": {
     "zh": "FANTASTIC VACATION",
@@ -15219,7 +15219,7 @@ var dict = {
   },
   "case-017.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "case-017.30": {
     "zh": "FANTASTIC VACATION",
@@ -15691,7 +15691,7 @@ var dict = {
   },
   "case-018.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "case-018.30": {
     "zh": "FANTASTIC VACATION",
@@ -16163,7 +16163,7 @@ var dict = {
   },
   "case-019.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "case-019.30": {
     "zh": "FANTASTIC VACATION",
@@ -16635,7 +16635,7 @@ var dict = {
   },
   "case-020.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "case-020.30": {
     "zh": "FANTASTIC VACATION",
@@ -17107,7 +17107,7 @@ var dict = {
   },
   "case-021.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "case-021.30": {
     "zh": "FANTASTIC VACATION",
@@ -17579,7 +17579,7 @@ var dict = {
   },
   "case-022.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "case-022.30": {
     "zh": "FANTASTIC VACATION",
@@ -18051,7 +18051,7 @@ var dict = {
   },
   "case-023.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "case-023.30": {
     "zh": "FANTASTIC VACATION",
@@ -18527,7 +18527,7 @@ var dict = {
   },
   "case-024.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "case-024.30": {
     "zh": "FANTASTIC VACATION",
@@ -19003,7 +19003,7 @@ var dict = {
   },
   "case-025.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "case-025.30": {
     "zh": "FANTASTIC VACATION",
@@ -19479,7 +19479,7 @@ var dict = {
   },
   "case-026.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "case-026.30": {
     "zh": "FANTASTIC VACATION",
@@ -19955,7 +19955,7 @@ var dict = {
   },
   "case-027.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "case-027.30": {
     "zh": "FANTASTIC VACATION",
@@ -20427,7 +20427,7 @@ var dict = {
   },
   "case-028.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "case-028.30": {
     "zh": "FANTASTIC VACATION",
@@ -20903,7 +20903,7 @@ var dict = {
   },
   "case-029.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "case-029.30": {
     "zh": "FANTASTIC VACATION",
@@ -21379,7 +21379,7 @@ var dict = {
   },
   "case-030.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "case-030.30": {
     "zh": "FANTASTIC VACATION",
@@ -21855,7 +21855,7 @@ var dict = {
   },
   "cases-charter.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "cases-charter.30": {
     "zh": "FANTASTIC VACATION",
@@ -22287,7 +22287,7 @@ var dict = {
   },
   "cases-custom.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "cases-custom.30": {
     "zh": "FANTASTIC VACATION",
@@ -22723,7 +22723,7 @@ var dict = {
   },
   "cases-event.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "cases-event.30": {
     "zh": "FANTASTIC VACATION",
@@ -23155,7 +23155,7 @@ var dict = {
   },
   "cases-management.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "cases-management.30": {
     "zh": "FANTASTIC VACATION",
@@ -23591,7 +23591,7 @@ var dict = {
   },
   "cases.34": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "cases.35": {
     "zh": "FANTASTIC VACATION",
@@ -24707,7 +24707,7 @@ var dict = {
   },
   "charter.28": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "charter.29": {
     "zh": "FANTASTIC VACATION",
@@ -26363,7 +26363,7 @@ var dict = {
   },
   "custom.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "custom.28": {
     "zh": "FANTASTIC VACATION",
@@ -27605,7 +27605,7 @@ var dict = {
   },
   "faq.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "faq.25": {
     "zh": "FANTASTIC VACATION",
@@ -28153,7 +28153,7 @@ var dict = {
   },
   "honors.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "honors.25": {
     "zh": "FANTASTIC VACATION",
@@ -28721,7 +28721,7 @@ var dict = {
   },
   "ir-about.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "ir-about.25": {
     "zh": "FANTASTIC VACATION",
@@ -28957,7 +28957,7 @@ var dict = {
   },
   "ir-announcements.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "ir-announcements.25": {
     "zh": "FANTASTIC VACATION",
@@ -29181,7 +29181,7 @@ var dict = {
   },
   "ir-contact.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "ir-contact.25": {
     "zh": "FANTASTIC VACATION",
@@ -29393,7 +29393,7 @@ var dict = {
   },
   "ir-data.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "ir-data.25": {
     "zh": "FANTASTIC VACATION",
@@ -29673,7 +29673,7 @@ var dict = {
   },
   "ir-disclosure.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "ir-disclosure.25": {
     "zh": "FANTASTIC VACATION",
@@ -29893,7 +29893,7 @@ var dict = {
   },
   "ir-esg.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "ir-esg.25": {
     "zh": "FANTASTIC VACATION",
@@ -30117,7 +30117,7 @@ var dict = {
   },
   "ir-events.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "ir-events.25": {
     "zh": "FANTASTIC VACATION",
@@ -30341,7 +30341,7 @@ var dict = {
   },
   "ir-faq.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "ir-faq.25": {
     "zh": "FANTASTIC VACATION",
@@ -30557,7 +30557,7 @@ var dict = {
   },
   "ir-financial.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "ir-financial.25": {
     "zh": "FANTASTIC VACATION",
@@ -30793,7 +30793,7 @@ var dict = {
   },
   "ir-governance.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "ir-governance.25": {
     "zh": "FANTASTIC VACATION",
@@ -31029,7 +31029,7 @@ var dict = {
   },
   "ir-media.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "ir-media.25": {
     "zh": "FANTASTIC VACATION",
@@ -31249,7 +31249,7 @@ var dict = {
   },
   "ir-presentations.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "ir-presentations.25": {
     "zh": "FANTASTIC VACATION",
@@ -31473,7 +31473,7 @@ var dict = {
   },
   "ir-shareholder.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "ir-shareholder.25": {
     "zh": "FANTASTIC VACATION",
@@ -31685,7 +31685,7 @@ var dict = {
   },
   "ir-team.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "ir-team.25": {
     "zh": "FANTASTIC VACATION",
@@ -31909,7 +31909,7 @@ var dict = {
   },
   "ir-value.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "ir-value.25": {
     "zh": "FANTASTIC VACATION",
@@ -32133,7 +32133,7 @@ var dict = {
   },
   "ir.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "ir.25": {
     "zh": "FANTASTIC VACATION",
@@ -32401,7 +32401,7 @@ var dict = {
   },
   "management.34": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "management.35": {
     "zh": "FANTASTIC VACATION",
@@ -33249,7 +33249,7 @@ var dict = {
   },
   "map.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "map.25": {
     "zh": "FANTASTIC VACATION",
@@ -33781,7 +33781,7 @@ var dict = {
   },
   "nav-template.12": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "nav-template.13": {
     "zh": "FANTASTIC VACATION",
@@ -33821,7 +33821,7 @@ var dict = {
   },
   "news-001.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "news-001.30": {
     "zh": "FANTASTIC VACATION",
@@ -34145,7 +34145,7 @@ var dict = {
   },
   "news-002.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "news-002.30": {
     "zh": "FANTASTIC VACATION",
@@ -34469,7 +34469,7 @@ var dict = {
   },
   "news-003.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "news-003.30": {
     "zh": "FANTASTIC VACATION",
@@ -34793,7 +34793,7 @@ var dict = {
   },
   "news-004.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "news-004.30": {
     "zh": "FANTASTIC VACATION",
@@ -35117,7 +35117,7 @@ var dict = {
   },
   "news-005.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "news-005.30": {
     "zh": "FANTASTIC VACATION",
@@ -35441,7 +35441,7 @@ var dict = {
   },
   "news-006.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "news-006.30": {
     "zh": "FANTASTIC VACATION",
@@ -35765,7 +35765,7 @@ var dict = {
   },
   "news-007.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "news-007.30": {
     "zh": "FANTASTIC VACATION",
@@ -36089,7 +36089,7 @@ var dict = {
   },
   "news-008.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "news-008.30": {
     "zh": "FANTASTIC VACATION",
@@ -36413,7 +36413,7 @@ var dict = {
   },
   "news-009.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "news-009.30": {
     "zh": "FANTASTIC VACATION",
@@ -36737,7 +36737,7 @@ var dict = {
   },
   "news-010.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "news-010.30": {
     "zh": "FANTASTIC VACATION",
@@ -37061,7 +37061,7 @@ var dict = {
   },
   "news.29": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "news.30": {
     "zh": "FANTASTIC VACATION",
@@ -38225,7 +38225,7 @@ var dict = {
   },
   "partner-apply.28": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "partner-apply.29": {
     "zh": "FANTASTIC VACATION",
@@ -38737,7 +38737,7 @@ var dict = {
   },
   "partner-cases.25": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "partner-cases.26": {
     "zh": "FANTASTIC VACATION",
@@ -39237,7 +39237,7 @@ var dict = {
   },
   "partner-list.28": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "partner-list.29": {
     "zh": "FANTASTIC VACATION",
@@ -39917,7 +39917,7 @@ var dict = {
   },
   "partner-map.25": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "partner-map.26": {
     "zh": "FANTASTIC VACATION",
@@ -40565,7 +40565,7 @@ var dict = {
   },
   "partner-process.25": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "partner-process.26": {
     "zh": "FANTASTIC VACATION",
@@ -41113,7 +41113,7 @@ var dict = {
   },
   "partner-type-agent.28": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "partner-type-agent.29": {
     "zh": "FANTASTIC VACATION",
@@ -41509,7 +41509,7 @@ var dict = {
   },
   "partner-type-art.28": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "partner-type-art.29": {
     "zh": "FANTASTIC VACATION",
@@ -41909,7 +41909,7 @@ var dict = {
   },
   "partner-type-association.28": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "partner-type-association.29": {
     "zh": "FANTASTIC VACATION",
@@ -42305,7 +42305,7 @@ var dict = {
   },
   "partner-type-aviation.28": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "partner-type-aviation.29": {
     "zh": "FANTASTIC VACATION",
@@ -42701,7 +42701,7 @@ var dict = {
   },
   "partner-type-brand.28": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "partner-type-brand.29": {
     "zh": "FANTASTIC VACATION",
@@ -43097,7 +43097,7 @@ var dict = {
   },
   "partner-type-hotel.28": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "partner-type-hotel.29": {
     "zh": "FANTASTIC VACATION",
@@ -43497,7 +43497,7 @@ var dict = {
   },
   "partner-type-marina.28": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "partner-type-marina.29": {
     "zh": "FANTASTIC VACATION",
@@ -43905,7 +43905,7 @@ var dict = {
   },
   "partner-type-service.28": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "partner-type-service.29": {
     "zh": "FANTASTIC VACATION",
@@ -44297,7 +44297,7 @@ var dict = {
   },
   "partner-type-shipyard.28": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "partner-type-shipyard.29": {
     "zh": "FANTASTIC VACATION",
@@ -44721,7 +44721,7 @@ var dict = {
   },
   "partner-type-tech.28": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "partner-type-tech.29": {
     "zh": "FANTASTIC VACATION",
@@ -45117,7 +45117,7 @@ var dict = {
   },
   "partnership.28": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "partnership.29": {
     "zh": "FANTASTIC VACATION",
@@ -46073,7 +46073,7 @@ var dict = {
   },
   "press.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "press.25": {
     "zh": "FANTASTIC VACATION",
@@ -46461,7 +46461,7 @@ var dict = {
   },
   "privacy.20": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "privacy.21": {
     "zh": "FANTASTIC VACATION",
@@ -46829,7 +46829,7 @@ var dict = {
   },
   "reviews.24": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "reviews.25": {
     "zh": "FANTASTIC VACATION",
@@ -47277,7 +47277,7 @@ var dict = {
   },
   "sitemap.20": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "sitemap.21": {
     "zh": "FANTASTIC VACATION",
@@ -47665,7 +47665,7 @@ var dict = {
   },
   "terms.20": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "terms.21": {
     "zh": "FANTASTIC VACATION",
@@ -48045,7 +48045,7 @@ var dict = {
   },
   "yacht-1.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-1.28": {
     "zh": "FANTASTIC VACATION",
@@ -48581,7 +48581,7 @@ var dict = {
   },
   "yacht-10.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-10.28": {
     "zh": "FANTASTIC VACATION",
@@ -49141,7 +49141,7 @@ var dict = {
   },
   "yacht-11.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-11.28": {
     "zh": "FANTASTIC VACATION",
@@ -49701,7 +49701,7 @@ var dict = {
   },
   "yacht-12.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-12.28": {
     "zh": "FANTASTIC VACATION",
@@ -50261,7 +50261,7 @@ var dict = {
   },
   "yacht-13.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-13.28": {
     "zh": "FANTASTIC VACATION",
@@ -50821,7 +50821,7 @@ var dict = {
   },
   "yacht-14.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-14.28": {
     "zh": "FANTASTIC VACATION",
@@ -51381,7 +51381,7 @@ var dict = {
   },
   "yacht-15.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-15.28": {
     "zh": "FANTASTIC VACATION",
@@ -51941,7 +51941,7 @@ var dict = {
   },
   "yacht-16.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-16.28": {
     "zh": "FANTASTIC VACATION",
@@ -52501,7 +52501,7 @@ var dict = {
   },
   "yacht-17.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-17.28": {
     "zh": "FANTASTIC VACATION",
@@ -53061,7 +53061,7 @@ var dict = {
   },
   "yacht-18.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-18.28": {
     "zh": "FANTASTIC VACATION",
@@ -53621,7 +53621,7 @@ var dict = {
   },
   "yacht-19.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-19.28": {
     "zh": "FANTASTIC VACATION",
@@ -54177,7 +54177,7 @@ var dict = {
   },
   "yacht-2.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-2.28": {
     "zh": "FANTASTIC VACATION",
@@ -54725,7 +54725,7 @@ var dict = {
   },
   "yacht-20.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-20.28": {
     "zh": "FANTASTIC VACATION",
@@ -55285,7 +55285,7 @@ var dict = {
   },
   "yacht-21.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-21.28": {
     "zh": "FANTASTIC VACATION",
@@ -55845,7 +55845,7 @@ var dict = {
   },
   "yacht-22.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-22.28": {
     "zh": "FANTASTIC VACATION",
@@ -56405,7 +56405,7 @@ var dict = {
   },
   "yacht-23.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-23.28": {
     "zh": "FANTASTIC VACATION",
@@ -56965,7 +56965,7 @@ var dict = {
   },
   "yacht-24.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-24.28": {
     "zh": "FANTASTIC VACATION",
@@ -57525,7 +57525,7 @@ var dict = {
   },
   "yacht-25.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-25.28": {
     "zh": "FANTASTIC VACATION",
@@ -58085,7 +58085,7 @@ var dict = {
   },
   "yacht-26.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-26.28": {
     "zh": "FANTASTIC VACATION",
@@ -58645,7 +58645,7 @@ var dict = {
   },
   "yacht-27.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-27.28": {
     "zh": "FANTASTIC VACATION",
@@ -59201,7 +59201,7 @@ var dict = {
   },
   "yacht-28.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-28.28": {
     "zh": "FANTASTIC VACATION",
@@ -59757,7 +59757,7 @@ var dict = {
   },
   "yacht-29.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-29.28": {
     "zh": "FANTASTIC VACATION",
@@ -60313,7 +60313,7 @@ var dict = {
   },
   "yacht-3.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-3.28": {
     "zh": "FANTASTIC VACATION",
@@ -60873,7 +60873,7 @@ var dict = {
   },
   "yacht-30.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-30.28": {
     "zh": "FANTASTIC VACATION",
@@ -61429,7 +61429,7 @@ var dict = {
   },
   "yacht-31.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-31.28": {
     "zh": "FANTASTIC VACATION",
@@ -61985,7 +61985,7 @@ var dict = {
   },
   "yacht-32.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-32.28": {
     "zh": "FANTASTIC VACATION",
@@ -62541,7 +62541,7 @@ var dict = {
   },
   "yacht-33.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-33.28": {
     "zh": "FANTASTIC VACATION",
@@ -63101,7 +63101,7 @@ var dict = {
   },
   "yacht-34.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-34.28": {
     "zh": "FANTASTIC VACATION",
@@ -63657,7 +63657,7 @@ var dict = {
   },
   "yacht-35.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-35.28": {
     "zh": "FANTASTIC VACATION",
@@ -64213,7 +64213,7 @@ var dict = {
   },
   "yacht-36.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-36.28": {
     "zh": "FANTASTIC VACATION",
@@ -64769,7 +64769,7 @@ var dict = {
   },
   "yacht-37.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-37.28": {
     "zh": "FANTASTIC VACATION",
@@ -65325,7 +65325,7 @@ var dict = {
   },
   "yacht-38.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-38.28": {
     "zh": "FANTASTIC VACATION",
@@ -65881,7 +65881,7 @@ var dict = {
   },
   "yacht-39.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-39.28": {
     "zh": "FANTASTIC VACATION",
@@ -66437,7 +66437,7 @@ var dict = {
   },
   "yacht-4.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-4.28": {
     "zh": "FANTASTIC VACATION",
@@ -66997,7 +66997,7 @@ var dict = {
   },
   "yacht-40.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-40.28": {
     "zh": "FANTASTIC VACATION",
@@ -67553,7 +67553,7 @@ var dict = {
   },
   "yacht-41.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-41.28": {
     "zh": "FANTASTIC VACATION",
@@ -68109,7 +68109,7 @@ var dict = {
   },
   "yacht-42.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-42.28": {
     "zh": "FANTASTIC VACATION",
@@ -68665,7 +68665,7 @@ var dict = {
   },
   "yacht-43.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-43.28": {
     "zh": "FANTASTIC VACATION",
@@ -69221,7 +69221,7 @@ var dict = {
   },
   "yacht-44.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-44.28": {
     "zh": "FANTASTIC VACATION",
@@ -69777,7 +69777,7 @@ var dict = {
   },
   "yacht-45.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-45.28": {
     "zh": "FANTASTIC VACATION",
@@ -70333,7 +70333,7 @@ var dict = {
   },
   "yacht-46.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-46.28": {
     "zh": "FANTASTIC VACATION",
@@ -70889,7 +70889,7 @@ var dict = {
   },
   "yacht-47.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-47.28": {
     "zh": "FANTASTIC VACATION",
@@ -71445,7 +71445,7 @@ var dict = {
   },
   "yacht-48.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-48.28": {
     "zh": "FANTASTIC VACATION",
@@ -72001,7 +72001,7 @@ var dict = {
   },
   "yacht-49.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-49.28": {
     "zh": "FANTASTIC VACATION",
@@ -72545,7 +72545,7 @@ var dict = {
   },
   "yacht-5.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-5.28": {
     "zh": "FANTASTIC VACATION",
@@ -73105,7 +73105,7 @@ var dict = {
   },
   "yacht-50.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-50.28": {
     "zh": "FANTASTIC VACATION",
@@ -73637,7 +73637,7 @@ var dict = {
   },
   "yacht-6.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-6.28": {
     "zh": "FANTASTIC VACATION",
@@ -74197,7 +74197,7 @@ var dict = {
   },
   "yacht-7.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-7.28": {
     "zh": "FANTASTIC VACATION",
@@ -74757,7 +74757,7 @@ var dict = {
   },
   "yacht-8.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-8.28": {
     "zh": "FANTASTIC VACATION",
@@ -75317,7 +75317,7 @@ var dict = {
   },
   "yacht-9.27": {
     "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "en": "FANTASTIC VACATION"
   },
   "yacht-9.28": {
     "zh": "FANTASTIC VACATION",
