@@ -78566,10 +78566,31 @@ function applyI18n(lang) {
       var nodes = [];
       var node;
       while (node = walker.nextNode()) nodes.push(node);
-      if (nodes.length === 1) {
-        nodes[0].nodeValue = newVal;
+      if (nodes.length >= 1) {
+        // Replace all direct text nodes (preserve child element refs as-is)
+        // Build a map of existing text node values keyed by node object identity
+        var replaced = new Map();
+        var startVal = nodes[0] ? nodes[0].nodeValue : '';
+        if (nodes.length === 1) {
+          nodes[0].nodeValue = newVal;
+        } else {
+          // Multiple text nodes: split newVal by the existing non-empty text nodes
+          // Strategy: replace first text node with newVal + first child HTML preserved after
+          // Better: replace all non-empty text nodes, inserting newVal in the first one
+          var textIdx = 0;
+          for (var ni = 0; ni < nodes.length; ni++) {
+            if (nodes[ni].nodeValue.trim() !== '') {
+              if (textIdx === 0) {
+                nodes[ni].nodeValue = newVal;
+              } else {
+                nodes[ni].nodeValue = '';
+              }
+              textIdx++;
+            }
+          }
+        }
+        return;
       }
-      return;
     }
 
     // No child elements - safe to set textContent
