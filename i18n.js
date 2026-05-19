@@ -26334,7 +26334,7 @@ var dict = {
   },
   "contact.682": {
     "zh": "「探索全球，不负假期」<br/>全球一体化高端游艇定制与私人海享生活缔造者",
-    "en": ""Explore the World, Embrace the Vacation"<br/>Global Integrated Premium Yacht Customization & Private Seaside Life Creator"Explore the World, Embrace the Vacation"<br/>Global Integrated Premium Yacht Customization & Private Seaside Living Creator"
+    "en": "\"Explore the World, Embrace the Vacation\"<br/>Global Integrated Premium Yacht Customization & Private Seaside Life Creator"
   },
   "contact.718": {
     "zh": "快速导航",
