@@ -77013,7 +77013,7 @@ var dict = {
   "charter.800": { "zh": "★", "en": "★" },
   "charter.803": { "zh": "★", "en": "★" },
   "charter.806": { "zh": "★", "en": "★" },
-  "contact.465": { "zh": "465", "en": "465" },
+  "contact.465": { "zh": "地址：香港彌敦道721-725號比華利銀行大廈14樓1405B室<br/>邮编：999077<br/>电话：+852 55380525<br/>邮箱：hk@fantastic.vacation<br/>服务范围：品牌战略、全球业务统筹、高端定制项目管理<br/>办公时间：周一至周五 09:00-19:00", "en": "Address: Suite 1405B, 14/F, Beverly Bank Plaza, 721-725 Nathan Road, Kowloon, Hong Kong<br/>Postal Code: 999077<br/>Tel: +852 55380525<br/>Email: hk@fantastic.vacation<br/>Services: Brand Strategy, Global Business Coordination, Premium Custom Project Management<br/>Office Hours: Mon-Fri 09:00-19:00" },
   "contact.491": { "zh": "491", "en": "491" },
   "contact.514": { "zh": "514", "en": "514" },
   "contact.537": { "zh": "537", "en": "537" },
