@@ -133,8 +133,8 @@ var dict = {
     "en": "Email: hs@fantastic-vacation.com"
   },
   "index.33": {
-    "zh": "✦ EST. 2010 · GLOBAL LUXURY MARINE ✦",
-    "en": "✦ EST. 2010 · GLOBAL LUXURY MARINE ✦"
+    "zh": "奇幻假期实业有限公司",
+    "en": "FANTASTIC VACATION"
   },
   "index.34": {
     "zh": "定义海洋奢华",
@@ -23730,8 +23730,8 @@ var dict = {
     "en": "Tel：13797920792 / +86 0755 3353-0188"
   },
   "cases.264": {
-    "zh": "CASE STUDIES",
-    "en": "CASE STUDIES"
+    "zh": "奇幻假期实业有限公司",
+    "en": "FANTASTIC VACATION"
   },
   "cases.266": {
     "zh": "FANTASTIC VACATION",
@@ -24846,8 +24846,8 @@ var dict = {
     "en": "Tel：13797920792 / +86 0755 3353-0188"
   },
   "charter.258": {
-    "zh": "✦ 全球海域 · 顶级船队 · 超高性价比 ✦",
-    "en": "✦ Global waters · Top fleet · Super cost-effective ✦"
+    "zh": "奇幻假期实业有限公司",
+    "en": "FANTASTIC VACATION"
   },
   "charter.260": {
     "zh": "租赁航线",
@@ -26502,8 +26502,8 @@ var dict = {
     "en": "Tel：13797920792 / +86 0755 3353-0188"
   },
   "custom.257": {
-    "zh": "✦ 全流程定制 ✦",
-    "en": "✦ Full process customization ✦"
+    "zh": "奇幻假期实业有限公司",
+    "en": "FANTASTIC VACATION"
   },
   "custom.259": {
     "zh": "私人游艇",
@@ -32540,8 +32540,8 @@ var dict = {
     "en": "Tel：13797920792 / +86 0755 3353-0188"
   },
   "management.264": {
-    "zh": "Yacht Management &amp; Maintenance",
-    "en": "Yacht Management &amp; Maintenance"
+    "zh": "奇幻假期实业有限公司",
+    "en": "FANTASTIC VACATION"
   },
   "management.266": {
     "zh": "托管 · 维保 · 管家",
@@ -37200,8 +37200,8 @@ var dict = {
     "en": "Tel：13797920792 / +86 0755 3353-0188"
   },
   "news.255": {
-    "zh": "新闻资讯",
-    "en": "News & Information"
+    "zh": "奇幻假期实业有限公司",
+    "en": "FANTASTIC VACATION"
   },
   "news.257": {
     "zh": "新闻资讯",
