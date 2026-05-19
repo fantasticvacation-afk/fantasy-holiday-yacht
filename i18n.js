@@ -1641,68 +1641,68 @@ var dict = {
     "en": "2-4 people"
   },
   "contact.100": {
-    "zh": "5-8位",
-    "en": "5-8 people"
+    "zh": "免费初步咨询",
+    "en": "Free Initial Consultation"
   },
   "contact.101": {
-    "zh": "9-16位",
-    "en": "9-16 people"
+    "zh": "提交需求表单，我们将在24小时内与您联系，提供初步方案建议。",
+    "en": "Submit your inquiry and we'll contact you within 24 hours with initial recommendations."
   },
   "contact.102": {
-    "zh": "17-36位",
-    "en": "17-36 bits"
+    "zh": "预约到店体验",
+    "en": "Book In-Store Experience"
   },
   "contact.103": {
-    "zh": "36位以上",
-    "en": "36 or more"
+    "zh": "前往深圳或香港展厅，与专业顾问面对面沟通您的游艇梦想。",
+    "en": "Visit our Shenzhen or Hong Kong showroom for a face-to-face consultation."
   },
   "contact.104": {
-    "zh": "预算范围",
-    "en": "budget range"
+    "zh": "专属定制方案",
+    "en": "Bespoke Custom Solution"
   },
   "contact.105": {
-    "zh": "请选择预算范围",
-    "en": "Please select a budget range"
+    "zh": "根据您的需求与预算，我们的团队将量身打造专属游艇配置方案。",
+    "en": "Our team will create a tailored yacht configuration plan based on your needs and budget."
   },
   "contact.106": {
-    "zh": "10-50万元",
-    "en": "100,000-500,000 yuan"
+    "zh": "全球船厂对接",
+    "en": "Global Shipyard Liaison"
   },
   "contact.107": {
-    "zh": "50-200万元",
-    "en": "500,000-2 million yuan"
+    "zh": "从意大利到德国，从荷兰到美国，无缝对接全球顶级船厂资源。",
+    "en": "Seamless connection to top shipyards worldwide, from Italy to Germany, Netherlands to the US."
   },
   "contact.108": {
-    "zh": "200-500万元",
-    "en": "2-5 million yuan"
+    "zh": "交付与售后服务",
+    "en": "Delivery & After-Sales"
   },
   "contact.109": {
-    "zh": "500-2000万元",
-    "en": "5-20 million yuan"
+    "zh": "专业的跨洋交付团队与全球售后服务网络，确保您的游艇交付与维护全程无忧。",
+    "en": "Professional transoceanic delivery team and global after-sales network ensure worry-free delivery and maintenance."
   },
   "contact.110": {
-    "zh": "2000万元以上",
-    "en": "More than 20 million yuan"
+    "zh": "专业团队",
+    "en": "Professional Team"
   },
   "contact.111": {
-    "zh": "暂不方便透露",
-    "en": "It is not convenient to disclose at the moment"
+    "zh": "200+ 资深行业专家",
+    "en": "200+ Senior Industry Experts"
   },
   "contact.112": {
-    "zh": "详细需求描述",
-    "en": "Detailed requirement description"
+    "zh": "全球服务",
+    "en": "Global Service"
   },
   "contact.113": {
-    "zh": "提交咨询预约 →",
-    "en": "Submit a consultation appointment →"
+    "zh": "50+ 合作港口基地",
+    "en": "50+ Partner Ports & Bases"
   },
   "contact.114": {
-    "zh": "隐私保护政策",
-    "en": "Privacy Policy"
+    "zh": "行业经验",
+    "en": "Industry Experience"
   },
   "contact.115": {
-    "zh": "为什么选择奇幻假期？",
-    "en": "Why Choose Fantasy Vacations?"
+    "zh": "15年 深耕高端市场",
+    "en": "15 Years in Premium Market"
   },
   "contact.116": {
     "zh": "🏆",
@@ -1765,16 +1765,16 @@ var dict = {
     "en": "International standard privacy protection system, encrypted storage of customer information, signed NDA confidentiality agreement"
   },
   "contact.131": {
-    "zh": "全球办事处",
-    "en": "Global offices"
+    "zh": "",
+    "en": ""
   },
   "contact.132": {
     "zh": "全球办事处",
-    "en": "Global offices"
+    "en": "Global Offices"
   },
   "contact.133": {
     "zh": "奇幻假期在全球核心游艇市场设立直属办事处，为当地客户提供母语级服务支持与属地化合规保障。",
-    "en": "Fantasy Vacations has established direct offices in core yacht markets around the world to provide local customers with native-language service support and localized compliance guarantees."
+    "en": "Fantastic Vacation has established direct offices in key global yacht markets, providing native-level service support and localized compliance assurance."
   },
   "contact.134": {
     "zh": "🇭🇰",
@@ -1786,31 +1786,31 @@ var dict = {
   },
   "contact.136": {
     "zh": "亚太区战略中枢 · 品牌管理中心",
-    "en": "Asia Pacific Strategic Center · Brand Management Center"
+    "en": "Asia-Pacific Strategic Center · Brand Management Center"
   },
   "contact.137": {
     "zh": "地址：",
-    "en": "Address："
+    "en": "Address: "
   },
   "contact.138": {
     "zh": "邮编：",
-    "en": "Postal Code："
+    "en": "Postal Code: "
   },
   "contact.139": {
     "zh": "电话：",
-    "en": "Tel："
+    "en": "Tel: "
   },
   "contact.140": {
     "zh": "邮箱：",
-    "en": "Email："
+    "en": "Email: "
   },
   "contact.141": {
     "zh": "服务范围：",
-    "en": "Service Scope："
+    "en": "Service Scope: "
   },
   "contact.142": {
     "zh": "办公时间：",
-    "en": "Office Hours："
+    "en": "Office Hours: "
   },
   "contact.143": {
     "zh": "🇸🇬",
@@ -1854,7 +1854,7 @@ var dict = {
   },
   "contact.153": {
     "zh": "地中海航线 · 欧洲船厂合作枢纽",
-    "en": "Mediterranean route·European shipyard cooperation hub"
+    "en": "Mediterranean route · European shipyard cooperation hub"
   },
   "contact.154": {
     "zh": "地址：",
@@ -1882,7 +1882,7 @@ var dict = {
   },
   "contact.160": {
     "zh": "迪拜 · 中东业务中心",
-    "en": "Dubai·Middle East Business Center"
+    "en": "Dubai · Middle East Business Center"
   },
   "contact.161": {
     "zh": "中东皇室服务 · 高端商务活动定制",
@@ -1918,7 +1918,7 @@ var dict = {
   },
   "contact.169": {
     "zh": "加勒比航线 · 美洲市场拓展",
-    "en": "Caribbean route·American market expansion"
+    "en": "Caribbean route · American market expansion"
   },
   "contact.170": {
     "zh": "地址：",
@@ -1946,11 +1946,11 @@ var dict = {
   },
   "contact.176": {
     "zh": "上海 · 中国区总部",
-    "en": "Shanghai China Headquarters"
+    "en": "Shanghai · China Headquarters"
   },
   "contact.177": {
     "zh": "中国大陆市场运营 · 客户服务中心",
-    "en": "Mainland China Market Operation·Customer Service Center"
+    "en": "Mainland China Market Operations · Customer Service Center"
   },
   "contact.178": {
     "zh": "地址：",
@@ -1977,16 +1977,16 @@ var dict = {
     "en": "Office Hours："
   },
   "contact.184": {
-    "zh": "服务承诺",
-    "en": "Service commitment"
+    "zh": "",
+    "en": ""
   },
   "contact.185": {
-    "zh": "服务承诺",
-    "en": "Service commitment"
+    "zh": "",
+    "en": ""
   },
   "contact.186": {
     "zh": "服务承诺",
-    "en": "Service commitment"
+    "en": "Service Promise"
   },
   "contact.187": {
     "zh": "⚡",
@@ -1994,7 +1994,7 @@ var dict = {
   },
   "contact.188": {
     "zh": "极速响应",
-    "en": "Extremely fast response"
+    "en": "Rapid Response"
   },
   "contact.189": {
     "zh": "🎯",
@@ -2002,7 +2002,7 @@ var dict = {
   },
   "contact.190": {
     "zh": "精准匹配",
-    "en": "Exact match"
+    "en": "Precision Matching"
   },
   "contact.191": {
     "zh": "🔐",
@@ -2010,7 +2010,7 @@ var dict = {
   },
   "contact.192": {
     "zh": "绝对保密",
-    "en": "Absolute confidentiality"
+    "en": "Absolute Confidentiality"
   },
   "contact.193": {
     "zh": "📋",
@@ -2018,15 +2018,15 @@ var dict = {
   },
   "contact.194": {
     "zh": "全程追踪",
-    "en": "Full tracking"
+    "en": "Full Tracking"
   },
   "contact.195": {
-    "zh": "企业合规信息",
-    "en": "Corporate Compliance Information"
+    "zh": "",
+    "en": ""
   },
   "contact.196": {
-    "zh": "企业合规信息",
-    "en": "Corporate Compliance Information"
+    "zh": "",
+    "en": ""
   },
   "contact.197": {
     "zh": "企业合规信息",
@@ -2034,35 +2034,35 @@ var dict = {
   },
   "contact.198": {
     "zh": "企业全称：",
-    "en": "Full name of company:"
+    "en": "Legal Name: "
   },
   "contact.199": {
     "zh": "注册地：",
-    "en": "Place of registration:"
+    "en": "Registered In: "
   },
   "contact.200": {
     "zh": "公司注册编号：",
-    "en": "Company registration number:"
+    "en": "Company Reg No: "
   },
   "contact.201": {
     "zh": "商业登记证号码：",
-    "en": "Business registration certificate number:"
+    "en": "Business Reg No: "
   },
   "contact.202": {
     "zh": "注册地址：",
-    "en": "Registered address:"
+    "en": "Registered Address: "
   },
   "contact.203": {
     "zh": "法定代表人：",
-    "en": "Legal representative:"
+    "en": "Legal Representative: "
   },
   "contact.204": {
     "zh": "合规备案：",
-    "en": "Compliance filing:"
+    "en": "Compliance: "
   },
   "contact.205": {
     "zh": "保险合作：",
-    "en": "Insurance cooperation:"
+    "en": "Insurance Partners: "
   },
   "contact.206": {
     "zh": "奇幻假期",
@@ -2074,11 +2074,11 @@ var dict = {
   },
   "contact.208": {
     "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
-    "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
+    "en": "Fantastic Vacation has been dedicated to the premium yacht industry for 15 years, providing one-stop yacht customization, charter, and management services for 200+ global high-net-worth clients."
   },
   "contact.209": {
     "zh": "微信公众号",
-    "en": "WeChat public account"
+    "en": "WeChat Official Account"
   },
   "contact.210": {
     "zh": "微博",
@@ -2086,7 +2086,7 @@ var dict = {
   },
   "contact.211": {
     "zh": "抖音",
-    "en": "Tik Tok"
+    "en": "Douyin/TikTok"
   },
   "contact.212": {
     "zh": "LinkedIn",
@@ -2094,39 +2094,39 @@ var dict = {
   },
   "contact.213": {
     "zh": "YouTube",
-    "en": "Youtube"
+    "en": "YouTube"
   },
   "contact.214": {
     "zh": "首页",
-    "en": "front page"
+    "en": "Home"
   },
   "contact.215": {
     "zh": "首页",
-    "en": "front page"
+    "en": "Home"
   },
   "contact.216": {
     "zh": "关于我们",
-    "en": "about Us"
+    "en": "About Us"
   },
   "contact.217": {
     "zh": "关于我们",
-    "en": "about Us"
+    "en": "About Us"
   },
   "contact.218": {
     "zh": "全系游艇",
-    "en": "All yachts"
+    "en": "All Yachts"
   },
   "contact.219": {
     "zh": "全系游艇",
-    "en": "All yachts"
+    "en": "All Yachts"
   },
   "contact.220": {
     "zh": "全案定制",
-    "en": "Full Customization"
+    "en": "Custom Solutions"
   },
   "contact.221": {
     "zh": "全案定制",
-    "en": "Full Customization"
+    "en": "Custom Solutions"
   },
   "contact.222": {
     "zh": "租赁航线",
@@ -2146,19 +2146,19 @@ var dict = {
   },
   "contact.226": {
     "zh": "案例展示",
-    "en": "Case display"
+    "en": "Case Studies"
   },
   "contact.227": {
     "zh": "案例展示",
-    "en": "Case display"
+    "en": "Case Studies"
   },
   "contact.228": {
     "zh": "新闻资讯",
-    "en": "News"
+    "en": "News & Media"
   },
   "contact.229": {
     "zh": "新闻资讯",
-    "en": "News"
+    "en": "News & Media"
   },
   "contact.230": {
     "zh": "全球合作",
@@ -2170,19 +2170,19 @@ var dict = {
   },
   "contact.232": {
     "zh": "网站地图",
-    "en": "Site Map"
+    "en": "Sitemap"
   },
   "contact.233": {
     "zh": "网站地图",
-    "en": "Site Map"
+    "en": "Sitemap"
   },
   "contact.234": {
     "zh": "公司地址",
-    "en": "Company Address"
+    "en": "Office Address"
   },
   "contact.235": {
     "zh": "咨询热线",
-    "en": "Consultation Hotline"
+    "en": "Hotline"
   },
   "contact.236": {
     "zh": "传真",
@@ -26317,28 +26317,28 @@ var dict = {
     "en": "🔒 Your personal information will be kept strictly confidential and will only be used by dedicated consultants to contact you. We promise not to share your information with any third party. See details"
   },
   "contact.610": {
-    "zh": "咨询表单2小时内专人回复",
-    "en": "Consultation form will be responded to by a dedicated person within 2 hours"
+    "zh": "咨询表单2小时内专人回复<br/>紧急需求30分钟内响应",
+    "en": "Dedicated response within 2 hours<br/>Emergency requests within 30 minutes"
   },
   "contact.615": {
-    "zh": "根据需求智能匹配专属顾问",
-    "en": "Intelligent matching of dedicated consultants based on needs"
+    "zh": "根据需求智能匹配专属顾问<br/>零沟通损耗，直达专业团队",
+    "en": "AI-matched dedicated consultant<br/>Zero communication loss, direct to experts"
   },
   "contact.620": {
-    "zh": "国际标准隐私保护体系",
-    "en": "International standard privacy protection system"
+    "zh": "国际标准隐私保护体系<br/>客户信息加密存储",
+    "en": "International standard privacy protection<br/>Encrypted client data storage"
   },
   "contact.625": {
-    "zh": "每个咨询工单全程追踪",
-    "en": "Full tracking of each consultation work order"
+    "zh": "每个咨询工单全程追踪<br/>服务闭环，无遗漏",
+    "en": "Full tracking for every inquiry ticket<br/>Complete service loop, no omissions"
   },
   "contact.682": {
-    "zh": "「探索全球，不负假期」",
-    "en": "\"Explore the world and live up to your vacation\""
+    "zh": "「探索全球，不负假期」<br/>全球一体化高端游艇定制与私人海享生活缔造者",
+    "en": ""Explore the World, Embrace the Vacation"<br/>Global Integrated Premium Yacht Customization & Private Seaside Living Creator"
   },
   "contact.718": {
     "zh": "快速导航",
-    "en": "Quick navigation"
+    "en": "Quick Navigation"
   },
   "contact.746": {
     "zh": "联系我们",
@@ -26361,8 +26361,8 @@ var dict = {
     "en": "0755-31530988"
   },
   "contact.796": {
-    "zh": "资质与合作",
-    "en": "Qualifications and cooperation"
+    "zh": "订阅资讯",
+    "en": "Subscribe to Newsletter"
   },
   "custom.3": {
     "zh": "私人游艇定制服务 | 奇幻假期 FANTASTIC VACATION - 全流程定制 顶级品质",
@@ -77014,16 +77014,46 @@ var dict = {
   "charter.803": { "zh": "★", "en": "★" },
   "charter.806": { "zh": "★", "en": "★" },
   "contact.465": { "zh": "地址：香港彌敦道721-725號比華利銀行大廈14樓1405B室<br/>邮编：999077<br/>电话：+852 55380525<br/>邮箱：hk@fantastic.vacation<br/>服务范围：品牌战略、全球业务统筹、高端定制项目管理<br/>办公时间：周一至周五 09:00-19:00", "en": "Address: Suite 1405B, 14/F, Beverly Bank Plaza, 721-725 Nathan Road, Kowloon, Hong Kong<br/>Postal Code: 999077<br/>Tel: +852 55380525<br/>Email: hk@fantastic.vacation<br/>Services: Brand Strategy, Global Business Coordination, Premium Custom Project Management<br/>Office Hours: Mon-Fri 09:00-19:00" },
-  "contact.491": { "zh": "491", "en": "491" },
-  "contact.514": { "zh": "514", "en": "514" },
-  "contact.537": { "zh": "537", "en": "537" },
-  "contact.560": { "zh": "560", "en": "560" },
-  "contact.583": { "zh": "583", "en": "583" },
-  "contact.638": { "zh": "638", "en": "638" },
-  "contact.667": { "zh": "667", "en": "667" },
-  "contact.790": { "zh": "790", "en": "790" },
-  "contact.827": { "zh": "827", "en": "827" },
-  "contact.833": { "zh": "833", "en": "833" },
+  "contact.491": {
+    "zh": "地址：1 Raffles Place, Tower 2, #42-01, Singapore 048616<br/>电话：+65 6234 5678<br/>邮箱：sg@fantastic.vacation<br/>服务范围：东南亚航线策划、租赁调度、当地码头协调<br/>办公时间：周一至周六 09:00-21:00",
+    "en": "Address: 1 Raffles Place, Tower 2, #42-01, Singapore 048616<br/>Tel: +65 6234 5678<br/>Email: sg@fantastic.vacation<br/>Service Scope: Southeast Asian route planning, charter scheduling, local marina coordination<br/>Office Hours: Mon-Sat 09:00-21:00"
+  },
+  "contact.514": {
+    "zh": "地址：7 Avenue des Ligures, 98000 Monaco<br/>电话：+377 97 70 8888<br/>邮箱：mc@fantastic.vacation<br/>服务范围：地中海航线运营、欧洲船厂对接、购艇代理<br/>办公时间：周一至周五 09:00-19:00 CET",
+    "en": "Address: 7 Avenue des Ligures, 98000 Monaco<br/>Tel: +377 97 70 8888<br/>Email: mc@fantastic.vacation<br/>Service Scope: Mediterranean route operations, European shipyard liaison, yacht purchase agency<br/>Office Hours: Mon-Fri 09:00-19:00 CET"
+  },
+  "contact.537": {
+    "zh": "地址：DIFC, Gate Village 7, Office 302, Dubai, UAE<br/>电话：+971 4 567 8888<br/>邮箱：ae@fantastic.vacation<br/>服务范围：中东皇室定制、商务活动策划、海湾航线<br/>办公时间：周日至周四 10:00-20:00 GST",
+    "en": "Address: DIFC, Gate Village 7, Office 302, Dubai, UAE<br/>Tel: +971 4 567 8888<br/>Email: ae@fantastic.vacation<br/>Service Scope: Middle East royal customization, business event planning, Gulf routes<br/>Office Hours: Sun-Thu 10:00-20:00 GST"
+  },
+  "contact.560": {
+    "zh": "地址：600 Brickell Ave, Suite 2020, Miami, FL 33131<br/>电话：+1 305 888 9999<br/>邮箱：us@fantastic.vacation<br/>服务范围：加勒比航线、美洲游艇市场、跨洋交付<br/>办公时间：周一至周五 09:00-19:00 EST",
+    "en": "Address: 600 Brickell Ave, Suite 2020, Miami, FL 33131<br/>Tel: +1 305 888 9999<br/>Email: us@fantastic.vacation<br/>Service Scope: Caribbean routes, Americas yacht market, transoceanic delivery<br/>Office Hours: Mon-Fri 09:00-19:00 EST"
+  },
+  "contact.583": {
+    "zh": "地址：上海市浦东新区陆家嘴环路1288号<br/>邮编：200120<br/>电话：+86 13797920792<br/>邮箱：sh@fantastic.vacation<br/>服务范围：中国大陆客户服务、游艇引进、国内码头协调<br/>办公时间：周一至周五 09:00-19:00",
+    "en": "Address: 1288 Lujiazui Ring Road, Pudong New Area, Shanghai<br/>Postal Code: 200120<br/>Tel: +86 13797920792<br/>Email: sh@fantastic.vacation<br/>Service Scope: Mainland China client service, yacht import, domestic marina coordination<br/>Office Hours: Mon-Fri 09:00-19:00"
+  },
+  "contact.638": {
+    "zh": "<strong>企业全称：</strong>奇幻假期实业有限公司（FANTASTIC VACATION LIMITED）<br/><strong>注册地：</strong>香港特别行政区<br/><strong>公司注册编号：</strong>74238516<br/><strong>商业登记证号码：</strong>78540231-000-05-26-8<br/><strong>注册地址：</strong>广东省深圳市宝安区松岗工业园1号<br/><strong>法定代表人：</strong>陈瀚宇<br/><strong>合规备案：</strong>已取得中国交通运输部游艇运营许可、香港海事处牌照、新加坡MPA认证<br/><strong>保险合作：</strong>与劳合社（Lloyd's）、安联（Allianz）签署全球海事保险合作协议",
+    "en": "<strong>Legal Name:</strong> FANTASTIC VACATION LIMITED<br/><strong>Registered In:</strong> Hong Kong SAR<br/><strong>Company Reg No:</strong> 74238516<br/><strong>Business Reg No:</strong>78540231-000-05-26-8<br/><strong>Registered Address:</strong> No.1 Songgang Industrial Park, Bao'an District, Shenzhen, Guangdong Province<br/><strong>Legal Representative:</strong> Chen Hanyu<br/><strong>Compliance:</strong> Licensed by China Ministry of Transport for Yacht Operations, Hong Kong Marine Department, Singapore MPA<br/><strong>Insurance Partners:</strong> Lloyd's of London, Allianz Global Maritime Insurance"
+  },
+  "contact.667": {
+    "zh": "",
+    "en": ""
+  },
+  "contact.790": {
+    "zh": "关注我们",
+    "en": "Follow Us"
+  },
+  "contact.827": {
+    "zh": "提交",
+    "en": "Submit"
+  },
+  "contact.833": {
+    "zh": "",
+    "en": ""
+  },
   "custom.1068": { "zh": "1068", "en": "1068" },
   "custom.1105": { "zh": "1105", "en": "1105" },
   "custom.1111": { "zh": "1111", "en": "1111" },
