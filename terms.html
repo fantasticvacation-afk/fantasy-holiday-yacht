@@ -34,7 +34,7 @@
 <a data-i18n="nav.home" href="index.html">首页</a>
 <!-- 关于我们 -->
 <div class="nav-dropdown">
-<a data-i18n="terms.34" href="about.html">关于我们 <span class="nav-arrow"></span></a>
+<a data-i18n="nav.about" href="about.html">关于我们 <span class="nav-arrow"></span></a>
 <div class="nav-dropdown-menu">
 <a data-i18n="nav.about.profile" href="about.html">公司简介</a>
 <a data-i18n="nav.about.history" href="about-history.html">发展历程</a>
@@ -46,7 +46,7 @@
 </div>
 <!-- 业务板块 -->
 <div class="nav-dropdown">
-<a data-i18n="terms.54" href="custom.html">业务板块 <span class="nav-arrow"></span></a>
+<a data-i18n="nav.business" href="custom.html">业务板块 <span class="nav-arrow"></span></a>
 <div class="nav-dropdown-menu">
 <a data-i18n="nav.business.custom" href="custom.html">全案定制</a>
 <a data-i18n="nav.business.charter" href="charter.html">租赁航线</a>
@@ -56,7 +56,7 @@
 </div>
 <!-- 产品与服务 -->
 <div class="nav-dropdown">
-<a data-i18n="terms.70" href="yachts.html">产品与服务 <span class="nav-arrow"></span></a>
+<a data-i18n="nav.products" href="yachts.html">产品与服务 <span class="nav-arrow"></span></a>
 <div class="nav-dropdown-menu">
 <a data-i18n="nav.products.yachts" href="yachts.html">全系游艇</a>
 <a data-i18n="nav.products.solutions" href="custom.html">定制解决方案</a>
@@ -67,7 +67,7 @@
 </div>
 <!-- 新闻中心 -->
 <div class="nav-dropdown">
-<a data-i18n="terms.88" href="news.html">新闻中心 <span class="nav-arrow"></span></a>
+<a data-i18n="nav.news" href="news.html">新闻中心 <span class="nav-arrow"></span></a>
 <div class="nav-dropdown-menu">
 <a data-i18n="nav.news.company" href="news.html">公司动态</a>
 <a data-i18n="nav.news.industry" href="news.html#industry">行业资讯</a>
@@ -77,7 +77,7 @@
 </div>
 <!-- 投资者关系 -->
 <div class="nav-dropdown">
-<a data-i18n="terms.104" href="ir.html">投资者关系 <span class="nav-arrow"></span></a>
+<a data-i18n="nav.ir" href="ir.html">投资者关系 <span class="nav-arrow"></span></a>
 <div class="nav-dropdown-menu">
 <a data-i18n="nav.ir.profile" href="ir.html">公司概况</a>
 <a data-i18n="nav.ir.financial" href="ir-financial.html">财务报告</a>
@@ -116,7 +116,7 @@
 <!-- Search Overlay -->
 <div class="search-overlay" id="searchOverlay">
 <div class="search-box">
-<input autocomplete="off" class="search-input" id="searchInput" placeholder="搜索产品、新闻、案例..." type="text"/>
+<input autocomplete="off" class="search-input" id="searchInput" placeholder="搜索产品、新闻、案例..." data-i18n-attr="placeholder:_ph.terms.0" type="text"/>
 <button class="search-close">
 <svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20">
 <line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
@@ -304,7 +304,7 @@
 <div class="footer-recruit">
 <a class="recruit-link" data-i18n="terms.422" href="contact.html">
 <svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
-            加入我们 · 招聘职位
+            <span data-i18n="_recruit">加入我们 · 招聘职位</span>
           </a>
 </div>
 </div>
@@ -336,7 +336,7 @@ document.addEventListener('DOMContentLoaded',()=>{initReveal();initCounters()});
 function toggleSearch(){var s=document.getElementById("searchOverlay");if(s){s.classList.toggle("active");if(s.classList.contains("active")){setTimeout(function(){var i=document.getElementById("searchInput");if(i)i.focus()},100)}}}document.addEventListener("keydown",function(e){if(e.key==="Escape"){var s=document.getElementById("searchOverlay");if(s&&s.classList.contains("active"))s.classList.remove("active");var m=document.getElementById("mobile-menu");if(m&&m.classList.contains("active")){m.classList.remove("active");document.querySelector(".hamburger").classList.remove("active")}}});function toggleDarkMode(){document.body.classList.toggle("dark-mode");var isDark=document.body.classList.contains("dark-mode");localStorage.setItem("fv-dark",isDark?"1":"0");var moon=document.querySelector(".icon-moon");var sun=document.querySelector(".icon-sun");if(moon)moon.style.display=isDark?"none":"inline";if(sun)sun.style.display=isDark?"inline":"none"}window.addEventListener("DOMContentLoaded",function(){var isDark=localStorage.getItem("fv-dark")==="1";if(isDark){document.body.classList.add("dark-mode");var moon=document.querySelector(".icon-moon");var sun=document.querySelector(".icon-sun");if(moon)moon.style.display="none";if(sun)sun.style.display="inline"}});window.addEventListener("DOMContentLoaded",function(){document.querySelectorAll(".search-suggestion-item").forEach(function(el){el.addEventListener("click",function(){var t=this.textContent.trim();if(t.indexOf("全系")!==-1||t.indexOf("All Yachts")!==-1)window.location.href="yachts.html";else if(t.indexOf("定制")!==-1||t.indexOf("Custom")!==-1)window.location.href="custom.html";else if(t.indexOf("航线")!==-1||t.indexOf("Routes")!==-1)window.location.href="charter.html";else if(t.indexOf("联系")!==-1||t.indexOf("Contact")!==-1||t.indexOf("顾问")!==-1||t.indexOf("Advisor")!==-1)window.location.href="contact.html"})})});</script>
 <div class="search-overlay" id="searchOverlay">
 <div class="search-box">
-<input autocomplete="off" class="search-input" id="searchInput" placeholder="搜索游艇、服务、案例..." type="text"/>
+<input autocomplete="off" class="search-input" id="searchInput" placeholder="搜索游艇、服务、案例..." data-i18n-attr="placeholder:_ph.terms.1" type="text"/>
 <button class="search-close">
 <svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20"><line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line></svg>
 </button>

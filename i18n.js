@@ -76635,6 +76635,26 @@ var dict = {
   "case-025.337": {
     "zh": "\"维修后船体强度恢复至原厂98%，船东高度认可\"",
     "en": "Meeting completed successfully, exceeded all expectations, promised long-term cooperation."
+  },
+  "nav.about": {
+    "zh": "关于我们",
+    "en": "About Us"
+  },
+  "nav.business": {
+    "zh": "业务板块",
+    "en": "Business"
+  },
+  "nav.products": {
+    "zh": "产品与服务",
+    "en": "Products & Services"
+  },
+  "nav.news": {
+    "zh": "新闻中心",
+    "en": "News Center"
+  },
+  "nav.ir": {
+    "zh": "投资者关系",
+    "en": "Investor Relations"
   }
 };
 
