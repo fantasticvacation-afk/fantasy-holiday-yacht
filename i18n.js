@@ -76641,27 +76641,33 @@ var dict = {
 
 function applyI18n(lang) {
   if (lang !== 'zh' && lang !== 'en') lang = 'zh';
-  // Translate data-i18n text content
+
+  // Safe text replacement: only modify leaf text nodes, never destroy child elements
   document.querySelectorAll('[data-i18n]').forEach(function(el) {
     var key = el.getAttribute('data-i18n');
-    if (dict[key] && dict[key][lang]) {
-      // Skip container elements that would destroy child structure
-      var tag = el.tagName.toLowerCase();
-      if (tag === 'div' || tag === 'section' || tag === 'nav' || tag === 'header' || tag === 'footer' || tag === 'main' || tag === 'article' || tag === 'aside' || tag === 'ul' || tag === 'ol' || tag === 'table' || tag === 'form' || tag === 'span') {
-        // For containers, only translate if no block children
-        var hasBlockChildren = false;
-        for (var i = 0; i < el.children.length; i++) {
-          var ct = el.children[i].tagName.toLowerCase();
-          if (['div','p','h1','h2','h3','h4','h5','h6','section','article','ul','ol','table','form','nav','header','footer','main'].indexOf(ct) !== -1) {
-            hasBlockChildren = true;
-            break;
-          }
-        }
-        if (hasBlockChildren) return;
+    if (!dict[key] || !dict[key][lang]) return;
+
+    var newVal = dict[key][lang];
+
+    // Strategy: if element has child elements, only translate direct text nodes
+    if (el.children.length > 0) {
+      // Has child elements - walk text nodes and replace them
+      var walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null, false);
+      var nodes = [];
+      var node;
+      while (node = walker.nextNode()) nodes.push(node);
+      if (nodes.length === 1) {
+        // Only one text node - safe to replace
+        nodes[0].nodeValue = newVal;
       }
-      el.textContent = dict[key][lang];
+      // If multiple text nodes or mixed content, skip to avoid breaking structure
+      return;
     }
+
+    // No child elements - safe to set textContent
+    el.textContent = newVal;
   });
+
   // Translate data-i18n-attr attributes (alt, placeholder, title, etc.)
   document.querySelectorAll('[data-i18n-attr]').forEach(function(el) {
     var attrs = el.getAttribute('data-i18n-attr');
@@ -76676,6 +76682,7 @@ function applyI18n(lang) {
       }
     });
   });
+
   document.documentElement.lang = lang === 'en' ? 'en' : 'zh-CN';
 }
 
