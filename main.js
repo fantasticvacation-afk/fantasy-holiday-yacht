@@ -41,10 +41,19 @@ window.addEventListener("scroll", function() {
 
 /* === 移动端菜单切换 === */
 function toggleMobile() {
+  console.log('toggleMobile() 被调用');
   var menu = document.getElementById("mobile-menu");
   var hamburger = document.querySelector(".hamburger");
-  if (menu) menu.classList.toggle("active");
-  if (hamburger) hamburger.classList.toggle("active");
+  console.log('menu:', menu);
+  console.log('hamburger:', hamburger);
+  if (menu) {
+    menu.classList.toggle("active");
+    console.log('menu active:', menu.classList.contains('active'));
+  }
+  if (hamburger) {
+    hamburger.classList.toggle("active");
+    console.log('hamburger active:', hamburger.classList.contains('active'));
+  }
 }
 
 /* === 搜索框切换 === */
