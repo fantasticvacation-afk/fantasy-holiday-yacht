@@ -79178,7 +79178,7 @@ var dict = {
   "footer-template.4": { "zh": "快速链接", "en": "Quick Links" },
   "nav-template.120": { "zh": "语言切换", "en": "Language" },
   "nav-template.19": { "zh": "主导航", "en": "Main Nav" },
-  "nav-template.5": { "zh": "品牌标识", "en": "Brand" }
+  "nav-template.5": { "zh": "品牌标识", "en": "Brand" },
 
   "footer.member": { "zh": "👑 尊享会员", "en": "👑 Membership" },
   "membership.0": { "zh": "尊享会员申请 | 奇幻假期 FANTASTIC VACATION - 全球顶级游艇俱乐部", "en": "Exclusive Membership Application | Fantastic Vacation - World's Premier Yacht Club" },
