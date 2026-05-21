@@ -80055,6 +80055,16 @@ var dict = {
   "membership.421": { "zh": "专属游艇使用权 30天/年", "en": "Yacht Usage 30 Days/Year" },
   "membership.422": { "zh": "私人管家全程陪同", "en": "Personal Butler Service" },
   "membership.423": { "zh": "顶级船厂优先参观", "en": "Priority Shipyard Visits" },
+  "m.hero_prefix": { "zh": "开启您的", "en": "Begin Your" },
+  "m.cta_prefix": { "zh": "准备好", "en": "Ready to" },
+  "m.apply.ph_name": { "zh": "姓名 *", "en": "Full Name *" },
+  "m.apply.ph_phone": { "zh": "手机号码 *", "en": "Phone Number *" },
+  "m.apply.ph_email": { "zh": "电子邮箱 *", "en": "Email Address *" },
+  "m.apply.ph_company": { "zh": "公司/机构名称（选填）", "en": "Company/Organization (Optional)" },
+  "m.apply.ph_message": { "zh": "您的需求或留言（选填）", "en": "Your Message or Needs (Optional)" },
+  "_ph.charter.phone": { "zh": "138 0000 0000", "en": "Phone Number" },
+  "_ph.charter.email": { "zh": "your@email.com", "en": "Email Address" },
+
 
   "custom.900": { "zh": "基本信息 BASIC INFO", "en": "Basic Information" },
   "custom.901": { "zh": "您的姓名 *", "en": "Your Name *" },
