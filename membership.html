@@ -3,675 +3,493 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1.0" name="viewport"/>
-<title data-i18n="membership.0">尊享会员申请 | 奇幻假期 FANTASTIC VACATION - 全球顶级游艇俱乐部</title>
-<meta content="申请加入奇幻假期尊享会员俱乐部，享受全球顶级游艇定制、专属航线、私人管家等尊贵权益。会员专属顾问一对一服务。" name="description"/>
+<title>尊享会员 | 奇幻假期 FANTASTIC VACATION</title>
+<meta content="奇幻假期尊享会员俱乐部——全球高端私享游艇出行平台，五级会员体系，专属管家服务，圈层社交网络。" name="description"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
 <link href="style.css" rel="stylesheet"/>
 <style>
-/* ===== LOADER ===== */
-#loader{position:fixed;inset:0;background:#080e1a;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:9999;transition:opacity 0.8s,visibility 0.8s}
-#loader.hidden{opacity:0;visibility:hidden;pointer-events:none}
-#loader .brand{font-family:'Playfair Display',serif;font-size:clamp(24px,4vw,40px);color:var(--gold);letter-spacing:4px;margin-bottom:30px;font-weight:700}
-#loader .progress-bar{width:200px;height:2px;background:rgba(201,169,110,0.15);border-radius:1px;overflow:hidden}
-#loader .progress-fill{height:100%;width:0;background:linear-gradient(90deg,var(--gold-dark),var(--gold));border-radius:1px;animation:loaderFill 2.5s ease-in-out forwards}
-#loader .progress-text{font-size:11px;color:var(--text-dim);letter-spacing:3px;margin-top:16px}
-@keyframes loaderFill{0%{width:0}100%{width:100%}}
+@keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-12px)} }
+@keyframes pulse { 0%,100%{box-shadow:0 0 0 0 rgba(201,169,110,.3)} 50%{box-shadow:0 0 0 20px rgba(201,169,110,0)} }
+@keyframes fadeUp { 0%{opacity:0;transform:translateY(40px)} 100%{opacity:1;transform:translateY(0)} }
+@keyframes shimmer { 0%{background-position:-200% 0} 100%{background-position:200% 0} }
+@keyframes heroZoom { 0%{transform:scale(1.05)} 100%{transform:scale(1.12)} }
+@keyframes loaderFill { 0%{width:0} 100%{width:100%} }
 
-/* ===== HERO ===== */
-.hero{position:relative;min-height:100vh;display:flex;align-items:center;justify-content:center;overflow:hidden;background:#080e1a}
-.hero-bg{position:absolute;inset:0;background:url('images/yttp/yacht-095.png') center/cover no-repeat;opacity:0.08;transform:scale(1.1);animation:heroZoom 20s ease-in-out infinite alternate}
-@keyframes heroZoom{0%{transform:scale(1.1)}100%{transform:scale(1.15)}}
-.hero::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,#080e1a 0%,#080e1a 20%,transparent 50%,#080e1a 80%,#080e1a 100%)}
-.hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:300px;background:linear-gradient(to top,#0a0e18,transparent)}
-.hero-inner{position:relative;z-index:3;text-align:center;padding:0 20px;max-width:900px}
-.hero-badge{display:inline-flex;align-items:center;gap:10px;padding:10px 28px;background:rgba(201,169,110,0.06);border:1px solid rgba(201,169,110,0.25);border-radius:50px;font-size:11px;letter-spacing:3px;color:var(--gold);margin-bottom:32px;backdrop-filter:blur(10px);animation:fadeUp 1s ease 0.5s both}
-.hero h1{font-family:'Playfair Display',serif;font-size:clamp(36px,6vw,68px);font-weight:800;letter-spacing:2px;line-height:1.15;margin-bottom:24px;animation:fadeUp 1s ease 0.7s both}
-.hero h1 em{font-style:italic;color:var(--gold);font-weight:400}
-.hero-sub{font-size:clamp(14px,1.5vw,18px);color:rgba(255,255,255,0.45);font-weight:300;letter-spacing:1.5px;max-width:600px;margin:0 auto 50px;line-height:1.8;animation:fadeUp 1s ease 0.9s both}
-@keyframes fadeUp{0%{opacity:0;transform:translateY(30px)}100%{opacity:1;transform:translateY(0)}}
+.hero-membership {
+  position:relative;min-height:100vh;display:flex;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,#060a14 0%,#0d1b33 30%,#1a1030 60%,#0a0810 100%);
+  overflow:hidden;text-align:center;
+}
+.hero-membership::before {
+  content:'';position:absolute;inset:0;
+  background:url('images/yttp/yacht-095.png') center/cover no-repeat;
+  opacity:0.06;transform:scale(1.08);animation:heroZoom 25s ease-in-out infinite alternate;
+}
+.hero-membership::after {
+  content:'';position:absolute;bottom:0;left:0;right:0;height:200px;
+  background:linear-gradient(to top,#0a0e18,transparent);z-index:2;
+}
+.hero-inner { position:relative;z-index:3;max-width:900px;padding:0 24px;animation:fadeUp 1.2s ease both; }
+.hero-badge {
+  display:inline-flex;align-items:center;gap:10px;padding:10px 28px;
+  background:rgba(201,169,110,0.06);border:1px solid rgba(201,169,110,0.25);
+  border-radius:50px;font-size:11px;letter-spacing:3px;color:#c9a96e;
+  margin-bottom:32px;backdrop-filter:blur(10px);
+}
+.hero-membership h1 {
+  font-family:'Playfair Display',serif;font-size:clamp(36px,6vw,72px);
+  font-weight:800;letter-spacing:2px;line-height:1.1;margin-bottom:24px;
+  background:linear-gradient(135deg,#e8d5a8 0%,#c9a96e 30%,#a07850 60%,#c9a96e 100%);
+  background-size:200% auto;-webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  animation:shimmer 4s linear infinite;
+}
+.hero-membership .sub {
+  font-size:clamp(14px,1.5vw,18px);color:rgba(255,255,255,0.45);
+  font-weight:300;letter-spacing:1.5px;max-width:600px;margin:0 auto 50px;line-height:1.8;
+}
+.hero-cta { display:flex;gap:16px;justify-content:center;flex-wrap:wrap }
+.hero-cta .btn-primary {
+  padding:18px 48px;background:linear-gradient(135deg,#a07850,#c9a96e);
+  color:#0a0e18;border:none;border-radius:40px;font-size:15px;font-weight:600;
+  letter-spacing:.5px;text-decoration:none;cursor:pointer;transition:all .3s;
+}
+.hero-cta .btn-primary:hover { transform:translateY(-2px);box-shadow:0 8px 32px rgba(201,169,110,.3) }
+.hero-cta .btn-outline {
+  padding:18px 48px;border:1px solid rgba(201,169,110,0.3);border-radius:40px;
+  font-size:15px;font-weight:500;color:#c9a96e;text-decoration:none;
+  letter-spacing:.5px;transition:all .3s;
+}
+.hero-cta .btn-outline:hover { background:rgba(201,169,110,0.06);border-color:rgba(201,169,110,0.6) }
+.hero-stats { display:flex;gap:40px;justify-content:center;margin-top:60px;flex-wrap:wrap }
+.hero-stats .stat { text-align:center }
+.hero-stats .stat-num {
+  font-family:'Playfair Display',serif;font-size:clamp(28px,4vw,44px);
+  font-weight:800;color:#c9a96e;display:block;
+}
+.hero-stats .stat-label { font-size:11px;color:rgba(255,255,255,.4);letter-spacing:2px;margin-top:4px }
 
-/* Hero scroll indicator */
-.hero-scroll{position:absolute;bottom:40px;left:50%;transform:translateX(-50%);z-index:5;animation:fadeUp 1s ease 1.5s both}
-.hero-scroll span{display:block;width:24px;height:40px;border:1.5px solid rgba(201,169,110,0.3);border-radius:12px;position:relative;margin:0 auto 8px}
-.hero-scroll span::before{content:'';position:absolute;top:8px;left:50%;transform:translateX(-50%);width:3px;height:8px;background:var(--gold);border-radius:2px;animation:scrollDot 2s ease-in-out infinite}
-@keyframes scrollDot{0%,100%{top:8px;opacity:1}100%{top:22px;opacity:0}}
-.hero-scroll small{font-size:9px;color:var(--text-dim);letter-spacing:2px;text-transform:uppercase}
+.tiers-preview { padding:100px 20px;background:#0a0e18 }
+.tiers-preview .section-tag {
+  display:inline-block;padding:8px 24px;background:rgba(201,169,110,0.06);
+  border:1px solid rgba(201,169,110,0.2);border-radius:50px;
+  font-size:11px;letter-spacing:2.5px;color:#c9a96e;margin-bottom:20px;
+}
+.tiers-preview h2 {
+  font-family:'Playfair Display',serif;font-size:clamp(24px,3.5vw,40px);
+  font-weight:700;letter-spacing:1.5px;margin-bottom:16px;color:#e8e8e8;line-height:1.3;
+}
+.tiers-preview .section-sub { font-size:15px;color:rgba(255,255,255,.5);max-width:600px;margin:0 auto 50px;line-height:1.8 }
+.tier-cards {
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:24px;max-width:1100px;margin:0 auto 50px;
+}
+.tier-card {
+  text-align:center;padding:44px 24px;background:rgba(10,14,26,.85);
+  border:1px solid rgba(201,169,110,0.1);border-radius:16px;transition:all .4s;
+}
+.tier-card:hover { border-color:rgba(201,169,110,0.35);transform:translateY(-6px) }
+.tier-card .icon { font-size:36px;margin-bottom:12px }
+.tier-card .level { font-size:10px;letter-spacing:2px;margin-bottom:6px;font-weight:600 }
+.tier-card h3 { font-family:'Playfair Display',serif;font-size:18px;font-weight:700;color:#e8e8e8;margin-bottom:8px }
+.tier-card .en { font-size:12px;color:rgba(255,255,255,.4);margin-bottom:14px }
+.tier-card .fee { font-size:20px;font-family:'Playfair Display',serif;font-weight:700;margin-bottom:6px }
+.tier-card .fee-label { font-size:10px;color:rgba(255,255,255,.35);margin-bottom:20px }
+.tier-card .btn-detail {
+  display:inline-block;padding:10px 28px;border:1px solid rgba(201,169,110,0.2);
+  border-radius:40px;font-size:12px;color:#c9a96e;text-decoration:none;letter-spacing:.5px;transition:all .3s;
+}
+.tier-card .btn-detail:hover { background:rgba(201,169,110,0.08);border-color:rgba(201,169,110,0.5) }
 
-/* ===== FORM SECTION ===== */
-.form-section{position:relative;padding:120px 20px;background:linear-gradient(180deg,#0a0e18 0%,#080c14 50%,#0a0e18 100%)}
-.form-section::before{content:'';position:absolute;top:0;left:10%;right:10%;height:1px;background:linear-gradient(90deg,transparent,rgba(201,169,110,0.15),transparent)}
+.benefits-section { padding:100px 20px;text-align:center;background:linear-gradient(180deg,#0a0e18,#080c14,#0a0e18) }
+.benefits-grid { display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px;max-width:1100px;margin:0 auto 50px }
+.benefit-card {
+  padding:36px 28px;background:rgba(10,14,26,.7);border:1px solid rgba(255,255,255,.05);
+  border-radius:16px;text-align:left;transition:all .3s;
+}
+.benefit-card:hover { border-color:rgba(201,169,110,.2) }
+.benefit-card .icon { font-size:28px;margin-bottom:16px }
+.benefit-card h3 { font-size:16px;font-weight:600;color:#e8e8e8;margin-bottom:10px }
+.benefit-card p { font-size:13px;color:rgba(255,255,255,.45);line-height:1.7 }
 
-.form-container{max-width:960px;margin:0 auto}
+.cta-section {
+  padding:100px 20px;text-align:center;background:linear-gradient(135deg,#0d1b33,#1a1030);
+  position:relative;overflow:hidden;
+}
+.cta-section::before {
+  content:'';position:absolute;inset:0;
+  background:url('images/yttp/yacht-021.jpg') center/cover no-repeat;opacity:0.04;
+}
+.cta-section h2 {
+  font-family:'Playfair Display',serif;font-size:clamp(26px,4vw,44px);
+  font-weight:700;margin-bottom:16px;position:relative;color:#e8e8e8;
+}
+.cta-section p { font-size:15px;color:rgba(255,255,255,.5);max-width:560px;margin:0 auto 40px;line-height:1.8;position:relative }
 
-/* Progress */
-.progress-bar-wrap{display:flex;align-items:center;justify-content:center;gap:0;margin-bottom:80px;position:relative}
-.progress-bar-wrap::before{content:'';position:absolute;top:18px;left:calc(10% + 36px);right:calc(10% + 36px);height:1px;background:rgba(255,255,255,0.06);z-index:0}
-.progress-step{display:flex;flex-direction:column;align-items:center;position:relative;z-index:1;flex:1;max-width:180px}
-.progress-step .circle{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:600;background:rgba(255,255,255,0.03);border:1.5px solid rgba(255,255,255,0.1);color:var(--text-dim);transition:all 0.6s cubic-bezier(0.4,0,0.2,1);position:relative}
-.progress-step .circle svg{width:14px;height:14px;opacity:0;transition:opacity 0.3s}
-.progress-step.completed .circle{background:linear-gradient(135deg,var(--gold-dark),var(--gold));border-color:var(--gold);color:var(--dark1)}
-.progress-step.completed .circle span{display:none}
-.progress-step.completed .circle svg{opacity:1}
-.progress-step.active .circle{border-color:var(--gold);color:var(--gold);box-shadow:0 0 20px rgba(201,169,110,0.2)}
-.progress-step .label{font-size:11px;color:var(--text-dim);margin-top:12px;letter-spacing:0.5px;transition:color 0.3s;text-align:center}
-.progress-step.active .label,.progress-step.completed .label{color:var(--text-muted)}
-.progress-connector{position:absolute;top:18px;height:1px;background:rgba(201,169,110,0.2);transition:background 0.6s;z-index:0}
-.progress-connector.filled{background:linear-gradient(90deg,var(--gold-dark),var(--gold))}
-
-/* Form Panels */
-.panel{display:none;animation:panelIn 0.6s cubic-bezier(0.4,0,0.2,1) both}
-.panel.active{display:block}
-@keyframes panelIn{0%{opacity:0;transform:translateY(20px)}}
-
-.panel-heading{margin-bottom:48px}
-.panel-heading h2{font-family:'Playfair Display',serif;font-size:clamp(24px,3vw,34px);font-weight:700;color:var(--text);margin-bottom:12px;letter-spacing:1px}
-.panel-heading p{font-size:14px;color:var(--text-dim);line-height:1.7;max-width:560px}
-
-/* Floating Label Inputs */
-.input-group{position:relative;margin-bottom:32px}
-.input-group input,.input-group select,.input-group textarea{width:100%;padding:20px 18px 8px;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.06);border-radius:10px;color:var(--text);font-size:15px;font-family:'Inter',sans-serif;transition:all 0.3s;outline:none;appearance:none;-webkit-appearance:none}
-.input-group textarea{min-height:100px;resize:vertical;padding-top:20px}
-.input-group label{position:absolute;left:18px;top:50%;transform:translateY(-50%);font-size:14px;color:var(--text-dim);pointer-events:none;transition:all 0.25s cubic-bezier(0.4,0,0.2,1);font-weight:400}
-.input-group textarea ~ label{top:20px;transform:none}
-.input-group input:focus,.input-group select:focus,.input-group textarea:focus{border-color:rgba(201,169,110,0.4);background:rgba(201,169,110,0.02)}
-.input-group input:focus ~ label,.input-group input:not(:placeholder-shown) ~ label,.input-group textarea:focus ~ label,.input-group textarea:not(:placeholder-shown) ~ label{top:8px;transform:translateY(0);font-size:10px;color:var(--gold);letter-spacing:1px;text-transform:uppercase;font-weight:500}
-.input-group select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23c9a96e' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 16px center;padding-right:40px;color:var(--text-dim)}
-.input-group select:valid{color:var(--text)}
-.input-group .required{color:#e57373;margin-left:2px}
-.input-group .hint{font-size:11px;color:var(--text-dim);margin-top:6px;padding-left:2px}
-
-/* Two-col grid */
-.form-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:0 24px}
-.form-grid .full{grid-column:1/-1}
-
-/* Tier Cards */
-.tier-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-bottom:40px}
-.tier-card{position:relative;padding:32px 28px;border-radius:14px;background:rgba(255,255,255,0.015);border:1px solid rgba(255,255,255,0.05);cursor:pointer;transition:all 0.4s cubic-bezier(0.4,0,0.2,1);overflow:hidden}
-.tier-card::before{content:'';position:absolute;inset:0;border-radius:14px;background:radial-gradient(ellipse at 50% 0%,rgba(201,169,110,0.06),transparent 70%);opacity:0;transition:opacity 0.4s}
-.tier-card:hover{border-color:rgba(201,169,110,0.2);transform:translateY(-4px)}
-.tier-card:hover::before{opacity:1}
-.tier-card.selected{border-color:var(--gold);background:rgba(201,169,110,0.04)}
-.tier-card.selected::after{content:'';position:absolute;top:16px;right:16px;width:22px;height:22px;background:var(--gold);border-radius:50%;display:flex;align-items:center;justify-content:center;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M3 6l2.5 2.5L9 4' stroke='%230a0e18' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:center}
-.tier-card input{display:none}
-.tier-name{font-family:'Playfair Display',serif;font-size:16px;font-weight:600;margin-bottom:4px;letter-spacing:0.5px}
-.tier-card:nth-child(1) .tier-name{color:rgba(192,192,192,0.8)}
-.tier-card:nth-child(2) .tier-name{color:rgba(201,169,110,0.9)}
-.tier-card:nth-child(3) .tier-name{color:rgba(255,215,0,0.85)}
-.tier-price{font-size:13px;color:var(--text-dim);margin-bottom:18px;font-weight:300}
-.tier-features{list-style:none;padding:0}
-.tier-features li{font-size:12px;color:var(--text-dim);line-height:2;padding-left:16px;position:relative}
-.tier-features li::before{content:'';position:absolute;left:0;top:11px;width:4px;height:4px;border-radius:50%;background:rgba(201,169,110,0.4)}
-
-/* Checkbox grid */
-.checkbox-grid{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:32px}
-.checkbox-pill{position:relative}
-.checkbox-pill input{display:none}
-.checkbox-pill label{display:flex;align-items:center;gap:8px;padding:10px 20px;background:rgba(255,255,255,0.015);border:1px solid rgba(255,255,255,0.06);border-radius:50px;font-size:13px;color:var(--text-dim);cursor:pointer;transition:all 0.3s;user-select:none}
-.checkbox-pill input:checked + label{border-color:rgba(201,169,110,0.4);background:rgba(201,169,110,0.06);color:var(--gold)}
-.checkbox-pill label::before{content:'';width:16px;height:16px;border:1.5px solid rgba(255,255,255,0.15);border-radius:4px;transition:all 0.3s;flex-shrink:0}
-.checkbox-pill input:checked + label::before{background:var(--gold);border-color:var(--gold);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpath d='M2.5 5L4.5 7L7.5 3' stroke='%230a0e18' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:center}
-
-/* Panel nav */
-.panel-nav{display:flex;justify-content:space-between;align-items:center;margin-top:60px;padding-top:32px;border-top:1px solid rgba(255,255,255,0.04)}
-.btn-back{padding:12px 28px;background:transparent;border:1px solid rgba(255,255,255,0.1);color:var(--text-muted);border-radius:8px;font-size:13px;cursor:pointer;transition:all 0.3s;font-family:'Inter',sans-serif;letter-spacing:0.5px}
-.btn-back:hover{border-color:rgba(255,255,255,0.2);color:var(--text)}
-.btn-next{padding:14px 40px;background:linear-gradient(135deg,#a07850,#c9a96e);color:#0a0e18;border:none;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;transition:all 0.3s;font-family:'Inter',sans-serif;letter-spacing:0.5px;position:relative;overflow:hidden}
-.btn-next::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,0.15),transparent);opacity:0;transition:opacity 0.3s}
-.btn-next:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(201,169,110,0.2)}
-.btn-next:hover::after{opacity:1}
-.btn-next:disabled{opacity:0.35;cursor:not-allowed;transform:none;box-shadow:none}
-
-/* Review */
-.review-section{margin-bottom:36px}
-.review-section h4{font-size:12px;color:var(--gold);letter-spacing:2px;text-transform:uppercase;margin-bottom:16px;font-weight:500}
-.review-row{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid rgba(255,255,255,0.03);font-size:13px}
-.review-row .label{color:var(--text-dim)}
-.review-row .value{color:var(--text-muted);text-align:right;max-width:60%}
-
-/* Privacy */
-.privacy-box{background:rgba(255,255,255,0.008);border:1px solid rgba(255,255,255,0.04);border-radius:10px;padding:20px 24px;margin-top:32px}
-.privacy-box label{display:flex;align-items:flex-start;gap:12px;cursor:pointer;font-size:12px;color:var(--text-dim);line-height:1.7}
-.privacy-box input[type="checkbox"]{margin-top:3px;accent-color:var(--gold);flex-shrink:0}
-
-/* Success */
-.success-panel{text-align:center;padding:80px 20px;animation:panelIn 0.8s both}
-.success-icon{width:80px;height:80px;margin:0 auto 32px;position:relative}
-.success-icon svg{width:80px;height:80px}
-.success-icon circle{stroke-dasharray:166;stroke-dashoffset:166;stroke-width:2;stroke:var(--gold);animation:successStroke 0.6s cubic-bezier(0.65,0,0.45,1) 0.2s forwards}
-.success-icon polyline{stroke-dasharray:48;stroke-dashoffset:48;stroke-width:2.5;stroke:var(--gold);animation:successStroke 0.3s cubic-bezier(0.65,0,0.45,1) 0.6s forwards}
-@keyframes successStroke{100%{stroke-dashoffset:0}}
-.success-panel h2{font-family:'Playfair Display',serif;font-size:32px;font-weight:700;color:var(--text);margin-bottom:16px}
-.success-panel p{font-size:14px;color:var(--text-dim);line-height:1.8;max-width:500px;margin:0 auto 40px}
-.success-panel .hotline{font-size:18px;color:var(--gold);font-family:'Playfair Display',serif;letter-spacing:1px}
-
-/* Responsive */
 @media(max-width:768px){
-.form-grid{grid-template-columns:1fr}
-.tier-grid{grid-template-columns:1fr;gap:14px}
-.progress-bar-wrap{flex-wrap:wrap;gap:12px}
-.progress-step{max-width:80px}
-.panel-nav{flex-direction:column-reverse;gap:16px}
-.panel-nav .btn-next,.panel-nav .btn-back{width:100%;text-align:center;justify-content:center}
+  .hero-stats{ gap:24px }
+  .process-grid{ grid-template-columns:repeat(2,1fr) }
 }
 </style>
 <link rel="icon" type="image/svg+xml" href="favicon.svg"/>
 </head>
 <body>
 
-<!-- Loader -->
-<div id="loader">
-  <div class="brand" data-i18n="membership.1">FANTASTIC VACATION</div>
-  <div class="progress-bar"><div class="progress-fill"></div></div>
-  <div class="progress-text" data-i18n="membership.2">LOADING</div>
+<div id="loader" style="position:fixed;inset:0;background:#080e1a;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:99999;transition:opacity .8s,visibility .8s">
+<div style="font-family:'Playfair Display',serif;font-size:clamp(20px,4vw,36px);color:#c9a96e;letter-spacing:4px;margin-bottom:24px">FANTASTIC VACATION</div>
+<div style="width:180px;height:2px;background:rgba(201,169,110,.15);border-radius:1px;overflow:hidden"><div style="height:100%;width:0;background:linear-gradient(90deg,#a07850,#c9a96e);border-radius:1px;animation:loaderFill 2.5s ease-in-out forwards"></div></div>
+<div style="font-size:10px;color:rgba(255,255,255,.3);letter-spacing:3px;margin-top:14px">LOADING</div>
 </div>
 
-<!-- Cursor follower -->
-<div class="cursor-follower" id="cursor"></div>
-
-<!-- Navbar -->
 <nav id="navbar">
-<div class="nav-inner" data-i18n="membership.100">
-  <!-- Logo -->
-  <a class="nav-logo" href="index.html">
-    <svg fill="none" height="32" viewbox="0 0 32 32" width="32">
-      <path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"/>
-      <path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"/>
-    </svg>
-    <span class="nav-logo-text" data-i18n="membership.101">奇幻假期 <em data-i18n="membership.102">FANTASTIC VACATION</em></span>
-  </a>
-  <!-- Nav Links -->
-  <div class="nav-links" data-i18n="membership.103">
-    <a data-i18n="nav.home" href="index.html">首页</a>
-    <div class="nav-dropdown">
-      <a data-i18n="nav.about" href="about.html">关于我们 <span class="nav-arrow"></span></a>
-      <div class="nav-dropdown-menu">
-        <a data-i18n="nav.about.profile" href="about.html">公司简介</a>
-        <a data-i18n="nav.about.history" href="about-history.html">发展历程</a>
-        <a data-i18n="nav.about.culture" href="about-culture.html">企业文化</a>
-        <a data-i18n="nav.about.structure" href="about-structure.html">组织架构</a>
-        <a data-i18n="nav.about.honors" href="honors.html">荣誉资质</a>
-        <a data-i18n="nav.about.responsibility" href="about-responsibility.html">社会责任</a>
-      </div>
-    </div>
-    <div class="nav-dropdown">
-      <a data-i18n="nav.business" href="custom.html">业务板块 <span class="nav-arrow"></span></a>
-      <div class="nav-dropdown-menu">
-        <a data-i18n="nav.business.custom" href="custom.html">全案定制</a>
-        <a data-i18n="nav.business.charter" href="charter.html">租赁航线</a>
-        <a data-i18n="nav.business.management" href="management.html">托管维保</a>
-        <a data-i18n="nav.business.partnership" href="partnership.html">全球合作</a>
-      </div>
-    </div>
-    <div class="nav-dropdown">
-      <a data-i18n="nav.products" href="yachts.html">产品与服务 <span class="nav-arrow"></span></a>
-      <div class="nav-dropdown-menu">
-        <a data-i18n="nav.products.yachts" href="yachts.html">全系游艇</a>
-        <a data-i18n="nav.products.solutions" href="custom.html">定制解决方案</a>
-        <a data-i18n="nav.products.charter_svc" href="charter.html">租赁服务</a>
-        <a data-i18n="nav.products.mgmt_svc" href="management.html">托管服务</a>
-        <a data-i18n="nav.products.cases" href="cases.html">客户案例</a>
-      </div>
-    </div>
-    <a data-i18n="nav.news" href="news.html">新闻中心</a>
-    <a data-i18n="nav.ir" href="ir.html">投资者关系</a>
-  </div>
-  <!-- Right Actions -->
-  <div class="nav-actions" data-i18n="membership.104">
-    <a class="nav-cta-btn" data-i18n="nav.member" href="membership.html" style="margin-right:8px;background:linear-gradient(135deg,#2a1a40,#3a2850);color:#e8d5a8;border:1px solid rgba(200,169,110,0.3)">👑 尊享会员</a>
-    <a class="nav-cta-btn" data-i18n="nav.contact" href="contact.html">联系我们</a>
-  </div>
+<div class="nav-inner" data-i18n="nav-template.5">
+<!-- Logo -->
+<a class="nav-logo" href="index.html">
+<svg fill="none" height="32" viewbox="0 0 32 32" width="32">
+<path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
+<path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
+</svg>
+<span class="nav-logo-text" data-i18n="nav-template.12">奇幻假期 <em data-i18n="nav-template.13">FANTASTIC VACATION</em></span>
+</a>
+<!-- Main Navigation -->
+<div class="nav-links" data-i18n="nav-template.19">
+<!-- 首页 -->
+<a data-i18n="nav.home" href="index.html">首页</a>
+<!-- 关于我们 -->
+<div class="nav-dropdown">
+<a data-i18n="nav.about" href="about.html">关于我们 <span class="nav-arrow"></span></a>
+<div class="nav-dropdown-menu">
+<a data-i18n="nav.about.profile" href="about.html">公司简介</a>
+<a data-i18n="nav.about.history" href="about-history.html">发展历程</a>
+<a data-i18n="nav.about.culture" href="about-culture.html">企业文化</a>
+<a data-i18n="nav.about.structure" href="about-structure.html">组织架构</a>
+<a data-i18n="nav.about.honors" href="honors.html">荣誉资质</a>
+<a data-i18n="nav.about.responsibility" href="about-responsibility.html">社会责任</a>
+</div>
+</div>
+<!-- 业务板块 -->
+<div class="nav-dropdown">
+<a data-i18n="nav.business" href="custom.html">业务板块 <span class="nav-arrow"></span></a>
+<div class="nav-dropdown-menu">
+<a data-i18n="nav.business.custom" href="custom.html">全案定制</a>
+<a data-i18n="nav.business.charter" href="charter.html">租赁航线</a>
+<a data-i18n="nav.business.management" href="management.html">托管维保</a>
+<a data-i18n="nav.business.partnership" href="partnership.html">全球合作</a>
+</div>
+</div>
+<!-- 产品与服务 -->
+<div class="nav-dropdown">
+<a data-i18n="nav.products" href="yachts.html">产品与服务 <span class="nav-arrow"></span></a>
+<div class="nav-dropdown-menu">
+<a data-i18n="nav.products.yachts" href="yachts.html">全系游艇</a>
+<a data-i18n="nav.products.solutions" href="custom.html">定制解决方案</a>
+<a data-i18n="nav.products.charter_svc" href="charter.html">租赁服务</a>
+<a data-i18n="nav.products.mgmt_svc" href="management.html">托管服务</a>
+<a data-i18n="nav.products.cases" href="cases.html">客户案例</a>
+</div>
+</div>
+<!-- 新闻中心 -->
+<div class="nav-dropdown">
+<a data-i18n="nav.news" href="news.html">新闻中心 <span class="nav-arrow"></span></a>
+<div class="nav-dropdown-menu">
+<a data-i18n="nav.news.company" href="news.html">公司动态</a>
+<a data-i18n="nav.news.industry" href="news.html#industry">行业资讯</a>
+<a data-i18n="nav.news.media" href="press.html">媒体报道</a>
+<a data-i18n="nav.news.announce" href="news.html#announce">公告通知</a>
+</div>
+</div>
+<!-- 投资者关系 -->
+<div class="nav-dropdown">
+<a data-i18n="nav.ir" href="ir.html">投资者关系 <span class="nav-arrow"></span></a>
+<div class="nav-dropdown-menu">
+<a data-i18n="nav.ir.profile" href="ir.html">公司概况</a>
+<a data-i18n="nav.ir.financial" href="ir-financial.html">财务报告</a>
+<a data-i18n="nav.ir.announcements" href="ir-announcements.html">公告披露</a>
+</div>
+</div>
+<!-- 联系我们 -->
+<!-- 会员申请 -->
+<a class="nav-cta-btn" data-i18n="nav.member" href="membership.html" style="margin-right:8px;background:linear-gradient(135deg,#2a1a40,#3a2850);color:#e8d5a8;border:1px solid rgba(200,169,110,0.3)">👑 尊享会员</a>
+<!-- 联系我们 -->
+<a class="nav-cta-btn" data-i18n="nav.contact" href="contact.html">联系我们</a>
+</div>
+<!-- Right Actions -->
+<div class="nav-actions" data-i18n="nav-template.120">
+<button class="nav-search-btn" onclick="toggleSearch()" data-i18n-attr="title:nav.search" title="搜索">
+<svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18">
+<circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path>
+</svg>
+</button>
+<!-- 语言切换按钮 -->
+<button class="lang-switch-btn" data-i18n="nav-template.122" id="langSwitchBtn" title="Switch Language">EN</button>
+<button class="nav-dark-toggle" data-i18n-attr="title:nav.dark_mode" id="darkToggle" onclick="toggleDarkMode()" title="深色模式">
+<svg class="icon-moon" fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18">
+<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+</svg>
+<svg class="icon-sun" fill="none" height="18" stroke="currentColor" stroke-width="2" style="display:none" viewbox="0 0 24 24" width="18">
+<circle cx="12" cy="12" r="5"></circle><line x1="12" x2="12" y1="1" y2="3"></line><line x1="12" x2="12" y1="21" y2="23"></line><line x1="4.22" x2="5.64" y1="4.22" y2="5.64"></line><line x1="18.36" x2="19.78" y1="18.36" y2="19.78"></line><line x1="1" x2="3" y1="12" y2="12"></line><line x1="21" x2="23" y1="12" y2="12"></line><line x1="4.22" x2="5.64" y1="19.78" y2="18.36"></line><line x1="18.36" x2="19.78" y1="5.64" y2="4.22"></line>
+</svg>
+</button>
+<div class="hamburger">
+<span></span><span></span><span></span>
+</div>
+</div>
 </div>
 </nav>
+</nav>
+</nav>
+</nav>
 
-<!-- Hero -->
-<section class="hero">
-  <div class="hero-bg"></div>
-  <div class="hero-inner">
-    <div class="hero-badge">
-      <svg width="16" height="16" viewbox="0 0 16 16" fill="none"><path d="M8 1l2 5h5l-4 3 1.5 5L8 11l-4.5 3L5 9 1 6h5z" fill="currentColor"/></svg>
-      <span data-i18n="membership.9">EXCLUSIVE MEMBERS CLUB</span>
-    </div>
-    <h1 data-i18n="membership.10">加入奇幻假期<br><em data-i18n="membership.11">尊享会员俱乐部</em></h1>
-    <p class="hero-sub" data-i18n="membership.12">开启您的海上传奇人生。专属游艇定制、全球航线优先、私人管家服务——只为全球最具品味的您。</p>
-  </div>
-  <div class="hero-scroll">
-    <span></span>
-    <small data-i18n="membership.13">SCROLL TO APPLY</small>
-  </div>
-</section>
-
-<!-- Form -->
-<section class="form-section">
-<div class="form-container">
-
-  <!-- Progress -->
-  <div class="progress-bar-wrap">
-    <div class="progress-step active" data-step="1">
-      <div class="circle"><span>1</span><svg viewbox="0 0 16 16"><path d="M4 8l3 3 5-5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-      <div class="label" data-i18n="membership.17">基本信息</div>
-    </div>
-    <div class="progress-step" data-step="2">
-      <div class="circle"><span>2</span><svg viewbox="0 0 16 16"><path d="M4 8l3 3 5-5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-      <div class="label" data-i18n="membership.18">会员等级</div>
-    </div>
-    <div class="progress-step" data-step="3">
-      <div class="circle"><span>3</span><svg viewbox="0 0 16 16"><path d="M4 8l3 3 5-5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-      <div class="label" data-i18n="membership.19">游艇偏好</div>
-    </div>
-    <div class="progress-step" data-step="4">
-      <div class="circle"><span>4</span><svg viewbox="0 0 16 16"><path d="M4 8l3 3 5-5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-      <div class="label" data-i18n="membership.20">确认提交</div>
-    </div>
-  </div>
-
-  <form id="membershipForm" action="https://formspree.io/f/xgodgjld" method="POST" novalidate>
-
-    <!-- Panel 1: Basic Info -->
-    <div class="panel active" data-panel="1">
-      <div class="panel-heading">
-        <h2 data-i18n="membership.21">申请人基本信息</h2>
-        <p data-i18n="membership.22">请填写您的真实信息，我们的会员顾问将在24小时内与您取得联系。</p>
-      </div>
-      <div class="form-grid">
-        <div class="input-group">
-          <input type="text" name="name" id="m-name" placeholder=" " required/>
-          <label for="m-name" data-i18n="membership.23">姓名 <span class="required">*</span></label>
-        </div>
-        <div class="input-group">
-          <select name="title" id="m-title">
-            <option value="" selected disabled data-i18n="membership.200">请选择称谓</option>
-            <option value="mr" data-i18n="membership.201">先生 Mr.</option>
-            <option value="ms" data-i18n="membership.202">女士 Ms.</option>
-            <option value="dr" data-i18n="membership.203">博士 Dr.</option>
-            <option value="other" data-i18n="membership.204">其他 Other</option>
-          </select>
-          <label for="m-title" data-i18n="membership.24">称谓</label>
-        </div>
-        <div class="input-group">
-          <input type="tel" name="phone" id="m-phone" placeholder=" " required pattern="[0-9+\-\s]{7,20}"/>
-          <label for="m-phone" data-i18n="membership.25">手机号码 <span class="required">*</span></label>
-        </div>
-        <div class="input-group">
-          <input type="email" name="email" id="m-email" placeholder=" " required/>
-          <label for="m-email" data-i18n="membership.26">电子邮箱 <span class="required">*</span></label>
-        </div>
-        <div class="input-group">
-          <input type="text" name="city" id="m-city" placeholder=" " required/>
-          <label for="m-city" data-i18n="membership.27">所在城市 <span class="required">*</span></label>
-        </div>
-        <div class="input-group">
-          <input type="text" name="country" id="m-country" placeholder=" "/>
-          <label for="m-country" data-i18n="membership.28">国家/地区</label>
-        </div>
-        <div class="input-group full">
-          <input type="text" name="company" id="m-company" placeholder=" "/>
-          <label for="m-company" data-i18n="membership.29">公司/机构名称</label>
-          <div class="hint" data-i18n="membership.205">选填：便于我们为您提供更精准的商务接待服务</div>
-        </div>
-        <div class="input-group">
-          <input type="text" name="position" id="m-position" placeholder=" "/>
-          <label for="m-position" data-i18n="membership.30">职位</label>
-        </div>
-      </div>
-      <div class="panel-nav">
-        <div></div>
-        <button type="button" class="btn-next" onclick="nextPanel(2)" data-i18n="membership.31">下一步 →</button>
-      </div>
-    </div>
-
-    <!-- Panel 2: Tier -->
-    <div class="panel" data-panel="2">
-      <div class="panel-heading">
-        <h2 data-i18n="membership.32">选择会员等级</h2>
-        <p data-i18n="membership.33">不同等级享有不同的专属权益，您可随时升级会员等级。</p>
-      </div>
-      <div class="tier-grid">
-        <div class="tier-card" onclick="selectTier(this)">
-          <input type="radio" name="tier" value="silver" required/>
-          <div class="tier-name" data-i18n="membership.34">银帆会员 Silver</div>
-          <div class="tier-price" data-i18n="membership.35">年费 ¥50,000 起</div>
-          <ul class="tier-features">
-            <li data-i18n="membership.360">专属顾问服务</li>
-            <li data-i18n="membership.361">航线优先预订</li>
-            <li data-i18n="membership.362">会员活动邀请</li>
-            <li data-i18n="membership.363">消费积分奖励</li>
-          </ul>
-        </div>
-        <div class="tier-card" onclick="selectTier(this)">
-          <input type="radio" name="tier" value="gold" required/>
-          <div class="tier-name" data-i18n="membership.37">金帆会员 Gold</div>
-          <div class="tier-price" data-i18n="membership.38">年费 ¥200,000 起</div>
-          <ul class="tier-features">
-            <li data-i18n="membership.390">银帆全部权益</li>
-            <li data-i18n="membership.391">专属游艇使用权 10天/年</li>
-            <li data-i18n="membership.392">全球机场贵宾厅</li>
-            <li data-i18n="membership.393">生日专属礼遇</li>
-          </ul>
-        </div>
-        <div class="tier-card" onclick="selectTier(this)">
-          <input type="radio" name="tier" value="platinum" required/>
-          <div class="tier-name" data-i18n="membership.40">铂金会员 Platinum</div>
-          <div class="tier-price" data-i18n="membership.41">年费 ¥500,000 起</div>
-          <ul class="tier-features">
-            <li data-i18n="membership.420">金帆全部权益</li>
-            <li data-i18n="membership.421">专属游艇使用权 30天/年</li>
-            <li data-i18n="membership.422">私人管家全程陪同</li>
-            <li data-i18n="membership.423">顶级船厂优先参观</li>
-          </ul>
-        </div>
-      </div>
-      <div class="input-group full" style="margin-top:16px">
-        <textarea name="tier_reason" id="m-tier-reason" placeholder=" " rows="3"></textarea>
-        <label for="m-tier-reason" data-i18n="membership.43">申请原因（选填）</label>
-        <div class="hint" data-i18n="membership.206">请简单说明您申请该等级会员的原因，帮助我们更好地为您服务</div>
-      </div>
-      <div class="panel-nav">
-        <button type="button" class="btn-back" onclick="prevPanel(1)" data-i18n="membership.44">← 上一步</button>
-        <button type="button" class="btn-next" onclick="nextPanel(3)" data-i18n="membership.45">下一步 →</button>
-      </div>
-    </div>
-
-    <!-- Panel 3: Preferences -->
-    <div class="panel" data-panel="3">
-      <div class="panel-heading">
-        <h2 data-i18n="membership.46">游艇偏好</h2>
-        <p data-i18n="membership.47">帮助我们了解您的偏好，为您推荐最适合的游艇与服务。</p>
-      </div>
-      <div class="form-grid">
-        <div class="input-group">
-          <select name="yacht_type" id="m-yacht-type">
-            <option value="" selected disabled data-i18n="membership.207">请选择类型</option>
-            <option value="sport" data-i18n="membership.208">运动快艇 Sport Yacht</option>
-            <option value="motor" data-i18n="membership.209">豪华摩托艇 Motor Yacht</option>
-            <option value="sailing" data-i18n="membership.210">帆船 Sailing Yacht</option>
-            <option value="explorer" data-i18n="membership.211">探险游艇 Explorer</option>
-            <option value="super" data-i18n="membership.212">超级游艇 Super Yacht (40m+)</option>
-          </select>
-          <label for="m-yacht-type" data-i18n="membership.48">意向游艇类型</label>
-        </div>
-        <div class="input-group">
-          <select name="destination" id="m-destination">
-            <option value="" selected disabled data-i18n="membership.213">请选择海域</option>
-            <option value="med" data-i18n="membership.214">地中海 Mediterranean</option>
-            <option value="caribbean" data-i18n="membership.215">加勒比海 Caribbean</option>
-            <option value="se-asia" data-i18n="membership.216">东南亚 Southeast Asia</option>
-            <option value="north-eu" data-i18n="membership.217">北欧 Scandinavia</option>
-            <option value="oceania" data-i18n="membership.218">大洋洲 Oceania</option>
-            <option value="other" data-i18n="membership.219">其他 Other</option>
-          </select>
-          <label for="m-destination" data-i18n="membership.49">意向海域</label>
-        </div>
-        <div class="input-group">
-          <select name="guest_count" id="m-guest-count">
-            <option value="" selected disabled data-i18n="membership.220">请选择人数</option>
-            <option value="1-4" data-i18n="membership.221">1–4人（小型聚会）</option>
-            <option value="5-10" data-i18n="membership.222">5–10人（家庭出游）</option>
-            <option value="11-20" data-i18n="membership.223">11–20人（商务接待）</option>
-            <option value="20+" data-i18n="membership.224">20人以上（大型活动）</option>
-          </select>
-          <label for="m-guest-count" data-i18n="membership.50">出行人数（常规）</label>
-        </div>
-        <div class="input-group">
-          <select name="budget" id="m-budget">
-            <option value="" selected disabled data-i18n="membership.225">请选择预算范围</option>
-            <option value="5-10w" data-i18n="membership.226">¥5–10万/次</option>
-            <option value="10-30w" data-i18n="membership.227">¥10–30万/次</option>
-            <option value="30-100w" data-i18n="membership.228">¥30–100万/次</option>
-            <option value="100w+" data-i18n="membership.229">¥100万以上/次</option>
-          </select>
-          <label for="m-budget" data-i18n="membership.51">预算范围</label>
-        </div>
-      </div>
-      <div style="margin-bottom:12px"><small style="font-size:12px;color:var(--text-dim);letter-spacing:0.5px;text-transform:uppercase" data-i18n="membership.230">感兴趣的权益（可多选）</small></div>
-      <div class="checkbox-grid">
-        <div class="checkbox-pill"><input type="checkbox" name="interest" value="custom" id="int-custom"/><label for="int-custom" data-i18n="membership.231">游艇定制</label></div>
-        <div class="checkbox-pill"><input type="checkbox" name="interest" value="charter" id="int-charter"/><label for="int-charter" data-i18n="membership.232">航线租赁</label></div>
-        <div class="checkbox-pill"><input type="checkbox" name="interest" value="management" id="int-mgmt"/><label for="int-mgmt" data-i18n="membership.233">托管维保</label></div>
-        <div class="checkbox-pill"><input type="checkbox" name="interest" value="event" id="int-event"/><label for="int-event" data-i18n="membership.234">商务活动</label></div>
-        <div class="checkbox-pill"><input type="checkbox" name="interest" value="training" id="int-training"/><label for="int-training" data-i18n="membership.235">航海培训</label></div>
-        <div class="checkbox-pill"><input type="checkbox" name="interest" value="concierge" id="int-concierge"/><label for="int-concierge" data-i18n="membership.236">礼宾服务</label></div>
-      </div>
-      <div class="input-group full">
-        <textarea name="special_requirements" id="m-special" placeholder=" " rows="3"></textarea>
-        <label for="m-special" data-i18n="membership.52">特殊需求或偏好</label>
-        <div class="hint" data-i18n="membership.237">例如：饮食禁忌、特殊纪念日、喜欢的海上活动等</div>
-      </div>
-      <div class="panel-nav">
-        <button type="button" class="btn-back" onclick="prevPanel(2)" data-i18n="membership.53">← 上一步</button>
-        <button type="button" class="btn-next" onclick="nextPanel(4)" data-i18n="membership.54">下一步 →</button>
-      </div>
-    </div>
-
-    <!-- Panel 4: Review -->
-    <div class="panel" data-panel="4">
-      <div class="panel-heading">
-        <h2 data-i18n="membership.55">确认并提交申请</h2>
-        <p data-i18n="membership.56">请确认以下信息并同意相关条款，完成会员申请。</p>
-      </div>
-
-      <div id="reviewContent">
-        <!-- JS will populate this -->
-      </div>
-
-      <div class="input-group full" style="margin-top:16px">
-        <input type="text" name="source" id="m-source" placeholder=" "/>
-        <label for="m-source" data-i18n="membership.57">您是通过什么渠道了解我们的？</label>
-      </div>
-      <div class="input-group full">
-        <input type="text" name="referrer" id="m-referrer" placeholder=" "/>
-        <label for="m-referrer" data-i18n="membership.58">推荐人姓名/会员编号（如有）</label>
-      </div>
-
-      <div class="privacy-box">
-        <label>
-          <input type="checkbox" name="agree_terms" id="m-agree" required/>
-          <span data-i18n="membership.59">我已阅读并同意《隐私保护政策》和《会员服务条款》。我理解奇幻假期将严格保护我的个人信息，仅用于会员服务相关事宜。</span>
-        </label>
-      </div>
-
-      <div class="panel-nav">
-        <button type="button" class="btn-back" onclick="prevPanel(3)" data-i18n="membership.60">← 上一步</button>
-        <button type="submit" class="btn-next" id="submitBtn" data-i18n="membership.61">提交会员申请</button>
-      </div>
-    </div>
-
-    <!-- Success Panel -->
-    <div class="panel success-panel" data-panel="success" style="display:none">
-      <div class="success-icon">
-        <svg viewbox="0 0 80 80">
-          <circle cx="40" cy="40" r="36" fill="none"/>
-          <polyline points="24,42 36,54 56,30" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </div>
-      <h2 data-i18n="membership.62">申请已提交！</h2>
-      <p data-i18n="membership.63">感谢您申请奇幻假期尊享会员。我们的会员顾问将在24小时内与您联系，为您介绍会员权益并完成入会流程。</p>
-      <p data-i18n="membership.64">您现在可以<a href="index.html" style="color:var(--gold);text-decoration:none">返回首页</a>浏览更多内容，或直接拨打会员专线：<strong class="hotline">137 9792 0792</strong></p>
-    </div>
-
-  </form>
+<section class="hero-membership">
+<div class="hero-inner">
+<div class="hero-badge">✦ MEMBERSHIP · 尊享会员俱乐部 ✦</div>
+<h1>开启您的<br/>海上传奇人生</h1>
+<p class="sub">为全球高净值人士提供从游艇定制、租赁出行、码头泊位到圈层社交的全产业链私享服务。五级会员体系，专属管家团队，7×24小时待命。</p>
+<div class="hero-cta">
+<a href="membership/membership-apply.html" class="btn-primary">立即申请入会</a>
+<a href="membership/membership-tiers.html" class="btn-outline">了解会员等级</a>
+</div>
+<div class="hero-stats">
+<div class="stat"><span class="stat-num">15+</span><span class="stat-label">年行业深耕</span></div>
+<div class="stat"><span class="stat-num">200+</span><span class="stat-label">高净值客户</span></div>
+<div class="stat"><span class="stat-num">50+</span><span class="stat-label">运营豪华游艇</span></div>
+<div class="stat"><span class="stat-num">30+</span><span class="stat-label">覆盖国际海域</span></div>
+</div>
 </div>
 </section>
 
-<!-- Footer -->
-<footer class="site-footer">
-<div class="footer-inner" data-i18n="membership.300">
-  <div class="footer-grid">
-    <div class="footer-brand">
-      <div class="footer-logo">
-        <svg fill="none" height="28" viewbox="0 0 28 28" width="28"><path d="M3 21L14 4l11 17H3z" fill="none" stroke="#c9a96e" stroke-width="1.2"/></svg>
-        <span data-i18n="membership.65">奇幻假期</span>
-      </div>
-      <p class="footer-slogan" data-i18n="membership.66">FANTASTIC VACATION</p>
-      <p class="footer-slogan" data-i18n="membership.67">「探索全球，不负假期」</p>
-    </div>
-    <div>
-      <h4 data-i18n="footer-template.60">快速导航</h4>
-      <ul class="footer-links">
-        <li><a data-i18n="footer-template.61" href="index.html">首页</a></li>
-        <li><a data-i18n="footer-template.62" href="yachts.html">全系游艇</a></li>
-        <li><a data-i18n="footer-template.64" href="custom.html">全案定制</a></li>
-        <li><a data-i18n="footer-template.66" href="charter.html">租赁航线</a></li>
-        <li><a href="membership.html" style="color:#c9a96e;font-weight:500">👑 尊享会员</a></li>
-      </ul>
-    </div>
-    <div>
-      <h4 data-i18n="footer-template.70">联系我们</h4>
-      <ul class="footer-contact">
-        <li data-i18n="footer-template.71">会员专线：137 9792 0792</li>
-        <li data-i18n="footer-template.72">商务合作：cooperation@fantasticvacation.com</li>
-        <li data-i18n="footer-template.73">全球服务时间：7×24小时</li>
-      </ul>
-    </div>
-  </div>
-  <div class="footer-bottom" data-i18n="membership.302">
-    © 2024 奇幻假期实业有限公司 FANTASTIC VACATION INDUSTRIAL LIMITED. All rights reserved.
-  </div>
+<section class="tiers-preview" style="text-align:center">
+<div class="section-tag">MEMBERSHIP TIERS · 五级会员体系</div>
+<h2>选择适合您的<br/>尊享会员等级</h2>
+<p class="section-sub">从雅致航海到寰球至尊黑卡，每一级都为您量身打造独特的海上私享体验</p>
+<div class="tier-cards">
+<div class="tier-card" style="border-color:rgba(139,164,200,.2)">
+<div class="icon">⚓</div><div class="level" style="color:#8ba4c8">LEVEL 1</div>
+<h3>雅致航海会员</h3><div class="en">Elegant Voyager</div>
+<div class="fee" style="color:#8ba4c8">¥20,000</div><div class="fee-label">年费 / Yearly Fee</div>
+<a href="membership/membership-tier1.html" class="btn-detail">查看详情 →</a>
 </div>
-</footer>
+<div class="tier-card" style="border-color:rgba(91,164,200,.2)">
+<div class="icon">🌊</div><div class="level" style="color:#5ba4c8">LEVEL 2</div>
+<h3>蓝海尊享会员</h3><div class="en">Blue Horizon Elite</div>
+<div class="fee" style="color:#5ba4c8">¥80,000</div><div class="fee-label">年费 / Yearly Fee</div>
+<a href="membership/membership-tier2.html" class="btn-detail">查看详情 →</a>
+</div>
+<div class="tier-card" style="border-color:rgba(201,169,110,.2)">
+<div class="icon">👑</div><div class="level" style="color:#c9a96e">LEVEL 3</div>
+<h3>御海轻奢会员</h3><div class="en">Ocean Prestige</div>
+<div class="fee" style="color:#c9a96e">¥500,000</div><div class="fee-label">年费 / Yearly Fee</div>
+<a href="membership/membership-tier3.html" class="btn-detail">查看详情 →</a>
+</div>
+<div class="tier-card" style="border-color:rgba(212,160,74,.2)">
+<div class="icon">💎</div><div class="level" style="color:#d4a04a">LEVEL 4</div>
+<h3>宸鼎奢享会员</h3><div class="en">Imperial Sovereign</div>
+<div class="fee" style="color:#d4a04a">¥1,200,000</div><div class="fee-label">年费 / Yearly Fee</div>
+<a href="membership/membership-tier4.html" class="btn-detail">查看详情 →</a>
+</div>
+<div class="tier-card" style="border-color:rgba(80,80,80,.3);background:rgba(18,18,18,.9)">
+<div class="icon">🖤</div><div class="level" style="color:#888">LEVEL 5</div>
+<h3>寰球至尊黑卡</h3><div class="en">Global Black Card</div>
+<div class="fee" style="color:#666">邀约制</div><div class="fee-label">仅限受邀 / Invitation Only</div>
+<a href="membership/membership-tier5.html" class="btn-detail" style="border-color:rgba(102,102,102,.3);color:#888">查看详情 →</a>
+</div>
+</div>
+<a href="membership/membership-compare.html" style="display:inline-block;padding:16px 48px;background:linear-gradient(135deg,#a07850,#c9a96e);color:#0a0e18;border-radius:40px;font-size:15px;font-weight:600;text-decoration:none">查看五级权益横向对比 →</a>
+</section>
 
+<section class="benefits-section">
+<div style="max-width:1100px;margin:0 auto">
+<div class="section-tag" style="display:inline-block;padding:8px 24px;background:rgba(201,169,110,0.06);border:1px solid rgba(201,169,110,0.2);border-radius:50px;font-size:11px;letter-spacing:2.5px;color:#c9a96e;margin-bottom:20px">CORE BENEFITS · 核心权益</div>
+<h2 style="font-family:'Playfair Display',serif;font-size:clamp(24px,3.5vw,40px);font-weight:700;margin-bottom:16px;line-height:1.3;color:#e8e8e8">上百项尊享权益<br/>为每位会员量身定制</h2>
+<p style="font-size:15px;color:rgba(255,255,255,.5);max-width:600px;margin:0 auto 50px;line-height:1.8">从专属顾问、全球泊位、私人管家到圈层活动，我们为您提供无微不至的海上私享服务体验</p>
+<div class="benefits-grid">
+<div class="benefit-card"><div class="icon">🤵</div><h3>专属管家服务</h3><p>7×24小时多语言专属管家团队，从行程规划、餐饮安排到应急处理，全程无忧</p></div>
+<div class="benefit-card"><div class="icon">🗺️</div><h3>全球泊位网络</h3><p>30+国际海域合作泊位，地中海、加勒比海、东南亚、太平洋全覆盖</p></div>
+<div class="benefit-card"><div class="icon">🎭</div><h3>圈层社交活动</h3><p>定期航海沙龙、海上品鉴会、F1摩纳哥大奖赛VIP席位等顶奢圈层活动</p></div>
+<div class="benefit-card"><div class="icon">🛥️</div><h3>专属游艇使用权</h3><p>L2及以上会员每年享有10-60天不等指定游艇专属使用权，可定制航线</p></div>
+<div class="benefit-card"><div class="icon">🎓</div><h3>航海培训学院</h3><p>会员专属航海培训课程，从基础驾驶到远洋航行，全套认证体系</p></div>
+<div class="benefit-card"><div class="icon">🏆</div><h3>消费积分奖励</h3><p>消费累积积分可兑换免费航次、升舱服务、精品航海周边等丰富奖品</p></div>
+</div>
+<a href="membership/membership-faq.html" style="display:inline-block;padding:14px 40px;border:1px solid rgba(201,169,110,.25);border-radius:40px;font-size:14px;color:#c9a96e;text-decoration:none;letter-spacing:.5px">更多常见问题 →</a>
+</div>
+</section>
+
+<section style="padding:100px 20px;text-align:center;background:#0a0e18">
+<div style="max-width:900px;margin:0 auto">
+<div class="section-tag" style="display:inline-block;padding:8px 24px;background:rgba(201,169,110,0.06);border:1px solid rgba(201,169,110,0.2);border-radius:50px;font-size:11px;letter-spacing:2.5px;color:#c9a96e;margin-bottom:20px">APPLICATION PROCESS · 入会流程</div>
+<h2 style="font-family:'Playfair Display',serif;font-size:clamp(24px,3.5vw,40px);font-weight:700;margin-bottom:40px;color:#e8e8e8">八步标准化入会流程</h2>
+<div class="process-grid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-bottom:50px;text-align:left">
+<div style="padding:28px 20px;background:rgba(10,14,26,.8);border:1px solid rgba(201,169,110,.08);border-radius:14px"><div style="width:40px;height:40px;background:linear-gradient(135deg,#a07850,#c9a96e);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:700;color:#0a0e18;margin-bottom:14px">1</div><h3 style="font-size:14px;font-weight:600;color:#e8e8e8;margin-bottom:6px">在线申请</h3><p style="font-size:12px;color:rgba(255,255,255,.45);line-height:1.6">填写基本信息选择等级</p></div>
+<div style="padding:28px 20px;background:rgba(10,14,26,.8);border:1px solid rgba(201,169,110,.08);border-radius:14px"><div style="width:40px;height:40px;background:linear-gradient(135deg,#a07850,#c9a96e);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:700;color:#0a0e18;margin-bottom:14px">2</div><h3 style="font-size:14px;font-weight:600;color:#e8e8e8;margin-bottom:6px">顾问联系</h3><p style="font-size:12px;color:rgba(255,255,255,.45);line-height:1.6">24小时内专属顾问致电</p></div>
+<div style="padding:28px 20px;background:rgba(10,14,26,.8);border:1px solid rgba(201,169,110,.08);border-radius:14px"><div style="width:40px;height:40px;background:linear-gradient(135deg,#a07850,#c9a96e);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:700;color:#0a0e18;margin-bottom:14px">3</div><h3 style="font-size:14px;font-weight:600;color:#e8e8e8;margin-bottom:6px">资质审核</h3><p style="font-size:12px;color:rgba(255,255,255,.45);line-height:1.6">提交证明材料审核评估</p></div>
+<div style="padding:28px 20px;background:rgba(10,14,26,.8);border:1px solid rgba(201,169,110,.08);border-radius:14px"><div style="width:40px;height:40px;background:linear-gradient(135deg,#a07850,#c9a96e);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:700;color:#0a0e18;margin-bottom:14px">4</div><h3 style="font-size:14px;font-weight:600;color:#e8e8e8;margin-bottom:6px">会费缴纳</h3><p style="font-size:12px;color:rgba(255,255,255,.45);line-height:1.6">一次性或按季分期缴纳</p></div>
+</div>
+<a href="membership/membership-process.html" style="display:inline-block;padding:16px 48px;background:linear-gradient(135deg,#a07850,#c9a96e);color:#0a0e18;border-radius:40px;font-size:15px;font-weight:600;text-decoration:none">查看完整入会流程 →</a>
+</div>
+</section>
+
+<section class="cta-section">
+<h2>准备好开启您的<br/>海上尊享人生了吗？</h2>
+<p>专属顾问将在24小时内与您联系，为您详细介绍会员权益并协助完成入会流程。</p>
+<div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;position:relative">
+<a href="membership/membership-apply.html" style="display:inline-block;padding:18px 48px;background:linear-gradient(135deg,#a07850,#c9a96e);color:#0a0e18;border-radius:40px;font-size:15px;font-weight:600;text-decoration:none">立即在线申请</a>
+<a href="contact.html" style="display:inline-block;padding:18px 48px;border:1px solid rgba(201,169,110,.3);border-radius:40px;font-size:15px;font-weight:500;color:#c9a96e;text-decoration:none">联系专属顾问</a>
+</div>
+</section>
+
+<footer data-i18n="footer-template.170" id="footer">
+<div class="footer-top-bar"></div>
+<div class="footer-main">
+<div class="footer-grid" data-i18n="footer-template.4">
+<!-- Column 1: Brand -->
+<div class="footer-col footer-brand-col">
+<a class="footer-logo" href="index.html">
+<svg fill="none" height="40" viewbox="0 0 32 32" width="40">
+<path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
+<path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
+</svg>
+<div>
+<div class="footer-logo-name" data-i18n="footer-template.13">奇幻假期</div>
+<div class="footer-logo-en" data-i18n="footer-template.15">FANTASTIC VACATION</div>
+</div>
+</a>
+<p class="footer-slogan" data-i18n="footer-template.19">「探索全球，不负假期」<br/>全球一体化高端游艇定制与私人海享生活缔造者</p>
+<p class="footer-brand-desc" data-i18n="footer-template.22">奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。</p>
+<div class="footer-socials">
+<a class="social-item" href="javascript:void(0)" title="微信公众号">
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M8.5 11a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5.5 4H20a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1h-1.5a4 4 0 0 1-3.98-3.64A5.97 5.97 0 0 0 12 15a6 6 0 0 0 6 6v1zm-7-7a4 4 0 0 0-4 4v5a4 4 0 0 0 3.15 3.85A3 3 0 0 0 8 18v1H5.5A1.5 1.5 0 0 1 4 17.5v-8A1.5 1.5 0 0 1 5.5 8h6z"></path></svg>
+<span data-i18n="footer-template.27">微信公众号</span>
+</a>
+<a class="social-item" href="javascript:void(0)" title="微博">
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M10.09 18c-3.69 0-7.09-1.69-7.09-4.28 0-1.35.7-2.96 1.88-4.57C6.57 7.57 9.5 6.4 10.55 7c1.41.8 2.29 2.38 2.55 3.82.1-.04.21-.06.32-.06 2.45 0 4.44 2.29 4.44 5.11 0 2.73-1.99 4.94-4.44 4.94-.27 0-.53-.02-.79-.06-.11.17-.23.34-.35.5l.05.01zM20 8.5C20 4.91 17.09 2 13.5 2H3C2.45 2 2 2.45 2 3v13c0 .55.45 1 1 1h10c4.17 0 7.58-3.06 7.98-7.05.05-.47.02-.95.02-1.45z"></path></svg>
+<span data-i18n="footer-template.32">微博</span>
+</a>
+<a class="social-item" href="javascript:void(0)" title="抖音">
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.82a8.18 8.18 0 0 0 4.77 1.52V6.68a4.85 4.85 0 0 1-1-.02z"></path></svg>
+<span data-i18n="footer-template.37">抖音</span>
+</a>
+<a class="social-item" href="javascript:void(0)" title="LinkedIn">
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path></svg>
+<span data-i18n="footer-template.42">LinkedIn</span>
+</a>
+<a class="social-item" href="javascript:void(0)" title="YouTube">
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
+<span data-i18n="footer-template.47">YouTube</span>
+</a>
+</div>
+</div>
+<!-- Column 2: Quick Navigation -->
+<div class="footer-col">
+<h4 class="footer-col-title" data-i18n="footer-template.55">快速导航</h4>
+<ul class="footer-links">
+<li><a data-i18n="footer-template.58" href="index.html">首页</a></li>
+<li><a data-i18n="footer-template.60" href="about.html">关于我们</a></li>
+<li><a data-i18n="footer-template.62" href="yachts.html">全系游艇</a></li>
+          <li><a data-i18n="footer.100" href="membership.html" data-i18n="footer.member" style="color:#c9a96e;font-weight:500">👑 尊享会员</a></li>
+<li><a data-i18n="footer-template.64" href="custom.html">全案定制</a></li>
+<li><a data-i18n="footer-template.66" href="charter.html">租赁航线</a></li>
+<li><a data-i18n="footer-template.68" href="management.html">托管维保</a></li>
+<li><a data-i18n="footer-template.70" href="cases.html">案例展示</a></li>
+<li><a data-i18n="footer-template.72" href="news.html">新闻资讯</a></li>
+<li><a data-i18n="footer-template.74" href="partnership.html">全球合作</a></li>
+<li><a data-i18n="footer-template.76" href="sitemap.html">网站地图</a></li>
+</ul>
+</div>
+<!-- Column 3: Contact -->
+<div class="footer-col">
+<h4 class="footer-col-title" data-i18n="footer-template.83">联系我们</h4>
+<ul class="footer-contact">
+<li class="contact-item">
+<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+<div>
+<div class="contact-label" data-i18n="footer-template.89">公司地址</div>
+<div class="contact-value" data-i18n="footer-template.91">广东省深圳市宝安区<br/>松岗工业园1号</div>
+</div>
+</li>
+<li class="contact-item">
+<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 5.92 5.92l.96-.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+<div>
+<div class="contact-label" data-i18n="footer-template.99">咨询热线</div>
+<div class="contact-value"><a data-i18n="footer-template.101" href="tel:13797920792">13797920792</a> / <a data-i18n="footer-template.103" href="tel:+86075533530188">+86 0755 3353-0188</a></div>
+</div>
+</li>
+<li class="contact-item">
+<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 5.92 5.92l.96-.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path><line x1="22" x2="11" y1="2" y2="13"></line></svg>
+<div>
+<div class="contact-label" data-i18n="footer-template.110">传真</div>
+<div class="contact-value" data-i18n="footer-template.112">0755-31530988</div>
+</div>
+</li>
+<li class="contact-item">
+<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+<div>
+<div class="contact-label" data-i18n="footer-template.119">商务邮箱</div>
+<div class="contact-value"><a href="mailto:hs@fantastic-vacation.com">hs@fantastic-vacation.com</a></div>
+</div>
+</li>
+</ul>
+<a class="footer-contact-btn" data-i18n="footer-template.127" href="contact.html">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+          在线咨询
+        </a>
+</div>
+<!-- Column 4: Certifications & Partners -->
+<div class="footer-col">
+<h4 class="footer-col-title" data-i18n="footer-template.133">资质与合作</h4>
+<div class="footer-certs">
+<div class="cert-item">
+<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18n="footer-template.138">ISO 9001质量管理体系认证</span>
+</div>
+<div class="cert-item">
+<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18n="footer-template.143">意大利Ferretti集团授权经销商</span>
+</div>
+<div class="cert-item">
+<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18n="footer-template.148">荷兰Feadship技术合作伙伴</span>
+</div>
+<div class="cert-item">
+<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18n="footer-template.153">地中海船坞协会认证会员</span>
+</div>
+<div class="cert-item">
+<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18n="footer-template.158">亚洲最佳游艇服务商三连冠</span>
+</div>
+</div>
+<div class="footer-recruit">
+<a class="recruit-link" data-i18n="footer-template.164" href="contact.html">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            <span data-i18n="_recruit">加入我们 · 招聘职位</span>
+          </a>
+</div>
+</div>
+</div>
+</div>
+<!-- Copyright Bar -->
+<div class="footer-bottom">
+<div class="footer-bottom-inner">
+<div class="copyright">
+<span data-i18n="footer-template.175">© 2020-2026 奇幻假期实业有限公司 FANTASTIC VACATION INDUSTRIAL CO., LTD. 保留所有权利。</span>
+</div>
+<div class="legal-links">
+<a data-i18n="footer-template.179" href="privacy.html">隐私政策</a>
+<a data-i18n="footer-template.181" href="terms.html">使用条款</a>
+<a data-i18n="footer-template.183" href="sitemap.html">网站地图</a>
+</div>
+</div>
+<div></div>
+</div></div></footer>
+
+<script src="i18n.js"></script>
 <script src="main.js"></script>
 <script>
-/* ===== Progress & Panel Logic ===== */
-let currentPanel = 1;
-
-function goToPanel(n) {
-  document.querySelectorAll('.panel').forEach(p => { p.classList.remove('active'); p.style.display = 'none'; });
-  const target = document.querySelector(`.panel[data-panel="${n}"]`);
-  if (target) { target.style.display = 'block'; requestAnimationFrame(() => target.classList.add('active')); }
-  document.querySelectorAll('.progress-step').forEach(s => {
-    const sn = +s.dataset.step;
-    s.classList.remove('active', 'completed');
-    if (sn < n) s.classList.add('completed');
-    if (sn === n) s.classList.add('active');
-  });
-  currentPanel = n;
-  window.scrollTo({ top: document.querySelector('.form-section').offsetTop - 80, behavior: 'smooth' });
-}
-
-function nextPanel(n) {
-  if (currentPanel === 1 && !validatePanel1()) return;
-  if (currentPanel === 2 && !validatePanel2()) return;
-  if (n === 4) populateReview();
-  goToPanel(n);
-}
-
-function prevPanel(n) {
-  goToPanel(n);
-}
-
-/* ===== Validation ===== */
-function validatePanel1() {
-  const required = ['m-name', 'm-phone', 'm-email', 'm-city'];
-  let ok = true;
-  required.forEach(id => {
-    const el = document.getElementById(id);
-    if (!el.value.trim()) { el.style.borderColor = '#e57373'; ok = false; }
-    else { el.style.borderColor = ''; }
-  });
-  const email = document.getElementById('m-email');
-  if (email.value && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value)) {
-    email.style.borderColor = '#e57373'; ok = false;
-  }
-  if (!ok) alert('请填写所有必填项（带 * 的字段）');
-  return ok;
-}
-
-function validatePanel2() {
-  const tier = document.querySelector('input[name="tier"]:checked');
-  if (!tier) { alert('请选择会员等级'); return false; }
-  return true;
-}
-
-/* ===== Tier Selection ===== */
-function selectTier(card) {
-  document.querySelectorAll('.tier-card').forEach(c => c.classList.remove('selected'));
-  card.classList.add('selected');
-  card.querySelector('input').checked = true;
-}
-
-/* ===== Populate Review ===== */
-function populateReview() {
-  const fields = [
-    ['membership.23', document.getElementById('m-name').value],
-    ['membership.25', document.getElementById('m-phone').value],
-    ['membership.26', document.getElementById('m-email').value],
-    ['membership.27', document.getElementById('m-city').value],
-    ['membership.24', document.getElementById('m-title').selectedOptions[0]?.text || '—'],
-    ['membership.28', document.getElementById('m-country').value || '—'],
-    ['membership.29', document.getElementById('m-company').value || '—'],
-    ['membership.30', document.getElementById('m-position').value || '—'],
-  ];
-  const tierVal = document.querySelector('input[name="tier"]:checked')?.value;
-  const tierLabels = { silver: '银帆 Silver', gold: '金帆 Gold', platinum: '铂金 Platinum' };
-
-  let html = `<div class="review-section"><h4 data-i18n="membership.21">基本信息</h4>`;
-  fields.forEach(([key, val]) => {
-    html += `<div class="review-row"><span class="label">${key ? (window.dict?.[key]?.[window.getCurrentLang?.() || 'zh'] || key) : ''}</span><span class="value">${val}</span></div>`;
-  });
-  html += `</div><div class="review-section"><h4 data-i18n="membership.32">会员等级</h4>`;
-  html += `<div class="review-row"><span class="label">会员等级</span><span class="value">${tierLabels[tierVal] || '—'}</span></div>`;
-  html += `</div>`;
-
-  // Also show preference summary
-  const yachtType = document.getElementById('m-yacht-type').selectedOptions[0]?.text || '—';
-  const dest = document.getElementById('m-destination').selectedOptions[0]?.text || '—';
-  html += `<div class="review-section"><h4 data-i18n="membership.46">游艇偏好</h4>`;
-  html += `<div class="review-row"><span class="label">意向游艇类型</span><span class="value">${yachtType}</span></div>`;
-  html += `<div class="review-row"><span class="label">意向海域</span><span class="value">${dest}</span></div>`;
-  html += `</div>`;
-
-  document.getElementById('reviewContent').innerHTML = html;
-  if (window.applyI18n) applyI18n(window.getCurrentLang?.() || 'zh');
-}
-
-/* ===== Floating label fix for selects ===== */
-document.querySelectorAll('.input-group select').forEach(sel => {
-  function update() { sel.classList.toggle('has-value', sel.selectedIndex > 0); }
-  sel.addEventListener('change', update);
-  update();
-});
-
-/* ===== Form Submit ===== */
-document.getElementById('membershipForm').addEventListener('submit', function(e) {
-  if (!document.getElementById('m-agree').checked) {
-    e.preventDefault();
-    alert('请先同意隐私保护政策和会员服务条款');
-    return;
-  }
-  // Allow formspree to handle it, then show success
-  // We'll use fetch to submit without leaving the page
-  e.preventDefault();
-  const form = this;
-  const data = new FormData(form);
-  // Also collect checkboxes
-  document.querySelectorAll('input[name="interest"]:checked').forEach(cb => {
-    data.append('interest', cb.value);
-  });
-  
-  fetch(form.action, { method: 'POST', body: data, headers: { 'Accept': 'application/json' } })
-    .then(r => {
-      if (r.ok) {
-        document.querySelectorAll('.panel').forEach(p => p.style.display = 'none');
-        document.querySelector('.progress-bar-wrap').style.display = 'none';
-        document.querySelector('.panel[data-panel="success"]').style.display = 'block';
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      } else {
-        alert('提交失败，请稍后重试或直接拨打 137 9792 0792');
-      }
-    })
-    .catch(() => {
-      // Even if fetch fails (CORS), Formspree may have received it
-      document.querySelectorAll('.panel').forEach(p => p.style.display = 'none');
-      document.querySelector('.progress-bar-wrap').style.display = 'none';
-      document.querySelector('.panel[data-panel="success"]').style.display = 'block';
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-});
-
-/* ===== Loader ===== */
-setTimeout(() => document.getElementById('loader')?.classList.add('hidden'), 2800);
+setTimeout(function(){
+  var l = document.getElementById('loader');
+  if(l){ l.classList.add('hidden'); setTimeout(function(){l.style.display='none'},800); }
+}, 2200);
 </script>
 </body>
 </html>
