@@ -281,7 +281,7 @@
 <div class="yacht-card-footer"><span class="yacht-price" data-i18n="index.426">¥880万起</span><a class="yacht-detail-btn" data-i18n="index.88" href="yachts.html">查看全系 →</a></div>
 </div>
 </div>
-<div class="yacht-card reveal">
+<div class="yacht-card reveal yacht-card-hidden" id="seriesHidden">
 <div class="yacht-card-img"><img alt="游艇系列" data-i18n-attr="alt:_alt.index.3" src="images/yttp/yacht-034.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge" data-i18n="index.89">日间系列</span></div>
 <div class="yacht-card-body">
 <h3 data-i18n="index.435">Fantasy Day Cruiser <span class="gold-text" data-i18n="index.436">日间系列</span></h3>
@@ -292,7 +292,13 @@
 </div>
 </div>
 </div>
-<div class="reveal" data-i18n="index.97" style="text-align:center;margin-top:48px"><a class="btn btn-outline" data-i18n="index.98" href="yachts.html">浏览全部50艘游艇 →</a></div>
+<div class="series-toggle-wrap reveal">
+<button class="series-toggle-btn" id="seriesToggleBtn" onclick="toggleSeries()">
+<span data-i18n="index.toggle_more">查看更多系列</span>
+<span class="toggle-arrow">▼</span>
+</button>
+</div>
+<div class="reveal" data-i18n="index.97" style="text-align:center;margin-top:24px"><a class="btn btn-outline" data-i18n="index.98" href="yachts.html">浏览全部50艘游艇 →</a></div>
 </div>
 </section>
 <!-- CUSTOM SERVICE -->

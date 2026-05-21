@@ -389,6 +389,16 @@ var dict = {
     "zh": "浏览全部50艘游艇 →",
     "en": "Browse All 50 Yachts →"
   },
+
+  "index.toggle_more": {
+    "zh": "查看更多系列",
+    "en": "View More Series"
+  },
+  "index.toggle_less": {
+    "zh": "收起系列",
+    "en": "Show Less"
+  },
+
   "index.98": {
     "zh": "浏览全部50艘游艇 →",
     "en": "Browse All 50 Yachts →"

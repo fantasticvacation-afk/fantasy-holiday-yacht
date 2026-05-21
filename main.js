@@ -291,3 +291,31 @@ function handleCustomSubmit(e) {
     });
   return false;
 }
+
+
+/* ===== 四大核心系列 查看更多/收起 ===== */
+function toggleSeries(){
+  var card = document.getElementById("seriesHidden");
+  var btn = document.getElementById("seriesToggleBtn");
+  if(!card || !btn) return;
+  var isHidden = card.classList.contains("yacht-card-hidden");
+  if(isHidden){
+    card.classList.remove("yacht-card-hidden");
+    card.classList.add("yacht-card-expanded");
+    btn.classList.add("expanded");
+    card.querySelectorAll(".reveal").forEach(function(el){ el.classList.add("revealed"); });
+  } else {
+    card.classList.add("yacht-card-hidden");
+    card.classList.remove("yacht-card-expanded");
+    btn.classList.remove("expanded");
+  }
+  // update button text with i18n support
+  try {
+    var lang = localStorage.getItem("fv-lang") || "zh";
+    var key = isHidden ? "index.toggle_less" : "index.toggle_more";
+    var span = btn.querySelector("span:first-child");
+    if(span && typeof dict !== "undefined" && dict[key] && dict[key][lang]){
+      span.textContent = dict[key][lang];
+    }
+  } catch(e){}
+}

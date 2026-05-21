@@ -1016,3 +1016,48 @@ body.dark-mode .search-suggestion-item:hover{background:#0f172a;color:#c9a96e}
   .btn{font-size:9px !important;padding:6px 12px !important}
   .container{padding:0 10px !important}
 }
+
+
+/* ===== 四大核心系列：第4个折叠 ===== */
+.yacht-card-hidden {
+  display:none;
+}
+.yacht-card-expanded {
+  display:block;
+  animation:cardReveal .5s cubic-bezier(0.4,0,0.2,1);
+}
+@keyframes cardReveal {
+  from { opacity:0; transform:translateY(16px); }
+  to   { opacity:1; transform:translateY(0); }
+}
+
+/* ===== 查看更多按钮 ===== */
+.series-toggle-wrap {
+  text-align:center;
+  margin-top:32px;
+}
+.series-toggle-btn {
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  background:transparent;
+  border:1px solid var(--gold);
+  color:var(--gold);
+  padding:12px 32px;
+  border-radius:40px;
+  font-size:15px;
+  font-family:'Inter','PingFang SC','Microsoft YaHei',sans-serif;
+  cursor:pointer;
+  transition:all .3s ease;
+}
+.series-toggle-btn:hover {
+  background:var(--gold);
+  color:var(--dark1);
+}
+.series-toggle-btn .toggle-arrow {
+  display:inline-block;
+  transition:transform .3s ease;
+}
+.series-toggle-btn.expanded .toggle-arrow {
+  transform:rotate(180deg);
+}
