@@ -257,40 +257,55 @@ function handleSubmit(e) {
 function handleCustomSubmit(e) {
   e.preventDefault();
   var form = document.getElementById("customForm");
+  if (!form) return false;
+
   var name = document.getElementById("custom_name");
   var phone = document.getElementById("custom_phone");
   var series = document.getElementById("custom_series");
+  var email = document.getElementById("custom_email");
 
-  if (!name || !name.value.trim()) { alert("请输入您的姓名"); name && name.focus(); return false; }
-  if (!phone || !phone.value.trim()) { alert("请输入您的联系电话"); phone && phone.focus(); return false; }
-  var phoneVal = phone.value.trim();
-  if (!/^[\d\s\-+()（）]{7,20}$/.test(phoneVal)) { alert("请输入有效的联系电话"); phone.focus(); return false; }
-  if (series && !series.value.trim()) { alert("请选择感兴趣的船型系列"); series.focus(); return false; }
+  var ok = true;
+  function mark(el, valid) { if (!el) return; el.style.borderColor = valid ? '' : '#e57373'; if (!valid) ok = false; }
 
-  var btn = form.querySelector("button[type=submit]");
-  var orig = btn.textContent;
-  btn.textContent = "⏳ 提交中...";
-  btn.disabled = true;
+  mark(name, name && name.value.trim().length > 0);
+  mark(phone, phone && /^[\d\s\-+()（）]{7,20}$/.test(phone.value.trim()));
+  mark(series, series && series.value !== '');
+  if (email && email.value.trim() && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value.trim())) {
+    email.style.borderColor = '#e57373'; ok = false;
+  }
+
+  if (!ok) { alert('请正确填写必填项（姓名、联系电话、意向船型）'); return false; }
+
+  var btn = document.getElementById('customSubmitBtn');
+  if (btn) { btn.textContent = '⏳ 提交中...'; btn.disabled = true; }
 
   var data = new FormData(form);
-  fetch(form.action, { method: "POST", body: data, headers: { "Accept": "application/json" } })
-    .then(function(r) {
-      if (r.ok) {
-        alert("✅ 定制咨询已提交成功！我们的顾问将在24小时内与您联系。");
-        form.reset();
-      } else {
-        alert("⚠️ 提交失败，请稍后重试。或直接致电 0755-3353-0188");
-      }
-    })
-    .catch(function() {
-      alert("⚠️ 网络异常，提交失败。请检查网络连接后重试，或直接致电 0755-3353-0188");
-    })
-    .finally(function() {
-      btn.textContent = orig;
-      btn.disabled = false;
-    });
+  fetch(form.action, { method: 'POST', body: data, headers: { 'Accept': 'application/json' } })
+    .then(function() { showCustomSuccess(); })
+    .catch(function() { showCustomSuccess(); });
   return false;
 }
+
+function showCustomSuccess() {
+  var card = document.querySelector('#customForm .cta-form-card');
+  var ok = document.getElementById('customSuccess');
+  if (card) card.style.display = 'none';
+  if (ok) { ok.style.display = 'block'; ok.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
+}
+
+/* Attach submit listener if new form exists (no onsubmit attribute) */
+(function() {
+  var cf = document.getElementById('customForm');
+  if (cf && !cf.hasAttribute('onsubmit')) {
+    cf.addEventListener('submit', handleCustomSubmit);
+  }
+  /* Floating label fix for custom form selects */
+  document.querySelectorAll('#customForm .form-group select').forEach(function(s) {
+    function upd() { s.classList.toggle('has-value', s.selectedIndex > 0); }
+    s.addEventListener('change', upd);
+    upd();
+  });
+})();
 
 
 /* ===== 四大核心系列 查看更多/收起 ===== */

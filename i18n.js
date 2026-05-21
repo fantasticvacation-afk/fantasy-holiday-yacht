@@ -4601,7 +4601,7 @@ var dict = {
     "en": "2023"
   },
   "about-history.172": {
-    "zh": "奇幻假期实业有限公司在上海成立。首款定制游艇交付，客户覆盖中国顶级富豪圈层。创始人陈瀚宇曾任职LVMH集团游艇事业部。",
+    "zh": "奇幻假期实业有限公司在上海成立。首款定制游艇交付，客户覆盖中国顶级富豪圈层。创始人王潇生曾任职LVMH集团游艇事业部。",
     "en": "Fantasy Holiday Industrial Co., Ltd. was established in Shanghai. The first customized yacht was delivered to customers covering China’s top wealthy circles. The founder, Chen Hanyu, once worked in the yacht division of LVMH Group."
   },
   "about-history.177": {
@@ -31740,7 +31740,7 @@ var dict = {
     "en": "Industry leaders lead brand development"
   },
   "ir-team.165": {
-    "zh": "陈瀚宇",
+    "zh": "王潇生",
     "en": "Chen Hanyu"
   },
   "ir-team.167": {
@@ -33992,7 +33992,7 @@ var dict = {
     "en": "← Return to news list"
   },
   "news-001.267": {
-    "zh": "2026年5月15日，新加坡——在备受瞩目的亚洲游艇产业盛典颁奖典礼上，奇幻假期（fantastic.vacation）荣获2026年度亚洲最佳游艇服务商大奖。这一殊荣是对奇幻假期过去一年在游艇定制、租赁、托管维保等领域卓越表现的最高认可。颁奖典礼现场，奇幻假期亚太区总裁陈瀚宇先生代表品牌领奖并发表感言。他表示：这一荣誉属于每一位奇幻假期团队成员，也属于所有信任和支持我们的客户。我们将继续秉持客户至上、追求卓越的理念，为全球游艇爱好者提供更优质的服务体验。",
+    "zh": "2026年5月15日，新加坡——在备受瞩目的亚洲游艇产业盛典颁奖典礼上，奇幻假期（fantastic.vacation）荣获2026年度亚洲最佳游艇服务商大奖。这一殊荣是对奇幻假期过去一年在游艇定制、租赁、托管维保等领域卓越表现的最高认可。颁奖典礼现场，奇幻假期亚太区总裁王潇生先生代表品牌领奖并发表感言。他表示：这一荣誉属于每一位奇幻假期团队成员，也属于所有信任和支持我们的客户。我们将继续秉持客户至上、追求卓越的理念，为全球游艇爱好者提供更优质的服务体验。",
     "en": "May 15, 2026, Singapore - At the high-profile Asian Yachting Industry Awards Ceremony, fantasy vacation (fantastic.vacation) won the 2026 Asia's Best Yachting Service Provider Award. This award is the highest recognition of Fantasy Vacation's outstanding performance in the fields of yacht customization, rental, hosting and maintenance over the past year. At the award ceremony, Mr. Chen Hanyu, President of Fantasy Vacations Asia Pacific, accepted the award on behalf of the brand and delivered a speech. He said: This honor belongs to every Fantasy Vacations team member and to all customers who trust and support us. We will continue to uphold the philosophy of putting customers first and pursuing excellence to provide a better service experience for yachting enthusiasts around the world."
   },
   "news-001.285": {
@@ -76548,7 +76548,7 @@ var dict = {
     "en": "This was the most successful product launch in our company's history. Fantastic Vacation team..."
   },
   "ir-media.175": {
-    "zh": "独家对话陈瀚宇：要做中国游艇行业的\"法拉利\"",
+    "zh": "独家对话王潇生：要做中国游艇行业的\"法拉利\"",
     "en": "Media reports and press releases collection."
   },
   "case-005.271": {
@@ -76970,7 +76970,7 @@ var dict = {
     "en": "Address: 1288 Lujiazui Ring Road, Pudong New Area, Shanghai<br/>Postal Code: 200120<br/>Tel: +86 13797920792<br/>Email: sh@fantastic.vacation<br/>Service Scope: Mainland China client service, yacht import, domestic marina coordination<br/>Office Hours: Mon-Fri 09:00-19:00"
   },
   "contact.638": {
-    "zh": "<strong>企业全称：</strong>奇幻假期实业有限公司（FANTASTIC VACATION LIMITED）<br/><strong>注册地：</strong>香港特别行政区<br/><strong>公司注册编号：</strong>74238516<br/><strong>商业登记证号码：</strong>78540231-000-05-26-8<br/><strong>注册地址：</strong>广东省深圳市宝安区松岗工业园1号<br/><strong>法定代表人：</strong>陈瀚宇<br/><strong>合规备案：</strong>已取得中国交通运输部游艇运营许可、香港海事处牌照、新加坡MPA认证<br/><strong>保险合作：</strong>与劳合社（Lloyd's）、安联（Allianz）签署全球海事保险合作协议",
+    "zh": "<strong>企业全称：</strong>奇幻假期实业有限公司（FANTASTIC VACATION LIMITED）<br/><strong>注册地：</strong>香港特别行政区<br/><strong>公司注册编号：</strong>74238516<br/><strong>商业登记证号码：</strong>78540231-000-05-26-8<br/><strong>注册地址：</strong>广东省深圳市宝安区松岗工业园1号<br/><strong>法定代表人：</strong>王潇生<br/><strong>合规备案：</strong>已取得中国交通运输部游艇运营许可、香港海事处牌照、新加坡MPA认证<br/><strong>保险合作：</strong>与劳合社（Lloyd's）、安联（Allianz）签署全球海事保险合作协议",
     "en": "<strong>Legal Name:</strong> FANTASTIC VACATION LIMITED<br/><strong>Registered In:</strong> Hong Kong SAR<br/><strong>Company Reg No:</strong> 74238516<br/><strong>Business Reg No:</strong>78540231-000-05-26-8<br/><strong>Registered Address:</strong> No.1 Songgang Industrial Park, Bao'an District, Shenzhen, Guangdong Province<br/><strong>Legal Representative:</strong> Chen Hanyu<br/><strong>Compliance:</strong> Licensed by China Ministry of Transport for Yacht Operations, Hong Kong Marine Department, Singapore MPA<br/><strong>Insurance Partners:</strong> Lloyd's of London, Allianz Global Maritime Insurance"
   },
   "contact.667": {"zh": "", "en": "Explore the World, Live the Vacation"},
@@ -79311,6 +79311,36 @@ var dict = {
   "membership.421": { "zh": "专属游艇使用权 30天/年", "en": "Yacht Usage 30 Days/Year" },
   "membership.422": { "zh": "私人管家全程陪同", "en": "Personal Butler Service" },
   "membership.423": { "zh": "顶级船厂优先参观", "en": "Priority Shipyard Visits" },
+
+  "custom.900": { "zh": "基本信息 BASIC INFO", "en": "Basic Information" },
+  "custom.901": { "zh": "您的姓名 *", "en": "Your Name *" },
+  "custom.902": { "zh": "手机号码 *", "en": "Phone Number *" },
+  "custom.904": { "zh": "电子邮箱（选填）", "en": "Email (Optional)" },
+  "custom.906": { "zh": "便于我们发送定制方案至您的邮箱", "en": "So we can send your custom proposal to your inbox" },
+  "custom.907": { "zh": "游艇需求 YACHT REQUIREMENTS", "en": "Yacht Requirements" },
+  "custom.908": { "zh": "意向船型 *", "en": "Preferred Yacht *" },
+  "custom.909": { "zh": "预算区间", "en": "Budget Range" },
+  "custom.910": { "zh": "出行人数", "en": "Guest Count" },
+  "custom.911": { "zh": "意向海域", "en": "Preferred Destination" },
+  "custom.912": { "zh": "计划使用场景（如：家庭度假 / 商务接待 / 海钓运动）", "en": "Usage Scenario (e.g. Family Vacation / Business / Sport Fishing)" },
+  "custom.927": { "zh": "补充说明 ADDITIONAL INFO", "en": "Additional Information" },
+  "custom.928": { "zh": "请描述您的定制需求或特殊要求（可选）", "en": "Describe your custom requirements or special requests (optional)" },
+  "custom.929": { "zh": "例如：偏好的设计风格、特殊纪念日、船上设施要求等", "en": "e.g. Preferred design style, special occasions, onboard amenities, etc." },
+  "custom.931": { "zh": "选择预算区间", "en": "Select Budget Range" },
+  "custom.932": { "zh": "100万以下", "en": "Under 1M" },
+  "custom.933": { "zh": "100–300万", "en": "1M–3M" },
+  "custom.934": { "zh": "300–500万", "en": "3M–5M" },
+  "custom.935": { "zh": "500–1000万", "en": "5M–10M" },
+  "custom.938": { "zh": "1–4人（私人聚会）", "en": "1–4 (Intimate Gathering)" },
+  "custom.939": { "zh": "5–10人（家庭出游）", "en": "5–10 (Family Trip)" },
+  "custom.940": { "zh": "11–20人（商务接待）", "en": "11–20 (Business Event)" },
+  "custom.941": { "zh": "20人以上（大型活动）", "en": "20+ (Large Event)" },
+  "custom.942": { "zh": "选择意向海域", "en": "Select Destination" },
+  "custom.943": { "zh": "地中海", "en": "Mediterranean" },
+  "custom.944": { "zh": "加勒比海", "en": "Caribbean" },
+  "custom.946": { "zh": "太平洋岛屿", "en": "Pacific Islands" },
+  "custom.947": { "zh": "尚未确定", "en": "Undecided" },
+  "custom.961": { "zh": "感谢您的咨询。我们的专属定制顾问将在<strong>24小时内</strong>与您联系，为您提供初步方案与报价。", "en": "Thank you for your inquiry. Our dedicated yacht consultant will contact you <strong>within 24 hours</strong> with a preliminary proposal and quote." },
 };
 
 

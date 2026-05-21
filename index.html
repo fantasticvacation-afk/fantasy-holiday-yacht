@@ -19,6 +19,14 @@
 }
 #loader{animation:autoHideLoader 6s ease-in-out forwards}
 #loader.hidden,#loader[style*="display:none"]{animation:none!important;display:none!important}
+/* Hero slideshow */
+.hero-slideshow{position:absolute;inset:0}
+.hero-slide{position:absolute;inset:0;background-size:cover;background-position:center;background-repeat:no-repeat;opacity:0;animation:heroCrossfade 16s ease-in-out infinite}
+.hero-slide:first-child{animation-delay:0s}
+.hero-slide:nth-child(2){animation-delay:8s}
+@keyframes heroCrossfade{0%,40%{opacity:1;transform:scale(1)}50%,90%{opacity:0;transform:scale(1.05)}100%{opacity:1;transform:scale(1)}}
+.hero-slideshow::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 80%,rgba(15,30,60,0.6) 0%,var(--dark1) 70%);z-index:1}
+.hero-slideshow::before{content:'';position:absolute;bottom:0;left:0;right:0;height:40%;background:linear-gradient(0deg,rgba(7,11,20,0.9) 0%,transparent 100%);z-index:2}
 </style>
   <link rel="icon" type="image/svg+xml" href="favicon.svg"/></head><body>
 <div id="loader"><div class="brand" data-i18n="index.1">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div><div class="progress-text" data-i18n="index.2">LOADING</div></div>
@@ -188,7 +196,10 @@
 </div>
 <!-- HERO SECTION -->
 <section id="hero">
-<div class="hero-bg" style="background: url('images/yttp/yacht-002.jpg') center/cover no-repeat fixed;"></div>
+<div class="hero-bg hero-slideshow">
+  <div class="hero-slide" style="background-image:url('images/yttp/hero-bg-1.png')"></div>
+  <div class="hero-slide" style="background-image:url('images/yttp/hero-bg-2.png');animation-delay:8s"></div>
+</div>
 <div class="hero-content">
 <div class="hero-badge" data-i18n="index.33">✦ EST. 2010 · GLOBAL LUXURY MARINE ✦</div>
 <h1 class="hero-title"><span class="gold-gradient" data-i18n="index.257">驾驭蔚蓝之巅<span class="line" data-i18n="index.34">定义海洋奢华</span></span></h1>
