@@ -205,6 +205,39 @@ window.addEventListener("DOMContentLoaded", function() {
 });
 
 
+/* ===== Scroll Reveal Observer ===== */
+(function(){
+  if(!("IntersectionObserver" in window)){
+    document.querySelectorAll('.reveal').forEach(function(el){ el.classList.add('revealed'); });
+    return;
+  }
+  var revealObserver = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if(entry.isIntersecting){
+        entry.target.classList.add('revealed');
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+  document.querySelectorAll('.reveal').forEach(function(el){ revealObserver.observe(el); });
+})();
+
+/* ===== Language Switch ===== */
+document.addEventListener('DOMContentLoaded', function(){
+  var langBtn = document.getElementById('langSwitchBtn');
+  if(langBtn){
+    langBtn.addEventListener('click', function(){
+      var path = window.location.pathname;
+      var enPath = path.replace('/fantasy-holiday-yacht/', '/fantasy-holiday-yacht/en/');
+      if(path.indexOf('/en/') === -1){
+        window.location.href = '/fantasy-holiday-yacht/en/index.html';
+      } else {
+        window.location.href = path.replace('/en/', '/');
+      }
+    });
+  }
+});
+
 /* ===== 预约表单验证与提交 ===== */
 function handleSubmit(e) {
   e.preventDefault();
