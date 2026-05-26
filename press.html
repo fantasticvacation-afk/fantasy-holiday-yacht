@@ -21,92 +21,69 @@
 <style>.press-hero{position:relative;min-height:70vh;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(135deg,#0a1628 0%,#1a2a48 50%,#0d1a2d 100%)}.press-hero h1{font-family:'Playfair Display',serif;font-size:clamp(32px,5vw,56px);font-weight:800;letter-spacing:3px;margin-bottom:16px}.section-press{padding:80px 0}.press-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}.press-card{background:linear-gradient(145deg,rgba(255,255,255,0.02),rgba(255,255,255,0.005));border:1px solid rgba(201,169,110,0.08);border-radius:16px;padding:32px;transition:all 0.3s}.press-card:hover{border-color:rgba(201,169,110,0.25);transform:translateY(-3px)}.press-source{font-size:11px;color:#c9a96e;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:12px}.press-title{font-size:18px;font-weight:600;color:#e8eef5;margin-bottom:14px}.press-excerpt{font-size:13px;color:rgba(200,210,225,0.6);line-height:1.75;margin-bottom:16px}.press-date{font-size:11px;color:rgba(200,210,225,0.4)}@media (max-width:1024px){.press-grid{grid-template-columns:1fr}}
 </style>  <link rel="icon" type="image/svg+xml" href="favicon.svg"/></head><body>
 <div id="loader"><div class="brand" data-i18n="press.10">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div></div>
-<nav id="navbar">
+<nav id="navbar" aria-label="主导航">
 <div class="nav-inner">
-<!-- Logo -->
-<a class="nav-logo" href="index.html">
-<svg fill="none" height="32" viewBox="0 0 32 32" width="32">
+<a class="nav-logo" href="index.html" aria-label="奇幻假期首页">
+<svg fill="none" height="32" viewBox="0 0 32 32" width="32" aria-hidden="true">
 <path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
 <path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
 </svg>
 <span class="nav-logo-text">奇幻假期 <em>FANTASTIC VACATION</em></span>
 </a>
-<!-- Main Navigation -->
-<div class="nav-links">
-<!-- 首页 -->
-<a href="index.html">首页</a>
-<!-- 关于我们 -->
-<div class="nav-dropdown">
-<a href="about.html">关于我们 <span class="nav-arrow"></span></a>
-<div class="nav-dropdown-menu">
-<a href="about.html">公司简介</a>
-<a href="about-history.html">发展历程</a>
-<a href="about-culture.html">企业文化</a>
-<a href="about-structure.html">组织架构</a>
-<a href="honors.html">荣誉资质</a>
-<a href="about-responsibility.html">社会责任</a>
+<div class="nav-links" role="menubar" aria-label="主导航菜单">
+<a href="index.html" class="nav-main-link" role="menuitem">首页</a>
+<div class="nav-dropdown" role="none">
+<a href="yachts.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">全系游艇 <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="全系游艇子菜单">
+<a href="yachts.html#sovereign" role="menuitem">君临系列</a>
+<a href="yachts.html#expedition" role="menuitem">远征系列</a>
+<a href="yachts.html#flybridge" role="menuitem">飞桥系列</a>
+<a href="yachts.html#daycruiser" role="menuitem">日间系列</a>
 </div>
 </div>
-<!-- 全案定制 -->
-<a href="custom.html">全案定制</a>
-<!-- 全系游艇 -->
-<div class="nav-dropdown">
-<a href="yachts.html">全系游艇 <span class="nav-arrow"></span></a>
-<div class="nav-dropdown-menu">
-<a href="yachts.html#sovereign">君临系列</a>
-<a href="yachts.html#expedition">远征系列</a>
-<a href="yachts.html#flybridge">飞桥系列</a>
-<a href="yachts.html#daycruiser">日间系列</a>
+<div class="nav-dropdown" role="none">
+<a href="custom.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">定制服务 <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="定制服务子菜单">
+<a href="custom.html" role="menuitem">全案定制</a>
+<a href="charter.html" role="menuitem">租赁航线</a>
+<a href="management.html" role="menuitem">托管维保</a>
 </div>
 </div>
-<!-- 租赁航线 -->
-<a href="charter.html">租赁航线</a>
-<!-- 托管维保 -->
-<a href="management.html">托管维保</a>
-<!-- 案例展示 -->
-<a href="cases.html">案例展示</a>
-<!-- 新闻资讯 -->
-<div class="nav-dropdown">
-<a href="news.html">新闻资讯 <span class="nav-arrow"></span></a>
-<div class="nav-dropdown-menu">
-<a href="news.html">公司动态</a>
-<a href="news.html#industry">行业资讯</a>
-<a href="press.html">媒体报道</a>
+<a href="cases.html" class="nav-main-link" role="menuitem">案例展示</a>
+<div class="nav-dropdown" role="none">
+<a href="about.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">关于我们 <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="关于我们子菜单">
+<a href="about.html" role="menuitem">公司简介</a>
+<a href="about-history.html" role="menuitem">发展历程</a>
+<a href="about-culture.html" role="menuitem">企业文化</a>
+<a href="about-structure.html" role="menuitem">组织架构</a>
+<a href="honors.html" role="menuitem">荣誉资质</a>
+<a href="about-responsibility.html" role="menuitem">社会责任</a>
 </div>
 </div>
-<!-- 投资者关系 -->
-<div class="nav-dropdown">
-<a href="ir.html">投资者关系 <span class="nav-arrow"></span></a>
-<div class="nav-dropdown-menu">
-<a href="ir.html">公司概况</a>
-<a href="ir-financial.html">财务报告</a>
-<a href="ir-announcements.html">公告披露</a>
+<div class="nav-dropdown" role="none">
+<a href="news.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">资讯与合作 <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="资讯与合作子菜单">
+<a href="news.html" role="menuitem">新闻资讯</a>
+<a href="ir.html" role="menuitem">投资者关系</a>
+<a href="partnership.html" role="menuitem">全球合作</a>
 </div>
 </div>
-<!-- 全球合作 -->
-<a href="partnership.html">全球合作</a>
-<!-- 尊享会员 -->
-<a class="nav-cta-btn" href="membership.html">👑 尊享会员</a>
-<!-- 联系我们 -->
-<a class="nav-cta-btn" href="contact.html">联系我们</a>
+<div class="nav-cta-group" role="none">
+<a class="nav-cta-btn" href="membership.html" role="menuitem">👑 尊享会员</a>
+<a class="nav-cta-btn nav-cta-primary" href="contact.html" role="menuitem">联系我们</a>
 </div>
-<!-- Right Actions -->
-<div class="nav-actions">
-<button class="nav-search-btn" onclick="toggleSearch()" title="搜索">
-<svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18">
-<circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path>
-</svg>
+</div>
+<div class="nav-actions" role="none">
+<button class="nav-search-btn" onclick="toggleSearch()" title="搜索" aria-label="搜索">
+<svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>
 </button>
-<a class="lang-switch-btn" href="en/index.html" title="English Version">EN</a>
-<button class="nav-dark-toggle" id="darkToggle" onclick="toggleDarkMode()" title="深色模式">
-<svg class="icon-moon" fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18">
-<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-</svg>
-<svg class="icon-sun" fill="none" height="18" stroke="currentColor" stroke-width="2" style="display:none" viewBox="0 0 24 24" width="18">
-<circle cx="12" cy="12" r="5"></circle><line x1="12" x2="12" y1="1" y2="3"></line><line x1="12" x2="12" y1="21" y2="23"></line><line x1="4.22" x2="5.64" y1="4.22" y2="5.64"></line><line x1="18.36" x2="19.78" y1="18.36" y2="19.78"></line><line x1="1" x2="3" y1="12" y2="12"></line><line x1="21" x2="23" y1="12" y2="12"></line><line x1="4.22" x2="5.64" y1="19.78" y2="18.36"></line><line x1="18.36" x2="19.78" y1="5.64" y2="4.22"></line>
-</svg>
+<a class="lang-switch-btn" href="en/index.html" title="切换到英文版 (Switch to English)" aria-label="切换到英文版">EN</a>
+<button class="nav-dark-toggle" id="darkToggle" onclick="toggleDarkMode()" title="深色模式" aria-label="切换深色模式">
+<svg class="icon-moon" fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg class="icon-sun" fill="none" height="18" stroke="currentColor" stroke-width="2" style="display:none" viewBox="0 0 24 24" width="18" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" x2="12" y1="1" y2="3"></line><line x1="12" x2="12" y1="21" y2="23"></line><line x1="4.22" x2="5.64" y1="4.22" y2="5.64"></line><line x1="18.36" x2="19.78" y1="18.36" y2="19.78"></line><line x1="1" x2="3" y1="12" y2="12"></line><line x1="21" x2="23" y1="12" y2="12"></line><line x1="4.22" x2="5.64" y1="19.78" y2="18.36"></line><line x1="18.36" x2="19.78" y1="5.64" y2="4.22"></line></svg>
 </button>
-<div class="hamburger" onclick="toggleMobile()">
+<div class="hamburger" onclick="toggleMobile()" aria-label="打开移动端菜单" role="button" tabindex="0" aria-expanded="false">
 <span></span><span></span><span></span>
 </div>
 </div>
@@ -130,14 +107,14 @@
 </div>
 </div>
 <!-- Mobile Menu -->
-<div class="mobile-menu" id="mobile-menu">
-<button class="mobile-menu-close" onclick="toggleMobile()">
-<svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="24">
+<div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="移动端导航菜单">
+<button class="mobile-menu-close" onclick="toggleMobile()" aria-label="关闭菜单">
+<svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="24" aria-hidden="true">
 <line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
 </svg>
 </button>
 <div class="mobile-menu-logo">
-<svg fill="none" height="40" viewBox="0 0 32 32" width="40">
+<svg fill="none" height="40" viewBox="0 0 32 32" width="40" aria-hidden="true">
 <path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
 <path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
 </svg>
@@ -145,49 +122,40 @@
 </div>
 <a class="mobile-nav-link" href="index.html">首页</a>
 <div class="mobile-nav-group">
-<div class="mobile-nav-group-title">关于我们</div>
-<a class="mobile-nav-link sub" href="about.html">公司简介</a>
-<a class="mobile-nav-link sub" href="about-history.html">发展历程</a>
-<a class="mobile-nav-link sub" href="about-culture.html">企业文化</a>
-<a class="mobile-nav-link sub" href="honors.html">荣誉资质</a>
-</div>
-<a class="mobile-nav-link" href="custom.html">全案定制</a>
-<div class="mobile-nav-group">
 <div class="mobile-nav-group-title">全系游艇</div>
 <a class="mobile-nav-link sub" href="yachts.html#sovereign">君临系列</a>
 <a class="mobile-nav-link sub" href="yachts.html#expedition">远征系列</a>
 <a class="mobile-nav-link sub" href="yachts.html#flybridge">飞桥系列</a>
 <a class="mobile-nav-link sub" href="yachts.html#daycruiser">日间系列</a>
 </div>
-<a class="mobile-nav-link" href="charter.html">租赁航线</a>
-<a class="mobile-nav-link" href="management.html">托管维保</a>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title">定制服务</div>
+<a class="mobile-nav-link sub" href="custom.html">全案定制</a>
+<a class="mobile-nav-link sub" href="charter.html">租赁航线</a>
+<a class="mobile-nav-link sub" href="management.html">托管维保</a>
+</div>
 <a class="mobile-nav-link" href="cases.html">案例展示</a>
 <div class="mobile-nav-group">
-<div class="mobile-nav-group-title">新闻资讯</div>
-<a class="mobile-nav-link sub" href="news.html">公司动态</a>
-<a class="mobile-nav-link sub" href="news.html#industry">行业资讯</a>
-<a class="mobile-nav-link sub" href="press.html">媒体报道</a>
+<div class="mobile-nav-group-title">关于我们</div>
+<a class="mobile-nav-link sub" href="about.html">公司简介</a>
+<a class="mobile-nav-link sub" href="about-history.html">发展历程</a>
+<a class="mobile-nav-link sub" href="about-culture.html">企业文化</a>
+<a class="mobile-nav-link sub" href="about-structure.html">组织架构</a>
+<a class="mobile-nav-link sub" href="honors.html">荣誉资质</a>
+<a class="mobile-nav-link sub" href="about-responsibility.html">社会责任</a>
 </div>
-<a class="mobile-nav-link" href="ir.html">投资者关系</a>
-<a class="mobile-nav-link" href="partnership.html">全球合作</a>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title">资讯与合作</div>
+<a class="mobile-nav-link sub" href="news.html">新闻资讯</a>
+<a class="mobile-nav-link sub" href="ir.html">投资者关系</a>
+<a class="mobile-nav-link sub" href="partnership.html">全球合作</a>
+</div>
+<a class="mobile-nav-link mobile-primary" href="membership.html">👑 尊享会员</a>
 <a class="mobile-nav-link mobile-cta" href="contact.html">联系我们</a>
 <div class="mobile-menu-footer">
 <span>电话：13797920792 / +86 0755 3353-0188</span>
 <span>邮箱：hs@fantastic-vacation.com</span>
 </div>
-</div>
-<section class="press-hero"><div class="container reveal">
-<h1><span class="gold-gradient" data-i18n="press.250">媒体报道</span></h1>
-<p data-i18n="press.252">奇幻假期fantastic.vacation — 主流媒体持续关注的行业标杆</p>
-</div></section>
-<section class="section-press"><div class="container">
-<div class="press-grid">
-<div class="press-card reveal"><div class="press-source" data-i18n="press.257">新浪财经</div><div class="press-title" data-i18n="press.258">奇幻假期斩获亚洲最佳游艇服务商大奖</div><div class="press-excerpt" data-i18n="press.259">在2024年度亚洲游艇行业颁奖盛典上，奇幻假期凭借卓越的服务品质与创新能力，荣获"亚洲最佳游艇服务商"称号，成为中国首家获此殊荣的企业。</div><div class="press-date" data-i18n="press.260">2024年12月15日</div></div>
-<div class="press-card reveal"><div class="press-source" data-i18n="press.262">游艇世界杂志</div><div class="press-title" data-i18n="press.263">专访奇幻假期创始人：游艇行业的东方力量</div><div class="press-excerpt" data-i18n="press.264">从一家小型游艇租赁公司到亚洲顶级游艇服务集团，奇幻假期用10年时间书写了中国游艇行业的传奇。创始人接受本刊独家专访，分享成功背后的故事。</div><div class="press-date" data-i18n="press.265">2024年11月20日</div></div>
-<div class="press-card reveal"><div class="press-source" data-i18n="press.267">凤凰网财经</div><div class="press-title" data-i18n="press.268">奇幻假期82米超级游艇"幻蓝号"交付</div><div class="press-excerpt" data-i18n="press.269">国内首艘完全自主设计的80米以上超级游艇正式交付，标志着中国游艇制造业迈入世界顶级水平。奇幻假期在游艇定制领域的突破引发行业震动。</div><div class="press-date" data-i18n="press.270">2024年10月08日</div></div>
-<div class="press-card reveal"><div class="press-source" data-i18n="press.272">腾讯财经</div><div class="press-title" data-i18n="press.273">海上婚礼新标杆：奇幻假期加勒比海案例解析</div><div class="press-excerpt" data-i18n="press.274">一场耗资千万的海上婚礼如何成为行业标杆？奇幻假期为亚洲家族打造的加勒比海婚礼包船案例，被业内评为"年度最佳海上婚礼"。</div><div class="press-date" data-i18n="press.275">2024年9月12日</div></div>
-<div class="press-card reveal"><div class="press-source" data-i18n="press.277">网易新闻</div><div class="press-title" data-i18n="press.278">奇幻假期完成中东王室5年全托管项目</div><div class="press-excerpt" data-i18n="press.279">中东王室船队5年全托管服务项目圆满收官，奇幻假期以零安全事故的完美表现，赢得国际顶级客户的认可，进一步巩固全球市场地位。</div><div class="press-date" data-i18n="press.280">2024年8月25日</div></div>
-<div class="press-card reveal"><div class="press-source" data-i18n="press.282">福布斯中国</div><div class="press-title" data-i18n="press.283">奇幻假期入选中国高端服务品牌榜单</div><div class="press-excerpt" data-i18n="press.284">在福布斯中国发布的"2024年度高端服务品牌榜"中，奇幻假期作为唯一游艇服务企业入选，彰显其在高端生活方式服务领域的领先地位。</div><div class="press-date" data-i18n="press.285">2024年7月18日</div></div>
 </div>
 </div></section>
 <footer data-i18n="press.459" id="footer">

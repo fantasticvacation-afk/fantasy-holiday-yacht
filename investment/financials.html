@@ -43,92 +43,69 @@
 </style>
 </head><body>
 <div id="loader"><div style="color:#c9a96e">LOADING...</div></div>
-<nav id="navbar">
+<nav id="navbar" aria-label="主导航">
 <div class="nav-inner">
-<!-- Logo -->
-<a class="nav-logo" href="index.html">
-<svg fill="none" height="32" viewBox="0 0 32 32" width="32">
+<a class="nav-logo" href="../index.html" aria-label="奇幻假期首页">
+<svg fill="none" height="32" viewBox="0 0 32 32" width="32" aria-hidden="true">
 <path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
 <path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
 </svg>
 <span class="nav-logo-text">奇幻假期 <em>FANTASTIC VACATION</em></span>
 </a>
-<!-- Main Navigation -->
-<div class="nav-links">
-<!-- 首页 -->
-<a href="index.html">首页</a>
-<!-- 关于我们 -->
-<div class="nav-dropdown">
-<a href="about.html">关于我们 <span class="nav-arrow"></span></a>
-<div class="nav-dropdown-menu">
-<a href="about.html">公司简介</a>
-<a href="about-history.html">发展历程</a>
-<a href="about-culture.html">企业文化</a>
-<a href="about-structure.html">组织架构</a>
-<a href="honors.html">荣誉资质</a>
-<a href="about-responsibility.html">社会责任</a>
+<div class="nav-links" role="menubar" aria-label="主导航菜单">
+<a href="../index.html" class="nav-main-link" role="menuitem">首页</a>
+<div class="nav-dropdown" role="none">
+<a href="../yachts.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">全系游艇 <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="全系游艇子菜单">
+<a href="../yachts.html#sovereign" role="menuitem">君临系列</a>
+<a href="../yachts.html#expedition" role="menuitem">远征系列</a>
+<a href="../yachts.html#flybridge" role="menuitem">飞桥系列</a>
+<a href="../yachts.html#daycruiser" role="menuitem">日间系列</a>
 </div>
 </div>
-<!-- 全案定制 -->
-<a href="custom.html">全案定制</a>
-<!-- 全系游艇 -->
-<div class="nav-dropdown">
-<a href="yachts.html">全系游艇 <span class="nav-arrow"></span></a>
-<div class="nav-dropdown-menu">
-<a href="yachts.html#sovereign">君临系列</a>
-<a href="yachts.html#expedition">远征系列</a>
-<a href="yachts.html#flybridge">飞桥系列</a>
-<a href="yachts.html#daycruiser">日间系列</a>
+<div class="nav-dropdown" role="none">
+<a href="../custom.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">定制服务 <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="定制服务子菜单">
+<a href="../custom.html" role="menuitem">全案定制</a>
+<a href="../charter.html" role="menuitem">租赁航线</a>
+<a href="../management.html" role="menuitem">托管维保</a>
 </div>
 </div>
-<!-- 租赁航线 -->
-<a href="charter.html">租赁航线</a>
-<!-- 托管维保 -->
-<a href="management.html">托管维保</a>
-<!-- 案例展示 -->
-<a href="cases.html">案例展示</a>
-<!-- 新闻资讯 -->
-<div class="nav-dropdown">
-<a href="news.html">新闻资讯 <span class="nav-arrow"></span></a>
-<div class="nav-dropdown-menu">
-<a href="news.html">公司动态</a>
-<a href="news.html#industry">行业资讯</a>
-<a href="press.html">媒体报道</a>
+<a href="../cases.html" class="nav-main-link" role="menuitem">案例展示</a>
+<div class="nav-dropdown" role="none">
+<a href="../about.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">关于我们 <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="关于我们子菜单">
+<a href="../about.html" role="menuitem">公司简介</a>
+<a href="../about-history.html" role="menuitem">发展历程</a>
+<a href="../about-culture.html" role="menuitem">企业文化</a>
+<a href="../about-structure.html" role="menuitem">组织架构</a>
+<a href="../honors.html" role="menuitem">荣誉资质</a>
+<a href="../about-responsibility.html" role="menuitem">社会责任</a>
 </div>
 </div>
-<!-- 投资者关系 -->
-<div class="nav-dropdown">
-<a href="ir.html">投资者关系 <span class="nav-arrow"></span></a>
-<div class="nav-dropdown-menu">
-<a href="ir.html">公司概况</a>
-<a href="ir-financial.html">财务报告</a>
-<a href="ir-announcements.html">公告披露</a>
+<div class="nav-dropdown" role="none">
+<a href="../news.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">资讯与合作 <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="资讯与合作子菜单">
+<a href="../news.html" role="menuitem">新闻资讯</a>
+<a href="../ir.html" role="menuitem">投资者关系</a>
+<a href="../partnership.html" role="menuitem">全球合作</a>
 </div>
 </div>
-<!-- 全球合作 -->
-<a href="partnership.html">全球合作</a>
-<!-- 尊享会员 -->
-<a class="nav-cta-btn" href="membership.html">👑 尊享会员</a>
-<!-- 联系我们 -->
-<a class="nav-cta-btn" href="contact.html">联系我们</a>
+<div class="nav-cta-group" role="none">
+<a class="nav-cta-btn" href="../membership.html" role="menuitem">👑 尊享会员</a>
+<a class="nav-cta-btn nav-cta-primary" href="../contact.html" role="menuitem">联系我们</a>
 </div>
-<!-- Right Actions -->
-<div class="nav-actions">
-<button class="nav-search-btn" onclick="toggleSearch()" title="搜索">
-<svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18">
-<circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path>
-</svg>
+</div>
+<div class="nav-actions" role="none">
+<button class="nav-search-btn" onclick="toggleSearch()" title="搜索" aria-label="搜索">
+<svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>
 </button>
-<a class="lang-switch-btn" href="../en/index.html" title="English Version">EN</a>
-<button class="nav-dark-toggle" id="darkToggle" onclick="toggleDarkMode()" title="深色模式">
-<svg class="icon-moon" fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18">
-<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-</svg>
-<svg class="icon-sun" fill="none" height="18" stroke="currentColor" stroke-width="2" style="display:none" viewBox="0 0 24 24" width="18">
-<circle cx="12" cy="12" r="5"></circle><line x1="12" x2="12" y1="1" y2="3"></line><line x1="12" x2="12" y1="21" y2="23"></line><line x1="4.22" x2="5.64" y1="4.22" y2="5.64"></line><line x1="18.36" x2="19.78" y1="18.36" y2="19.78"></line><line x1="1" x2="3" y1="12" y2="12"></line><line x1="21" x2="23" y1="12" y2="12"></line><line x1="4.22" x2="5.64" y1="19.78" y2="18.36"></line><line x1="18.36" x2="19.78" y1="5.64" y2="4.22"></line>
-</svg>
+<a class="lang-switch-btn" href="../en/index.html" title="切换到英文版 (Switch to English)" aria-label="切换到英文版">EN</a>
+<button class="nav-dark-toggle" id="darkToggle" onclick="toggleDarkMode()" title="深色模式" aria-label="切换深色模式">
+<svg class="icon-moon" fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg class="icon-sun" fill="none" height="18" stroke="currentColor" stroke-width="2" style="display:none" viewBox="0 0 24 24" width="18" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" x2="12" y1="1" y2="3"></line><line x1="12" x2="12" y1="21" y2="23"></line><line x1="4.22" x2="5.64" y1="4.22" y2="5.64"></line><line x1="18.36" x2="19.78" y1="18.36" y2="19.78"></line><line x1="1" x2="3" y1="12" y2="12"></line><line x1="21" x2="23" y1="12" y2="12"></line><line x1="4.22" x2="5.64" y1="19.78" y2="18.36"></line><line x1="18.36" x2="19.78" y1="5.64" y2="4.22"></line></svg>
 </button>
-<div class="hamburger" onclick="toggleMobile()">
+<div class="hamburger" onclick="toggleMobile()" aria-label="打开移动端菜单" role="button" tabindex="0" aria-expanded="false">
 <span></span><span></span><span></span>
 </div>
 </div>
@@ -152,129 +129,56 @@
 </div>
 </div>
 <!-- Mobile Menu -->
-<div class="mobile-menu" id="mobile-menu">
-<button class="mobile-menu-close" onclick="toggleMobile()">
-<svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="24">
+<div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="移动端导航菜单">
+<button class="mobile-menu-close" onclick="toggleMobile()" aria-label="关闭菜单">
+<svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="24" aria-hidden="true">
 <line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
 </svg>
 </button>
 <div class="mobile-menu-logo">
-<svg fill="none" height="40" viewBox="0 0 32 32" width="40">
+<svg fill="none" height="40" viewBox="0 0 32 32" width="40" aria-hidden="true">
 <path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
 <path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
 </svg>
 <span>奇幻假期</span>
 </div>
-<a class="mobile-nav-link" href="index.html">首页</a>
-<div class="mobile-nav-group">
-<div class="mobile-nav-group-title">关于我们</div>
-<a class="mobile-nav-link sub" href="about.html">公司简介</a>
-<a class="mobile-nav-link sub" href="about-history.html">发展历程</a>
-<a class="mobile-nav-link sub" href="about-culture.html">企业文化</a>
-<a class="mobile-nav-link sub" href="honors.html">荣誉资质</a>
-</div>
-<a class="mobile-nav-link" href="custom.html">全案定制</a>
+<a class="mobile-nav-link" href="../index.html">首页</a>
 <div class="mobile-nav-group">
 <div class="mobile-nav-group-title">全系游艇</div>
-<a class="mobile-nav-link sub" href="yachts.html#sovereign">君临系列</a>
-<a class="mobile-nav-link sub" href="yachts.html#expedition">远征系列</a>
-<a class="mobile-nav-link sub" href="yachts.html#flybridge">飞桥系列</a>
-<a class="mobile-nav-link sub" href="yachts.html#daycruiser">日间系列</a>
+<a class="mobile-nav-link sub" href="../yachts.html#sovereign">君临系列</a>
+<a class="mobile-nav-link sub" href="../yachts.html#expedition">远征系列</a>
+<a class="mobile-nav-link sub" href="../yachts.html#flybridge">飞桥系列</a>
+<a class="mobile-nav-link sub" href="../yachts.html#daycruiser">日间系列</a>
 </div>
-<a class="mobile-nav-link" href="charter.html">租赁航线</a>
-<a class="mobile-nav-link" href="management.html">托管维保</a>
-<a class="mobile-nav-link" href="cases.html">案例展示</a>
 <div class="mobile-nav-group">
-<div class="mobile-nav-group-title">新闻资讯</div>
-<a class="mobile-nav-link sub" href="news.html">公司动态</a>
-<a class="mobile-nav-link sub" href="news.html#industry">行业资讯</a>
-<a class="mobile-nav-link sub" href="press.html">媒体报道</a>
+<div class="mobile-nav-group-title">定制服务</div>
+<a class="mobile-nav-link sub" href="../custom.html">全案定制</a>
+<a class="mobile-nav-link sub" href="../charter.html">租赁航线</a>
+<a class="mobile-nav-link sub" href="../management.html">托管维保</a>
 </div>
-<a class="mobile-nav-link" href="ir.html">投资者关系</a>
-<a class="mobile-nav-link" href="partnership.html">全球合作</a>
-<a class="mobile-nav-link mobile-cta" href="contact.html">联系我们</a>
+<a class="mobile-nav-link" href="../cases.html">案例展示</a>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title">关于我们</div>
+<a class="mobile-nav-link sub" href="../about.html">公司简介</a>
+<a class="mobile-nav-link sub" href="../about-history.html">发展历程</a>
+<a class="mobile-nav-link sub" href="../about-culture.html">企业文化</a>
+<a class="mobile-nav-link sub" href="../about-structure.html">组织架构</a>
+<a class="mobile-nav-link sub" href="../honors.html">荣誉资质</a>
+<a class="mobile-nav-link sub" href="../about-responsibility.html">社会责任</a>
+</div>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title">资讯与合作</div>
+<a class="mobile-nav-link sub" href="../news.html">新闻资讯</a>
+<a class="mobile-nav-link sub" href="../ir.html">投资者关系</a>
+<a class="mobile-nav-link sub" href="../partnership.html">全球合作</a>
+</div>
+<a class="mobile-nav-link mobile-primary" href="../membership.html">👑 尊享会员</a>
+<a class="mobile-nav-link mobile-cta" href="../contact.html">联系我们</a>
 <div class="mobile-menu-footer">
 <span>电话：13797920792 / +86 0755 3353-0188</span>
 <span>邮箱：hs@fantastic-vacation.com</span>
 </div>
 </div>
-<section class="ir-hero" style="padding:100px 0 60px">
-  <div class="ir-badge">FINANCIAL REPORTS</div>
-  <h1 data-i18n="invest.324f18ab5da0">财务报告</h1>
-  <p data-i18n="invest.faq">历年经审计的财务报告、核心经营指标深度分析、管理层讨论与投资者FAQ</p>
-</section>
-
-<div class="ir-section">
-  <div class="ir-section-divider"></div>
-  <h2 data-i18n="invest.597cacdd0c9e">财务披露体系</h2>
-  <p class="section-sub" data-i18n="invest.cas">公司财务报告严格遵循中国企业会计准则（CAS），年度报告经普华永道审计，确保数据真实、准确、完整</p>
-  
-  <div style="margin-top:40px;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:24px">
-    <div class="ir-card" style="cursor:default">
-      <div class="ir-card-icon">📅</div>
-      <h3 data-i18n="invest.19f87d6fe62a">报告周期</h3>
-      <p data-i18n="invest.4_30_br_8_31_br_30">年度报告：每年4月30日前发布<br/>半年度报告：每年8月31日前发布<br/>季度报告：每季结束后30天内发布</p>
-    </div>
-    <div class="ir-card" style="cursor:default">
-      <div class="ir-card-icon">🔍</div>
-      <h3 data-i18n="invest.5047270c8c54">审计机构</h3>
-      <p data-i18n="invest.br">普华永道中天会计师事务所（特殊普通合伙）<br/>中国 · 深圳</p>
-    </div>
-    <div class="ir-card" style="cursor:default">
-      <div class="ir-card-icon">📊</div>
-      <h3 data-i18n="invest.0f6c74c7c363">会计准则</h3>
-      <p data-i18n="invest.cas_br_ifrs">中国企业会计准则（CAS）<br/>参照国际财务报告准则（IFRS）披露口径</p>
-    </div>
-  </div>
-
-  <div class="ir-section-divider" style="margin-top:60px"></div>
-  <h2 data-i18n="invest.0bbda4ccb82f">历年财务报告</h2>
-  <table class="ir-table">
-    <tr><th data-i18n="invest.6cb59bb63eec">报告期</th><th data-i18n="invest.8b2e45700729">报告类型</th><th data-i18n="invest.57caea794b53">核心数据摘要</th><th data-i18n="invest.f26ef9142458">下载</th></tr>
-    <tr><td>2024年度</td><td> data-i18n="invest.ed6ba86c6e14"年度报告</td><td> data-i18n="invest.8_5_28"营收突破8.5亿，同比增长28%</td><td><a href="#" style="color:#c9a96e;text-decoration:none" data-i18n="invest.pdf">下载PDF →</a></td></tr>
-    <tr><td>2024半年度</td><td> data-i18n="invest.63cf3e862fcd"半年度报告</td><td> data-i18n="invest.4_1"营收4.1亿，定制板块增长强劲</td><td><a href="#" style="color:#c9a96e;text-decoration:none" data-i18n="invest.pdf">下载PDF →</a></td></tr>
-    <tr><td>2023年度</td><td> data-i18n="invest.ed6ba86c6e14"年度报告</td><td> data-i18n="invest.6_6"营收6.6亿，东南亚市场快速扩张</td><td><a href="#" style="color:#c9a96e;text-decoration:none" data-i18n="invest.pdf">下载PDF →</a></td></tr>
-    <tr><td>2022年度</td><td> data-i18n="invest.ed6ba86c6e14"年度报告</td><td> data-i18n="invest.5_1"营收5.1亿，尊享会员体系发布</td><td><a href="#" style="color:#c9a96e;text-decoration:none" data-i18n="invest.pdf">下载PDF →</a></td></tr>
-    <tr><td>2021年度</td><td> data-i18n="invest.ed6ba86c6e14"年度报告</td><td> data-i18n="invest.4_0"营收4.0亿，数字化转型初见成效</td><td><a href="#" style="color:#c9a96e;text-decoration:none" data-i18n="invest.pdf">下载PDF →</a></td></tr>
-  </table>
-
-  <div class="ir-section-divider" style="margin-top:60px"></div>
-  <h2 data-i18n="invest.6b38f33d8919">核心财务指标</h2>
-  <div style="margin-top:30px;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:20px">
-
-    <div style="padding:24px;background:rgba(255,255,255,.02);border-radius:10px;border:1px solid rgba(255,255,255,.05)">
-      <div style="font-size:13px;color:rgba(255,255,255,.4);margin-bottom:8px" data-i18n="invest.2024">营业总收入 (2024)</div>
-      <div style="font-size:28px;font-weight:700;color:#c9a96e">¥8.5亿</div>
-    </div>
-    <div style="padding:24px;background:rgba(255,255,255,.02);border-radius:10px;border:1px solid rgba(255,255,255,.05)">
-      <div style="font-size:13px;color:rgba(255,255,255,.4);margin-bottom:8px" data-i18n="invest.e1edf9ae107a">同比增长</div>
-      <div style="font-size:28px;font-weight:700;color:#c9a96e">28%</div>
-    </div>
-    <div style="padding:24px;background:rgba(255,255,255,.02);border-radius:10px;border:1px solid rgba(255,255,255,.05)">
-      <div style="font-size:13px;color:rgba(255,255,255,.4);margin-bottom:8px" data-i18n="invest.2024">净利润 (2024)</div>
-      <div style="font-size:28px;font-weight:700;color:#c9a96e">¥1.7亿</div>
-    </div>
-    <div style="padding:24px;background:rgba(255,255,255,.02);border-radius:10px;border:1px solid rgba(255,255,255,.05)">
-      <div style="font-size:13px;color:rgba(255,255,255,.4);margin-bottom:8px" data-i18n="invest.bc95a1276b33">毛利率</div>
-      <div style="font-size:28px;font-weight:700;color:#c9a96e">42.5%</div>
-    </div>
-    <div style="padding:24px;background:rgba(255,255,255,.02);border-radius:10px;border:1px solid rgba(255,255,255,.05)">
-      <div style="font-size:13px;color:rgba(255,255,255,.4);margin-bottom:8px" data-i18n="invest.df7d17802ad1">净利率</div>
-      <div style="font-size:28px;font-weight:700;color:#c9a96e">20.0%</div>
-    </div>
-    <div style="padding:24px;background:rgba(255,255,255,.02);border-radius:10px;border:1px solid rgba(255,255,255,.05)">
-      <div style="font-size:13px;color:rgba(255,255,255,.4);margin-bottom:8px" data-i18n="invest.ebitda">EBITDA利润率</div>
-      <div style="font-size:28px;font-weight:700;color:#c9a96e">31.8%</div>
-    </div>
-    <div style="padding:24px;background:rgba(255,255,255,.02);border-radius:10px;border:1px solid rgba(255,255,255,.05)">
-      <div style="font-size:13px;color:rgba(255,255,255,.4);margin-bottom:8px" data-i18n="invest.fa1861de2bb7">总资产</div>
-      <div style="font-size:28px;font-weight:700;color:#c9a96e">¥12.3亿</div>
-    </div>
-    <div style="padding:24px;background:rgba(255,255,255,.02);border-radius:10px;border:1px solid rgba(255,255,255,.05)">
-      <div style="font-size:13px;color:rgba(255,255,255,.4);margin-bottom:8px" data-i18n="invest.b14ad1460f4f">资产负债率</div>
-      <div style="font-size:28px;font-weight:700;color:#c9a96e">35.2%</div>
-    </div>
-  </div>
 
   <div class="ir-section-divider" style="margin-top:60px"></div>
   <h2>营收构成（按业务板块）</h2>

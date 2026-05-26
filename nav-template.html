@@ -1,89 +1,66 @@
-<nav id="navbar">
+<nav id="navbar" aria-label="主导航">
 <div class="nav-inner">
-<!-- Logo -->
-<a class="nav-logo" href="index.html">
-<svg fill="none" height="32" viewBox="0 0 32 32" width="32">
+<a class="nav-logo" href="index.html" aria-label="奇幻假期首页">
+<svg fill="none" height="32" viewBox="0 0 32 32" width="32" aria-hidden="true">
 <path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
 <path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
 </svg>
 <span class="nav-logo-text">奇幻假期 <em>FANTASTIC VACATION</em></span>
 </a>
-<!-- Main Navigation -->
-<div class="nav-links">
-<!-- 首页 -->
-<a href="index.html">首页</a>
-<!-- 关于我们 -->
-<div class="nav-dropdown">
-<a href="about.html">关于我们 <span class="nav-arrow"></span></a>
-<div class="nav-dropdown-menu">
-<a href="about.html">公司简介</a>
-<a href="about-history.html">发展历程</a>
-<a href="about-culture.html">企业文化</a>
-<a href="about-structure.html">组织架构</a>
-<a href="honors.html">荣誉资质</a>
-<a href="about-responsibility.html">社会责任</a>
+<div class="nav-links" role="menubar" aria-label="主导航菜单">
+<a href="index.html" class="nav-main-link" role="menuitem">首页</a>
+<div class="nav-dropdown" role="none">
+<a href="yachts.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">全系游艇 <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="全系游艇子菜单">
+<a href="yachts.html#sovereign" role="menuitem">君临系列</a>
+<a href="yachts.html#expedition" role="menuitem">远征系列</a>
+<a href="yachts.html#flybridge" role="menuitem">飞桥系列</a>
+<a href="yachts.html#daycruiser" role="menuitem">日间系列</a>
 </div>
 </div>
-<!-- 全案定制 -->
-<a href="custom.html">全案定制</a>
-<!-- 全系游艇 -->
-<div class="nav-dropdown">
-<a href="yachts.html">全系游艇 <span class="nav-arrow"></span></a>
-<div class="nav-dropdown-menu">
-<a href="yachts.html#sovereign">君临系列</a>
-<a href="yachts.html#expedition">远征系列</a>
-<a href="yachts.html#flybridge">飞桥系列</a>
-<a href="yachts.html#daycruiser">日间系列</a>
+<div class="nav-dropdown" role="none">
+<a href="custom.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">定制服务 <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="定制服务子菜单">
+<a href="custom.html" role="menuitem">全案定制</a>
+<a href="charter.html" role="menuitem">租赁航线</a>
+<a href="management.html" role="menuitem">托管维保</a>
 </div>
 </div>
-<!-- 租赁航线 -->
-<a href="charter.html">租赁航线</a>
-<!-- 托管维保 -->
-<a href="management.html">托管维保</a>
-<!-- 案例展示 -->
-<a href="cases.html">案例展示</a>
-<!-- 新闻资讯 -->
-<div class="nav-dropdown">
-<a href="news.html">新闻资讯 <span class="nav-arrow"></span></a>
-<div class="nav-dropdown-menu">
-<a href="news.html">公司动态</a>
-<a href="news.html#industry">行业资讯</a>
-<a href="press.html">媒体报道</a>
+<a href="cases.html" class="nav-main-link" role="menuitem">案例展示</a>
+<div class="nav-dropdown" role="none">
+<a href="about.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">关于我们 <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="关于我们子菜单">
+<a href="about.html" role="menuitem">公司简介</a>
+<a href="about-history.html" role="menuitem">发展历程</a>
+<a href="about-culture.html" role="menuitem">企业文化</a>
+<a href="about-structure.html" role="menuitem">组织架构</a>
+<a href="honors.html" role="menuitem">荣誉资质</a>
+<a href="about-responsibility.html" role="menuitem">社会责任</a>
 </div>
 </div>
-<!-- 投资者关系 -->
-<div class="nav-dropdown">
-<a href="ir.html">投资者关系 <span class="nav-arrow"></span></a>
-<div class="nav-dropdown-menu">
-<a href="ir.html">公司概况</a>
-<a href="ir-financial.html">财务报告</a>
-<a href="ir-announcements.html">公告披露</a>
+<div class="nav-dropdown" role="none">
+<a href="news.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">资讯与合作 <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="资讯与合作子菜单">
+<a href="news.html" role="menuitem">新闻资讯</a>
+<a href="ir.html" role="menuitem">投资者关系</a>
+<a href="partnership.html" role="menuitem">全球合作</a>
 </div>
 </div>
-<!-- 全球合作 -->
-<a href="partnership.html">全球合作</a>
-<!-- 尊享会员 -->
-<a class="nav-cta-btn" href="membership.html">👑 尊享会员</a>
-<!-- 联系我们 -->
-<a class="nav-cta-btn" href="contact.html">联系我们</a>
+<div class="nav-cta-group" role="none">
+<a class="nav-cta-btn" href="membership.html" role="menuitem">👑 尊享会员</a>
+<a class="nav-cta-btn nav-cta-primary" href="contact.html" role="menuitem">联系我们</a>
 </div>
-<!-- Right Actions -->
-<div class="nav-actions">
-<button class="nav-search-btn" onclick="toggleSearch()" title="搜索">
-<svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18">
-<circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path>
-</svg>
+</div>
+<div class="nav-actions" role="none">
+<button class="nav-search-btn" onclick="toggleSearch()" title="搜索" aria-label="搜索">
+<svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>
 </button>
-<a class="lang-switch-btn" href="en/index.html" title="English Version">EN</a>
-<button class="nav-dark-toggle" id="darkToggle" onclick="toggleDarkMode()" title="深色模式">
-<svg class="icon-moon" fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18">
-<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-</svg>
-<svg class="icon-sun" fill="none" height="18" stroke="currentColor" stroke-width="2" style="display:none" viewBox="0 0 24 24" width="18">
-<circle cx="12" cy="12" r="5"></circle><line x1="12" x2="12" y1="1" y2="3"></line><line x1="12" x2="12" y1="21" y2="23"></line><line x1="4.22" x2="5.64" y1="4.22" y2="5.64"></line><line x1="18.36" x2="19.78" y1="18.36" y2="19.78"></line><line x1="1" x2="3" y1="12" y2="12"></line><line x1="21" x2="23" y1="12" y2="12"></line><line x1="4.22" x2="5.64" y1="19.78" y2="18.36"></line><line x1="18.36" x2="19.78" y1="5.64" y2="4.22"></line>
-</svg>
+<a class="lang-switch-btn" href="en/index.html" title="切换到英文版 (Switch to English)" aria-label="切换到英文版">EN</a>
+<button class="nav-dark-toggle" id="darkToggle" onclick="toggleDarkMode()" title="深色模式" aria-label="切换深色模式">
+<svg class="icon-moon" fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg class="icon-sun" fill="none" height="18" stroke="currentColor" stroke-width="2" style="display:none" viewBox="0 0 24 24" width="18" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" x2="12" y1="1" y2="3"></line><line x1="12" x2="12" y1="21" y2="23"></line><line x1="4.22" x2="5.64" y1="4.22" y2="5.64"></line><line x1="18.36" x2="19.78" y1="18.36" y2="19.78"></line><line x1="1" x2="3" y1="12" y2="12"></line><line x1="21" x2="23" y1="12" y2="12"></line><line x1="4.22" x2="5.64" y1="19.78" y2="18.36"></line><line x1="18.36" x2="19.78" y1="5.64" y2="4.22"></line></svg>
 </button>
-<div class="hamburger" onclick="toggleMobile()">
+<div class="hamburger" onclick="toggleMobile()" aria-label="打开移动端菜单" role="button" tabindex="0" aria-expanded="false">
 <span></span><span></span><span></span>
 </div>
 </div>

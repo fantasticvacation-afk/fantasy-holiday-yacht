@@ -76,92 +76,71 @@
   <link rel="icon" type="image/svg+xml" href="../favicon.svg"/></head><body>
 <div id="loader"><div class="brand">FANTASTIC VACATION</div></div>
 <div class="cursor-follower" id="cursor"></div>
-<nav id="navbar">
+<nav id="navbar" aria-label="Main Navigation">
 <div class="nav-inner">
-<!-- Logo -->
-<a class="nav-logo" href="index.html">
-<svg fill="none" height="32" viewBox="0 0 32 32" width="32">
+<a class="nav-logo" href="index.html" aria-label="Fantastic Vacation Home">
+<svg fill="none" height="32" viewBox="0 0 32 32" width="32" aria-hidden="true">
 <path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
 <path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
 </svg>
-<span class="nav-logo-text">Fantastic Vacation <em>FANTASTIC VACATION</em></span>
+<span class="nav-logo-text">奇幻假期 <em>FANTASTIC VACATION</em></span>
 </a>
-<!-- Main Navigation -->
-<div class="nav-links">
-<!-- Home -->
-<a href="index.html">Home</a>
-<!-- About Us -->
-<div class="nav-dropdown">
-<a href="about.html">About Us <span class="nav-arrow"></span></a>
-<div class="nav-dropdown-menu">
-<a href="about.html">Company Profile</a>
-<a href="../about-history.html">Milestones</a>
-<a href="../about-culture.html">Culture</a>
-<a href="../about-structure.html">Organization</a>
-<a href="honors.html">Honors & Certifications</a>
-<a href="../about-responsibility.html">Social Responsibility</a>
+<div class="nav-links" role="menubar" aria-label="Main Navigation">
+<a href="index.html" class="nav-main-link" role="menuitem">Home</a>
+<div class="nav-dropdown" role="none">
+<a href="yachts.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">Yachts <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="Yacht Submenu">
+<a href="yachts.html#sovereign" role="menuitem">Sovereign Series</a>
+<a href="yachts.html#expedition" role="menuitem">Expedition Series</a>
+<a href="yachts.html#flybridge" role="menuitem">Flybridge Series</a>
+<a href="yachts.html#daycruiser" role="menuitem">Day Cruiser Series</a>
 </div>
 </div>
-<!-- Full Custom -->
-<a href="custom.html">Full Custom</a>
-<!-- Our Fleet -->
-<div class="nav-dropdown">
-<a href="yachts.html">Our Fleet <span class="nav-arrow"></span></a>
-<div class="nav-dropdown-menu">
-<a href="yachts.html#sovereign">Sovereign Series</a>
-<a href="yachts.html#expedition">Expedition Series</a>
-<a href="yachts.html#flybridge">Flybridge Series</a>
-<a href="yachts.html#daycruiser">Day Cruiser Series</a>
+<div class="nav-dropdown" role="none">
+<a href="custom.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">Services <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="Services Submenu">
+<a href="custom.html" role="menuitem">Custom Yachts</a>
+<a href="charter.html" role="menuitem">Charter Routes</a>
+<a href="management.html" role="menuitem">Management</a>
 </div>
 </div>
-<!-- Charter Routes -->
-<a href="charter.html">Charter Routes</a>
-<!-- Management -->
-<a href="management.html">Management</a>
-<!-- Case Studies -->
-<a href="cases.html">Case Studies</a>
-<!-- News -->
-<div class="nav-dropdown">
-<a href="news.html">News <span class="nav-arrow"></span></a>
-<div class="nav-dropdown-menu">
-<a href="news.html">Brand News</a>
-<a href="news.html#industry">Industry Insights</a>
-<a href="../press.html">Media Coverage</a>
+<a href="cases.html" class="nav-main-link" role="menuitem">Cases</a>
+<div class="nav-dropdown" role="none">
+<a href="about.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">About <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="About Submenu">
+<a href="about.html" role="menuitem">Company</a>
+<a href="about-history.html" role="menuitem">Milestones</a>
+<a href="about-culture.html" role="menuitem">Culture</a>
+<a href="about-structure.html" role="menuitem">Organization</a>
+<a href="honors.html" role="menuitem">Honors</a>
+<a href="about-responsibility.html" role="menuitem">ESG</a>
 </div>
 </div>
-<!-- Investor Relations -->
-<div class="nav-dropdown">
-<a href="ir.html">Investor Relations <span class="nav-arrow"></span></a>
-<div class="nav-dropdown-menu">
-<a href="ir.html">Company Overview</a>
-<a href="../ir-financial.html">Financial Reports</a>
-<a href="../ir-announcements.html">Announcements</a>
+<div class="nav-dropdown" role="none">
+<a href="news.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">News &amp; IR <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="News &amp; IR Submenu">
+<a href="news.html" role="menuitem">News</a>
+<a href="ir.html" role="menuitem">IR</a>
+<a href="partnership.html" role="menuitem">Partnerships</a>
 </div>
 </div>
-<!-- Partnership -->
-<a href="partnership.html">Partnership</a>
-<!-- Membership -->
-<a class="nav-cta-btn" href="membership.html">👑 Membership</a>
-<!-- Contact Us -->
-<a class="nav-cta-btn" href="contact.html">Contact Us</a>
+<div class="nav-cta-group" role="none">
+<a class="nav-cta-btn" href="membership.html" role="menuitem">👑 Membership</a>
+<a class="nav-cta-btn nav-cta-primary" href="contact.html" role="menuitem">Contact</a>
 </div>
-<!-- Right Actions -->
-<div class="nav-actions">
-<button class="nav-search-btn" onclick="toggleSearch()" title="搜索">
-<svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18">
+</div>
+<div class="nav-actions" role="none">
+<button class="nav-search-btn" onclick="toggleSearch()" title="Search" aria-label="Search">
+<svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true">
 <circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path>
 </svg>
 </button>
-<a class="lang-switch-btn" href="index.html" title="Chinese Version">中文</a>
-<button class="nav-dark-toggle" id="darkToggle" onclick="toggleDarkMode()" title="Dark Mode">
-<svg class="icon-moon" fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18">
-<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-</svg>
-<svg class="icon-sun" fill="none" height="18" stroke="currentColor" stroke-width="2" style="display:none" viewBox="0 0 24 24" width="18">
-<circle cx="12" cy="12" r="5"></circle><line x1="12" x2="12" y1="1" y2="3"></line><line x1="12" x2="12" y1="21" y2="23"></line><line x1="4.22" x2="5.64" y1="4.22" y2="5.64"></line><line x1="18.36" x2="19.78" y1="18.36" y2="19.78"></line><line x1="1" x2="3" y1="12" y2="12"></line><line x1="21" x2="23" y1="12" y2="12"></line><line x1="4.22" x2="5.64" y1="19.78" y2="18.36"></line><line x1="18.36" x2="19.78" y1="5.64" y2="4.22"></line>
-</svg>
+<a class="lang-switch-btn" href="../index.html" title="切换到中文版 (Switch to Chinese)" aria-label="切换到中文版">中文</a>
+<button class="nav-dark-toggle" id="darkToggle" onclick="toggleDarkMode()" title="Dark Mode" aria-label="Toggle Dark Mode">
+<svg class="icon-moon" fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg class="icon-sun" fill="none" height="18" stroke="currentColor" stroke-width="2" style="display:none" viewBox="0 0 24 24" width="18" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" x2="12" y1="1" y2="3"></line><line x1="12" x2="12" y1="21" y2="23"></line><line x1="4.22" x2="5.64" y1="4.22" y2="5.64"></line><line x1="18.36" x2="19.78" y1="18.36" y2="19.78"></line><line x1="1" x2="3" y1="12" y2="12"></line><line x1="21" x2="23" y1="12" y2="12"></line><line x1="4.22" x2="5.64" y1="19.78" y2="18.36"></line><line x1="18.36" x2="19.78" y1="5.64" y2="4.22"></line></svg>
 </button>
-<div class="hamburger" onclick="toggleMobile()">
+<div class="hamburger" onclick="toggleMobile()" aria-label="Open Mobile Menu" role="button" tabindex="0" aria-expanded="false">
 <span></span><span></span><span></span>
 </div>
 </div>
@@ -185,95 +164,54 @@
 </div>
 </div>
 <!-- Mobile Menu -->
-<div class="mobile-menu" id="mobile-menu">
-<button class="mobile-menu-close" onclick="toggleMobile()">
-<svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="24">
+<div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Mobile Navigation Menu">
+<button class="mobile-menu-close" onclick="toggleMobile()" aria-label="Close Menu">
+<svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="24" aria-hidden="true">
 <line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
 </svg>
 </button>
 <div class="mobile-menu-logo">
-<svg fill="none" height="40" viewBox="0 0 32 32" width="40">
+<svg fill="none" height="40" viewBox="0 0 32 32" width="40" aria-hidden="true">
 <path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
 <path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
 </svg>
-<span>Fantastic Vacation</span>
+<span>FANTASTIC VACATION</span>
 </div>
-<a class="mobile-nav-link" href="../index.html">Home</a>
+<a class="mobile-nav-link" href="index.html">Home</a>
 <div class="mobile-nav-group">
-<div class="mobile-nav-group-title">About Us</div>
-<a class="mobile-nav-link sub" href="about.html">Company Profile</a>
-<a class="mobile-nav-link sub" href="../about-history.html">Milestones</a>
-<a class="mobile-nav-link sub" href="../about-culture.html">Culture</a>
-<a class="mobile-nav-link sub" href="honors.html">Honors & Certifications</a>
-</div>
-<a class="mobile-nav-link" href="custom.html">Full Custom</a>
-<div class="mobile-nav-group">
-<div class="mobile-nav-group-title">Our Fleet</div>
+<div class="mobile-nav-group-title">Yachts</div>
 <a class="mobile-nav-link sub" href="yachts.html#sovereign">Sovereign Series</a>
 <a class="mobile-nav-link sub" href="yachts.html#expedition">Expedition Series</a>
 <a class="mobile-nav-link sub" href="yachts.html#flybridge">Flybridge Series</a>
 <a class="mobile-nav-link sub" href="yachts.html#daycruiser">Day Cruiser Series</a>
 </div>
-<a class="mobile-nav-link" href="charter.html">Charter Routes</a>
-<a class="mobile-nav-link" href="management.html">Management</a>
-<a class="mobile-nav-link" href="cases.html">Case Studies</a>
 <div class="mobile-nav-group">
-<div class="mobile-nav-group-title">News</div>
-<a class="mobile-nav-link sub" href="news.html">Brand News</a>
-<a class="mobile-nav-link sub" href="news.html#industry">Industry Insights</a>
-<a class="mobile-nav-link sub" href="../press.html">Media Coverage</a>
+<div class="mobile-nav-group-title">Services</div>
+<a class="mobile-nav-link sub" href="custom.html">Custom Yachts</a>
+<a class="mobile-nav-link sub" href="charter.html">Charter Routes</a>
+<a class="mobile-nav-link sub" href="management.html">Management</a>
 </div>
-<a class="mobile-nav-link" href="ir.html">Investor Relations</a>
-<a class="mobile-nav-link" href="partnership.html">Partnership</a>
-<a class="mobile-nav-link mobile-cta" href="contact.html">Contact Us</a>
+<a class="mobile-nav-link" href="cases.html">Cases</a>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title">About</div>
+<a class="mobile-nav-link sub" href="about.html">Company</a>
+<a class="mobile-nav-link sub" href="about-history.html">Milestones</a>
+<a class="mobile-nav-link sub" href="about-culture.html">Culture</a>
+<a class="mobile-nav-link sub" href="about-structure.html">Organization</a>
+<a class="mobile-nav-link sub" href="honors.html">Honors</a>
+<a class="mobile-nav-link sub" href="about-responsibility.html">ESG</a>
+</div>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title">News &amp; IR</div>
+<a class="mobile-nav-link sub" href="news.html">News</a>
+<a class="mobile-nav-link sub" href="ir.html">Investor Relations</a>
+<a class="mobile-nav-link sub" href="partnership.html">Partnerships</a>
+</div>
+<a class="mobile-nav-link mobile-primary" href="membership.html">👑 Membership</a>
+<a class="mobile-nav-link mobile-cta" href="contact.html">Contact</a>
 <div class="mobile-menu-footer">
-<span>电话：13797920792 / +86 0755 3353-0188</span>
-<span>邮箱：hs@fantastic-vacation.com</span>
-</div>
-</div>
-<!-- ===== ROLE CARDS (Above Hero) ===== -->
-<section style="padding:140px 0 60px;background:var(--dark1);position:relative">
-<div class="container" style="max-width:1200px">
-<div class="section-header reveal" style="margin-bottom:40px">
-<h2 style="font-size:clamp(20px,3vw,28px);margin-bottom:8px"><span class="gold-gradient">I am…</span></h2>
-<p style="color:var(--text-muted);font-size:14px">Choose your profile to find the optimal solution</p>
-</div>
-<div class="role-cards reveal">
-<div class="role-card" onclick="location.href='../custom.html'">
-<div class="role-card-icon">🛥️</div>
-<h3>About to Own a Yacht</h3>
-<p>Full customization from concept to delivery</p>
-<div class="role-card-links">
-<a href="custom.html">Full Custom →</a>
-<a href="yachts.html">Our Fleet →</a>
-</div>
-</div>
-<div class="role-card" onclick="location.href='../charter.html'">
-<div class="role-card-icon">🌊</div>
-<h3>Seeking a Premium Sea Experience</h3>
-<p>Mediterranean, Caribbean, SE Asia — curated voyages</p>
-<div class="role-card-links">
-<a href="charter.html">Charter Routes →</a>
-<a href="contact.html">定制航线 →</a>
-</div>
-</div>
-<div class="role-card" onclick="location.href='../management.html'">
-<div class="role-card-icon">⚓</div>
-<h3>Need Yacht Management</h3>
-<p>24/7 professional team for worry-free asset operations</p>
-<div class="role-card-links">
-<a href="management.html">Management →</a>
-<a href="cases.html">案例参考 →</a>
-</div>
-</div>
-<div class="role-card" onclick="location.href='../ir.html'">
-<div class="role-card-icon">💼</div>
-<h3>Investor / Partner</h3>
-<p>Explore company strength, business & investment opportunities</p>
-<div class="role-card-links">
-<a href="ir.html">Investor Relations →</a>
-<a href="partnership.html">Partnership →</a>
-</div>
+<span>Tel: 13797920792 / +86 0755 3353-0188</span>
+<span>Email: hs@fantastic-vacation.com</span>
 </div>
 </div>
 </div>
