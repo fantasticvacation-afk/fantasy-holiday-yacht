@@ -678,9 +678,9 @@ img{max-width:100%;display:block}
   align-items:center;
   justify-content:center;
   background:transparent;
-  border:1px solid rgba(0,0,0,0.08);
+  border:1px solid rgba(0,0,0,0.2);
   border-radius:8px;
-  color:#64748b;
+  color:#334155;
   font-size:12px;
   font-weight:600;
   cursor:pointer;
@@ -948,8 +948,8 @@ body.dark-mode .nav-dark-toggle:hover{
   border-color:rgba(201,169,110,0.3);
 }
 body.dark-mode .lang-switch-btn{
-  border-color:rgba(255,255,255,0.08);
-  color:#94a3b8;
+  border-color:rgba(255,255,255,0.2);
+  color:#e2e8f0;
 }
 body.dark-mode .lang-switch-btn:hover{
   background:rgba(201,169,110,0.1);
