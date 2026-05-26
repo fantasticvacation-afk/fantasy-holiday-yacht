@@ -1,232 +1,70 @@
 <!DOCTYPE html>
-
 <html lang="zh-CN"><head>
 <meta charset="utf-8"/><meta content="width=device-width,initial-scale=1.0" name="viewport"/>
-<title data-i18n="yachts.0">游艇产品 | 奇幻假期 FANTASTIC VACATION - 50艘豪华游艇全系展示</title>
-<meta content="奇幻假期游艇产品线覆盖10米日间巡航到120米超级游艇，四大核心系列50款船型，满足从入门级到顶奢的全谱系需求。" name="description"/>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<title>全系游艇 | 奇幻假期 FANTASTIC VACATION</title>
+<meta content="奇幻假期全系豪华游艇系列 - 从18米飞桥到120米超级游艇，覆盖全谱系产品矩阵。" name="description"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
 <link href="style.css" rel="stylesheet"/>
 <style>
-/* Loader 自动消失 - 三重保障 */
-@keyframes autoHideLoader{
-  0%,80%{opacity:1;visibility:visible}
-  85%{opacity:0.5}
-  90%{opacity:0.2}
-  95%{opacity:0;visibility:hidden}
-  100%{display:none}
-}
-#loader{animation:autoHideLoader 6s ease-in-out forwards}
-#loader.hidden,#loader[style*="display:none"]{animation:none!important;display:none!important}
+#loader{position:fixed;inset:0;background:#080e1a;display:flex;align-items:center;justify-content:center;z-index:9999;transition:opacity 0.6s,visibility 0.6s}
+#loader.hidden{opacity:0;visibility:hidden}
+#loader .brand{font-family:'Playfair Display',serif;font-size:clamp(24px,4vw,42px);color:#c9a96e;margin-bottom:40px;animation:fadeUp 1s 0.3s forwards;opacity:0}
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+/* Fleet page */
+.fleet-hero{position:relative;padding:180px 0 80px;text-align:center;background:linear-gradient(180deg,var(--dark1) 0%,var(--dark2) 100%);overflow:hidden}
+.fleet-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%,rgba(201,169,110,0.08) 0%,transparent 70%)}
+.fleet-hero-content{position:relative;z-index:2;max-width:800px;margin:0 auto;padding:0 24px}
+.fleet-hero h1{font-size:clamp(32px,5vw,60px);margin-bottom:12px}
+.fleet-hero p{color:var(--text-muted);font-size:16px;max-width:600px;margin:0 auto;line-height:1.8}
+/* Filters */
+.fleet-filters{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:10px;margin-bottom:48px;padding:0 24px}
+.filter-chip{padding:10px 22px;font-size:12px;letter-spacing:1px;border:1px solid var(--glass-border);border-radius:50px;background:transparent;color:var(--text-muted);cursor:pointer;transition:all 0.3s;font-family:'Inter',sans-serif;white-space:nowrap}
+.filter-chip:hover,.filter-chip.active{background:rgba(201,169,110,0.12);border-color:var(--gold);color:var(--gold)}
+.filter-divider{width:1px;height:20px;background:var(--glass-border);margin:0 8px}
+.filter-select{background:var(--dark3);border:1px solid var(--glass-border);color:var(--text);padding:10px 16px;border-radius:50px;font-size:12px;font-family:'Inter',sans-serif;cursor:pointer;outline:none}
+.filter-select:focus{border-color:var(--gold)}
+/* Fleet grid */
+.fleet-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:24px}
+.fleet-card{background:var(--card);border:1px solid var(--glass-border);border-radius:var(--radius);overflow:hidden;transition:var(--transition);cursor:pointer}
+.fleet-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-gold);border-color:var(--gold)}
+.fleet-card.hidden{display:none}
+.fleet-card-img{position:relative;aspect-ratio:16/10;overflow:hidden}
+.fleet-card-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.6s}
+.fleet-card:hover .fleet-card-img img{transform:scale(1.06)}
+.fleet-card-badge{position:absolute;top:14px;left:14px;padding:5px 12px;background:rgba(7,11,20,0.85);border:1px solid var(--glass-border);border-radius:4px;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--gold);backdrop-filter:blur(8px)}
+.fleet-card-body{padding:22px}
+.fleet-card-body h3{font-size:16px;margin-bottom:2px}
+.fleet-card-body .model-en{font-size:11px;color:var(--text-dim);letter-spacing:1px;margin-bottom:12px}
+.fleet-specs-row{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:14px}
+.fleet-spec-val{font-size:16px;color:var(--gold);font-weight:600;font-family:'Playfair Display',serif}
+.fleet-spec-label{font-size:10px;color:var(--text-dim);letter-spacing:0.5px;text-transform:uppercase}
+.fleet-card-footer{display:flex;justify-content:space-between;align-items:center;padding-top:14px;border-top:1px solid var(--glass-border)}
+.fleet-price{font-size:13px;color:var(--gold);font-weight:600}
+.fleet-detail-btn{font-size:11px;color:var(--text-muted);letter-spacing:1px;transition:var(--transition)}
+.fleet-detail-btn:hover{color:var(--gold)}
+/* Detail page styles */
+.yacht-detail-hero{position:relative;padding:160px 0;text-align:center;background:var(--dark1)}
+.yacht-detail-hero h1{font-size:clamp(28px,4vw,48px);margin-bottom:8px}
+.yacht-detail-hero .yacht-tagline{font-size:16px;color:var(--gold);font-style:italic;letter-spacing:0.5px}
+.detail-specs-table{max-width:900px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:1px;background:var(--glass-border);border-radius:var(--radius);overflow:hidden}
+.detail-spec-item{background:var(--dark2);padding:18px 14px;text-align:center}
+.detail-spec-item .spec-val{font-size:18px;color:var(--gold);font-family:'Playfair Display',serif;font-weight:600}
+.detail-spec-item .spec-label{font-size:10px;color:var(--text-dim);letter-spacing:1px;text-transform:uppercase;margin-top:4px}
+.detail-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:40px}
+.detail-gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px;transition:transform 0.4s;cursor:pointer}
+.detail-gallery img:hover{transform:scale(1.03)}
+@media(max-width:768px){.detail-gallery{grid-template-columns:repeat(2,1fr)}}
+#backToTop{display:none;position:fixed;bottom:30px;right:30px;width:44px;height:44px;background:rgba(201,169,110,0.15);border:1px solid var(--gold);border-radius:50%;color:var(--gold);font-size:20px;cursor:pointer;z-index:99;transition:all 0.3s}
+#backToTop:hover{background:var(--gold);color:var(--dark1)}
+#backToTop.visible{display:flex;align-items:center;justify-content:center}
+.no-results{text-align:center;padding:60px 20px;grid-column:1/-1}
+.no-results h3{font-size:20px;color:var(--text-muted);margin-bottom:8px}
+.no-results p{font-size:14px;color:var(--text-dim)}
 </style>
-<style>
-/* ===== Yachts Page Enhanced Styles ===== */
-.yacht-hero-enhanced {
-  position: relative;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  overflow: hidden;
-  background: linear-gradient(135deg, rgba(10,14,26,0.85) 0%, rgba(13,21,38,0.8) 20%, rgba(19,40,68,0.75) 40%, rgba(26,58,92,0.7) 55%, rgba(45,74,58,0.75) 70%, rgba(74,53,32,0.8) 85%, rgba(26,18,8,0.85) 100%), url("images/yttp/yacht-003.jpg"); background-size: cover; background-position: center;
-}
-.yacht-hero-enhanced::before {
-  content: '';
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background:
-    radial-gradient(ellipse 80% 50% at 20% 80%, rgba(201,169,110,0.08) 0%, transparent 60%),
-    radial-gradient(ellipse 60% 40% at 80% 20%, rgba(255,180,100,0.06) 0%, transparent 50%),
-    radial-gradient(ellipse 100% 60% at 50% 100%, rgba(201,169,110,0.05) 0%, transparent 40%);
-  pointer-events: none;
-}
-.yacht-hero-enhanced::after {
-  content: '';
-  position: absolute;
-  bottom: 0; left: 0; right: 0;
-  height: 200px;
-  background: linear-gradient(to top, var(--dark1), transparent);
-  pointer-events: none;
-}
-/* Animated ocean waves */
-.wave-container {
-  position: absolute;
-  bottom: 0; left: 0; right: 0;
-  height: 180px;
-  overflow: hidden;
-  opacity: 0.15;
-}
-.wave {
-  position: absolute;
-  bottom: -10px;
-  left: -10%;
-  width: 120%;
-  height: 100px;
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120'%3E%3Cpath fill='%23c9a96e' d='M0,60 C200,100 400,20 600,60 C800,100 1000,20 1200,60 L1200,120 L0,120 Z'/%3E%3C/svg%3E") repeat-x;
-  background-size: 600px 100px;
-  animation: wave-move 12s linear infinite;
-}
-.wave:nth-child(2) { bottom: 5px; opacity: 0.5; animation-duration: 9s; animation-delay: -3s; }
-.wave:nth-child(3) { bottom: 15px; opacity: 0.3; animation-duration: 15s; animation-delay: -7s; }
-@keyframes wave-move { from { transform: translateX(0); } to { transform: translateX(-600px); } }
-/* Sun glow */
-.sun-glow {
-  position: absolute;
-  top: 12%; right: 18%;
-  width: 300px; height: 300px;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(255,180,100,0.25) 0%, rgba(255,140,60,0.1) 30%, transparent 70%);
-  filter: blur(40px);
-  animation: sun-pulse 8s ease-in-out infinite alternate;
-}
-@keyframes sun-pulse { from { opacity: 0.6; transform: scale(1); } to { opacity: 1; transform: scale(1.15); } }
-/* Yacht silhouette overlay */
-.yacht-silhouette {
-  position: absolute;
-  bottom: 15%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 700px; height: 160px;
-  opacity: 0.06;
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 700 160'%3E%3Cpath fill='%23c9a96e' d='M50,100 Q100,60 200,65 Q350,75 500,60 Q600,50 650,80 L660,105 Q550,115 350,118 Q150,120 50,115 Z M200,65 L210,45 Q220,30 250,28 L280,32 L275,62 Z M380,68 L395,42 Q410,25 450,24 L485,28 L478,66 Z M520,58 L530,38 L560,36 L565,56 Z'/%3E%3C/svg%3E") no-repeat center;
-  background-size: contain;
-}
-.hero-content { position: relative; z-index: 3; padding: 0 20px; }
-.hero-content h1 { font-family:'Playfair Display',serif; font-size:clamp(42px,6vw,72px); font-weight:800; letter-spacing:4px; margin-bottom:20px; }
-.hero-content .hero-sub { font-size:clamp(14px,1.8vw,20px); color:var(--text-muted); font-weight:300; letter-spacing:3px; max-width:650px; margin:0 auto; }
-.hero-stats { display:flex; justify-content:center; gap:48px; margin-top:40px; flex-wrap:wrap; }
-.hero-stat { text-align:center; }
-.hero-stat-num { font-family:'Playfair Display',serif; font-size:36px; font-weight:700; color:var(--gold); }
-.hero-stat-label { font-size:13px; color:var(--text-dim); margin-top:4px; letter-spacing:1px; }
-
-/* Filter buttons enhanced */
-.yacht-filters { display:flex; gap:12px; flex-wrap:wrap; justify-content:center; margin:0 auto; padding:20px 0; }
-.filter-btn {
-  padding:12px 28px; border-radius:50px; font-size:14px; font-weight:500;
-  background:rgba(255,255,255,0.04); border:1px solid rgba(201,169,110,0.15);
-  color:var(--text-muted); cursor:pointer; transition:all 0.4s cubic-bezier(.4,0,.2,1);
-  letter-spacing:1px; position:relative; overflow:hidden;
-}
-.filter-btn::before { content:''; position:absolute; inset:0; background:linear-gradient(135deg,var(--gold),#e0c080); opacity:0; transition:opacity 0.4s; z-index:-1; border-radius:inherit; }
-.filter-btn:hover { border-color:var(--gold); color:#fff; transform:translateY(-2px); box-shadow:0 8px 30px rgba(201,169,110,0.15); }
-.filter-btn.active { background:linear-gradient(135deg,var(--gold),#dbb87a); color:#0a0e1a; border-color:transparent; font-weight:600; box-shadow:0 8px 32px rgba(201,169,110,0.3); }
-.filter-btn.active:hover { transform:translateY(-2px); box-shadow:0 12px 40px rgba(201,169,110,0.4); }
-
-/* Yachts grid masonry-style */
-.yachts-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(340px,1fr)); gap:28px; }
-@media(max-width:768px){ .yachts-grid{ grid-template-columns:1fr; } }
-
-/* Yacht card enhanced */
-.yacht-card {
-  background:linear-gradient(145deg, rgba(20,26,42,0.9), rgba(12,16,28,0.95));
-  border:1px solid var(--glass-border); border-radius:16px; overflow:hidden;
-  transition:all 0.5s cubic-bezier(.4,0,.2,1);
-  position:relative;
-}
-.yacht-card::before {
-  content:''; position:absolute; inset:0; border-radius:inherit;
-  background:linear-gradient(135deg, rgba(201,169,110,0.05), transparent 60%);
-  opacity:0; transition:opacity 0.5s; pointer-events:none; z-index:1;
-}
-.yacht-card:hover { transform:translateY(-8px); border-color:rgba(201,169,110,0.3); box-shadow:0 20px 60px rgba(0,0,0,0.4), 0 0 40px rgba(201,169,110,0.06); }
-.yacht-card:hover::before { opacity:1; }
-
-.yacht-card-img {
-  position:relative; height:240px; overflow:hidden;
-}
-.img-placeholder {
-  width:100%; height:100%;
-  transition:transform 0.8s cubic-bezier(.4,0,.2,1);
-}
-.yacht-card:hover .img-placeholder { transform:scale(1.06); }
-
-/* Series-specific placeholder gradients */
-.sov-bg-1 { background:linear-gradient(135deg,#0d1a2d 0%,#1a3a5c 30%,#2d1810 70%,#1a0f08 100%); }
-.sov-bg-2 { background:linear-gradient(135deg,#0f1729 0%,#224466 30%,#3d2010 70,#1a1008 100%); }
-.sov-bg-3 { background:linear-gradient(135deg,#101828 0%,#1e3d5a 30%,#352010 70,#1c0f08 100%); }
-.sov-bg-4 { background:linear-gradient(135deg,#0c1622 0,##183552 30%,#301810 70,#180e08 100%); }
-.sov-bg-5 { background:linear-gradient(135deg,#0e1826 0%,#1c4060 30%,#2d1a0e 70,#1a0e08 100%); }
-.sov-bg-6 { background:linear-gradient(135deg,#111929 0%,#203c58 30%,#381e10 70,#1d1008 100%); }
-.sov-bg-7 { background:linear-gradient(135deg,#0d1724 0%,#1a3a56 30,##332010 70,#1b0e08 100%); }
-.sov-bg-8 { background:linear-gradient(135deg,#0f1a28 0%,#1e3e5e 30%,#3a2012 70,#1e1008 100%); }
-
-.exp-bg-1 { background:linear-gradient(135deg,#0a1a1a 0%,#1a3a3a 40%,#2a2510 80%,#151208 100%); }
-.exp-bg-2 { background:linear-gradient(135deg,#0c1c1c 0%,#1e4040 40%,#302a10 80,#161308 100%); }
-.exp-bg-3 { background:linear-gradient(135deg,#0e1e1e 0%,#204646 40%,#362f10 80,#171408 100%); }
-.exp-bg-4 { background:linear-gradient(135deg,#0a1818 0%,#183838 40%,#25200e 80,#141108 100%); }
-.exp-bg-5 { background:linear-gradient(135deg,#0c1c1c 0%,#1c3e3e 40%,#2e2810 80,#161308 100%); }
-.exp-bg-6 { background:linear-gradient(135deg,#0e1e1e 0%,#204242 40%,#322c10 80,#171408 100%); }
-.exp-bg-7 { background:linear-gradient(135deg,#0a1a1a 0%,#1a3a3a 40%,#2a2510 80,#151208 100%); }
-.exp-bg-8 { background:linear-gradient(135deg,#0c1c1c 0%,#1e4040 40%,#302a10 80,#161308 100%); }
-
-.fly-bg-1 { background:linear-gradient(135deg,#1a1028 0%,#3a2060 40%,#4a3010 80,#200e08 100%); }
-.fly-bg-2 { background:linear-gradient(135deg,#1c1230 0%,#402268 40%,#503410 82,#221008 100%); }
-.fly-bg-3 { background:linear-gradient(135deg,#180e28 0%,#381e58 40%,#482e10 80,#1f0e08 100%); }
-.fly-bg-4 { background:linear-gradient(135deg,#1a1030 0%,#3c2060 40%,#4c3210 82,#211008 100%); }
-.fly-bg-5 { background:linear-gradient(135deg,#160e26 0,##361c56 40%,#462c10 80,#1e0e08 100%); }
-.fly-bg-6 { background:linear-gradient(135deg,#181228 0,##3a1e5a 40%,#4a2e10 80,#200e08 100%); }
-.fly-bg-7 { background:linear-gradient(135deg,#141024 0,#341a54 40%,#442a10 80,#1d0e08 100%); }
-.fly-bg-8 { background:linear-gradient(135deg,#1a1028 0,#3a2060 40,#4a3010 80,#200e08 100%); }
-
-.cru-bg-1 { background:linear-gradient(135deg,#0a2040 0%,#1a5080 50%,#c9a96e 100%); }
-.cru-bg-2 { background:linear-gradient(135deg,#0c2250 0%,#1e6090 50%,#d4b47a 100%); }
-.cru-bg-3 { background:linear-gradient(135deg,#0e1e48 0%,#1c5878 50%,#c09a60 100%); }
-.cru-bg-4 { background:linear-gradient(135deg,#081c38 0,#185868 50%,#b89058 100%); }
-.cru-bg-5 { background:linear-gradient(135deg,#0a2040 0,#1a5080 50%,#c9a96e 100%); }
-.cru-bg-6 { background:linear-gradient(135deg,#0c2250 0,#1e6090 50%,#d4b47a 100%); }
-.cru-bg-7 { background:linear-gradient(135deg,#0e1e48 0,#1c5878 50%,#c09a60 100%); }
-.cru-bg-8 { background:linear-gradient(135deg,#081c38 0,#185868 50%,#b89058 100%); }
-
-/* Placeholder inner pattern for yacht feel */
-.img-placeholder::after {
-  content:''; position:absolute; inset:0;
-  background:
-    repeating-linear-gradient(90deg, transparent, transparent 60px, rgba(255,255,255,0.02) 60px, rgba(255,255,255,0.02) 61px),
-    repeating-linear-gradient(0deg, transparent, transparent 40px, rgba(255,255,255,0.015) 40px, rgba(255,255,255,0.015) 41px);
-}
-
-.yacht-card-badge {
-  position:absolute; top:14px; left:14px;
-  padding:5px 14px; border-radius:20px; font-size:11px; font-weight:600;
-  letter-spacing:1px; z-index:2;
-  backdrop-filter:blur(10px);
-}
-.badge-sov { background:linear-gradient(135deg,rgba(201,169,110,0.2),rgba(201,169,110,0.05)); border:1px solid rgba(201,169,110,0.3); color:var(--gold); }
-.badge-exp { background:linear-gradient(135deg,rgba(100,200,200,0.15),rgba(100,200,200,0.03)); border:1px solid rgba(100,200,200,0.25); color:#64c8c8; }
-.badge-fly { background:linear-gradient(135deg,rgba(180,140,220,0.15),rgba(180,140,220,0.03)); border:1px solid rgba(180,140,220,0.25); color:#b4b8dc; }
-.badge-cru { background:linear-gradient(135deg,rgba(80,180,240,0.15),rgba(80,180,240,0.03)); border:1px solid rgba(80,180,240,0.25); color:#50b4f0; }
-
-.yacht-card-body { padding:24px; position:relative; z-index:2; }
-.yacht-card-body h3 { font-family:'Playfair Display',serif; font-size:20px; font-weight:700; margin-bottom:4px; color:#fff; }
-.yacht-en { font-size:12px; color:var(--text-dim); margin-bottom:14px; letter-spacing:0.5px; }
-
-.yacht-specs { display:flex; gap:16px; margin-bottom:14px; }
-.yacht-spec { text-align:center; flex:1; padding:10px 4px; background:rgba(255,255,255,0.02); border-radius:10px; border:1px solid rgba(255,255,255,0.04); }
-.yacht-spec-val { font-size:18px; font-weight:700; color:var(--gold); font-family:'Playfair Display',serif; }
-.yacht-spec-label { font-size:10px; color:var(--text-dim); margin-top:2px; letter-spacing:1px; text-transform:uppercase; }
-
-.yacht-desc { font-size:13px; color:var(--text-muted); line-height:1.6; margin:14px 0; min-height:42px; }
-
-.yacht-card-footer { display:flex; justify-content:space-between; align-items:center; margin-top:16px; padding-top:16px; border-top:1px solid rgba(255,255,255,0.04); }
-.yacht-price { font-size:17px; font-weight:700; color:var(--gold); font-family:'Playfair Display',serif; }
-.yacht-detail-btn {
-  font-size:13px; color:var(--gold); text-decoration:none; font-weight:500;
-  padding:8px 20px; border:1px solid rgba(201,169,110,0.3); border-radius:20px;
-  transition:all 0.3s; letter-spacing:0.5px;
-}
-.yacht-detail-btn:hover { background:var(--gold); color:#0a0e1a; border-color:var(--gold); }
-
-/* CTA section */
-.cta-section { padding:100px 0; text-align:center; background:var(--dark2); border-top:1px solid var(--glass-border); position:relative; overflow:hidden; }
-.cta-section::before { content:''; position:absolute; inset:0; background:radial-gradient(ellipse at center, rgba(201,169,110,0.04), transparent 70%); }
-
-/* Animation for reveal */
-.yacht-card.revealed { animation:card-in 0.6s ease forwards; }
-@keyframes card-in { from { opacity:0; transform:translateY(30px); } to { opacity:1; transform:translateY(0); } }
-</style>
-  <link rel="icon" type="image/svg+xml" href="favicon.svg"/></head><body>
-<div id="loader"><div class="brand" data-i18n="yachts.1">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div><div class="progress-text" data-i18n="yachts.2">LOADING</div></div>
-<div class="cursor-follower" id="cursor"></div>
+<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+</head><body>
+<div id="loader"><div class="brand">FANTASTIC VACATION</div></div>
 <nav id="navbar">
 <div class="nav-inner">
 <!-- Logo -->
@@ -303,7 +141,7 @@
 <circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path>
 </svg>
 </button>
-<button class="lang-switch-btn" id="langSwitchBtn" title="Switch Language">EN</button>
+<a class="lang-switch-btn" href="en/index.html" title="English Version">EN</a>
 <button class="nav-dark-toggle" id="darkToggle" onclick="toggleDarkMode()" title="深色模式">
 <svg class="icon-moon" fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18">
 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
@@ -382,697 +220,422 @@
 <span>邮箱：hs@fantastic-vacation.com</span>
 </div>
 </div>
-<section class="yacht-hero-enhanced">
-<div class="sun-glow"></div>
-<div class="yacht-silhouette"></div>
-<div class="wave-container"><div class="wave"></div><div class="wave"></div><div class="wave"></div></div>
-<div class="hero-content">
-<h1 data-i18n="yachts.33"><span class="gold-gradient" data-i18n="yachts.34">游艇产品</span></h1>
-<p class="hero-sub" data-i18n="yachts.35">从入门到顶奢的全谱系覆盖</p>
-<div class="hero-stats">
-<div class="hero-stat"><div class="hero-stat-num">4</div><div class="hero-stat-label" data-i18n="yachts.36">核心系列</div></div>
-<div class="hero-stat"><div class="hero-stat-num" data-i18n="yachts.267">32</div><div class="hero-stat-label" data-i18n="yachts.37">船型款式</div></div>
-<div class="hero-stat"><div class="hero-stat-num" data-i18n="yachts.270">10-120<span data-i18n="yachts.38" style="font-size:18px">M</span></div><div class="hero-stat-label" data-i18n="yachts.39">尺寸跨度</div></div>
-</div>
+<section class="fleet-hero">
+<div class="fleet-hero-content reveal">
+<div class="hero-badge" style="opacity:1;animation:none">✦ OUR FLEET ✦</div>
+<h1 class="gold-gradient">全系游艇</h1>
+<p>从18米日间巡航到120米超级游艇<br/>覆盖全谱系的豪华游艇产品矩阵</p>
 </div>
 </section>
-<!-- ===== FILTER BUTTONS ===== -->
-<section class="section-padding" style="padding-top:60px;padding-bottom:40px;background:var(--dark1)">
-<div class="container">
-<div class="yacht-filters reveal">
-<button class="filter-btn active" data-filter="all" data-i18n="yachts.40">全部系列</button>
-<button class="filter-btn" data-filter="sovereign" data-i18n="yachts.41">君临系列 45-120M</button>
-<button class="filter-btn" data-filter="expedition" data-i18n="yachts.42">远征系列 35-68M</button>
-<button class="filter-btn" data-filter="flybridge" data-i18n="yachts.43">飞桥系列 18-45M</button>
-<button class="filter-btn" data-filter="cruiser" data-i18n="yachts.44">日间系列 10-24M</button>
-</div>
-</div>
-</section>
-<!-- ===== 32 YACHTS GRID ===== -->
-<section style="padding-bottom:100px;background:var(--dark1)">
-<div class="container">
-<div class="yachts-grid">
-<div class="yacht-card reveal" data-series="sovereign">
-<div class="yacht-card-img"><img alt="君临120 旗舰版" data-i18n-attr="alt:_alt.yachts.0" src="images/yttp/yacht-001.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-sov" data-i18n="yachts.45">君临系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.46">龙腾四海</h3>
-<p class="yacht-en" data-i18n="yachts.306">FH-120 · 120m · 跨洋旗舰 · 东方美学定制超级</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.47">120m</div><div class="yacht-spec-label" data-i18n="yachts.48">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.310">36</div><div class="yacht-spec-label" data-i18n="yachts.49">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.50">18kn</div><div class="yacht-spec-label" data-i18n="yachts.51">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.315">¥8000万起</span><a class="yacht-detail-btn" data-i18n="yachts.52" href="yacht-1.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="sovereign">
-<div class="yacht-card-img"><img alt="君临110 至尊版" data-i18n-attr="alt:_alt.yachts.1" src="images/yttp/yacht-009.png" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-sov" data-i18n="yachts.53">君临系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.54">凤舞九天</h3>
-<p class="yacht-en" data-i18n="yachts.326">FH-110 · 110m · 远洋至尊 · 全球航行海上宫殿</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.55">110m</div><div class="yacht-spec-label" data-i18n="yachts.56">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.330">32</div><div class="yacht-spec-label" data-i18n="yachts.57">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.58">17kn</div><div class="yacht-spec-label" data-i18n="yachts.59">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.335">¥6500万起</span><a class="yacht-detail-btn" data-i18n="yachts.60" href="yacht-2.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="sovereign">
-<div class="yacht-card-img"><img alt="君临100 典藏版" data-i18n-attr="alt:_alt.yachts.2" src="images/yttp/yacht-017.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-sov" data-i18n="yachts.61">君临系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.62">御风而行</h3>
-<p class="yacht-en" data-i18n="yachts.346">FH-100 · 100m · 百年典藏 · 传承级超级游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.63">100m</div><div class="yacht-spec-label" data-i18n="yachts.64">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.350">28</div><div class="yacht-spec-label" data-i18n="yachts.65">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.66">18kn</div><div class="yacht-spec-label" data-i18n="yachts.67">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.355">¥5000万起</span><a class="yacht-detail-btn" data-i18n="yachts.68" href="yacht-3.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="sovereign">
-<div class="yacht-card-img"><img alt="君临92 领航版" data-i18n-attr="alt:_alt.yachts.3" src="images/yttp/yacht-025.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-sov" data-i18n="yachts.69">君临系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.70">鲲鹏展翅</h3>
-<p class="yacht-en" data-i18n="yachts.366">FH-92 · 92m · 领航旗舰 · 极致尊享跨洋行宫</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.71">92m</div><div class="yacht-spec-label" data-i18n="yachts.72">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.370">24</div><div class="yacht-spec-label" data-i18n="yachts.73">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.74">17kn</div><div class="yacht-spec-label" data-i18n="yachts.75">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.375">¥4200万起</span><a class="yacht-detail-btn" data-i18n="yachts.76" href="yacht-4.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="sovereign">
-<div class="yacht-card-img"><img alt="君临85 王者版" data-i18n-attr="alt:_alt.yachts.4" src="images/yttp/yacht-033.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-sov" data-i18n="yachts.77">君临系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.78">天子驾临</h3>
-<p class="yacht-en" data-i18n="yachts.386">FH-85 · 85m · 王者风范 · 私人定制超级游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.79">85m</div><div class="yacht-spec-label" data-i18n="yachts.80">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.390">20</div><div class="yacht-spec-label" data-i18n="yachts.81">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.82">16kn</div><div class="yacht-spec-label" data-i18n="yachts.83">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.395">¥3500万起</span><a class="yacht-detail-btn" data-i18n="yachts.84" href="yacht-5.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="sovereign">
-<div class="yacht-card-img"><img alt="君临78 御风版" data-i18n-attr="alt:_alt.yachts.5" src="images/yttp/yacht-041.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-sov" data-i18n="yachts.85">君临系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.86">帝梦星河</h3>
-<p class="yacht-en" data-i18n="yachts.406">FH-78 · 78m · 御风远航 · 东方奢华跨洋旗舰</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.87">78m</div><div class="yacht-spec-label" data-i18n="yachts.88">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.410">18</div><div class="yacht-spec-label" data-i18n="yachts.89">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.90">16kn</div><div class="yacht-spec-label" data-i18n="yachts.91">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.415">¥2800万起</span><a class="yacht-detail-btn" data-i18n="yachts.92" href="yacht-6.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="sovereign">
-<div class="yacht-card-img"><img alt="君临70 帝王版" data-i18n-attr="alt:_alt.yachts.6" src="images/yttp/yacht-049.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-sov" data-i18n="yachts.93">君临系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.94">皇极天枢</h3>
-<p class="yacht-en" data-i18n="yachts.426">FH-70 · 70m · 帝王之选 · 无限航区旗舰游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.95">70m</div><div class="yacht-spec-label" data-i18n="yachts.96">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.430">16</div><div class="yacht-spec-label" data-i18n="yachts.97">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.98">15kn</div><div class="yacht-spec-label" data-i18n="yachts.99">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.435">¥2200万起</span><a class="yacht-detail-btn" data-i18n="yachts.100" href="yacht-7.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="sovereign">
-<div class="yacht-card-img"><img alt="君临62 精英版" data-i18n-attr="alt:_alt.yachts.7" src="images/yttp/yacht-057.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-sov" data-i18n="yachts.101">君临系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.102">金阙凌云</h3>
-<p class="yacht-en" data-i18n="yachts.446">FH-62 · 62m · 精英旗舰 · 尊享级远航游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.103">62m</div><div class="yacht-spec-label" data-i18n="yachts.104">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.450">14</div><div class="yacht-spec-label" data-i18n="yachts.105">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.106">15kn</div><div class="yacht-spec-label" data-i18n="yachts.107">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.455">¥1600万起</span><a class="yacht-detail-btn" data-i18n="yachts.108" href="yacht-8.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="sovereign">
-<div class="yacht-card-img"><img alt="君临55 荣耀版" data-i18n-attr="alt:_alt.yachts.8" src="images/yttp/yacht-065.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-sov" data-i18n="yachts.109">君临系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.110">瀚海明月</h3>
-<p class="yacht-en" data-i18n="yachts.466">FH-55 · 55m · 荣耀远航 · 跨洋级豪华游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.111">55m</div><div class="yacht-spec-label" data-i18n="yachts.112">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.470">12</div><div class="yacht-spec-label" data-i18n="yachts.113">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.114">14kn</div><div class="yacht-spec-label" data-i18n="yachts.115">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.475">¥1200万起</span><a class="yacht-detail-btn" data-i18n="yachts.116" href="yacht-9.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="sovereign">
-<div class="yacht-card-img"><img alt="君临50 尊享版" data-i18n-attr="alt:_alt.yachts.9" src="images/yttp/yacht-073.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-sov" data-i18n="yachts.117">君临系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.118">紫禁祥云</h3>
-<p class="yacht-en" data-i18n="yachts.486">FH-50 · 50m · 尊享旗舰 · 私密级定制游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.119">50m</div><div class="yacht-spec-label" data-i18n="yachts.120">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.490">12</div><div class="yacht-spec-label" data-i18n="yachts.121">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.122">14kn</div><div class="yacht-spec-label" data-i18n="yachts.123">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.495">¥900万起</span><a class="yacht-detail-btn" data-i18n="yachts.124" href="yacht-10.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="sovereign">
-<div class="yacht-card-img"><img alt="君临48 传承版" data-i18n-attr="alt:_alt.yachts.10" src="images/yttp/yacht-081.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-sov" data-i18n="yachts.125">君临系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.126">天命归元</h3>
-<p class="yacht-en" data-i18n="yachts.506">FH-48 · 48m · 传承经典 · 典藏级远洋游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.127">48m</div><div class="yacht-spec-label" data-i18n="yachts.128">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.510">10</div><div class="yacht-spec-label" data-i18n="yachts.129">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.130">15kn</div><div class="yacht-spec-label" data-i18n="yachts.131">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.515">¥780万起</span><a class="yacht-detail-btn" data-i18n="yachts.132" href="yacht-11.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="sovereign">
-<div class="yacht-card-img"><img alt="君临45 典雅版" data-i18n-attr="alt:_alt.yachts.11" src="images/yttp/yacht-089.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-sov" data-i18n="yachts.133">君临系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.134">九五至尊</h3>
-<p class="yacht-en" data-i18n="yachts.526">FH-45 · 45m · 典雅旗舰 · 高端定制级游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.135">45m</div><div class="yacht-spec-label" data-i18n="yachts.136">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.530">10</div><div class="yacht-spec-label" data-i18n="yachts.137">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.138">14kn</div><div class="yacht-spec-label" data-i18n="yachts.139">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.535">¥650万起</span><a class="yacht-detail-btn" data-i18n="yachts.140" href="yacht-12.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="expedition">
-<div class="yacht-card-img"><img alt="远征68 极地王" data-i18n-attr="alt:_alt.yachts.12" src="images/yttp/yacht-097.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-exp" data-i18n="yachts.141">远征系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.142">破冰逐浪</h3>
-<p class="yacht-en" data-i18n="yachts.546">FH-68 · 68m · 极地远征 · 冰区航行探险旗舰</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.143">68m</div><div class="yacht-spec-label" data-i18n="yachts.144">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.550">16</div><div class="yacht-spec-label" data-i18n="yachts.145">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.146">15kn</div><div class="yacht-spec-label" data-i18n="yachts.147">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.555">¥2400万起</span><a class="yacht-detail-btn" data-i18n="yachts.148" href="yacht-13.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="expedition">
-<div class="yacht-card-img"><img alt="远征60 深海王" data-i18n-attr="alt:_alt.yachts.13" src="images/yttp/yacht-105.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-exp" data-i18n="yachts.149">远征系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.150">深海猎鹰</h3>
-<p class="yacht-en" data-i18n="yachts.566">FH-60 · 60m · 深海巡航 · 远洋科考探险游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.151">60m</div><div class="yacht-spec-label" data-i18n="yachts.152">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.570">14</div><div class="yacht-spec-label" data-i18n="yachts.153">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.154">14kn</div><div class="yacht-spec-label" data-i18n="yachts.155">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.575">¥1800万起</span><a class="yacht-detail-btn" data-i18n="yachts.156" href="yacht-14.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="expedition">
-<div class="yacht-card-img"><img alt="远征55 航海家" data-i18n-attr="alt:_alt.yachts.14" src="images/yttp/yacht-113.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-exp" data-i18n="yachts.157">远征系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.158">星辰大海</h3>
-<p class="yacht-en" data-i18n="yachts.586">FH-55 · 55m · 环球航海 · 无畏探险远航游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.159">55m</div><div class="yacht-spec-label" data-i18n="yachts.160">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.590">12</div><div class="yacht-spec-label" data-i18n="yachts.161">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.162">14kn</div><div class="yacht-spec-label" data-i18n="yachts.163">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.595">¥1400万起</span><a class="yacht-detail-btn" data-i18n="yachts.164" href="yacht-15.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="expedition">
-<div class="yacht-card-img"><img alt="远征48 探险家" data-i18n-attr="alt:_alt.yachts.15" src="images/yttp/yacht-121.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-exp" data-i18n="yachts.165">远征系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.166">天涯行者</h3>
-<p class="yacht-en" data-i18n="yachts.606">FH-48 · 48m · 远洋探索 · 极限探险豪华游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.167">48m</div><div class="yacht-spec-label" data-i18n="yachts.168">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.610">12</div><div class="yacht-spec-label" data-i18n="yachts.169">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.170">13kn</div><div class="yacht-spec-label" data-i18n="yachts.171">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.615">¥1000万起</span><a class="yacht-detail-btn" data-i18n="yachts.172" href="yacht-16.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="expedition">
-<div class="yacht-card-img"><img alt="远征42 自由号" data-i18n-attr="alt:_alt.yachts.16" src="images/yttp/yacht-129.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-exp" data-i18n="yachts.173">远征系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.174">自由之翼</h3>
-<p class="yacht-en" data-i18n="yachts.626">FH-42 · 42m · 远航自由 · 无拘探索巡航游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.175">42m</div><div class="yacht-spec-label" data-i18n="yachts.176">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.630">10</div><div class="yacht-spec-label" data-i18n="yachts.177">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.178">13kn</div><div class="yacht-spec-label" data-i18n="yachts.179">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.635">¥720万起</span><a class="yacht-detail-btn" data-i18n="yachts.180" href="yacht-17.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="expedition">
-<div class="yacht-card-img"><img alt="远征38 航行者" data-i18n-attr="alt:_alt.yachts.17" src="images/yttp/yacht-137.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-exp" data-i18n="yachts.181">远征系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.182">极光猎手</h3>
-<p class="yacht-en" data-i18n="yachts.646">FH-38 · 38m · 极光追踪 · 北极探险专属游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.183">38m</div><div class="yacht-spec-label" data-i18n="yachts.184">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.650">10</div><div class="yacht-spec-label" data-i18n="yachts.185">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.186">14kn</div><div class="yacht-spec-label" data-i18n="yachts.187">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.655">¥560万起</span><a class="yacht-detail-btn" data-i18n="yachts.188" href="yacht-18.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="expedition">
-<div class="yacht-card-img"><img alt="远征35 挑战者" data-i18n-attr="alt:_alt.yachts.18" src="images/yttp/yacht-145.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-exp" data-i18n="yachts.189">远征系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.190">暴风骑士</h3>
-<p class="yacht-en" data-i18n="yachts.666">FH-35 · 35m · 风暴挑战 · 全天候远征游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.191">35m</div><div class="yacht-spec-label" data-i18n="yachts.192">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">8</div><div class="yacht-spec-label" data-i18n="yachts.193">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.194">14kn</div><div class="yacht-spec-label" data-i18n="yachts.195">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.675">¥420万起</span><a class="yacht-detail-btn" data-i18n="yachts.196" href="yacht-19.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="expedition">
-<div class="yacht-card-img"><img alt="远征40 先锋号" data-i18n-attr="alt:_alt.yachts.19" src="images/yttp/yacht-153.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-exp" data-i18n="yachts.197">远征系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.198">先锋开拓</h3>
-<p class="yacht-en" data-i18n="yachts.686">FH-40 · 40m · 开辟新航 · 探险级远征旗舰</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.199">40m</div><div class="yacht-spec-label" data-i18n="yachts.200">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.690">10</div><div class="yacht-spec-label" data-i18n="yachts.201">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.202">13kn</div><div class="yacht-spec-label" data-i18n="yachts.203">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.695">¥640万起</span><a class="yacht-detail-btn" data-i18n="yachts.204" href="yacht-20.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="expedition">
-<div class="yacht-card-img"><img alt="远征44 远航版" data-i18n-attr="alt:_alt.yachts.20" src="images/yttp/yacht-161.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-exp" data-i18n="yachts.205">远征系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.206">沧海横流</h3>
-<p class="yacht-en" data-i18n="yachts.706">FH-44 · 44m · 远航开拓 · 大洋巡航游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.207">44m</div><div class="yacht-spec-label" data-i18n="yachts.208">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.710">10</div><div class="yacht-spec-label" data-i18n="yachts.209">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.210">13kn</div><div class="yacht-spec-label" data-i18n="yachts.211">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.715">¥800万起</span><a class="yacht-detail-btn" data-i18n="yachts.212" href="yacht-21.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="expedition">
-<div class="yacht-card-img"><img alt="远征52 开拓版" data-i18n-attr="alt:_alt.yachts.21" src="images/yttp/yacht-169.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-exp" data-i18n="yachts.213">远征系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.214">北斗领航</h3>
-<p class="yacht-en" data-i18n="yachts.726">FH-52 · 52m · 星空导航 · 远征级豪华游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.215">52m</div><div class="yacht-spec-label" data-i18n="yachts.216">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.730">12</div><div class="yacht-spec-label" data-i18n="yachts.217">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.218">14kn</div><div class="yacht-spec-label" data-i18n="yachts.219">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.735">¥1100万起</span><a class="yacht-detail-btn" data-i18n="yachts.220" href="yacht-22.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="expedition">
-<div class="yacht-card-img"><img alt="远征46 探索版" data-i18n-attr="alt:_alt.yachts.22" src="images/yttp/yacht-177.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-exp" data-i18n="yachts.221">远征系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.222">深渊之眼</h3>
-<p class="yacht-en" data-i18n="yachts.746">FH-46 · 46m · 深海探秘 · 科考级探险游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.223">46m</div><div class="yacht-spec-label" data-i18n="yachts.224">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.750">10</div><div class="yacht-spec-label" data-i18n="yachts.225">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.226">13kn</div><div class="yacht-spec-label" data-i18n="yachts.227">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.755">¥760万起</span><a class="yacht-detail-btn" data-i18n="yachts.228" href="yacht-23.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="expedition">
-<div class="yacht-card-img"><img alt="远征50 发现号" data-i18n-attr="alt:_alt.yachts.23" src="images/yttp/yacht-185.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-exp" data-i18n="yachts.229">远征系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.230">发现新大陆</h3>
-<p class="yacht-en" data-i18n="yachts.766">FH-50 · 50m · 发现之旅 · 环球探险游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.231">50m</div><div class="yacht-spec-label" data-i18n="yachts.232">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.770">12</div><div class="yacht-spec-label" data-i18n="yachts.233">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.234">14kn</div><div class="yacht-spec-label" data-i18n="yachts.235">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.775">¥950万起</span><a class="yacht-detail-btn" data-i18n="yachts.236" href="yacht-24.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="flybridge">
-<div class="yacht-card-img"><img alt="飞桥45 派对王" data-i18n-attr="alt:_alt.yachts.24" src="images/yttp/yacht-193.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-fly" data-i18n="yachts.237">飞桥系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.238">派对之王</h3>
-<p class="yacht-en" data-i18n="yachts.786">FH-45 · 45m · 海上盛宴 · 超级派对飞桥游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.239">45m</div><div class="yacht-spec-label" data-i18n="yachts.240">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.790">10</div><div class="yacht-spec-label" data-i18n="yachts.241">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.242">14kn</div><div class="yacht-spec-label" data-i18n="yachts.243">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.795">¥620万起</span><a class="yacht-detail-btn" data-i18n="yachts.244" href="yacht-25.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="flybridge">
-<div class="yacht-card-img"><img alt="飞桥38 海风号" data-i18n-attr="alt:_alt.yachts.25" src="images/yttp/yacht-201.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-fly" data-i18n="yachts.245">飞桥系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.246">海风轻拂</h3>
-<p class="yacht-en" data-i18n="yachts.806">FH-38 · 38m · 悠闲巡游 · 地中海风情飞桥游</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.247">38m</div><div class="yacht-spec-label" data-i18n="yachts.248">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.810">10</div><div class="yacht-spec-label" data-i18n="yachts.249">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.250">15kn</div><div class="yacht-spec-label" data-i18n="yachts.251">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.815">¥450万起</span><a class="yacht-detail-btn" data-i18n="yachts.252" href="yacht-26.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="flybridge">
-<div class="yacht-card-img"><img alt="飞桥32 逸享版" data-i18n-attr="alt:_alt.yachts.26" src="images/yttp/yacht-209.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-fly" data-i18n="yachts.253">飞桥系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.254">逸享时光</h3>
-<p class="yacht-en" data-i18n="yachts.826">FH-32 · 32m · 慢享生活 · 休闲飞桥豪华游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.255">32m</div><div class="yacht-spec-label" data-i18n="yachts.256">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">8</div><div class="yacht-spec-label" data-i18n="yachts.257">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.258">16kn</div><div class="yacht-spec-label" data-i18n="yachts.259">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.835">¥320万起</span><a class="yacht-detail-btn" data-i18n="yachts.260" href="yacht-27.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="flybridge">
-<div class="yacht-card-img"><img alt="飞桥28 城市号" data-i18n-attr="alt:_alt.yachts.27" src="images/yttp/yacht-217.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-fly" data-i18n="yachts.261">飞桥系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.262">城市之光</h3>
-<p class="yacht-en" data-i18n="yachts.846">FH-28 · 28m · 都市巡航 · 港湾飞桥轻奢游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.263">28m</div><div class="yacht-spec-label" data-i18n="yachts.264">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">8</div><div class="yacht-spec-label" data-i18n="yachts.265">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.266">18kn</div><div class="yacht-spec-label" data-i18n="yachts.267">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.855">¥220万起</span><a class="yacht-detail-btn" data-i18n="yachts.268" href="yacht-28.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="flybridge">
-<div class="yacht-card-img"><img alt="飞桥25 极光号" data-i18n-attr="alt:_alt.yachts.28" src="images/yttp/yacht-225.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-fly" data-i18n="yachts.269">飞桥系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.270">极光之舞</h3>
-<p class="yacht-en" data-i18n="yachts.866">FH-25 · 25m · 北欧风情 · 极地飞桥游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.271">25m</div><div class="yacht-spec-label" data-i18n="yachts.272">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">6</div><div class="yacht-spec-label" data-i18n="yachts.273">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.274">20kn</div><div class="yacht-spec-label" data-i18n="yachts.275">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.875">¥160万起</span><a class="yacht-detail-btn" data-i18n="yachts.276" href="yacht-29.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="flybridge">
-<div class="yacht-card-img"><img alt="飞桥22 优雅号" data-i18n-attr="alt:_alt.yachts.29" src="images/yttp/yacht-233.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-fly" data-i18n="yachts.277">飞桥系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.278">优雅之境</h3>
-<p class="yacht-en" data-i18n="yachts.886">FH-22 · 22m · 绅士品味 · 经典飞桥游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.279">22m</div><div class="yacht-spec-label" data-i18n="yachts.280">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">6</div><div class="yacht-spec-label" data-i18n="yachts.281">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.282">22kn</div><div class="yacht-spec-label" data-i18n="yachts.283">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.895">¥110万起</span><a class="yacht-detail-btn" data-i18n="yachts.284" href="yacht-30.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="flybridge">
-<div class="yacht-card-img"><img alt="飞桥20 灵动号" data-i18n-attr="alt:_alt.yachts.30" src="images/yttp/yacht-241.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-fly" data-i18n="yachts.285">飞桥系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.286">灵动之翼</h3>
-<p class="yacht-en" data-i18n="yachts.906">FH-20 · 20m · 灵活驾控 · 运动飞桥游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.287">20m</div><div class="yacht-spec-label" data-i18n="yachts.288">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">6</div><div class="yacht-spec-label" data-i18n="yachts.289">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.290">24kn</div><div class="yacht-spec-label" data-i18n="yachts.291">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.915">¥80万起</span><a class="yacht-detail-btn" data-i18n="yachts.292" href="yacht-31.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="flybridge">
-<div class="yacht-card-img"><img alt="飞桥18 清风号" data-i18n-attr="alt:_alt.yachts.31" src="images/yttp/yacht-249.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-fly" data-i18n="yachts.293">飞桥系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.294">清风明月</h3>
-<p class="yacht-en" data-i18n="yachts.926">FH-18 · 18m · 东方诗意 · 休闲飞桥游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.295">18m</div><div class="yacht-spec-label" data-i18n="yachts.296">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">4</div><div class="yacht-spec-label" data-i18n="yachts.297">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.298">26kn</div><div class="yacht-spec-label" data-i18n="yachts.299">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.935">¥55万起</span><a class="yacht-detail-btn" data-i18n="yachts.300" href="yacht-32.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="flybridge">
-<div class="yacht-card-img"><img alt="飞桥42 星辉版" data-i18n-attr="alt:_alt.yachts.32" src="images/yttp/yacht-257.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-fly" data-i18n="yachts.301">飞桥系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.302">星河璀璨</h3>
-<p class="yacht-en" data-i18n="yachts.946">FH-42 · 42m · 星光航线 · 豪华飞桥游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.303">42m</div><div class="yacht-spec-label" data-i18n="yachts.304">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.950">10</div><div class="yacht-spec-label" data-i18n="yachts.305">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.306">15kn</div><div class="yacht-spec-label" data-i18n="yachts.307">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.955">¥560万起</span><a class="yacht-detail-btn" data-i18n="yachts.308" href="yacht-33.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="flybridge">
-<div class="yacht-card-img"><img alt="飞桥35 碧海版" data-i18n-attr="alt:_alt.yachts.33" src="images/yttp/yacht-265.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-fly" data-i18n="yachts.309">飞桥系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.310">碧海银沙</h3>
-<p class="yacht-en" data-i18n="yachts.966">FH-35 · 35m · 热带天堂 · 度假飞桥游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.311">35m</div><div class="yacht-spec-label" data-i18n="yachts.312">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">8</div><div class="yacht-spec-label" data-i18n="yachts.313">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.314">16kn</div><div class="yacht-spec-label" data-i18n="yachts.315">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.975">¥360万起</span><a class="yacht-detail-btn" data-i18n="yachts.316" href="yacht-34.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="flybridge">
-<div class="yacht-card-img"><img alt="飞桥30 悦航版" data-i18n-attr="alt:_alt.yachts.34" src="images/yttp/yacht-273.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-fly" data-i18n="yachts.317">飞桥系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.318">悦航人生</h3>
-<p class="yacht-en" data-i18n="yachts.986">FH-30 · 30m · 人生悦享 · 舒适飞桥游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.319">30m</div><div class="yacht-spec-label" data-i18n="yachts.320">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">8</div><div class="yacht-spec-label" data-i18n="yachts.321">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.322">18kn</div><div class="yacht-spec-label" data-i18n="yachts.323">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.995">¥260万起</span><a class="yacht-detail-btn" data-i18n="yachts.324" href="yacht-35.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="flybridge">
-<div class="yacht-card-img"><img alt="飞桥24 翡翠号" data-i18n-attr="alt:_alt.yachts.35" src="images/yttp/yacht-281.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-fly" data-i18n="yachts.325">飞桥系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.326">翡翠海湾</h3>
-<p class="yacht-en" data-i18n="yachts.1006">FH-24 · 24m · 翡翠航线 · 轻奢飞桥游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.327">24m</div><div class="yacht-spec-label" data-i18n="yachts.328">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">6</div><div class="yacht-spec-label" data-i18n="yachts.329">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.330">20kn</div><div class="yacht-spec-label" data-i18n="yachts.331">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.1015">¥130万起</span><a class="yacht-detail-btn" data-i18n="yachts.332" href="yacht-36.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="flybridge">
-<div class="yacht-card-img"><img alt="飞桥27 晨曦号" data-i18n-attr="alt:_alt.yachts.36" src="images/yttp/yacht-289.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-fly" data-i18n="yachts.333">飞桥系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.334">晨曦之光</h3>
-<p class="yacht-en" data-i18n="yachts.1026">FH-27 · 27m · 日出巡航 · 晨间飞桥游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.335">27m</div><div class="yacht-spec-label" data-i18n="yachts.336">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">8</div><div class="yacht-spec-label" data-i18n="yachts.337">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.338">19kn</div><div class="yacht-spec-label" data-i18n="yachts.339">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.1035">¥190万起</span><a class="yacht-detail-btn" data-i18n="yachts.340" href="yacht-37.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="cruiser">
-<div class="yacht-card-img"><img alt="日间18 运动王" data-i18n-attr="alt:_alt.yachts.37" src="images/yttp/yacht-297.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-cru" data-i18n="yachts.341">日间系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.342">疾风闪电</h3>
-<p class="yacht-en" data-i18n="yachts.1046">FH-18 · 18m · 极速运动 · 竞速级日间游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.343">18m</div><div class="yacht-spec-label" data-i18n="yachts.344">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">4</div><div class="yacht-spec-label" data-i18n="yachts.345">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.346">28kn</div><div class="yacht-spec-label" data-i18n="yachts.347">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.1055">¥48万起</span><a class="yacht-detail-btn" data-i18n="yachts.348" href="yacht-38.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="cruiser">
-<div class="yacht-card-img"><img alt="日间15 竞速号" data-i18n-attr="alt:_alt.yachts.38" src="images/yttp/yacht-305.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-cru" data-i18n="yachts.349">日间系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.350">烈焰飞驰</h3>
-<p class="yacht-en" data-i18n="yachts.1066">FH-15 · 15m · 速度与激情 · 竞速运动游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.351">15m</div><div class="yacht-spec-label" data-i18n="yachts.352">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">4</div><div class="yacht-spec-label" data-i18n="yachts.353">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.354">32kn</div><div class="yacht-spec-label" data-i18n="yachts.355">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.1075">¥32万起</span><a class="yacht-detail-btn" data-i18n="yachts.356" href="yacht-39.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="cruiser">
-<div class="yacht-card-img"><img alt="日间13 飞鱼号" data-i18n-attr="alt:_alt.yachts.39" src="images/yttp/yacht-313.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-cru" data-i18n="yachts.357">日间系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.358">飞鱼跃浪</h3>
-<p class="yacht-en" data-i18n="yachts.1086">FH-13 · 13m · 飞跃浪尖 · 运动型日间游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.359">13m</div><div class="yacht-spec-label" data-i18n="yachts.360">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">4</div><div class="yacht-spec-label" data-i18n="yachts.361">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.362">35kn</div><div class="yacht-spec-label" data-i18n="yachts.363">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.1095">¥22万起</span><a class="yacht-detail-btn" data-i18n="yachts.364" href="yacht-40.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="cruiser">
-<div class="yacht-card-img"><img alt="日间11 闪电号" data-i18n-attr="alt:_alt.yachts.40" src="images/yttp/yacht-321.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-cru" data-i18n="yachts.365">日间系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.366">雷鸣电闪</h3>
-<p class="yacht-en" data-i18n="yachts.1106">FH-11 · 11m · 闪电出击 · 极速日间游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.367">11m</div><div class="yacht-spec-label" data-i18n="yachts.368">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">2</div><div class="yacht-spec-label" data-i18n="yachts.369">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.370">38kn</div><div class="yacht-spec-label" data-i18n="yachts.371">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.1115">¥15万起</span><a class="yacht-detail-btn" data-i18n="yachts.372" href="yacht-41.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="cruiser">
-<div class="yacht-card-img"><img alt="日间10 微风号" data-i18n-attr="alt:_alt.yachts.41" src="images/yttp/yacht-329.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-cru" data-i18n="yachts.373">日间系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.374">微风逐浪</h3>
-<p class="yacht-en" data-i18n="yachts.1126">FH-10 · 10m · 轻快巡航 · 入门运动游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.375">10m</div><div class="yacht-spec-label" data-i18n="yachts.376">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">2</div><div class="yacht-spec-label" data-i18n="yachts.377">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.378">40kn</div><div class="yacht-spec-label" data-i18n="yachts.379">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.1135">¥10万起</span><a class="yacht-detail-btn" data-i18n="yachts.380" href="yacht-42.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="cruiser">
-<div class="yacht-card-img"><img alt="日间16 海豚号" data-i18n-attr="alt:_alt.yachts.42" src="images/yttp/yacht-337.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-cru" data-i18n="yachts.381">日间系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.382">海豚嬉浪</h3>
-<p class="yacht-en" data-i18n="yachts.1146">FH-16 · 16m · 欢乐巡航 · 亲水运动游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.383">16m</div><div class="yacht-spec-label" data-i18n="yachts.384">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">4</div><div class="yacht-spec-label" data-i18n="yachts.385">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.386">30kn</div><div class="yacht-spec-label" data-i18n="yachts.387">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.1155">¥38万起</span><a class="yacht-detail-btn" data-i18n="yachts.388" href="yacht-43.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="cruiser">
-<div class="yacht-card-img"><img alt="日间14 活力号" data-i18n-attr="alt:_alt.yachts.43" src="images/yttp/yacht-345.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-cru" data-i18n="yachts.389">日间系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.390">活力奔涌</h3>
-<p class="yacht-en" data-i18n="yachts.1166">FH-14 · 14m · 活力四射 · 运动日间游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.391">14m</div><div class="yacht-spec-label" data-i18n="yachts.392">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">4</div><div class="yacht-spec-label" data-i18n="yachts.393">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.394">34kn</div><div class="yacht-spec-label" data-i18n="yachts.395">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.1175">¥26万起</span><a class="yacht-detail-btn" data-i18n="yachts.396" href="yacht-44.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="cruiser">
-<div class="yacht-card-img"><img alt="日间12 运动王" data-i18n-attr="alt:_alt.yachts.44" src="images/yttp/yacht-353.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-cru" data-i18n="yachts.397">日间系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.398">破浪先锋</h3>
-<p class="yacht-en" data-i18n="yachts.1186">FH-12 · 12m · 破浪前行 · 运动型日间游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.399">12m</div><div class="yacht-spec-label" data-i18n="yachts.400">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">4</div><div class="yacht-spec-label" data-i18n="yachts.401">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.402">36kn</div><div class="yacht-spec-label" data-i18n="yachts.403">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.1195">¥18万起</span><a class="yacht-detail-btn" data-i18n="yachts.404" href="yacht-45.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="cruiser">
-<div class="yacht-card-img"><img alt="日间17 巡航版" data-i18n-attr="alt:_alt.yachts.45" src="images/yttp/yacht-361.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-cru" data-i18n="yachts.405">日间系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.406">巡航卫士</h3>
-<p class="yacht-en" data-i18n="yachts.1206">FH-17 · 17m · 近海巡航 · 实用运动游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.407">17m</div><div class="yacht-spec-label" data-i18n="yachts.408">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">4</div><div class="yacht-spec-label" data-i18n="yachts.409">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.410">28kn</div><div class="yacht-spec-label" data-i18n="yachts.411">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.1215">¥42万起</span><a class="yacht-detail-btn" data-i18n="yachts.412" href="yacht-46.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="cruiser">
-<div class="yacht-card-img"><img alt="日间19 领航版" data-i18n-attr="alt:_alt.yachts.46" src="images/yttp/yacht-369.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-cru" data-i18n="yachts.413">日间系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.414">领航青春</h3>
-<p class="yacht-en" data-i18n="yachts.1226">FH-19 · 19m · 青春领航 · 时尚运动游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.415">19m</div><div class="yacht-spec-label" data-i18n="yachts.416">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">6</div><div class="yacht-spec-label" data-i18n="yachts.417">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.418">26kn</div><div class="yacht-spec-label" data-i18n="yachts.419">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.1235">¥52万起</span><a class="yacht-detail-btn" data-i18n="yachts.420" href="yacht-47.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="cruiser">
-<div class="yacht-card-img"><img alt="日间20 破浪版" data-i18n-attr="alt:_alt.yachts.47" src="images/yttp/yacht-377.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-cru" data-i18n="yachts.421">日间系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.422">乘风破浪</h3>
-<p class="yacht-en" data-i18n="yachts.1246">FH-20 · 20m · 乘风而出 · 运动巡航游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.423">20m</div><div class="yacht-spec-label" data-i18n="yachts.424">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">6</div><div class="yacht-spec-label" data-i18n="yachts.425">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.426">25kn</div><div class="yacht-spec-label" data-i18n="yachts.427">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.1255">¥58万起</span><a class="yacht-detail-btn" data-i18n="yachts.428" href="yacht-48.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="cruiser">
-<div class="yacht-card-img"><img alt="日间22 乘风版" data-i18n-attr="alt:_alt.yachts.48" src="images/yttp/yacht-385.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-cru" data-i18n="yachts.429">日间系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.430">翱翔海天</h3>
-<p class="yacht-en" data-i18n="yachts.1266">FH-22 · 22m · 海天一色 · 休闲运动游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.431">22m</div><div class="yacht-spec-label" data-i18n="yachts.432">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">6</div><div class="yacht-spec-label" data-i18n="yachts.433">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.434">24kn</div><div class="yacht-spec-label" data-i18n="yachts.435">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.1275">¥65万起</span><a class="yacht-detail-btn" data-i18n="yachts.436" href="yacht-49.html">详情 →</a></div>
-</div>
-</div>
-<div class="yacht-card reveal" data-series="cruiser">
-<div class="yacht-card-img"><img alt="日间24 翱翔版" data-i18n-attr="alt:_alt.yachts.49" src="images/yttp/yacht-393.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge badge-cru" data-i18n="yachts.437">日间系列</span></div>
-<div class="yacht-card-body">
-<h3 data-i18n="yachts.438">远翔号</h3>
-<p class="yacht-en" data-i18n="yachts.1286">FH-24 · 24m · 远翔出海 · 全能运动游艇</p>
-<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.439">24m</div><div class="yacht-spec-label" data-i18n="yachts.440">总长</div></div><div class="yacht-spec"><div class="yacht-spec-val">6</div><div class="yacht-spec-label" data-i18n="yachts.441">载客</div></div><div class="yacht-spec"><div class="yacht-spec-val" data-i18n="yachts.442">22kn</div><div class="yacht-spec-label" data-i18n="yachts.443">航速</div></div></div>
-<div class="yacht-card-footer"><span class="yacht-price" data-i18n="yachts.1295">¥72万起</span><a class="yacht-detail-btn" data-i18n="yachts.444" href="yacht-50.html">详情 →</a></div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- CTA -->
-<section class="cta-section">
-<div class="container reveal" style="max-width:620px;position:relative;z-index:2">
-<h3 data-i18n="yachts.445" style="font-size:26px;margin-bottom:16px;font-family:'Playfair Display',serif">找不到心仪的船型？</h3>
-<p data-i18n="yachts.446" style="color:var(--text-muted);margin-bottom:28px;line-height:1.7">我们提供全流程定制服务，从概念设计到交付运营，打造独一无二的专属游艇。奇幻假期原创设计团队将您的愿景变为现实。</p>
-<div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap">
-<a class="btn btn-outline" data-i18n="yachts.447" href="custom.html">了解定制服务 →</a>
-<a class="btn btn-primary btn-gold-sweep" data-i18n="yachts.448" href="contact.html">立即咨询</a>
-</div>
-</div>
-</section>
-<!-- FOOTER -->
-<footer data-i18n="yachts.1491" id="footer">
-<div class="footer-top-bar"></div>
-<div class="footer-main">
-<div class="footer-grid" data-i18n="yachts.1325">
-<!-- Column 1: Brand -->
-<div class="footer-col footer-brand-col">
-<a class="footer-logo" href="index.html">
-<svg fill="none" height="40" viewbox="0 0 32 32" width="40">
-<path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
-<path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
-</svg>
-<div>
-<div class="footer-logo-name" data-i18n="yachts.449">奇幻假期</div>
-<div class="footer-logo-en" data-i18n="yachts.450">FANTASTIC VACATION</div>
-</div>
-</a>
-<p class="footer-slogan" data-i18n="yachts.1340">「探索全球，不负假期」<br/>全球一体化高端游艇定制与私人海享生活缔造者</p>
-<p class="footer-brand-desc" data-i18n="yachts.451">奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。</p>
-<div class="footer-socials">
-<a class="social-item" href="javascript:void(0)" title="微信公众号">
-<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M8.5 11a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5.5 4H20a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1h-1.5a4 4 0 0 1-3.98-3.64A5.97 5.97 0 0 0 12 15a6 6 0 0 0 6 6v1zm-7-7a4 4 0 0 0-4 4v5a4 4 0 0 0 3.15 3.85A3 3 0 0 0 8 18v1H5.5A1.5 1.5 0 0 1 4 17.5v-8A1.5 1.5 0 0 1 5.5 8h6z"></path></svg>
-<span data-i18n="yachts.452">微信公众号</span>
-</a>
-<a class="social-item" href="javascript:void(0)" title="微博">
-<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M10.09 18c-3.69 0-7.09-1.69-7.09-4.28 0-1.35.7-2.96 1.88-4.57C6.57 7.57 9.5 6.4 10.55 7c1.41.8 2.29 2.38 2.55 3.82.1-.04.21-.06.32-.06 2.45 0 4.44 2.29 4.44 5.11 0 2.73-1.99 4.94-4.44 4.94-.27 0-.53-.02-.79-.06-.11.17-.23.34-.35.5l.05.01zM20 8.5C20 4.91 17.09 2 13.5 2H3C2.45 2 2 2.45 2 3v13c0 .55.45 1 1 1h10c4.17 0 7.58-3.06 7.98-7.05.05-.47.02-.95.02-1.45z"></path></svg>
-<span data-i18n="yachts.453">微博</span>
-</a>
-<a class="social-item" href="javascript:void(0)" title="抖音">
-<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.82a8.18 8.18 0 0 0 4.77 1.52V6.68a4.85 4.85 0 0 1-1-.02z"></path></svg>
-<span data-i18n="yachts.454">抖音</span>
-</a>
-<a class="social-item" href="javascript:void(0)" title="LinkedIn">
-<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path></svg>
-<span data-i18n="yachts.455">LinkedIn</span>
-</a>
-<a class="social-item" href="javascript:void(0)" title="YouTube">
-<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
-<span data-i18n="yachts.456">YouTube</span>
-</a>
-</div>
-</div>
-<!-- Column 2: Quick Navigation -->
-<div class="footer-col">
-<h4 class="footer-col-title" data-i18n="yachts.1376">快速导航</h4>
-<ul class="footer-links">
-<li data-i18n="yachts.457"><a data-i18n="yachts.458" href="index.html">首页</a></li>
-<li data-i18n="yachts.459"><a data-i18n="yachts.460" href="about.html">关于我们</a></li>
-<li data-i18n="yachts.461"><a data-i18n="yachts.462" href="yachts.html">全系游艇</a></li>
-          <li><a href="membership.html" data-i18n="footer.member" style="color:#c9a96e;font-weight:500">👑 尊享会员</a></li>
-<li data-i18n="yachts.463"><a data-i18n="yachts.464" href="custom.html">全案定制</a></li>
-<li data-i18n="yachts.465"><a data-i18n="yachts.466" href="charter.html">租赁航线</a></li>
-<li data-i18n="yachts.467"><a data-i18n="yachts.468" href="management.html">托管维保</a></li>
-<li data-i18n="yachts.469"><a data-i18n="yachts.470" href="cases.html">案例展示</a></li>
-<li data-i18n="yachts.471"><a data-i18n="yachts.472" href="news.html">新闻资讯</a></li>
-<li data-i18n="yachts.473"><a data-i18n="yachts.474" href="partnership.html">全球合作</a></li>
-<li data-i18n="yachts.475"><a data-i18n="yachts.476" href="sitemap.html">网站地图</a></li>
-</ul>
-</div>
-<!-- Column 3: Contact -->
-<div class="footer-col">
-<h4 class="footer-col-title" data-i18n="yachts.1404">联系我们</h4>
-<ul class="footer-contact">
-<li class="contact-item">
-<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-<div>
-<div class="contact-label" data-i18n="yachts.477">公司地址</div>
-<div class="contact-value" data-i18n="yachts.1412">广东省深圳市宝安区<br/>松岗工业园1号</div>
-</div>
-</li>
-<li class="contact-item">
-<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 5.92 5.92l.96-.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-<div>
-<div class="contact-label" data-i18n="yachts.478">咨询热线</div>
-<div class="contact-value"><a data-i18n="yachts.1422" href="tel:13797920792">13797920792</a> / <a data-i18n="yachts.1424" href="tel:+86075533530188">+86 0755 3353-0188</a></div>
-</div>
-</li>
-<li class="contact-item">
-<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 5.92 5.92l.96-.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path><line x1="22" x2="11" y1="2" y2="13"></line></svg>
-<div>
-<div class="contact-label" data-i18n="yachts.479">传真</div>
-<div class="contact-value" data-i18n="yachts.1433">0755-31530988</div>
-</div>
-</li>
-<li class="contact-item">
-<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-<div>
-<div class="contact-label" data-i18n="yachts.480">商务邮箱</div>
-<div class="contact-value"><a data-i18n="yachts.481" href="mailto:hs@fantastic-vacation.com">hs@fantastic-vacation.com</a></div>
-</div>
-</li>
-</ul>
-<a class="footer-contact-btn" data-i18n="yachts.1448" href="contact.html">
-<svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
-          在线咨询
-        </a>
-</div>
-<!-- Column 4: Certifications & Partners -->
-<div class="footer-col">
-<h4 class="footer-col-title" data-i18n="yachts.1454">资质与合作</h4>
-<div class="footer-certs">
-<div class="cert-item">
-<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-<span data-i18n="yachts.482">ISO 9001质量管理体系认证</span>
-</div>
-<div class="cert-item">
-<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-<span data-i18n="yachts.483">意大利Ferretti集团授权经销商</span>
-</div>
-<div class="cert-item">
-<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-<span data-i18n="yachts.484">荷兰Feadship技术合作伙伴</span>
-</div>
-<div class="cert-item">
-<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-<span data-i18n="yachts.485">地中海船坞协会认证会员</span>
-</div>
-<div class="cert-item">
-<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-<span data-i18n="yachts.486">亚洲最佳游艇服务商三连冠</span>
-</div>
-</div>
-<div class="footer-recruit">
-<a class="recruit-link" data-i18n="yachts.1485" href="contact.html">
-<svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
-            <span data-i18n="_recruit">加入我们 · 招聘职位</span>
-          </a>
-</div>
-</div>
-</div>
-</div>
-<!-- Copyright Bar -->
-<div class="footer-bottom">
-<div class="footer-bottom-inner">
-<div class="copyright">
-<span data-i18n="yachts.487">© 2020-2026 奇幻假期实业有限公司 FANTASTIC VACATION INDUSTRIAL CO., LTD. 保留所有权利。</span>
-</div>
-<div class="legal-links">
-<a data-i18n="yachts.488" href="privacy.html">隐私政策</a>
-<a data-i18n="yachts.489" href="terms.html">使用条款</a>
-<a data-i18n="yachts.490" href="sitemap.html">网站地图</a>
-</div>
-</div>
-<div></div>
-</div></div></footer>
-<script>
-/* 立即执行 - 不等 DOMContentLoaded */
-(function(){
-  var ld=document.getElementById("loader");
-  if(!ld)return;
-  /* 5.5秒后强制隐藏 - 兜底 */
-  setTimeout(function(){
-    if(ld){ld.style.display="none";ld.style.visibility="hidden"}
-    document.body.style.overflow="";
-  },5500);
-})();
-</script>
-<script>
-window.addEventListener("DOMContentLoaded",function(){
-var loader=document.getElementById("loader");
-if(!loader)return;
-var progressEl=document.getElementById("progress");
-var progress=0;
-var interval=setInterval(function(){progress+=Math.random()*12+8;if(progress>=100){progress=100;clearInterval(interval);if(progressEl)progressEl.style.width="100%";setTimeout(function(){if(loader)loader.style.display="none";document.body.style.overflow=""},400)}else if(progressEl)progressEl.style.width=progress+"%"},180);
-setTimeout(function(){clearInterval(interval);if(loader)loader.style.display="none";document.body.style.overflow=""},5000);
-});
-window.addEventListener("scroll",function(){var nav=document.getElementById("navbar");if(window.scrollY>50)nav.classList.add("scrolled");else nav.classList.remove("scrolled")});
-function toggleMobile(){document.getElementById("mobile-menu").classList.toggle("active");document.querySelector(".hamburger").classList.toggle("active")}
-(function(){var c=document.getElementById("cursor");if(c)document.addEventListener("mousemove",function(e){c.style.left=e.pageX+"px";c.style.top=e.pageY+"px"})})();
-(function(){var o=new IntersectionObserver(function(e){e.forEach(function(e){if(e.isIntersecting)e.target.classList.add("revealed")})},{threshold:0.1});document.querySelectorAll(".reveal,.reveal-left,.reveal-right,.reveal-scale").forEach(function(e){o.observe(e)})})();
 
-// Filter functionality
+<!-- ===== FILTERS ===== -->
+<section class="section-padding">
+<div class="container">
+<div class="fleet-filters reveal" id="fleetFilters">
+<button class="filter-chip active" data-filter="all">全部系列</button>
+<button class="filter-chip" data-filter="君临">君临系列</button>
+<button class="filter-chip" data-filter="远征">远征系列</button>
+<button class="filter-chip" data-filter="飞桥">飞桥系列</button>
+<button class="filter-chip" data-filter="日间">日间系列</button>
+<div class="filter-divider"></div>
+<select class="filter-select" id="lengthFilter">
+<option value="all">全部长度</option>
+<option value="18-30">18m - 30m</option>
+<option value="30-50">30m - 50m</option>
+<option value="50-80">50m - 80m</option>
+<option value="80+">80m+</option>
+</select>
+<select class="filter-select" id="useFilter">
+<option value="all">全部用途</option>
+<option value="私人">私人生活</option>
+<option value="租赁优先">租赁优先</option>
+<option value="探险型">探险型</option>
+</select>
+<select class="filter-select" id="powerFilter">
+<option value="all">全部动力</option>
+<option value="传统柴油">传统柴油</option>
+<option value="混合动力">混合动力</option>
+<option value="电动">电动</option>
+</select>
+</div>
+
+<div class="fleet-grid reveal" id="fleetGrid">
+
+<div class="fleet-card" data-series="君临" data-len="120" data-use="私人" data-power="传统柴油" onclick="location.href='yacht-detail.html?id=yacht-001'">
+<div class="fleet-card-img">
+<img src="images/yttp/yacht-010.jpg" alt="君临120 旗舰版" loading="lazy"/>
+<span class="fleet-card-badge">君临系列</span>
+</div>
+<div class="fleet-card-body">
+<h3>君临120 旗舰版</h3>
+<div class="model-en">SOVEREIGN 120 FLAGSHIP</div>
+<div class="fleet-specs-row">
+<div><div class="fleet-spec-val">120m</div><div class="fleet-spec-label">总长度</div></div>
+<div><div class="fleet-spec-val">36</div><div class="fleet-spec-label">最大载客</div></div>
+<div><div class="fleet-spec-val">20kn</div><div class="fleet-spec-label">最高航速</div></div>
+</div>
+<div class="fleet-card-footer">
+<span class="fleet-price">价格面议</span>
+<span class="fleet-detail-btn">查看详情 →</span>
+</div>
+</div>
+</div>
+<div class="fleet-card" data-series="君临" data-len="110" data-use="私人" data-power="混合动力" onclick="location.href='yacht-detail.html?id=yacht-002'">
+<div class="fleet-card-img">
+<img src="images/yttp/yacht-018.jpg" alt="君临110 至尊版" loading="lazy"/>
+<span class="fleet-card-badge">君临系列</span>
+</div>
+<div class="fleet-card-body">
+<h3>君临110 至尊版</h3>
+<div class="model-en">SOVEREIGN 110 SUPREME</div>
+<div class="fleet-specs-row">
+<div><div class="fleet-spec-val">110m</div><div class="fleet-spec-label">总长度</div></div>
+<div><div class="fleet-spec-val">32</div><div class="fleet-spec-label">最大载客</div></div>
+<div><div class="fleet-spec-val">22kn</div><div class="fleet-spec-label">最高航速</div></div>
+</div>
+<div class="fleet-card-footer">
+<span class="fleet-price">价格面议</span>
+<span class="fleet-detail-btn">查看详情 →</span>
+</div>
+</div>
+</div>
+<div class="fleet-card" data-series="君临" data-len="100" data-use="私人" data-power="传统柴油" onclick="location.href='yacht-detail.html?id=yacht-003'">
+<div class="fleet-card-img">
+<img src="images/yttp/yacht-026.jpg" alt="君临100 典藏版" loading="lazy"/>
+<span class="fleet-card-badge">君临系列</span>
+</div>
+<div class="fleet-card-body">
+<h3>君临100 典藏版</h3>
+<div class="model-en">SOVEREIGN 100 COLLECTION</div>
+<div class="fleet-specs-row">
+<div><div class="fleet-spec-val">100m</div><div class="fleet-spec-label">总长度</div></div>
+<div><div class="fleet-spec-val">28</div><div class="fleet-spec-label">最大载客</div></div>
+<div><div class="fleet-spec-val">21kn</div><div class="fleet-spec-label">最高航速</div></div>
+</div>
+<div class="fleet-card-footer">
+<span class="fleet-price">价格面议</span>
+<span class="fleet-detail-btn">查看详情 →</span>
+</div>
+</div>
+</div>
+<div class="fleet-card" data-series="君临" data-len="92" data-use="租赁优先" data-power="混合动力" onclick="location.href='yacht-detail.html?id=yacht-004'">
+<div class="fleet-card-img">
+<img src="images/yttp/yacht-034.jpg" alt="君临92 领航版" loading="lazy"/>
+<span class="fleet-card-badge">君临系列</span>
+</div>
+<div class="fleet-card-body">
+<h3>君临92 领航版</h3>
+<div class="model-en">SOVEREIGN 92 NAVIGATOR</div>
+<div class="fleet-specs-row">
+<div><div class="fleet-spec-val">92m</div><div class="fleet-spec-label">总长度</div></div>
+<div><div class="fleet-spec-val">24</div><div class="fleet-spec-label">最大载客</div></div>
+<div><div class="fleet-spec-val">23kn</div><div class="fleet-spec-label">最高航速</div></div>
+</div>
+<div class="fleet-card-footer">
+<span class="fleet-price">价格面议</span>
+<span class="fleet-detail-btn">查看详情 →</span>
+</div>
+</div>
+</div>
+<div class="fleet-card" data-series="君临" data-len="85" data-use="私人" data-power="传统柴油" onclick="location.href='yacht-detail.html?id=yacht-005'">
+<div class="fleet-card-img">
+<img src="images/yttp/yacht-042.jpg" alt="君临85 王者版" loading="lazy"/>
+<span class="fleet-card-badge">君临系列</span>
+</div>
+<div class="fleet-card-body">
+<h3>君临85 王者版</h3>
+<div class="model-en">SOVEREIGN 85 MAJESTIC</div>
+<div class="fleet-specs-row">
+<div><div class="fleet-spec-val">85m</div><div class="fleet-spec-label">总长度</div></div>
+<div><div class="fleet-spec-val">22</div><div class="fleet-spec-label">最大载客</div></div>
+<div><div class="fleet-spec-val">24kn</div><div class="fleet-spec-label">最高航速</div></div>
+</div>
+<div class="fleet-card-footer">
+<span class="fleet-price">价格面议</span>
+<span class="fleet-detail-btn">查看详情 →</span>
+</div>
+</div>
+</div>
+<div class="fleet-card" data-series="君临" data-len="78" data-use="租赁优先" data-power="传统柴油" onclick="location.href='yacht-detail.html?id=yacht-006'">
+<div class="fleet-card-img">
+<img src="images/yttp/yacht-050.jpg" alt="君临78 御风版" loading="lazy"/>
+<span class="fleet-card-badge">君临系列</span>
+</div>
+<div class="fleet-card-body">
+<h3>君临78 御风版</h3>
+<div class="model-en">SOVEREIGN 78 ELEGANCE</div>
+<div class="fleet-specs-row">
+<div><div class="fleet-spec-val">78m</div><div class="fleet-spec-label">总长度</div></div>
+<div><div class="fleet-spec-val">18</div><div class="fleet-spec-label">最大载客</div></div>
+<div><div class="fleet-spec-val">25kn</div><div class="fleet-spec-label">最高航速</div></div>
+</div>
+<div class="fleet-card-footer">
+<span class="fleet-price">价格面议</span>
+<span class="fleet-detail-btn">查看详情 →</span>
+</div>
+</div>
+</div>
+<div class="fleet-card" data-series="远征" data-len="70" data-use="探险型" data-power="混合动力" onclick="location.href='yacht-detail.html?id=yacht-007'">
+<div class="fleet-card-img">
+<img src="images/yttp/yacht-058.jpg" alt="远征70 探险家" loading="lazy"/>
+<span class="fleet-card-badge">远征系列</span>
+</div>
+<div class="fleet-card-body">
+<h3>远征70 探险家</h3>
+<div class="model-en">EXPEDITION 70 EXPLORER</div>
+<div class="fleet-specs-row">
+<div><div class="fleet-spec-val">70m</div><div class="fleet-spec-label">总长度</div></div>
+<div><div class="fleet-spec-val">20</div><div class="fleet-spec-label">最大载客</div></div>
+<div><div class="fleet-spec-val">18kn</div><div class="fleet-spec-label">最高航速</div></div>
+</div>
+<div class="fleet-card-footer">
+<span class="fleet-price">价格面议</span>
+<span class="fleet-detail-btn">查看详情 →</span>
+</div>
+</div>
+</div>
+<div class="fleet-card" data-series="远征" data-len="60" data-use="探险型" data-power="传统柴油" onclick="location.href='yacht-detail.html?id=yacht-008'">
+<div class="fleet-card-img">
+<img src="images/yttp/yacht-066.jpg" alt="远征60 极境版" loading="lazy"/>
+<span class="fleet-card-badge">远征系列</span>
+</div>
+<div class="fleet-card-body">
+<h3>远征60 极境版</h3>
+<div class="model-en">EXPEDITION 60 ICECLASS</div>
+<div class="fleet-specs-row">
+<div><div class="fleet-spec-val">60m</div><div class="fleet-spec-label">总长度</div></div>
+<div><div class="fleet-spec-val">16</div><div class="fleet-spec-label">最大载客</div></div>
+<div><div class="fleet-spec-val">17kn</div><div class="fleet-spec-label">最高航速</div></div>
+</div>
+<div class="fleet-card-footer">
+<span class="fleet-price">价格面议</span>
+<span class="fleet-detail-btn">查看详情 →</span>
+</div>
+</div>
+</div>
+<div class="fleet-card" data-series="远征" data-len="50" data-use="探险型" data-power="电动" onclick="location.href='yacht-detail.html?id=yacht-009'">
+<div class="fleet-card-img">
+<img src="images/yttp/yacht-074.jpg" alt="远征50 远洋版" loading="lazy"/>
+<span class="fleet-card-badge">远征系列</span>
+</div>
+<div class="fleet-card-body">
+<h3>远征50 远洋版</h3>
+<div class="model-en">EXPEDITION 50 OCEANIC</div>
+<div class="fleet-specs-row">
+<div><div class="fleet-spec-val">50m</div><div class="fleet-spec-label">总长度</div></div>
+<div><div class="fleet-spec-val">14</div><div class="fleet-spec-label">最大载客</div></div>
+<div><div class="fleet-spec-val">18kn</div><div class="fleet-spec-label">最高航速</div></div>
+</div>
+<div class="fleet-card-footer">
+<span class="fleet-price">价格面议</span>
+<span class="fleet-detail-btn">查看详情 →</span>
+</div>
+</div>
+</div>
+<div class="fleet-card" data-series="飞桥" data-len="45" data-use="私人" data-power="混合动力" onclick="location.href='yacht-detail.html?id=yacht-010'">
+<div class="fleet-card-img">
+<img src="images/yttp/yacht-082.jpg" alt="飞桥45 尊享版" loading="lazy"/>
+<span class="fleet-card-badge">飞桥系列</span>
+</div>
+<div class="fleet-card-body">
+<h3>飞桥45 尊享版</h3>
+<div class="model-en">FLYBRIDGE 45 SIGNATURE</div>
+<div class="fleet-specs-row">
+<div><div class="fleet-spec-val">45m</div><div class="fleet-spec-label">总长度</div></div>
+<div><div class="fleet-spec-val">14</div><div class="fleet-spec-label">最大载客</div></div>
+<div><div class="fleet-spec-val">28kn</div><div class="fleet-spec-label">最高航速</div></div>
+</div>
+<div class="fleet-card-footer">
+<span class="fleet-price">¥1,880万起</span>
+<span class="fleet-detail-btn">查看详情 →</span>
+</div>
+</div>
+</div>
+<div class="fleet-card" data-series="飞桥" data-len="38" data-use="私人" data-power="传统柴油" onclick="location.href='yacht-detail.html?id=yacht-011'">
+<div class="fleet-card-img">
+<img src="images/yttp/yacht-090.jpg" alt="飞桥38 经典版" loading="lazy"/>
+<span class="fleet-card-badge">飞桥系列</span>
+</div>
+<div class="fleet-card-body">
+<h3>飞桥38 经典版</h3>
+<div class="model-en">FLYBRIDGE 38 CLASSIC</div>
+<div class="fleet-specs-row">
+<div><div class="fleet-spec-val">38m</div><div class="fleet-spec-label">总长度</div></div>
+<div><div class="fleet-spec-val">12</div><div class="fleet-spec-label">最大载客</div></div>
+<div><div class="fleet-spec-val">26kn</div><div class="fleet-spec-label">最高航速</div></div>
+</div>
+<div class="fleet-card-footer">
+<span class="fleet-price">¥1,280万起</span>
+<span class="fleet-detail-btn">查看详情 →</span>
+</div>
+</div>
+</div>
+<div class="fleet-card" data-series="飞桥" data-len="30" data-use="租赁优先" data-power="传统柴油" onclick="location.href='yacht-detail.html?id=yacht-012'">
+<div class="fleet-card-img">
+<img src="images/yttp/yacht-098.jpg" alt="飞桥30 风尚版" loading="lazy"/>
+<span class="fleet-card-badge">飞桥系列</span>
+</div>
+<div class="fleet-card-body">
+<h3>飞桥30 风尚版</h3>
+<div class="model-en">FLYBRIDGE 30 ELEGANCE</div>
+<div class="fleet-specs-row">
+<div><div class="fleet-spec-val">30m</div><div class="fleet-spec-label">总长度</div></div>
+<div><div class="fleet-spec-val">10</div><div class="fleet-spec-label">最大载客</div></div>
+<div><div class="fleet-spec-val">30kn</div><div class="fleet-spec-label">最高航速</div></div>
+</div>
+<div class="fleet-card-footer">
+<span class="fleet-price">¥880万起</span>
+<span class="fleet-detail-btn">查看详情 →</span>
+</div>
+</div>
+</div>
+<div class="fleet-card" data-series="日间" data-len="18" data-use="私人" data-power="电动" onclick="location.href='yacht-detail.html?id=yacht-013'">
+<div class="fleet-card-img">
+<img src="images/yttp/yacht-106.jpg" alt="日间18 运动版" loading="lazy"/>
+<span class="fleet-card-badge">日间系列</span>
+</div>
+<div class="fleet-card-body">
+<h3>日间18 运动版</h3>
+<div class="model-en">DAY CRUISER 18 SPORT</div>
+<div class="fleet-specs-row">
+<div><div class="fleet-spec-val">18m</div><div class="fleet-spec-label">总长度</div></div>
+<div><div class="fleet-spec-val">12</div><div class="fleet-spec-label">最大载客</div></div>
+<div><div class="fleet-spec-val">38kn</div><div class="fleet-spec-label">最高航速</div></div>
+</div>
+<div class="fleet-card-footer">
+<span class="fleet-price">¥380万起</span>
+<span class="fleet-detail-btn">查看详情 →</span>
+</div>
+</div>
+</div>
+<div class="fleet-card" data-series="日间" data-len="15" data-use="私人" data-power="电动" onclick="location.href='yacht-detail.html?id=yacht-014'">
+<div class="fleet-card-img">
+<img src="images/yttp/yacht-114.jpg" alt="日间15 都市版" loading="lazy"/>
+<span class="fleet-card-badge">日间系列</span>
+</div>
+<div class="fleet-card-body">
+<h3>日间15 都市版</h3>
+<div class="model-en">DAY CRUISER 15 CITY</div>
+<div class="fleet-specs-row">
+<div><div class="fleet-spec-val">15m</div><div class="fleet-spec-label">总长度</div></div>
+<div><div class="fleet-spec-val">8</div><div class="fleet-spec-label">最大载客</div></div>
+<div><div class="fleet-spec-val">35kn</div><div class="fleet-spec-label">最高航速</div></div>
+</div>
+<div class="fleet-card-footer">
+<span class="fleet-price">¥280万起</span>
+<span class="fleet-detail-btn">查看详情 →</span>
+</div>
+</div>
+</div>
+<div class="fleet-card" data-series="日间" data-len="12" data-use="私人" data-power="传统柴油" onclick="location.href='yacht-detail.html?id=yacht-015'">
+<div class="fleet-card-img">
+<img src="images/yttp/yacht-002.jpg" alt="日间12 自由版" loading="lazy"/>
+<span class="fleet-card-badge">日间系列</span>
+</div>
+<div class="fleet-card-body">
+<h3>日间12 自由版</h3>
+<div class="model-en">DAY CRUISER 12 FREEDOM</div>
+<div class="fleet-specs-row">
+<div><div class="fleet-spec-val">12m</div><div class="fleet-spec-label">总长度</div></div>
+<div><div class="fleet-spec-val">6</div><div class="fleet-spec-label">最大载客</div></div>
+<div><div class="fleet-spec-val">32kn</div><div class="fleet-spec-label">最高航速</div></div>
+</div>
+<div class="fleet-card-footer">
+<span class="fleet-price">¥180万起</span>
+<span class="fleet-detail-btn">查看详情 →</span>
+</div>
+</div>
+</div>
+<div class="no-results hidden" id="noResults">
+<h3>未找到匹配游艇</h3>
+<p>请尝试调整筛选条件</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ===== Filter JS ===== -->
+<script>
 (function(){
-  var btns=document.querySelectorAll('.filter-btn');
-  var cards=document.querySelectorAll('.yacht-card');
-  btns.forEach(function(btn){
-    btn.addEventListener('click',function(){
-      btns.forEach(function(b){b.classList.remove('active')});
-      btn.classList.add('active');
-      var filter=btn.getAttribute('data-filter');
-      cards.forEach(function(card){
-        if(filter==='all'||card.getAttribute('data-series')===filter){
-          card.style.display='';
-          setTimeout(function(){card.style.opacity='1';card.style.transform='translateY(0)'},50);
-        }else{
-          card.style.opacity='0';
-          card.style.transform='translateY(20px)';
-          setTimeout(function(){card.style.display='none'},400);
+  var chips = document.querySelectorAll('.filter-chip');
+  var lenSel = document.getElementById('lengthFilter');
+  var useSel = document.getElementById('useFilter');
+  var powSel = document.getElementById('powerFilter');
+  var cards = document.querySelectorAll('.fleet-card');
+  var noRes = document.getElementById('noResults');
+  var activeSeries = 'all';
+
+  function applyFilters(){
+    var lenVal = lenSel.value;
+    var useVal = useSel.value;
+    var powVal = powSel.value;
+    var visible = 0;
+    cards.forEach(function(c){
+      var s = c.dataset.series;
+      var l = parseInt(c.dataset.len);
+      var u = c.dataset.use;
+      var p = c.dataset.power;
+
+      var match = true;
+      if(activeSeries !== 'all' && s !== activeSeries) match = false;
+      if(lenVal !== 'all'){
+        var range = lenVal.split('-');
+        if(range[1] === '+'){
+          if(l < parseInt(range[0])) match = false;
+        } else {
+          if(l < parseInt(range[0]) || l >= parseInt(range[1])) match = false;
         }
-      });
+      }
+      if(useVal !== 'all' && u !== useVal) match = false;
+      if(powVal !== 'all' && p !== powVal) match = false;
+
+      if(match){ c.classList.remove('hidden'); visible++; }
+      else{ c.classList.add('hidden'); }
+    });
+    if(visible === 0){ noRes.classList.remove('hidden'); }
+    else{ noRes.classList.add('hidden'); }
+  }
+
+  chips.forEach(function(chip){
+    chip.addEventListener('click', function(){
+      chips.forEach(function(c){ c.classList.remove('active'); });
+      chip.classList.add('active');
+      activeSeries = chip.dataset.filter;
+      applyFilters();
     });
   });
-})();
 
-function toggleSearch(){var s=document.getElementById("searchOverlay");if(s){s.classList.toggle("active");if(s.classList.contains("active")){setTimeout(function(){var i=document.getElementById("searchInput");if(i)i.focus()},100)}}}
-document.addEventListener("keydown",function(e){if(e.key==="Escape"){var s=document.getElementById("searchOverlay");if(s&&s.classList.contains("active"))s.classList.remove("active");var m=document.getElementById("mobile-menu");if(m&&m.classList.contains("active")){m.classList.remove("active");var h=document.querySelector(".hamburger");if(h)h.classList.remove("active")}}});function toggleDarkMode(){document.body.classList.toggle("dark-mode");var isDark=document.body.classList.contains("dark-mode");localStorage.setItem("fv-dark",isDark?"1":"0");var moon=document.querySelector(".icon-moon");var sun=document.querySelector(".icon-sun");if(moon)moon.style.display=isDark?"none":"inline";if(sun)sun.style.display=isDark?"inline":"none"}
-window.addEventListener("DOMContentLoaded",function(){var isDark=localStorage.getItem("fv-dark")==="1";if(isDark){document.body.classList.add("dark-mode");var moon=document.querySelector(".icon-moon");var sun=document.querySelector(".icon-sun");if(moon)moon.style.display="none";if(sun)sun.style.display="inline"}});window.addEventListener("DOMContentLoaded",function(){document.querySelectorAll(".search-suggestion-item").forEach(function(el){el.addEventListener("click",function(){var t=this.textContent.trim();if(t.indexOf("全系")!==-1||t.indexOf("All Yachts")!==-1)window.location.href="yachts.html";else if(t.indexOf("定制")!==-1||t.indexOf("Custom")!==-1)window.location.href="custom.html";else if(t.indexOf("航线")!==-1||t.indexOf("Routes")!==-1)window.location.href="charter.html";else if(t.indexOf("联系")!==-1||t.indexOf("Contact")!==-1||t.indexOf("顾问")!==-1||t.indexOf("Advisor")!==-1)window.location.href="contact.html"})})});</script>
+  lenSel.addEventListener('change', applyFilters);
+  useSel.addEventListener('change', applyFilters);
+  powSel.addEventListener('change', applyFilters);
+
+  // Back to top
+  var btn = document.getElementById('backToTop');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 400){ btn.classList.add('visible'); }
+    else{ btn.classList.remove('visible'); }
+  });
+  btn.addEventListener('click', function(){ window.scrollTo({top:0,behavior:'smooth'}); });
+})();
+</script>
+
+<!-- ===== FINAL CTA ===== -->
+<section style="padding:100px 0;text-align:center;background:var(--dark2);border-top:1px solid var(--glass-border)">
+<div class="container reveal" style="max-width:700px">
+<h2 style="font-family:'Playfair Display',serif;font-size:clamp(24px,3vw,38px);margin-bottom:20px">寻找您的<span class="gold-gradient">梦想之船</span></h2>
+<p style="color:var(--text-muted);font-size:15px;margin-bottom:36px">不确定哪一艘最适合您？我们的专业顾问将在24小时内为您匹配最优方案</p>
+<div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap">
+<a class="btn btn-primary btn-gold-sweep" href="contact.html">预约专属顾问</a>
+<a class="btn btn-outline" href="custom.html">了解全案定制</a>
+</div>
+</div>
+</section>
+
+<footer style="background:var(--dark1);padding:60px 0 30px;text-align:center;border-top:1px solid var(--glass-border)">
+<div class="container" style="max-width:1200px">
+<p style="color:var(--text-dim);font-size:12px;margin-bottom:8px">奇幻假期实业有限公司 © 2010-2026 FANTASTIC VACATION</p>
+<p style="color:var(--text-dim);font-size:12px">粤ICP备XXXXXXXX号 | <a href="terms.html" style="color:var(--gold)">服务条款</a> | <a href="privacy.html" style="color:var(--gold)">隐私政策</a></p>
+</div></footer>
+<button id="backToTop">↑</button>
 <script src="main.js"></script>
-<script src="i18n.js"></script>
 </body></html>

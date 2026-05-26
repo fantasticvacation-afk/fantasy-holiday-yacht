@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<title id="pageTitle">游艇详情 | 奇幻假期</title>
+<meta content="" name="description"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+<style>
+#loader{position:fixed;inset:0;background:#080e1a;display:flex;align-items:center;justify-content:center;z-index:9999;transition:opacity 0.6s,visibility 0.6s}
+#loader.hidden{opacity:0;visibility:hidden}
+#loader .brand{font-family:'Playfair Display',serif;font-size:clamp(24px,4vw,42px);color:#c9a96e;margin-bottom:40px;animation:fadeUp 1s 0.3s forwards;opacity:0}
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.yacht-detail-hero{position:relative;padding:160px 0 60px;text-align:center;background:var(--dark1);border-bottom:1px solid var(--glass-border)}
+.yacht-detail-hero h1{font-size:clamp(24px,4vw,42px);margin-bottom:4px}
+.yacht-detail-hero .tagline{font-size:16px;color:var(--gold);font-style:italic;margin-bottom:24px}
+.detail-back{display:inline-flex;align-items:center;gap:6px;padding:8px 20px;border:1px solid var(--glass-border);border-radius:50px;color:var(--text-muted);font-size:12px;margin-top:20px;transition:all 0.3s}
+.detail-back:hover{border-color:var(--gold);color:var(--gold)}
+.detail-specs-table{max-width:1000px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:1px;background:var(--glass-border);border-radius:var(--radius);overflow:hidden}
+.detail-spec-item{background:var(--dark2);padding:16px 10px;text-align:center}
+.detail-spec-val{font-size:17px;color:var(--gold);font-family:'Playfair Display',serif;font-weight:600}
+.detail-spec-label{font-size:10px;color:var(--text-dim);letter-spacing:1px;text-transform:uppercase;margin-top:4px}
+.detail-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:48px}
+.detail-gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:10px;transition:transform 0.4s;cursor:pointer}
+.detail-gallery img:hover{transform:scale(1.03)}
+@media(max-width:768px){.detail-gallery{grid-template-columns:repeat(2,1fr)}}
+.use-scenario{max-width:800px;margin:0 auto;text-align:center}
+.cta-dual{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+</style>
+<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+</head><body>
+<div id="loader"><div class="brand">FANTASTIC VACATION</div></div>
+<nav id="navbar">
+<div class="nav-inner">
+<!-- Logo -->
+<a class="nav-logo" href="index.html">
+<svg fill="none" height="32" viewBox="0 0 32 32" width="32">
+<path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
+<path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
+</svg>
+<span class="nav-logo-text">奇幻假期 <em>FANTASTIC VACATION</em></span>
+</a>
+<!-- Main Navigation -->
+<div class="nav-links">
+<!-- 首页 -->
+<a href="index.html">首页</a>
+<!-- 关于我们 -->
+<div class="nav-dropdown">
+<a href="about.html">关于我们 <span class="nav-arrow"></span></a>
+<div class="nav-dropdown-menu">
+<a href="about.html">公司简介</a>
+<a href="about-history.html">发展历程</a>
+<a href="about-culture.html">企业文化</a>
+<a href="about-structure.html">组织架构</a>
+<a href="honors.html">荣誉资质</a>
+<a href="about-responsibility.html">社会责任</a>
+</div>
+</div>
+<!-- 全案定制 -->
+<a href="custom.html">全案定制</a>
+<!-- 全系游艇 -->
+<div class="nav-dropdown">
+<a href="yachts.html">全系游艇 <span class="nav-arrow"></span></a>
+<div class="nav-dropdown-menu">
+<a href="yachts.html#sovereign">君临系列</a>
+<a href="yachts.html#expedition">远征系列</a>
+<a href="yachts.html#flybridge">飞桥系列</a>
+<a href="yachts.html#daycruiser">日间系列</a>
+</div>
+</div>
+<!-- 租赁航线 -->
+<a href="charter.html">租赁航线</a>
+<!-- 托管维保 -->
+<a href="management.html">托管维保</a>
+<!-- 案例展示 -->
+<a href="cases.html">案例展示</a>
+<!-- 新闻资讯 -->
+<div class="nav-dropdown">
+<a href="news.html">新闻资讯 <span class="nav-arrow"></span></a>
+<div class="nav-dropdown-menu">
+<a href="news.html">公司动态</a>
+<a href="news.html#industry">行业资讯</a>
+<a href="press.html">媒体报道</a>
+</div>
+</div>
+<!-- 投资者关系 -->
+<div class="nav-dropdown">
+<a href="ir.html">投资者关系 <span class="nav-arrow"></span></a>
+<div class="nav-dropdown-menu">
+<a href="ir.html">公司概况</a>
+<a href="ir-financial.html">财务报告</a>
+<a href="ir-announcements.html">公告披露</a>
+</div>
+</div>
+<!-- 全球合作 -->
+<a href="partnership.html">全球合作</a>
+<!-- 尊享会员 -->
+<a class="nav-cta-btn" href="membership.html" style="margin-right:8px;background:linear-gradient(135deg,#2a1a40,#3a2850);color:#e8d5a8;border:1px solid rgba(200,169,110,0.3)">👑 尊享会员</a>
+<!-- 联系我们 -->
+<a class="nav-cta-btn" href="contact.html">联系我们</a>
+</div>
+<!-- Right Actions -->
+<div class="nav-actions">
+<button class="nav-search-btn" onclick="toggleSearch()" title="搜索">
+<svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18">
+<circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path>
+</svg>
+</button>
+<a class="lang-switch-btn" href="en/index.html" title="English Version">EN</a>
+<button class="nav-dark-toggle" id="darkToggle" onclick="toggleDarkMode()" title="深色模式">
+<svg class="icon-moon" fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18">
+<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+</svg>
+<svg class="icon-sun" fill="none" height="18" stroke="currentColor" stroke-width="2" style="display:none" viewBox="0 0 24 24" width="18">
+<circle cx="12" cy="12" r="5"></circle><line x1="12" x2="12" y1="1" y2="3"></line><line x1="12" x2="12" y1="21" y2="23"></line><line x1="4.22" x2="5.64" y1="4.22" y2="5.64"></line><line x1="18.36" x2="19.78" y1="18.36" y2="19.78"></line><line x1="1" x2="3" y1="12" y2="12"></line><line x1="21" x2="23" y1="12" y2="12"></line><line x1="4.22" x2="5.64" y1="19.78" y2="18.36"></line><line x1="18.36" x2="19.78" y1="5.64" y2="4.22"></line>
+</svg>
+</button>
+<div class="hamburger" onclick="toggleMobile()">
+<span></span><span></span><span></span>
+</div>
+</div>
+</div>
+</nav>
+<!-- Search Overlay -->
+<div class="search-overlay" id="searchOverlay">
+<div class="search-box">
+<input autocomplete="off" class="search-input" id="searchInput" placeholder="搜索产品、新闻、案例..." type="text"/>
+<button class="search-close" onclick="toggleSearch()">
+<svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="20">
+<line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
+</svg>
+</button>
+</div>
+<div class="search-suggestions">
+<div class="search-suggestion-item">→ 探索全系游艇</div>
+<div class="search-suggestion-item">→ 定制专属游艇</div>
+<div class="search-suggestion-item">→ 浏览全球航线</div>
+<div class="search-suggestion-item">→ 联系专业顾问</div>
+</div>
+</div>
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobile-menu">
+<button class="mobile-menu-close" onclick="toggleMobile()">
+<svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="24">
+<line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
+</svg>
+</button>
+<div class="mobile-menu-logo">
+<svg fill="none" height="40" viewBox="0 0 32 32" width="40">
+<path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
+<path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
+</svg>
+<span>奇幻假期</span>
+</div>
+<a class="mobile-nav-link" href="index.html">首页</a>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title">关于我们</div>
+<a class="mobile-nav-link sub" href="about.html">公司简介</a>
+<a class="mobile-nav-link sub" href="about-history.html">发展历程</a>
+<a class="mobile-nav-link sub" href="about-culture.html">企业文化</a>
+<a class="mobile-nav-link sub" href="honors.html">荣誉资质</a>
+</div>
+<a class="mobile-nav-link" href="custom.html">全案定制</a>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title">全系游艇</div>
+<a class="mobile-nav-link sub" href="yachts.html#sovereign">君临系列</a>
+<a class="mobile-nav-link sub" href="yachts.html#expedition">远征系列</a>
+<a class="mobile-nav-link sub" href="yachts.html#flybridge">飞桥系列</a>
+<a class="mobile-nav-link sub" href="yachts.html#daycruiser">日间系列</a>
+</div>
+<a class="mobile-nav-link" href="charter.html">租赁航线</a>
+<a class="mobile-nav-link" href="management.html">托管维保</a>
+<a class="mobile-nav-link" href="cases.html">案例展示</a>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title">新闻资讯</div>
+<a class="mobile-nav-link sub" href="news.html">公司动态</a>
+<a class="mobile-nav-link sub" href="news.html#industry">行业资讯</a>
+<a class="mobile-nav-link sub" href="press.html">媒体报道</a>
+</div>
+<a class="mobile-nav-link" href="ir.html">投资者关系</a>
+<a class="mobile-nav-link" href="partnership.html">全球合作</a>
+<a class="mobile-nav-link mobile-cta" href="contact.html">联系我们</a>
+<div class="mobile-menu-footer">
+<span>电话：13797920792 / +86 0755 3353-0188</span>
+<span>邮箱：hs@fantastic-vacation.com</span>
+</div>
+</div>
+<div id="yachtContent">
+<section class="yacht-detail-hero">
+<div class="container" style="max-width:900px">
+<div class="hero-badge" style="opacity:1;animation:none" id="seriesBadge"></div>
+<h1 class="gold-gradient" id="yachtName"></h1>
+<p class="tagline" id="yachtTagline"></p>
+<a class="detail-back" href="yachts.html">← 返回全系游艇</a>
+</div>
+</section>
+
+<section class="section-padding">
+<div class="container" style="max-width:1000px">
+<div class="section-header reveal"><h2><span class="gold-gradient">技术参数</span></h2><div class="divider-gold"></div></div>
+<div class="detail-specs-table reveal" id="specsTable"></div>
+</div>
+</section>
+
+<section class="section-padding" style="background:var(--dark2)">
+<div class="container">
+<div class="section-header reveal"><h2><span class="gold-gradient">典型使用场景</span></h2><div class="divider-gold"></div></div>
+<div class="use-scenario reveal" id="useScenario"></div>
+</div>
+</section>
+
+<section class="section-padding">
+<div class="container">
+<div class="section-header reveal"><h2><span class="gold-gradient">游艇图集</span></h2><div class="divider-gold"></div></div>
+<div class="detail-gallery reveal" id="yachtGallery"></div>
+</div>
+</section>
+
+<section class="section-padding" style="background:var(--dark2);text-align:center">
+<div class="cta-dual">
+<a class="btn btn-primary btn-gold-sweep" href="contact.html" id="ctaDetail">索取技术参数与配置单</a>
+<a class="btn btn-outline" href="contact.html">预约看船/试航</a>
+</div>
+</section>
+</div>
+
+<script>
+var yachts = [{"id": "yacht-001", "series": "君临", "name": "君临120 旗舰版", "en": "SOVEREIGN 120 FLAGSHIP", "tagline": "可以携带直升机与潜水艇的120米传奇", "len": "120m", "beam": "19.5m", "draft": "5.2m", "gt": "4,800 GT", "engine": "双MTU 20V 4000 M93L", "maxSpeed": "20kn", "cruise": "16kn", "range": "6,000nm", "guests": "36", "crew": "40", "class": "Lloyd's Register ✠ 100A1", "use": "私人", "power": "传统柴油", "price": "价格面议", "useScenario": "为全球顶级家族设计，是移动的海上宫殿。标配直升机甲板、潜艇车库、无边泳池、IMAX影院。适合长期跨洋巡航与大规模宾客接待。", "imgs": ["yacht-010.jpg", "yacht-018.jpg", "yacht-026.jpg", "yacht-034.jpg", "yacht-042.jpg", "yacht-050.jpg"]}, {"id": "yacht-002", "series": "君临", "name": "君临110 至尊版", "en": "SOVEREIGN 110 SUPREME", "tagline": "混合动力驱动的超级旗舰", "len": "110m", "beam": "17.8m", "draft": "4.8m", "gt": "4,200 GT", "engine": "双MTU 16V 4000 M73L + 混合动力", "maxSpeed": "22kn", "cruise": "17kn", "range": "6,500nm", "guests": "32", "crew": "36", "class": "Lloyd's Register ✠ 100A1", "use": "私人", "power": "混合动力", "price": "价格面议", "useScenario": "兼具极致奢华与环保理念。混合动力系统可在纯电模式下安静巡航，适合注重可持续理念的船东。", "imgs": ["yacht-018.jpg", "yacht-026.jpg", "yacht-034.jpg", "yacht-042.jpg", "yacht-050.jpg", "yacht-058.jpg"]}, {"id": "yacht-003", "series": "君临", "name": "君临100 典藏版", "en": "SOVEREIGN 100 COLLECTION", "tagline": "百年工艺传承之作", "len": "100m", "beam": "16.5m", "draft": "4.5m", "gt": "3,800 GT", "engine": "双MTU 16V 4000 M73", "maxSpeed": "21kn", "cruise": "16kn", "range": "7,000nm", "guests": "28", "crew": "32", "class": "Lloyd's Register ✠ 100A1", "use": "私人", "power": "传统柴油", "price": "价格面议", "useScenario": "为追求极致空间与私密性的船东打造。配备双层海滩俱乐部、SPA水疗中心、水下观景舱。", "imgs": ["yacht-026.jpg", "yacht-034.jpg", "yacht-042.jpg", "yacht-050.jpg", "yacht-058.jpg", "yacht-066.jpg"]}, {"id": "yacht-004", "series": "君临", "name": "君临92 领航版", "en": "SOVEREIGN 92 NAVIGATOR", "tagline": "租赁市场最受欢迎的旗舰", "len": "92m", "beam": "15.5m", "draft": "4.2m", "gt": "3,200 GT", "engine": "双MTU 16V 4000 M63L + 混合动力", "maxSpeed": "23kn", "cruise": "18kn", "range": "6,000nm", "guests": "24", "crew": "30", "class": "Lloyd's Register ✠ 100A1", "use": "租赁优先", "power": "混合动力", "price": "价格面议", "useScenario": "兼顾租赁与私用，配备超大户外娱乐甲板、DJ台与70㎡日光甲板，是地中海夏季最受欢迎的超级游艇。", "imgs": ["yacht-034.jpg", "yacht-042.jpg", "yacht-050.jpg", "yacht-058.jpg", "yacht-066.jpg", "yacht-074.jpg"]}, {"id": "yacht-005", "series": "君临", "name": "君临85 王者版", "en": "SOVEREIGN 85 MAJESTIC", "tagline": "经典与现代的完美平衡", "len": "85m", "beam": "14.0m", "draft": "3.8m", "gt": "2,800 GT", "engine": "双MTU 12V 4000 M73", "maxSpeed": "24kn", "cruise": "19kn", "range": "5,000nm", "guests": "22", "crew": "28", "class": "Lloyd's Register ✠ 100A1", "use": "私人", "power": "传统柴油", "price": "价格面议", "useScenario": "适合家族跨代传承使用。经典分层布局，主甲板主人套房+5间宾客套房，宁静奢华的避世之所。", "imgs": ["yacht-042.jpg", "yacht-050.jpg", "yacht-058.jpg", "yacht-066.jpg", "yacht-074.jpg", "yacht-082.jpg"]}, {"id": "yacht-006", "series": "君临", "name": "君临78 御风版", "en": "SOVEREIGN 78 ELEGANCE", "tagline": "极致的海上美学", "len": "78m", "beam": "13.2m", "draft": "3.5m", "gt": "2,400 GT", "engine": "双CAT 3516E", "maxSpeed": "25kn", "cruise": "20kn", "range": "5,500nm", "guests": "18", "crew": "24", "class": "Lloyd's Register ✠ 100A1", "use": "租赁优先", "power": "传统柴油", "price": "价格面议", "useScenario": "专为热衷社交的船东设计。室内外空间无缝衔接，是举办海上派对的理想场所。", "imgs": ["yacht-050.jpg", "yacht-058.jpg", "yacht-066.jpg", "yacht-074.jpg", "yacht-082.jpg", "yacht-090.jpg"]}, {"id": "yacht-007", "series": "远征", "name": "远征70 探险家", "en": "EXPEDITION 70 EXPLORER", "tagline": "极地级探险游艇 · 可持续巡航60天", "len": "70m", "beam": "14.5m", "draft": "4.8m", "gt": "3,000 GT", "engine": "双MTU 12V 4000 M53 + 混合动力", "maxSpeed": "18kn", "cruise": "14kn", "range": "8,000nm", "guests": "20", "crew": "28", "class": "ICE Class 1C + Lloyd's", "use": "探险型", "power": "混合动力", "price": "价格面议", "useScenario": "为真正的探险家打造。冰级加固船体、直升机甲板、潜水设备库、水上实验室。可连续60天不靠港，是探索南北极与偏远海域的理想平台。", "imgs": ["yacht-058.jpg", "yacht-066.jpg", "yacht-074.jpg", "yacht-082.jpg", "yacht-090.jpg", "yacht-098.jpg"]}, {"id": "yacht-008", "series": "远征", "name": "远征60 极境版", "en": "EXPEDITION 60 ICECLASS", "tagline": "冰级探险 · 无所不至", "len": "60m", "beam": "12.8m", "draft": "4.2m", "gt": "2,200 GT", "engine": "双CAT 3512E", "maxSpeed": "17kn", "cruise": "13kn", "range": "7,500nm", "guests": "16", "crew": "22", "class": "ICE Class 1D + DNV", "use": "探险型", "power": "传统柴油", "price": "价格面议", "useScenario": "紧凑高效的探险平台，可深入高纬度海域。配备全地形登陆艇与极地装备舱。", "imgs": ["yacht-066.jpg", "yacht-074.jpg", "yacht-082.jpg", "yacht-090.jpg", "yacht-098.jpg", "yacht-106.jpg"]}, {"id": "yacht-009", "series": "远征", "name": "远征50 远洋版", "en": "EXPEDITION 50 OCEANIC", "tagline": "纯电驱动的远洋探险家", "len": "50m", "beam": "11.5m", "draft": "3.6m", "gt": "1,600 GT", "engine": "双电动推进 + 太阳能辅助", "maxSpeed": "18kn", "cruise": "14kn", "range": "7,000nm", "guests": "14", "crew": "16", "class": "DNV Class", "use": "探险型", "power": "电动", "price": "价格面议", "useScenario": "可持续探险理念的代表作。零排放巡航，适合保护区海域与环保理念船东。", "imgs": ["yacht-074.jpg", "yacht-082.jpg", "yacht-090.jpg", "yacht-098.jpg", "yacht-106.jpg", "yacht-114.jpg"]}, {"id": "yacht-010", "series": "飞桥", "name": "飞桥45 尊享版", "en": "FLYBRIDGE 45 SIGNATURE", "tagline": "意式美学 · 匠心之作", "len": "45m", "beam": "9.2m", "draft": "2.4m", "gt": "498 GT", "engine": "双CAT C32 ACERT + 混合动力", "maxSpeed": "28kn", "cruise": "22kn", "range": "3,500nm", "guests": "14", "crew": "8", "class": "RINA Class", "use": "私人", "power": "混合动力", "price": "¥1,880万起", "useScenario": "意大利设计团队操刀外观，荷兰船厂承建。5间套房的奢华布局，是地中海家庭度假的完美座驾。", "imgs": ["yacht-082.jpg", "yacht-090.jpg", "yacht-098.jpg", "yacht-106.jpg", "yacht-114.jpg", "yacht-002.jpg"]}, {"id": "yacht-011", "series": "飞桥", "name": "飞桥38 经典版", "en": "FLYBRIDGE 38 CLASSIC", "tagline": "飞桥游艇的黄金尺寸", "len": "38m", "beam": "8.4m", "draft": "2.1m", "gt": "370 GT", "engine": "双MAN V12-2000", "maxSpeed": "26kn", "cruise": "20kn", "range": "3,000nm", "guests": "12", "crew": "7", "class": "RINA Class", "use": "私人", "power": "传统柴油", "price": "¥1,280万起", "useScenario": "黄金尺寸飞桥游艇，兼具操控性与空间感。4间套房布局，适合家族出海聚会。", "imgs": ["yacht-090.jpg", "yacht-098.jpg", "yacht-106.jpg", "yacht-114.jpg", "yacht-002.jpg", "yacht-010.jpg"]}, {"id": "yacht-012", "series": "飞桥", "name": "飞桥30 风尚版", "en": "FLYBRIDGE 30 ELEGANCE", "tagline": "入门级奢华飞桥", "len": "30m", "beam": "7.5m", "draft": "1.8m", "gt": "220 GT", "engine": "双MAN V12-1900", "maxSpeed": "30kn", "cruise": "24kn", "range": "2,500nm", "guests": "10", "crew": "5", "class": "RINA Class", "use": "租赁优先", "power": "传统柴油", "price": "¥880万起", "useScenario": "紧凑而不失奢华的飞桥设计，是初次入门的理想之选。3间套房+开放式沙龙。", "imgs": ["yacht-098.jpg", "yacht-106.jpg", "yacht-114.jpg", "yacht-002.jpg", "yacht-010.jpg", "yacht-018.jpg"]}, {"id": "yacht-013", "series": "日间", "name": "日间18 运动版", "en": "DAY CRUISER 18 SPORT", "tagline": "纯电驱动 · 极致动感", "len": "18m", "beam": "5.2m", "draft": "1.2m", "gt": "38 GT", "engine": "双电动推进 (350kW×2)", "maxSpeed": "38kn", "cruise": "28kn", "range": "800nm", "guests": "12", "crew": "2", "class": "CE-B", "use": "私人", "power": "电动", "price": "¥380万起", "useScenario": "零排放、零噪音的日间巡航利器。适合年轻船东在城市近海享受蓝天与速度。", "imgs": ["yacht-106.jpg", "yacht-114.jpg", "yacht-002.jpg", "yacht-010.jpg", "yacht-018.jpg", "yacht-026.jpg"]}, {"id": "yacht-014", "series": "日间", "name": "日间15 都市版", "en": "DAY CRUISER 15 CITY", "tagline": "城市海岸 · 自在巡航", "len": "15m", "beam": "4.8m", "draft": "1.0m", "gt": "28 GT", "engine": "双电动推进 (250kW×2)", "maxSpeed": "35kn", "cruise": "26kn", "range": "600nm", "guests": "8", "crew": "1", "class": "CE-C", "use": "私人", "power": "电动", "price": "¥280万起", "useScenario": "可轻松操控的日间巡航艇。一键启动、手机APP遥控泊位，是周末出海的理想伴侣。", "imgs": ["yacht-114.jpg", "yacht-002.jpg", "yacht-010.jpg", "yacht-018.jpg", "yacht-026.jpg", "yacht-034.jpg"]}, {"id": "yacht-015", "series": "日间", "name": "日间12 自由版", "en": "DAY CRUISER 12 FREEDOM", "tagline": "入门首选 · 第一艘自己的游艇", "len": "12m", "beam": "4.2m", "draft": "0.8m", "gt": "16 GT", "engine": "双VOLVO D6-440", "maxSpeed": "32kn", "cruise": "25kn", "range": "400nm", "guests": "6", "crew": "1", "class": "CE-C", "use": "私人", "power": "传统柴油", "price": "¥180万起", "useScenario": "极致简约的入门级日间巡航艇。1间主人舱+开放式日间床，是人生首游艇的完美起点。", "imgs": ["yacht-002.jpg", "yacht-010.jpg", "yacht-018.jpg", "yacht-026.jpg", "yacht-034.jpg", "yacht-042.jpg"]}];
+var params = new URLSearchParams(window.location.search);
+var id = params.get('id');
+
+function findYacht(){
+  for(var i=0;i<yachts.length;i++){
+    if(yachts[i].id === id) return yachts[i];
+  }
+  return yachts[0];
+}
+
+var y = findYacht();
+document.getElementById('seriesBadge').textContent = '✦ ' + y.series + '系列 ✦';
+document.getElementById('yachtName').textContent = y.name;
+document.getElementById('yachtTagline').textContent = y.tagline;
+document.title = y.name + ' | 奇幻假期 FANTASTIC VACATION';
+
+// Specs
+var specs = [
+  ['总长度 (LOA)', y.len], ['船宽 (Beam)', y.beam], ['吃水 (Draft)', y.draft],
+  ['总吨位 (GT)', y.gt], ['发动机', y.engine], ['最高航速', y.maxSpeed],
+  ['巡航速度', y.cruise], ['续航力', y.range], ['最大载客', y.guests],
+  ['船员', y.crew], ['船级', y['class']], ['动力类型', y.power]
+];
+var specHTML = '';
+specs.forEach(function(s){
+  specHTML += '<div class="detail-spec-item"><div class="detail-spec-val">' + s[1] + '</div><div class="detail-spec-label">' + s[0] + '</div></div>';
+});
+document.getElementById('specsTable').innerHTML = specHTML;
+
+// Scenario
+document.getElementById('useScenario').innerHTML = '<p style="color:var(--text-muted);font-size:16px;line-height:2">' + y.useScenario + '</p>';
+
+// Gallery
+var galHTML = '';
+y.imgs.forEach(function(img, idx){
+  galHTML += '<img src="images/yttp/' + img + '" alt="' + y.name + ' 图' + (idx+1) + '" loading="lazy"/>';
+});
+document.getElementById('yachtGallery').innerHTML = galHTML;
+
+// CTA
+document.getElementById('ctaDetail').href = 'contact.html?type=yacht-detail&yacht=' + encodeURIComponent(y.name);
+</script>
+
+<footer style="background:var(--dark1);padding:60px 0 30px;text-align:center;border-top:1px solid var(--glass-border)"><div class="container" style="max-width:1200px"><p style="color:var(--text-dim);font-size:12px;margin-bottom:8px">奇幻假期实业有限公司 © 2010-2026 FANTASTIC VACATION</p><p style="color:var(--text-dim);font-size:12px">粤ICP备XXXXXXXX号 | <a href="terms.html" style="color:var(--gold)">服务条款</a> | <a href="privacy.html" style="color:var(--gold)">隐私政策</a></p></div></footer>
+<script src="main.js"></script>
+</body></html>
