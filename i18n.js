@@ -79770,7 +79770,7 @@ var dict = {
   "membership.2d00307e2998": { "zh": "五级会员层级全景图", "en": "Five-Tier Membership Overview" },
   "membership.7e7535fd4733": { "zh": "五级权益全景对照", "en": "Five-Tier Benefits Comparison" },
   "membership.b1fb8d78b554": { "zh": "仅限受邀加入", "en": "Invitation Only" },
-  "membership.c9948e9e8890": { "zh": "从雅致航海到寰球至尊黑卡，每一级都为您量身打造独特的海上私享体验", "en": "From Elegant Voyager to Ultimate Black Card — every tier is crafted exclusively for your maritime lifestyle" },
+  "membership.c9948e9e8890": { "zh": "从银帆到黑卡，五级会员体系，每一级都为您量身打造独特的海上私享体验", "en": "From Silver Sail to Black Card — five membership tiers, each crafted exclusively for your maritime lifestyle" },
   "membership.711ecaf900d5": { "zh": "会员是否可以转让？", "en": "Can membership be transferred?" },
   "membership.71187ef5e562": { "zh": "会员服务中心联系方式", "en": "Member Service Center Contact" },
   "membership.eaab3e7605f4": { "zh": "会员服务条款", "en": "Membership Service Terms" },
