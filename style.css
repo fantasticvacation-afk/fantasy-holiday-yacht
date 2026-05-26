@@ -981,7 +981,6 @@ body.dark-mode .search-suggestion-item:hover{background:#0f172a;color:#c9a96e}
   .nav-links{display:none !important}
   .nav-cta-group{display:none !important}
   .nav-actions .nav-search-btn,
-  .nav-actions .lang-switch-btn,
   .nav-actions .nav-dark-toggle{display:none !important}
   .hamburger{display:flex !important}
   .nav-inner{padding:0 24px}

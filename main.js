@@ -2,19 +2,38 @@
 
 /* === 语言切换按钮智能跳转 === */
 (function(){
-  var btn = document.querySelector('.lang-switch-btn');
-  if (!btn) return;
   var path = window.location.pathname;
-  // EN pages (under /en/): switch to CN version
-  if (path.indexOf('/en/') !== -1) {
-    var cnPath = path.replace('/en/', '/');
-    btn.href = cnPath;
-  } else {
-    // CN pages: switch to EN version
-    var parts = path.split('/');
-    var filename = parts[parts.length - 1] || 'index.html';
-    var dir = parts.slice(0, -1).join('/');
-    btn.href = dir + '/en/' + filename;
+  var isEN = path.indexOf('/en/') !== -1;
+  
+  // Navbar lang switch
+  var btn = document.querySelector('.lang-switch-btn');
+  if (btn) {
+    if (isEN) btn.href = path.replace('/en/', '/');
+    else {
+      var parts = path.split('/');
+      var filename = parts[parts.length - 1] || 'index.html';
+      btn.href = parts.slice(0, -1).join('/') + '/en/' + filename;
+    }
+  }
+  
+  // Mobile menu lang switch
+  var mobileBtn = document.querySelector('#mobileLangSwitch');
+  if (mobileBtn) {
+    if (isEN) {
+      var cnPath = path.replace('/en/', '/');
+      // For sub-pages in membership/, the root is ../
+      if (path.indexOf('/membership/') !== -1) {
+        // EN membershp page: switch to CN membership/
+        cnPath = path.replace(/\/en\/(.*)/, '/$1');
+      }
+      mobileBtn.href = cnPath;
+      if (isEN) mobileBtn.textContent = '🌐 切换到中文';
+    } else {
+      var filename_m = path.split('/').pop() || 'index.html';
+      var dir_m = path.split('/').slice(0, -1).join('/');
+      mobileBtn.href = dir_m + '/en/' + filename_m;
+      mobileBtn.textContent = '🌐 English Version';
+    }
   }
 })();
 
