@@ -1,5 +1,23 @@
 /* main.js - 奇幻假期游艇网站主逻辑 */
 
+/* === 语言切换按钮智能跳转 === */
+(function(){
+  var btn = document.querySelector('.lang-switch-btn');
+  if (!btn) return;
+  var path = window.location.pathname;
+  // EN pages (under /en/): switch to CN version
+  if (path.indexOf('/en/') !== -1) {
+    var cnPath = path.replace('/en/', '/');
+    btn.href = cnPath;
+  } else {
+    // CN pages: switch to EN version
+    var parts = path.split('/');
+    var filename = parts[parts.length - 1] || 'index.html';
+    var dir = parts.slice(0, -1).join('/');
+    btn.href = dir + '/en/' + filename;
+  }
+})();
+
 /* === Loading 动画控制 === */
 window.addEventListener("DOMContentLoaded", function() {
   var loader = document.getElementById("loader");
