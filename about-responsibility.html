@@ -89,85 +89,93 @@
 </div>
 </div>
 </nav>
-<!-- Search Overlay -->
-<div class="search-overlay" id="searchOverlay">
-<div class="search-box">
-<input autocomplete="off" class="search-input" id="searchInput" placeholder="搜索产品、新闻、案例..." type="text"/>
-<button class="search-close" onclick="toggleSearch()">
-<svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="20">
-<line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
-</svg>
-</button>
+
+<header class="page-hero">
+<div class="container reveal">
+<div class="hero-badge">✦ ESG ✦</div>
+<h1 class="gold-gradient">社会责任与可持续发展</h1>
+<p>蓝色星球，我们的责任</p>
 </div>
-<div class="search-suggestions">
-<div class="search-suggestion-item">→ 探索全系游艇</div>
-<div class="search-suggestion-item">→ 定制专属游艇</div>
-<div class="search-suggestion-item">→ 浏览全球航线</div>
-<div class="search-suggestion-item">→ 联系专业顾问</div>
+</header>
+
+<section class="section-padding">
+<div class="container">
+<div class="section-header reveal"><h2>我们的承诺</h2>
+<p class="lead">奇幻假期深知，海洋不仅是我们的工作场所，更是全人类共同的财富。我们将可持续发展融入企业运营的每一个环节。</p></div>
+<div class="esg-grid reveal" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:28px;margin-top:48px">
+
+<div style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:32px">
+<div style="font-size:36px;margin-bottom:16px">♻️</div>
+<h3 style="color:var(--gold);margin-bottom:12px">绿色船队运营</h3>
+<ul style="color:var(--text-muted);line-height:2;font-size:14px;list-style:none;padding:0">
+<li>• 优先推荐混合动力与电动游艇方案</li>
+<li>• 船队统一使用低硫燃料与岸电系统</li>
+<li>• 禁止一次性塑料制品上船</li>
+<li>• 执行国际海洋环保公约废弃物处理标准</li>
+<li>• 定期向船东提交碳排放报告</li>
+</ul>
 </div>
+
+<div style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:32px">
+<div style="font-size:36px;margin-bottom:16px">🐬</div>
+<h3 style="color:var(--gold);margin-bottom:12px">海洋生态保护</h3>
+<ul style="color:var(--text-muted);line-height:2;font-size:14px;list-style:none;padding:0">
+<li>• 敏感海域航道自动规避系统</li>
+<li>• 与海洋保护组织合作开展栖息地修复</li>
+<li>• 航线规划避免干扰海洋哺乳动物迁徙</li>
+<li>• 禁止在珊瑚礁区抛锚或排放</li>
+<li>• 支持海洋科研项目的船舶资源协助</li>
+</ul>
 </div>
-<!-- Mobile Menu -->
-<div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="移动端导航菜单">
-<button class="mobile-menu-close" onclick="toggleMobile()" aria-label="关闭菜单">
-<svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="24" aria-hidden="true">
-<line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
-</svg>
-</button>
-<div class="mobile-menu-logo">
-<svg fill="none" height="40" viewBox="0 0 32 32" width="40" aria-hidden="true">
-<path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
-<path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
-</svg>
-<span>奇幻假期</span>
+
+<div style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:32px">
+<div style="font-size:36px;margin-bottom:16px">🏘️</div>
+<h3 style="color:var(--gold);margin-bottom:12px">社区与人才发展</h3>
+<ul style="color:var(--text-muted);line-height:2;font-size:14px;list-style:none;padding:0">
+<li>• 全球运营中心优先聘用当地人才</li>
+<li>• 设立"海洋梦想奖学金"支持航海教育</li>
+<li>• 为偏远港口社区提供海洋安全教育</li>
+<li>• 实习生计划每年接纳相关专业在校生</li>
+<li>• 员工多元化与包容性政策（D&I）</li>
+</ul>
 </div>
-<a class="mobile-nav-link" href="index.html">首页</a>
-<div class="mobile-nav-group">
-<div class="mobile-nav-group-title">全系游艇</div>
-<a class="mobile-nav-link sub" href="yachts.html#sovereign">君临系列</a>
-<a class="mobile-nav-link sub" href="yachts.html#expedition">远征系列</a>
-<a class="mobile-nav-link sub" href="yachts.html#flybridge">飞桥系列</a>
-<a class="mobile-nav-link sub" href="yachts.html#daycruiser">日间系列</a>
+
+<div style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:32px">
+<div style="font-size:36px;margin-bottom:16px">📋</div>
+<h3 style="color:var(--gold);margin-bottom:12px">合规与透明</h3>
+<ul style="color:var(--text-muted);line-height:2;font-size:14px;list-style:none;padding:0">
+<li>• 严格遵守国际海事组织（IMO）2020限硫令</li>
+<li>• 所有项目通过第三方独立环保审计</li>
+<li>• 供应链社会责任审查制度</li>
+<li>• 定期发布环境与社会责任报告</li>
+<li>• 建立客户隐私保护体系（GDPR合规）</li>
+</ul>
 </div>
-<div class="mobile-nav-group">
-<div class="mobile-nav-group-title">定制服务</div>
-<a class="mobile-nav-link sub" href="custom.html">全案定制</a>
-<a class="mobile-nav-link sub" href="charter.html">租赁航线</a>
-<a class="mobile-nav-link sub" href="management.html">托管维保</a>
-</div>
-<a class="mobile-nav-link" href="cases.html">案例展示</a>
-<div class="mobile-nav-group">
-<div class="mobile-nav-group-title">关于我们</div>
-<a class="mobile-nav-link sub" href="about.html">公司简介</a>
-<a class="mobile-nav-link sub" href="about-history.html">发展历程</a>
-<a class="mobile-nav-link sub" href="about-culture.html">企业文化</a>
-<a class="mobile-nav-link sub" href="about-structure.html">组织架构</a>
-<a class="mobile-nav-link sub" href="honors.html">荣誉资质</a>
-<a class="mobile-nav-link sub" href="about-responsibility.html">社会责任</a>
-</div>
-<div class="mobile-nav-group">
-<div class="mobile-nav-group-title">资讯与合作</div>
-<a class="mobile-nav-link sub" href="news.html">新闻资讯</a>
-<a class="mobile-nav-link sub" href="ir.html">投资者关系</a>
-<a class="mobile-nav-link sub" href="partnership.html">全球合作</a>
-</div>
-<a class="mobile-nav-link mobile-primary" href="membership.html">👑 尊享会员</a>
-<a class="mobile-nav-link mobile-cta" href="contact.html">联系我们</a>
-<div class="mobile-menu-footer">
-<span>电话：13797920792 / +86 0755 3353-0188</span>
-<span>邮箱：hs@fantastic-vacation.com</span>
+
 </div>
 </div>
 </section>
-<section style="padding:80px 20px;">
-<div style="max-width:1100px;margin:0 auto;">
-<h2 data-i18n="about-responsibility.194" style="font-family:'Playfair Display',serif;font-size:32px;color:#c9a96e;margin-bottom:40px;text-align:center;">行业责任与安全承诺</h2>
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px;">
-<div style="background:rgba(201,169,110,0.08);border:1px solid rgba(201,169,110,0.2);border-radius:16px;padding:32px;"><h3 data-i18n="about-responsibility.197" style="color:#c9a96e;font-size:22px;margin-bottom:16px;">⚓ 安全运营</h3><p data-i18n="about-responsibility.198" style="color:#e2e8f0;line-height:1.8;">严格执行国际安全标准，确保每一次航行安全。</p></div>
-<div style="background:rgba(201,169,110,0.08);border:1px solid rgba(201,169,110,0.2);border-radius:16px;padding:32px;"><h3 data-i18n="about-responsibility.200" style="color:#c9a96e;font-size:22px;margin-bottom:16px;">📋 合规经营</h3><p data-i18n="about-responsibility.201" style="color:#e2e8f0;line-height:1.8;">遵守各国法律法规，规范行业标准。</p></div>
-<div style="background:rgba(201,169,110,0.08);border:1px solid rgba(201,169,110,0.2);border-radius:16px;padding:32px;"><h3 data-i18n="about-responsibility.203" style="color:#c9a96e;font-size:22px;margin-bottom:16px;">🏆 行业推动</h3><p data-i18n="about-responsibility.204" style="color:#e2e8f0;line-height:1.8;">参与行业标准制定，推动行业健康发展。</p></div>
+
+<section class="section-padding" style="background:var(--dark2)">
+<div class="container">
+<div class="section-header reveal"><h2>可持续游艇倡议</h2></div>
+<div class="reveal" style="max-width:800px;margin:40px auto 0">
+<p style="color:var(--text-muted);line-height:1.9;font-size:15px">作为行业引领者，奇幻假期发起"可持续游艇倡议"，联合船厂、供应商、港口运营方与船东社群，共同推动游艇行业的绿色转型。我们相信，奢华与环保并非对立——真正的顶级生活方式，必然包含对地球未来的责任感。</p>
+<p style="color:var(--text-muted);line-height:1.9;font-size:15px;margin-top:16px">我们承诺到2030年，将船队整体碳排放强度降低40%，并将可再生能源使用比例提升至50%以上。</p>
 </div>
 </div>
 </section>
+
+<section class="section-padding" style="text-align:center">
+<div class="container reveal">
+<div class="section-header"><h2>了解更多</h2></div>
+<div class="cta-buttons" style="display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin-top:32px">
+<a href="about.html" class="btn btn-outline">了解品牌故事 →</a>
+<a href="contact.html" class="btn btn-primary">联系我们 →</a>
+</div>
+</div>
+</section>
+
 <footer data-i18n="about-responsibility.379" id="footer">
 <div class="footer-top-bar"></div>
 <div class="footer-main">

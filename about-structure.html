@@ -89,75 +89,90 @@
 </div>
 </div>
 </nav>
-<!-- Search Overlay -->
-<div class="search-overlay" id="searchOverlay">
-<div class="search-box">
-<input autocomplete="off" class="search-input" id="searchInput" placeholder="搜索产品、新闻、案例..." type="text"/>
-<button class="search-close" onclick="toggleSearch()">
-<svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="20">
-<line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
-</svg>
-</button>
+
+<header class="page-hero">
+<div class="container reveal">
+<div class="hero-badge">✦ ORGANIZATION ✦</div>
+<h1 class="gold-gradient">组织架构</h1>
+<p>全球化团队，扁平化协作，专业化分工</p>
 </div>
-<div class="search-suggestions">
-<div class="search-suggestion-item">→ 探索全系游艇</div>
-<div class="search-suggestion-item">→ 定制专属游艇</div>
-<div class="search-suggestion-item">→ 浏览全球航线</div>
-<div class="search-suggestion-item">→ 联系专业顾问</div>
+</header>
+
+<section class="section-padding">
+<div class="container">
+<div class="section-header reveal"><h2>组织架构概览</h2>
+<p class="lead">奇幻假期采用"三维矩阵式"管理模式，以项目为中心，整合设计、工程、运营三大核心能力</p></div>
+<div class="org-grid reveal" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px;margin-top:48px">
+<div style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:28px;border-top:3px solid var(--gold)">
+<h3 style="color:var(--gold);margin-bottom:12px;font-size:17px">🎨 设计顾问部</h3>
+<p style="color:var(--text-muted);line-height:1.7;font-size:14px;margin-bottom:12px">负责全案定制游艇的外观设计、内饰概念、空间规划与材料选型。团队成员包括意大利、荷兰籍资深游艇设计师，具备在国际顶级船厂与设计工作室的丰富从业经验。</p>
+<div style="font-size:12px;color:var(--text-dim)">
+<strong style="color:var(--gold)">核心职能：</strong> 外观造型 | 内饰设计 | 材料采选 | 3D可视化 | 概念提案
 </div>
 </div>
-<!-- Mobile Menu -->
-<div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="移动端导航菜单">
-<button class="mobile-menu-close" onclick="toggleMobile()" aria-label="关闭菜单">
-<svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="24" aria-hidden="true">
-<line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
-</svg>
-</button>
-<div class="mobile-menu-logo">
-<svg fill="none" height="40" viewBox="0 0 32 32" width="40" aria-hidden="true">
-<path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
-<path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
-</svg>
-<span>奇幻假期</span>
+<div style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:28px;border-top:3px solid var(--gold)">
+<h3 style="color:var(--gold);margin-bottom:12px;font-size:17px">⚙️ 工程与项目管理部</h3>
+<p style="color:var(--text-muted);line-height:1.7;font-size:14px;margin-bottom:12px">负责游艇建造过程的工程深化、船厂对接、质量监督与项目进度管控。由资深船舶工程师与认证项目经理组成，确保每一个项目按时、按质、按预算交付。</p>
+<div style="font-size:12px;color:var(--text-dim)">
+<strong style="color:var(--gold)">核心职能：</strong> 技术规范 | 船厂监造 | 质量审核 | 进度管控 | 交付验收
 </div>
-<a class="mobile-nav-link" href="index.html">首页</a>
-<div class="mobile-nav-group">
-<div class="mobile-nav-group-title">全系游艇</div>
-<a class="mobile-nav-link sub" href="yachts.html#sovereign">君临系列</a>
-<a class="mobile-nav-link sub" href="yachts.html#expedition">远征系列</a>
-<a class="mobile-nav-link sub" href="yachts.html#flybridge">飞桥系列</a>
-<a class="mobile-nav-link sub" href="yachts.html#daycruiser">日间系列</a>
 </div>
-<div class="mobile-nav-group">
-<div class="mobile-nav-group-title">定制服务</div>
-<a class="mobile-nav-link sub" href="custom.html">全案定制</a>
-<a class="mobile-nav-link sub" href="charter.html">租赁航线</a>
-<a class="mobile-nav-link sub" href="management.html">托管维保</a>
+<div style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:28px;border-top:3px solid var(--gold)">
+<h3 style="color:var(--gold);margin-bottom:12px;font-size:17px">🛥️ 船队运营部</h3>
+<p style="color:var(--text-muted);line-height:1.7;font-size:14px;margin-bottom:12px">负责租赁航线的产品设计与执行、托管船队的日常运维、船员招募与培训、码头关系管理。运营团队分布在全球多个核心港口城市，支持7×24小时响应。</p>
+<div style="font-size:12px;color:var(--text-dim)">
+<strong style="color:var(--gold)">核心职能：</strong> 航线策划 | 船长/船员管理 | 码头合作 | 维保调度 | 应急响应
 </div>
-<a class="mobile-nav-link" href="cases.html">案例展示</a>
-<div class="mobile-nav-group">
-<div class="mobile-nav-group-title">关于我们</div>
-<a class="mobile-nav-link sub" href="about.html">公司简介</a>
-<a class="mobile-nav-link sub" href="about-history.html">发展历程</a>
-<a class="mobile-nav-link sub" href="about-culture.html">企业文化</a>
-<a class="mobile-nav-link sub" href="about-structure.html">组织架构</a>
-<a class="mobile-nav-link sub" href="honors.html">荣誉资质</a>
-<a class="mobile-nav-link sub" href="about-responsibility.html">社会责任</a>
 </div>
-<div class="mobile-nav-group">
-<div class="mobile-nav-group-title">资讯与合作</div>
-<a class="mobile-nav-link sub" href="news.html">新闻资讯</a>
-<a class="mobile-nav-link sub" href="ir.html">投资者关系</a>
-<a class="mobile-nav-link sub" href="partnership.html">全球合作</a>
+<div style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:28px;border-top:3px solid var(--gold)">
+<h3 style="color:var(--gold);margin-bottom:12px;font-size:17px">💎 客⼾关系与管家服务部</h3>
+<p style="color:var(--text-muted);line-height:1.7;font-size:14px;margin-bottom:12px">每位客户配备专属管家顾问，从首次咨询到长期服务全程对接。团队成员具有高端酒店、私人银行或奢华旅游行业背景，以极致服务标准为每一位船东保驾护航。</p>
+<div style="font-size:12px;color:var(--text-dim)">
+<strong style="color:var(--gold)">核心职能：</strong> 专属管家 | 需求解读 | 合同管理 | 会员运营 | 活动策划
 </div>
-<a class="mobile-nav-link mobile-primary" href="membership.html">👑 尊享会员</a>
-<a class="mobile-nav-link mobile-cta" href="contact.html">联系我们</a>
-<div class="mobile-menu-footer">
-<span>电话：13797920792 / +86 0755 3353-0188</span>
-<span>邮箱：hs@fantastic-vacation.com</span>
+</div>
+<div style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:28px;border-top:3px solid var(--gold)">
+<h3 style="color:var(--gold);margin-bottom:12px;font-size:17px">🌐 全球合作与市场部</h3>
+<p style="color:var(--text-muted);line-height:1.7;font-size:14px;margin-bottom:12px">负责品牌推广、国际合作拓展、媒体关系、投资者沟通与市场营销策略。团队掌握多语种服务能力，覆盖中、英、意、法、阿拉伯语等核心市场区域。</p>
+<div style="font-size:12px;color:var(--text-dim)">
+<strong style="color:var(--gold)">核心职能：</strong> 品牌建设 | 合作伙伴拓展 | 公关传播 | 投资者关系 | 数字营销
+</div>
+</div>
+<div style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:28px;border-top:3px solid var(--gold)">
+<h3 style="color:var(--gold);margin-bottom:12px;font-size:17px">🔍 合规与风险管理部</h3>
+<p style="color:var(--text-muted);line-height:1.7;font-size:14px;margin-bottom:12px">负责法务合规、保险方案、航行安全审核与行业认证维护。与多家国际海事律师事务所保持长期合作，确保所有项目符合国际海事法规与环保标准。</p>
+<div style="font-size:12px;color:var(--text-dim)">
+<strong style="color:var(--gold)">核心职能：</strong> 法务合规 | 保险理赔 | 安全审计 | 认证管理 | 合同审查
+</div>
+</div>
 </div>
 </div>
 </section>
+
+<section class="section-padding" style="background:var(--dark2)">
+<div class="container">
+<div class="section-header reveal"><h2>全球办公网络</h2></div>
+<div class="global-offices reveal" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:24px;margin-top:40px">
+<div class="office-card" style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:24px"><h4 style="color:var(--gold)">🇭🇰 香港总部</h4><p style="color:var(--text-muted);font-size:13px;line-height:1.6">全球运营与战略管理中心<br/>设计顾问部常驻基地</p></div>
+<div class="office-card" style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:24px"><h4 style="color:var(--gold)">🇨🇳 深圳运营中心</h4><p style="color:var(--text-muted);font-size:13px;line-height:1.6">工程管理与客户服务中心<br/>船队调度与维保协调</p></div>
+<div class="office-card" style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:24px"><h4 style="color:var(--gold)">🇮🇹 地中海区域中心</h4><p style="color:var(--text-muted);font-size:13px;line-height:1.6">船厂关系与监造协调<br/>地中海航线运营基地</p></div>
+<div class="office-card" style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:24px"><h4 style="color:var(--gold)">🇸🇬 新加坡办事处</h4><p style="color:var(--text-muted);font-size:13px;line-height:1.6">东南亚市场拓展<br/>区域租赁航线管理</p></div>
+<div class="office-card" style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:24px"><h4 style="color:var(--gold)">🇦🇪 迪拜联络处</h4><p style="color:var(--text-muted);font-size:13px;line-height:1.6">中东地区客户服务<br/>高端会员活动策划</p></div>
+</div>
+</div>
+</section>
+
+<section class="section-padding" style="text-align:center">
+<div class="container reveal">
+<div class="section-header"><h2>我们的团队基因</h2></div>
+<p style="color:var(--text-muted);max-width:700px;margin:0 auto 40px;line-height:1.8">团队成员来自意大利、荷兰、德国、日本、中国等多个国家和地区，平均从业经验超过12年。我们汇聚了游艇设计师、船舶工程师、航海专家、奢华酒店管理者和金融法律顾问——多元化背景构筑了我们跨越文化与专业的服务能力。</p>
+<div class="cta-buttons" style="display:flex;gap:20px;justify-content:center;flex-wrap:wrap">
+<a href="about.html" class="btn btn-outline">了解品牌故事 →</a>
+<a href="contact.html" class="btn btn-primary">加入我们 →</a>
+</div>
+</div>
+</section>
+
 <footer data-i18n="about-structure.613" id="footer">
 <div class="footer-top-bar"></div>
 <div class="footer-main">

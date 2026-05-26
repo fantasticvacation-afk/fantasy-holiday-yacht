@@ -92,90 +92,27 @@ input,select,textarea{width:100%;padding:16px;background:rgba(255,255,255,.02);b
 </div>
 </div>
 </nav>
-<!-- Search Overlay -->
-<div class="search-overlay" id="searchOverlay">
-<div class="search-box">
-<input autocomplete="off" class="search-input" id="searchInput" placeholder="搜索产品、新闻、案例..." type="text"/>
-<button class="search-close" onclick="toggleSearch()">
-<svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="20">
-<line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
-</svg>
-</button>
+<header class="page-hero">
+<div class="container reveal">
+<div class="hero-badge">✦ BRAND PHILOSOPHY ✦</div>
+<h1 class="gold-gradient">品牌理念</h1>
+<p>重新定义游艇生活的边界</p>
 </div>
-<div class="search-suggestions">
-<div class="search-suggestion-item">→ 探索全系游艇</div>
-<div class="search-suggestion-item">→ 定制专属游艇</div>
-<div class="search-suggestion-item">→ 浏览全球航线</div>
-<div class="search-suggestion-item">→ 联系专业顾问</div>
+</header><section class="section-padding">
+<div class="container">
+<div class="section-header reveal"><h2>我们的愿景</h2></div>
+<div class="reveal" style="max-width:800px;margin:40px auto 0"><p style="color:var(--text-muted);line-height:1.9;font-size:15px">奇幻假期相信，游艇不应只是富人的玩具——它是一把钥匙，打开人类与海洋之间最本真的连接。我们的使命是让每一位向往海洋生活的人，都能找到属于自己的蓝色坐标。</p></div>
 </div>
+</section><section class="section-padding" style="background:var(--dark2)">
+<div class="container">
+<div class="section-header reveal"><h2>四大品牌价值</h2></div>
+<div class="reveal" style="max-width:800px;margin:40px auto 0"><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px"><div style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:24px"><h4 style="color:var(--gold);margin-bottom:8px">极致匠心</h4><p style="font-size:13px;color:var(--text-muted);line-height:1.7">每一处细节都经过反复推敲，绝不妥协。</p></div><div style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:24px"><h4 style="color:var(--gold);margin-bottom:8px">全球视野</h4><p style="font-size:13px;color:var(--text-muted);line-height:1.7">融合欧洲工艺与亚洲服务，打造世界级体验。</p></div><div style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:24px"><h4 style="color:var(--gold);margin-bottom:8px">责任航海</h4><p style="font-size:13px;color:var(--text-muted);line-height:1.7">将可持续发展融入每一次航行规划。</p></div><div style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:24px"><h4 style="color:var(--gold);margin-bottom:8px">终身陪伴</h4><p style="font-size:13px;color:var(--text-muted);line-height:1.7">从第一次咨询到十年后的船队升级，我们始终在。</p></div></div></div>
 </div>
-<!-- Mobile Menu -->
-<div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="移动端导航菜单">
-<button class="mobile-menu-close" onclick="toggleMobile()" aria-label="关闭菜单">
-<svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="24" aria-hidden="true">
-<line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
-</svg>
-</button>
-<div class="mobile-menu-logo">
-<svg fill="none" height="40" viewBox="0 0 32 32" width="40" aria-hidden="true">
-<path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
-<path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
-</svg>
-<span>奇幻假期</span>
+</section><section class="section-padding" style="background:var(--dark2);text-align:center">
+<div class="container reveal">
+<div class="section-header"><h2>了解品牌故事</h2></div>
+<div class="cta-buttons" style="display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin-top:32px"><a href="about.html" class="btn btn-outline">关于我们 →</a><a href="membership.html" class="btn btn-primary">回到会员首页 →</a></div>
 </div>
-<a class="mobile-nav-link" href="../index.html">首页</a>
-<div class="mobile-nav-group">
-<div class="mobile-nav-group-title">全系游艇</div>
-<a class="mobile-nav-link sub" href="../yachts.html#sovereign">君临系列</a>
-<a class="mobile-nav-link sub" href="../yachts.html#expedition">远征系列</a>
-<a class="mobile-nav-link sub" href="../yachts.html#flybridge">飞桥系列</a>
-<a class="mobile-nav-link sub" href="../yachts.html#daycruiser">日间系列</a>
-</div>
-<div class="mobile-nav-group">
-<div class="mobile-nav-group-title">定制服务</div>
-<a class="mobile-nav-link sub" href="../custom.html">全案定制</a>
-<a class="mobile-nav-link sub" href="../charter.html">租赁航线</a>
-<a class="mobile-nav-link sub" href="../management.html">托管维保</a>
-</div>
-<a class="mobile-nav-link" href="../cases.html">案例展示</a>
-<div class="mobile-nav-group">
-<div class="mobile-nav-group-title">关于我们</div>
-<a class="mobile-nav-link sub" href="../about.html">公司简介</a>
-<a class="mobile-nav-link sub" href="../about-history.html">发展历程</a>
-<a class="mobile-nav-link sub" href="../about-culture.html">企业文化</a>
-<a class="mobile-nav-link sub" href="../about-structure.html">组织架构</a>
-<a class="mobile-nav-link sub" href="../honors.html">荣誉资质</a>
-<a class="mobile-nav-link sub" href="../about-responsibility.html">社会责任</a>
-</div>
-<div class="mobile-nav-group">
-<div class="mobile-nav-group-title">资讯与合作</div>
-<a class="mobile-nav-link sub" href="../news.html">新闻资讯</a>
-<a class="mobile-nav-link sub" href="../ir.html">投资者关系</a>
-<a class="mobile-nav-link sub" href="../partnership.html">全球合作</a>
-</div>
-<a class="mobile-nav-link mobile-primary" href="../membership.html">👑 尊享会员</a>
-<a class="mobile-nav-link mobile-cta" href="../contact.html">联系我们</a>
-<div class="mobile-menu-footer">
-<span>电话：13797920792 / +86 0755 3353-0188</span>
-<span>邮箱：hs@fantastic-vacation.com</span>
-</div>
-</div>
-</div>
-<!-- Copyright Bar -->
-<div class="footer-bottom">
-<div class="footer-bottom-inner">
-<div class="copyright">
-<span data-i18n="footer-template.175">© 2020-2026 奇幻假期实业有限公司 FANTASTIC VACATION INDUSTRIAL CO., LTD. 保留所有权利。</span>
-</div>
-<div class="legal-links">
-<a data-i18n="footer-template.179" href="privacy.html">隐私政策</a>
-<a data-i18n="footer-template.181" href="terms.html">使用条款</a>
-<a data-i18n="footer-template.183" href="sitemap.html">网站地图</a>
-</div>
-</div>
-<div></div>
-</div></div></footer>
-<script src="../i18n.js"></script>
-<script src="../main.js"></script>
+</section>
 </body>
 </html>
