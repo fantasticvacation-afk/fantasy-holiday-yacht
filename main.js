@@ -405,19 +405,28 @@ function toggleSeries(){
   } catch(e){}
 }
 
-/* ===== 隐藏无英文版页面的EN按钮 ===== */
+/* ===== CN-only page language switch → repoint to nearest EN page ===== */
 (function() {
-  var NO_EN_PAGES = [
-    'about-history.html','about-culture.html','about-structure.html','about-responsibility.html','about-intro.html',
-    'yachts-sovereign.html','yachts-expedition.html','yachts-flybridge.html','yachts-daycruiser.html',
-    'terms.html','privacy.html','sitemap.html'
-  ];
-  // 匹配 case-*.html 和 news-*.html
+  var EN_MAP = {
+    'about-history.html':'en/about.html','about-culture.html':'en/about.html','about-structure.html':'en/about.html',
+    'about-responsibility.html':'en/about.html','about-intro.html':'en/about.html',
+    'yachts-sovereign.html':'en/yachts.html','yachts-expedition.html':'en/yachts.html',
+    'yachts-flybridge.html':'en/yachts.html','yachts-daycruiser.html':'en/yachts.html',
+    'terms.html':'en/terms.html','privacy.html':'en/privacy.html','sitemap.html':'en/sitemap.html'
+  };
   var p = window.location.pathname.split('/').pop();
-  if (NO_EN_PAGES.indexOf(p) >= 0 || /^(case|news)-/.test(p)) {
+  var target = EN_MAP[p] || (/^case-/.test(p) ? 'en/cases.html' : null) || (/^news-/.test(p) ? 'en/news.html' : null);
+  if (target) {
     var f = function(){
       var btns = document.querySelectorAll('.lang-switch-btn, #mobileLangSwitch');
-      for (var i=0; i<btns.length; i++) btns[i].style.display = 'none';
+      for (var i=0; i<btns.length; i++) {
+        var b = btns[i];
+        b.textContent = 'EN';
+        b.href = target;
+        b.title = 'Switch to English';
+        b.setAttribute('aria-label','Switch to English');
+        b.style.display = '';
+      }
     };
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', f);
     else f();
