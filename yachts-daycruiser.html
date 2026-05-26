@@ -1,23 +1,30 @@
 <!DOCTYPE html>
-
-<html lang="zh-CN"><head>
-<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1.0" name="viewport"/>
-<title data-i18n="sitemap.3">网站地图 | 奇幻假期实业有限公司</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<title>日间系列 | 奇幻假期 Day Cruiser Series</title>
+<meta content="奇幻假期日间系列——日夜无界，纵享自由 — 现代日间巡航系列" name="description"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
 <link href="style.css" rel="stylesheet"/>
 <style>
-/* Loader 自动消失 - 三重保障 */
-@keyframes autoHideLoader{
-  0%,80%{opacity:1;visibility:visible}
-  85%{opacity:0.5}
-  90%{opacity:0.2}
-  95%{opacity:0;visibility:hidden}
-  100%{display:none}
-}
-#loader{animation:autoHideLoader 6s ease-in-out forwards}
-#loader.hidden,#loader[style*="display:none"]{animation:none!important;display:none!important}
+#loader{position:fixed;inset:0;background:#080e1a;display:flex;align-items:center;justify-content:center;z-index:9999;transition:opacity 0.6s,visibility 0.6s}
+#loader.hidden{opacity:0;visibility:hidden}
+.page-hero{position:relative;padding:180px 0 80px;text-align:center;background:linear-gradient(180deg,var(--dark3) 0%,var(--dark1) 100%)}
+.series-overview{max-width:800px;margin:0 auto}
+.series-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:32px}
+@media(max-width:768px){.series-gallery{grid-template-columns:repeat(2,1fr)} .series-yacht-card{flex-direction:column}}}
+.spec-range-box{background:linear-gradient(135deg,rgba(201,169,110,0.08),rgba(201,169,110,0.02));border:1px solid rgba(201,169,110,0.2);border-radius:12px;padding:28px 24px}
+.highlights-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.target-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.cta-buttons{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin-top:32px}
 </style>
-  <link rel="icon" type="image/svg+xml" href="favicon.svg"/></head><body>
+<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+</head>
+<body>
+<div id="loader"><div style="color:#c9a96e;font-size:14px;letter-spacing:3px">LOADING...</div></div>
 <nav id="navbar" aria-label="主导航">
 <div class="nav-inner">
 <a class="nav-logo" href="index.html" aria-label="奇幻假期首页">
@@ -86,7 +93,116 @@
 </div>
 </div>
 </nav>
-<header class="page-hero"><div class="container reveal"><div class="hero-badge">✦ SITEMAP ✦</div><h1 class="gold-gradient">网站地图</h1><p>浏览全部页面与功能</p></div></header><section class="section-padding"><div class="container"><div class="section-header reveal"><h2>主导航</h2></div><div class="reveal" style="max-width:800px;margin:40px auto 0"><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;line-height:2.5;font-size:14px"><div><strong style="color:var(--gold)">首页</strong><br/><a href="index.html" style="color:var(--text-muted)">奇幻假期</a></div><div><strong style="color:var(--gold)">关于我们</strong><br/><a href="about.html" style="color:var(--text-muted)">公司简介</a><br/><a href="about-history.html" style="color:var(--text-muted)">发展历程</a><br/><a href="about-culture.html" style="color:var(--text-muted)">企业文化</a><br/><a href="about-structure.html" style="color:var(--text-muted)">组织架构</a><br/><a href="about-responsibility.html" style="color:var(--text-muted)">社会责任</a><br/><a href="honors.html" style="color:var(--text-muted)">荣誉资质</a></div><div><strong style="color:var(--gold)">定制服务</strong><br/><a href="custom.html" style="color:var(--text-muted)">全案定制</a><br/><a href="charter.html" style="color:var(--text-muted)">租赁航线</a><br/><a href="management.html" style="color:var(--text-muted)">托管维保</a></div><div><strong style="color:var(--gold)">全系游艇</strong><br/><a href="yachts.html" style="color:var(--text-muted)">全部系列</a><br/><a href="yacht-detail.html" style="color:var(--text-muted)">游艇详情</a></div><div><strong style="color:var(--gold)">案例与新闻</strong><br/><a href="cases.html" style="color:var(--text-muted)">案例展示</a><br/><a href="news.html" style="color:var(--text-muted)">新闻资讯</a><br/><a href="press.html" style="color:var(--text-muted)">媒体报道</a></div><div><strong style="color:var(--gold)">其他页面</strong><br/><a href="partnership.html" style="color:var(--text-muted)">全球合作</a><br/><a href="membership.html" style="color:var(--text-muted)">尊享会员</a><br/><a href="ir.html" style="color:var(--text-muted)">投资者关系</a><br/><a href="contact.html" style="color:var(--text-muted)">联系我们</a></div></div></div></div></section><section class="section-padding" style="background:var(--dark2)"><div class="container"><div class="section-header reveal"><h2>英文站 (English)</h2></div><div class="reveal" style="max-width:800px;margin:40px auto 0"><div style="line-height:2.5;font-size:14px"><a href="en/index.html" style="color:var(--gold);font-weight:600">en/index.html</a> — English Homepage<br/><a href="en/about.html" style="color:var(--gold)">about</a> · <a href="en/custom.html" style="color:var(--gold)">custom</a> · <a href="en/yachts.html" style="color:var(--gold)">yachts</a> · <a href="en/charter.html" style="color:var(--gold)">charter</a><br/><a href="en/management.html" style="color:var(--gold)">management</a> · <a href="en/cases.html" style="color:var(--gold)">cases</a> · <a href="en/news.html" style="color:var(--gold)">news</a><br/><a href="en/membership.html" style="color:var(--gold)">membership</a> · <a href="en/ir.html" style="color:var(--gold)">ir</a> · <a href="en/partnership.html" style="color:var(--gold)">partnership</a><br/><a href="en/contact.html" style="color:var(--gold)">contact</a> · <a href="en/sitemap.html" style="color:var(--gold)">sitemap</a> · <a href="en/honors.html" style="color:var(--gold)">honors</a></div></div></div></section><section class="section-padding"><div class="container"><div class="section-header reveal"><h2>辅助页面</h2></div><div class="reveal" style="max-width:800px;margin:40px auto 0"><div style="line-height:2.2;font-size:14px;color:var(--text-muted)"><a href="terms.html" style="color:var(--gold)">服务条款</a> · <a href="privacy.html" style="color:var(--gold)">隐私政策</a> · <a href="contact.html" style="color:var(--gold)">联系我们</a></div></div></div></section>
+<header class="page-hero">
+<div class="container reveal">
+<div class="hero-badge">✦ DAY CRUISER SERIES ✦</div>
+<h1 class="gold-gradient">日间系列</h1>
+<p style="font-size:18px;color:var(--gold);font-style:italic;margin-top:12px">日夜无界，纵享自由 — 现代日间巡航系列</p>
+</div>
+</header>
+
+<section class="section-padding"><div class="container">
+<div class="section-header reveal"><h2>系列概述</h2><div class="divider-gold"></div></div>
+<div class="reveal series-overview" style="margin-top:40px">
+<p style="color:var(--text-muted);line-height:2;font-size:16px">日间系列为新一代航海生活而设计，是奇幻假期的入门级奢华之选。覆盖12米到18米的精巧尺寸段，专为日间高速巡航、周末派对和短途度假而打造。设计灵感源自意大利里维埃拉的灵动美学——低舷弧线、开放式甲板和极简内饰，将海洋的流动感融入每一艘艇的设计中。虽然是日间巡航的定位，但质量与服务不降级——全系列享有与旗舰系列相同的管家式售后服务和泊位保障。</p>
+<div class="series-gallery">
+        <div style="position:relative;border-radius:12px;overflow:hidden"><img src="images/yttp/yacht-111.jpg" alt="日间系列" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block"/></div>
+        <div style="position:relative;border-radius:12px;overflow:hidden"><img src="images/yttp/yacht-117.jpg" alt="日间系列" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block"/></div>
+        <div style="position:relative;border-radius:12px;overflow:hidden"><img src="images/yttp/yacht-121.jpg" alt="日间系列" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block"/></div>
+        <div style="position:relative;border-radius:12px;overflow:hidden"><img src="images/yttp/yacht-125.jpg" alt="日间系列" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block"/></div>
+</div></div></div></section>
+
+<section class="section-padding" style="background:var(--dark2)"><div class="container">
+<div class="section-header reveal"><h2>技术参数概览</h2></div>
+<div class="reveal" style="margin-top:40px;max-width:900px;margin-left:auto;margin-right:auto">
+<div class="spec-range-box" style="text-align:center">
+<div style="font-size:14px;color:var(--gold);letter-spacing:3px;margin-bottom:20px">SERIES SPECIFICATIONS</div>
+<p style="color:var(--text-muted);line-height:1.8;font-size:14px;margin-bottom:16px">12m - 18m (LOA) | 3.8m - 5.2m (Beam) | 32 - 38 kn | 4 - 8 Guests | 300 - 500nm</p>
+<div style="display:flex;gap:24px;justify-content:center;flex-wrap:wrap;margin-top:24px">
+<div style="text-align:center"><div style="font-family:Playfair Display,serif;font-size:28px;color:var(--gold)">50万-300万+ 欧元</div><div style="font-size:11px;color:var(--text-dim);margin-top:4px">价格区间</div></div>
+<div style="text-align:center"><div style="font-family:Playfair Display,serif;font-size:20px;color:var(--gold)">制造周期：6-12个月</div></div>
+</div></div></div></div></section>
+
+<section class="section-padding"><div class="container">
+<div class="section-header reveal"><h2>核心技术优势</h2></div>
+<div class="reveal highlights-grid" style="margin-top:40px">
+    <div style="background:var(--card);border:1px solid var(--glass-border);border-radius:10px;padding:20px">
+      <h3 style="color:var(--gold);font-size:16px;margin-bottom:8px">灵动运动设计</h3>
+      <p style="color:var(--text-muted);font-size:13px;line-height:1.7">源自跑车设计语言，凌厉的线条和低重心设计，最高航速达38节</p>
+    </div>
+    <div style="background:var(--card);border:1px solid var(--glass-border);border-radius:10px;padding:20px">
+      <h3 style="color:var(--gold);font-size:16px;margin-bottom:8px">日间派对专家</h3>
+      <p style="color:var(--text-muted);font-size:13px;line-height:1.7">可变式开放式甲板，水上运动平台+电动遮阳系统+BBQ户外厨房标准配备</p>
+    </div>
+    <div style="background:var(--card);border:1px solid var(--glass-border);border-radius:10px;padding:20px">
+      <h3 style="color:var(--gold);font-size:16px;margin-bottom:8px">经济高效运行</h3>
+      <p style="color:var(--text-muted);font-size:13px;line-height:1.7">双Volvo IPS推进系统搭配轻量化船体，运营成本仅为同尺寸艇的60%</p>
+    </div>
+    <div style="background:var(--card);border:1px solid var(--glass-border);border-radius:10px;padding:20px">
+      <h3 style="color:var(--gold);font-size:16px;margin-bottom:8px">都市便利</h3>
+      <p style="color:var(--text-muted);font-size:13px;line-height:1.7">紧凑的12m-18m尺寸适合城市周边水域及小型码头，拖运和转港方便</p>
+    </div>
+
+</div></div></section>
+
+<section class="section-padding" style="background:var(--dark2)"><div class="container">
+<div class="section-header reveal"><h2>系列成员</h2></div>
+<div class="reveal" style="margin-top:40px;max-width:1000px;margin-left:auto;margin-right:auto">
+  <div class="reveal series-yacht-card" style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;overflow:hidden;display:flex;flex-wrap:wrap;margin-bottom:20px">
+    <div style="flex:0 0 300px;max-width:300px;min-height:200px;background:var(--dark2)"><img src="images/yttp/yacht-107.jpg" alt="日间18 运动版" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block"/></div>
+    <div style="flex:1;min-width:300px;padding:24px">
+      <h3 style="font-family:Playfair Display,serif;font-size:22px;color:var(--gold);margin-bottom:8px">日间18 运动版</h3>
+      <div style="font-size:12px;color:var(--text-dim);letter-spacing:1px;margin-bottom:12px">18m / 5.2m / 38kn / 8 Guests / 500nm</div>
+      <p style="color:var(--text-muted);font-size:14px;line-height:1.7">日间旗舰，座舱影院+水上沙龙+全碳纤维甲板，海面终极体验</p>
+    </div>
+  </div>
+  <div class="reveal series-yacht-card" style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;overflow:hidden;display:flex;flex-wrap:wrap;margin-bottom:20px">
+    <div style="flex:0 0 300px;max-width:300px;min-height:200px;background:var(--dark2)"><img src="images/yttp/yacht-115.jpg" alt="日间15 都市版" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block"/></div>
+    <div style="flex:1;min-width:300px;padding:24px">
+      <h3 style="font-family:Playfair Display,serif;font-size:22px;color:var(--gold);margin-bottom:8px">日间15 都市版</h3>
+      <div style="font-size:12px;color:var(--text-dim);letter-spacing:1px;margin-bottom:12px">15m / 4.6m / 35kn / 6 Guests / 400nm</div>
+      <p style="color:var(--text-muted);font-size:14px;line-height:1.7">最灵动，城市海滨日间巡游最佳搭档</p>
+    </div>
+  </div>
+  <div class="reveal series-yacht-card" style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;overflow:hidden;display:flex;flex-wrap:wrap;margin-bottom:20px">
+    <div style="flex:0 0 300px;max-width:300px;min-height:200px;background:var(--dark2)"><img src="images/yttp/yacht-119.jpg" alt="日间12 自由版" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block"/></div>
+    <div style="flex:1;min-width:300px;padding:24px">
+      <h3 style="font-family:Playfair Display,serif;font-size:22px;color:var(--gold);margin-bottom:8px">日间12 自由版</h3>
+      <div style="font-size:12px;color:var(--text-dim);letter-spacing:1px;margin-bottom:12px">12m / 3.8m / 32kn / 4 Guests / 300nm</div>
+      <p style="color:var(--text-muted);font-size:14px;line-height:1.7">入门自由，告别沉重仪式，拥抱轻快航海</p>
+    </div>
+  </div>
+
+</div></div></section>
+
+<section class="section-padding"><div class="container">
+<div class="section-header reveal"><h2>适合人群</h2></div>
+<div class="reveal target-grid" style="margin-top:40px">
+    <div style="background:var(--card);border:1px solid var(--glass-border);border-radius:8px;padding:16px">
+      <span style="color:var(--gold);font-weight:600">✦ 年轻高净值人群</span>
+      <p style="font-size:13px;color:var(--text-muted);margin-top:6px;line-height:1.6">追求时尚、运动和社交的30-45岁高净值人群</p>
+    </div>
+    <div style="background:var(--card);border:1px solid var(--glass-border);border-radius:8px;padding:16px">
+      <span style="color:var(--gold);font-weight:600">✦ 城市沿海家庭</span>
+      <p style="font-size:13px;color:var(--text-muted);margin-top:6px;line-height:1.6">希望在周末快速出海、日间巡航的都市家庭</p>
+    </div>
+    <div style="background:var(--card);border:1px solid var(--glass-border);border-radius:8px;padding:16px">
+      <span style="color:var(--gold);font-weight:600">✦ 水上运动爱好者</span>
+      <p style="font-size:13px;color:var(--text-muted);margin-top:6px;line-height:1.6">需要专业水上运动装备平台的冲浪/潜水/钓鱼爱好者</p>
+    </div>
+    <div style="background:var(--card);border:1px solid var(--glass-border);border-radius:8px;padding:16px">
+      <span style="color:var(--gold);font-weight:600">✦ 入门游艇买家</span>
+      <p style="font-size:13px;color:var(--text-muted);margin-top:6px;line-height:1.6">首次购入游艇、希望在初试后升级到大型系列的入门客户</p>
+    </div>
+
+</div></div></section>
+
+<section class="section-padding" style="background:var(--dark2);text-align:center"><div class="container">
+<div class="section-header reveal"><h2>探索日间系列</h2></div>
+<div class="reveal cta-buttons">
+<a href="contact.html" class="btn btn-primary">预约专属顾问 →</a>
+<a href="yachts.html" class="btn btn-outline">← 返回全系游艇</a>
+</div></div></section>
 
 <footer data-i18n="index.965" id="footer">
 <div class="footer-top-bar"></div>
@@ -232,4 +348,37 @@
 </div>
 <div></div>
 </div></div></footer>
-</body></html<section class="section-padding" style="background:var(--dark2)"><div class="container"><div class="section-header reveal"><h2>使用说明</h2></div><div class="reveal" style="max-width:800px;margin:40px auto 0"><p style="color:var(--text-muted);line-height:1.9;font-size:15px">本网站地图列出所有可用页面和功能入口，帮助您快速找到所需信息。如有任何疑问，请通过顶部导航栏或页脚信息联系我们。</p></div></div></section><section class="section-padding"><div class="container"><div class="section-header reveal"><h2>快速链接</h2></div><div class="reveal" style="max-width:800px;margin:40px auto 0;text-align:center"><a href="index.html" class="btn btn-primary">返回首页</a></div></div></section><section class="section-padding"><div class="container"><p style="color:var(--text-muted);line-height:1.9;font-size:14px">本站地图涵盖全部中文页面与英文站点入口，您可以通过顶部主导航快速访问各栏目。如有任何访问问题，请通过页脚的联系方式与我们取得联系，我们将在24小时内响应您的需求。</p></div></section>>
+<script>
+/* 立即执行 - 不等 DOMContentLoaded */
+(function(){
+  var ld=document.getElementById("loader");
+  if(!ld)return;
+  /* 5.5秒后强制隐藏 - 兜底 */
+  setTimeout(function(){
+    if(ld){ld.style.display="none";ld.style.visibility="hidden"}
+    document.body.style.overflow="";
+  },5500);
+})();
+</script>
+<script>
+window.addEventListener("DOMContentLoaded",function(){
+var loader=document.getElementById("loader");
+if(!loader)return;
+var progressEl=document.getElementById("progress");
+var progress=0;
+var interval=setInterval(function(){progress+=Math.random()*12+8;if(progress>=100){progress=100;clearInterval(interval);if(progressEl)progressEl.style.width="100%";setTimeout(function(){if(loader)loader.style.display="none";document.body.style.overflow=""},400)}else if(progressEl)progressEl.style.width=progress+"%"},180);
+setTimeout(function(){clearInterval(interval);if(loader)loader.style.display="none";document.body.style.overflow=""},5000);
+});
+window.addEventListener("scroll",function(){var nav=document.getElementById("navbar");if(window.scrollY>50)nav.classList.add("scrolled");else nav.classList.remove("scrolled")});
+function toggleMobile(){document.getElementById("mobile-menu").classList.toggle("active");document.querySelector(".hamburger").classList.toggle("active")}
+(function(){var c=document.getElementById("cursor");if(c)document.addEventListener("mousemove",function(e){c.style.left=e.pageX+"px";c.style.top=e.pageY+"px"})})();
+(function(){var o=new IntersectionObserver(function(e){e.forEach(function(e){if(e.isIntersecting)e.target.classList.add("revealed")})},{threshold:0.1});document.querySelectorAll(".reveal,.reveal-left,.reveal-right,.reveal-scale").forEach(function(e){o.observe(e)})})();
+
+function toggleSearch(){var s=document.getElementById("searchOverlay");if(s){s.classList.toggle("active");if(s.classList.contains("active")){setTimeout(function(){var i=document.getElementById("searchInput");if(i)i.focus()},100)}}}
+document.addEventListener("keydown",function(e){if(e.key==="Escape"){var s=document.getElementById("searchOverlay");if(s&&s.classList.contains("active"))s.classList.remove("active");var m=document.getElementById("mobile-menu");if(m&&m.classList.contains("active")){m.classList.remove("active");var h=document.querySelector(".hamburger");if(h)h.classList.remove("active")}}});function toggleDarkMode(){document.body.classList.toggle("dark-mode");var isDark=document.body.classList.contains("dark-mode");localStorage.setItem("fv-dark",isDark?"1":"0");var moon=document.querySelector(".icon-moon");var sun=document.querySelector(".icon-sun");if(moon)moon.style.display=isDark?"none":"inline";if(sun)sun.style.display=isDark?"inline":"none"}
+window.addEventListener("DOMContentLoaded",function(){var isDark=localStorage.getItem("fv-dark")==="1";if(isDark){document.body.classList.add("dark-mode");var moon=document.querySelector(".icon-moon");var sun=document.querySelector(".icon-sun");if(moon)moon.style.display="none";if(sun)sun.style.display="inline"}});window.addEventListener("DOMContentLoaded",function(){document.querySelectorAll(".search-suggestion-item").forEach(function(el){el.addEventListener("click",function(){var t=this.textContent.trim();if(t.indexOf("全系")!==-1||t.indexOf("All Yachts")!==-1)window.location.href="yachts.html";else if(t.indexOf("定制")!==-1||t.indexOf("Custom")!==-1)window.location.href="custom.html";else if(t.indexOf("航线")!==-1||t.indexOf("Routes")!==-1)window.location.href="charter.html";else if(t.indexOf("联系")!==-1||t.indexOf("Contact")!==-1||t.indexOf("顾问")!==-1||t.indexOf("Advisor")!==-1)window.location.href="contact.html"})})});</script>
+
+<script src="i18n.js"></script>
+
+<script src="main.js"></script>
+</body></html>
