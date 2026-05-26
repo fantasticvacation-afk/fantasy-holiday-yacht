@@ -97,6 +97,71 @@ tr:nth-child(even){background:rgba(255,255,255,.02)}
 </div>
 </div>
 </nav>
+<!-- Search Overlay -->
+<div class="search-overlay" id="searchOverlay">
+<div class="search-box">
+<input autocomplete="off" class="search-input" id="searchInput" placeholder="搜索产品、新闻、案例..." type="text"/>
+<button class="search-close" onclick="toggleSearch()">
+<svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="20">
+<line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
+</svg>
+</button>
+</div>
+<div class="search-suggestions">
+<div class="search-suggestion-item">→ 探索全系游艇</div>
+<div class="search-suggestion-item">→ 定制专属游艇</div>
+<div class="search-suggestion-item">→ 浏览全球航线</div>
+<div class="search-suggestion-item">→ 联系专业顾问</div>
+</div>
+</div>
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobile-menu">
+<button class="mobile-menu-close" onclick="toggleMobile()">
+<svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="24">
+<line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
+</svg>
+</button>
+<div class="mobile-menu-logo">
+<svg fill="none" height="40" viewBox="0 0 32 32" width="40">
+<path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
+<path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
+</svg>
+<span>奇幻假期</span>
+</div>
+<a class="mobile-nav-link" href="index.html">首页</a>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title">关于我们</div>
+<a class="mobile-nav-link sub" href="about.html">公司简介</a>
+<a class="mobile-nav-link sub" href="about-history.html">发展历程</a>
+<a class="mobile-nav-link sub" href="about-culture.html">企业文化</a>
+<a class="mobile-nav-link sub" href="honors.html">荣誉资质</a>
+</div>
+<a class="mobile-nav-link" href="custom.html">全案定制</a>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title">全系游艇</div>
+<a class="mobile-nav-link sub" href="yachts-sovereign.html">君临系列</a>
+<a class="mobile-nav-link sub" href="yachts-expedition.html">远征系列</a>
+<a class="mobile-nav-link sub" href="yachts-flybridge.html">飞桥系列</a>
+<a class="mobile-nav-link sub" href="yachts-daycruiser.html">日间系列</a>
+</div>
+<a class="mobile-nav-link" href="charter.html">租赁航线</a>
+<a class="mobile-nav-link" href="management.html">托管维保</a>
+<a class="mobile-nav-link" href="cases.html">案例展示</a>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title">新闻资讯</div>
+<a class="mobile-nav-link sub" href="news.html">公司动态</a>
+<a class="mobile-nav-link sub" href="news.html#industry">行业资讯</a>
+<a class="mobile-nav-link sub" href="press.html">媒体报道</a>
+</div>
+<a class="mobile-nav-link" href="ir.html">投资者关系</a>
+<a class="mobile-nav-link" href="partnership.html">全球合作</a>
+<a class="mobile-nav-link mobile-cta" href="contact.html">联系我们</a>
+<div class="mobile-menu-footer">
+<span>电话：13797920792 / +86 0755 3353-0188</span>
+<span>邮箱：hs@fantastic-vacation.com</span>
+</div>
+</div>
+
 
 <header class="page-hero"><div class="container reveal"><div class="hero-badge">* POINTS REWARDS *</div><h1 class="gold-gradient">积分与奖励</h1><p>您的每一次航海都值得被嘉奖</p></div></header><section class="section-padding"><div class="container"><div class="section-header reveal"><h2>积分规则</h2></div><div class="reveal" style="max-width:800px;margin:40px auto 0"><p style="color:var(--text-muted);line-height:1.9;font-size:15px;margin-bottom:16px">奇幻假期会员积分系统旨在嘉奖每一位积极参与航海生活的会员。无论您是通过航线租赁、活动参与还是推荐新会员入会，每一次与奇幻假期的互动都将产生积分。积分可用于兑换航线折扣、泊位升级和专属礼品等丰富奖励。</p><div style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:24px;margin-top:20px"><div style="display:grid;gap:16px"><div style="display:flex;justify-content:space-between;align-items:center"><span style="color:var(--text-muted)">航线租赁（每消费100元）</span><span style="color:var(--gold);font-weight:600">+10积分</span></div><div style="display:flex;justify-content:space-between;align-items:center"><span style="color:var(--text-muted)">活动参与（每次）</span><span style="color:var(--gold);font-weight:600">+50积分</span></div><div style="display:flex;justify-content:space-between;align-items:center"><span style="color:var(--text-muted)">推荐新会员（每成功推荐）</span><span style="color:var(--gold);font-weight:600">+500积分</span></div><div style="display:flex;justify-content:space-between;align-items:center"><span style="color:var(--text-muted)">续费奖励</span><span style="color:var(--gold);font-weight:600">+续费金额的5%</span></div></div></div></div></div></section><section class="section-padding" style="background:var(--dark2)"><div class="container"><div class="section-header reveal"><h2>积分兑换</h2></div><div class="reveal" style="max-width:800px;margin:40px auto 0"><div style="display:grid;gap:10px"><div style="background:var(--card);border:1px solid var(--glass-border);border-radius:8px;padding:14px 18px"><div style="display:flex;justify-content:space-between;align-items:center"><span style="color:var(--gold);font-weight:600">航线95折优惠券</span><span style="font-size:12px;color:var(--text-dim)">1000积分</span></div><p style="font-size:12px;color:var(--text-muted);margin-top:6px">下次航线租赁时自动抵扣</p></div><div style="background:var(--card);border:1px solid var(--glass-border);border-radius:8px;padding:14px 18px"><div style="display:flex;justify-content:space-between;align-items:center"><span style="color:var(--gold);font-weight:600">泊位升级券</span><span style="font-size:12px;color:var(--text-dim)">2000积分</span></div><p style="font-size:12px;color:var(--text-muted);margin-top:6px">可将普通泊位升级为VIP泊位，服务优先</p></div><div style="background:var(--card);border:1px solid var(--glass-border);border-radius:8px;padding:14px 18px"><div style="display:flex;justify-content:space-between;align-items:center"><span style="color:var(--gold);font-weight:600">专属礼品兑换</span><span style="font-size:12px;color:var(--text-dim)">3000积分</span></div><p style="font-size:12px;color:var(--text-muted);margin-top:6px">奇幻假期限量款航海装备或奢华礼品</p></div><div style="background:var(--card);border:1px solid var(--glass-border);border-radius:8px;padding:14px 18px"><div style="display:flex;justify-content:space-between;align-items:center"><span style="color:var(--gold);font-weight:600">航线免费体验</span><span style="font-size:12px;color:var(--text-dim)">5000积分</span></div><p style="font-size:12px;color:var(--text-muted);margin-top:6px">获赠一条精选航线免费体验机会</p></div><div style="background:var(--card);border:1px solid var(--glass-border);border-radius:8px;padding:14px 18px"><div style="display:flex;justify-content:space-between;align-items:center"><span style="color:var(--gold);font-weight:600">私人航海培训课程</span><span style="font-size:12px;color:var(--text-dim)">8000积分</span></div><p style="font-size:12px;color:var(--text-muted);margin-top:6px">由资深船长一对一授课的高级航海培训</p></div><div style="background:var(--card);border:1px solid var(--glass-border);border-radius:8px;padding:14px 18px"><div style="display:flex;justify-content:space-between;align-items:center"><span style="color:var(--gold);font-weight:600">专属行程定制服务免费</span><span style="font-size:12px;color:var(--text-dim)">10000积分</span></div><p style="font-size:12px;color:var(--text-muted);margin-top:6px">获赠一次专属行程定制服务，由团队全程策划</p></div></div></div></div></section><section class="section-padding"><div class="container"><div class="section-header reveal"><h2>积分查询</h2></div><div class="reveal" style="max-width:800px;margin:40px auto 0"><p style="color:var(--text-muted);line-height:1.9;font-size:15px;margin-bottom:16px">会员积分余额可在会员个人中心实时查询，积分有效期为两年（自获取之日起）。积分不可转让，但可在会员等级升级时按比例保留。如有积分相关疑问，请联系会员专属客服。</p></div></div></section><section class="section-padding" style="background:var(--dark2);text-align:center"><div class="container reveal"><div class="cta-buttons" style="display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin-top:32px"><a href="../membership.html" class="btn btn-outline">返回会员中心 *</a><a href="../contact.html" class="btn btn-primary">立即申请 *</a></div></div></section>
 
@@ -244,5 +309,8 @@ tr:nth-child(even){background:rgba(255,255,255,.02)}
 </div>
 <div></div>
 </div></div></footer>
+
+<script src="../i18n.js"></script>
+<script src="../main.js"></script>
 </body>
 </html>

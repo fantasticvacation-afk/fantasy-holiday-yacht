@@ -98,6 +98,71 @@ tr:nth-child(even){background:rgba(255,255,255,.02)}
 </div>
 </div>
 </nav>
+<!-- Search Overlay -->
+<div class="search-overlay" id="searchOverlay">
+<div class="search-box">
+<input autocomplete="off" class="search-input" id="searchInput" placeholder="搜索产品、新闻、案例..." type="text"/>
+<button class="search-close" onclick="toggleSearch()">
+<svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="20">
+<line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
+</svg>
+</button>
+</div>
+<div class="search-suggestions">
+<div class="search-suggestion-item">→ 探索全系游艇</div>
+<div class="search-suggestion-item">→ 定制专属游艇</div>
+<div class="search-suggestion-item">→ 浏览全球航线</div>
+<div class="search-suggestion-item">→ 联系专业顾问</div>
+</div>
+</div>
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobile-menu">
+<button class="mobile-menu-close" onclick="toggleMobile()">
+<svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="24">
+<line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
+</svg>
+</button>
+<div class="mobile-menu-logo">
+<svg fill="none" height="40" viewBox="0 0 32 32" width="40">
+<path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
+<path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
+</svg>
+<span>奇幻假期</span>
+</div>
+<a class="mobile-nav-link" href="index.html">首页</a>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title">关于我们</div>
+<a class="mobile-nav-link sub" href="about.html">公司简介</a>
+<a class="mobile-nav-link sub" href="about-history.html">发展历程</a>
+<a class="mobile-nav-link sub" href="about-culture.html">企业文化</a>
+<a class="mobile-nav-link sub" href="honors.html">荣誉资质</a>
+</div>
+<a class="mobile-nav-link" href="custom.html">全案定制</a>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title">全系游艇</div>
+<a class="mobile-nav-link sub" href="yachts-sovereign.html">君临系列</a>
+<a class="mobile-nav-link sub" href="yachts-expedition.html">远征系列</a>
+<a class="mobile-nav-link sub" href="yachts-flybridge.html">飞桥系列</a>
+<a class="mobile-nav-link sub" href="yachts-daycruiser.html">日间系列</a>
+</div>
+<a class="mobile-nav-link" href="charter.html">租赁航线</a>
+<a class="mobile-nav-link" href="management.html">托管维保</a>
+<a class="mobile-nav-link" href="cases.html">案例展示</a>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title">新闻资讯</div>
+<a class="mobile-nav-link sub" href="news.html">公司动态</a>
+<a class="mobile-nav-link sub" href="news.html#industry">行业资讯</a>
+<a class="mobile-nav-link sub" href="press.html">媒体报道</a>
+</div>
+<a class="mobile-nav-link" href="ir.html">投资者关系</a>
+<a class="mobile-nav-link" href="partnership.html">全球合作</a>
+<a class="mobile-nav-link mobile-cta" href="contact.html">联系我们</a>
+<div class="mobile-menu-footer">
+<span>电话：13797920792 / +86 0755 3353-0188</span>
+<span>邮箱：hs@fantastic-vacation.com</span>
+</div>
+</div>
+
 <header class="page-hero"><div class="container reveal"><div class="hero-badge">✦ DIAMOND SAIL ✦</div><h1 class="gold-gradient">钻石会员</h1><p>极致奢华，全方位管家服务</p></div></header><section class="section-padding" style="background:var(--dark1)"><div class="container">
 <div class="section-header reveal"><h2 class="gold-gradient">会员权益总览</h2><div class="divider-gold"></div></div>
 <div class="reveal" style="max-width:1200px;margin:40px auto 0">
@@ -293,5 +358,8 @@ tr:nth-child(even){background:rgba(255,255,255,.02)}
 </div>
 <div></div>
 </div></div></footer>
+
+<script src="../i18n.js"></script>
+<script src="../main.js"></script>
 </body>
 </html>

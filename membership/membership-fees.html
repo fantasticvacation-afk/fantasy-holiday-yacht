@@ -97,6 +97,71 @@ tr:nth-child(even){background:rgba(255,255,255,.02)}
 </div>
 </div>
 </nav>
+<!-- Search Overlay -->
+<div class="search-overlay" id="searchOverlay">
+<div class="search-box">
+<input autocomplete="off" class="search-input" id="searchInput" placeholder="搜索产品、新闻、案例..." type="text"/>
+<button class="search-close" onclick="toggleSearch()">
+<svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="20">
+<line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
+</svg>
+</button>
+</div>
+<div class="search-suggestions">
+<div class="search-suggestion-item">→ 探索全系游艇</div>
+<div class="search-suggestion-item">→ 定制专属游艇</div>
+<div class="search-suggestion-item">→ 浏览全球航线</div>
+<div class="search-suggestion-item">→ 联系专业顾问</div>
+</div>
+</div>
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobile-menu">
+<button class="mobile-menu-close" onclick="toggleMobile()">
+<svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="24">
+<line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
+</svg>
+</button>
+<div class="mobile-menu-logo">
+<svg fill="none" height="40" viewBox="0 0 32 32" width="40">
+<path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
+<path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
+</svg>
+<span>奇幻假期</span>
+</div>
+<a class="mobile-nav-link" href="index.html">首页</a>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title">关于我们</div>
+<a class="mobile-nav-link sub" href="about.html">公司简介</a>
+<a class="mobile-nav-link sub" href="about-history.html">发展历程</a>
+<a class="mobile-nav-link sub" href="about-culture.html">企业文化</a>
+<a class="mobile-nav-link sub" href="honors.html">荣誉资质</a>
+</div>
+<a class="mobile-nav-link" href="custom.html">全案定制</a>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title">全系游艇</div>
+<a class="mobile-nav-link sub" href="yachts-sovereign.html">君临系列</a>
+<a class="mobile-nav-link sub" href="yachts-expedition.html">远征系列</a>
+<a class="mobile-nav-link sub" href="yachts-flybridge.html">飞桥系列</a>
+<a class="mobile-nav-link sub" href="yachts-daycruiser.html">日间系列</a>
+</div>
+<a class="mobile-nav-link" href="charter.html">租赁航线</a>
+<a class="mobile-nav-link" href="management.html">托管维保</a>
+<a class="mobile-nav-link" href="cases.html">案例展示</a>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title">新闻资讯</div>
+<a class="mobile-nav-link sub" href="news.html">公司动态</a>
+<a class="mobile-nav-link sub" href="news.html#industry">行业资讯</a>
+<a class="mobile-nav-link sub" href="press.html">媒体报道</a>
+</div>
+<a class="mobile-nav-link" href="ir.html">投资者关系</a>
+<a class="mobile-nav-link" href="partnership.html">全球合作</a>
+<a class="mobile-nav-link mobile-cta" href="contact.html">联系我们</a>
+<div class="mobile-menu-footer">
+<span>电话：13797920792 / +86 0755 3353-0188</span>
+<span>邮箱：hs@fantastic-vacation.com</span>
+</div>
+</div>
+
 
 <header class="page-hero"><div class="container reveal"><div class="hero-badge">* FEE SCHEDULE *</div><h1 class="gold-gradient">会费明细</h1><p>透明公开的会员费用体系</p></div></header><section class="section-padding"><div class="container"><div class="section-header reveal"><h2>会费标准</h2></div><div class="reveal" style="max-width:800px;margin:40px auto 0"><p style="color:var(--text-muted);line-height:1.9;font-size:15px;margin-bottom:16px">奇幻假期会员五级体系均有明确的年费标准。年费用于支付会员权益运营成本，包括但不限于活动组织、管家服务、泊位协调和专属客服等。具体标准如下：</p><div style="display:grid;gap:12px;margin-top:20px"><div style="background:var(--card);border:1px solid var(--glass-border);border-radius:8px;padding:16px 20px;display:flex;justify-content:space-between;align-items:center"><span style="color:var(--gold);font-weight:600">银帆会员</span><span style="font-size:18px;color:var(--gold);font-weight:700">9,800元/年</span></div><div style="background:var(--card);border:1px solid var(--glass-border);border-radius:8px;padding:16px 20px;display:flex;justify-content:space-between;align-items:center"><span style="color:var(--gold);font-weight:600">金帆会员</span><span style="font-size:18px;color:var(--gold);font-weight:700">28,000元/年</span></div><div style="background:var(--card);border:1px solid var(--glass-border);border-radius:8px;padding:16px 20px;display:flex;justify-content:space-between;align-items:center"><span style="color:var(--gold);font-weight:600">铂金会员</span><span style="font-size:18px;color:var(--gold);font-weight:700">68,000元/年</span></div><div style="background:var(--card);border:1px solid var(--glass-border);border-radius:8px;padding:16px 20px;display:flex;justify-content:space-between;align-items:center"><span style="color:var(--gold);font-weight:600">钻石会员</span><span style="font-size:18px;color:var(--gold);font-weight:700">168,000元/年</span></div><div style="background:var(--card);border:1px solid var(--glass-border);border-radius:8px;padding:16px 20px;display:flex;justify-content:space-between;align-items:center"><span style="color:var(--gold);font-weight:600">黑卡会员</span><span style="font-size:18px;color:var(--gold);font-weight:700">388,000元/年（仅限邀请）</span></div></div></div></div></section><section class="section-padding" style="background:var(--dark2)"><div class="container"><div class="section-header reveal"><h2>费用说明</h2></div><div class="reveal" style="max-width:800px;margin:40px auto 0"><p style="color:var(--text-muted);line-height:1.9;font-size:15px;margin-bottom:16px">以上年费均为不含税价格，实际支付时根据当地税务政策加收相应税费。费用的构成如下：</p><ul style="color:var(--text-muted);line-height:2.2;font-size:14px;padding-left:20px"><li style="margin-bottom:8px"><strong style="color:var(--gold)">基础运营费</strong> — 涵盖会员系统维护、管家服务团队薪金和基础客户支持（约35%）</li><li style="margin-bottom:8px"><strong style="color:var(--gold)">活动策划费</strong> — 涵盖各类会员活动的策划、组织和执行成本（约25%）</li><li style="margin-bottom:8px"><strong style="color:var(--gold)">泊位保障费</strong> — 涵盖与全球80多个合作码头的泊位保障协议费用（约20%）</li><li style="margin-bottom:8px"><strong style="color:var(--gold)">平台建设费</strong> — 涵盖会员APP、航海数据和积分系统的研发与维护（约10%）</li><li style="margin-bottom:8px"><strong style="color:var(--gold)">储备金</strong> — 用于意外情况应对和特殊会员服务（约10%）</li></ul></div></div></section><section class="section-padding"><div class="container"><div class="section-header reveal"><h2>支付方式</h2></div><div class="reveal" style="max-width:800px;margin:40px auto 0"><ul style="color:var(--text-muted);line-height:2.2;font-size:14px;padding-left:20px"><li style="margin-bottom:8px"><strong style="color:var(--gold)">银行转账</strong> — 支持人民币和美元转账，参见正式发票上的银行账号</li><li style="margin-bottom:8px"><strong style="color:var(--gold)">信用卡</strong> — 支持Visa、MasterCard和银联信用卡（含分期付款，具体费率以发卡行为准）</li><li style="margin-bottom:8px"><strong style="color:var(--gold)">电汇</strong> — 国际会员可使用SWIFT电汇，需承担中间银行手续费</li></ul></div></div></section><section class="section-padding" style="background:var(--dark2);text-align:center"><div class="container reveal"><div class="cta-buttons" style="display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin-top:32px"><a href="../membership.html" class="btn btn-outline">返回会员中心 *</a><a href="../contact.html" class="btn btn-primary">立即申请 *</a></div></div></section>
 
@@ -244,5 +309,8 @@ tr:nth-child(even){background:rgba(255,255,255,.02)}
 </div>
 <div></div>
 </div></div></footer>
+
+<script src="../i18n.js"></script>
+<script src="../main.js"></script>
 </body>
 </html>
