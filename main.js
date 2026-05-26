@@ -405,17 +405,50 @@ function toggleSeries(){
   } catch(e){}
 }
 
-/* ===== CN-only page language switch → repoint to nearest EN page ===== */
+/* ===== CN-only page → EN redirect logic ===== */
 (function() {
   var EN_MAP = {
     'about-history.html':'en/about.html','about-culture.html':'en/about.html','about-structure.html':'en/about.html',
     'about-responsibility.html':'en/about.html','about-intro.html':'en/about.html',
     'yachts-sovereign.html':'en/yachts.html','yachts-expedition.html':'en/yachts.html',
     'yachts-flybridge.html':'en/yachts.html','yachts-daycruiser.html':'en/yachts.html',
+    'press.html':'en/news.html',
     'terms.html':'en/terms.html','privacy.html':'en/privacy.html','sitemap.html':'en/sitemap.html'
   };
-  var p = window.location.pathname.split('/').pop();
-  var target = EN_MAP[p] || (/^case-/.test(p) ? 'en/cases.html' : null) || (/^news-/.test(p) ? 'en/news.html' : null);
+
+  // Helper: given a filename, return the best EN target or null
+  function enTarget(filename) {
+    if (EN_MAP[filename]) return '/' + EN_MAP[filename];
+    if (/^case-/.test(filename)) return '/en/cases.html';
+    if (/^news-/.test(filename)) return '/en/news.html';
+    return null;
+  }
+
+  var path = window.location.pathname;
+  var isEN = path.indexOf('/en/') !== -1;
+  var p = path.split('/').pop();
+
+  // A) On EN pages: intercept clicks on nav links that point to CN-only pages
+  if (isEN) {
+    document.addEventListener('click', function(e) {
+      var a = e.target.closest('a[href]');
+      if (!a) return;
+      var href = a.getAttribute('href');
+      if (!href) return;
+      // Resolve relative ../ hrefs to just the filename
+      var parts = href.split('/');
+      var filename = parts[parts.length - 1];
+      var target = enTarget(filename);
+      if (target) {
+        e.preventDefault();
+        e.stopPropagation();
+        window.location.href = target;
+      }
+    }, true);
+  }
+
+  // B) On CN-only pages: repurpose language switch to show "EN" button
+  var target = enTarget(p);
   if (target) {
     var f = function(){
       var btns = document.querySelectorAll('.lang-switch-btn, #mobileLangSwitch');
