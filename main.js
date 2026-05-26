@@ -404,3 +404,22 @@ function toggleSeries(){
     }
   } catch(e){}
 }
+
+/* ===== 隐藏无英文版页面的EN按钮 ===== */
+(function() {
+  var NO_EN_PAGES = [
+    'about-history.html','about-culture.html','about-structure.html','about-responsibility.html','about-intro.html',
+    'yachts-sovereign.html','yachts-expedition.html','yachts-flybridge.html','yachts-daycruiser.html',
+    'terms.html','privacy.html','sitemap.html'
+  ];
+  // 匹配 case-*.html 和 news-*.html
+  var p = window.location.pathname.split('/').pop();
+  if (NO_EN_PAGES.indexOf(p) >= 0 || /^(case|news)-/.test(p)) {
+    var f = function(){
+      var btns = document.querySelectorAll('.lang-switch-btn, #mobileLangSwitch');
+      for (var i=0; i<btns.length; i++) btns[i].style.display = 'none';
+    };
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', f);
+    else f();
+  }
+})();
