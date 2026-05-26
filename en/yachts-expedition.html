@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<title>Expedition Series | Fantastic Vacation</title>
+<meta content="Fantastic Vacation Expedition Series — Fear No Frontier — Long-Range Explorer Yacht Collection" name="description"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="../style.css" rel="stylesheet"/>
+<style>
+#loader{position:fixed;inset:0;background:#080e1a;display:flex;align-items:center;justify-content:center;z-index:9999;transition:opacity 0.6s,visibility 0.6s}
+#loader.hidden{opacity:0;visibility:hidden}
+.page-hero{position:relative;padding:180px 0 80px;text-align:center;background:linear-gradient(180deg,var(--dark3) 0%,var(--dark1) 100%)}
+.series-overview{max-width:1200px;margin:0 auto}
+.series-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:32px}
+@media(max-width:768px){.series-gallery{grid-template-columns:repeat(2,1fr)} .series-yacht-card{flex-direction:column}}}
+.spec-range-box{background:linear-gradient(135deg,rgba(201,169,110,0.08),rgba(201,169,110,0.02));border:1px solid rgba(201,169,110,0.2);border-radius:12px;padding:28px 24px}
+.highlights-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.target-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.cta-buttons{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin-top:32px}
+</style>
+<link rel="icon" type="image/svg+xml" href="../favicon.svg"/>
+</head>
+<body>
+<div id="loader"><div style="color:#c9a96e;font-size:14px;letter-spacing:3px">LOADING...</div></div>
+<nav id="navbar" aria-label="Main Navigation">
+<div class="nav-inner">
+<a class="nav-logo" href="index.html" aria-label="Fantastic Vacation Home">
+<svg fill="none" height="32" viewBox="0 0 32 32" width="32" aria-hidden="true">
+<path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
+<path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
+</svg>
+<span class="nav-logo-text">Fantastic Vacation <em>FANTASTIC VACATION</em></span>
+</a>
+<div class="nav-links" role="menubar" aria-label="Main Navigation">
+<a href="index.html" class="nav-main-link" role="menuitem">Home</a>
+<div class="nav-dropdown" role="none">
+<a href="yachts.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">Yachts <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="Yacht Submenu">
+<a href="yachts-sovereign.html" role="menuitem">Sovereign Series</a>
+<a href="yachts-expedition.html" role="menuitem">Expedition Series</a>
+<a href="yachts-flybridge.html" role="menuitem">Flybridge Series</a>
+<a href="yachts-daycruiser.html" role="menuitem">Day Cruiser Series</a>
+</div>
+</div>
+<div class="nav-dropdown" role="none">
+<a href="custom.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">Services <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="Services Submenu">
+<a href="custom.html" role="menuitem">Custom Yachts</a>
+<a href="charter.html" role="menuitem">Charter Routes</a>
+<a href="management.html" role="menuitem">Management</a>
+</div>
+</div>
+<a href="cases.html" class="nav-main-link" role="menuitem">Cases</a>
+<div class="nav-dropdown" role="none">
+<a href="about.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">About <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="About Submenu">
+<a href="about.html" role="menuitem">Company</a>
+<a href="../about-history.html" role="menuitem">Milestones</a>
+<a href="../about-culture.html" role="menuitem">Culture</a>
+<a href="../about-structure.html" role="menuitem">Organization</a>
+<a href="honors.html" role="menuitem">Honors</a>
+<a href="../about-responsibility.html" role="menuitem">ESG</a>
+</div>
+</div>
+<div class="nav-dropdown" role="none">
+<a href="news.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">News &amp; IR <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="News &amp; IR Submenu">
+<a href="news.html" role="menuitem">News</a>
+<a href="ir.html" role="menuitem">IR</a>
+<a href="partnership.html" role="menuitem">Partnerships</a>
+</div>
+</div>
+<div class="nav-cta-group" role="none">
+<a class="nav-cta-btn" href="membership.html" role="menuitem">👑 Membership</a>
+<a class="nav-cta-btn nav-cta-primary" href="contact.html" role="menuitem">Contact</a>
+</div>
+</div>
+<div class="nav-actions" role="none">
+<button class="nav-search-btn" onclick="toggleSearch()" title="Search" aria-label="Search">
+<svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true">
+<circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path>
+</svg>
+</button>
+<a class="lang-switch-btn" href="../index.html" title="Switch to Chinese" aria-label="Switch to Chinese">中文</a>
+<button class="nav-dark-toggle" id="darkToggle" onclick="toggleDarkMode()" title="Dark Mode" aria-label="Toggle Dark Mode">
+<svg class="icon-moon" fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg class="icon-sun" fill="none" height="18" stroke="currentColor" stroke-width="2" style="display:none" viewBox="0 0 24 24" width="18" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" x2="12" y1="1" y2="3"></line><line x1="12" x2="12" y1="21" y2="23"></line><line x1="4.22" x2="5.64" y1="4.22" y2="5.64"></line><line x1="18.36" x2="19.78" y1="18.36" y2="19.78"></line><line x1="1" x2="3" y1="12" y2="12"></line><line x1="21" x2="23" y1="12" y2="12"></line><line x1="4.22" x2="5.64" y1="19.78" y2="18.36"></line><line x1="18.36" x2="19.78" y1="5.64" y2="4.22"></line></svg>
+</button>
+<div class="hamburger" onclick="toggleMobile()" aria-label="Open Mobile Menu" role="button" tabindex="0" aria-expanded="false">
+<span></span><span></span><span></span>
+</div>
+</div>
+</div>
+</nav>
+<header class="page-hero">
+<div class="container reveal">
+<div class="hero-badge">✦ EXPEDITION SERIES ✦</div>
+<h1 class="gold-gradient">Expedition Series</h1>
+<p style="font-size:18px;color:var(--gold);font-style:italic;margin-top:12px">Fear No Frontier — Long-Range Explorer Yacht Collection</p>
+</div>
+</header>
+
+<section class="section-padding"><div class="container">
+<div class="section-header reveal"><h2>Series Overview</h2><div class="divider-gold"></div></div>
+<div class="reveal series-overview" style="margin-top:40px">
+<p style="color:var(--text-muted);line-height:2;font-size:16px">The Expedition Series is designed for owners passionate about remote ocean exploration and spiritual discovery. From the 50-meter Ocean Edition to the 70-meter Explorer, every Expedition yacht features ice-strengthened hulls, extended fuel tank systems, and all-weather stability design, capable of safe navigation in extreme environments such as Antarctica, the Arctic, and uninhabited Pacific waters — while maintaining breathtaking luxury and comfort. Our Expedition Series empowers you to explore the world's most mysterious waters without compromise.</p>
+<div class="series-gallery">
+        <div style="position:relative;border-radius:12px;overflow:hidden"><img src="../images/yttp/yacht-060.jpg" alt="Expedition Series" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block"/></div>
+        <div style="position:relative;border-radius:12px;overflow:hidden"><img src="../images/yttp/yacht-070.jpg" alt="Expedition Series" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block"/></div>
+        <div style="position:relative;border-radius:12px;overflow:hidden"><img src="../images/yttp/yacht-080.jpg" alt="Expedition Series" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block"/></div>
+        <div style="position:relative;border-radius:12px;overflow:hidden"><img src="../images/yttp/yacht-085.jpg" alt="Expedition Series" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block"/></div>
+</div></div></div></section>
+
+<section class="section-padding" style="background:var(--dark2)"><div class="container">
+<div class="section-header reveal"><h2>Technical Specifications</h2></div>
+<div class="reveal" style="margin-top:40px;max-width:1200px;margin-left:auto;margin-right:auto">
+<div class="spec-range-box" style="text-align:center">
+<div style="font-size:14px;color:var(--gold);letter-spacing:3px;margin-bottom:20px">SERIES SPECIFICATIONS</div>
+<p style="color:var(--text-muted);line-height:1.8;font-size:14px;margin-bottom:16px">50m - 70m (LOA) | 9.5m - 12.5m (Beam) | 800GT - 1,800GT | 10 - 20 Guests | 5,000 - 8,000nm</p>
+<div style="display:flex;gap:24px;justify-content:center;flex-wrap:wrap;margin-top:24px">
+<div style="text-align:center"><div style="font-family:Playfair Display,serif;font-size:28px;color:var(--gold)">€25M-95M</div><div style="font-size:11px;color:var(--text-dim);margin-top:4px">Price Range</div></div>
+<div style="text-align:center"><div style="font-family:Playfair Display,serif;font-size:20px;color:var(--gold)">Build Time: 18-28 Months</div></div>
+</div></div></div></div></section>
+
+<section class="section-padding"><div class="container">
+<div class="section-header reveal"><h2>Core Technology Advantages</h2></div>
+<div class="reveal highlights-grid" style="margin-top:40px">
+    <div style="background:var(--card);border:1px solid var(--glass-border);border-radius:10px;padding:20px">
+      <h3 style="color:var(--gold);font-size:16px;margin-bottom:8px">Ice-Class Navigation Certified</h3>
+      <p style="color:var(--text-muted);font-size:13px;line-height:1.7">Full range with PC7/PC6 ice-strengthened hulls for safe light-ice navigation, adapted for global expedition demands</p>
+    </div>
+    <div style="background:var(--card);border:1px solid var(--glass-border);border-radius:10px;padding:20px">
+      <h3 style="color:var(--gold);font-size:16px;margin-bottom:8px">Extended Range Autonomy</h3>
+      <p style="color:var(--text-muted);font-size:13px;line-height:1.7">Twin engine + backup generator + auxiliary fuel tank configuration, over 7,000 nautical miles on a single refuel</p>
+    </div>
+    <div style="background:var(--card);border:1px solid var(--glass-border);border-radius:10px;padding:20px">
+      <h3 style="color:var(--gold);font-size:16px;margin-bottom:8px">Expedition Research Equipment</h3>
+      <p style="color:var(--text-muted);font-size:13px;line-height:1.7">Standard helicopter pad, submarine interface, ROV submersible system, and marine research laboratory</p>
+    </div>
+    <div style="background:var(--card);border:1px solid var(--glass-border);border-radius:10px;padding:20px">
+      <h3 style="color:var(--gold);font-size:16px;margin-bottom:8px">Extreme Climate Design</h3>
+      <p style="color:var(--text-muted);font-size:13px;line-height:1.7">Norwegian Polar-grade cold-proof system, fully operational in -30°C extreme cold environments</p>
+    </div>
+
+</div></div></section>
+
+<section class="section-padding" style="background:var(--dark2)"><div class="container">
+<div class="section-header reveal"><h2>Series Models</h2></div>
+<div class="reveal" style="margin-top:40px;max-width:1200px;margin-left:auto;margin-right:auto">
+  <div class="reveal series-yacht-card" style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;overflow:hidden;display:flex;flex-wrap:wrap;margin-bottom:20px">
+    <div style="flex:0 0 300px;max-width:300px;min-height:200px;background:var(--dark2)"><img src="../images/yttp/yacht-055.jpg" alt="Expedition 70 Explorer" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block"/></div>
+    <div style="flex:1;min-width:300px;padding:24px">
+      <h3 style="font-family:Playfair Display,serif;font-size:22px;color:var(--gold);margin-bottom:8px">Expedition 70 Explorer</h3>
+      <div style="font-size:12px;color:var(--text-dim);letter-spacing:1px;margin-bottom:12px">70m / 13.6m / 2,200GT / 18 Guests / 8,000nm</div>
+      <p style="color:var(--text-muted);font-size:14px;line-height:1.7">King of ice exploration — dual helicopter configuration + submarine + ROV lab, exceeding all civilian yacht range limits</p>
+    </div>
+  </div>
+  <div class="reveal series-yacht-card" style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;overflow:hidden;display:flex;flex-wrap:wrap;margin-bottom:20px">
+    <div style="flex:0 0 300px;max-width:300px;min-height:200px;background:var(--dark2)"><img src="../images/yttp/yacht-065.jpg" alt="Expedition 60 Polar" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block"/></div>
+    <div style="flex:1;min-width:300px;padding:24px">
+      <h3 style="font-family:Playfair Display,serif;font-size:22px;color:var(--gold);margin-bottom:8px">Expedition 60 Polar</h3>
+      <div style="font-size:12px;color:var(--text-dim);letter-spacing:1px;margin-bottom:12px">60m / 12.0m / 1,700GT / 14 Guests / 7,500nm</div>
+      <p style="color:var(--text-muted);font-size:14px;line-height:1.7">All-function station for extreme environments, -40°C cold-start capability, 8-month self-sufficiency</p>
+    </div>
+  </div>
+  <div class="reveal series-yacht-card" style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;overflow:hidden;display:flex;flex-wrap:wrap;margin-bottom:20px">
+    <div style="flex:0 0 300px;max-width:300px;min-height:200px;background:var(--dark2)"><img src="../images/yttp/yacht-075.jpg" alt="Expedition 50 Ocean" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block"/></div>
+    <div style="flex:1;min-width:300px;padding:24px">
+      <h3 style="font-family:Playfair Display,serif;font-size:22px;color:var(--gold);margin-bottom:8px">Expedition 50 Ocean</h3>
+      <div style="font-size:12px;color:var(--text-dim);letter-spacing:1px;margin-bottom:12px">50m / 10.5m / 1,200GT / 12 Guests / 7,000nm</div>
+      <p style="color:var(--text-muted);font-size:14px;line-height:1.7">Expedition entry benchmark — optimal balance of range, capability, and economy</p>
+    </div>
+  </div>
+
+</div></div></section>
+
+<section class="section-padding"><div class="container">
+<div class="section-header reveal"><h2>Target Audience</h2></div>
+<div class="reveal target-grid" style="margin-top:40px">
+    <div style="background:var(--card);border:1px solid var(--glass-border);border-radius:8px;padding:16px">
+      <span style="color:var(--gold);font-weight:600">✦ Polar Explorers</span>
+      <p style="font-size:13px;color:var(--text-muted);margin-top:6px;line-height:1.6">Adventurers seeking to explore Antarctica, the Arctic, Greenland, and uninhabited South Pacific waters</p>
+    </div>
+    <div style="background:var(--card);border:1px solid var(--glass-border);border-radius:8px;padding:16px">
+      <span style="color:var(--gold);font-weight:600">✦ Deep-Sea Research Organizations</span>
+      <p style="font-size:13px;color:var(--text-muted);margin-top:6px;line-height:1.6">Marine research institutions requiring professional scientific facilities and long-term autonomous capability</p>
+    </div>
+    <div style="background:var(--card);border:1px solid var(--glass-border);border-radius:8px;padding:16px">
+      <span style="color:var(--gold);font-weight:600">✦ Wildlife Photographers</span>
+      <p style="font-size:13px;color:var(--text-muted);margin-top:6px;line-height:1.6">Professional creative teams seeking premium filming bases in the most extreme natural environments</p>
+    </div>
+    <div style="background:var(--card);border:1px solid var(--glass-border);border-radius:8px;padding:16px">
+      <span style="color:var(--gold);font-weight:600">✦ Extended Circumnavigation Families</span>
+      <p style="font-size:13px;color:var(--text-muted);margin-top:6px;line-height:1.6">Families planning continuous at-sea living for 12+ months of global exploration</p>
+    </div>
+
+</div></div></section>
+
+<section class="section-padding" style="background:var(--dark2);text-align:center"><div class="container">
+<div class="section-header reveal"><h2>Explore the Expedition Series</h2></div>
+<div class="reveal cta-buttons">
+<a href="contact.html" class="btn btn-primary">Book Your Advisor →</a>
+<a href="yachts.html" class="btn btn-outline">← Back to All Yachts</a>
+</div></div></section>
+
+<footer style="background:var(--dark1);padding:60px 0 30px;text-align:center;border-top:1px solid var(--glass-border)">
+<div class="container" style="max-width:1200px">
+<p style="color:var(--text-dim);font-size:12px;margin-bottom:8px">Fantastic Vacation Industrial Co., Ltd. © 2010-2026 FANTASTIC VACATION</p>
+<p style="color:var(--text-dim);font-size:12px">ICP Record No. XXXXXXXX | <a href="terms.html" style="color:var(--gold)">Terms of Service</a> | <a href="privacy.html" style="color:var(--gold)">Privacy Policy</a></p>
+</div></footer>
+<button id="backToTop">↑</button>
+<script src="../main.js"></script>
+</body></html>

@@ -410,8 +410,8 @@ function toggleSeries(){
   var EN_MAP = {
     'about-history.html':'en/about.html','about-culture.html':'en/about.html','about-structure.html':'en/about.html',
     'about-responsibility.html':'en/about.html','about-intro.html':'en/about.html',
-    'yachts-sovereign.html':'en/yachts.html','yachts-expedition.html':'en/yachts.html',
-    'yachts-flybridge.html':'en/yachts.html','yachts-daycruiser.html':'en/yachts.html',
+    'yachts-sovereign.html':'en/yachts-sovereign.html','yachts-expedition.html':'en/yachts-expedition.html',
+    'yachts-flybridge.html':'en/yachts-flybridge.html','yachts-daycruiser.html':'en/yachts-daycruiser.html',
     'press.html':'en/news.html',
     'terms.html':'en/terms.html','privacy.html':'en/privacy.html','sitemap.html':'en/sitemap.html'
   };
