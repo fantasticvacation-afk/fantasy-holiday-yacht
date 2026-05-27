@@ -1,0 +1,1199 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Case Studies | Fantastic Vacation</title>
+<meta content="Fantastic Vacation — Global luxury yacht customization, charter & management. 15 years, 200+ HNW clients, 50+ yachts across 30+ waters." name="description"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="../style.css" rel="stylesheet"/>
+<style>
+/* Loader auto-hide - Triple Guaranteed */
+@keyframes autoHideLoader{
+  0%,80%{opacity:1;visibility:visible}
+  85%{opacity:0.5}
+  90%{opacity:0.2}
+  95%{opacity:0;visibility:hidden}
+  100%{display:none}
+}
+#loader{animation:autoHideLoader 6s ease-in-out forwards}
+#loader.hidden,#loader[style*="display:none"]{animation:none!important;display:none!important}
+</style>
+<style>
+/* ===== CASES PAGE STYLES ===== */
+.cases-hero {
+  position: relative;
+  min-height: 88vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: linear-gradient(135deg, #0a1628 0%, #0d2137 35%, #1a3045 65%, #0f1e30 100%);
+}
+.cases-hero .hero-bg-img {
+  position: absolute;
+  inset: 0;
+  background: url('images/yttp/yacht-007.jpg') center/cover no-repeat fixed;
+  opacity: 0.42;
+  filter: saturate(0.65) brightness(0.55);
+}
+.cases-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 15% 85%, rgba(201,169,110,0.1) 0%, transparent 50%),
+              radial-gradient(ellipse at 85% 15%, rgba(100,150,200,0.07) 0%, transparent 45%),
+              linear-gradient(to bottom, rgba(10,22,40,0.2) 0%, rgba(10,22,40,0.9) 70%, #0a1628 100%);
+  z-index: 1;
+}
+.cases-hero .hero-inner {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  padding: 0 24px;
+  max-width: 950px;
+}
+.cases-hero .hero-badge {
+  display: inline-block;
+  padding: 8px 32px;
+  border-radius: 40px;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, rgba(201,169,110,0.2), rgba(201,169,110,0.04));
+  border: 1px solid rgba(201,169,110,0.35);
+  color: #c9a96e;
+  margin-bottom: 28px;
+}
+.cases-hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(34px, 5vw, 58px);
+  font-weight: 800;
+  letter-spacing: 3px;
+  line-height: 1.18;
+  margin-bottom: 22px;
+  background: linear-gradient(135deg, #c9a96e 0%, #e8d5a8 50%, #c9a96e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.cases-hero .hero-sub {
+  font-size: clamp(14px, 1.6vw, 18px);
+  color: rgba(200,210,225,0.7);
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  line-height: 1.7;
+  max-width: 680px;
+  margin: 0 auto 30px;
+}
+.cases-hero .hero-stats {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+.cases-hero .stat-item {
+  text-align: center;
+}
+.cases-hero .stat-num {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(30px, 4vw, 46px);
+  font-weight: 700;
+  color: #c9a96e;
+  line-height: 1;
+}
+.cases-hero .stat-label {
+  font-size: 11.5px;
+  color: rgba(200,210,225,0.5);
+  letter-spacing: 2px;
+  margin-top: 8px;
+  text-transform: uppercase;
+}
+.cases-hero .hero-btns {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 36px;
+}
+.cases-hero .btn-filter {
+  padding: 14px 36px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  border: 1px solid rgba(201,169,110,0.4);
+  color: #c9a96e;
+  background: rgba(201,169,110,0.08);
+  transition: all 0.35s ease;
+}
+.cases-hero .btn-filter:hover {
+  background: #c9a96e;
+  color: #0a1628;
+  box-shadow: 0 8px 30px rgba(201,169,110,0.25);
+}
+.cases-hero .btn-cta {
+  padding: 14px 36px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  background: linear-gradient(135deg, #c9a96e, #dbb872);
+  color: #0a1628;
+  transition: all 0.35s ease;
+}
+.cases-hero .btn-cta:hover {
+  box-shadow: 0 8px 35px rgba(201,169,110,0.4);
+  transform: translateY(-2px);
+}
+
+/* Filter Section */
+.filter-section {
+  padding: 36px 0;
+  background: linear-gradient(180deg, #0c1829 0%, #0a1424 100%);
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  position: sticky;
+  top: 70px;
+  z-index: 100;
+}
+.filter-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  padding: 0 20px;
+}
+.filter-btn {
+  padding: 10px 22px;
+  border-radius: 24px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.02);
+  color: rgba(200,210,225,0.6);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.filter-btn:hover, .filter-btn.active {
+  border-color: rgba(201,169,110,0.5);
+  background: rgba(201,169,110,0.1);
+  color: #c9a96e;
+}
+
+/* Cases Grid */
+.cases-section {
+  padding: 80px 0;
+  background: linear-gradient(180deg, #0a1424 0%, #0c1829 50%, #0a1628 100%);
+}
+.cases-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+.case-card {
+  background: linear-gradient(155deg, rgba(255,255,255,0.025), rgba(255,255,255,0.005));
+  border: 1px solid rgba(201,169,110,0.08);
+  border-radius: 18px;
+  overflow: hidden;
+  transition: all 0.45s cubic-bezier(0.25,0.46,0.45,0.94);
+  position: relative;
+}
+.case-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(201,169,110,0.35);
+  box-shadow: 0 25px 70px rgba(0,0,0,0.4), 0 0 50px rgba(201,169,110,0.06);
+}
+.case-card-img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.6s ease;
+}
+.case-card:hover .case-card-img {
+  transform: scale(1.08);
+}
+.case-card-body {
+  padding: 26px 24px 30px;
+}
+.case-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+.case-tag {
+  font-size: 10px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  background: rgba(201,169,110,0.1);
+  border: 1px solid rgba(201,169,110,0.15);
+  color: rgba(201,169,110,0.9);
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+.case-card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #e8eef5;
+  margin-bottom: 10px;
+  letter-spacing: 0.3px;
+  line-height: 1.35;
+}
+.case-card p {
+  font-size: 13px;
+  color: rgba(200,210,225,0.55);
+  line-height: 1.7;
+  margin-bottom: 18px;
+}
+.case-card-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #c9a96e;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.case-card-link:hover {
+  gap: 12px;
+}
+
+/* Stats Banner */
+.stats-banner {
+  padding: 60px 0;
+  background: linear-gradient(135deg, rgba(201,169,110,0.08) 0%, rgba(201,169,110,0.02) 50%, rgba(201,169,110,0.05) 100%);
+  border-top: 1px solid rgba(201,169,110,0.1);
+  border-bottom: 1px solid rgba(201,169,110,0.1);
+}
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  text-align: center;
+}
+.stats-item .stat-num {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(36px, 4.5vw, 52px);
+  font-weight: 800;
+  color: #c9a96e;
+  line-height: 1;
+}
+.stats-item .stat-label {
+  font-size: 13px;
+  color: rgba(200,210,225,0.6);
+  margin-top: 10px;
+  letter-spacing: 1.5px;
+}
+
+/* CTA */
+.cases-cta {
+  padding: 80px 0;
+  text-align: center;
+  background: linear-gradient(180deg, #0a1628 0%, #0c1829 100%);
+}
+.cases-cta h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(28px, 3.5vw, 40px);
+  font-weight: 700;
+  margin-bottom: 16px;
+  background: linear-gradient(135deg, #c9a96e, #e8d5a8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.cases-cta p {
+  font-size: 15px;
+  color: rgba(200,210,225,0.55);
+  margin-bottom: 32px;
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cases-cta .cta-email {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 36px;
+  border-radius: 30px;
+  background: linear-gradient(135deg, rgba(201,169,110,0.15), rgba(201,169,110,0.04));
+  border: 1px solid rgba(201,169,110,0.35);
+  color: #c9a96e;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+.cases-cta .cta-email a {
+  color: #c9a96e;
+  text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .cases-grid { grid-template-columns: repeat(2, 1fr); }
+  .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 30px; }
+}
+@media (max-width: 640px) {
+  .cases-grid { grid-template-columns: 1fr; }
+  .stats-grid { grid-template-columns: 1fr 1fr; }
+  .cases-hero .hero-stats { gap: 32px; }
+  .filter-grid { gap: 8px; }
+  .filter-btn { padding: 8px 16px; font-size: 11px; }
+}
+</style>
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg"/></head>
+<body>
+<!-- LOADER -->
+<div id="loader"><div class="brand" data-i18n="cases.17">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div><div class="progress-text" data-i18n="cases.18">LOADING</div></div>
+<!-- NAV -->
+<nav id="navbar" aria-label="Main Navigation">
+<div class="nav-inner">
+<a class="nav-logo" href="index.html" aria-label="Fantastic Vacation Home">
+<svg fill="none" height="32" viewBox="0 0 32 32" width="32" aria-hidden="true">
+<path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
+<path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
+</svg>
+<span class="nav-logo-text">Fantastic Vacation <em>FANTASTIC VACATION</em></span>
+</a>
+<div class="nav-links" role="menubar" aria-label="Main Navigation">
+<a href="index.html" class="nav-main-link" role="menuitem">Home</a>
+<div class="nav-dropdown" role="none">
+<a href="yachts.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">Yachts <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="Yacht Submenu">
+<a href="yachts-sovereign.html" role="menuitem">Sovereign Series</a>
+<a href="yachts-expedition.html" role="menuitem">Expedition Series</a>
+<a href="yachts-flybridge.html" role="menuitem">Flybridge Series</a>
+<a href="yachts-daycruiser.html" role="menuitem">Day Cruiser Series</a>
+</div>
+</div>
+<div class="nav-dropdown" role="none">
+<a href="custom.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">Services <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="Services Submenu">
+<a href="custom.html" role="menuitem">Custom Yachts</a>
+<a href="charter.html" role="menuitem">Charter Routes</a>
+<a href="management.html" role="menuitem">Management</a>
+</div>
+</div>
+<a href="cases.html" class="nav-main-link" role="menuitem">Cases</a>
+<div class="nav-dropdown" role="none">
+<a href="about.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">About <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="About Submenu">
+<a href="about.html" role="menuitem">Company</a>
+<a href="../about-history.html" role="menuitem">Milestones</a>
+<a href="../about-culture.html" role="menuitem">Culture</a>
+<a href="../about-structure.html" role="menuitem">Organization</a>
+<a href="honors.html" role="menuitem">Honors</a>
+<a href="../about-responsibility.html" role="menuitem">ESG</a>
+</div>
+</div>
+<div class="nav-dropdown" role="none">
+<a href="news.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">News &amp; IR <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="News &amp; IR Submenu">
+<a href="news.html" role="menuitem">News</a>
+<a href="ir.html" role="menuitem">IR</a>
+<a href="partnership.html" role="menuitem">Partnerships</a>
+</div>
+</div>
+<div class="nav-cta-group" role="none">
+<a class="nav-cta-btn" href="membership.html" role="menuitem">👑 Membership</a>
+<a class="nav-cta-btn nav-cta-primary" href="contact.html" role="menuitem">Contact</a>
+</div>
+</div>
+<div class="nav-actions" role="none">
+<button class="nav-search-btn" onclick="toggleSearch()" title="Search" aria-label="Search">
+<svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true">
+<circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path>
+</svg>
+</button>
+<a class="lang-switch-btn" href="../index.html" title="Switch to Chinese" aria-label="中文">中文</a>
+<button class="nav-dark-toggle" id="darkToggle" onclick="toggleDarkMode()" title="Dark Mode" aria-label="Toggle Dark Mode">
+<svg class="icon-moon" fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg class="icon-sun" fill="none" height="18" stroke="currentColor" stroke-width="2" style="display:none" viewBox="0 0 24 24" width="18" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" x2="12" y1="1" y2="3"></line><line x1="12" x2="12" y1="21" y2="23"></line><line x1="4.22" x2="5.64" y1="4.22" y2="5.64"></line><line x1="18.36" x2="19.78" y1="18.36" y2="19.78"></line><line x1="1" x2="3" y1="12" y2="12"></line><line x1="21" x2="23" y1="12" y2="12"></line><line x1="4.22" x2="5.64" y1="19.78" y2="18.36"></line><line x1="18.36" x2="19.78" y1="5.64" y2="4.22"></line></svg>
+</button>
+<div class="hamburger" onclick="toggleMobile()" aria-label="Open Mobile Menu" role="button" tabindex="0" aria-expanded="false">
+<span></span><span></span><span></span>
+</div>
+</div>
+</div>
+</nav>
+<!-- Search Overlay -->
+<div class="search-overlay" id="searchOverlay">
+<div class="search-box">
+<input autocomplete="off" class="search-input" id="searchInput" placeholder="Search yachts, news, cases..." type="text"/>
+<button class="search-close" onclick="toggleSearch()">
+<svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="20">
+<line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
+</svg>
+</button>
+</div>
+<div class="search-suggestions">
+<div class="search-suggestion-item">→ Explore Our Fleet</div>
+<div class="search-suggestion-item">→ Custom Yacht Design</div>
+<div class="search-suggestion-item">→ Global Routes</div>
+<div class="search-suggestion-item">→ Contact Specialist</div>
+</div>
+</div>
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Mobile Navigation Menu">
+<button class="mobile-menu-close" onclick="toggleMobile()" aria-label="Close Menu">
+<svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="24" aria-hidden="true">
+<line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
+</svg>
+</button>
+<div class="mobile-menu-logo">
+<svg fill="none" height="40" viewBox="0 0 32 32" width="40" aria-hidden="true">
+<path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
+<path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
+</svg>
+<span>FANTASTIC VACATION</span>
+</div>
+<a class="mobile-nav-link" href="index.html">Home</a>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title">Yachts</div>
+<a class="mobile-nav-link sub" href="yachts-sovereign.html">Sovereign Series</a>
+<a class="mobile-nav-link sub" href="yachts-expedition.html">Expedition Series</a>
+<a class="mobile-nav-link sub" href="yachts-flybridge.html">Flybridge Series</a>
+<a class="mobile-nav-link sub" href="yachts-daycruiser.html">Day Cruiser Series</a>
+</div>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title">Services</div>
+<a class="mobile-nav-link sub" href="custom.html">Custom Yachts</a>
+<a class="mobile-nav-link sub" href="charter.html">Charter Routes</a>
+<a class="mobile-nav-link sub" href="management.html">Management</a>
+</div>
+<a class="mobile-nav-link" href="cases.html">Cases</a>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title">About</div>
+<a class="mobile-nav-link sub" href="about.html">Company</a>
+<a class="mobile-nav-link sub" href="../about-history.html">Milestones</a>
+<a class="mobile-nav-link sub" href="../about-culture.html">Culture</a>
+<a class="mobile-nav-link sub" href="../about-structure.html">Organization</a>
+<a class="mobile-nav-link sub" href="honors.html">Honors</a>
+<a class="mobile-nav-link sub" href="../about-responsibility.html">ESG</a>
+</div>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title">News &amp; IR</div>
+<a class="mobile-nav-link sub" href="news.html">News</a>
+<a class="mobile-nav-link sub" href="ir.html">Investor Relations</a>
+<a class="mobile-nav-link sub" href="partnership.html">Partnerships</a>
+</div>
+<a class="mobile-nav-link mobile-primary" href="membership.html">👑 Membership</a>
+<a class="mobile-nav-link mobile-cta" href="contact.html">Contact</a>
+<div class="mobile-menu-footer">
+<a class="mobile-nav-link" href="index.html" id="mobileLangSwitch" style="border:1px solid rgba(201,169,110,0.3);border-radius:6px;display:inline-block;padding:12px 24px;color:#c9a96e;font-weight:600;margin-bottom:16px">🌐 中文</a>
+<span>Tel: 13797920792 / +86 0755 3353-0188</span>
+<span>Email: hs@fantastic-vacation.com</span>
+</div>
+</div>
+<div class="hero-btns">
+<a class="btn-filter" data-i18n="cases.287" href="#filter">Filter by Service Type</a>
+<a class="btn-cta" data-i18n="cases.289" href="contact.html">Book Similar Custom Plan</a>
+</div>
+</div>
+</section>
+<!-- ========== FILTER SECTION ========== -->
+<section class="filter-section" id="filter">
+<div class="filter-grid reveal">
+<button class="filter-btn active" data-filter="all" data-i18n="cases.298">All Cases</button>
+<button class="filter-btn" data-filter="custom" data-i18n="cases.300">Full Custom</button>
+<button class="filter-btn" data-filter="charter" data-i18n="cases.302">Charter Voyage</button>
+<button class="filter-btn" data-filter="management" data-i18n="cases.304">Management</button>
+<button class="filter-btn" data-filter="event" data-i18n="cases.306">Corporate Events</button>
+<button class="filter-btn" data-filter="wedding" data-i18n="cases.308">Ceremonies</button>
+<button class="filter-btn" data-filter="activity" data-i18n="cases.310">Excursions</button>
+<button class="filter-btn" data-filter="business" data-i18n="cases.312">Corporate</button>
+<button class="filter-btn" data-filter="refit" data-i18n="cases.314">Refit & Renovation</button>
+<button class="filter-btn" data-filter="global" data-i18n="cases.316">Round-the-World</button>
+</div>
+</section>
+<!-- ========== CASES GRID ========== -->
+<section class="cases-section">
+<div class="container" data-i18n="cases.986">
+<div class="cases-grid reveal" data-i18n="cases.325">
+<!-- Case 01 -->
+<div class="case-card" data-category="custom">
+<img alt="82m Superyacht "Phantom Blue"" data-i18n-attr="alt:_alt.cases.0" class="case-card-img" src="../images/yttp/yacht-015.jpg"/>
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag" data-i18n="cases.331">Full Custom</span>
+<span class="case-tag" data-i18n="cases.333">82mSuperyacht</span>
+<span class="case-tag" data-i18n="cases.335">Middle Eastern Waters</span>
+</div>
+<h3 data-i18n="cases.338">82m Superyacht「幻蓝号」Fantasy Blue</h3>
+<p data-i18n="cases.340">Commissioned by a Middle Eastern royal family, full custom project spanning 38 months.featuring a helipad, 、submersible garage, 、medical center and IMAXIMAX cinema。2024. Awarded Asia Boating AwardsBest Custom Yacht of the Year 。</p>
+<a class="case-card-link" data-i18n="cases.342" href="../case-001.html">View Full Case Study <span>→</span></a>
+</div>
+</div>
+<!-- Case 02 -->
+<div class="case-card" data-category="charter">
+<img alt="Mediterranean30-day Deep Cruise" data-i18n-attr="alt:_alt.cases.1" class="case-card-img" src="../images/yttp/yacht-023.jpg"/>
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag" data-i18n="cases.353">Charter Voyage</span>
+<span class="case-tag" data-i18n="cases.355">65m Yacht</span>
+<span class="case-tag" data-i18n="cases.357">Mediterranean</span>
+</div>
+<h3 data-i18n="cases.360">Mediterranean30-day Deep Cruise</h3>
+<p data-i18n="cases.362">A custom voyage for a European family business, across 12 countries and 24 ports, with a Michelin-starred chef, private dive instructor, and multilingual concierge team. Zero incidents throughout, 100% satisfaction.</p>
+<a class="case-card-link" data-i18n="cases.364" href="../case-002.html">View Full Case Study <span>→</span></a>
+</div>
+</div>
+<!-- Case 03 -->
+<div class="case-card" data-category="management">
+<img alt="Middle East Royal Fleet — 5-Year Full Management" data-i18n-attr="alt:_alt.cases.2" class="case-card-img" src="../images/yttp/yacht-031.jpg"/>
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag" data-i18n="cases.375">Yacht Management</span>
+<span class="case-tag" data-i18n="cases.377">Fleet Management</span>
+<span class="case-tag" data-i18n="cases.379">Middle Eastern Waters</span>
+</div>
+<h3 data-i18n="cases.382">Middle East Royal Fleet — 5-Year Full Management</h3>
+<p data-i18n="cases.384">Full management of a 3-superyacht fleet (45m/62m/88m), 5 consecutive years with zero major incidents, 98% annual service satisfaction, and 18% cumulative operational cost savings.</p>
+<a class="case-card-link" data-i18n="cases.386" href="../case-003.html">View Full Case Study <span>→</span></a>
+</div>
+</div>
+<!-- Case 04 -->
+<div class="case-card" data-category="custom global">
+<img alt="45米探险游艇极光号" data-i18n-attr="alt:_alt.cases.3" class="case-card-img" src="../images/yttp/yacht-039.jpg"/>
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag" data-i18n="cases.397">Full Custom</span>
+<span class="case-tag" data-i18n="cases.399">45m Expedition Yacht</span>
+<span class="case-tag" data-i18n="cases.401">Polar Routes</span>
+</div>
+<h3 data-i18n="cases.404">45m Expedition Yacht “Aurora”</h3>
+<p data-i18n="cases.406">A polar expedition yacht built for an eco-entrepreneur, ice-class hull certified, capable of navigating deep into Antarctic and Alaskan waters, with a solar hybrid propulsion system and an 8,000-nautical-mile range.</p>
+<a class="case-card-link" data-i18n="cases.408" href="../case-004.html">View Full Case Study <span>→</span></a>
+</div>
+</div>
+<!-- Case 05 -->
+<div class="case-card" data-category="wedding charter">
+<img alt="Caribbean Luxury Wedding Charter" data-i18n-attr="alt:_alt.cases.4" class="case-card-img" src="../images/yttp/yacht-047.jpg"/>
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag" data-i18n="cases.419">Wedding Charter</span>
+<span class="case-tag" data-i18n="cases.421">85mSuperyacht</span>
+<span class="case-tag" data-i18n="cases.423">Caribbean</span>
+</div>
+<h3 data-i18n="cases.426">Caribbean Luxury Wedding Charter</h3>
+<p data-i18n="cases.428">A once-in-a-century sea wedding hosted by an Asian family, chartering an 85m superyacht for 120 guests over 7 days and 6 nights, route: Bahamas → Cayman Islands. Zero incidents throughout, named “Best Sea Wedding of the Year.”</p>
+<a class="case-card-link" data-i18n="cases.430" href="../case-005.html">View Full Case Study <span>→</span></a>
+</div>
+</div>
+<!-- Case 06 -->
+<div class="case-card" data-category="event management">
+<img alt="企业年会海上托管" data-i18n-attr="alt:_alt.cases.5" class="case-card-img" src="../images/yttp/yacht-055.jpg"/>
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag" data-i18n="cases.441">Corporate Events</span>
+<span class="case-tag" data-i18n="cases.443">Fleet Formation</span>
+<span class="case-tag" data-i18n="cases.445">Southeast Asia</span>
+</div>
+<h3 data-i18n="cases.448">Multinational Corporate Annual Summit at Sea</h3>
+<p data-i18n="cases.450">A managed sea event for a multinational corporation’s annual summit, 3 yachts sailing in formation with 200 executives and guests, zero incidents throughout. Awarded “Best Annual Event Partner” recognition.</p>
+<a class="case-card-link" data-i18n="cases.452" href="../case-006.html">View Full Case Study <span>→</span></a>
+</div>
+</div>
+<!-- Case 07 -->
+<div class="case-card" data-category="global">
+<img alt="World Voyage120天" data-i18n-attr="alt:_alt.cases.6" class="case-card-img" src="../images/yttp/yacht-063.jpg"/>
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag" data-i18n="cases.463">World Voyage</span>
+<span class="case-tag" data-i18n="cases.465">72mSuperyacht</span>
+<span class="case-tag" data-i18n="cases.467">Global Routes</span>
+</div>
+<h3 data-i18n="cases.470">72m Superyacht 120-Day World Voyage</h3>
+<p data-i18n="cases.472">A Southeast Asian entrepreneur’s custom world voyage, across 28 countries and 56 ports, covering 120 days through the Pacific, Indian, Mediterranean, and Atlantic Oceans. Zero major incidents, zero compliance issues.</p>
+<a class="case-card-link" data-i18n="cases.474" href="../case-007.html">View Full Case Study <span>→</span></a>
+</div>
+</div>
+<!-- Case 08 - 新增 -->
+<div class="case-card" data-category="refit">
+<img alt="游艇内饰翻新" data-i18n-attr="alt:_alt.cases.7" class="case-card-img" src="../images/yttp/yacht-071.jpg"/>
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag" data-i18n="cases.485">Refit & Renovation</span>
+<span class="case-tag" data-i18n="cases.487">58m Yacht</span>
+<span class="case-tag" data-i18n="cases.489">Mediterranean</span>
+</div>
+<h3 data-i18n="cases.492">58m Yacht Full Interior Refit &amp; Renovation</h3>
+<p data-i18n="cases.494">An 18-month full interior refit for a European owner, featuring Italian marble, Burmese teak, and Bentley leather. Project budget control at 97%, nominated for the Superyacht Interiors Awards.</p>
+<a class="case-card-link" data-i18n="cases.496" href="../case-008.html">View Full Case Study <span>→</span></a>
+</div>
+</div>
+<!-- Case 09 -->
+<div class="case-card" data-category="charter">
+<img alt="Southeast Asia航线custom voyage" data-i18n-attr="alt:_alt.cases.8" class="case-card-img" src="../images/yttp/yacht-079.jpg"/>
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag" data-i18n="cases.507">Charter Voyage</span>
+<span class="case-tag" data-i18n="cases.509">42m Yacht</span>
+<span class="case-tag" data-i18n="cases.511">Southeast Asia</span>
+</div>
+<h3 data-i18n="cases.514">Southeast Asia 15-Day Private Vacation Voyage</h3>
+<p data-i18n="cases.516">A private vacation voyage for a tech entrepreneur, across Phuket, Thailand → Langkawi, Malaysia → Singapore → Bali, Indonesia. With private dive instructor, surf coach, and water sports team.</p>
+<a class="case-card-link" data-i18n="cases.518" href="../case-009.html">View Full Case Study <span>→</span></a>
+</div>
+</div>
+<!-- Case 10 - 新增 -->
+<div class="case-card" data-category="event">
+<img alt="Regatta Support案例" data-i18n-attr="alt:_alt.cases.9" class="case-card-img" src="../images/yttp/yacht-087.jpg"/>
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag" data-i18n="cases.529">Regatta Support</span>
+<span class="case-tag" data-i18n="cases.531">38m Yacht</span>
+<span class="case-tag" data-i18n="cases.533">Mediterranean</span>
+</div>
+<h3 data-i18n="cases.536">Mediterranean Regatta Event Support</h3>
+<p data-i18n="cases.538">Regatta support services for an international sailing competition committee, chartering a 38m yacht as a race official vessel and VIP viewing platform. 21-day service period, zero safety incidents, highly commended by the committee.</p>
+<a class="case-card-link" data-i18n="cases.540" href="../case-010.html">View Full Case Study <span>→</span></a>
+</div>
+</div>
+<!-- Case 11 - Yacht Excursions -->
+<div class="case-card" data-category="activity">
+<img alt="Private Luxury Yacht Leisure Getaway" data-i18n-attr="alt:_alt.cases.10" class="case-card-img" src="../images/yttp/yacht-095.png"/>
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag" data-i18n="cases.551">Excursions</span>
+<span class="case-tag" data-i18n="cases.553">38m Yacht</span>
+<span class="case-tag" data-i18n="cases.555">South China Sea</span>
+</div>
+<h3 data-i18n="cases.558">Private Luxury Yacht Leisure Getaway</h3>
+<p data-i18n="cases.560">A private vacation voyage crafted for a tech entrepreneur, 5 days and 4 nights, with dedicated yacht butler service and uninterrupted exclusive privacy throughout.</p>
+<a class="case-card-link" data-i18n="cases.562" href="../case-011.html">View Full Case Study <span>→</span></a>
+</div>
+</div>
+<!-- Case 12 - Yacht Excursions -->
+<div class="case-card" data-category="activity">
+<img alt="Family Weekend Yacht Getaway" data-i18n-attr="alt:_alt.cases.11" class="case-card-img" src="../images/yttp/yacht-096.jpg"/>
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag" data-i18n="cases.573">Excursions</span>
+<span class="case-tag" data-i18n="cases.575">32m Yacht</span>
+<span class="case-tag" data-i18n="cases.577">Phuket, Thailand</span>
+</div>
+<h3 data-i18n="cases.580">Family Weekend Yacht Getaway</h3>
+<p data-i18n="cases.582">Family weekend getaway, equipped with children’s entertainment facilities, water sports instructors, and a professional childcare team — safe and worry-free.</p>
+<a class="case-card-link" data-i18n="cases.584" href="../case-012.html">View Full Case Study <span>→</span></a>
+</div>
+</div>
+<!-- Case 13 - Yacht Excursions -->
+<div class="case-card" data-category="activity">
+<img alt="Romantic Couple’s Sea Voyage" data-i18n-attr="alt:_alt.cases.12" class="case-card-img" src="../images/yttp/yacht-097.jpg"/>
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag" data-i18n="cases.595">Excursions</span>
+<span class="case-tag" data-i18n="cases.597">28m Yacht</span>
+<span class="case-tag" data-i18n="cases.599">Maldives</span>
+</div>
+<h3 data-i18n="cases.602">Romantic Couple’s Sea Voyage</h3>
+<p data-i18n="cases.604">A romantic custom voyage for a couple, featuring a sea candlelit dinner, starlit IMAX cinema, and private jacuzzi — an unforgettable romantic experience.</p>
+<a class="case-card-link" data-i18n="cases.606" href="../case-013.html">View Full Case Study <span>→</span></a>
+</div>
+</div>
+<!-- Case 14 - Yacht Excursions -->
+<div class="case-card" data-category="activity">
+<img alt="Private Circle Sea Gathering" data-i18n-attr="alt:_alt.cases.13" class="case-card-img" src="../images/yttp/yacht-098.jpg"/>
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag" data-i18n="cases.617">Excursions</span>
+<span class="case-tag" data-i18n="cases.619">42m Yacht</span>
+<span class="case-tag" data-i18n="cases.621">Mediterranean</span>
+</div>
+<h3 data-i18n="cases.624">Private Circle Sea Gathering</h3>
+<p data-i18n="cases.626">An exclusive circle gathering for 12 friends, 7-day voyage featuring DJ parties, water sports, and a private chef — the perfect choice for premium socializing.</p>
+<a class="case-card-link" data-i18n="cases.628" href="../case-014.html">View Full Case Study <span>→</span></a>
+</div>
+</div>
+<!-- Case 15 - Yacht Excursions -->
+<div class="case-card" data-category="activity">
+<img alt="Luxury Afternoon Tea at Sea" data-i18n-attr="alt:_alt.cases.14" class="case-card-img" src="../images/yttp/yacht-099.jpg"/>
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag" data-i18n="cases.639">Excursions</span>
+<span class="case-tag" data-i18n="cases.641">25m Yacht</span>
+<span class="case-tag" data-i18n="cases.643">Victoria Harbour, Hong Kong</span>
+</div>
+<h3 data-i18n="cases.646">Luxury Afternoon Tea at Sea</h3>
+<p data-i18n="cases.648">A half-day luxury afternoon tea experience featuring Michelin-starred dim sum and professional photography, with panoramic sunset views over Victoria Harbour.</p>
+<a class="case-card-link" data-i18n="cases.650" href="../case-015.html">View Full Case Study <span>→</span></a>
+</div>
+</div>
+<!-- Case 16 - Corporate Voyages -->
+<div class="case-card" data-category="business">
+<img alt="Executive Corporate Yacht Summit" data-i18n-attr="alt:_alt.cases.15" class="case-card-img" src="../images/yttp/yacht-101.jpg"/>
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag" data-i18n="cases.661">Corporate</span>
+<span class="case-tag" data-i18n="cases.663">55m Yacht</span>
+<span class="case-tag" data-i18n="cases.665">Singapore</span>
+</div>
+<h3 data-i18n="cases.668">Executive Corporate Yacht Summit</h3>
+<p data-i18n="cases.670">Multinational CEO summit with high-level confidential business meetings, uninterrupted service throughout, named “Best Corporate Event of the Year.”</p>
+<a class="case-card-link" data-i18n="cases.672" href="../case-016.html">View Full Case Study <span>→</span></a>
+</div>
+</div>
+<!-- Case 17 - Corporate Voyages -->
+<div class="case-card" data-category="business">
+<img alt="Premium Business Client Gala" data-i18n-attr="alt:_alt.cases.16" class="case-card-img" src="../images/yttp/yacht-102.jpg"/>
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag" data-i18n="cases.683">Corporate</span>
+<span class="case-tag" data-i18n="cases.685">48m Yacht</span>
+<span class="case-tag" data-i18n="cases.687">Monaco</span>
+</div>
+<h3 data-i18n="cases.690">Premium Business Client Gala</h3>
+<p data-i18n="cases.692">A premium gala hosted for investment banking clients, featuring a Michelin-starred chef and sommelier team. 100% client satisfaction.</p>
+<a class="case-card-link" data-i18n="cases.694" href="../case-017.html">View Full Case Study <span>→</span></a>
+</div>
+</div>
+<!-- Case 18 - Corporate Voyages -->
+<div class="case-card" data-category="business">
+<img alt="品牌海上发布会" data-i18n-attr="alt:_alt.cases.17" class="case-card-img" src="../images/yttp/yacht-103.jpg"/>
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag" data-i18n="cases.705">Corporate</span>
+<span class="case-tag" data-i18n="cases.707">65m Yacht</span>
+<span class="case-tag" data-i18n="cases.709">Dubai</span>
+</div>
+<h3 data-i18n="cases.712">Luxury Brand Yacht Launch Event</h3>
+<p data-i18n="cases.714">A luxury brand product launch with 120 guests, helicopter aerial arrival, and synchronized global media livestream.</p>
+<a class="case-card-link" data-i18n="cases.716" href="../case-018.html">View Full Case Study <span>→</span></a>
+</div>
+</div>
+<!-- Case 19 - Corporate Voyages -->
+<div class="case-card" data-category="business">
+<img alt="Corporate Anniversary Sea Celebration" data-i18n-attr="alt:_alt.cases.18" class="case-card-img" src="../images/yttp/yacht-104.jpg"/>
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag" data-i18n="cases.727">Corporate</span>
+<span class="case-tag" data-i18n="cases.729">58m Yacht</span>
+<span class="case-tag" data-i18n="cases.731">Sanya</span>
+</div>
+<h3 data-i18n="cases.734">Corporate Anniversary Sea Celebration</h3>
+<p data-i18n="cases.736">20th anniversary celebration, 3 days and 2 nights, featuring an awards ceremony and themed gala. 98% employee satisfaction.</p>
+<a class="case-card-link" data-i18n="cases.738" href="../case-019.html">View Full Case Study <span>→</span></a>
+</div>
+</div>
+<!-- Case 20 - Premium Ceremonies -->
+<div class="case-card" data-category="wedding">
+<img alt="Romantic Sea Proposal" data-i18n-attr="alt:_alt.cases.19" class="case-card-img" src="../images/yttp/yacht-105.jpg"/>
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag" data-i18n="cases.749">Ceremonies</span>
+<span class="case-tag" data-i18n="cases.751">35m Yacht</span>
+<span class="case-tag" data-i18n="cases.753">Tahiti</span>
+</div>
+<h3 data-i18n="cases.756">Romantic Sea Proposal</h3>
+<p data-i18n="cases.758">A fully confidential sea proposal, featuring a drone light show, champagne salute, and a dedicated photography team.</p>
+<a class="case-card-link" data-i18n="cases.760" href="../case-020.html">View Full Case Study <span>→</span></a>
+</div>
+</div>
+<!-- Case 21 - Premium Ceremonies -->
+<div class="case-card" data-category="wedding">
+<img alt="Luxury Birthday Yacht Party" data-i18n-attr="alt:_alt.cases.20" class="case-card-img" src="../images/yttp/yacht-106.jpg"/>
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag" data-i18n="cases.771">Ceremonies</span>
+<span class="case-tag" data-i18n="cases.773">45m Yacht</span>
+<span class="case-tag" data-i18n="cases.775">Caribbean</span>
+</div>
+<h3 data-i18n="cases.778">Luxury Birthday Yacht Party</h3>
+<p data-i18n="cases.780">A luxury birthday party for 60 guests, 7-day voyage with themed activities throughout, named “Party of the Year.”</p>
+<a class="case-card-link" data-i18n="cases.782" href="../case-021.html">View Full Case Study <span>→</span></a>
+</div>
+</div>
+<!-- Case 22 - Premium Ceremonies -->
+<div class="case-card" data-category="wedding">
+<img alt="Private Custom Voyage Sea Dinner" data-i18n-attr="alt:_alt.cases.21" class="case-card-img" src="../images/yttp/yacht-107.jpg"/>
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag" data-i18n="cases.793">Ceremonies</span>
+<span class="case-tag" data-i18n="cases.795">52m Yacht</span>
+<span class="case-tag" data-i18n="cases.797">Santorini, Greece</span>
+</div>
+<h3 data-i18n="cases.800">Private Custom Voyage Sea Dinner</h3>
+<p data-i18n="cases.802">An intimate family dinner featuring a private chef, live band, and fireworks display — an unforgettable family moment.</p>
+<a class="case-card-link" data-i18n="cases.804" href="../case-022.html">View Full Case Study <span>→</span></a>
+</div>
+</div>
+<!-- Case 23 - Yacht Management -->
+<div class="case-card" data-category="management">
+<img alt="Mid-Size Yacht Full Daily Management" data-i18n-attr="alt:_alt.cases.22" class="case-card-img" src="../images/yttp/yacht-108.png"/>
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag" data-i18n="cases.815">Management</span>
+<span class="case-tag" data-i18n="cases.817">25m Yacht</span>
+<span class="case-tag" data-i18n="cases.819">Shenzhen</span>
+</div>
+<h3 data-i18n="cases.822">Mid-Size Yacht Full Daily Management</h3>
+<p data-i18n="cases.824">3-year full management service: daily operations, crew management, and regular maintenance — all in one. 100% owner satisfaction.</p>
+<a class="case-card-link" data-i18n="cases.826" href="../case-023.html">View Full Case Study <span>→</span></a>
+</div>
+</div>
+<!-- Case 24 - Yacht Management -->
+<div class="case-card" data-category="management">
+<img alt="Large Luxury Yacht Annual Full Maintenance" data-i18n-attr="alt:_alt.cases.23" class="case-card-img" src="../images/yttp/yacht-109.png"/>
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag" data-i18n="cases.837">Management</span>
+<span class="case-tag" data-i18n="cases.839">68m Yacht</span>
+<span class="case-tag" data-i18n="cases.841">Nice, France</span>
+</div>
+<h3 data-i18n="cases.844">Large Luxury Yacht Annual Full Maintenance</h3>
+<p data-i18n="cases.846">Annual full maintenance: hull polishing, powertrain overhaul, and deep interior cleaning — restored to factory standards.</p>
+<a class="case-card-link" data-i18n="cases.848" href="../case-024.html">View Full Case Study <span>→</span></a>
+</div>
+</div>
+<!-- Case 25 - Yacht Management -->
+<div class="case-card" data-category="management">
+<img alt="Yacht Hull Deep Repair &amp; Restoration" data-i18n-attr="alt:_alt.cases.24" class="case-card-img" src="../images/yttp/yacht-110.jpg"/>
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag" data-i18n="cases.859">Management</span>
+<span class="case-tag" data-i18n="cases.861">42m Yacht</span>
+<span class="case-tag" data-i18n="cases.863">Genoa, Italy</span>
+</div>
+<h3 data-i18n="cases.866">Yacht Hull Deep Repair &amp; Restoration</h3>
+<p data-i18n="cases.868">Hull damage repair following a collision, restored to original factory standards over a 12-week project, highly recognized by the owner.</p>
+<a class="case-card-link" data-i18n="cases.870" href="../case-025.html">View Full Case Study <span>→</span></a>
+</div>
+</div>
+<!-- Case 26 - Yacht Management -->
+<div class="case-card" data-category="management">
+<img alt="Yacht Powertrain Specialized Overhaul" data-i18n-attr="alt:_alt.cases.25" class="case-card-img" src="../images/yttp/yacht-111.jpg"/>
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag" data-i18n="cases.881">Management</span>
+<span class="case-tag" data-i18n="cases.883">55m Yacht</span>
+<span class="case-tag" data-i18n="cases.885">Abu Dhabi, UAE</span>
+</div>
+<h3 data-i18n="cases.888">Yacht Powertrain Specialized Overhaul</h3>
+<p data-i18n="cases.890">Complete main engine overhaul, gearbox replacement, and propulsion system optimization — 15% performance improvement.</p>
+<a class="case-card-link" data-i18n="cases.892" href="../case-026.html">View Full Case Study <span>→</span></a>
+</div>
+</div>
+<!-- Case 27 - Yacht Management -->
+<div class="case-card" data-category="management">
+<img alt="Yacht Seasonal Winterization &amp; Storage" data-i18n-attr="alt:_alt.cases.26" class="case-card-img" src="../images/yttp/yacht-112.jpg"/>
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag" data-i18n="cases.903">Management</span>
+<span class="case-tag" data-i18n="cases.905">48m Yacht</span>
+<span class="case-tag" data-i18n="cases.907">Oslo, Norway</span>
+</div>
+<h3 data-i18n="cases.910">Yacht Seasonal Winterization &amp; Storage</h3>
+<p data-i18n="cases.912">Nordic winter storage service with anti-freeze treatment, interior protection, and regular inspections — keeping the yacht in perfect condition through winter.</p>
+<a class="case-card-link" data-i18n="cases.914" href="../case-027.html">View Full Case Study <span>→</span></a>
+</div>
+</div>
+<!-- Case 28 - Yacht Management -->
+<div class="case-card" data-category="management">
+<img alt="Pre-Voyage Comprehensive Safety Inspection" data-i18n-attr="alt:_alt.cases.27" class="case-card-img" src="../images/yttp/yacht-113.jpg"/>
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag" data-i18n="cases.925">Management</span>
+<span class="case-tag" data-i18n="cases.927">35m Yacht</span>
+<span class="case-tag" data-i18n="cases.929">Hong Kong</span>
+</div>
+<h3 data-i18n="cases.932">Pre-Voyage Comprehensive Safety Inspection</h3>
+<p data-i18n="cases.934">Pre-transoceanic safety inspection with a 158-point checklist, issuing a seaworthiness certificate for guaranteed voyage safety.</p>
+<a class="case-card-link" data-i18n="cases.936" href="../case-028.html">View Full Case Study <span>→</span></a>
+</div>
+</div>
+<!-- Case 29 - Long-Range Trans-Ocean -->
+<div class="case-card" data-category="global">
+<img alt="多海域长线巡航custom voyage" data-i18n-attr="alt:_alt.cases.28" class="case-card-img" src="../images/yttp/yacht-115.jpg"/>
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag" data-i18n="cases.947">Round-the-World</span>
+<span class="case-tag" data-i18n="cases.949">72m Yacht</span>
+<span class="case-tag" data-i18n="cases.951">Global</span>
+</div>
+<h3 data-i18n="cases.954">180-Day Round-the-World Custom Voyage</h3>
+<p data-i18n="cases.956">Across 30 countries, spanning the Pacific, Indian, Mediterranean, and Atlantic Oceans. Zero major incidents, zero compliance issues.</p>
+<a class="case-card-link" data-i18n="cases.958" href="../case-029.html">View Full Case Study <span>→</span></a>
+</div>
+</div>
+<!-- Case 30 - Regatta & Commercial Photography -->
+<div class="case-card" data-category="event">
+<img alt="影视剧组游艇取景拍摄" data-i18n-attr="alt:_alt.cases.29" class="case-card-img" src="../images/yttp/yacht-116.jpg"/>
+<div class="case-card-body">
+<div class="case-card-tags">
+<span class="case-tag" data-i18n="cases.969">Commercial Filming</span>
+<span class="case-tag" data-i18n="cases.971">45m Yacht</span>
+<span class="case-tag" data-i18n="cases.973">Croatia</span>
+</div>
+<h3 data-i18n="cases.976">International Film Production Location Shoot</h3>
+<p data-i18n="cases.978">Supporting an international film production location shoot, 45-day filming period with zero delays, highly praised by the production team.</p>
+<a class="case-card-link" data-i18n="cases.980" href="../case-030.html">View Full Case Study <span>→</span></a>
+</div>
+</div>
+</div>
+<!-- Load More -->
+<div class="reveal" style="text-align:center;margin-top:50px;">
+<a class="btn btn-primary btn-gold-sweep" data-i18n="cases.989" href="cases.html">Explore All Cases</a>
+</div>
+</div>
+</section>
+<!-- ========== STATS BANNER ========== -->
+<section class="stats-banner">
+<div class="container">
+<div class="stats-grid reveal">
+<div class="stats-item">
+<div class="stat-num" data-count="30">0</div>
+<div class="stat-label" data-i18n="cases.1002">+ Successful Cases</div>
+</div>
+<div class="stats-item">
+<div class="stat-num" data-count="20">0</div>
+<div class="stat-label" data-i18n="cases.1008">+ Service Waters</div>
+</div>
+<div class="stats-item">
+<div class="stat-num" data-count="86">0</div>
+<div class="stat-label" data-i18n="cases.1014"> Yachts Under Management</div>
+</div>
+<div class="stats-item">
+<div class="stat-num" data-count="98">0</div>
+<div class="stat-label" data-i18n="cases.1020">% Client Satisfaction</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========== CTA ========== -->
+<section class="cases-cta">
+<div class="container reveal">
+<h2 data-i18n="cases.1030">Your Yacht Story Begins with Fantastic Vacation</h2>
+<p data-i18n="cases.1032">Whether you dream of a superyacht custom build, a round-the-world voyage, or worry-free management, our professional team will craft the perfect solution for you.</p>
+<div class="cta-email">
+📧 <a href="mailto:hs@fantastic-vacation.com">hs@fantastic-vacation.com</a>
+</div>
+</div>
+</section>
+<!-- FOOTER -->
+<footer data-i18n="cases.1212" id="footer">
+<div class="footer-top-bar"></div>
+<div class="footer-main">
+<div class="footer-grid" data-i18n="cases.1046">
+<!-- Column 1: Brand -->
+<div class="footer-col footer-brand-col">
+<a class="footer-logo" href="index.html">
+<svg fill="none" height="40" viewbox="0 0 32 32" width="40">
+<path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
+<path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
+</svg>
+<div>
+<div class="footer-logo-name" data-i18n="cases.1055">Fantastic Vacation</div>
+<div class="footer-logo-en" data-i18n="cases.1057">FANTASTIC VACATION</div>
+</div>
+</a>
+<p class="footer-slogan" data-i18n="cases.1061">"Exploring the World, Fulfilling Every Journey"<br/>Global Luxury Yacht Customization & Private Maritime Lifestyle Creator</p>
+<p class="footer-brand-desc" data-i18n="cases.1064">Fantastic Vacation Industrial Co. has served 200+ global HNW clients across the full yacht lifecycle — customization, charter & management — for 15 years.</p>
+<div class="footer-socials">
+<a class="social-item" href="javascript:void(0)" title="WeChat">
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M8.5 11a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5.5 4H20a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1h-1.5a4 4 0 0 1-3.98-3.64A5.97 5.97 0 0 0 12 15a6 6 0 0 0 6 6v1zm-7-7a4 4 0 0 0-4 4v5a4 4 0 0 0 3.15 3.85A3 3 0 0 0 8 18v1H5.5A1.5 1.5 0 0 1 4 17.5v-8A1.5 1.5 0 0 1 5.5 8h6z"></path></svg>
+<span data-i18n="cases.1069">WeChat</span>
+</a>
+<a class="social-item" href="javascript:void(0)" title="Weibo">
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M10.09 18c-3.69 0-7.09-1.69-7.09-4.28 0-1.35.7-2.96 1.88-4.57C6.57 7.57 9.5 6.4 10.55 7c1.41.8 2.29 2.38 2.55 3.82.1-.04.21-.06.32-.06 2.45 0 4.44 2.29 4.44 5.11 0 2.73-1.99 4.94-4.44 4.94-.27 0-.53-.02-.79-.06-.11.17-.23.34-.35.5l.05.01zM20 8.5C20 4.91 17.09 2 13.5 2H3C2.45 2 2 2.45 2 3v13c0 .55.45 1 1 1h10c4.17 0 7.58-3.06 7.98-7.05.05-.47.02-.95.02-1.45z"></path></svg>
+<span data-i18n="cases.1074">Weibo</span>
+</a>
+<a class="social-item" href="javascript:void(0)" title="TikTok">
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.82a8.18 8.18 0 0 0 4.77 1.52V6.68a4.85 4.85 0 0 1-1-.02z"></path></svg>
+<span data-i18n="cases.1079">TikTok</span>
+</a>
+<a class="social-item" href="javascript:void(0)" title="LinkedIn">
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path></svg>
+<span data-i18n="cases.1084">LinkedIn</span>
+</a>
+<a class="social-item" href="javascript:void(0)" title="YouTube">
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
+<span data-i18n="cases.1089">YouTube</span>
+</a>
+</div>
+</div>
+<!-- Column 2: Quick Navigation -->
+<div class="footer-col">
+<h4 class="footer-col-title" data-i18n="cases.1097">Quick Links</h4>
+<ul class="footer-links">
+<li><a data-i18n="cases.1100" href="index.html">Home</a></li>
+<li><a data-i18n="cases.1102" href="about.html">About Us</a></li>
+<li><a data-i18n="cases.1104" href="yachts.html">Our Fleet</a></li>
+          <li><a href="membership.html" data-i18n="footer.member" style="color:#c9a96e;font-weight:500">👑 Membership</a></li>
+<li><a data-i18n="cases.1106" href="custom.html">Full Custom</a></li>
+<li><a data-i18n="cases.1108" href="charter.html">Charter Routes</a></li>
+<li><a data-i18n="cases.1110" href="management.html">Management</a></li>
+<li><a data-i18n="cases.1112" href="cases.html">Case Studies</a></li>
+<li><a data-i18n="cases.1114" href="news.html">News</a></li>
+<li><a data-i18n="cases.1116" href="partnership.html">Partnership</a></li>
+<li><a data-i18n="cases.1118" href="sitemap.html">Sitemap</a></li>
+</ul>
+</div>
+<!-- Column 3: Contact -->
+<div class="footer-col">
+<h4 class="footer-col-title" data-i18n="cases.1125">Contact Us</h4>
+<ul class="footer-contact">
+<li class="contact-item">
+<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+<div>
+<div class="contact-label" data-i18n="cases.1131">Address</div>
+<div class="contact-value" data-i18n="cases.1133">Bao'an District<br/>No.1 Songgang Industrial Park</div>
+</div>
+</li>
+<li class="contact-item">
+<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 5.92 5.92l.96-.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+<div>
+<div class="contact-label" data-i18n="cases.1141">Hotline</div>
+<div class="contact-value"><a data-i18n="cases.1143" href="tel:13797920792">13797920792</a> / <a data-i18n="cases.1145" href="tel:+86075533530188">+86 0755 3353-0188</a></div>
+</div>
+</li>
+<li class="contact-item">
+<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 5.92 5.92l.96-.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path><line x1="22" x2="11" y1="2" y2="13"></line></svg>
+<div>
+<div class="contact-label" data-i18n="cases.1152">Fax</div>
+<div class="contact-value" data-i18n="cases.1154">0755-31530988</div>
+</div>
+</li>
+<li class="contact-item">
+<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+<div>
+<div class="contact-label" data-i18n="cases.1161">Business Email</div>
+<div class="contact-value"><a href="mailto:hs@fantastic-vacation.com">hs@fantastic-vacation.com</a></div>
+</div>
+</li>
+</ul>
+<a class="footer-contact-btn" data-i18n="cases.1169" href="contact.html">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+          Online Consultation
+        </a>
+</div>
+<!-- Column 4: Certifications & Partners -->
+<div class="footer-col">
+<h4 class="footer-col-title" data-i18n="cases.1175">Certifications & Partners</h4>
+<div class="footer-certs">
+<div class="cert-item">
+<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18n="cases.1180">ISO 9001 Quality Management System</span>
+</div>
+<div class="cert-item">
+<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18n="cases.1185">Authorized Ferretti Group Dealer</span>
+</div>
+<div class="cert-item">
+<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18n="cases.1190">Feadship Technical Partner</span>
+</div>
+<div class="cert-item">
+<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18n="cases.1195">Mediterranean Marina Association Member</span>
+</div>
+<div class="cert-item">
+<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18n="cases.1200">Asia's Best Yacht Service Provider (3 Consecutive Years)</span>
+</div>
+</div>
+<div class="footer-recruit">
+<a class="recruit-link" data-i18n="cases.1206" href="contact.html">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            <span data-i18n="_recruit">Join Us · Careers</span>
+          </a>
+</div>
+</div>
+</div>
+</div>
+<!-- Copyright Bar -->
+<div class="footer-bottom">
+<div class="footer-bottom-inner">
+<div class="copyright">
+<span data-i18n="cases.1217">© 2020-2026 Fantastic Vacation Industrial Co., Ltd. All rights reserved.</span>
+</div>
+<div class="legal-links">
+<a data-i18n="cases.1221" href="privacy.html">Privacy Policy</a>
+<a data-i18n="cases.1223" href="terms.html">Terms of Use</a>
+<a data-i18n="cases.1225" href="sitemap.html">Sitemap</a>
+</div>
+</div>
+<div></div>
+</div></div></footer>
+<script>
+// Loader
+window.addEventListener("DOMContentLoaded",function(){
+var loader=document.getElementById("loader");
+if(!loader)return;
+var progressEl=document.getElementById("progress");
+var progress=0;
+var interval=setInterval(function(){progress+=Math.random()*12+8;if(progress>=100){progress=100;clearInterval(interval);if(progressEl)progressEl.style.width="100%";setTimeout(function(){if(loader)loader.style.display="none";document.body.style.overflow=""},400)}else if(progressEl)progressEl.style.width=progress+"%"},180);
+setTimeout(function(){clearInterval(interval);if(loader)loader.style.display="none";document.body.style.overflow=""},5000);
+});
+
+// Nav scroll
+window.addEventListener("scroll",function(){var nav=document.getElementById("navbar");if(window.scrollY>50)nav.classList.add("scrolled");else nav.classList.remove("scrolled")});
+
+// Mobile menu
+function toggleMobile(){document.getElementById("mobile-menu").classList.toggle("active");document.querySelector(".hamburger").classList.toggle("active")}
+
+// Cursor follower
+(function(){var c=document.getElementById("cursor");if(c)document.addEventListener("mousemove",function(e){c.style.left=e.pageX+"px";c.style.top=e.pageY+"px"})})();
+
+// Reveal on scroll
+(function(){var o=new IntersectionObserver(function(e){e.forEach(function(e){if(e.isIntersecting)e.target.classList.add("revealed")})},{threshold:0.1});document.querySelectorAll(".reveal,.reveal-left,.reveal-right,.reveal-scale").forEach(function(e){o.observe(e)})})();
+
+// Counter animation
+(function(){
+var counters=document.querySelectorAll('[data-count]');
+var ob=new IntersectionObserver(function(entries){
+entries.forEach(function(e){
+if(!e.isIntersecting)return;
+var el=e.target;
+var target=parseInt(el.getAttribute('data-count'));
+var duration=2200;
+var start=0;
+var startTime=null;
+function step(ts){
+if(!startTime)startTime=ts;
+var progress=Math.min((ts-startTime)/duration,1);
+el.textContent=Math.floor(progress*target);
+if(progress<1)requestAnimationFrame(step);
+else el.textContent=target;
+}
+requestAnimationFrame(step);
+ob.unobserve(el);
+});
+},{threshold:0.5});
+counters.forEach(function(c){ob.observe(c)});
+})();
+
+// Filter functionality
+(function(){
+var buttons=document.querySelectorAll('.filter-btn');
+var cards=document.querySelectorAll('.case-card');
+buttons.forEach(function(btn){
+btn.addEventListener('click',function(){
+buttons.forEach(function(b){b.classList.remove('active');});
+btn.classList.add('active');
+var filter=btn.getAttribute('data-filter');
+cards.forEach(function(card){
+if(filter==='all'||card.getAttribute('data-category').includes(filter)){
+card.style.display='block';
+}else{
+card.style.display='none';
+}
+});
+});
+});
+})();
+
+function toggleSearch(){var s=document.getElementById("searchOverlay");if(s){s.classList.toggle("active");if(s.classList.contains("active")){setTimeout(function(){var i=document.getElementById("searchInput");if(i)i.focus()},100)}}}
+document.addEventListener("keydown",function(e){if(e.key==="Escape"){var s=document.getElementById("searchOverlay");if(s&&s.classList.contains("active"))s.classList.remove("active");var m=document.getElementById("mobile-menu");if(m&&m.classList.contains("active")){m.classList.remove("active");var h=document.querySelector(".hamburger");if(h)h.classList.remove("active")}}});function toggleDarkMode(){document.body.classList.toggle("dark-mode");var isDark=document.body.classList.contains("dark-mode");localStorage.setItem("fv-dark",isDark?"1":"0");var moon=document.querySelector(".icon-moon");var sun=document.querySelector(".icon-sun");if(moon)moon.style.display=isDark?"none":"inline";if(sun)sun.style.display=isDark?"inline":"none"}
+window.addEventListener("DOMContentLoaded",function(){var isDark=localStorage.getItem("fv-dark")==="1";if(isDark){document.body.classList.add("dark-mode");var moon=document.querySelector(".icon-moon");var sun=document.querySelector(".icon-sun");if(moon)moon.style.display="none";if(sun)sun.style.display="inline"}});window.addEventListener("DOMContentLoaded",function(){document.querySelectorAll(".search-suggestion-item").forEach(function(el){el.addEventListener("click",function(){var t=this.textContent.trim();if(t.indexOf("Full Fleet")!==-1||t.indexOf("All Yachts")!==-1)window.location.href="yachts.html";else if(t.indexOf("custom voyage")!==-1||t.indexOf("Custom")!==-1)window.location.href="custom.html";else if(t.indexOf("Routes")!==-1||t.indexOf("Routes")!==-1)window.location.href="charter.html";else if(t.indexOf("Contact")!==-1||t.indexOf("Contact")!==-1||t.indexOf("Advisor")!==-1||t.indexOf("Advisor")!==-1)window.location.href="contact.html"})})});</script>
+<script src="../main.js"></script>
+</body>
+</html>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<title>Flybridge Series | Fantastic Vacation</title>
+<meta content="Fantastic Vacation Flybridge Series — Elegance in Motion — Premium Flybridge Motor Yacht Collection" name="description"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="../style.css" rel="stylesheet"/>
+<style>
+#loader{position:fixed;inset:0;background:#080e1a;display:flex;align-items:center;justify-content:center;z-index:9999;transition:opacity 0.6s,visibility 0.6s}
+#loader.hidden{opacity:0;visibility:hidden}
+.page-hero{position:relative;padding:180px 0 80px;text-align:center;background:linear-gradient(180deg,var(--dark3) 0%,var(--dark1) 100%)}
+.series-overview{max-width:1200px;margin:0 auto}
+.series-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:32px}
+@media(max-width:768px){.series-gallery{grid-template-columns:repeat(2,1fr)} .series-yacht-card{flex-direction:column}}}
+.spec-range-box{background:linear-gradient(135deg,rgba(201,169,110,0.08),rgba(201,169,110,0.02));border:1px solid rgba(201,169,110,0.2);border-radius:12px;padding:28px 24px}
+.highlights-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.target-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.cta-buttons{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin-top:32px}
+</style>
+<link rel="icon" type="image/svg+xml" href="../favicon.svg"/>
+</head>
+<body>
+<div id="loader"><div style="color:#c9a96e;font-size:14px;letter-spacing:3px">LOADING...</div></div>
+<nav id="navbar" aria-label="Main Navigation">
+<div class="nav-inner">
+<a class="nav-logo" href="index.html" aria-label="Fantastic Vacation Home">
+<svg fill="none" height="32" viewBox="0 0 32 32" width="32" aria-hidden="true">
+<path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
+<path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
+</svg>
+<span class="nav-logo-text">Fantastic Vacation <em>FANTASTIC VACATION</em></span>
+</a>
+<div class="nav-links" role="menubar" aria-label="Main Navigation">
+<a href="index.html" class="nav-main-link" role="menuitem">Home</a>
+<div class="nav-dropdown" role="none">
+<a href="yachts.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">Yachts <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="Yacht Submenu">
+<a href="yachts-sovereign.html" role="menuitem">Sovereign Series</a>
+<a href="yachts-expedition.html" role="menuitem">Expedition Series</a>
+<a href="yachts-flybridge.html" role="menuitem">Flybridge Series</a>
+<a href="yachts-daycruiser.html" role="menuitem">Day Cruiser Series</a>
+</div>
+</div>
+<div class="nav-dropdown" role="none">
+<a href="custom.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">Services <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="Services Submenu">
+<a href="custom.html" role="menuitem">Custom Yachts</a>
+<a href="charter.html" role="menuitem">Charter Routes</a>
+<a href="management.html" role="menuitem">Management</a>
+</div>
+</div>
+<a href="cases.html" class="nav-main-link" role="menuitem">Cases</a>
+<div class="nav-dropdown" role="none">
+<a href="about.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">About <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="About Submenu">
+<a href="about.html" role="menuitem">Company</a>
+<a href="../about-history.html" role="menuitem">Milestones</a>
+<a href="../about-culture.html" role="menuitem">Culture</a>
+<a href="../about-structure.html" role="menuitem">Organization</a>
+<a href="honors.html" role="menuitem">Honors</a>
+<a href="../about-responsibility.html" role="menuitem">ESG</a>
+</div>
+</div>
+<div class="nav-dropdown" role="none">
+<a href="news.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">News &amp; IR <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="News &amp; IR Submenu">
+<a href="news.html" role="menuitem">News</a>
+<a href="ir.html" role="menuitem">IR</a>
+<a href="partnership.html" role="menuitem">Partnerships</a>
+</div>
+</div>
+<div class="nav-cta-group" role="none">
+<a class="nav-cta-btn" href="membership.html" role="menuitem">👑 Membership</a>
+<a class="nav-cta-btn nav-cta-primary" href="contact.html" role="menuitem">Contact</a>
+</div>
+</div>
+<div class="nav-actions" role="none">
+<button class="nav-search-btn" onclick="toggleSearch()" title="Search" aria-label="Search">
+<svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true">
+<circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path>
+</svg>
+</button>
+<a class="lang-switch-btn" href="../index.html" title="Switch to Chinese" aria-label="Switch to Chinese">中文</a>
+<button class="nav-dark-toggle" id="darkToggle" onclick="toggleDarkMode()" title="Dark Mode" aria-label="Toggle Dark Mode">
+<svg class="icon-moon" fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg class="icon-sun" fill="none" height="18" stroke="currentColor" stroke-width="2" style="display:none" viewBox="0 0 24 24" width="18" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" x2="12" y1="1" y2="3"></line><line x1="12" x2="12" y1="21" y2="23"></line><line x1="4.22" x2="5.64" y1="4.22" y2="5.64"></line><line x1="18.36" x2="19.78" y1="18.36" y2="19.78"></line><line x1="1" x2="3" y1="12" y2="12"></line><line x1="21" x2="23" y1="12" y2="12"></line><line x1="4.22" x2="5.64" y1="19.78" y2="18.36"></line><line x1="18.36" x2="19.78" y1="5.64" y2="4.22"></line></svg>
+</button>
+<div class="hamburger" onclick="toggleMobile()" aria-label="Open Mobile Menu" role="button" tabindex="0" aria-expanded="false">
+<span></span><span></span><span></span>
+</div>
+</div>
+</div>
+</nav>
+<header class="page-hero">
+<div class="container reveal">
+<div class="hero-badge">✦ FLYBRIDGE SERIES ✦</div>
+<h1 class="gold-gradient">Flybridge Series</h1>
+<p style="font-size:18px;color:var(--gold);font-style:italic;margin-top:12px">Elegance in Motion — Premium Flybridge Motor Yacht Collection</p>
+</div>
+</header>
+
+<section class="section-padding"><div class="container">
+<div class="section-header reveal"><h2>Series Overview</h2><div class="divider-gold"></div></div>
+<div class="reveal series-overview" style="margin-top:40px">
+<p style="color:var(--text-muted);line-height:2;font-size:16px">The Flybridge Series embodies the timeless elegance of the classic flybridge motor yacht, reimagined through contemporary design, advanced technology, and meticulous craftsmanship. From the 35-meter Grand Fly to the 55-meter Skydeck, each Flybridge yacht delivers an unmatched balance of outdoor entertaining space, luxurious interior comfort, and superlative seakeeping performance. Designed for owners who value dual-helm driving pleasure, alfresco social living, and effortless coastal cruising.</p>
+<div class="series-gallery">
+        <div style="position:relative;border-radius:12px;overflow:hidden"><img src="../images/yttp/yacht-087.jpg" alt="Flybridge Series" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block"/></div>
+        <div style="position:relative;border-radius:12px;overflow:hidden"><img src="../images/yttp/yacht-095.jpg" alt="Flybridge Series" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block"/></div>
+        <div style="position:relative;border-radius:12px;overflow:hidden"><img src="../images/yttp/yacht-103.jpg" alt="Flybridge Series" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block"/></div>
+        <div style="position:relative;border-radius:12px;overflow:hidden"><img src="../images/yttp/yacht-108.jpg" alt="Flybridge Series" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block"/></div>
+</div></div></div></section>
+
+<section class="section-padding" style="background:var(--dark2)"><div class="container">
+<div class="section-header reveal"><h2>Technical Specifications</h2></div>
+<div class="reveal" style="margin-top:40px;max-width:1200px;margin-left:auto;margin-right:auto">
+<div class="spec-range-box" style="text-align:center">
+<div style="font-size:14px;color:var(--gold);letter-spacing:3px;margin-bottom:20px">SERIES SPECIFICATIONS</div>
+<p style="color:var(--text-muted);line-height:1.8;font-size:14px;margin-bottom:16px">30m - 45m (LOA) | 7.2m - 9.0m (Beam) | 380GT - 680GT | 8 - 12 Guests | 1,500 - 2,000nm</p>
+<div style="display:flex;gap:24px;justify-content:center;flex-wrap:wrap;margin-top:24px">
+<div style="text-align:center"><div style="font-family:Playfair Display,serif;font-size:28px;color:var(--gold)">€2.5M-18M</div><div style="font-size:11px;color:var(--text-dim);margin-top:4px">Price Range</div></div>
+<div style="text-align:center"><div style="font-family:Playfair Display,serif;font-size:20px;color:var(--gold)">Build Time: 10-18 Months</div></div>
+</div></div></div></div></section>
+
+<section class="section-padding"><div class="container">
+<div class="section-header reveal"><h2>Core Technology Advantages</h2></div>
+<div class="reveal highlights-grid" style="margin-top:40px">
+    <div style="background:var(--card);border:1px solid var(--glass-border);border-radius:10px;padding:20px">
+      <h3 style="color:var(--gold);font-size:16px;margin-bottom:8px">Classic Flybridge Design</h3>
+      <p style="color:var(--text-muted);font-size:13px;line-height:1.7">Spacious upper flybridge offering 360° sea views, al fresco dining area, and sun deck — the ultimate on-water social venue</p>
+    </div>
+    <div style="background:var(--card);border:1px solid var(--glass-border);border-radius:10px;padding:20px">
+      <h3 style="color:var(--gold);font-size:16px;margin-bottom:8px">The Sweet Spot</h3>
+      <p style="color:var(--text-muted);font-size:13px;line-height:1.7">30m-45m size balancing comfort and marina flexibility, with easy docking at premier marinas from Cannes to Saint-Tropez to Miami</p>
+    </div>
+    <div style="background:var(--card);border:1px solid var(--glass-border);border-radius:10px;padding:20px">
+      <h3 style="color:var(--gold);font-size:16px;margin-bottom:8px">Fast Delivery Options</h3>
+      <p style="color:var(--text-muted);font-size:13px;line-height:1.7">Built on mature production platforms, significantly shortening delivery timelines — available in as little as 12 months</p>
+    </div>
+    <div style="background:var(--card);border:1px solid var(--glass-border);border-radius:10px;padding:20px">
+      <h3 style="color:var(--gold);font-size:16px;margin-bottom:8px">Family-Friendly Layout</h3>
+      <p style="color:var(--text-muted);font-size:13px;line-height:1.7">4-6 cabins, open-plan salon, and separate crew passage design ensuring family privacy and crew operations coexist without interference</p>
+    </div>
+
+</div></div></section>
+
+<section class="section-padding" style="background:var(--dark2)"><div class="container">
+<div class="section-header reveal"><h2>Series Models</h2></div>
+<div class="reveal" style="margin-top:40px;max-width:1200px;margin-left:auto;margin-right:auto">
+  <div class="reveal series-yacht-card" style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;overflow:hidden;display:flex;flex-wrap:wrap;margin-bottom:20px">
+    <div style="flex:0 0 300px;max-width:300px;min-height:200px;background:var(--dark2)"><img src="../images/yttp/yacht-083.jpg" alt="Flybridge 45 Premier" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block"/></div>
+    <div style="flex:1;min-width:300px;padding:24px">
+      <h3 style="font-family:Playfair Display,serif;font-size:22px;color:var(--gold);margin-bottom:8px">Flybridge 45 Premier</h3>
+      <div style="font-size:12px;color:var(--text-dim);letter-spacing:1px;margin-bottom:12px">45m / 9.0m / 680GT / 12 Guests / 2,000nm</div>
+      <p style="color:var(--text-muted);font-size:14px;line-height:1.7">Flybridge flagship with Beverly Hills-grade interiors, dual galley configuration + 12-person heated jacuzzi</p>
+    </div>
+  </div>
+  <div class="reveal series-yacht-card" style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;overflow:hidden;display:flex;flex-wrap:wrap;margin-bottom:20px">
+    <div style="flex:0 0 300px;max-width:300px;min-height:200px;background:var(--dark2)"><img src="../images/yttp/yacht-091.jpg" alt="Flybridge 38 Classic" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block"/></div>
+    <div style="flex:1;min-width:300px;padding:24px">
+      <h3 style="font-family:Playfair Display,serif;font-size:22px;color:var(--gold);margin-bottom:8px">Flybridge 38 Classic</h3>
+      <div style="font-size:12px;color:var(--text-dim);letter-spacing:1px;margin-bottom:12px">38m / 8.2m / 520GT / 10 Guests / 1,800nm</div>
+      <p style="color:var(--text-muted);font-size:14px;line-height:1.7">The Mediterranean's best-selling size — perfect balance of speed, space, and fuel efficiency</p>
+    </div>
+  </div>
+  <div class="reveal series-yacht-card" style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;overflow:hidden;display:flex;flex-wrap:wrap;margin-bottom:20px">
+    <div style="flex:0 0 300px;max-width:300px;min-height:200px;background:var(--dark2)"><img src="../images/yttp/yacht-099.jpg" alt="Flybridge 30 Style" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block"/></div>
+    <div style="flex:1;min-width:300px;padding:24px">
+      <h3 style="font-family:Playfair Display,serif;font-size:22px;color:var(--gold);margin-bottom:8px">Flybridge 30 Style</h3>
+      <div style="font-size:12px;color:var(--text-dim);letter-spacing:1px;margin-bottom:12px">30m / 7.2m / 380GT / 8 Guests / 1,500nm</div>
+      <p style="color:var(--text-muted);font-size:14px;line-height:1.7">Flybridge entry champion, sport interior + youthful design language — the optimal choice for first-time buyers</p>
+    </div>
+  </div>
+
+</div></div></section>
+
+<section class="section-padding"><div class="container">
+<div class="section-header reveal"><h2>Target Audience</h2></div>
+<div class="reveal target-grid" style="margin-top:40px">
+    <div style="background:var(--card);border:1px solid var(--glass-border);border-radius:8px;padding:16px">
+      <span style="color:var(--gold);font-weight:600">✦ Mediterranean Holiday Families</span>
+      <p style="font-size:13px;color:var(--text-muted);margin-top:6px;line-height:1.6">Family clients seeking premium holiday experiences along European coastlines</p>
+    </div>
+    <div style="background:var(--card);border:1px solid var(--glass-border);border-radius:8px;padding:16px">
+      <span style="color:var(--gold);font-weight:600">✦ Executives & Entrepreneurs</span>
+      <p style="font-size:13px;color:var(--text-muted);margin-top:6px;line-height:1.6">The new elite class expanding their business networks through yachting social connections</p>
+    </div>
+    <div style="background:var(--card);border:1px solid var(--glass-border);border-radius:8px;padding:16px">
+      <span style="color:var(--gold);font-weight:600">✦ Island Getaway Enthusiasts</span>
+      <p style="font-size:13px;color:var(--text-muted);margin-top:6px;line-height:1.6">Owners passionate about warm-water cruising in the Caribbean, Southeast Asia, and beyond</p>
+    </div>
+    <div style="background:var(--card);border:1px solid var(--glass-border);border-radius:8px;padding:16px">
+      <span style="color:var(--gold);font-weight:600">✦ First-Time Yacht Buyers</span>
+      <p style="font-size:13px;color:var(--text-muted);margin-top:6px;line-height:1.6">New owners seeking to enter the yachting lifestyle through the classic flybridge form</p>
+    </div>
+
+</div></div></section>
+
+<section class="section-padding" style="background:var(--dark2);text-align:center"><div class="container">
+<div class="section-header reveal"><h2>Explore the Flybridge Series</h2></div>
+<div class="reveal cta-buttons">
+<a href="contact.html" class="btn btn-primary">Book Your Advisor →</a>
+<a href="yachts.html" class="btn btn-outline">← Back to All Yachts</a>
+</div></div></section>
+
+<footer style="background:var(--dark1);padding:60px 0 30px;text-align:center;border-top:1px solid var(--glass-border)">
+<div class="container" style="max-width:1200px">
+<p style="color:var(--text-dim);font-size:12px;margin-bottom:8px">Fantastic Vacation Industrial Co., Ltd. © 2010-2026 FANTASTIC VACATION</p>
+<p style="color:var(--text-dim);font-size:12px">ICP Record No. XXXXXXXX | <a href="terms.html" style="color:var(--gold)">Terms of Service</a> | <a href="privacy.html" style="color:var(--gold)">Privacy Policy</a></p>
+</div></footer>
+<button id="backToTop">↑</button>
+<script src="../main.js"></script>
+
+<div class="search-overlay" id="searchOverlay">
+<div class="search-box">
+<input autocomplete="off" class="search-input" id="searchInput" placeholder="Search yachts, news, cases..." type="text"/>
+<button class="search-close" onclick="toggleSearch()">
+<svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="20">
+<line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
+</svg>
+</button>
+</div>
+<div class="search-suggestions">
+<div class="search-suggestion-item">→ Explore All Yachts</div>
+<div class="search-suggestion-item">→ Custom Yacht Design</div>
+<div class="search-suggestion-item">→ Browse Charter Routes</div>
+<div class="search-suggestion-item">→ Contact Our Consultants</div>
+</div>
+</div>
+</body></html>

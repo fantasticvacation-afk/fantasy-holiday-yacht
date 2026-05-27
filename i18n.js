@@ -206,7 +206,7 @@ var dict = {
     "en": "🎨"
   },
   "index.51": {
-    "zh": "顶级设计能力",
+    "zh": "高端设计能力",
     "en": "Top-Tier Design Capability"
   },
   "index.52": {
@@ -282,8 +282,8 @@ var dict = {
     "en": "Navigation Class"
   },
   "index.71": {
-    "zh": "专为全球顶级富豪打造，融合宫殿级居住空间与尖端航海科技。",
-    "en": "Built for the world's top billionaires, blending palace-grade living space with cutting-edge maritime technology."
+    "zh": "专为全球高端富豪打造，融合宫殿级居住空间与尖端航海科技。",
+    "en": "Built for the world's premier clients, blending palace-grade living space with cutting-edge maritime technology."
   },
   "index.72": {
     "zh": "查看全系 →",
@@ -424,7 +424,7 @@ var dict = {
     "en": "Exterior Design"
   },
   "index.106": {
-    "zh": "联合全球顶级船舶设计工作室，打造独一无二的视觉语言",
+    "zh": "联合全球高端船舶设计工作室，打造独一无二的视觉语言",
     "en": "In partnership with world's top naval design studios to create a unique visual language"
   },
   "index.107": {
@@ -432,7 +432,7 @@ var dict = {
     "en": "Interior Configuration"
   },
   "index.108": {
-    "zh": "精选意大利皮革、法国橡木、西班牙大理石等顶级材料",
+    "zh": "精选意大利皮革、法国橡木、西班牙大理石等高端材料",
     "en": "Premium materials selected: Italian leather, French oak, Spanish marble"
   },
   "index.109": {
@@ -480,8 +480,8 @@ var dict = {
     "en": "Azure Coast · Classic Mediterranean Circuit"
   },
   "index.120": {
-    "zh": "摩纳哥→尼斯→戛纳→热那亚→阿马尔菲海岸，途经世界顶级游艇俱乐部。",
-    "en": "Monaco → Nice → Cannes → Genoa → Amalfi Coast, passing the world's top yacht clubs."
+    "zh": "摩纳哥→尼斯→戛纳→热那亚→阿马尔菲海岸，途经世界高端游艇俱乐部。",
+    "en": "Monaco → Nice → Cannes → Genoa → Amalfi Coast, passing the world's premier yacht clubs."
   },
   "index.121": {
     "zh": "€85,000起/周",
@@ -744,11 +744,11 @@ var dict = {
     "en": "Global Partnership Network"
   },
   "index.187": {
-    "zh": "携手世界顶级合作伙伴，共建海洋奢华生态系统",
-    "en": "Partnering with world's top partners to build a marine luxury ecosystem"
+    "zh": "携手世界高端合作伙伴，共建海洋奢华生态系统",
+    "en": "Partnering with world's leading partners to build a marine luxury ecosystem"
   },
   "index.188": {
-    "zh": "🏗️ 顶级船厂合作",
+    "zh": "🏗️ 高端船厂合作",
     "en": "🏗️ Top Shipyard Partners"
   },
   "index.189": {
@@ -760,15 +760,15 @@ var dict = {
     "en": "🏝️ Marina Network"
   },
   "index.191": {
-    "zh": "覆盖全球80+顶级游艇码头，为客户提供专属泊位预订与VIP接待服务。",
-    "en": "Covering 80+ top global marinas, providing clients with exclusive berth booking and VIP reception services."
+    "zh": "覆盖全球80+高端游艇码头，为客户提供专属泊位预订与VIP接待服务。",
+    "en": "Covering 80+ premium global marinas, providing clients with exclusive berth booking and VIP reception services."
   },
   "index.192": {
     "zh": "✈️ 奢华生活配套",
     "en": "✈️ Luxury Lifestyle Support"
   },
   "index.193": {
-    "zh": "整合私人航空、顶级酒店、艺术品收藏等资源，打造无缝奢华体验链。",
+    "zh": "整合私人航空、高端酒店、艺术品收藏等资源，打造无缝奢华体验链。",
     "en": "Integrating private aviation, top hotels, art collection and more, creating a seamless luxury experience chain."
   },
   "index.194": {
@@ -948,7 +948,7 @@ var dict = {
     "en": "Company Profile"
   },
   "about.4": {
-    "zh": "全球顶级游艇定制与海上生活服务商",
+    "zh": "全球高端游艇定制与海上生活服务商",
     "en": "Global Top-Tier Yacht Customization & Marine Lifestyle Service Provider"
   },
   "about.5": {
@@ -957,11 +957,11 @@ var dict = {
   },
   "about.6": {
     "zh": "奇幻假期（Fantastic Vacation）是中国领先的豪华游艇定制与海上生活服务商，致力于为高端客群打造世界级的游艇体验。公司汇聚全球顶尖游艇制造商资源，提供从定制设计、租赁航线到托管维保的全方位服务。",
-    "en": "Fantastic Vacation is China's leading luxury yacht customization and marine lifestyle service provider, dedicated to creating world-class yacht experiences for high-end clientele. The company brings together global top yacht manufacturer resources, providing end-to-end services from custom design and charter routes to management and maintenance."
+    "en": "Fantastic Vacation is China's premier luxury yacht customization and marine lifestyle service provider, dedicated to creating world-class yacht experiences for high-end clientele. The company brings together global leading yacht manufacturer resources, providing end-to-end services from custom design and charter routes to management and maintenance."
   },
   "about.7": {
-    "zh": "作为Ferretti集团中国区独家战略合作伙伴、Feadship技术合作方，公司已成为中国高端游艇市场的行业标杆。",
-    "en": "As the exclusive strategic partner of Ferretti Group in China and a technical collaborator with Feadship, the company has become an industry benchmark in China's high-end yacht market."
+    "zh": "作为Ferretti集团中国区重点合作战略合作伙伴、Feadship技术合作方，公司已成为中国高端游艇市场的行业标杆。",
+    "en": "As the key strategic partner of Ferretti Group in China and a technical collaborator with Feadship, the company has become an industry leader in China's high-end yacht market."
   },
   "about.8": {
     "zh": "全球服务港口",
@@ -992,7 +992,7 @@ var dict = {
     "en": "🎯 Full Customization"
   },
   "about.15": {
-    "zh": "联合Ferretti、Feadship、Lürssen等顶级船厂，为客户量身定制50-120米超级游艇，涵盖外观设计、内饰装修、功能规划等全流程服务。",
+    "zh": "联合Ferretti、Feadship、Lürssen等高端船厂，为客户量身定制50-120米超级游艇，涵盖外观设计、内饰装修、功能规划等全流程服务。",
     "en": "In partnership with top shipyards including Ferretti, Feadship, and Lürssen, we custom-build 50-120m superyachts tailored to each client, covering the full process from exterior design and interior fit-out to functional planning."
   },
   "about.16": {
@@ -1009,7 +1009,7 @@ var dict = {
   },
   "about.19": {
     "zh": "提供游艇日常运营管理、定期保养、应急维修、海事合规代办等一站式托管服务，让客户无后顾之忧。",
-    "en": "Providing one-stop yacht management services including daily operation management, regular maintenance, emergency repairs, and maritime compliance assistance, giving clients complete peace of mind."
+    "en": "Providing one-sleading yacht management services including daily operation management, regular maintenance, emergency repairs, and maritime compliance assistance, giving clients complete peace of mind."
   },
   "about.20": {
     "zh": "🌐 全球服务网络",
@@ -1680,7 +1680,7 @@ var dict = {
     "en": "Global Shipyard Liaison"
   },
   "contact.107": {
-    "zh": "从意大利到德国，从荷兰到美国，无缝对接全球顶级船厂资源。",
+    "zh": "从意大利到德国，从荷兰到美国，无缝对接全球高端船厂资源。",
     "en": "Seamless connection to top shipyards worldwide, from Italy to Germany, Netherlands to the US."
   },
   "contact.108": {
@@ -2070,7 +2070,7 @@ var dict = {
   },
   "contact.208": {
     "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
-    "en": "Fantastic Vacation has been dedicated to the premium yacht industry for 15 years, providing one-stop yacht customization, charter, and management services for 200+ global high-net-worth clients."
+    "en": "Fantastic Vacation has been dedicated to the premium yacht industry for 15 years, providing one-sleading yacht customization, charter, and management services for 200+ global high-net-worth clients."
   },
   "contact.209": {
     "zh": "微信公众号",
@@ -4341,7 +4341,7 @@ var dict = {
     "en": "Excellent quality"
   },
   "about-culture.169": {
-    "zh": "以顶级工艺标准打造每一艘游艇，追求完美细节。",
+    "zh": "以高端工艺标准打造每一艘游艇，追求完美细节。",
     "en": "Each yacht is built with top craftsmanship standards and pursues perfect details."
   },
   "about-culture.175": {
@@ -4577,7 +4577,7 @@ var dict = {
     "en": "2026"
   },
   "about-history.163": {
-    "zh": "亚太区总部在香港正式成立，全球服务网络扩展至50+港口。与Aman、Four Seasons等顶级酒店集团达成战略合作，进军海上文旅板块。完成B轮融资后估值突破20亿人民币。",
+    "zh": "亚太区总部在香港正式成立，全球服务网络扩展至50+港口。与Aman、Four Seasons等高端酒店集团达成战略合作，进军海上文旅板块。完成B轮融资后估值突破20亿人民币。",
     "en": "The Asia-Pacific headquarters was officially established in Hong Kong, and the global service network expanded to 50+ ports. "
   },
   "about-history.165": {
@@ -4593,15 +4593,15 @@ var dict = {
     "en": "2024"
   },
   "about-history.169": {
-    "zh": "完成A轮融资1.2亿元。与意大利Ferretti集团达成中国区独家战略合作。交付首艘国产超大型游艇「君临88米」，填补国内空白。",
-    "en": "Completed Series A financing of RMB 120 million. Reached an exclusive strategic cooperation in China with the Italian Ferretti Group. Delivered the first domestically produced ultra-large yacht Junlin 88 Meter, filling a gap in the country."
+    "zh": "完成A轮融资1.2亿元。与意大利Ferretti集团达成中国区重点合作战略合作。交付首艘国产超大型游艇「君临88米」，填补国内空白。",
+    "en": "Completed Series A financing of RMB 120 million. Reached an strategic cooperation in China with the Italian Ferretti Group. Delivered the first domestically produced ultra-large yacht Junlin 88 Meter, filling a gap in the country."
   },
   "about-history.171": {
     "zh": "2023",
     "en": "2023"
   },
   "about-history.172": {
-    "zh": "奇幻假期实业有限公司在上海成立。首款定制游艇交付，客户覆盖中国顶级富豪圈层。创始人王潇生曾任职LVMH集团游艇事业部。",
+    "zh": "奇幻假期实业有限公司在上海成立。首款定制游艇交付，客户覆盖中国高端富豪圈层。创始人王潇生曾任职LVMH集团游艇事业部。",
     "en": "Fantasy Holiday Industrial Co., Ltd. was established in Shanghai. The first customized yacht was delivered to customers covering China’s top wealthy circles. The founder, Chen Hanyu, once worked in the yacht division of LVMH Group."
   },
   "about-history.177": {
@@ -4837,8 +4837,8 @@ var dict = {
     "en": "Company Profile"
   },
   "about-intro.157": {
-    "zh": "全球顶级游艇定制与海上生活服务商",
-    "en": "The world's top yacht customization and maritime life service provider"
+    "zh": "全球高端游艇定制与海上生活服务商",
+    "en": "The world's leading yacht customization and maritime life service provider"
   },
   "about-intro.163": {
     "zh": "品牌定位与行业地位",
@@ -4846,11 +4846,11 @@ var dict = {
   },
   "about-intro.165": {
     "zh": "奇幻假期（Fantastic Vacation）是中国领先的豪华游艇定制与海上生活服务商，致力于为高端客群打造世界级的游艇体验。公司汇聚全球顶尖游艇制造商资源，提供从定制设计、租赁航线到托管维保的全方位服务。",
-    "en": "Fantastic Vacation is China's leading luxury yacht customization and maritime life service provider, committed to creating a world-class yacht experience for high-end customers. The company brings together the resources of the world's top yacht manufacturers to provide a full range of services from customized design, charter routes to managed maintenance."
+    "en": "Fantastic Vacation is China's premier luxury yacht customization and maritime life service provider, committed to creating a world-class yacht experience for high-end customers. The company brings together the resources of the world's leading yacht manufacturers to provide a full range of services from customized design, charter routes to managed maintenance."
   },
   "about-intro.167": {
-    "zh": "作为Ferretti集团中国区独家战略合作伙伴、Feadship技术合作方，公司已成为中国高端游艇市场的行业标杆。",
-    "en": "As the exclusive strategic partner and Feadship technical partner of Ferretti Group in China, the company has become an industry benchmark in China's high-end yacht market."
+    "zh": "作为Ferretti集团中国区重点合作战略合作伙伴、Feadship技术合作方，公司已成为中国高端游艇市场的行业标杆。",
+    "en": "As the key strategic partner and Feadship technical partner of Ferretti Group in China, the company has become an industry leader in China's high-end yacht market."
   },
   "about-intro.172": {
     "zh": "50+",
@@ -4893,7 +4893,7 @@ var dict = {
     "en": "🎯 Full Customization"
   },
   "about-intro.194": {
-    "zh": "联合Ferretti、Feadship、Lürssen等顶级船厂，为客户量身定制50-120米超级游艇，涵盖外观设计、内饰装修、功能规划等全流程服务。",
+    "zh": "联合Ferretti、Feadship、Lürssen等高端船厂，为客户量身定制50-120米超级游艇，涵盖外观设计、内饰装修、功能规划等全流程服务。",
     "en": "Cooperating with top shipyards such as Ferretti, Feadship, and Lürssen, we can customize 50-120-meter superyachts for customers, covering full-process services such as exterior design, interior decoration, and functional planning."
   },
   "about-intro.196": {
@@ -5501,8 +5501,8 @@ var dict = {
     "en": "CEO"
   },
   "about-structure.223": {
-    "zh": "负责公司整体战略规划与决策，统筹全球业务发展，引领行业创新方向。",
-    "en": "Responsible for the company's overall strategic planning and decision-making, coordinating global business development, and leading the industry's innovation direction."
+    "zh": "负责公司整体战略规划与决策，统筹全球业务发展，推动行业创新方向。",
+    "en": "Responsible for the company's overall strategic planning and decision-making, coordinating global business development, and driving the industry's innovation direction."
   },
   "about-structure.235": {
     "zh": "销售部",
@@ -5582,7 +5582,7 @@ var dict = {
   },
   "about-structure.300": {
     "zh": "负责品牌建设、市场推广与公关活动，通过多渠道营销策略提升品牌影响力，打造行业标杆形象。",
-    "en": "Responsible for brand building, marketing and public relations activities, enhancing brand influence through multi-channel marketing strategies and creating an industry benchmark image."
+    "en": "Responsible for brand building, marketing and public relations activities, enhancing brand influence through multi-channel marketing strategies and creating an industry leader image."
   },
   "about-structure.303": {
     "zh": "品牌战略规划与视觉管理",
@@ -6337,7 +6337,7 @@ var dict = {
     "en": "In-depth demand communication and family usage scenario analysis"
   },
   "case-001.401": {
-    "zh": "全球顶级设计师团队竞标",
+    "zh": "全球高端设计师团队竞标",
     "en": "The world's top designer teams bid"
   },
   "case-001.403": {
@@ -8054,7 +8054,7 @@ var dict = {
   },
   "case-003.527": {
     "zh": "差异化能力，打造行业标杆",
-    "en": "Differentiation capabilities to create industry benchmarks"
+    "en": "Differentiation capabilities to create industry leaders"
   },
   "case-003.531": {
     "zh": "🛡️ 零事故5年记录",
@@ -10749,7 +10749,7 @@ var dict = {
     "en": "🎨 Brand new interior design"
   },
   "case-007.300": {
-    "zh": "邀请意大利顶级设计工作室，完成800㎡内饰全面焕新，采用缅甸黑木、意大利大理石等顶级材料。",
+    "zh": "邀请意大利高端设计工作室，完成800㎡内饰全面焕新，采用缅甸黑木、意大利大理石等高端材料。",
     "en": "Inviting top Italian design studios to complete a comprehensive renovation of the 800㎡ interior, using top materials such as Burmese black wood and Italian marble."
   },
   "case-007.302": {
@@ -11221,7 +11221,7 @@ var dict = {
     "en": "Event level"
   },
   "case-008.286": {
-    "zh": "国际顶级",
+    "zh": "国际高端",
     "en": "International top"
   },
   "case-008.287": {
@@ -12173,8 +12173,8 @@ var dict = {
     "en": "🤿 World class diving"
   },
   "case-010.303": {
-    "zh": "斐济与瓦努阿图拥有世界顶级潜水点，配备PADI教练与专业潜水装备，探索珊瑚礁与二战沉船。",
-    "en": "Fiji and Vanuatu have the world's top diving spots, equipped with PADI instructors and professional diving equipment, to explore coral reefs and World War II shipwrecks."
+    "zh": "斐济与瓦努阿图拥有世界高端潜水点，配备PADI教练与专业潜水装备，探索珊瑚礁与二战沉船。",
+    "en": "Fiji and Vanuatu have the world's leading diving spots, equipped with PADI instructors and professional diving equipment, to explore coral reefs and World War II shipwrecks."
   },
   "case-010.305": {
     "zh": "🚁 直升机探险",
@@ -15437,7 +15437,7 @@ var dict = {
     "en": "Project requirements background"
   },
   "case-017.287": {
-    "zh": "为顶级客户举办的感谢晚宴，需要彰显公司实力和对客户的尊重。对餐饮品质有极高要求。",
+    "zh": "为高端客户举办的感谢晚宴，需要彰显公司实力和对客户的尊重。对餐饮品质有极高要求。",
     "en": "A thank-you dinner for top clients needs to demonstrate the company's strength and respect for its clients. There are extremely high requirements for catering quality."
   },
   "case-017.289": {
@@ -24705,8 +24705,8 @@ var dict = {
     "en": "Site Map"
   },
   "charter.4": {
-    "zh": "租赁航线 | 奇幻假期 FANTASTIC VACATION - 全球顶级游艇租赁服务",
-    "en": "Charter Route | Fantasy Vacation FANTASTIC VACATION - The world's top yacht charter service"
+    "zh": "租赁航线 | 奇幻假期 FANTASTIC VACATION - 全球高端游艇租赁服务",
+    "en": "Charter Route | Fantasy Vacation FANTASTIC VACATION - The world's premier yacht charter service"
   },
   "charter.12": {
     "zh": "FANTASTIC VACATION",
@@ -24865,8 +24865,8 @@ var dict = {
     "en": "Charter Routes"
   },
   "charter.262": {
-    "zh": "以定制航线解锁全球顶级海域，为您打造专属海上私享旅程 — 行业超高性价比",
-    "en": "Unlock the world's top sea areas with customized routes and create an exclusive private sea journey for you - the highest cost performance in the industry"
+    "zh": "以定制航线解锁全球高端海域，为您打造专属海上私享旅程 — 行业超高性价比",
+    "en": "Unlock the world's leading sea areas with customized routes and create an exclusive private sea journey for you - the highest cost performance in the industry"
   },
   "charter.265": {
     "zh": "50+",
@@ -25169,8 +25169,8 @@ var dict = {
     "en": "Amalfi Dream · Southern Italy"
   },
   "charter.508": {
-    "zh": "沿着世界最美海岸线巡航，从那不勒斯启航，穿越波西塔诺的彩色房屋、卡普里岛的蓝洞、拉韦洛的悬崖花园。阿马尔菲海岸是意大利最顶级的游艇目的地，美食与风景均为世界级。",
-    "en": "Cruise along the most beautiful coastline in the world, setting sail from Naples and passing through the colorful houses of Positano, the blue holes of Capri, and the cliff gardens of Ravello. The Amalfi Coast is Italy's top yachting destination, with world-class food and scenery."
+    "zh": "沿着世界最美海岸线巡航，从那不勒斯启航，穿越波西塔诺的彩色房屋、卡普里岛的蓝洞、拉韦洛的悬崖花园。阿马尔菲海岸是意大利最高端的游艇目的地，美食与风景均为世界级。",
+    "en": "Cruise along the most beautiful coastline in the world, setting sail from Naples and passing through the colorful houses of Positano, the blue holes of Capri, and the cliff gardens of Ravello. The Amalfi Coast is Italy's leading yachting destination, with world-class food and scenery."
   },
   "charter.521": {
     "zh": "¥195,000",
@@ -25865,8 +25865,8 @@ var dict = {
     "en": "Suitable for luxury parties and corporate receptions"
   },
   "charter.1058": {
-    "zh": "超级游艇级别的规模与配置，直升机坪、游泳池、IMAX影院一应俱全，是全球顶级奢华活动的终极选择。",
-    "en": "Superyacht-level scale and configuration, complete with helipad, swimming pool, and IMAX theater, it is the ultimate choice for the world's top luxury events."
+    "zh": "超级游艇级别的规模与配置，直升机坪、游泳池、IMAX影院一应俱全，是全球高端奢华活动的终极选择。",
+    "en": "Superyacht-level scale and configuration, complete with helipad, swimming pool, and IMAX theater, it is the ultimate choice for the world's leading luxury events."
   },
   "charter.1061": {
     "zh": "戛纳摩纳哥",
@@ -26366,7 +26366,7 @@ var dict = {
     "en": "Subscribe to Newsletter"
   },
   "custom.3": {
-    "zh": "私人游艇定制服务 | 奇幻假期 FANTASTIC VACATION - 全流程定制 顶级品质",
+    "zh": "私人游艇定制服务 | 奇幻假期 FANTASTIC VACATION - 全流程定制 高端品质",
     "en": "Private yacht customization service | Fantasy vacation FANTASTIC VACATION - full process customization, top quality"
   },
   "custom.11": {
@@ -26562,7 +26562,7 @@ var dict = {
     "en": "Italian original design"
   },
   "custom.301": {
-    "zh": "荷兰顶级船厂",
+    "zh": "荷兰高端船厂",
     "en": "Top shipyard in the Netherlands"
   },
   "custom.305": {
@@ -26634,7 +26634,7 @@ var dict = {
     "en": "concept design"
   },
   "custom.371": {
-    "zh": "国际顶级游艇设计师执笔，从船体流体力学优化到内饰空间美学，全方位呈现梦想之艇的完整蓝图。提供1:1实体模型制作与VR全景虚拟体验，让您在建造前即可身临其境。",
+    "zh": "国际高端游艇设计师执笔，从船体流体力学优化到内饰空间美学，全方位呈现梦想之艇的完整蓝图。提供1:1实体模型制作与VR全景虚拟体验，让您在建造前即可身临其境。",
     "en": "Written by a top international yacht designer, from the optimization of hull hydrodynamics to the aesthetics of interior space, the complete blueprint of the dream boat is presented in an all-round way. Provide 1:1 physical model production and VR panoramic virtual experience, allowing you to be immersed in the scene before construction."
   },
   "custom.374": {
@@ -26678,11 +26678,11 @@ var dict = {
     "en": "Material selection"
   },
   "custom.403": {
-    "zh": "全球顶级材料库为您敞开——意大利Nappa皮革、缅甸百年柚木、瑞士精密仪器、卡拉拉白大理石与航空级铝合金饰面，每一种材质都经过严苛筛选与环保认证。",
+    "zh": "全球高端材料库为您敞开——意大利Nappa皮革、缅甸百年柚木、瑞士精密仪器、卡拉拉白大理石与航空级铝合金饰面，每一种材质都经过严苛筛选与环保认证。",
     "en": "The world's top material library is open to you - Italian Nappa leather, Burmese century-old teak, Swiss precision instruments, Carrara white marble and aviation-grade aluminum alloy finishes. Each material has been rigorously screened and environmentally certified."
   },
   "custom.406": {
-    "zh": "意大利顶级皮革 / 缅甸百年柚木",
+    "zh": "意大利高端皮革 / 缅甸百年柚木",
     "en": "Top Italian leather / Burmese century-old teak"
   },
   "custom.408": {
@@ -26722,12 +26722,12 @@ var dict = {
     "en": "Precision construction"
   },
   "custom.435": {
-    "zh": "自有船坞与荷兰Feadship、Heesen等全球顶级船厂联合建造。采用航天级焊接工艺与碳纤维/铝合金复合船体技术，每一个连接点都经过严苛品控与第三方检测。",
+    "zh": "自有船坞与荷兰Feadship、Heesen等全球高端船厂联合建造。采用航天级焊接工艺与碳纤维/铝合金复合船体技术，每一个连接点都经过严苛品控与第三方检测。",
     "en": "It is built jointly with its own shipyard and the world's top shipyards such as Feadship and Heesen in the Netherlands. Using aerospace-grade welding technology and carbon fiber/aluminum alloy composite hull technology, every connection point has undergone strict quality control and third-party testing."
   },
   "custom.438": {
-    "zh": "自有船坞与全球顶级联合建造",
-    "en": "Owned shipyard and joint construction with the world's top"
+    "zh": "自有船坞与全球高端联合建造",
+    "en": "Owned shipyard and joint construction with the world's leading"
   },
   "custom.440": {
     "zh": "航天级焊接 / 碳纤维复合工艺",
@@ -27800,7 +27800,7 @@ var dict = {
     "en": "What is the price range for a custom yacht?"
   },
   "faq.275": {
-    "zh": "定制游艇价格因尺寸、配置、材料而异。30米级约1.5-3亿元人民币，50米级约3-8亿元，80米级超级游艇可达10-30亿元。我们提供市价1/10的极致性价比，同时确保顶级品质。",
+    "zh": "定制游艇价格因尺寸、配置、材料而异。30米级约1.5-3亿元人民币，50米级约3-8亿元，80米级超级游艇可达10-30亿元。我们提供市价1/10的极致性价比，同时确保高端品质。",
     "en": "Custom yacht prices vary based on size, configuration, and materials. The 30-meter class is about 150-300 million yuan, the 50-meter class is about 300-800 million yuan, and the 80-meter super yacht can reach 1-3 billion yuan. We provide the ultimate cost-effectiveness at 1/10 of the market price while ensuring top quality."
   },
   "faq.277": {
@@ -27840,7 +27840,7 @@ var dict = {
     "en": "How to ensure maritime safety?"
   },
   "faq.295": {
-    "zh": "所有游艇配备国际认证安全设备，船员均持国际海事证书，全程配备医疗团队。近5年零安全事故记录，并购买全球顶级保险。",
+    "zh": "所有游艇配备国际认证安全设备，船员均持国际海事证书，全程配备医疗团队。近5年零安全事故记录，并购买全球高端保险。",
     "en": "All yachts are equipped with internationally certified safety equipment, the crew members all hold international maritime certificates, and a medical team is provided throughout the journey. It has zero safety accident record in the past five years and has purchased the world's top insurance."
   },
   "faq.297": {
@@ -28773,7 +28773,7 @@ var dict = {
   },
   "ir-about.158": {
     "zh": "深耕高端游艇市场，塑造行业标杆",
-    "en": "Deeply explore the high-end yacht market and set industry benchmarks"
+    "en": "Deeply explore the high-end yacht market and set industry leaders"
   },
   "ir-about.163": {
     "zh": "发展历程",
@@ -31736,7 +31736,7 @@ var dict = {
     "en": "Management and core team"
   },
   "ir-team.158": {
-    "zh": "行业领军人物引领品牌发展",
+    "zh": "行业领军人物推动品牌发展",
     "en": "Industry leaders lead brand development"
   },
   "ir-team.165": {
@@ -31984,7 +31984,7 @@ var dict = {
     "en": "brand barriers"
   },
   "ir-value.185": {
-    "zh": "与Ferretti/Feadship等顶级品牌独家合作",
+    "zh": "与Ferretti/Feadship等高端品牌重点合作合作",
     "en": "Exclusive cooperation with top brands such as Ferretti/Feadship"
   },
   "ir-value.203": {
@@ -32244,7 +32244,7 @@ var dict = {
     "en": "2026-04-20"
   },
   "ir.198": {
-    "zh": "与意大利Ferretti集团达成中国区独家战略合作",
+    "zh": "与意大利Ferretti集团达成中国区重点合作战略合作",
     "en": "Reached exclusive strategic cooperation with Italian Ferretti Group in China"
   },
   "ir.217": {
@@ -32716,7 +32716,7 @@ var dict = {
     "en": "Insurance claims assistance"
   },
   "management.408": {
-    "zh": "与全球顶级H&amp;M保险公司及P&amp;I俱乐部建立战略合作，为您构建完整的风险保障与快速理赔通道。",
+    "zh": "与全球高端H&amp;M保险公司及P&amp;I俱乐部建立战略合作，为您构建完整的风险保障与快速理赔通道。",
     "en": "Establish strategic cooperation with the world's top H&M insurance company and P&I club to build a complete risk protection and fast claims settlement channel for you."
   },
   "management.411": {
@@ -34640,8 +34640,8 @@ var dict = {
     "en": "← Return to news list"
   },
   "news-003.267": {
-    "zh": "摩纳哥，2026年4月28日——为期四天的第33届摩纳哥游艇展于昨日圆满落幕。据组委会官方数据显示，本届展会共吸引来自全球45个国家的580家参展商，接待专业观众超过33,000人次，期间签约超级游艇订单总额突破35亿欧元，创下游艇展历史新高。奇幻假期作为中国唯一受邀参展商，携最新设计的君临88M东方美学版概念船型亮相展会。",
-    "en": "Monaco, April 28, 2026 - The four-day 33rd Monaco Yacht Show concluded successfully yesterday. According to official data from the organizing committee, this exhibition attracted a total of 580 exhibitors from 45 countries around the world and received more than 33,000 professional visitors. During the period, the total number of superyacht orders signed exceeded 3.5 billion euros, setting a record high in the history of the boat show. Fantasy Holidays, as the only invited exhibitor from China, debuted at the exhibition with the latest designed Junlin 88M Oriental Aesthetic Edition concept ship."
+    "zh": "摩纳哥，2026年4月28日——为期四天的第33届摩纳哥游艇展于昨日圆满落幕。据组委会官方数据显示，本届展会共吸引来自全球45个国家的580家参展商，接待专业观众超过33,000人次，期间签约超级游艇订单总额突破35亿欧元，创下游艇展历史新高。奇幻假期作为中国核心受邀参展商，携最新设计的君临88M东方美学版概念船型亮相展会。",
+    "en": "Monaco, April 28, 2026 - The four-day 33rd Monaco Yacht Show concluded successfully yesterday. According to official data from the organizing committee, this exhibition attracted a total of 580 exhibitors from 45 countries around the world and received more than 33,000 professional visitors. During the period, the total number of superyacht orders signed exceeded 3.5 billion euros, setting a record high in the history of the boat show. Fantasy Holidays, as among the leading invited exhibitor from China, debuted at the exhibition with the latest designed Junlin 88M Oriental Aesthetic Edition concept ship."
   },
   "news-003.285": {
     "zh": "奇幻假期",
@@ -35288,8 +35288,8 @@ var dict = {
     "en": "← Return to news list"
   },
   "news-005.267": {
-    "zh": "上海，2026年4月15日——奇幻假期（fantastic.vacation）今日宣布与全球顶级游艇制造集团Ferretti Group签署长期战略合作协议，正式成为后者在大中华区的授权经销商。根据协议，奇幻假期将独家代理Ferretti Group旗下多个顶级品牌产品线，包括：Azimut（阿兹慕）、Ferretti Yachts（法拉帝游艇）、Pershing（博星）等。",
-    "en": "Shanghai, April 15, 2026 - Fantasy Vacation (fantastic.vacation) announced today that it has signed a long-term strategic cooperation agreement with Ferretti Group, the world's top yacht manufacturing group, and officially became the latter's authorized dealer in Greater China. According to the agreement, Fantasy Vacations will be the exclusive agent for multiple top brand product lines of Ferretti Group, including: Azimut, Ferretti Yachts, Pershing, etc."
+    "zh": "上海，2026年4月15日——奇幻假期（fantastic.vacation）今日宣布与全球高端游艇制造集团Ferretti Group签署长期战略合作协议，正式成为后者在大中华区的授权经销商。根据协议，奇幻假期将重点合作代理Ferretti Group旗下多个高端品牌产品线，包括：Azimut（阿兹慕）、Ferretti Yachts（法拉帝游艇）、Pershing（博星）等。",
+    "en": "Shanghai, April 15, 2026 - Fantasy Vacation (fantastic.vacation) announced today that it has signed a long-term strategic cooperation agreement with Ferretti Group, the world's top yacht manufacturing group, and officially became the latter's authorized dealer in Greater China. According to the agreement, Fantasy Vacations will be the agent for multiple top brand product lines of Ferretti Group, including: Azimut, Ferretti Yachts, Pershing, etc."
   },
   "news-005.285": {
     "zh": "奇幻假期",
@@ -36584,8 +36584,8 @@ var dict = {
     "en": "← Return to news list"
   },
   "news-009.267": {
-    "zh": "上海，2026年3月12日——奇幻假期（fantastic.vacation）今日正式发布2026-2028三年发展战略白皮书，明确提出打造全球顶级游艇服务集团的愿景目标。战略核心要点包括市场布局、产品战略、服务升级和数字化建设。",
-    "en": "Shanghai, March 12, 2026 - Fantasy Vacation (fantastic.vacation) officially released a three-year development strategy white paper from 2026 to 2028 today, clearly proposing the vision and goal of building the world's top yacht service group. The core strategic points include market layout, product strategy, service upgrade and digital construction."
+    "zh": "上海，2026年3月12日——奇幻假期（fantastic.vacation）今日正式发布2026-2028三年发展战略白皮书，明确提出打造全球高端游艇服务集团的愿景目标。战略核心要点包括市场布局、产品战略、服务升级和数字化建设。",
+    "en": "Shanghai, March 12, 2026 - Fantasy Vacation (fantastic.vacation) officially released a three-year development strategy white paper from 2026 to 2028 today, clearly proposing the vision and goal of building the world's leading yacht service company. The core strategic points include market layout, product strategy, service upgrade and digital construction."
   },
   "news-009.285": {
     "zh": "奇幻假期",
@@ -37324,8 +37324,8 @@ var dict = {
     "en": "Monaco Yacht Show 2026: Superyacht orders hit record high"
   },
   "news.326": {
-    "zh": "第33届摩纳哥游艇展签约超级游艇订单总额突破35亿欧元，奇幻假期作为中国唯一受邀参展商成功签订3艘定制合同。",
-    "en": "The total number of superyacht orders signed at the 33rd Monaco Yacht Show exceeded 3.5 billion euros. Fantasy Holidays, as the only invited exhibitor in China, successfully signed three customized contracts."
+    "zh": "第33届摩纳哥游艇展签约超级游艇订单总额突破35亿欧元，奇幻假期作为中国核心受邀参展商成功签订3艘定制合同。",
+    "en": "The total number of superyacht orders signed at the 33rd Monaco Yacht Show exceeded 3.5 billion euros. Fantasy Holidays, as among the leading invited exhibitor in China, successfully signed three customized contracts."
   },
   "news.328": {
     "zh": "阅读全文 →",
@@ -37364,7 +37364,7 @@ var dict = {
     "en": "Fantasy Vacations signed a strategic cooperation agreement with the Italian Ferretti Group"
   },
   "news.354": {
-    "zh": "奇幻假期正式成为Ferretti Group大中华区授权经销商，引进Azimut、Ferretti Yachts等顶级品牌。",
+    "zh": "奇幻假期正式成为Ferretti Group大中华区授权经销商，引进Azimut、Ferretti Yachts等高端品牌。",
     "en": "Fantasy Holidays has officially become the authorized dealer of Ferretti Group in Greater China, introducing top brands such as Azimut and Ferretti Yachts."
   },
   "news.356": {
@@ -37544,8 +37544,8 @@ var dict = {
     "en": "Polar Expedition Yachting: Embark on a Sea Journey to the End of the World"
   },
   "news.480": {
-    "zh": "南极、格陵兰、阿拉斯加……极地探险正成为顶级游艇旅行的新热点。",
-    "en": "Antarctica, Greenland, Alaska...polar adventures are becoming a new hotspot for top yacht travel."
+    "zh": "南极、格陵兰、阿拉斯加……极地探险正成为高端游艇旅行的新热点。",
+    "en": "Antarctica, Greenland, Alaska...polar adventures are becoming a new hotspot for leading yacht travel."
   },
   "news.482": {
     "zh": "阅读全文 →",
@@ -37584,8 +37584,8 @@ var dict = {
     "en": "America's Cup 2025: Team New Zealand successfully defends title"
   },
   "news.508": {
-    "zh": "奇幻假期作为中国唯一游艇服务商受邀观赛，组织VIP客户前往巴塞罗那。",
-    "en": "As the only yacht service provider in China, Fantasy Holidays was invited to watch the race and organized VIP customers to go to Barcelona."
+    "zh": "奇幻假期作为中国核心游艇服务商受邀观赛，组织VIP客户前往巴塞罗那。",
+    "en": "As among the leading yacht service provider in China, Fantasy Holidays was invited to watch the race and organized VIP customers to go to Barcelona."
   },
   "news.510": {
     "zh": "阅读全文 →",
@@ -38040,8 +38040,8 @@ var dict = {
     "en": "Industry News"
   },
   "news.828": {
-    "zh": "中国首艘国产游艇下线，打破进口垄断",
-    "en": "China's first domestically produced yacht rolls off the production line, breaking the import monopoly"
+    "zh": "中国首艘国产游艇下线，打破进口市场领先",
+    "en": "China's first domestically produced yacht rolls off the production line, breaking the import market-leading"
   },
   "news.830": {
     "zh": "中国首艘自主设计和制造的游艇在珠海下线。",
@@ -38900,7 +38900,7 @@ var dict = {
     "en": "🏆 Benchmark cooperation cases"
   },
   "partner-cases.256": {
-    "zh": "真实合作成果 · 行业标杆项目 · 全球顶级伙伴联合交付",
+    "zh": "真实合作成果 · 行业标杆项目 · 全球高端伙伴联合交付",
     "en": "Real cooperation results · Industry benchmark project · Joint delivery by top global partners"
   },
   "partner-cases.260": {
@@ -38916,7 +38916,7 @@ var dict = {
     "en": "Ferretti Group joint customization project"
   },
   "partner-cases.269": {
-    "zh": "与意大利Ferretti集团建立大中华区独家战略合作，2025年至今已完成7艘定制游艇的联合交付，总合同金额超过€1.2亿。项目涵盖Custom Line 140、Ferretti 960、Pershing 92等多款旗舰船型。",
+    "zh": "与意大利Ferretti集团建立大中华区重点合作战略合作，2025年至今已完成7艘定制游艇的联合交付，总合同金额超过€1.2亿。项目涵盖Custom Line 140、Ferretti 960、Pershing 92等多款旗舰船型。",
     "en": "Established an exclusive strategic cooperation with the Italian Ferretti Group in Greater China. Since 2025, it has completed the joint delivery of 7 customized yachts with a total contract value of more than €120 million. The project covers many flagship ship types such as Custom Line 140, Ferretti 960, Pershing 92, etc."
   },
   "partner-cases.271": {
@@ -38944,7 +38944,7 @@ var dict = {
     "en": "Singapore ONE°15 Marina long-term berthing cooperation"
   },
   "partner-cases.284": {
-    "zh": "与亚洲顶级超级游艇码头ONE°15 Marina签署3年战略停泊合作协议，为奇幻假期客户提供优先停泊权、专属VIP休息室、码头side服务及通关便利等全方位权益。",
+    "zh": "与亚洲高端超级游艇码头ONE°15 Marina签署3年战略停泊合作协议，为奇幻假期客户提供优先停泊权、专属VIP休息室、码头side服务及通关便利等全方位权益。",
     "en": "Signed a three-year strategic berthing cooperation agreement with Asia's top superyacht marina ONE°15 Marina to provide fantasy vacation customers with comprehensive rights such as priority berthing rights, exclusive VIP lounges, dockside services and customs clearance convenience."
   },
   "partner-cases.286": {
@@ -38973,7 +38973,7 @@ var dict = {
   },
   "partner-cases.299": {
     "zh": "与全球领先私人航空服务商VistaJet达成海空联运合作，为客户提供「私人飞机+超级游艇」一站式高端出行体验。已成功执行23次联程运输服务，覆盖欧洲、中东、亚太三大区域。",
-    "en": "It has reached a sea-air transport cooperation with VistaJet, the world's leading private aviation service provider, to provide customers with a one-stop high-end travel experience of \"private jet + super yacht\". It has successfully implemented 23 interline transportation services, covering the three major regions of Europe, the Middle East and the Asia-Pacific."
+    "en": "It has reached a sea-air transport cooperation with VistaJet, the world's top private aviation service provider, to provide customers with a one-stop high-end travel experience of \"private jet + super yacht\". It has successfully implemented 23 interline transportation services, covering the three major regions of Europe, the Middle East and the Asia-Pacific."
   },
   "partner-cases.301": {
     "zh": "📍 全球",
@@ -39400,7 +39400,7 @@ var dict = {
     "en": "core partners"
   },
   "partner-list.260": {
-    "zh": "20+全球顶级品牌资源网络",
+    "zh": "20+全球高端品牌资源网络",
     "en": "20+ global top brand resource network"
   },
   "partner-list.267": {
@@ -39408,7 +39408,7 @@ var dict = {
     "en": "All"
   },
   "partner-list.269": {
-    "zh": "顶级船厂",
+    "zh": "高端船厂",
     "en": "Top-tierShipyard"
   },
   "partner-list.271": {
@@ -39428,7 +39428,7 @@ var dict = {
     "en": "art collection"
   },
   "partner-list.282": {
-    "zh": "顶级船厂",
+    "zh": "高端船厂",
     "en": "Top-tierShipyard"
   },
   "partner-list.285": {
@@ -39440,7 +39440,7 @@ var dict = {
     "en": "Italy · Founded in 1968"
   },
   "partner-list.289": {
-    "zh": "全球领先的豪华游艇制造商，旗下拥有Ferretti Yachts、Pershing、Riva等顶级品牌。",
+    "zh": "全球领先的豪华游艇制造商，旗下拥有Ferretti Yachts、Pershing、Riva等高端品牌。",
     "en": "The world's leading luxury yacht manufacturer owns top brands such as Ferretti Yachts, Pershing, and Riva."
   },
   "partner-list.292": {
@@ -39456,7 +39456,7 @@ var dict = {
     "en": "Original factory after-sales service"
   },
   "partner-list.302": {
-    "zh": "顶级船厂",
+    "zh": "高端船厂",
     "en": "Top-tierShipyard"
   },
   "partner-list.305": {
@@ -39468,8 +39468,8 @@ var dict = {
     "en": "Netherlands · Founded in 1949"
   },
   "partner-list.309": {
-    "zh": "世界顶级定制超级游艇制造商，以极致工艺与创新设计著称。",
-    "en": "The world's top custom superyacht manufacturer, known for its ultimate craftsmanship and innovative design."
+    "zh": "世界高端定制超级游艇制造商，以极致工艺与创新设计著称。",
+    "en": "The world's leading custom superyacht manufacturer, known for its ultimate craftsmanship and innovative design."
   },
   "partner-list.312": {
     "zh": "全定制建造",
@@ -39484,7 +39484,7 @@ var dict = {
     "en": "Supervision channel"
   },
   "partner-list.322": {
-    "zh": "顶级船厂",
+    "zh": "高端船厂",
     "en": "Top-tierShipyard"
   },
   "partner-list.325": {
@@ -39496,7 +39496,7 @@ var dict = {
     "en": "Germany · Founded in 1875"
   },
   "partner-list.329": {
-    "zh": "全球最大超级游艇制造商之一，专注建造100米以上顶级游艇。",
+    "zh": "全球最大超级游艇制造商之一，专注建造100米以上高端游艇。",
     "en": "One of the world's largest superyacht manufacturers, focusing on building top-class yachts over 100 meters."
   },
   "partner-list.332": {
@@ -39512,7 +39512,7 @@ var dict = {
     "en": "Quality assurance"
   },
   "partner-list.342": {
-    "zh": "顶级船厂",
+    "zh": "高端船厂",
     "en": "Top-tierShipyard"
   },
   "partner-list.345": {
@@ -39524,7 +39524,7 @@ var dict = {
     "en": "United Kingdom · Founded in 1969"
   },
   "partner-list.349": {
-    "zh": "英国顶级豪华游艇品牌，以性能与设计完美结合闻名。",
+    "zh": "英国高端豪华游艇品牌，以性能与设计完美结合闻名。",
     "en": "Britain's top luxury yacht brand is famous for its perfect combination of performance and design."
   },
   "partner-list.352": {
@@ -39552,7 +39552,7 @@ var dict = {
     "en": "Monaco·Mediterranean Core"
   },
   "partner-list.369": {
-    "zh": "世界最著名的游艇港口，位于地中海核心位置的顶级停泊地。",
+    "zh": "世界最著名的游艇港口，位于地中海核心位置的高端停泊地。",
     "en": "The world's most famous yacht port, a premier anchorage in the heart of the Mediterranean."
   },
   "partner-list.372": {
@@ -39580,7 +39580,7 @@ var dict = {
     "en": "Dubai · Gateway to the Middle East"
   },
   "partner-list.389": {
-    "zh": "中东地区最顶级的游艇码头，服务与设施世界一流。",
+    "zh": "中东地区最高端的游艇码头，服务与设施世界一流。",
     "en": "The top marina in the Middle East, with world-class services and facilities."
   },
   "partner-list.392": {
@@ -39608,8 +39608,8 @@ var dict = {
     "en": "Singapore · Southeast Asia Hub"
   },
   "partner-list.409": {
-    "zh": "新加坡顶级游艇俱乐部，东南亚地区游艇服务标杆。",
-    "en": "Singapore's top yacht club, the benchmark for yacht services in Southeast Asia."
+    "zh": "新加坡高端游艇俱乐部，东南亚地区游艇服务标杆。",
+    "en": "Singapore's leading yacht club, the benchmark for yacht services in Southeast Asia."
   },
   "partner-list.412": {
     "zh": "亚洲枢纽",
@@ -39688,12 +39688,12 @@ var dict = {
     "en": "Aman Resorts"
   },
   "partner-list.467": {
-    "zh": "全球 · 顶级度假",
+    "zh": "全球 · 高端度假",
     "en": "Global · Top vacation"
   },
   "partner-list.469": {
-    "zh": "全球最顶级的精品度假酒店品牌，以极致私密与奢华著称。",
-    "en": "The world's top boutique resort hotel brand, known for its ultimate privacy and luxury."
+    "zh": "全球最高端的精品度假酒店品牌，以极致私密与奢华著称。",
+    "en": "The world's leading boutique resort hotel brand, known for its ultimate privacy and luxury."
   },
   "partner-list.472": {
     "zh": "联动套餐",
@@ -39720,8 +39720,8 @@ var dict = {
     "en": "Global · Luxury Chain"
   },
   "partner-list.489": {
-    "zh": "全球顶级豪华酒店品牌，服务标准行业标杆。",
-    "en": "The world's top luxury hotel brand and industry benchmark for service standards."
+    "zh": "全球高端豪华酒店品牌，服务标准行业标杆。",
+    "en": "The world's leading luxury hotel brand and industry leader for service standards."
   },
   "partner-list.492": {
     "zh": "全球网络",
@@ -39744,7 +39744,7 @@ var dict = {
     "en": "Sotheby's"
   },
   "partner-list.507": {
-    "zh": "全球 · 顶级拍卖行",
+    "zh": "全球 · 高端拍卖行",
     "en": "Global · Top Auction Houses"
   },
   "partner-list.509": {
@@ -40124,8 +40124,8 @@ var dict = {
     "en": "mediterranean region"
   },
   "partner-map.280": {
-    "zh": "欧洲最成熟的游艇市场，涵盖法国里维埃拉、意大利维亚雷焦、西班牙伊比萨、希腊米科诺斯等顶级游艇目的地。",
-    "en": "Europe's most mature yacht market covers top yacht destinations such as the French Riviera, Viareggio in Italy, Ibiza in Spain, and Mykonos in Greece."
+    "zh": "欧洲最成熟的游艇市场，涵盖法国里维埃拉、意大利维亚雷焦、西班牙伊比萨、希腊米科诺斯等高端游艇目的地。",
+    "en": "Europe's most mature yacht market covers leading yacht destinations such as the French Riviera, Viareggio in Italy, Ibiza in Spain, and Mykonos in Greece."
   },
   "partner-map.282": {
     "zh": "核心港口：12个",
@@ -40184,8 +40184,8 @@ var dict = {
     "en": "caribbean region"
   },
   "partner-map.301": {
-    "zh": "全球顶级避税港与度假胜地，安提瓜、巴哈马、英属维尔京群岛、圣巴泰勒米等热门游艇注册地。",
-    "en": "The world's top tax haven and resort, Antigua, Bahamas, British Virgin Islands, St. Barthélemy and other popular yacht registration places."
+    "zh": "全球高端避税港与度假胜地，安提瓜、巴哈马、英属维尔京群岛、圣巴泰勒米等热门游艇注册地。",
+    "en": "The world's leading tax haven and resort, Antigua, Bahamas, British Virgin Islands, St. Barthélemy and other popular yacht registration places."
   },
   "partner-map.303": {
     "zh": "核心港口：8个",
@@ -41288,11 +41288,11 @@ var dict = {
     "en": "🗺️"
   },
   "partner-type-agent.274": {
-    "zh": "区域独家",
+    "zh": "区域重点合作",
     "en": "Regional Exclusive"
   },
   "partner-type-agent.275": {
-    "zh": "特定区域独家代理权，避免同业竞争。",
+    "zh": "特定区域重点合作代理权，避免同业竞争。",
     "en": "Exclusive agency rights in specific areas to avoid competition within the industry."
   },
   "partner-type-agent.281": {
@@ -41672,7 +41672,7 @@ var dict = {
     "en": "🎨Art collection/high-end life"
   },
   "partner-type-art.260": {
-    "zh": "对接苏富比、佳士得等顶级拍卖行，提供游艇专属艺术定制、私人藏品鉴赏与艺术品海上运输保险服务。",
+    "zh": "对接苏富比、佳士得等高端拍卖行，提供游艇专属艺术定制、私人藏品鉴赏与艺术品海上运输保险服务。",
     "en": "Connect with top auction houses such as Sotheby's and Christie's to provide exclusive art customization for yachts, appreciation of private collections, and marine transportation insurance services for artworks."
   },
   "partner-type-art.267": {
@@ -41700,7 +41700,7 @@ var dict = {
     "en": "private appreciation"
   },
   "partner-type-art.282": {
-    "zh": "顶级拍卖行私人预览与藏品鉴赏服务。",
+    "zh": "高端拍卖行私人预览与藏品鉴赏服务。",
     "en": "Private preview and collection appreciation services from top auction houses."
   },
   "partner-type-art.288": {
@@ -42468,7 +42468,7 @@ var dict = {
     "en": "✈️ Private aviation/sea, land and air transport"
   },
   "partner-type-aviation.260": {
-    "zh": "与VistaJet、NetJets等顶级私人航空运营商合作，实现全球任意地点直升机接送、游艇停机坪认证与海空无缝衔接。",
+    "zh": "与VistaJet、NetJets等高端私人航空运营商合作，实现全球任意地点直升机接送、游艇停机坪认证与海空无缝衔接。",
     "en": "Cooperate with top private aviation operators such as VistaJet and NetJets to achieve helicopter transfers, yacht helipad certification and seamless connection between sea and air anywhere in the world."
   },
   "partner-type-aviation.267": {
@@ -42864,7 +42864,7 @@ var dict = {
     "en": "🤝 Brand co-branding cooperation"
   },
   "partner-type-brand.260": {
-    "zh": "与顶级奢侈品牌、高端生活方式品牌联合推出限量版游艇、联名活动与跨界项目，共创品牌价值。",
+    "zh": "与高端奢侈品牌、高端生活方式品牌联合推出限量版游艇、联名活动与跨界项目，共创品牌价值。",
     "en": "Jointly launch limited edition yachts, joint activities and cross-border projects with top luxury brands and high-end lifestyle brands to jointly create brand value."
   },
   "partner-type-brand.267": {
@@ -43260,7 +43260,7 @@ var dict = {
     "en": "🏨 High-end hotel/resort cooperation"
   },
   "partner-type-hotel.260": {
-    "zh": "与Aman、Four Seasons、Ritz-Carlton等顶级度假酒店建立专属协议，提供游艇与酒店联动套餐、海上抵达礼宾服务。",
+    "zh": "与Aman、Four Seasons、Ritz-Carlton等高端度假酒店建立专属协议，提供游艇与酒店联动套餐、海上抵达礼宾服务。",
     "en": "Established exclusive agreements with top resort hotels such as Aman, Four Seasons, Ritz-Carlton, etc. to provide yacht and hotel linkage packages and concierge services for arrival at sea."
   },
   "partner-type-hotel.267": {
@@ -43292,7 +43292,7 @@ var dict = {
     "en": "Mutual recognition of membership levels"
   },
   "partner-type-hotel.289": {
-    "zh": "奇幻假期船东与酒店顶级会员权益互认。",
+    "zh": "奇幻假期船东与酒店高端会员权益互认。",
     "en": "Fantasy Vacations ship owners and top hotel members have mutual recognition of their rights and interests."
   },
   "partner-type-hotel.295": {
@@ -43660,8 +43660,8 @@ var dict = {
     "en": "🏝️ Global Terminal/Port Alliance"
   },
   "partner-type-marina.260": {
-    "zh": "覆盖全球80+顶级游艇码头与Marina Club，提供专属泊位预订、VIP接待通道、港口税费优惠与紧急维修绿色通道。",
-    "en": "Covering 80+ top yacht marinas and Marina Clubs around the world, it provides exclusive berth reservations, VIP reception channels, port tax discounts and green channels for emergency repairs."
+    "zh": "覆盖全球80+高端游艇码头与Marina Club，提供专属泊位预订、VIP接待通道、港口税费优惠与紧急维修绿色通道。",
+    "en": "Covering 80+ leading yacht marinas and Marina Clubs around the world, it provides exclusive berth reservations, VIP reception channels, port tax discounts and green channels for emergency repairs."
   },
   "partner-type-marina.267": {
     "zh": "合作权益与优势",
@@ -44461,7 +44461,7 @@ var dict = {
   },
   "partner-type-shipyard.260": {
     "zh": "与全球顶尖游艇制造商建立深度战略合作，为客户提供优先排产权、定制化产能保障与原厂级售后支持。",
-    "en": "Establish in-depth strategic cooperation with the world's top yacht manufacturers to provide customers with priority property rights, customized production capacity guarantees and original factory-level after-sales support."
+    "en": "Establish in-depth strategic cooperation with the world's leading yacht manufacturers to provide customers with priority property rights, customized production capacity guarantees and original factory-level after-sales support."
   },
   "partner-type-shipyard.267": {
     "zh": "合作权益与优势",
@@ -44472,7 +44472,7 @@ var dict = {
     "en": "priority property rights"
   },
   "partner-type-shipyard.275": {
-    "zh": "与Ferretti、Feadship、Lürssen等顶级船厂签署排产优先协议，客户订单优先排期。",
+    "zh": "与Ferretti、Feadship、Lürssen等高端船厂签署排产优先协议，客户订单优先排期。",
     "en": "We have signed production scheduling priority agreements with top shipyards such as Ferretti, Feadship, and Lürssen to prioritize customer orders."
   },
   "partner-type-shipyard.281": {
@@ -45288,7 +45288,7 @@ var dict = {
     "en": "80+"
   },
   "partnership.265": {
-    "zh": "顶级码头合作",
+    "zh": "高端码头合作",
     "en": "Top terminal cooperation"
   },
   "partnership.267": {
@@ -45336,12 +45336,12 @@ var dict = {
     "en": "🏗️"
   },
   "partnership.302": {
-    "zh": "顶级船厂战略合作",
+    "zh": "高端船厂战略合作",
     "en": "Strategic cooperation with top shipyards"
   },
   "partnership.304": {
     "zh": "与全球顶尖游艇制造商建立深度合作关系，为客户提供优先排产权、定制化产能保障与原厂级售后支持。",
-    "en": "Establish in-depth cooperative relationships with the world's top yacht manufacturers to provide customers with priority property rights, customized production capacity guarantees and original factory-level after-sales support."
+    "en": "Establish in-depth cooperative relationships with the world's leading yacht manufacturers to provide customers with priority property rights, customized production capacity guarantees and original factory-level after-sales support."
   },
   "partnership.307": {
     "zh": "优先排产",
@@ -45368,8 +45368,8 @@ var dict = {
     "en": "Global Terminal/Port Alliance"
   },
   "partnership.325": {
-    "zh": "覆盖全球80+顶级游艇码头，提供专属泊位预订、VIP接待通道、港口税费优惠与紧急维修绿色通道。",
-    "en": "Covering 80+ top yacht terminals around the world, it provides exclusive berth reservations, VIP reception channels, port tax discounts and green channels for emergency repairs."
+    "zh": "覆盖全球80+高端游艇码头，提供专属泊位预订、VIP接待通道、港口税费优惠与紧急维修绿色通道。",
+    "en": "Covering 80+ leading yacht terminals around the world, it provides exclusive berth reservations, VIP reception channels, port tax discounts and green channels for emergency repairs."
   },
   "partnership.328": {
     "zh": "专属泊位",
@@ -45396,7 +45396,7 @@ var dict = {
     "en": "Private aviation/sea, land and air transport"
   },
   "partnership.346": {
-    "zh": "与VistaJet、NetJets等顶级私人航空运营商合作，实现全球任意地点直升机接送、游艇停机坪认证与海空无缝衔接。",
+    "zh": "与VistaJet、NetJets等高端私人航空运营商合作，实现全球任意地点直升机接送、游艇停机坪认证与海空无缝衔接。",
     "en": "Cooperate with top private aviation operators such as VistaJet and NetJets to achieve helicopter transfers, yacht helipad certification and seamless connection between sea and air anywhere in the world."
   },
   "partnership.349": {
@@ -45420,7 +45420,7 @@ var dict = {
     "en": "High-end hotel/resort cooperation"
   },
   "partnership.367": {
-    "zh": "与Aman、Four Seasons、Ritz-Carlton等顶级度假酒店建立专属协议，提供游艇与酒店联动套餐、海上抵达礼宾服务。",
+    "zh": "与Aman、Four Seasons、Ritz-Carlton等高端度假酒店建立专属协议，提供游艇与酒店联动套餐、海上抵达礼宾服务。",
     "en": "Established exclusive agreements with top resort hotels such as Aman, Four Seasons, Ritz-Carlton, etc. to provide yacht and hotel linkage packages and concierge services for arrival at sea."
   },
   "partnership.370": {
@@ -45444,7 +45444,7 @@ var dict = {
     "en": "Art collection/high-end living"
   },
   "partnership.388": {
-    "zh": "对接苏富比、佳士得等顶级拍卖行，提供游艇专属艺术定制、私人藏品鉴赏与艺术品海上运输保险服务。",
+    "zh": "对接苏富比、佳士得等高端拍卖行，提供游艇专属艺术定制、私人藏品鉴赏与艺术品海上运输保险服务。",
     "en": "Connect with top auction houses such as Sotheby's and Christie's to provide exclusive art customization for yachts, appreciation of private collections, and marine transportation insurance services for artworks."
   },
   "partnership.391": {
@@ -45496,7 +45496,7 @@ var dict = {
     "en": "Brand co-branding"
   },
   "partnership.430": {
-    "zh": "与顶级奢侈品牌、高端生活方式品牌联合推出限量版游艇、联名活动与跨界项目，共创品牌价值。",
+    "zh": "与高端奢侈品牌、高端生活方式品牌联合推出限量版游艇、联名活动与跨界项目，共创品牌价值。",
     "en": "Jointly launch limited edition yachts, joint activities and cross-border projects with top luxury brands and high-end lifestyle brands to jointly create brand value."
   },
   "partnership.433": {
@@ -45556,7 +45556,7 @@ var dict = {
     "en": "sales support"
   },
   "partnership.479": {
-    "zh": "区域独家",
+    "zh": "区域重点合作",
     "en": "Regional Exclusive"
   },
   "partnership.482": {
@@ -45596,8 +45596,8 @@ var dict = {
     "en": "core partners"
   },
   "partnership.518": {
-    "zh": "全球顶级品牌资源网络",
-    "en": "The world's top brand resource network"
+    "zh": "全球高端品牌资源网络",
+    "en": "The world's leading brand resource network"
   },
   "partnership.522": {
     "zh": "全部",
@@ -45908,7 +45908,7 @@ var dict = {
     "en": "Fantastic Vacation"
   },
   "partnership.795": {
-    "zh": "无论您是顶级船厂、奢华酒店、私人航空还是高端生活方式品牌，我们都期待与您建立深度合作关系，共同为高净值客户提供极致体验。",
+    "zh": "无论您是高端船厂、奢华酒店、私人航空还是高端生活方式品牌，我们都期待与您建立深度合作关系，共同为高净值客户提供极致体验。",
     "en": "Whether you are a top shipyard, luxury hotel, private aviation or high-end lifestyle brand, we look forward to establishing in-depth cooperation with you and jointly providing high-net-worth customers with the ultimate experience."
   },
   "partnership.801": {
@@ -46233,7 +46233,7 @@ var dict = {
   },
   "press.252": {
     "zh": "奇幻假期fantastic.vacation — 主流媒体持续关注的行业标杆",
-    "en": "Fantasy vacation fantastic.vacation — an industry benchmark that mainstream media continues to pay attention to"
+    "en": "Fantasy vacation fantastic.vacation — an industry leader that mainstream media continues to pay attention to"
   },
   "press.257": {
     "zh": "新浪财经",
@@ -46256,8 +46256,8 @@ var dict = {
     "en": "Exclusive Interview with the Founder of Fantasy Vacations: The Eastern Power of the Yachting Industry"
   },
   "press.264": {
-    "zh": "从一家小型游艇租赁公司到亚洲顶级游艇服务集团，奇幻假期用10年时间书写了中国游艇行业的传奇。创始人接受本刊独家专访，分享成功背后的故事。",
-    "en": "From a small yacht rental company to Asia's top yacht service group, Fantasy Vacation has written the legend of China's yacht industry in 10 years. The founder accepted an exclusive interview with this publication and shared the story behind its success."
+    "zh": "从一家小型游艇租赁公司到亚洲高端游艇服务集团，奇幻假期用10年时间书写了中国游艇行业的传奇。创始人接受本刊重点合作专访，分享成功背后的故事。",
+    "en": "From a small yacht rental company to Asia's leading yacht service group, Fantasy Vacation has written the legend of China's yacht industry in 10 years. The founder accepted an exclusive interview with this publication and shared the story behind its success."
   },
   "press.265": {
     "zh": "2024年11月20日",
@@ -46268,8 +46268,8 @@ var dict = {
     "en": "ifeng.com Finance"
   },
   "press.269": {
-    "zh": "国内首艘完全自主设计的80米以上超级游艇正式交付，标志着中国游艇制造业迈入世界顶级水平。奇幻假期在游艇定制领域的突破引发行业震动。",
-    "en": "The official delivery of China's first fully independently designed superyacht over 80 meters marks the entry of China's yacht manufacturing industry into the world's top level. Fantasy Vacation's breakthrough in the field of yacht customization caused a shock in the industry."
+    "zh": "国内首艘完全自主设计的80米以上超级游艇正式交付，标志着中国游艇制造业迈入世界高端水平。奇幻假期在游艇定制领域的突破引发行业震动。",
+    "en": "The official delivery of China's first fully independently designed superyacht over 80 meters marks the entry of China's yacht manufacturing industry into the world's high-end. Fantasy Vacation's breakthrough in the field of yacht customization caused a shock in the industry."
   },
   "press.270": {
     "zh": "2024年10月08日",
@@ -46296,7 +46296,7 @@ var dict = {
     "en": "Fantasy Vacation completes 5-year full trusteeship project for the Middle Eastern royal family"
   },
   "press.279": {
-    "zh": "中东王室船队5年全托管服务项目圆满收官，奇幻假期以零安全事故的完美表现，赢得国际顶级客户的认可，进一步巩固全球市场地位。",
+    "zh": "中东王室船队5年全托管服务项目圆满收官，奇幻假期以零安全事故的完美表现，赢得国际高端客户的认可，进一步巩固全球市场地位。",
     "en": "The five-year fully managed service project of the Middle East royal fleet has come to a successful conclusion. Fantasy Vacation has won the recognition of top international customers with its perfect performance of zero safety incidents and further consolidated its global market position."
   },
   "press.280": {
@@ -76373,11 +76373,11 @@ var dict = {
   },
   "press.274": {
     "zh": "一场耗资千万的海上婚礼如何成为行业标杆？奇幻假期为亚洲家族打造的加勒比海婚礼包船案例，被业内评为\"年度最佳海上婚礼\"。",
-    "en": "How did a $10M+ sea wedding become an industry benchmark? Rated 'Most Innovative Luxury Event of the Year'."
+    "en": "How did a $10M+ sea wedding become an industry leader? Rated 'Most Innovative Luxury Event of the Year'."
   },
   "press.284": {
-    "zh": "在福布斯中国发布的\"2024年度高端服务品牌榜\"中，奇幻假期作为唯一游艇服务企业入选，彰显其在高端生活方式服务领域的领先地位。",
-    "en": "Fantastic Vacation selected for Forbes China '2024 High-End Service Brands List' as only yacht service company."
+    "zh": "在福布斯中国发布的\"2024年度高端服务品牌榜\"中，奇幻假期作为核心游艇服务企业入选，彰显其在高端生活方式服务领域的领先地位。",
+    "en": "Fantastic Vacation selected for Forbes China '2024 High-End Service Brands List' as one of the key yacht service company."
   },
   "index.60": {
     "zh": "业务板块",
@@ -76504,7 +76504,7 @@ var dict = {
     "en": "All indicators after maintenance exceeded factory standards, shipowner said it exceeded expectations."
   },
   "case-008.256": {
-    "zh": "为国际顶级帆船赛提供完整赛事保障船队，包括裁判船、媒体船、医疗船、VIP船共12艘，赛事期间零安全事故，获评\"最佳赛事合作伙伴\"。",
+    "zh": "为国际高端帆船赛提供完整赛事保障船队，包括裁判船、媒体船、医疗船、VIP船共12艘，赛事期间零安全事故，获评\"最佳赛事合作伙伴\"。",
     "en": "16-month comprehensive refit project, interior renovation, power upgrade, smart system installation, awarded 'Refit Project of the Year', yacht market value increased 30%."
   },
   "case-008.315": {
@@ -76548,7 +76548,7 @@ var dict = {
     "en": "This was the most successful product launch in our company's history. Fantastic Vacation team..."
   },
   "ir-media.175": {
-    "zh": "独家对话王潇生：要做中国游艇行业的\"法拉利\"",
+    "zh": "重点合作对话王潇生：要做中国游艇行业的\"法拉利\"",
     "en": "Media reports and press releases collection."
   },
   "case-005.271": {
@@ -76676,7 +76676,7 @@ var dict = {
   "invest.8f717dbfe4c1": { "zh": "关于与摩纳哥游艇俱乐部续签合作备忘录的公告", "en": "MOU Renewal with Yacht Club de Monaco" },
   "invest.8fc4b2cc968a": { "zh": "地中海沿岸主要国家", "en": "Major Mediterranean Countries" },
   "invest.901f95c1b296": { "zh": "中东区域布局", "en": "Middle East Expansion" },
-  "invest.913210e6066a": { "zh": "关于启动上市筹备工作的公告", "en": "Commencement of IPO Preparation" },
+  "invest.913210e6066a": { "zh": "关于深化公司治理与战略规划的公告", "en": "Advancement of Corporate Governance" },
   "invest.923290138f73": { "zh": "传承匠心 · 极致安全 · 超越服务 · 圈层价值 — 四位一体的品牌价值传递体系", "en": "Artisanal Heritage · Ultimate Safety · Beyond Service · Circle Value — a four-dimensional brand value delivery system" },
   "invest.92bd56ef2ef8": { "zh": "大额合同、投资并购、重大资产处置等对公司经营产生重要影响的事项公告", "en": "Large contracts, investment & M&A, significant asset disposals and other events materially impacting operations" },
   "invest.92c1931f0d6c": { "zh": "新增二手游艇经纪业务与全生命周期管理服务，完成“定制+经纪+托管”布局", "en": "Added pre-owned yacht brokerage and lifecycle management services, completing custom-brokerage-management layout" },
@@ -76693,7 +76693,7 @@ var dict = {
   "invest.a3de4065ffdd": { "zh": "公司治理", "en": "Governance" },
   "invest.a76642395989": { "zh": "游艇租赁与体验服务", "en": "Yacht Charter & Experience" },
   "invest.abaca228ac12": { "zh": "摩纳哥（代表处）", "en": "Monaco (Rep. Office)" },
-  "invest.ac8a7731ec8c": { "zh": "启动上市筹备工作，引入战略投资者，优化公司治理结构", "en": "Initiated IPO preparation, introduced strategic investors, optimized governance structure" },
+  "invest.ac8a7731ec8c": { "zh": "深化公司治理与战略规划，引入战略投资者，优化公司治理结构", "en": "Advanced corporate governance optimization, introduced strategic investors, refined governance structure" },
   "invest.ad042302690c": { "zh": "豪华游艇定制与销售", "en": "Luxury Yacht Customization & Sales" },
   "invest.ad594516696c": { "zh": "二手游艇经纪与贸易", "en": "Pre-Owned Yacht Brokerage & Trading" },
   "invest.adff907cafa7": { "zh": "汇率波动对公司财务状况的影响？", "en": "How do currency fluctuations affect finances?" },
@@ -76760,7 +76760,7 @@ var dict = {
   "invest.fb32fbdc57f0": { "zh": "规范的治理架构与经验丰富的管理团队，保障公司长期稳健发展", "en": "Standardized governance structure with experienced management team ensuring long-term stability" },
   "invest.fbe388f9119f": { "zh": "投资者关系活动", "en": "Investor Relations Activities" },
   "invest.ferretti": { "zh": "关于与Ferretti集团签署战略合作协议的公告", "en": "Strategic Partnership Agreement with Ferretti Group" },
-  "invest.ferretti_feadship_50": { "zh": "与Ferretti、Feadship等五大顶级船厂建立深度合作关系，年订单量突破50艘", "en": "Deep cooperation with 5 top shipyards including Ferretti & Feadship, annual orders exceeding 50 vessels" },
+  "invest.ferretti_feadship_50": { "zh": "与Ferretti、Feadship等五大高端船厂建立深度合作关系，年订单量突破50艘", "en": "Deep cooperation with 5 top shipyards including Ferretti & Feadship, annual orders exceeding 50 vessels" },
   "invest.governance": { "zh": "治理 Governance", "en": "Governance" },
   "invest.investor_relations": { "zh": "INVESTOR RELATIONS", "en": "INVESTOR RELATIONS" },
   "invest.ir_fantastic_vacation_com": { "zh": "ir@fantastic-vacation.com", "en": "ir@fantastic-vacation.com" },
@@ -76775,7 +76775,7 @@ var dict = {
   "invest.15_5_2024_nps_78": { "zh": "15年深耕建立奇幻假期高端品牌认知，业界口碑卓越。连续5年获亚太区最佳游艇服务商，2024年NPS（净推荐值）达78分", "en": "15 years building Fantastic Vacation premium brand recognition with outstanding industry reputation. Best Yacht Service Provider in Asia-Pacific for 5 consecutive years, 2024 NPS score of 78" },
   "invest.1d32fb3eca44": { "zh": "荣誉资质与行业认可", "en": "PLACEHOLDER" },
   "invest.1dbd87793708": { "zh": "排名/份额", "en": "Rank/Share" },
-  "invest.200_38_45": { "zh": "累计服务200+高净值客户，包含知名企业家、上市公司高管及家族办公室。客户复购率38%，转介绍率45%", "en": "200+ HNW clients served including renowned entrepreneurs, listed company executives & family offices. 38% repeat purchase rate, 45% referral rate" },
+  "invest.200_38_45": { "zh": "累计服务200+高净值客户，包含知名企业家、上市公司高管及家族办公室。客户复购率38%，转介绍率45%", "en": "200+ HNW clients served including renowned entrepreneurs, public company executives & family offices. 38% repeat purchase rate, 45% referral rate" },
   "invest.2018": { "zh": "2018 中国邮轮游艇协会 - 理事单位", "en": "2018 China Cruise & Yacht Association - Council Member" },
   "invest.2019_top10": { "zh": "2019 胡润百富 - 中国高端旅游服务TOP10", "en": "2019 Hurun Report - China Luxury Travel Service TOP 10" },
   "invest.2020": { "zh": "2020 粤港澳大湾区游艇产业联盟 - 创始理事单位", "en": "2020 GBA Yacht Industry Alliance - Founding Council Member" },
@@ -76787,9 +76787,9 @@ var dict = {
   "invest.393314fa8b08": { "zh": "中国游艇行业协会 · 副会长单位", "en": "CYIA Vice Chair Member" },
   "invest.41ee7189ac46": { "zh": "国内游艇行业最具权威性的行业组织，公司代表行业参与多项国家行业标准制定", "en": "China's most authoritative yacht industry organization; our company participates in national industry standard formulation" },
   "invest.47f831b08b92": { "zh": "技术与供应链优势", "en": "Technology & Supply Chain" },
-  "invest.4_50_30_18": { "zh": "深圳总部 + 新加坡/摩纳哥/迪拜/迈阿密4大区域中心，合作50+全球顶级船厂，30+国际码头泊位，服务覆盖18个国家", "en": "Shenzhen HQ + 4 regional centers (Singapore, Monaco, Dubai, Miami), 50+ top global shipyard partners, 30+ international marina berths across 18 countries" },
+  "invest.4_50_30_18": { "zh": "深圳总部 + 新加坡/摩纳哥/迪拜/迈阿密4大区域中心，合作50+全球高端船厂，30+国际码头泊位，服务覆盖18个国家", "en": "Shenzhen HQ + 4 regional centers (Singapore, Monaco, Dubai, Miami), 50+ top global shipyard partners, 30+ international marina berths across 18 countries" },
   "invest.50_000gt": { "zh": "管理船队总吨位超50,000GT", "en": "Note" },
-  "invest.52b88002ebc2": { "zh": "国际权威游艇媒体评选，公司为亚洲唯一上榜机构", "en": "Recognized by authoritative international yacht media, only Asian firm listed" },
+  "invest.52b88002ebc2": { "zh": "国际权威游艇媒体评选，公司为亚洲核心上榜机构", "en": "Recognized by authoritative international yacht media, a key Asian firm listed" },
   "invest.52cf3cd9ec45": { "zh": "摩纳哥游艇展组委会颁发，表彰公司在欧亚游艇贸易促进中的杰出贡献", "en": "Awarded by Monaco Yacht Show committee for outstanding contribution to Europe-Asia yacht trade" },
   "invest.5b136dbf1a2f": { "zh": "全球化服务网络", "en": "Global Service Network" },
   "invest.5e8d761ba507": { "zh": "权威认证", "en": "Authoritative Certifications" },
@@ -76801,7 +76801,7 @@ var dict = {
   "invest.7999aff883ed": { "zh": "表彰公司在高端消费服务领域的商业模式创新与客户体验升级", "en": "Recognizing business model innovation and customer experience upgrade in luxury services" },
   "invest.8": { "zh": "覆盖全国8大热门海域，船队规模行业第一", "en": "Note" },
   "invest.89045e561690": { "zh": "注：奇幻假期为未上市公司，数据基于行业分析估算。毛利率领先源于全产业链服务模式带来的高附加值溢价", "en": "Note: Fantastic Vacation is unlisted; data is industry-analyst estimated" },
-  "invest.9db8dc7c6757": { "zh": "亚洲唯一进入全球前十的游艇经纪机构", "en": "Note" },
+  "invest.9db8dc7c6757": { "zh": "亚洲核心进入全球前十的游艇经纪机构", "en": "Note" },
   "invest.a094e5b7699e": { "zh": "数据来源", "en": "Source" },
   "invest.a625b0fb0ba6": { "zh": "中国游艇租赁市场占有率", "en": "Row" },
   "invest.aa2e8b1d3ec1": { "zh": "首次获得该奖项，标志公司进入中国游艇行业第一梯队", "en": "First time receiving this award, marking entry into China yacht industry top tier" },
@@ -76832,7 +76832,7 @@ var dict = {
   "invest.f29c543fffb9": { "zh": "维度", "en": "Dimension" },
   "invest.f411d0f1f925": { "zh": "说明", "en": "Note" },
   "invest.f7296281c612": { "zh": "职业健康安全管理体系 — 保障员工与客户安全", "en": "Occupational Health & Safety Management — ensuring staff & client safety" },
-  "invest.fef93959d8c1": { "zh": "业内唯一覆盖定制-经纪-租赁-管理-文旅全链条的服务商，为客户提供从购船决策到终身使用的无缝体验", "en": "Industry's only service provider covering the complete custom-brokerage-charter-management-cultural tourism chain, delivering seamless experience from purchase to lifetime usage" },
+  "invest.fef93959d8c1": { "zh": "业内核心覆盖定制-经纪-租赁-管理-文旅全链条的服务商，为客户提供从购船决策到终身使用的无缝体验", "en": "Industry's a core service provider covering the complete custom-brokerage-charter-management-cultural tourism chain, delivering seamless experience from purchase to lifetime usage" },
   "invest.iot_scm_crm": { "zh": "自研游艇监测IoT系统、供应链管理平台（SCM）、客户管理系统（CRM），与全球前五大碳纤维供应商建立战略采购协议", "en": "Proprietary yacht IoT monitoring system, SCM & CRM platforms. Strategic procurement agreements with global top 5 carbon fiber suppliers" },
   "invest.iso_14001_2015": { "zh": "ISO 14001:2015", "en": "ISO 14001:2015" },
   "invest.iso_9001_2015": { "zh": "ISO 9001:2015", "en": "ISO 9001:2015" },
@@ -76852,7 +76852,7 @@ var dict = {
   "invest.mda_opp": { "zh": "行业机遇与挑战", "en": "Industry Opportunities & Challenges" },
   "invest.mda_opp_txt": { "zh": "机遇方面：（1）中国高净值人群突破600万，游艇渗透率仅0.3%，对标发达国家2-3%有巨大增长空间；（2）\"一带一路\"沿线国家游艇基础设施加速建设，海外市场机会广阔；（3）电动游艇与氢能动力技术突破，绿色转型带来产品升级窗口。挑战方面：（1）全球地缘政治不确定性可能影响跨境贸易节奏；（2）高端技术人才供给不足；（3）汇率波动对海外业务利润的潜在影响。公司将通过加大人才培养投入、优化外汇风险管理、深化本地化运营来应对上述挑战。", "en": "Opportunities: (1) China HNW population exceeds 6M with yacht penetration at 0.3% vs 2-3% in developed markets; (2) Belt & Road yacht infrastructure accelerating; (3) Electric & hydrogen propulsion breakthroughs enabling green product upgrades. Challenges: (1) Geopolitical uncertainty; (2) Technical talent shortage; (3) Forex volatility. We will address these through increased talent investment, forex risk management, and localized operations." },
   "invest.mda_outlook": { "zh": "2025年经营展望", "en": "2025 Business Outlook" },
-  "invest.mda_outlook_txt": { "zh": "展望2025年，公司设定营业收入目标10.5-11.0亿元（同比增长23-30%），净利润目标2.0-2.2亿元。重点推进（1）迪拜与迈阿密代表处业务落地；（2）数字化平台2.0上线，实现全业务流程在线化；（3）电动游艇产品线首发；（4）启动上市筹备工作。", "en": "2025 targets: Revenue RMB 1,050-1,100M (+23-30% YoY), net profit RMB 200-220M. Priorities: (1) Dubai & Miami office operationalization; (2) Digital platform 2.0 launch; (3) Electric yacht product line debut; (4) IPO preparation initiation." },
+  "invest.mda_outlook_txt": { "zh": "展望2025年，公司设定营业收入目标10.5-11.0亿元（同比增长23-30%），净利润目标2.0-2.2亿元。重点推进（1）迪拜与迈阿密代表处业务落地；（2）数字化平台2.0上线，实现全业务流程在线化；（3）电动游艇产品线首发；（4）深化公司治理与战略规划。", "en": "2025 targets: Revenue RMB 1,050-1,100M (+23-30% YoY), net profit RMB 200-220M. Priorities: (1) Dubai & Miami office operationalization; (2) Digital platform 2.0 launch; (3) Electric yacht product line debut; (4) strategic planning advancement." },
   "invest.mda_period": { "zh": "报告期", "en": "Period" },
   "invest.mda_rev1": { "zh": "▸ 豪华游艇定制与销售板块收入3.8亿元（+32%），全年交付定制游艇28艘，含超级游艇3艘", "en": "Luxury yacht custom & sales: RMB 380M (+32%), delivering 28 custom yachts including 3 superyachts" },
   "invest.mda_rev2": { "zh": "▸ 二手游艇经纪与贸易板块收入1.8亿元（+25%），全年完成跨境交易47笔", "en": "Pre-owned brokerage & trading: RMB 180M (+25%), completing 47 cross-border transactions" },
@@ -77287,7 +77287,7 @@ var dict = {
   "custom.135": { "zh": "135", "en": "135" },
   "custom.20": { "zh": "20", "en": "20" },
   "custom.298": { "zh": "<strong>意大利原创设计</strong>米兰与热那亚双城设计中心", "en": "<strong>Italian original design</strong>Dual-city design center in Milan & Genoa" },
-  "custom.302": { "zh": "<strong>荷兰顶级船厂</strong>Feadship/Heesen联合建造", "en": "<strong>Top shipyard in the Netherlands</strong>Built by Feadship/Heesen" },
+  "custom.302": { "zh": "<strong>荷兰高端船厂</strong>Feadship/Heesen联合建造", "en": "<strong>Top shipyard in the Netherlands</strong>Built by Feadship/Heesen" },
   "custom.306": { "zh": "<strong>德国精工动力</strong>MTU/Man双引擎系统", "en": "<strong>German Seiko Power</strong>MTU/Man dual engine system" },
   "custom.310": { "zh": "<strong>全球供应链</strong>45国200+供应商网络", "en": "<strong>global supply chain</strong>200+ suppliers across 45 countries" },
   "custom.329": { "zh": "329", "en": "329" },
@@ -79491,7 +79491,7 @@ var dict = {
   "membership.90": { "zh": "90天", "en": "90 days" },
   "membership.application_process": { "zh": "APPLICATION PROCESS · 入会流程", "en": "APPLICATION PROCESS · Membership Process" },
   "membership.core_benefits": { "zh": "CORE BENEFITS · 核心权益", "en": "CORE BENEFITS · Exclusive Privileges" },
-  "membership.f1_vip": { "zh": "F1摩纳哥大奖赛、路易威登杯帆船赛等顶级赛事VIP席位通道", "en": "F1 Monaco GP, Louis Vuitton Cup & top-tier event VIP seat access" },
+  "membership.f1_vip": { "zh": "F1摩纳哥大奖赛、路易威登杯帆船赛等高端赛事VIP席位通道", "en": "F1 Monaco GP, Louis Vuitton Cup & top-tier event VIP seat access" },
   "membership.l1": { "zh": "L1 雅致", "en": "L1 Elegant" },
   "membership.l2": { "zh": "L2 蓝海", "en": "L2 Blue" },
   "membership.l3": { "zh": "L3 御海", "en": "L3 Premium" },
@@ -79526,8 +79526,8 @@ var dict = {
   "membership.": { "zh": "上百项权益逐项解析，找到最适合您的会员等级", "en": "Detailed breakdown of hundreds of benefits — find your perfect tier" },
   "membership.": { "zh": "不可以。每位会员只能持有一个等级的会员卡。如果您的出行需求发生变化，可以申请会员升级，升级后原有的低等级会籍将自动失效。", "en": "No. Each member holds only one tier. If your needs change, apply for an upgrade — the lower tier expires automatically upon upgrade." },
   "membership.": { "zh": "不限次合作联盟机场贵宾厅使用，提供接送机衔接服务", "en": "Unlimited partner lounge access with airport transfer service" },
-  "membership.50_30": { "zh": "与全球超过50家顶级游艇制造商、30+国际游艇码头建立了长期战略合作关系，资源覆盖地中海、加勒比海、东南亚、太平洋及中国沿海主要城市。", "en": "Strategic partnerships with 50+ top yacht manufacturers & 30+ international marinas, covering Mediterranean, Caribbean, SE Asia, Pacific & major Chinese coastal cities." },
-  "membership.": { "zh": "与全球顶级航海人士同席，创始族会籍圈层专属私宴和年度国际盛会", "en": "Dine with global sailing elites at exclusive private banquets & annual international galas" },
+  "membership.50_30": { "zh": "与全球超过50家高端游艇制造商、30+国际游艇码头建立了长期战略合作关系，资源覆盖地中海、加勒比海、东南亚、太平洋及中国沿海主要城市。", "en": "Strategic partnerships with 50+ leading yacht manufacturers & 30+ international marinas, covering Mediterranean, Caribbean, SE Asia, Pacific & major Chinese coastal cities." },
+  "membership.": { "zh": "与全球高端航海人士同席，创始族会籍圈层专属私宴和年度国际盛会", "en": "Dine with global sailing elites at exclusive private banquets & annual international galas" },
   "membership.": { "zh": "专业团队随行航拍，赠送精美剪辑视频与高清写真", "en": "Professional aerial photography team, complimentary edited video & HD photos" },
   "membership.": { "zh": "专业教练陪同潜水与深海钓鱼体验，含全套装备", "en": "Professional instructor-led diving & deep-sea fishing, full equipment included" },
   "membership.": { "zh": "专属", "en": "Dedicated" },
@@ -79603,7 +79603,7 @@ var dict = {
   "membership.": { "zh": "升级次一等会员等级（需使用一年）", "en": "Upgrade to Next Tier (after 1 year)" },
   "membership.": { "zh": "升级说明", "en": "Upgrade Information" },
   "membership.": { "zh": "原则上不可随意转让。如涉及特殊情况（企业重组、法律变更等），可向会员中心提交书面申请，经审核后方可办理转让手续。", "en": "Generally non-transferable. Special circumstances (corporate restructuring, legal changes) require written application for review." },
-  "membership.ferretti_feadship": { "zh": "受邀参观意大利Ferretti集团、荷兰Feadship等全球顶级船厂，提前获悉新船发布", "en": "Invited tours of Ferretti, Feadship & other top shipyards — early access to new launches" },
+  "membership.ferretti_feadship": { "zh": "受邀参观意大利Ferretti集团、荷兰Feadship等全球高端船厂，提前获悉新船发布", "en": "Invited tours of Ferretti, Feadship & other top shipyards — early access to new launches" },
   "membership.": { "zh": "可以同时持有多个等级的会员吗？", "en": "Can I hold multiple membership tiers?" },
   "membership.": { "zh": "各等级年费明细、支付方式、续约规则与宽限期说明", "en": "Tier fee details, payment methods, renewal rules & grace period" },
   "membership.12": { "zh": "合作联盟机场贵宾厅使用权益，年累计不超过12次", "en": "Partner airport lounge access, up to 12 visits per year" },
@@ -79673,13 +79673,13 @@ var dict = {
   "membership.": { "zh": "核心理念", "en": "Core Values" },
   "membership.": { "zh": "正式会籍生效", "en": "Membership Activated" },
   "membership.": { "zh": "每季度参加一场圈层私享活动，包括航海沙龙、新品品鉴、会员联谊等", "en": "Quarterly exclusive events: sailing salons, product tastings, member gatherings" },
-  "membership.": { "zh": "每年不低于两场圈层私宴，联合世界顶级酒庄、米其林主厨呈现", "en": "At least 2 private banquets per year featuring world-class wineries & Michelin chefs" },
+  "membership.": { "zh": "每年不低于两场圈层私宴，联合世界高端酒庄、米其林主厨呈现", "en": "At least 2 private banquets per year featuring world-class wineries & Michelin chefs" },
   "membership.": { "zh": "每年可享全定制化服务等多重尊贵权益", "en": "Annual fully customized service & multiple premium benefits" },
   "membership.": { "zh": "每年可享全球机场贵宾厅等多重尊贵权益", "en": "Annual global airport lounges and multiple premium benefits" },
   "membership.": { "zh": "每年可享全球顶尖赛事贵宾席位等多重尊贵权益", "en": "Annual top global event VIP seats & multiple premium benefits" },
-  "membership.": { "zh": "每年可享顶级私宴 · 酒庄会员联动等多重尊贵权益", "en": "Annual private banquets, winery membership & multiple premium benefits" },
+  "membership.": { "zh": "每年可享高端私宴 · 酒庄会员联动等多重尊贵权益", "en": "Annual private banquets, winery membership & multiple premium benefits" },
   "membership.": { "zh": "求婚、周年、庆典等特殊时刻的专业活动策划与执行", "en": "Professional event planning for proposals, anniversaries & celebrations" },
-  "membership.": { "zh": "法国波尔多顶级酒庄深度访问与贵宾品鉴，航海与美酒的沁心交融", "en": "Premium Bordeaux winery visits & VIP tastings — sailing meets fine wine" },
+  "membership.": { "zh": "法国波尔多高端酒庄深度访问与贵宾品鉴，航海与美酒的沁心交融", "en": "Premium Bordeaux winery visits & VIP tastings — sailing meets fine wine" },
   "membership.": { "zh": "海上传奇人生", "en": "Legendary Maritime Life" },
   "membership.": { "zh": "海上尊享人生了吗？", "en": "Exclusive Maritime Life?" },
   "membership.": { "zh": "消费积分奖励", "en": "Points Rewards" },
@@ -79856,10 +79856,10 @@ var dict = {
   "membership.dcbb67cd8b02": { "zh": "核心理念", "en": "Core Values" },
   "membership.0bb895fd8547": { "zh": "正式会籍生效", "en": "Membership Activated" },
   "membership.f07224bd875b": { "zh": "每季度参加一场圈层私享活动，包括航海沙龙、新品品鉴、会员联谊等", "en": "Quarterly exclusive events: sailing salons, product tastings, member gatherings" },
-  "membership.14d1a6da17bf": { "zh": "每年不低于两场圈层私宴，联合世界顶级酒庄、米其林主厨呈现", "en": "At least 2 private banquets per year featuring world-class wineries & Michelin chefs" },
-  "membership.7a58cc6118af": { "zh": "每年可享顶级私宴 · 酒庄会员联动等多重尊贵权益", "en": "Annual private banquets, winery membership & multiple premium benefits" },
+  "membership.14d1a6da17bf": { "zh": "每年不低于两场圈层私宴，联合世界高端酒庄、米其林主厨呈现", "en": "At least 2 private banquets per year featuring world-class wineries & Michelin chefs" },
+  "membership.7a58cc6118af": { "zh": "每年可享高端私宴 · 酒庄会员联动等多重尊贵权益", "en": "Annual private banquets, winery membership & multiple premium benefits" },
   "membership.1d5205b35b67": { "zh": "求婚、周年、庆典等特殊时刻的专业活动策划与执行", "en": "Professional event planning for proposals, anniversaries & celebrations" },
-  "membership.69b4c8f9f16e": { "zh": "法国波尔多顶级酒庄深度访问与贵宾品鉴，航海与美酒的沁心交融", "en": "Premium Bordeaux winery visits & VIP tastings — sailing meets fine wine" },
+  "membership.69b4c8f9f16e": { "zh": "法国波尔多高端酒庄深度访问与贵宾品鉴，航海与美酒的沁心交融", "en": "Premium Bordeaux winery visits & VIP tastings — sailing meets fine wine" },
   "membership.824e65e59bd6": { "zh": "消费积分奖励", "en": "Points Rewards" },
   "membership.221dea8c1341": { "zh": "消费积分累积与兑换规则说明", "en": "Points Accumulation & Redemption Rules" },
   "membership.de77c1dcfbfb": { "zh": "消费积累积分，可用于抵扣后续服务费用、升级等级或兑换精选礼品", "en": "Earn points on purchases for future service discounts, tier upgrades or exclusive gifts" },
@@ -79916,7 +79916,7 @@ var dict = {
   "membership.fc946033babc": { "zh": "🏝️ 加勒比海", "en": "🏝️ Caribbean" },
   "membership.aa588dbb5cae": { "zh": "🗼 中国及亚太", "en": "🗼 China & Asia Pacific" },
   "membership.17ff9efd4ad5": { "zh": "🗽 北美", "en": "🗽 North America" },
-  "membership.b4c6bb10959b": { "zh": "顶级船厂优先参观", "en": "Priority Shipyard Visits" },
+  "membership.b4c6bb10959b": { "zh": "高端船厂优先参观", "en": "Priority Shipyard Visits" },
   "membership.8f65057f3bd2": { "zh": "无需重新申请。如需升级，可联系会员顾问填写\"会员升级申请表\"，无需重新资质评审。升级仅需补缴纳两级会费差额。", "en": "No reapplication needed. For upgrades, contact your advisor to fill out the Tier Upgrade Form — no requalification needed, only pay the tier difference." },
   "membership.1_1_l1_l3": { "zh": "• 每消费 ¥1 = 1 积分（L1-L3）", "en": "• ¥1 spent = 1 point (L1–L3)" },
   "membership.1_1_5_l4_l5": { "zh": "• 每消费 ¥1 = 1.5 积分（L4-L5）", "en": "• ¥1 spent = 1.5 points (L4–L5)" },
@@ -79932,7 +79932,7 @@ var dict = {
   "membership.84a9ab6e062a": { "zh": "为每位会员量身定制", "en": "Tailored for Every Member" },
   "membership.a9dd7e23bd06": { "zh": "奇幻假期大厦 · 会员接待中心", "en": "Fantastic Vacation Building · Member Reception Center" },
   "membership.bea78b7b6617": { "zh": "海上尊享人生了吗？", "en": "Exclusive Maritime Life?" },
-  "membership.0": { "zh": "尊享会员申请 | 奇幻假期 FANTASTIC VACATION - 全球顶级游艇俱乐部", "en": "Exclusive Membership Application | Fantastic Vacation - World's Premier Yacht Club" },
+  "membership.0": { "zh": "尊享会员申请 | 奇幻假期 FANTASTIC VACATION - 全球高端游艇俱乐部", "en": "Exclusive Membership Application | Fantastic Vacation - World's Premier Yacht Club" },
   "membership.1": { "zh": "FANTASTIC VACATION", "en": "FANTASTIC VACATION" },
   "membership.2": { "zh": "LOADING", "en": "LOADING" },
   "membership.5": { "zh": "FANTASTIC VACATION", "en": "FANTASTIC VACATION" },
@@ -79968,7 +79968,7 @@ var dict = {
   "membership.39": { "zh": "✓ 银帆全部权益\n✓ 专属游艇使用权 10天/年\n✓ 全球机场贵宾厅\n✓ 生日专属礼遇", "en": "✓ All Silver Benefits\n✓ Yacht Usage 10 Days/Year\n✓ Global VIP Lounges\n✓ Birthday Privileges" },
   "membership.40": { "zh": "铂金会员 Platinum", "en": "Platinum Member" },
   "membership.41": { "zh": "年费 ¥500,000 起", "en": "Annual Fee from ¥500,000" },
-  "membership.42": { "zh": "✓ 金帆全部权益\n✓ 专属游艇使用权 30天/年\n✓ 私人管家全程陪同\n✓ 顶级船厂优先参观", "en": "✓ All Gold Benefits\n✓ Yacht Usage 30 Days/Year\n✓ Personal Butler Service\n✓ Priority Shipyard Visits" },
+  "membership.42": { "zh": "✓ 金帆全部权益\n✓ 专属游艇使用权 30天/年\n✓ 私人管家全程陪同\n✓ 高端船厂优先参观", "en": "✓ All Gold Benefits\n✓ Yacht Usage 30 Days/Year\n✓ Personal Butler Service\n✓ Priority Shipyard Visits" },
   "membership.43": { "zh": "申请原因", "en": "Reason for Application" },
   "membership.44": { "zh": "← 上一步", "en": "← Previous" },
   "membership.45": { "zh": "下一步 →", "en": "Next →" },
@@ -80054,7 +80054,7 @@ var dict = {
   "membership.420": { "zh": "金帆全部权益", "en": "All Gold Benefits" },
   "membership.421": { "zh": "专属游艇使用权 30天/年", "en": "Yacht Usage 30 Days/Year" },
   "membership.422": { "zh": "私人管家全程陪同", "en": "Personal Butler Service" },
-  "membership.423": { "zh": "顶级船厂优先参观", "en": "Priority Shipyard Visits" },
+  "membership.423": { "zh": "高端船厂优先参观", "en": "Priority Shipyard Visits" },
   "m.hero_prefix": { "zh": "开启您的", "en": "Begin Your" },
   "m.cta_prefix": { "zh": "准备好", "en": "Ready to" },
   "m.apply.ph_name": { "zh": "姓名 *", "en": "Full Name *" },

@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<title>全系游艇 | 奇幻假期 FANTASTIC VACATION</title>
+<meta content="奇幻假期全系豪华游艇系列 - 从18米飞桥到120米超级游艇，覆盖全谱系产品矩阵。" name="description"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+<style>
+#loader{position:fixed;inset:0;background:#080e1a;display:flex;align-items:center;justify-content:center;z-index:9999;transition:opacity 0.6s,visibility 0.6s}
+#loader.hidden{opacity:0;visibility:hidden}
+#loader .brand{font-family:'Playfair Display',serif;font-size:clamp(24px,4vw,42px);color:#c9a96e;margin-bottom:40px;animation:fadeUp 1s 0.3s forwards;opacity:0}
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+/* Fleet page */
+.fleet-hero{position:relative;padding:180px 0 80px;text-align:center;background:linear-gradient(180deg,var(--dark1) 0%,var(--dark2) 100%);overflow:hidden}
+.fleet-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%,rgba(201,169,110,0.08) 0%,transparent 70%)}
+.fleet-hero-content{position:relative;z-index:2;max-width:800px;margin:0 auto;padding:0 24px}
+.fleet-hero h1{font-size:clamp(32px,5vw,60px);margin-bottom:12px}
+.fleet-hero p{color:var(--text-muted);font-size:16px;max-width:600px;margin:0 auto;line-height:1.8}
+/* Filters */
+.fleet-filters{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:10px;margin-bottom:48px;padding:0 24px}
+.filter-chip{padding:10px 22px;font-size:12px;letter-spacing:1px;border:1px solid var(--glass-border);border-radius:50px;background:transparent;color:var(--text-muted);cursor:pointer;transition:all 0.3s;font-family:'Inter',sans-serif;white-space:nowrap}
+.filter-chip:hover,.filter-chip.active{background:rgba(201,169,110,0.12);border-color:var(--gold);color:var(--gold)}
+.filter-divider{width:1px;height:20px;background:var(--glass-border);margin:0 8px}
+.filter-select{background:var(--dark3);border:1px solid var(--glass-border);color:var(--text);padding:10px 16px;border-radius:50px;font-size:12px;font-family:'Inter',sans-serif;cursor:pointer;outline:none}
+.filter-select:focus{border-color:var(--gold)}
+/* Fleet grid */
+.fleet-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:24px}
+.fleet-card{background:var(--card);border:1px solid var(--glass-border);border-radius:var(--radius);overflow:hidden;transition:var(--transition);cursor:pointer}
+.fleet-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-gold);border-color:var(--gold)}
+.fleet-card.hidden{display:none}
+.fleet-card-img{position:relative;aspect-ratio:16/10;overflow:hidden}
+.fleet-card-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.6s}
+.fleet-card:hover .fleet-card-img img{transform:scale(1.06)}
+.fleet-card-badge{position:absolute;top:14px;left:14px;padding:5px 12px;background:rgba(7,11,20,0.85);border:1px solid var(--glass-border);border-radius:4px;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--gold);backdrop-filter:blur(8px)}
+.fleet-card-body{padding:22px}
+.fleet-card-body h3{font-size:16px;margin-bottom:2px}
+.fleet-card-body .model-en{font-size:11px;color:var(--text-dim);letter-spacing:1px;margin-bottom:12px}
+.fleet-specs-row{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:14px}
+.fleet-spec-val{font-size:16px;color:var(--gold);font-weight:600;font-family:'Playfair Display',serif}
+.fleet-spec-label{font-size:10px;color:var(--text-dim);letter-spacing:0.5px;text-transform:uppercase}
+.fleet-card-footer{display:flex;justify-content:space-between;align-items:center;padding-top:14px;border-top:1px solid var(--glass-border)}
+.fleet-price{font-size:13px;color:var(--gold);font-weight:600}
+.fleet-detail-btn{font-size:11px;color:var(--text-muted);letter-spacing:1px;transition:var(--transition)}
+.fleet-detail-btn:hover{color:var(--gold)}
+/* Detail page styles */
+.yacht-detail-hero{position:relative;padding:160px 0;text-align:center;background:var(--dark1)}
+.yacht-detail-hero h1{font-size:clamp(28px,4vw,48px);margin-bottom:8px}
+.yacht-detail-hero .yacht-tagline{font-size:16px;color:var(--gold);font-style:italic;letter-spacing:0.5px}
+.detail-specs-table{max-width:900px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:1px;background:var(--glass-border);border-radius:var(--radius);overflow:hidden}
+.detail-spec-item{background:var(--dark2);padding:18px 14px;text-align:center}
+.detail-spec-item .spec-val{font-size:18px;color:var(--gold);font-family:'Playfair Display',serif;font-weight:600}
+.detail-spec-item .spec-label{font-size:10px;color:var(--text-dim);letter-spacing:1px;text-transform:uppercase;margin-top:4px}
+.detail-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:40px}
+.detail-gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px;transition:transform 0.4s;cursor:pointer}
+.detail-gallery img:hover{transform:scale(1.03)}
+@media(max-width:768px){.detail-gallery{grid-template-columns:repeat(2,1fr)}}
+#backToTop{display:none;position:fixed;bottom:30px;right:30px;width:44px;height:44px;background:rgba(201,169,110,0.15);border:1px solid var(--gold);border-radius:50%;color:var(--gold);font-size:20px;cursor:pointer;z-index:99;transition:all 0.3s}
+#backToTop:hover{background:var(--gold);color:var(--dark1)}
+#backToTop.visible{display:flex;align-items:center;justify-content:center}
+.no-results{text-align:center;padding:60px 20px;grid-column:1/-1}
+.no-results h3{font-size:20px;color:var(--text-muted);margin-bottom:8px}
+.no-results p{font-size:14px;color:var(--text-dim)}
+</style>
+<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+</head><body>
+<div id="loader"><div class="brand">FANTASTIC VACATION</div></div>
+<nav id="navbar" aria-label="主导航">
+<div class="nav-inner">
+<a class="nav-logo" href="index.html" aria-label="奇幻假期首页">
+<svg fill="none" height="32" viewBox="0 0 32 32" width="32" aria-hidden="true">
+<path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
+<path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
+</svg>
+<span class="nav-logo-text">奇幻假期 <em>FANTASTIC VACATION</em></span>
+</a>
+<div class="nav-links" role="menubar" aria-label="主导航菜单">
+<a href="index.html" class="nav-main-link" role="menuitem">首页</a>
+<div class="nav-dropdown" role="none">
+<a href="yachts.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">全系游艇 <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="全系游艇子菜单">
+<a href="yachts-sovereign.html" role="menuitem">君临系列</a>
+<a href="yachts-expedition.html" role="menuitem">远征系列</a>
+<a href="yachts-flybridge.html" role="menuitem">飞桥系列</a>
+<a href="yachts-daycruiser.html" role="menuitem">日间系列</a>
+</div>
+</div>
+<div class="nav-dropdown" role="none">
+<a href="custom.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">定制服务 <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="定制服务子菜单">
+<a href="custom.html" role="menuitem">全案定制</a>
+<a href="charter.html" role="menuitem">租赁航线</a>
+<a href="management.html" role="menuitem">托管维保</a>
+</div>
+</div>
+<a href="cases.html" class="nav-main-link" role="menuitem">案例展示</a>
+<div class="nav-dropdown" role="none">
+<a href="about.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">关于我们 <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="关于我们子菜单">
+<a href="about.html" role="menuitem">公司简介</a>
+<a href="about-history.html" role="menuitem">发展历程</a>
+<a href="about-culture.html" role="menuitem">企业文化</a>
+<a href="about-structure.html" role="menuitem">组织架构</a>
+<a href="honors.html" role="menuitem">荣誉资质</a>
+<a href="about-responsibility.html" role="menuitem">社会责任</a>
+</div>
+</div>
+<div class="nav-dropdown" role="none">
+<a href="news.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">资讯与合作 <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="资讯与合作子菜单">
+<a href="news.html" role="menuitem">新闻资讯</a>
+<a href="ir.html" role="menuitem">投资者关系</a>
+<a href="partnership.html" role="menuitem">全球合作</a>
+</div>
+</div>
+<div class="nav-cta-group" role="none">
+<a class="nav-cta-btn" href="membership.html" role="menuitem">👑 尊享会员</a>
+<a class="nav-cta-btn nav-cta-primary" href="contact.html" role="menuitem">联系我们</a>
+</div>
+</div>
+<div class="nav-actions" role="none">
+<button class="nav-search-btn" onclick="toggleSearch()" title="搜索" aria-label="搜索">
+<svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>
+</button>
+<a class="lang-switch-btn" href="en/index.html" title="切换到英文版 (Switch to English)" aria-label="切换到英文版">EN</a>
+<button class="nav-dark-toggle" id="darkToggle" onclick="toggleDarkMode()" title="深色模式" aria-label="切换深色模式">
+<svg class="icon-moon" fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg class="icon-sun" fill="none" height="18" stroke="currentColor" stroke-width="2" style="display:none" viewBox="0 0 24 24" width="18" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" x2="12" y1="1" y2="3"></line><line x1="12" x2="12" y1="21" y2="23"></line><line x1="4.22" x2="5.64" y1="4.22" y2="5.64"></line><line x1="18.36" x2="19.78" y1="18.36" y2="19.78"></line><line x1="1" x2="3" y1="12" y2="12"></line><line x1="21" x2="23" y1="12" y2="12"></line><line x1="4.22" x2="5.64" y1="19.78" y2="18.36"></line><line x1="18.36" x2="19.78" y1="5.64" y2="4.22"></line></svg>
+</button>
+<div class="hamburger" onclick="toggleMobile()" aria-label="打开移动端菜单" role="button" tabindex="0" aria-expanded="false">
+<span></span><span></span><span></span>
+</div>
+</div>
+</div>
+</nav>
+<!-- Search Overlay -->
+<div class="search-overlay" id="searchOverlay">
+<div class="search-box">
+<input autocomplete="off" class="search-input" id="searchInput" placeholder="搜索产品、新闻、案例..." type="text"/>
+<button class="search-close" onclick="toggleSearch()">
+<svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="20">
+<line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
+</svg>
+</button>
+</div>
+<div class="search-suggestions">
+<div class="search-suggestion-item">→ 探索全系游艇</div>
+<div class="search-suggestion-item">→ 定制专属游艇</div>
+<div class="search-suggestion-item">→ 浏览全球航线</div>
+<div class="search-suggestion-item">→ 联系专业顾问</div>
+</div>
+</div>
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="移动端导航菜单">
+<button class="mobile-menu-close" onclick="toggleMobile()" aria-label="关闭菜单">
+<svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="24" aria-hidden="true">
+<line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
+</svg>
+</button>
+<div class="mobile-menu-logo">
+<svg fill="none" height="40" viewBox="0 0 32 32" width="40" aria-hidden="true">
+<path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
+<path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
+</svg>
+<span>奇幻假期</span>
+</div>
+<a class="mobile-nav-link" href="index.html">首页</a>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title">全系游艇</div>
+<a class="mobile-nav-link sub" href="yachts-sovereign.html">君临系列</a>
+<a class="mobile-nav-link sub" href="yachts-expedition.html">远征系列</a>
+<a class="mobile-nav-link sub" href="yachts-flybridge.html">飞桥系列</a>
+<a class="mobile-nav-link sub" href="yachts-daycruiser.html">日间系列</a>
+</div>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title">定制服务</div>
+<a class="mobile-nav-link sub" href="custom.html">全案定制</a>
+<a class="mobile-nav-link sub" href="charter.html">租赁航线</a>
+<a class="mobile-nav-link sub" href="management.html">托管维保</a>
+</div>
+<a class="mobile-nav-link" href="cases.html">案例展示</a>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title">关于我们</div>
+<a class="mobile-nav-link sub" href="about.html">公司简介</a>
+<a class="mobile-nav-link sub" href="about-history.html">发展历程</a>
+<a class="mobile-nav-link sub" href="about-culture.html">企业文化</a>
+<a class="mobile-nav-link sub" href="about-structure.html">组织架构</a>
+<a class="mobile-nav-link sub" href="honors.html">荣誉资质</a>
+<a class="mobile-nav-link sub" href="about-responsibility.html">社会责任</a>
+</div>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title">资讯与合作</div>
+<a class="mobile-nav-link sub" href="news.html">新闻资讯</a>
+<a class="mobile-nav-link sub" href="ir.html">投资者关系</a>
+<a class="mobile-nav-link sub" href="partnership.html">全球合作</a>
+</div>
+<a class="mobile-nav-link mobile-primary" href="membership.html">👑 尊享会员</a>
+<a class="mobile-nav-link mobile-cta" href="contact.html">联系我们</a>
+<div class="mobile-menu-footer">
+<a class="mobile-nav-link" href="en/index.html" id="mobileLangSwitch" style="border:1px solid rgba(201,169,110,0.3);border-radius:6px;display:inline-block;padding:12px 24px;color:#c9a96e;font-weight:600;margin-bottom:16px">🌐 English Version</a>
+<span>电话：13797920792 / +86 0755 3353-0188</span>
+<span>邮箱：hs@fantastic-vacation.com</span>
+</div>
+</div>
+<div class="fleet-card-footer">
+<span class="fleet-price">价格面议</span>
+<span class="fleet-detail-btn">查看详情 →</span>
+</div>
+</div>
+</div>
+<div class="fleet-card" data-series="君临" data-len="110" data-use="私人" data-power="混合动力" onclick="location.href='yacht-2.html'">
+<div class="fleet-card-img">
+<img src="images/yttp/yacht-018.jpg" alt="君临110 至尊版" loading="lazy"/>
+<span class="fleet-card-badge">君临系列</span>
+</div>
+<div class="fleet-card-body">
+<h3>君临110 至尊版</h3>
+<div class="model-en">SOVEREIGN 110 SUPREME</div>
+<div class="fleet-specs-row">
+<div><div class="fleet-spec-val">110m</div><div class="fleet-spec-label">总长度</div></div>
+<div><div class="fleet-spec-val">32</div><div class="fleet-spec-label">最大载客</div></div>
+<div><div class="fleet-spec-val">22kn</div><div class="fleet-spec-label">最高航速</div></div>
+</div>
+<div class="fleet-card-footer">
+<span class="fleet-price">价格面议</span>
+<span class="fleet-detail-btn">查看详情 →</span>
+</div>
+</div>
+</div>
+<div class="fleet-card" data-series="君临" data-len="100" data-use="私人" data-power="传统柴油" onclick="location.href='yacht-3.html'">
+<div class="fleet-card-img">
+<img src="images/yttp/yacht-026.jpg" alt="君临100 典藏版" loading="lazy"/>
+<span class="fleet-card-badge">君临系列</span>
+</div>
+<div class="fleet-card-body">
+<h3>君临100 典藏版</h3>
+<div class="model-en">SOVEREIGN 100 COLLECTION</div>
+<div class="fleet-specs-row">
+<div><div class="fleet-spec-val">100m</div><div class="fleet-spec-label">总长度</div></div>
+<div><div class="fleet-spec-val">28</div><div class="fleet-spec-label">最大载客</div></div>
+<div><div class="fleet-spec-val">21kn</div><div class="fleet-spec-label">最高航速</div></div>
+</div>
+<div class="fleet-card-footer">
+<span class="fleet-price">价格面议</span>
+<span class="fleet-detail-btn">查看详情 →</span>
+</div>
+</div>
+</div>
+<div class="fleet-card" data-series="君临" data-len="92" data-use="租赁优先" data-power="混合动力" onclick="location.href='yacht-4.html'">
+<div class="fleet-card-img">
+<img src="images/yttp/yacht-034.jpg" alt="君临92 领航版" loading="lazy"/>
+<span class="fleet-card-badge">君临系列</span>
+</div>
+<div class="fleet-card-body">
+<h3>君临92 领航版</h3>
+<div class="model-en">SOVEREIGN 92 NAVIGATOR</div>
+<div class="fleet-specs-row">
+<div><div class="fleet-spec-val">92m</div><div class="fleet-spec-label">总长度</div></div>
+<div><div class="fleet-spec-val">24</div><div class="fleet-spec-label">最大载客</div></div>
+<div><div class="fleet-spec-val">23kn</div><div class="fleet-spec-label">最高航速</div></div>
+</div>
+<div class="fleet-card-footer">
+<span class="fleet-price">价格面议</span>
+<span class="fleet-detail-btn">查看详情 →</span>
+</div>
+</div>
+</div>
+<div class="fleet-card" data-series="君临" data-len="85" data-use="私人" data-power="传统柴油" onclick="location.href='yacht-5.html'">
+<div class="fleet-card-img">
+<img src="images/yttp/yacht-042.jpg" alt="君临85 王者版" loading="lazy"/>
+<span class="fleet-card-badge">君临系列</span>
+</div>
+<div class="fleet-card-body">
+<h3>君临85 王者版</h3>
+<div class="model-en">SOVEREIGN 85 MAJESTIC</div>
+<div class="fleet-specs-row">
+<div><div class="fleet-spec-val">85m</div><div class="fleet-spec-label">总长度</div></div>
+<div><div class="fleet-spec-val">22</div><div class="fleet-spec-label">最大载客</div></div>
+<div><div class="fleet-spec-val">24kn</div><div class="fleet-spec-label">最高航速</div></div>
+</div>
+<div class="fleet-card-footer">
+<span class="fleet-price">价格面议</span>
+<span class="fleet-detail-btn">查看详情 →</span>
+</div>
+</div>
+</div>
+<div class="fleet-card" data-series="君临" data-len="78" data-use="租赁优先" data-power="传统柴油" onclick="location.href='yacht-6.html'">
+<div class="fleet-card-img">
+<img src="images/yttp/yacht-050.jpg" alt="君临78 御风版" loading="lazy"/>
+<span class="fleet-card-badge">君临系列</span>
+</div>
+<div class="fleet-card-body">
+<h3>君临78 御风版</h3>
+<div class="model-en">SOVEREIGN 78 ELEGANCE</div>
+<div class="fleet-specs-row">
+<div><div class="fleet-spec-val">78m</div><div class="fleet-spec-label">总长度</div></div>
+<div><div class="fleet-spec-val">18</div><div class="fleet-spec-label">最大载客</div></div>
+<div><div class="fleet-spec-val">25kn</div><div class="fleet-spec-label">最高航速</div></div>
+</div>
+<div class="fleet-card-footer">
+<span class="fleet-price">价格面议</span>
+<span class="fleet-detail-btn">查看详情 →</span>
+</div>
+</div>
+</div>
+<div class="fleet-card" data-series="远征" data-len="70" data-use="探险型" data-power="混合动力" onclick="location.href='yacht-7.html'">
+<div class="fleet-card-img">
+<img src="images/yttp/yacht-058.jpg" alt="远征70 探险家" loading="lazy"/>
+<span class="fleet-card-badge">远征系列</span>
+</div>
+<div class="fleet-card-body">
+<h3>远征70 探险家</h3>
+<div class="model-en">EXPEDITION 70 EXPLORER</div>
+<div class="fleet-specs-row">
+<div><div class="fleet-spec-val">70m</div><div class="fleet-spec-label">总长度</div></div>
+<div><div class="fleet-spec-val">20</div><div class="fleet-spec-label">最大载客</div></div>
+<div><div class="fleet-spec-val">18kn</div><div class="fleet-spec-label">最高航速</div></div>
+</div>
+<div class="fleet-card-footer">
+<span class="fleet-price">价格面议</span>
+<span class="fleet-detail-btn">查看详情 →</span>
+</div>
+</div>
+</div>
+<div class="fleet-card" data-series="远征" data-len="60" data-use="探险型" data-power="传统柴油" onclick="location.href='yacht-8.html'">
+<div class="fleet-card-img">
+<img src="images/yttp/yacht-066.jpg" alt="远征60 极境版" loading="lazy"/>
+<span class="fleet-card-badge">远征系列</span>
+</div>
+<div class="fleet-card-body">
+<h3>远征60 极境版</h3>
+<div class="model-en">EXPEDITION 60 ICECLASS</div>
+<div class="fleet-specs-row">
+<div><div class="fleet-spec-val">60m</div><div class="fleet-spec-label">总长度</div></div>
+<div><div class="fleet-spec-val">16</div><div class="fleet-spec-label">最大载客</div></div>
+<div><div class="fleet-spec-val">17kn</div><div class="fleet-spec-label">最高航速</div></div>
+</div>
+<div class="fleet-card-footer">
+<span class="fleet-price">价格面议</span>
+<span class="fleet-detail-btn">查看详情 →</span>
+</div>
+</div>
+</div>
+<div class="fleet-card" data-series="远征" data-len="50" data-use="探险型" data-power="电动" onclick="location.href='yacht-9.html'">
+<div class="fleet-card-img">
+<img src="images/yttp/yacht-074.jpg" alt="远征50 远洋版" loading="lazy"/>
+<span class="fleet-card-badge">远征系列</span>
+</div>
+<div class="fleet-card-body">
+<h3>远征50 远洋版</h3>
+<div class="model-en">EXPEDITION 50 OCEANIC</div>
+<div class="fleet-specs-row">
+<div><div class="fleet-spec-val">50m</div><div class="fleet-spec-label">总长度</div></div>
+<div><div class="fleet-spec-val">14</div><div class="fleet-spec-label">最大载客</div></div>
+<div><div class="fleet-spec-val">18kn</div><div class="fleet-spec-label">最高航速</div></div>
+</div>
+<div class="fleet-card-footer">
+<span class="fleet-price">价格面议</span>
+<span class="fleet-detail-btn">查看详情 →</span>
+</div>
+</div>
+</div>
+<div class="fleet-card" data-series="飞桥" data-len="45" data-use="私人" data-power="混合动力" onclick="location.href='yacht-10.html'">
+<div class="fleet-card-img">
+<img src="images/yttp/yacht-082.jpg" alt="飞桥45 尊享版" loading="lazy"/>
+<span class="fleet-card-badge">飞桥系列</span>
+</div>
+<div class="fleet-card-body">
+<h3>飞桥45 尊享版</h3>
+<div class="model-en">FLYBRIDGE 45 SIGNATURE</div>
+<div class="fleet-specs-row">
+<div><div class="fleet-spec-val">45m</div><div class="fleet-spec-label">总长度</div></div>
+<div><div class="fleet-spec-val">14</div><div class="fleet-spec-label">最大载客</div></div>
+<div><div class="fleet-spec-val">28kn</div><div class="fleet-spec-label">最高航速</div></div>
+</div>
+<div class="fleet-card-footer">
+<span class="fleet-price">¥1,880万起</span>
+<span class="fleet-detail-btn">查看详情 →</span>
+</div>
+</div>
+</div>
+<div class="fleet-card" data-series="飞桥" data-len="38" data-use="私人" data-power="传统柴油" onclick="location.href='yacht-11.html'">
+<div class="fleet-card-img">
+<img src="images/yttp/yacht-090.jpg" alt="飞桥38 经典版" loading="lazy"/>
+<span class="fleet-card-badge">飞桥系列</span>
+</div>
+<div class="fleet-card-body">
+<h3>飞桥38 经典版</h3>
+<div class="model-en">FLYBRIDGE 38 CLASSIC</div>
+<div class="fleet-specs-row">
+<div><div class="fleet-spec-val">38m</div><div class="fleet-spec-label">总长度</div></div>
+<div><div class="fleet-spec-val">12</div><div class="fleet-spec-label">最大载客</div></div>
+<div><div class="fleet-spec-val">26kn</div><div class="fleet-spec-label">最高航速</div></div>
+</div>
+<div class="fleet-card-footer">
+<span class="fleet-price">¥1,280万起</span>
+<span class="fleet-detail-btn">查看详情 →</span>
+</div>
+</div>
+</div>
+<div class="fleet-card" data-series="飞桥" data-len="30" data-use="租赁优先" data-power="传统柴油" onclick="location.href='yacht-12.html'">
+<div class="fleet-card-img">
+<img src="images/yttp/yacht-098.jpg" alt="飞桥30 风尚版" loading="lazy"/>
+<span class="fleet-card-badge">飞桥系列</span>
+</div>
+<div class="fleet-card-body">
+<h3>飞桥30 风尚版</h3>
+<div class="model-en">FLYBRIDGE 30 ELEGANCE</div>
+<div class="fleet-specs-row">
+<div><div class="fleet-spec-val">30m</div><div class="fleet-spec-label">总长度</div></div>
+<div><div class="fleet-spec-val">10</div><div class="fleet-spec-label">最大载客</div></div>
+<div><div class="fleet-spec-val">30kn</div><div class="fleet-spec-label">最高航速</div></div>
+</div>
+<div class="fleet-card-footer">
+<span class="fleet-price">¥880万起</span>
+<span class="fleet-detail-btn">查看详情 →</span>
+</div>
+</div>
+</div>
+<div class="fleet-card" data-series="日间" data-len="18" data-use="私人" data-power="电动" onclick="location.href='yacht-13.html'">
+<div class="fleet-card-img">
+<img src="images/yttp/yacht-106.jpg" alt="日间18 运动版" loading="lazy"/>
+<span class="fleet-card-badge">日间系列</span>
+</div>
+<div class="fleet-card-body">
+<h3>日间18 运动版</h3>
+<div class="model-en">DAY CRUISER 18 SPORT</div>
+<div class="fleet-specs-row">
+<div><div class="fleet-spec-val">18m</div><div class="fleet-spec-label">总长度</div></div>
+<div><div class="fleet-spec-val">12</div><div class="fleet-spec-label">最大载客</div></div>
+<div><div class="fleet-spec-val">38kn</div><div class="fleet-spec-label">最高航速</div></div>
+</div>
+<div class="fleet-card-footer">
+<span class="fleet-price">¥380万起</span>
+<span class="fleet-detail-btn">查看详情 →</span>
+</div>
+</div>
+</div>
+<div class="fleet-card" data-series="日间" data-len="15" data-use="私人" data-power="电动" onclick="location.href='yacht-14.html'">
+<div class="fleet-card-img">
+<img src="images/yttp/yacht-114.jpg" alt="日间15 都市版" loading="lazy"/>
+<span class="fleet-card-badge">日间系列</span>
+</div>
+<div class="fleet-card-body">
+<h3>日间15 都市版</h3>
+<div class="model-en">DAY CRUISER 15 CITY</div>
+<div class="fleet-specs-row">
+<div><div class="fleet-spec-val">15m</div><div class="fleet-spec-label">总长度</div></div>
+<div><div class="fleet-spec-val">8</div><div class="fleet-spec-label">最大载客</div></div>
+<div><div class="fleet-spec-val">35kn</div><div class="fleet-spec-label">最高航速</div></div>
+</div>
+<div class="fleet-card-footer">
+<span class="fleet-price">¥280万起</span>
+<span class="fleet-detail-btn">查看详情 →</span>
+</div>
+</div>
+</div>
+<div class="fleet-card" data-series="日间" data-len="12" data-use="私人" data-power="传统柴油" onclick="location.href='yacht-15.html'">
+<div class="fleet-card-img">
+<img src="images/yttp/yacht-002.jpg" alt="日间12 自由版" loading="lazy"/>
+<span class="fleet-card-badge">日间系列</span>
+</div>
+<div class="fleet-card-body">
+<h3>日间12 自由版</h3>
+<div class="model-en">DAY CRUISER 12 FREEDOM</div>
+<div class="fleet-specs-row">
+<div><div class="fleet-spec-val">12m</div><div class="fleet-spec-label">总长度</div></div>
+<div><div class="fleet-spec-val">6</div><div class="fleet-spec-label">最大载客</div></div>
+<div><div class="fleet-spec-val">32kn</div><div class="fleet-spec-label">最高航速</div></div>
+</div>
+<div class="fleet-card-footer">
+<span class="fleet-price">¥180万起</span>
+<span class="fleet-detail-btn">查看详情 →</span>
+</div>
+</div>
+</div>
+<div class="no-results hidden" id="noResults">
+<h3>未找到匹配游艇</h3>
+<p>请尝试调整筛选条件</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ===== Filter JS ===== -->
+<script>
+(function(){
+  var chips = document.querySelectorAll('.filter-chip');
+  var lenSel = document.getElementById('lengthFilter');
+  var useSel = document.getElementById('useFilter');
+  var powSel = document.getElementById('powerFilter');
+  var cards = document.querySelectorAll('.fleet-card');
+  var noRes = document.getElementById('noResults');
+  var activeSeries = 'all';
+
+  function applyFilters(){
+    var lenVal = lenSel.value;
+    var useVal = useSel.value;
+    var powVal = powSel.value;
+    var visible = 0;
+    cards.forEach(function(c){
+      var s = c.dataset.series;
+      var l = parseInt(c.dataset.len);
+      var u = c.dataset.use;
+      var p = c.dataset.power;
+
+      var match = true;
+      if(activeSeries !== 'all' && s !== activeSeries) match = false;
+      if(lenVal !== 'all'){
+        var range = lenVal.split('-');
+        if(range[1] === '+'){
+          if(l < parseInt(range[0])) match = false;
+        } else {
+          if(l < parseInt(range[0]) || l >= parseInt(range[1])) match = false;
+        }
+      }
+      if(useVal !== 'all' && u !== useVal) match = false;
+      if(powVal !== 'all' && p !== powVal) match = false;
+
+      if(match){ c.classList.remove('hidden'); visible++; }
+      else{ c.classList.add('hidden'); }
+    });
+    if(visible === 0){ noRes.classList.remove('hidden'); }
+    else{ noRes.classList.add('hidden'); }
+  }
+
+  chips.forEach(function(chip){
+    chip.addEventListener('click', function(){
+      chips.forEach(function(c){ c.classList.remove('active'); });
+      chip.classList.add('active');
+      activeSeries = chip.dataset.filter;
+      applyFilters();
+    });
+  });
+
+  lenSel.addEventListener('change', applyFilters);
+  useSel.addEventListener('change', applyFilters);
+  powSel.addEventListener('change', applyFilters);
+
+  // Back to top
+  var btn = document.getElementById('backToTop');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 400){ btn.classList.add('visible'); }
+    else{ btn.classList.remove('visible'); }
+  });
+  btn.addEventListener('click', function(){ window.scrollTo({top:0,behavior:'smooth'}); });
+})();
+</script>
+
+<!-- ===== FINAL CTA ===== -->
+<section style="padding:100px 0;text-align:center;background:var(--dark2);border-top:1px solid var(--glass-border)">
+<div class="container reveal" style="max-width:700px">
+<h2 style="font-family:'Playfair Display',serif;font-size:clamp(24px,3vw,38px);margin-bottom:20px">寻找您的<span class="gold-gradient">梦想之船</span></h2>
+<p style="color:var(--text-muted);font-size:15px;margin-bottom:36px">不确定哪一艘最适合您？我们的专业顾问将在24小时内为您匹配最优方案</p>
+<div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap">
+<a class="btn btn-primary btn-gold-sweep" href="contact.html">预约专属顾问</a>
+<a class="btn btn-outline" href="custom.html">了解全案定制</a>
+</div>
+</div>
+</section>
+
+<footer style="background:var(--dark1);padding:60px 0 30px;text-align:center;border-top:1px solid var(--glass-border)">
+<div class="container" style="max-width:1200px">
+<p style="color:var(--text-dim);font-size:12px;margin-bottom:8px">奇幻假期实业有限公司 © 2010-2026 FANTASTIC VACATION</p>
+<p style="color:var(--text-dim);font-size:12px">粤ICP备XXXXXXXX号 | <a href="terms.html" style="color:var(--gold)">服务条款</a> | <a href="privacy.html" style="color:var(--gold)">隐私政策</a></p>
+</div></footer>
+<button id="backToTop">↑</button>
+<script src="i18n.js"></script>
+<script src="main.js"></script>
+</body></html>

@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<title>奇幻假期 FANTASTIC VACATION | 全球高端游艇定制与私人海享生活缔造者</title>
+<meta content="奇幻假期实业有限公司 - 全球一体化高端游艇定制、租赁、托管服务。15年行业深耕，200+高净值客户信赖之选。" name="description"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+<style>
+#loader{position:fixed;inset:0;background:#080e1a;display:flex;align-items:center;justify-content:center;z-index:9999;transition:opacity 0.6s,visibility 0.6s}
+#loader.hidden{opacity:0;visibility:hidden}
+#loader .brand{font-family:'Playfair Display',serif;font-size:clamp(24px,4vw,42px);color:#c9a96e;margin-bottom:40px;animation:fadeUp 1s 0.3s forwards;opacity:0}
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+/* Hero slideshow */
+.hero-slideshow{position:absolute;inset:0}
+.hero-slide{position:absolute;inset:0;background-size:cover;background-position:center;background-repeat:no-repeat;opacity:0;animation:heroCrossfade 16s ease-in-out infinite}
+.hero-slide:first-child{animation-delay:0s}
+.hero-slide:nth-child(2){animation-delay:8s}
+@keyframes heroCrossfade{0%,40%{opacity:1;transform:scale(1)}50%,90%{opacity:0;transform:scale(1.05)}100%{opacity:1;transform:scale(1)}}
+.hero-slideshow::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 80%,rgba(15,30,60,0.6) 0%,var(--dark1) 70%);z-index:1}
+.hero-slideshow::before{content:'';position:absolute;bottom:0;left:0;right:0;height:40%;background:linear-gradient(0deg,rgba(7,11,20,0.9) 0%,transparent 100%);z-index:2}
+/* Role Cards */
+.role-cards{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;max-width:1200px;margin:0 auto;padding:0 24px;position:relative;z-index:3}
+@media(max-width:900px){.role-cards{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:550px){.role-cards{grid-template-columns:1fr}}
+.role-card{background:rgba(12,18,32,0.85);border:1px solid rgba(201,169,110,0.2);border-radius:12px;padding:28px 20px;text-align:center;cursor:pointer;transition:all 0.4s;backdrop-filter:blur(10px)}
+.role-card:hover{transform:translateY(-6px);border-color:rgba(201,169,110,0.5);box-shadow:0 20px 50px rgba(0,0,0,0.4)}
+.role-card-icon{font-size:40px;margin-bottom:12px}
+.role-card h3{font-size:16px;color:#c9a96e;margin-bottom:8px;font-family:'Inter',sans-serif;font-weight:600}
+.role-card p{font-size:13px;color:#9ca3af;line-height:1.6}
+.role-card-links{margin-top:14px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.role-card-links a{font-size:11px;padding:6px 14px;border:1px solid rgba(201,169,110,0.3);border-radius:50px;color:#e8d5a8;transition:all 0.3s}
+.role-card-links a:hover{background:rgba(201,169,110,0.15);border-color:#c9a96e}
+/* Exp selector */
+.exp-selector{display:flex;gap:12px;justify-content:center;margin-top:24px;flex-wrap:wrap}
+.exp-btn{padding:12px 28px;border:1px solid rgba(201,169,110,0.3);border-radius:50px;color:#e8d5a8;font-size:14px;cursor:pointer;transition:all 0.3s;background:rgba(201,169,110,0.05)}
+.exp-btn:hover,.exp-btn.active{background:rgba(201,169,110,0.2);border-color:#c9a96e}
+/* Flow steps */
+.flow-steps{display:flex;justify-content:center;gap:0;flex-wrap:wrap;margin-top:24px;position:relative}
+.flow-step{flex:0 0 auto;text-align:center;padding:16px 12px;position:relative;min-width:100px}
+.flow-step-num{width:36px;height:36px;border:2px solid #c9a96e;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 8px;color:#c9a96e;font-size:14px;font-weight:700}
+.flow-step h5{font-size:12px;color:#e2e8f0;margin-bottom:4px}
+.flow-step p{font-size:10px;color:#9ca3af;line-height:1.4}
+.flow-arrow{position:absolute;top:18px;right:-8px;color:#c9a96e;font-size:16px}
+@media(max-width:768px){.flow-arrow{display:none}.flow-steps{gap:8px}}
+/* Service pyramid */
+.service-pyramid{display:flex;flex-direction:column;align-items:center;gap:8px;margin-top:16px}
+.pyramid-level{padding:10px 24px;background:rgba(201,169,110,0.08);border:1px solid rgba(201,169,110,0.15);border-radius:6px;text-align:center;font-size:13px;color:#e2e8f0;max-width:400px}
+.pyramid-level:nth-child(1){width:60%}
+.pyramid-level:nth-child(2){width:72%}
+.pyramid-level:nth-child(3){width:84%}
+.pyramid-level:nth-child(4){width:92%}
+.pyramid-level:nth-child(5){width:100%;background:rgba(201,169,110,0.15);border-color:rgba(201,169,110,0.3)}
+.pyramid-level strong{color:#c9a96e}
+/* Colored management cards */
+.mgmt-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px}
+.mgmt-card{padding:28px 18px;border-radius:12px;text-align:center;transition:all 0.3s;border:1px solid transparent}
+.mgmt-card:hover{transform:translateY(-4px)}
+.mgmt-card:nth-child(1){background:rgba(59,130,246,0.1);border-color:rgba(59,130,246,0.25)}
+.mgmt-card:nth-child(2){background:rgba(16,185,129,0.1);border-color:rgba(16,185,129,0.25)}
+.mgmt-card:nth-child(3){background:rgba(245,158,11,0.1);border-color:rgba(245,158,11,0.25)}
+.mgmt-card:nth-child(4){background:rgba(139,92,246,0.1);border-color:rgba(139,92,246,0.25)}
+.mgmt-card:nth-child(5){background:rgba(239,68,68,0.1);border-color:rgba(239,68,68,0.25)}
+.mgmt-card-icon{font-size:32px;margin-bottom:12px}
+.mgmt-card h4{font-size:15px;color:#e2e8f0;margin-bottom:8px}
+.mgmt-card p{font-size:12px;color:#9ca3af;line-height:1.6}
+.mgmt-card a{font-size:11px;color:#c9a96e;margin-top:10px;display:inline-block}
+/* City inline list */
+.city-list{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:12px}
+.city-chip{padding:6px 14px;background:rgba(201,169,110,0.08);border:1px solid rgba(201,169,110,0.2);border-radius:50px;font-size:12px;color:#e8d5a8;display:flex;align-items:center;gap:6px}
+/* Logo placeholder grid */
+.studio-logos{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;margin-top:16px}
+.studio-logo{padding:8px 18px;background:rgba(201,169,110,0.06);border:1px solid rgba(201,169,110,0.12);border-radius:8px;font-size:12px;color:#9ca3af;text-align:center;min-width:100px}
+</style>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg"/></head><body>
+<div id="loader"><div class="brand">FANTASTIC VACATION</div></div>
+<div class="cursor-follower" id="cursor"></div>
+<nav id="navbar" aria-label="主导航">
+<div class="nav-inner">
+<a class="nav-logo" href="index.html" aria-label="奇幻假期首页">
+<svg fill="none" height="32" viewBox="0 0 32 32" width="32" aria-hidden="true">
+<path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
+<path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
+</svg>
+<span class="nav-logo-text">奇幻假期 <em>FANTASTIC VACATION</em></span>
+</a>
+<div class="nav-links" role="menubar" aria-label="主导航菜单">
+<a href="index.html" class="nav-main-link" role="menuitem">首页</a>
+<div class="nav-dropdown" role="none">
+<a href="yachts.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">全系游艇 <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="全系游艇子菜单">
+<a href="yachts-sovereign.html" role="menuitem">君临系列</a>
+<a href="yachts-expedition.html" role="menuitem">远征系列</a>
+<a href="yachts-flybridge.html" role="menuitem">飞桥系列</a>
+<a href="yachts-daycruiser.html" role="menuitem">日间系列</a>
+</div>
+</div>
+<div class="nav-dropdown" role="none">
+<a href="custom.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">定制服务 <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="定制服务子菜单">
+<a href="custom.html" role="menuitem">全案定制</a>
+<a href="charter.html" role="menuitem">租赁航线</a>
+<a href="management.html" role="menuitem">托管维保</a>
+</div>
+</div>
+<a href="cases.html" class="nav-main-link" role="menuitem">案例展示</a>
+<div class="nav-dropdown" role="none">
+<a href="about.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">关于我们 <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="关于我们子菜单">
+<a href="about.html" role="menuitem">公司简介</a>
+<a href="about-history.html" role="menuitem">发展历程</a>
+<a href="about-culture.html" role="menuitem">企业文化</a>
+<a href="about-structure.html" role="menuitem">组织架构</a>
+<a href="honors.html" role="menuitem">荣誉资质</a>
+<a href="about-responsibility.html" role="menuitem">社会责任</a>
+</div>
+</div>
+<div class="nav-dropdown" role="none">
+<a href="news.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">资讯与合作 <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="资讯与合作子菜单">
+<a href="news.html" role="menuitem">新闻资讯</a>
+<a href="ir.html" role="menuitem">投资者关系</a>
+<a href="partnership.html" role="menuitem">全球合作</a>
+</div>
+</div>
+<div class="nav-cta-group" role="none">
+<a class="nav-cta-btn" href="membership.html" role="menuitem">👑 尊享会员</a>
+<a class="nav-cta-btn nav-cta-primary" href="contact.html" role="menuitem">联系我们</a>
+</div>
+</div>
+<div class="nav-actions" role="none">
+<button class="nav-search-btn" onclick="toggleSearch()" title="搜索" aria-label="搜索">
+<svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>
+</button>
+<a class="lang-switch-btn" href="en/index.html" title="切换到英文版 (Switch to English)" aria-label="切换到英文版">EN</a>
+<button class="nav-dark-toggle" id="darkToggle" onclick="toggleDarkMode()" title="深色模式" aria-label="切换深色模式">
+<svg class="icon-moon" fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg class="icon-sun" fill="none" height="18" stroke="currentColor" stroke-width="2" style="display:none" viewBox="0 0 24 24" width="18" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" x2="12" y1="1" y2="3"></line><line x1="12" x2="12" y1="21" y2="23"></line><line x1="4.22" x2="5.64" y1="4.22" y2="5.64"></line><line x1="18.36" x2="19.78" y1="18.36" y2="19.78"></line><line x1="1" x2="3" y1="12" y2="12"></line><line x1="21" x2="23" y1="12" y2="12"></line><line x1="4.22" x2="5.64" y1="19.78" y2="18.36"></line><line x1="18.36" x2="19.78" y1="5.64" y2="4.22"></line></svg>
+</button>
+<div class="hamburger" onclick="toggleMobile()" aria-label="打开移动端菜单" role="button" tabindex="0" aria-expanded="false">
+<span></span><span></span><span></span>
+</div>
+</div>
+</div>
+</nav>
+<!-- Search Overlay -->
+<div class="search-overlay" id="searchOverlay">
+<div class="search-box">
+<input autocomplete="off" class="search-input" id="searchInput" placeholder="搜索产品、新闻、案例..." type="text"/>
+<button class="search-close" onclick="toggleSearch()">
+<svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="20">
+<line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
+</svg>
+</button>
+</div>
+<div class="search-suggestions">
+<div class="search-suggestion-item">→ 探索全系游艇</div>
+<div class="search-suggestion-item">→ 定制专属游艇</div>
+<div class="search-suggestion-item">→ 浏览全球航线</div>
+<div class="search-suggestion-item">→ 联系专业顾问</div>
+</div>
+</div>
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="移动端导航菜单">
+<button class="mobile-menu-close" onclick="toggleMobile()" aria-label="关闭菜单">
+<svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="24" aria-hidden="true">
+<line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
+</svg>
+</button>
+<div class="mobile-menu-logo">
+<svg fill="none" height="40" viewBox="0 0 32 32" width="40" aria-hidden="true">
+<path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
+<path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
+</svg>
+<span>奇幻假期</span>
+</div>
+<a class="mobile-nav-link" href="index.html">首页</a>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title">全系游艇</div>
+<a class="mobile-nav-link sub" href="yachts-sovereign.html">君临系列</a>
+<a class="mobile-nav-link sub" href="yachts-expedition.html">远征系列</a>
+<a class="mobile-nav-link sub" href="yachts-flybridge.html">飞桥系列</a>
+<a class="mobile-nav-link sub" href="yachts-daycruiser.html">日间系列</a>
+</div>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title">定制服务</div>
+<a class="mobile-nav-link sub" href="custom.html">全案定制</a>
+<a class="mobile-nav-link sub" href="charter.html">租赁航线</a>
+<a class="mobile-nav-link sub" href="management.html">托管维保</a>
+</div>
+<a class="mobile-nav-link" href="cases.html">案例展示</a>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title">关于我们</div>
+<a class="mobile-nav-link sub" href="about.html">公司简介</a>
+<a class="mobile-nav-link sub" href="about-history.html">发展历程</a>
+<a class="mobile-nav-link sub" href="about-culture.html">企业文化</a>
+<a class="mobile-nav-link sub" href="about-structure.html">组织架构</a>
+<a class="mobile-nav-link sub" href="honors.html">荣誉资质</a>
+<a class="mobile-nav-link sub" href="about-responsibility.html">社会责任</a>
+</div>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title">资讯与合作</div>
+<a class="mobile-nav-link sub" href="news.html">新闻资讯</a>
+<a class="mobile-nav-link sub" href="ir.html">投资者关系</a>
+<a class="mobile-nav-link sub" href="partnership.html">全球合作</a>
+</div>
+<a class="mobile-nav-link mobile-primary" href="membership.html">👑 尊享会员</a>
+<a class="mobile-nav-link mobile-cta" href="contact.html">联系我们</a>
+<div class="mobile-menu-footer">
+<a class="mobile-nav-link" href="en/index.html" id="mobileLangSwitch" style="border:1px solid rgba(201,169,110,0.3);border-radius:6px;display:inline-block;padding:12px 24px;color:#c9a96e;font-weight:600;margin-bottom:16px">🌐 English Version</a>
+<span>电话：13797920792 / +86 0755 3353-0188</span>
+<span>邮箱：hs@fantastic-vacation.com</span>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ===== HERO ===== -->
+<section id="hero">
+<div class="hero-bg hero-slideshow">
+  <div class="hero-slide" style="background-image:url('images/yttp/hero-bg-1.png')"></div>
+  <div class="hero-slide" style="background-image:url('images/yttp/hero-bg-2.png');animation-delay:8s"></div>
+</div>
+<div class="hero-content">
+<div class="hero-badge">✦ EST. 2010 · GLOBAL LUXURY MARINE ✦</div>
+<h1 class="hero-title"><span class="gold-gradient">驾驭蔚蓝之巅<span class="line">定义海洋奢华</span></span></h1>
+<p class="hero-subtitle" style="max-width:600px;margin:0 auto">全球一体化高端游艇定制与私人海享生活缔造者<br/><span style="color:var(--text-dim);font-size:15px">从概念设计到远洋交付，重新定义每一寸海洋体验</span></p>
+<div class="hero-actions">
+<a class="btn btn-primary btn-gold-sweep" href="yachts.html">探索全系游艇</a>
+<a class="btn btn-outline" href="contact.html">预约专属顾问</a>
+</div>
+<div class="exp-selector">
+<span style="color:var(--text-muted);font-size:13px;margin-right:8px">是否有游艇经验？</span>
+<a class="exp-btn" href="custom.html">我是第一次考虑游艇</a>
+<a class="exp-btn" href="management.html">我已经有游艇</a>
+</div>
+</div>
+<div class="scroll-indicator"><span>SCROLL</span><div class="scroll-line"></div></div>
+</section>
+
+<!-- ===== STATS BAR ===== -->
+<section id="stats-bar">
+<div class="stats-grid">
+<div class="stat-item reveal"><div class="stat-number">15<span>+</span></div><div class="stat-label">年行业深耕</div><a href="about.html" style="color:var(--gold);font-size:11px;margin-top:6px;display:inline-block">了解更多 →</a></div>
+<div class="stat-item reveal"><div class="stat-number">200<span>+</span></div><div class="stat-label">全球高净值客户</div><a href="cases.html" style="color:var(--gold);font-size:11px;margin-top:6px;display:inline-block">了解更多 →</a></div>
+<div class="stat-item reveal"><div class="stat-number">50<span>+</span></div><div class="stat-label">运营豪华游艇</div><a href="yachts.html" style="color:var(--gold);font-size:11px;margin-top:6px;display:inline-block">了解更多 →</a></div>
+<div class="stat-item reveal"><div class="stat-number">30<span>+</span></div><div class="stat-label">覆盖国际海域</div><a href="charter.html" style="color:var(--gold);font-size:11px;margin-top:6px;display:inline-block">了解更多 →</a></div>
+</div>
+</section>
+
+<!-- ===== WHY CHOOSE ===== -->
+<section class="section-padding" style="background:var(--dark2)">
+<div class="container">
+<div class="section-header reveal">
+<h2><span class="gold-gradient">为何选择奇幻假期</span></h2>
+<div class="divider-gold"></div>
+<p>我们不只是游艇服务商，更是您海洋生活方式的全方位策展人</p>
+</div>
+<div class="services-grid">
+<div class="service-card reveal">
+<div class="service-icon">⚓</div>
+<h3>全产业链整合</h3>
+<p>从概念设计到交付、托管维保，我们提供游艇全生命周期一站式解决方案。</p>
+<div class="flow-steps">
+<div class="flow-step"><div class="flow-step-num">1</div><h5>概念设计</h5></div>
+<div class="flow-step"><div class="flow-arrow">→</div><div class="flow-step-num">2</div><h5>船厂制造</h5></div>
+<div class="flow-step"><div class="flow-arrow">→</div><div class="flow-step-num">3</div><h5>交付验收</h5></div>
+<div class="flow-step"><div class="flow-arrow">→</div><div class="flow-step-num">4</div><h5>托管维保</h5></div>
+</div>
+<a class="service-link" href="about.html">了解更多 →</a>
+</div>
+<div class="service-card reveal">
+<div class="service-icon">🎨</div>
+<h3>顶级设计能力</h3>
+<p>携手全球顶尖船舶设计事务所，将艺术美学与工程性能完美融合。</p>
+<div class="studio-logos">
+<div class="studio-logo">🇮🇹 意大利团队</div>
+<div class="studio-logo">🇳🇱 荷兰设计室</div>
+<div class="studio-logo">🇩🇪 德国工程</div>
+<div class="studio-logo">🇯🇵 日本工艺</div>
+</div>
+<a class="service-link" href="custom.html">探索定制 →</a>
+</div>
+<div class="service-card reveal">
+<div class="service-icon">🌍</div>
+<h3>全球网络覆盖</h3>
+<p>在地中海、加勒比海、东南亚、中东、北欧等全球30+海域设有服务基地。</p>
+<div class="city-list">
+<div class="city-chip">🏛️ 摩纳哥</div><div class="city-chip">🏝️ 圣巴特</div>
+<div class="city-chip">⛵ 普吉岛</div><div class="city-chip">🕌 迪拜</div>
+<div class="city-chip">🏔️ 奥斯陆</div><div class="city-chip">🌸 东京</div>
+</div>
+<a class="service-link" href="charter.html">查看航线 →</a>
+</div>
+<div class="service-card reveal">
+<div class="service-icon">🛡️</div>
+<h3>管家式服务体系</h3>
+<p>每位客户配备专属Yacht Manager，7×24小时响应。</p>
+<div class="service-pyramid">
+<div class="pyramid-level"><strong>基础运营</strong> — 船员管理 · 日程调度 · 财务核算</div>
+<div class="pyramid-level"><strong>保养维修</strong> — 发动机保养 · 防污漆更新 · 设备检测</div>
+<div class="pyramid-level"><strong>合规年检</strong> — 船级社检验 · 法定证书更新</div>
+<div class="pyramid-level"><strong>保险理赔</strong> — H&M安排 · P&I对接 · 事故处理</div>
+<div class="pyramid-level"><strong>⚡ 24h应急响应</strong> — 全球团队随时待命</div>
+</div>
+<a class="service-link" href="management.html">了解托管 →</a>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ===== THREE CORE SERIES ===== -->
+<section class="section-padding">
+<div class="container">
+<div class="section-header reveal">
+<h2><span class="gold-gradient">三大核心系列</span></h2>
+<div class="divider-gold"></div>
+<p>覆盖从精致日间巡航到百米超级游艇的全谱系产品矩阵</p>
+</div>
+<div class="yachts-grid">
+<div class="yacht-card reveal">
+<div class="yacht-card-img"><img alt="君临系列" src="images/yttp/yacht-010.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge">旗舰系列</span></div>
+<div class="yacht-card-body">
+<h3>Fantasy Sovereign <span class="gold-text">君临系列</span></h3>
+<p class="yacht-en">60m - 120m Superyacht</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">60-120m</div><div class="yacht-spec-label">总长度</div></div><div class="yacht-spec"><div class="yacht-spec-val">12-36</div><div class="yacht-spec-label">最大载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">无限航区</div><div class="yacht-spec-label">航行等级</div></div></div>
+<p style="font-size:12px;color:#c9a96e;margin-top:10px">适合人群：国际顶级家族 / 王室级别客户</p>
+<div class="yacht-card-footer"><span class="yacht-price">咨询报价</span><a class="yacht-detail-btn" href="yachts.html">查看全系 →</a></div>
+</div>
+</div>
+<div class="yacht-card reveal">
+<div class="yacht-card-img"><img alt="远征系列" src="images/yttp/yacht-018.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge">远征系列</span></div>
+<div class="yacht-card-body">
+<h3>Fantasy Expedition <span class="gold-text">远征系列</span></h3>
+<p class="yacht-en">40m - 70m Explorer Yacht</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">40-70m</div><div class="yacht-spec-label">总长度</div></div><div class="yacht-spec"><div class="yacht-spec-val">10-20</div><div class="yacht-spec-label">最大载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">极地/冰级</div><div class="yacht-spec-label">特殊认证</div></div></div>
+<p style="font-size:12px;color:#c9a96e;margin-top:10px">适合人群：探险型远洋客户（南极、极地等）</p>
+<div class="yacht-card-footer"><span class="yacht-price">咨询报价</span><a class="yacht-detail-btn" href="yachts.html">查看全系 →</a></div>
+</div>
+</div>
+<div class="yacht-card reveal">
+<div class="yacht-card-img"><img alt="飞桥系列" src="images/yttp/yacht-026.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge">飞桥系列</span></div>
+<div class="yacht-card-body">
+<h3>Fantasy Flybridge <span class="gold-text">飞桥系列</span></h3>
+<p class="yacht-en">18m - 45m Motor Yacht</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">18-45m</div><div class="yacht-spec-label">总长度</div></div><div class="yacht-spec"><div class="yacht-spec-val">8-14</div><div class="yacht-spec-label">最大载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">28kn+</div><div class="yacht-spec-label">最高航速</div></div></div>
+<p style="font-size:12px;color:#c9a96e;margin-top:10px">适合人群：地中海沿海度假、家族聚会</p>
+<div class="yacht-card-footer"><span class="yacht-price">¥880万起</span><a class="yacht-detail-btn" href="yachts.html">查看全系 →</a></div>
+</div>
+</div>
+<div class="yacht-card reveal yacht-card-hidden" id="seriesHidden">
+<div class="yacht-card-img"><img alt="日间系列" src="images/yttp/yacht-034.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/><span class="yacht-card-badge">日间系列</span></div>
+<div class="yacht-card-body">
+<h3>Fantasy Day Cruiser <span class="gold-text">日间系列</span></h3>
+<p class="yacht-en">10m - 18m Day Cruiser</p>
+<div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">10-18m</div><div class="yacht-spec-label">总长度</div></div><div class="yacht-spec"><div class="yacht-spec-val">6-12</div><div class="yacht-spec-label">最大载客</div></div><div class="yacht-spec"><div class="yacht-spec-val">35kn+</div><div class="yacht-spec-label">最高航速</div></div></div>
+<p style="font-size:12px;color:#c9a96e;margin-top:10px">适合人群：年轻人日间巡航、入门级奢华方案</p>
+<div class="yacht-card-footer"><span class="yacht-price">¥280万起</span><a class="yacht-detail-btn" href="yachts.html">查看全系 →</a></div>
+</div>
+</div>
+</div>
+<div class="series-toggle-wrap reveal">
+<button class="series-toggle-btn" id="seriesToggleBtn" onclick="toggleSeries()">
+<span>查看更多系列</span>
+<span class="toggle-arrow">▼</span>
+</button>
+</div>
+<div class="reveal" style="text-align:center;margin-top:24px"><a class="btn btn-outline" href="yachts.html">浏览全部50艘游艇 →</a></div>
+</div>
+</section>
+
+<!-- ===== CUSTOM DESIGN ===== -->
+<section class="section-padding" style="background:var(--dark2)">
+<div class="container">
+<div class="section-header reveal">
+<h2><span class="gold-gradient">游艇定制设计</span></h2>
+<div class="divider-gold"></div>
+<p>"我们不制造游艇，我们编织海洋梦想"</p>
+</div>
+<div class="services-grid" style="grid-template-columns:repeat(auto-fit,minmax(240px,1fr))">
+<div class="service-card reveal"><div class="service-icon">🎨</div><h3>外观设计</h3><p>联合全球顶级船舶设计工作室，打造独一无二的视觉语言。与意大利、荷兰等设计名所深度协同。</p><a class="service-link" href="custom.html">了解更多 →</a></div>
+<div class="service-card reveal"><div class="service-icon">🛋️</div><h3>内饰配置</h3><p>精选意大利皮革、法国橡木、西班牙大理石等顶级材料，呈现移动的海上宫殿。</p><a class="service-link" href="custom.html">了解更多 →</a></div>
+<div class="service-card reveal"><div class="service-icon">⚙️</div><h3>功能系统</h3><p>稳定系统、减摇鳍、零速鳍、岸电系统全面定制，确保航行舒适度。</p><a class="service-link" href="custom.html">了解更多 →</a></div>
+<div class="service-card reveal"><div class="service-icon">🤖</div><h3>智能科技</h3><p>全船智能中控、卫星通信、水下灯光、影院系统，智慧融于无形。</p><a class="service-link" href="custom.html">了解更多 →</a></div>
+</div>
+<!-- Custom Process Flow -->
+<div class="reveal" style="margin-top:48px">
+<h4 style="text-align:center;color:#c9a96e;margin-bottom:24px;font-size:18px">定制流程</h4>
+<div class="flow-steps" style="flex-wrap:wrap;justify-content:center">
+<div class="flow-step"><div class="flow-step-num">1</div><h5>需求访谈</h5><p>深入了解愿景<br/>与生活方式</p></div>
+<div class="flow-step"><div class="flow-arrow" style="display:inline-block;position:static;vertical-align:top;margin-top:10px">→</div><div class="flow-step-num">2</div><h5>概念设计</h5><p>效果图与方案<br/>概念呈现</p></div>
+<div class="flow-step"><div class="flow-arrow" style="display:inline-block;position:static;vertical-align:top;margin-top:10px">→</div><div class="flow-step-num">3</div><h5>工程深化</h5><p>船厂选择与<br/>技术深化</p></div>
+<div class="flow-step"><div class="flow-arrow" style="display:inline-block;position:static;vertical-align:top;margin-top:10px">→</div><div class="flow-step-num">4</div><h5>船厂监造</h5><p>全程驻厂<br/>品质把关</p></div>
+<div class="flow-step"><div class="flow-arrow" style="display:inline-block;position:static;vertical-align:top;margin-top:10px">→</div><div class="flow-step-num">5</div><h5>交付培训</h5><p>海上试航<br/>团队培训</p></div>
+<div class="flow-step"><div class="flow-arrow" style="display:inline-block;position:static;vertical-align:top;margin-top:10px">→</div><div class="flow-step-num">6</div><h5>后期服务</h5><p>终身维保<br/>持续升级</p></div>
+</div>
+</div>
+<div class="reveal" style="text-align:center;margin-top:40px"><a class="btn btn-primary btn-gold-sweep" href="custom.html">开启定制之旅</a></div>
+</div>
+</section>
+
+<!-- ===== CHARTER ROUTES ===== -->
+<section class="section-padding">
+<div class="container">
+<div class="section-header reveal">
+<h2><span class="gold-gradient">精选全球航线</span></h2>
+<div class="divider-gold"></div>
+<p>从地中海蔚蓝海岸到加勒比珍珠群岛，为您呈现最令人心动的海上旅程</p>
+</div>
+<div class="charter-grid">
+<div class="charter-card reveal">
+<div class="charter-card-img"><img alt="地中海" src="images/yttp/yacht-042.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/></div>
+<div class="charter-card-body">
+<div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px">
+<span style="padding:4px 12px;background:rgba(201,169,110,0.1);border:1px solid var(--glass-border);border-radius:50px;font-size:10px;color:var(--gold);letter-spacing:1px">地中海</span>
+<span style="padding:4px 12px;background:rgba(201,169,110,0.1);border:1px solid var(--glass-border);border-radius:50px;font-size:10px;color:var(--gold);letter-spacing:1px">7-14天</span>
+</div>
+<h3>蔚蓝海岸 · 地中海经典环线</h3>
+<p style="font-size:13px;color:#9ca3af">摩纳哥→尼斯→戛纳→热那亚→阿马尔菲海岸</p>
+<p style="font-size:12px;color:#6b7280;margin-top:8px">适航季节：5月-10月</p>
+<div class="charter-price"><span class="price">€85,000起/周</span><span class="unit">含船长与船员 · 全套服务</span></div>
+</div>
+</div>
+<div class="charter-card reveal">
+<div class="charter-card-img"><img alt="加勒比" src="images/yttp/yacht-050.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/></div>
+<div class="charter-card-body">
+<div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px">
+<span style="padding:4px 12px;background:rgba(201,169,110,0.1);border:1px solid var(--glass-border);border-radius:50px;font-size:10px;color:var(--gold);letter-spacing:1px">加勒比海</span>
+<span style="padding:4px 12px;background:rgba(201,169,110,0.1);border:1px solid var(--glass-border);border-radius:50px;font-size:10px;color:var(--gold);letter-spacing:1px">10-21天</span>
+</div>
+<h3>珍珠群岛 · 加勒比海奢享之旅</h3>
+<p style="font-size:13px;color:#9ca3af">巴哈马→特克斯凯科斯→英属维尔京群岛</p>
+<p style="font-size:12px;color:#6b7280;margin-top:8px">适航季节：11月-4月</p>
+<div class="charter-price"><span class="price">$95,000起/周</span><span class="unit">含船长与船员 · 全套服务</span></div>
+</div>
+</div>
+<div class="charter-card reveal">
+<div class="charter-card-img"><img alt="东南亚" src="images/yttp/yacht-058.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/></div>
+<div class="charter-card-body">
+<div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px">
+<span style="padding:4px 12px;background:rgba(201,169,110,0.1);border:1px solid var(--glass-border);border-radius:50px;font-size:10px;color:var(--gold);letter-spacing:1px">东南亚</span>
+<span style="padding:4px 12px;background:rgba(201,169,110,0.1);border:1px solid var(--glass-border);border-radius:50px;font-size:10px;color:var(--gold);letter-spacing:1px">5-14天</span>
+</div>
+<h3>翡翠海域 · 安达曼海秘境巡游</h3>
+<p style="font-size:13px;color:#9ca3af">普吉岛→皮皮岛→缅甸丹老群岛</p>
+<p style="font-size:12px;color:#6b7280;margin-top:8px">适航季节：11月-4月</p>
+<div class="charter-price"><span class="price">¥380,000起/周</span><span class="unit">含船长与船员 · 全套服务</span></div>
+</div>
+</div>
+</div>
+<div style="text-align:center;margin-top:48px;display:flex;gap:16px;justify-content:center;flex-wrap:wrap">
+<a class="btn btn-outline" href="charter.html">查看所有航线 →</a>
+<a class="btn btn-outline" href="contact.html" style="border-color:rgba(201,169,110,0.4)">定制专属航线 →</a>
+</div>
+</div>
+</section>
+
+<!-- ===== 360° MANAGEMENT ===== -->
+<section class="section-padding" style="background:var(--dark2)">
+<div class="container">
+<div class="section-header reveal">
+<h2><span class="gold-gradient">360° 托管维保体系</span></h2>
+<div class="divider-gold"></div>
+<p>专业的游艇资产管理服务，让您的海上资产始终处于最佳状态</p>
+</div>
+<div class="mgmt-cards reveal">
+<div class="mgmt-card"><div class="mgmt-card-icon">📋</div><h4>日常运营</h4><p>船员管理、日程调度、财务核算</p><a href="management.html">了解更多 →</a></div>
+<div class="mgmt-card"><div class="mgmt-card-icon">🔧</div><h4>定期保养</h4><p>发动机保养、防污漆更新、设备检测</p><a href="management.html">了解更多 →</a></div>
+<div class="mgmt-card"><div class="mgmt-card-icon">🔩</div><h4>专业维修</h4><p>紧急抢修、船体修复、系统升级</p><a href="management.html">了解更多 →</a></div>
+<div class="mgmt-card"><div class="mgmt-card-icon">📜</div><h4>合规年检</h4><p>船级社检验、法定证书更新</p><a href="management.html">了解更多 →</a></div>
+<div class="mgmt-card"><div class="mgmt-card-icon">🛡️</div><h4>保险理赔</h4><p>H&M安排、P&I对接、事故处理</p><a href="management.html">了解更多 →</a></div>
+</div>
+<p class="reveal" style="text-align:center;margin-top:32px;color:#c9a96e;font-size:15px">无论您位于哪个海域，我们的远程与本地团队可 24 小时响应突发需求</p>
+<div class="reveal" style="text-align:center;margin-top:32px"><a class="btn btn-primary btn-gold-sweep" href="management.html">了解完整托管方案 →</a></div>
+</div>
+</section>
+
+<!-- ===== CASES ===== -->
+<section class="section-padding">
+<div class="container">
+<div class="section-header reveal">
+<h2><span class="gold-gradient">精选项目案例</span></h2>
+<div class="divider-gold"></div>
+<p>每一个案例都是我们对卓越的不懈追求</p>
+</div>
+<div class="cases-masonry">
+<div class="case-item reveal" style="--aspect:16/10">
+<div class="case-img"><img alt="幻蓝号" src="images/yttp/yacht-066.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/></div>
+<div class="case-info">
+<span style="font-size:10px;color:#c9a96e;letter-spacing:2px;text-transform:uppercase">全案定制</span>
+<h4>82米超级游艇「幻蓝号」</h4>
+<p style="font-size:12px;color:#9ca3af;margin:4px 0">客户类型：中东王室 / 顶级游艇客户</p>
+<p>中东王室委托，历时38个月，搭载直升机平台、潜艇车库、IMAX影院。2024年荣获Asia Boating Awards年度最佳定制游艇。</p>
+</div>
+</div>
+<div class="case-item reveal" style="--aspect:4/3">
+<div class="case-img"><img alt="地中海巡航" src="images/yttp/yacht-074.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/></div>
+<div class="case-info">
+<span style="font-size:10px;color:#c9a96e;letter-spacing:2px;text-transform:uppercase">租赁航行</span>
+<h4>地中海30天深度巡航</h4>
+<p style="font-size:12px;color:#9ca3af;margin:4px 0">客户类型：欧洲家族企业</p>
+<p>途经12个国家24个港口，配备米其林主厨与私人潜水教练。</p>
+</div>
+</div>
+<div class="case-item reveal" style="--aspect:16/9">
+<div class="case-img"><img alt="船队托管" src="images/yttp/yacht-082.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/></div>
+<div class="case-info">
+<span style="font-size:10px;color:#c9a96e;letter-spacing:2px;text-transform:uppercase">托管服务</span>
+<h4>中东王室船队5年全托管</h4>
+<p style="font-size:12px;color:#9ca3af;margin:4px 0">客户类型：中东王室船队</p>
+<p>管理3艘超级游艇（45m/62m/88m），5年零重大事故运营记录。</p>
+</div>
+</div>
+</div>
+<div class="reveal" style="text-align:center;margin-top:48px"><a class="btn btn-outline" href="cases.html">查看全部案例 →</a></div>
+</div>
+</section>
+
+<!-- ===== NEWS ===== -->
+<section class="section-padding" style="background:var(--dark2)">
+<div class="container">
+<div class="section-header reveal">
+<h2><span class="gold-gradient">新闻与动态</span></h2>
+<div class="divider-gold"></div>
+<p>了解奇幻假期的最新动态与海洋生活方式资讯</p>
+</div>
+<div class="news-grid">
+<div class="news-card reveal">
+<div class="news-img"><img alt="新闻1" src="images/yttp/yacht-090.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/></div>
+<div class="news-body">
+<div class="news-meta"><span>2026.05.10</span><span>品牌动态</span></div>
+<h3>奇幻假期香港运营中心正式启用</h3>
+<p>2026年5月，奇幻假期在香港中环设立亚太区总部。</p>
+</div>
+</div>
+<div class="news-card reveal">
+<div class="news-img"><img alt="新闻2" src="images/yttp/yacht-098.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/></div>
+<div class="news-body">
+<div class="news-meta"><span>2026.04.22</span><span>行业趋势</span></div>
+<h3>新能源动力游艇增长超40%</h3>
+<p>混合动力与纯电动游艇订单量大幅增长。</p>
+</div>
+</div>
+<div class="news-card reveal">
+<div class="news-img"><img alt="新闻3" src="images/yttp/yacht-106.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/></div>
+<div class="news-body">
+<div class="news-meta"><span>2026.04.08</span><span>生活方式</span></div>
+<h3>海上派对策划完整指南</h3>
+<p>从主题布置到菜单设计，活动策划专家分享攻略。</p>
+</div>
+</div>
+</div>
+<div class="reveal" style="text-align:center;margin-top:48px;display:flex;gap:16px;justify-content:center;flex-wrap:wrap">
+<a class="btn btn-outline" href="cases.html">更多案例与故事 →</a>
+<a class="btn btn-outline" href="news.html">更多资讯 →</a>
+</div>
+</div>
+</section>
+
+<!-- ===== GLOBAL PARTNERSHIP ===== -->
+<section class="section-padding">
+<div class="container">
+<div class="section-header reveal">
+<h2><span class="gold-gradient">全球合作网络</span></h2>
+<div class="divider-gold"></div>
+<p>携手世界顶级合作伙伴，共建海洋奢华生态系统</p>
+</div>
+<div class="partnership-grid">
+<div class="partner-card reveal">
+<h3>🏗️ 顶级船厂合作</h3>
+<div class="studio-logos" style="margin-top:12px;margin-bottom:12px">
+<div class="studio-logo" style="font-size:11px">Ferretti Group</div>
+<div class="studio-logo" style="font-size:11px">Feadship</div>
+<div class="studio-logo" style="font-size:11px">Lürssen</div>
+</div>
+<p>与Ferretti Group、Feadship、Lürssen等世界一流造船集团建立战略伙伴关系。</p>
+</div>
+<div class="partner-card reveal">
+<h3>🏝️ Marina 网络</h3>
+<p>覆盖全球80+顶级游艇码头，为客户提供专属泊位预订与VIP接待服务。</p>
+<div class="city-list" style="margin-top:12px">
+<div class="city-chip">🇲🇨 蒙特卡洛</div><div class="city-chip">🇫🇷 圣特罗佩</div>
+<div class="city-chip">🇮🇹 波托菲诺</div><div class="city-chip">🇺🇸 迈阿密</div>
+<div class="city-chip">🇹🇭 普吉岛</div><div class="city-chip">🇸🇬 圣淘沙</div>
+</div>
+</div>
+<div class="partner-card reveal">
+<h3>✈️ 奢华生活配套</h3>
+<p>整合私人航空、顶级酒店、艺术品收藏等资源，打造无缝奢华体验链。</p>
+<p style="font-size:12px;color:#9ca3af;margin-top:10px">我们可协助安排私人飞机、高端酒店落脚与岸上接待服务，打造无缝衔接的奢华体验流。</p>
+</div>
+</div>
+<div class="reveal" style="text-align:center;margin-top:48px"><a class="btn btn-outline" href="partnership.html">了解合作详情 →</a></div>
+</div>
+</section>
+
+<!-- ===== MANIFESTO ===== -->
+<section style="background:var(--dark2);padding:120px 0;text-align:center;border-top:1px solid var(--glass-border);border-bottom:1px solid var(--glass-border)">
+<div class="container reveal" style="max-width:800px">
+<svg fill="none" style="width:48px;height:48px;margin:0 auto 32px" viewBox="0 0 60 60"><path d="M8 48L30 8l22 40H8z" fill="none" stroke="#c9a96e" stroke-width="2"></path><path d="M16 40h28L30 18 16 40z" fill="rgba(201,169,110,0.08)" stroke="#c9a96e" stroke-width="1.5"></path></svg>
+<h2 style="font-family:'Playfair Display',serif;font-size:clamp(24px,4vw,40px);line-height:1.5;font-weight:300;font-style:italic;margin-bottom:32px">我们不制造游艇，我们编织海洋梦想。<br/><span class="gold-text">每一艘出自奇幻假期的作品，都是对极致生活方式的重新定义。</span></h2>
+</div>
+</section>
+
+<!-- ===== FINAL CTA ===== -->
+<section style="padding:140px 0;text-align:center;background:linear-gradient(180deg,var(--dark3) 0%,var(--dark1) 100%)">
+<div class="container reveal" style="max-width:700px">
+<h2 style="font-family:'Playfair Display',serif;font-size:clamp(28px,4vw,48px);margin-bottom:24px">准备好开启您的<span class="gold-gradient">海上传奇</span>了吗？</h2>
+<p style="color:var(--text-muted);font-size:16px;line-height:1.7;margin-bottom:40px">无论您正在寻找梦想中的第一艘游艇，还是希望升级现有服务体验，我们的专业顾问团队随时为您效劳。</p>
+<div style="display:flex;flex-direction:column;gap:16px;align-items:center;margin-bottom:40px">
+<div style="font-size:18px;color:var(--gold)">📞 +86 0755 3353-0188</div>
+<div style="font-size:18px;color:var(--gold)">✉️ hs@fantastic-vacation.com</div>
+</div>
+<a class="btn btn-primary btn-gold-sweep" href="contact.html" style="padding:18px 56px">立即预约咨询</a>
+</div>
+</section>
+<!-- FOOTER -->
+<footer data-i18n="index.965" id="footer">
+<div class="footer-top-bar"></div>
+<div class="footer-main">
+<div class="footer-grid" data-i18n="index.799">
+<!-- Column 1: Brand -->
+<div class="footer-col footer-brand-col">
+<a class="footer-logo" href="index.html">
+<svg fill="none" height="40" viewbox="0 0 32 32" width="40">
+<path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
+<path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
+</svg>
+<div>
+<div class="footer-logo-name" data-i18n="index.201">奇幻假期</div>
+<div class="footer-logo-en" data-i18n="index.202">FANTASTIC VACATION</div>
+</div>
+</a>
+<p class="footer-slogan" data-i18n="index.814">「探索全球，不负假期」<br/>全球一体化高端游艇定制与私人海享生活缔造者</p>
+<p class="footer-brand-desc" data-i18n="index.203">奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。</p>
+<div class="footer-socials">
+<a class="social-item" href="javascript:void(0)" title="微信公众号">
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M8.5 11a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5.5 4H20a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1h-1.5a4 4 0 0 1-3.98-3.64A5.97 5.97 0 0 0 12 15a6 6 0 0 0 6 6v1zm-7-7a4 4 0 0 0-4 4v5a4 4 0 0 0 3.15 3.85A3 3 0 0 0 8 18v1H5.5A1.5 1.5 0 0 1 4 17.5v-8A1.5 1.5 0 0 1 5.5 8h6z"></path></svg>
+<span data-i18n="index.204">微信公众号</span>
+</a>
+<a class="social-item" href="javascript:void(0)" title="微博">
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M10.09 18c-3.69 0-7.09-1.69-7.09-4.28 0-1.35.7-2.96 1.88-4.57C6.57 7.57 9.5 6.4 10.55 7c1.41.8 2.29 2.38 2.55 3.82.1-.04.21-.06.32-.06 2.45 0 4.44 2.29 4.44 5.11 0 2.73-1.99 4.94-4.44 4.94-.27 0-.53-.02-.79-.06-.11.17-.23.34-.35.5l.05.01zM20 8.5C20 4.91 17.09 2 13.5 2H3C2.45 2 2 2.45 2 3v13c0 .55.45 1 1 1h10c4.17 0 7.58-3.06 7.98-7.05.05-.47.02-.95.02-1.45z"></path></svg>
+<span data-i18n="index.205">微博</span>
+</a>
+<a class="social-item" href="javascript:void(0)" title="抖音">
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.82a8.18 8.18 0 0 0 4.77 1.52V6.68a4.85 4.85 0 0 1-1-.02z"></path></svg>
+<span data-i18n="index.206">抖音</span>
+</a>
+<a class="social-item" href="javascript:void(0)" title="LinkedIn">
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path></svg>
+<span data-i18n="index.207">LinkedIn</span>
+</a>
+<a class="social-item" href="javascript:void(0)" title="YouTube">
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
+<span data-i18n="index.208">YouTube</span>
+</a>
+</div>
+</div>
+<!-- Column 2: Quick Navigation -->
+<div class="footer-col">
+<h4 class="footer-col-title" data-i18n="index.850">快速导航</h4>
+<ul class="footer-links">
+<li data-i18n="index.209"><a data-i18n="index.210" href="index.html">首页</a></li>
+<li data-i18n="index.1"><a data-i18n="index.211" href="about.html">关于我们</a></li>
+<li data-i18n="index.2"><a data-i18n="index.212" href="yachts.html">全系游艇</a></li>
+          <li><a href="membership.html" data-i18n="footer.member" style="color:#c9a96e;font-weight:500">👑 尊享会员</a></li>
+<li data-i18n="index.3"><a data-i18n="index.213" href="custom.html">全案定制</a></li>
+<li data-i18n="index.4"><a data-i18n="index.214" href="charter.html">租赁航线</a></li>
+<li data-i18n="index.5"><a data-i18n="index.215" href="management.html">托管维保</a></li>
+<li data-i18n="index.6"><a data-i18n="index.216" href="cases.html">案例展示</a></li>
+<li data-i18n="index.7"><a data-i18n="index.217" href="news.html">新闻资讯</a></li>
+<li data-i18n="index.8"><a data-i18n="index.218" href="partnership.html">全球合作</a></li>
+<li data-i18n="index.9"><a data-i18n="index.219" href="sitemap.html">网站地图</a></li>
+</ul>
+</div>
+<!-- Column 3: Contact -->
+<div class="footer-col" data-i18n="index.10">
+<h4 class="footer-col-title" data-i18n="index.878">联系我们</h4>
+<ul class="footer-contact">
+<li class="contact-item">
+<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+<div>
+<div class="contact-label" data-i18n="index.220">公司地址</div>
+<div class="contact-value" data-i18n="index.11">广东省深圳市宝安区<br/>松岗工业园1号</div>
+</div>
+</li>
+<li class="contact-item" data-i18n="index.12">
+<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 5.92 5.92l.96-.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+<div>
+<div class="contact-label" data-i18n="index.221">咨询热线</div>
+<div class="contact-value"><a data-i18n="index.896" href="tel:13797920792">13797920792</a> / <a data-i18n="index.898" href="tel:+86075533530188">+86 0755 3353-0188</a></div>
+</div>
+</li>
+<li class="contact-item" data-i18n="index.13">
+<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 5.92 5.92l.96-.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path><line x1="22" x2="11" y1="2" y2="13"></line></svg>
+<div>
+<div class="contact-label" data-i18n="index.222">传真</div>
+<div class="contact-value" data-i18n="index.907">0755-31530988</div>
+</div>
+</li>
+<li class="contact-item" data-i18n="index.14">
+<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+<div>
+<div class="contact-label" data-i18n="index.223">商务邮箱</div>
+<div class="contact-value"><a data-i18n="index.224" href="mailto:hs@fantastic-vacation.com">hs@fantastic-vacation.com</a></div>
+</div>
+</li>
+</ul>
+<a class="footer-contact-btn" data-i18n="index.15" href="contact.html">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+          在线咨询
+        </a>
+</div>
+<!-- Column 4: Certifications & Partners -->
+<div class="footer-col" data-i18n="index.16">
+<h4 class="footer-col-title" data-i18n="index.928">资质与合作</h4>
+<div class="footer-certs">
+<div class="cert-item">
+<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18n="index.225">ISO 9001质量管理体系认证</span>
+</div>
+<div class="cert-item" data-i18n="index.17">
+<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18n="index.226">意大利Ferretti集团授权经销商</span>
+</div>
+<div class="cert-item" data-i18n="index.18">
+<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18n="index.227">荷兰Feadship技术合作伙伴</span>
+</div>
+<div class="cert-item" data-i18n="index.19">
+<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18n="index.228">地中海船坞协会认证会员</span>
+</div>
+<div class="cert-item" data-i18n="index.20">
+<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18n="index.229">亚洲最佳游艇服务商三连冠</span>
+</div>
+</div>
+<div class="footer-recruit" data-i18n="index.21">
+<a class="recruit-link" data-i18n="index.959" href="contact.html">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            <span data-i18n="_recruit">加入我们 · 招聘职位</span>
+          </a>
+</div>
+</div>
+</div>
+</div>
+<!-- Copyright Bar -->
+<div class="footer-bottom" data-i18n="index.22">
+<div class="footer-bottom-inner">
+<div class="copyright">
+<span data-i18n="index.230">© 2020-2026 奇幻假期实业有限公司 FANTASTIC VACATION INDUSTRIAL CO., LTD. 保留所有权利。</span>
+</div>
+<div class="legal-links" data-i18n="index.23">
+<a data-i18n="index.231" href="privacy.html">隐私政策</a>
+<a data-i18n="index.232" href="terms.html">使用条款</a>
+<a data-i18n="index.233" href="sitemap.html">网站地图</a>
+</div>
+</div>
+<div></div>
+</div></div></footer>
+<script>
+/* 立即执行 - 不等 DOMContentLoaded */
+(function(){
+  var ld=document.getElementById("loader");
+  if(!ld)return;
+  /* 5.5秒后强制隐藏 - 兜底 */
+  setTimeout(function(){
+    if(ld){ld.style.display="none";ld.style.visibility="hidden"}
+    document.body.style.overflow="";
+  },5500);
+})();
+</script>
+<script src="main.js"></script>
+<script src="i18n.js"></script>
+</body></html>
