@@ -93,7 +93,7 @@ function toggleMobile() {
   }
 }
 
-/* === 搜索框切换 === */
+/* === 搜索功能 === */
 function toggleSearch() {
   var overlay = document.getElementById("searchOverlay");
   if (!overlay) return;
@@ -101,9 +101,75 @@ function toggleSearch() {
   if (overlay.classList.contains("active")) {
     setTimeout(function() {
       var input = document.getElementById("searchInput");
-      if (input) input.focus();
+      if (input) { input.focus(); input.select(); }
     }, 100);
   }
+}
+
+function isEnPage() {
+  return (window.location.pathname || '').indexOf('/en/') !== -1;
+}
+
+var SEARCH_ROUTES = [
+  { keys: ['yacht','游艇','boat','船','ship','艇','sovereign','expedition','flybridge','daycruiser','君临','远征','飞桥','日间','君悦','探险'],            page:'yachts.html' },
+  { keys: ['custom','定制','bespoke','tailor','设计','build','专属','personaliz'],                                   page:'custom.html' },
+  { keys: ['charter','租赁','rent','航线','route','地中海','加勒比','caribbean','东南亚','southeast'],  page:'charter.html' },
+  { keys: ['management','托管','维保','维修','保养','maintenance','service','after sales'],                 page:'management.html' },
+  { keys: ['case','案例','portfolio','项目','交付','delivery','幻蓝','phantom'],                          page:'cases.html' },
+  { keys: ['news','新闻','资讯','press','媒体','media','动态'],                                                  page:'news.html' },
+  { keys: ['about','关于','简介','历史','history','团队','team','文化','culture','使命','mission','愿景','vision'], page:'about.html' },
+  { keys: ['member','会员','silver','gold','platinum','diamond','black','tier','等级','权益','privilege','benefit'], page:'membership.html' },
+  { keys: ['partner','合作','dealer','代理','agent','marina','品牌','brand'],                               page:'partnership.html' },
+  { keys: ['contact','联系','电话','phone','邮箱','email','地址','address','location','office'],             page:'contact.html' },
+  { keys: ['ir','investor','投资','财务','financial','财报','公告','announcement','治理','governance'],     page:'ir.html' }
+];
+
+function doSearch(q) {
+  var kw = (q||'').toLowerCase().trim();
+  if (!kw) return;
+  var en = isEnPage();
+  for (var i = 0; i < SEARCH_ROUTES.length; i++) {
+    var r = SEARCH_ROUTES[i];
+    for (var j = 0; j < r.keys.length; j++) {
+      if (kw.indexOf(r.keys[j]) !== -1) {
+        window.location.href = en ? r.page : '../' + r.page;
+        return;
+      }
+    }
+  }
+  /* fallback */
+  var overlay = document.getElementById('searchOverlay');
+  if (overlay) overlay.classList.remove('active');
+  var input = document.getElementById('searchInput');
+  if (input) {
+    input.placeholder = en ? 'No result, try: yacht / charter / contact...' : '未找到结果，请尝试：游艇 / 租赁 / 联系...';
+    setTimeout(function(){ if (input) input.placeholder = en ? 'Search yachts, news, cases...' : '搜索产品、新闻、案例...'; }, 3000);
+  }
+}
+
+function closeSearch() {
+  var overlay = document.getElementById('searchOverlay');
+  if (overlay) overlay.classList.remove('active');
+}
+
+function attachSearch() {
+  /* 搜索建议点击 */
+  var items = document.querySelectorAll('.search-suggestion-item');
+  for (var i = 0; i < items.length; i++) {
+    (function(el){ el.addEventListener('click', function(){ var t = (el.textContent||'').replace(/^→\s*/,'').trim(); if(t){ closeSearch(); doSearch(t); } }); })(items[i]);
+  }
+  /* 回车搜索 */
+  var input = document.getElementById('searchInput');
+  if (input && !input._searchBound) {
+    input._searchBound = true;
+    input.addEventListener('keydown', function(e){ if(e.key==='Enter'){ e.preventDefault(); closeSearch(); doSearch(this.value); } });
+  }
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', attachSearch);
+} else {
+  attachSearch();
 }
 
 /* === ESC 关闭搜索/菜单 === */

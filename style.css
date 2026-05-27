@@ -673,16 +673,16 @@ img{max-width:100%;display:block}
 /* 13. LANGUAGE SWITCH -------------------------------------------------------------- */
 .lang-switch-btn{
   height:38px;
-  padding:0 12px;
+  padding:0 14px;
   display:inline-flex;
   align-items:center;
   justify-content:center;
-  background:transparent;
-  border:1px solid rgba(0,0,0,0.2);
+  background:rgba(239,68,68,0.1);
+  border:1.5px solid rgba(239,68,68,0.35);
   border-radius:8px;
-  color:#ef4444;
+  color:#dc2626;
   font-size:12px;
-  font-weight:600;
+  font-weight:700;
   cursor:pointer;
   transition:all .2s ease;
   flex-shrink:0;
@@ -693,9 +693,9 @@ img{max-width:100%;display:block}
   position:relative;
 }
 .lang-switch-btn:hover{
-  background:rgba(239,68,68,0.08);
-  color:#dc2626;
-  border-color:rgba(239,68,68,0.3);
+  background:rgba(220,38,38,0.18);
+  color:#b91c1c;
+  border-color:rgba(220,38,38,0.5);
 }
 .lang-switch-btn:hover::after{
   content:attr(title);
@@ -967,13 +967,14 @@ body.dark-mode .nav-dark-toggle:hover{
   border-color:rgba(201,169,110,0.3);
 }
 body.dark-mode .lang-switch-btn{
-  border-color:rgba(255,255,255,0.2);
-  color:#ef4444;
+  background:rgba(239,68,68,0.15);
+  border-color:rgba(239,68,68,0.4);
+  color:#f87171;
 }
 body.dark-mode .lang-switch-btn:hover{
-  background:rgba(239,68,68,0.1);
-  color:#f87171;
-  border-color:rgba(239,68,68,0.3);
+  background:rgba(248,113,113,0.25);
+  color:#fca5a5;
+  border-color:rgba(248,113,113,0.55);
 }
 body.dark-mode .lang-switch-btn:hover::after{
   background:#f1f5f9;
