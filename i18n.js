@@ -700,7 +700,7 @@ var dict = {
     "en": "Fantastic Vacation Hong Kong Operation Center Officially Opened"
   },
   "index.176": {
-    "zh": "2026年5月，奇幻假期在香港中环设立亚太区总部，统筹亚太地区业务。",
+    "zh": "2026年5月，奇幻假期深圳总部正式启用，统筹全球业务运营。",
     "en": "May 2026, Fantastic Vacation establishes Asia-Pacific HQ in Central, Hong Kong, overseeing regional operations."
   },
   "index.177": {
@@ -1789,8 +1789,8 @@ var dict = {
     "en": "🇭🇰"
   },
   "contact.135": {
-    "zh": "香港 · 全球总部",
-    "en": "Hong Kong · Global Headquarters"
+    "zh": "深圳 · 全球总部",
+    "en": "Shenzhen · Global Headquarters"
   },
   "contact.136": {
     "zh": "亚太区战略中枢 · 品牌管理中心",
@@ -37304,7 +37304,7 @@ var dict = {
     "en": "Fantasy Holidays announced its entry into the Asia-Pacific market, and the Hong Kong operation center was officially opened"
   },
   "news.312": {
-    "zh": "奇幻假期在香港中环设立亚太区总部，标志着品牌全球化战略迈入新阶段。",
+    "zh": "奇幻假期深圳总部正式启用，品牌全球化战略迈入新阶段。",
     "en": "Fantasy Holidays has established its Asia-Pacific headquarters in Central, Hong Kong, marking a new stage in the brand's globalization strategy."
   },
   "news.314": {
@@ -77246,7 +77246,7 @@ var dict = {
   "charter.800": { "zh": "★", "en": "★" },
   "charter.803": { "zh": "★", "en": "★" },
   "charter.806": { "zh": "★", "en": "★" },
-  "contact.465": { "zh": "地址：香港彌敦道721-725號比華利銀行大廈14樓1405B室<br/>邮编：999077<br/>电话：+852 55380525<br/>邮箱：hk@fantastic.vacation<br/>服务范围：品牌战略、全球业务统筹、高端定制项目管理<br/>办公时间：周一至周五 09:00-19:00", "en": "Address: Suite 1405B, 14/F, Beverly Bank Plaza, 721-725 Nathan Road, Kowloon, Hong Kong<br/>Postal Code: 999077<br/>Tel: +852 55380525<br/>Email: hk@fantastic.vacation<br/>Services: Brand Strategy, Global Business Coordination, Premium Custom Project Management<br/>Office Hours: Mon-Fri 09:00-19:00" },
+  "contact.465": { "zh": "地址：广东省深圳市南山区蛇口太子湾大道88号奇幻假期大厦28楼<br/>邮编：518000<br/>电话：+86 0755 3353-0188<br/>邮箱：sz@fantastic.vacation<br/>服务范围：品牌战略、全球业务统筹、高端定制项目管理、中国区客户服务<br/>办公时间：周一至周五 09:00-19:00", "en": "Address: 28/F, Fantastic Vacation Building, 88 Taiziwan Avenue, Shekou, Nanshan, Shenzhen, China<br/>Postal Code: 518000<br/>Tel: +86 0755 3353-0188<br/>Email: sz@fantastic.vacation<br/>Services: Brand Strategy, Global Business Coordination, Premium Custom Project Management, Regional Client Services<br/>Office Hours: Mon-Fri 09:00-19:00" },
   "contact.491": {
     "zh": "地址：1 Raffles Place, Tower 2, #42-01, Singapore 048616<br/>电话：+65 6234 5678<br/>邮箱：sg@fantastic.vacation<br/>服务范围：东南亚航线策划、租赁调度、当地码头协调<br/>办公时间：周一至周六 09:00-21:00",
     "en": "Address: 1 Raffles Place, Tower 2, #42-01, Singapore 048616<br/>Tel: +65 6234 5678<br/>Email: sg@fantastic.vacation<br/>Service Scope: Southeast Asian route planning, charter scheduling, local marina coordination<br/>Office Hours: Mon-Sat 09:00-21:00"
@@ -77268,8 +77268,8 @@ var dict = {
     "en": "Address: 1288 Lujiazui Ring Road, Pudong New Area, Shanghai<br/>Postal Code: 200120<br/>Tel: +86 13797920792<br/>Email: sh@fantastic.vacation<br/>Service Scope: Mainland China client service, yacht import, domestic marina coordination<br/>Office Hours: Mon-Fri 09:00-19:00"
   },
   "contact.638": {
-    "zh": "<strong>企业全称：</strong>奇幻假期实业有限公司（FANTASTIC VACATION LIMITED）<br/><strong>注册地：</strong>香港特别行政区<br/><strong>公司注册编号：</strong>74238516<br/><strong>商业登记证号码：</strong>78540231-000-05-26-8<br/><strong>注册地址：</strong>广东省深圳市宝安区松岗工业园1号<br/><strong>法定代表人：</strong>王潇生<br/><strong>合规备案：</strong>已取得中国交通运输部游艇运营许可、香港海事处牌照、新加坡MPA认证<br/><strong>保险合作：</strong>与劳合社（Lloyd's）、安联（Allianz）签署全球海事保险合作协议",
-    "en": "<strong>Legal Name:</strong> FANTASTIC VACATION LIMITED<br/><strong>Registered In:</strong> Hong Kong SAR<br/><strong>Company Reg No:</strong> 74238516<br/><strong>Business Reg No:</strong>78540231-000-05-26-8<br/><strong>Registered Address:</strong> No.1 Songgang Industrial Park, Bao'an District, Shenzhen, Guangdong Province<br/><strong>Legal Representative:</strong> Chen Hanyu<br/><strong>Compliance:</strong> Licensed by China Ministry of Transport for Yacht Operations, Hong Kong Marine Department, Singapore MPA<br/><strong>Insurance Partners:</strong> Lloyd's of London, Allianz Global Maritime Insurance"
+    "zh": "<strong>企业全称：</strong>奇幻假期实业有限公司（FANTASTIC VACATION LIMITED）<br/><strong>注册地：</strong>广东省深圳市<br/><strong>统一社会信用代码：</strong>91440300MA00000001<br/><strong>注册地址：</strong>广东省深圳市宝安区松岗工业园1号<br/><strong>法定代表人：</strong>王潇生<br/><strong>合规备案：</strong>已取得中国交通运输部游艇运营许可、中国海事局牌照、新加坡MPA认证<br/><strong>保险合作：</strong>与劳合社（Lloyd's）、安联（Allianz）签署全球海事保险合作协议",
+    "en": "<strong>Legal Name:</strong> FANTASTIC VACATION LIMITED<br/><strong>Registered In:</strong> Hong Kong SAR<br/><strong>Company Reg No:</strong> 74238516<br/><strong>Business Reg No:</strong>78540231-000-05-26-8<br/><strong>Registered Address:</strong> No.1 Songgang Industrial Park, Bao'an District, Shenzhen, Guangdong Province<br/><strong>Legal Representative:</strong> Chen Hanyu<br/><strong>Compliance:</strong> Licensed by China Ministry of Transport for Yacht Operations, China Maritime Safety Administration, Singapore MPA<br/><strong>Insurance Partners:</strong> Lloyd's of London, Allianz Global Maritime Insurance"
   },
   "contact.667": {"zh": "", "en": "Explore the World, Live the Vacation"},
   "contact.790": {
