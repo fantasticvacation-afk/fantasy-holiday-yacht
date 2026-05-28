@@ -514,20 +514,23 @@ function toggleSeries(){
   }
 
   // B) On CN-only pages: repurpose language switch to show "EN" button
-  var target = enTarget(p);
-  if (target) {
-    var f = function(){
-      var btns = document.querySelectorAll('.lang-switch-btn, #mobileLangSwitch');
-      for (var i=0; i<btns.length; i++) {
-        var b = btns[i];
-        b.textContent = 'EN';
-        b.href = target;
-        b.title = 'Switch to English';
-        b.setAttribute('aria-label','Switch to English');
-        b.style.display = '';
-      }
-    };
-    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', f);
-    else f();
+  //    (Only runs on CN pages; on EN pages the navbar lang-switch already points to CN correctly)
+  if (!isEN) {
+    var target = enTarget(p);
+    if (target) {
+      var f = function(){
+        var btns = document.querySelectorAll('.lang-switch-btn, #mobileLangSwitch');
+        for (var i=0; i<btns.length; i++) {
+          var b = btns[i];
+          b.textContent = 'EN';
+          b.href = target;
+          b.title = 'Switch to English';
+          b.setAttribute('aria-label','Switch to English');
+          b.style.display = '';
+        }
+      };
+      if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', f);
+      else f();
+    }
   }
 })();
