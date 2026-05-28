@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
-<link href="../style.css" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
 <style>
 #loader{position:fixed;inset:0;background:#080e1a;display:flex;align-items:center;justify-content:center;z-index:9999;transition:opacity 0.6s,visibility 0.6s}
 #loader.hidden{opacity:0;visibility:hidden}
@@ -21,7 +21,7 @@
 .target-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
 .cta-buttons{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin-top:32px}
 </style>
-<link rel="icon" type="image/svg+xml" href="../favicon.svg"/>
+<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
 </head>
 <body>
 <div id="loader"><div style="color:#c9a96e;font-size:14px;letter-spacing:3px">LOADING...</div></div>
@@ -58,11 +58,11 @@
 <a href="about.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">About <span class="nav-arrow" aria-hidden="true"></span></a>
 <div class="nav-dropdown-menu" role="menu" aria-label="About Submenu">
 <a href="about.html" role="menuitem">Company</a>
-<a href="../about-history.html" role="menuitem">Milestones</a>
-<a href="../about-culture.html" role="menuitem">Culture</a>
-<a href="../about-structure.html" role="menuitem">Organization</a>
+<a href="about.html" role="menuitem">Milestones</a>
+<a href="about.html" role="menuitem">Culture</a>
+<a href="about.html" role="menuitem">Organization</a>
 <a href="honors.html" role="menuitem">Honors</a>
-<a href="../about-responsibility.html" role="menuitem">ESG</a>
+<a href="about.html" role="menuitem">ESG</a>
 </div>
 </div>
 <div class="nav-dropdown" role="none">
@@ -84,7 +84,7 @@
 <circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path>
 </svg>
 </button>
-<a class="lang-switch-btn" href="../yachts-sovereign.html" title="Switch to Chinese" aria-label="Switch to Chinese">中文</a>
+<a class="lang-switch-btn" href="yachts-sovereign.html" title="Switch to Chinese" aria-label="Switch to Chinese">中文</a>
 <button class="nav-dark-toggle" id="darkToggle" onclick="toggleDarkMode()" title="Dark Mode" aria-label="Toggle Dark Mode">
 <svg class="icon-moon" fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
 <svg class="icon-sun" fill="none" height="18" stroke="currentColor" stroke-width="2" style="display:none" viewBox="0 0 24 24" width="18" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" x2="12" y1="1" y2="3"></line><line x1="12" x2="12" y1="21" y2="23"></line><line x1="4.22" x2="5.64" y1="4.22" y2="5.64"></line><line x1="18.36" x2="19.78" y1="18.36" y2="19.78"></line><line x1="1" x2="3" y1="12" y2="12"></line><line x1="21" x2="23" y1="12" y2="12"></line><line x1="4.22" x2="5.64" y1="19.78" y2="18.36"></line><line x1="18.36" x2="19.78" y1="5.64" y2="4.22"></line></svg>
@@ -406,7 +406,7 @@ window.addEventListener("DOMContentLoaded",function(){var isDark=localStorage.ge
 window.addEventListener("DOMContentLoaded",function(){document.querySelectorAll(".search-suggestion-item").forEach(function(el){el.addEventListener("click",function(){var t=this.textContent.trim();if(t.indexOf("All Yachts")!==-1)window.location.href="yachts.html";else if(t.indexOf("Custom")!==-1)window.location.href="custom.html";else if(t.indexOf("Routes")!==-1)window.location.href="charter.html";else if(t.indexOf("Contact")!==-1||t.indexOf("Advisor")!==-1)window.location.href="contact.html"})})});
 </script>
 
-<link rel="stylesheet" href="../i18n.css">
+<link rel="stylesheet" href="i18n.css">
 <script src="../main.js"></script>
 
 <div class="search-overlay" id="searchOverlay">

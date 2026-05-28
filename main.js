@@ -1,18 +1,70 @@
 /* main.js - 奇幻假期游艇网站主逻辑 */
 
+/* ===== EN redirect mapping (must be defined first) ===== */
+window._EN_MAP = {
+  'about-history.html':'en/about.html','about-culture.html':'en/about.html','about-structure.html':'en/about.html',
+  'about-responsibility.html':'en/about.html','about-intro.html':'en/about.html',
+  'yachts-sovereign.html':'en/yachts-sovereign.html','yachts-expedition.html':'en/yachts-expedition.html',
+  'yachts-flybridge.html':'en/yachts-flybridge.html','yachts-daycruiser.html':'en/yachts-daycruiser.html',
+  'press.html':'en/news.html',
+  'terms.html':'en/terms.html','privacy.html':'en/privacy.html','sitemap.html':'en/sitemap.html',
+  // CN-only membership sub-pages → EN membership landing
+  'membership-addons.html':'en/membership.html','membership-berths.html':'en/membership.html',
+  'membership-brand.html':'en/membership.html','membership-contact.html':'en/membership.html',
+  'membership-corporate.html':'en/membership.html','membership-events.html':'en/membership.html',
+  'membership-fees.html':'en/membership.html','membership-points.html':'en/membership.html',
+  'membership-support.html':'en/membership.html','membership-terms.html':'en/membership.html',
+  'membership-transfer.html':'en/membership.html'
+};
+
+/* ===== enTarget — given a filename, return best EN target or null ===== */
+function enTarget(filename) {
+  if (window._EN_MAP[filename]) return '/' + window._EN_MAP[filename];
+  if (/^case-/.test(filename)) return '/en/cases.html';
+  if (/^news-/.test(filename)) return '/en/news.html';
+  if (/^tier[0-5]-/.test(filename)) return '/en/membership.html';
+  return null;
+}
+
 /* === 语言切换按钮智能跳转 === */
 (function(){
   var path = window.location.pathname;
   var isEN = path.indexOf('/en/') !== -1;
+  var filename = path.split('/').pop() || 'index.html';
+  
+  // Helper: does this page have a direct EN equivalent?
+  // Pages in _EN_MAP ARE CN-only redirects (EN page exists at different path)
+  // yachts-*.html → has EN equivalent: en/yachts-*.html
+  // membership-*.html → has EN equivalent: en/membership/membership-*.html
+  function hasEnEquivalent(fn) {
+    // These special CN pages redirect to a generic EN page (no dedicated EN page)
+    var CN_ONLY_PATTERNS = ['about-history.html','about-culture.html','about-structure.html',
+      'about-responsibility.html','about-intro.html',
+      'press.html','terms.html','privacy.html','sitemap.html'];
+    if (CN_ONLY_PATTERNS.indexOf(fn) !== -1) return false;
+    if (/^case-/.test(fn) || /^news-/.test(fn)) return false; // CN-only patterns
+    if (/^tier[0-5]-/.test(fn)) return false;              // CN membership tier detail
+    var CN_ONLY_MEMBERSHIP = ['membership-addons.html','membership-berths.html','membership-brand.html',
+      'membership-contact.html','membership-corporate.html','membership-events.html',
+      'membership-fees.html','membership-points.html','membership-support.html',
+      'membership-terms.html','membership-transfer.html'];
+    if (CN_ONLY_MEMBERSHIP.indexOf(fn) !== -1) return false;
+    return true; // all other pages have EN equivalent
+  }
   
   // Navbar lang switch
   var btn = document.querySelector('.lang-switch-btn');
   if (btn) {
-    if (isEN) btn.href = path.replace('/en/', '/');
-    else {
-      var parts = path.split('/');
-      var filename = parts[parts.length - 1] || 'index.html';
-      btn.href = parts.slice(0, -1).join('/') + '/en/' + filename;
+    if (isEN) {
+      // EN → CN: remove /en/ from path
+      btn.href = path.replace('/en/', '/');
+    } else {
+      // CN → EN
+      if (!hasEnEquivalent(filename)) {
+        // No EN equivalent — don't override, keep the HTML hardcoded href
+      } else {
+        btn.href = '/en' + path;
+      }
     }
   }
   
@@ -20,18 +72,16 @@
   var mobileBtn = document.querySelector('#mobileLangSwitch');
   if (mobileBtn) {
     if (isEN) {
-      var cnPath = path.replace('/en/', '/');
-      // For sub-pages in membership/, the root is ../
-      if (path.indexOf('/membership/') !== -1) {
-        // EN membershp page: switch to CN membership/
-        cnPath = path.replace(/\/en\/(.*)/, '/$1');
-      }
-      mobileBtn.href = cnPath;
-      if (isEN) mobileBtn.textContent = '🌐 切换到中文';
+      // EN → CN: remove /en/ from path
+      mobileBtn.href = path.replace('/en/', '/');
+      mobileBtn.textContent = '🌐 中文';
     } else {
-      var filename_m = path.split('/').pop() || 'index.html';
-      var dir_m = path.split('/').slice(0, -1).join('/');
-      mobileBtn.href = dir_m + '/en/' + filename_m;
+      // CN → EN
+      if (!hasEnEquivalent(filename)) {
+        // No EN equivalent — don't override, keep the HTML hardcoded href
+      } else {
+        mobileBtn.href = '/en' + path;
+      }
       mobileBtn.textContent = '🌐 English Version';
     }
   }
@@ -473,32 +523,19 @@ function toggleSeries(){
 
 /* ===== CN-only page → EN redirect logic ===== */
 (function() {
-  var EN_MAP = {
-    'about-history.html':'en/about.html','about-culture.html':'en/about.html','about-structure.html':'en/about.html',
-    'about-responsibility.html':'en/about.html','about-intro.html':'en/about.html',
-    'yachts-sovereign.html':'en/yachts-sovereign.html','yachts-expedition.html':'en/yachts-expedition.html',
-    'yachts-flybridge.html':'en/yachts-flybridge.html','yachts-daycruiser.html':'en/yachts-daycruiser.html',
-    'press.html':'en/news.html',
-    'terms.html':'en/terms.html','privacy.html':'en/privacy.html','sitemap.html':'en/sitemap.html'
-  };
-
-  // Helper: given a filename, return the best EN target or null
-  function enTarget(filename) {
-    if (EN_MAP[filename]) return '/' + EN_MAP[filename];
-    if (/^case-/.test(filename)) return '/en/cases.html';
-    if (/^news-/.test(filename)) return '/en/news.html';
-    return null;
-  }
 
   var path = window.location.pathname;
   var isEN = path.indexOf('/en/') !== -1;
   var p = path.split('/').pop();
 
   // A) On EN pages: intercept clicks on nav links that point to CN-only pages
+  //    (Skip lang-switch buttons — those should switch language, not redirect)
   if (isEN) {
     document.addEventListener('click', function(e) {
       var a = e.target.closest('a[href]');
       if (!a) return;
+      // Never intercept lang-switch buttons
+      if (a.classList.contains('lang-switch-btn') || a.id === 'mobileLangSwitch') return;
       var href = a.getAttribute('href');
       if (!href) return;
       // Resolve relative ../ hrefs to just the filename
