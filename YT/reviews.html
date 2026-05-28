@@ -342,4 +342,6 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape"){var s=docum
 window.addEventListener("DOMContentLoaded",function(){var isDark=localStorage.getItem("fv-dark")==="1";if(isDark){document.body.classList.add("dark-mode");var moon=document.querySelector(".icon-moon");var sun=document.querySelector(".icon-sun");if(moon)moon.style.display="none";if(sun)sun.style.display="inline"}});window.addEventListener("DOMContentLoaded",function(){document.querySelectorAll(".search-suggestion-item").forEach(function(el){el.addEventListener("click",function(){var t=this.textContent.trim();if(t.indexOf("全系")!==-1||t.indexOf("All Yachts")!==-1)window.location.href="yachts.html";else if(t.indexOf("定制")!==-1||t.indexOf("Custom")!==-1)window.location.href="custom.html";else if(t.indexOf("航线")!==-1||t.indexOf("Routes")!==-1)window.location.href="charter.html";else if(t.indexOf("联系")!==-1||t.indexOf("Contact")!==-1||t.indexOf("顾问")!==-1||t.indexOf("Advisor")!==-1)window.location.href="contact.html"})})});</script>
 <script src="main.js"></script>
 <script src="i18n.js"></script>
+
+<a href="https://wa.me/85255380525" target="_blank" class="floating-cta" style="text-decoration:none">💎 在线咨询</a>
 </body></html>
