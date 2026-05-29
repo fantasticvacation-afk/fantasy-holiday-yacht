@@ -27,9 +27,9 @@ window._EN_MAP = {
   'membership-transfer.html':'en/membership.html'
 };
 
-/* ===== enTarget — given a CN filename, return absolute EN target path (with site base) ===== */
+/* ===== enTarget — given a CN filename, return EN target path ===== */
 function enTarget(filename) {
-  var base = window._SITE_BASE || '/';
+  var base = window._SITE_BASE || '';
   if (window._EN_MAP[filename]) return base + window._EN_MAP[filename];
   if (/^case-/.test(filename)) return base + 'en/cases.html';
   if (/^news-/.test(filename)) return base + 'en/news.html';
@@ -37,19 +37,30 @@ function enTarget(filename) {
   return null;
 }
 
-/* ===== CN→EN absolute path computation (for pages with direct EN equivalents) ===== */
+/* ===== CN→EN path computation (for pages with direct EN equivalents) ===== */
 function cnToEnPath(cnPath) {
-  // /fantasy-holiday-yacht/sub/page.html → /fantasy-holiday-yacht/en/sub/page.html
-  // /sub/page.html (local) → /en/sub/page.html
+  // GitHub Pages: /fantasy-holiday-yacht/sub/page.html → /fantasy-holiday-yacht/en/sub/page.html
   if (window._SITE_BASE) {
     return cnPath.replace(window._SITE_BASE, window._SITE_BASE + 'en/');
   }
-  return '/en' + cnPath;
+  // Local dev (file:// or simple HTTP server): use relative paths that work everywhere
+  var segments = cnPath.split('/').filter(Boolean);
+  var depth = segments.length - 1; // directories before filename
+  var prefix = depth > 0 ? '../'.repeat(depth) : '';
+  return prefix + 'en/' + cnPath.replace(/^\//, '');
 }
 
-/* ===== EN→CN path (remove /en/) ===== */
+/* ===== EN→CN path computation ===== */
 function enToCnPath(enPath) {
-  return enPath.replace('/en/', '/');
+  // GitHub Pages: /fantasy-holiday-yacht/en/sub/page.html → /fantasy-holiday-yacht/sub/page.html
+  if (window._SITE_BASE) {
+    return enPath.replace('/en/', '/');
+  }
+  // Local dev: use relative paths
+  var segments = enPath.split('/').filter(Boolean);
+  var depth = segments.length - 1; // directories including /en/ before filename
+  var prefix = depth > 0 ? '../'.repeat(depth) : '';
+  return prefix + enPath.replace('/en/', '').replace(/^\//, '');
 }
 
 /* ===== hasEnEquivalent — does this CN page have a dedicated EN page? ===== */
