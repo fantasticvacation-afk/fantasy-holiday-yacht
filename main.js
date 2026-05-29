@@ -570,6 +570,9 @@ function toggleSeries(){
       if (!a) return;
       // Never intercept lang-switch buttons
       if (a.classList.contains('lang-switch-btn') || a.id === 'mobileLangSwitch') return;
+      // Only intercept navigation links (<nav> or mobile-nav); content-body links
+      // like "Read More" / "View Full Study" should navigate to CN detail pages
+      if (!a.closest('nav') && !a.classList.contains('mobile-nav-link')) return;
       var href = a.getAttribute('href');
       if (!href) return;
       // Resolve relative ../ hrefs to just the filename
