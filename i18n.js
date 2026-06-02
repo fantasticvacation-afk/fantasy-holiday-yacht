@@ -126,11 +126,11 @@ var dict = {
     "en": "Contact Us"
   },
   "index.31": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
     "en": "Tel: 13797920792 / +86 0755 3353-01888"
   },
   "index.32": {
-    "zh": "邮箱：hs@fantastic-vacation.com",
+    "zh": "邮箱:hs@fantastic-vacation.com",
     "en": "Email: hs@fantastic-vacation.com"
   },
   "index.33": {
@@ -142,7 +142,7 @@ var dict = {
     "en": "Define Marine Luxury"
   },
   "index.35": {
-    "zh": "从概念设计到远洋交付，从日间巡航到环球航行，我们重新定义每一寸海洋体验。",
+    "zh": "从概念设计到远洋交付,从日间巡航到环球航行,我们重新定义每一寸海洋体验。",
     "en": "From concept design to ocean delivery, from day cruising to global voyages, we redefine every inch of the marine experience."
   },
   "index.36": {
@@ -182,7 +182,7 @@ var dict = {
     "en": "Why Choose FANTASTIC VACATION"
   },
   "index.45": {
-    "zh": "我们不只是游艇服务商，更是您海洋生活方式的全方位策展人",
+    "zh": "我们不只是游艇服务商,更是您海洋生活方式的全方位策展人",
     "en": "We are not just a yacht service provider, but your all-around curator of marine lifestyle"
   },
   "index.46": {
@@ -194,8 +194,8 @@ var dict = {
     "en": "Full Industry Chain Integration"
   },
   "index.48": {
-    "zh": "从游艇研发设计、船厂制造监造，到交付后的运营管理、维修保养、保险合规——我们提供游艇全生命周期的一站式解决方案。",
-    "en": "From yacht R&D design, shipyard manufacturing supervision, to post-delivery operation management, maintenance, insurance & compliance — we provide one-stop solutions for the entire yacht lifecycle."
+    "zh": "从游艇研发设计、船厂制造监造,到交付后的运营管理、维修保养、保险合规--我们提供游艇全生命周期的一站式解决方案。",
+    "en": "From yacht R&D design, shipyard manufacturing supervision, to post-delivery operation management, maintenance, insurance & compliance - we provide one-stop solutions for the entire yacht lifecycle."
   },
   "index.49": {
     "zh": "了解更多 →",
@@ -210,8 +210,8 @@ var dict = {
     "en": "Top-Tier Design Capability"
   },
   "index.52": {
-    "zh": "携手意大利、荷兰、德国等全球顶尖船舶设计事务所，将艺术美学与工程性能完美融合，每艘游艇都是独一无二的海上艺术品。",
-    "en": "Partnered with world's top naval architecture firms in Italy, Netherlands, Germany, perfectly blending artistic aesthetics with engineering performance — each yacht is a unique seafaring artwork."
+    "zh": "携手意大利、荷兰、德国等全球顶尖船舶设计事务所,将艺术美学与工程性能完美融合,每艘游艇都是独一无二的海上艺术品。",
+    "en": "Partnered with world's top naval architecture firms in Italy, Netherlands, Germany, perfectly blending artistic aesthetics with engineering performance - each yacht is a unique seafaring artwork."
   },
   "index.53": {
     "zh": "探索定制 →",
@@ -226,8 +226,8 @@ var dict = {
     "en": "Global Network Coverage"
   },
   "index.56": {
-    "zh": "在地中海、加勒比海、东南亚、中东、北欧等全球30+热门海域设有服务基地，无论您的航程指向何方，我们都能即时响应。",
-    "en": "Service bases in 30+ popular waters worldwide including Mediterranean, Caribbean, Southeast Asia, Middle East, Northern Europe — wherever your voyage leads, we respond instantly."
+    "zh": "在地中海、加勒比海、东南亚、中东、北欧等全球30+热门海域设有服务基地,无论您的航程指向何方,我们都能即时响应。",
+    "en": "Service bases in 30+ popular waters worldwide including Mediterranean, Caribbean, Southeast Asia, Middle East, Northern Europe - wherever your voyage leads, we respond instantly."
   },
   "index.57": {
     "zh": "查看航线 →",
@@ -282,7 +282,7 @@ var dict = {
     "en": "Navigation Class"
   },
   "index.71": {
-    "zh": "专为全球高端富豪打造，融合宫殿级居住空间与尖端航海科技。",
+    "zh": "专为全球高端富豪打造,融合宫殿级居住空间与尖端航海科技。",
     "en": "Built for the world's premier clients, blending palace-grade living space with cutting-edge maritime technology."
   },
   "index.72": {
@@ -314,7 +314,7 @@ var dict = {
     "en": "Special Certification"
   },
   "index.79": {
-    "zh": "探险型远洋游艇，可深入南极、阿拉斯加等极地海域，不失五星舒适度。",
+    "zh": "探险型远洋游艇,可深入南极、阿拉斯加等极地海域,不失五星舒适度。",
     "en": "Expedition superyacht, capable of reaching polar waters like Antarctica and Alaska without compromising 5-star comfort."
   },
   "index.80": {
@@ -346,7 +346,7 @@ var dict = {
     "en": "Max Speed"
   },
   "index.87": {
-    "zh": "经典飞桥运动游艇，适合地中海沿岸巡航与岛屿跳岛之旅。",
+    "zh": "经典飞桥运动游艇,适合地中海沿岸巡航与岛屿跳岛之旅。",
     "en": "Classic flybridge motoryacht, ideal for Mediterranean coastal cruising and island hopping."
   },
   "index.88": {
@@ -378,7 +378,7 @@ var dict = {
     "en": "Max Speed"
   },
   "index.95": {
-    "zh": "精致紧凑的日间巡航游艇，入门级奢华海享方案。",
+    "zh": "精致紧凑的日间巡航游艇,入门级奢华海享方案。",
     "en": "Refined and compact day cruiser, an entry-level luxury marine solution."
   },
   "index.96": {
@@ -412,11 +412,11 @@ var dict = {
     "en": "Full-Process Customization Capability"
   },
   "index.103": {
-    "zh": "从最初的概念草图到最终的海上交付，奇幻假期的定制服务涵盖游艇诞生的每一个环节。",
+    "zh": "从最初的概念草图到最终的海上交付,奇幻假期的定制服务涵盖游艇诞生的每一个环节。",
     "en": "From initial concept sketches to final ocean delivery, Fantastic Vacation's customization service covers every stage of a yacht's birth."
   },
   "index.104": {
-    "zh": "我们的国际化团队汇聚了来自意大利、荷兰、德国、日本的顶尖设计师与工程师，在船体流体力学、内部空间规划、智能系统集成、环保动力方案等领域拥有深厚的专业积累。",
+    "zh": "我们的国际化团队汇聚了来自意大利、荷兰、德国、日本的顶尖设计师与工程师,在船体流体力学、内部空间规划、智能系统集成、环保动力方案等领域拥有深厚的专业积累。",
     "en": "Our international team brings together top designers and engineers from Italy, Netherlands, Germany, and Japan, with deep expertise in hull hydrodynamics, interior space planning, smart system integration, and eco-friendly propulsion solutions."
   },
   "index.105": {
@@ -424,7 +424,7 @@ var dict = {
     "en": "Exterior Design"
   },
   "index.106": {
-    "zh": "联合全球高端船舶设计工作室，打造独一无二的视觉语言",
+    "zh": "联合全球高端船舶设计工作室,打造独一无二的视觉语言",
     "en": "In partnership with world's top naval design studios to create a unique visual language"
   },
   "index.107": {
@@ -441,7 +441,7 @@ var dict = {
   },
   "index.110": {
     "zh": "稳定系统、减摇鳍、零速鳍、岸电系统全面定制",
-    "en": "Stabilization systems, anti-roll fins, zero-speed fins, shore power — fully customized"
+    "en": "Stabilization systems, anti-roll fins, zero-speed fins, shore power - fully customized"
   },
   "index.111": {
     "zh": "智能科技",
@@ -464,7 +464,7 @@ var dict = {
     "en": "Selected Global Routes"
   },
   "index.116": {
-    "zh": "从地中海的蔚蓝海岸到加勒比的珍珠群岛，为您呈现地球上最令人心动的海上旅程",
+    "zh": "从地中海的蔚蓝海岸到加勒比的珍珠群岛,为您呈现地球上最令人心动的海上旅程",
     "en": "From the azure coast of the Mediterranean to the Pearl Islands of the Caribbean, presenting the most breathtaking sea journeys on Earth"
   },
   "index.117": {
@@ -480,7 +480,7 @@ var dict = {
     "en": "Azure Coast · Classic Mediterranean Circuit"
   },
   "index.120": {
-    "zh": "摩纳哥→尼斯→戛纳→热那亚→阿马尔菲海岸，途经世界高端游艇俱乐部。",
+    "zh": "摩纳哥→尼斯→戛纳→热那亚→阿马尔菲海岸,途经世界高端游艇俱乐部。",
     "en": "Monaco → Nice → Cannes → Genoa → Amalfi Coast, passing the world's premier yacht clubs."
   },
   "index.121": {
@@ -504,7 +504,7 @@ var dict = {
     "en": "Pearl Islands · Caribbean Luxury Journey"
   },
   "index.126": {
-    "zh": "巴哈马→特克斯凯科斯→英属维尔京群岛，清澈温水与隐秘海湾。",
+    "zh": "巴哈马→特克斯凯科斯→英属维尔京群岛,清澈温水与隐秘海湾。",
     "en": "Bahamas → Turks & Caicos → British Virgin Islands, crystal-clear warm waters and hidden bays."
   },
   "index.127": {
@@ -528,7 +528,7 @@ var dict = {
     "en": "Jade Waters · Andaman Sea Secret Cruise"
   },
   "index.132": {
-    "zh": "普吉岛→皮皮岛→缅甸丹老群岛，丰富水上活动与地道泰式料理。",
+    "zh": "普吉岛→皮皮岛→缅甸丹老群岛,丰富水上活动与地道泰式料理。",
     "en": "Phuket → Phi Phi → Myanmar's Mergui Archipelago, rich water activities & authentic Thai cuisine."
   },
   "index.133": {
@@ -556,7 +556,7 @@ var dict = {
     "en": "360° Management & Maintenance System"
   },
   "index.139": {
-    "zh": "专业的游艇资产管理服务，让您的海上资产始终处于最佳状态",
+    "zh": "专业的游艇资产管理服务,让您的海上资产始终处于最佳状态",
     "en": "Professional yacht asset management services, keeping your marine assets in peak condition at all times"
   },
   "index.140": {
@@ -644,7 +644,7 @@ var dict = {
     "en": "Full Customization"
   },
   "index.162": {
-    "zh": "中东王室委托，历时38个月，搭载直升机平台、潜艇车库、IMAX影院。2024年荣获Asia Boating Awards年度最佳定制游艇。",
+    "zh": "中东王室委托,历时38个月,搭载直升机平台、潜艇车库、IMAX影院。2024年荣获Asia Boating Awards年度最佳定制游艇。",
     "en": "Commissioned by Middle East royal family, 38 months in build, featuring helipad, submarine garage, IMAX theater. Winner of Asia Boating Awards 2024 Custom Yacht of the Year."
   },
   "index.163": {
@@ -656,7 +656,7 @@ var dict = {
     "en": "30-Day Mediterranean Deep Cruise"
   },
   "index.165": {
-    "zh": "欧洲家族企业定制，途经12个国家24个港口，配备米其林主厨与私人潜水教练。",
+    "zh": "欧洲家族企业定制,途经12个国家24个港口,配备米其林主厨与私人潜水教练。",
     "en": "Customized for European family business, through 24 ports in 12 countries, with Michelin-starred chef and private dive instructor."
   },
   "index.166": {
@@ -668,7 +668,7 @@ var dict = {
     "en": "Middle East Royal Fleet 5-Year Full Management"
   },
   "index.168": {
-    "zh": "管理3艘超级游艇（45m/62m/88m），5年零重大事故运营记录。",
+    "zh": "管理3艘超级游艇(45m/62m/88m),5年零重大事故运营记录。",
     "en": "Managing 3 superyachts (45m/62m/88m), zero major incidents in 5-year operation record."
   },
   "index.169": {
@@ -700,7 +700,7 @@ var dict = {
     "en": "Fantastic Vacation Hong Kong Operation Center Officially Opened"
   },
   "index.176": {
-    "zh": "2026年5月，奇幻假期深圳总部正式启用，统筹全球业务运营。",
+    "zh": "2026年5月,奇幻假期深圳总部正式启用,统筹全球业务运营。",
     "en": "May 2026, Fantastic Vacation establishes Asia-Pacific HQ in Central, Hong Kong, overseeing regional operations."
   },
   "index.177": {
@@ -712,7 +712,7 @@ var dict = {
     "en": "New Energy Yacht Orders Up 40%+"
   },
   "index.179": {
-    "zh": "混合动力与纯电动游艇订单量大幅增长，环保合规成为船东核心考量。",
+    "zh": "混合动力与纯电动游艇订单量大幅增长,环保合规成为船东核心考量。",
     "en": "Hybrid and full-electric yacht orders surged significantly, with environmental compliance becoming a core owner consideration."
   },
   "index.180": {
@@ -724,7 +724,7 @@ var dict = {
     "en": "Complete Guide to Yacht Party Planning"
   },
   "index.182": {
-    "zh": "从主题布置到菜单设计，活动策划专家分享海上派对举办攻略。",
+    "zh": "从主题布置到菜单设计,活动策划专家分享海上派对举办攻略。",
     "en": "From theme decoration to menu design, event planning experts share tips for hosting epic yacht parties."
   },
   "index.183": {
@@ -744,7 +744,7 @@ var dict = {
     "en": "Global Partnership Network"
   },
   "index.187": {
-    "zh": "携手世界高端合作伙伴，共建海洋奢华生态系统",
+    "zh": "携手世界高端合作伙伴,共建海洋奢华生态系统",
     "en": "Partnering with world's leading partners to build a marine luxury ecosystem"
   },
   "index.188": {
@@ -760,7 +760,7 @@ var dict = {
     "en": "🏝️ Marina Network"
   },
   "index.191": {
-    "zh": "覆盖全球80+高端游艇码头，为客户提供专属泊位预订与VIP接待服务。",
+    "zh": "覆盖全球80+高端游艇码头,为客户提供专属泊位预订与VIP接待服务。",
     "en": "Covering 80+ premium global marinas, providing clients with exclusive berth booking and VIP reception services."
   },
   "index.192": {
@@ -768,7 +768,7 @@ var dict = {
     "en": "✈️ Luxury Lifestyle Support"
   },
   "index.193": {
-    "zh": "整合私人航空、高端酒店、艺术品收藏等资源，打造无缝奢华体验链。",
+    "zh": "整合私人航空、高端酒店、艺术品收藏等资源,打造无缝奢华体验链。",
     "en": "Integrating private aviation, top hotels, art collection and more, creating a seamless luxury experience chain."
   },
   "index.194": {
@@ -784,7 +784,7 @@ var dict = {
     "en": "Legendary Voyage"
   },
   "index.197": {
-    "zh": "无论您正在寻找梦想中的第一艘游艇，还是希望升级现有服务体验，我们的专业顾问团队随时为您效劳。",
+    "zh": "无论您正在寻找梦想中的第一艘游艇,还是希望升级现有服务体验,我们的专业顾问团队随时为您效劳。",
     "en": "Whether you are looking for your dream first yacht or wish to upgrade your current service experience, our professional advisory team is at your service."
   },
   "index.198": {
@@ -808,7 +808,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "index.203": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantastic Vacation Industrial Co., Ltd. has been deeply engaged in the high-end yacht industry for 15 years, providing 200+ global high-net-worth clients with one-stop services across yacht customization, charter, and management."
   },
   "index.204": {
@@ -956,11 +956,11 @@ var dict = {
     "en": "Brand Positioning & Industry Standing"
   },
   "about.6": {
-    "zh": "奇幻假期（Fantastic Vacation）是中国领先的豪华游艇定制与海上生活服务商，致力于为高端客群打造世界级的游艇体验。公司汇聚全球顶尖游艇制造商资源，提供从定制设计、租赁航线到托管维保的全方位服务。",
+    "zh": "奇幻假期(Fantastic Vacation)是中国领先的豪华游艇定制与海上生活服务商,致力于为高端客群打造世界级的游艇体验。公司汇聚全球顶尖游艇制造商资源,提供从定制设计、租赁航线到托管维保的全方位服务。",
     "en": "Fantastic Vacation is China's premier luxury yacht customization and marine lifestyle service provider, dedicated to creating world-class yacht experiences for high-end clientele. The company brings together global leading yacht manufacturer resources, providing end-to-end services from custom design and charter routes to management and maintenance."
   },
   "about.7": {
-    "zh": "作为Ferretti集团中国区重点合作战略合作伙伴、Feadship技术合作方，公司已成为中国高端游艇市场的行业标杆。",
+    "zh": "作为Ferretti集团中国区重点合作战略合作伙伴、Feadship技术合作方,公司已成为中国高端游艇市场的行业标杆。",
     "en": "As the key strategic partner of Ferretti Group in China and a technical collaborator with Feadship, the company has become an industry leader in China's high-end yacht market."
   },
   "about.8": {
@@ -992,7 +992,7 @@ var dict = {
     "en": "🎯 Full Customization"
   },
   "about.15": {
-    "zh": "联合Ferretti、Feadship、Lürssen等高端船厂，为客户量身定制50-120米超级游艇，涵盖外观设计、内饰装修、功能规划等全流程服务。",
+    "zh": "联合Ferretti、Feadship、Lürssen等高端船厂,为客户量身定制50-120米超级游艇,涵盖外观设计、内饰装修、功能规划等全流程服务。",
     "en": "In partnership with top shipyards including Ferretti, Feadship, and Lürssen, we custom-build 50-120m superyachts tailored to each client, covering the full process from exterior design and interior fit-out to functional planning."
   },
   "about.16": {
@@ -1000,7 +1000,7 @@ var dict = {
     "en": "⛵ Charter Routes"
   },
   "about.17": {
-    "zh": "覆盖地中海、加勒比海、东南亚等20+热门海域，提供专业船长与船员服务，打造专属海上假期体验。",
+    "zh": "覆盖地中海、加勒比海、东南亚等20+热门海域,提供专业船长与船员服务,打造专属海上假期体验。",
     "en": "Covering 20+ popular sea areas such as the Mediterranean, Caribbean, and Southeast Asia, it provides professional captain and crew services to create an exclusive maritime vacation experience."
   },
   "about.18": {
@@ -1008,7 +1008,7 @@ var dict = {
     "en": "🔧 Management & Maintenance"
   },
   "about.19": {
-    "zh": "提供游艇日常运营管理、定期保养、应急维修、海事合规代办等一站式托管服务，让客户无后顾之忧。",
+    "zh": "提供游艇日常运营管理、定期保养、应急维修、海事合规代办等一站式托管服务,让客户无后顾之忧。",
     "en": "Providing one-sleading yacht management services including daily operation management, regular maintenance, emergency repairs, and maritime compliance assistance, giving clients complete peace of mind."
   },
   "about.20": {
@@ -1016,7 +1016,7 @@ var dict = {
     "en": "🌐 Global Service Network"
   },
   "about.21": {
-    "zh": "在香港、新加坡、东京、摩纳哥等地设有办事处，与全球50+优质码头建立战略合作。",
+    "zh": "在香港、新加坡、东京、摩纳哥等地设有办事处,与全球50+优质码头建立战略合作。",
     "en": "With offices in Hong Kong, Singapore, Tokyo, Monaco, and more, we have established strategic partnerships with 50+ premium marinas worldwide."
   },
   "about.22": {
@@ -1092,7 +1092,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "about.40": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantastic Vacation Industrial Co., Ltd. has been deeply engaged in the high-end yacht industry for 15 years, providing 200+ global high-net-worth clients with one-stop services across the entire yacht industry chain: customization, charter, and management."
   },
   "about.41": {
@@ -1376,12 +1376,12 @@ var dict = {
     "en": "Contact Us"
   },
   "contact.31": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "contact.32": {
-    "zh": "邮箱：hs@fantastic-vacation.com",
-    "en": "Email：hs@fantastic-vacation.com"
+    "zh": "邮箱:hs@fantastic-vacation.com",
+    "en": "Email:hs@fantastic-vacation.com"
   },
   "contact.33": {
     "zh": "联系我们",
@@ -1464,7 +1464,7 @@ var dict = {
     "en": "Dedicated service hotline"
   },
   "contact.53": {
-    "zh": "我们为不同服务场景设立了专属专线，确保您的每一次来电都能直达对应的专业团队。",
+    "zh": "我们为不同服务场景设立了专属专线,确保您的每一次来电都能直达对应的专业团队。",
     "en": "We have set up exclusive hotlines for different service scenarios to ensure that every call you make can go directly to the corresponding professional team."
   },
   "contact.54": {
@@ -1548,7 +1548,7 @@ var dict = {
     "en": "Make an appointment for exclusive consultation"
   },
   "contact.74": {
-    "zh": "填写以下信息，我们的专业顾问将在2小时内与您取得联系，为您量身定制专属方案。",
+    "zh": "填写以下信息,我们的专业顾问将在2小时内与您取得联系,为您量身定制专属方案。",
     "en": "Fill in the following information and our professional consultants will contact you within 2 hours to tailor an exclusive solution for you."
   },
   "contact.75": {
@@ -1656,7 +1656,7 @@ var dict = {
     "en": "Free Initial Consultation"
   },
   "contact.101": {
-    "zh": "提交需求表单，我们将在24小时内与您联系，提供初步方案建议。",
+    "zh": "提交需求表单,我们将在24小时内与您联系,提供初步方案建议。",
     "en": "Submit your inquiry and we'll contact you within 24 hours with initial recommendations."
   },
   "contact.102": {
@@ -1664,7 +1664,7 @@ var dict = {
     "en": "Book In-Store Experience"
   },
   "contact.103": {
-    "zh": "前往深圳或香港展厅，与专业顾问面对面沟通您的游艇梦想。",
+    "zh": "前往深圳或香港展厅,与专业顾问面对面沟通您的游艇梦想。",
     "en": "Visit our Shenzhen or Hong Kong showroom for a face-to-face consultation."
   },
   "contact.104": {
@@ -1672,7 +1672,7 @@ var dict = {
     "en": "Bespoke Custom Solution"
   },
   "contact.105": {
-    "zh": "根据您的需求与预算，我们的团队将量身打造专属游艇配置方案。",
+    "zh": "根据您的需求与预算,我们的团队将量身打造专属游艇配置方案。",
     "en": "Our team will create a tailored yacht configuration plan based on your needs and budget."
   },
   "contact.106": {
@@ -1680,7 +1680,7 @@ var dict = {
     "en": "Global Shipyard Liaison"
   },
   "contact.107": {
-    "zh": "从意大利到德国，从荷兰到美国，无缝对接全球高端船厂资源。",
+    "zh": "从意大利到德国,从荷兰到美国,无缝对接全球高端船厂资源。",
     "en": "Seamless connection to top shipyards worldwide, from Italy to Germany, Netherlands to the US."
   },
   "contact.108": {
@@ -1688,7 +1688,7 @@ var dict = {
     "en": "Delivery & After-Sales"
   },
   "contact.109": {
-    "zh": "专业的跨洋交付团队与全球售后服务网络，确保您的游艇交付与维护全程无忧。",
+    "zh": "专业的跨洋交付团队与全球售后服务网络,确保您的游艇交付与维护全程无忧。",
     "en": "Professional transoceanic delivery team and global after-sales network ensure worry-free delivery and maintenance."
   },
   "contact.110": {
@@ -1724,7 +1724,7 @@ var dict = {
     "en": "Industry benchmark service quality"
   },
   "contact.118": {
-    "zh": "连续3年荣获「亚洲最佳游艇服务提供商」，98%客户满意度",
+    "zh": "连续3年荣获「亚洲最佳游艇服务提供商」,98%客户满意度",
     "en": "Won \\'Asia's Best Yachting Service Provider\\' for 3 consecutive years with 98% customer satisfaction"
   },
   "contact.119": {
@@ -1736,7 +1736,7 @@ var dict = {
     "en": "Extremely fast response commitment"
   },
   "contact.121": {
-    "zh": "咨询表单2小时内回复，紧急需求30分钟内响应，绝不辜负您的等待",
+    "zh": "咨询表单2小时内回复,紧急需求30分钟内响应,绝不辜负您的等待",
     "en": "Inquiry forms will be responded to within 2 hours, emergency requests will be responded to within 30 minutes, and we will never let you down."
   },
   "contact.122": {
@@ -1748,7 +1748,7 @@ var dict = {
     "en": "Dedicated consultant will accompany you throughout the entire journey"
   },
   "contact.124": {
-    "zh": "从首次咨询到项目交付，同一顾问全程跟进，零沟通损耗",
+    "zh": "从首次咨询到项目交付,同一顾问全程跟进,零沟通损耗",
     "en": "From the first consultation to project delivery, the same consultant follows up throughout the process, with zero communication loss"
   },
   "contact.125": {
@@ -1760,7 +1760,7 @@ var dict = {
     "en": "Global service network guarantee"
   },
   "contact.127": {
-    "zh": "5大洲6大区域办事处，50+港口基地，无论您身在何处皆有专人服务",
+    "zh": "5大洲6大区域办事处,50+港口基地,无论您身在何处皆有专人服务",
     "en": "With 6 regional offices on 5 continents and 50+ port bases, dedicated service is available no matter where you are."
   },
   "contact.128": {
@@ -1772,7 +1772,7 @@ var dict = {
     "en": "Absolute privacy protection"
   },
   "contact.130": {
-    "zh": "国际标准隐私保护体系，客户信息加密存储，签署NDA保密协议",
+    "zh": "国际标准隐私保护体系,客户信息加密存储,签署NDA保密协议",
     "en": "International standard privacy protection system, encrypted storage of customer information, signed NDA confidentiality agreement"
   },
   "contact.131": {"zh": "", "en": "Explore the World, Live the Vacation"},
@@ -1781,7 +1781,7 @@ var dict = {
     "en": "Global Offices"
   },
   "contact.133": {
-    "zh": "奇幻假期在全球核心游艇市场设立直属办事处，为当地客户提供母语级服务支持与属地化合规保障。",
+    "zh": "奇幻假期在全球核心游艇市场设立直属办事处,为当地客户提供母语级服务支持与属地化合规保障。",
     "en": "Fantastic Vacation has established direct offices in key global yacht markets, providing native-level service support and localized compliance assurance."
   },
   "contact.134": {
@@ -1797,27 +1797,27 @@ var dict = {
     "en": "Asia-Pacific Strategic Center · Brand Management Center"
   },
   "contact.137": {
-    "zh": "地址：",
+    "zh": "地址:",
     "en": "Address: "
   },
   "contact.138": {
-    "zh": "邮编：",
+    "zh": "邮编:",
     "en": "Postal Code: "
   },
   "contact.139": {
-    "zh": "电话：",
+    "zh": "电话:",
     "en": "Tel: "
   },
   "contact.140": {
-    "zh": "邮箱：",
+    "zh": "邮箱:",
     "en": "Email: "
   },
   "contact.141": {
-    "zh": "服务范围：",
+    "zh": "服务范围:",
     "en": "Service Scope: "
   },
   "contact.142": {
-    "zh": "办公时间：",
+    "zh": "办公时间:",
     "en": "Office Hours: "
   },
   "contact.143": {
@@ -1833,24 +1833,24 @@ var dict = {
     "en": "Southeast Asia route operations · Yacht charter dispatch center"
   },
   "contact.146": {
-    "zh": "地址：",
-    "en": "Address："
+    "zh": "地址:",
+    "en": "Address:"
   },
   "contact.147": {
-    "zh": "电话：",
-    "en": "Tel："
+    "zh": "电话:",
+    "en": "Tel:"
   },
   "contact.148": {
-    "zh": "邮箱：",
-    "en": "Email："
+    "zh": "邮箱:",
+    "en": "Email:"
   },
   "contact.149": {
-    "zh": "服务范围：",
-    "en": "Service Scope："
+    "zh": "服务范围:",
+    "en": "Service Scope:"
   },
   "contact.150": {
-    "zh": "办公时间：",
-    "en": "Office Hours："
+    "zh": "办公时间:",
+    "en": "Office Hours:"
   },
   "contact.151": {
     "zh": "🇲🇨",
@@ -1865,24 +1865,24 @@ var dict = {
     "en": "Mediterranean route · European shipyard cooperation hub"
   },
   "contact.154": {
-    "zh": "地址：",
-    "en": "Address："
+    "zh": "地址:",
+    "en": "Address:"
   },
   "contact.155": {
-    "zh": "电话：",
-    "en": "Tel："
+    "zh": "电话:",
+    "en": "Tel:"
   },
   "contact.156": {
-    "zh": "邮箱：",
-    "en": "Email："
+    "zh": "邮箱:",
+    "en": "Email:"
   },
   "contact.157": {
-    "zh": "服务范围：",
-    "en": "Service Scope："
+    "zh": "服务范围:",
+    "en": "Service Scope:"
   },
   "contact.158": {
-    "zh": "办公时间：",
-    "en": "Office Hours："
+    "zh": "办公时间:",
+    "en": "Office Hours:"
   },
   "contact.159": {
     "zh": "🇦🇪",
@@ -1897,24 +1897,24 @@ var dict = {
     "en": "Middle East Royal Service · High-end Business Event Customization"
   },
   "contact.162": {
-    "zh": "地址：",
-    "en": "Address："
+    "zh": "地址:",
+    "en": "Address:"
   },
   "contact.163": {
-    "zh": "电话：",
-    "en": "Tel："
+    "zh": "电话:",
+    "en": "Tel:"
   },
   "contact.164": {
-    "zh": "邮箱：",
-    "en": "Email："
+    "zh": "邮箱:",
+    "en": "Email:"
   },
   "contact.165": {
-    "zh": "服务范围：",
-    "en": "Service Scope："
+    "zh": "服务范围:",
+    "en": "Service Scope:"
   },
   "contact.166": {
-    "zh": "办公时间：",
-    "en": "Office Hours："
+    "zh": "办公时间:",
+    "en": "Office Hours:"
   },
   "contact.167": {
     "zh": "🇺🇸",
@@ -1929,24 +1929,24 @@ var dict = {
     "en": "Caribbean route · American market expansion"
   },
   "contact.170": {
-    "zh": "地址：",
-    "en": "Address："
+    "zh": "地址:",
+    "en": "Address:"
   },
   "contact.171": {
-    "zh": "电话：",
-    "en": "Tel："
+    "zh": "电话:",
+    "en": "Tel:"
   },
   "contact.172": {
-    "zh": "邮箱：",
-    "en": "Email："
+    "zh": "邮箱:",
+    "en": "Email:"
   },
   "contact.173": {
-    "zh": "服务范围：",
-    "en": "Service Scope："
+    "zh": "服务范围:",
+    "en": "Service Scope:"
   },
   "contact.174": {
-    "zh": "办公时间：",
-    "en": "Office Hours："
+    "zh": "办公时间:",
+    "en": "Office Hours:"
   },
   "contact.175": {
     "zh": "🇨🇳",
@@ -1961,28 +1961,28 @@ var dict = {
     "en": "Mainland China Market Operations · Customer Service Center"
   },
   "contact.178": {
-    "zh": "地址：",
-    "en": "Address："
+    "zh": "地址:",
+    "en": "Address:"
   },
   "contact.179": {
-    "zh": "邮编：",
-    "en": "Postal Code："
+    "zh": "邮编:",
+    "en": "Postal Code:"
   },
   "contact.180": {
-    "zh": "电话：",
-    "en": "Tel："
+    "zh": "电话:",
+    "en": "Tel:"
   },
   "contact.181": {
-    "zh": "邮箱：",
-    "en": "Email："
+    "zh": "邮箱:",
+    "en": "Email:"
   },
   "contact.182": {
-    "zh": "服务范围：",
-    "en": "Service Scope："
+    "zh": "服务范围:",
+    "en": "Service Scope:"
   },
   "contact.183": {
-    "zh": "办公时间：",
-    "en": "Office Hours："
+    "zh": "办公时间:",
+    "en": "Office Hours:"
   },
   "contact.184": {"zh": "", "en": "Explore the World, Live the Vacation"},
   "contact.185": {"zh": "", "en": "Explore the World, Live the Vacation"},
@@ -2029,35 +2029,35 @@ var dict = {
     "en": "Corporate Compliance Information"
   },
   "contact.198": {
-    "zh": "企业全称：",
+    "zh": "企业全称:",
     "en": "Legal Name: "
   },
   "contact.199": {
-    "zh": "注册地：",
+    "zh": "注册地:",
     "en": "Registered In: "
   },
   "contact.200": {
-    "zh": "公司注册编号：",
+    "zh": "公司注册编号:",
     "en": "Company Reg No: "
   },
   "contact.201": {
-    "zh": "商业登记证号码：",
+    "zh": "商业登记证号码:",
     "en": "Business Reg No: "
   },
   "contact.202": {
-    "zh": "注册地址：",
+    "zh": "注册地址:",
     "en": "Registered Address: "
   },
   "contact.203": {
-    "zh": "法定代表人：",
+    "zh": "法定代表人:",
     "en": "Legal Representative: "
   },
   "contact.204": {
-    "zh": "合规备案：",
+    "zh": "合规备案:",
     "en": "Compliance: "
   },
   "contact.205": {
-    "zh": "保险合作：",
+    "zh": "保险合作:",
     "en": "Insurance Partners: "
   },
   "contact.206": {
@@ -2069,7 +2069,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "contact.208": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantastic Vacation has been dedicated to the premium yacht industry for 15 years, providing one-sleading yacht customization, charter, and management services for 200+ global high-net-worth clients."
   },
   "contact.209": {
@@ -2210,7 +2210,7 @@ var dict = {
   },
   "contact.243": {
     "zh": "亚洲最佳游艇服务商三连冠",
-    "en": "Asia’s Best Yacht Service Provider won three consecutive titles"
+    "en": "Asia's Best Yacht Service Provider won three consecutive titles"
   },
   "contact.244": {
     "zh": "© 2020-2026 奇幻假期实业有限公司 FANTASTIC VACATION INDUSTRIAL CO., LTD. 保留所有权利。",
@@ -2353,11 +2353,11 @@ var dict = {
     "en": "Contact Us"
   },
   "yachts.31": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
     "en": "Tel: 13797920792 / +86 0755 3353-01888"
   },
   "yachts.32": {
-    "zh": "邮箱：hs@fantastic-vacation.com",
+    "zh": "邮箱:hs@fantastic-vacation.com",
     "en": "Email: hs@fantastic-vacation.com"
   },
   "yachts.33": {
@@ -4009,11 +4009,11 @@ var dict = {
     "en": "Details →"
   },
   "yachts.445": {
-    "zh": "找不到心仪的船型？",
+    "zh": "找不到心仪的船型?",
     "en": "Can't find the boat type you like?"
   },
   "yachts.446": {
-    "zh": "我们提供全流程定制服务，从概念设计到交付运营，打造独一无二的专属游艇。奇幻假期原创设计团队将您的愿景变为现实。",
+    "zh": "我们提供全流程定制服务,从概念设计到交付运营,打造独一无二的专属游艇。奇幻假期原创设计团队将您的愿景变为现实。",
     "en": "We provide full-process customization services, from concept design to delivery and operation, to create unique and exclusive yachts. The Fantasy Vacation Original Design team brings your vision to life."
   },
   "yachts.447": {
@@ -4033,7 +4033,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yachts.451": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantastic Vacation Industrial Co., Ltd. has been deeply engaged in the high-end yacht industry for 15 years, providing 200+ global high-net-worth clients with one-stop services across yacht customization, charter, and management."
   },
   "yachts.452": {
@@ -4329,7 +4329,7 @@ var dict = {
     "en": "Corporate Culture"
   },
   "about-culture.157": {
-    "zh": "匠心造船，品质致远",
+    "zh": "匠心造船,品质致远",
     "en": "Shipbuilding with craftsmanship and quality"
   },
   "about-culture.161": {
@@ -4341,7 +4341,7 @@ var dict = {
     "en": "Excellent quality"
   },
   "about-culture.169": {
-    "zh": "以高端工艺标准打造每一艘游艇，追求完美细节。",
+    "zh": "以高端工艺标准打造每一艘游艇,追求完美细节。",
     "en": "Each yacht is built with top craftsmanship standards and pursues perfect details."
   },
   "about-culture.175": {
@@ -4349,7 +4349,7 @@ var dict = {
     "en": "Customer first"
   },
   "about-culture.177": {
-    "zh": "以客户需求为中心，提供个性化定制服务。",
+    "zh": "以客户需求为中心,提供个性化定制服务。",
     "en": "Focusing on customer needs, we provide personalized customized services."
   },
   "about-culture.183": {
@@ -4365,7 +4365,7 @@ var dict = {
     "en": "Craftsman spirit and shipbuilding culture"
   },
   "about-culture.194": {
-    "zh": "在奇幻假期，每一艘游艇都是匠心之作。我们传承欧洲百年造船工艺，结合现代科技与东方美学，为客户打造独一无二的海上艺术品。",
+    "zh": "在奇幻假期,每一艘游艇都是匠心之作。我们传承欧洲百年造船工艺,结合现代科技与东方美学,为客户打造独一无二的海上艺术品。",
     "en": "On a fantasy vacation, every yacht is a work of art. We inherit centuries-old European shipbuilding craftsmanship, combine modern technology with oriental aesthetics, and create unique maritime works of art for our customers."
   },
   "about-culture.196": {
@@ -4381,11 +4381,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "about-culture.219": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\\'Explore the world and live up to your vacation\\'"
   },
   "about-culture.222": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "about-culture.227": {
@@ -4577,7 +4577,7 @@ var dict = {
     "en": "2026"
   },
   "about-history.163": {
-    "zh": "亚太区总部在香港正式成立，全球服务网络扩展至50+港口。与Aman、Four Seasons等高端酒店集团达成战略合作，进军海上文旅板块。完成B轮融资后估值突破20亿人民币。",
+    "zh": "亚太区总部在香港正式成立,全球服务网络扩展至50+港口。与Aman、Four Seasons等高端酒店集团达成战略合作,进军海上文旅板块。完成B轮融资后估值突破20亿人民币。",
     "en": "The Asia-Pacific headquarters was officially established in Hong Kong, and the global service network expanded to 50+ ports. "
   },
   "about-history.165": {
@@ -4585,7 +4585,7 @@ var dict = {
     "en": "2025"
   },
   "about-history.166": {
-    "zh": "与荷兰Feadship签署技术合作协议，获得先进造船工艺授权。年度交付量突破100艘，营收突破10亿人民币。获评「亚洲最佳游艇服务提供商」荣誉。",
+    "zh": "与荷兰Feadship签署技术合作协议,获得先进造船工艺授权。年度交付量突破100艘,营收突破10亿人民币。获评「亚洲最佳游艇服务提供商」荣誉。",
     "en": "Signed a technical cooperation agreement with Feadship of the Netherlands and obtained authorization for advanced shipbuilding technology. The annual delivery volume exceeded 100 ships, and the revenue exceeded 1 billion yuan. Won the honor of Best Yachting Service Provider in Asia."
   },
   "about-history.168": {
@@ -4593,7 +4593,7 @@ var dict = {
     "en": "2024"
   },
   "about-history.169": {
-    "zh": "完成A轮融资1.2亿元。与意大利Ferretti集团达成中国区重点合作战略合作。交付首艘国产超大型游艇「君临88米」，填补国内空白。",
+    "zh": "完成A轮融资1.2亿元。与意大利Ferretti集团达成中国区重点合作战略合作。交付首艘国产超大型游艇「君临88米」,填补国内空白。",
     "en": "Completed Series A financing of RMB 120 million. Reached an strategic cooperation in China with the Italian Ferretti Group. Delivered the first domestically produced ultra-large yacht Junlin 88 Meter, filling a gap in the country."
   },
   "about-history.171": {
@@ -4601,8 +4601,8 @@ var dict = {
     "en": "2023"
   },
   "about-history.172": {
-    "zh": "奇幻假期实业有限公司在上海成立。首款定制游艇交付，客户覆盖中国高端富豪圈层。创始人王潇生曾任职LVMH集团游艇事业部。",
-    "en": "Fantasy Holiday Industrial Co., Ltd. was established in Shanghai. The first customized yacht was delivered to customers covering China’s top wealthy circles. The founder, Chen Hanyu, once worked in the yacht division of LVMH Group."
+    "zh": "奇幻假期实业有限公司在上海成立。首款定制游艇交付,客户覆盖中国高端富豪圈层。创始人王潇生曾任职LVMH集团游艇事业部。",
+    "en": "Fantasy Holiday Industrial Co., Ltd. was established in Shanghai. The first customized yacht was delivered to customers covering China's top wealthy circles. The founder, Chen Hanyu, once worked in the yacht division of LVMH Group."
   },
   "about-history.177": {
     "zh": "成长数据",
@@ -4649,11 +4649,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "about-history.213": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\\'Explore the world and live up to your vacation\\'"
   },
   "about-history.216": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "about-history.221": {
@@ -4845,11 +4845,11 @@ var dict = {
     "en": "Brand positioning and industry status"
   },
   "about-intro.165": {
-    "zh": "奇幻假期（Fantastic Vacation）是中国领先的豪华游艇定制与海上生活服务商，致力于为高端客群打造世界级的游艇体验。公司汇聚全球顶尖游艇制造商资源，提供从定制设计、租赁航线到托管维保的全方位服务。",
+    "zh": "奇幻假期(Fantastic Vacation)是中国领先的豪华游艇定制与海上生活服务商,致力于为高端客群打造世界级的游艇体验。公司汇聚全球顶尖游艇制造商资源,提供从定制设计、租赁航线到托管维保的全方位服务。",
     "en": "Fantastic Vacation is China's premier luxury yacht customization and maritime life service provider, committed to creating a world-class yacht experience for high-end customers. The company brings together the resources of the world's leading yacht manufacturers to provide a full range of services from customized design, charter routes to managed maintenance."
   },
   "about-intro.167": {
-    "zh": "作为Ferretti集团中国区重点合作战略合作伙伴、Feadship技术合作方，公司已成为中国高端游艇市场的行业标杆。",
+    "zh": "作为Ferretti集团中国区重点合作战略合作伙伴、Feadship技术合作方,公司已成为中国高端游艇市场的行业标杆。",
     "en": "As the key strategic partner and Feadship technical partner of Ferretti Group in China, the company has become an industry leader in China's high-end yacht market."
   },
   "about-intro.172": {
@@ -4893,7 +4893,7 @@ var dict = {
     "en": "🎯 Full Customization"
   },
   "about-intro.194": {
-    "zh": "联合Ferretti、Feadship、Lürssen等高端船厂，为客户量身定制50-120米超级游艇，涵盖外观设计、内饰装修、功能规划等全流程服务。",
+    "zh": "联合Ferretti、Feadship、Lürssen等高端船厂,为客户量身定制50-120米超级游艇,涵盖外观设计、内饰装修、功能规划等全流程服务。",
     "en": "Cooperating with top shipyards such as Ferretti, Feadship, and Lürssen, we can customize 50-120-meter superyachts for customers, covering full-process services such as exterior design, interior decoration, and functional planning."
   },
   "about-intro.196": {
@@ -4901,7 +4901,7 @@ var dict = {
     "en": "⛵ Charter Routes"
   },
   "about-intro.197": {
-    "zh": "覆盖地中海、加勒比海、东南亚等20+热门海域，提供专业船长与船员服务，打造专属海上假期体验。",
+    "zh": "覆盖地中海、加勒比海、东南亚等20+热门海域,提供专业船长与船员服务,打造专属海上假期体验。",
     "en": "Covering 20+ popular sea areas such as the Mediterranean, Caribbean, and Southeast Asia, it provides professional captain and crew services to create an exclusive maritime vacation experience."
   },
   "about-intro.199": {
@@ -4909,7 +4909,7 @@ var dict = {
     "en": "🔧 Management & Maintenance"
   },
   "about-intro.200": {
-    "zh": "提供游艇日常运营管理、定期保养、应急维修、海事合规代办等一站式托管服务，让客户无后顾之忧。",
+    "zh": "提供游艇日常运营管理、定期保养、应急维修、海事合规代办等一站式托管服务,让客户无后顾之忧。",
     "en": "Provide one-stop custody services such as daily operation management, regular maintenance, emergency repairs, and maritime compliance agency of yachts, so that customers have no worries."
   },
   "about-intro.202": {
@@ -4917,7 +4917,7 @@ var dict = {
     "en": "🌐 Global service network"
   },
   "about-intro.203": {
-    "zh": "在香港、新加坡、东京、摩纳哥等地设有办事处，与全球50+优质码头建立战略合作。",
+    "zh": "在香港、新加坡、东京、摩纳哥等地设有办事处,与全球50+优质码头建立战略合作。",
     "en": "It has offices in Hong Kong, Singapore, Tokyo, Monaco and other places, and has established strategic cooperation with 50+ high-quality terminals around the world."
   },
   "about-intro.210": {
@@ -4973,11 +4973,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "about-intro.255": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\\'Explore the world and live up to your vacation\\'"
   },
   "about-intro.258": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "about-intro.263": {
@@ -5161,7 +5161,7 @@ var dict = {
     "en": "Social Responsibility"
   },
   "about-responsibility.157": {
-    "zh": "践行可持续发展理念，共筑蓝色海洋未来",
+    "zh": "践行可持续发展理念,共筑蓝色海洋未来",
     "en": "Practice the concept of sustainable development and build a blue ocean future together"
   },
   "about-responsibility.161": {
@@ -5173,7 +5173,7 @@ var dict = {
     "en": "🌱 Low-carbon shipbuilding technology"
   },
   "about-responsibility.165": {
-    "zh": "采用环保材料和节能技术，减少造船过程中的碳排放。",
+    "zh": "采用环保材料和节能技术,减少造船过程中的碳排放。",
     "en": "Use environmentally friendly materials and energy-saving technologies to reduce carbon emissions in the shipbuilding process."
   },
   "about-responsibility.167": {
@@ -5189,7 +5189,7 @@ var dict = {
     "en": "🐠 Marine ecological protection"
   },
   "about-responsibility.171": {
-    "zh": "参与海洋生态修复项目，保护海洋生物多样性。",
+    "zh": "参与海洋生态修复项目,保护海洋生物多样性。",
     "en": "Participate in marine ecological restoration projects and protect marine biodiversity."
   },
   "about-responsibility.177": {
@@ -5201,7 +5201,7 @@ var dict = {
     "en": "🤝 Ocean protection charity"
   },
   "about-responsibility.181": {
-    "zh": "与海洋环保组织合作，开展海岸线清洁活动。",
+    "zh": "与海洋环保组织合作,开展海岸线清洁活动。",
     "en": "Partner with marine environmental groups to conduct shoreline cleanups."
   },
   "about-responsibility.183": {
@@ -5209,7 +5209,7 @@ var dict = {
     "en": "🎓 Educational support"
   },
   "about-responsibility.184": {
-    "zh": "支持海洋科学教育，培养行业人才。",
+    "zh": "支持海洋科学教育,培养行业人才。",
     "en": "Support marine science education and cultivate industry talents."
   },
   "about-responsibility.186": {
@@ -5229,7 +5229,7 @@ var dict = {
     "en": "⚓ Safe operation"
   },
   "about-responsibility.198": {
-    "zh": "严格执行国际安全标准，确保每一次航行安全。",
+    "zh": "严格执行国际安全标准,确保每一次航行安全。",
     "en": "Strictly implement international safety standards to ensure the safety of every voyage."
   },
   "about-responsibility.200": {
@@ -5237,7 +5237,7 @@ var dict = {
     "en": "📋 Compliance management"
   },
   "about-responsibility.201": {
-    "zh": "遵守各国法律法规，规范行业标准。",
+    "zh": "遵守各国法律法规,规范行业标准。",
     "en": "Comply with laws and regulations of various countries and standardize industry standards."
   },
   "about-responsibility.203": {
@@ -5245,7 +5245,7 @@ var dict = {
     "en": "🏆Industry promotion"
   },
   "about-responsibility.204": {
-    "zh": "参与行业标准制定，推动行业健康发展。",
+    "zh": "参与行业标准制定,推动行业健康发展。",
     "en": "Participate in the formulation of industry standards and promote the healthy development of the industry."
   },
   "about-responsibility.222": {
@@ -5257,11 +5257,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "about-responsibility.228": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\\'Explore the world and live up to your vacation\\'"
   },
   "about-responsibility.231": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "about-responsibility.236": {
@@ -5501,7 +5501,7 @@ var dict = {
     "en": "CEO"
   },
   "about-structure.223": {
-    "zh": "负责公司整体战略规划与决策，统筹全球业务发展，推动行业创新方向。",
+    "zh": "负责公司整体战略规划与决策,统筹全球业务发展,推动行业创新方向。",
     "en": "Responsible for the company's overall strategic planning and decision-making, coordinating global business development, and driving the industry's innovation direction."
   },
   "about-structure.235": {
@@ -5509,7 +5509,7 @@ var dict = {
     "en": "Sales Department"
   },
   "about-structure.237": {
-    "zh": "负责全球游艇销售、定制方案咨询与客户关系维护。团队拥有丰富的行业经验，为客户提供专业的购艇建议与金融服务方案。",
+    "zh": "负责全球游艇销售、定制方案咨询与客户关系维护。团队拥有丰富的行业经验,为客户提供专业的购艇建议与金融服务方案。",
     "en": "Responsible for global yacht sales, customized solution consulting and customer relationship maintenance. The team has rich industry experience and provides customers with professional boat purchasing advice and financial service solutions."
   },
   "about-structure.240": {
@@ -5533,7 +5533,7 @@ var dict = {
     "en": "Rental Operations Department"
   },
   "about-structure.258": {
-    "zh": "管理全球租赁航线运营，包括船期安排、航线规划、船员管理与客户体验优化，确保每一次航行都完美无瑕。",
+    "zh": "管理全球租赁航线运营,包括船期安排、航线规划、船员管理与客户体验优化,确保每一次航行都完美无瑕。",
     "en": "Manage global charter route operations, including sailing schedules, route planning, crew management and customer experience optimization, to ensure that every voyage is flawless."
   },
   "about-structure.261": {
@@ -5557,7 +5557,7 @@ var dict = {
     "en": "Technical Service Department"
   },
   "about-structure.279": {
-    "zh": "提供全方位的游艇技术支持，包括日常维保、年度检修、升级改装及紧急救援服务，保障每艘游艇始终处于最佳状态。",
+    "zh": "提供全方位的游艇技术支持,包括日常维保、年度检修、升级改装及紧急救援服务,保障每艘游艇始终处于最佳状态。",
     "en": "Provide a full range of yacht technical support, including daily maintenance, annual inspections, upgrades and modifications, and emergency rescue services to ensure that each yacht is always in the best condition."
   },
   "about-structure.282": {
@@ -5581,7 +5581,7 @@ var dict = {
     "en": "Marketing and Brand Department"
   },
   "about-structure.300": {
-    "zh": "负责品牌建设、市场推广与公关活动，通过多渠道营销策略提升品牌影响力，打造行业标杆形象。",
+    "zh": "负责品牌建设、市场推广与公关活动,通过多渠道营销策略提升品牌影响力,打造行业标杆形象。",
     "en": "Responsible for brand building, marketing and public relations activities, enhancing brand influence through multi-channel marketing strategies and creating an industry leader image."
   },
   "about-structure.303": {
@@ -5605,7 +5605,7 @@ var dict = {
     "en": "Finance Department"
   },
   "about-structure.321": {
-    "zh": "负责公司财务管理、资金运作、税务筹划与风险控制，为业务发展提供稳健的财务支撑与战略建议。",
+    "zh": "负责公司财务管理、资金运作、税务筹划与风险控制,为业务发展提供稳健的财务支撑与战略建议。",
     "en": "Responsible for the company's financial management, capital operations, tax planning and risk control, and providing stable financial support and strategic advice for business development."
   },
   "about-structure.324": {
@@ -5629,7 +5629,7 @@ var dict = {
     "en": "Human Resources Department"
   },
   "about-structure.342": {
-    "zh": "负责人才招聘、培训发展、绩效管理与企业文化建设，打造高素质的专业团队，为公司持续发展提供人才保障。",
+    "zh": "负责人才招聘、培训发展、绩效管理与企业文化建设,打造高素质的专业团队,为公司持续发展提供人才保障。",
     "en": "Responsible for talent recruitment, training and development, performance management and corporate culture construction, building a high-quality professional team to provide talent guarantee for the company's sustainable development."
   },
   "about-structure.345": {
@@ -5745,11 +5745,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "about-structure.462": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\\'Explore the world and live up to your vacation\\'"
   },
   "about-structure.465": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "about-structure.470": {
@@ -5913,7 +5913,7 @@ var dict = {
     "en": "200+"
   },
   "about.254": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\\'Explore the world and live up to your vacation\\'"
   },
   "about.290": {
@@ -6089,8 +6089,8 @@ var dict = {
     "en": "Contact Us"
   },
   "case-001.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "case-001.260": {
     "zh": "全案定制",
@@ -6113,7 +6113,7 @@ var dict = {
     "en": "82-meter super yacht 'Magic Blue'"
   },
   "case-001.272": {
-    "zh": "中东王室委托的全案定制项目，历时38个月完成。搭载直升机平台、潜艇车库、医疗中心及IMAX影院。2024年荣获Asia Boating Awards年度最佳定制游艇大奖。",
+    "zh": "中东王室委托的全案定制项目,历时38个月完成。搭载直升机平台、潜艇车库、医疗中心及IMAX影院。2024年荣获Asia Boating Awards年度最佳定制游艇大奖。",
     "en": "The entire customized project commissioned by the Middle Eastern royal family took 38 months to complete. It is equipped with a helicopter platform, submarine garage, medical center and IMAX theater. In 2024, it won the Asia Boating Awards Best Custom Yacht of the Year award."
   },
   "case-001.275": {
@@ -6253,7 +6253,7 @@ var dict = {
     "en": "Customer needs and project background"
   },
   "case-001.339": {
-    "zh": "深度理解客户诉求，定制专属解决方案",
+    "zh": "深度理解客户诉求,定制专属解决方案",
     "en": "Deeply understand customer demands and customize exclusive solutions"
   },
   "case-001.342": {
@@ -6261,7 +6261,7 @@ var dict = {
     "en": "📋Project background"
   },
   "case-001.344": {
-    "zh": "客户为中东王室成员，需打造一艘集私人度假、家族聚会与高端公务接待于一体的超级游艇。对游艇的私密性、奢华度、功能多样性及跨海域航行能力均有极高要求。",
+    "zh": "客户为中东王室成员,需打造一艘集私人度假、家族聚会与高端公务接待于一体的超级游艇。对游艇的私密性、奢华度、功能多样性及跨海域航行能力均有极高要求。",
     "en": "The client is a member of the Middle Eastern royal family and needs to build a superyacht that integrates private vacations, family gatherings and high-end official receptions. There are extremely high requirements for the privacy, luxury, functional diversity and cross-sea navigation capabilities of yachts."
   },
   "case-001.348": {
@@ -6269,31 +6269,31 @@ var dict = {
     "en": "🎯 Core demands"
   },
   "case-001.351": {
-    "zh": "可容纳16位宾客的奢华客舱，每间均需独立卫浴、观景阳台",
+    "zh": "可容纳16位宾客的奢华客舱,每间均需独立卫浴、观景阳台",
     "en": "Luxurious cabins that can accommodate 16 guests, each with private bathroom and viewing balcony"
   },
   "case-001.353": {
-    "zh": "搭载直升机起降平台，实现与陆地无缝接驳",
+    "zh": "搭载直升机起降平台,实现与陆地无缝接驳",
     "en": "Equipped with a helicopter landing platform to achieve seamless connection with the land"
   },
   "case-001.355": {
-    "zh": "配备潜艇车库，支持深海探险活动",
+    "zh": "配备潜艇车库,支持深海探险活动",
     "en": "Equipped with a submarine garage to support deep sea exploration activities"
   },
   "case-001.357": {
-    "zh": "独立医疗中心，符合国际医疗船标准",
+    "zh": "独立医疗中心,符合国际医疗船标准",
     "en": "Independent medical center that meets international hospital ship standards"
   },
   "case-001.359": {
-    "zh": "IMAX影院级影音系统，满足高端娱乐需求",
+    "zh": "IMAX影院级影音系统,满足高端娱乐需求",
     "en": "IMAX theater-level audio-visual system meets high-end entertainment needs"
   },
   "case-001.361": {
-    "zh": "冰级船体认证，具备跨海域远航能力",
+    "zh": "冰级船体认证,具备跨海域远航能力",
     "en": "Ice-class hull certification, capable of long-distance voyages across sea areas"
   },
   "case-001.363": {
-    "zh": "伊斯兰风格内饰，融合东方美学与意式奢华",
+    "zh": "伊斯兰风格内饰,融合东方美学与意式奢华",
     "en": "Islamic style interior, blending oriental aesthetics and Italian luxury"
   },
   "case-001.368": {
@@ -6325,7 +6325,7 @@ var dict = {
     "en": "Full process service dismantling"
   },
   "case-001.390": {
-    "zh": "透明化展示，让客户全程放心",
+    "zh": "透明化展示,让客户全程放心",
     "en": "Transparent display allows customers to rest assured throughout the process"
   },
   "case-001.396": {
@@ -6477,7 +6477,7 @@ var dict = {
     "en": "Real scene and service details"
   },
   "case-001.511": {
-    "zh": "图文沉浸，见证每一个精彩瞬间",
+    "zh": "图文沉浸,见证每一个精彩瞬间",
     "en": "Immerse yourself in pictures and texts to witness every wonderful moment"
   },
   "case-001.529": {
@@ -6485,7 +6485,7 @@ var dict = {
     "en": "Core service highlights"
   },
   "case-001.530": {
-    "zh": "差异化能力，打造独一无二的海上传奇",
+    "zh": "差异化能力,打造独一无二的海上传奇",
     "en": "Differentiated capabilities create unique maritime legends"
   },
   "case-001.534": {
@@ -6493,7 +6493,7 @@ var dict = {
     "en": "🚁 Helicopter platform safety solution"
   },
   "case-001.536": {
-    "zh": "为中东王室定制的直升机起降与停机坪安全保障方案，通过国际海事直升机安全认证。配备专业空管协调团队，实现与陆地的无缝接驳。",
+    "zh": "为中东王室定制的直升机起降与停机坪安全保障方案,通过国际海事直升机安全认证。配备专业空管协调团队,实现与陆地的无缝接驳。",
     "en": "The helicopter take-off, landing and helipad safety solution customized for the Middle Eastern royal family has passed the international maritime helicopter safety certification. Equipped with a professional air traffic control coordination team to achieve seamless connection with land."
   },
   "case-001.540": {
@@ -6501,7 +6501,7 @@ var dict = {
     "en": "🛳️ Submarine garage integrated design"
   },
   "case-001.542": {
-    "zh": "82米超级游艇配备专用潜艇车库，可搭载小型观光潜艇。支持深海探险与水下摄影活动，配备专业潜水教练团队。",
+    "zh": "82米超级游艇配备专用潜艇车库,可搭载小型观光潜艇。支持深海探险与水下摄影活动,配备专业潜水教练团队。",
     "en": "The 82-meter superyacht is equipped with a dedicated submarine garage, which can carry small sightseeing submarines. It supports deep-sea exploration and underwater photography activities, and is equipped with a team of professional diving instructors."
   },
   "case-001.546": {
@@ -6509,7 +6509,7 @@ var dict = {
     "en": "🏥 International certification of medical center"
   },
   "case-001.548": {
-    "zh": "独立医疗中心符合国际医疗船标准，配备全科医生、外科手术设备、急救系统。可实现远程会诊与紧急医疗转运。",
+    "zh": "独立医疗中心符合国际医疗船标准,配备全科医生、外科手术设备、急救系统。可实现远程会诊与紧急医疗转运。",
     "en": "The independent medical center complies with international hospital ship standards and is equipped with general practitioners, surgical equipment and first aid systems. "
   },
   "case-001.552": {
@@ -6517,7 +6517,7 @@ var dict = {
     "en": "🎬IMAX cinema-level audio and video"
   },
   "case-001.554": {
-    "zh": "定制化IMAX级私人影院，支持3D/4D观影体验。配备杜比全景声系统，可举办私密电影首映与家族观影活动。",
+    "zh": "定制化IMAX级私人影院,支持3D/4D观影体验。配备杜比全景声系统,可举办私密电影首映与家族观影活动。",
     "en": "Customized IMAX-level private theater supports 3D/4D viewing experience. Equipped with a Dolby Atmos system, it can host private movie premieres and family viewing events."
   },
   "case-001.558": {
@@ -6525,7 +6525,7 @@ var dict = {
     "en": "🕌Islamic style interior"
   },
   "case-001.560": {
-    "zh": "融合东方美学与意式奢华的定制化内饰设计，采用进口大理石、黄金装饰、传统几何纹样。私密性设计符合王室礼仪要求。",
+    "zh": "融合东方美学与意式奢华的定制化内饰设计,采用进口大理石、黄金装饰、传统几何纹样。私密性设计符合王室礼仪要求。",
     "en": "The customized interior design combines oriental aesthetics and Italian luxury, using imported marble, gold decoration, and traditional geometric patterns. The privacy design meets the requirements of royal etiquette."
   },
   "case-001.564": {
@@ -6541,12 +6541,12 @@ var dict = {
     "en": "Customer feedback and outcome data"
   },
   "case-001.577": {
-    "zh": "真实数据，见证服务价值",
+    "zh": "真实数据,见证服务价值",
     "en": "Real data, witness the value of services"
   },
   "case-001.582": {
-    "zh": "— 王室家族代表，2024年12月",
-    "en": "— Royal family representative, December 2024"
+    "zh": "- 王室家族代表,2024年12月",
+    "en": "- Royal family representative, December 2024"
   },
   "case-001.586": {
     "zh": "100%",
@@ -6593,11 +6593,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-001.632": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\\'Explore the world and live up to your vacation\\'"
   },
   "case-001.635": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "case-001.640": {
@@ -6885,8 +6885,8 @@ var dict = {
     "en": "Contact Us"
   },
   "case-002.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "case-002.260": {
     "zh": "租赁航行",
@@ -6909,7 +6909,7 @@ var dict = {
     "en": "Mediterranean 30-day in-depth cruise"
   },
   "case-002.271": {
-    "zh": "为欧洲家族企业定制，途经12个国家24个港口，配备米其林主厨、私人潜水教练及多语言礼宾团队。全程无意外，满意度100%。",
+    "zh": "为欧洲家族企业定制,途经12个国家24个港口,配备米其林主厨、私人潜水教练及多语言礼宾团队。全程无意外,满意度100%。",
     "en": "Customized for a European family business, it passes through 24 ports in 12 countries and is equipped with Michelin chefs, private diving instructors and a multi-lingual concierge team. No accidents throughout the process, 100% satisfaction."
   },
   "case-002.274": {
@@ -7049,7 +7049,7 @@ var dict = {
     "en": "Customer needs and project background"
   },
   "case-002.338": {
-    "zh": "深度理解客户诉求，定制专属解决方案",
+    "zh": "深度理解客户诉求,定制专属解决方案",
     "en": "Deeply understand customer demands and customize exclusive solutions"
   },
   "case-002.341": {
@@ -7057,7 +7057,7 @@ var dict = {
     "en": "📋Project background"
   },
   "case-002.343": {
-    "zh": "客户为欧洲知名家族企业，计划举办为期30天的地中海深度度假活动，需途经法国、意大利、希腊、西班牙等12个国家，涵盖商务接待、家族聚会、水上活动等多种场景。",
+    "zh": "客户为欧洲知名家族企业,计划举办为期30天的地中海深度度假活动,需途经法国、意大利、希腊、西班牙等12个国家,涵盖商务接待、家族聚会、水上活动等多种场景。",
     "en": "The client is a well-known European family business and plans to hold a 30-day in-depth Mediterranean vacation that will pass through 12 countries including France, Italy, Greece, and Spain, covering a variety of scenarios such as business receptions, family gatherings, and water activities."
   },
   "case-002.347": {
@@ -7065,19 +7065,19 @@ var dict = {
     "en": "🎯 Core demands"
   },
   "case-002.350": {
-    "zh": "65米以上超级游艇，可容纳22位宾客及28名服务人员",
+    "zh": "65米以上超级游艇,可容纳22位宾客及28名服务人员",
     "en": "A superyacht above 65 meters, which can accommodate 22 guests and 28 service staff"
   },
   "case-002.352": {
-    "zh": "配备米其林星级主厨，提供多国料理定制服务",
+    "zh": "配备米其林星级主厨,提供多国料理定制服务",
     "en": "Equipped with Michelin star chefs to provide customized multi-national cuisine services"
   },
   "case-002.354": {
-    "zh": "私人潜水教练及水上活动团队，支持深海探险",
+    "zh": "私人潜水教练及水上活动团队,支持深海探险",
     "en": "Private diving instructor and water sports team to support deep sea adventures"
   },
   "case-002.356": {
-    "zh": "多语言礼宾团队（英/法/意/德/西），无障碍沟通",
+    "zh": "多语言礼宾团队(英/法/意/德/西),无障碍沟通",
     "en": "Multilingual concierge team (English/French/Italian/German/Spanish), barrier-free communication"
   },
   "case-002.358": {
@@ -7085,11 +7085,11 @@ var dict = {
     "en": "Berthing coordination and shore activity arrangements for 24 ports in 12 countries"
   },
   "case-002.360": {
-    "zh": "全程医疗安全保障，配备随船医生",
+    "zh": "全程医疗安全保障,配备随船医生",
     "en": "Full medical safety guarantee, equipped with on-board doctors"
   },
   "case-002.362": {
-    "zh": "高规格安保与隐私保护，适合商务接待",
+    "zh": "高规格安保与隐私保护,适合商务接待",
     "en": "High-standard security and privacy protection, suitable for business receptions"
   },
   "case-002.367": {
@@ -7121,7 +7121,7 @@ var dict = {
     "en": "Full process service dismantling"
   },
   "case-002.389": {
-    "zh": "透明化展示，让客户全程放心",
+    "zh": "透明化展示,让客户全程放心",
     "en": "Transparent display allows customers to rest assured throughout the process"
   },
   "case-002.395": {
@@ -7261,7 +7261,7 @@ var dict = {
     "en": "Real scene and service details"
   },
   "case-002.504": {
-    "zh": "图文沉浸，见证每一个精彩瞬间",
+    "zh": "图文沉浸,见证每一个精彩瞬间",
     "en": "Immerse yourself in pictures and texts to witness every wonderful moment"
   },
   "case-002.522": {
@@ -7269,7 +7269,7 @@ var dict = {
     "en": "Core service highlights"
   },
   "case-002.523": {
-    "zh": "差异化能力，打造独一无二的海上旅程",
+    "zh": "差异化能力,打造独一无二的海上旅程",
     "en": "Differentiated capabilities create a unique maritime journey"
   },
   "case-002.527": {
@@ -7277,7 +7277,7 @@ var dict = {
     "en": "👨‍🍳 Michelin chef team"
   },
   "case-002.529": {
-    "zh": "配备米其林二星主厨团队，提供法式、意式、西班牙、希腊等多国料理定制。支持私人宴会、商务接待、主题晚宴等多种场景。",
+    "zh": "配备米其林二星主厨团队,提供法式、意式、西班牙、希腊等多国料理定制。支持私人宴会、商务接待、主题晚宴等多种场景。",
     "en": "Equipped with a Michelin two-star chef team, it provides customized French, Italian, Spanish, Greek and other multi-national cuisines. Supports various scenarios such as private banquets, business receptions, theme dinners, etc."
   },
   "case-002.533": {
@@ -7285,7 +7285,7 @@ var dict = {
     "en": "🤿Private diving instructor"
   },
   "case-002.535": {
-    "zh": "配备2名PADI认证潜水教练，提供从入门体验至进阶考证的全流程服务。支持深海探险、水下摄影、沉船探访等特色活动。",
+    "zh": "配备2名PADI认证潜水教练,提供从入门体验至进阶考证的全流程服务。支持深海探险、水下摄影、沉船探访等特色活动。",
     "en": "Equipped with 2 PADI certified diving instructors, we provide full-process services from entry-level experience to advanced certification. "
   },
   "case-002.539": {
@@ -7293,7 +7293,7 @@ var dict = {
     "en": "🌐 Multilingual concierge team"
   },
   "case-002.541": {
-    "zh": "28人服务团队涵盖英/法/意/德/西/中6种语言，实现全程无障碍沟通。支持岸上活动、商务接待、VIP保护等场景。",
+    "zh": "28人服务团队涵盖英/法/意/德/西/中6种语言,实现全程无障碍沟通。支持岸上活动、商务接待、VIP保护等场景。",
     "en": "The 28-person service team covers 6 languages: English/French/Italian/German/Spanish/Chinese, achieving barrier-free communication throughout the process. "
   },
   "case-002.545": {
@@ -7301,7 +7301,7 @@ var dict = {
     "en": "🏥 Medical safety guarantee"
   },
   "case-002.547": {
-    "zh": "配备随船全科医生及急救设备，实现常见疾病诊疗与紧急医疗转运。12国24港均有合作医疗机构。",
+    "zh": "配备随船全科医生及急救设备,实现常见疾病诊疗与紧急医疗转运。12国24港均有合作医疗机构。",
     "en": "Equipped with on-board general practitioners and first aid equipment to enable diagnosis and treatment of common diseases and emergency medical transport. "
   },
   "case-002.551": {
@@ -7309,7 +7309,7 @@ var dict = {
     "en": "🛡️ Security and privacy protection"
   },
   "case-002.553": {
-    "zh": "配备专业安保团队，支持VIP保护、隐私隔离、信息加密。商务接待场景可实现独立区域管控。",
+    "zh": "配备专业安保团队,支持VIP保护、隐私隔离、信息加密。商务接待场景可实现独立区域管控。",
     "en": "Equipped with a professional security team to support VIP protection, privacy isolation, and information encryption. "
   },
   "case-002.557": {
@@ -7325,12 +7325,12 @@ var dict = {
     "en": "Customer feedback and outcome data"
   },
   "case-002.570": {
-    "zh": "真实数据，见证服务价值",
+    "zh": "真实数据,见证服务价值",
     "en": "Real data, witness the value of services"
   },
   "case-002.575": {
-    "zh": "— 家族企业董事长，2023年9月",
-    "en": "— Chairman of the family business, September 2023"
+    "zh": "- 家族企业董事长,2023年9月",
+    "en": "- Chairman of the family business, September 2023"
   },
   "case-002.579": {
     "zh": "100%",
@@ -7377,11 +7377,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-002.625": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\\'Explore the world and live up to your vacation\\'"
   },
   "case-002.628": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "case-002.633": {
@@ -7669,8 +7669,8 @@ var dict = {
     "en": "Contact Us"
   },
   "case-003.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "case-003.260": {
     "zh": "托管运维",
@@ -7693,7 +7693,7 @@ var dict = {
     "en": "Five-year full trusteeship of the Middle East royal fleet"
   },
   "case-003.271": {
-    "zh": "管理3艘超级游艇（45m/62m/88m）的全托管项目，连续5年零重大事故运营记录，年服务满意度98%，累计节省运营成本18%。",
+    "zh": "管理3艘超级游艇(45m/62m/88m)的全托管项目,连续5年零重大事故运营记录,年服务满意度98%,累计节省运营成本18%。",
     "en": "Managed a fully managed project for 3 superyachts (45m/62m/88m), with zero major accident operation record for 5 consecutive years, annual service satisfaction of 98%, and cumulative operating cost savings of 18%."
   },
   "case-003.275": {
@@ -7825,7 +7825,7 @@ var dict = {
     "en": "Customer needs and project background"
   },
   "case-003.338": {
-    "zh": "深度理解客户诉求，定制专属解决方案",
+    "zh": "深度理解客户诉求,定制专属解决方案",
     "en": "Deeply understand customer demands and customize exclusive solutions"
   },
   "case-003.341": {
@@ -7833,7 +7833,7 @@ var dict = {
     "en": "📋Project background"
   },
   "case-003.343": {
-    "zh": "客户为中东王室家族，拥有3艘不同规格的超级游艇（45m私人度假艇、62m商务接待艇、88m旗舰行宫）。需寻找专业团队提供从日常运营到合规年检的全托管服务。",
+    "zh": "客户为中东王室家族,拥有3艘不同规格的超级游艇(45m私人度假艇、62m商务接待艇、88m旗舰行宫)。需寻找专业团队提供从日常运营到合规年检的全托管服务。",
     "en": "The client is a Middle Eastern royal family, which owns three superyachts of different specifications (45m private vacation yacht, 62m business reception yacht, and 88m flagship palace). You need to find a professional team to provide full managed services from daily operations to annual compliance inspections."
   },
   "case-003.347": {
@@ -7845,7 +7845,7 @@ var dict = {
     "en": "Daily operation, crew management, and material supply of 3 yachts"
   },
   "case-003.352": {
-    "zh": "季度保养与年度检修，确保零安全事故",
+    "zh": "季度保养与年度检修,确保零安全事故",
     "en": "Quarterly maintenance and annual inspection to ensure zero safety accidents"
   },
   "case-003.354": {
@@ -7882,7 +7882,7 @@ var dict = {
   },
   "case-003.374": {
     "zh": "伊斯兰文化对服务细节的定制化要求",
-    "en": "Islamic culture’s customized requirements for service details"
+    "en": "Islamic culture's customized requirements for service details"
   },
   "case-003.376": {
     "zh": "王室级别的安保与隐私保护标准",
@@ -7893,7 +7893,7 @@ var dict = {
     "en": "Full process service dismantling"
   },
   "case-003.387": {
-    "zh": "透明化展示，让客户全程放心",
+    "zh": "透明化展示,让客户全程放心",
     "en": "Transparent display allows customers to rest assured throughout the process"
   },
   "case-003.393": {
@@ -8045,7 +8045,7 @@ var dict = {
     "en": "Real scene and service details"
   },
   "case-003.508": {
-    "zh": "图文沉浸，见证每一个精彩瞬间",
+    "zh": "图文沉浸,见证每一个精彩瞬间",
     "en": "Immerse yourself in pictures and texts to witness every wonderful moment"
   },
   "case-003.526": {
@@ -8053,7 +8053,7 @@ var dict = {
     "en": "Core service highlights"
   },
   "case-003.527": {
-    "zh": "差异化能力，打造行业标杆",
+    "zh": "差异化能力,打造行业标杆",
     "en": "Differentiation capabilities to create industry leaders"
   },
   "case-003.531": {
@@ -8061,7 +8061,7 @@ var dict = {
     "en": "🛡️ Zero accidents 5-year record"
   },
   "case-003.533": {
-    "zh": "建立全流程安全管理体系，从日常巡检、季度保养到年度检修，实现预防性维护。5年连续零重大事故运营记录，获王室安保部门高度认可。",
+    "zh": "建立全流程安全管理体系,从日常巡检、季度保养到年度检修,实现预防性维护。5年连续零重大事故运营记录,获王室安保部门高度认可。",
     "en": "Establish a full-process safety management system, from daily inspections, quarterly maintenance to annual inspections, to achieve preventive maintenance. It has an operating record of zero major accidents for 5 consecutive years and is highly recognized by the royal security department."
   },
   "case-003.537": {
@@ -8069,7 +8069,7 @@ var dict = {
     "en": "📊 Cost optimization 18%"
   },
   "case-003.539": {
-    "zh": "通过供应商议价、集中采购、燃油优化等举措，年均运营成本降低18%。5年累计节省超过300万美元。",
+    "zh": "通过供应商议价、集中采购、燃油优化等举措,年均运营成本降低18%。5年累计节省超过300万美元。",
     "en": "Through supplier negotiation, centralized procurement, fuel optimization and other measures, the average annual operating cost has been reduced by 18%. Cumulative savings in 5 years exceeded US$3 million."
   },
   "case-003.543": {
@@ -8077,7 +8077,7 @@ var dict = {
     "en": "👨‍✈️ 86-person professional team"
   },
   "case-003.545": {
-    "zh": "组建86人托管团队（含42名船员），涵盖船长、工程师、服务人员、安保团队。持证率100%，王室服务礼仪培训通过。",
+    "zh": "组建86人托管团队(含42名船员),涵盖船长、工程师、服务人员、安保团队。持证率100%,王室服务礼仪培训通过。",
     "en": "Set up a 86-person hosting team (including 42 crew members), covering the captain, engineers, service personnel, and security team. Certification rate of 100%, royal service etiquette training passed."
   },
   "case-003.549": {
@@ -8085,7 +8085,7 @@ var dict = {
     "en": "🕌Islamic culture customization"
   },
   "case-003.551": {
-    "zh": "服务细节完全遵循伊斯兰文化要求，包括祈祷室配置、清真餐饮定制、性别分区服务、隐私保护等。获王室家族100%满意度。",
+    "zh": "服务细节完全遵循伊斯兰文化要求,包括祈祷室配置、清真餐饮定制、性别分区服务、隐私保护等。获王室家族100%满意度。",
     "en": "Service details fully comply with Islamic cultural requirements, including prayer room configuration, halal catering customization, gender-specific services, privacy protection, etc. Obtained 100% satisfaction from the royal family."
   },
   "case-003.555": {
@@ -8093,7 +8093,7 @@ var dict = {
     "en": "⚡ 2 hours emergency response"
   },
   "case-003.557": {
-    "zh": "建立中东区域应急协调中心，实现设备故障2小时内响应、24小时内解决。紧急医疗转运与王室应急出行保障全覆盖。",
+    "zh": "建立中东区域应急协调中心,实现设备故障2小时内响应、24小时内解决。紧急医疗转运与王室应急出行保障全覆盖。",
     "en": "Establish a Middle East regional emergency coordination center to respond to equipment failures within 2 hours and resolve them within 24 hours. Emergency medical evacuation and royal emergency travel coverage are fully covered."
   },
   "case-003.561": {
@@ -8101,7 +8101,7 @@ var dict = {
     "en": "📈 Asset preservation and appreciation"
   },
   "case-003.563": {
-    "zh": "通过科学保养与合规管理，3艘游艇5年市场估值平均上涨12%，远超行业平均5%水平。",
+    "zh": "通过科学保养与合规管理,3艘游艇5年市场估值平均上涨12%,远超行业平均5%水平。",
     "en": "Through scientific maintenance and compliance management, the market valuation of the three yachts has increased by an average of 12% in the past five years, far exceeding the industry average of 5%."
   },
   "case-003.573": {
@@ -8109,12 +8109,12 @@ var dict = {
     "en": "Customer Feedback and Outcome Data"
   },
   "case-003.574": {
-    "zh": "真实数据，见证服务价值",
+    "zh": "真实数据,见证服务价值",
     "en": "Real data, witness the value of services"
   },
   "case-003.579": {
-    "zh": "— 王室家族事务主管，2025年1月",
-    "en": "— Head of the Royal Family, January 2025"
+    "zh": "- 王室家族事务主管,2025年1月",
+    "en": "- Head of the Royal Family, January 2025"
   },
   "case-003.583": {
     "zh": "98%",
@@ -8165,11 +8165,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-003.629": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "case-003.632": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "case-003.637": {
@@ -8457,8 +8457,8 @@ var dict = {
     "en": "Contact Us"
   },
   "case-004.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "case-004.260": {
     "zh": "全案定制",
@@ -8481,7 +8481,7 @@ var dict = {
     "en": "45-meter expedition yacht \"Aurora\""
   },
   "case-004.272": {
-    "zh": "为环保企业家打造的极地探险游艇，冰级船体认证，可深入南极与阿拉斯加海域。太阳能混合动力系统，续航力达8,000海里，获Green Yacht Award提名。",
+    "zh": "为环保企业家打造的极地探险游艇,冰级船体认证,可深入南极与阿拉斯加海域。太阳能混合动力系统,续航力达8,000海里,获Green Yacht Award提名。",
     "en": "A polar expedition yacht built for environmental entrepreneurs, with an ice-class hull certification that can go deep into Antarctic and Alaskan waters. The solar hybrid system has a range of 8,000 nautical miles and was nominated for the Green Yacht Award."
   },
   "case-004.275": {
@@ -8621,7 +8621,7 @@ var dict = {
     "en": "Customer needs and project background"
   },
   "case-004.339": {
-    "zh": "深度理解客户诉求，定制专属解决方案",
+    "zh": "深度理解客户诉求,定制专属解决方案",
     "en": "Deeply understand customer demands and customize exclusive solutions"
   },
   "case-004.342": {
@@ -8629,7 +8629,7 @@ var dict = {
     "en": "📋Project background"
   },
   "case-004.344": {
-    "zh": "客户为知名环保企业家，长期关注气候变化与极地生态保护。需打造一艘既可满足个人极地探险需求，又能支持科研团队海上科考作业的专业探险游艇。",
+    "zh": "客户为知名环保企业家,长期关注气候变化与极地生态保护。需打造一艘既可满足个人极地探险需求,又能支持科研团队海上科考作业的专业探险游艇。",
     "en": "The client is a well-known environmental entrepreneur who has long been concerned about climate change and polar ecological protection. It is necessary to build a professional expedition yacht that can not only meet the needs of personal polar exploration, but also support the scientific research team's maritime research operations."
   },
   "case-004.348": {
@@ -8637,19 +8637,19 @@ var dict = {
     "en": "🎯 Core demands"
   },
   "case-004.351": {
-    "zh": "冰级船体认证，可安全深入南极与阿拉斯加海域",
+    "zh": "冰级船体认证,可安全深入南极与阿拉斯加海域",
     "en": "Ice-class hull certification, can safely penetrate into Antarctic and Alaskan waters"
   },
   "case-004.353": {
-    "zh": "太阳能混合动力系统，最小化碳排放足迹",
+    "zh": "太阳能混合动力系统,最小化碳排放足迹",
     "en": "Solar hybrid system, minimizing carbon footprint"
   },
   "case-004.355": {
-    "zh": "续航力需达8,000海里以上，支持长航线科考",
+    "zh": "续航力需达8,000海里以上,支持长航线科考",
     "en": "The endurance needs to be more than 8,000 nautical miles to support scientific expeditions on long routes."
   },
   "case-004.357": {
-    "zh": "配备专业科研设备接口，支持水下取样与数据采集",
+    "zh": "配备专业科研设备接口,支持水下取样与数据采集",
     "en": "Equipped with professional scientific research equipment interfaces to support underwater sampling and data collection"
   },
   "case-004.359": {
@@ -8657,11 +8657,11 @@ var dict = {
     "en": "The cabin can accommodate 12 guests and 8 scientific researchers"
   },
   "case-004.361": {
-    "zh": "卫星通讯系统，实现极地远程数据传输",
+    "zh": "卫星通讯系统,实现极地远程数据传输",
     "en": "Satellite communication system to realize polar remote data transmission"
   },
   "case-004.363": {
-    "zh": "直升机停机坪，支持冰上科考与紧急救援",
+    "zh": "直升机停机坪,支持冰上科考与紧急救援",
     "en": "Helipad to support ice scientific research and emergency rescue"
   },
   "case-004.368": {
@@ -8693,7 +8693,7 @@ var dict = {
     "en": "Full process service dismantling"
   },
   "case-004.390": {
-    "zh": "透明化展示，让客户全程放心",
+    "zh": "透明化展示,让客户全程放心",
     "en": "Transparent display allows customers to rest assured throughout the process"
   },
   "case-004.396": {
@@ -8833,7 +8833,7 @@ var dict = {
     "en": "Real scene and service details"
   },
   "case-004.505": {
-    "zh": "图文沉浸，见证每一个精彩瞬间",
+    "zh": "图文沉浸,见证每一个精彩瞬间",
     "en": "Immerse yourself in pictures and texts to witness every wonderful moment"
   },
   "case-004.523": {
@@ -8841,7 +8841,7 @@ var dict = {
     "en": "Core service highlights"
   },
   "case-004.524": {
-    "zh": "差异化能力，打造独一无二的海上传奇",
+    "zh": "差异化能力,打造独一无二的海上传奇",
     "en": "Differentiated capabilities create unique maritime legends"
   },
   "case-004.528": {
@@ -8849,7 +8849,7 @@ var dict = {
     "en": "🧊 Ice1A ice class hull certification"
   },
   "case-004.530": {
-    "zh": "船体结构通过DNV GL Ice1A认证，可安全航行于浮冰密集海域。配备冰区导航雷达与抗冰涂层，南极与阿拉斯加航线全覆盖。",
+    "zh": "船体结构通过DNV GL Ice1A认证,可安全航行于浮冰密集海域。配备冰区导航雷达与抗冰涂层,南极与阿拉斯加航线全覆盖。",
     "en": "The hull structure has passed DNV GL Ice1A certification and can safely sail in ice-dense waters. Equipped with ice navigation radar and anti-ice coating, it covers all Antarctic and Alaska routes."
   },
   "case-004.534": {
@@ -8857,15 +8857,15 @@ var dict = {
     "en": "☀️ Solar hybrid"
   },
   "case-004.536": {
-    "zh": "船顶配备200㎡高效太阳能电池阵列，配合锂电池储能系统。静音航行模式下可实现零排放，最大续航力达8,000海里。",
-    "en": "The roof of the ship is equipped with a 200㎡ high-efficiency solar array and a lithium battery energy storage system. It can achieve zero emissions in silent sailing mode and has a maximum endurance of 8,000 nautical miles."
+    "zh": "船顶配备200m2高效太阳能电池阵列,配合锂电池储能系统。静音航行模式下可实现零排放,最大续航力达8,000海里。",
+    "en": "The roof of the ship is equipped with a 200m2 high-efficiency solar array and a lithium battery energy storage system. It can achieve zero emissions in silent sailing mode and has a maximum endurance of 8,000 nautical miles."
   },
   "case-004.540": {
     "zh": "🔬 科研设备平台",
     "en": "🔬 Scientific research equipment platform"
   },
   "case-004.542": {
-    "zh": "标准化科研设备接口，支持水质取样、水下摄影、气象观测等科考作业。配备卫星通讯系统，实现极地远程数据传输。",
+    "zh": "标准化科研设备接口,支持水质取样、水下摄影、气象观测等科考作业。配备卫星通讯系统,实现极地远程数据传输。",
     "en": "Standardized scientific research equipment interfaces support scientific research operations such as water quality sampling, underwater photography, and meteorological observation. Equipped with a satellite communication system to realize polar remote data transmission."
   },
   "case-004.546": {
@@ -8873,7 +8873,7 @@ var dict = {
     "en": "🚁 Helipad"
   },
   "case-004.548": {
-    "zh": "配备专业直升机停机坪，支持中型直升机起降。可用于冰上科考投放、紧急救援、物资补给等多场景。",
+    "zh": "配备专业直升机停机坪,支持中型直升机起降。可用于冰上科考投放、紧急救援、物资补给等多场景。",
     "en": "Equipped with a professional helipad to support the take-off and landing of medium-sized helicopters. It can be used in many scenarios such as scientific research on ice, emergency rescue, and material supply."
   },
   "case-004.552": {
@@ -8881,15 +8881,15 @@ var dict = {
     "en": "🌡️ Polar survival system"
   },
   "case-004.554": {
-    "zh": "全船极地保暖系统，室内温度可达25℃。配备极地救生艇、防寒装备库、医疗急救站，通过极地航行安全认证。",
-    "en": "The whole ship has a polar heating system, and the indoor temperature can reach 25℃. Equipped with polar lifeboats, cold-proof equipment warehouses, and medical first aid stations, it has passed polar navigation safety certification."
+    "zh": "全船极地保暖系统,室内温度可达25°C。配备极地救生艇、防寒装备库、医疗急救站,通过极地航行安全认证。",
+    "en": "The whole ship has a polar heating system, and the indoor temperature can reach 25°C. Equipped with polar lifeboats, cold-proof equipment warehouses, and medical first aid stations, it has passed polar navigation safety certification."
   },
   "case-004.558": {
     "zh": "🌿 Green Yacht Award提名",
     "en": "🌿 Green Yacht Award Nomination"
   },
   "case-004.560": {
-    "zh": "凭借太阳能混合动力系统与环保设计理念，获2024年Green Yacht Award提名。是极地探险游艇的环保标杆项目。",
+    "zh": "凭借太阳能混合动力系统与环保设计理念,获2024年Green Yacht Award提名。是极地探险游艇的环保标杆项目。",
     "en": "With its solar hybrid system and environmentally friendly design concept, it was nominated for the 2024 Green Yacht Award. It is an environmentally friendly benchmark project for polar expedition yachts."
   },
   "case-004.570": {
@@ -8897,12 +8897,12 @@ var dict = {
     "en": "Customer feedback and outcome data"
   },
   "case-004.571": {
-    "zh": "真实数据，见证服务价值",
+    "zh": "真实数据,见证服务价值",
     "en": "Real data, witness the value of services"
   },
   "case-004.576": {
-    "zh": "— 环保企业家，2024年6月",
-    "en": "— Environmental Entrepreneur, June 2024"
+    "zh": "- 环保企业家,2024年6月",
+    "en": "- Environmental Entrepreneur, June 2024"
   },
   "case-004.580": {
     "zh": "8000",
@@ -8949,11 +8949,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-004.626": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "case-004.629": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "case-004.634": {
@@ -9241,8 +9241,8 @@ var dict = {
     "en": "Contact Us"
   },
   "case-005.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "case-005.260": {
     "zh": "婚礼包船",
@@ -9397,7 +9397,7 @@ var dict = {
     "en": "Customer needs and project background"
   },
   "case-005.338": {
-    "zh": "深度理解客户诉求，定制专属解决方案",
+    "zh": "深度理解客户诉求,定制专属解决方案",
     "en": "Deeply understand customer demands and customize exclusive solutions"
   },
   "case-005.341": {
@@ -9405,7 +9405,7 @@ var dict = {
     "en": "📋Project background"
   },
   "case-005.343": {
-    "zh": "客户为亚洲知名家族，计划为独生女举办一场前所未有的海上婚礼。婚礼需容纳120位宾客，7天6夜，航线覆盖加勒比海最美岛屿，同时满足中式婚礼传统与西式奢华体验。",
+    "zh": "客户为亚洲知名家族,计划为独生女举办一场前所未有的海上婚礼。婚礼需容纳120位宾客,7天6夜,航线覆盖加勒比海最美岛屿,同时满足中式婚礼传统与西式奢华体验。",
     "en": "The client is a well-known Asian family and plans to hold an unprecedented sea wedding for their only daughter. The wedding needs to accommodate 120 guests, 7 days and 6 nights, the route covers the most beautiful islands in the Caribbean, and meets both Chinese wedding traditions and Western luxury experience."
   },
   "case-005.347": {
@@ -9413,23 +9413,23 @@ var dict = {
     "en": "🎯 Core demands"
   },
   "case-005.350": {
-    "zh": "85米以上超级游艇，可容纳120位宾客及45名服务人员",
+    "zh": "85米以上超级游艇,可容纳120位宾客及45名服务人员",
     "en": "A superyacht over 85 meters long, capable of accommodating 120 guests and 45 service staff"
   },
   "case-005.352": {
-    "zh": "配备直升机平台，实现新娘空中入场与VIP客人接驳",
+    "zh": "配备直升机平台,实现新娘空中入场与VIP客人接驳",
     "en": "Equipped with a helicopter platform to allow the bride to arrive in the air and connect VIP guests"
   },
   "case-005.354": {
-    "zh": "水下派对空间，支持浮潜与水下摄影",
+    "zh": "水下派对空间,支持浮潜与水下摄影",
     "en": "Underwater party space, supporting snorkeling and underwater photography"
   },
   "case-005.356": {
-    "zh": "中式婚礼仪式场地（敬茶、拜堂）与西式晚宴场地",
+    "zh": "中式婚礼仪式场地(敬茶、拜堂)与西式晚宴场地",
     "en": "Chinese-style wedding ceremony venue (tea ceremony, worship hall) and Western-style dinner venue"
   },
   "case-005.358": {
-    "zh": "米其林星级主厨团队，提供中式婚宴与西式自助",
+    "zh": "米其林星级主厨团队,提供中式婚宴与西式自助",
     "en": "Michelin star chef team, providing Chinese wedding banquets and Western buffets"
   },
   "case-005.360": {
@@ -9437,7 +9437,7 @@ var dict = {
     "en": "7-day accommodation and activities for 120 guests"
   },
   "case-005.362": {
-    "zh": "全程摄影摄像团队，制作婚礼纪录片",
+    "zh": "全程摄影摄像团队,制作婚礼纪录片",
     "en": "Full photography and videography team to produce wedding documentaries"
   },
   "case-005.367": {
@@ -9469,7 +9469,7 @@ var dict = {
     "en": "Full process service dismantling"
   },
   "case-005.389": {
-    "zh": "透明化展示，让客户全程放心",
+    "zh": "透明化展示,让客户全程放心",
     "en": "Transparent display allows customers to rest assured throughout the process"
   },
   "case-005.395": {
@@ -9609,7 +9609,7 @@ var dict = {
     "en": "Real scene and service details"
   },
   "case-005.504": {
-    "zh": "图文沉浸，见证每一个精彩瞬间",
+    "zh": "图文沉浸,见证每一个精彩瞬间",
     "en": "Immerse yourself in pictures and texts to witness every wonderful moment"
   },
   "case-005.522": {
@@ -9617,7 +9617,7 @@ var dict = {
     "en": "Core service highlights"
   },
   "case-005.523": {
-    "zh": "差异化能力，打造独一无二的海上婚礼传奇",
+    "zh": "差异化能力,打造独一无二的海上婚礼传奇",
     "en": "Differentiated capabilities to create a unique sea wedding legend"
   },
   "case-005.527": {
@@ -9625,7 +9625,7 @@ var dict = {
     "en": "🚁 Helicopter aerial wedding"
   },
   "case-005.529": {
-    "zh": "新娘搭乘直升机从空中入场，在85米超级游艇的直升机平台着陆。全程配备专业空管协调团队，实现安全与浪漫的完美结合。",
+    "zh": "新娘搭乘直升机从空中入场,在85米超级游艇的直升机平台着陆。全程配备专业空管协调团队,实现安全与浪漫的完美结合。",
     "en": "The bride arrived from the air by helicopter and landed on the helicopter platform of the 85-meter superyacht. A professional air traffic control coordination team is deployed throughout the entire journey to achieve the perfect combination of safety and romance."
   },
   "case-005.533": {
@@ -9633,7 +9633,7 @@ var dict = {
     "en": "🎎 Customized Chinese ceremony venue"
   },
   "case-005.535": {
-    "zh": "游艇甲板临时搭建中式婚礼仪式场地，配备敬茶台、拜堂区、喜字装饰。完全遵循中式婚礼传统，实现海上与传统的融合。",
+    "zh": "游艇甲板临时搭建中式婚礼仪式场地,配备敬茶台、拜堂区、喜字装饰。完全遵循中式婚礼传统,实现海上与传统的融合。",
     "en": "A temporary Chinese-style wedding ceremony venue was set up on the yacht deck, equipped with a tea serving table, worship area and happy decoration. Completely follow the Chinese wedding tradition and achieve the integration of sea and tradition."
   },
   "case-005.539": {
@@ -9641,15 +9641,15 @@ var dict = {
     "en": "🤿 Underwater party space"
   },
   "case-005.541": {
-    "zh": "配备专业水下派对平台，宾客可通过浮潜或水肺潜水参与水下派对。配备水下摄影团队，记录每一位宾客的水下精彩瞬间。",
-    "en": "Equipped with a professional underwater party platform, guests can participate in underwater parties through snorkeling or scuba diving. Equipped with an underwater photography team to record every guest’s underwater moments."
+    "zh": "配备专业水下派对平台,宾客可通过浮潜或水肺潜水参与水下派对。配备水下摄影团队,记录每一位宾客的水下精彩瞬间。",
+    "en": "Equipped with a professional underwater party platform, guests can participate in underwater parties through snorkeling or scuba diving. Equipped with an underwater photography team to record every guest's underwater moments."
   },
   "case-005.545": {
     "zh": "👨‍🍳 米其林婚宴定制",
     "en": "👨‍🍳 Michelin wedding banquet customization"
   },
   "case-005.547": {
-    "zh": "配备米其林二星主厨团队，提供中式婚宴（龙凤呈祥、鸿运当头等）与西式自助双线菜单。支持120人同时用餐。",
+    "zh": "配备米其林二星主厨团队,提供中式婚宴(龙凤呈祥、鸿运当头等)与西式自助双线菜单。支持120人同时用餐。",
     "en": "Equipped with a Michelin two-star chef team, it provides Chinese wedding banquets (dragon and phoenix show auspiciousness, good fortune, etc.) and Western-style buffet menus. Supports 120 people dining at the same time."
   },
   "case-005.551": {
@@ -9657,7 +9657,7 @@ var dict = {
     "en": "📹 Full live broadcast and documentary"
   },
   "case-005.553": {
-    "zh": "配备专业摄影摄像团队，全程记录婚礼每个瞬间。支持实时直播，让无法到场的亲友远程参与。最终交付90分钟婚礼纪录片。",
+    "zh": "配备专业摄影摄像团队,全程记录婚礼每个瞬间。支持实时直播,让无法到场的亲友远程参与。最终交付90分钟婚礼纪录片。",
     "en": "Equipped with a professional photography and videography team to record every moment of the wedding. Supports real-time live broadcast, allowing relatives and friends who cannot be present to participate remotely. The final delivery was a 90-minute wedding documentary."
   },
   "case-005.557": {
@@ -9665,7 +9665,7 @@ var dict = {
     "en": "🏆 Best sea wedding of the year"
   },
   "case-005.559": {
-    "zh": "凭借创新的中西融合婚礼方案与零安全事故的完美执行，荣获Wedding Industry Awards 2024年度最佳海上婚礼大奖。",
+    "zh": "凭借创新的中西融合婚礼方案与零安全事故的完美执行,荣获Wedding Industry Awards 2024年度最佳海上婚礼大奖。",
     "en": "With its innovative Chinese and Western fusion wedding plan and perfect execution with zero safety incidents, it won the Wedding Industry Awards 2024 Best Maritime Wedding Award."
   },
   "case-005.569": {
@@ -9673,12 +9673,12 @@ var dict = {
     "en": "Customer feedback and outcome data"
   },
   "case-005.570": {
-    "zh": "真实数据，见证服务价值",
+    "zh": "真实数据,见证服务价值",
     "en": "Real data, witness the value of services"
   },
   "case-005.575": {
-    "zh": "— 家族长辈，2024年12月",
-    "en": "— Family elder, December 2024"
+    "zh": "- 家族长辈,2024年12月",
+    "en": "- Family elder, December 2024"
   },
   "case-005.579": {
     "zh": "120",
@@ -9725,11 +9725,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-005.625": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "case-005.628": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "case-005.633": {
@@ -10017,8 +10017,8 @@ var dict = {
     "en": "Contact Us"
   },
   "case-006.243": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "case-006.250": {
     "zh": "商务活动",
@@ -10173,7 +10173,7 @@ var dict = {
     "en": "Customer needs and project background"
   },
   "case-006.316": {
-    "zh": "深度理解客户诉求，定制专属解决方案",
+    "zh": "深度理解客户诉求,定制专属解决方案",
     "en": "Deeply understand customer demands and customize exclusive solutions"
   },
   "case-006.318": {
@@ -10181,7 +10181,7 @@ var dict = {
     "en": "📋Project background"
   },
   "case-006.319": {
-    "zh": "客户为亚太知名跨国企业，计划举办年度高管峰会及团队建设活动。需寻找专业团队提供海上活动全托管服务，包括游艇编队航行、商务会议场地、团队活动策划及全程安全托管。",
+    "zh": "客户为亚太知名跨国企业,计划举办年度高管峰会及团队建设活动。需寻找专业团队提供海上活动全托管服务,包括游艇编队航行、商务会议场地、团队活动策划及全程安全托管。",
     "en": "The client is a well-known multinational company in Asia-Pacific and plans to hold annual executive summits and team-building activities. You need to find a professional team to provide full management services for maritime activities, including yacht formation sailing, business meeting venues, team activity planning and full security management."
   },
   "case-006.321": {
@@ -10189,23 +10189,23 @@ var dict = {
     "en": "🎯 Core demands"
   },
   "case-006.323": {
-    "zh": "3艘游艇编队航行，可容纳200名高管及嘉宾",
+    "zh": "3艘游艇编队航行,可容纳200名高管及嘉宾",
     "en": "3 yachts sailing in formation, can accommodate 200 executives and guests"
   },
   "case-006.325": {
-    "zh": "配备大型会议室，支持视频会议及演讲活动",
+    "zh": "配备大型会议室,支持视频会议及演讲活动",
     "en": "Equipped with a large conference room to support video conferencing and speech activities"
   },
   "case-006.327": {
-    "zh": "团队建设活动策划（水上运动、岸上探索、主题晚会）",
+    "zh": "团队建设活动策划(水上运动、岸上探索、主题晚会)",
     "en": "Team building activity planning (water sports, shore exploration, theme parties)"
   },
   "case-006.329": {
-    "zh": "米其林主厨团队，提供商务宴请及自助餐服务",
+    "zh": "米其林主厨团队,提供商务宴请及自助餐服务",
     "en": "Michelin chef team provides business banquet and buffet services"
   },
   "case-006.331": {
-    "zh": "全程医疗安全保障，配备随船医生及急救设备",
+    "zh": "全程医疗安全保障,配备随船医生及急救设备",
     "en": "Full medical safety guarantee, equipped with on-board doctors and first aid equipment"
   },
   "case-006.333": {
@@ -10241,7 +10241,7 @@ var dict = {
     "en": "Core service highlights"
   },
   "case-006.352": {
-    "zh": "差异化能力，打造独一无二的企业年会体验",
+    "zh": "差异化能力,打造独一无二的企业年会体验",
     "en": "Differentiated capabilities to create a unique corporate annual meeting experience"
   },
   "case-006.355": {
@@ -10249,7 +10249,7 @@ var dict = {
     "en": "🚢 Three-ship formation sailing"
   },
   "case-006.356": {
-    "zh": "55m/68m/75m三艘超级游艇编队航行，配备专业领航与护航船。实现海上会师、编队拍照等独特体验。",
+    "zh": "55m/68m/75m三艘超级游艇编队航行,配备专业领航与护航船。实现海上会师、编队拍照等独特体验。",
     "en": "Three superyachts of 55m/68m/75m sail in formation, equipped with professional pilot and escort boats. Achieve unique experiences such as rendezvous at sea and formation photography."
   },
   "case-006.358": {
@@ -10257,7 +10257,7 @@ var dict = {
     "en": "🏢Sea conference room"
   },
   "case-006.359": {
-    "zh": "75米旗舰游艇配备200人多功能会议厅，支持视频会议、同声传译、现场演讲。完全满足企业峰会需求。",
+    "zh": "75米旗舰游艇配备200人多功能会议厅,支持视频会议、同声传译、现场演讲。完全满足企业峰会需求。",
     "en": "The 75-meter flagship yacht is equipped with a multi-functional conference hall for 200 people, supporting video conferencing, simultaneous interpretation, and on-site speeches. Fully meet the needs of corporate summits."
   },
   "case-006.361": {
@@ -10265,7 +10265,7 @@ var dict = {
     "en": "🎭Annual Party Party Customization"
   },
   "case-006.362": {
-    "zh": "专业舞台团队搭建海上舞台，支持灯光音响、LED大屏、直播设备。策划团队全程执行年会晚会。",
+    "zh": "专业舞台团队搭建海上舞台,支持灯光音响、LED大屏、直播设备。策划团队全程执行年会晚会。",
     "en": "A professional stage team builds an offshore stage, supporting lighting, sound, LED large screens, and live broadcast equipment. The planning team implements the entire annual meeting party."
   },
   "case-006.364": {
@@ -10273,7 +10273,7 @@ var dict = {
     "en": "👨‍✈️ 120-person service team"
   },
   "case-006.365": {
-    "zh": "3艘游艇配备120人服务团队（含3艘船员），涵盖会议服务、餐饮服务、活动执行、安保医疗。",
+    "zh": "3艘游艇配备120人服务团队(含3艘船员),涵盖会议服务、餐饮服务、活动执行、安保医疗。",
     "en": "The three yachts are equipped with a service team of 120 people (including 3 crew members), covering conference services, catering services, event execution, security and medical care."
   },
   "case-006.367": {
@@ -10281,7 +10281,7 @@ var dict = {
     "en": "🏥Full medical coverage"
   },
   "case-006.368": {
-    "zh": "配备2名全科医生及急救设备，实现常见疾病诊疗与紧急医疗转运。新加坡至普吉岛沿线均有合作医院。",
+    "zh": "配备2名全科医生及急救设备,实现常见疾病诊疗与紧急医疗转运。新加坡至普吉岛沿线均有合作医院。",
     "en": "Equipped with 2 general practitioners and first aid equipment to enable diagnosis and treatment of common diseases and emergency medical transport. There are partner hospitals along the route from Singapore to Phuket."
   },
   "case-006.370": {
@@ -10293,12 +10293,12 @@ var dict = {
     "en": "Customer feedback and outcome data"
   },
   "case-006.377": {
-    "zh": "真实数据，见证服务价值",
+    "zh": "真实数据,见证服务价值",
     "en": "Real data, witness the value of services"
   },
   "case-006.382": {
-    "zh": "— 企业CEO，2024年2月",
-    "en": "— Corporate CEO, February 2024"
+    "zh": "- 企业CEO,2024年2月",
+    "en": "- Corporate CEO, February 2024"
   },
   "case-006.386": {
     "zh": "200",
@@ -10345,11 +10345,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-006.427": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "case-006.430": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "case-006.435": {
@@ -10637,8 +10637,8 @@ var dict = {
     "en": "Contact Us"
   },
   "case-007.243": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "case-007.250": {
     "zh": "改装翻新",
@@ -10749,15 +10749,15 @@ var dict = {
     "en": "🎨 Brand new interior design"
   },
   "case-007.300": {
-    "zh": "邀请意大利高端设计工作室，完成800㎡内饰全面焕新，采用缅甸黑木、意大利大理石等高端材料。",
-    "en": "Inviting top Italian design studios to complete a comprehensive renovation of the 800㎡ interior, using top materials such as Burmese black wood and Italian marble."
+    "zh": "邀请意大利高端设计工作室,完成800m2内饰全面焕新,采用缅甸黑木、意大利大理石等高端材料。",
+    "en": "Inviting top Italian design studios to complete a comprehensive renovation of the 800m2 interior, using top materials such as Burmese black wood and Italian marble."
   },
   "case-007.302": {
     "zh": "⚡ 动力系统升级",
     "en": "⚡ Power system upgrade"
   },
   "case-007.303": {
-    "zh": "更换最新MTU 16V 4000 M96L发动机，配合推进系统优化，最大航速提升20%，燃油效率提升15%。",
+    "zh": "更换最新MTU 16V 4000 M96L发动机,配合推进系统优化,最大航速提升20%,燃油效率提升15%。",
     "en": "By replacing the latest MTU 16V 4000 M96L engine with the optimization of the propulsion system, the maximum speed is increased by 20% and the fuel efficiency is increased by 15%."
   },
   "case-007.305": {
@@ -10765,7 +10765,7 @@ var dict = {
     "en": "📱 Intelligent system installation"
   },
   "case-007.306": {
-    "zh": "部署全船智能控制系统，实现舱室温控、灯光、影音、导航一键操控，支持语音与远程APP控制。",
+    "zh": "部署全船智能控制系统,实现舱室温控、灯光、影音、导航一键操控,支持语音与远程APP控制。",
     "en": "Deploy a whole-ship intelligent control system to realize one-key control of cabin temperature control, lighting, audio and video, and navigation, and support voice and remote APP control."
   },
   "case-007.308": {
@@ -10773,7 +10773,7 @@ var dict = {
     "en": "🏊 Renewed deck facilities"
   },
   "case-007.309": {
-    "zh": "飞桥甲板增设无边泳池与日光浴区，主甲板增设户外影院系统，实现酒店级度假体验。",
+    "zh": "飞桥甲板增设无边泳池与日光浴区,主甲板增设户外影院系统,实现酒店级度假体验。",
     "en": "An infinity swimming pool and sunbathing area are added to the flybridge deck, and an outdoor cinema system is added to the main deck to achieve a hotel-level resort experience."
   },
   "case-007.311": {
@@ -10781,7 +10781,7 @@ var dict = {
     "en": "🔧 Hull structure maintenance"
   },
   "case-007.312": {
-    "zh": "完成钢制船体全面检测与防腐处理，更换抗老化涂层，预计延长船体寿命15年以上。",
+    "zh": "完成钢制船体全面检测与防腐处理,更换抗老化涂层,预计延长船体寿命15年以上。",
     "en": "Complete the comprehensive inspection and anti-corrosion treatment of the steel hull, and replace the anti-aging coating, which is expected to extend the life of the hull by more than 15 years."
   },
   "case-007.314": {
@@ -10789,7 +10789,7 @@ var dict = {
     "en": "🏆 Best mod of the year"
   },
   "case-007.315": {
-    "zh": "凭借创新的设计方案与精湛的施工工艺，荣获Superyacht Refit Awards 2024年度最佳改装项目。",
+    "zh": "凭借创新的设计方案与精湛的施工工艺,荣获Superyacht Refit Awards 2024年度最佳改装项目。",
     "en": "With innovative design solutions and exquisite construction technology, it won the Best Refit Project of the Year in Superyacht Refit Awards 2024."
   },
   "case-007.320": {
@@ -10797,8 +10797,8 @@ var dict = {
     "en": "Customer feedback and outcome data"
   },
   "case-007.325": {
-    "zh": "— 游艇所有人，2024年6月",
-    "en": "— Yacht Owner, June 2024"
+    "zh": "- 游艇所有人,2024年6月",
+    "en": "- Yacht Owner, June 2024"
   },
   "case-007.329": {
     "zh": "35%",
@@ -10821,8 +10821,8 @@ var dict = {
     "en": "800"
   },
   "case-007.336": {
-    "zh": "㎡内饰面积",
-    "en": "㎡Interior area"
+    "zh": "m2内饰面积",
+    "en": "m2Interior area"
   },
   "case-007.338": {
     "zh": "20%",
@@ -10849,11 +10849,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-007.370": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "case-007.373": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "case-007.378": {
@@ -11141,8 +11141,8 @@ var dict = {
     "en": "Contact Us"
   },
   "case-008.243": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "case-008.250": {
     "zh": "赛事保障",
@@ -11249,7 +11249,7 @@ var dict = {
     "en": "🚤 Professional referee boat"
   },
   "case-008.300": {
-    "zh": "提供4艘专业裁判船，配备国际级裁判设备与通讯系统，支持实时判罚与成绩同步。",
+    "zh": "提供4艘专业裁判船,配备国际级裁判设备与通讯系统,支持实时判罚与成绩同步。",
     "en": "Provide 4 professional referee boats, equipped with international-level referee equipment and communication systems, supporting real-time penalty and score synchronization."
   },
   "case-008.302": {
@@ -11257,7 +11257,7 @@ var dict = {
     "en": "📹 Full media ship"
   },
   "case-008.303": {
-    "zh": "3艘媒体船配备专业摄像与直播设备，实现赛事全程4K直播与无人机航拍。",
+    "zh": "3艘媒体船配备专业摄像与直播设备,实现赛事全程4K直播与无人机航拍。",
     "en": "The three media ships are equipped with professional camera and live broadcast equipment to realize 4K live broadcast and drone aerial photography of the entire event."
   },
   "case-008.305": {
@@ -11265,7 +11265,7 @@ var dict = {
     "en": "🏥 Medical support ship"
   },
   "case-008.306": {
-    "zh": "2艘医疗船配备急救手术室与海上医疗团队，实现15分钟内医疗响应。",
+    "zh": "2艘医疗船配备急救手术室与海上医疗团队,实现15分钟内医疗响应。",
     "en": "The two hospital ships are equipped with emergency operating rooms and maritime medical teams to achieve medical response within 15 minutes."
   },
   "case-008.308": {
@@ -11273,7 +11273,7 @@ var dict = {
     "en": "🎩VIP reception boat"
   },
   "case-008.309": {
-    "zh": "3艘VIP船提供赞助商与贵宾观赛接待，配备高档餐饮与观景甲板。",
+    "zh": "3艘VIP船提供赞助商与贵宾观赛接待,配备高档餐饮与观景甲板。",
     "en": "Three VIP boats provide sponsors and VIPs with receptions and are equipped with high-end catering and viewing decks."
   },
   "case-008.311": {
@@ -11281,7 +11281,7 @@ var dict = {
     "en": "🛟 Rescue speed boat"
   },
   "case-008.312": {
-    "zh": "配备6艘高速救援艇，实现60秒内水上救援响应，赛事期间零安全事故。",
+    "zh": "配备6艘高速救援艇,实现60秒内水上救援响应,赛事期间零安全事故。",
     "en": "Equipped with 6 high-speed rescue boats, water rescue response can be achieved within 60 seconds, and there will be zero safety accidents during the event."
   },
   "case-008.314": {
@@ -11305,11 +11305,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-008.346": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "case-008.349": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "case-008.354": {
@@ -11597,8 +11597,8 @@ var dict = {
     "en": "Contact Us"
   },
   "case-009.243": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "case-009.250": {
     "zh": "私人航线",
@@ -11617,7 +11617,7 @@ var dict = {
     "en": "Southeast Asia Private Vacation Itinerary"
   },
   "case-009.256": {
-    "zh": "为亚洲企业家定制的14天私人度假航线，新加坡→普吉岛→兰卡威，35米超级游艇，4位宾客全程私密奢华体验。",
+    "zh": "为亚洲企业家定制的14天私人度假航线,新加坡→普吉岛→兰卡威,35米超级游艇,4位宾客全程私密奢华体验。",
     "en": "A 14-day private vacation route customized for Asian entrepreneurs, Singapore→Phuket→Langkawi, on a 35-meter superyacht, providing a private and luxurious experience for 4 guests."
   },
   "case-009.259": {
@@ -11705,7 +11705,7 @@ var dict = {
     "en": "🏝️Private island reservation"
   },
   "case-009.300": {
-    "zh": "租用泰国私人岛屿一日，宾客独享白沙滩与珊瑚礁浮潜，零打扰的私密体验。",
+    "zh": "租用泰国私人岛屿一日,宾客独享白沙滩与珊瑚礁浮潜,零打扰的私密体验。",
     "en": "Renting a private island in Thailand for a day allows guests to enjoy exclusive white sand beaches and coral reef snorkeling, providing a private experience with no interruptions."
   },
   "case-009.302": {
@@ -11713,7 +11713,7 @@ var dict = {
     "en": "🛥️ Seaplane transfer"
   },
   "case-009.303": {
-    "zh": "新加坡至游艇码头水上飞机接驳，全程无需接触公共交通，完全私密出行。",
+    "zh": "新加坡至游艇码头水上飞机接驳,全程无需接触公共交通,完全私密出行。",
     "en": "There is a seaplane transfer from Singapore to the yacht pier. There is no need to contact public transportation during the entire journey, and the trip is completely private."
   },
   "case-009.305": {
@@ -11721,7 +11721,7 @@ var dict = {
     "en": "👨‍🍳 Exclusive chef team"
   },
   "case-009.306": {
-    "zh": "配备米其林星级主厨，根据宾客口味定制每餐菜单，实现真正个性化餐饮。",
+    "zh": "配备米其林星级主厨,根据宾客口味定制每餐菜单,实现真正个性化餐饮。",
     "en": "Equipped with a Michelin-starred chef, each menu can be customized according to guests' tastes to achieve truly personalized dining."
   },
   "case-009.308": {
@@ -11729,7 +11729,7 @@ var dict = {
     "en": "🧘Private SPA treatments"
   },
   "case-009.309": {
-    "zh": "游艇配备专业SPA理疗室，宾客可预约泰式按摩、香薰SPA等全私密理疗。",
+    "zh": "游艇配备专业SPA理疗室,宾客可预约泰式按摩、香薰SPA等全私密理疗。",
     "en": "The yacht is equipped with a professional SPA treatment room, and guests can make reservations for Thai massage, aromatherapy SPA and other fully private treatments."
   },
   "case-009.311": {
@@ -11737,7 +11737,7 @@ var dict = {
     "en": "🤿 Professional diving instructor"
   },
   "case-009.312": {
-    "zh": "配备PADI认证潜水教练，宾客可体验专业潜水课程与水下摄影服务。",
+    "zh": "配备PADI认证潜水教练,宾客可体验专业潜水课程与水下摄影服务。",
     "en": "Equipped with PADI certified diving instructors, guests can experience professional diving courses and underwater photography services."
   },
   "case-009.314": {
@@ -11745,7 +11745,7 @@ var dict = {
     "en": "🌙 Deck Starry Sky Cinema"
   },
   "case-009.315": {
-    "zh": "游艇甲板配备户外投影系统，宾客可享受海上星空电影之夜，配备香槟与小吃。",
+    "zh": "游艇甲板配备户外投影系统,宾客可享受海上星空电影之夜,配备香槟与小吃。",
     "en": "The yacht deck is equipped with an outdoor projection system, and guests can enjoy a starry sky movie night at sea, complete with champagne and snacks."
   },
   "case-009.320": {
@@ -11765,11 +11765,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-009.346": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "case-009.349": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "case-009.354": {
@@ -12057,8 +12057,8 @@ var dict = {
     "en": "Contact Us"
   },
   "case-010.243": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "case-010.250": {
     "zh": "探险巡航",
@@ -12077,7 +12077,7 @@ var dict = {
     "en": "South Pacific Adventure Cruise"
   },
   "case-010.256": {
-    "zh": "深入南太平洋秘境的21天探险巡航，航线：斐济→瓦努阿图→新喀里多尼亚，52米探险游艇，8位宾客，探索原始部落与珊瑚礁秘境。",
+    "zh": "深入南太平洋秘境的21天探险巡航,航线:斐济→瓦努阿图→新喀里多尼亚,52米探险游艇,8位宾客,探索原始部落与珊瑚礁秘境。",
     "en": "A 21-day adventure cruise into the secrets of the South Pacific, route: Fiji → Vanuatu → New Caledonia, 52-meter expedition yacht, 8 guests, exploring primitive tribes and secrets of coral reefs."
   },
   "case-010.259": {
@@ -12165,7 +12165,7 @@ var dict = {
     "en": "🏝️ Visit to primitive tribes"
   },
   "case-010.300": {
-    "zh": "探访瓦努阿图原始部落，宾客可体验原住民文化、传统仪式与手工艺，由当地向导全程陪同。",
+    "zh": "探访瓦努阿图原始部落,宾客可体验原住民文化、传统仪式与手工艺,由当地向导全程陪同。",
     "en": "Visiting the primitive tribes of Vanuatu, guests can experience aboriginal culture, traditional ceremonies and handicrafts, accompanied by local guides throughout the journey."
   },
   "case-010.302": {
@@ -12173,7 +12173,7 @@ var dict = {
     "en": "🤿 World class diving"
   },
   "case-010.303": {
-    "zh": "斐济与瓦努阿图拥有世界高端潜水点，配备PADI教练与专业潜水装备，探索珊瑚礁与二战沉船。",
+    "zh": "斐济与瓦努阿图拥有世界高端潜水点,配备PADI教练与专业潜水装备,探索珊瑚礁与二战沉船。",
     "en": "Fiji and Vanuatu have the world's leading diving spots, equipped with PADI instructors and professional diving equipment, to explore coral reefs and World War II shipwrecks."
   },
   "case-010.305": {
@@ -12181,7 +12181,7 @@ var dict = {
     "en": "🚁 Helicopter Adventure"
   },
   "case-010.306": {
-    "zh": "游艇配备直升机，宾客可空中俯瞰火山、雨林与岛屿，实现陆海空三维探险体验。",
+    "zh": "游艇配备直升机,宾客可空中俯瞰火山、雨林与岛屿,实现陆海空三维探险体验。",
     "en": "The yacht is equipped with a helicopter, allowing guests to overlook volcanoes, rainforests and islands from the air, realizing a three-dimensional adventure experience on land, sea and air."
   },
   "case-010.308": {
@@ -12189,7 +12189,7 @@ var dict = {
     "en": "🛶 Original kayak"
   },
   "case-010.309": {
-    "zh": "配备专业皮划艇团队，宾客可划入红树林与洞穴，探索游艇无法抵达的秘境水道。",
+    "zh": "配备专业皮划艇团队,宾客可划入红树林与洞穴,探索游艇无法抵达的秘境水道。",
     "en": "Equipped with a professional kayaking team, guests can paddle into mangroves and caves and explore secret waterways that are inaccessible to yachts."
   },
   "case-010.311": {
@@ -12197,7 +12197,7 @@ var dict = {
     "en": "🍳 Michelin at sea"
   },
   "case-010.312": {
-    "zh": "配备米其林星级主厨，结合南太平洋食材与亚洲烹饪技法，提供独特的海上美食体验。",
+    "zh": "配备米其林星级主厨,结合南太平洋食材与亚洲烹饪技法,提供独特的海上美食体验。",
     "en": "Equipped with a Michelin-starred chef, the restaurant combines South Pacific ingredients with Asian cooking techniques to provide a unique maritime culinary experience."
   },
   "case-010.314": {
@@ -12205,7 +12205,7 @@ var dict = {
     "en": "📸 Professional photography services"
   },
   "case-010.315": {
-    "zh": "配备水下与航拍摄影师，全程记录探险旅程，最终交付精装探险纪录片与相册。",
+    "zh": "配备水下与航拍摄影师,全程记录探险旅程,最终交付精装探险纪录片与相册。",
     "en": "Equipped with underwater and aerial photographers to record the entire adventure journey, and finally deliver hardcover adventure documentaries and photo albums."
   },
   "case-010.320": {
@@ -12225,11 +12225,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-010.346": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "case-010.349": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "case-010.354": {
@@ -12517,8 +12517,8 @@ var dict = {
     "en": "Contact Us"
   },
   "case-011.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "case-011.255": {
     "zh": "出行活动",
@@ -12529,7 +12529,7 @@ var dict = {
     "en": "Private high-end yacht for leisure vacation at sea"
   },
   "case-011.259": {
-    "zh": "为科技企业家打造的私人度假航线，全程无打扰私密体验，专属游艇管家服务",
+    "zh": "为科技企业家打造的私人度假航线,全程无打扰私密体验,专属游艇管家服务",
     "en": "A private vacation route created for technology entrepreneurs, with a non-disturbing private experience and exclusive yacht butler service"
   },
   "case-011.263": {
@@ -12589,7 +12589,7 @@ var dict = {
     "en": "Project requirements background"
   },
   "case-011.287": {
-    "zh": "企业家希望与家人度过一个私密、轻松的周末，远离城市喧嚣，享受海上时光。对游艇配置有较高要求，需要配备儿童娱乐设施、水上活动设备、私人厨师。",
+    "zh": "企业家希望与家人度过一个私密、轻松的周末,远离城市喧嚣,享受海上时光。对游艇配置有较高要求,需要配备儿童娱乐设施、水上活动设备、私人厨师。",
     "en": "Entrepreneurs want to spend a private, relaxing weekend with their family, away from the hustle and bustle of the city, and enjoy time at sea. There are high requirements for yacht configuration, including children's entertainment facilities, water sports equipment, and private chefs."
   },
   "case-011.289": {
@@ -12597,11 +12597,11 @@ var dict = {
     "en": "Complete service implementation process"
   },
   "case-011.291": {
-    "zh": "专属顾问一对一沟通，了解客户偏好和特殊需求",
+    "zh": "专属顾问一对一沟通,了解客户偏好和特殊需求",
     "en": "Dedicated consultants communicate one-on-one to understand customer preferences and special needs"
   },
   "case-011.293": {
-    "zh": "精选南海最美航线，避开拥挤区域",
+    "zh": "精选南海最美航线,避开拥挤区域",
     "en": "Select the most beautiful routes in the South China Sea and avoid crowded areas"
   },
   "case-011.295": {
@@ -12681,7 +12681,7 @@ var dict = {
     "en": "Project implementation results"
   },
   "case-011.335": {
-    "zh": "客户满意度100%，表示下次还会选择奇幻假期，已预约下季度行程",
+    "zh": "客户满意度100%,表示下次还会选择奇幻假期,已预约下季度行程",
     "en": "Customer satisfaction is 100%. He said he would choose a fantasy vacation next time and has already booked a trip for next quarter."
   },
   "case-011.337": {
@@ -12689,15 +12689,15 @@ var dict = {
     "en": "Real customer reviews"
   },
   "case-011.342": {
-    "zh": "— 科技企业家家庭",
-    "en": "— A family of tech entrepreneurs"
+    "zh": "- 科技企业家家庭",
+    "en": "- A family of tech entrepreneurs"
   },
   "case-011.347": {
     "zh": "预约同款定制方案",
     "en": "Make an appointment for the same customized plan"
   },
   "case-011.349": {
-    "zh": "如果您对该案例感兴趣，欢迎联系我们获取专属定制方案",
+    "zh": "如果您对该案例感兴趣,欢迎联系我们获取专属定制方案",
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-011.367": {
@@ -12709,11 +12709,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-011.373": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "case-011.376": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "case-011.381": {
@@ -13001,8 +13001,8 @@ var dict = {
     "en": "Contact Us"
   },
   "case-012.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "case-012.255": {
     "zh": "出行活动",
@@ -13013,7 +13013,7 @@ var dict = {
     "en": "Family weekend trip at sea"
   },
   "case-012.259": {
-    "zh": "家庭亲子周末出行，配备儿童娱乐设施、水上活动教练、专业儿童看护团队",
+    "zh": "家庭亲子周末出行,配备儿童娱乐设施、水上活动教练、专业儿童看护团队",
     "en": "A weekend trip for families with children, equipped with children's entertainment facilities, water sports coaches, and a professional child care team"
   },
   "case-012.263": {
@@ -13073,7 +13073,7 @@ var dict = {
     "en": "Project requirements background"
   },
   "case-012.287": {
-    "zh": "高管希望给家人一个难忘的周末，孩子年龄跨度大（5-15岁），需要照顾不同年龄段的需求。对安全要求极高，需要专业看护团队。",
+    "zh": "高管希望给家人一个难忘的周末,孩子年龄跨度大(5-15岁),需要照顾不同年龄段的需求。对安全要求极高,需要专业看护团队。",
     "en": "The executives hope to give their families an unforgettable weekend. The children range in age (5-15 years old) and need to take care of the needs of different age groups. The safety requirements are extremely high and a professional care team is required."
   },
   "case-012.289": {
@@ -13086,7 +13086,7 @@ var dict = {
   },
   "case-012.293": {
     "zh": "配置儿童救生衣、护栏、防滑设施",
-    "en": "Equipped with children’s life jackets, guardrails and anti-slip facilities"
+    "en": "Equipped with children's life jackets, guardrails and anti-slip facilities"
   },
   "case-012.295": {
     "zh": "安排浮潜教学、皮划艇、香蕉船等水上活动",
@@ -13101,7 +13101,7 @@ var dict = {
     "en": "Customized kid-friendly menu plus fine dining for adults"
   },
   "case-012.301": {
-    "zh": "专业摄影师跟拍，制作家庭影集",
+    "zh": "专业摄影师跟拍,制作家庭影集",
     "en": "Professional photographer follows you and makes a family photo album"
   },
   "case-012.304": {
@@ -13157,7 +13157,7 @@ var dict = {
     "en": "Project implementation results"
   },
   "case-012.332": {
-    "zh": "家长反馈孩子玩得最开心的一次，三个家庭决定联合预订下次行程",
+    "zh": "家长反馈孩子玩得最开心的一次,三个家庭决定联合预订下次行程",
     "en": "Parents reported that their children had the most fun, and the three families decided to jointly book the next trip."
   },
   "case-012.334": {
@@ -13165,15 +13165,15 @@ var dict = {
     "en": "Real customer reviews"
   },
   "case-012.339": {
-    "zh": "— 跨国企业高管家庭",
-    "en": "—Family of a multinational company executive"
+    "zh": "- 跨国企业高管家庭",
+    "en": "-Family of a multinational company executive"
   },
   "case-012.344": {
     "zh": "预约同款定制方案",
     "en": "Make an appointment for the same customized plan"
   },
   "case-012.346": {
-    "zh": "如果您对该案例感兴趣，欢迎联系我们获取专属定制方案",
+    "zh": "如果您对该案例感兴趣,欢迎联系我们获取专属定制方案",
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-012.364": {
@@ -13185,11 +13185,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-012.370": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "case-012.373": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "case-012.378": {
@@ -13477,8 +13477,8 @@ var dict = {
     "en": "Contact Us"
   },
   "case-013.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "case-013.255": {
     "zh": "出行活动",
@@ -13489,7 +13489,7 @@ var dict = {
     "en": "Romantic sea trip for couple"
   },
   "case-013.259": {
-    "zh": "为情侣定制的浪漫航线，含海上烛光晚餐、星空影院、私人按摩浴缸",
+    "zh": "为情侣定制的浪漫航线,含海上烛光晚餐、星空影院、私人按摩浴缸",
     "en": "A romantic route customized for couples, including candlelight dinner at sea, starry sky cinema, and private jacuzzi"
   },
   "case-013.263": {
@@ -13549,7 +13549,7 @@ var dict = {
     "en": "Project requirements background"
   },
   "case-013.287": {
-    "zh": "庆祝恋爱三周年纪念，希望打造一个终身难忘的浪漫体验。对隐私要求极高，需要避开拥挤区域。",
+    "zh": "庆祝恋爱三周年纪念,希望打造一个终身难忘的浪漫体验。对隐私要求极高,需要避开拥挤区域。",
     "en": "Celebrating the third anniversary of your relationship, we hope to create a romantic experience that will last a lifetime. High privacy requirements and the need to avoid crowded areas."
   },
   "case-013.289": {
@@ -13573,7 +13573,7 @@ var dict = {
     "en": "Arrange private beach dinner, sea spa, sunset cruise"
   },
   "case-013.299": {
-    "zh": "专属摄影师跟拍，制作爱情MV",
+    "zh": "专属摄影师跟拍,制作爱情MV",
     "en": "Exclusive photographer follows you and makes a love MV"
   },
   "case-013.302": {
@@ -13629,7 +13629,7 @@ var dict = {
     "en": "Project implementation results"
   },
   "case-013.330": {
-    "zh": "客户评价最浪漫的旅行，已向三位朋友推荐",
+    "zh": "客户评价最浪漫的旅行,已向三位朋友推荐",
     "en": "Customer reviews: The most romantic trip, recommended to three friends"
   },
   "case-013.332": {
@@ -13637,15 +13637,15 @@ var dict = {
     "en": "Real customer reviews"
   },
   "case-013.337": {
-    "zh": "— 金融从业者情侣",
-    "en": "— Financial practitioner couple"
+    "zh": "- 金融从业者情侣",
+    "en": "- Financial practitioner couple"
   },
   "case-013.342": {
     "zh": "预约同款定制方案",
     "en": "Make an appointment for the same customized plan"
   },
   "case-013.344": {
-    "zh": "如果您对该案例感兴趣，欢迎联系我们获取专属定制方案",
+    "zh": "如果您对该案例感兴趣,欢迎联系我们获取专属定制方案",
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-013.362": {
@@ -13657,11 +13657,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-013.368": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "case-013.371": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "case-013.376": {
@@ -13949,8 +13949,8 @@ var dict = {
     "en": "Contact Us"
   },
   "case-014.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "case-014.255": {
     "zh": "出行活动",
@@ -13961,7 +13961,7 @@ var dict = {
     "en": "Friends circle gathering at sea"
   },
   "case-014.259": {
-    "zh": "12位好友的圈层聚会，含DJ派对、水上运动、专属主厨，高端社交的完美选择",
+    "zh": "12位好友的圈层聚会,含DJ派对、水上运动、专属主厨,高端社交的完美选择",
     "en": "A circle party for 12 friends, including DJ party, water sports, and exclusive chef, the perfect choice for high-end socializing"
   },
   "case-014.263": {
@@ -14021,7 +14021,7 @@ var dict = {
     "en": "Project requirements background"
   },
   "case-014.287": {
-    "zh": "投资圈朋友每年一次的聚会活动，希望在海上有不一样的体验。需要兼顾商务交流和娱乐放松。",
+    "zh": "投资圈朋友每年一次的聚会活动,希望在海上有不一样的体验。需要兼顾商务交流和娱乐放松。",
     "en": "This is an annual gathering of friends in the investment circle, hoping to have a different experience at sea. Need to balance business communication with entertainment and relaxation."
   },
   "case-014.289": {
@@ -14101,7 +14101,7 @@ var dict = {
     "en": "Project implementation results"
   },
   "case-014.330": {
-    "zh": "成员评价最成功的一次聚会，已预订明年同款行程",
+    "zh": "成员评价最成功的一次聚会,已预订明年同款行程",
     "en": "Members rated it as the most successful gathering and have already booked the same itinerary for next year."
   },
   "case-014.332": {
@@ -14109,15 +14109,15 @@ var dict = {
     "en": "Real customer reviews"
   },
   "case-014.337": {
-    "zh": "— 投资圈精英群体",
-    "en": "— Elite group in the investment circle"
+    "zh": "- 投资圈精英群体",
+    "en": "- Elite group in the investment circle"
   },
   "case-014.342": {
     "zh": "预约同款定制方案",
     "en": "Make an appointment for the same customized plan"
   },
   "case-014.344": {
-    "zh": "如果您对该案例感兴趣，欢迎联系我们获取专属定制方案",
+    "zh": "如果您对该案例感兴趣,欢迎联系我们获取专属定制方案",
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-014.362": {
@@ -14129,11 +14129,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-014.368": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "case-014.371": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "case-014.376": {
@@ -14421,8 +14421,8 @@ var dict = {
     "en": "Contact Us"
   },
   "case-015.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "case-015.255": {
     "zh": "出行活动",
@@ -14433,7 +14433,7 @@ var dict = {
     "en": "Afternoon tea at sea luxury experience"
   },
   "case-015.259": {
-    "zh": "半日轻奢下午茶体验，含米其林点心、专业摄影服务，维港日落美景尽收眼底",
+    "zh": "半日轻奢下午茶体验,含米其林点心、专业摄影服务,维港日落美景尽收眼底",
     "en": "Half-day luxury afternoon tea experience, including Michelin-starred snacks, professional photography services, and a panoramic view of the sunset over Victoria Harbor"
   },
   "case-015.263": {
@@ -14493,7 +14493,7 @@ var dict = {
     "en": "Project requirements background"
   },
   "case-015.287": {
-    "zh": "时尚博主团队希望拍摄一组海上主题内容，需要精致的场景和专业的摄影支持。",
+    "zh": "时尚博主团队希望拍摄一组海上主题内容,需要精致的场景和专业的摄影支持。",
     "en": "The fashion blogger team hopes to shoot a set of maritime-themed content, which requires exquisite scenes and professional photography support."
   },
   "case-015.289": {
@@ -14513,7 +14513,7 @@ var dict = {
     "en": "Professional photographer follows you throughout the process"
   },
   "case-015.297": {
-    "zh": "规划维港黄金时间（落日时段）航线",
+    "zh": "规划维港黄金时间(落日时段)航线",
     "en": "Planning a route during prime time (sunset time) in Victoria Harbor"
   },
   "case-015.299": {
@@ -14573,7 +14573,7 @@ var dict = {
     "en": "Project implementation results"
   },
   "case-015.330": {
-    "zh": "内容发布后获得10万加互动，品牌方主动联系合作",
+    "zh": "内容发布后获得10万加互动,品牌方主动联系合作",
     "en": "After the content was released, it received more than 100,000 interactions, and the brand took the initiative to contact us for cooperation."
   },
   "case-015.332": {
@@ -14581,15 +14581,15 @@ var dict = {
     "en": "Real customer reviews"
   },
   "case-015.337": {
-    "zh": "— 时尚博主团队",
-    "en": "— Fashion Blogger Team"
+    "zh": "- 时尚博主团队",
+    "en": "- Fashion Blogger Team"
   },
   "case-015.342": {
     "zh": "预约同款定制方案",
     "en": "Make an appointment for the same customized plan"
   },
   "case-015.344": {
-    "zh": "如果您对该案例感兴趣，欢迎联系我们获取专属定制方案",
+    "zh": "如果您对该案例感兴趣,欢迎联系我们获取专属定制方案",
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-015.362": {
@@ -14601,11 +14601,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-015.368": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "case-015.371": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "case-015.376": {
@@ -14893,8 +14893,8 @@ var dict = {
     "en": "Contact Us"
   },
   "case-016.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "case-016.255": {
     "zh": "企业商务",
@@ -14905,7 +14905,7 @@ var dict = {
     "en": "Business yacht meeting with corporate executives"
   },
   "case-016.259": {
-    "zh": "跨国企业CEO峰会，高端保密商务会晤，全程无打扰服务",
+    "zh": "跨国企业CEO峰会,高端保密商务会晤,全程无打扰服务",
     "en": "Multinational CEO summit, high-end confidential business meeting, full non-disturbing service"
   },
   "case-016.263": {
@@ -14965,7 +14965,7 @@ var dict = {
     "en": "Project requirements background"
   },
   "case-016.287": {
-    "zh": "集团董事会年度战略会议，需要高度保密的场所。对服务质量、保密措施有严格要求。",
+    "zh": "集团董事会年度战略会议,需要高度保密的场所。对服务质量、保密措施有严格要求。",
     "en": "The annual strategy meeting of the group's board of directors requires a highly confidential venue. There are strict requirements on service quality and confidentiality measures."
   },
   "case-016.289": {
@@ -14973,7 +14973,7 @@ var dict = {
     "en": "Complete service implementation process"
   },
   "case-016.291": {
-    "zh": "签署保密协议，限制通讯设备",
+    "zh": "签署保密协议,限制通讯设备",
     "en": "Sign a confidentiality agreement and restrict communication equipment"
   },
   "case-016.293": {
@@ -15045,7 +15045,7 @@ var dict = {
     "en": "Project implementation results"
   },
   "case-016.330": {
-    "zh": "会议圆满完成，集团总裁亲笔致谢函，承诺长期合作",
+    "zh": "会议圆满完成,集团总裁亲笔致谢函,承诺长期合作",
     "en": "The meeting was successfully completed, and the group president personally wrote a letter of thanks and promised long-term cooperation."
   },
   "case-016.332": {
@@ -15053,15 +15053,15 @@ var dict = {
     "en": "Real customer reviews"
   },
   "case-016.337": {
-    "zh": "— 跨国科技集团",
-    "en": "— Multinational technology group"
+    "zh": "- 跨国科技集团",
+    "en": "- Multinational technology group"
   },
   "case-016.342": {
     "zh": "预约同款定制方案",
     "en": "Make an appointment for the same customized plan"
   },
   "case-016.344": {
-    "zh": "如果您对该案例感兴趣，欢迎联系我们获取专属定制方案",
+    "zh": "如果您对该案例感兴趣,欢迎联系我们获取专属定制方案",
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-016.362": {
@@ -15073,11 +15073,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-016.368": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "case-016.371": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "case-016.376": {
@@ -15365,8 +15365,8 @@ var dict = {
     "en": "Contact Us"
   },
   "case-017.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "case-017.255": {
     "zh": "企业商务",
@@ -15377,7 +15377,7 @@ var dict = {
     "en": "High-end banquet for business clients"
   },
   "case-017.259": {
-    "zh": "为投行客户执行的高端宴请，米其林主厨、侍酒师团队，客户满意度100%",
+    "zh": "为投行客户执行的高端宴请,米其林主厨、侍酒师团队,客户满意度100%",
     "en": "High-end banquet for investment bank clients, Michelin chef and sommelier team, 100% customer satisfaction"
   },
   "case-017.263": {
@@ -15437,7 +15437,7 @@ var dict = {
     "en": "Project requirements background"
   },
   "case-017.287": {
-    "zh": "为高端客户举办的感谢晚宴，需要彰显公司实力和对客户的尊重。对餐饮品质有极高要求。",
+    "zh": "为高端客户举办的感谢晚宴,需要彰显公司实力和对客户的尊重。对餐饮品质有极高要求。",
     "en": "A thank-you dinner for top clients needs to demonstrate the company's strength and respect for its clients. There are extremely high requirements for catering quality."
   },
   "case-017.289": {
@@ -15450,7 +15450,7 @@ var dict = {
   },
   "case-017.293": {
     "zh": "专业侍酒师精选葡萄酒",
-    "en": "Professional sommelier’s selection of wines"
+    "en": "Professional sommelier's selection of wines"
   },
   "case-017.295": {
     "zh": "布置高端商务风格场地",
@@ -15517,7 +15517,7 @@ var dict = {
     "en": "Project implementation results"
   },
   "case-017.330": {
-    "zh": "客户当场表示追加投资，宴请ROI超预期",
+    "zh": "客户当场表示追加投资,宴请ROI超预期",
     "en": "The customer expressed additional investment on the spot, and the ROI of the banquet exceeded expectations."
   },
   "case-017.332": {
@@ -15525,15 +15525,15 @@ var dict = {
     "en": "Real customer reviews"
   },
   "case-017.337": {
-    "zh": "— 投行亚太总部",
-    "en": "— Investment Bank Asia Pacific Headquarters"
+    "zh": "- 投行亚太总部",
+    "en": "- Investment Bank Asia Pacific Headquarters"
   },
   "case-017.342": {
     "zh": "预约同款定制方案",
     "en": "Make an appointment for the same customized plan"
   },
   "case-017.344": {
-    "zh": "如果您对该案例感兴趣，欢迎联系我们获取专属定制方案",
+    "zh": "如果您对该案例感兴趣,欢迎联系我们获取专属定制方案",
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-017.362": {
@@ -15545,11 +15545,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-017.368": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "case-017.371": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "case-017.376": {
@@ -15837,8 +15837,8 @@ var dict = {
     "en": "Contact Us"
   },
   "case-018.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "case-018.255": {
     "zh": "企业商务",
@@ -15849,7 +15849,7 @@ var dict = {
     "en": "Luxury brand maritime conference"
   },
   "case-018.259": {
-    "zh": "奢侈品牌新品发布会，120位宾客，直升机空中入场，全球媒体同步直播",
+    "zh": "奢侈品牌新品发布会,120位宾客,直升机空中入场,全球媒体同步直播",
     "en": "Luxury brand new product launch conference, 120 guests, helicopter entrance, simultaneous live broadcast by global media"
   },
   "case-018.263": {
@@ -15909,7 +15909,7 @@ var dict = {
     "en": "Project requirements background"
   },
   "case-018.287": {
-    "zh": "品牌年度最重要的新品发布活动，需要与众不同的场地和创新的形式。",
+    "zh": "品牌年度最重要的新品发布活动,需要与众不同的场地和创新的形式。",
     "en": "The most important new product launch event of the brand year requires a unique venue and innovative format."
   },
   "case-018.289": {
@@ -15989,7 +15989,7 @@ var dict = {
     "en": "Project implementation results"
   },
   "case-018.330": {
-    "zh": "发布会获得全球媒体广泛报道，品牌方满意度100%",
+    "zh": "发布会获得全球媒体广泛报道,品牌方满意度100%",
     "en": "The press conference was widely reported by global media, and the brand satisfaction was 100%"
   },
   "case-018.332": {
@@ -15997,15 +15997,15 @@ var dict = {
     "en": "Real customer reviews"
   },
   "case-018.337": {
-    "zh": "— 欧洲奢侈品牌",
-    "en": "— European luxury brands"
+    "zh": "- 欧洲奢侈品牌",
+    "en": "- European luxury brands"
   },
   "case-018.342": {
     "zh": "预约同款定制方案",
     "en": "Make an appointment for the same customized plan"
   },
   "case-018.344": {
-    "zh": "如果您对该案例感兴趣，欢迎联系我们获取专属定制方案",
+    "zh": "如果您对该案例感兴趣,欢迎联系我们获取专属定制方案",
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-018.362": {
@@ -16017,11 +16017,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-018.368": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "case-018.371": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "case-018.376": {
@@ -16309,8 +16309,8 @@ var dict = {
     "en": "Contact Us"
   },
   "case-019.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "case-019.255": {
     "zh": "企业商务",
@@ -16321,7 +16321,7 @@ var dict = {
     "en": "Corporate anniversary celebration at sea"
   },
   "case-019.259": {
-    "zh": "企业成立20周年庆典，含颁奖典礼、主题晚会，员工满意度98%",
+    "zh": "企业成立20周年庆典,含颁奖典礼、主题晚会,员工满意度98%",
     "en": "20th anniversary celebration of the company, including award ceremony and theme party, employee satisfaction rate 98%"
   },
   "case-019.263": {
@@ -16381,7 +16381,7 @@ var dict = {
     "en": "Project requirements background"
   },
   "case-019.287": {
-    "zh": "集团成立20周年庆典，需要表彰优秀员工、回顾发展历程、展望未来愿景。",
+    "zh": "集团成立20周年庆典,需要表彰优秀员工、回顾发展历程、展望未来愿景。",
     "en": "The group's 20th anniversary celebration requires commending outstanding employees, reviewing the development process, and looking forward to the future vision."
   },
   "case-019.289": {
@@ -16461,7 +16461,7 @@ var dict = {
     "en": "Project implementation results"
   },
   "case-019.330": {
-    "zh": "员工满意度98%，HR总监表示最成功的年会",
+    "zh": "员工满意度98%,HR总监表示最成功的年会",
     "en": "Employee satisfaction is 98%, HR director said it was the most successful annual meeting"
   },
   "case-019.332": {
@@ -16469,15 +16469,15 @@ var dict = {
     "en": "Real customer reviews"
   },
   "case-019.337": {
-    "zh": "— 国内房地产集团",
-    "en": "— Domestic real estate group"
+    "zh": "- 国内房地产集团",
+    "en": "- Domestic real estate group"
   },
   "case-019.342": {
     "zh": "预约同款定制方案",
     "en": "Make an appointment for the same customized plan"
   },
   "case-019.344": {
-    "zh": "如果您对该案例感兴趣，欢迎联系我们获取专属定制方案",
+    "zh": "如果您对该案例感兴趣,欢迎联系我们获取专属定制方案",
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-019.362": {
@@ -16489,11 +16489,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-019.368": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "case-019.371": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "case-019.376": {
@@ -16781,8 +16781,8 @@ var dict = {
     "en": "Contact Us"
   },
   "case-020.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "case-020.255": {
     "zh": "仪式庆典",
@@ -16793,7 +16793,7 @@ var dict = {
     "en": "Romantic proposal planning at sea"
   },
   "case-020.259": {
-    "zh": "全程保密策划的海上求婚，含无人机灯光秀、香槟礼炮、专属摄影团队",
+    "zh": "全程保密策划的海上求婚,含无人机灯光秀、香槟礼炮、专属摄影团队",
     "en": "A completely confidential and planned wedding proposal at sea, including drone light show, champagne salute, and dedicated photography team"
   },
   "case-020.263": {
@@ -16853,7 +16853,7 @@ var dict = {
     "en": "Project requirements background"
   },
   "case-020.287": {
-    "zh": "客户希望给女友一个终生难忘的求婚，需要绝对保密和极致浪漫。",
+    "zh": "客户希望给女友一个终生难忘的求婚,需要绝对保密和极致浪漫。",
     "en": "The client wishes to give his girlfriend an unforgettable proposal, which requires absolute confidentiality and ultimate romance."
   },
   "case-020.289": {
@@ -16933,7 +16933,7 @@ var dict = {
     "en": "Project implementation results"
   },
   "case-020.330": {
-    "zh": "求婚成功！客户当场表示最完美的时刻",
+    "zh": "求婚成功!客户当场表示最完美的时刻",
     "en": "Proposal successful! Customer expresses the most perfect moment on the spot"
   },
   "case-020.332": {
@@ -16941,15 +16941,15 @@ var dict = {
     "en": "Real customer reviews"
   },
   "case-020.337": {
-    "zh": "— 互联网创业者",
-    "en": "—Internet entrepreneur"
+    "zh": "- 互联网创业者",
+    "en": "-Internet entrepreneur"
   },
   "case-020.342": {
     "zh": "预约同款定制方案",
     "en": "Make an appointment for the same customized plan"
   },
   "case-020.344": {
-    "zh": "如果您对该案例感兴趣，欢迎联系我们获取专属定制方案",
+    "zh": "如果您对该案例感兴趣,欢迎联系我们获取专属定制方案",
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-020.362": {
@@ -16961,11 +16961,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-020.368": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "case-020.371": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "case-020.376": {
@@ -17253,8 +17253,8 @@ var dict = {
     "en": "Contact Us"
   },
   "case-021.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "case-021.255": {
     "zh": "仪式庆典",
@@ -17265,7 +17265,7 @@ var dict = {
     "en": "Birthday high-end sea party"
   },
   "case-021.259": {
-    "zh": "60位宾客的豪华生日派对，7天航线，全程定制主题活动，获评年度最佳派对",
+    "zh": "60位宾客的豪华生日派对,7天航线,全程定制主题活动,获评年度最佳派对",
     "en": "Luxurious birthday party for 60 guests, 7-day flight, fully customized theme activities, rated as the best party of the year"
   },
   "case-021.263": {
@@ -17325,7 +17325,7 @@ var dict = {
     "en": "Project requirements background"
   },
   "case-021.287": {
-    "zh": "王室成员40岁生日庆典，需要彰显尊贵身份，同时营造温馨欢乐的氛围。",
+    "zh": "王室成员40岁生日庆典,需要彰显尊贵身份,同时营造温馨欢乐的氛围。",
     "en": "The 40th birthday celebration of royal family members needs to show their distinguished status while creating a warm and joyful atmosphere."
   },
   "case-021.289": {
@@ -17405,7 +17405,7 @@ var dict = {
     "en": "Project implementation results"
   },
   "case-021.330": {
-    "zh": "获评年度最佳海上派对，王室成员亲笔感谢信",
+    "zh": "获评年度最佳海上派对,王室成员亲笔感谢信",
     "en": "Awarded the best sea party of the year, thank you letters personally written by members of the royal family"
   },
   "case-021.332": {
@@ -17413,15 +17413,15 @@ var dict = {
     "en": "Real customer reviews"
   },
   "case-021.337": {
-    "zh": "— 中东王室成员",
-    "en": "— Middle Eastern Royal Family"
+    "zh": "- 中东王室成员",
+    "en": "- Middle Eastern Royal Family"
   },
   "case-021.342": {
     "zh": "预约同款定制方案",
     "en": "Make an appointment for the same customized plan"
   },
   "case-021.344": {
-    "zh": "如果您对该案例感兴趣，欢迎联系我们获取专属定制方案",
+    "zh": "如果您对该案例感兴趣,欢迎联系我们获取专属定制方案",
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-021.362": {
@@ -17433,11 +17433,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-021.368": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "case-021.371": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "case-021.376": {
@@ -17725,8 +17725,8 @@ var dict = {
     "en": "Contact Us"
   },
   "case-022.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "case-022.255": {
     "zh": "仪式庆典",
@@ -17737,7 +17737,7 @@ var dict = {
     "en": "Private dinner at sea"
   },
   "case-022.259": {
-    "zh": "家族私密晚宴，含私人厨师、现场乐队、烟火表演，终身难忘的家族时刻",
+    "zh": "家族私密晚宴,含私人厨师、现场乐队、烟火表演,终身难忘的家族时刻",
     "en": "Intimate family dinner, including private chef, live band, fireworks show, an unforgettable family moment"
   },
   "case-022.263": {
@@ -17797,7 +17797,7 @@ var dict = {
     "en": "Project requirements background"
   },
   "case-022.287": {
-    "zh": "家族重要聚会，需要私密性和尊贵感，同时要有仪式感。",
+    "zh": "家族重要聚会,需要私密性和尊贵感,同时要有仪式感。",
     "en": "Important family gatherings require privacy and dignity, as well as a sense of ceremony."
   },
   "case-022.289": {
@@ -17877,7 +17877,7 @@ var dict = {
     "en": "Project implementation results"
   },
   "case-022.330": {
-    "zh": "家族成员一致好评，已预订明年家族聚会",
+    "zh": "家族成员一致好评,已预订明年家族聚会",
     "en": "The family members praised it unanimously and have already booked a family gathering for next year."
   },
   "case-022.332": {
@@ -17885,15 +17885,15 @@ var dict = {
     "en": "Real customer reviews"
   },
   "case-022.337": {
-    "zh": "— 华人家族",
-    "en": "—Chinese family"
+    "zh": "- 华人家族",
+    "en": "-Chinese family"
   },
   "case-022.342": {
     "zh": "预约同款定制方案",
     "en": "Make an appointment for the same customized plan"
   },
   "case-022.344": {
-    "zh": "如果您对该案例感兴趣，欢迎联系我们获取专属定制方案",
+    "zh": "如果您对该案例感兴趣,欢迎联系我们获取专属定制方案",
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-022.362": {
@@ -17905,11 +17905,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-022.368": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "case-022.371": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "case-022.376": {
@@ -18197,8 +18197,8 @@ var dict = {
     "en": "Contact Us"
   },
   "case-023.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "case-023.255": {
     "zh": "托管维保",
@@ -18209,7 +18209,7 @@ var dict = {
     "en": "Daily full management operation and maintenance of small and medium-sized yachts"
   },
   "case-023.259": {
-    "zh": "3年全托管服务，日常运营、船员管理、定期保养一站式服务，船东满意度100%",
+    "zh": "3年全托管服务,日常运营、船员管理、定期保养一站式服务,船东满意度100%",
     "en": "3-year full custody service, one-stop service for daily operations, crew management, and regular maintenance, with 100% shipowner satisfaction"
   },
   "case-023.263": {
@@ -18269,7 +18269,7 @@ var dict = {
     "en": "Project requirements background"
   },
   "case-023.287": {
-    "zh": "船东因工作繁忙无法亲自管理游艇，需要专业团队提供全托管服务。",
+    "zh": "船东因工作繁忙无法亲自管理游艇,需要专业团队提供全托管服务。",
     "en": "Shipowners are unable to manage the yacht themselves due to busy work schedules and require a professional team to provide full custody services."
   },
   "case-023.289": {
@@ -18277,7 +18277,7 @@ var dict = {
     "en": "Complete service implementation process"
   },
   "case-023.291": {
-    "zh": "详细托管协议，明确权责",
+    "zh": "详细托管协议,明确权责",
     "en": "Detailed custody agreement, clarifying rights and responsibilities"
   },
   "case-023.293": {
@@ -18353,23 +18353,23 @@ var dict = {
     "en": "Project implementation results"
   },
   "case-023.332": {
-    "zh": "连续3年无重大故障，船东满意度100%，已续签5年合同",
-    "en": "There have been no major failures for 3 consecutive years, the shipowner’s satisfaction is 100%, and the contract has been renewed for 5 years."
+    "zh": "连续3年无重大故障,船东满意度100%,已续签5年合同",
+    "en": "There have been no major failures for 3 consecutive years, the shipowner's satisfaction is 100%, and the contract has been renewed for 5 years."
   },
   "case-023.334": {
     "zh": "客户真实评价",
     "en": "Real customer reviews"
   },
   "case-023.339": {
-    "zh": "— 科技创业者",
-    "en": "—Technology Entrepreneur"
+    "zh": "- 科技创业者",
+    "en": "-Technology Entrepreneur"
   },
   "case-023.344": {
     "zh": "预约同款定制方案",
     "en": "Make an appointment for the same customized plan"
   },
   "case-023.346": {
-    "zh": "如果您对该案例感兴趣，欢迎联系我们获取专属定制方案",
+    "zh": "如果您对该案例感兴趣,欢迎联系我们获取专属定制方案",
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-023.364": {
@@ -18381,11 +18381,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-023.370": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "case-023.373": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "case-023.378": {
@@ -18673,8 +18673,8 @@ var dict = {
     "en": "Contact Us"
   },
   "case-024.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "case-024.255": {
     "zh": "托管维保",
@@ -18685,7 +18685,7 @@ var dict = {
     "en": "Annual ship maintenance for large luxury yachts"
   },
   "case-024.259": {
-    "zh": "年度整船保养项目，船体抛光、动力系统检修、内饰深度清洁，恢复出厂标准",
+    "zh": "年度整船保养项目,船体抛光、动力系统检修、内饰深度清洁,恢复出厂标准",
     "en": "Annual ship maintenance project, hull polishing, power system overhaul, interior deep cleaning, restoration to factory standards"
   },
   "case-024.263": {
@@ -18745,7 +18745,7 @@ var dict = {
     "en": "Project requirements background"
   },
   "case-024.287": {
-    "zh": "游艇运营一年后需要全面保养，确保各项系统正常运行，保持最佳状态。",
+    "zh": "游艇运营一年后需要全面保养,确保各项系统正常运行,保持最佳状态。",
     "en": "After a year of operation, the yacht requires comprehensive maintenance to ensure that all systems operate normally and remain in optimal condition."
   },
   "case-024.289": {
@@ -18753,7 +18753,7 @@ var dict = {
     "en": "Complete service implementation process"
   },
   "case-024.291": {
-    "zh": "全面系统检测，制定保养方案",
+    "zh": "全面系统检测,制定保养方案",
     "en": "Comprehensive system inspection and formulation of maintenance plans"
   },
   "case-024.293": {
@@ -18773,7 +18773,7 @@ var dict = {
     "en": "Navigation equipment verification and communication system testing"
   },
   "case-024.301": {
-    "zh": "158项检测清单，出具报告",
+    "zh": "158项检测清单,出具报告",
     "en": "158-item test list and report issued"
   },
   "case-024.304": {
@@ -18829,7 +18829,7 @@ var dict = {
     "en": "Project implementation results"
   },
   "case-024.332": {
-    "zh": "保养后各项指标优于出厂标准，船东表示超出预期",
+    "zh": "保养后各项指标优于出厂标准,船东表示超出预期",
     "en": "After maintenance, all indicators were better than factory standards, and the shipowner said it exceeded expectations."
   },
   "case-024.334": {
@@ -18837,15 +18837,15 @@ var dict = {
     "en": "Real customer reviews"
   },
   "case-024.339": {
-    "zh": "— 欧洲家族",
-    "en": "—European Family"
+    "zh": "- 欧洲家族",
+    "en": "-European Family"
   },
   "case-024.344": {
     "zh": "预约同款定制方案",
     "en": "Make an appointment for the same customized plan"
   },
   "case-024.346": {
-    "zh": "如果您对该案例感兴趣，欢迎联系我们获取专属定制方案",
+    "zh": "如果您对该案例感兴趣,欢迎联系我们获取专属定制方案",
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-024.364": {
@@ -18857,11 +18857,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-024.370": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "case-024.373": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "case-024.378": {
@@ -19149,8 +19149,8 @@ var dict = {
     "en": "Contact Us"
   },
   "case-025.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "case-025.255": {
     "zh": "托管维保",
@@ -19161,7 +19161,7 @@ var dict = {
     "en": "Yacht hull in-depth repair and maintenance"
   },
   "case-025.259": {
-    "zh": "因碰撞导致的船体损伤修复，12周工期，恢复原厂标准，获船东高度认可",
+    "zh": "因碰撞导致的船体损伤修复,12周工期,恢复原厂标准,获船东高度认可",
     "en": "Repair of hull damage caused by collision, 12-week construction period, restoration to original factory standards, highly recognized by shipowners"
   },
   "case-025.263": {
@@ -19221,7 +19221,7 @@ var dict = {
     "en": "Project requirements background"
   },
   "case-025.287": {
-    "zh": "游艇在停靠时因操作失误导致船体碰撞损伤，需要专业维修恢复。",
+    "zh": "游艇在停靠时因操作失误导致船体碰撞损伤,需要专业维修恢复。",
     "en": "The yacht's hull was damaged due to an operating error while docking, and required professional repair and recovery."
   },
   "case-025.289": {
@@ -19229,11 +19229,11 @@ var dict = {
     "en": "Complete service implementation process"
   },
   "case-025.291": {
-    "zh": "专业团队现场勘查，制定维修方案",
+    "zh": "专业团队现场勘查,制定维修方案",
     "en": "Professional team conducts on-site inspection and develops maintenance plan"
   },
   "case-025.293": {
-    "zh": "选择合作船坞，安排进坞时间",
+    "zh": "选择合作船坞,安排进坞时间",
     "en": "Choose a cooperative shipyard and arrange docking time"
   },
   "case-025.295": {
@@ -19249,7 +19249,7 @@ var dict = {
     "en": "Ultrasonic flaw detection, watertight testing"
   },
   "case-025.301": {
-    "zh": "维修前后对比照片，质保承诺",
+    "zh": "维修前后对比照片,质保承诺",
     "en": "Comparison photos before and after repair, warranty commitment"
   },
   "case-025.304": {
@@ -19305,7 +19305,7 @@ var dict = {
     "en": "Project implementation results"
   },
   "case-025.332": {
-    "zh": "维修后船体强度恢复至原厂98%，船东高度认可",
+    "zh": "维修后船体强度恢复至原厂98%,船东高度认可",
     "en": "After repair, the hull strength was restored to 98% of the original factory, which was highly recognized by the ship owner."
   },
   "case-025.334": {
@@ -19313,15 +19313,15 @@ var dict = {
     "en": "Real customer reviews"
   },
   "case-025.339": {
-    "zh": "— 亚洲企业家",
-    "en": "— Asian Entrepreneur"
+    "zh": "- 亚洲企业家",
+    "en": "- Asian Entrepreneur"
   },
   "case-025.344": {
     "zh": "预约同款定制方案",
     "en": "Make an appointment for the same customized plan"
   },
   "case-025.346": {
-    "zh": "如果您对该案例感兴趣，欢迎联系我们获取专属定制方案",
+    "zh": "如果您对该案例感兴趣,欢迎联系我们获取专属定制方案",
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-025.364": {
@@ -19333,11 +19333,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-025.370": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "case-025.373": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "case-025.378": {
@@ -19625,8 +19625,8 @@ var dict = {
     "en": "Contact Us"
   },
   "case-026.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "case-026.255": {
     "zh": "托管维保",
@@ -19637,7 +19637,7 @@ var dict = {
     "en": "Special maintenance of yacht power system"
   },
   "case-026.259": {
-    "zh": "主机全面大修，齿轮箱更换，推进系统优化升级，性能提升15%",
+    "zh": "主机全面大修,齿轮箱更换,推进系统优化升级,性能提升15%",
     "en": "The main engine was completely overhauled, the gearbox was replaced, the system was optimized and upgraded, and the performance was improved by 15%."
   },
   "case-026.263": {
@@ -19697,7 +19697,7 @@ var dict = {
     "en": "Project requirements background"
   },
   "case-026.287": {
-    "zh": "游艇运营5年后动力系统性能下降，需要进行全面检修和升级。",
+    "zh": "游艇运营5年后动力系统性能下降,需要进行全面检修和升级。",
     "en": "After the yacht has been in operation for 5 years, the performance of the power system has declined and a comprehensive overhaul and upgrade is required."
   },
   "case-026.289": {
@@ -19705,7 +19705,7 @@ var dict = {
     "en": "Complete service implementation process"
   },
   "case-026.291": {
-    "zh": "主机性能测试，找出问题根源",
+    "zh": "主机性能测试,找出问题根源",
     "en": "Host performance testing to find out the root cause of the problem"
   },
   "case-026.293": {
@@ -19725,7 +19725,7 @@ var dict = {
     "en": "Power test, fuel consumption test, vibration test"
   },
   "case-026.301": {
-    "zh": "详细数据对比，性能提升证明",
+    "zh": "详细数据对比,性能提升证明",
     "en": "Detailed data comparison, performance improvement proof"
   },
   "case-026.304": {
@@ -19781,7 +19781,7 @@ var dict = {
     "en": "Project implementation results"
   },
   "case-026.332": {
-    "zh": "动力性能提升15%，油耗降低8%，船东表示非常满意",
+    "zh": "动力性能提升15%,油耗降低8%,船东表示非常满意",
     "en": "The power performance is improved by 15% and the fuel consumption is reduced by 8%. The ship owner is very satisfied."
   },
   "case-026.334": {
@@ -19789,15 +19789,15 @@ var dict = {
     "en": "Real customer reviews"
   },
   "case-026.339": {
-    "zh": "— 中东投资人",
-    "en": "— Middle East investor"
+    "zh": "- 中东投资人",
+    "en": "- Middle East investor"
   },
   "case-026.344": {
     "zh": "预约同款定制方案",
     "en": "Make an appointment for the same customized plan"
   },
   "case-026.346": {
-    "zh": "如果您对该案例感兴趣，欢迎联系我们获取专属定制方案",
+    "zh": "如果您对该案例感兴趣,欢迎联系我们获取专属定制方案",
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-026.364": {
@@ -19809,11 +19809,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-026.370": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "case-026.373": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "case-026.378": {
@@ -20101,8 +20101,8 @@ var dict = {
     "en": "Contact Us"
   },
   "case-027.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "case-027.255": {
     "zh": "托管维保",
@@ -20113,7 +20113,7 @@ var dict = {
     "en": "Yacht storage and maintenance in all seasons"
   },
   "case-027.259": {
-    "zh": "北欧冬季封存服务，防冻处理、内饰保护、定期巡检，确保船况完美过冬",
+    "zh": "北欧冬季封存服务,防冻处理、内饰保护、定期巡检,确保船况完美过冬",
     "en": "Nordic winter storage services, antifreeze treatment, interior protection, and regular inspections ensure that the ship is in perfect condition for the winter"
   },
   "case-027.263": {
@@ -20173,7 +20173,7 @@ var dict = {
     "en": "Project requirements background"
   },
   "case-027.287": {
-    "zh": "北欧冬季气温低，游艇需要专业封存服务，防止冻损和老化。",
+    "zh": "北欧冬季气温低,游艇需要专业封存服务,防止冻损和老化。",
     "en": "Winter temperatures in Northern Europe are low, and yachts require professional storage services to prevent freezing damage and aging."
   },
   "case-027.289": {
@@ -20253,7 +20253,7 @@ var dict = {
     "en": "Project implementation results"
   },
   "case-027.330": {
-    "zh": "冬季零损伤，春季完美启航，船东表示比预期更好",
+    "zh": "冬季零损伤,春季完美启航,船东表示比预期更好",
     "en": "No damage in winter, perfect sailing in spring, the ship owner said it was better than expected"
   },
   "case-027.332": {
@@ -20261,15 +20261,15 @@ var dict = {
     "en": "Real customer reviews"
   },
   "case-027.337": {
-    "zh": "— 北欧家族",
-    "en": "— Nordic Family"
+    "zh": "- 北欧家族",
+    "en": "- Nordic Family"
   },
   "case-027.342": {
     "zh": "预约同款定制方案",
     "en": "Make an appointment for the same customized plan"
   },
   "case-027.344": {
-    "zh": "如果您对该案例感兴趣，欢迎联系我们获取专属定制方案",
+    "zh": "如果您对该案例感兴趣,欢迎联系我们获取专属定制方案",
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-027.362": {
@@ -20281,11 +20281,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-027.368": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "case-027.371": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "case-027.376": {
@@ -20573,8 +20573,8 @@ var dict = {
     "en": "Contact Us"
   },
   "case-028.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "case-028.255": {
     "zh": "托管维保",
@@ -20585,7 +20585,7 @@ var dict = {
     "en": "Comprehensive safety and quality inspection before the yacht goes to sea"
   },
   "case-028.259": {
-    "zh": "跨洋航行前安全质检，158项检测清单，颁发适航证书，确保航行安全",
+    "zh": "跨洋航行前安全质检,158项检测清单,颁发适航证书,确保航行安全",
     "en": "Safety and quality inspection before transoceanic voyage, 158-item inspection list, and issuance of airworthiness certificate to ensure safe navigation"
   },
   "case-028.263": {
@@ -20645,7 +20645,7 @@ var dict = {
     "en": "Project requirements background"
   },
   "case-028.287": {
-    "zh": "客户计划跨洋长途航行，需要全面的安全检查，确保万无一失。",
+    "zh": "客户计划跨洋长途航行,需要全面的安全检查,确保万无一失。",
     "en": "Customers planning a long-distance voyage across the ocean require comprehensive safety inspections to ensure nothing goes wrong."
   },
   "case-028.289": {
@@ -20729,7 +20729,7 @@ var dict = {
     "en": "Project implementation results"
   },
   "case-028.332": {
-    "zh": "发现问题3处并及时修复，航行安全无忧完成",
+    "zh": "发现问题3处并及时修复,航行安全无忧完成",
     "en": "3 problems were discovered and repaired in time, and the voyage was completed safely and worry-free"
   },
   "case-028.334": {
@@ -20737,15 +20737,15 @@ var dict = {
     "en": "Real customer reviews"
   },
   "case-028.339": {
-    "zh": "— 金融从业者",
-    "en": "— Financial practitioner"
+    "zh": "- 金融从业者",
+    "en": "- Financial practitioner"
   },
   "case-028.344": {
     "zh": "预约同款定制方案",
     "en": "Make an appointment for the same customized plan"
   },
   "case-028.346": {
-    "zh": "如果您对该案例感兴趣，欢迎联系我们获取专属定制方案",
+    "zh": "如果您对该案例感兴趣,欢迎联系我们获取专属定制方案",
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-028.364": {
@@ -20757,11 +20757,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-028.370": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "case-028.373": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "case-028.378": {
@@ -21049,8 +21049,8 @@ var dict = {
     "en": "Contact Us"
   },
   "case-029.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "case-029.255": {
     "zh": "环球航线",
@@ -21061,7 +21061,7 @@ var dict = {
     "en": "180-day round-the-world cruise customization"
   },
   "case-029.259": {
-    "zh": "途经30个国家，跨太平洋-印度洋-地中海-大西洋，零重大事故，零合规问题",
+    "zh": "途经30个国家,跨太平洋-印度洋-地中海-大西洋,零重大事故,零合规问题",
     "en": "Passing through 30 countries, crossing the Pacific-Indian Ocean-Mediterranean Ocean-Atlantic Ocean, zero major accidents and zero compliance issues"
   },
   "case-029.263": {
@@ -21121,7 +21121,7 @@ var dict = {
     "en": "Project requirements background"
   },
   "case-029.287": {
-    "zh": "企业家实现人生梦想的环球航行，需要专业团队提供全程保障。",
+    "zh": "企业家实现人生梦想的环球航行,需要专业团队提供全程保障。",
     "en": "Entrepreneurs need a professional team to provide full protection for their round-the-world voyage to realize their life dreams."
   },
   "case-029.289": {
@@ -21205,7 +21205,7 @@ var dict = {
     "en": "Project implementation results"
   },
   "case-029.332": {
-    "zh": "180天零事故零违规，客户评价人生最棒的旅程",
+    "zh": "180天零事故零违规,客户评价人生最棒的旅程",
     "en": "No accidents and no violations for 180 days, customers rated it as the best trip in life"
   },
   "case-029.334": {
@@ -21213,15 +21213,15 @@ var dict = {
     "en": "Real customer reviews"
   },
   "case-029.339": {
-    "zh": "— 亚洲企业家",
-    "en": "— Asian Entrepreneur"
+    "zh": "- 亚洲企业家",
+    "en": "- Asian Entrepreneur"
   },
   "case-029.344": {
     "zh": "预约同款定制方案",
     "en": "Make an appointment for the same customized plan"
   },
   "case-029.346": {
-    "zh": "如果您对该案例感兴趣，欢迎联系我们获取专属定制方案",
+    "zh": "如果您对该案例感兴趣,欢迎联系我们获取专属定制方案",
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-029.364": {
@@ -21233,11 +21233,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-029.370": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "case-029.373": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "case-029.378": {
@@ -21525,8 +21525,8 @@ var dict = {
     "en": "Contact Us"
   },
   "case-030.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "case-030.255": {
     "zh": "商业拍摄",
@@ -21537,7 +21537,7 @@ var dict = {
     "en": "Filming with international film crews"
   },
   "case-030.259": {
-    "zh": "支持国际电影剧组取景拍摄，45天拍摄周期，零延误，获制片方高度评价",
+    "zh": "支持国际电影剧组取景拍摄,45天拍摄周期,零延误,获制片方高度评价",
     "en": "Supports location shooting by international film crews, with a 45-day shooting cycle and zero delays, and has been highly praised by producers."
   },
   "case-030.263": {
@@ -21597,7 +21597,7 @@ var dict = {
     "en": "Project requirements background"
   },
   "case-030.287": {
-    "zh": "国际大片需要海上场景，需要游艇作为取景地和拍摄平台。",
+    "zh": "国际大片需要海上场景,需要游艇作为取景地和拍摄平台。",
     "en": "International blockbusters require maritime scenes and yachts as filming locations and filming platforms."
   },
   "case-030.289": {
@@ -21681,7 +21681,7 @@ var dict = {
     "en": "Project implementation results"
   },
   "case-030.332": {
-    "zh": "拍摄零延误，制片方高度评价，后续三部电影签约合作",
+    "zh": "拍摄零延误,制片方高度评价,后续三部电影签约合作",
     "en": "There was no delay in filming, and the producer spoke highly of it, and we signed a contract for three subsequent films."
   },
   "case-030.334": {
@@ -21689,15 +21689,15 @@ var dict = {
     "en": "Real customer reviews"
   },
   "case-030.339": {
-    "zh": "— 国际电影制片公司",
-    "en": "— International Film Production Company"
+    "zh": "- 国际电影制片公司",
+    "en": "- International Film Production Company"
   },
   "case-030.344": {
     "zh": "预约同款定制方案",
     "en": "Make an appointment for the same customized plan"
   },
   "case-030.346": {
-    "zh": "如果您对该案例感兴趣，欢迎联系我们获取专属定制方案",
+    "zh": "如果您对该案例感兴趣,欢迎联系我们获取专属定制方案",
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-030.364": {
@@ -21709,11 +21709,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-030.370": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "case-030.373": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "case-030.378": {
@@ -21857,8 +21857,8 @@ var dict = {
     "en": "Site Map"
   },
   "cases-charter.6": {
-    "zh": "租赁航行案例 | 奇幻假期 fantastic.vacation — 全球航线定制专家",
-    "en": "Charter sailing case | Fantasy vacation fantastic.vacation — Global route customization expert"
+    "zh": "租赁航行案例 | 奇幻假期 fantastic.vacation - 全球航线定制专家",
+    "en": "Charter sailing case | Fantasy vacation fantastic.vacation - Global route customization expert"
   },
   "cases-charter.15": {
     "zh": "FANTASTIC VACATION",
@@ -22001,15 +22001,15 @@ var dict = {
     "en": "Contact Us"
   },
   "cases-charter.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "cases-charter.257": {
     "zh": "租赁航行案例",
     "en": "Charter sailing case"
   },
   "cases-charter.259": {
-    "zh": "从私人度假到商务接待，每一条航线都是独特的海上旅程",
+    "zh": "从私人度假到商务接待,每一条航线都是独特的海上旅程",
     "en": "From private vacations to business receptions, every route is a unique maritime journey"
   },
   "cases-charter.264": {
@@ -22029,7 +22029,7 @@ var dict = {
     "en": "Mediterranean 30-day in-depth cruise"
   },
   "cases-charter.279": {
-    "zh": "为欧洲家族企业定制，途经12个国家24个港口，配备米其林主厨、私人潜水教练及多语言礼宾团队。全程无意外，满意度100%。",
+    "zh": "为欧洲家族企业定制,途经12个国家24个港口,配备米其林主厨、私人潜水教练及多语言礼宾团队。全程无意外,满意度100%。",
     "en": "Customized for a European family business, it passes through 24 ports in 12 countries and is equipped with Michelin chefs, private diving instructors and a multi-lingual concierge team. No accidents throughout the process, 100% satisfaction."
   },
   "cases-charter.282": {
@@ -22081,7 +22081,7 @@ var dict = {
     "en": "Southeast Asia 15-day private vacation route"
   },
   "cases-charter.323": {
-    "zh": "为科技新贵定制的私人度假航线，途经泰国普吉岛→马来西亚兰卡威→新加坡→印尼巴厘岛。配备私人潜水教练、冲浪教练、水上活动团队。",
+    "zh": "为科技新贵定制的私人度假航线,途经泰国普吉岛→马来西亚兰卡威→新加坡→印尼巴厘岛。配备私人潜水教练、冲浪教练、水上活动团队。",
     "en": "A private vacation route customized for technology upstarts, passing through Phuket, Thailand → Langkawi, Malaysia → Singapore → Bali, Indonesia. Equipped with private diving instructors, surfing instructors, and water sports teams."
   },
   "cases-charter.326": {
@@ -22109,7 +22109,7 @@ var dict = {
     "en": "14-day adventure cruise in the South Pacific"
   },
   "cases-charter.345": {
-    "zh": "为探险爱好者定制的南太平洋航线，途经斐济→汤加→库克群岛→大溪地。配备专业潜水设备、水下摄影团队、海洋生物向导。",
+    "zh": "为探险爱好者定制的南太平洋航线,途经斐济→汤加→库克群岛→大溪地。配备专业潜水设备、水下摄影团队、海洋生物向导。",
     "en": "A customized South Pacific route for adventure enthusiasts, passing through Fiji→Tonga→Cook Islands→Tahiti. Equipped with professional diving equipment, underwater photography team, and marine life guides."
   },
   "cases-charter.348": {
@@ -22141,11 +22141,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "cases-charter.384": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "cases-charter.387": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "cases-charter.392": {
@@ -22289,8 +22289,8 @@ var dict = {
     "en": "Site Map"
   },
   "cases-custom.6": {
-    "zh": "全案定制案例 | 奇幻假期 fantastic.vacation — 超级游艇定制专家",
-    "en": "Full customization case | Fantasy vacation fantastic.vacation — superyacht customization expert"
+    "zh": "全案定制案例 | 奇幻假期 fantastic.vacation - 超级游艇定制专家",
+    "en": "Full customization case | Fantasy vacation fantastic.vacation - superyacht customization expert"
   },
   "cases-custom.15": {
     "zh": "FANTASTIC VACATION",
@@ -22433,15 +22433,15 @@ var dict = {
     "en": "Contact Us"
   },
   "cases-custom.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "cases-custom.257": {
     "zh": "全案定制案例",
     "en": "Full custom case"
   },
   "cases-custom.259": {
-    "zh": "从需求洞察到交付启航，每一个定制项目都是对极致的追求",
+    "zh": "从需求洞察到交付启航,每一个定制项目都是对极致的追求",
     "en": "From demand insight to delivery, every customized project is the pursuit of perfection."
   },
   "cases-custom.264": {
@@ -22461,7 +22461,7 @@ var dict = {
     "en": "82-meter superyacht Fantasy Blue"
   },
   "cases-custom.279": {
-    "zh": "中东王室委托的全案定制项目，历时38个月完成。搭载直升机平台、潜艇车库、医疗中心及IMAX影院。2024年荣获Asia Boating Awards年度最佳定制游艇大奖。",
+    "zh": "中东王室委托的全案定制项目,历时38个月完成。搭载直升机平台、潜艇车库、医疗中心及IMAX影院。2024年荣获Asia Boating Awards年度最佳定制游艇大奖。",
     "en": "The entire customized project commissioned by the Middle Eastern royal family took 38 months to complete. It is equipped with a helicopter platform, submarine garage, medical center and IMAX theater. In 2024, it won the Asia Boating Awards Best Custom Yacht of the Year Award."
   },
   "cases-custom.282": {
@@ -22489,7 +22489,7 @@ var dict = {
     "en": "45-meter expedition yacht Aurora"
   },
   "cases-custom.301": {
-    "zh": "为环保企业家打造的极地探险游艇，冰级船体认证，可深入南极与阿拉斯加海域。太阳能混合动力系统，续航力达8,000海里，获Green Yacht Award提名。",
+    "zh": "为环保企业家打造的极地探险游艇,冰级船体认证,可深入南极与阿拉斯加海域。太阳能混合动力系统,续航力达8,000海里,获Green Yacht Award提名。",
     "en": "A polar expedition yacht built for environmental entrepreneurs, with an ice-class hull certification that can go deep into Antarctic and Alaskan waters. The solar hybrid system has a range of 8,000 nautical miles and was nominated for the Green Yacht Award."
   },
   "cases-custom.304": {
@@ -22517,7 +22517,7 @@ var dict = {
     "en": "58-meter business reception yacht \"Longteng\""
   },
   "cases-custom.323": {
-    "zh": "为亚洲企业集团定制的商务接待旗舰，可容纳60人商务活动。配备独立会议室、全景宴会厅、直升机接送平台，年接待高端客户超2,000人次。",
+    "zh": "为亚洲企业集团定制的商务接待旗舰,可容纳60人商务活动。配备独立会议室、全景宴会厅、直升机接送平台,年接待高端客户超2,000人次。",
     "en": "A business reception flagship customized for Asian enterprise groups, which can accommodate 60 people for business activities. Equipped with independent conference rooms, panoramic banquet halls, and helicopter transfer platforms, it receives more than 2,000 high-end customers annually."
   },
   "cases-custom.326": {
@@ -22545,7 +22545,7 @@ var dict = {
     "en": "35-meter private vacation yacht \"Yuehai\""
   },
   "cases-custom.345": {
-    "zh": "为东南亚家族定制的私人度假游艇，东南亚风格内饰，配备泰式SPA、水上运动中心、私人影院。年使用超120天，客户满意度100%。",
+    "zh": "为东南亚家族定制的私人度假游艇,东南亚风格内饰,配备泰式SPA、水上运动中心、私人影院。年使用超120天,客户满意度100%。",
     "en": "A private vacation yacht customized for Southeast Asian families, with Southeast Asian-style interiors, equipped with a Thai SPA, water sports center, and private cinema. Used for more than 120 days a year, customer satisfaction is 100%."
   },
   "cases-custom.348": {
@@ -22577,11 +22577,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "cases-custom.384": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "cases-custom.387": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "cases-custom.392": {
@@ -22725,8 +22725,8 @@ var dict = {
     "en": "Site Map"
   },
   "cases-event.6": {
-    "zh": "商务活动案例 | 奇幻假期 fantastic.vacation — 海上活动专家",
-    "en": "Business event case | Fantasy vacation fantastic.vacation — Maritime activity expert"
+    "zh": "商务活动案例 | 奇幻假期 fantastic.vacation - 海上活动专家",
+    "en": "Business event case | Fantasy vacation fantastic.vacation - Maritime activity expert"
   },
   "cases-event.15": {
     "zh": "FANTASTIC VACATION",
@@ -22869,15 +22869,15 @@ var dict = {
     "en": "Contact Us"
   },
   "cases-event.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "cases-event.257": {
     "zh": "商务活动案例",
     "en": "Business activity cases"
   },
   "cases-event.259": {
-    "zh": "企业年会、品牌发布会、VIP接待，海上活动专业保障",
+    "zh": "企业年会、品牌发布会、VIP接待,海上活动专业保障",
     "en": "Corporate annual meetings, brand launches, VIP receptions, professional guarantee for maritime activities"
   },
   "cases-event.264": {
@@ -22921,7 +22921,7 @@ var dict = {
     "en": "Mediterranean Sailing Race Event Guarantee"
   },
   "cases-event.301": {
-    "zh": "为国际帆船赛组委会提供的赛事保障服务，租用38米游艇作为裁判船及VIP观赛平台。服务周期21天，零安全事故，获组委会高度评价。",
+    "zh": "为国际帆船赛组委会提供的赛事保障服务,租用38米游艇作为裁判船及VIP观赛平台。服务周期21天,零安全事故,获组委会高度评价。",
     "en": "Providing event guarantee services to the International Sailing Regatta Organizing Committee, renting a 38-meter yacht as a referee boat and VIP viewing platform. The service cycle lasted 21 days and there were zero safety incidents, which was highly praised by the organizing committee."
   },
   "cases-event.304": {
@@ -22949,7 +22949,7 @@ var dict = {
     "en": "Luxury brand maritime conference"
   },
   "cases-event.323": {
-    "zh": "为欧洲奢侈品牌新品发布定制的海上活动，租用52米超级游艇，宾客180人，配备品牌展示区、沉浸式体验空间、VIP私密洽谈区。",
+    "zh": "为欧洲奢侈品牌新品发布定制的海上活动,租用52米超级游艇,宾客180人,配备品牌展示区、沉浸式体验空间、VIP私密洽谈区。",
     "en": "A customized maritime event for the launch of new products of a European luxury brand, a 52-meter superyacht was rented, with 180 guests, equipped with a brand display area, immersive experience space, and VIP private negotiation area."
   },
   "cases-event.326": {
@@ -22977,7 +22977,7 @@ var dict = {
     "en": "VIP sea reception for financial institutions"
   },
   "cases-event.345": {
-    "zh": "为国际投资银行提供的VIP客户海上接待活动，45米游艇，宾客50人，配备私密洽谈室、全景宴会厅、直升机接送服务。",
+    "zh": "为国际投资银行提供的VIP客户海上接待活动,45米游艇,宾客50人,配备私密洽谈室、全景宴会厅、直升机接送服务。",
     "en": "Provided VIP customer reception activities at sea for international investment banks, 45-meter yacht, 50 guests, equipped with private negotiation room, panoramic banquet hall, and helicopter transfer service."
   },
   "cases-event.348": {
@@ -23009,11 +23009,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "cases-event.384": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "cases-event.387": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "cases-event.392": {
@@ -23157,8 +23157,8 @@ var dict = {
     "en": "Site Map"
   },
   "cases-management.6": {
-    "zh": "托管运维案例 | 奇幻假期 fantastic.vacation — 游艇托管专家",
-    "en": "Hosting operation and maintenance case | Fantasy vacation fantastic.vacation — Yacht hosting expert"
+    "zh": "托管运维案例 | 奇幻假期 fantastic.vacation - 游艇托管专家",
+    "en": "Hosting operation and maintenance case | Fantasy vacation fantastic.vacation - Yacht hosting expert"
   },
   "cases-management.15": {
     "zh": "FANTASTIC VACATION",
@@ -23301,15 +23301,15 @@ var dict = {
     "en": "Contact Us"
   },
   "cases-management.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "cases-management.257": {
     "zh": "托管运维案例",
     "en": "Hosting operation and maintenance case"
   },
   "cases-management.259": {
-    "zh": "专业团队、智能管理，让每一艘游艇安全高效运营",
+    "zh": "专业团队、智能管理,让每一艘游艇安全高效运营",
     "en": "Professional team and intelligent management allow every yacht to operate safely and efficiently"
   },
   "cases-management.264": {
@@ -23329,7 +23329,7 @@ var dict = {
     "en": "Five-year full trusteeship of the Middle East royal fleet"
   },
   "cases-management.279": {
-    "zh": "管理3艘超级游艇（45m/62m/88m）的全托管项目，连续5年零重大事故运营记录，年服务满意度98%，累计节省运营成本18%。",
+    "zh": "管理3艘超级游艇(45m/62m/88m)的全托管项目,连续5年零重大事故运营记录,年服务满意度98%,累计节省运营成本18%。",
     "en": "Managed a fully managed project for 3 superyachts (45m/62m/88m), with zero major accident operation record for 5 consecutive years, annual service satisfaction of 98%, and cumulative operating cost savings of 18%."
   },
   "cases-management.282": {
@@ -23381,8 +23381,8 @@ var dict = {
     "en": "42-meter private yacht 3-year hosting"
   },
   "cases-management.323": {
-    "zh": "为亚洲企业家42米游艇提供全托管服务，涵盖日常运营、定期保养、船员管理、合规年检。3年累计航行28,000海里，零安全事故。",
-    "en": "Provide full custody services for Asian entrepreneurs’ 42-meter yachts, covering daily operations, regular maintenance, crew management, and annual compliance inspections. It has sailed a total of 28,000 nautical miles in three years with zero safety incidents."
+    "zh": "为亚洲企业家42米游艇提供全托管服务,涵盖日常运营、定期保养、船员管理、合规年检。3年累计航行28,000海里,零安全事故。",
+    "en": "Provide full custody services for Asian entrepreneurs' 42-meter yachts, covering daily operations, regular maintenance, crew management, and annual compliance inspections. It has sailed a total of 28,000 nautical miles in three years with zero safety incidents."
   },
   "cases-management.326": {
     "zh": "托管运维",
@@ -23409,7 +23409,7 @@ var dict = {
     "en": "Professional crew training and certification"
   },
   "cases-management.345": {
-    "zh": "为船东提供船员招聘、培训、认证全流程托管服务。累计培训专业船员128名，持证率100%，获STCW国际认证机构认可。",
+    "zh": "为船东提供船员招聘、培训、认证全流程托管服务。累计培训专业船员128名,持证率100%,获STCW国际认证机构认可。",
     "en": "Provide shipowners with full-process hosting services for crew recruitment, training and certification. A total of 128 professional crew members have been trained, with a certification rate of 100%, and have been recognized by the STCW international certification agency."
   },
   "cases-management.348": {
@@ -23441,11 +23441,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "cases-management.384": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "cases-management.387": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "cases-management.392": {
@@ -23589,8 +23589,8 @@ var dict = {
     "en": "Site Map"
   },
   "cases.6": {
-    "zh": "案例展示 | 奇幻假期 fantastic.vacation — 全球游艇服务案例集",
-    "en": "Case display | Fantasy vacation fantastic.vacation — Global Yacht Service Case Collection"
+    "zh": "案例展示 | 奇幻假期 fantastic.vacation - 全球游艇服务案例集",
+    "en": "Case display | Fantasy vacation fantastic.vacation - Global Yacht Service Case Collection"
   },
   "cases.17": {
     "zh": "FANTASTIC VACATION",
@@ -23737,8 +23737,8 @@ var dict = {
     "en": "Contact Us"
   },
   "cases.253": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "cases.264": {
     "zh": "奇幻假期实业有限公司",
@@ -23749,7 +23749,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "cases.269": {
-    "zh": "从超级游艇定制到环球航行托管，我们的足迹遍布全球每一片蔚蓝",
+    "zh": "从超级游艇定制到环球航行托管,我们的足迹遍布全球每一片蔚蓝",
     "en": "From superyacht customization to global sailing management, our footprints are all over the world"
   },
   "cases.274": {
@@ -23833,7 +23833,7 @@ var dict = {
     "en": "82-meter superyacht Fantasy Blue"
   },
   "cases.340": {
-    "zh": "中东王室委托的全案定制项目，历时38个月完成。搭载直升机平台、潜艇车库、医疗中心及IMAX影院。2024年荣获Asia Boating Awards年度最佳定制游艇大奖。",
+    "zh": "中东王室委托的全案定制项目,历时38个月完成。搭载直升机平台、潜艇车库、医疗中心及IMAX影院。2024年荣获Asia Boating Awards年度最佳定制游艇大奖。",
     "en": "The entire customized project commissioned by the Middle Eastern royal family took 38 months to complete. It is equipped with a helicopter platform, submarine garage, medical center and IMAX theater. In 2024, it won the Asia Boating Awards Best Custom Yacht of the Year Award."
   },
   "cases.342": {
@@ -23857,7 +23857,7 @@ var dict = {
     "en": "Mediterranean 30-day in-depth cruise"
   },
   "cases.362": {
-    "zh": "为欧洲家族企业定制，途经12个国家24个港口，配备米其林主厨、私人潜水教练及多语言礼宾团队。全程无意外，满意度100%。",
+    "zh": "为欧洲家族企业定制,途经12个国家24个港口,配备米其林主厨、私人潜水教练及多语言礼宾团队。全程无意外,满意度100%。",
     "en": "Customized for a European family business, it passes through 24 ports in 12 countries and is equipped with Michelin chefs, private diving instructors and a multi-lingual concierge team. No accidents throughout the process, 100% satisfaction."
   },
   "cases.364": {
@@ -23881,7 +23881,7 @@ var dict = {
     "en": "Five-year full trusteeship of the Middle East royal fleet"
   },
   "cases.384": {
-    "zh": "管理3艘超级游艇（45m/62m/88m）的全托管项目，连续5年零重大事故运营记录，年服务满意度98%，累计节省运营成本18%。",
+    "zh": "管理3艘超级游艇(45m/62m/88m)的全托管项目,连续5年零重大事故运营记录,年服务满意度98%,累计节省运营成本18%。",
     "en": "Managed a fully managed project for 3 superyachts (45m/62m/88m), with zero major accident operation record for 5 consecutive years, annual service satisfaction of 98%, and cumulative operating cost savings of 18%."
   },
   "cases.386": {
@@ -23905,7 +23905,7 @@ var dict = {
     "en": "45-meter expedition yacht Aurora"
   },
   "cases.406": {
-    "zh": "为环保企业家打造的极地探险游艇，冰级船体认证，可深入南极与阿拉斯加海域，太阳能混合动力系统，续航力达8,000海里。",
+    "zh": "为环保企业家打造的极地探险游艇,冰级船体认证,可深入南极与阿拉斯加海域,太阳能混合动力系统,续航力达8,000海里。",
     "en": "A polar expedition yacht built for environmental entrepreneurs, it has an ice-class hull certification and can go deep into Antarctic and Alaskan waters. It has a solar hybrid power system and a range of 8,000 nautical miles."
   },
   "cases.408": {
@@ -23969,7 +23969,7 @@ var dict = {
     "en": "72-meter superyacht sails around the world for 120 days"
   },
   "cases.472": {
-    "zh": "为东南亚企业家定制环球航线，途经28个国家56个港口，全程120天，跨太平洋、印度洋、地中海、大西洋。零重大事故，零合规问题。",
+    "zh": "为东南亚企业家定制环球航线,途经28个国家56个港口,全程120天,跨太平洋、印度洋、地中海、大西洋。零重大事故,零合规问题。",
     "en": "Customized global routes for Southeast Asian entrepreneurs, passing through 56 ports in 28 countries, with a total journey of 120 days, spanning the Pacific, Indian Ocean, Mediterranean and Atlantic Oceans. Zero major incidents, zero compliance issues."
   },
   "cases.474": {
@@ -23993,7 +23993,7 @@ var dict = {
     "en": "Renovation and transformation of the entire interior of the 58-meter yacht"
   },
   "cases.494": {
-    "zh": "为欧洲船东执行的18个月全船内饰翻新项目，采用意大利进口大理石、缅甸黑木、英国Bentley皮革。项目预算控制率97%，获Superyacht Interiors Awards提名。",
+    "zh": "为欧洲船东执行的18个月全船内饰翻新项目,采用意大利进口大理石、缅甸黑木、英国Bentley皮革。项目预算控制率97%,获Superyacht Interiors Awards提名。",
     "en": "An 18-month ship-wide interior renovation project for a European ship owner, using marble imported from Italy, Burmese black wood, and British Bentley leather. The project budget control rate was 97% and it was nominated for the Superyacht Interiors Awards."
   },
   "cases.496": {
@@ -24017,7 +24017,7 @@ var dict = {
     "en": "Southeast Asia 15-day private vacation route"
   },
   "cases.516": {
-    "zh": "为科技新贵定制的私人度假航线，途经泰国普吉岛→马来西亚兰卡威→新加坡→印尼巴厘岛。配备私人潜水教练、冲浪教练、水上活动团队。",
+    "zh": "为科技新贵定制的私人度假航线,途经泰国普吉岛→马来西亚兰卡威→新加坡→印尼巴厘岛。配备私人潜水教练、冲浪教练、水上活动团队。",
     "en": "A private vacation route customized for technology upstarts, passing through Phuket, Thailand → Langkawi, Malaysia → Singapore → Bali, Indonesia. Equipped with private diving instructors, surfing instructors, and water sports teams."
   },
   "cases.518": {
@@ -24041,7 +24041,7 @@ var dict = {
     "en": "Mediterranean Sailing Race Event Guarantee"
   },
   "cases.538": {
-    "zh": "为国际帆船赛组委会提供的赛事保障服务，租用38米游艇作为裁判船及VIP观赛平台。服务周期21天，零安全事故，获组委会高度评价。",
+    "zh": "为国际帆船赛组委会提供的赛事保障服务,租用38米游艇作为裁判船及VIP观赛平台。服务周期21天,零安全事故,获组委会高度评价。",
     "en": "Providing event guarantee services to the International Sailing Regatta Organizing Committee, renting a 38-meter yacht as a referee boat and VIP viewing platform. The service cycle lasted 21 days and there were zero safety incidents, which was highly praised by the organizing committee."
   },
   "cases.540": {
@@ -24065,7 +24065,7 @@ var dict = {
     "en": "Private high-end yacht for leisure vacation at sea"
   },
   "cases.560": {
-    "zh": "为科技企业家打造的私人度假航线，5天4夜，专属游艇管家服务，全程无打扰私密体验。",
+    "zh": "为科技企业家打造的私人度假航线,5天4夜,专属游艇管家服务,全程无打扰私密体验。",
     "en": "A private vacation route created for technology entrepreneurs, 5 days and 4 nights, exclusive yacht butler service, and a non-disturbing private experience throughout the journey."
   },
   "cases.562": {
@@ -24089,7 +24089,7 @@ var dict = {
     "en": "Family weekend trip at sea"
   },
   "cases.582": {
-    "zh": "家庭亲子周末出行，配备儿童娱乐设施、水上活动教练、专业儿童看护团队，安全无忧。",
+    "zh": "家庭亲子周末出行,配备儿童娱乐设施、水上活动教练、专业儿童看护团队,安全无忧。",
     "en": "For family weekend trips, it is equipped with children's entertainment facilities, water sports coaches, and a professional child care team, making it safe and worry-free."
   },
   "cases.584": {
@@ -24113,7 +24113,7 @@ var dict = {
     "en": "Romantic sea trip for couple"
   },
   "cases.604": {
-    "zh": "为情侣定制的浪漫航线，含海上烛光晚餐、星空影院、私人按摩浴缸，终身难忘的浪漫体验。",
+    "zh": "为情侣定制的浪漫航线,含海上烛光晚餐、星空影院、私人按摩浴缸,终身难忘的浪漫体验。",
     "en": "A romantic route customized for couples, including candlelight dinner at sea, starry sky cinema, and private jacuzzi, an unforgettable romantic experience."
   },
   "cases.606": {
@@ -24137,7 +24137,7 @@ var dict = {
     "en": "Friends circle gathering at sea"
   },
   "cases.626": {
-    "zh": "12位好友的圈层聚会，7天航线，含DJ派对、水上运动、专属主厨，高端社交的完美选择。",
+    "zh": "12位好友的圈层聚会,7天航线,含DJ派对、水上运动、专属主厨,高端社交的完美选择。",
     "en": "A circle party for 12 friends, a 7-day itinerary, including DJ parties, water sports, and exclusive chefs, the perfect choice for high-end socializing."
   },
   "cases.628": {
@@ -24161,7 +24161,7 @@ var dict = {
     "en": "Afternoon tea at sea luxury experience"
   },
   "cases.648": {
-    "zh": "半日轻奢下午茶体验，含米其林点心、专业摄影服务，维港日落美景尽收眼底。",
+    "zh": "半日轻奢下午茶体验,含米其林点心、专业摄影服务,维港日落美景尽收眼底。",
     "en": "A half-day luxury afternoon tea experience, including Michelin-starred snacks, professional photography services, and a panoramic view of the sunset over Victoria Harbor."
   },
   "cases.650": {
@@ -24205,7 +24205,7 @@ var dict = {
     "en": "High-end banquet for business clients"
   },
   "cases.692": {
-    "zh": "为投行客户执行的高端宴请，米其林主厨、侍酒师团队，客户满意度100%。",
+    "zh": "为投行客户执行的高端宴请,米其林主厨、侍酒师团队,客户满意度100%。",
     "en": "A high-end banquet for an investment bank client, a team of Michelin chefs and sommeliers, with 100% customer satisfaction."
   },
   "cases.694": {
@@ -24229,7 +24229,7 @@ var dict = {
     "en": "Luxury brand maritime conference"
   },
   "cases.714": {
-    "zh": "奢侈品牌新品发布会，120位宾客，直升机空中入场，全球媒体同步直播。",
+    "zh": "奢侈品牌新品发布会,120位宾客,直升机空中入场,全球媒体同步直播。",
     "en": "Luxury brand new product launch conference, 120 guests, helicopter entrance, global media simultaneous live broadcast."
   },
   "cases.716": {
@@ -24253,7 +24253,7 @@ var dict = {
     "en": "Corporate anniversary celebration at sea"
   },
   "cases.736": {
-    "zh": "企业成立20周年庆典，3天2夜，含颁奖典礼、主题晚会，员工满意度98%。",
+    "zh": "企业成立20周年庆典,3天2夜,含颁奖典礼、主题晚会,员工满意度98%。",
     "en": "The company's 20th anniversary celebration lasted 3 days and 2 nights, including an award ceremony and theme party, with an employee satisfaction rate of 98%."
   },
   "cases.738": {
@@ -24277,7 +24277,7 @@ var dict = {
     "en": "Romantic proposal planning at sea"
   },
   "cases.758": {
-    "zh": "全程保密策划的海上求婚，含无人机灯光秀、香槟礼炮、专属摄影团队。",
+    "zh": "全程保密策划的海上求婚,含无人机灯光秀、香槟礼炮、专属摄影团队。",
     "en": "The entire wedding proposal was planned confidentially, including drone light show, champagne salute, and exclusive photography team."
   },
   "cases.760": {
@@ -24321,7 +24321,7 @@ var dict = {
     "en": "Private dinner at sea"
   },
   "cases.802": {
-    "zh": "家族私密晚宴，含私人厨师、现场乐队、烟火表演，终身难忘的家族时刻。",
+    "zh": "家族私密晚宴,含私人厨师、现场乐队、烟火表演,终身难忘的家族时刻。",
     "en": "An intimate family dinner with private chef, live band, and fireworks show, creating an unforgettable family moment."
   },
   "cases.804": {
@@ -24345,7 +24345,7 @@ var dict = {
     "en": "Daily full management operation and maintenance of small and medium-sized yachts"
   },
   "cases.824": {
-    "zh": "3年全托管服务，日常运营、船员管理、定期保养一站式服务，船东满意度100%。",
+    "zh": "3年全托管服务,日常运营、船员管理、定期保养一站式服务,船东满意度100%。",
     "en": "Three years of full custody service, one-stop service for daily operations, crew management, and regular maintenance, with 100% shipowner satisfaction."
   },
   "cases.826": {
@@ -24369,7 +24369,7 @@ var dict = {
     "en": "Annual ship maintenance for large luxury yachts"
   },
   "cases.846": {
-    "zh": "年度整船保养项目，船体抛光、动力系统检修、内饰深度清洁，恢复出厂标准。",
+    "zh": "年度整船保养项目,船体抛光、动力系统检修、内饰深度清洁,恢复出厂标准。",
     "en": "Annual ship maintenance projects include hull polishing, power system overhaul, interior deep cleaning, and restoration to factory standards."
   },
   "cases.848": {
@@ -24393,7 +24393,7 @@ var dict = {
     "en": "Yacht hull in-depth repair and maintenance"
   },
   "cases.868": {
-    "zh": "因碰撞导致的船体损伤修复，12周工期，恢复原厂标准，获船东高度认可。",
+    "zh": "因碰撞导致的船体损伤修复,12周工期,恢复原厂标准,获船东高度认可。",
     "en": "The hull damage caused by the collision was repaired, the construction period was 12 weeks, and the ship was restored to original factory standards, which was highly recognized by the ship owner."
   },
   "cases.870": {
@@ -24417,7 +24417,7 @@ var dict = {
     "en": "Special maintenance of yacht power system"
   },
   "cases.890": {
-    "zh": "主机全面大修，齿轮箱更换，推进系统优化升级，性能提升15%。",
+    "zh": "主机全面大修,齿轮箱更换,推进系统优化升级,性能提升15%。",
     "en": "The main engine was comprehensively overhauled, the gearbox was replaced, and the system was optimized and upgraded to improve performance by 15%."
   },
   "cases.892": {
@@ -24441,7 +24441,7 @@ var dict = {
     "en": "Yacht storage and maintenance in all seasons"
   },
   "cases.912": {
-    "zh": "北欧冬季封存服务，防冻处理、内饰保护、定期巡检，确保船况完美过冬。",
+    "zh": "北欧冬季封存服务,防冻处理、内饰保护、定期巡检,确保船况完美过冬。",
     "en": "Nordic winter storage services, antifreeze treatment, interior protection, and regular inspections ensure that the ship is in perfect condition for the winter."
   },
   "cases.914": {
@@ -24465,7 +24465,7 @@ var dict = {
     "en": "Comprehensive safety and quality inspection before the yacht goes to sea"
   },
   "cases.934": {
-    "zh": "跨洋航行前安全质检，158项检测清单，颁发适航证书，确保航行安全。",
+    "zh": "跨洋航行前安全质检,158项检测清单,颁发适航证书,确保航行安全。",
     "en": "Safety and quality inspection before transoceanic voyage, 158-item inspection list, and airworthiness certificate issued to ensure safe navigation."
   },
   "cases.936": {
@@ -24489,7 +24489,7 @@ var dict = {
     "en": "180-day round-the-world cruise customization"
   },
   "cases.956": {
-    "zh": "途经30个国家，跨太平洋-印度洋-地中海-大西洋，零重大事故，零合规问题。",
+    "zh": "途经30个国家,跨太平洋-印度洋-地中海-大西洋,零重大事故,零合规问题。",
     "en": "Passing through 30 countries, across the Pacific-Indian Ocean-Mediterranean Ocean-Atlantic Ocean, there were zero major accidents and zero compliance issues."
   },
   "cases.958": {
@@ -24513,7 +24513,7 @@ var dict = {
     "en": "Filming with international film crews"
   },
   "cases.978": {
-    "zh": "支持国际电影剧组取景拍摄，45天拍摄周期，零延误，获制片方高度评价。",
+    "zh": "支持国际电影剧组取景拍摄,45天拍摄周期,零延误,获制片方高度评价。",
     "en": "Supporting location shooting by international film crews, with a 45-day shooting cycle and zero delays, it has been highly praised by producers."
   },
   "cases.980": {
@@ -24541,11 +24541,11 @@ var dict = {
     "en": "% customer satisfaction"
   },
   "cases.1030": {
-    "zh": "您的游艇故事，从奇幻假期开始",
+    "zh": "您的游艇故事,从奇幻假期开始",
     "en": "Your yacht story starts with a magical vacation"
   },
   "cases.1032": {
-    "zh": "无论您梦想的是超级游艇定制、环球航线规划，还是无忧托管运维，我们的专业团队都将为您量身打造",
+    "zh": "无论您梦想的是超级游艇定制、环球航线规划,还是无忧托管运维,我们的专业团队都将为您量身打造",
     "en": "Whether your dream is superyacht customization, global route planning, or worry-free managed operation and maintenance, our professional team will tailor it for you"
   },
   "cases.1055": {
@@ -24557,11 +24557,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "cases.1061": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "cases.1064": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "cases.1069": {
@@ -24853,8 +24853,8 @@ var dict = {
     "en": "Contact Us"
   },
   "charter.247": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "charter.258": {
     "zh": "奇幻假期实业有限公司",
@@ -24865,7 +24865,7 @@ var dict = {
     "en": "Charter Routes"
   },
   "charter.262": {
-    "zh": "以定制航线解锁全球高端海域，为您打造专属海上私享旅程 — 行业超高性价比",
+    "zh": "以定制航线解锁全球高端海域,为您打造专属海上私享旅程 - 行业超高性价比",
     "en": "Unlock the world's leading sea areas with customized routes and create an exclusive private sea journey for you - the highest cost performance in the industry"
   },
   "charter.265": {
@@ -24921,19 +24921,19 @@ var dict = {
     "en": "Professional fleet"
   },
   "charter.297": {
-    "zh": "30艘精配游艇，持证船长+专业船员全程护航",
+    "zh": "30艘精配游艇,持证船长+专业船员全程护航",
     "en": "30 well-equipped yachts, with certified captains and professional crew members to escort you throughout the journey"
   },
   "charter.300": {
-    "zh": "所有航线报价均为行业顶配服务的1/4，超高性价比",
-    "en": "The quotations for all routes are 1/4 of the industry’s top services, which is extremely cost-effective."
+    "zh": "所有航线报价均为行业顶配服务的1/4,超高性价比",
+    "en": "The quotations for all routes are 1/4 of the industry's top services, which is extremely cost-effective."
   },
   "charter.303": {
     "zh": "专属定制",
     "en": "ExclusiveCustom"
   },
   "charter.304": {
-    "zh": "1对1航线规划师，根据您的偏好定制专属行程",
+    "zh": "1对1航线规划师,根据您的偏好定制专属行程",
     "en": "1-on-1 route planner to customize an exclusive itinerary according to your preferences"
   },
   "charter.314": {
@@ -24941,7 +24941,7 @@ var dict = {
     "en": "Popular destination routes around the world"
   },
   "charter.317": {
-    "zh": "从蔚蓝的地中海到翡翠般的东南亚，为您呈现地球上最令人心动的海上旅程，每条航线均经过精心策划，确保体验至臻完美",
+    "zh": "从蔚蓝的地中海到翡翠般的东南亚,为您呈现地球上最令人心动的海上旅程,每条航线均经过精心策划,确保体验至臻完美",
     "en": "From the azure Mediterranean to the emerald Southeast Asia, we present you with the most exciting maritime journeys on earth. Each route is carefully planned to ensure the perfect experience."
   },
   "charter.321": {
@@ -24989,7 +24989,7 @@ var dict = {
     "en": "Riviera Elegance · French &amp; Italian"
   },
   "charter.348": {
-    "zh": "摩纳哥蒙特卡洛港启航，途经戛纳棕榈滩、圣特罗佩秘密小湾，穿越至菲诺港的彩色渔村，最终抵达阿马尔菲的悬崖海岸线。沿途尽享普罗旺斯薰衣草香与托斯卡纳红酒文化。",
+    "zh": "摩纳哥蒙特卡洛港启航,途经戛纳棕榈滩、圣特罗佩秘密小湾,穿越至菲诺港的彩色渔村,最终抵达阿马尔菲的悬崖海岸线。沿途尽享普罗旺斯薰衣草香与托斯卡纳红酒文化。",
     "en": "Set sail from the port of Monte Carlo in Monaco, passing by the Palm Beach of Cannes, the secret cove of Saint-Tropez, passing through the colorful fishing village of Portofino, and finally arriving at the cliff coastline of Amalfi. Enjoy the scent of Provence lavender and Tuscan red wine culture along the way."
   },
   "charter.361": {
@@ -25025,7 +25025,7 @@ var dict = {
     "en": "Caribbean Pearls · Bahamas &amp; BVI"
   },
   "charter.380": {
-    "zh": "从拿骚出发，探索传说中的粉红沙滩天堂、翡翠泻湖、隐秘沉船潜点。驾帆穿越巴哈马400+群岛，造访英属维尔京群岛的私人岛屿，在水晶般清澈的海水中与海龟共游。",
+    "zh": "从拿骚出发,探索传说中的粉红沙滩天堂、翡翠泻湖、隐秘沉船潜点。驾帆穿越巴哈马400+群岛,造访英属维尔京群岛的私人岛屿,在水晶般清澈的海水中与海龟共游。",
     "en": "Depart from Nassau and explore the legendary pink sand paradise, emerald lagoons, and hidden shipwreck dive sites. Sail through the 400+ islands of the Bahamas, visit private islands in the British Virgin Islands, and swim with sea turtles in crystal clear waters."
   },
   "charter.393": {
@@ -25061,7 +25061,7 @@ var dict = {
     "en": "Andaman Secret · Thailand &amp; Burma"
   },
   "charter.412": {
-    "zh": "从普吉岛启航，深入丹老群岛的原生态部落、皮皮岛的玛雅湾、石灰岩峭壁下的翡翠洞穴。东南亚以极高性价比提供世界级游艇体验，美食、潜点、海滩均无可挑剔。",
+    "zh": "从普吉岛启航,深入丹老群岛的原生态部落、皮皮岛的玛雅湾、石灰岩峭壁下的翡翠洞穴。东南亚以极高性价比提供世界级游艇体验,美食、潜点、海滩均无可挑剔。",
     "en": "Set sail from Phuket and go deep into the original ecological tribes of the Myeik Islands, Maya Bay on Phi Phi Island, and the emerald caves under the limestone cliffs. Southeast Asia offers a world-class yachting experience at a very cost-effective price, with impeccable food, diving spots and beaches."
   },
   "charter.425": {
@@ -25097,7 +25097,7 @@ var dict = {
     "en": "Aegean Odyssey · Greek Islands"
   },
   "charter.444": {
-    "zh": "从雅典出发，穿越爱琴海诸岛——圣托里尼的蓝顶白墙、米克诺斯的夜生活、克里特的古老文明、罗德岛的骑士要塞。希腊群岛是全球最浪漫的游艇目的地之一。",
+    "zh": "从雅典出发,穿越爱琴海诸岛--圣托里尼的蓝顶白墙、米克诺斯的夜生活、克里特的古老文明、罗德岛的骑士要塞。希腊群岛是全球最浪漫的游艇目的地之一。",
     "en": "Depart from Athens and travel through the Aegean Islands - the blue roofs and white walls of Santorini, the nightlife of Mykonos, the ancient civilization of Crete, and the knightly fortress of Rhodes. The Greek Islands are one of the most romantic yachting destinations in the world."
   },
   "charter.457": {
@@ -25133,8 +25133,8 @@ var dict = {
     "en": "Maldivian Paradise · Atolls"
   },
   "charter.476": {
-    "zh": "驾游艇穿越印度洋100+座环礁，探访只有游艇才能抵达的隐秘沙洲。水晶般清澈的泻湖、世界上最好的浮潜点、水下餐厅、漂浮早餐——马尔代夫是奢华游艇假期的终极目的地。",
-    "en": "Sailing on a yacht across 100+ atolls in the Indian Ocean and exploring hidden sandbanks that can only be reached by yacht. Crystal clear lagoons, some of the best snorkeling spots in the world, underwater restaurants, floating breakfasts – the Maldives is the ultimate destination for luxury yacht holidays."
+    "zh": "驾游艇穿越印度洋100+座环礁,探访只有游艇才能抵达的隐秘沙洲。水晶般清澈的泻湖、世界上最好的浮潜点、水下餐厅、漂浮早餐--马尔代夫是奢华游艇假期的终极目的地。",
+    "en": "Sailing on a yacht across 100+ atolls in the Indian Ocean and exploring hidden sandbanks that can only be reached by yacht. Crystal clear lagoons, some of the best snorkeling spots in the world, underwater restaurants, floating breakfasts - the Maldives is the ultimate destination for luxury yacht holidays."
   },
   "charter.489": {
     "zh": "¥420,000",
@@ -25169,7 +25169,7 @@ var dict = {
     "en": "Amalfi Dream · Southern Italy"
   },
   "charter.508": {
-    "zh": "沿着世界最美海岸线巡航，从那不勒斯启航，穿越波西塔诺的彩色房屋、卡普里岛的蓝洞、拉韦洛的悬崖花园。阿马尔菲海岸是意大利最高端的游艇目的地，美食与风景均为世界级。",
+    "zh": "沿着世界最美海岸线巡航,从那不勒斯启航,穿越波西塔诺的彩色房屋、卡普里岛的蓝洞、拉韦洛的悬崖花园。阿马尔菲海岸是意大利最高端的游艇目的地,美食与风景均为世界级。",
     "en": "Cruise along the most beautiful coastline in the world, setting sail from Naples and passing through the colorful houses of Positano, the blue holes of Capri, and the cliff gardens of Ravello. The Amalfi Coast is Italy's leading yachting destination, with world-class food and scenery."
   },
   "charter.521": {
@@ -25205,7 +25205,7 @@ var dict = {
     "en": "Seychelles Serenity · Granite Islands"
   },
   "charter.540": {
-    "zh": "探索印度洋最后的伊甸园——塞舌尔115座花岗岩岛屿是世界自然遗产，阿尔达布拉环礁是最大的红树林海龟栖息地。这里是全球最原生态的游艇目的地，潜水、海钓、探索均无可替代。",
+    "zh": "探索印度洋最后的伊甸园--塞舌尔115座花岗岩岛屿是世界自然遗产,阿尔达布拉环礁是最大的红树林海龟栖息地。这里是全球最原生态的游艇目的地,潜水、海钓、探索均无可替代。",
     "en": "Explore the last Garden of Eden in the Indian Ocean - the Seychelles' 115 granite islands are a World Natural Heritage Site and Aldabra Atoll is the largest mangrove turtle habitat. This is the most pristine yachting destination in the world, and there is no substitute for diving, fishing, and exploration."
   },
   "charter.553": {
@@ -25241,7 +25241,7 @@ var dict = {
     "en": "Tahitian Legends · Society Islands"
   },
   "charter.572": {
-    "zh": "从帕皮提出发，穿越波拉波拉的神奇泻湖、茉莉雅的私密环礁、胡阿希内的珊瑚花园。法属波利尼西亚是全球最浪漫的游艇目的地，翡翠泻湖、火山山峰、热带风情构成绝美画卷。",
+    "zh": "从帕皮提出发,穿越波拉波拉的神奇泻湖、茉莉雅的私密环礁、胡阿希内的珊瑚花园。法属波利尼西亚是全球最浪漫的游艇目的地,翡翠泻湖、火山山峰、热带风情构成绝美画卷。",
     "en": "Depart from Papeete and travel through the magical lagoon of Bora Bora, the private atoll of Moorea, and the coral gardens of Huahine. French Polynesia is the most romantic yachting destination in the world, with emerald lagoons, volcanic peaks and tropical scenery forming a beautiful picture."
   },
   "charter.585": {
@@ -25277,7 +25277,7 @@ var dict = {
     "en": "Nordic Odyssey · Norwegian Fjords"
   },
   "charter.604": {
-    "zh": "穿越盖朗厄尔峡湾的瀑布奇观、罗弗敦群岛的极光追逐、特罗姆瑟的极地风光。北欧峡湾是自然爱好者的终极游艇目的地，极光、冰川、峡湾、驯鹿构成了壮丽的画卷。",
+    "zh": "穿越盖朗厄尔峡湾的瀑布奇观、罗弗敦群岛的极光追逐、特罗姆瑟的极地风光。北欧峡湾是自然爱好者的终极游艇目的地,极光、冰川、峡湾、驯鹿构成了壮丽的画卷。",
     "en": "Travel through the wonders of waterfalls in Geirangerfjord, chase the aurora in Lofoten Islands, and enjoy the polar scenery in Tromso. The Nordic fjords are the ultimate yachting destination for nature lovers. Aurora, glaciers, fjords and reindeer form a magnificent picture."
   },
   "charter.617": {
@@ -25313,7 +25313,7 @@ var dict = {
     "en": "Bali &amp; Komodo · Indonesian Explorer"
   },
   "charter.636": {
-    "zh": "从巴厘岛努沙杜瓦出发，探索科莫多国家公园的史前巨蜥、龙目岛的神秘瀑布、弗洛勒斯的人祖化石遗址。印尼拥有17000+岛屿，是全球最适合游艇探险的国度之一。",
+    "zh": "从巴厘岛努沙杜瓦出发,探索科莫多国家公园的史前巨蜥、龙目岛的神秘瀑布、弗洛勒斯的人祖化石遗址。印尼拥有17000+岛屿,是全球最适合游艇探险的国度之一。",
     "en": "Depart from Nusa Dua, Bali, and explore the prehistoric monitor lizards in Komodo National Park, the mysterious waterfalls in Lombok, and the Ancestor Fossil Site in Flores. Indonesia has 17,000+ islands and is one of the most suitable countries in the world for yachting adventures."
   },
   "charter.649": {
@@ -25349,7 +25349,7 @@ var dict = {
     "en": "Anatolian Blue · Turkey &amp; Greek Islands"
   },
   "charter.668": {
-    "zh": "从伊斯坦布尔出发，穿越马尔马拉海，抵达博德鲁姆的游艇天堂，再到罗得岛的中世纪骑士要塞。土耳其爱琴海将古老文明与现代奢华完美融合，是性价比最高的地中海航线之一。",
+    "zh": "从伊斯坦布尔出发,穿越马尔马拉海,抵达博德鲁姆的游艇天堂,再到罗得岛的中世纪骑士要塞。土耳其爱琴海将古老文明与现代奢华完美融合,是性价比最高的地中海航线之一。",
     "en": "Depart from Istanbul and cross the Sea of ​​Marmara to the yachting paradise of Bodrum and then to the medieval knightly fortress of Rhodes. The Turkish Aegean Sea perfectly blends ancient civilization with modern luxury and is one of the most cost-effective Mediterranean routes."
   },
   "charter.681": {
@@ -25385,7 +25385,7 @@ var dict = {
     "en": "Emerald Bay · Ha Long &amp; Central Coast"
   },
   "charter.700": {
-    "zh": "穿越下龙湾的3000座石灰岩岛屿，探访岘港的占婆遗迹、会安古镇的灯笼街。越南海岸线拥有独特的自然与文化魅力，是东南亚最具性价比的游艇目的地之一，正逐渐成为全球新热点。",
+    "zh": "穿越下龙湾的3000座石灰岩岛屿,探访岘港的占婆遗迹、会安古镇的灯笼街。越南海岸线拥有独特的自然与文化魅力,是东南亚最具性价比的游艇目的地之一,正逐渐成为全球新热点。",
     "en": "Travel through the 3,000 limestone islands in Halong Bay and visit the Cham ruins in Da Nang and the Lantern Street in Hoi An Ancient Town. Vietnam's coastline has unique natural and cultural charms. It is one of the most cost-effective yachting destinations in Southeast Asia and is gradually becoming a new hot spot in the world."
   },
   "charter.713": {
@@ -25421,7 +25421,7 @@ var dict = {
     "en": "Okinawa Discovery · Kerama Islands"
   },
   "charter.732": {
-    "zh": "从那霸出发，穿越庆良间诸岛的透明泻湖、宫古岛的古村落、石垣岛的星空。冲绳航线将日本精密文化与热带海洋完美结合，是亚洲最具格调的游艇目的地之一。",
+    "zh": "从那霸出发,穿越庆良间诸岛的透明泻湖、宫古岛的古村落、石垣岛的星空。冲绳航线将日本精密文化与热带海洋完美结合,是亚洲最具格调的游艇目的地之一。",
     "en": "Depart from Naha and travel through the transparent lagoons of the Kerama Islands, the ancient villages of Miyako Island, and the starry sky of Ishigaki Island. The Okinawa route perfectly combines Japanese sophisticated culture with tropical seas, making it one of the most stylish yachting destinations in Asia."
   },
   "charter.745": {
@@ -25457,8 +25457,8 @@ var dict = {
     "en": "British Virgin Bliss · Sailing Paradise"
   },
   "charter.764": {
-    "zh": "从托尔托拉岛启航，穿越臭鼬礁的传奇酒吧、维尔京戈尔达的岛屿Pirate主题派对、乔艇岛的白沙滩。加勒比最经典帆船目的地之一，岛屿密度高、航行距离短、派对文化浓郁。",
-    "en": "Set sail from Tortola and pass by the legendary bars of Skunk Cay, Virgin Gorda’s Island Pirate themed party, and the white sand beaches of Qiao Ting Island. One of the most classic sailing destinations in the Caribbean, it has a high density of islands, short sailing distances and a strong party culture."
+    "zh": "从托尔托拉岛启航,穿越臭鼬礁的传奇酒吧、维尔京戈尔达的岛屿Pirate主题派对、乔艇岛的白沙滩。加勒比最经典帆船目的地之一,岛屿密度高、航行距离短、派对文化浓郁。",
+    "en": "Set sail from Tortola and pass by the legendary bars of Skunk Cay, Virgin Gorda's Island Pirate themed party, and the white sand beaches of Qiao Ting Island. One of the most classic sailing destinations in the Caribbean, it has a high density of islands, short sailing distances and a strong party culture."
   },
   "charter.777": {
     "zh": "¥245,000",
@@ -25493,7 +25493,7 @@ var dict = {
     "en": "Cannes &amp; Monaco · Star-Studded Riviera"
   },
   "charter.796": {
-    "zh": "从戛纳电影节的红地毯到摩纳哥F1大奖赛的轰鸣声，从圣特罗佩的名人沙滩到昂蒂布的印象派海岸。蔚蓝海岸是全球最闪耀的游艇舞台，每一段航程都是传奇。",
+    "zh": "从戛纳电影节的红地毯到摩纳哥F1大奖赛的轰鸣声,从圣特罗佩的名人沙滩到昂蒂布的印象派海岸。蔚蓝海岸是全球最闪耀的游艇舞台,每一段航程都是传奇。",
     "en": "From the red carpet of the Cannes Film Festival to the roar of the Monaco F1 Grand Prix, from the celebrity beaches of Saint-Tropez to the Impressionist coast of Antibes. The French Riviera is the world's most glittering yachting arena, and every voyage is legendary."
   },
   "charter.809": {
@@ -25513,7 +25513,7 @@ var dict = {
     "en": "Customized private route service"
   },
   "charter.826": {
-    "zh": "我们的航线规划师团队可根据您的出行时间、预算、同行人群，量身定制专属行程，探索市面少见的私人秘境",
+    "zh": "我们的航线规划师团队可根据您的出行时间、预算、同行人群,量身定制专属行程,探索市面少见的私人秘境",
     "en": "Our team of route planners can customize an exclusive itinerary based on your travel time, budget, and the number of people traveling with you, and explore private secrets rarely seen in the market."
   },
   "charter.832": {
@@ -25521,7 +25521,7 @@ var dict = {
     "en": "🏔️ Development of niche secret routes"
   },
   "charter.833": {
-    "zh": "为您探索市面罕见的私人岛屿、隐秘海湾、未公开航道，打造真正独一无二的航海体验。",
+    "zh": "为您探索市面罕见的私人岛屿、隐秘海湾、未公开航道,打造真正独一无二的航海体验。",
     "en": "Explore rare private islands, hidden bays, and undisclosed waterways for you to create a truly unique sailing experience."
   },
   "charter.838": {
@@ -25529,7 +25529,7 @@ var dict = {
     "en": "🎉 Proposal/anniversary theme customization"
   },
   "charter.839": {
-    "zh": "从求婚仪式布置到结婚纪念日派对，我们的专属团队可为您策划一生难忘的海上浪漫时刻。",
+    "zh": "从求婚仪式布置到结婚纪念日派对,我们的专属团队可为您策划一生难忘的海上浪漫时刻。",
     "en": "From proposal arrangements to wedding anniversary parties, our dedicated team can help you plan the romantic moments at sea that will last a lifetime."
   },
   "charter.844": {
@@ -25537,7 +25537,7 @@ var dict = {
     "en": "💼 Business reception high-end routes"
   },
   "charter.845": {
-    "zh": "为高端商务接待、企业年会、客户答谢打造专属海上商务空间，融合奢华与功能性。",
+    "zh": "为高端商务接待、企业年会、客户答谢打造专属海上商务空间,融合奢华与功能性。",
     "en": "Create an exclusive maritime business space for high-end business receptions, corporate annual meetings, and customer appreciation, integrating luxury and functionality."
   },
   "charter.850": {
@@ -25545,7 +25545,7 @@ var dict = {
     "en": "🎣 Professional sea fishing themed itinerary"
   },
   "charter.851": {
-    "zh": "配备专业海钓装备与指导，搭配金牌船长多年渔点经验，从深海拖钓到礁石钓，适合各水平钓客。",
+    "zh": "配备专业海钓装备与指导,搭配金牌船长多年渔点经验,从深海拖钓到礁石钓,适合各水平钓客。",
     "en": "Equipped with professional sea fishing equipment and guidance, as well as a gold medal captain with many years of experience in fishing spots, from deep sea trolling to reef fishing, it is suitable for anglers of all levels."
   },
   "charter.862": {
@@ -25553,7 +25553,7 @@ var dict = {
     "en": "Analysis of the whole leasing process"
   },
   "charter.865": {
-    "zh": "从咨询到启航，我们全程护航——8个标准环节，确保每段旅程安全、顺畅、难忘",
+    "zh": "从咨询到启航,我们全程护航--8个标准环节,确保每段旅程安全、顺畅、难忘",
     "en": "From consultation to departure, we escort the entire journey - 8 standard links to ensure that every journey is safe, smooth and unforgettable"
   },
   "charter.869": {
@@ -25565,7 +25565,7 @@ var dict = {
     "en": "Requirements communication"
   },
   "charter.872": {
-    "zh": "提交您的出行需求，专属顾问1对1深度沟通，确认目的地、预算、人数与偏好",
+    "zh": "提交您的出行需求,专属顾问1对1深度沟通,确认目的地、预算、人数与偏好",
     "en": "Submit your travel needs, and a dedicated consultant will have one-to-one in-depth communication to confirm the destination, budget, number of people, and preferences."
   },
   "charter.874": {
@@ -25581,7 +25581,7 @@ var dict = {
     "en": "Route recommendation"
   },
   "charter.877": {
-    "zh": "根据需求提供3-5个备选航线方案，详细介绍每条航线的亮点与差异，帮您找到最适合的选择",
+    "zh": "根据需求提供3-5个备选航线方案,详细介绍每条航线的亮点与差异,帮您找到最适合的选择",
     "en": "Provide 3-5 alternative route plans based on needs, introduce the highlights and differences of each route in detail, and help you find the most suitable choice"
   },
   "charter.879": {
@@ -25593,7 +25593,7 @@ var dict = {
     "en": "Plan confirmation"
   },
   "charter.882": {
-    "zh": "提供详细的行程规划、游艇规格、餐饮方案与完整报价单，签署服务合同确认所有细节",
+    "zh": "提供详细的行程规划、游艇规格、餐饮方案与完整报价单,签署服务合同确认所有细节",
     "en": "Provide detailed itinerary planning, yacht specifications, catering plans and complete quotations, and sign a service contract to confirm all details"
   },
   "charter.884": {
@@ -25605,7 +25605,7 @@ var dict = {
     "en": "Deposit locked"
   },
   "charter.887": {
-    "zh": "支付50%定金锁定档期，团队立即启动准备工作，确认船型、船员配置与港口安排",
+    "zh": "支付50%定金锁定档期,团队立即启动准备工作,确认船型、船员配置与港口安排",
     "en": "Pay a 50% deposit to lock in the schedule, and the team will immediately start preparations to confirm the ship type, crew configuration and port arrangements"
   },
   "charter.889": {
@@ -25629,7 +25629,7 @@ var dict = {
     "en": "Board the ship and set sail"
   },
   "charter.897": {
-    "zh": "专属船长主持登船Briefing，全面介绍船只与航线，7×24小时专属服务随即开始",
+    "zh": "专属船长主持登船Briefing,全面介绍船只与航线,7×24小时专属服务随即开始",
     "en": "The exclusive captain will preside over the boarding briefing and provide a comprehensive introduction to the ship and route. The 7×24 exclusive service will begin immediately."
   },
   "charter.899": {
@@ -25641,7 +25641,7 @@ var dict = {
     "en": "Trip execution"
   },
   "charter.902": {
-    "zh": "按规划航线巡航，支持每日灵活调整，船长与管家全程提供专业服务与安全保障",
+    "zh": "按规划航线巡航,支持每日灵活调整,船长与管家全程提供专业服务与安全保障",
     "en": "Cruise according to the planned route and support daily flexible adjustments. The captain and butler provide professional services and safety throughout the entire journey."
   },
   "charter.904": {
@@ -25653,7 +25653,7 @@ var dict = {
     "en": "After-sales service"
   },
   "charter.907": {
-    "zh": "行程结束后交付全部照片与视频，会员积分累积，下次出行享专属优惠",
+    "zh": "行程结束后交付全部照片与视频,会员积分累积,下次出行享专属优惠",
     "en": "After the trip is over, all photos and videos will be delivered, and membership points will be accumulated to enjoy exclusive discounts on your next trip."
   },
   "charter.917": {
@@ -25661,7 +25661,7 @@ var dict = {
     "en": "Service inclusions and value-added benefits"
   },
   "charter.920": {
-    "zh": "我们为每条航线配备完整的高端服务体系，确保您在海上享受与陆地上同等甚至更优越的体验",
+    "zh": "我们为每条航线配备完整的高端服务体系,确保您在海上享受与陆地上同等甚至更优越的体验",
     "en": "We equip each route with a complete high-end service system to ensure that you enjoy the same or even superior experience at sea as on land."
   },
   "charter.928": {
@@ -25669,7 +25669,7 @@ var dict = {
     "en": "Well equipped yacht"
   },
   "charter.930": {
-    "zh": "根据航线特点匹配最适合的船型，出发前全面检测与清洁，确保航行安全与舒适体验。",
+    "zh": "根据航线特点匹配最适合的船型,出发前全面检测与清洁,确保航行安全与舒适体验。",
     "en": "Match the most suitable ship type according to the characteristics of the route, and conduct comprehensive inspection and cleaning before departure to ensure safe and comfortable sailing experience."
   },
   "charter.932": {
@@ -25693,7 +25693,7 @@ var dict = {
     "en": "Senior crew team"
   },
   "charter.943": {
-    "zh": "配备持证船长、专业水手、服务人员，7×24小时贴心服务，多语言支持，熟知国际航海规则。",
+    "zh": "配备持证船长、专业水手、服务人员,7×24小时贴心服务,多语言支持,熟知国际航海规则。",
     "en": "Equipped with certified captains, professional sailors, and service personnel, we provide 7×24-hour attentive service, multi-language support, and are familiar with international navigation rules."
   },
   "charter.945": {
@@ -25717,7 +25717,7 @@ var dict = {
     "en": "Custom catering services"
   },
   "charter.956": {
-    "zh": "米其林级主厨随船，中西餐定制，新鲜食材每日补给，特殊饮食需求全程适配，含葡萄酒与香槟。",
+    "zh": "米其林级主厨随船,中西餐定制,新鲜食材每日补给,特殊饮食需求全程适配,含葡萄酒与香槟。",
     "en": "A Michelin-level chef is on board, custom-made Chinese and Western meals, fresh ingredients are supplied daily, special dietary needs are fully catered for, and wine and champagne are included."
   },
   "charter.958": {
@@ -25737,7 +25737,7 @@ var dict = {
     "en": "All water activities included"
   },
   "charter.969": {
-    "zh": "滑水、浮潜、深潜、桨板、水上摩托、海钓装备全部配齐，专业教练指导，安全设备齐全。",
+    "zh": "滑水、浮潜、深潜、桨板、水上摩托、海钓装备全部配齐,专业教练指导,安全设备齐全。",
     "en": "Water skiing, snorkeling, deep diving, paddle boards, jet skis, and sea fishing equipment are all fully equipped, guided by professional coaches, and complete safety equipment."
   },
   "charter.971": {
@@ -25757,7 +25757,7 @@ var dict = {
     "en": "Shore trip booking"
   },
   "charter.982": {
-    "zh": "停靠港口餐厅、米其林用餐、景点门票、当地向导全程代订，无缝衔接陆地体验与海上时光。",
+    "zh": "停靠港口餐厅、米其林用餐、景点门票、当地向导全程代订,无缝衔接陆地体验与海上时光。",
     "en": "Port-of-call restaurants, Michelin-starred dining, attraction tickets, and local guides are all booked for the entire journey, seamlessly connecting land experience and time at sea."
   },
   "charter.984": {
@@ -25777,7 +25777,7 @@ var dict = {
     "en": "Full navigation guarantee"
   },
   "charter.995": {
-    "zh": "全面航海保险覆盖、卫星通信、应急医疗设备、海上救援协调，港口费与燃料费全含，无隐性消费。",
+    "zh": "全面航海保险覆盖、卫星通信、应急医疗设备、海上救援协调,港口费与燃料费全含,无隐性消费。",
     "en": "Comprehensive navigation insurance coverage, satellite communications, emergency medical equipment, maritime rescue coordination, port fees and fuel costs are all included, and there are no hidden costs."
   },
   "charter.997": {
@@ -25809,7 +25809,7 @@ var dict = {
     "en": "Suitable for offshore vacations, family outings, and parties"
   },
   "charter.1024": {
-    "zh": "飞桥甲板提供360°开阔视野，阳光充足，适合家庭度假、朋友派对、商务会晤，性价比最高的豪华游艇之选。",
+    "zh": "飞桥甲板提供360°开阔视野,阳光充足,适合家庭度假、朋友派对、商务会晤,性价比最高的豪华游艇之选。",
     "en": "The flybridge deck provides a 360° wide view and ample sunlight, making it suitable for family vacations, friend parties, and business meetings. It is the most cost-effective luxury yacht of choice."
   },
   "charter.1027": {
@@ -25837,7 +25837,7 @@ var dict = {
     "en": "Suitable for ocean travel and multi-island tours"
   },
   "charter.1041": {
-    "zh": "远征系列具备强劲续航与稳定性，适合跨海域长距离航行，多目的地组合航线，探索传统小船无法抵达的秘境。",
+    "zh": "远征系列具备强劲续航与稳定性,适合跨海域长距离航行,多目的地组合航线,探索传统小船无法抵达的秘境。",
     "en": "The expedition series has strong endurance and stability, and is suitable for long-distance voyages across sea areas, multi-destination combination routes, and exploration of secret places that traditional boats cannot reach."
   },
   "charter.1044": {
@@ -25865,7 +25865,7 @@ var dict = {
     "en": "Suitable for luxury parties and corporate receptions"
   },
   "charter.1058": {
-    "zh": "超级游艇级别的规模与配置，直升机坪、游泳池、IMAX影院一应俱全，是全球高端奢华活动的终极选择。",
+    "zh": "超级游艇级别的规模与配置,直升机坪、游泳池、IMAX影院一应俱全,是全球高端奢华活动的终极选择。",
     "en": "Superyacht-level scale and configuration, complete with helipad, swimming pool, and IMAX theater, it is the ultimate choice for the world's leading luxury events."
   },
   "charter.1061": {
@@ -25889,7 +25889,7 @@ var dict = {
     "en": "Real customer journey experience"
   },
   "charter.1079": {
-    "zh": "来自全球各地的真实旅行者分享他们的海上之旅，每一段故事都是对奇幻假期服务最好的背书",
+    "zh": "来自全球各地的真实旅行者分享他们的海上之旅,每一段故事都是对奇幻假期服务最好的背书",
     "en": "Real travelers from all over the world share their sea journeys. Each story is the best endorsement of the fantasy vacation service."
   },
   "charter.1085": {
@@ -25897,7 +25897,7 @@ var dict = {
     "en": "★★★★★"
   },
   "charter.1087": {
-    "zh": "第一次体验游艇租赁，选择了马尔代夫7天航线。超出预期太多！管家服务细致到每一个细节，连我太太喜欢喝的花茶都提前备好。下次一定再来。",
+    "zh": "第一次体验游艇租赁,选择了马尔代夫7天航线。超出预期太多!管家服务细致到每一个细节,连我太太喜欢喝的花茶都提前备好。下次一定再来。",
     "en": "It was my first time to experience yacht charter and I chose the Maldives 7-day cruise. Much more than expected! The butler service is attentive to every detail, and even the scented tea that my wife likes to drink is prepared in advance. Will definitely come again next time."
   },
   "charter.1089": {
@@ -25913,7 +25913,7 @@ var dict = {
     "en": "★★★★★"
   },
   "charter.1098": {
-    "zh": "为庆祝结婚10周年，带全家去了地中海法意经典环线。船长对每个停靠点了如指掌，孩子在船上玩得比在家还开心。最赞的是性价比，是市面价格的零头！",
+    "zh": "为庆祝结婚10周年,带全家去了地中海法意经典环线。船长对每个停靠点了如指掌,孩子在船上玩得比在家还开心。最赞的是性价比,是市面价格的零头!",
     "en": "To celebrate our 10th wedding anniversary, we took the whole family to the Mediterranean French-Italian Classic Circuit. The captain knew every docking station well, and the children had more fun on the boat than at home. The best thing is the cost-effectiveness, which is a fraction of the market price!"
   },
   "charter.1100": {
@@ -25929,12 +25929,12 @@ var dict = {
     "en": "★★★★★"
   },
   "charter.1109": {
-    "zh": "和几个朋友租了飞桥系列去科莫多。船长带我们去了一个根本没有名字的私人沙滩，只有我们的游艇在那里。那种感觉无法用语言形容，绝对是人生最佳体验之一。",
+    "zh": "和几个朋友租了飞桥系列去科莫多。船长带我们去了一个根本没有名字的私人沙滩,只有我们的游艇在那里。那种感觉无法用语言形容,绝对是人生最佳体验之一。",
     "en": "A few friends and I rented the Flybridge Series to go to Komodo. The captain took us to a private beach with no name at all, only our yacht was there. The feeling cannot be described in words, it is definitely one of the best experiences in life."
   },
   "charter.1111": {
     "zh": "张先生朋友圈",
-    "en": "Mr. Zhang’s circle of friends"
+    "en": "Mr. Zhang's circle of friends"
   },
   "charter.1113": {
     "zh": "巴厘岛科莫多探秘 · 2025年12月",
@@ -25945,7 +25945,7 @@ var dict = {
     "en": "Lease Guarantee and Compliance Commitment"
   },
   "charter.1126": {
-    "zh": "您的安全与权益是我们的首要责任——每一项承诺都有制度保障，绝非空话",
+    "zh": "您的安全与权益是我们的首要责任--每一项承诺都有制度保障,绝非空话",
     "en": "Your safety and rights are our primary responsibility - every commitment is guaranteed by the system and is no empty talk"
   },
   "charter.1130": {
@@ -25957,7 +25957,7 @@ var dict = {
     "en": "Classification society certification"
   },
   "charter.1132": {
-    "zh": "所有船型均通过国际船级社认证，定期安全检测，证书齐全，航行安全有据可查",
+    "zh": "所有船型均通过国际船级社认证,定期安全检测,证书齐全,航行安全有据可查",
     "en": "All ship types are certified by international classification societies, undergo regular safety inspections, have complete certificates, and have well-documented navigation safety"
   },
   "charter.1135": {
@@ -25965,7 +25965,7 @@ var dict = {
     "en": "comprehensive insurance"
   },
   "charter.1136": {
-    "zh": "船舶险、旅客险、第三方责任险全覆盖，行程中任何意外均有完善保障体系",
+    "zh": "船舶险、旅客险、第三方责任险全覆盖,行程中任何意外均有完善保障体系",
     "en": "Ship insurance, passenger insurance, and third-party liability insurance are fully covered, and there is a complete protection system for any accidents during the trip"
   },
   "charter.1139": {
@@ -25973,7 +25973,7 @@ var dict = {
     "en": "No hidden consumption"
   },
   "charter.1140": {
-    "zh": "报价包含所有标准服务，报价单透明公开，任何额外费用提前说明，绝无隐性消费陷阱",
+    "zh": "报价包含所有标准服务,报价单透明公开,任何额外费用提前说明,绝无隐性消费陷阱",
     "en": "The quotation includes all standard services, and the quotation is transparent and open. Any additional costs are explained in advance, and there are no hidden consumption traps."
   },
   "charter.1143": {
@@ -25981,7 +25981,7 @@ var dict = {
     "en": "Trip protection"
   },
   "charter.1144": {
-    "zh": "因天气等不可抗力导致航线调整，团队全程协调，绝不让您承担额外损失",
+    "zh": "因天气等不可抗力导致航线调整,团队全程协调,绝不让您承担额外损失",
     "en": "If the route is adjusted due to weather or other force majeure, the team will coordinate the entire process and never let you bear additional losses."
   },
   "charter.1155": {
@@ -25989,7 +25989,7 @@ var dict = {
     "en": "Start your exclusive route"
   },
   "charter.1157": {
-    "zh": "从一通电话开始，让奇幻假期的专业航线规划团队为您量身定制独一无二的海上旅程。无论您想要浪漫的蜜月航线、家庭冒险之旅，还是商务接待的奢华排场——我们都能让您的梦想成真。",
+    "zh": "从一通电话开始,让奇幻假期的专业航线规划团队为您量身定制独一无二的海上旅程。无论您想要浪漫的蜜月航线、家庭冒险之旅,还是商务接待的奢华排场--我们都能让您的梦想成真。",
     "en": "Starting with a phone call, let Fantasy Vacation's professional route planning team tailor a unique maritime journey for you. Whether you want a romantic honeymoon, a family adventure, or the luxury of a business reception - we can make your dreams come true."
   },
   "charter.1159": {
@@ -26017,7 +26017,7 @@ var dict = {
     "en": "Make an appointment with a dedicated route planner"
   },
   "charter.1175": {
-    "zh": "提交需求后，专业顾问将在24小时内与您联系",
+    "zh": "提交需求后,专业顾问将在24小时内与您联系",
     "en": "After submitting your request, a professional consultant will contact you within 24 hours"
   },
 
@@ -26042,15 +26042,15 @@ var dict = {
     "en": "Please select"
   },
   "charter.1186": {
-    "zh": "地中海（法意/希腊/土耳其）",
+    "zh": "地中海(法意/希腊/土耳其)",
     "en": "Mediterranean (France, Italy/Greece/Türkiye)"
   },
   "charter.1187": {
-    "zh": "加勒比海（巴哈马/BVI）",
+    "zh": "加勒比海(巴哈马/BVI)",
     "en": "Caribbean (Bahamas/BVI)"
   },
   "charter.1188": {
-    "zh": "东南亚（泰缅/印尼/越南）",
+    "zh": "东南亚(泰缅/印尼/越南)",
     "en": "Southeast Asia (Thailand, Myanmar/Indonesia/Vietnam)"
   },
   "charter.1189": {
@@ -26146,7 +26146,7 @@ var dict = {
     "en": "¥3 million or more/week"
   },
   "charter.1223": {
-    "zh": "其他需求（可选）",
+    "zh": "其他需求(可选)",
     "en": "Other requirements (optional)"
   },
   "charter.1226": {
@@ -26162,11 +26162,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "charter.1254": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "charter.1257": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "charter.1262": {
@@ -26314,7 +26314,7 @@ var dict = {
     "en": "13797920792 / +86 0755 3353-0188"
   },
   "contact.415": {
-    "zh": "🔒 您的个人信息将严格保密，仅用于专属顾问与您联络。我们承诺不会将您的信息分享给任何第三方。详见",
+    "zh": "🔒 您的个人信息将严格保密,仅用于专属顾问与您联络。我们承诺不会将您的信息分享给任何第三方。详见",
     "en": "🔒 Your personal information will be kept strictly confidential and will only be used by dedicated consultants to contact you. We promise not to share your information with any third party. See details"
   },
   "contact.610": {
@@ -26322,7 +26322,7 @@ var dict = {
     "en": "Dedicated response within 2 hours<br/>Emergency requests within 30 minutes"
   },
   "contact.615": {
-    "zh": "根据需求智能匹配专属顾问<br/>零沟通损耗，直达专业团队",
+    "zh": "根据需求智能匹配专属顾问<br/>零沟通损耗,直达专业团队",
     "en": "AI-matched dedicated consultant<br/>Zero communication loss, direct to experts"
   },
   "contact.620": {
@@ -26330,11 +26330,11 @@ var dict = {
     "en": "International standard privacy protection<br/>Encrypted client data storage"
   },
   "contact.625": {
-    "zh": "每个咨询工单全程追踪<br/>服务闭环，无遗漏",
+    "zh": "每个咨询工单全程追踪<br/>服务闭环,无遗漏",
     "en": "Full tracking for every inquiry ticket<br/>Complete service loop, no omissions"
   },
   "contact.682": {
-    "zh": "「探索全球，不负假期」<br/>全球一体化高端游艇定制与私人海享生活缔造者",
+    "zh": "「探索全球,不负假期」<br/>全球一体化高端游艇定制与私人海享生活缔造者",
     "en": "\"Explore the World, Embrace the Vacation\"<br/>Global Integrated Premium Yacht Customization & Private Seaside Life Creator"
   },
   "contact.718": {
@@ -26514,8 +26514,8 @@ var dict = {
     "en": "Contact Us"
   },
   "custom.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "custom.257": {
     "zh": "奇幻假期实业有限公司",
@@ -26526,8 +26526,8 @@ var dict = {
     "en": "private yacht"
   },
   "custom.262": {
-    "zh": "每一艘游艇，都是船东海上私人生活方式的专属艺术品",
-    "en": "Every yacht is an exclusive work of art for the owner’s private lifestyle at sea."
+    "zh": "每一艘游艇,都是船东海上私人生活方式的专属艺术品",
+    "en": "Every yacht is an exclusive work of art for the owner's private lifestyle at sea."
   },
   "custom.266": {
     "zh": "年定制经验",
@@ -26546,15 +26546,15 @@ var dict = {
     "en": "Customer satisfaction %"
   },
   "custom.288": {
-    "zh": "每一寸空间，",
+    "zh": "每一寸空间,",
     "en": "Every inch of space,"
   },
   "custom.291": {
-    "zh": "在奇幻假期，我们深信真正的奢华并非堆砌昂贵材质，而是对每一位船东生活方式的深刻理解与精准诠释。从地中海的蔚蓝海岸到加勒比的碧波万顷，我们为全球精英阶层打造独一无二的海上移动行宫——这不仅是一艘游艇，更是您个人品味、生活哲学与航海梦想的具象化呈现。",
-    "en": "At Fantasy Vacations, we firmly believe that true luxury is not about piling up expensive materials, but about a deep understanding and accurate interpretation of each ship owner’s lifestyle. From the Cote d'Azur of the Mediterranean to the vast blue waters of the Caribbean, we create a unique maritime mobile palace for the global elite - this is not only a yacht, but also a concrete representation of your personal taste, life philosophy and sailing dreams."
+    "zh": "在奇幻假期,我们深信真正的奢华并非堆砌昂贵材质,而是对每一位船东生活方式的深刻理解与精准诠释。从地中海的蔚蓝海岸到加勒比的碧波万顷,我们为全球精英阶层打造独一无二的海上移动行宫--这不仅是一艘游艇,更是您个人品味、生活哲学与航海梦想的具象化呈现。",
+    "en": "At Fantasy Vacations, we firmly believe that true luxury is not about piling up expensive materials, but about a deep understanding and accurate interpretation of each ship owner's lifestyle. From the Cote d'Azur of the Mediterranean to the vast blue waters of the Caribbean, we create a unique maritime mobile palace for the global elite - this is not only a yacht, but also a concrete representation of your personal taste, life philosophy and sailing dreams."
   },
   "custom.293": {
-    "zh": "我们汇聚意大利Benetti设计工作室的东方美学造诣、荷兰Feadship的精密建造工艺、德国MTU的动力工程实力，整合全球最优秀的游艇产业链资源，确保每一艘交付的定制游艇都达到国际最高标准。",
+    "zh": "我们汇聚意大利Benetti设计工作室的东方美学造诣、荷兰Feadship的精密建造工艺、德国MTU的动力工程实力,整合全球最优秀的游艇产业链资源,确保每一艘交付的定制游艇都达到国际最高标准。",
     "en": "We bring together the oriental aesthetic attainments of Italy's Benetti Design Studio, the precision construction technology of Dutch Feadship, and the power engineering strength of Germany's MTU, integrating the world's best yacht industry chain resources to ensure that every customized yacht delivered meets the highest international standards."
   },
   "custom.297": {
@@ -26578,7 +26578,7 @@ var dict = {
     "en": "Full process customization capabilities"
   },
   "custom.325": {
-    "zh": "从最初的概念草图到最终的海上交付，奇幻假期的定制服务涵盖游艇诞生的每一个环节，每一个细节都由专业团队精心把控",
+    "zh": "从最初的概念草图到最终的海上交付,奇幻假期的定制服务涵盖游艇诞生的每一个环节,每一个细节都由专业团队精心把控",
     "en": "From the initial concept sketch to the final delivery at sea, Fantasy Vacation's customized services cover every aspect of the birth of the yacht, and every detail is carefully controlled by a professional team"
   },
   "custom.335": {
@@ -26590,7 +26590,7 @@ var dict = {
     "en": "Exclusive consultation"
   },
   "custom.339": {
-    "zh": "资深游艇顾问一对一深度沟通，全面了解您的航海愿景与审美偏好。从首次接触到方案蓝图，全程由专属项目顾问跟进，确保每一个需求都被精准捕捉与专业回应。",
+    "zh": "资深游艇顾问一对一深度沟通,全面了解您的航海愿景与审美偏好。从首次接触到方案蓝图,全程由专属项目顾问跟进,确保每一个需求都被精准捕捉与专业回应。",
     "en": "Senior yacht consultants provide one-to-one in-depth communication to fully understand your sailing vision and aesthetic preferences. From the first contact to the project blueprint, the entire process is followed up by a dedicated project consultant to ensure that every need is accurately captured and responded to professionally."
   },
   "custom.342": {
@@ -26634,7 +26634,7 @@ var dict = {
     "en": "concept design"
   },
   "custom.371": {
-    "zh": "国际高端游艇设计师执笔，从船体流体力学优化到内饰空间美学，全方位呈现梦想之艇的完整蓝图。提供1:1实体模型制作与VR全景虚拟体验，让您在建造前即可身临其境。",
+    "zh": "国际高端游艇设计师执笔,从船体流体力学优化到内饰空间美学,全方位呈现梦想之艇的完整蓝图。提供1:1实体模型制作与VR全景虚拟体验,让您在建造前即可身临其境。",
     "en": "Written by a top international yacht designer, from the optimization of hull hydrodynamics to the aesthetics of interior space, the complete blueprint of the dream boat is presented in an all-round way. Provide 1:1 physical model production and VR panoramic virtual experience, allowing you to be immersed in the scene before construction."
   },
   "custom.374": {
@@ -26650,7 +26650,7 @@ var dict = {
     "en": "Interior theme and space function planning"
   },
   "custom.380": {
-    "zh": "1:1实体模型制作（对标Princess）",
+    "zh": "1:1实体模型制作(对标Princess)",
     "en": "1:1 physical model production (compared to Princess)"
   },
   "custom.382": {
@@ -26678,7 +26678,7 @@ var dict = {
     "en": "Material selection"
   },
   "custom.403": {
-    "zh": "全球高端材料库为您敞开——意大利Nappa皮革、缅甸百年柚木、瑞士精密仪器、卡拉拉白大理石与航空级铝合金饰面，每一种材质都经过严苛筛选与环保认证。",
+    "zh": "全球高端材料库为您敞开--意大利Nappa皮革、缅甸百年柚木、瑞士精密仪器、卡拉拉白大理石与航空级铝合金饰面,每一种材质都经过严苛筛选与环保认证。",
     "en": "The world's top material library is open to you - Italian Nappa leather, Burmese century-old teak, Swiss precision instruments, Carrara white marble and aviation-grade aluminum alloy finishes. Each material has been rigorously screened and environmentally certified."
   },
   "custom.406": {
@@ -26722,7 +26722,7 @@ var dict = {
     "en": "Precision construction"
   },
   "custom.435": {
-    "zh": "自有船坞与荷兰Feadship、Heesen等全球高端船厂联合建造。采用航天级焊接工艺与碳纤维/铝合金复合船体技术，每一个连接点都经过严苛品控与第三方检测。",
+    "zh": "自有船坞与荷兰Feadship、Heesen等全球高端船厂联合建造。采用航天级焊接工艺与碳纤维/铝合金复合船体技术,每一个连接点都经过严苛品控与第三方检测。",
     "en": "It is built jointly with its own shipyard and the world's top shipyards such as Feadship and Heesen in the Netherlands. Using aerospace-grade welding technology and carbon fiber/aluminum alloy composite hull technology, every connection point has undergone strict quality control and third-party testing."
   },
   "custom.438": {
@@ -26766,7 +26766,7 @@ var dict = {
     "en": "Sea trial delivery"
   },
   "custom.467": {
-    "zh": "严苛的72小时海上性能综合测试，涵盖航速、稳定性、操控性、设备可靠性等全方位检测。交付前进行全面清洁养护与操作培训，让您的首航之旅完美启程。",
+    "zh": "严苛的72小时海上性能综合测试,涵盖航速、稳定性、操控性、设备可靠性等全方位检测。交付前进行全面清洁养护与操作培训,让您的首航之旅完美启程。",
     "en": "The rigorous 72-hour maritime performance comprehensive test covers all-round testing such as speed, stability, maneuverability, and equipment reliability. Comprehensive cleaning, maintenance and operation training will be carried out before delivery to make your first voyage a perfect start."
   },
   "custom.470": {
@@ -26810,7 +26810,7 @@ var dict = {
     "en": "lifelong companionship"
   },
   "custom.499": {
-    "zh": "交付只是服务的开始。全球12座城市维保中心、7×24小时海上应急响应、专属管家年度回访，从日常维护到远洋救援，我们始终守护在您身边。",
+    "zh": "交付只是服务的开始。全球12座城市维保中心、7×24小时海上应急响应、专属管家年度回访,从日常维护到远洋救援,我们始终守护在您身边。",
     "en": "Delivery is just the beginning of service. With maintenance centers in 12 cities around the world, 7×24-hour maritime emergency response, and annual return visits by a dedicated butler, we are always by your side from routine maintenance to ocean rescue."
   },
   "custom.502": {
@@ -26850,7 +26850,7 @@ var dict = {
     "en": "Customized dimensions and special services"
   },
   "custom.542": {
-    "zh": "从船体流线到品牌标识，每一处外观细节都彰显独特个性。我们的外观设计团队将根据您的审美偏好与使用场景，打造独一无二的视觉识别体系。",
+    "zh": "从船体流线到品牌标识,每一处外观细节都彰显独特个性。我们的外观设计团队将根据您的审美偏好与使用场景,打造独一无二的视觉识别体系。",
     "en": "From the streamlines of the hull to the brand logo, every exterior detail expresses unique personality. Our appearance design team will create a unique visual identity system based on your aesthetic preferences and usage scenarios."
   },
   "custom.545": { "zh": "船体线条优化", "en": "Hull line optimization" },
@@ -26860,7 +26860,7 @@ var dict = {
   "custom.549": { "zh": "特殊涂装工艺", "en": "Special coating process" },
   "custom.550": { "zh": "LED动态灯效", "en": "LED dynamic lighting effects" },
   "custom.559": {
-    "zh": "主题风格随心选——东方美学的禅意雅致、现代极简的利落线条、复古奢华的宫廷气派。空间功能按需改造，从私人影院到SPA水疗房，从海上健身房到总裁办公室。",
+    "zh": "主题风格随心选--东方美学的禅意雅致、现代极简的利落线条、复古奢华的宫廷气派。空间功能按需改造,从私人影院到SPA水疗房,从海上健身房到总裁办公室。",
     "en": "You can choose the theme style as you like - the Zen elegance of oriental aesthetics, the neat lines of modern minimalism, the retro luxurious palace style. Space functions are transformed as needed, from private theaters to spa rooms, from offshore gyms to the president's office."
   },
   "custom.562": { "zh": "东方美学/现代极简/复古奢华", "en": "Oriental aesthetics/modern minimalist/retro luxury" },
@@ -26869,7 +26869,7 @@ var dict = {
   "custom.565": { "zh": "灯光氛围系统", "en": "Lighting atmosphere system" },
   "custom.566": { "zh": "艺术品陈设搭配", "en": "Art display matching" },
   "custom.575": {
-    "zh": "超越传统游艇的功能边界。智能中控系统一键掌控全船设备，卫星通信确保全球互联，水下灯光打造梦幻夜景，直升机起降平台拓展出行半径。",
+    "zh": "超越传统游艇的功能边界。智能中控系统一键掌控全船设备,卫星通信确保全球互联,水下灯光打造梦幻夜景,直升机起降平台拓展出行半径。",
     "en": "Beyond the functional boundaries of traditional yachts. The intelligent central control system controls all ship equipment with one click, satellite communications ensure global interconnection, underwater lighting creates a dreamy night scene, and the helicopter landing platform expands the travel radius."
   },
   "custom.578": { "zh": "航速与动力系统优化", "en": "Speed and power system optimization" },
@@ -26878,7 +26878,7 @@ var dict = {
   "custom.581": { "zh": "海钓平台/潜水装备舱", "en": "Fishing platform/diving equipment cabin" },
   "custom.582": { "zh": "直升机起降平台", "en": "Helicopter landing platform" },
   "custom.591": {
-    "zh": "从登艇那一刻起的全方位尊享体验。米其林主厨定制专属菜单，私人航线规划师设计环球航行路线，全球港口VIP停靠协助，会员制特权礼遇贯穿始终。",
+    "zh": "从登艇那一刻起的全方位尊享体验。米其林主厨定制专属菜单,私人航线规划师设计环球航行路线,全球港口VIP停靠协助,会员制特权礼遇贯穿始终。",
     "en": "An all-round exclusive experience from the moment you board the boat. Michelin chefs customize exclusive menus, private route planners design global sailing routes, VIP docking assistance at global ports, and membership privileges are provided throughout."
   },
   "custom.594": { "zh": "专属管家全天候服务", "en": "Dedicated butler service around the clock" },
@@ -26899,27 +26899,27 @@ var dict = {
     "en": "VR panoramic virtual experience"
   },
   "custom.621": {
-    "zh": "1:1等比例实体模型，完整还原外观与内部空间布局",
+    "zh": "1:1等比例实体模型,完整还原外观与内部空间布局",
     "en": "1:1 scale physical model, completely restoring the appearance and internal space layout"
   },
   "custom.623": {
-    "zh": "VR全景漫游系统，沉浸式体验每个舱室与甲板区域",
+    "zh": "VR全景漫游系统,沉浸式体验每个舱室与甲板区域",
     "en": "VR panoramic roaming system, immersive experience of each cabin and deck area"
   },
   "custom.625": {
-    "zh": "实时材质替换功能，即时预览不同皮革/木材/配色效果",
+    "zh": "实时材质替换功能,即时预览不同皮革/木材/配色效果",
     "en": "Real-time material replacement function, instant preview of different leather/wood/color effects"
   },
   "custom.627": {
-    "zh": "光照模拟系统，感受不同时段的自然采光变化",
+    "zh": "光照模拟系统,感受不同时段的自然采光变化",
     "en": "Lighting simulation system to experience the changes in natural lighting during different periods of time"
   },
   "custom.629": {
-    "zh": "家具摆放互动调整，直观验证空间舒适度",
+    "zh": "家具摆放互动调整,直观验证空间舒适度",
     "en": "Interactive adjustment of furniture placement to intuitively verify space comfort"
   },
   "custom.631": {
-    "zh": "多人协同评审模式，家庭成员可远程参与决策",
+    "zh": "多人协同评审模式,家庭成员可远程参与决策",
     "en": "Multi-person collaborative review mode, family members can participate in decision-making remotely"
   },
   "custom.644": {
@@ -26927,7 +26927,7 @@ var dict = {
     "en": "CustomCase Showcase"
   },
   "custom.647": {
-    "zh": "每一艘交付的游艇，都是一段独一无二的定制传奇",
+    "zh": "每一艘交付的游艇,都是一段独一无二的定制传奇",
     "en": "Every yacht delivered is a unique customization legend"
   },
   "custom.654": {
@@ -26963,7 +26963,7 @@ var dict = {
     "en": "Guests"
   },
   "custom.667": {
-    "zh": "💡 核心亮点：东方人文空间理念 + 移动美术馆概念 + 禅意甲板花园",
+    "zh": "💡 核心亮点:东方人文空间理念 + 移动美术馆概念 + 禅意甲板花园",
     "en": "💡 Core highlights: Oriental humanistic space concept + mobile art museum concept + Zen deck garden"
   },
   "custom.673": {
@@ -26975,7 +26975,7 @@ var dict = {
     "en": "Expedition 55M Polar Adventure Edition"
   },
   "custom.677": {
-    "zh": "极地探险爱好者专属。芬兰Aker北极级钢材冰区加强船体，Polarsys极地导航系统。内置独立科考实验室、水下无人机收放舱、极地救援装备库。北欧温暖内饰风格，芬兰白桦木与冰岛羊毛织物营造极寒中的温馨居家氛围。",
+    "zh": "极地探险爱好者专属。芬兰Aker北极级钢材冰区加强船体,Polarsys极地导航系统。内置独立科考实验室、水下无人机收放舱、极地救援装备库。北欧温暖内饰风格,芬兰白桦木与冰岛羊毛织物营造极寒中的温馨居家氛围。",
     "en": "Exclusively for polar adventure lovers. Finnish Aker Arctic-grade steel ice-strengthened hull, Polarsys polar navigation system. It has a built-in independent scientific research laboratory, underwater drone retractable cabin, and polar rescue equipment warehouse. Nordic warm interior style, Finnish birch wood and Icelandic wool fabric create a warm home atmosphere in the extreme cold."
   },
   "custom.679": {
@@ -27003,7 +27003,7 @@ var dict = {
     "en": "Guests"
   },
   "custom.686": {
-    "zh": "💡 核心亮点：冰区航行A级认证 + 科考实验室 + 北欧极简暖调内饰",
+    "zh": "💡 核心亮点:冰区航行A级认证 + 科考实验室 + 北欧极简暖调内饰",
     "en": "💡 Core highlights: Class A certification for ice navigation + scientific research laboratory + Nordic minimalist warm interior"
   },
   "custom.692": {
@@ -27015,7 +27015,7 @@ var dict = {
     "en": "Flybridge 38M Business Leisure Edition"
   },
   "custom.696": {
-    "zh": "企业CEO的移动会客厅。飞桥甲板设半开放式商务洽谈区，主厅配备视频会议系统与加密通讯设备。下层甲板设4间VIP套房，每间均带独立办公角。飞桥日光浴区可转换为鸡尾酒会场地，容纳30人社交活动。",
+    "zh": "企业CEO的移动会客厅。飞桥甲板设半开放式商务洽谈区,主厅配备视频会议系统与加密通讯设备。下层甲板设4间VIP套房,每间均带独立办公角。飞桥日光浴区可转换为鸡尾酒会场地,容纳30人社交活动。",
     "en": "The mobile meeting room of corporate CEOs. There is a semi-open business negotiation area on the flybridge deck, and the main hall is equipped with a video conferencing system and encrypted communication equipment. There are 4 VIP suites on the lower deck, each with an independent office corner. The sunbathing area on the flybridge can be converted into a cocktail party space, accommodating 30 people for social events."
   },
   "custom.698": {
@@ -27043,7 +27043,7 @@ var dict = {
     "en": "Guests"
   },
   "custom.705": {
-    "zh": "💡 核心亮点：移动CEO办公室 + 加密会议系统 + 飞桥社交多功能区",
+    "zh": "💡 核心亮点:移动CEO办公室 + 加密会议系统 + 飞桥社交多功能区",
     "en": "💡 Core Highlights: Mobile CEO Office + Encrypted Conference System + Flying Bridge Social Multi-Function Area"
   },
   "custom.711": {
@@ -27055,7 +27055,7 @@ var dict = {
     "en": "Junlin 102M Family Vacation Edition"
   },
   "custom.715": {
-    "zh": "三代同堂的海上度假庄园。主层设家庭影院与儿童游戏区，上层甲板设无边际泳池与水上乐园滑梯。主人套房面积达120㎡，含独立书房与瑜伽露台。厨房配备米其林级别烹饪设备，可同时满足中西餐宴请需求。",
+    "zh": "三代同堂的海上度假庄园。主层设家庭影院与儿童游戏区,上层甲板设无边际泳池与水上乐园滑梯。主人套房面积达120m2,含独立书房与瑜伽露台。厨房配备米其林级别烹饪设备,可同时满足中西餐宴请需求。",
     "en": "A seaside resort estate for three generations. There is a home theater and children's play area on the main floor, and an infinity pool and water park slide on the upper deck. The master suite covers an area of ​​120 square meters, including an independent study room and yoga terrace. The kitchen is equipped with Michelin-level cooking equipment, which can meet the needs of both Chinese and Western banquets."
   },
   "custom.717": {
@@ -27083,8 +27083,8 @@ var dict = {
     "en": "Guests"
   },
   "custom.724": {
-    "zh": "💡 核心亮点：家庭友好设计 + 儿童水上乐园 + 米其林厨房 + 120㎡主人套房",
-    "en": "💡 Core highlights: Family-friendly design + children’s water park + Michelin kitchen + 120㎡ master suite"
+    "zh": "💡 核心亮点:家庭友好设计 + 儿童水上乐园 + 米其林厨房 + 120m2主人套房",
+    "en": "💡 Core highlights: Family-friendly design + children's water park + Michelin kitchen + 120m2 master suite"
   },
   "custom.730": {
     "zh": "Case 005 · 日间系列",
@@ -27095,7 +27095,7 @@ var dict = {
     "en": "Daytime 15M sports fishing version"
   },
   "custom.734": {
-    "zh": "海钓发烧友的梦想战艇。尾部设专业海钓平台，配备活饵舱、鱼获冷藏柜与专业钓具收纳系统。驾驶台集成鱼探雷达与海底地形图系统。侧甲板可展开为稳定浮台，深海拖钓时提供额外作业空间。",
+    "zh": "海钓发烧友的梦想战艇。尾部设专业海钓平台,配备活饵舱、鱼获冷藏柜与专业钓具收纳系统。驾驶台集成鱼探雷达与海底地形图系统。侧甲板可展开为稳定浮台,深海拖钓时提供额外作业空间。",
     "en": "A dream boat for sea fishing enthusiasts. There is a professional sea fishing platform at the tail, equipped with a live bait cabin, a fish refrigeration cabinet and a professional fishing gear storage system. The bridge integrates fish detection radar and seabed topographic map system. The side deck can be unfolded into a stable floating platform to provide additional working space when fishing in deep sea."
   },
   "custom.736": {
@@ -27119,7 +27119,7 @@ var dict = {
     "en": "Guests"
   },
   "custom.743": {
-    "zh": "💡 核心亮点：专业海钓平台 + 鱼探雷达集成 + 活饵舱与鱼获冷藏系统",
+    "zh": "💡 核心亮点:专业海钓平台 + 鱼探雷达集成 + 活饵舱与鱼获冷藏系统",
     "en": "💡 Core highlights: Professional sea fishing platform + fish detection radar integration + live bait cabin and fish refrigeration system"
   },
   "custom.749": {
@@ -27131,7 +27131,7 @@ var dict = {
     "en": "Expedition 62M Mediterranean Party Edition"
   },
   "custom.753": {
-    "zh": "社交名流的移动派对城堡。主甲板设开放式DJ台与舞池区域，飞桥甲板配置户外酒吧与烧烤区。水下灯光系统支持16色场景切换，配合B&amp;O环绕音响打造夜店级娱乐体验。侧甲板可展开为浮动观景平台，圣托里尼日落时分绝美。",
+    "zh": "社交名流的移动派对城堡。主甲板设开放式DJ台与舞池区域,飞桥甲板配置户外酒吧与烧烤区。水下灯光系统支持16色场景切换,配合B&amp;O环绕音响打造夜店级娱乐体验。侧甲板可展开为浮动观景平台,圣托里尼日落时分绝美。",
     "en": "A socialite's mobile party castle. The main deck is equipped with an open DJ booth and dance floor area, and the flybridge deck is equipped with an outdoor bar and barbecue area. The underwater lighting system supports 16-color scene switching, and works with B&O surround sound to create a nightclub-level entertainment experience. The side deck can be unfolded into a floating viewing platform, and the sunset over Santorini is stunning."
   },
   "custom.755": {
@@ -27159,7 +27159,7 @@ var dict = {
     "en": "Guests"
   },
   "custom.762": {
-    "zh": "💡 核心亮点：DJ台舞池 + B&amp;O环绕音响 + 16色水下灯光 + 浮动观景平台",
+    "zh": "💡 核心亮点:DJ台舞池 + B&amp;O环绕音响 + 16色水下灯光 + 浮动观景平台",
     "en": "💡 Core highlights: DJ stage dance floor + B&O surround sound + 16-color underwater lighting + floating viewing platform"
   },
   "custom.768": {
@@ -27171,7 +27171,7 @@ var dict = {
     "en": "Flybridge 42M Arctic Science Edition"
   },
   "custom.772": {
-    "zh": "为海洋科研机构定制。船体采用破冰加强设计，内置恒温样本实验室与数据分析工作站。甲板配备A-frame起重架用于ROV遥控潜水器收放。居住区采用模块化设计，可根据科考队员数量灵活调整舱位配置。",
+    "zh": "为海洋科研机构定制。船体采用破冰加强设计,内置恒温样本实验室与数据分析工作站。甲板配备A-frame起重架用于ROV遥控潜水器收放。居住区采用模块化设计,可根据科考队员数量灵活调整舱位配置。",
     "en": "Customized for marine scientific research institutions. The hull adopts an ice-breaking reinforced design and has a built-in constant-temperature sample laboratory and data analysis workstation. The deck is equipped with an A-frame lifting frame for the retraction and deployment of ROV remotely operated vehicles. The living area adopts a modular design, and the cabin configuration can be flexibly adjusted according to the number of scientific expedition team members."
   },
   "custom.774": {
@@ -27199,7 +27199,7 @@ var dict = {
     "en": "Guests"
   },
   "custom.781": {
-    "zh": "💡 核心亮点：破冰船体 + 恒温样本实验室 + ROV起重架 + 模块化居住区",
+    "zh": "💡 核心亮点:破冰船体 + 恒温样本实验室 + ROV起重架 + 模块化居住区",
     "en": "💡 Core highlights: icebreaking hull + constant temperature sample laboratory + ROV lifting frame + modular living area"
   },
   "custom.787": {
@@ -27211,7 +27211,7 @@ var dict = {
     "en": "JunLin 95M Caribbean Cruise Edition"
   },
   "custom.791": {
-    "zh": "专为加勒比海全年巡航设计。开放式海滩俱乐部风格后甲板，可直接跳入加勒比海的透明海水。水上玩具库包含Jet Ski、Seabob、Flyboard等全套装备。热带风情内饰以天然藤编与白色橡木为主材，营造轻松惬意的岛屿度假氛围。",
+    "zh": "专为加勒比海全年巡航设计。开放式海滩俱乐部风格后甲板,可直接跳入加勒比海的透明海水。水上玩具库包含Jet Ski、Seabob、Flyboard等全套装备。热带风情内饰以天然藤编与白色橡木为主材,营造轻松惬意的岛屿度假氛围。",
     "en": "Designed for year-round Caribbean cruising. Open beach club style rear deck for jumping directly into the crystal clear waters of the Caribbean Sea. The water toy library includes a complete set of equipment such as Jet Ski, Seabob, and Flyboard. The tropical-style interior uses natural rattan and white oak as the main materials, creating a relaxing and comfortable island vacation atmosphere."
   },
   "custom.793": {
@@ -27239,7 +27239,7 @@ var dict = {
     "en": "Guests"
   },
   "custom.800": {
-    "zh": "💡 核心亮点：海滩俱乐部后甲板 + 全套水上玩具库 + 热带藤编自然内饰",
+    "zh": "💡 核心亮点:海滩俱乐部后甲板 + 全套水上玩具库 + 热带藤编自然内饰",
     "en": "💡 Key Highlights: Beach Club Back Deck + Full Water Toy Library + Tropical Rattan Natural Interior"
   },
   "custom.806": {
@@ -27251,7 +27251,7 @@ var dict = {
     "en": "Expedition 48M Southeast Asia Island Edition"
   },
   "custom.810": {
-    "zh": "探索安达曼海与南海群岛的理想伴侣。浅吃水设计可深入热带岛屿隐秘海湾，宽大飞桥适合观赏日落与星空露营。内饰融合巴厘岛热带风情与现代简约，大量使用当地手工编织品与天然石材。配备潜水装备舱与皮划艇存放区。",
+    "zh": "探索安达曼海与南海群岛的理想伴侣。浅吃水设计可深入热带岛屿隐秘海湾,宽大飞桥适合观赏日落与星空露营。内饰融合巴厘岛热带风情与现代简约,大量使用当地手工编织品与天然石材。配备潜水装备舱与皮划艇存放区。",
     "en": "The ideal companion for exploring the Andaman Sea and South Sea Islands. The shallow draft design allows you to go deep into the hidden bays of tropical islands, and the wide flybridge is suitable for watching sunsets and camping under the stars. The interior combines Balinese tropical style with modern simplicity, using extensive use of local handwoven fabrics and natural stones. Equipped with diving gear compartment and kayak storage area."
   },
   "custom.812": {
@@ -27279,7 +27279,7 @@ var dict = {
     "en": "Guests"
   },
   "custom.819": {
-    "zh": "💡 核心亮点：浅吃水岛屿探索 + 星空露营飞桥 + 巴厘岛热带内饰 + 潜水装备舱",
+    "zh": "💡 核心亮点:浅吃水岛屿探索 + 星空露营飞桥 + 巴厘岛热带内饰 + 潜水装备舱",
     "en": "💡 Core highlights: Shallow draft island exploration + starry sky camping flybridge + Bali tropical interior + diving equipment cabin"
   },
   "custom.825": {
@@ -27291,7 +27291,7 @@ var dict = {
     "en": "Flybridge 35M Pacific Voyage Edition"
   },
   "custom.829": {
-    "zh": "跨太平洋长途巡航的专业选手。超长续航油箱设计，配备海水淡化与太阳能辅助供电系统。优化的船体线型减少波浪阻力，提升燃油效率30%。自给自足的生活系统支持连续30天海上生活无需靠港补给。",
+    "zh": "跨太平洋长途巡航的专业选手。超长续航油箱设计,配备海水淡化与太阳能辅助供电系统。优化的船体线型减少波浪阻力,提升燃油效率30%。自给自足的生活系统支持连续30天海上生活无需靠港补给。",
     "en": "Professionals on long-distance transpacific cruising. Ultra-long endurance fuel tank design, equipped with seawater desalination and solar auxiliary power supply system. The optimized hull line reduces wave resistance and improves fuel efficiency by 30%. The self-sufficient life system supports 30 consecutive days of life at sea without the need for port replenishment."
   },
   "custom.831": {
@@ -27319,7 +27319,7 @@ var dict = {
     "en": "Guests"
   },
   "custom.838": {
-    "zh": "💡 核心亮点：超长续航 + 海水淡化太阳能 + 30天自给自足 + 低阻高效船体",
+    "zh": "💡 核心亮点:超长续航 + 海水淡化太阳能 + 30天自给自足 + 低阻高效船体",
     "en": "💡 Core highlights: ultra-long endurance + solar energy for seawater desalination + 30-day self-sufficiency + low-drag and efficient hull"
   },
   "custom.849": {
@@ -27327,7 +27327,7 @@ var dict = {
     "en": "Service guarantee and delivery commitment"
   },
   "custom.852": {
-    "zh": "五大保障体系，为您的每一分投入保驾护航",
+    "zh": "五大保障体系,为您的每一分投入保驾护航",
     "en": "Five major guarantee systems to protect every bit of your investment"
   },
   "custom.857": {
@@ -27339,7 +27339,7 @@ var dict = {
     "en": "Construction period guarantee"
   },
   "custom.861": {
-    "zh": "严格按合同约定周期交付，延期赔付机制写入每份定制合同",
+    "zh": "严格按合同约定周期交付,延期赔付机制写入每份定制合同",
     "en": "Delivery in strict accordance with the contract period, and the deferred compensation mechanism is written into each customized contract"
   },
   "custom.867": {
@@ -27383,7 +27383,7 @@ var dict = {
     "en": "Start your customized journey"
   },
   "custom.905": {
-    "zh": "留下您的需求，专属定制顾问将在24小时内为您提供初步方案与报价",
+    "zh": "留下您的需求,专属定制顾问将在24小时内为您提供初步方案与报价",
     "en": "Leave your requirements and the exclusive customization consultant will provide you with a preliminary plan and quotation within 24 hours."
   },
   "custom.913": {
@@ -27407,7 +27407,7 @@ var dict = {
     "en": "Day Series 10-18M Sports Yacht"
   },
   "custom.923": {
-    "zh": "尚未确定，需要专业建议",
+    "zh": "尚未确定,需要专业建议",
     "en": "Not determined yet, need professional advice"
   },
   "custom.930": {
@@ -27415,7 +27415,7 @@ var dict = {
     "en": "Get a quote for a customized solution →"
   },
   "custom.936": {
-    "zh": "或直接拨打咨询热线：",
+    "zh": "或直接拨打咨询热线:",
     "en": "Or call the consultation hotline directly:"
   },
   "custom.937": {
@@ -27430,9 +27430,9 @@ var dict = {
     "zh": "FANTASTIC VACATION",
     "en": "FANTASTIC VACATION"
   },
-  "custom.960": { "zh": "「探索全球，不负假期」", "en": "Explore the Globe, Make Every Vacation Count" },
+  "custom.960": { "zh": "「探索全球,不负假期」", "en": "Explore the Globe, Make Every Vacation Count" },
   "custom.963": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "custom.968": {
@@ -27756,16 +27756,16 @@ var dict = {
     "en": "Contact Us"
   },
   "faq.243": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "faq.250": {
     "zh": "常见问题",
     "en": "FAQ"
   },
   "faq.252": {
-    "zh": "奇幻假期fantastic.vacation — 您的疑问，我们为您解答",
-    "en": "Fantasy vacation fantastic.vacation — Your questions, we’ll answer them for you"
+    "zh": "奇幻假期fantastic.vacation - 您的疑问,我们为您解答",
+    "en": "Fantasy vacation fantastic.vacation - Your questions, we'll answer them for you"
   },
   "faq.257": {
     "zh": "全部问题",
@@ -27788,63 +27788,63 @@ var dict = {
     "en": "Other questions"
   },
   "faq.269": {
-    "zh": "定制一艘游艇需要多长时间？",
+    "zh": "定制一艘游艇需要多长时间?",
     "en": "How long does it take to customize a yacht?"
   },
   "faq.271": {
-    "zh": "定制周期根据游艇尺寸和复杂度不同而异。一般30-45米游艇需要12-18个月，50-70米需要18-24个月，80米以上超级游艇需要24-36个月。我们会根据您的需求制定详细的项目时间表。",
+    "zh": "定制周期根据游艇尺寸和复杂度不同而异。一般30-45米游艇需要12-18个月,50-70米需要18-24个月,80米以上超级游艇需要24-36个月。我们会根据您的需求制定详细的项目时间表。",
     "en": "Customization cycles vary depending on the size and complexity of the yacht. Generally, it takes 12-18 months for a 30-45 meter yacht, 18-24 months for a 50-70 meter yacht, and 24-36 months for a super yacht over 80 meters. We will develop a detailed project timeline based on your needs."
   },
   "faq.273": {
-    "zh": "定制游艇的价格范围是多少？",
+    "zh": "定制游艇的价格范围是多少?",
     "en": "What is the price range for a custom yacht?"
   },
   "faq.275": {
-    "zh": "定制游艇价格因尺寸、配置、材料而异。30米级约1.5-3亿元人民币，50米级约3-8亿元，80米级超级游艇可达10-30亿元。我们提供市价1/10的极致性价比，同时确保高端品质。",
+    "zh": "定制游艇价格因尺寸、配置、材料而异。30米级约1.5-3亿元人民币,50米级约3-8亿元,80米级超级游艇可达10-30亿元。我们提供市价1/10的极致性价比,同时确保高端品质。",
     "en": "Custom yacht prices vary based on size, configuration, and materials. The 30-meter class is about 150-300 million yuan, the 50-meter class is about 300-800 million yuan, and the 80-meter super yacht can reach 1-3 billion yuan. We provide the ultimate cost-effectiveness at 1/10 of the market price while ensuring top quality."
   },
   "faq.277": {
-    "zh": "租赁航线最低几天起订？",
+    "zh": "租赁航线最低几天起订?",
     "en": "What is the minimum minimum order for chartering a route?"
   },
   "faq.279": {
-    "zh": "最低租赁天数为3天2夜。短途航线（3-7天）适合周末度假，中途航线（7-14天）适合深度体验，长线航线（14天以上）适合环球探险。",
+    "zh": "最低租赁天数为3天2夜。短途航线(3-7天)适合周末度假,中途航线(7-14天)适合深度体验,长线航线(14天以上)适合环球探险。",
     "en": "The minimum rental period is 3 days and 2 nights. Short-haul routes (3-7 days) are suitable for weekend getaways, medium-haul routes (7-14 days) are suitable for in-depth experiences, and long-haul routes (more than 14 days) are suitable for global adventures."
   },
   "faq.281": {
-    "zh": "租赁费用包含哪些服务？",
+    "zh": "租赁费用包含哪些服务?",
     "en": "What services are included in the rental fee?"
   },
   "faq.283": {
-    "zh": "租赁费用包含：游艇使用、专业船员团队、燃油、港口停泊费、餐饮服务、活动策划、保险。不包含：机票、岸上消费、特别定制服务。",
+    "zh": "租赁费用包含:游艇使用、专业船员团队、燃油、港口停泊费、餐饮服务、活动策划、保险。不包含:机票、岸上消费、特别定制服务。",
     "en": "The charter fee includes: use of the yacht, professional crew team, fuel, port berthing fees, catering services, event planning, and insurance. Not included: air tickets, shore consumption, special customized services."
   },
   "faq.285": {
-    "zh": "托管服务包含哪些内容？",
+    "zh": "托管服务包含哪些内容?",
     "en": "What does hosting include?"
   },
   "faq.287": {
-    "zh": "全托管服务包含：日常运营管理、船员招聘培训、定期保养维护、海事合规年检、保险理赔协助、财务报表管理、资产保值规划。",
+    "zh": "全托管服务包含:日常运营管理、船员招聘培训、定期保养维护、海事合规年检、保险理赔协助、财务报表管理、资产保值规划。",
     "en": "Fully managed services include: daily operation management, crew recruitment and training, regular maintenance, annual maritime compliance inspection, insurance claims assistance, financial statement management, and asset preservation planning."
   },
   "faq.289": {
-    "zh": "托管费用如何计算？",
+    "zh": "托管费用如何计算?",
     "en": "How are hosting fees calculated?"
   },
   "faq.291": {
-    "zh": "托管费用根据游艇尺寸和服务等级计算。基础托管约年费用的8-10%，全托管约15-20%，至尊托管约25-30%。具体费用请咨询客服。",
+    "zh": "托管费用根据游艇尺寸和服务等级计算。基础托管约年费用的8-10%,全托管约15-20%,至尊托管约25-30%。具体费用请咨询客服。",
     "en": "Hosting fees are calculated based on yacht size and service level. Basic custody is about 8-10% of the annual fee, full custody is about 15-20%, and supreme custody is about 25-30%. Please consult customer service for specific fees."
   },
   "faq.293": {
-    "zh": "如何保障海上安全？",
+    "zh": "如何保障海上安全?",
     "en": "How to ensure maritime safety?"
   },
   "faq.295": {
-    "zh": "所有游艇配备国际认证安全设备，船员均持国际海事证书，全程配备医疗团队。近5年零安全事故记录，并购买全球高端保险。",
+    "zh": "所有游艇配备国际认证安全设备,船员均持国际海事证书,全程配备医疗团队。近5年零安全事故记录,并购买全球高端保险。",
     "en": "All yachts are equipped with internationally certified safety equipment, the crew members all hold international maritime certificates, and a medical team is provided throughout the journey. It has zero safety accident record in the past five years and has purchased the world's top insurance."
   },
   "faq.297": {
-    "zh": "如何预约咨询服务？",
+    "zh": "如何预约咨询服务?",
     "en": "How to make an appointment for consultation services?"
   },
   "faq.316": {
@@ -27856,11 +27856,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "faq.322": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "faq.325": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "faq.330": {
@@ -28012,11 +28012,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "footer-template.19": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "footer-template.22": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "footer-template.27": {
@@ -28304,16 +28304,16 @@ var dict = {
     "en": "Contact Us"
   },
   "honors.243": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "honors.250": {
     "zh": "荣誉资质",
     "en": "Honors & Certifications"
   },
   "honors.252": {
-    "zh": "奇幻假期fantastic.vacation — 用专业与诚信，赢得行业与客户的认可",
-    "en": "fantasy vacation fantastic.vacation — Use professionalism and integrity to win recognition from the industry and customers"
+    "zh": "奇幻假期fantastic.vacation - 用专业与诚信,赢得行业与客户的认可",
+    "en": "fantasy vacation fantastic.vacation - Use professionalism and integrity to win recognition from the industry and customers"
   },
   "honors.258": {
     "zh": "亚洲最佳游艇服务商",
@@ -28428,11 +28428,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "honors.324": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "honors.327": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "honors.332": {
@@ -28692,11 +28692,11 @@ var dict = {
     "en": "2026.04.08"
   },
   "index.768": {
-    "zh": "我们不制造游艇，我们编织海洋梦想。",
-    "en": "We don’t build yachts, we weave ocean dreams."
+    "zh": "我们不制造游艇,我们编织海洋梦想。",
+    "en": "We don't build yachts, we weave ocean dreams."
   },
   "index.769": {
-    "zh": "每一艘出自奇幻假期的作品，都是对极致生活方式的重新定义。",
+    "zh": "每一艘出自奇幻假期的作品,都是对极致生活方式的重新定义。",
     "en": "Every creation from Fantasy Vacation is a redefinition of the ultimate lifestyle."
   },
   "index.777": {
@@ -28704,7 +28704,7 @@ var dict = {
     "en": "Get ready to start your"
   },
   "index.814": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "index.850": {
@@ -28772,7 +28772,7 @@ var dict = {
     "en": "Company Profile and Brand Investment Value"
   },
   "ir-about.158": {
-    "zh": "深耕高端游艇市场，塑造行业标杆",
+    "zh": "深耕高端游艇市场,塑造行业标杆",
     "en": "Deeply explore the high-end yacht market and set industry leaders"
   },
   "ir-about.163": {
@@ -28784,7 +28784,7 @@ var dict = {
     "en": "2026"
   },
   "ir-about.167": {
-    "zh": "亚太总部成立，全球服务网络扩展至50+港口",
+    "zh": "亚太总部成立,全球服务网络扩展至50+港口",
     "en": "The Asia-Pacific headquarters was established and the global service network expanded to 50+ ports."
   },
   "ir-about.169": {
@@ -28792,7 +28792,7 @@ var dict = {
     "en": "2025"
   },
   "ir-about.170": {
-    "zh": "B轮融资2.5亿元，估值超20亿",
+    "zh": "B轮融资2.5亿元,估值超20亿",
     "en": "Series B financing of 250 million yuan, with a valuation of over 2 billion"
   },
   "ir-about.172": {
@@ -28800,7 +28800,7 @@ var dict = {
     "en": "2024"
   },
   "ir-about.173": {
-    "zh": "A轮融资1.2亿元，与Feadship达成技术合作",
+    "zh": "A轮融资1.2亿元,与Feadship达成技术合作",
     "en": "Series A financing of 120 million yuan, reaching technical cooperation with Feadship"
   },
   "ir-about.175": {
@@ -28808,7 +28808,7 @@ var dict = {
     "en": "2023"
   },
   "ir-about.176": {
-    "zh": "奇幻假期实业有限公司成立，总部设于上海",
+    "zh": "奇幻假期实业有限公司成立,总部设于上海",
     "en": "Fantasy Holiday Industrial Co., Ltd. was established, headquartered in Shanghai"
   },
   "ir-about.193": {
@@ -28820,11 +28820,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "ir-about.199": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "ir-about.202": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "ir-about.207": {
@@ -29044,11 +29044,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "ir-announcements.203": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "ir-announcements.206": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "ir-announcements.211": {
@@ -29256,11 +29256,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "ir-contact.193": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "ir-contact.196": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "ir-contact.201": {
@@ -29536,11 +29536,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "ir-data.212": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "ir-data.215": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "ir-data.220": {
@@ -29741,7 +29741,7 @@ var dict = {
   },
   "ir-disclosure.173": {
     "zh": "股东大会议事规则",
-    "en": "Rules of Procedure for Shareholders’ Meeting"
+    "en": "Rules of Procedure for Shareholders' Meeting"
   },
   "ir-disclosure.175": {
     "zh": "董事会议事规则",
@@ -29756,11 +29756,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "ir-disclosure.199": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "ir-disclosure.202": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "ir-disclosure.207": {
@@ -29952,7 +29952,7 @@ var dict = {
     "en": "environment"
   },
   "ir-esg.167": {
-    "zh": "采用环保复合材料建造游艇，推广混合动力系统，目标2030年碳排放降低50%。",
+    "zh": "采用环保复合材料建造游艇,推广混合动力系统,目标2030年碳排放降低50%。",
     "en": "Use environmentally friendly composite materials to build yachts, promote hybrid power systems, and aim to reduce carbon emissions by 50% in 2030."
   },
   "ir-esg.171": {
@@ -29960,7 +29960,7 @@ var dict = {
     "en": "society"
   },
   "ir-esg.173": {
-    "zh": "员工培训体系完善，船员职业发展通道畅通，志愿服务覆盖沿海社区。",
+    "zh": "员工培训体系完善,船员职业发展通道畅通,志愿服务覆盖沿海社区。",
     "en": "The employee training system is complete, the career development channels for crew members are smooth, and volunteer services cover coastal communities."
   },
   "ir-esg.177": {
@@ -29968,7 +29968,7 @@ var dict = {
     "en": "governance"
   },
   "ir-esg.179": {
-    "zh": "独立董事占董事会1/3，审计委员会全面监督，建立完善的合规体系。",
+    "zh": "独立董事占董事会1/3,审计委员会全面监督,建立完善的合规体系。",
     "en": "Independent directors account for 1/3 of the board of directors. The audit committee provides comprehensive supervision and establishes a complete compliance system."
   },
   "ir-esg.197": {
@@ -29980,11 +29980,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "ir-esg.203": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "ir-esg.206": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "ir-esg.211": {
@@ -30204,11 +30204,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "ir-events.201": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "ir-events.204": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "ir-events.209": {
@@ -30396,19 +30396,19 @@ var dict = {
     "en": "FAQ"
   },
   "ir-faq.165": {
-    "zh": "公司的分红政策是什么？",
+    "zh": "公司的分红政策是什么?",
     "en": "What is the company's dividend policy?"
   },
   "ir-faq.167": {
-    "zh": "公司目前处于高速成长期，将优先将利润用于业务扩张，计划在实现稳定盈利后逐步提高分红比例。",
+    "zh": "公司目前处于高速成长期,将优先将利润用于业务扩张,计划在实现稳定盈利后逐步提高分红比例。",
     "en": "The company is currently in a period of rapid growth and will give priority to using profits for business expansion. It plans to gradually increase the dividend ratio after achieving stable profitability."
   },
   "ir-faq.171": {
-    "zh": "如何参加股东大会？",
+    "zh": "如何参加股东大会?",
     "en": "How to attend the shareholders' meeting?"
   },
   "ir-faq.173": {
-    "zh": "股东可通过现场或线上方式参加年度股东大会，具体参会方式将在会议公告中详细说明。",
+    "zh": "股东可通过现场或线上方式参加年度股东大会,具体参会方式将在会议公告中详细说明。",
     "en": "Shareholders can participate in the annual general meeting of shareholders on-site or online. The specific participation methods will be detailed in the meeting announcement."
   },
   "ir-faq.191": {
@@ -30420,11 +30420,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "ir-faq.197": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "ir-faq.200": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "ir-faq.205": {
@@ -30656,11 +30656,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "ir-financial.206": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "ir-financial.209": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "ir-financial.214": {
@@ -30892,11 +30892,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "ir-governance.199": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "ir-governance.202": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "ir-governance.207": {
@@ -31088,7 +31088,7 @@ var dict = {
     "en": "Caixin | 2026-05-10"
   },
   "ir-media.167": {
-    "zh": "中国高端游艇市场崛起：奇幻假期如何抓住消费升级机遇",
+    "zh": "中国高端游艇市场崛起:奇幻假期如何抓住消费升级机遇",
     "en": "The rise of China's high-end yacht market: How fantasy vacations can seize the opportunity of consumption upgrade"
   },
   "ir-media.169": {
@@ -31112,11 +31112,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "ir-media.201": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "ir-media.204": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "ir-media.209": {
@@ -31336,11 +31336,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "ir-presentations.201": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "ir-presentations.204": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "ir-presentations.209": {
@@ -31532,7 +31532,7 @@ var dict = {
     "en": "Shareholders' equity"
   },
   "ir-shareholder.167": {
-    "zh": "股东依法享有资产收益权、参与重大决策权、选择管理者权等合法权益。公司保障股东知情权，通过定期报告、公告等方式确保信息透明。",
+    "zh": "股东依法享有资产收益权、参与重大决策权、选择管理者权等合法权益。公司保障股东知情权,通过定期报告、公告等方式确保信息透明。",
     "en": "Shareholders enjoy legitimate rights and interests such as the right to income from assets, the right to participate in major decision-making, and the right to choose managers in accordance with the law. The company protects shareholders' right to know and ensures information transparency through regular reports and announcements."
   },
   "ir-shareholder.171": {
@@ -31548,11 +31548,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "ir-shareholder.197": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "ir-shareholder.200": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "ir-shareholder.205": {
@@ -31748,7 +31748,7 @@ var dict = {
     "en": "Founder and CEO"
   },
   "ir-team.169": {
-    "zh": "深耕奢侈品行业15年，曾任职于LVMH集团游艇事业部。2023年创立奇幻假期，致力于为中国高端客群打造世界级游艇服务体验。",
+    "zh": "深耕奢侈品行业15年,曾任职于LVMH集团游艇事业部。2023年创立奇幻假期,致力于为中国高端客群打造世界级游艇服务体验。",
     "en": "He has been deeply involved in the luxury goods industry for 15 years and once worked in the yacht division of LVMH Group. Fantasy Vacations was founded in 2023 and is committed to creating a world-class yacht service experience for China's high-end customer base."
   },
   "ir-team.173": {
@@ -31760,7 +31760,7 @@ var dict = {
     "en": "CFO"
   },
   "ir-team.177": {
-    "zh": "前摩根士丹利投资银行部董事，负责主导公司A、B轮融资，主导完成累计超3亿元融资。",
+    "zh": "前摩根士丹利投资银行部董事,负责主导公司A、B轮融资,主导完成累计超3亿元融资。",
     "en": "Former director of Morgan Stanley's investment banking department, he was responsible for leading the company's A and B rounds of financing, and led the completion of a total of more than 300 million yuan in financing."
   },
   "ir-team.195": {
@@ -31772,11 +31772,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "ir-team.201": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "ir-team.204": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "ir-team.209": {
@@ -31996,11 +31996,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "ir-value.209": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "ir-value.212": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "ir-value.217": {
@@ -32256,11 +32256,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "ir.223": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "ir.226": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "ir.231": {
@@ -32404,8 +32404,8 @@ var dict = {
     "en": "Site Map"
   },
   "management.6": {
-    "zh": "托管维保 | 奇幻假期 fantastic.vacation — 高端私人游艇全托管一站式服务",
-    "en": "Managed maintenance | Fantasy vacation fantastic.vacation — One-stop service for full managed high-end private yachts"
+    "zh": "托管维保 | 奇幻假期 fantastic.vacation - 高端私人游艇全托管一站式服务",
+    "en": "Managed maintenance | Fantasy vacation fantastic.vacation - One-stop service for full managed high-end private yachts"
   },
   "management.17": {
     "zh": "FANTASTIC VACATION",
@@ -32552,8 +32552,8 @@ var dict = {
     "en": "Contact Us"
   },
   "management.253": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "management.264": {
     "zh": "奇幻假期实业有限公司",
@@ -32588,7 +32588,7 @@ var dict = {
     "en": "Core service module"
   },
   "management.294": {
-    "zh": "六大维度覆盖游艇资产管理全生命周期，一站式解决所有运营难题",
+    "zh": "六大维度覆盖游艇资产管理全生命周期,一站式解决所有运营难题",
     "en": "Six dimensions cover the entire life cycle of yacht asset management, solving all operational problems in one stop"
   },
   "management.306": {
@@ -32596,7 +32596,7 @@ var dict = {
     "en": "Daily operations management"
   },
   "management.308": {
-    "zh": "全方位接管游艇日常运营事务，从船员调度到财务核算，让您真正实现「拥有但不操心」的轻奢生活方式。",
+    "zh": "全方位接管游艇日常运营事务,从船员调度到财务核算,让您真正实现「拥有但不操心」的轻奢生活方式。",
     "en": "Take over the daily operations of the yacht in all aspects, from crew scheduling to financial accounting, allowing you to truly realize the light and luxurious lifestyle of \"owning but not worrying about\"."
   },
   "management.311": {
@@ -32624,7 +32624,7 @@ var dict = {
     "en": "Regular maintenance"
   },
   "management.333": {
-    "zh": "基于每艘游艇的材质、航区和使用频率，定制科学严谨的预防性维护计划，将故障消灭在萌芽状态。",
+    "zh": "基于每艘游艇的材质、航区和使用频率,定制科学严谨的预防性维护计划,将故障消灭在萌芽状态。",
     "en": "Based on the material, sailing area and frequency of use of each yacht, a scientific and rigorous preventive maintenance plan is customized to nip failures in the bud."
   },
   "management.336": {
@@ -32656,7 +32656,7 @@ var dict = {
     "en": "Professional maintenance services"
   },
   "management.358": {
-    "zh": "配备资深轮机工程师团队，提供从紧急抢修到系统性大修的全谱系维修能力，确保最短停航时间。",
+    "zh": "配备资深轮机工程师团队,提供从紧急抢修到系统性大修的全谱系维修能力,确保最短停航时间。",
     "en": "Equipped with a team of senior marine engineers, it provides full spectrum maintenance capabilities from emergency repairs to systematic overhauls to ensure the shortest downtime."
   },
   "management.361": {
@@ -32684,7 +32684,7 @@ var dict = {
     "en": "Maritime Compliance Agency"
   },
   "management.383": {
-    "zh": "精通国际海事法规体系（SOLAS/MLC/ISPS），为您提供从船级社检验到证书续期的全套合规解决方案。",
+    "zh": "精通国际海事法规体系(SOLAS/MLC/ISPS),为您提供从船级社检验到证书续期的全套合规解决方案。",
     "en": "Proficient in the international maritime regulatory system (SOLAS/MLC/ISPS), we provide you with a complete set of compliance solutions from classification society inspections to certificate renewals."
   },
   "management.386": {
@@ -32716,7 +32716,7 @@ var dict = {
     "en": "Insurance claims assistance"
   },
   "management.408": {
-    "zh": "与全球高端H&amp;M保险公司及P&amp;I俱乐部建立战略合作，为您构建完整的风险保障与快速理赔通道。",
+    "zh": "与全球高端H&amp;M保险公司及P&amp;I俱乐部建立战略合作,为您构建完整的风险保障与快速理赔通道。",
     "en": "Establish strategic cooperation with the world's top H&M insurance company and P&I club to build a complete risk protection and fast claims settlement channel for you."
   },
   "management.411": {
@@ -32744,7 +32744,7 @@ var dict = {
     "en": "Asset preservation planning"
   },
   "management.433": {
-    "zh": "依托深厚的行业数据积累和市场洞察力，为您的游艇资产提供从价值评估到传承规划的长期财富管理建议。",
+    "zh": "依托深厚的行业数据积累和市场洞察力,为您的游艇资产提供从价值评估到传承规划的长期财富管理建议。",
     "en": "Relying on profound industry data accumulation and market insights, we provide long-term wealth management advice from value evaluation to inheritance planning for your yacht assets."
   },
   "management.436": {
@@ -32772,7 +32772,7 @@ var dict = {
     "en": "Hosting service process"
   },
   "management.459": {
-    "zh": "六步标准化流程，从签约到交付，全程透明可控",
+    "zh": "六步标准化流程,从签约到交付,全程透明可控",
     "en": "Six-step standardized process, from signing to delivery, the entire process is transparent and controllable"
   },
   "management.465": {
@@ -32784,7 +32784,7 @@ var dict = {
     "en": "Asset Assessment and Needs Analysis"
   },
   "management.469": {
-    "zh": "全面勘察游艇现状，包括船龄、设备状况、证书有效期、历史维修记录等，结合船东使用偏好制定个性化托管方案。",
+    "zh": "全面勘察游艇现状,包括船龄、设备状况、证书有效期、历史维修记录等,结合船东使用偏好制定个性化托管方案。",
     "en": "Comprehensively survey the current status of the yacht, including the age of the vessel, equipment condition, certificate validity period, historical maintenance records, etc., and develop a personalized custody plan based on the owner's preferences."
   },
   "management.473": {
@@ -32796,7 +32796,7 @@ var dict = {
     "en": "Customized hosting plan design"
   },
   "management.477": {
-    "zh": "根据评估结果，量身定制包含人员配置、维护计划、预算分配、航线规划的完整托管方案，明确服务范围与KPI指标。",
+    "zh": "根据评估结果,量身定制包含人员配置、维护计划、预算分配、航线规划的完整托管方案,明确服务范围与KPI指标。",
     "en": "Based on the evaluation results, a complete hosting plan including staffing, maintenance plans, budget allocation, and route planning will be tailored to clarify the service scope and KPI indicators."
   },
   "management.481": {
@@ -32808,8 +32808,8 @@ var dict = {
     "en": "Professional team settled in and handed over"
   },
   "management.485": {
-    "zh": "派遣持证船长、轮机长及服务团队完成全面交接，建立数字化档案管理系统，开通船东专属APP实时监控端口。",
-    "en": "The certified captain, chief engineer and service team were dispatched to complete the comprehensive handover, a digital file management system was established, and the shipowner’s exclusive APP real-time monitoring port was opened."
+    "zh": "派遣持证船长、轮机长及服务团队完成全面交接,建立数字化档案管理系统,开通船东专属APP实时监控端口。",
+    "en": "The certified captain, chief engineer and service team were dispatched to complete the comprehensive handover, a digital file management system was established, and the shipowner's exclusive APP real-time monitoring port was opened."
   },
   "management.489": {
     "zh": "04",
@@ -32820,7 +32820,7 @@ var dict = {
     "en": "Normal operation and maintenance execution"
   },
   "management.493": {
-    "zh": "按计划执行日常运营调度、定期巡检保养、月度财务报告、季度安全审计，所有关键节点均需船东确认后推进。",
+    "zh": "按计划执行日常运营调度、定期巡检保养、月度财务报告、季度安全审计,所有关键节点均需船东确认后推进。",
     "en": "Daily operation schedules, regular inspections and maintenance, monthly financial reports, and quarterly safety audits are carried out as planned. All key nodes need to be confirmed by the shipowner before proceeding."
   },
   "management.498": {
@@ -32832,7 +32832,7 @@ var dict = {
     "en": "Annual Comprehensive Assessment Report"
   },
   "management.502": {
-    "zh": "每年出具详尽的《游艇资产健康报告》，含技术状态评级、市场估值变化、下一年度优化建议及预算规划。",
+    "zh": "每年出具详尽的《游艇资产健康报告》,含技术状态评级、市场估值变化、下一年度优化建议及预算规划。",
     "en": "A detailed \"Yacht Asset Health Report\" is issued every year, including technical status ratings, market valuation changes, optimization suggestions and budget planning for the next year."
   },
   "management.506": {
@@ -32844,7 +32844,7 @@ var dict = {
     "en": "Continuous optimization and value-added services"
   },
   "management.510": {
-    "zh": "根据使用数据和行业趋势，主动提出改装升级、航线拓展、共享租赁等增值方案，助力资产持续升值。",
+    "zh": "根据使用数据和行业趋势,主动提出改装升级、航线拓展、共享租赁等增值方案,助力资产持续升值。",
     "en": "Based on usage data and industry trends, we proactively propose value-added solutions such as modifications and upgrades, route expansion, and shared leasing to help the assets continue to appreciate."
   },
   "management.521": {
@@ -32852,7 +32852,7 @@ var dict = {
     "en": "Hosting service package"
   },
   "management.523": {
-    "zh": "三档灵活方案，满足不同规模与需求的船东选择",
+    "zh": "三档灵活方案,满足不同规模与需求的船东选择",
     "en": "Three levels of flexible solutions to meet the needs of shipowners of different sizes and needs"
   },
   "management.531": {
@@ -32868,7 +32868,7 @@ var dict = {
     "en": "/Yearfrom"
   },
   "management.539": {
-    "zh": "起价，具体视船型而定",
+    "zh": "起价,具体视船型而定",
     "en": "Starting price, depending on ship type"
   },
   "management.542": {
@@ -32916,7 +32916,7 @@ var dict = {
     "en": "/Yearfrom"
   },
   "management.571": {
-    "zh": "起价，具体视船型而定",
+    "zh": "起价,具体视船型而定",
     "en": "Starting price, depending on ship type"
   },
   "management.574": {
@@ -32968,7 +32968,7 @@ var dict = {
     "en": "/Yearfrom"
   },
   "management.605": {
-    "zh": "起价，具体视船型而定",
+    "zh": "起价,具体视船型而定",
     "en": "Starting price, depending on ship type"
   },
   "management.608": {
@@ -33012,7 +33012,7 @@ var dict = {
     "en": "Why Choose Fantasy Vacations"
   },
   "management.638": {
-    "zh": "四大核心优势，定义行业标准",
+    "zh": "四大核心优势,定义行业标准",
     "en": "Four core advantages, defining industry standards"
   },
   "management.646": {
@@ -33020,7 +33020,7 @@ var dict = {
     "en": "Elite professional team"
   },
   "management.648": {
-    "zh": "持证船长、注册轮机工程师、海事法律顾问、保险精算师组成的复合型专家团队，平均从业经验超过12年。",
+    "zh": "持证船长、注册轮机工程师、海事法律顾问、保险精算师组成的复合型专家团队,平均从业经验超过12年。",
     "en": "A comprehensive expert team composed of certified captains, registered marine engineers, maritime legal advisors, and actuaries, with an average of more than 12 years of experience."
   },
   "management.654": {
@@ -33028,7 +33028,7 @@ var dict = {
     "en": "Intelligent digital management"
   },
   "management.656": {
-    "zh": "自主研发船东专属APP，实时查看游艇位置、航行轨迹、设备状态、财务报表，一切尽在掌握。",
+    "zh": "自主研发船东专属APP,实时查看游艇位置、航行轨迹、设备状态、财务报表,一切尽在掌握。",
     "en": "Independently developed an exclusive APP for shipowners to check the yacht's location, navigation trajectory, equipment status, and financial statements in real time, and have everything under control."
   },
   "management.662": {
@@ -33036,7 +33036,7 @@ var dict = {
     "en": "Global service network"
   },
   "management.664": {
-    "zh": "在亚太、地中海、加勒比海三大核心区域设有服务基地，覆盖全球30+主要游艇停靠港。",
+    "zh": "在亚太、地中海、加勒比海三大核心区域设有服务基地,覆盖全球30+主要游艇停靠港。",
     "en": "It has service bases in the three core areas of Asia-Pacific, Mediterranean and Caribbean, covering more than 30 major yacht calling ports around the world."
   },
   "management.670": {
@@ -33044,7 +33044,7 @@ var dict = {
     "en": "cost optimization capability"
   },
   "management.672": {
-    "zh": "依托集团级采购议价能力和精细化运营管理，帮助船东平均降低15%-20%的年度持有成本。",
+    "zh": "依托集团级采购议价能力和精细化运营管理,帮助船东平均降低15%-20%的年度持有成本。",
     "en": "Relying on group-level procurement bargaining power and refined operation management, it helps shipowners reduce annual holding costs by 15%-20% on average."
   },
   "management.683": {
@@ -33052,7 +33052,7 @@ var dict = {
     "en": "Qualification certification and service guarantee"
   },
   "management.685": {
-    "zh": "权威认证背书，多重保障护航",
+    "zh": "权威认证背书,多重保障护航",
     "en": "Authoritative certification and endorsement, multiple guarantees and escorts"
   },
   "management.693": {
@@ -33060,7 +33060,7 @@ var dict = {
     "en": "ISO 9001 certification"
   },
   "management.695": {
-    "zh": "通过国际质量管理体系认证，服务流程标准化、可追溯",
+    "zh": "通过国际质量管理体系认证,服务流程标准化、可追溯",
     "en": "Passed international quality management system certification, service process is standardized and traceable"
   },
   "management.699": {
@@ -33080,7 +33080,7 @@ var dict = {
     "en": "Full liability insurance"
   },
   "management.711": {
-    "zh": "每艘托管游艇均投保足额职业责任险，最高赔付额达亿元级别",
+    "zh": "每艘托管游艇均投保足额职业责任险,最高赔付额达亿元级别",
     "en": "Each managed yacht is insured with full professional liability insurance, with the maximum compensation amount reaching 100 million yuan."
   },
   "management.717": {
@@ -33088,7 +33088,7 @@ var dict = {
     "en": "SLA service commitment"
   },
   "management.719": {
-    "zh": "签订正式SLA协议，承诺响应时效与服务质量，违约即赔偿",
+    "zh": "签订正式SLA协议,承诺响应时效与服务质量,违约即赔偿",
     "en": "Sign a formal SLA agreement, promising response time and service quality, and compensation for breach of contract"
   },
   "management.729": {
@@ -33096,7 +33096,7 @@ var dict = {
     "en": "Keep your yacht in peak condition"
   },
   "management.731": {
-    "zh": "立即联系我们的专业顾问，获取免费资产评估与定制化托管方案",
+    "zh": "立即联系我们的专业顾问,获取免费资产评估与定制化托管方案",
     "en": "Contact our professional consultants now to get free asset evaluation and customized custody solutions"
   },
   "management.754": {
@@ -33108,11 +33108,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "management.760": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "management.763": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "management.768": {
@@ -33400,16 +33400,16 @@ var dict = {
     "en": "Contact Us"
   },
   "map.243": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "map.250": {
     "zh": "全球服务网络",
     "en": "Global service network"
   },
   "map.252": {
-    "zh": "奇幻假期fantastic.vacation — 服务全球20+海域，50+港口，您在哪里，我们就在哪里",
-    "en": "Fantasy vacation fantastic.vacation — Serving 20+ sea areas and 50+ ports around the world, we are where you are"
+    "zh": "奇幻假期fantastic.vacation - 服务全球20+海域,50+港口,您在哪里,我们就在哪里",
+    "en": "Fantasy vacation fantastic.vacation - Serving 20+ sea areas and 50+ ports around the world, we are where you are"
   },
   "map.257": {
     "zh": "20+",
@@ -33648,11 +33648,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "map.353": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "map.356": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "map.361": {
@@ -33972,8 +33972,8 @@ var dict = {
     "en": "Contact Us"
   },
   "news-001.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "news-001.256": {
     "zh": "2026.05.15",
@@ -33992,7 +33992,7 @@ var dict = {
     "en": "← Return to news list"
   },
   "news-001.267": {
-    "zh": "2026年5月15日，新加坡——在备受瞩目的亚洲游艇产业盛典颁奖典礼上，奇幻假期（fantastic.vacation）荣获2026年度亚洲最佳游艇服务商大奖。这一殊荣是对奇幻假期过去一年在游艇定制、租赁、托管维保等领域卓越表现的最高认可。颁奖典礼现场，奇幻假期亚太区总裁王潇生先生代表品牌领奖并发表感言。他表示：这一荣誉属于每一位奇幻假期团队成员，也属于所有信任和支持我们的客户。我们将继续秉持客户至上、追求卓越的理念，为全球游艇爱好者提供更优质的服务体验。",
+    "zh": "2026年5月15日,新加坡--在备受瞩目的亚洲游艇产业盛典颁奖典礼上,奇幻假期(fantastic.vacation)荣获2026年度亚洲最佳游艇服务商大奖。这一殊荣是对奇幻假期过去一年在游艇定制、租赁、托管维保等领域卓越表现的最高认可。颁奖典礼现场,奇幻假期亚太区总裁王潇生先生代表品牌领奖并发表感言。他表示:这一荣誉属于每一位奇幻假期团队成员,也属于所有信任和支持我们的客户。我们将继续秉持客户至上、追求卓越的理念,为全球游艇爱好者提供更优质的服务体验。",
     "en": "May 15, 2026, Singapore - At the high-profile Asian Yachting Industry Awards Ceremony, fantasy vacation (fantastic.vacation) won the 2026 Asia's Best Yachting Service Provider Award. This award is the highest recognition of Fantasy Vacation's outstanding performance in the fields of yacht customization, rental, hosting and maintenance over the past year. At the award ceremony, Mr. Chen Hanyu, President of Fantasy Vacations Asia Pacific, accepted the award on behalf of the brand and delivered a speech. He said: This honor belongs to every Fantasy Vacations team member and to all customers who trust and support us. We will continue to uphold the philosophy of putting customers first and pursuing excellence to provide a better service experience for yachting enthusiasts around the world."
   },
   "news-001.285": {
@@ -34004,11 +34004,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "news-001.291": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "news-001.294": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "news-001.299": {
@@ -34152,7 +34152,7 @@ var dict = {
     "en": "Site Map"
   },
   "news-002.6": {
-    "zh": "奇幻假期宣布进军亚太市场，香港运营中心正式启用 | 奇幻假期 fantastic.vacation",
+    "zh": "奇幻假期宣布进军亚太市场,香港运营中心正式启用 | 奇幻假期 fantastic.vacation",
     "en": "Fantasy Vacation announced its entry into the Asia-Pacific market, and the Hong Kong operation center was officially opened | Fantasy Vacation fantastic.vacation"
   },
   "news-002.15": {
@@ -34296,8 +34296,8 @@ var dict = {
     "en": "Contact Us"
   },
   "news-002.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "news-002.256": {
     "zh": "2026.05.10",
@@ -34308,7 +34308,7 @@ var dict = {
     "en": "Brand news"
   },
   "news-002.261": {
-    "zh": "奇幻假期宣布进军亚太市场，香港运营中心正式启用",
+    "zh": "奇幻假期宣布进军亚太市场,香港运营中心正式启用",
     "en": "Fantasy Holidays announced its entry into the Asia-Pacific market, and the Hong Kong operation center was officially opened"
   },
   "news-002.264": {
@@ -34316,7 +34316,7 @@ var dict = {
     "en": "← Return to news list"
   },
   "news-002.267": {
-    "zh": "香港，2026年5月10日——奇幻假期（fantastic.vacation）今日宣布其位于香港中环的亚太区运营中心正式启用。这一战略举措标志着品牌全球化布局迈入全新阶段。新运营中心选址于香港金融核心区域，办公面积超过1500平方米，设有游艇展示厅、VIP客户接待区、设计工作室及全数字化运营指挥中心。中心将统筹协调亚太地区所有业务板块，包括游艇销售、定制服务、租赁航线及托管维保。",
+    "zh": "香港,2026年5月10日--奇幻假期(fantastic.vacation)今日宣布其位于香港中环的亚太区运营中心正式启用。这一战略举措标志着品牌全球化布局迈入全新阶段。新运营中心选址于香港金融核心区域,办公面积超过1500平方米,设有游艇展示厅、VIP客户接待区、设计工作室及全数字化运营指挥中心。中心将统筹协调亚太地区所有业务板块,包括游艇销售、定制服务、租赁航线及托管维保。",
     "en": "Hong Kong, May 10, 2026 - Fantasy Vacation (fantastic.vacation) today announced the official opening of its Asia Pacific operations center in Central, Hong Kong. This strategic move marks a new stage in the brand's global layout. The new operation center is located in the core financial area of ​​Hong Kong, with an office area of ​​more than 1,500 square meters and equipped with a yacht showroom, VIP customer reception area, design studio and fully digital operation command center. The center will coordinate all business sectors in the Asia-Pacific region, including yacht sales, customization services, charter routes, and custody and maintenance."
   },
   "news-002.285": {
@@ -34328,11 +34328,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "news-002.291": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "news-002.294": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "news-002.299": {
@@ -34476,7 +34476,7 @@ var dict = {
     "en": "Site Map"
   },
   "news-003.6": {
-    "zh": "摩纳哥游艇展2026：超级游艇订单创历史新高 | 奇幻假期 fantastic.vacation",
+    "zh": "摩纳哥游艇展2026:超级游艇订单创历史新高 | 奇幻假期 fantastic.vacation",
     "en": "Monaco Yacht Show 2026: Superyacht orders hit record high | fantastic vacation fantastic.vacation"
   },
   "news-003.15": {
@@ -34620,8 +34620,8 @@ var dict = {
     "en": "Contact Us"
   },
   "news-003.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "news-003.256": {
     "zh": "2026.04.28",
@@ -34632,7 +34632,7 @@ var dict = {
     "en": "Industry trends"
   },
   "news-003.261": {
-    "zh": "摩纳哥游艇展2026：超级游艇订单创历史新高",
+    "zh": "摩纳哥游艇展2026:超级游艇订单创历史新高",
     "en": "Monaco Yacht Show 2026: Superyacht orders hit record high"
   },
   "news-003.264": {
@@ -34640,7 +34640,7 @@ var dict = {
     "en": "← Return to news list"
   },
   "news-003.267": {
-    "zh": "摩纳哥，2026年4月28日——为期四天的第33届摩纳哥游艇展于昨日圆满落幕。据组委会官方数据显示，本届展会共吸引来自全球45个国家的580家参展商，接待专业观众超过33,000人次，期间签约超级游艇订单总额突破35亿欧元，创下游艇展历史新高。奇幻假期作为中国核心受邀参展商，携最新设计的君临88M东方美学版概念船型亮相展会。",
+    "zh": "摩纳哥,2026年4月28日--为期四天的第33届摩纳哥游艇展于昨日圆满落幕。据组委会官方数据显示,本届展会共吸引来自全球45个国家的580家参展商,接待专业观众超过33,000人次,期间签约超级游艇订单总额突破35亿欧元,创下游艇展历史新高。奇幻假期作为中国核心受邀参展商,携最新设计的君临88M东方美学版概念船型亮相展会。",
     "en": "Monaco, April 28, 2026 - The four-day 33rd Monaco Yacht Show concluded successfully yesterday. According to official data from the organizing committee, this exhibition attracted a total of 580 exhibitors from 45 countries around the world and received more than 33,000 professional visitors. During the period, the total number of superyacht orders signed exceeded 3.5 billion euros, setting a record high in the history of the boat show. Fantasy Holidays, as among the leading invited exhibitor from China, debuted at the exhibition with the latest designed Junlin 88M Oriental Aesthetic Edition concept ship."
   },
   "news-003.285": {
@@ -34652,11 +34652,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "news-003.291": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "news-003.294": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "news-003.299": {
@@ -34800,7 +34800,7 @@ var dict = {
     "en": "Site Map"
   },
   "news-004.6": {
-    "zh": "2026全球游艇市场报告：新能源动力游艇增长超40% | 奇幻假期 fantastic.vacation",
+    "zh": "2026全球游艇市场报告:新能源动力游艇增长超40% | 奇幻假期 fantastic.vacation",
     "en": "2026 Global Yacht Market Report: New Energy Power Yachts Growth Over 40% | Fantasy Vacation fantastic.vacation"
   },
   "news-004.15": {
@@ -34944,8 +34944,8 @@ var dict = {
     "en": "Contact Us"
   },
   "news-004.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "news-004.256": {
     "zh": "2026.04.22",
@@ -34956,7 +34956,7 @@ var dict = {
     "en": "Industry trends"
   },
   "news-004.261": {
-    "zh": "2026全球游艇市场报告：新能源动力游艇增长超40%",
+    "zh": "2026全球游艇市场报告:新能源动力游艇增长超40%",
     "en": "2026 Global Yacht Market Report: New Energy Power Yachts Growth Over 40%"
   },
   "news-004.264": {
@@ -34964,7 +34964,7 @@ var dict = {
     "en": "← Return to news list"
   },
   "news-004.267": {
-    "zh": "上海，2026年4月22日——全球权威游艇行业研究机构Superyacht Intelligence今日发布2026全球豪华游艇市场白皮书。报告显示，尽管全球经济面临多重挑战，但豪华游艇市场仍保持强劲增长态势，其中新能源动力游艇成为最大亮点。报告核心数据：全球游艇市场总规模达到285亿欧元，同比增长8.3%。",
+    "zh": "上海,2026年4月22日--全球权威游艇行业研究机构Superyacht Intelligence今日发布2026全球豪华游艇市场白皮书。报告显示,尽管全球经济面临多重挑战,但豪华游艇市场仍保持强劲增长态势,其中新能源动力游艇成为最大亮点。报告核心数据:全球游艇市场总规模达到285亿欧元,同比增长8.3%。",
     "en": "Shanghai, April 22, 2026 - Superyacht Intelligence, the world's authoritative yacht industry research organization, today released the 2026 Global Luxury Yacht Market White Paper. The report shows that despite the multiple challenges faced by the global economy, the luxury yacht market still maintains strong growth, with new energy-powered yachts becoming the biggest bright spot. Core data of the report: The total size of the global yacht market reached 28.5 billion euros, a year-on-year increase of 8.3%."
   },
   "news-004.285": {
@@ -34976,11 +34976,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "news-004.291": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "news-004.294": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "news-004.299": {
@@ -35268,8 +35268,8 @@ var dict = {
     "en": "Contact Us"
   },
   "news-005.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "news-005.256": {
     "zh": "2026.04.15",
@@ -35288,7 +35288,7 @@ var dict = {
     "en": "← Return to news list"
   },
   "news-005.267": {
-    "zh": "上海，2026年4月15日——奇幻假期（fantastic.vacation）今日宣布与全球高端游艇制造集团Ferretti Group签署长期战略合作协议，正式成为后者在大中华区的授权经销商。根据协议，奇幻假期将重点合作代理Ferretti Group旗下多个高端品牌产品线，包括：Azimut（阿兹慕）、Ferretti Yachts（法拉帝游艇）、Pershing（博星）等。",
+    "zh": "上海,2026年4月15日--奇幻假期(fantastic.vacation)今日宣布与全球高端游艇制造集团Ferretti Group签署长期战略合作协议,正式成为后者在大中华区的授权经销商。根据协议,奇幻假期将重点合作代理Ferretti Group旗下多个高端品牌产品线,包括:Azimut(阿兹慕)、Ferretti Yachts(法拉帝游艇)、Pershing(博星)等。",
     "en": "Shanghai, April 15, 2026 - Fantasy Vacation (fantastic.vacation) announced today that it has signed a long-term strategic cooperation agreement with Ferretti Group, the world's top yacht manufacturing group, and officially became the latter's authorized dealer in Greater China. According to the agreement, Fantasy Vacations will be the agent for multiple top brand product lines of Ferretti Group, including: Azimut, Ferretti Yachts, Pershing, etc."
   },
   "news-005.285": {
@@ -35300,11 +35300,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "news-005.291": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "news-005.294": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "news-005.299": {
@@ -35448,7 +35448,7 @@ var dict = {
     "en": "Site Map"
   },
   "news-006.6": {
-    "zh": "海上生活方式指南：如何策划一场完美的游艇生日派对 | 奇幻假期 fantastic.vacation",
+    "zh": "海上生活方式指南:如何策划一场完美的游艇生日派对 | 奇幻假期 fantastic.vacation",
     "en": "Lifestyle Guide at Sea: How to Plan the Perfect Birthday Party on a Yacht | Fantasy Vacation fantastic.vacation"
   },
   "news-006.15": {
@@ -35592,8 +35592,8 @@ var dict = {
     "en": "Contact Us"
   },
   "news-006.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "news-006.256": {
     "zh": "2026.04.08",
@@ -35604,7 +35604,7 @@ var dict = {
     "en": "lifestyle"
   },
   "news-006.261": {
-    "zh": "海上生活方式指南：如何策划一场完美的游艇生日派对",
+    "zh": "海上生活方式指南:如何策划一场完美的游艇生日派对",
     "en": "Lifestyle Guide to the Sea: How to Plan the Perfect Yacht Birthday Party"
   },
   "news-006.264": {
@@ -35612,7 +35612,7 @@ var dict = {
     "en": "← Return to news list"
   },
   "news-006.267": {
-    "zh": "在游艇上举办生日派对，已成为高净值人群庆祝特殊时刻的时尚选择。奇幻假期活动策划团队拥有数百场海上派对组织经验，为您分享策划一场完美游艇生日派对的核心要点。一、主题设计与场景布置。二、菜单定制。三、娱乐活动安排。四、安全与服务保障。",
+    "zh": "在游艇上举办生日派对,已成为高净值人群庆祝特殊时刻的时尚选择。奇幻假期活动策划团队拥有数百场海上派对组织经验,为您分享策划一场完美游艇生日派对的核心要点。一、主题设计与场景布置。二、菜单定制。三、娱乐活动安排。四、安全与服务保障。",
     "en": "Holding birthday parties on yachts has become a fashionable choice for high-net-worth individuals to celebrate special moments. The Fantasy Vacation event planning team has experience in organizing hundreds of parties at sea and will share with you the core points of planning a perfect yacht birthday party. 1. Theme design and scene layout. 2. Menu customization. 3. Arrangement of entertainment activities. 4. Safety and service guarantee."
   },
   "news-006.285": {
@@ -35624,11 +35624,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "news-006.291": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "news-006.294": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "news-006.299": {
@@ -35772,7 +35772,7 @@ var dict = {
     "en": "Site Map"
   },
   "news-007.6": {
-    "zh": "南极探险实录：奇幻假期船队成功完成首次南极航行 | 奇幻假期 fantastic.vacation",
+    "zh": "南极探险实录:奇幻假期船队成功完成首次南极航行 | 奇幻假期 fantastic.vacation",
     "en": "Antarctic expedition record: Fantasy Vacation fleet successfully completed its first Antarctic voyage | Fantasy Vacation fantastic.vacation"
   },
   "news-007.15": {
@@ -35916,8 +35916,8 @@ var dict = {
     "en": "Contact Us"
   },
   "news-007.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "news-007.256": {
     "zh": "2026.03.28",
@@ -35928,7 +35928,7 @@ var dict = {
     "en": "Yachting Life"
   },
   "news-007.261": {
-    "zh": "南极探险实录：奇幻假期船队成功完成首次南极航行",
+    "zh": "南极探险实录:奇幻假期船队成功完成首次南极航行",
     "en": "Antarctic Adventure Record: Fantasy Vacations Fleet Successfully Completes First Antarctic Voyage"
   },
   "news-007.264": {
@@ -35936,7 +35936,7 @@ var dict = {
     "en": "← Return to news list"
   },
   "news-007.267": {
-    "zh": "南极，2026年3月28日——奇幻假期（fantastic.vacation）探险船队于今日圆满完成首次南极大陆探险航行，历时21天，航程超过8,000海里。此次航行由奇幻假期旗下极光号探险游艇执航，搭载6位VIP客户及专业探险团队共28人。航线从智利蓬塔阿雷纳斯出发，穿越德雷克海峡，深入南极圈，最终抵达南设得兰群岛。",
+    "zh": "南极,2026年3月28日--奇幻假期(fantastic.vacation)探险船队于今日圆满完成首次南极大陆探险航行,历时21天,航程超过8,000海里。此次航行由奇幻假期旗下极光号探险游艇执航,搭载6位VIP客户及专业探险团队共28人。航线从智利蓬塔阿雷纳斯出发,穿越德雷克海峡,深入南极圈,最终抵达南设得兰群岛。",
     "en": "Antarctica, March 28, 2026 - The fantasy vacation (fantastic.vacation) expedition fleet successfully completed its first expedition voyage to the Antarctic continent today, which lasted 21 days and covered a voyage of more than 8,000 nautical miles. The voyage was operated by the Aurora expedition yacht owned by Fantasy Vacations, carrying 6 VIP customers and a professional expedition team of 28 people. The route starts from Punta Arenas, Chile, crosses the Drake Passage, goes deep into the Antarctic Circle, and finally reaches the South Shetland Islands."
   },
   "news-007.285": {
@@ -35948,11 +35948,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "news-007.291": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "news-007.294": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "news-007.299": {
@@ -36096,7 +36096,7 @@ var dict = {
     "en": "Site Map"
   },
   "news-008.6": {
-    "zh": "亚太游艇市场崛起：新加坡成为新兴游艇中心 | 奇幻假期 fantastic.vacation",
+    "zh": "亚太游艇市场崛起:新加坡成为新兴游艇中心 | 奇幻假期 fantastic.vacation",
     "en": "The rise of the Asia-Pacific yachting market: Singapore has become an emerging yachting center | Fantasy vacation fantastic.vacation"
   },
   "news-008.15": {
@@ -36240,8 +36240,8 @@ var dict = {
     "en": "Contact Us"
   },
   "news-008.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "news-008.256": {
     "zh": "2026.03.20",
@@ -36252,7 +36252,7 @@ var dict = {
     "en": "Industry trends"
   },
   "news-008.261": {
-    "zh": "亚太游艇市场崛起：新加坡成为新兴游艇中心",
+    "zh": "亚太游艇市场崛起:新加坡成为新兴游艇中心",
     "en": "The Rise of the Asia-Pacific Yachting Market: Singapore Becomes an Emerging Yachting Center"
   },
   "news-008.264": {
@@ -36260,7 +36260,7 @@ var dict = {
     "en": "← Return to news list"
   },
   "news-008.267": {
-    "zh": "新加坡，2026年3月20日——根据亚洲游艇协会最新发布的行业报告，新加坡已超越香港，成为亚太地区最具活力的游艇产业中心。报告显示，截至2026年第一季度，新加坡注册游艇数量达到2,850艘，较2020年增长68%。",
+    "zh": "新加坡,2026年3月20日--根据亚洲游艇协会最新发布的行业报告,新加坡已超越香港,成为亚太地区最具活力的游艇产业中心。报告显示,截至2026年第一季度,新加坡注册游艇数量达到2,850艘,较2020年增长68%。",
     "en": "Singapore, March 20, 2026 - According to the latest industry report released by the Asian Yachting Association, Singapore has surpassed Hong Kong to become the most dynamic yachting industry center in the Asia-Pacific region. The report shows that as of the first quarter of 2026, the number of registered yachts in Singapore reached 2,850, an increase of 68% from 2020."
   },
   "news-008.285": {
@@ -36272,11 +36272,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "news-008.291": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "news-008.294": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "news-008.299": {
@@ -36564,8 +36564,8 @@ var dict = {
     "en": "Contact Us"
   },
   "news-009.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "news-009.256": {
     "zh": "2026.03.12",
@@ -36584,7 +36584,7 @@ var dict = {
     "en": "← Return to news list"
   },
   "news-009.267": {
-    "zh": "上海，2026年3月12日——奇幻假期（fantastic.vacation）今日正式发布2026-2028三年发展战略白皮书，明确提出打造全球高端游艇服务集团的愿景目标。战略核心要点包括市场布局、产品战略、服务升级和数字化建设。",
+    "zh": "上海,2026年3月12日--奇幻假期(fantastic.vacation)今日正式发布2026-2028三年发展战略白皮书,明确提出打造全球高端游艇服务集团的愿景目标。战略核心要点包括市场布局、产品战略、服务升级和数字化建设。",
     "en": "Shanghai, March 12, 2026 - Fantasy Vacation (fantastic.vacation) officially released a three-year development strategy white paper from 2026 to 2028 today, clearly proposing the vision and goal of building the world's leading yacht service company. The core strategic points include market layout, product strategy, service upgrade and digital construction."
   },
   "news-009.285": {
@@ -36596,11 +36596,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "news-009.291": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "news-009.294": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "news-009.299": {
@@ -36744,7 +36744,7 @@ var dict = {
     "en": "Site Map"
   },
   "news-010.6": {
-    "zh": "地中海航线攻略：30天深度巡航全指南 | 奇幻假期 fantastic.vacation",
+    "zh": "地中海航线攻略:30天深度巡航全指南 | 奇幻假期 fantastic.vacation",
     "en": "Mediterranean Route Guide: A Complete Guide to 30-Day In-depth Cruise | Fantasy Vacation fantastic.vacation"
   },
   "news-010.15": {
@@ -36888,8 +36888,8 @@ var dict = {
     "en": "Contact Us"
   },
   "news-010.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "news-010.256": {
     "zh": "2026.03.05",
@@ -36900,7 +36900,7 @@ var dict = {
     "en": "Yachting Life"
   },
   "news-010.261": {
-    "zh": "地中海航线攻略：30天深度巡航全指南",
+    "zh": "地中海航线攻略:30天深度巡航全指南",
     "en": "Mediterranean Route Guide: A Complete Guide to a 30-Day In-Depth Cruise"
   },
   "news-010.264": {
@@ -36908,7 +36908,7 @@ var dict = {
     "en": "← Return to news list"
   },
   "news-010.267": {
-    "zh": "地中海，全球最受欢迎的游艇巡航目的地之一，每年吸引超过10万艘游艇前来探索。奇幻假期航线策划团队基于多年运营经验，为您呈现30天地中海深度巡航完整攻略。一、航线概览。二、分段航线详解。三、服务保障。四、费用参考。",
+    "zh": "地中海,全球最受欢迎的游艇巡航目的地之一,每年吸引超过10万艘游艇前来探索。奇幻假期航线策划团队基于多年运营经验,为您呈现30天地中海深度巡航完整攻略。一、航线概览。二、分段航线详解。三、服务保障。四、费用参考。",
     "en": "The Mediterranean, one of the world's most popular yacht cruising destinations, attracts more than 100,000 yachts to explore every year. Based on years of operational experience, the fantasy vacation route planning team presents you with a complete guide for a 30-day in-depth Mediterranean cruise. 1. Route overview. 2. Detailed explanation of segmented routes. 3. Service guarantee. 4. Cost reference."
   },
   "news-010.285": {
@@ -36920,11 +36920,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "news-010.291": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "news-010.294": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "news-010.299": {
@@ -37212,8 +37212,8 @@ var dict = {
     "en": "Contact Us"
   },
   "news.248": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "news.255": {
     "zh": "奇幻假期实业有限公司",
@@ -37284,7 +37284,7 @@ var dict = {
     "en": "Fantasy Vacations won the 2026 Asia's Best Yacht Service Provider Award"
   },
   "news.298": {
-    "zh": "在新加坡举办的亚洲游艇产业盛典上，奇幻假期凭借卓越的服务品质和创新业务模式，荣获年度最佳游艇服务商殊荣。",
+    "zh": "在新加坡举办的亚洲游艇产业盛典上,奇幻假期凭借卓越的服务品质和创新业务模式,荣获年度最佳游艇服务商殊荣。",
     "en": "At the Asian Yachting Industry Ceremony held in Singapore, Fantasy Vacations won the award of Best Yachting Service Provider of the Year for its excellent service quality and innovative business model."
   },
   "news.300": {
@@ -37300,11 +37300,11 @@ var dict = {
     "en": "Company News"
   },
   "news.310": {
-    "zh": "奇幻假期宣布进军亚太市场，香港运营中心正式启用",
+    "zh": "奇幻假期宣布进军亚太市场,香港运营中心正式启用",
     "en": "Fantasy Holidays announced its entry into the Asia-Pacific market, and the Hong Kong operation center was officially opened"
   },
   "news.312": {
-    "zh": "奇幻假期深圳总部正式启用，品牌全球化战略迈入新阶段。",
+    "zh": "奇幻假期深圳总部正式启用,品牌全球化战略迈入新阶段。",
     "en": "Fantasy Holidays has established its Asia-Pacific headquarters in Central, Hong Kong, marking a new stage in the brand's globalization strategy."
   },
   "news.314": {
@@ -37320,11 +37320,11 @@ var dict = {
     "en": "Industry News"
   },
   "news.324": {
-    "zh": "摩纳哥游艇展2026：超级游艇订单创历史新高",
+    "zh": "摩纳哥游艇展2026:超级游艇订单创历史新高",
     "en": "Monaco Yacht Show 2026: Superyacht orders hit record high"
   },
   "news.326": {
-    "zh": "第33届摩纳哥游艇展签约超级游艇订单总额突破35亿欧元，奇幻假期作为中国核心受邀参展商成功签订3艘定制合同。",
+    "zh": "第33届摩纳哥游艇展签约超级游艇订单总额突破35亿欧元,奇幻假期作为中国核心受邀参展商成功签订3艘定制合同。",
     "en": "The total number of superyacht orders signed at the 33rd Monaco Yacht Show exceeded 3.5 billion euros. Fantasy Holidays, as among the leading invited exhibitor in China, successfully signed three customized contracts."
   },
   "news.328": {
@@ -37340,11 +37340,11 @@ var dict = {
     "en": "Industry News"
   },
   "news.338": {
-    "zh": "2026全球游艇市场报告：新能源动力游艇增长超40%",
+    "zh": "2026全球游艇市场报告:新能源动力游艇增长超40%",
     "en": "2026 Global Yacht Market Report: New Energy Power Yachts Growth Over 40%"
   },
   "news.340": {
-    "zh": "混合动力与纯电动游艇订单量同比增长42%，环保合规成为船东核心考量。",
+    "zh": "混合动力与纯电动游艇订单量同比增长42%,环保合规成为船东核心考量。",
     "en": "Orders for hybrid and pure electric yachts increased by 42% year-on-year, and environmental compliance has become a core consideration for shipowners."
   },
   "news.342": {
@@ -37364,7 +37364,7 @@ var dict = {
     "en": "Fantasy Vacations signed a strategic cooperation agreement with the Italian Ferretti Group"
   },
   "news.354": {
-    "zh": "奇幻假期正式成为Ferretti Group大中华区授权经销商，引进Azimut、Ferretti Yachts等高端品牌。",
+    "zh": "奇幻假期正式成为Ferretti Group大中华区授权经销商,引进Azimut、Ferretti Yachts等高端品牌。",
     "en": "Fantasy Holidays has officially become the authorized dealer of Ferretti Group in Greater China, introducing top brands such as Azimut and Ferretti Yachts."
   },
   "news.356": {
@@ -37380,11 +37380,11 @@ var dict = {
     "en": "Yachting Life"
   },
   "news.366": {
-    "zh": "海上生活方式指南：如何策划一场完美的游艇生日派对",
+    "zh": "海上生活方式指南:如何策划一场完美的游艇生日派对",
     "en": "Lifestyle Guide to the Sea: How to Plan the Perfect Yacht Birthday Party"
   },
   "news.368": {
-    "zh": "从主题布置到菜单设计，活动策划专家分享海上派对完整攻略。",
+    "zh": "从主题布置到菜单设计,活动策划专家分享海上派对完整攻略。",
     "en": "From theme layout to menu design, event planning experts share complete tips for a sea party."
   },
   "news.370": {
@@ -37400,11 +37400,11 @@ var dict = {
     "en": "Yachting Life"
   },
   "news.380": {
-    "zh": "南极探险实录：奇幻假期船队成功完成首次南极航行",
+    "zh": "南极探险实录:奇幻假期船队成功完成首次南极航行",
     "en": "Antarctic Adventure Record: Fantasy Vacations Fleet Successfully Completes First Antarctic Voyage"
   },
   "news.382": {
-    "zh": "历时21天，航程超过8,000海里，为6位VIP客户呈现终身难忘的极地体验。",
+    "zh": "历时21天,航程超过8,000海里,为6位VIP客户呈现终身难忘的极地体验。",
     "en": "The voyage lasted 21 days and covered more than 8,000 nautical miles, providing six VIP customers with an unforgettable polar experience."
   },
   "news.384": {
@@ -37420,11 +37420,11 @@ var dict = {
     "en": "Industry News"
   },
   "news.394": {
-    "zh": "亚太游艇市场崛起：新加坡成为新兴游艇中心",
+    "zh": "亚太游艇市场崛起:新加坡成为新兴游艇中心",
     "en": "The Rise of the Asia-Pacific Yachting Market: Singapore Becomes an Emerging Yachting Center"
   },
   "news.396": {
-    "zh": "新加坡注册游艇数量较2020年增长68%，成为亚太游艇产业核心枢纽。",
+    "zh": "新加坡注册游艇数量较2020年增长68%,成为亚太游艇产业核心枢纽。",
     "en": "The number of registered yachts in Singapore increased by 68% compared with 2020, making it the core hub of the Asia-Pacific yacht industry."
   },
   "news.398": {
@@ -37444,7 +37444,7 @@ var dict = {
     "en": "Fantasy Holidays releases 2026-2028 three-year development strategy"
   },
   "news.410": {
-    "zh": "目标成为全球前十大游艇服务集团，重点布局亚太市场、新能源游艇、数字化服务。",
+    "zh": "目标成为全球前十大游艇服务集团,重点布局亚太市场、新能源游艇、数字化服务。",
     "en": "The goal is to become one of the top ten yacht service groups in the world, focusing on the Asia-Pacific market, new energy yachts, and digital services."
   },
   "news.412": {
@@ -37460,11 +37460,11 @@ var dict = {
     "en": "Yachting Life"
   },
   "news.422": {
-    "zh": "地中海航线攻略：30天深度巡航全指南",
+    "zh": "地中海航线攻略:30天深度巡航全指南",
     "en": "Mediterranean Route Guide: A Complete Guide to a 30-Day In-Depth Cruise"
   },
   "news.424": {
-    "zh": "详解地中海最佳航线规划，涵盖法国蔚蓝海岸、意大利阿玛尔菲海岸、希腊群岛。",
+    "zh": "详解地中海最佳航线规划,涵盖法国蔚蓝海岸、意大利阿玛尔菲海岸、希腊群岛。",
     "en": "Detailed explanation of the best route planning in the Mediterranean, covering the French Riviera, the Italian Amalfi Coast, and the Greek Islands."
   },
   "news.426": {
@@ -37480,11 +37480,11 @@ var dict = {
     "en": "Announcements"
   },
   "news.436": {
-    "zh": "奇幻假期2025年度总结：营收突破10亿",
+    "zh": "奇幻假期2025年度总结:营收突破10亿",
     "en": "Fantasy Holiday 2025 annual summary: revenue exceeds 1 billion"
   },
   "news.438": {
-    "zh": "全年营收首次突破10亿人民币，客户满意度达到98%，各项业务指标均创新高。",
+    "zh": "全年营收首次突破10亿人民币,客户满意度达到98%,各项业务指标均创新高。",
     "en": "Annual revenue exceeded RMB 1 billion for the first time, customer satisfaction reached 98%, and all business indicators reached new highs."
   },
   "news.440": {
@@ -37500,7 +37500,7 @@ var dict = {
     "en": "Industry News"
   },
   "news.450": {
-    "zh": "中国游艇消费市场报告：高净值人群游艇拥有率突破5%",
+    "zh": "中国游艇消费市场报告:高净值人群游艇拥有率突破5%",
     "en": "China Yacht Consumption Market Report: Yacht ownership among high-net-worth individuals exceeds 5%"
   },
   "news.452": {
@@ -37524,7 +37524,7 @@ var dict = {
     "en": "Fantasy Vacation Singapore office officially opened"
   },
   "news.466": {
-    "zh": "这是品牌在东南亚市场的首个据点，标志着全球化战略迈入新阶段。",
+    "zh": "这是品牌在东南亚市场的首个据点,标志着全球化战略迈入新阶段。",
     "en": "This is the brand's first stronghold in the Southeast Asian market, marking a new stage in its globalization strategy."
   },
   "news.468": {
@@ -37540,11 +37540,11 @@ var dict = {
     "en": "Yachting Life"
   },
   "news.478": {
-    "zh": "极地探险游艇旅行：踏上世界尽头的海上旅程",
+    "zh": "极地探险游艇旅行:踏上世界尽头的海上旅程",
     "en": "Polar Expedition Yachting: Embark on a Sea Journey to the End of the World"
   },
   "news.480": {
-    "zh": "南极、格陵兰、阿拉斯加……极地探险正成为高端游艇旅行的新热点。",
+    "zh": "南极、格陵兰、阿拉斯加......极地探险正成为高端游艇旅行的新热点。",
     "en": "Antarctica, Greenland, Alaska...polar adventures are becoming a new hotspot for leading yacht travel."
   },
   "news.482": {
@@ -37560,11 +37560,11 @@ var dict = {
     "en": "Announcements"
   },
   "news.492": {
-    "zh": "奇幻假期完成B轮融资，估值突破20亿人民币",
+    "zh": "奇幻假期完成B轮融资,估值突破20亿人民币",
     "en": "Fantasy Holidays completed Series B financing, with valuation exceeding RMB 2 billion"
   },
   "news.494": {
-    "zh": "融资金额达2.5亿人民币，将用于全球运营中心建设与新能源游艇研发。",
+    "zh": "融资金额达2.5亿人民币,将用于全球运营中心建设与新能源游艇研发。",
     "en": "The financing amount reaches 250 million yuan, which will be used for the construction of global operation centers and the research and development of new energy yachts."
   },
   "news.496": {
@@ -37580,11 +37580,11 @@ var dict = {
     "en": "Industry News"
   },
   "news.506": {
-    "zh": "美洲杯帆船赛2025：新西兰队成功卫冕",
+    "zh": "美洲杯帆船赛2025:新西兰队成功卫冕",
     "en": "America's Cup 2025: Team New Zealand successfully defends title"
   },
   "news.508": {
-    "zh": "奇幻假期作为中国核心游艇服务商受邀观赛，组织VIP客户前往巴塞罗那。",
+    "zh": "奇幻假期作为中国核心游艇服务商受邀观赛,组织VIP客户前往巴塞罗那。",
     "en": "As among the leading yacht service provider in China, Fantasy Holidays was invited to watch the race and organized VIP customers to go to Barcelona."
   },
   "news.510": {
@@ -37604,7 +37604,7 @@ var dict = {
     "en": "Fantasy Vacation releases its first new energy hybrid yacht"
   },
   "news.522": {
-    "zh": "君临65M Hybrid采用柴电混合动力系统，碳排放降低60%。",
+    "zh": "君临65M Hybrid采用柴电混合动力系统,碳排放降低60%。",
     "en": "Junlin 65M Hybrid uses a diesel-electric hybrid system, which reduces carbon emissions by 60%."
   },
   "news.524": {
@@ -37620,11 +37620,11 @@ var dict = {
     "en": "Yachting Life"
   },
   "news.534": {
-    "zh": "加勒比海游艇假期：十大必访岛屿推荐",
+    "zh": "加勒比海游艇假期:十大必访岛屿推荐",
     "en": "Caribbean Yacht Vacations: Top 10 Islands to Visit"
   },
   "news.536": {
-    "zh": "从奢华的圣巴茨到原始的多米尼克，开启梦幻海上假期。",
+    "zh": "从奢华的圣巴茨到原始的多米尼克,开启梦幻海上假期。",
     "en": "From luxurious St. Barts to pristine Dominica, embark on a dream sea vacation."
   },
   "news.538": {
@@ -37660,11 +37660,11 @@ var dict = {
     "en": "Industry News"
   },
   "news.562": {
-    "zh": "戛纳游艇节2025：中国参展商数量创历史新高",
+    "zh": "戛纳游艇节2025:中国参展商数量创历史新高",
     "en": "Cannes Yachting Festival 2025: Record number of Chinese exhibitors"
   },
   "news.564": {
-    "zh": "中国参展商达到25家，奇幻假期作为中国领军企业精彩亮相。",
+    "zh": "中国参展商达到25家,奇幻假期作为中国领军企业精彩亮相。",
     "en": "The number of Chinese exhibitors reached 25, and Fantasy Holidays made a wonderful appearance as a leading Chinese company."
   },
   "news.566": {
@@ -37685,7 +37685,7 @@ var dict = {
   },
   "news.578": {
     "zh": "这是品牌连续第二年获得这一行业最高荣誉。",
-    "en": "This is the second year in a row that the brand has received this industry’s highest honor."
+    "en": "This is the second year in a row that the brand has received this industry's highest honor."
   },
   "news.580": {
     "zh": "阅读全文 →",
@@ -37700,11 +37700,11 @@ var dict = {
     "en": "Yachting Life"
   },
   "news.590": {
-    "zh": "马尔代夫游艇巡航：探寻印度洋上的明珠",
+    "zh": "马尔代夫游艇巡航:探寻印度洋上的明珠",
     "en": "Maldives Yacht Cruise: Discover the Pearl of the Indian Ocean"
   },
   "news.592": {
-    "zh": "马尔代夫拥有全球最美的海岛风光，是游艇巡航的理想目的地。",
+    "zh": "马尔代夫拥有全球最美的海岛风光,是游艇巡航的理想目的地。",
     "en": "The Maldives has some of the most beautiful island scenery in the world and is an ideal destination for yacht cruising."
   },
   "news.594": {
@@ -37724,7 +37724,7 @@ var dict = {
     "en": "Fantasy Vacations signs superyacht customization agreement with Middle Eastern royal family"
   },
   "news.606": {
-    "zh": "合同金额超过5亿人民币，创下品牌单笔订单纪录。",
+    "zh": "合同金额超过5亿人民币,创下品牌单笔订单纪录。",
     "en": "The contract value exceeded RMB 500 million, setting a record for the brand's single order."
   },
   "news.608": {
@@ -37741,10 +37741,10 @@ var dict = {
   },
   "news.618": {
     "zh": "国际海事组织新排放标准正式生效",
-    "en": "International Maritime Organization’s new emission standards officially come into effect"
+    "en": "International Maritime Organization's new emission standards officially come into effect"
   },
   "news.620": {
-    "zh": "游艇行业加速绿色转型，新能源游艇迎来发展机遇。",
+    "zh": "游艇行业加速绿色转型,新能源游艇迎来发展机遇。",
     "en": "The yacht industry is accelerating its green transformation, and new energy yachts are ushering in development opportunities."
   },
   "news.622": {
@@ -37760,11 +37760,11 @@ var dict = {
     "en": "Announcements"
   },
   "news.632": {
-    "zh": "奇幻假期完成A轮融资，融资金额1.2亿人民币",
+    "zh": "奇幻假期完成A轮融资,融资金额1.2亿人民币",
     "en": "Fantasy Holidays completed Series A financing with a financing amount of RMB 120 million"
   },
   "news.634": {
-    "zh": "将用于业务扩张和团队建设，增设深圳、三亚、青岛运营中心。",
+    "zh": "将用于业务扩张和团队建设,增设深圳、三亚、青岛运营中心。",
     "en": "It will be used for business expansion and team building, and operations centers in Shenzhen, Sanya and Qingdao will be added."
   },
   "news.636": {
@@ -37780,8 +37780,8 @@ var dict = {
     "en": "Yachting Life"
   },
   "news.646": {
-    "zh": "环球航行实录：365天，35个国家，一个人的海上传奇",
-    "en": "Record of a circumnavigation: 365 days, 35 countries, one man’s maritime legend"
+    "zh": "环球航行实录:365天,35个国家,一个人的海上传奇",
+    "en": "Record of a circumnavigation: 365 days, 35 countries, one man's maritime legend"
   },
   "news.648": {
     "zh": "奇幻假期客户张先生独自驾驶62米游艇完成环球航行。",
@@ -37800,11 +37800,11 @@ var dict = {
     "en": "Industry News"
   },
   "news.660": {
-    "zh": "中国游艇保有量突破5,000艘，上海居首",
+    "zh": "中国游艇保有量突破5,000艘,上海居首",
     "en": "The number of yachts in China exceeds 5,000, with Shanghai ranking first"
   },
   "news.662": {
-    "zh": "中国大陆游艇保有量首次突破5,000艘，上海以850艘位居城市首位。",
+    "zh": "中国大陆游艇保有量首次突破5,000艘,上海以850艘位居城市首位。",
     "en": "The number of yachts in mainland China has exceeded 5,000 for the first time, with Shanghai ranking first among cities with 850 yachts."
   },
   "news.664": {
@@ -37840,11 +37840,11 @@ var dict = {
     "en": "Announcements"
   },
   "news.688": {
-    "zh": "奇幻假期2023年度业绩突破5亿，同比翻番",
-    "en": "Fantasy Holidays’ 2023 annual performance exceeds 500 million, doubling year-on-year"
+    "zh": "奇幻假期2023年度业绩突破5亿,同比翻番",
+    "en": "Fantasy Holidays' 2023 annual performance exceeds 500 million, doubling year-on-year"
   },
   "news.690": {
-    "zh": "全年营收突破5亿人民币，各项业务均实现高速增长。",
+    "zh": "全年营收突破5亿人民币,各项业务均实现高速增长。",
     "en": "Annual revenue exceeded RMB 500 million, and all businesses achieved rapid growth."
   },
   "news.692": {
@@ -37860,7 +37860,7 @@ var dict = {
     "en": "Yachting Life"
   },
   "news.702": {
-    "zh": "爱琴海游艇假期：希腊群岛完美行程推荐",
+    "zh": "爱琴海游艇假期:希腊群岛完美行程推荐",
     "en": "Aegean Yachting Holidays: Recommendations for the Perfect Itinerary in the Greek Islands"
   },
   "news.704": {
@@ -37880,8 +37880,8 @@ var dict = {
     "en": "Company News"
   },
   "news.716": {
-    "zh": "奇幻假期正式成立，开启中国游艇服务新篇章",
-    "en": "Fantasy Holidays was officially established, opening a new chapter in China’s yacht service"
+    "zh": "奇幻假期正式成立,开启中国游艇服务新篇章",
+    "en": "Fantasy Holidays was officially established, opening a new chapter in China's yacht service"
   },
   "news.718": {
     "zh": "致力于为中国游艇爱好者提供世界级的服务体验。",
@@ -37904,7 +37904,7 @@ var dict = {
     "en": "Global superyacht orders hit record high"
   },
   "news.732": {
-    "zh": "2022年全球超级游艇订单量达到1,200艘，亚太地区贡献超过15%。",
+    "zh": "2022年全球超级游艇订单量达到1,200艘,亚太地区贡献超过15%。",
     "en": "Global superyacht orders will reach 1,200 in 2022, with the Asia-Pacific region contributing more than 15%."
   },
   "news.734": {
@@ -37920,11 +37920,11 @@ var dict = {
     "en": "Industry News"
   },
   "news.744": {
-    "zh": "疫情下的游艇行业：私人游艇需求逆势上涨",
+    "zh": "疫情下的游艇行业:私人游艇需求逆势上涨",
     "en": "Yachting industry during the epidemic: demand for private yachts rises against the trend"
   },
   "news.746": {
-    "zh": "私人游艇因私密、安全的特点，需求逆势上涨。",
+    "zh": "私人游艇因私密、安全的特点,需求逆势上涨。",
     "en": "The demand for private yachts has risen against the trend due to their privacy and safety features."
   },
   "news.748": {
@@ -37940,11 +37940,11 @@ var dict = {
     "en": "Industry News"
   },
   "news.758": {
-    "zh": "中国游艇产业政策松绑，游艇驾照考试简化",
+    "zh": "中国游艇产业政策松绑,游艇驾照考试简化",
     "en": "China's yacht industry policies are loosened and yacht driving license exams are simplified"
   },
   "news.760": {
-    "zh": "多项政策松绑，促进游艇产业快速发展。",
+    "zh": "多项政策松绑,促进游艇产业快速发展。",
     "en": "A number of policies have been relaxed to promote the rapid development of the yacht industry."
   },
   "news.762": {
@@ -37980,7 +37980,7 @@ var dict = {
     "en": "Industry News"
   },
   "news.786": {
-    "zh": "上海世博会游艇展区：中国游艇产业首次亮相国际舞台",
+    "zh": "上海世博会游艇展区:中国游艇产业首次亮相国际舞台",
     "en": "Shanghai World Expo Yacht Exhibition Area: China's yacht industry debuts on the international stage"
   },
   "news.788": {
@@ -38000,11 +38000,11 @@ var dict = {
     "en": "Industry News"
   },
   "news.800": {
-    "zh": "北京奥运会帆船比赛：中国帆船运动迎来发展契机",
+    "zh": "北京奥运会帆船比赛:中国帆船运动迎来发展契机",
     "en": "Beijing Olympics sailing competition: Chinese sailing welcomes development opportunities"
   },
   "news.802": {
-    "zh": "中国选手殷剑夺得女子帆板金牌，推动帆船运动普及。",
+    "zh": "中国选手殷剑夺得女子帆板金牌,推动帆船运动普及。",
     "en": "Chinese player Yin Jian won the women's windsurfing gold medal, promoting the popularity of sailing."
   },
   "news.804": {
@@ -38020,7 +38020,7 @@ var dict = {
     "en": "Industry News"
   },
   "news.814": {
-    "zh": "中国首批游艇俱乐部成立，游艇文化萌芽",
+    "zh": "中国首批游艇俱乐部成立,游艇文化萌芽",
     "en": "China's first batch of yacht clubs were established, and yacht culture sprouted"
   },
   "news.816": {
@@ -38040,7 +38040,7 @@ var dict = {
     "en": "Industry News"
   },
   "news.828": {
-    "zh": "中国首艘国产游艇下线，打破进口市场领先",
+    "zh": "中国首艘国产游艇下线,打破进口市场领先",
     "en": "China's first domestically produced yacht rolls off the production line, breaking the import market-leading"
   },
   "news.830": {
@@ -38060,11 +38060,11 @@ var dict = {
     "en": "Industry News"
   },
   "news.842": {
-    "zh": "千禧年：中国游艇产业元年",
-    "en": "Millennium: The first year of China’s yacht industry"
+    "zh": "千禧年:中国游艇产业元年",
+    "en": "Millennium: The first year of China's yacht industry"
   },
   "news.844": {
-    "zh": "随着中国加入WTO和经济快速发展，游艇开始进入中国市场。",
+    "zh": "随着中国加入WTO和经济快速发展,游艇开始进入中国市场。",
     "en": "With China's accession to the WTO and rapid economic development, yachts have begun to enter the Chinese market."
   },
   "news.846": {
@@ -38084,11 +38084,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "news.873": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "news.876": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "news.881": {
@@ -38376,8 +38376,8 @@ var dict = {
     "en": "Contact Us"
   },
   "partner-apply.247": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "partner-apply.255": {
     "zh": "全球合作",
@@ -38396,7 +38396,7 @@ var dict = {
     "en": "Cooperation type"
   },
   "partner-apply.270": {
-    "zh": "请选择您感兴趣的合作类型（可多选）",
+    "zh": "请选择您感兴趣的合作类型(可多选)",
     "en": "Please select the type of cooperation you are interested in (multiple choices available)"
   },
   "partner-apply.273": {
@@ -38568,11 +38568,11 @@ var dict = {
     "en": "long term cooperation"
   },
   "partner-apply.408": {
-    "zh": "📌 提交后，我们的商务团队将在5个工作日内与您联系。",
+    "zh": "📌 提交后,我们的商务团队将在5个工作日内与您联系。",
     "en": "📌 After submission, our business team will contact you within 5 working days."
   },
   "partner-apply.412": {
-    "zh": "📞 商务合作专线：+86 0755 3353-0188",
+    "zh": "📞 商务合作专线:+86 0755 3353-0188",
     "en": "📞 Business cooperation hotline: +86 0755 3353-0188"
   },
   "partner-apply.416": {
@@ -38580,7 +38580,7 @@ var dict = {
     "en": "Submit cooperation intention"
   },
   "partner-apply.420": {
-    "zh": "如有任何疑问，欢迎随时联系我们",
+    "zh": "如有任何疑问,欢迎随时联系我们",
     "en": "If you have any questions, please feel free to contact us"
   },
   "partner-apply.442": {
@@ -38592,11 +38592,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "partner-apply.448": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "partner-apply.451": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "partner-apply.456": {
@@ -38888,8 +38888,8 @@ var dict = {
     "en": "Contact Us"
   },
   "partner-cases.244": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "partner-cases.251": {
     "zh": "全球合作",
@@ -38916,7 +38916,7 @@ var dict = {
     "en": "Ferretti Group joint customization project"
   },
   "partner-cases.269": {
-    "zh": "与意大利Ferretti集团建立大中华区重点合作战略合作，2025年至今已完成7艘定制游艇的联合交付，总合同金额超过€1.2亿。项目涵盖Custom Line 140、Ferretti 960、Pershing 92等多款旗舰船型。",
+    "zh": "与意大利Ferretti集团建立大中华区重点合作战略合作,2025年至今已完成7艘定制游艇的联合交付,总合同金额超过€1.2亿。项目涵盖Custom Line 140、Ferretti 960、Pershing 92等多款旗舰船型。",
     "en": "Established an exclusive strategic cooperation with the Italian Ferretti Group in Greater China. Since 2025, it has completed the joint delivery of 7 customized yachts with a total contract value of more than €120 million. The project covers many flagship ship types such as Custom Line 140, Ferretti 960, Pershing 92, etc."
   },
   "partner-cases.271": {
@@ -38944,7 +38944,7 @@ var dict = {
     "en": "Singapore ONE°15 Marina long-term berthing cooperation"
   },
   "partner-cases.284": {
-    "zh": "与亚洲高端超级游艇码头ONE°15 Marina签署3年战略停泊合作协议，为奇幻假期客户提供优先停泊权、专属VIP休息室、码头side服务及通关便利等全方位权益。",
+    "zh": "与亚洲高端超级游艇码头ONE°15 Marina签署3年战略停泊合作协议,为奇幻假期客户提供优先停泊权、专属VIP休息室、码头side服务及通关便利等全方位权益。",
     "en": "Signed a three-year strategic berthing cooperation agreement with Asia's top superyacht marina ONE°15 Marina to provide fantasy vacation customers with comprehensive rights such as priority berthing rights, exclusive VIP lounges, dockside services and customs clearance convenience."
   },
   "partner-cases.286": {
@@ -38972,7 +38972,7 @@ var dict = {
     "en": "VistaJet Sea and Air Transport Program"
   },
   "partner-cases.299": {
-    "zh": "与全球领先私人航空服务商VistaJet达成海空联运合作，为客户提供「私人飞机+超级游艇」一站式高端出行体验。已成功执行23次联程运输服务，覆盖欧洲、中东、亚太三大区域。",
+    "zh": "与全球领先私人航空服务商VistaJet达成海空联运合作,为客户提供「私人飞机+超级游艇」一站式高端出行体验。已成功执行23次联程运输服务,覆盖欧洲、中东、亚太三大区域。",
     "en": "It has reached a sea-air transport cooperation with VistaJet, the world's top private aviation service provider, to provide customers with a one-stop high-end travel experience of \"private jet + super yacht\". It has successfully implemented 23 interline transportation services, covering the three major regions of Europe, the Middle East and the Asia-Pacific."
   },
   "partner-cases.301": {
@@ -39000,7 +39000,7 @@ var dict = {
     "en": "Aman sea vacation package cooperation"
   },
   "partner-cases.314": {
-    "zh": "与传奇度假品牌Aman合作推出「海上+陆地」无缝衔接度假体验。客户在Aman酒店入住期间可享受奇幻假期游艇日间巡航服务，覆盖Amanzoe（希腊）、Amanoi（越南）、Amanera（巴厘岛）三大目的地。",
+    "zh": "与传奇度假品牌Aman合作推出「海上+陆地」无缝衔接度假体验。客户在Aman酒店入住期间可享受奇幻假期游艇日间巡航服务,覆盖Amanzoe(希腊)、Amanoi(越南)、Amanera(巴厘岛)三大目的地。",
     "en": "Cooperating with the legendary resort brand Aman to launch a \"sea + land\" seamless vacation experience. During their stay at the Aman Hotel, customers can enjoy the fantasy vacation yacht day cruise service, covering the three major destinations of Amanzoe (Greece), Amanoi (Vietnam), and Amanera (Bali)."
   },
   "partner-cases.316": {
@@ -39028,7 +39028,7 @@ var dict = {
     "en": "Four Seasons Yacht Club Annual Cooperation"
   },
   "partner-cases.329": {
-    "zh": "连续3年作为Four Seasons Yacht Club官方游艇服务合作伙伴，为全球30+家四季酒店的VVIP客户提供专属游艇租赁与定制航行服务。2025年累计服务超过500位四季高净值客户。",
+    "zh": "连续3年作为Four Seasons Yacht Club官方游艇服务合作伙伴,为全球30+家四季酒店的VVIP客户提供专属游艇租赁与定制航行服务。2025年累计服务超过500位四季高净值客户。",
     "en": "As the official yacht service partner of Four Seasons Yacht Club for three consecutive years, it provides exclusive yacht charter and customized sailing services to VVIP customers of 30+ Four Seasons hotels around the world. By 2025, it will serve more than 500 Four Seasons high-net-worth clients."
   },
   "partner-cases.331": {
@@ -39056,7 +39056,7 @@ var dict = {
     "en": "Sotheby's Yacht Art Show Partnership"
   },
   "partner-cases.344": {
-    "zh": "与苏富比合作策划全球首场「海上艺术展」——在88米超级游艇上展示估值超$5000万的当代艺术品。活动吸引来自全球的80余位藏家参与，开创了游艇+艺术跨界合作的先河。",
+    "zh": "与苏富比合作策划全球首场「海上艺术展」--在88米超级游艇上展示估值超$5000万的当代艺术品。活动吸引来自全球的80余位藏家参与,开创了游艇+艺术跨界合作的先河。",
     "en": "Cooperated with Sotheby's to curate the world's first \"Marine Art Exhibition\" - displaying contemporary art with an estimated value of over $50 million on an 88-meter superyacht. The event attracted more than 80 collectors from all over the world, pioneering cross-border cooperation between yachts and art."
   },
   "partner-cases.346": {
@@ -39076,11 +39076,11 @@ var dict = {
     "en": "View case details →"
   },
   "partner-cases.357": {
-    "zh": "成为下一个标杆案例？",
+    "zh": "成为下一个标杆案例?",
     "en": "Become the next benchmark case?"
   },
   "partner-cases.359": {
-    "zh": "无论您是品牌方、服务商还是渠道伙伴，我们都期待共创非凡。",
+    "zh": "无论您是品牌方、服务商还是渠道伙伴,我们都期待共创非凡。",
     "en": "Whether you are a brand, service provider or channel partner, we look forward to creating excellence together."
   },
   "partner-cases.361": {
@@ -39096,11 +39096,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "partner-cases.383": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "partner-cases.386": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "partner-cases.391": {
@@ -39388,8 +39388,8 @@ var dict = {
     "en": "Contact Us"
   },
   "partner-list.247": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "partner-list.255": {
     "zh": "全球合作",
@@ -39440,7 +39440,7 @@ var dict = {
     "en": "Italy · Founded in 1968"
   },
   "partner-list.289": {
-    "zh": "全球领先的豪华游艇制造商，旗下拥有Ferretti Yachts、Pershing、Riva等高端品牌。",
+    "zh": "全球领先的豪华游艇制造商,旗下拥有Ferretti Yachts、Pershing、Riva等高端品牌。",
     "en": "The world's leading luxury yacht manufacturer owns top brands such as Ferretti Yachts, Pershing, and Riva."
   },
   "partner-list.292": {
@@ -39468,7 +39468,7 @@ var dict = {
     "en": "Netherlands · Founded in 1949"
   },
   "partner-list.309": {
-    "zh": "世界高端定制超级游艇制造商，以极致工艺与创新设计著称。",
+    "zh": "世界高端定制超级游艇制造商,以极致工艺与创新设计著称。",
     "en": "The world's leading custom superyacht manufacturer, known for its ultimate craftsmanship and innovative design."
   },
   "partner-list.312": {
@@ -39496,7 +39496,7 @@ var dict = {
     "en": "Germany · Founded in 1875"
   },
   "partner-list.329": {
-    "zh": "全球最大超级游艇制造商之一，专注建造100米以上高端游艇。",
+    "zh": "全球最大超级游艇制造商之一,专注建造100米以上高端游艇。",
     "en": "One of the world's largest superyacht manufacturers, focusing on building top-class yachts over 100 meters."
   },
   "partner-list.332": {
@@ -39524,7 +39524,7 @@ var dict = {
     "en": "United Kingdom · Founded in 1969"
   },
   "partner-list.349": {
-    "zh": "英国高端豪华游艇品牌，以性能与设计完美结合闻名。",
+    "zh": "英国高端豪华游艇品牌,以性能与设计完美结合闻名。",
     "en": "Britain's top luxury yacht brand is famous for its perfect combination of performance and design."
   },
   "partner-list.352": {
@@ -39552,7 +39552,7 @@ var dict = {
     "en": "Monaco·Mediterranean Core"
   },
   "partner-list.369": {
-    "zh": "世界最著名的游艇港口，位于地中海核心位置的高端停泊地。",
+    "zh": "世界最著名的游艇港口,位于地中海核心位置的高端停泊地。",
     "en": "The world's most famous yacht port, a premier anchorage in the heart of the Mediterranean."
   },
   "partner-list.372": {
@@ -39580,7 +39580,7 @@ var dict = {
     "en": "Dubai · Gateway to the Middle East"
   },
   "partner-list.389": {
-    "zh": "中东地区最高端的游艇码头，服务与设施世界一流。",
+    "zh": "中东地区最高端的游艇码头,服务与设施世界一流。",
     "en": "The top marina in the Middle East, with world-class services and facilities."
   },
   "partner-list.392": {
@@ -39608,7 +39608,7 @@ var dict = {
     "en": "Singapore · Southeast Asia Hub"
   },
   "partner-list.409": {
-    "zh": "新加坡高端游艇俱乐部，东南亚地区游艇服务标杆。",
+    "zh": "新加坡高端游艇俱乐部,东南亚地区游艇服务标杆。",
     "en": "Singapore's leading yacht club, the benchmark for yacht services in Southeast Asia."
   },
   "partner-list.412": {
@@ -39636,7 +39636,7 @@ var dict = {
     "en": "Malta · Global Operations"
   },
   "partner-list.429": {
-    "zh": "全球领先的私人公务机运营商，覆盖187个国家。",
+    "zh": "全球领先的私人公务机运营商,覆盖187个国家。",
     "en": "The world's leading private business jet operator, covering 187 countries."
   },
   "partner-list.432": {
@@ -39664,7 +39664,7 @@ var dict = {
     "en": "United States · Buffett's"
   },
   "partner-list.449": {
-    "zh": "全球最大的私人飞机共享所有权公司，沃伦·巴菲特旗下企业。",
+    "zh": "全球最大的私人飞机共享所有权公司,沃伦·巴菲特旗下企业。",
     "en": "The world's largest private jet shared ownership company, owned by Warren Buffett."
   },
   "partner-list.452": {
@@ -39692,7 +39692,7 @@ var dict = {
     "en": "Global · Top vacation"
   },
   "partner-list.469": {
-    "zh": "全球最高端的精品度假酒店品牌，以极致私密与奢华著称。",
+    "zh": "全球最高端的精品度假酒店品牌,以极致私密与奢华著称。",
     "en": "The world's leading boutique resort hotel brand, known for its ultimate privacy and luxury."
   },
   "partner-list.472": {
@@ -39720,7 +39720,7 @@ var dict = {
     "en": "Global · Luxury Chain"
   },
   "partner-list.489": {
-    "zh": "全球高端豪华酒店品牌，服务标准行业标杆。",
+    "zh": "全球高端豪华酒店品牌,服务标准行业标杆。",
     "en": "The world's leading luxury hotel brand and industry leader for service standards."
   },
   "partner-list.492": {
@@ -39748,7 +39748,7 @@ var dict = {
     "en": "Global · Top Auction Houses"
   },
   "partner-list.509": {
-    "zh": "全球最古老的拍卖行之一，艺术品收藏领域的权威。",
+    "zh": "全球最古老的拍卖行之一,艺术品收藏领域的权威。",
     "en": "One of the oldest auction houses in the world and an authority in the field of art collection."
   },
   "partner-list.512": {
@@ -39772,11 +39772,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "partner-list.543": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "partner-list.546": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "partner-list.551": {
@@ -40068,8 +40068,8 @@ var dict = {
     "en": "Contact Us"
   },
   "partner-map.244": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "partner-map.251": {
     "zh": "全球合作",
@@ -40124,11 +40124,11 @@ var dict = {
     "en": "mediterranean region"
   },
   "partner-map.280": {
-    "zh": "欧洲最成熟的游艇市场，涵盖法国里维埃拉、意大利维亚雷焦、西班牙伊比萨、希腊米科诺斯等高端游艇目的地。",
+    "zh": "欧洲最成熟的游艇市场,涵盖法国里维埃拉、意大利维亚雷焦、西班牙伊比萨、希腊米科诺斯等高端游艇目的地。",
     "en": "Europe's most mature yacht market covers leading yacht destinations such as the French Riviera, Viareggio in Italy, Ibiza in Spain, and Mykonos in Greece."
   },
   "partner-map.282": {
-    "zh": "核心港口：12个",
+    "zh": "核心港口:12个",
     "en": "Core ports: 12"
   },
   "partner-map.284": {
@@ -40184,11 +40184,11 @@ var dict = {
     "en": "caribbean region"
   },
   "partner-map.301": {
-    "zh": "全球高端避税港与度假胜地，安提瓜、巴哈马、英属维尔京群岛、圣巴泰勒米等热门游艇注册地。",
+    "zh": "全球高端避税港与度假胜地,安提瓜、巴哈马、英属维尔京群岛、圣巴泰勒米等热门游艇注册地。",
     "en": "The world's leading tax haven and resort, Antigua, Bahamas, British Virgin Islands, St. Barthélemy and other popular yacht registration places."
   },
   "partner-map.303": {
-    "zh": "核心港口：8个",
+    "zh": "核心港口:8个",
     "en": "Core ports: 8"
   },
   "partner-map.305": {
@@ -40232,11 +40232,11 @@ var dict = {
     "en": "Southeast Asia region"
   },
   "partner-map.318": {
-    "zh": "亚洲最具活力的新兴游艇市场，普吉岛、苏梅岛、兰卡威、新加坡、巴厘岛等热带天堂。",
+    "zh": "亚洲最具活力的新兴游艇市场,普吉岛、苏梅岛、兰卡威、新加坡、巴厘岛等热带天堂。",
     "en": "The most dynamic emerging yacht market in Asia, tropical paradises such as Phuket, Koh Samui, Langkawi, Singapore, and Bali."
   },
   "partner-map.320": {
-    "zh": "核心港口：10个",
+    "zh": "核心港口:10个",
     "en": "Core ports: 10"
   },
   "partner-map.322": {
@@ -40284,11 +40284,11 @@ var dict = {
     "en": "Middle East region"
   },
   "partner-map.337": {
-    "zh": "迪拜、阿布扎比、多哈等超豪华游艇聚集地，皇室与高净值客户集中区域。",
+    "zh": "迪拜、阿布扎比、多哈等超豪华游艇聚集地,皇室与高净值客户集中区域。",
     "en": "Dubai, Abu Dhabi, Doha and other places where ultra-luxury yachts gather, where royal families and high-net-worth clients are concentrated."
   },
   "partner-map.339": {
-    "zh": "核心港口：6个",
+    "zh": "核心港口:6个",
     "en": "Core ports: 6"
   },
   "partner-map.341": {
@@ -40324,7 +40324,7 @@ var dict = {
     "en": "High-end yacht service network around Hong Kong, Sydney, Auckland, Tokyo and other Asia-Pacific financial centers."
   },
   "partner-map.354": {
-    "zh": "核心港口：8个",
+    "zh": "核心港口:8个",
     "en": "Core ports: 8"
   },
   "partner-map.356": {
@@ -40372,7 +40372,7 @@ var dict = {
     "en": "Polar route destinations such as Tromsø in Norway, Reykjavik in Iceland, Ushuaia in Argentina, and the South Island of New Zealand."
   },
   "partner-map.371": {
-    "zh": "核心港口：6个",
+    "zh": "核心港口:6个",
     "en": "Core ports: 6"
   },
   "partner-map.373": {
@@ -40400,11 +40400,11 @@ var dict = {
     "en": "longyearbyen"
   },
   "partner-map.385": {
-    "zh": "您的港口或海域未在列表中？",
+    "zh": "您的港口或海域未在列表中?",
     "en": "Your port or sea area is not listed?"
   },
   "partner-map.387": {
-    "zh": "我们的服务网络持续扩展中，欢迎全球优质港口与码头加入合作。",
+    "zh": "我们的服务网络持续扩展中,欢迎全球优质港口与码头加入合作。",
     "en": "Our service network continues to expand, and we welcome high-quality ports and terminals around the world to join us."
   },
   "partner-map.389": {
@@ -40420,11 +40420,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "partner-map.411": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "partner-map.414": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "partner-map.419": {
@@ -40716,8 +40716,8 @@ var dict = {
     "en": "Contact Us"
   },
   "partner-process.244": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "partner-process.251": {
     "zh": "全球合作",
@@ -40736,7 +40736,7 @@ var dict = {
     "en": "Standardized cooperation process"
   },
   "partner-process.261": {
-    "zh": "我们建立了完善的五步合作服务体系，确保每个合作项目从初次接触到最终落地都经过严格的质量管控与专业服务。",
+    "zh": "我们建立了完善的五步合作服务体系,确保每个合作项目从初次接触到最终落地都经过严格的质量管控与专业服务。",
     "en": "We have established a complete five-step cooperation service system to ensure that each cooperation project undergoes strict quality control and professional services from initial contact to final implementation."
   },
   "partner-process.264": {
@@ -40752,20 +40752,20 @@ var dict = {
     "en": "1-3 working days"
   },
   "partner-process.269": {
-    "zh": "通过官网表单、邮件或电话提交合作意向，我们的商务团队将在24小时内与您取得联系。",
+    "zh": "通过官网表单、邮件或电话提交合作意向,我们的商务团队将在24小时内与您取得联系。",
     "en": "Submit your cooperation intention through the official website form, email or phone, and our business team will contact you within 24 hours."
   },
   "partner-process.272": {
-    "zh": "填写《合作意向登记表》— 合作类型、目标区域、预期规模",
+    "zh": "填写《合作意向登记表》- 合作类型、目标区域、预期规模",
     "en": "Fill out the \"Cooperation Intention Registration Form\" - cooperation type, target area, expected scale"
   },
   "partner-process.274": {
-    "zh": "提供企业资质文件 — 营业执照、行业资质、过往业绩",
+    "zh": "提供企业资质文件 - 营业执照、行业资质、过往业绩",
     "en": "Provide company qualification documents - business license, industry qualifications, past performance"
   },
   "partner-process.276": {
-    "zh": "初步沟通需求 — 我们安排专属客户经理一对一对接",
-    "en": "Initial communication requirements — we arrange one-to-one communication with a dedicated account manager"
+    "zh": "初步沟通需求 - 我们安排专属客户经理一对一对接",
+    "en": "Initial communication requirements - we arrange one-to-one communication with a dedicated account manager"
   },
   "partner-process.279": {
     "zh": "02",
@@ -40780,23 +40780,23 @@ var dict = {
     "en": "3-5 working days"
   },
   "partner-process.284": {
-    "zh": "我们的专业团队对合作伙伴进行全面评估，包括企业实力、市场资源、品牌契合度等多维度分析。",
+    "zh": "我们的专业团队对合作伙伴进行全面评估,包括企业实力、市场资源、品牌契合度等多维度分析。",
     "en": "Our professional team conducts a comprehensive evaluation of our partners, including multi-dimensional analysis of corporate strength, market resources, brand fit, etc."
   },
   "partner-process.287": {
-    "zh": "企业背景调查 — 财务状况、行业口碑、合规记录",
+    "zh": "企业背景调查 - 财务状况、行业口碑、合规记录",
     "en": "Corporate background check - financial status, industry reputation, compliance record"
   },
   "partner-process.289": {
-    "zh": "市场资源评估 — 客户群体、渠道网络、区域覆盖能力",
-    "en": "Market resource assessment—customer groups, channel network, regional coverage capabilities"
+    "zh": "市场资源评估 - 客户群体、渠道网络、区域覆盖能力",
+    "en": "Market resource assessment-customer groups, channel network, regional coverage capabilities"
   },
   "partner-process.291": {
-    "zh": "需求匹配分析 — 双方资源互补性、合作可行性报告",
+    "zh": "需求匹配分析 - 双方资源互补性、合作可行性报告",
     "en": "Demand matching analysis - resource complementarity and cooperation feasibility report of both parties"
   },
   "partner-process.293": {
-    "zh": "初步合作方案框架 — 合作模式、权责划分、收益分配",
+    "zh": "初步合作方案框架 - 合作模式、权责划分、收益分配",
     "en": "Preliminary cooperation plan framework - cooperation model, division of powers and responsibilities, distribution of profits"
   },
   "partner-process.296": {
@@ -40812,23 +40812,23 @@ var dict = {
     "en": "5-10 working days"
   },
   "partner-process.301": {
-    "zh": "基于评估结果，双方深入沟通，制定量身定制的合作方案。法务团队全程参与，确保协议条款清晰公正。",
+    "zh": "基于评估结果,双方深入沟通,制定量身定制的合作方案。法务团队全程参与,确保协议条款清晰公正。",
     "en": "Based on the evaluation results, the two parties communicated in depth and formulated a customized cooperation plan. The legal team participated in the entire process to ensure that the terms of the agreement were clear and fair."
   },
   "partner-process.304": {
-    "zh": "详细合作方案 — 包含具体KPI、服务标准、质量要求",
+    "zh": "详细合作方案 - 包含具体KPI、服务标准、质量要求",
     "en": "Detailed cooperation plan - including specific KPIs, service standards, and quality requirements"
   },
   "partner-process.306": {
-    "zh": "商务条款谈判 — 授权范围、定价策略、售后责任",
+    "zh": "商务条款谈判 - 授权范围、定价策略、售后责任",
     "en": "Negotiation of business terms - scope of authorization, pricing strategy, after-sales responsibilities"
   },
   "partner-process.308": {
-    "zh": "法律协议起草 — 合作协议、保密协议、知识产权条款",
+    "zh": "法律协议起草 - 合作协议、保密协议、知识产权条款",
     "en": "Drafting of legal agreements - cooperation agreements, confidentiality agreements, intellectual property clauses"
   },
   "partner-process.310": {
-    "zh": "高层最终确认 — 双方管理层审批签署",
+    "zh": "高层最终确认 - 双方管理层审批签署",
     "en": "Final confirmation from senior management - approval and signature by management of both parties"
   },
   "partner-process.313": {
@@ -40844,27 +40844,27 @@ var dict = {
     "en": "5-15 working days"
   },
   "partner-process.318": {
-    "zh": "正式签约后，启动系统集成与团队培训工作，确保合作业务能够快速上线运营。",
+    "zh": "正式签约后,启动系统集成与团队培训工作,确保合作业务能够快速上线运营。",
     "en": "After the formal signing, system integration and team training will be initiated to ensure that the cooperative business can be quickly put into operation."
   },
   "partner-process.321": {
-    "zh": "签署战略合作协议（SHA）",
+    "zh": "签署战略合作协议(SHA)",
     "en": "Signed strategic cooperation agreement (SHA)"
   },
   "partner-process.323": {
-    "zh": "系统API/数据接口对接（如涉及技术合作）",
+    "zh": "系统API/数据接口对接(如涉及技术合作)",
     "en": "System API/data interface docking (if technical cooperation is involved)"
   },
   "partner-process.325": {
-    "zh": "团队培训 — 产品知识、服务标准、操作流程认证",
+    "zh": "团队培训 - 产品知识、服务标准、操作流程认证",
     "en": "Team training - product knowledge, service standards, operation process certification"
   },
   "partner-process.327": {
-    "zh": "营销物料支持 — 品牌授权、宣传资料、联合推广计划",
-    "en": "Marketing material support – brand licensing, promotional materials, joint promotion plans"
+    "zh": "营销物料支持 - 品牌授权、宣传资料、联合推广计划",
+    "en": "Marketing material support - brand licensing, promotional materials, joint promotion plans"
   },
   "partner-process.329": {
-    "zh": "试运行期 — 30天试运营，全程跟踪支持",
+    "zh": "试运行期 - 30天试运营,全程跟踪支持",
     "en": "Trial operation period - 30 days of trial operation, full tracking support"
   },
   "partner-process.332": {
@@ -40880,7 +40880,7 @@ var dict = {
     "en": "long"
   },
   "partner-process.337": {
-    "zh": "合作项目正式启动后，我们提供持续的运营支持与优化服务，确保合作长期稳定发展。",
+    "zh": "合作项目正式启动后,我们提供持续的运营支持与优化服务,确保合作长期稳定发展。",
     "en": "After the cooperation project is officially launched, we provide continuous operational support and optimization services to ensure long-term and stable development of the cooperation."
   },
   "partner-process.340": {
@@ -40908,43 +40908,43 @@ var dict = {
     "en": "FAQ"
   },
   "partner-process.359": {
-    "zh": "❓ 合作需要什么条件？",
+    "zh": "❓ 合作需要什么条件?",
     "en": "❓ What are the conditions for cooperation?"
   },
   "partner-process.360": {
-    "zh": "我们欢迎具备合法经营资质、良好行业口碑、稳定客户资源的企业或个人加入合作网络。不同合作类型有具体要求——例如船厂代理需有船舶销售资质，码头合作需有港口运营许可。请联系我们获取详细的准入条件清单。",
+    "zh": "我们欢迎具备合法经营资质、良好行业口碑、稳定客户资源的企业或个人加入合作网络。不同合作类型有具体要求--例如船厂代理需有船舶销售资质,码头合作需有港口运营许可。请联系我们获取详细的准入条件清单。",
     "en": "We welcome companies or individuals with legal business qualifications, good industry reputation, and stable customer resources to join the cooperation network. Different types of cooperation have specific requirements - for example, shipyard agents need to have ship sales qualifications, and terminal cooperation needs to have a port operation license. Please contact us for a detailed list of admission requirements."
   },
   "partner-process.362": {
-    "zh": "❓ 从提交到签约一般需要多长时间？",
+    "zh": "❓ 从提交到签约一般需要多长时间?",
     "en": "❓ How long does it usually take from submission to signing?"
   },
   "partner-process.363": {
-    "zh": "整个流程通常需要 **3-6周**，具体取决于合作类型和复杂程度。简单的渠道代理合作可在2周内完成签约；复杂的战略合资项目可能需要2-3个月的深度谈判。",
+    "zh": "整个流程通常需要 **3-6周**,具体取决于合作类型和复杂程度。简单的渠道代理合作可在2周内完成签约;复杂的战略合资项目可能需要2-3个月的深度谈判。",
     "en": "The entire process usually takes **3-6 weeks**, depending on the type and complexity of the collaboration. Simple channel agency cooperation can be signed within 2 weeks; complex strategic joint venture projects may require 2-3 months of in-depth negotiations."
   },
   "partner-process.365": {
-    "zh": "❓ 合作的最低投入是什么？",
+    "zh": "❓ 合作的最低投入是什么?",
     "en": "❓ What is the minimum investment for cooperation?"
   },
   "partner-process.366": {
-    "zh": "根据合作类型不同，投入门槛也不同。渠道代理几乎零成本启动（仅需完成培训和认证）；品牌联名可能需要一定的市场推广预算；而战略投资类合作则根据具体项目商议。我们为每种合作类型设计了灵活的准入方案。",
+    "zh": "根据合作类型不同,投入门槛也不同。渠道代理几乎零成本启动(仅需完成培训和认证);品牌联名可能需要一定的市场推广预算;而战略投资类合作则根据具体项目商议。我们为每种合作类型设计了灵活的准入方案。",
     "en": "Depending on the type of cooperation, the investment threshold is also different. Channel agents start up at almost zero cost (only need to complete training and certification); brand co-branding may require a certain marketing budget; and strategic investment cooperation is negotiated based on specific projects. We have designed flexible access options for each type of collaboration."
   },
   "partner-process.368": {
-    "zh": "❓ 如何保障合作双方的权益？",
+    "zh": "❓ 如何保障合作双方的权益?",
     "en": "❓ How to protect the rights and interests of both parties?"
   },
   "partner-process.369": {
-    "zh": "所有合作均通过正式法律协议明确双方权责，包含：排他性条款、收益分配机制、知识产权归属、保密义务、违约责任及争议解决方式。我们合作的国际律所为协议执行提供法律保障。",
+    "zh": "所有合作均通过正式法律协议明确双方权责,包含:排他性条款、收益分配机制、知识产权归属、保密义务、违约责任及争议解决方式。我们合作的国际律所为协议执行提供法律保障。",
     "en": "All cooperations are clarified through formal legal agreements to clarify the rights and responsibilities of both parties, including: exclusivity clauses, revenue distribution mechanisms, intellectual property ownership, confidentiality obligations, liability for breach of contract, and dispute resolution methods. The international law firms we cooperate with provide legal protection for the execution of the agreement."
   },
   "partner-process.371": {
-    "zh": "❓ 可以同时参与多种类型的合作吗？",
+    "zh": "❓ 可以同时参与多种类型的合作吗?",
     "en": "❓ Can I participate in multiple types of cooperation at the same time?"
   },
   "partner-process.372": {
-    "zh": "当然可以！许多合作伙伴与我们同时开展多种类型的合作。例如：一家高端酒店既是「生活方式合作伙伴」，同时也作为「渠道代理」向我们推荐游艇客户。多重合作身份可享受叠加权益与更高返佣比例。",
+    "zh": "当然可以!许多合作伙伴与我们同时开展多种类型的合作。例如:一家高端酒店既是「生活方式合作伙伴」,同时也作为「渠道代理」向我们推荐游艇客户。多重合作身份可享受叠加权益与更高返佣比例。",
     "en": "sure! Many partners engage in various types of cooperation with us at the same time. For example: a high-end hotel is both a \"lifestyle partner\" and a \"channel agent\" recommending yacht customers to us. Multiple cooperation identities can enjoy superimposed benefits and higher rebate ratios."
   },
   "partner-process.380": {
@@ -40956,7 +40956,7 @@ var dict = {
     "en": "strategic cooperation"
   },
   "partner-process.384": {
-    "zh": "无论您是船厂、码头运营商、服务商还是品牌方，我们都期待与您携手共创价值。",
+    "zh": "无论您是船厂、码头运营商、服务商还是品牌方,我们都期待与您携手共创价值。",
     "en": "Whether you are a shipyard, terminal operator, service provider or brand owner, we look forward to working with you to create value."
   },
   "partner-process.386": {
@@ -40972,11 +40972,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "partner-process.408": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "partner-process.411": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "partner-process.416": {
@@ -41264,8 +41264,8 @@ var dict = {
     "en": "Contact Us"
   },
   "partner-type-agent.247": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "partner-type-agent.255": {
     "zh": "全球合作",
@@ -41276,7 +41276,7 @@ var dict = {
     "en": "🌐 Channel agent cooperation"
   },
   "partner-type-agent.260": {
-    "zh": "成为奇幻假期区域代理商，共享品牌资源、销售支持与培训体系，共同开拓区域市场。",
+    "zh": "成为奇幻假期区域代理商,共享品牌资源、销售支持与培训体系,共同开拓区域市场。",
     "en": "Become the regional agent of Fantasy Vacation, share brand resources, sales support and training system, and jointly develop the regional market."
   },
   "partner-type-agent.267": {
@@ -41292,7 +41292,7 @@ var dict = {
     "en": "Regional Exclusive"
   },
   "partner-type-agent.275": {
-    "zh": "特定区域重点合作代理权，避免同业竞争。",
+    "zh": "特定区域重点合作代理权,避免同业竞争。",
     "en": "Exclusive agency rights in specific areas to avoid competition within the industry."
   },
   "partner-type-agent.281": {
@@ -41368,11 +41368,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "partner-type-agent.355": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "partner-type-agent.358": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "partner-type-agent.363": {
@@ -41660,8 +41660,8 @@ var dict = {
     "en": "Contact Us"
   },
   "partner-type-art.247": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "partner-type-art.255": {
     "zh": "全球合作",
@@ -41672,7 +41672,7 @@ var dict = {
     "en": "🎨Art collection/high-end life"
   },
   "partner-type-art.260": {
-    "zh": "对接苏富比、佳士得等高端拍卖行，提供游艇专属艺术定制、私人藏品鉴赏与艺术品海上运输保险服务。",
+    "zh": "对接苏富比、佳士得等高端拍卖行,提供游艇专属艺术定制、私人藏品鉴赏与艺术品海上运输保险服务。",
     "en": "Connect with top auction houses such as Sotheby's and Christie's to provide exclusive art customization for yachts, appreciation of private collections, and marine transportation insurance services for artworks."
   },
   "partner-type-art.267": {
@@ -41768,11 +41768,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "partner-type-art.355": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "partner-type-art.358": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "partner-type-art.363": {
@@ -42060,8 +42060,8 @@ var dict = {
     "en": "Contact Us"
   },
   "partner-type-association.247": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "partner-type-association.255": {
     "zh": "全球合作",
@@ -42072,7 +42072,7 @@ var dict = {
     "en": "🏛️ Industry associations/regulatory agencies"
   },
   "partner-type-association.260": {
-    "zh": "与国际游艇协会、海事监管机构保持紧密合作，确保合规运营、获取最新政策信息与行业资源。",
+    "zh": "与国际游艇协会、海事监管机构保持紧密合作,确保合规运营、获取最新政策信息与行业资源。",
     "en": "Maintain close cooperation with the International Yachting Association and maritime regulatory agencies to ensure compliance operations and obtain the latest policy information and industry resources."
   },
   "partner-type-association.267": {
@@ -42164,11 +42164,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "partner-type-association.357": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "partner-type-association.360": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "partner-type-association.365": {
@@ -42456,8 +42456,8 @@ var dict = {
     "en": "Contact Us"
   },
   "partner-type-aviation.247": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "partner-type-aviation.255": {
     "zh": "全球合作",
@@ -42468,7 +42468,7 @@ var dict = {
     "en": "✈️ Private aviation/sea, land and air transport"
   },
   "partner-type-aviation.260": {
-    "zh": "与VistaJet、NetJets等高端私人航空运营商合作，实现全球任意地点直升机接送、游艇停机坪认证与海空无缝衔接。",
+    "zh": "与VistaJet、NetJets等高端私人航空运营商合作,实现全球任意地点直升机接送、游艇停机坪认证与海空无缝衔接。",
     "en": "Cooperate with top private aviation operators such as VistaJet and NetJets to achieve helicopter transfers, yacht helipad certification and seamless connection between sea and air anywhere in the world."
   },
   "partner-type-aviation.267": {
@@ -42560,11 +42560,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "partner-type-aviation.355": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "partner-type-aviation.358": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "partner-type-aviation.363": {
@@ -42852,8 +42852,8 @@ var dict = {
     "en": "Contact Us"
   },
   "partner-type-brand.247": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "partner-type-brand.255": {
     "zh": "全球合作",
@@ -42864,7 +42864,7 @@ var dict = {
     "en": "🤝 Brand co-branding cooperation"
   },
   "partner-type-brand.260": {
-    "zh": "与高端奢侈品牌、高端生活方式品牌联合推出限量版游艇、联名活动与跨界项目，共创品牌价值。",
+    "zh": "与高端奢侈品牌、高端生活方式品牌联合推出限量版游艇、联名活动与跨界项目,共创品牌价值。",
     "en": "Jointly launch limited edition yachts, joint activities and cross-border projects with top luxury brands and high-end lifestyle brands to jointly create brand value."
   },
   "partner-type-brand.267": {
@@ -42956,11 +42956,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "partner-type-brand.355": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "partner-type-brand.358": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "partner-type-brand.363": {
@@ -43248,8 +43248,8 @@ var dict = {
     "en": "Contact Us"
   },
   "partner-type-hotel.247": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "partner-type-hotel.255": {
     "zh": "全球合作",
@@ -43260,7 +43260,7 @@ var dict = {
     "en": "🏨 High-end hotel/resort cooperation"
   },
   "partner-type-hotel.260": {
-    "zh": "与Aman、Four Seasons、Ritz-Carlton等高端度假酒店建立专属协议，提供游艇与酒店联动套餐、海上抵达礼宾服务。",
+    "zh": "与Aman、Four Seasons、Ritz-Carlton等高端度假酒店建立专属协议,提供游艇与酒店联动套餐、海上抵达礼宾服务。",
     "en": "Established exclusive agreements with top resort hotels such as Aman, Four Seasons, Ritz-Carlton, etc. to provide yacht and hotel linkage packages and concierge services for arrival at sea."
   },
   "partner-type-hotel.267": {
@@ -43276,7 +43276,7 @@ var dict = {
     "en": "Linkage package"
   },
   "partner-type-hotel.275": {
-    "zh": "游艇+酒店一站式度假套餐，享受双重奢华体验。",
+    "zh": "游艇+酒店一站式度假套餐,享受双重奢华体验。",
     "en": "Yacht + hotel one-stop vacation package, enjoy a double luxury experience."
   },
   "partner-type-hotel.281": {
@@ -43284,7 +43284,7 @@ var dict = {
     "en": "Arrival concierge by sea"
   },
   "partner-type-hotel.282": {
-    "zh": "乘游艇抵达酒店专属码头，享受VIP礼宾接待。",
+    "zh": "乘游艇抵达酒店专属码头,享受VIP礼宾接待。",
     "en": "Arrive at the hotel's exclusive pier by yacht and enjoy VIP concierge reception."
   },
   "partner-type-hotel.288": {
@@ -43356,11 +43356,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "partner-type-hotel.357": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "partner-type-hotel.360": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "partner-type-hotel.365": {
@@ -43648,8 +43648,8 @@ var dict = {
     "en": "Contact Us"
   },
   "partner-type-marina.247": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "partner-type-marina.255": {
     "zh": "全球合作",
@@ -43660,7 +43660,7 @@ var dict = {
     "en": "🏝️ Global Terminal/Port Alliance"
   },
   "partner-type-marina.260": {
-    "zh": "覆盖全球80+高端游艇码头与Marina Club，提供专属泊位预订、VIP接待通道、港口税费优惠与紧急维修绿色通道。",
+    "zh": "覆盖全球80+高端游艇码头与Marina Club,提供专属泊位预订、VIP接待通道、港口税费优惠与紧急维修绿色通道。",
     "en": "Covering 80+ leading yacht marinas and Marina Clubs around the world, it provides exclusive berth reservations, VIP reception channels, port tax discounts and green channels for emergency repairs."
   },
   "partner-type-marina.267": {
@@ -43672,7 +43672,7 @@ var dict = {
     "en": "Exclusive berth reservation"
   },
   "partner-type-marina.275": {
-    "zh": "全球80+码头优先泊位预订权，旺季也能确保停泊位置。",
+    "zh": "全球80+码头优先泊位预订权,旺季也能确保停泊位置。",
     "en": "Priority reservation rights for berths in 80+ terminals around the world ensure berthing locations even in peak seasons."
   },
   "partner-type-marina.281": {
@@ -43764,11 +43764,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "partner-type-marina.366": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "partner-type-marina.369": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "partner-type-marina.374": {
@@ -44056,8 +44056,8 @@ var dict = {
     "en": "Contact Us"
   },
   "partner-type-service.247": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "partner-type-service.255": {
     "zh": "全球合作",
@@ -44068,7 +44068,7 @@ var dict = {
     "en": "🔗Service integration cooperation"
   },
   "partner-type-service.260": {
-    "zh": "将优质服务融入奇幻假期客户服务体系，共享高净值客群资源，实现互利共赢。",
+    "zh": "将优质服务融入奇幻假期客户服务体系,共享高净值客群资源,实现互利共赢。",
     "en": "Integrate high-quality services into the Fantasy Holidays customer service system, share the resources of high-net-worth customer groups, and achieve mutual benefit and win-win results."
   },
   "partner-type-service.267": {
@@ -44096,7 +44096,7 @@ var dict = {
     "en": "Data support"
   },
   "partner-type-service.289": {
-    "zh": "提供客户偏好与需求洞察，优化服务设计。",
+    "zh": "提供客户偏好与需求洞察,优化服务设计。",
     "en": "Provide insights into customer preferences and needs to optimize service design."
   },
   "partner-type-service.295": {
@@ -44156,11 +44156,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "partner-type-service.355": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "partner-type-service.358": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "partner-type-service.363": {
@@ -44448,8 +44448,8 @@ var dict = {
     "en": "Contact Us"
   },
   "partner-type-shipyard.247": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "partner-type-shipyard.255": {
     "zh": "全球合作",
@@ -44460,7 +44460,7 @@ var dict = {
     "en": "🏗️ Shipyard strategic cooperation"
   },
   "partner-type-shipyard.260": {
-    "zh": "与全球顶尖游艇制造商建立深度战略合作，为客户提供优先排产权、定制化产能保障与原厂级售后支持。",
+    "zh": "与全球顶尖游艇制造商建立深度战略合作,为客户提供优先排产权、定制化产能保障与原厂级售后支持。",
     "en": "Establish in-depth strategic cooperation with the world's leading yacht manufacturers to provide customers with priority property rights, customized production capacity guarantees and original factory-level after-sales support."
   },
   "partner-type-shipyard.267": {
@@ -44472,7 +44472,7 @@ var dict = {
     "en": "priority property rights"
   },
   "partner-type-shipyard.275": {
-    "zh": "与Ferretti、Feadship、Lürssen等高端船厂签署排产优先协议，客户订单优先排期。",
+    "zh": "与Ferretti、Feadship、Lürssen等高端船厂签署排产优先协议,客户订单优先排期。",
     "en": "We have signed production scheduling priority agreements with top shipyards such as Ferretti, Feadship, and Lürssen to prioritize customer orders."
   },
   "partner-type-shipyard.281": {
@@ -44480,7 +44480,7 @@ var dict = {
     "en": "Customized production capacity guarantee"
   },
   "partner-type-shipyard.282": {
-    "zh": "根据客户需求协调船厂定制产能，确保个性化方案顺利落地。",
+    "zh": "根据客户需求协调船厂定制产能,确保个性化方案顺利落地。",
     "en": "Coordinate the shipyard's customized production capacity according to customer needs to ensure the smooth implementation of personalized solutions."
   },
   "partner-type-shipyard.286": {
@@ -44580,11 +44580,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "partner-type-shipyard.370": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "partner-type-shipyard.373": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "partner-type-shipyard.378": {
@@ -44872,8 +44872,8 @@ var dict = {
     "en": "Contact Us"
   },
   "partner-type-tech.247": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "partner-type-tech.255": {
     "zh": "全球合作",
@@ -44884,7 +44884,7 @@ var dict = {
     "en": "⚙️Technical cooperation"
   },
   "partner-type-tech.260": {
-    "zh": "与船舶设计公司、智能系统供应商、新能源技术企业合作，共同推动游艇技术创新与升级。",
+    "zh": "与船舶设计公司、智能系统供应商、新能源技术企业合作,共同推动游艇技术创新与升级。",
     "en": "Cooperate with ship design companies, intelligent system suppliers, and new energy technology companies to jointly promote yacht technology innovation and upgrading."
   },
   "partner-type-tech.267": {
@@ -44976,11 +44976,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "partner-type-tech.355": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "partner-type-tech.358": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "partner-type-tech.363": {
@@ -45268,8 +45268,8 @@ var dict = {
     "en": "Contact Us"
   },
   "partnership.247": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "partnership.257": {
     "zh": "FANTASTIC VACATION",
@@ -45280,7 +45280,7 @@ var dict = {
     "en": "Global cooperation network"
   },
   "partnership.261": {
-    "zh": "从造船到停泊，从飞行到收藏，为您构建完整的奢华生活体验链",
+    "zh": "从造船到停泊,从飞行到收藏,为您构建完整的奢华生活体验链",
     "en": "From shipbuilding to berthing, from flying to collecting, we build a complete luxury life experience chain for you"
   },
   "partnership.264": {
@@ -45340,7 +45340,7 @@ var dict = {
     "en": "Strategic cooperation with top shipyards"
   },
   "partnership.304": {
-    "zh": "与全球顶尖游艇制造商建立深度合作关系，为客户提供优先排产权、定制化产能保障与原厂级售后支持。",
+    "zh": "与全球顶尖游艇制造商建立深度合作关系,为客户提供优先排产权、定制化产能保障与原厂级售后支持。",
     "en": "Establish in-depth cooperative relationships with the world's leading yacht manufacturers to provide customers with priority property rights, customized production capacity guarantees and original factory-level after-sales support."
   },
   "partnership.307": {
@@ -45368,7 +45368,7 @@ var dict = {
     "en": "Global Terminal/Port Alliance"
   },
   "partnership.325": {
-    "zh": "覆盖全球80+高端游艇码头，提供专属泊位预订、VIP接待通道、港口税费优惠与紧急维修绿色通道。",
+    "zh": "覆盖全球80+高端游艇码头,提供专属泊位预订、VIP接待通道、港口税费优惠与紧急维修绿色通道。",
     "en": "Covering 80+ leading yacht terminals around the world, it provides exclusive berth reservations, VIP reception channels, port tax discounts and green channels for emergency repairs."
   },
   "partnership.328": {
@@ -45396,7 +45396,7 @@ var dict = {
     "en": "Private aviation/sea, land and air transport"
   },
   "partnership.346": {
-    "zh": "与VistaJet、NetJets等高端私人航空运营商合作，实现全球任意地点直升机接送、游艇停机坪认证与海空无缝衔接。",
+    "zh": "与VistaJet、NetJets等高端私人航空运营商合作,实现全球任意地点直升机接送、游艇停机坪认证与海空无缝衔接。",
     "en": "Cooperate with top private aviation operators such as VistaJet and NetJets to achieve helicopter transfers, yacht helipad certification and seamless connection between sea and air anywhere in the world."
   },
   "partnership.349": {
@@ -45420,7 +45420,7 @@ var dict = {
     "en": "High-end hotel/resort cooperation"
   },
   "partnership.367": {
-    "zh": "与Aman、Four Seasons、Ritz-Carlton等高端度假酒店建立专属协议，提供游艇与酒店联动套餐、海上抵达礼宾服务。",
+    "zh": "与Aman、Four Seasons、Ritz-Carlton等高端度假酒店建立专属协议,提供游艇与酒店联动套餐、海上抵达礼宾服务。",
     "en": "Established exclusive agreements with top resort hotels such as Aman, Four Seasons, Ritz-Carlton, etc. to provide yacht and hotel linkage packages and concierge services for arrival at sea."
   },
   "partnership.370": {
@@ -45444,7 +45444,7 @@ var dict = {
     "en": "Art collection/high-end living"
   },
   "partnership.388": {
-    "zh": "对接苏富比、佳士得等高端拍卖行，提供游艇专属艺术定制、私人藏品鉴赏与艺术品海上运输保险服务。",
+    "zh": "对接苏富比、佳士得等高端拍卖行,提供游艇专属艺术定制、私人藏品鉴赏与艺术品海上运输保险服务。",
     "en": "Connect with top auction houses such as Sotheby's and Christie's to provide exclusive art customization for yachts, appreciation of private collections, and marine transportation insurance services for artworks."
   },
   "partnership.391": {
@@ -45472,7 +45472,7 @@ var dict = {
     "en": "Industry associations/regulatory bodies"
   },
   "partnership.409": {
-    "zh": "与国际游艇协会、海事监管机构保持紧密合作，确保合规运营、获取最新政策信息与行业资源。",
+    "zh": "与国际游艇协会、海事监管机构保持紧密合作,确保合规运营、获取最新政策信息与行业资源。",
     "en": "Maintain close cooperation with the International Yachting Association and maritime regulatory agencies to ensure compliance operations and obtain the latest policy information and industry resources."
   },
   "partnership.412": {
@@ -45496,7 +45496,7 @@ var dict = {
     "en": "Brand co-branding"
   },
   "partnership.430": {
-    "zh": "与高端奢侈品牌、高端生活方式品牌联合推出限量版游艇、联名活动与跨界项目，共创品牌价值。",
+    "zh": "与高端奢侈品牌、高端生活方式品牌联合推出限量版游艇、联名活动与跨界项目,共创品牌价值。",
     "en": "Jointly launch limited edition yachts, joint activities and cross-border projects with top luxury brands and high-end lifestyle brands to jointly create brand value."
   },
   "partnership.433": {
@@ -45520,7 +45520,7 @@ var dict = {
     "en": "Service integration cooperation"
   },
   "partnership.451": {
-    "zh": "将您的优质服务融入奇幻假期客户服务体系，共享高净值客群资源，实现互利共赢。",
+    "zh": "将您的优质服务融入奇幻假期客户服务体系,共享高净值客群资源,实现互利共赢。",
     "en": "Integrate your high-quality services into the Fantasy Holiday customer service system, share the resources of high-net-worth customer groups, and achieve mutual benefit and win-win results."
   },
   "partnership.454": {
@@ -45544,7 +45544,7 @@ var dict = {
     "en": "Channel agent cooperation"
   },
   "partnership.472": {
-    "zh": "成为奇幻假期区域代理商，共享品牌资源、销售支持与培训体系，共同开拓区域市场。",
+    "zh": "成为奇幻假期区域代理商,共享品牌资源、销售支持与培训体系,共同开拓区域市场。",
     "en": "Become the regional agent of Fantasy Vacation, share brand resources, sales support and training system, and jointly develop the regional market."
   },
   "partnership.475": {
@@ -45572,7 +45572,7 @@ var dict = {
     "en": "technical cooperation"
   },
   "partnership.493": {
-    "zh": "与船舶设计公司、智能系统供应商、新能源技术企业合作，共同推动游艇技术创新与升级。",
+    "zh": "与船舶设计公司、智能系统供应商、新能源技术企业合作,共同推动游艇技术创新与升级。",
     "en": "Cooperate with ship design companies, intelligent system suppliers, and new energy technology companies to jointly promote yacht technology innovation and upgrading."
   },
   "partnership.496": {
@@ -45708,7 +45708,7 @@ var dict = {
     "en": "Global service network"
   },
   "partnership.590": {
-    "zh": "覆盖全球30+国家与地区，为您提供无缝衔接的全球服务体验",
+    "zh": "覆盖全球30+国家与地区,为您提供无缝衔接的全球服务体验",
     "en": "Covering 30+ countries and regions around the world, providing you with a seamless global service experience"
   },
   "partnership.595": {
@@ -45756,7 +45756,7 @@ var dict = {
     "en": "Benchmark cooperation cases"
   },
   "partnership.641": {
-    "zh": "真实合作案例，见证奇幻假期的全球资源整合实力",
+    "zh": "真实合作案例,见证奇幻假期的全球资源整合实力",
     "en": "Real cooperation cases, witness the global resource integration strength of Fantasy Holidays"
   },
   "partnership.648": {
@@ -45768,7 +45768,7 @@ var dict = {
     "en": "Customized projects jointly with Ferretti Group"
   },
   "partnership.652": {
-    "zh": "为中东王室客户定制82米超级游艇，从设计到交付全程跟踪，协调Ferretti优先产能，节省18个月等待时间。",
+    "zh": "为中东王室客户定制82米超级游艇,从设计到交付全程跟踪,协调Ferretti优先产能,节省18个月等待时间。",
     "en": "Customized an 82-meter superyacht for a Middle Eastern royal client, tracked the entire process from design to delivery, and coordinated Ferretti's priority production capacity, saving 18 months of waiting time."
   },
   "partnership.656": {
@@ -45796,7 +45796,7 @@ var dict = {
     "en": "Singapore ONE°15 Marina long-term berthing cooperation"
   },
   "partnership.677": {
-    "zh": "为亚洲区客户提供新加坡优先停泊权，VIP接待通道，港口税费优惠30%，实现72小时内任意港口应急响应。",
+    "zh": "为亚洲区客户提供新加坡优先停泊权,VIP接待通道,港口税费优惠30%,实现72小时内任意港口应急响应。",
     "en": "Provide customers in Asia with priority berthing rights in Singapore, VIP reception channels, 30% discount on port taxes and fees, and realize emergency response at any port within 72 hours."
   },
   "partnership.681": {
@@ -45824,7 +45824,7 @@ var dict = {
     "en": "VistaJet seamless sea, land and air services"
   },
   "partnership.702": {
-    "zh": "与VistaJet合作实现全球任意地点直升机接送服务，从私人飞机到游艇的零等待转乘体验。",
+    "zh": "与VistaJet合作实现全球任意地点直升机接送服务,从私人飞机到游艇的零等待转乘体验。",
     "en": "Cooperate with VistaJet to realize helicopter transfer service anywhere in the world, a zero-wait transfer experience from private jet to yacht."
   },
   "partnership.706": {
@@ -45852,7 +45852,7 @@ var dict = {
     "en": "Cooperation process"
   },
   "partnership.735": {
-    "zh": "从意向提交到项目落地，全程专业服务",
+    "zh": "从意向提交到项目落地,全程专业服务",
     "en": "From intention submission to project implementation, full professional service"
   },
   "partnership.742": {
@@ -45860,7 +45860,7 @@ var dict = {
     "en": "Submission of intention"
   },
   "partnership.744": {
-    "zh": "填写合作意向表单，说明合作类型与需求",
+    "zh": "填写合作意向表单,说明合作类型与需求",
     "en": "Fill out the cooperation intention form and explain the type of cooperation and needs"
   },
   "partnership.750": {
@@ -45876,7 +45876,7 @@ var dict = {
     "en": "Plan communication"
   },
   "partnership.760": {
-    "zh": "双方深入沟通，制定定制化合作方案",
+    "zh": "双方深入沟通,制定定制化合作方案",
     "en": "The two parties communicated in depth and formulated a customized cooperation plan"
   },
   "partnership.766": {
@@ -45884,7 +45884,7 @@ var dict = {
     "en": "Signing a contract for cooperation"
   },
   "partnership.768": {
-    "zh": "签署正式合作协议，明确双方权责",
+    "zh": "签署正式合作协议,明确双方权责",
     "en": "Sign a formal cooperation agreement to clarify the rights and responsibilities of both parties"
   },
   "partnership.774": {
@@ -45892,7 +45892,7 @@ var dict = {
     "en": "Project implementation"
   },
   "partnership.776": {
-    "zh": "启动合作项目，持续跟踪与优化",
+    "zh": "启动合作项目,持续跟踪与优化",
     "en": "Start cooperation projects and continue tracking and optimization"
   },
   "partnership.781": {
@@ -45908,11 +45908,11 @@ var dict = {
     "en": "Fantastic Vacation"
   },
   "partnership.795": {
-    "zh": "无论您是高端船厂、奢华酒店、私人航空还是高端生活方式品牌，我们都期待与您建立深度合作关系，共同为高净值客户提供极致体验。",
+    "zh": "无论您是高端船厂、奢华酒店、私人航空还是高端生活方式品牌,我们都期待与您建立深度合作关系,共同为高净值客户提供极致体验。",
     "en": "Whether you are a top shipyard, luxury hotel, private aviation or high-end lifestyle brand, we look forward to establishing in-depth cooperation with you and jointly providing high-net-worth customers with the ultimate experience."
   },
   "partnership.801": {
-    "zh": "📞 +86 0755 3353-0188（商务合作专线）",
+    "zh": "📞 +86 0755 3353-0188(商务合作专线)",
     "en": "📞 +86 0755 3353-0188 (business cooperation hotline)"
   },
   "partnership.805": {
@@ -45932,11 +45932,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "partnership.834": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "partnership.837": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "partnership.842": {
@@ -46224,16 +46224,16 @@ var dict = {
     "en": "Contact Us"
   },
   "press.243": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "press.250": {
     "zh": "媒体报道",
     "en": "Media Reports"
   },
   "press.252": {
-    "zh": "奇幻假期fantastic.vacation — 主流媒体持续关注的行业标杆",
-    "en": "Fantasy vacation fantastic.vacation — an industry leader that mainstream media continues to pay attention to"
+    "zh": "奇幻假期fantastic.vacation - 主流媒体持续关注的行业标杆",
+    "en": "Fantasy vacation fantastic.vacation - an industry leader that mainstream media continues to pay attention to"
   },
   "press.257": {
     "zh": "新浪财经",
@@ -46252,11 +46252,11 @@ var dict = {
     "en": "yachting world magazine"
   },
   "press.263": {
-    "zh": "专访奇幻假期创始人：游艇行业的东方力量",
+    "zh": "专访奇幻假期创始人:游艇行业的东方力量",
     "en": "Exclusive Interview with the Founder of Fantasy Vacations: The Eastern Power of the Yachting Industry"
   },
   "press.264": {
-    "zh": "从一家小型游艇租赁公司到亚洲高端游艇服务集团，奇幻假期用10年时间书写了中国游艇行业的传奇。创始人接受本刊重点合作专访，分享成功背后的故事。",
+    "zh": "从一家小型游艇租赁公司到亚洲高端游艇服务集团,奇幻假期用10年时间书写了中国游艇行业的传奇。创始人接受本刊重点合作专访,分享成功背后的故事。",
     "en": "From a small yacht rental company to Asia's leading yacht service group, Fantasy Vacation has written the legend of China's yacht industry in 10 years. The founder accepted an exclusive interview with this publication and shared the story behind its success."
   },
   "press.265": {
@@ -46268,7 +46268,7 @@ var dict = {
     "en": "ifeng.com Finance"
   },
   "press.269": {
-    "zh": "国内首艘完全自主设计的80米以上超级游艇正式交付，标志着中国游艇制造业迈入世界高端水平。奇幻假期在游艇定制领域的突破引发行业震动。",
+    "zh": "国内首艘完全自主设计的80米以上超级游艇正式交付,标志着中国游艇制造业迈入世界高端水平。奇幻假期在游艇定制领域的突破引发行业震动。",
     "en": "The official delivery of China's first fully independently designed superyacht over 80 meters marks the entry of China's yacht manufacturing industry into the world's high-end. Fantasy Vacation's breakthrough in the field of yacht customization caused a shock in the industry."
   },
   "press.270": {
@@ -46280,7 +46280,7 @@ var dict = {
     "en": "Tencent Finance"
   },
   "press.273": {
-    "zh": "海上婚礼新标杆：奇幻假期加勒比海案例解析",
+    "zh": "海上婚礼新标杆:奇幻假期加勒比海案例解析",
     "en": "A new benchmark for weddings at sea: Fantasy vacation Caribbean case analysis"
   },
   "press.275": {
@@ -46296,7 +46296,7 @@ var dict = {
     "en": "Fantasy Vacation completes 5-year full trusteeship project for the Middle Eastern royal family"
   },
   "press.279": {
-    "zh": "中东王室船队5年全托管服务项目圆满收官，奇幻假期以零安全事故的完美表现，赢得国际高端客户的认可，进一步巩固全球市场地位。",
+    "zh": "中东王室船队5年全托管服务项目圆满收官,奇幻假期以零安全事故的完美表现,赢得国际高端客户的认可,进一步巩固全球市场地位。",
     "en": "The five-year fully managed service project of the Middle East royal fleet has come to a successful conclusion. Fantasy Vacation has won the recognition of top international customers with its perfect performance of zero safety incidents and further consolidated its global market position."
   },
   "press.280": {
@@ -46309,7 +46309,7 @@ var dict = {
   },
   "press.283": {
     "zh": "奇幻假期入选中国高端服务品牌榜单",
-    "en": "Fantasy Holidays was selected into the list of China’s high-end service brands"
+    "en": "Fantasy Holidays was selected into the list of China's high-end service brands"
   },
   "press.285": {
     "zh": "2024年7月18日",
@@ -46324,11 +46324,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "press.308": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "press.311": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "press.316": {
@@ -46612,8 +46612,8 @@ var dict = {
     "en": "Contact Us"
   },
   "privacy.239": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "privacy.246": {
     "zh": "首页",
@@ -46628,15 +46628,15 @@ var dict = {
     "en": "Privacy Policy"
   },
   "privacy.251": {
-    "zh": "奇幻假期实业有限公司深知个人信息对您的重要性，我们将按照法律法规规定，保护您的个人信息及隐私安全。",
+    "zh": "奇幻假期实业有限公司深知个人信息对您的重要性,我们将按照法律法规规定,保护您的个人信息及隐私安全。",
     "en": "Fantasy Holidays Industrial Co., Ltd. is well aware of the importance of personal information to you, and we will protect your personal information and privacy in accordance with laws and regulations."
   },
   "privacy.252": {
-    "zh": "我们收集的信息包括：您的姓名、联系方式、咨询偏好及浏览数据。这些信息仅用于为您提供更好的服务体验。",
+    "zh": "我们收集的信息包括:您的姓名、联系方式、咨询偏好及浏览数据。这些信息仅用于为您提供更好的服务体验。",
     "en": "The information we collect includes: your name, contact information, consultation preferences and browsing data. This information is only used to provide you with a better service experience."
   },
   "privacy.253": {
-    "zh": "我们不会向任何第三方出售、出租或共享您的个人信息，除非获得您的明确同意或法律法规要求。",
+    "zh": "我们不会向任何第三方出售、出租或共享您的个人信息,除非获得您的明确同意或法律法规要求。",
     "en": "We will not sell, rent or share your personal information to any third party unless we obtain your explicit consent or as required by laws and regulations."
   },
   "privacy.255": {
@@ -46652,11 +46652,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "privacy.276": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "privacy.279": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "privacy.284": {
@@ -46980,16 +46980,16 @@ var dict = {
     "en": "Contact Us"
   },
   "reviews.243": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "reviews.250": {
     "zh": "客户真实评价",
     "en": "Real customer reviews"
   },
   "reviews.252": {
-    "zh": "奇幻假期fantastic.vacation — 您的信任是我们最大的荣耀",
-    "en": "fantasy vacation fantastic.vacation — Your trust is our greatest honor"
+    "zh": "奇幻假期fantastic.vacation - 您的信任是我们最大的荣耀",
+    "en": "fantasy vacation fantastic.vacation - Your trust is our greatest honor"
   },
   "reviews.255": {
     "zh": "98%",
@@ -47140,11 +47140,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "reviews.343": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "reviews.346": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "reviews.351": {
@@ -47428,8 +47428,8 @@ var dict = {
     "en": "Contact Us"
   },
   "sitemap.239": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "sitemap.246": {
     "zh": "首页",
@@ -47492,11 +47492,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "sitemap.283": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "sitemap.286": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "sitemap.291": {
@@ -47816,8 +47816,8 @@ var dict = {
     "en": "Contact Us"
   },
   "terms.239": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "terms.246": {
     "zh": "首页",
@@ -47836,11 +47836,11 @@ var dict = {
     "en": "Welcome to use the services provided by Fantasy Holidays Industrial Co., Ltd. By using our website and services, you agree to the following terms."
   },
   "terms.252": {
-    "zh": "1. 本网站所有内容，包括但不限于文字、图片、设计、标识，均为奇幻假期所有，受知识产权法保护。",
+    "zh": "1. 本网站所有内容,包括但不限于文字、图片、设计、标识,均为奇幻假期所有,受知识产权法保护。",
     "en": "1. All content on this website, including but not limited to text, pictures, designs, and logos, are owned by Fantasy Holidays and protected by intellectual property laws."
   },
   "terms.253": {
-    "zh": "2. 游艇价格及规格信息仅供参考，实际配置与价格以最终合同为准。",
+    "zh": "2. 游艇价格及规格信息仅供参考,实际配置与价格以最终合同为准。",
     "en": "2. Yacht price and specification information are for reference only. The actual configuration and price are subject to the final contract."
   },
   "terms.254": {
@@ -47848,7 +47848,7 @@ var dict = {
     "en": "3. We reserve the right to modify the website content and services without prior notice."
   },
   "terms.255": {
-    "zh": "4. 通过本网站提交的信息，我们将在合理范围内保密处理。",
+    "zh": "4. 通过本网站提交的信息,我们将在合理范围内保密处理。",
     "en": "4. Information submitted through this website will be treated confidentially within reasonable limits."
   },
   "terms.256": {
@@ -47864,11 +47864,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "terms.277": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "terms.280": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "terms.285": {
@@ -48196,8 +48196,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-1.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-1.254": {
     "zh": "君临系列",
@@ -48388,7 +48388,7 @@ var dict = {
     "en": "¥8000Million from"
   },
   "yacht-1.356": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-1.358": {
@@ -48404,11 +48404,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-1.380": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-1.383": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-1.388": {
@@ -48732,8 +48732,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-10.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-10.254": {
     "zh": "君临系列",
@@ -48948,7 +48948,7 @@ var dict = {
     "en": "¥900Million from"
   },
   "yacht-10.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-10.370": {
@@ -48964,11 +48964,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-10.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-10.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-10.400": {
@@ -49292,8 +49292,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-11.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-11.254": {
     "zh": "君临系列",
@@ -49508,7 +49508,7 @@ var dict = {
     "en": "¥780Million from"
   },
   "yacht-11.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-11.370": {
@@ -49524,11 +49524,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-11.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-11.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-11.400": {
@@ -49852,8 +49852,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-12.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-12.254": {
     "zh": "君临系列",
@@ -50068,7 +50068,7 @@ var dict = {
     "en": "¥650Million from"
   },
   "yacht-12.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-12.370": {
@@ -50084,11 +50084,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-12.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-12.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-12.400": {
@@ -50412,8 +50412,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-13.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-13.254": {
     "zh": "远征系列",
@@ -50628,7 +50628,7 @@ var dict = {
     "en": "¥2400Million from"
   },
   "yacht-13.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-13.370": {
@@ -50644,11 +50644,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-13.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-13.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-13.400": {
@@ -50972,8 +50972,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-14.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-14.254": {
     "zh": "远征系列",
@@ -51188,7 +51188,7 @@ var dict = {
     "en": "¥1800Million from"
   },
   "yacht-14.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-14.370": {
@@ -51204,11 +51204,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-14.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-14.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-14.400": {
@@ -51532,8 +51532,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-15.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-15.254": {
     "zh": "远征系列",
@@ -51748,7 +51748,7 @@ var dict = {
     "en": "¥1400Million from"
   },
   "yacht-15.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-15.370": {
@@ -51764,11 +51764,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-15.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-15.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-15.400": {
@@ -52092,8 +52092,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-16.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-16.254": {
     "zh": "远征系列",
@@ -52308,7 +52308,7 @@ var dict = {
     "en": "¥1000Million from"
   },
   "yacht-16.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-16.370": {
@@ -52324,11 +52324,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-16.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-16.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-16.400": {
@@ -52652,8 +52652,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-17.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-17.254": {
     "zh": "远征系列",
@@ -52868,7 +52868,7 @@ var dict = {
     "en": "¥720Million from"
   },
   "yacht-17.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-17.370": {
@@ -52884,11 +52884,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-17.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-17.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-17.400": {
@@ -53212,8 +53212,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-18.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-18.254": {
     "zh": "远征系列",
@@ -53428,7 +53428,7 @@ var dict = {
     "en": "¥560Million from"
   },
   "yacht-18.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-18.370": {
@@ -53444,11 +53444,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-18.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-18.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-18.400": {
@@ -53772,8 +53772,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-19.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-19.254": {
     "zh": "远征系列",
@@ -53984,7 +53984,7 @@ var dict = {
     "en": "¥420Million from"
   },
   "yacht-19.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-19.370": {
@@ -54000,11 +54000,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-19.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-19.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-19.400": {
@@ -54328,8 +54328,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-2.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-2.254": {
     "zh": "君临系列",
@@ -54532,7 +54532,7 @@ var dict = {
     "en": "¥6500Million from"
   },
   "yacht-2.362": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-2.364": {
@@ -54548,11 +54548,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-2.386": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-2.389": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-2.394": {
@@ -54876,8 +54876,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-20.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-20.254": {
     "zh": "远征系列",
@@ -55092,7 +55092,7 @@ var dict = {
     "en": "¥640Million from"
   },
   "yacht-20.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-20.370": {
@@ -55108,11 +55108,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-20.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-20.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-20.400": {
@@ -55436,8 +55436,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-21.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-21.254": {
     "zh": "远征系列",
@@ -55652,7 +55652,7 @@ var dict = {
     "en": "¥800Million from"
   },
   "yacht-21.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-21.370": {
@@ -55668,11 +55668,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-21.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-21.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-21.400": {
@@ -55996,8 +55996,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-22.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-22.254": {
     "zh": "远征系列",
@@ -56212,7 +56212,7 @@ var dict = {
     "en": "¥1100Million from"
   },
   "yacht-22.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-22.370": {
@@ -56228,11 +56228,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-22.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-22.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-22.400": {
@@ -56556,8 +56556,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-23.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-23.254": {
     "zh": "远征系列",
@@ -56772,7 +56772,7 @@ var dict = {
     "en": "¥760Million from"
   },
   "yacht-23.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-23.370": {
@@ -56788,11 +56788,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-23.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-23.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-23.400": {
@@ -57116,8 +57116,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-24.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-24.254": {
     "zh": "远征系列",
@@ -57332,7 +57332,7 @@ var dict = {
     "en": "¥950Million from"
   },
   "yacht-24.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-24.370": {
@@ -57348,11 +57348,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-24.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-24.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-24.400": {
@@ -57676,8 +57676,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-25.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-25.254": {
     "zh": "飞桥系列",
@@ -57892,7 +57892,7 @@ var dict = {
     "en": "¥620Million from"
   },
   "yacht-25.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-25.370": {
@@ -57908,11 +57908,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-25.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-25.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-25.400": {
@@ -58236,8 +58236,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-26.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-26.254": {
     "zh": "飞桥系列",
@@ -58452,7 +58452,7 @@ var dict = {
     "en": "¥450Million from"
   },
   "yacht-26.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-26.370": {
@@ -58468,11 +58468,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-26.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-26.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-26.400": {
@@ -58796,8 +58796,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-27.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-27.254": {
     "zh": "飞桥系列",
@@ -59008,7 +59008,7 @@ var dict = {
     "en": "¥320Million from"
   },
   "yacht-27.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-27.370": {
@@ -59024,11 +59024,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-27.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-27.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-27.400": {
@@ -59352,8 +59352,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-28.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-28.254": {
     "zh": "飞桥系列",
@@ -59564,7 +59564,7 @@ var dict = {
     "en": "¥220Million from"
   },
   "yacht-28.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-28.370": {
@@ -59580,11 +59580,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-28.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-28.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-28.400": {
@@ -59908,8 +59908,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-29.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-29.254": {
     "zh": "飞桥系列",
@@ -60120,7 +60120,7 @@ var dict = {
     "en": "¥160Million from"
   },
   "yacht-29.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-29.370": {
@@ -60136,11 +60136,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-29.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-29.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-29.400": {
@@ -60464,8 +60464,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-3.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-3.254": {
     "zh": "君临系列",
@@ -60680,7 +60680,7 @@ var dict = {
     "en": "¥5000Million from"
   },
   "yacht-3.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-3.370": {
@@ -60696,11 +60696,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-3.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-3.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-3.400": {
@@ -61024,8 +61024,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-30.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-30.254": {
     "zh": "飞桥系列",
@@ -61037,7 +61037,7 @@ var dict = {
   },
   "yacht-30.258": {
     "zh": "FH-22 · 22米 · 绅士品味 · 经典飞桥游艇",
-    "en": "FH-22 · 22 meters · Gentleman’s taste · Classic flybridge yacht"
+    "en": "FH-22 · 22 meters · Gentleman's taste · Classic flybridge yacht"
   },
   "yacht-30.261": {
     "zh": "22m",
@@ -61236,7 +61236,7 @@ var dict = {
     "en": "¥110Million from"
   },
   "yacht-30.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-30.370": {
@@ -61252,11 +61252,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-30.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-30.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-30.400": {
@@ -61580,8 +61580,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-31.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-31.254": {
     "zh": "飞桥系列",
@@ -61792,7 +61792,7 @@ var dict = {
     "en": "¥80Million from"
   },
   "yacht-31.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-31.370": {
@@ -61808,11 +61808,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-31.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-31.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-31.400": {
@@ -62136,8 +62136,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-32.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-32.254": {
     "zh": "飞桥系列",
@@ -62348,7 +62348,7 @@ var dict = {
     "en": "¥55Million from"
   },
   "yacht-32.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-32.370": {
@@ -62364,11 +62364,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-32.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-32.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-32.400": {
@@ -62692,8 +62692,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-33.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-33.254": {
     "zh": "飞桥系列",
@@ -62908,7 +62908,7 @@ var dict = {
     "en": "¥560Million from"
   },
   "yacht-33.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-33.370": {
@@ -62924,11 +62924,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-33.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-33.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-33.400": {
@@ -63252,8 +63252,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-34.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-34.254": {
     "zh": "飞桥系列",
@@ -63464,7 +63464,7 @@ var dict = {
     "en": "¥360Million from"
   },
   "yacht-34.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-34.370": {
@@ -63480,11 +63480,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-34.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-34.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-34.400": {
@@ -63808,8 +63808,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-35.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-35.254": {
     "zh": "飞桥系列",
@@ -64020,7 +64020,7 @@ var dict = {
     "en": "¥260Million from"
   },
   "yacht-35.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-35.370": {
@@ -64036,11 +64036,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-35.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-35.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-35.400": {
@@ -64364,8 +64364,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-36.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-36.254": {
     "zh": "飞桥系列",
@@ -64576,7 +64576,7 @@ var dict = {
     "en": "¥130Million from"
   },
   "yacht-36.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-36.370": {
@@ -64592,11 +64592,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-36.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-36.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-36.400": {
@@ -64920,8 +64920,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-37.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-37.254": {
     "zh": "飞桥系列",
@@ -65132,7 +65132,7 @@ var dict = {
     "en": "¥190Million from"
   },
   "yacht-37.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-37.370": {
@@ -65148,11 +65148,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-37.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-37.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-37.400": {
@@ -65476,8 +65476,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-38.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-38.254": {
     "zh": "日间系列",
@@ -65688,7 +65688,7 @@ var dict = {
     "en": "¥48Million from"
   },
   "yacht-38.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-38.370": {
@@ -65704,11 +65704,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-38.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-38.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-38.400": {
@@ -66032,8 +66032,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-39.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-39.254": {
     "zh": "日间系列",
@@ -66244,7 +66244,7 @@ var dict = {
     "en": "¥32Million from"
   },
   "yacht-39.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-39.370": {
@@ -66260,11 +66260,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-39.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-39.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-39.400": {
@@ -66588,8 +66588,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-4.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-4.254": {
     "zh": "君临系列",
@@ -66804,7 +66804,7 @@ var dict = {
     "en": "¥4200Million from"
   },
   "yacht-4.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-4.370": {
@@ -66820,11 +66820,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-4.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-4.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-4.400": {
@@ -67148,8 +67148,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-40.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-40.254": {
     "zh": "日间系列",
@@ -67360,7 +67360,7 @@ var dict = {
     "en": "¥22Million from"
   },
   "yacht-40.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-40.370": {
@@ -67376,11 +67376,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-40.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-40.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-40.400": {
@@ -67704,8 +67704,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-41.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-41.254": {
     "zh": "日间系列",
@@ -67916,7 +67916,7 @@ var dict = {
     "en": "¥15Million from"
   },
   "yacht-41.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-41.370": {
@@ -67932,11 +67932,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-41.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-41.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-41.400": {
@@ -68260,8 +68260,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-42.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-42.254": {
     "zh": "日间系列",
@@ -68472,7 +68472,7 @@ var dict = {
     "en": "¥10Million from"
   },
   "yacht-42.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-42.370": {
@@ -68488,11 +68488,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-42.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-42.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-42.400": {
@@ -68816,8 +68816,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-43.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-43.254": {
     "zh": "日间系列",
@@ -69028,7 +69028,7 @@ var dict = {
     "en": "¥38Million from"
   },
   "yacht-43.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-43.370": {
@@ -69044,11 +69044,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-43.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-43.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-43.400": {
@@ -69372,8 +69372,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-44.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-44.254": {
     "zh": "日间系列",
@@ -69584,7 +69584,7 @@ var dict = {
     "en": "¥26Million from"
   },
   "yacht-44.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-44.370": {
@@ -69600,11 +69600,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-44.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-44.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-44.400": {
@@ -69928,8 +69928,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-45.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-45.254": {
     "zh": "日间系列",
@@ -70140,7 +70140,7 @@ var dict = {
     "en": "¥18Million from"
   },
   "yacht-45.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-45.370": {
@@ -70156,11 +70156,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-45.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-45.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-45.400": {
@@ -70484,8 +70484,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-46.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-46.254": {
     "zh": "日间系列",
@@ -70696,7 +70696,7 @@ var dict = {
     "en": "¥42Million from"
   },
   "yacht-46.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-46.370": {
@@ -70712,11 +70712,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-46.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-46.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-46.400": {
@@ -71040,8 +71040,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-47.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-47.254": {
     "zh": "日间系列",
@@ -71252,7 +71252,7 @@ var dict = {
     "en": "¥52Million from"
   },
   "yacht-47.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-47.370": {
@@ -71268,11 +71268,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-47.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-47.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-47.400": {
@@ -71596,8 +71596,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-48.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-48.254": {
     "zh": "日间系列",
@@ -71808,7 +71808,7 @@ var dict = {
     "en": "¥58Million from"
   },
   "yacht-48.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-48.370": {
@@ -71824,11 +71824,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-48.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-48.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-48.400": {
@@ -72152,8 +72152,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-49.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-49.254": {
     "zh": "日间系列",
@@ -72352,7 +72352,7 @@ var dict = {
     "en": "¥65Million from"
   },
   "yacht-49.362": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-49.364": {
@@ -72368,11 +72368,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-49.386": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-49.389": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-49.394": {
@@ -72696,8 +72696,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-5.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-5.254": {
     "zh": "君临系列",
@@ -72912,7 +72912,7 @@ var dict = {
     "en": "¥3500Million from"
   },
   "yacht-5.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-5.370": {
@@ -72928,11 +72928,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-5.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-5.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-5.400": {
@@ -73256,8 +73256,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-50.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-50.254": {
     "zh": "日间系列",
@@ -73444,7 +73444,7 @@ var dict = {
     "en": "¥72Million from"
   },
   "yacht-50.356": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-50.358": {
@@ -73460,11 +73460,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-50.380": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-50.383": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-50.388": {
@@ -73788,8 +73788,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-6.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-6.254": {
     "zh": "君临系列",
@@ -74004,7 +74004,7 @@ var dict = {
     "en": "¥2800Million from"
   },
   "yacht-6.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-6.370": {
@@ -74020,11 +74020,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-6.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-6.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-6.400": {
@@ -74348,8 +74348,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-7.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-7.254": {
     "zh": "君临系列",
@@ -74564,7 +74564,7 @@ var dict = {
     "en": "¥2200Million from"
   },
   "yacht-7.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-7.370": {
@@ -74580,11 +74580,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-7.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-7.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-7.400": {
@@ -74908,8 +74908,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-8.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-8.254": {
     "zh": "君临系列",
@@ -75124,7 +75124,7 @@ var dict = {
     "en": "¥1600Million from"
   },
   "yacht-8.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-8.370": {
@@ -75140,11 +75140,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-8.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-8.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-8.400": {
@@ -75468,8 +75468,8 @@ var dict = {
     "en": "Contact Us"
   },
   "yacht-9.246": {
-    "zh": "电话：13797920792 / +86 0755 3353-0188",
-    "en": "Tel：13797920792 / +86 0755 3353-0188"
+    "zh": "电话:13797920792 / +86 0755 3353-0188",
+    "en": "Tel:13797920792 / +86 0755 3353-0188"
   },
   "yacht-9.254": {
     "zh": "君临系列",
@@ -75684,7 +75684,7 @@ var dict = {
     "en": "¥1200Million from"
   },
   "yacht-9.368": {
-    "zh": "参考价格，实际价格以定制配置为准",
+    "zh": "参考价格,实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
   },
   "yacht-9.370": {
@@ -75700,11 +75700,11 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "yacht-9.392": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yacht-9.395": {
-    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
+    "zh": "奇幻假期实业有限公司深耕高端游艇行业15年,为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
     "en": "Fantasy Holidays Industrial Co., Ltd. has been deeply involved in the high-end yacht industry for 15 years, providing one-stop services for the entire industry chain of yacht customization, leasing, and custody for 200+ global high-net-worth customers."
   },
   "yacht-9.400": {
@@ -76097,7 +76097,7 @@ var dict = {
   },
   "yachts.886": {
     "zh": "FH-22 · 22m · 绅士品味 · 经典飞桥游艇",
-    "en": "FH-22 · 22m · Gentleman’s taste · Classic flybridge yacht"
+    "en": "FH-22 · 22m · Gentleman's taste · Classic flybridge yacht"
   },
   "yachts.895": {
     "zh": "¥110万起",
@@ -76268,7 +76268,7 @@ var dict = {
     "en": "¥72Million from"
   },
   "yachts.1340": {
-    "zh": "「探索全球，不负假期」",
+    "zh": "「探索全球,不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
   },
   "yachts.1376": {
@@ -76328,15 +76328,15 @@ var dict = {
     "en": "View More"
   },
   "news.8": {
-    "zh": "中国游艇产业政策松绑，游艇驾照考试简化",
+    "zh": "中国游艇产业政策松绑,游艇驾照考试简化",
     "en": "China Yacht Industry Policy Eased, Yacht License Exam Simplified"
   },
   "news.9": {
-    "zh": "南极探险实录：奇幻假期船队成功完成首次南极航行",
+    "zh": "南极探险实录:奇幻假期船队成功完成首次南极航行",
     "en": "Antarctic Expedition Record: Fantastic Vacation Fleet Successfully Completes First Antarctic Voyage"
   },
   "news.10": {
-    "zh": "新加坡游艇展：奇幻假期签约5艘超级游艇订单",
+    "zh": "新加坡游艇展:奇幻假期签约5艘超级游艇订单",
     "en": "Singapore Yacht Show: Fantastic Vacation Signs 5 Superyacht Orders"
   },
   "_recruit": {
@@ -76344,27 +76344,27 @@ var dict = {
     "en": "Join Us · Job Openings"
   },
   "case-030.337": {
-    "zh": "\"拍摄零延误，制片方高度评价，后续三部电影签约合作\"",
+    "zh": "\"拍摄零延误,制片方高度评价,后续三部电影签约合作\"",
     "en": "Zero delay in filming, high praise from production team, three film contracts signed"
   },
   "case-026.337": {
-    "zh": "\"动力性能提升15%，油耗降低8%，船东表示非常满意\"",
+    "zh": "\"动力性能提升15%,油耗降低8%,船东表示非常满意\"",
     "en": "Power performance improved 15%, fuel consumption reduced 8%, client very satisfied"
   },
   "case-006.257": {
-    "zh": "跨国企业年度峰会海上托管案例，3艘游艇编队航行，200名高管及嘉宾，全程零意外，荣获\"企业最佳年度活动合作伙伴\"称号。",
+    "zh": "跨国企业年度峰会海上托管案例,3艘游艇编队航行,200名高管及嘉宾,全程零意外,荣获\"企业最佳年度活动合作伙伴\"称号。",
     "en": "Multinational corporate annual summit yacht management, 3 yachts fleet, 200 executives, zero accidents, awarded Best Corporate Event"
   },
   "case-006.371": {
-    "zh": "凭借创新的编队航行方案与完美的年会执行，荣获企业活动行业协会\"年度最佳活动合作伙伴\"称号。",
+    "zh": "凭借创新的编队航行方案与完美的年会执行,荣获企业活动行业协会\"年度最佳活动合作伙伴\"称号。",
     "en": "Awarded 'Best Annual Event Partner' by Corporate Events Industry Association for innovative fleet solution."
   },
   "case-006.380": {
-    "zh": "\"这是我们公司历史上最成功的年度峰会。奇幻假期团队用专业的服务与创新的活动策划，让200位同事度过了终生难忘的5天。从编队航行的震撼体验到年会晚会的完美执行，每一个环节都超出了我们的期望。感谢你们创造了这场海上传奇。\"",
+    "zh": "\"这是我们公司历史上最成功的年度峰会。奇幻假期团队用专业的服务与创新的活动策划,让200位同事度过了终生难忘的5天。从编队航行的震撼体验到年会晚会的完美执行,每一个环节都超出了我们的期望。感谢你们创造了这场海上传奇。\"",
     "en": "The most successful annual summit in our company's history. Fantastic Vacation team delivered perfect service and innovative planning for 200 colleagues."
   },
   "press.259": {
-    "zh": "在2024年度亚洲游艇行业颁奖盛典上，奇幻假期凭借卓越的服务品质与创新能力，荣获\"亚洲最佳游艇服务商\"称号，成为中国首家获此殊荣的企业。",
+    "zh": "在2024年度亚洲游艇行业颁奖盛典上,奇幻假期凭借卓越的服务品质与创新能力,荣获\"亚洲最佳游艇服务商\"称号,成为中国首家获此殊荣的企业。",
     "en": "Fantastic Vacation won 'Asia's Best Yacht Service Provider' at 2024 Asia Yacht Industry Awards."
   },
   "press.268": {
@@ -76372,11 +76372,11 @@ var dict = {
     "en": "Fantastic Vacation 82m Superyacht 'Fantasy Blue' Delivered"
   },
   "press.274": {
-    "zh": "一场耗资千万的海上婚礼如何成为行业标杆？奇幻假期为亚洲家族打造的加勒比海婚礼包船案例，被业内评为\"年度最佳海上婚礼\"。",
+    "zh": "一场耗资千万的海上婚礼如何成为行业标杆?奇幻假期为亚洲家族打造的加勒比海婚礼包船案例,被业内评为\"年度最佳海上婚礼\"。",
     "en": "How did a $10M+ sea wedding become an industry leader? Rated 'Most Innovative Luxury Event of the Year'."
   },
   "press.284": {
-    "zh": "在福布斯中国发布的\"2024年度高端服务品牌榜\"中，奇幻假期作为核心游艇服务企业入选，彰显其在高端生活方式服务领域的领先地位。",
+    "zh": "在福布斯中国发布的\"2024年度高端服务品牌榜\"中,奇幻假期作为核心游艇服务企业入选,彰显其在高端生活方式服务领域的领先地位。",
     "en": "Fantastic Vacation selected for Forbes China '2024 High-End Service Brands List' as one of the key yacht service company."
   },
   "index.60": {
@@ -76384,7 +76384,7 @@ var dict = {
     "en": "Business Sectors"
   },
   "index.100": {
-    "zh": "\"我们不制造游艇，我们编织海洋梦想。\"",
+    "zh": "\"我们不制造游艇,我们编织海洋梦想。\"",
     "en": "We don't manufacture yachts, we weave ocean dreams."
   },
   "index.161": {
@@ -76392,183 +76392,183 @@ var dict = {
     "en": "82m Superyacht 'Fantasy Blue'"
   },
   "case-011.340": {
-    "zh": "\"客户满意度100%，表示下次还会选择奇幻假期，已预约下季度行程\"",
+    "zh": "\"客户满意度100%,表示下次还会选择奇幻假期,已预约下季度行程\"",
     "en": "100% client satisfaction, will definitely choose Fantastic Vacation again, already booked next quarter"
   },
   "case-007.256": {
-    "zh": "历时18个月的全面改装项目，涵盖内饰焕新、动力升级、智能系统安装，获评\"年度最佳改装项目\"，游艇市场估值提升35%。",
+    "zh": "历时18个月的全面改装项目,涵盖内饰焕新、动力升级、智能系统安装,获评\"年度最佳改装项目\",游艇市场估值提升35%。",
     "en": "18-month refit project, interior renovation, power upgrade, smart systems, awarded 'Refit Project of the Year'"
   },
   "case-007.323": {
-    "zh": "\"永恒之星的改装超出了我的所有期望。奇幻假期团队用18个月的时间，把这艘10年船龄的游艇变成了一艘全新的海上宫殿。无论是设计还是技术，每一个细节都完美。感谢你们让我的游艇焕发新生。\"",
+    "zh": "\"永恒之星的改装超出了我的所有期望。奇幻假期团队用18个月的时间,把这艘10年船龄的游艇变成了一艘全新的海上宫殿。无论是设计还是技术,每一个细节都完美。感谢你们让我的游艇焕发新生。\"",
     "en": "The refit exceeded expectations, better than a new yacht"
   },
   "cases-charter.301": {
-    "zh": "为亚洲家族举办的世纪海上婚礼，租用85米超级游艇，宾客120人，7天6夜，航线：巴哈马→开曼群岛。全程零意外，获评\"年度最佳海上婚礼\"。",
+    "zh": "为亚洲家族举办的世纪海上婚礼,租用85米超级游艇,宾客120人,7天6夜,航线:巴哈马→开曼群岛。全程零意外,获评\"年度最佳海上婚礼\"。",
     "en": "Century sea wedding for Asian family, 85m superyacht, 120 guests, 7 days 6 nights, Bahamas to Cayman Islands."
   },
   "case-027.335": {
-    "zh": "\"冬季零损伤，春季完美启航，船东表示比预期更好\"",
+    "zh": "\"冬季零损伤,春季完美启航,船东表示比预期更好\"",
     "en": "Zero damage in winter, perfect launch in spring, client said better than expected"
   },
   "case-016.335": {
-    "zh": "\"会议圆满完成，集团总裁亲笔致谢函，承诺长期合作\"",
+    "zh": "\"会议圆满完成,集团总裁亲笔致谢函,承诺长期合作\"",
     "en": "Meeting completed successfully, group president sent thank-you letter, promised long-term cooperation"
   },
   "custom.532": {
-    "zh": "四大核心维度，覆盖游艇定制的每一个细节，真正实现\"一艇一世界\"的极致个性化体验",
+    "zh": "四大核心维度,覆盖游艇定制的每一个细节,真正实现\"一艇一世界\"的极致个性化体验",
     "en": "Four core dimensions covering every yacht customization detail, realizing 'One Yacht, One World' personalized experience"
   },
   "custom.614": {
-    "zh": "在奇幻假期，我们深知\"所见即所得\"对于百万级投资决策的重要性。因此，我们在行业内率先推出",
+    "zh": "在奇幻假期,我们深知\"所见即所得\"对于百万级投资决策的重要性。因此,我们在行业内率先推出",
     "en": "We understand 'what you see is what you get' for million-dollar investments. Therefore, we launched..."
   },
   "custom.658": {
-    "zh": "客户为知名收藏家，将游艇打造为\"海上美术馆\"。水墨画留白意境融入内饰，缅甸金丝楠木拼接意大利Bulgari大理石，主厅悬挂齐白石真迹复制品。Bose定制声学系统实现\"丝竹之韵\"水下音乐体验，尾甲板禅意枯山水花园配自动雾化系统。",
+    "zh": "客户为知名收藏家,将游艇打造为\"海上美术馆\"。水墨画留白意境融入内饰,缅甸金丝楠木拼接意大利Bulgari大理石,主厅悬挂齐白石真迹复制品。Bose定制声学系统实现\"丝竹之韵\"水下音乐体验,尾甲板禅意枯山水花园配自动雾化系统。",
     "en": "Client is a renowned collector who wanted the yacht to be a 'floating art museum'. Ink wash painting aesthetics integrated into interior, Burmese golden phoebe wood inlaid with Italian Bulgari marble."
   },
   "cases.428": {
-    "zh": "为亚洲家族举办的世纪海上婚礼，租用85米超级游艇，宾客120人，7天6夜，航线：巴哈马→开曼群岛。全程零意外，获评\"年度最佳海上婚礼\"。",
+    "zh": "为亚洲家族举办的世纪海上婚礼,租用85米超级游艇,宾客120人,7天6夜,航线:巴哈马→开曼群岛。全程零意外,获评\"年度最佳海上婚礼\"。",
     "en": "Century sea wedding for Asian family, 85m superyacht charter, 120 guests, 7 days 6 nights, route: Bahamas → Cayman Islands. Full wedding planning and execution."
   },
   "cases.450": {
-    "zh": "为跨国企业年度峰会提供的海上活动托管，3艘游艇编队航行，200名高管及嘉宾，全程无意外。荣获企业\"最佳年度活动合作伙伴\"称号。",
+    "zh": "为跨国企业年度峰会提供的海上活动托管,3艘游艇编队航行,200名高管及嘉宾,全程无意外。荣获企业\"最佳年度活动合作伙伴\"称号。",
     "en": "Multinational corporate annual summit yacht management, 3 yachts fleet sailing, 200 executives and guests, zero accidents throughout, awarded 'Best Corporate Annual Event'."
   },
   "cases.670": {
-    "zh": "跨国企业CEO峰会，高端保密商务会晤，全程无打扰服务，获评\"年度最佳商务活动\"。",
+    "zh": "跨国企业CEO峰会,高端保密商务会晤,全程无打扰服务,获评\"年度最佳商务活动\"。",
     "en": "Multinational corporate CEO summit, high-end confidential business meetings, zero-disturbance service, awarded 'Best Corporate Event of the Year'."
   },
   "cases.780": {
-    "zh": "60位宾客的豪华生日派对，7天航线，全程定制主题活动，获评\"年度最佳派对\"。",
+    "zh": "60位宾客的豪华生日派对,7天航线,全程定制主题活动,获评\"年度最佳派对\"。",
     "en": "Luxury birthday party for 60 guests, 7-day itinerary, fully customized themed activities, awarded 'Best Party of the Year'."
   },
   "case-020.335": {
-    "zh": "\"求婚成功！客户当场表示最完美的时刻\"",
+    "zh": "\"求婚成功!客户当场表示最完美的时刻\"",
     "en": "Proposal successful! Client said it was the most perfect moment of his life."
   },
   "case-021.335": {
-    "zh": "\"获评年度最佳海上派对，王室成员亲笔感谢信\"",
+    "zh": "\"获评年度最佳海上派对,王室成员亲笔感谢信\"",
     "en": "Awarded 'Best Sea Party of the Year', royal family member sent personal thank-you letter."
   },
   "cases-event.279": {
-    "zh": "为跨国企业年度峰会提供的海上活动托管，3艘游艇编队航行，200名高管及嘉宾，全程无意外。荣获企业\"最佳年度活动合作伙伴\"称号。",
+    "zh": "为跨国企业年度峰会提供的海上活动托管,3艘游艇编队航行,200名高管及嘉宾,全程无意外。荣获企业\"最佳年度活动合作伙伴\"称号。",
     "en": "Sea event hosting for multinational corporate annual summit, 3-yacht fleet formation sailing, 200 executives and guests, zero accidents throughout. Awarded 'Best Corporate Event'."
   },
   "case-017.335": {
-    "zh": "\"客户当场表示追加投资，宴请ROI超预期\"",
+    "zh": "\"客户当场表示追加投资,宴请ROI超预期\"",
     "en": "Client announced additional investment on the spot, banquet ROI exceeded expectations."
   },
   "case-001.580": {
-    "zh": "\"奇幻假期团队不仅交付了一艘超级游艇，更交付了一座行走在海上的宫殿。从设计到建造，从试航到交付，每一个细节都超出了我们的期望。感谢你们让家族的梦想成真。\"",
+    "zh": "\"奇幻假期团队不仅交付了一艘超级游艇,更交付了一座行走在海上的宫殿。从设计到建造,从试航到交付,每一个细节都超出了我们的期望。感谢你们让家族的梦想成真。\"",
     "en": "The Fantastic Vacation team didn't just deliver a superyacht, they delivered a floating palace. From design to construction, from sea trials to delivery, every detail..."
   },
   "case-014.335": {
-    "zh": "\"成员评价最成功的一次聚会，已预订明年同款行程\"",
+    "zh": "\"成员评价最成功的一次聚会,已预订明年同款行程\"",
     "en": "Most successful gathering ever, already booked same itinerary for next year."
   },
   "cases-management.301": {
-    "zh": "为跨国企业年度峰会提供的海上活动托管，3艘游艇编队航行，200名高管及嘉宾，全程无意外。荣获企业\"最佳年度活动合作伙伴\"称号。",
+    "zh": "为跨国企业年度峰会提供的海上活动托管,3艘游艇编队航行,200名高管及嘉宾,全程无意外。荣获企业\"最佳年度活动合作伙伴\"称号。",
     "en": "Sea activity management for multinational corporate annual summit, 3-yacht fleet formation sailing, 200 executives and guests, zero accidents. Awarded 'Best Corporate Event'."
   },
   "case-002.573": {
-    "zh": "\"这不仅仅是一次度假，更是一场改变生活方式的旅程。奇幻假期团队的细节把控与专业服务，让我们重新定义了什么是真正的奢华。30天，12个国家，每一个港口都是一段新的故事。\"",
+    "zh": "\"这不仅仅是一次度假,更是一场改变生活方式的旅程。奇幻假期团队的细节把控与专业服务,让我们重新定义了什么是真正的奢华。30天,12个国家,每一个港口都是一段新的故事。\"",
     "en": "This wasn't just a vacation, it was a life-changing journey. The Fantastic Vacation team's attention to detail and professional service redefined our understanding of luxury travel."
   },
   "case-022.335": {
-    "zh": "\"家族成员一致好评，已预订明年家族聚会\"",
+    "zh": "\"家族成员一致好评,已预订明年家族聚会\"",
     "en": "Family members unanimously praised, already booked next year's family gathering."
   },
   "case-018.335": {
-    "zh": "\"发布会获得全球媒体广泛报道，品牌方满意度100%\"",
+    "zh": "\"发布会获得全球媒体广泛报道,品牌方满意度100%\"",
     "en": "Press conference received widespread global media coverage, 100% brand satisfaction."
   },
   "case-019.335": {
-    "zh": "\"员工满意度98%，HR总监表示最成功的年会\"",
+    "zh": "\"员工满意度98%,HR总监表示最成功的年会\"",
     "en": "98% employee satisfaction, HR director said it was the most successful annual meeting."
   },
   "case-023.337": {
-    "zh": "\"连续3年无重大故障，船东满意度100%，已续签5年合同\"",
+    "zh": "\"连续3年无重大故障,船东满意度100%,已续签5年合同\"",
     "en": "Zero major failures for 3 consecutive years, 100% shipowner satisfaction, renewed 5-year contract."
   },
   "case-003.577": {
-    "zh": "\"奇幻假期团队用5年的专业服务证明了他们是值得信赖的合作伙伴。从日常运营到紧急响应，从成本优化到资产保值，每一个细节都超出了我们的期望。感谢你们让家族的每一艘游艇都保持在最佳状态。\"",
+    "zh": "\"奇幻假期团队用5年的专业服务证明了他们是值得信赖的合作伙伴。从日常运营到紧急响应,从成本优化到资产保值,每一个细节都超出了我们的期望。感谢你们让家族的每一艘游艇都保持在最佳状态。\"",
     "en": "The Fantastic Vacation team proved with 5 years of professional service that they are a trustworthy partner. From daily operations to emergency response, from cost optimization to asset appreciation..."
   },
   "case-015.335": {
-    "zh": "\"内容发布后获得10万加互动，品牌方主动联系合作\"",
+    "zh": "\"内容发布后获得10万加互动,品牌方主动联系合作\"",
     "en": "Post-release received 100K+ interactions, brand partner actively contacted for collaboration."
   },
   "case-024.337": {
-    "zh": "\"保养后各项指标优于出厂标准，船东表示超出预期\"",
+    "zh": "\"保养后各项指标优于出厂标准,船东表示超出预期\"",
     "en": "All indicators after maintenance exceeded factory standards, shipowner said it exceeded expectations."
   },
   "case-008.256": {
-    "zh": "为国际高端帆船赛提供完整赛事保障船队，包括裁判船、媒体船、医疗船、VIP船共12艘，赛事期间零安全事故，获评\"最佳赛事合作伙伴\"。",
+    "zh": "为国际高端帆船赛提供完整赛事保障船队,包括裁判船、媒体船、医疗船、VIP船共12艘,赛事期间零安全事故,获评\"最佳赛事合作伙伴\"。",
     "en": "16-month comprehensive refit project, interior renovation, power upgrade, smart system installation, awarded 'Refit Project of the Year', yacht market value increased 30%."
   },
   "case-008.315": {
-    "zh": "凭借专业的船队管理与零安全事故记录，荣获组委会\"最佳赛事合作伙伴\"称号。",
+    "zh": "凭借专业的船队管理与零安全事故记录,荣获组委会\"最佳赛事合作伙伴\"称号。",
     "en": "This refit exceeded all expectations. The Fantastic Vacation team transformed this 8-year-old yacht into a brand-new vessel in 16 months."
   },
   "case-028.337": {
-    "zh": "\"发现问题3处并及时修复，航行安全无忧完成\"",
+    "zh": "\"发现问题3处并及时修复,航行安全无忧完成\"",
     "en": "Winter zero damage, spring perfect launch, shipowner said it's better than expected."
   },
   "case-012.337": {
-    "zh": "\"家长反馈孩子玩得最开心的一次，三个家庭决定联合预订下次行程\"",
+    "zh": "\"家长反馈孩子玩得最开心的一次,三个家庭决定联合预订下次行程\"",
     "en": "Power performance improved 15%, fuel consumption reduced 8%, shipowner very satisfied."
   },
   "reviews.281": {
-    "zh": "\"奇幻假期为我们打造的82米超级游艇'幻蓝号'，从概念设计到交付仅用20个月。团队的创新能力与执行力远超预期，这是我们家族最值得骄傲的资产。\"",
+    "zh": "\"奇幻假期为我们打造的82米超级游艇'幻蓝号',从概念设计到交付仅用20个月。团队的创新能力与执行力远超预期,这是我们家族最值得骄傲的资产。\"",
     "en": "Professional service, will definitely choose Fantastic Vacation again."
   },
   "reviews.288": {
-    "zh": "\"30天的地中海巡航，每一站都精心安排。船员团队非常专业，孩子玩得开心，我们也能真正放松。这是全家最难忘的暑假。\"",
+    "zh": "\"30天的地中海巡航,每一站都精心安排。船员团队非常专业,孩子玩得开心,我们也能真正放松。这是全家最难忘的暑假。\"",
     "en": "The most professional yacht team I've ever worked with, every detail was perfect."
   },
   "reviews.295": {
-    "zh": "\"5年全托管服务，游艇始终保持在完美状态。每年的保养与年检都无需操心，真正实现了'交钥匙'式服务。\"",
+    "zh": "\"5年全托管服务,游艇始终保持在完美状态。每年的保养与年检都无需操心,真正实现了'交钥匙'式服务。\"",
     "en": "Customized itinerary exceeded expectations, will definitely come again."
   },
   "reviews.302": {
-    "zh": "\"企业年会海上托管，200位同事度过了终生难忘的5天。编队航行、主题晚会、团队建设，每个环节都完美。\"",
+    "zh": "\"企业年会海上托管,200位同事度过了终生难忘的5天。编队航行、主题晚会、团队建设,每个环节都完美。\"",
     "en": "Family gathering was perfect, kids loved it, already booked next year."
   },
   "reviews.309": {
-    "zh": "\"极光号的改装完全超出了我的预期。太阳能混合动力系统让我可以在南极航行时保持零排放，这是环保与奢华的完美结合。\"",
+    "zh": "\"极光号的改装完全超出了我的预期。太阳能混合动力系统让我可以在南极航行时保持零排放,这是环保与奢华的完美结合。\"",
     "en": "Proposal succeeded! Thank you Fantastic Vacation for the perfect arrangement."
   },
   "reviews.316": {
-    "zh": "\"加勒比海的婚礼包船，120位宾客全程零意外。直升机空中入场、水下派对、米其林婚宴，每个环节都是梦幻级别的。\"",
+    "zh": "\"加勒比海的婚礼包船,120位宾客全程零意外。直升机空中入场、水下派对、米其林婚宴,每个环节都是梦幻级别的。\"",
     "en": "Corporate event was a huge success, partners praised it, will cooperate again."
   },
   "case-004.574": {
-    "zh": "\"极光号不仅实现了我多年的极地探险梦想，更让我有机会亲身参与气候变化研究。奇幻假期团队用专业的技术方案与细致的服务，让这艘游艇成为了海上移动实验室与环保大使。\"",
+    "zh": "\"极光号不仅实现了我多年的极地探险梦想,更让我有机会亲身参与气候变化研究。奇幻假期团队用专业的技术方案与细致的服务,让这艘游艇成为了海上移动实验室与环保大使。\"",
     "en": "This was the most successful product launch in our company's history. Fantastic Vacation team..."
   },
   "ir-media.175": {
-    "zh": "重点合作对话王潇生：要做中国游艇行业的\"法拉利\"",
+    "zh": "重点合作对话王潇生:要做中国游艇行业的\"法拉利\"",
     "en": "Media reports and press releases collection."
   },
   "case-005.271": {
-    "zh": "为亚洲家族举办的世纪海上婚礼，租用85米超级游艇，宾客120人，7天6夜，航线：巴哈马→开曼群岛。全程零意外，获评\"年度最佳海上婚礼\"。",
+    "zh": "为亚洲家族举办的世纪海上婚礼,租用85米超级游艇,宾客120人,7天6夜,航线:巴哈马→开曼群岛。全程零意外,获评\"年度最佳海上婚礼\"。",
     "en": "Brand launch event, 85m superyacht, 200 guests, 7 days 6 nights, Mediterranean route. Full event planning and execution."
   },
   "case-005.573": {
-    "zh": "\"这是我们家族历史上最难忘的时刻。奇幻假期团队用专业的服务与极致的细节，让女儿的婚礼成为了所有宾客心中最美好的回忆。从空中入场到水下派对，每一个环节都超出了我们的期望。感谢你们创造了这场海上奇迹。\"",
+    "zh": "\"这是我们家族历史上最难忘的时刻。奇幻假期团队用专业的服务与极致的细节,让女儿的婚礼成为了所有宾客心中最美好的回忆。从空中入场到水下派对,每一个环节都超出了我们的期望。感谢你们创造了这场海上奇迹。\"",
     "en": "The brand launch event received widespread media coverage, 100% brand satisfaction, already booked next year's global roadshow."
   },
   "case-013.335": {
-    "zh": "\"客户评价最浪漫的旅行，已向三位朋友推荐\"",
+    "zh": "\"客户评价最浪漫的旅行,已向三位朋友推荐\"",
     "en": "Meeting completed successfully, group president sent personal thank-you letter, promised long-term cooperation."
   },
   "case-029.337": {
-    "zh": "180天零事故零违规，客户评价人生最棒的旅程",
+    "zh": "180天零事故零违规,客户评价人生最棒的旅程",
     "en": "180 days zero accidents zero violations, client rated it the best journey of his life"
   },
   "case-025.337": {
-    "zh": "\"维修后船体强度恢复至原厂98%，船东高度认可\"",
+    "zh": "\"维修后船体强度恢复至原厂98%,船东高度认可\"",
     "en": "Meeting completed successfully, exceeded all expectations, promised long-term cooperation."
   },
   "invest.title": { "zh": "投资者关系 | 奇幻假期", "en": "Investor Relations | Fantasy Vacation" },
@@ -76579,98 +76579,98 @@ var dict = {
   "invest.09f7a764fd4d": { "zh": "筹划资本运作", "en": "Capital Market Planning" },
   "invest.0bbda4ccb82f": { "zh": "历年财务报告", "en": "Historical Financial Reports" },
   "invest.0f6c74c7c363": { "zh": "会计准则", "en": "Accounting Standards" },
-  "invest.100": { "zh": "五级尊享会员体系正式上线，首年吸纳100+首批会员", "en": "Five-tier exclusive membership officially launched, 100+ founding members in first year" },
+  "invest.100": { "zh": "五级尊享会员体系正式上线,首年吸纳100+首批会员", "en": "Five-tier exclusive membership officially launched, 100+ founding members in first year" },
   "invest.118_28f": { "zh": "深圳南山区望海路118号 奇幻假期大厦28F", "en": "28F, Fantastic Vacation Bldg, 118 Wanghai Rd, Nanshan, Shenzhen" },
-  "invest.12": { "zh": "12年数字化转型管理经验，前阿里巴巴高级技术总监", "en": "12 years in digital transformation, ex-Alibaba Senior Tech Director" },
+  "invest.12": { "zh": "12年数字化转型管理经验,前阿里巴巴高级技术总监", "en": "12 years in digital transformation, ex-Alibaba Senior Tech Director" },
   "invest.14f398502609": { "zh": "以编年体形式记录公司从创立至今的关键节点与战略意义", "en": "Chronological record of key milestones and strategic significance since founding" },
   "invest.150b9e393b63": { "zh": "数字化战略启动", "en": "Digital Strategy Launch" },
   "invest.15_200_50_30": { "zh": "15年行业深耕、200+高净值客户体系、50+全球船厂合作网络、30+国际码头泊位资源", "en": "15 years of deep industry expertise, 200+ HNW client system, 50+ global shipyard partnerships, 30+ international marina berths" },
-  "invest.15_lvmh": { "zh": "15年奢侈品牌市场营销经验，前LVMH集团品牌总监", "en": "15 years in luxury brand marketing, ex-LVMH Brand Director" },
+  "invest.15_lvmh": { "zh": "15年奢侈品牌市场营销经验,前LVMH集团品牌总监", "en": "15 years in luxury brand marketing, ex-LVMH Brand Director" },
   "invest.1723912fcb07": { "zh": "李悦洋", "en": "Li Yueyang" },
-  "invest.18_mba": { "zh": "18年高端客户服务管理经验，香港大学MBA", "en": "18 years in luxury client management, HKU MBA" },
-  "invest.1957c3109c04": { "zh": "迈阿密（代表处）", "en": "Miami (Rep. Office)" },
+  "invest.18_mba": { "zh": "18年高端客户服务管理经验,香港大学MBA", "en": "18 years in luxury client management, HKU MBA" },
+  "invest.1957c3109c04": { "zh": "迈阿密(代表处)", "en": "Miami (Rep. Office)" },
   "invest.19f87d6fe62a": { "zh": "报告周期", "en": "Reporting Cycle" },
-  "invest.1ad56708e45c": { "zh": "新加坡区域总部投入运营，辐射东南亚六国市场", "en": "Singapore regional HQ commenced operations, covering six Southeast Asian markets" },
-  "invest.1b689b6277ff": { "zh": "我们重视与每一位投资者的沟通。如有任何疑问，欢迎随时联系投资者关系团队", "en": "We value communication with every investor. For any inquiries, please contact the Investor Relations team" },
+  "invest.1ad56708e45c": { "zh": "新加坡区域总部投入运营,辐射东南亚六国市场", "en": "Singapore regional HQ commenced operations, covering six Southeast Asian markets" },
+  "invest.1b689b6277ff": { "zh": "我们重视与每一位投资者的沟通。如有任何疑问,欢迎随时联系投资者关系团队", "en": "We value communication with every investor. For any inquiries, please contact the Investor Relations team" },
   "invest.1c14bf6d9a11": { "zh": "公告分类归档", "en": "Announcement Categories" },
   "invest.1db73439af70": { "zh": "海外首个合作网点", "en": "First Overseas Partner Network" },
-  "invest.1e060ab46673": { "zh": "从概念设计到交付的全案定制服务，覆盖超级游艇至中型动力艇全产品线", "en": "Full-custom service from concept design to delivery, covering superyachts to mid-size motor yachts" },
-  "invest.20": { "zh": "20年财务管理经验，曾任职普华永道、中金公司", "en": "20 years in financial management, ex-PwC, CICC" },
+  "invest.1e060ab46673": { "zh": "从概念设计到交付的全案定制服务,覆盖超级游艇至中型动力艇全产品线", "en": "Full-custom service from concept design to delivery, covering superyachts to mid-size motor yachts" },
+  "invest.20": { "zh": "20年财务管理经验,曾任职普华永道、中金公司", "en": "20 years in financial management, ex-PwC, CICC" },
   "invest.2024": { "zh": "2024半年度业绩说明会通知", "en": "2024 Semi-Annual Earnings Call Notice" },
-  "invest.2025_2027_3": { "zh": "2025-2027年计划投资约3亿元，主要用于数字化平台建设、海外网点扩张与供应链整合。", "en": "2025-2027 planned CAPEX ~¥300M for digital platform, overseas network expansion & supply chain integration." },
-  "invest.2030": { "zh": "全面采用环保船体涂料与节能动力系统，推动游艇制造减碳；目标2030年实现碳中和运营，年度碳足迹报告公开披露", "en": "Fully adopting eco-friendly coatings & energy-efficient propulsion, driving yacht manufacturing carbon reduction; target carbon-neutral operations by 2030 with annual footprint disclosure" },
+  "invest.2025_2027_3": { "zh": "2025-2027年计划投资约3亿元,主要用于数字化平台建设、海外网点扩张与供应链整合。", "en": "2025-2027 planned CAPEX ~¥300M for digital platform, overseas network expansion & supply chain integration." },
+  "invest.2030": { "zh": "全面采用环保船体涂料与节能动力系统,推动游艇制造减碳;目标2030年实现碳中和运营,年度碳足迹报告公开披露", "en": "Fully adopting eco-friendly coatings & energy-efficient propulsion, driving yacht manufacturing carbon reduction; target carbon-neutral operations by 2030 with annual footprint disclosure" },
   "invest.22f454634d21": { "zh": "公告标题", "en": "Title" },
-  "invest.246e060f1e31": { "zh": "分区域业务布局，覆盖国内及全球主要豪华游艇消费市场", "en": "Regional business layout covering domestic and major global luxury yacht consumer markets" },
+  "invest.246e060f1e31": { "zh": "分区域业务布局,覆盖国内及全球主要豪华游艇消费市场", "en": "Regional business layout covering domestic and major global luxury yacht consumer markets" },
   "invest.24d22951fe8a": { "zh": "投资亮点", "en": "Investment Highlights" },
-  "invest.25": { "zh": "25年游艇行业经验，前法拉帝集团亚太区副总裁", "en": "25 years in yacht industry, former VP of Ferretti Group Asia-Pacific" },
+  "invest.25": { "zh": "25年游艇行业经验,前法拉帝集团亚太区副总裁", "en": "25 years in yacht industry, former VP of Ferretti Group Asia-Pacific" },
   "invest.2a98cf5c554e": { "zh": "投资者常见问题", "en": "Investor FAQ" },
   "invest.2d638efec54e": { "zh": "定制、租赁、管理", "en": "Custom, Charter, Management" },
-  "invest.30_50": { "zh": "分红原则：每年度按照经审计的归母净利润的30%-50%进行现金分红。董事会结合公司经营情况、资本开支计划与现金流状况，提出当年度分红方案，经股东大会审议通过后实施。", "en": "Dividend Principle: 30%-50% of audited net profit attributable to shareholders distributed as cash dividends annually. The board proposes annual dividend plans based on operations, capital expenditure and cash flow, implemented after shareholder approval." },
-  "invest.30_azimut": { "zh": "意大利籍，30年游艇设计与工程经验，前Azimut首席工程师", "en": "Italian, 30 years in yacht design & engineering, ex-Azimut Chief Engineer" },
+  "invest.30_50": { "zh": "分红原则:每年度按照经审计的归母净利润的30%-50%进行现金分红。董事会结合公司经营情况、资本开支计划与现金流状况,提出当年度分红方案,经股东大会审议通过后实施。", "en": "Dividend Principle: 30%-50% of audited net profit attributable to shareholders distributed as cash dividends annually. The board proposes annual dividend plans based on operations, capital expenditure and cash flow, implemented after shareholder approval." },
+  "invest.30_azimut": { "zh": "意大利籍,30年游艇设计与工程经验,前Azimut首席工程师", "en": "Italian, 30 years in yacht design & engineering, ex-Azimut Chief Engineer" },
   "invest.324f18ab5da0": { "zh": "财务报告", "en": "Financial Reports" },
   "invest.3260e44e59f2": { "zh": "王志远", "en": "Wang Zhiyuan" },
   "invest.32d59bc454e9": { "zh": "张海帆", "en": "Zhang Haifan" },
   "invest.383a6d166f8f": { "zh": "类别", "en": "Category" },
-  "invest.38_45": { "zh": "毛利率受船厂定价、原材料（铝合金、碳纤维）价格波动以及定制化程度影响，长期维持在38%-45%区间。", "en": "Margins influenced by shipyard pricing, raw material costs (aluminum, carbon fiber) and customization level; historically 38%-45%." },
+  "invest.38_45": { "zh": "毛利率受船厂定价、原材料(铝合金、碳纤维)价格波动以及定制化程度影响,长期维持在38%-45%区间。", "en": "Margins influenced by shipyard pricing, raw material costs (aluminum, carbon fiber) and customization level; historically 38%-45%." },
   "invest.3e1f4d216d28": { "zh": "欧洲", "en": "Europe" },
   "invest.3fa1707c8b16": { "zh": "重大事项公告", "en": "Material Event Announcements" },
-  "invest.40": { "zh": "独立董事占比超40%，设立审计委员会、薪酬委员会、合规委员会；反腐败与合规管理符合国际标准", "en": "Independent directors exceeding 40%, established audit, compensation & compliance committees; anti-corruption & compliance aligned with international standards" },
+  "invest.40": { "zh": "独立董事占比超40%,设立审计委员会、薪酬委员会、合规委员会;反腐败与合规管理符合国际标准", "en": "Independent directors exceeding 40%, established audit, compensation & compliance committees; anti-corruption & compliance aligned with international standards" },
   "invest.42c9815ce582": { "zh": "公司治理与管理团队", "en": "Corporate Governance & Management" },
   "invest.440a6d703bf8": { "zh": "治理合规", "en": "Governance" },
   "invest.461d8df2fd4b": { "zh": "最新公告", "en": "Latest Announcements" },
-  "invest.4882d5d48749": { "zh": "公司的资本开支计划？", "en": "What is the capital expenditure plan?" },
+  "invest.4882d5d48749": { "zh": "公司的资本开支计划?", "en": "What is the capital expenditure plan?" },
   "invest.49bd7d11b709": { "zh": "托管维保、船员管理、保险金融、翻新升级一站式服务", "en": "One-stop service: maintenance, crew management, insurance, finance, refit & upgrade" },
-  "invest.4_0": { "zh": "营收4.0亿，数字化转型初见成效", "en": "Revenue ¥400M, digital transformation showing results" },
-  "invest.4_1": { "zh": "营收4.1亿，定制板块增长强劲", "en": "Revenue ¥410M, strong custom segment growth" },
-  "invest.4_30_br_8_31_br_30": { "zh": "年度报告：每年4月30日前发布<br/>半年度报告：每年8月31日前发布<br/>季度报告：每季结束后30天内发布", "en": "Annual: by April 30<br/>Semi-annual: by August 31<br/>Quarterly: within 30 days after quarter end" },
+  "invest.4_0": { "zh": "营收4.0亿,数字化转型初见成效", "en": "Revenue ¥400M, digital transformation showing results" },
+  "invest.4_1": { "zh": "营收4.1亿,定制板块增长强劲", "en": "Revenue ¥410M, strong custom segment growth" },
+  "invest.4_30_br_8_31_br_30": { "zh": "年度报告:每年4月30日前发布<br/>半年度报告:每年8月31日前发布<br/>季度报告:每季结束后30天内发布", "en": "Annual: by April 30<br/>Semi-annual: by August 31<br/>Quarterly: within 30 days after quarter end" },
   "invest.4bcf49721052": { "zh": "核心业务板块", "en": "Core Business Segments" },
-  "invest.4bf48acea47d": { "zh": "专业的估值认证、市场匹配与跨境交易服务，活跃于全球主要二手游艇市场", "en": "Professional valuation, market matching & cross-border trading, active in major global pre-owned markets" },
-  "invest.4ca50cf811e8": { "zh": "稳定的分红政策、清晰的资本配置路径、全透明信息披露体系，致力于为股东创造可持续回报", "en": "Stable dividend policy, clear capital allocation roadmap, fully transparent disclosure system — committed to sustainable shareholder returns" },
+  "invest.4bf48acea47d": { "zh": "专业的估值认证、市场匹配与跨境交易服务,活跃于全球主要二手游艇市场", "en": "Professional valuation, market matching & cross-border trading, active in major global pre-owned markets" },
+  "invest.4ca50cf811e8": { "zh": "稳定的分红政策、清晰的资本配置路径、全透明信息披露体系,致力于为股东创造可持续回报", "en": "Stable dividend policy, clear capital allocation roadmap, fully transparent disclosure system - committed to sustainable shareholder returns" },
   "invest.4ff1e74e43a3": { "zh": "日期", "en": "Date" },
-  "invest.50": { "zh": "承接首艘50英尺豪华游艇全案定制订单，标志正式进入游艇制造链", "en": "Secured first 50ft luxury yacht full-custom order, marking formal entry into yacht manufacturing chain" },
+  "invest.50": { "zh": "承接首艘50英尺豪华游艇全案定制订单,标志正式进入游艇制造链", "en": "Secured first 50ft luxury yacht full-custom order, marking formal entry into yacht manufacturing chain" },
   "invest.5047270c8c54": { "zh": "审计机构", "en": "Auditor" },
   "invest.504de4576912": { "zh": "公司概况", "en": "Company Overview" },
   "invest.57caea794b53": { "zh": "核心数据摘要", "en": "Key Highlights" },
   "invest.586b1490caac": { "zh": "经纪、贸易", "en": "Brokerage, Trading" },
   "invest.58774ab64ebf": { "zh": "阿联酋、沙特、卡塔尔、阿曼", "en": "UAE, Saudi Arabia, Qatar, Oman" },
   "invest.597cacdd0c9e": { "zh": "财务披露体系", "en": "Financial Disclosure Framework" },
-  "invest.5_1": { "zh": "营收5.1亿，尊享会员体系发布", "en": "Revenue ¥510M, membership program launched" },
+  "invest.5_1": { "zh": "营收5.1亿,尊享会员体系发布", "en": "Revenue ¥510M, membership program launched" },
   "invest.5c0a1f1d3b1d": { "zh": "投资者热线", "en": "IR Hotline" },
-  "invest.5d1cae96ad04": { "zh": "与摩纳哥游艇俱乐部建立战略合作，开启欧洲市场布局", "en": "Strategic partnership with Yacht Club de Monaco, opening European market" },
+  "invest.5d1cae96ad04": { "zh": "与摩纳哥游艇俱乐部建立战略合作,开启欧洲市场布局", "en": "Strategic partnership with Yacht Club de Monaco, opening European market" },
   "invest.5df373d338ad": { "zh": "美国、加拿大、墨西哥", "en": "United States, Canada, Mexico" },
   "invest.5efc0f30576c": { "zh": "战略定位", "en": "Strategy" },
-  "invest.5f3842177511": { "zh": "员工持股计划覆盖全员，年度公益航海体验项目面向青少年开放；供应链人权保障体系通过国际认证", "en": "Company-wide employee stock ownership plan, annual public benefit sailing programs for youth; supply chain human rights system internationally certified" },
-  "invest.60": { "zh": "公司海外业务以美元和欧元结算为主，已通过远期合约对冲约60%的外汇风险敞口。", "en": "Overseas operations primarily in USD and EUR; ~60% forex exposure hedged via forward contracts." },
+  "invest.5f3842177511": { "zh": "员工持股计划覆盖全员,年度公益航海体验项目面向青少年开放;供应链人权保障体系通过国际认证", "en": "Company-wide employee stock ownership plan, annual public benefit sailing programs for youth; supply chain human rights system internationally certified" },
+  "invest.60": { "zh": "公司海外业务以美元和欧元结算为主,已通过远期合约对冲约60%的外汇风险敞口。", "en": "Overseas operations primarily in USD and EUR; ~60% forex exposure hedged via forward contracts." },
   "invest.6243f86d6b87": { "zh": "公司发展里程碑", "en": "Company Milestones" },
   "invest.63cf3e862fcd": { "zh": "半年度报告", "en": "Semi-Annual" },
   "invest.64a6a4f202dd": { "zh": "核心业务", "en": "Core Operations" },
   "invest.68b1164141ff": { "zh": "全球业务版图", "en": "Global Business Footprint" },
-  "invest.6_6": { "zh": "营收6.6亿，东南亚市场快速扩张", "en": "Revenue ¥660M, rapid SE Asia expansion" },
+  "invest.6_6": { "zh": "营收6.6亿,东南亚市场快速扩张", "en": "Revenue ¥660M, rapid SE Asia expansion" },
   "invest.6b38f33d8919": { "zh": "核心财务指标", "en": "Key Financial Indicators" },
   "invest.6cb59bb63eec": { "zh": "报告期", "en": "Period" },
   "invest.6e4371f5937f": { "zh": "东南亚", "en": "Southeast Asia" },
   "invest.6f8017576377": { "zh": "定制、会员服务", "en": "Custom, Membership" },
-  "invest.701329a00828": { "zh": "三位创始人在深圳南山成立奇幻假期工作室，专注于游艇租赁代理业务", "en": "Three founders established Fantastic Vacation studio in Nanshan, Shenzhen, focusing on yacht charter agency" },
-  "invest.72ffb14d57c2": { "zh": "游艇定制业务按照完工百分比法确认营收，租赁及服务业务按照服务提供时点确认营收。", "en": "Custom yacht revenue recognized by percentage-of-completion method; charter and services recognized at point of service delivery." },
+  "invest.701329a00828": { "zh": "三位创始人在深圳南山成立奇幻假期工作室,专注于游艇租赁代理业务", "en": "Three founders established Fantastic Vacation studio in Nanshan, Shenzhen, focusing on yacht charter agency" },
+  "invest.72ffb14d57c2": { "zh": "游艇定制业务按照完工百分比法确认营收,租赁及服务业务按照服务提供时点确认营收。", "en": "Custom yacht revenue recognized by percentage-of-completion method; charter and services recognized at point of service delivery." },
   "invest.745b0786b5e0": { "zh": "查看公司最新发布的重大事项、经营动态与投资者关系公告", "en": "View our latest material events, business updates & investor relations announcements" },
-  "invest.7487d243f4ff": { "zh": "深圳（全球总部）", "en": "Shenzhen (Global HQ)" },
-  "invest.74ca8439a37c": { "zh": "迪拜（代表处）", "en": "Dubai (Rep. Office)" },
-  "invest.785cadd2aad0": { "zh": "面向机构投资者、股东及资本市场的专业信息披露平台，全面呈现奇幻假期的公司价值、财务表现与长期发展战略。", "en": "A professional information disclosure platform for institutional investors, shareholders and capital markets — presenting Fantastic Vacation's corporate value, financial performance and long-term strategy." },
-  "invest.78f6c95bc987": { "zh": "公司致力于为股东创造长期、稳定的价值回报，保持透明、可预期的分红政策", "en": "Committed to creating long-term, stable value returns for shareholders with transparent, predictable dividend policy" },
+  "invest.7487d243f4ff": { "zh": "深圳(全球总部)", "en": "Shenzhen (Global HQ)" },
+  "invest.74ca8439a37c": { "zh": "迪拜(代表处)", "en": "Dubai (Rep. Office)" },
+  "invest.785cadd2aad0": { "zh": "面向机构投资者、股东及资本市场的专业信息披露平台,全面呈现奇幻假期的公司价值、财务表现与长期发展战略。", "en": "A professional information disclosure platform for institutional investors, shareholders and capital markets - presenting Fantastic Vacation's corporate value, financial performance and long-term strategy." },
+  "invest.78f6c95bc987": { "zh": "公司致力于为股东创造长期、稳定的价值回报,保持透明、可预期的分红政策", "en": "Committed to creating long-term, stable value returns for shareholders with transparent, predictable dividend policy" },
   "invest.79cf6bdbdd27": { "zh": "重大事项", "en": "Material Event" },
   "invest.7a402f964f3d": { "zh": "全业务板块", "en": "All Segments" },
-  "invest.7ce263e5ada2": { "zh": "以精湛工艺、全球资源和至诚服务，为高净值人群打造专属的海上生活方式", "en": "With exquisite craftsmanship, global resources and sincere service, creating exclusive maritime lifestyles for HNW individuals" },
-  "invest.7db70a44c444": { "zh": "新加坡（区域总部）", "en": "Singapore (Regional HQ)" },
+  "invest.7ce263e5ada2": { "zh": "以精湛工艺、全球资源和至诚服务,为高净值人群打造专属的海上生活方式", "en": "With exquisite craftsmanship, global resources and sincere service, creating exclusive maritime lifestyles for HNW individuals" },
+  "invest.7db70a44c444": { "zh": "新加坡(区域总部)", "en": "Singapore (Regional HQ)" },
   "invest.7e7ff06adcf3": { "zh": "全球合作深化", "en": "Global Partnership Deepening" },
   "invest.7f04e2233687": { "zh": "海上文旅配套服务", "en": "Maritime Cultural Tourism" },
   "invest.7fc0f1020d37": { "zh": "了解更多 →", "en": "Learn More →" },
   "invest.7fdc8bd986b2": { "zh": "泰国、印尼、马来西亚、越南、菲律宾", "en": "Thailand, Indonesia, Malaysia, Vietnam, Philippines" },
-  "invest.7fee9f4297f3": { "zh": "覆盖游艇定制、二手经纪、租赁、全生命周期管理、海上文旅五大核心板块，形成完整的业务生态闭环", "en": "Covering yacht customization, brokerage, charter, lifecycle management and maritime cultural tourism — five core segments forming a complete business ecosystem" },
+  "invest.7fee9f4297f3": { "zh": "覆盖游艇定制、二手经纪、租赁、全生命周期管理、海上文旅五大核心板块,形成完整的业务生态闭环", "en": "Covering yacht customization, brokerage, charter, lifecycle management and maritime cultural tourism - five core segments forming a complete business ecosystem" },
   "invest.852_3421_6899": { "zh": "+852 3421 6899", "en": "+852 3421 6899" },
   "invest.854ac094b4f0": { "zh": "经营与业务公告", "en": "Business Announcements" },
   "invest.8573693811b3": { "zh": "长期股东价值导向", "en": "Long-Term Shareholder Value" },
-  "invest.8_5_12": { "zh": "全球豪华游艇市场年均增长8.5%，亚太地区增速超12%，公司连续多年保持行业领先增长率", "en": "Global luxury yacht market CAGR 8.5%, Asia-Pacific growth exceeding 12%, company maintains industry-leading growth for consecutive years" },
-  "invest.8_5_28": { "zh": "营收突破8.5亿，同比增长28%", "en": "Revenue exceeded ¥850M, +28% YoY" },
+  "invest.8_5_12": { "zh": "全球豪华游艇市场年均增长8.5%,亚太地区增速超12%,公司连续多年保持行业领先增长率", "en": "Global luxury yacht market CAGR 8.5%, Asia-Pacific growth exceeding 12%, company maintains industry-leading growth for consecutive years" },
+  "invest.8_5_28": { "zh": "营收突破8.5亿,同比增长28%", "en": "Revenue exceeded ¥850M, +28% YoY" },
   "invest.8b2e45700729": { "zh": "报告类型", "en": "Type" },
   "invest.8b329b2be8e9": { "zh": "近年重大公告", "en": "Recent Key Announcements" },
   "invest.8bd457035d71": { "zh": "战略定位与价值主张", "en": "Strategic Positioning & Value Proposition" },
@@ -76678,9 +76678,9 @@ var dict = {
   "invest.8fc4b2cc968a": { "zh": "地中海沿岸主要国家", "en": "Major Mediterranean Countries" },
   "invest.901f95c1b296": { "zh": "中东区域布局", "en": "Middle East Expansion" },
   "invest.913210e6066a": { "zh": "关于深化公司治理与战略规划的公告", "en": "Advancement of Corporate Governance" },
-  "invest.923290138f73": { "zh": "传承匠心 · 极致安全 · 超越服务 · 圈层价值 — 四位一体的品牌价值传递体系", "en": "Artisanal Heritage · Ultimate Safety · Beyond Service · Circle Value — a four-dimensional brand value delivery system" },
+  "invest.923290138f73": { "zh": "传承匠心 · 极致安全 · 超越服务 · 圈层价值 - 四位一体的品牌价值传递体系", "en": "Artisanal Heritage · Ultimate Safety · Beyond Service · Circle Value - a four-dimensional brand value delivery system" },
   "invest.92bd56ef2ef8": { "zh": "大额合同、投资并购、重大资产处置等对公司经营产生重要影响的事项公告", "en": "Large contracts, investment & M&A, significant asset disposals and other events materially impacting operations" },
-  "invest.92c1931f0d6c": { "zh": "新增二手游艇经纪业务与全生命周期管理服务，完成“定制+经纪+托管”布局", "en": "Added pre-owned yacht brokerage and lifecycle management services, completing custom-brokerage-management layout" },
+  "invest.92c1931f0d6c": { "zh": "新增二手游艇经纪业务与全生命周期管理服务,完成"定制+经纪+托管"布局", "en": "Added pre-owned yacht brokerage and lifecycle management services, completing custom-brokerage-management layout" },
   "invest.93dfcfcb0f94": { "zh": "经营业务", "en": "Business" },
   "invest.98209625f7d7": { "zh": "全面了解奇幻假期的公司架构、战略定位、核心业务与全球布局", "en": "Comprehensive overview of Fantastic Vacation's corporate structure, strategic positioning, core business and global presence" },
   "invest.9866534716b2": { "zh": "路演公告、业绩说明会、机构调研纪要、分析师会议材料归档", "en": "Roadshow announcements, earnings calls, institutional research notes, analyst meeting archives" },
@@ -76690,29 +76690,29 @@ var dict = {
   "invest.9c718f695df1": { "zh": "投资者关系邮箱", "en": "IR Email" },
   "invest.9ca569003090": { "zh": "公司创立", "en": "Company Founded" },
   "invest.9cdb9901b159": { "zh": "中东", "en": "Middle East" },
-  "invest.a0fac56601d7": { "zh": "游艇主题活动、高端社交聚会、海岛度假定制等多样化海上生活体验", "en": "Yacht-themed events, high-end social gatherings, island resort customization — diverse maritime lifestyle experiences" },
+  "invest.a0fac56601d7": { "zh": "游艇主题活动、高端社交聚会、海岛度假定制等多样化海上生活体验", "en": "Yacht-themed events, high-end social gatherings, island resort customization - diverse maritime lifestyle experiences" },
   "invest.a3de4065ffdd": { "zh": "公司治理", "en": "Governance" },
   "invest.a76642395989": { "zh": "游艇租赁与体验服务", "en": "Yacht Charter & Experience" },
-  "invest.abaca228ac12": { "zh": "摩纳哥（代表处）", "en": "Monaco (Rep. Office)" },
-  "invest.ac8a7731ec8c": { "zh": "深化公司治理与战略规划，引入战略投资者，优化公司治理结构", "en": "Advanced corporate governance optimization, introduced strategic investors, refined governance structure" },
+  "invest.abaca228ac12": { "zh": "摩纳哥(代表处)", "en": "Monaco (Rep. Office)" },
+  "invest.ac8a7731ec8c": { "zh": "深化公司治理与战略规划,引入战略投资者,优化公司治理结构", "en": "Advanced corporate governance optimization, introduced strategic investors, refined governance structure" },
   "invest.ad042302690c": { "zh": "豪华游艇定制与销售", "en": "Luxury Yacht Customization & Sales" },
   "invest.ad594516696c": { "zh": "二手游艇经纪与贸易", "en": "Pre-Owned Yacht Brokerage & Trading" },
-  "invest.adff907cafa7": { "zh": "汇率波动对公司财务状况的影响？", "en": "How do currency fluctuations affect finances?" },
-  "invest.afe450eabe26": { "zh": "季节性业务对报表的影响？", "en": "How does seasonality affect financial statements?" },
+  "invest.adff907cafa7": { "zh": "汇率波动对公司财务状况的影响?", "en": "How do currency fluctuations affect finances?" },
+  "invest.afe450eabe26": { "zh": "季节性业务对报表的影响?", "en": "How does seasonality affect financial statements?" },
   "invest.b04c8631842f": { "zh": "高增长赛道", "en": "High-Growth Track" },
   "invest.b14ad1460f4f": { "zh": "资产负债率", "en": "Debt-to-Asset Ratio" },
   "invest.ba1947985409": { "zh": "发展里程碑", "en": "Milestones" },
   "invest.bc95a1276b33": { "zh": "毛利率", "en": "Gross Margin" },
-  "invest.br": { "zh": "普华永道中天会计师事务所（特殊普通合伙）<br/>中国 · 深圳", "en": "PricewaterhouseCoopers Zhong Tian LLP<br/>Shenzhen, China" },
+  "invest.br": { "zh": "普华永道中天会计师事务所(特殊普通合伙)<br/>中国 · 深圳", "en": "PricewaterhouseCoopers Zhong Tian LLP<br/>Shenzhen, China" },
   "invest.c03b28ed79a4": { "zh": "关于迪拜代表处正式成立的公告", "en": "Establishment of Dubai Representative Office" },
   "invest.c0d84cf06caa": { "zh": "办公地址", "en": "Office Address" },
   "invest.c2a882e7b240": { "zh": "全球领先的全产业链服务商", "en": "Global Full-Chain Service Leader" },
   "invest.c4d7133cb0d3": { "zh": "治理与合规公告", "en": "Governance & Compliance" },
   "invest.c7ae963123d9": { "zh": "游艇全生命周期管理", "en": "Yacht Lifecycle Management" },
-  "invest.cas": { "zh": "公司财务报告严格遵循中国企业会计准则（CAS），年度报告经普华永道审计，确保数据真实、准确、完整", "en": "Financial reports strictly follow China Accounting Standards (CAS), annually audited by PwC ensuring true, accurate & complete data" },
-  "invest.cas_br_ifrs": { "zh": "中国企业会计准则（CAS）<br/>参照国际财务报告准则（IFRS）披露口径", "en": "China Accounting Standards (CAS)<br/>Disclosure aligned with IFRS" },
-  "invest.cb1ad63e4869": { "zh": "迪拜代表处成立，接入中东高净值客户网络", "en": "Dubai representative office established, connecting to Middle East HNW client network" },
-  "invest.ce077ca51bca": { "zh": "成为全球领先的游艇全产业链服务商，让每一段海上时光都超越期待", "en": "To become the world's leading full-chain yacht service provider, making every moment at sea exceed expectations" },
+  "invest.cas": { "zh": "公司财务报告严格遵循中国企业会计准则(CAS),年度报告经普华永道审计,确保数据真实、准确、完整", "en": "Financial reports strictly follow China Accounting Standards (CAS), annually audited by PwC ensuring true, accurate & complete data" },
+  "invest.cas_br_ifrs": { "zh": "中国企业会计准则(CAS)<br/>参照国际财务报告准则(IFRS)披露口径", "en": "China Accounting Standards (CAS)<br/>Disclosure aligned with IFRS" },
+  "invest.cb1ad63e4869": { "zh": "迪拜代表处成立,接入中东高净值客户网络", "en": "Dubai representative office established, connecting to Middle East HNW client network" },
+  "invest.ce077ca51bca": { "zh": "成为全球领先的游艇全产业链服务商,让每一段海上时光都超越期待", "en": "To become the world's leading full-chain yacht service provider, making every moment at sea exceed expectations" },
   "invest.ceo": { "zh": "创始人 · CEO", "en": "Founder & CEO" },
   "invest.cfo": { "zh": "CFO", "en": "CFO" },
   "invest.cio": { "zh": "CIO · 数字化", "en": "CIO · Digital" },
@@ -76720,7 +76720,7 @@ var dict = {
   "invest.coo": { "zh": "联合创始人 · COO", "en": "Co-Founder & COO" },
   "invest.core_values": { "zh": "核心价值 Core Values", "en": "Core Values" },
   "invest.cto": { "zh": "CTO · 船舶工程", "en": "CTO · Naval Engineering" },
-  "invest.d159525a3774": { "zh": "五大核心板块构建完整的业务生态，形成多层次盈利结构", "en": "Five core segments form a complete business ecosystem with multi-layered revenue structure" },
+  "invest.d159525a3774": { "zh": "五大核心板块构建完整的业务生态,形成多层次盈利结构", "en": "Five core segments form a complete business ecosystem with multi-layered revenue structure" },
   "invest.d3ce40d862f1": { "zh": "区域", "en": "Region" },
   "invest.d4ae3b384a58": { "zh": "业务板块", "en": "Business Segment" },
   "invest.d7436ba953e3": { "zh": "刘思远", "en": "Liu Siyuan" },
@@ -76733,10 +76733,10 @@ var dict = {
   "invest.e06bc81477e1": { "zh": "东南亚区域总部成立", "en": "SE Asia HQ Established" },
   "invest.e0cca5054dc1": { "zh": "总部/代表处", "en": "HQ / Office" },
   "invest.e1edf9ae107a": { "zh": "同比增长", "en": "YoY Growth" },
-  "invest.e1f474a8ccbb": { "zh": "覆盖全球热门航线的游艇租赁网络，提供从半天到数月不等的灵活租赁方案", "en": "Global charter network covering popular routes, with flexible plans from half-day to multi-month" },
+  "invest.e1f474a8ccbb": { "zh": "覆盖全球热门航线的游艇租赁网络,提供从半天到数月不等的灵活租赁方案", "en": "Global charter network covering popular routes, with flexible plans from half-day to multi-month" },
   "invest.e210946eacd8": { "zh": "重大事项、经营业务、治理合规公告及投资者沟通材料的完整归档与解读", "en": "Complete archive and interpretation of material events, business operations, governance & compliance announcements, and investor communication materials" },
-  "invest.e3955aeade04": { "zh": "正式更名为“奇幻假期实业有限公司”，启用全新品牌视觉体系", "en": "Officially renamed to Fantastic Vacation Industrial Co., Ltd., launched new brand visual system" },
-  "invest.e3e732b0ba82": { "zh": "公司营收的确认方式是什么？", "en": "How does the company recognize revenue?" },
+  "invest.e3955aeade04": { "zh": "正式更名为"奇幻假期实业有限公司",启用全新品牌视觉体系", "en": "Officially renamed to Fantastic Vacation Industrial Co., Ltd., launched new brand visual system" },
+  "invest.e3e732b0ba82": { "zh": "公司营收的确认方式是什么?", "en": "How does the company recognize revenue?" },
   "invest.e6cdb3d16dff": { "zh": "尊享会员体系发布", "en": "Exclusive Membership Launch" },
   "invest.e7be3d1808ca": { "zh": "北美", "en": "North America" },
   "invest.ebcf5e6219f3": { "zh": "大中华区", "en": "Greater China" },
@@ -76745,12 +76745,12 @@ var dict = {
   "invest.ed6ba86c6e14": { "zh": "年度报告", "en": "Annual Report" },
   "invest.ed928bd508c9": { "zh": "陈曼琳", "en": "Chen Manlin" },
   "invest.eed55ba56ce4": { "zh": "投资者沟通", "en": "Investor Communication" },
-  "invest.ef9822039a97": { "zh": "游艇定制业务的毛利率波动因素？", "en": "What drives gross margin fluctuations in custom business?" },
+  "invest.ef9822039a97": { "zh": "游艇定制业务的毛利率波动因素?", "en": "What drives gross margin fluctuations in custom business?" },
   "invest.environmental": { "zh": "环境 Environmental", "en": "Environmental" },
   "invest.esg": { "zh": "ESG与可持续发展", "en": "ESG & Sustainability" },
   "invest.f1bab520802a": { "zh": "关于第五届董事会第三次会议决议的公告", "en": "Resolution of 5th Board 3rd Meeting" },
   "invest.f26ef9142458": { "zh": "下载", "en": "Download" },
-  "invest.f2951c915346": { "zh": "启动数字化转型，上线在线选船、虚拟看船、远程签约等服务体系", "en": "Launched digital transformation: online yacht selection, virtual tours, remote contracting" },
+  "invest.f2951c915346": { "zh": "启动数字化转型,上线在线选船、虚拟看船、远程签约等服务体系", "en": "Launched digital transformation: online yacht selection, virtual tours, remote contracting" },
   "invest.f2b987f202f7": { "zh": "查看全部公告 →", "en": "View All Announcements →" },
   "invest.f50cbc3760f0": { "zh": "重大事项、经营业务、治理合规公告及投资者沟通材料归档", "en": "Material events, business operations, governance & compliance announcements, investor communication archive" },
   "invest.f65cf9ad20ca": { "zh": "首笔定制游艇订单", "en": "First Custom Yacht Order" },
@@ -76758,25 +76758,25 @@ var dict = {
   "invest.fa1861de2bb7": { "zh": "总资产", "en": "Total Assets" },
   "invest.fa1a0340e03a": { "zh": "中国大陆、香港、澳门、台湾", "en": "Mainland China, Hong Kong, Macau, Taiwan" },
   "invest.faq": { "zh": "历年经审计的财务报告、核心经营指标深度分析、管理层讨论与投资者FAQ", "en": "Audited historical financial reports, in-depth KPI analysis, management discussion & investor FAQ" },
-  "invest.fb32fbdc57f0": { "zh": "规范的治理架构与经验丰富的管理团队，保障公司长期稳健发展", "en": "Standardized governance structure with experienced management team ensuring long-term stability" },
+  "invest.fb32fbdc57f0": { "zh": "规范的治理架构与经验丰富的管理团队,保障公司长期稳健发展", "en": "Standardized governance structure with experienced management team ensuring long-term stability" },
   "invest.fbe388f9119f": { "zh": "投资者关系活动", "en": "Investor Relations Activities" },
   "invest.ferretti": { "zh": "关于与Ferretti集团签署战略合作协议的公告", "en": "Strategic Partnership Agreement with Ferretti Group" },
-  "invest.ferretti_feadship_50": { "zh": "与Ferretti、Feadship等五大高端船厂建立深度合作关系，年订单量突破50艘", "en": "Deep cooperation with 5 top shipyards including Ferretti & Feadship, annual orders exceeding 50 vessels" },
+  "invest.ferretti_feadship_50": { "zh": "与Ferretti、Feadship等五大高端船厂建立深度合作关系,年订单量突破50艘", "en": "Deep cooperation with 5 top shipyards including Ferretti & Feadship, annual orders exceeding 50 vessels" },
   "invest.governance": { "zh": "治理 Governance", "en": "Governance" },
   "invest.investor_relations": { "zh": "INVESTOR RELATIONS", "en": "INVESTOR RELATIONS" },
   "invest.ir_fantastic_vacation_com": { "zh": "ir@fantastic-vacation.com", "en": "ir@fantastic-vacation.com" },
   "invest.md_a_faq": { "zh": "历年财务报告、核心经营指标、MD&A、股东回报与投资者FAQ", "en": "Historical financial reports, key performance indicators, MD&A, shareholder returns & investor FAQ" },
   "invest.mission": { "zh": "使命 Mission", "en": "Mission" },
   "invest.pdf": { "zh": "下载PDF", "en": "Download PDF" },
-  "invest.q2_q3_60_q1": { "zh": "Q2-Q3为传统销售旺季（夏季航行需求），营收约占全年60%。Q1为淡季。", "en": "Q2-Q3 is peak season (summer sailing demand), ~60% of annual revenue. Q1 is low season." },
+  "invest.q2_q3_60_q1": { "zh": "Q2-Q3为传统销售旺季(夏季航行需求),营收约占全年60%。Q1为淡季。", "en": "Q2-Q3 is peak season (summer sailing demand), ~60% of annual revenue. Q1 is low season." },
   "invest.social": { "zh": "社会 Social", "en": "Social" },
   "invest.vision": { "zh": "愿景 Vision", "en": "Vision" },
   "invest.04c9e3ab21a9": { "zh": "企业", "en": "Company" },
-  "invest.0a14e8d05052": { "zh": "连续第二年获奖，体现公司在市场拓展与服务创新上的持续领先", "en": "Second consecutive year, demonstrating sustained leadership in market expansion and service innovation" },
-  "invest.15_5_2024_nps_78": { "zh": "15年深耕建立奇幻假期高端品牌认知，业界口碑卓越。连续5年获亚太区最佳游艇服务商，2024年NPS（净推荐值）达78分", "en": "15 years building Fantastic Vacation premium brand recognition with outstanding industry reputation. Best Yacht Service Provider in Asia-Pacific for 5 consecutive years, 2024 NPS score of 78" },
+  "invest.0a14e8d05052": { "zh": "连续第二年获奖,体现公司在市场拓展与服务创新上的持续领先", "en": "Second consecutive year, demonstrating sustained leadership in market expansion and service innovation" },
+  "invest.15_5_2024_nps_78": { "zh": "15年深耕建立奇幻假期高端品牌认知,业界口碑卓越。连续5年获亚太区最佳游艇服务商,2024年NPS(净推荐值)达78分", "en": "15 years building Fantastic Vacation premium brand recognition with outstanding industry reputation. Best Yacht Service Provider in Asia-Pacific for 5 consecutive years, 2024 NPS score of 78" },
   "invest.1d32fb3eca44": { "zh": "荣誉资质与行业认可", "en": "PLACEHOLDER" },
   "invest.1dbd87793708": { "zh": "排名/份额", "en": "Rank/Share" },
-  "invest.200_38_45": { "zh": "累计服务200+高净值客户，包含知名企业家、上市公司高管及家族办公室。客户复购率38%，转介绍率45%", "en": "200+ HNW clients served including renowned entrepreneurs, public company executives & family offices. 38% repeat purchase rate, 45% referral rate" },
+  "invest.200_38_45": { "zh": "累计服务200+高净值客户,包含知名企业家、上市公司高管及家族办公室。客户复购率38%,转介绍率45%", "en": "200+ HNW clients served including renowned entrepreneurs, public company executives & family offices. 38% repeat purchase rate, 45% referral rate" },
   "invest.2018": { "zh": "2018 中国邮轮游艇协会 - 理事单位", "en": "2018 China Cruise & Yacht Association - Council Member" },
   "invest.2019_top10": { "zh": "2019 胡润百富 - 中国高端旅游服务TOP10", "en": "2019 Hurun Report - China Luxury Travel Service TOP 10" },
   "invest.2020": { "zh": "2020 粤港澳大湾区游艇产业联盟 - 创始理事单位", "en": "2020 GBA Yacht Industry Alliance - Founding Council Member" },
@@ -76784,40 +76784,40 @@ var dict = {
   "invest.26985e056ac7": { "zh": "全产业链服务能力", "en": "Full-Chain Service Capability" },
   "invest.27318d385b4d": { "zh": "行业地位与核心竞争力", "en": "PLACEHOLDER" },
   "invest.3": { "zh": "连续3年蝉联亚太区定制游艇市场份额第一", "en": "Note" },
-  "invest.3535b41f2e93": { "zh": "环境管理体系认证 — 节能减排与绿色运营标准", "en": "Environmental Management System — energy saving & green operation standards" },
+  "invest.3535b41f2e93": { "zh": "环境管理体系认证 - 节能减排与绿色运营标准", "en": "Environmental Management System - energy saving & green operation standards" },
   "invest.393314fa8b08": { "zh": "中国游艇行业协会 · 副会长单位", "en": "CYIA Vice Chair Member" },
-  "invest.41ee7189ac46": { "zh": "国内游艇行业最具权威性的行业组织，公司代表行业参与多项国家行业标准制定", "en": "China's most authoritative yacht industry organization; our company participates in national industry standard formulation" },
+  "invest.41ee7189ac46": { "zh": "国内游艇行业最具权威性的行业组织,公司代表行业参与多项国家行业标准制定", "en": "China's most authoritative yacht industry organization; our company participates in national industry standard formulation" },
   "invest.47f831b08b92": { "zh": "技术与供应链优势", "en": "Technology & Supply Chain" },
-  "invest.4_50_30_18": { "zh": "深圳总部 + 新加坡/摩纳哥/迪拜/迈阿密4大区域中心，合作50+全球高端船厂，30+国际码头泊位，服务覆盖18个国家", "en": "Shenzhen HQ + 4 regional centers (Singapore, Monaco, Dubai, Miami), 50+ top global shipyard partners, 30+ international marina berths across 18 countries" },
+  "invest.4_50_30_18": { "zh": "深圳总部 + 新加坡/摩纳哥/迪拜/迈阿密4大区域中心,合作50+全球高端船厂,30+国际码头泊位,服务覆盖18个国家", "en": "Shenzhen HQ + 4 regional centers (Singapore, Monaco, Dubai, Miami), 50+ top global shipyard partners, 30+ international marina berths across 18 countries" },
   "invest.50_000gt": { "zh": "管理船队总吨位超50,000GT", "en": "Note" },
-  "invest.52b88002ebc2": { "zh": "国际权威游艇媒体评选，公司为亚洲核心上榜机构", "en": "Recognized by authoritative international yacht media, a key Asian firm listed" },
-  "invest.52cf3cd9ec45": { "zh": "摩纳哥游艇展组委会颁发，表彰公司在欧亚游艇贸易促进中的杰出贡献", "en": "Awarded by Monaco Yacht Show committee for outstanding contribution to Europe-Asia yacht trade" },
+  "invest.52b88002ebc2": { "zh": "国际权威游艇媒体评选,公司为亚洲核心上榜机构", "en": "Recognized by authoritative international yacht media, a key Asian firm listed" },
+  "invest.52cf3cd9ec45": { "zh": "摩纳哥游艇展组委会颁发,表彰公司在欧亚游艇贸易促进中的杰出贡献", "en": "Awarded by Monaco Yacht Show committee for outstanding contribution to Europe-Asia yacht trade" },
   "invest.5b136dbf1a2f": { "zh": "全球化服务网络", "en": "Global Service Network" },
   "invest.5e8d761ba507": { "zh": "权威认证", "en": "Authoritative Certifications" },
-  "invest.6041c51cb987": { "zh": "中国游艇行业最具影响力奖项，公司连续第三年获此殊荣", "en": "China's most influential yacht industry award, company's third consecutive year" },
+  "invest.6041c51cb987": { "zh": "中国游艇行业最具影响力奖项,公司连续第三年获此殊荣", "en": "China's most influential yacht industry award, company's third consecutive year" },
   "invest.6762fe17ac1a": { "zh": "历年获得的行业奖项、权威认证、客户荣誉与协会资质的完整归档", "en": "PLACEHOLDER" },
-  "invest.70e611d03480": { "zh": "在戛纳颁奖，表彰公司在全球化布局中的突出表现与创新服务模式", "en": "Awarded in Cannes, recognizing outstanding global expansion and innovative service model" },
+  "invest.70e611d03480": { "zh": "在戛纳颁奖,表彰公司在全球化布局中的突出表现与创新服务模式", "en": "Awarded in Cannes, recognizing outstanding global expansion and innovative service model" },
   "invest.754931cbb2de": { "zh": "品牌影响力", "en": "Brand Influence" },
   "invest.7790b39b0226": { "zh": "中国游艇行业金帆奖 - 年度最佳企业", "en": "China Yacht Industry Golden Sail Award - Company of the Year" },
   "invest.7999aff883ed": { "zh": "表彰公司在高端消费服务领域的商业模式创新与客户体验升级", "en": "Recognizing business model innovation and customer experience upgrade in luxury services" },
-  "invest.8": { "zh": "覆盖全国8大热门海域，船队规模行业第一", "en": "Note" },
-  "invest.89045e561690": { "zh": "注：奇幻假期为未上市公司，数据基于行业分析估算。毛利率领先源于全产业链服务模式带来的高附加值溢价", "en": "Note: Fantastic Vacation is unlisted; data is industry-analyst estimated" },
+  "invest.8": { "zh": "覆盖全国8大热门海域,船队规模行业第一", "en": "Note" },
+  "invest.89045e561690": { "zh": "注:奇幻假期为未上市公司,数据基于行业分析估算。毛利率领先源于全产业链服务模式带来的高附加值溢价", "en": "Note: Fantastic Vacation is unlisted; data is industry-analyst estimated" },
   "invest.9db8dc7c6757": { "zh": "亚洲核心进入全球前十的游艇经纪机构", "en": "Note" },
   "invest.a094e5b7699e": { "zh": "数据来源", "en": "Source" },
   "invest.a625b0fb0ba6": { "zh": "中国游艇租赁市场占有率", "en": "Row" },
-  "invest.aa2e8b1d3ec1": { "zh": "首次获得该奖项，标志公司进入中国游艇行业第一梯队", "en": "First time receiving this award, marking entry into China yacht industry top tier" },
-  "invest.abbe2c1addb0": { "zh": "质量管理体系认证 — 覆盖游艇定制、租赁、托管全流程", "en": "Quality Management System — covering yacht custom, charter & management" },
+  "invest.aa2e8b1d3ec1": { "zh": "首次获得该奖项,标志公司进入中国游艇行业第一梯队", "en": "First time receiving this award, marking entry into China yacht industry top tier" },
+  "invest.abbe2c1addb0": { "zh": "质量管理体系认证 - 覆盖游艇定制、租赁、托管全流程", "en": "Quality Management System - covering yacht custom, charter & management" },
   "invest.ae71421af26c": { "zh": "行业对标分析", "en": "Industry Benchmarking" },
   "invest.asia_boating_awards": { "zh": "Asia Boating Awards - 最佳游艇服务商", "en": "Asia Boating Awards - Best Yacht Service Provider" },
   "invest.bc6eef300df4": { "zh": "全球超级游艇经纪交易量", "en": "Row" },
   "invest.bc95a1276b33": { "zh": "毛利率", "en": "Gross Margin" },
   "invest.bf48aa007e6e": { "zh": "国际超级游艇协会 · 会员单位", "en": "International Superyacht Society · Member" },
   "invest.boat_international": { "zh": "BOAT International - 亚太区领先经纪商", "en": "BOAT International - Leading APAC Brokerage House" },
-  "invest.c9583292a732": { "zh": "亚太区最具影响力的游艇行业评选，代表行业对公司全产业链服务能力的最高认可", "en": "Asia-Pacific's most influential yacht industry award, representing the highest recognition of our full-chain service capability" },
+  "invest.c9583292a732": { "zh": "亚太区最具影响力的游艇行业评选,代表行业对公司全产业链服务能力的最高认可", "en": "Asia-Pacific's most influential yacht industry award, representing the highest recognition of our full-chain service capability" },
   "invest.cac507e1b548": { "zh": "以权威数据与深度分析呈现公司在全球游艇行业的市场地位与可持续竞争优势", "en": "PLACEHOLDER" },
   "invest.cde919a80cf6": { "zh": "核心竞争力拆解", "en": "Core Competency Breakdown" },
-  "invest.d1a8616595a2": { "zh": "行业奖项（按年份归档）", "en": "Industry Awards (by Year)" },
-  "invest.d2afab03da89": { "zh": "全球超级游艇领域最具影响力的国际组织，公司为少数入选的中国企业之一", "en": "Most influential international organization in superyacht sector; one of few selected Chinese enterprises" },
+  "invest.d1a8616595a2": { "zh": "行业奖项(按年份归档)", "en": "Industry Awards (by Year)" },
+  "invest.d2afab03da89": { "zh": "全球超级游艇领域最具影响力的国际组织,公司为少数入选的中国企业之一", "en": "Most influential international organization in superyacht sector; one of few selected Chinese enterprises" },
   "invest.d8ae50787a3f": { "zh": "高端客户资源体系", "en": "High-End Client Resources" },
   "invest.db067394932b": { "zh": "全球排名", "en": "Global Rank" },
   "invest.dfaa6c507a18": { "zh": "风控与合规体系", "en": "Risk & Compliance" },
@@ -76828,18 +76828,18 @@ var dict = {
   "invest.ec1925f20733": { "zh": "与全球主要豪华游艇企业的核心指标横向对比", "en": "Horizontal comparison of core metrics with major global luxury yacht enterprises" },
   "invest.ec7be5b3385b": { "zh": "全球游艇管理服务商排名", "en": "Row" },
   "invest.ee3f5585b166": { "zh": "国家", "en": "Country" },
-  "invest.ee98304a6e93": { "zh": "基于全球游艇行业权威数据，呈现公司在关键市场维度的排名与市场份额", "en": "Based on authoritative global yacht industry data, presenting our rankings and market share across key dimensions" },
+  "invest.ee98304a6e93": { "zh": "基于全球游艇行业权威数据,呈现公司在关键市场维度的排名与市场份额", "en": "Based on authoritative global yacht industry data, presenting our rankings and market share across key dimensions" },
   "invest.ef30b24dc13c": { "zh": "行业排名与市场份额", "en": "Industry Rankings & Market Share" },
   "invest.f29c543fffb9": { "zh": "维度", "en": "Dimension" },
   "invest.f411d0f1f925": { "zh": "说明", "en": "Note" },
-  "invest.f7296281c612": { "zh": "职业健康安全管理体系 — 保障员工与客户安全", "en": "Occupational Health & Safety Management — ensuring staff & client safety" },
-  "invest.fef93959d8c1": { "zh": "业内核心覆盖定制-经纪-租赁-管理-文旅全链条的服务商，为客户提供从购船决策到终身使用的无缝体验", "en": "Industry's a core service provider covering the complete custom-brokerage-charter-management-cultural tourism chain, delivering seamless experience from purchase to lifetime usage" },
-  "invest.iot_scm_crm": { "zh": "自研游艇监测IoT系统、供应链管理平台（SCM）、客户管理系统（CRM），与全球前五大碳纤维供应商建立战略采购协议", "en": "Proprietary yacht IoT monitoring system, SCM & CRM platforms. Strategic procurement agreements with global top 5 carbon fiber suppliers" },
+  "invest.f7296281c612": { "zh": "职业健康安全管理体系 - 保障员工与客户安全", "en": "Occupational Health & Safety Management - ensuring staff & client safety" },
+  "invest.fef93959d8c1": { "zh": "业内核心覆盖定制-经纪-租赁-管理-文旅全链条的服务商,为客户提供从购船决策到终身使用的无缝体验", "en": "Industry's a core service provider covering the complete custom-brokerage-charter-management-cultural tourism chain, delivering seamless experience from purchase to lifetime usage" },
+  "invest.iot_scm_crm": { "zh": "自研游艇监测IoT系统、供应链管理平台(SCM)、客户管理系统(CRM),与全球前五大碳纤维供应商建立战略采购协议", "en": "Proprietary yacht IoT monitoring system, SCM & CRM platforms. Strategic procurement agreements with global top 5 carbon fiber suppliers" },
   "invest.iso_14001_2015": { "zh": "ISO 14001:2015", "en": "ISO 14001:2015" },
   "invest.iso_9001_2015": { "zh": "ISO 9001:2015", "en": "ISO 9001:2015" },
-  "invest.iso_9001_iso_14001_ohsas_18001_12": { "zh": "ISO 9001 / ISO 14001 / OHSAS 18001 三体系认证，建立覆盖12大风险领域的全面风险管理框架，合规管理符合国际标准", "en": "ISO 9001/14001/OHSAS 18001 triple certified. Comprehensive risk management framework covering 12 risk domains, compliance aligned with international standards" },
+  "invest.iso_9001_iso_14001_ohsas_18001_12": { "zh": "ISO 9001 / ISO 14001 / OHSAS 18001 三体系认证,建立覆盖12大风险领域的全面风险管理框架,合规管理符合国际标准", "en": "ISO 9001/14001/OHSAS 18001 triple certified. Comprehensive risk management framework covering 12 risk domains, compliance aligned with international standards" },
   "invest.ohsas_18001": { "zh": "OHSAS 18001", "en": "OHSAS 18001" },
-  "invest.rina": { "zh": "意大利船级社（RINA）认证合作服务商，确保游艇维保符合国际最高标准", "en": "Certified service partner of RINA, ensuring yacht maintenance meets highest international standards" },
+  "invest.rina": { "zh": "意大利船级社(RINA)认证合作服务商,确保游艇维保符合国际最高标准", "en": "Certified service partner of RINA, ensuring yacht maintenance meets highest international standards" },
   "invest.usd": { "zh": "市值(亿USD)", "en": "Market Cap" },
   "invest.world_yacht_trophies": { "zh": "World Yacht Trophies - 年度新锐企业", "en": "World Yacht Trophies - Emerging Company of the Year" },
   "invest.mda_2024": { "zh": "2024年度 MD&A", "en": "2024 Annual MD&A" },
@@ -76849,19 +76849,19 @@ var dict = {
   "invest.mda_dl": { "zh": "下载", "en": "Download" },
   "invest.mda_h1": { "zh": "管理层讨论与分析", "en": "Management Discussion & Analysis" },
   "invest.mda_macro": { "zh": "宏观经济与行业环境", "en": "Macroeconomic & Industry Environment" },
-  "invest.mda_macro_txt": { "zh": "2024年全球豪华游艇市场延续增长态势，市场规模达386亿美元，同比增长8.5%。亚太地区作为增长最快区域，增速达12.3%，主要受益于中国高净值人群持续增长、游艇基础设施完善以及政府\"海洋强国\"政策引导。中国游艇消费市场正在从\"象征性消费\"向\"生活方式消费\"转型，客户对全生命周期服务的需求显著增长，为公司全产业链模式创造了结构性机遇。", "en": "Global luxury yacht market continued growing in 2024 to $38.6B (+8.5% YoY). Asia-Pacific led at 12.3% growth, driven by China's expanding HNW population, infrastructure improvements, and national maritime policies. China's yacht consumption is shifting from \"symbolic\" to \"lifestyle\" patterns, with growing demand for lifecycle services creating structural opportunities for our full-chain model." },
+  "invest.mda_macro_txt": { "zh": "2024年全球豪华游艇市场延续增长态势,市场规模达386亿美元,同比增长8.5%。亚太地区作为增长最快区域,增速达12.3%,主要受益于中国高净值人群持续增长、游艇基础设施完善以及政府\"海洋强国\"政策引导。中国游艇消费市场正在从\"象征性消费\"向\"生活方式消费\"转型,客户对全生命周期服务的需求显著增长,为公司全产业链模式创造了结构性机遇。", "en": "Global luxury yacht market continued growing in 2024 to $38.6B (+8.5% YoY). Asia-Pacific led at 12.3% growth, driven by China's expanding HNW population, infrastructure improvements, and national maritime policies. China's yacht consumption is shifting from \"symbolic\" to \"lifestyle\" patterns, with growing demand for lifecycle services creating structural opportunities for our full-chain model." },
   "invest.mda_opp": { "zh": "行业机遇与挑战", "en": "Industry Opportunities & Challenges" },
-  "invest.mda_opp_txt": { "zh": "机遇方面：（1）中国高净值人群突破600万，游艇渗透率仅0.3%，对标发达国家2-3%有巨大增长空间；（2）\"一带一路\"沿线国家游艇基础设施加速建设，海外市场机会广阔；（3）电动游艇与氢能动力技术突破，绿色转型带来产品升级窗口。挑战方面：（1）全球地缘政治不确定性可能影响跨境贸易节奏；（2）高端技术人才供给不足；（3）汇率波动对海外业务利润的潜在影响。公司将通过加大人才培养投入、优化外汇风险管理、深化本地化运营来应对上述挑战。", "en": "Opportunities: (1) China HNW population exceeds 6M with yacht penetration at 0.3% vs 2-3% in developed markets; (2) Belt & Road yacht infrastructure accelerating; (3) Electric & hydrogen propulsion breakthroughs enabling green product upgrades. Challenges: (1) Geopolitical uncertainty; (2) Technical talent shortage; (3) Forex volatility. We will address these through increased talent investment, forex risk management, and localized operations." },
+  "invest.mda_opp_txt": { "zh": "机遇方面:(1)中国高净值人群突破600万,游艇渗透率仅0.3%,对标发达国家2-3%有巨大增长空间;(2)\"一带一路\"沿线国家游艇基础设施加速建设,海外市场机会广阔;(3)电动游艇与氢能动力技术突破,绿色转型带来产品升级窗口。挑战方面:(1)全球地缘政治不确定性可能影响跨境贸易节奏;(2)高端技术人才供给不足;(3)汇率波动对海外业务利润的潜在影响。公司将通过加大人才培养投入、优化外汇风险管理、深化本地化运营来应对上述挑战。", "en": "Opportunities: (1) China HNW population exceeds 6M with yacht penetration at 0.3% vs 2-3% in developed markets; (2) Belt & Road yacht infrastructure accelerating; (3) Electric & hydrogen propulsion breakthroughs enabling green product upgrades. Challenges: (1) Geopolitical uncertainty; (2) Technical talent shortage; (3) Forex volatility. We will address these through increased talent investment, forex risk management, and localized operations." },
   "invest.mda_outlook": { "zh": "2025年经营展望", "en": "2025 Business Outlook" },
-  "invest.mda_outlook_txt": { "zh": "展望2025年，公司设定营业收入目标10.5-11.0亿元（同比增长23-30%），净利润目标2.0-2.2亿元。重点推进（1）迪拜与迈阿密代表处业务落地；（2）数字化平台2.0上线，实现全业务流程在线化；（3）电动游艇产品线首发；（4）深化公司治理与战略规划。", "en": "2025 targets: Revenue RMB 1,050-1,100M (+23-30% YoY), net profit RMB 200-220M. Priorities: (1) Dubai & Miami office operationalization; (2) Digital platform 2.0 launch; (3) Electric yacht product line debut; (4) strategic planning advancement." },
+  "invest.mda_outlook_txt": { "zh": "展望2025年,公司设定营业收入目标10.5-11.0亿元(同比增长23-30%),净利润目标2.0-2.2亿元。重点推进(1)迪拜与迈阿密代表处业务落地;(2)数字化平台2.0上线,实现全业务流程在线化;(3)电动游艇产品线首发;(4)深化公司治理与战略规划。", "en": "2025 targets: Revenue RMB 1,050-1,100M (+23-30% YoY), net profit RMB 200-220M. Priorities: (1) Dubai & Miami office operationalization; (2) Digital platform 2.0 launch; (3) Electric yacht product line debut; (4) strategic planning advancement." },
   "invest.mda_period": { "zh": "报告期", "en": "Period" },
-  "invest.mda_rev1": { "zh": "▸ 豪华游艇定制与销售板块收入3.8亿元（+32%），全年交付定制游艇28艘，含超级游艇3艘", "en": "Luxury yacht custom & sales: RMB 380M (+32%), delivering 28 custom yachts including 3 superyachts" },
-  "invest.mda_rev2": { "zh": "▸ 二手游艇经纪与贸易板块收入1.8亿元（+25%），全年完成跨境交易47笔", "en": "Pre-owned brokerage & trading: RMB 180M (+25%), completing 47 cross-border transactions" },
-  "invest.mda_rev3": { "zh": "▸ 游艇租赁与体验服务板块收入1.5亿元（+22%），全年租赁出行超1,200次", "en": "Yacht charter & experience: RMB 150M (+22%), over 1,200 charter trips" },
-  "invest.mda_rev4": { "zh": "▸ 游艇全生命周期管理板块收入0.9亿元（+30%），新增托管游艇42艘", "en": "Yacht lifecycle management: RMB 90M (+30%), adding 42 yachts under management" },
-  "invest.mda_rev5": { "zh": "▸ 海上文旅配套服务板块收入0.5亿元（+18%），成功举办4场大型游艇主题活动", "en": "Maritime cultural tourism: RMB 50M (+18%), hosting 4 major yacht-themed events" },
+  "invest.mda_rev1": { "zh": "▸ 豪华游艇定制与销售板块收入3.8亿元(+32%),全年交付定制游艇28艘,含超级游艇3艘", "en": "Luxury yacht custom & sales: RMB 380M (+32%), delivering 28 custom yachts including 3 superyachts" },
+  "invest.mda_rev2": { "zh": "▸ 二手游艇经纪与贸易板块收入1.8亿元(+25%),全年完成跨境交易47笔", "en": "Pre-owned brokerage & trading: RMB 180M (+25%), completing 47 cross-border transactions" },
+  "invest.mda_rev3": { "zh": "▸ 游艇租赁与体验服务板块收入1.5亿元(+22%),全年租赁出行超1,200次", "en": "Yacht charter & experience: RMB 150M (+22%), over 1,200 charter trips" },
+  "invest.mda_rev4": { "zh": "▸ 游艇全生命周期管理板块收入0.9亿元(+30%),新增托管游艇42艘", "en": "Yacht lifecycle management: RMB 90M (+30%), adding 42 yachts under management" },
+  "invest.mda_rev5": { "zh": "▸ 海上文旅配套服务板块收入0.5亿元(+18%),成功举办4场大型游艇主题活动", "en": "Maritime cultural tourism: RMB 50M (+18%), hosting 4 major yacht-themed events" },
   "invest.mda_review": { "zh": "经营情况回顾", "en": "Operational Review" },
-  "invest.mda_review_txt": { "zh": "2024年度公司实现营业收入8.5亿元，同比增长28%，超额完成年度预算目标（目标7.8亿）。其中：", "en": "2024 revenue reached RMB 850M (+28% YoY), exceeding the annual target (RMB 780M):" },
+  "invest.mda_review_txt": { "zh": "2024年度公司实现营业收入8.5亿元,同比增长28%,超额完成年度预算目标(目标7.8亿)。其中:", "en": "2024 revenue reached RMB 850M (+28% YoY), exceeding the annual target (RMB 780M):" },
   "invest.mda_sub": { "zh": "深入解读各报告期的经营情况、财务表现、行业机遇与战略展望", "en": "In-depth analysis of operational performance, financial results, industry opportunities and strategic outlook for each reporting period" },
   "invest.mda_t1": { "zh": "全产业链模式深化 · 全球化加速", "en": "Full-Chain Deepening · Globalization Acceleration" },
   "invest.mda_t2": { "zh": "东南亚突破 · 数字化元年", "en": "Southeast Asia Breakthrough · Digital Year One" },
@@ -77247,29 +77247,29 @@ var dict = {
   "charter.800": { "zh": "★", "en": "★" },
   "charter.803": { "zh": "★", "en": "★" },
   "charter.806": { "zh": "★", "en": "★" },
-  "contact.465": { "zh": "地址：广东省深圳市南山区蛇口太子湾大道88号奇幻假期大厦28楼<br/>邮编：518000<br/>电话：+86 0755 3353-0188<br/>邮箱：sz@fantastic.vacation<br/>服务范围：品牌战略、全球业务统筹、高端定制项目管理、中国区客户服务<br/>办公时间：周一至周五 09:00-19:00", "en": "Address: 28/F, Fantastic Vacation Building, 88 Taiziwan Avenue, Shekou, Nanshan, Shenzhen, China<br/>Postal Code: 518000<br/>Tel: +86 0755 3353-0188<br/>Email: sz@fantastic.vacation<br/>Services: Brand Strategy, Global Business Coordination, Premium Custom Project Management, Regional Client Services<br/>Office Hours: Mon-Fri 09:00-19:00" },
+  "contact.465": { "zh": "地址:广东省深圳市南山区蛇口太子湾大道88号奇幻假期大厦28楼<br/>邮编:518000<br/>电话:+86 0755 3353-0188<br/>邮箱:sz@fantastic.vacation<br/>服务范围:品牌战略、全球业务统筹、高端定制项目管理、中国区客户服务<br/>办公时间:周一至周五 09:00-19:00", "en": "Address: 28/F, Fantastic Vacation Building, 88 Taiziwan Avenue, Shekou, Nanshan, Shenzhen, China<br/>Postal Code: 518000<br/>Tel: +86 0755 3353-0188<br/>Email: sz@fantastic.vacation<br/>Services: Brand Strategy, Global Business Coordination, Premium Custom Project Management, Regional Client Services<br/>Office Hours: Mon-Fri 09:00-19:00" },
   "contact.491": {
-    "zh": "地址：1 Raffles Place, Tower 2, #42-01, Singapore 048616<br/>电话：+65 6234 5678<br/>邮箱：sg@fantastic.vacation<br/>服务范围：东南亚航线策划、租赁调度、当地码头协调<br/>办公时间：周一至周六 09:00-21:00",
+    "zh": "地址:1 Raffles Place, Tower 2, #42-01, Singapore 048616<br/>电话:+65 6234 5678<br/>邮箱:sg@fantastic.vacation<br/>服务范围:东南亚航线策划、租赁调度、当地码头协调<br/>办公时间:周一至周六 09:00-21:00",
     "en": "Address: 1 Raffles Place, Tower 2, #42-01, Singapore 048616<br/>Tel: +65 6234 5678<br/>Email: sg@fantastic.vacation<br/>Service Scope: Southeast Asian route planning, charter scheduling, local marina coordination<br/>Office Hours: Mon-Sat 09:00-21:00"
   },
   "contact.514": {
-    "zh": "地址：7 Avenue des Ligures, 98000 Monaco<br/>电话：+377 97 70 8888<br/>邮箱：mc@fantastic.vacation<br/>服务范围：地中海航线运营、欧洲船厂对接、购艇代理<br/>办公时间：周一至周五 09:00-19:00 CET",
+    "zh": "地址:7 Avenue des Ligures, 98000 Monaco<br/>电话:+377 97 70 8888<br/>邮箱:mc@fantastic.vacation<br/>服务范围:地中海航线运营、欧洲船厂对接、购艇代理<br/>办公时间:周一至周五 09:00-19:00 CET",
     "en": "Address: 7 Avenue des Ligures, 98000 Monaco<br/>Tel: +377 97 70 8888<br/>Email: mc@fantastic.vacation<br/>Service Scope: Mediterranean route operations, European shipyard liaison, yacht purchase agency<br/>Office Hours: Mon-Fri 09:00-19:00 CET"
   },
   "contact.537": {
-    "zh": "地址：DIFC, Gate Village 7, Office 302, Dubai, UAE<br/>电话：+971 4 567 8888<br/>邮箱：ae@fantastic.vacation<br/>服务范围：中东皇室定制、商务活动策划、海湾航线<br/>办公时间：周日至周四 10:00-20:00 GST",
+    "zh": "地址:DIFC, Gate Village 7, Office 302, Dubai, UAE<br/>电话:+971 4 567 8888<br/>邮箱:ae@fantastic.vacation<br/>服务范围:中东皇室定制、商务活动策划、海湾航线<br/>办公时间:周日至周四 10:00-20:00 GST",
     "en": "Address: DIFC, Gate Village 7, Office 302, Dubai, UAE<br/>Tel: +971 4 567 8888<br/>Email: ae@fantastic.vacation<br/>Service Scope: Middle East royal customization, business event planning, Gulf routes<br/>Office Hours: Sun-Thu 10:00-20:00 GST"
   },
   "contact.560": {
-    "zh": "地址：600 Brickell Ave, Suite 2020, Miami, FL 33131<br/>电话：+1 305 888 9999<br/>邮箱：us@fantastic.vacation<br/>服务范围：加勒比航线、美洲游艇市场、跨洋交付<br/>办公时间：周一至周五 09:00-19:00 EST",
+    "zh": "地址:600 Brickell Ave, Suite 2020, Miami, FL 33131<br/>电话:+1 305 888 9999<br/>邮箱:us@fantastic.vacation<br/>服务范围:加勒比航线、美洲游艇市场、跨洋交付<br/>办公时间:周一至周五 09:00-19:00 EST",
     "en": "Address: 600 Brickell Ave, Suite 2020, Miami, FL 33131<br/>Tel: +1 305 888 9999<br/>Email: us@fantastic.vacation<br/>Service Scope: Caribbean routes, Americas yacht market, transoceanic delivery<br/>Office Hours: Mon-Fri 09:00-19:00 EST"
   },
   "contact.583": {
-    "zh": "地址：上海市浦东新区陆家嘴环路1288号<br/>邮编：200120<br/>电话：+86 13797920792<br/>邮箱：sh@fantastic.vacation<br/>服务范围：中国大陆客户服务、游艇引进、国内码头协调<br/>办公时间：周一至周五 09:00-19:00",
+    "zh": "地址:上海市浦东新区陆家嘴环路1288号<br/>邮编:200120<br/>电话:+86 13797920792<br/>邮箱:sh@fantastic.vacation<br/>服务范围:中国大陆客户服务、游艇引进、国内码头协调<br/>办公时间:周一至周五 09:00-19:00",
     "en": "Address: 1288 Lujiazui Ring Road, Pudong New Area, Shanghai<br/>Postal Code: 200120<br/>Tel: +86 13797920792<br/>Email: sh@fantastic.vacation<br/>Service Scope: Mainland China client service, yacht import, domestic marina coordination<br/>Office Hours: Mon-Fri 09:00-19:00"
   },
   "contact.638": {
-    "zh": "<strong>企业全称：</strong>奇幻假期实业有限公司（FANTASTIC VACATION LIMITED）<br/><strong>注册地：</strong>广东省深圳市<br/><strong>统一社会信用代码：</strong>91440300MA00000001<br/><strong>注册地址：</strong>广东省深圳市宝安区松岗工业园1号<br/><strong>法定代表人：</strong>王潇生<br/><strong>合规备案：</strong>已取得中国交通运输部游艇运营许可、中国海事局牌照、新加坡MPA认证<br/><strong>保险合作：</strong>与劳合社（Lloyd's）、安联（Allianz）签署全球海事保险合作协议",
+    "zh": "<strong>企业全称:</strong>奇幻假期实业有限公司(FANTASTIC VACATION LIMITED)<br/><strong>注册地:</strong>广东省深圳市<br/><strong>统一社会信用代码:</strong>91440300MA00000001<br/><strong>注册地址:</strong>广东省深圳市宝安区松岗工业园1号<br/><strong>法定代表人:</strong>王潇生<br/><strong>合规备案:</strong>已取得中国交通运输部游艇运营许可、中国海事局牌照、新加坡MPA认证<br/><strong>保险合作:</strong>与劳合社(Lloyd's)、安联(Allianz)签署全球海事保险合作协议",
     "en": "<strong>Legal Name:</strong> FANTASTIC VACATION LIMITED<br/><strong>Registered In:</strong> Hong Kong SAR<br/><strong>Company Reg No:</strong> 74238516<br/><strong>Business Reg No:</strong>78540231-000-05-26-8<br/><strong>Registered Address:</strong> No.1 Songgang Industrial Park, Bao'an District, Shenzhen, Guangdong Province<br/><strong>Legal Representative:</strong> Chen Hanyu<br/><strong>Compliance:</strong> Licensed by China Ministry of Transport for Yacht Operations, China Maritime Safety Administration, Singapore MPA<br/><strong>Insurance Partners:</strong> Lloyd's of London, Allianz Global Maritime Insurance"
   },
   "contact.667": {"zh": "", "en": "Explore the World, Live the Vacation"},
@@ -77315,7 +77315,7 @@ var dict = {
   "index.799": { "zh": "799", "en": "799" },
   "index.959": { "zh": "959", "en": "959" },
   "index.965": { "zh": "965", "en": "965" },
-  "index.99": { "zh": "\"我们不制造游艇，我们编织海洋梦想。\"", "en": "We do not build yachts, we weave ocean dreams." },
+  "index.99": { "zh": "\"我们不制造游艇,我们编织海洋梦想。\"", "en": "We do not build yachts, we weave ocean dreams." },
   "ir-about.132": { "zh": "132", "en": "132" },
   "ir-about.17": { "zh": "17", "en": "17" },
   "ir-about.184": { "zh": "184", "en": "184" },
@@ -78192,7 +78192,7 @@ var dict = {
     "en": 'John Doe'
   },
   "_ph.charter.2": {
-    "zh": '请描述您的特殊需求，如：求婚布置、商务接待、家庭度假等',
+    "zh": '请描述您的特殊需求,如:求婚布置、商务接待、家庭度假等',
     "en": 'Special requirements, e.g., Proposal setup, Business reception, Family vacation'
   },
   "_ph.contact.0": {
@@ -78212,11 +78212,11 @@ var dict = {
     "en": 'Enter your phone number'
   },
   "_ph.contact.4": {
-    "zh": '例如：2026年8月 或 灵活安排',
+    "zh": '例如:2026年8月 或 灵活安排',
     "en": 'e.g., August 2026 or Flexible'
   },
   "_ph.contact.5": {
-    "zh": '请简要描述您的需求、偏好或特殊要求，我们的顾问将据此为您准备定制方案...',
+    "zh": '请简要描述您的需求、偏好或特殊要求,我们的顾问将据此为您准备定制方案...',
     "en": 'Briefly describe your needs, preferences or special requirements...'
   },
   "_ph.custom.0": {
@@ -78232,15 +78232,15 @@ var dict = {
     "en": 'Your Name'
   },
   "_ph.custom.3": {
-    "zh": '预算区间（万元）',
+    "zh": '预算区间(万元)',
     "en": 'Budget (CNY 10K)'
   },
   "_ph.custom.4": {
-    "zh": '预算区间（万元）',
+    "zh": '预算区间(万元)',
     "en": 'Budget (CNY 10K)'
   },
   "_ph.custom.5": {
-    "zh": '计划使用场景（如：家庭度假/商务接待/海钓运动）',
+    "zh": '计划使用场景(如:家庭度假/商务接待/海钓运动)',
     "en": 'Usage scenario (e.g., Family vacation / Business reception / Fishing)'
   },
   "_ph.custom.6": {
@@ -78320,7 +78320,7 @@ var dict = {
     "en": 'Enter company full name'
   },
   "_ph.partner-apply.2": {
-    "zh": '例：上海',
+    "zh": '例:上海',
     "en": 'e.g., Shanghai'
   },
   "_ph.partner-apply.3": {
@@ -78996,15 +78996,15 @@ var dict = {
   "_alt.management.4": { "zh": "保险理赔协助", "en": "Yacht Photo" },
   "_alt.management.5": { "zh": "资产保值规划", "en": "Yacht Photo" },
   "_alt.news.0": { "zh": "奇幻假期荣获2026年度亚洲最佳游艇服务商大奖", "en": "Yacht Photo" },
-  "_alt.news.1": { "zh": "奇幻假期宣布进军亚太市场，香港运营中心正式启用", "en": "Yacht Photo" },
-  "_alt.news.2": { "zh": "摩纳哥游艇展2026：超级游艇订单创历史新高", "en": "Yacht Photo" },
-  "_alt.news.3": { "zh": "2026全球游艇市场报告：新能源动力游艇增长超40%", "en": "Yacht Photo" },
+  "_alt.news.1": { "zh": "奇幻假期宣布进军亚太市场,香港运营中心正式启用", "en": "Yacht Photo" },
+  "_alt.news.2": { "zh": "摩纳哥游艇展2026:超级游艇订单创历史新高", "en": "Yacht Photo" },
+  "_alt.news.3": { "zh": "2026全球游艇市场报告:新能源动力游艇增长超40%", "en": "Yacht Photo" },
   "_alt.news.4": { "zh": "奇幻假期与意大利Ferretti集团签署战略合作协议", "en": "Yacht Photo" },
-  "_alt.news.5": { "zh": "海上生活方式指南：如何策划一场完美的游艇生日派对", "en": "Yacht Photo" },
-  "_alt.news.6": { "zh": "南极探险实录：奇幻假期船队成功完成首次南极航行", "en": "Yacht Photo" },
-  "_alt.news.7": { "zh": "亚太游艇市场崛起：新加坡成为新兴游艇中心", "en": "Yacht Photo" },
+  "_alt.news.5": { "zh": "海上生活方式指南:如何策划一场完美的游艇生日派对", "en": "Yacht Photo" },
+  "_alt.news.6": { "zh": "南极探险实录:奇幻假期船队成功完成首次南极航行", "en": "Yacht Photo" },
+  "_alt.news.7": { "zh": "亚太游艇市场崛起:新加坡成为新兴游艇中心", "en": "Yacht Photo" },
   "_alt.news.8": { "zh": "奇幻假期发布2026-2028三年发展战略", "en": "Yacht Photo" },
-  "_alt.news.9": { "zh": "地中海航线攻略：30天深度巡航全指南", "en": "Yacht Photo" },
+  "_alt.news.9": { "zh": "地中海航线攻略:30天深度巡航全指南", "en": "Yacht Photo" },
   "_alt.partner-cases.0": { "zh": "Ferretti定制", "en": "FerrettiCustom" },
   "_alt.partnership.0": { "zh": "船厂合作", "en": "Yacht Photo" },
   "_alt.partnership.1": { "zh": "码头网络", "en": "Yacht Photo" },
@@ -79485,7 +79485,7 @@ var dict = {
   "membership.10": { "zh": "10天/年", "en": "10 days/yr" },
   "membership.200_000": { "zh": "200,000 积分", "en": "200,000 points" },
   "membership.24": { "zh": "24小时内专属顾问致电", "en": "Dedicated advisor contacts you within 24h" },
-  "membership.30": { "zh": "30+国际海域合作泊位，地中海、加勒比海、东南亚、太平洋全覆盖", "en": "30+ international berths covering Mediterranean, Caribbean, SE Asia & Pacific" },
+  "membership.30": { "zh": "30+国际海域合作泊位,地中海、加勒比海、东南亚、太平洋全覆盖", "en": "30+ international berths covering Mediterranean, Caribbean, SE Asia & Pacific" },
   "membership.50_000": { "zh": "50,000 积分", "en": "50,000 points" },
   "membership.500_000": { "zh": "500,000 积分", "en": "500,000 points" },
   "membership.60": { "zh": "60天", "en": "60 days" },
@@ -79508,30 +79508,30 @@ var dict = {
   "membership.": { "zh": "· 专属企业活动策划团队支持", "en": "· Dedicated corporate event planning team" },
   "membership.": { "zh": "· 企业客户答谢与品牌联动权益", "en": "· Corporate client appreciation & brand partnership benefits" },
   "membership.": { "zh": "· 优先船队调配与定制航线规划", "en": "· Priority fleet allocation & custom route planning" },
-  "membership.": { "zh": "· 传承精神：航海文化代代相传，生命因此更广阔", "en": "· Heritage: Maritime culture passed through generations, enriching life beyond measure" },
-  "membership.": { "zh": "· 圈层价值：每一位会员，都是志同道合的航海知己", "en": "· Circle Value: Every member is a kindred sailing spirit" },
-  "membership.": { "zh": "· 多席位企业会员账户，统一管理与结算", "en": "· Multi-seat corporate accounts with unified management & billing" },
-  "membership.": { "zh": "· 极致安全：每一次航行，都有最完善的安全保障", "en": "· Ultimate Safety: Every voyage is fully secured" },
-  "membership.": { "zh": "· 超越服务：每一次出行，都是非凡体验", "en": "· Beyond Service: Every trip transcends expectations" },
-  "membership.": { "zh": "• 会员连续使用三年及以上者，可享年费永久锁定，不受日后年费调整影响。", "en": "• Members with 3+ consecutive years enjoy permanent fee lock — no future increases." },
-  "membership.2_000": { "zh": "• 过期时间 ≤ 宽限期的会员可不受服务中断影响，但需缴纳一次性续约手续费 ¥2,000。", "en": "• Members within grace period may continue without interruption, with a ¥2,000 renewal fee." },
-  "membership.": { "zh": "• 过期超过宽限期的会员需要重新提交资质评估（视为新入会），须重新缴纳首次入会费。", "en": "• Members exceeding grace period must re-apply (treated as new enrollment), including enrollment fee." },
+  "membership.": { "zh": "· 传承精神:航海文化代代相传,生命因此更广阔", "en": "· Heritage: Maritime culture passed through generations, enriching life beyond measure" },
+  "membership.": { "zh": "· 圈层价值:每一位会员,都是志同道合的航海知己", "en": "· Circle Value: Every member is a kindred sailing spirit" },
+  "membership.": { "zh": "· 多席位企业会员账户,统一管理与结算", "en": "· Multi-seat corporate accounts with unified management & billing" },
+  "membership.": { "zh": "· 极致安全:每一次航行,都有最完善的安全保障", "en": "· Ultimate Safety: Every voyage is fully secured" },
+  "membership.": { "zh": "· 超越服务:每一次出行,都是非凡体验", "en": "· Beyond Service: Every trip transcends expectations" },
+  "membership.": { "zh": "• 会员连续使用三年及以上者,可享年费永久锁定,不受日后年费调整影响。", "en": "• Members with 3+ consecutive years enjoy permanent fee lock - no future increases." },
+  "membership.2_000": { "zh": "• 过期时间 ≤ 宽限期的会员可不受服务中断影响,但需缴纳一次性续约手续费 ¥2,000。", "en": "• Members within grace period may continue without interruption, with a ¥2,000 renewal fee." },
+  "membership.": { "zh": "• 过期超过宽限期的会员需要重新提交资质评估(视为新入会),须重新缴纳首次入会费。", "en": "• Members exceeding grace period must re-apply (treated as new enrollment), including enrollment fee." },
   "membership.level_1": { "zh": "✦ LEVEL 1 · 雅致航海 ✦", "en": "✦ LEVEL 1 · ELEGANT VOYAGER ✦" },
   "membership.level_2": { "zh": "✦ LEVEL 2 · 蓝海尊享 ✦", "en": "✦ LEVEL 2 · BLUE HORIZON ELITE ✦" },
   "membership.level_3": { "zh": "✦ LEVEL 3 · 御海轻奢 ✦", "en": "✦ LEVEL 3 · PREMIUM OCEAN ELITE ✦" },
   "membership.level_4": { "zh": "✦ LEVEL 4 · 宸鼎奢享 ✦", "en": "✦ LEVEL 4 · SUPREME MARITIME ELITE ✦" },
   "membership.membership": { "zh": "✦ MEMBERSHIP · 尊享会员俱乐部 ✦", "en": "✦ MEMBERSHIP · EXCLUSIVE MEMBERS CLUB ✦" },
-  "membership.": { "zh": "一切完全定制，不限次数、不限条件、不限地域。黑卡独享超越极限", "en": "Fully customized — unlimited, unconditional, unrestricted worldwide. Ultimate exclusivity beyond limits" },
+  "membership.": { "zh": "一切完全定制,不限次数、不限条件、不限地域。黑卡独享超越极限", "en": "Fully customized - unlimited, unconditional, unrestricted worldwide. Ultimate exclusivity beyond limits" },
   "membership.": { "zh": "一次性付清", "en": "One-time payment" },
   "membership.": { "zh": "一次性或按季分期缴纳", "en": "One-time or quarterly payment" },
   "membership.": { "zh": "上百项尊享权益", "en": "Hundreds of Exclusive Benefits" },
-  "membership.": { "zh": "上百项权益逐项解析，找到最适合您的会员等级", "en": "Detailed breakdown of hundreds of benefits — find your perfect tier" },
-  "membership.": { "zh": "不可以。每位会员只能持有一个等级的会员卡。如果您的出行需求发生变化，可以申请会员升级，升级后原有的低等级会籍将自动失效。", "en": "No. Each member holds only one tier. If your needs change, apply for an upgrade — the lower tier expires automatically upon upgrade." },
-  "membership.": { "zh": "不限次合作联盟机场贵宾厅使用，提供接送机衔接服务", "en": "Unlimited partner lounge access with airport transfer service" },
-  "membership.50_30": { "zh": "与全球超过50家高端游艇制造商、30+国际游艇码头建立了长期战略合作关系，资源覆盖地中海、加勒比海、东南亚、太平洋及中国沿海主要城市。", "en": "Strategic partnerships with 50+ leading yacht manufacturers & 30+ international marinas, covering Mediterranean, Caribbean, SE Asia, Pacific & major Chinese coastal cities." },
-  "membership.": { "zh": "与全球高端航海人士同席，创始族会籍圈层专属私宴和年度国际盛会", "en": "Dine with global sailing elites at exclusive private banquets & annual international galas" },
-  "membership.": { "zh": "专业团队随行航拍，赠送精美剪辑视频与高清写真", "en": "Professional aerial photography team, complimentary edited video & HD photos" },
-  "membership.": { "zh": "专业教练陪同潜水与深海钓鱼体验，含全套装备", "en": "Professional instructor-led diving & deep-sea fishing, full equipment included" },
+  "membership.": { "zh": "上百项权益逐项解析,找到最适合您的会员等级", "en": "Detailed breakdown of hundreds of benefits - find your perfect tier" },
+  "membership.": { "zh": "不可以。每位会员只能持有一个等级的会员卡。如果您的出行需求发生变化,可以申请会员升级,升级后原有的低等级会籍将自动失效。", "en": "No. Each member holds only one tier. If your needs change, apply for an upgrade - the lower tier expires automatically upon upgrade." },
+  "membership.": { "zh": "不限次合作联盟机场贵宾厅使用,提供接送机衔接服务", "en": "Unlimited partner lounge access with airport transfer service" },
+  "membership.50_30": { "zh": "与全球超过50家高端游艇制造商、30+国际游艇码头建立了长期战略合作关系,资源覆盖地中海、加勒比海、东南亚、太平洋及中国沿海主要城市。", "en": "Strategic partnerships with 50+ leading yacht manufacturers & 30+ international marinas, covering Mediterranean, Caribbean, SE Asia, Pacific & major Chinese coastal cities." },
+  "membership.": { "zh": "与全球高端航海人士同席,创始族会籍圈层专属私宴和年度国际盛会", "en": "Dine with global sailing elites at exclusive private banquets & annual international galas" },
+  "membership.": { "zh": "专业团队随行航拍,赠送精美剪辑视频与高清写真", "en": "Professional aerial photography team, complimentary edited video & HD photos" },
+  "membership.": { "zh": "专业教练陪同潜水与深海钓鱼体验,含全套装备", "en": "Professional instructor-led diving & deep-sea fishing, full equipment included" },
   "membership.": { "zh": "专属", "en": "Dedicated" },
   "membership.": { "zh": "专属健康顾问", "en": "Dedicated Health Advisor" },
   "membership.": { "zh": "专属售后服务与客服中心", "en": "Dedicated After-Sales & Customer Service Center" },
@@ -79541,44 +79541,44 @@ var dict = {
   "membership.": { "zh": "专属通道", "en": "Dedicated Channel" },
   "membership.": { "zh": "专属顾问团队", "en": "Dedicated Advisor Team" },
   "membership.": { "zh": "专属顾问服务", "en": "Dedicated Advisor Service" },
-  "membership.": { "zh": "为企业客户提供整体打包会员方案，适合作为高管出行、商务接待、品牌活动的专属资源池。", "en": "Comprehensive membership solutions for corporate clients — ideal for executive travel, business hospitality & brand events." },
+  "membership.": { "zh": "为企业客户提供整体打包会员方案,适合作为高管出行、商务接待、品牌活动的专属资源池。", "en": "Comprehensive membership solutions for corporate clients - ideal for executive travel, business hospitality & brand events." },
   "membership.": { "zh": "为企业高管团队与商务客户打造的整体打包出行方案", "en": "All-inclusive travel package for executive teams & business clients" },
   "membership.": { "zh": "为每位会员量身定制", "en": "Tailored for Every Member" },
   "membership.": { "zh": "了解会员等级", "en": "Explore All Tiers" },
   "membership.": { "zh": "五星酒店住宿一晚", "en": "5-Star Hotel Stay (1 Night)" },
-  "membership.": { "zh": "五级会员体系，由低至高层级清晰划分，满足不同层次海洋生活方式需求", "en": "A clear five-tier system meeting every level of maritime lifestyle needs" },
+  "membership.": { "zh": "五级会员体系,由低至高层级清晰划分,满足不同层次海洋生活方式需求", "en": "A clear five-tier system meeting every level of maritime lifestyle needs" },
   "membership.": { "zh": "五级会员层级全景图", "en": "Five-Tier Membership Overview" },
   "membership.": { "zh": "五级权益全景对照", "en": "Five-Tier Benefits Comparison" },
   "membership.invitation_only": { "zh": "仅限受邀 / Invitation Only", "en": "Invitation Only" },
   "membership.": { "zh": "仅限受邀加入", "en": "Invitation Only" },
-  "membership.": { "zh": "从专属顾问、全球泊位、私人管家到圈层活动，我们为您提供无微不至的海上私享服务体验", "en": "From dedicated advisors and global berths to private butlers and social events — meticulous exclusive maritime service" },
-  "membership.": { "zh": "从会员账户正式开通之日起，计至当年度、次年度对应日期。跨年度费用（如年费）按会籍年/自然年换算。", "en": "From account activation date, counting to the same date of current or next year. Cross-year fees follow membership year/natural year." },
-  "membership.": { "zh": "从雅致航海到寰球至尊黑卡，每一级都为您量身打造独特的海上私享体验", "en": "From Elegant Voyager to Ultimate Black Card — every tier is crafted exclusively for your maritime lifestyle" },
+  "membership.": { "zh": "从专属顾问、全球泊位、私人管家到圈层活动,我们为您提供无微不至的海上私享服务体验", "en": "From dedicated advisors and global berths to private butlers and social events - meticulous exclusive maritime service" },
+  "membership.": { "zh": "从会员账户正式开通之日起,计至当年度、次年度对应日期。跨年度费用(如年费)按会籍年/自然年换算。", "en": "From account activation date, counting to the same date of current or next year. Cross-year fees follow membership year/natural year." },
+  "membership.": { "zh": "从雅致航海到寰球至尊黑卡,每一级都为您量身打造独特的海上私享体验", "en": "From Elegant Voyager to Ultimate Black Card - every tier is crafted exclusively for your maritime lifestyle" },
   "membership.": { "zh": "企业专属会员方案", "en": "Corporate Exclusive Membership" },
-  "membership.72": { "zh": "优选航线资源，热门季节与旺季出行不受限，提前72小时预约即可锁定心仪游艇", "en": "Preferred route access — no peak season restrictions, book your yacht 72h in advance" },
+  "membership.72": { "zh": "优选航线资源,热门季节与旺季出行不受限,提前72小时预约即可锁定心仪游艇", "en": "Preferred route access - no peak season restrictions, book your yacht 72h in advance" },
   "membership.": { "zh": "会员专属热线", "en": "Member Exclusive Hotline" },
-  "membership.": { "zh": "会员专属航海培训课程，从基础驾驶到远洋航行，全套认证体系", "en": "Exclusive nautical training courses — from basic piloting to ocean voyaging, full certification" },
-  "membership.137_9792_0792": { "zh": "会员专线：137 9792 0792", "en": "Member Hotline: 137 9792 0792" },
-  "membership.": { "zh": "会员升级无冻结期，可随时联系专属顾问申请。补缴两级会费差额后，新等级权益即时生效，原等级权益同步终止。", "en": "Upgrades have no lock-in period — contact your advisor anytime. Pay the tier difference for immediate new-tier benefits; original tier benefits end simultaneously." },
-  "membership.": { "zh": "会员可随时申请注销会籍，注销后剩余年费不予退还，已兑换积分自动作废。", "en": "Members may apply for cancellation at any time. No refund of remaining annual fee; redeemed points become void." },
-  "membership.": { "zh": "会员年费按所选等级对应的标准年费缴纳。年费自账户开通之日起计算，按自然年计费。除另有约定外，会费一经缴纳不予退还。", "en": "Annual fees are paid according to selected tier. Fees are calculated from account activation date, based on natural year. Unless otherwise agreed, fees are non-refundable upon payment." },
-  "membership.": { "zh": "会员是否可以转让？", "en": "Can membership be transferred?" },
+  "membership.": { "zh": "会员专属航海培训课程,从基础驾驶到远洋航行,全套认证体系", "en": "Exclusive nautical training courses - from basic piloting to ocean voyaging, full certification" },
+  "membership.137_9792_0792": { "zh": "会员专线:137 9792 0792", "en": "Member Hotline: 137 9792 0792" },
+  "membership.": { "zh": "会员升级无冻结期,可随时联系专属顾问申请。补缴两级会费差额后,新等级权益即时生效,原等级权益同步终止。", "en": "Upgrades have no lock-in period - contact your advisor anytime. Pay the tier difference for immediate new-tier benefits; original tier benefits end simultaneously." },
+  "membership.": { "zh": "会员可随时申请注销会籍,注销后剩余年费不予退还,已兑换积分自动作废。", "en": "Members may apply for cancellation at any time. No refund of remaining annual fee; redeemed points become void." },
+  "membership.": { "zh": "会员年费按所选等级对应的标准年费缴纳。年费自账户开通之日起计算,按自然年计费。除另有约定外,会费一经缴纳不予退还。", "en": "Annual fees are paid according to selected tier. Fees are calculated from account activation date, based on natural year. Unless otherwise agreed, fees are non-refundable upon payment." },
+  "membership.": { "zh": "会员是否可以转让?", "en": "Can membership be transferred?" },
   "membership.": { "zh": "会员服务中心联系方式", "en": "Member Service Center Contact" },
   "membership.": { "zh": "会员服务条款", "en": "Membership Service Terms" },
-  "membership.": { "zh": "会员权益仅限本人（或企业授权代表）使用，不得转让、出借或以任何形式供第三方使用。如发现权益滥用，本俱乐部有权终止其会员资格，并不予退还剩余年费。", "en": "Member benefits are for personal (or authorized corporate representative) use only — no transfer, lending or third-party use. Abuse results in membership termination without refund." },
+  "membership.": { "zh": "会员权益仅限本人(或企业授权代表)使用,不得转让、出借或以任何形式供第三方使用。如发现权益滥用,本俱乐部有权终止其会员资格,并不予退还剩余年费。", "en": "Member benefits are for personal (or authorized corporate representative) use only - no transfer, lending or third-party use. Abuse results in membership termination without refund." },
   "membership.": { "zh": "会员活动邀请", "en": "Member Event Invitations" },
-  "membership.": { "zh": "会员的有效周期如何计算？", "en": "How is the membership period calculated?" },
+  "membership.": { "zh": "会员的有效周期如何计算?", "en": "How is the membership period calculated?" },
   "membership.": { "zh": "会员积分体系", "en": "Membership Points System" },
   "membership.": { "zh": "会员等级", "en": "Membership Tier" },
   "membership.": { "zh": "会籍变更、升级、暂停与注销的规则说明", "en": "Rules for membership changes, upgrades, suspension & cancellation" },
   "membership.": { "zh": "会籍暂停", "en": "Membership Suspension" },
-  "membership.": { "zh": "会籍正式生效，享受全部会员专属权益", "en": "Membership activated — enjoy all exclusive benefits" },
+  "membership.": { "zh": "会籍正式生效,享受全部会员专属权益", "en": "Membership activated - enjoy all exclusive benefits" },
   "membership.": { "zh": "会籍注销", "en": "Membership Cancellation" },
   "membership.": { "zh": "会籍转让", "en": "Membership Transfer" },
   "membership.": { "zh": "会籍转让、暂停与注销", "en": "Membership Transfer, Suspension & Cancellation" },
   "membership.": { "zh": "会费标准与续约规则", "en": "Fee Standards & Renewal Rules" },
   "membership.": { "zh": "会费缴纳", "en": "Fee Payment" },
-  "membership.": { "zh": "会费缴纳完成后，正式成为尊享会员", "en": "Upon fee payment, officially become an exclusive member" },
+  "membership.": { "zh": "会费缴纳完成后,正式成为尊享会员", "en": "Upon fee payment, officially become an exclusive member" },
   "membership.": { "zh": "免费升舱一次", "en": "One Complimentary Cabin Upgrade" },
   "membership.": { "zh": "兑换项目", "en": "Redemption Items" },
   "membership.4": { "zh": "全付或按季分4次", "en": "Full payment or quarterly (4 installments)" },
@@ -79586,64 +79586,64 @@ var dict = {
   "membership.": { "zh": "全球无限游艇使用权", "en": "Global Unlimited Yacht Access" },
   "membership.": { "zh": "全球机场贵宾厅", "en": "Global Airport Lounges" },
   "membership.": { "zh": "全球泊位网络", "en": "Global Berths Network" },
-  "membership.": { "zh": "全球精英会员年度闭门峰会与私密交流晚宴 — 视角、圈层、资源碰撞", "en": "Annual elite member closed-door summit & private dinner — perspectives, circles, resources collide" },
+  "membership.": { "zh": "全球精英会员年度闭门峰会与私密交流晚宴 - 视角、圈层、资源碰撞", "en": "Annual elite member closed-door summit & private dinner - perspectives, circles, resources collide" },
   "membership.": { "zh": "全球资源", "en": "Global Resources" },
-  "membership.": { "zh": "全球顶奢私享活动表 — 四季节庆、名流社交、圈层峰会", "en": "Ultra-luxury private event calendar — seasonal celebrations, celebrity networking, circle summits" },
+  "membership.": { "zh": "全球顶奢私享活动表 - 四季节庆、名流社交、圈层峰会", "en": "Ultra-luxury private event calendar - seasonal celebrations, celebrity networking, circle summits" },
   "membership.": { "zh": "全球顶尖赛事贵宾席位", "en": "Top Global Event VIP Seats" },
-  "membership.": { "zh": "全程私人化服务，专属航线定制，游艇内饰主题定制", "en": "Fully personalized service, custom routes, yacht interior theme customization" },
-  "membership.": { "zh": "全程配备星级主厨与侍酒师，含酒单定制与食材直供", "en": "Star chef & sommelier throughout, custom wine list & premium ingredients" },
+  "membership.": { "zh": "全程私人化服务,专属航线定制,游艇内饰主题定制", "en": "Fully personalized service, custom routes, yacht interior theme customization" },
+  "membership.": { "zh": "全程配备星级主厨与侍酒师,含酒单定制与食材直供", "en": "Star chef & sommelier throughout, custom wine list & premium ingredients" },
   "membership.": { "zh": "八步标准化入会流程", "en": "8-Step Standard Enrollment Process" },
   "membership.": { "zh": "关于会员申请、费用、权益等常见疑问的详细解答", "en": "Detailed answers about membership application, fees, benefits & more" },
   "membership.": { "zh": "关于奇幻假期尊享会员俱乐部的创办愿景、核心价值与全球资源布局", "en": "About the founding vision, core values & global resource layout of our Exclusive Members Club" },
   "membership.": { "zh": "冬季·黑卡圈层年会", "en": "Winter · Black Card Circle Annual Gala" },
   "membership.": { "zh": "准备好开启您的", "en": "Ready to embark on your" },
-  "membership.": { "zh": "出行期间配备专属私人管家，从行程规划、餐饮安排到娱乐活动全流程服务", "en": "Dedicated private butler throughout: itinerary planning, dining arrangement, entertainment" },
+  "membership.": { "zh": "出行期间配备专属私人管家,从行程规划、餐饮安排到娱乐活动全流程服务", "en": "Dedicated private butler throughout: itinerary planning, dining arrangement, entertainment" },
   "membership.": { "zh": "创始族圈层 · 专属席位", "en": "Founding Family Circle · Exclusive Seats" },
   "membership.": { "zh": "加入会员参与活动 →", "en": "Join to Participate →" },
   "membership.": { "zh": "加入我们的圈层 →", "en": "Join Our Circle →" },
   "membership.": { "zh": "医疗应急保障", "en": "Medical Emergency Coverage" },
-  "membership.": { "zh": "升级次一等会员等级（需使用一年）", "en": "Upgrade to Next Tier (after 1 year)" },
+  "membership.": { "zh": "升级次一等会员等级(需使用一年)", "en": "Upgrade to Next Tier (after 1 year)" },
   "membership.": { "zh": "升级说明", "en": "Upgrade Information" },
-  "membership.": { "zh": "原则上不可随意转让。如涉及特殊情况（企业重组、法律变更等），可向会员中心提交书面申请，经审核后方可办理转让手续。", "en": "Generally non-transferable. Special circumstances (corporate restructuring, legal changes) require written application for review." },
-  "membership.ferretti_feadship": { "zh": "受邀参观意大利Ferretti集团、荷兰Feadship等全球高端船厂，提前获悉新船发布", "en": "Invited tours of Ferretti, Feadship & other top shipyards — early access to new launches" },
-  "membership.": { "zh": "可以同时持有多个等级的会员吗？", "en": "Can I hold multiple membership tiers?" },
+  "membership.": { "zh": "原则上不可随意转让。如涉及特殊情况(企业重组、法律变更等),可向会员中心提交书面申请,经审核后方可办理转让手续。", "en": "Generally non-transferable. Special circumstances (corporate restructuring, legal changes) require written application for review." },
+  "membership.ferretti_feadship": { "zh": "受邀参观意大利Ferretti集团、荷兰Feadship等全球高端船厂,提前获悉新船发布", "en": "Invited tours of Ferretti, Feadship & other top shipyards - early access to new launches" },
+  "membership.": { "zh": "可以同时持有多个等级的会员吗?", "en": "Can I hold multiple membership tiers?" },
   "membership.": { "zh": "各等级年费明细、支付方式、续约规则与宽限期说明", "en": "Tier fee details, payment methods, renewal rules & grace period" },
-  "membership.12": { "zh": "合作联盟机场贵宾厅使用权益，年累计不超过12次", "en": "Partner airport lounge access, up to 12 visits per year" },
+  "membership.12": { "zh": "合作联盟机场贵宾厅使用权益,年累计不超过12次", "en": "Partner airport lounge access, up to 12 visits per year" },
   "membership.": { "zh": "咨询企业方案 →", "en": "Inquire About Corporate →" },
   "membership.": { "zh": "咨询增值服务 →", "en": "Inquire About Add-Ons →" },
   "membership.": { "zh": "品牌理念与圈层文化", "en": "Brand Philosophy & Circle Culture" },
-  "membership.": { "zh": "因不可抗力（包括但不限于自然灾害、战争、政府行为等）导致的服务中断，本俱乐部无需承担违约责任。本俱乐部不对因第三方原因造成的损害承担责任。", "en": "The club is not liable for service interruptions due to force majeure (natural disasters, war, government actions, etc.). The club is not liable for damages caused by third parties." },
+  "membership.": { "zh": "因不可抗力(包括但不限于自然灾害、战争、政府行为等)导致的服务中断,本俱乐部无需承担违约责任。本俱乐部不对因第三方原因造成的损害承担责任。", "en": "The club is not liable for service interruptions due to force majeure (natural disasters, war, government actions, etc.). The club is not liable for damages caused by third parties." },
   "membership.": { "zh": "圈层社交活动", "en": "Exclusive Social Events" },
-  "membership.": { "zh": "在会员基本权益之外，提供高附加值的个性化增值服务选项", "en": "Beyond basic member benefits — high-value personalized add-on service options" },
-  "membership.": { "zh": "在哪里可以查询消费记录和积分？", "en": "Where can I check my consumption records and points?" },
-  "membership.": { "zh": "在所有覆盖海域不限次使用旗舰游艇，无任何限制", "en": "Unlimited flagship yacht access across all covered waters — absolutely unrestricted" },
+  "membership.": { "zh": "在会员基本权益之外,提供高附加值的个性化增值服务选项", "en": "Beyond basic member benefits - high-value personalized add-on service options" },
+  "membership.": { "zh": "在哪里可以查询消费记录和积分?", "en": "Where can I check my consumption records and points?" },
+  "membership.": { "zh": "在所有覆盖海域不限次使用旗舰游艇,无任何限制", "en": "Unlimited flagship yacht access across all covered waters - absolutely unrestricted" },
   "membership.": { "zh": "在线提交申请", "en": "Submit Application Online" },
   "membership.": { "zh": "在线申请", "en": "Online Application" },
   "membership.": { "zh": "地址", "en": "Address" },
   "membership.": { "zh": "填写基本信息选择等级", "en": "Fill in basic info & select tier" },
-  "membership.": { "zh": "填写基本信息，选择目标会员等级，提交申请表单", "en": "Fill in basic info, select target tier, submit application form" },
+  "membership.": { "zh": "填写基本信息,选择目标会员等级,提交申请表单", "en": "Fill in basic info, select target tier, submit application form" },
   "membership.f1": { "zh": "夏季·摩纳哥F1贵宾观赛", "en": "Summer · Monaco F1 VIP Viewing" },
   "membership.": { "zh": "大溪地 · 斐济 · 新喀里多尼亚 · 库克群岛", "en": "Tahiti · Fiji · New Caledonia · Cook Islands" },
   "membership.": { "zh": "奇幻假期大厦 · 会员接待中心", "en": "Fantastic Vacation Building · Member Reception Center" },
-  "membership.2012": { "zh": "奇幻假期尊享会员俱乐部创立于2012年，源于一个宏大愿景——为全球最具品味的人士打造一个真正属于海洋精英的私享圈层。我们深信，海洋不仅是旅行的目的地，更是一种生活哲学的载体。", "en": "Founded in 2012 with a grand vision — creating a truly exclusive circle for the world's most discerning individuals. We believe the ocean is not just a destination, but a way of life." },
-  "membership.": { "zh": "奇幻假期尊享会员俱乐部服务条款与会员协议", "en": "Fantastic Vacation Exclusive Members Club — Service Terms & Membership Agreement" },
-  "membership.": { "zh": "如何申请成为尊享会员？", "en": "How do I apply for membership?" },
-  "membership.": { "zh": "如果一年内未使用过服务能否退费？", "en": "Can I get a refund for unused services?" },
-  "membership.": { "zh": "安排首次专属服务体验，开启海上尊享之旅", "en": "Arrange first exclusive experience, begin your maritime journey" },
+  "membership.2012": { "zh": "奇幻假期尊享会员俱乐部创立于2012年,源于一个宏大愿景--为全球最具品味的人士打造一个真正属于海洋精英的私享圈层。我们深信,海洋不仅是旅行的目的地,更是一种生活哲学的载体。", "en": "Founded in 2012 with a grand vision - creating a truly exclusive circle for the world's most discerning individuals. We believe the ocean is not just a destination, but a way of life." },
+  "membership.": { "zh": "奇幻假期尊享会员俱乐部服务条款与会员协议", "en": "Fantastic Vacation Exclusive Members Club - Service Terms & Membership Agreement" },
+  "membership.": { "zh": "如何申请成为尊享会员?", "en": "How do I apply for membership?" },
+  "membership.": { "zh": "如果一年内未使用过服务能否退费?", "en": "Can I get a refund for unused services?" },
+  "membership.": { "zh": "安排首次专属服务体验,开启海上尊享之旅", "en": "Arrange first exclusive experience, begin your maritime journey" },
   "membership.": { "zh": "定制专属礼遇", "en": "Custom Exclusive Benefits" },
   "membership.": { "zh": "宸鼎奢享会员", "en": "Supreme Maritime Elite" },
   "membership.": { "zh": "宸鼎奢享全部权益", "en": "All Supreme Maritime Elite Benefits" },
   "membership.": { "zh": "寰球至尊黑卡", "en": "Ultimate Black Card" },
   "membership.": { "zh": "寰球至尊黑卡会员", "en": "Ultimate Black Card Member" },
-  "membership.": { "zh": "对接专属管家，初步服务需求沟通与规划", "en": "Connect with dedicated butler for initial service discussion and planning" },
-  "membership.30_000": { "zh": "将常规游艇升级为同级别旗舰型号，每航次加收¥30,000", "en": "Upgrade to flagship model in same class, additional ¥30,000 per voyage" },
+  "membership.": { "zh": "对接专属管家,初步服务需求沟通与规划", "en": "Connect with dedicated butler for initial service discussion and planning" },
+  "membership.30_000": { "zh": "将常规游艇升级为同级别旗舰型号,每航次加收¥30,000", "en": "Upgrade to flagship model in same class, additional ¥30,000 per voyage" },
   "membership.": { "zh": "尊享会员等级", "en": "Membership Tiers" },
   "membership.": { "zh": "尊享增值服务包", "en": "Exclusive Add-On Packages" },
   "membership.": { "zh": "常见问题答疑", "en": "Frequently Asked Questions" },
   "membership.": { "zh": "年行业深耕", "en": "Years of Industry Excellence" },
   "membership.": { "zh": "年费", "en": "Annual Fee" },
-  "membership.": { "zh": "年费缴纳后是否可以分期？", "en": "Can I pay the annual fee in installments?" },
-  "membership.welcome": { "zh": "开通线上会员中心，配送实体会员卡与Welcome礼包", "en": "Activate online member center, receive physical card & Welcome kit" },
+  "membership.": { "zh": "年费缴纳后是否可以分期?", "en": "Can I pay the annual fee in installments?" },
+  "membership.welcome": { "zh": "开通线上会员中心,配送实体会员卡与Welcome礼包", "en": "Activate online member center, receive physical card & Welcome kit" },
   "membership.": { "zh": "御海轻奢会员", "en": "Premium Ocean Elite" },
   "membership.": { "zh": "御海轻奢全部权益", "en": "All Premium Ocean Elite Benefits" },
   "membership.": { "zh": "我们的愿景", "en": "Our Vision" },
@@ -79652,47 +79652,47 @@ var dict = {
   "membership.": { "zh": "批量私行级服务", "en": "Private Bank-Level Services" },
   "membership.": { "zh": "拿骚 · 圣巴特岛 · 安提瓜 · 大开曼岛", "en": "Nassau · St. Barts · Antigua · Grand Cayman" },
   "membership.": { "zh": "提交会员申请", "en": "Submit Membership Application" },
-  "membership.": { "zh": "提交相关证明材料，完成会员资质审核评估", "en": "Submit relevant documents for qualification review" },
+  "membership.": { "zh": "提交相关证明材料,完成会员资质审核评估", "en": "Submit relevant documents for qualification review" },
   "membership.": { "zh": "提交证明材料审核评估", "en": "Submit Documents for Review" },
   "membership.ycm": { "zh": "摩纳哥 YCM · 圣特罗佩 · 波特菲诺 · 波多黎各港", "en": "Monaco YCM · Saint-Tropez · Portofino · Puerto Banús" },
   "membership.": { "zh": "支付方式", "en": "Payment Methods" },
   "membership.": { "zh": "无限", "en": "Unlimited" },
-  "membership.": { "zh": "无需重新申请。如需升级，可联系会员顾问填写“会员升级申请表”，无需重新资质评审。升级仅需补缴纳两级会费差额。", "en": "No reapplication needed. For upgrades, contact your advisor to fill out the Tier Upgrade Form — no requalification needed, only pay the tier difference." },
+  "membership.": { "zh": "无需重新申请。如需升级,可联系会员顾问填写"会员升级申请表",无需重新资质评审。升级仅需补缴纳两级会费差额。", "en": "No reapplication needed. For upgrades, contact your advisor to fill out the Tier Upgrade Form - no requalification needed, only pay the tier difference." },
   "membership.": { "zh": "春季·游艇启航酒会", "en": "Spring · Yacht Launch Cocktail Party" },
   "membership.": { "zh": "普吉岛 · 苏梅岛 · 兰卡威 · 巴厘岛 · 新加坡", "en": "Phuket · Koh Samui · Langkawi · Bali · Singapore" },
   "membership.": { "zh": "更多常见问题 →", "en": "More FAQs →" },
-  "membership.": { "zh": "更换会员等级需要重新申请吗？", "en": "Do I need to reapply for tier changes?" },
+  "membership.": { "zh": "更换会员等级需要重新申请吗?", "en": "Do I need to reapply for tier changes?" },
   "membership.": { "zh": "服务对接", "en": "Service Onboarding" },
   "membership.": { "zh": "服务质量保证", "en": "Service Quality Guarantee" },
-  "membership.": { "zh": "本俱乐部严格遵守相关隐私法规，对会员个人信息予以保密，未经授权不会向第三方披露。", "en": "We strictly comply with privacy regulations — member personal information is kept confidential and will not be disclosed to third parties without authorization." },
-  "membership.": { "zh": "本俱乐部保留修改本章程的权利，修订内容通过官方网站公布。会员继续使用会员权益即视为接受修订后的章程。", "en": "The club reserves the right to amend these terms. Revisions will be published on the official website. Continued use of member benefits constitutes acceptance of revised terms." },
+  "membership.": { "zh": "本俱乐部严格遵守相关隐私法规,对会员个人信息予以保密,未经授权不会向第三方披露。", "en": "We strictly comply with privacy regulations - member personal information is kept confidential and will not be disclosed to third parties without authorization." },
+  "membership.": { "zh": "本俱乐部保留修改本章程的权利,修订内容通过官方网站公布。会员继续使用会员权益即视为接受修订后的章程。", "en": "The club reserves the right to amend these terms. Revisions will be published on the official website. Continued use of member benefits constitutes acceptance of revised terms." },
   "membership.": { "zh": "权益项目", "en": "Benefit Items" },
   "membership.": { "zh": "查看五级权益横向对比 →", "en": "Compare All Five Tiers →" },
   "membership.": { "zh": "查看完整入会流程 →", "en": "View Full Process →" },
   "membership.": { "zh": "查看权益对比 →", "en": "Compare Benefits →" },
   "membership.": { "zh": "查看详情 →", "en": "View Details →" },
-  "membership.": { "zh": "标准化流程，确保每位会员获得一致的高品质服务体验", "en": "Standardized process ensures every member receives consistent, top-quality service" },
+  "membership.": { "zh": "标准化流程,确保每位会员获得一致的高品质服务体验", "en": "Standardized process ensures every member receives consistent, top-quality service" },
   "membership.": { "zh": "核心理念", "en": "Core Values" },
   "membership.": { "zh": "正式会籍生效", "en": "Membership Activated" },
-  "membership.": { "zh": "每季度参加一场圈层私享活动，包括航海沙龙、新品品鉴、会员联谊等", "en": "Quarterly exclusive events: sailing salons, product tastings, member gatherings" },
-  "membership.": { "zh": "每年不低于两场圈层私宴，联合世界高端酒庄、米其林主厨呈现", "en": "At least 2 private banquets per year featuring world-class wineries & Michelin chefs" },
+  "membership.": { "zh": "每季度参加一场圈层私享活动,包括航海沙龙、新品品鉴、会员联谊等", "en": "Quarterly exclusive events: sailing salons, product tastings, member gatherings" },
+  "membership.": { "zh": "每年不低于两场圈层私宴,联合世界高端酒庄、米其林主厨呈现", "en": "At least 2 private banquets per year featuring world-class wineries & Michelin chefs" },
   "membership.": { "zh": "每年可享全定制化服务等多重尊贵权益", "en": "Annual fully customized service & multiple premium benefits" },
   "membership.": { "zh": "每年可享全球机场贵宾厅等多重尊贵权益", "en": "Annual global airport lounges and multiple premium benefits" },
   "membership.": { "zh": "每年可享全球顶尖赛事贵宾席位等多重尊贵权益", "en": "Annual top global event VIP seats & multiple premium benefits" },
   "membership.": { "zh": "每年可享高端私宴 · 酒庄会员联动等多重尊贵权益", "en": "Annual private banquets, winery membership & multiple premium benefits" },
   "membership.": { "zh": "求婚、周年、庆典等特殊时刻的专业活动策划与执行", "en": "Professional event planning for proposals, anniversaries & celebrations" },
-  "membership.": { "zh": "法国波尔多高端酒庄深度访问与贵宾品鉴，航海与美酒的沁心交融", "en": "Premium Bordeaux winery visits & VIP tastings — sailing meets fine wine" },
+  "membership.": { "zh": "法国波尔多高端酒庄深度访问与贵宾品鉴,航海与美酒的沁心交融", "en": "Premium Bordeaux winery visits & VIP tastings - sailing meets fine wine" },
   "membership.": { "zh": "海上传奇人生", "en": "Legendary Maritime Life" },
-  "membership.": { "zh": "海上尊享人生了吗？", "en": "Exclusive Maritime Life?" },
+  "membership.": { "zh": "海上尊享人生了吗?", "en": "Exclusive Maritime Life?" },
   "membership.": { "zh": "消费积分奖励", "en": "Points Rewards" },
   "membership.": { "zh": "消费积分累积与兑换规则说明", "en": "Points Accumulation & Redemption Rules" },
-  "membership.": { "zh": "消费积累积分，可用于抵扣后续服务费用、升级等级或兑换精选礼品", "en": "Earn points on purchases for future service discounts, tier upgrades or exclusive gifts" },
+  "membership.": { "zh": "消费积累积分,可用于抵扣后续服务费用、升级等级或兑换精选礼品", "en": "Earn points on purchases for future service discounts, tier upgrades or exclusive gifts" },
   "membership.": { "zh": "消费累积积分可兑换免费航次、升舱服务、精品航海周边等丰富奖品", "en": "Points redeemable for free voyages, cabin upgrades, premium nautical gear & more" },
   "membership.": { "zh": "深圳大鹏 · 三亚 · 厦门 · 青岛 · 大连 · 香港 · 澳门", "en": "Shenzhen Dapeng · Sanya · Xiamen · Qingdao · Dalian · Hong Kong · Macau" },
   "membership.": { "zh": "游艇升级包", "en": "Yacht Upgrade Package" },
   "membership.": { "zh": "潜水/海钓拓展包", "en": "Diving & Deep-Sea Fishing Package" },
   "membership.": { "zh": "生日专属礼遇", "en": "Birthday Privileges" },
-  "membership.": { "zh": "生日月专属权益升级，包括游艇免费升舱、目的地服务升级等", "en": "Birthday month upgrades: complimentary yacht upgrade, destination service enhancements and more" },
+  "membership.": { "zh": "生日月专属权益升级,包括游艇免费升舱、目的地服务升级等", "en": "Birthday month upgrades: complimentary yacht upgrade, destination service enhancements and more" },
   "membership.": { "zh": "直升机接驳", "en": "Helicopter Transfer" },
   "membership.": { "zh": "直升机接驳服务", "en": "Helicopter Transfer Service" },
   "membership.": { "zh": "私人喷气机联动、全球高端酒店联动、高端医疗/教育资源联动", "en": "Private jet connections, global luxury hotel partnerships, premium healthcare & education access" },
@@ -79733,10 +79733,10 @@ var dict = {
   "membership.": { "zh": "选择适合您的", "en": "Choose the Right One for" },
   "membership.": { "zh": "通过我们的在线会员中心或手机移动端小程序均可一站式查询消费记录、积分余额、已购服务明细等信息。", "en": "Check consumption records, point balances & service details via our online member center or mobile app." },
   "membership.": { "zh": "邀约制", "en": "Invitation Only" },
-  "membership.": { "zh": "邀约制，不公开发布", "en": "Invitation only, not publicly available" },
+  "membership.": { "zh": "邀约制,不公开发布", "en": "Invitation only, not publicly available" },
   "membership.": { "zh": "邮件咨询", "en": "Email Inquiry" },
-  "membership.": { "zh": "配套直升机或水上飞机接驳服务，确保会员从市区机场到码头无缝衔接", "en": "Helicopter or seaplane transfers for seamless airport-to-marina connections" },
-  "membership.": { "zh": "随船医疗团队与直升机紧急撤离通道，高级医疗保险覆盖", "en": "Onboard medical team & helicopter emergency evacuation, premium health insurance coverage" },
+  "membership.": { "zh": "配套直升机或水上飞机接驳服务,确保会员从市区机场到码头无缝衔接", "en": "Helicopter or seaplane transfers for seamless airport-to-marina connections" },
+  "membership.": { "zh": "随船医疗团队与直升机紧急撤离通道,高级医疗保险覆盖", "en": "Onboard medical team & helicopter emergency evacuation, premium health insurance coverage" },
   "membership.": { "zh": "雅致航海会员", "en": "Elegant Voyager" },
   "membership.": { "zh": "雅致航海全部权益", "en": "All Elegant Voyager Benefits" },
   "membership.": { "zh": "顾问联系", "en": "Advisor Follow-up" },
@@ -79751,33 +79751,33 @@ var dict = {
   "membership.": { "zh": "🗽 北美", "en": "🗽 North America" },
   "membership.05b8dee941a4": { "zh": "· 企业客户答谢与品牌联动权益", "en": "· Corporate client appreciation & brand partnership benefits" },
   "membership.b05532f8b4af": { "zh": "· 优先船队调配与定制航线规划", "en": "· Priority fleet allocation & custom route planning" },
-  "membership.90699132697e": { "zh": "· 传承精神：航海文化代代相传，生命因此更广阔", "en": "· Heritage: Maritime culture passed through generations, enriching life beyond measure" },
-  "membership.43df9e9b3adc": { "zh": "· 圈层价值：每一位会员，都是志同道合的航海知己", "en": "· Circle Value: Every member is a kindred sailing spirit" },
-  "membership.4e85e37f391b": { "zh": "· 多席位企业会员账户，统一管理与结算", "en": "· Multi-seat corporate accounts with unified management & billing" },
-  "membership.3ba001476c0a": { "zh": "· 极致安全：每一次航行，都有最完善的安全保障", "en": "· Ultimate Safety: Every voyage is fully secured" },
-  "membership.6cbd146a74a1": { "zh": "· 超越服务：每一次出行，都是非凡体验", "en": "· Beyond Service: Every trip transcends expectations" },
-  "membership.d7678810915b": { "zh": "• 过期超过宽限期的会员需要重新提交资质评估（视为新入会），须重新缴纳首次入会费。", "en": "• Members exceeding grace period must re-apply (treated as new enrollment), including enrollment fee." },
-  "membership.7375fdb4317b": { "zh": "一切完全定制，不限次数、不限条件、不限地域。黑卡独享超越极限", "en": "Fully customized — unlimited, unconditional, unrestricted worldwide. Ultimate exclusivity beyond limits" },
+  "membership.90699132697e": { "zh": "· 传承精神:航海文化代代相传,生命因此更广阔", "en": "· Heritage: Maritime culture passed through generations, enriching life beyond measure" },
+  "membership.43df9e9b3adc": { "zh": "· 圈层价值:每一位会员,都是志同道合的航海知己", "en": "· Circle Value: Every member is a kindred sailing spirit" },
+  "membership.4e85e37f391b": { "zh": "· 多席位企业会员账户,统一管理与结算", "en": "· Multi-seat corporate accounts with unified management & billing" },
+  "membership.3ba001476c0a": { "zh": "· 极致安全:每一次航行,都有最完善的安全保障", "en": "· Ultimate Safety: Every voyage is fully secured" },
+  "membership.6cbd146a74a1": { "zh": "· 超越服务:每一次出行,都是非凡体验", "en": "· Beyond Service: Every trip transcends expectations" },
+  "membership.d7678810915b": { "zh": "• 过期超过宽限期的会员需要重新提交资质评估(视为新入会),须重新缴纳首次入会费。", "en": "• Members exceeding grace period must re-apply (treated as new enrollment), including enrollment fee." },
+  "membership.7375fdb4317b": { "zh": "一切完全定制,不限次数、不限条件、不限地域。黑卡独享超越极限", "en": "Fully customized - unlimited, unconditional, unrestricted worldwide. Ultimate exclusivity beyond limits" },
   "membership.96369312611a": { "zh": "一次性付清", "en": "One-time payment" },
   "membership.4246e59b2db9": { "zh": "一次性或按季分期缴纳", "en": "One-time or quarterly payment" },
-  "membership.808c04ec5cdc": { "zh": "不可以。每位会员只能持有一个等级的会员卡。如果您的出行需求发生变化，可以申请会员升级，升级后原有的低等级会籍将自动失效。", "en": "No. Each member holds only one tier. If your needs change, apply for an upgrade — the lower tier expires automatically upon upgrade." },
-  "membership.ee2f8ea864b6": { "zh": "不限次合作联盟机场贵宾厅使用，提供接送机衔接服务", "en": "Unlimited partner lounge access with airport transfer service" },
-  "membership.5dadff27463c": { "zh": "专业团队随行航拍，赠送精美剪辑视频与高清写真", "en": "Professional aerial photography team, complimentary edited video & HD photos" },
-  "membership.a72adb609e91": { "zh": "专业教练陪同潜水与深海钓鱼体验，含全套装备", "en": "Professional instructor-led diving & deep-sea fishing, full equipment included" },
+  "membership.808c04ec5cdc": { "zh": "不可以。每位会员只能持有一个等级的会员卡。如果您的出行需求发生变化,可以申请会员升级,升级后原有的低等级会籍将自动失效。", "en": "No. Each member holds only one tier. If your needs change, apply for an upgrade - the lower tier expires automatically upon upgrade." },
+  "membership.ee2f8ea864b6": { "zh": "不限次合作联盟机场贵宾厅使用,提供接送机衔接服务", "en": "Unlimited partner lounge access with airport transfer service" },
+  "membership.5dadff27463c": { "zh": "专业团队随行航拍,赠送精美剪辑视频与高清写真", "en": "Professional aerial photography team, complimentary edited video & HD photos" },
+  "membership.a72adb609e91": { "zh": "专业教练陪同潜水与深海钓鱼体验,含全套装备", "en": "Professional instructor-led diving & deep-sea fishing, full equipment included" },
   "membership.d83e7dd67c6c": { "zh": "专属", "en": "Dedicated" },
   "membership.f119de0a7f46": { "zh": "为企业高管团队与商务客户打造的整体打包出行方案", "en": "All-inclusive travel package for executive teams & business clients" },
   "membership.ccbe64f45f8c": { "zh": "了解会员等级", "en": "Explore All Tiers" },
   "membership.3940af2f785c": { "zh": "五星酒店住宿一晚", "en": "5-Star Hotel Stay (1 Night)" },
-  "membership.d651445253c9": { "zh": "五级会员体系，由低至高层级清晰划分，满足不同层次海洋生活方式需求", "en": "A clear five-tier system meeting every level of maritime lifestyle needs" },
+  "membership.d651445253c9": { "zh": "五级会员体系,由低至高层级清晰划分,满足不同层次海洋生活方式需求", "en": "A clear five-tier system meeting every level of maritime lifestyle needs" },
   "membership.2d00307e2998": { "zh": "五级会员层级全景图", "en": "Five-Tier Membership Overview" },
   "membership.7e7535fd4733": { "zh": "五级权益全景对照", "en": "Five-Tier Benefits Comparison" },
   "membership.b1fb8d78b554": { "zh": "仅限受邀加入", "en": "Invitation Only" },
-  "membership.c9948e9e8890": { "zh": "从银帆到黑卡，五级会员体系，每一级都为您量身打造独特的海上私享体验", "en": "From Silver Sail to Black Card — five membership tiers, each crafted exclusively for your maritime lifestyle" },
-  "membership.711ecaf900d5": { "zh": "会员是否可以转让？", "en": "Can membership be transferred?" },
+  "membership.c9948e9e8890": { "zh": "从银帆到黑卡,五级会员体系,每一级都为您量身打造独特的海上私享体验", "en": "From Silver Sail to Black Card - five membership tiers, each crafted exclusively for your maritime lifestyle" },
+  "membership.711ecaf900d5": { "zh": "会员是否可以转让?", "en": "Can membership be transferred?" },
   "membership.71187ef5e562": { "zh": "会员服务中心联系方式", "en": "Member Service Center Contact" },
   "membership.eaab3e7605f4": { "zh": "会员服务条款", "en": "Membership Service Terms" },
   "membership.3d1369eb9b4e": { "zh": "会员活动邀请", "en": "Member Event Invitations" },
-  "membership.747cc61a8a7c": { "zh": "会员的有效周期如何计算？", "en": "How is the membership period calculated?" },
+  "membership.747cc61a8a7c": { "zh": "会员的有效周期如何计算?", "en": "How is the membership period calculated?" },
   "membership.780992b32aaa": { "zh": "会员积分体系", "en": "Membership Points System" },
   "membership.6c158301c7bd": { "zh": "会员等级", "en": "Membership Tier" },
   "membership.42a34c7affb3": { "zh": "会籍变更、升级、暂停与注销的规则说明", "en": "Rules for membership changes, upgrades, suspension & cancellation" },
@@ -79792,11 +79792,11 @@ var dict = {
   "membership.65693a27f82e": { "zh": "全定制化服务", "en": "Fully Customized Service" },
   "membership.240bd910945f": { "zh": "全球机场贵宾厅", "en": "Global Airport Lounges" },
   "membership.3fd9c6867a60": { "zh": "全球泊位网络", "en": "Global Berths Network" },
-  "membership.8f041fa3f0e0": { "zh": "全球精英会员年度闭门峰会与私密交流晚宴 — 视角、圈层、资源碰撞", "en": "Annual elite member closed-door summit & private dinner — perspectives, circles, resources collide" },
+  "membership.8f041fa3f0e0": { "zh": "全球精英会员年度闭门峰会与私密交流晚宴 - 视角、圈层、资源碰撞", "en": "Annual elite member closed-door summit & private dinner - perspectives, circles, resources collide" },
   "membership.dc32d4fad022": { "zh": "全球资源", "en": "Global Resources" },
-  "membership.7f1d984f4b4c": { "zh": "全球顶奢私享活动表 — 四季节庆、名流社交、圈层峰会", "en": "Ultra-luxury private event calendar — seasonal celebrations, celebrity networking, circle summits" },
+  "membership.7f1d984f4b4c": { "zh": "全球顶奢私享活动表 - 四季节庆、名流社交、圈层峰会", "en": "Ultra-luxury private event calendar - seasonal celebrations, celebrity networking, circle summits" },
   "membership.414977ccf913": { "zh": "全球顶尖赛事贵宾席位", "en": "Top Global Event VIP Seats" },
-  "membership.00ecadbbfdd6": { "zh": "全程配备星级主厨与侍酒师，含酒单定制与食材直供", "en": "Star chef & sommelier throughout, custom wine list & premium ingredients" },
+  "membership.00ecadbbfdd6": { "zh": "全程配备星级主厨与侍酒师,含酒单定制与食材直供", "en": "Star chef & sommelier throughout, custom wine list & premium ingredients" },
   "membership.6419f2939289": { "zh": "八步标准化入会流程", "en": "8-Step Standard Enrollment Process" },
   "membership.072cb4075b92": { "zh": "关于会员申请、费用、权益等常见疑问的详细解答", "en": "Detailed answers about membership application, fees, benefits & more" },
   "membership.216d2e518361": { "zh": "关于奇幻假期尊享会员俱乐部的创办愿景、核心价值与全球资源布局", "en": "About the founding vision, core values & global resource layout of our Exclusive Members Club" },
@@ -79805,25 +79805,25 @@ var dict = {
   "membership.e129f08a4702": { "zh": "加入我们的圈层 →", "en": "Join Our Circle →" },
   "membership.35aa706afc17": { "zh": "医疗应急保障", "en": "Medical Emergency Coverage" },
   "membership.9a7515111284": { "zh": "升级说明", "en": "Upgrade Information" },
-  "membership.936ec95bbc39": { "zh": "原则上不可随意转让。如涉及特殊情况（企业重组、法律变更等），可向会员中心提交书面申请，经审核后方可办理转让手续。", "en": "Generally non-transferable. Special circumstances (corporate restructuring, legal changes) require written application for review." },
-  "membership.d1f84142703a": { "zh": "可以同时持有多个等级的会员吗？", "en": "Can I hold multiple membership tiers?" },
+  "membership.936ec95bbc39": { "zh": "原则上不可随意转让。如涉及特殊情况(企业重组、法律变更等),可向会员中心提交书面申请,经审核后方可办理转让手续。", "en": "Generally non-transferable. Special circumstances (corporate restructuring, legal changes) require written application for review." },
+  "membership.d1f84142703a": { "zh": "可以同时持有多个等级的会员吗?", "en": "Can I hold multiple membership tiers?" },
   "membership.c7095547db60": { "zh": "咨询企业方案 →", "en": "Inquire About Corporate →" },
   "membership.873d84d4ce72": { "zh": "咨询增值服务 →", "en": "Inquire About Add-Ons →" },
   "membership.82772319f2f4": { "zh": "品牌理念与圈层文化", "en": "Brand Philosophy & Circle Culture" },
-  "membership.90cddf3b8db4": { "zh": "因不可抗力（包括但不限于自然灾害、战争、政府行为等）导致的服务中断，本俱乐部无需承担违约责任。本俱乐部不对因第三方原因造成的损害承担责任。", "en": "The club is not liable for service interruptions due to force majeure (natural disasters, war, government actions, etc.). The club is not liable for damages caused by third parties." },
+  "membership.90cddf3b8db4": { "zh": "因不可抗力(包括但不限于自然灾害、战争、政府行为等)导致的服务中断,本俱乐部无需承担违约责任。本俱乐部不对因第三方原因造成的损害承担责任。", "en": "The club is not liable for service interruptions due to force majeure (natural disasters, war, government actions, etc.). The club is not liable for damages caused by third parties." },
   "membership.500b7cef7d59": { "zh": "圈层社交活动", "en": "Exclusive Social Events" },
-  "membership.1b1ab35241ef": { "zh": "在会员基本权益之外，提供高附加值的个性化增值服务选项", "en": "Beyond basic member benefits — high-value personalized add-on service options" },
-  "membership.316920b25804": { "zh": "在哪里可以查询消费记录和积分？", "en": "Where can I check my consumption records and points?" },
-  "membership.e1d92e29dd7d": { "zh": "在所有覆盖海域不限次使用旗舰游艇，无任何限制", "en": "Unlimited flagship yacht access across all covered waters — absolutely unrestricted" },
+  "membership.1b1ab35241ef": { "zh": "在会员基本权益之外,提供高附加值的个性化增值服务选项", "en": "Beyond basic member benefits - high-value personalized add-on service options" },
+  "membership.316920b25804": { "zh": "在哪里可以查询消费记录和积分?", "en": "Where can I check my consumption records and points?" },
+  "membership.e1d92e29dd7d": { "zh": "在所有覆盖海域不限次使用旗舰游艇,无任何限制", "en": "Unlimited flagship yacht access across all covered waters - absolutely unrestricted" },
   "membership.3b059dfada72": { "zh": "在线提交申请", "en": "Submit Application Online" },
   "membership.cea60ec54f7d": { "zh": "在线申请", "en": "Online Application" },
   "membership.7650487a8758": { "zh": "地址", "en": "Address" },
   "membership.ace126290523": { "zh": "填写基本信息选择等级", "en": "Fill in basic info & select tier" },
-  "membership.1cc1e85c896e": { "zh": "填写基本信息，选择目标会员等级，提交申请表单", "en": "Fill in basic info, select target tier, submit application form" },
+  "membership.1cc1e85c896e": { "zh": "填写基本信息,选择目标会员等级,提交申请表单", "en": "Fill in basic info, select target tier, submit application form" },
   "membership.b184c6cd45ef": { "zh": "大溪地 · 斐济 · 新喀里多尼亚 · 库克群岛", "en": "Tahiti · Fiji · New Caledonia · Cook Islands" },
-  "membership.cd7a3e09549e": { "zh": "奇幻假期尊享会员俱乐部服务条款与会员协议", "en": "Fantastic Vacation Exclusive Members Club — Service Terms & Membership Agreement" },
-  "membership.a53c1f52e667": { "zh": "如何申请成为尊享会员？", "en": "How do I apply for membership?" },
-  "membership.e3f20f9ecfb8": { "zh": "如果一年内未使用过服务能否退费？", "en": "Can I get a refund for unused services?" },
+  "membership.cd7a3e09549e": { "zh": "奇幻假期尊享会员俱乐部服务条款与会员协议", "en": "Fantastic Vacation Exclusive Members Club - Service Terms & Membership Agreement" },
+  "membership.a53c1f52e667": { "zh": "如何申请成为尊享会员?", "en": "How do I apply for membership?" },
+  "membership.e3f20f9ecfb8": { "zh": "如果一年内未使用过服务能否退费?", "en": "Can I get a refund for unused services?" },
   "membership.ba901ea6283e": { "zh": "钻石会员", "en": "Diamond Sail" },
   "membership.2ec84db28807": { "zh": "宸鼎奢享全部权益", "en": "All Supreme Maritime Elite Benefits" },
   "membership.590d995e4795": { "zh": "黑卡会员", "en": "Black Card" },
@@ -79847,24 +79847,24 @@ var dict = {
   "membership.aefbffa2a626": { "zh": "更多常见问题 →", "en": "More FAQs →" },
   "membership.33adce382904": { "zh": "服务对接", "en": "Service Onboarding" },
   "membership.fb67c101800a": { "zh": "服务质量保证", "en": "Service Quality Guarantee" },
-  "membership.22e2a453f184": { "zh": "本俱乐部严格遵守相关隐私法规，对会员个人信息予以保密，未经授权不会向第三方披露。", "en": "We strictly comply with privacy regulations — member personal information is kept confidential and will not be disclosed to third parties without authorization." },
-  "membership.28d600fb2174": { "zh": "本俱乐部保留修改本章程的权利，修订内容通过官方网站公布。会员继续使用会员权益即视为接受修订后的章程。", "en": "The club reserves the right to amend these terms. Revisions will be published on the official website. Continued use of member benefits constitutes acceptance of revised terms." },
+  "membership.22e2a453f184": { "zh": "本俱乐部严格遵守相关隐私法规,对会员个人信息予以保密,未经授权不会向第三方披露。", "en": "We strictly comply with privacy regulations - member personal information is kept confidential and will not be disclosed to third parties without authorization." },
+  "membership.28d600fb2174": { "zh": "本俱乐部保留修改本章程的权利,修订内容通过官方网站公布。会员继续使用会员权益即视为接受修订后的章程。", "en": "The club reserves the right to amend these terms. Revisions will be published on the official website. Continued use of member benefits constitutes acceptance of revised terms." },
   "membership.405a27b6f7c9": { "zh": "权益项目", "en": "Benefit Items" },
   "membership.38ef5830dbff": { "zh": "查看五级权益横向对比 →", "en": "Compare All Five Tiers →" },
   "membership.18ae326ff153": { "zh": "查看完整入会流程 →", "en": "View Full Process →" },
   "membership.0e6ffa474869": { "zh": "查看权益对比 →", "en": "Compare Benefits →" },
   "membership.fcc1e337ce0e": { "zh": "查看详情 →", "en": "View Details →" },
-  "membership.f3c46bed3a66": { "zh": "标准化流程，确保每位会员获得一致的高品质服务体验", "en": "Standardized process ensures every member receives consistent, top-quality service" },
+  "membership.f3c46bed3a66": { "zh": "标准化流程,确保每位会员获得一致的高品质服务体验", "en": "Standardized process ensures every member receives consistent, top-quality service" },
   "membership.dcbb67cd8b02": { "zh": "核心理念", "en": "Core Values" },
   "membership.0bb895fd8547": { "zh": "正式会籍生效", "en": "Membership Activated" },
-  "membership.f07224bd875b": { "zh": "每季度参加一场圈层私享活动，包括航海沙龙、新品品鉴、会员联谊等", "en": "Quarterly exclusive events: sailing salons, product tastings, member gatherings" },
-  "membership.14d1a6da17bf": { "zh": "每年不低于两场圈层私宴，联合世界高端酒庄、米其林主厨呈现", "en": "At least 2 private banquets per year featuring world-class wineries & Michelin chefs" },
+  "membership.f07224bd875b": { "zh": "每季度参加一场圈层私享活动,包括航海沙龙、新品品鉴、会员联谊等", "en": "Quarterly exclusive events: sailing salons, product tastings, member gatherings" },
+  "membership.14d1a6da17bf": { "zh": "每年不低于两场圈层私宴,联合世界高端酒庄、米其林主厨呈现", "en": "At least 2 private banquets per year featuring world-class wineries & Michelin chefs" },
   "membership.7a58cc6118af": { "zh": "每年可享高端私宴 · 酒庄会员联动等多重尊贵权益", "en": "Annual private banquets, winery membership & multiple premium benefits" },
   "membership.1d5205b35b67": { "zh": "求婚、周年、庆典等特殊时刻的专业活动策划与执行", "en": "Professional event planning for proposals, anniversaries & celebrations" },
-  "membership.69b4c8f9f16e": { "zh": "法国波尔多高端酒庄深度访问与贵宾品鉴，航海与美酒的沁心交融", "en": "Premium Bordeaux winery visits & VIP tastings — sailing meets fine wine" },
+  "membership.69b4c8f9f16e": { "zh": "法国波尔多高端酒庄深度访问与贵宾品鉴,航海与美酒的沁心交融", "en": "Premium Bordeaux winery visits & VIP tastings - sailing meets fine wine" },
   "membership.824e65e59bd6": { "zh": "消费积分奖励", "en": "Points Rewards" },
   "membership.221dea8c1341": { "zh": "消费积分累积与兑换规则说明", "en": "Points Accumulation & Redemption Rules" },
-  "membership.de77c1dcfbfb": { "zh": "消费积累积分，可用于抵扣后续服务费用、升级等级或兑换精选礼品", "en": "Earn points on purchases for future service discounts, tier upgrades or exclusive gifts" },
+  "membership.de77c1dcfbfb": { "zh": "消费积累积分,可用于抵扣后续服务费用、升级等级或兑换精选礼品", "en": "Earn points on purchases for future service discounts, tier upgrades or exclusive gifts" },
   "membership.13a821f719df": { "zh": "消费累积积分可兑换免费航次、升舱服务、精品航海周边等丰富奖品", "en": "Points redeemable for free voyages, cabin upgrades, premium nautical gear & more" },
   "membership.75064791acde": { "zh": "深圳大鹏 · 三亚 · 厦门 · 青岛 · 大连 · 香港 · 澳门", "en": "Shenzhen Dapeng · Sanya · Xiamen · Qingdao · Dalian · Hong Kong · Macau" },
   "membership.b6d693e63425": { "zh": "游艇升级包", "en": "Yacht Upgrade Package" },
@@ -79905,8 +79905,8 @@ var dict = {
   "membership.8867fb14774c": { "zh": "通过我们的在线会员中心或手机移动端小程序均可一站式查询消费记录、积分余额、已购服务明细等信息。", "en": "Check consumption records, point balances & service details via our online member center or mobile app." },
   "membership.89947ffab9d9": { "zh": "面议", "en": "Price on Request" },
   "membership.3dadd594a247": { "zh": "邮件咨询", "en": "Email Inquiry" },
-  "membership.fb29f2a08352": { "zh": "配套直升机或水上飞机接驳服务，确保会员从市区机场到码头无缝衔接", "en": "Helicopter or seaplane transfers for seamless airport-to-marina connections" },
-  "membership.20349ce67311": { "zh": "随船医疗团队与直升机紧急撤离通道，高级医疗保险覆盖", "en": "Onboard medical team & helicopter emergency evacuation, premium health insurance coverage" },
+  "membership.fb29f2a08352": { "zh": "配套直升机或水上飞机接驳服务,确保会员从市区机场到码头无缝衔接", "en": "Helicopter or seaplane transfers for seamless airport-to-marina connections" },
+  "membership.20349ce67311": { "zh": "随船医疗团队与直升机紧急撤离通道,高级医疗保险覆盖", "en": "Onboard medical team & helicopter emergency evacuation, premium health insurance coverage" },
   "membership.b6f89011aa2b": { "zh": "银帆会员", "en": "Silver Sail" },
   "membership.731514c3a24b": { "zh": "雅致航海全部权益", "en": "All Elegant Voyager Benefits" },
   "membership.c5e9cfaed192": { "zh": "顾问联系", "en": "Advisor Follow-up" },
@@ -79919,21 +79919,21 @@ var dict = {
   "membership.aa588dbb5cae": { "zh": "🗼 中国及亚太", "en": "🗼 China & Asia Pacific" },
   "membership.17ff9efd4ad5": { "zh": "🗽 北美", "en": "🗽 North America" },
   "membership.b4c6bb10959b": { "zh": "高端船厂优先参观", "en": "Priority Shipyard Visits" },
-  "membership.8f65057f3bd2": { "zh": "无需重新申请。如需升级，可联系会员顾问填写\"会员升级申请表\"，无需重新资质评审。升级仅需补缴纳两级会费差额。", "en": "No reapplication needed. For upgrades, contact your advisor to fill out the Tier Upgrade Form — no requalification needed, only pay the tier difference." },
-  "membership.1_1_l1_l3": { "zh": "• 每消费 ¥1 = 1 积分（L1-L3）", "en": "• ¥1 spent = 1 point (L1–L3)" },
-  "membership.1_1_5_l4_l5": { "zh": "• 每消费 ¥1 = 1.5 积分（L4-L5）", "en": "• ¥1 spent = 1.5 points (L4–L5)" },
+  "membership.8f65057f3bd2": { "zh": "无需重新申请。如需升级,可联系会员顾问填写\"会员升级申请表\",无需重新资质评审。升级仅需补缴纳两级会费差额。", "en": "No reapplication needed. For upgrades, contact your advisor to fill out the Tier Upgrade Form - no requalification needed, only pay the tier difference." },
+  "membership.1_1_l1_l3": { "zh": "• 每消费 ¥1 = 1 积分(L1-L3)", "en": "• ¥1 spent = 1 point (L1-L3)" },
+  "membership.1_1_5_l4_l5": { "zh": "• 每消费 ¥1 = 1.5 积分(L4-L5)", "en": "• ¥1 spent = 1.5 points (L4-L5)" },
   "membership.f483b1f35f0b": { "zh": "• 活动抽奖、圈层沙龙等可获得额外积分奖励", "en": "• Event raffles & social salons earn bonus points" },
-  "membership.3": { "zh": "• 积分有效期为 3 年，到期未使用自动清零。", "en": "• Points expire after 3 years if unused" },
+  "membership.3": { "zh": "• 积分有效期为 3 年,到期未使用自动清零。", "en": "• Points expire after 3 years if unused" },
   "membership.fff3e2563ab3": { "zh": "开启您的", "en": "Begin Your" },
   "membership.107c7cb855eb": { "zh": "上百项尊享权益", "en": "Hundreds of Exclusive Benefits" },
   "membership.118": { "zh": "深圳市南山区望海路 118 号", "en": "118 Wanghai Road, Nanshan District, Shenzhen" },
   "membership.134418964d7f": { "zh": "海上传奇人生", "en": "Legendary Maritime Life" },
   "membership.427fff348292": { "zh": "选择适合您的", "en": "Choose the Right One for" },
-  "membership.4ec768d3d355": { "zh": "奇幻假期尊享会员俱乐部（以下简称\"本俱乐部\"）会员资格仅向符合以下条件的个人或企业开放：", "en": "Fantastic Vacation Exclusive Members Club (\"the Club\") membership is open to individuals or corporations meeting the following criteria:" },
+  "membership.4ec768d3d355": { "zh": "奇幻假期尊享会员俱乐部(以下简称\"本俱乐部\")会员资格仅向符合以下条件的个人或企业开放:", "en": "Fantastic Vacation Exclusive Members Club (\"the Club\") membership is open to individuals or corporations meeting the following criteria:" },
   "membership.6e2fe3ad0c0e": { "zh": "尊享会员等级", "en": "Membership Tiers" },
   "membership.84a9ab6e062a": { "zh": "为每位会员量身定制", "en": "Tailored for Every Member" },
   "membership.a9dd7e23bd06": { "zh": "奇幻假期大厦 · 会员接待中心", "en": "Fantastic Vacation Building · Member Reception Center" },
-  "membership.bea78b7b6617": { "zh": "海上尊享人生了吗？", "en": "Exclusive Maritime Life?" },
+  "membership.bea78b7b6617": { "zh": "海上尊享人生了吗?", "en": "Exclusive Maritime Life?" },
   "membership.0": { "zh": "尊享会员申请 | 奇幻假期 FANTASTIC VACATION - 全球高端游艇俱乐部", "en": "Exclusive Membership Application | Fantastic Vacation - World's Premier Yacht Club" },
   "membership.1": { "zh": "FANTASTIC VACATION", "en": "FANTASTIC VACATION" },
   "membership.2": { "zh": "LOADING", "en": "LOADING" },
@@ -79952,7 +79952,7 @@ var dict = {
   "membership.19": { "zh": "游艇偏好", "en": "Yacht Preference" },
   "membership.20": { "zh": "确认提交", "en": "Confirm & Submit" },
   "membership.21": { "zh": "申请人基本信息", "en": "Applicant Information" },
-  "membership.22": { "zh": "请填写您的真实信息，我们的会员顾问将在24小时内与您取得联系", "en": "Please provide accurate information. Our membership advisor will contact you within 24 hours" },
+  "membership.22": { "zh": "请填写您的真实信息,我们的会员顾问将在24小时内与您取得联系", "en": "Please provide accurate information. Our membership advisor will contact you within 24 hours" },
   "membership.23": { "zh": "姓名 *", "en": "Full Name *" },
   "membership.25": { "zh": "手机号码 *", "en": "Phone Number *" },
   "membership.26": { "zh": "电子邮箱 *", "en": "Email Address *" },
@@ -79961,7 +79961,7 @@ var dict = {
   "membership.29": { "zh": "公司/机构名称", "en": "Company / Organization" },
   "membership.31": { "zh": "下一步 →", "en": "Next →" },
   "membership.32": { "zh": "选择会员等级", "en": "Choose Your Membership Tier" },
-  "membership.33": { "zh": "不同等级享有不同的专属权益，您可随时升级会员等级", "en": "Different tiers offer unique privileges. You may upgrade anytime" },
+  "membership.33": { "zh": "不同等级享有不同的专属权益,您可随时升级会员等级", "en": "Different tiers offer unique privileges. You may upgrade anytime" },
   "membership.34": { "zh": "银帆会员 Silver", "en": "Silver Member" },
   "membership.35": { "zh": "年费 ¥50,000 起", "en": "Annual Fee from ¥50,000" },
   "membership.36": { "zh": "✓ 专属顾问服务\n✓ 航线优先预订\n✓ 会员活动邀请\n✓ 消费积分奖励", "en": "✓ Dedicated Advisor\n✓ Priority Route Booking\n✓ Exclusive Events\n✓ Points Rewards" },
@@ -79975,26 +79975,26 @@ var dict = {
   "membership.44": { "zh": "← 上一步", "en": "← Previous" },
   "membership.45": { "zh": "下一步 →", "en": "Next →" },
   "membership.46": { "zh": "游艇偏好", "en": "Yacht Preferences" },
-  "membership.47": { "zh": "帮助我们了解您的偏好，为您推荐最适合的游艇与服务", "en": "Help us understand your preferences to recommend the best yachts and services" },
+  "membership.47": { "zh": "帮助我们了解您的偏好,为您推荐最适合的游艇与服务", "en": "Help us understand your preferences to recommend the best yachts and services" },
   "membership.48": { "zh": "意向游艇类型", "en": "Preferred Yacht Type" },
   "membership.49": { "zh": "意向海域", "en": "Preferred Destination" },
-  "membership.50": { "zh": "出行人数（常规）", "en": "Typical Guest Count" },
+  "membership.50": { "zh": "出行人数(常规)", "en": "Typical Guest Count" },
   "membership.51": { "zh": "预算范围", "en": "Budget Range" },
   "membership.52": { "zh": "特殊需求或偏好", "en": "Special Requirements" },
   "membership.53": { "zh": "← 上一步", "en": "← Previous" },
   "membership.54": { "zh": "下一步 →", "en": "Next →" },
   "membership.55": { "zh": "确认并提交申请", "en": "Review & Submit" },
-  "membership.56": { "zh": "请确认以下信息并同意相关条款，完成会员申请", "en": "Please review and agree to the terms to complete your application" },
-  "membership.57": { "zh": "您是通过什么渠道了解我们的？", "en": "How did you hear about us?" },
-  "membership.58": { "zh": "推荐人姓名/会员编号（如有）", "en": "Referrer Name / Member ID (optional)" },
-  "membership.59": { "zh": "我已阅读并同意《隐私保护政策》和《会员服务条款》。我理解奇幻假期将严格保护我的个人信息，仅用于会员服务相关事宜。", "en": "I have read and agree to the Privacy Policy and Membership Terms. I understand Fantastic Vacation will protect my personal information strictly for membership services only." },
+  "membership.56": { "zh": "请确认以下信息并同意相关条款,完成会员申请", "en": "Please review and agree to the terms to complete your application" },
+  "membership.57": { "zh": "您是通过什么渠道了解我们的?", "en": "How did you hear about us?" },
+  "membership.58": { "zh": "推荐人姓名/会员编号(如有)", "en": "Referrer Name / Member ID (optional)" },
+  "membership.59": { "zh": "我已阅读并同意《隐私保护政策》和《会员服务条款》。我理解奇幻假期将严格保护我的个人信息,仅用于会员服务相关事宜。", "en": "I have read and agree to the Privacy Policy and Membership Terms. I understand Fantastic Vacation will protect my personal information strictly for membership services only." },
   "membership.61": { "zh": "提交会员申请", "en": "Submit Application" },
-  "membership.62": { "zh": "申请已提交！", "en": "Application Submitted!" },
-  "membership.63": { "zh": "感谢您申请奇幻假期尊享会员。我们的会员顾问将在24小时内与您联系，为您介绍会员权益并完成入会流程。", "en": "Thank you for applying. Our membership advisor will contact you within 24 hours to introduce your member benefits and complete the enrollment process." },
-  "membership.64": { "zh": "您现在可以返回首页浏览更多内容，或直接拨打会员专线：13797920792", "en": "You may now return to the homepage or call our membership hotline: +86 13797920792" },
+  "membership.62": { "zh": "申请已提交!", "en": "Application Submitted!" },
+  "membership.63": { "zh": "感谢您申请奇幻假期尊享会员。我们的会员顾问将在24小时内与您联系,为您介绍会员权益并完成入会流程。", "en": "Thank you for applying. Our membership advisor will contact you within 24 hours to introduce your member benefits and complete the enrollment process." },
+  "membership.64": { "zh": "您现在可以返回首页浏览更多内容,或直接拨打会员专线:13797920792", "en": "You may now return to the homepage or call our membership hotline: +86 13797920792" },
   "membership.65": { "zh": "奇幻假期", "en": "Fantastic Vacation" },
   "membership.66": { "zh": "FANTASTIC VACATION", "en": "FANTASTIC VACATION" },
-  "membership.67": { "zh": "「探索全球，不负假期」", "en": "Explore the World, Never Waste a Holiday" },
+  "membership.67": { "zh": "「探索全球,不负假期」", "en": "Explore the World, Never Waste a Holiday" },
   "membership.68": { "zh": "快速导航", "en": "Quick Links" },
   "membership.69": { "zh": "联系我们", "en": "Contact Us" },
   "membership.70": { "zh": "👑 尊享会员", "en": "👑 Membership" },
@@ -80010,8 +80010,8 @@ var dict = {
   "membership.202": { "zh": "女士 Ms.", "en": "Ms." },
   "membership.203": { "zh": "博士 Dr.", "en": "Dr." },
   "membership.204": { "zh": "其他 Other", "en": "Other" },
-  "membership.205": { "zh": "选填：便于我们为您提供更精准的商务接待服务", "en": "Optional: helps us provide more precise service for you" },
-  "membership.206": { "zh": "请简单说明您申请该等级会员的原因，帮助我们更好地为您服务", "en": "Briefly describe your reason for applying, helping us serve you better" },
+  "membership.205": { "zh": "选填:便于我们为您提供更精准的商务接待服务", "en": "Optional: helps us provide more precise service for you" },
+  "membership.206": { "zh": "请简单说明您申请该等级会员的原因,帮助我们更好地为您服务", "en": "Briefly describe your reason for applying, helping us serve you better" },
   "membership.207": { "zh": "请选择类型", "en": "Select Type" },
   "membership.208": { "zh": "运动快艇 Sport Yacht", "en": "Sport Yacht" },
   "membership.209": { "zh": "豪华摩托艇 Motor Yacht", "en": "Motor Yacht" },
@@ -80026,23 +80026,23 @@ var dict = {
   "membership.218": { "zh": "大洋洲 Oceania", "en": "Oceania" },
   "membership.219": { "zh": "其他 Other", "en": "Other" },
   "membership.220": { "zh": "请选择人数", "en": "Select Count" },
-  "membership.221": { "zh": "1–4人（小型聚会）", "en": "1–4 (Intimate Gathering)" },
-  "membership.222": { "zh": "5–10人（家庭出游）", "en": "5–10 (Family Trip)" },
-  "membership.223": { "zh": "11–20人（商务接待）", "en": "11–20 (Business Event)" },
-  "membership.224": { "zh": "20人以上（大型活动）", "en": "20+ (Large Event)" },
+  "membership.221": { "zh": "1-4人(小型聚会)", "en": "1-4 (Intimate Gathering)" },
+  "membership.222": { "zh": "5-10人(家庭出游)", "en": "5-10 (Family Trip)" },
+  "membership.223": { "zh": "11-20人(商务接待)", "en": "11-20 (Business Event)" },
+  "membership.224": { "zh": "20人以上(大型活动)", "en": "20+ (Large Event)" },
   "membership.225": { "zh": "请选择预算范围", "en": "Select Budget" },
-  "membership.226": { "zh": "¥5–10万/次", "en": "¥50K–100K/trip" },
-  "membership.227": { "zh": "¥10–30万/次", "en": "¥100K–300K/trip" },
-  "membership.228": { "zh": "¥30–100万/次", "en": "¥300K–1M/trip" },
+  "membership.226": { "zh": "¥5-10万/次", "en": "¥50K-100K/trip" },
+  "membership.227": { "zh": "¥10-30万/次", "en": "¥100K-300K/trip" },
+  "membership.228": { "zh": "¥30-100万/次", "en": "¥300K-1M/trip" },
   "membership.229": { "zh": "¥100万以上/次", "en": "¥1M+/trip" },
-  "membership.230": { "zh": "感兴趣的权益（可多选）", "en": "Interests (Multi-select)" },
+  "membership.230": { "zh": "感兴趣的权益(可多选)", "en": "Interests (Multi-select)" },
   "membership.231": { "zh": "游艇定制", "en": "Yacht Customization" },
   "membership.232": { "zh": "航线租赁", "en": "Route Charter" },
   "membership.233": { "zh": "托管维保", "en": "Management & Maintenance" },
   "membership.234": { "zh": "商务活动", "en": "Business Events" },
   "membership.235": { "zh": "航海培训", "en": "Sailing Training" },
   "membership.236": { "zh": "礼宾服务", "en": "Concierge" },
-  "membership.237": { "zh": "例如：饮食禁忌、特殊纪念日、喜欢的海上活动等", "en": "e.g. dietary restrictions, special occasions, preferred activities" },
+  "membership.237": { "zh": "例如:饮食禁忌、特殊纪念日、喜欢的海上活动等", "en": "e.g. dietary restrictions, special occasions, preferred activities" },
   "membership.300": { "zh": "页脚", "en": "Footer" },
   "membership.302": { "zh": "© 2024 奇幻假期实业有限公司 FANTASTIC VACATION INDUSTRIAL LIMITED. All rights reserved.", "en": "© 2024 Fantastic Vacation Industrial Limited. All rights reserved." },
   "membership.360": { "zh": "专属顾问服务", "en": "Dedicated Advisor" },
@@ -80063,8 +80063,8 @@ var dict = {
   "m.apply.ph_name": { "zh": "姓名 *", "en": "Full Name *" },
   "m.apply.ph_phone": { "zh": "手机号码 *", "en": "Phone Number *" },
   "m.apply.ph_email": { "zh": "电子邮箱 *", "en": "Email Address *" },
-  "m.apply.ph_company": { "zh": "公司/机构名称（选填）", "en": "Company/Organization (Optional)" },
-  "m.apply.ph_message": { "zh": "您的需求或留言（选填）", "en": "Your Message or Needs (Optional)" },
+  "m.apply.ph_company": { "zh": "公司/机构名称(选填)", "en": "Company/Organization (Optional)" },
+  "m.apply.ph_message": { "zh": "您的需求或留言(选填)", "en": "Your Message or Needs (Optional)" },
   "_ph.charter.phone": { "zh": "138 0000 0000", "en": "Phone Number" },
   "_ph.charter.email": { "zh": "your@email.com", "en": "Email Address" },
 
@@ -80072,32 +80072,32 @@ var dict = {
   "custom.900": { "zh": "基本信息 BASIC INFO", "en": "Basic Information" },
   "custom.901": { "zh": "您的姓名 *", "en": "Your Name *" },
   "custom.902": { "zh": "手机号码 *", "en": "Phone Number *" },
-  "custom.904": { "zh": "电子邮箱（选填）", "en": "Email (Optional)" },
+  "custom.904": { "zh": "电子邮箱(选填)", "en": "Email (Optional)" },
   "custom.906": { "zh": "便于我们发送定制方案至您的邮箱", "en": "So we can send your custom proposal to your inbox" },
   "custom.907": { "zh": "游艇需求 YACHT REQUIREMENTS", "en": "Yacht Requirements" },
   "custom.908": { "zh": "意向船型 *", "en": "Preferred Yacht *" },
   "custom.909": { "zh": "预算区间", "en": "Budget Range" },
   "custom.910": { "zh": "出行人数", "en": "Guest Count" },
   "custom.911": { "zh": "意向海域", "en": "Preferred Destination" },
-  "custom.912": { "zh": "计划使用场景（如：家庭度假 / 商务接待 / 海钓运动）", "en": "Usage Scenario (e.g. Family Vacation / Business / Sport Fishing)" },
+  "custom.912": { "zh": "计划使用场景(如:家庭度假 / 商务接待 / 海钓运动)", "en": "Usage Scenario (e.g. Family Vacation / Business / Sport Fishing)" },
   "custom.927": { "zh": "补充说明 ADDITIONAL INFO", "en": "Additional Information" },
-  "custom.928": { "zh": "请描述您的定制需求或特殊要求（可选）", "en": "Describe your custom requirements or special requests (optional)" },
-  "custom.929": { "zh": "例如：偏好的设计风格、特殊纪念日、船上设施要求等", "en": "e.g. Preferred design style, special occasions, onboard amenities, etc." },
+  "custom.928": { "zh": "请描述您的定制需求或特殊要求(可选)", "en": "Describe your custom requirements or special requests (optional)" },
+  "custom.929": { "zh": "例如:偏好的设计风格、特殊纪念日、船上设施要求等", "en": "e.g. Preferred design style, special occasions, onboard amenities, etc." },
   "custom.931": { "zh": "选择预算区间", "en": "Select Budget Range" },
   "custom.932": { "zh": "100万以下", "en": "Under 1M" },
-  "custom.933": { "zh": "100–300万", "en": "1M–3M" },
-  "custom.934": { "zh": "300–500万", "en": "3M–5M" },
-  "custom.935": { "zh": "500–1000万", "en": "5M–10M" },
-  "custom.938": { "zh": "1–4人（私人聚会）", "en": "1–4 (Intimate Gathering)" },
-  "custom.939": { "zh": "5–10人（家庭出游）", "en": "5–10 (Family Trip)" },
-  "custom.940": { "zh": "11–20人（商务接待）", "en": "11–20 (Business Event)" },
-  "custom.941": { "zh": "20人以上（大型活动）", "en": "20+ (Large Event)" },
+  "custom.933": { "zh": "100-300万", "en": "1M-3M" },
+  "custom.934": { "zh": "300-500万", "en": "3M-5M" },
+  "custom.935": { "zh": "500-1000万", "en": "5M-10M" },
+  "custom.938": { "zh": "1-4人(私人聚会)", "en": "1-4 (Intimate Gathering)" },
+  "custom.939": { "zh": "5-10人(家庭出游)", "en": "5-10 (Family Trip)" },
+  "custom.940": { "zh": "11-20人(商务接待)", "en": "11-20 (Business Event)" },
+  "custom.941": { "zh": "20人以上(大型活动)", "en": "20+ (Large Event)" },
   "custom.942": { "zh": "选择意向海域", "en": "Select Destination" },
   "custom.943": { "zh": "地中海", "en": "Mediterranean" },
   "custom.944": { "zh": "加勒比海", "en": "Caribbean" },
   "custom.946": { "zh": "太平洋岛屿", "en": "Pacific Islands" },
   "custom.947": { "zh": "尚未确定", "en": "Undecided" },
-  "custom.961": { "zh": "感谢您的咨询。我们的专属定制顾问将在<strong>24小时内</strong>与您联系，为您提供初步方案与报价。", "en": "Thank you for your inquiry. Our dedicated yacht consultant will contact you <strong>within 24 hours</strong> with a preliminary proposal and quote." },
+  "custom.961": { "zh": "感谢您的咨询。我们的专属定制顾问将在<strong>24小时内</strong>与您联系,为您提供初步方案与报价。", "en": "Thank you for your inquiry. Our dedicated yacht consultant will contact you <strong>within 24 hours</strong> with a preliminary proposal and quote." },
 };
 
 
@@ -80203,23 +80203,32 @@ function switchLang(lang) {
     var params = new URLSearchParams(window.location.search);
     urlLang = params.get('lang') || '';
   } catch(e){}
+  // Auto-detect language from URL path: /en/ pages → English, CN pages → Chinese
+  var isENPath = window.location.pathname.indexOf('/en/') >= 0;
   
   var saved = 'zh';
   try { saved = localStorage.getItem('fv-lang') || 'zh'; } catch(e){}
-  
-  // URL param takes priority
-  var initLang = (urlLang === 'en' || urlLang === 'zh') ? urlLang : saved;
-  
-  // Persist URL-specified language
-  if (urlLang === 'en' || urlLang === 'zh') {
-    try { localStorage.setItem('fv-lang', urlLang); } catch(e){}
+
+  // URL path takes priority for list pages; query param for detail pages; localStorage for persistence
+  var initLang;
+  if (isENPath) {
+    initLang = 'en';
+  } else if (urlLang === 'en' || urlLang === 'zh') {
+    initLang = urlLang;
+    try { localStorage.setItem('fv-lang', initLang); } catch(e){}
+  } else {
+    // CN page without query param: default to Chinese, ignore localStorage (may be stale from EN page)
+    initLang = 'zh';
   }
-  
+
+  // Persist language so language toggle works correctly after page switch
+  try { localStorage.setItem('fv-lang', initLang); } catch(e){}
+
   // Prevent FOUC: hide content until i18n is applied
   if (initLang !== 'zh' && document.documentElement) {
     document.documentElement.style.opacity = '0';
   }
-  
+
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', function() {
       switchLang(initLang);
