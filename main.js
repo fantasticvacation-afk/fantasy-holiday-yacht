@@ -6,10 +6,10 @@
   var isEN = path.indexOf('/en/') !== -1;
   var p = path.split('/').pop();
   // Check if this is a detail page that should use in-place i18n switch
-  var isDetailPage = /^(news-|case-|partner-)/.test(p);
+  var isDetailPage = /^(news-|case-|partner-|yacht-)/.test(p);
   
   // For detail pages, skip setting href here — the bottom IIFE (section B) will handle them
-  // with in-place i18n language switching instead of page navigation
+  // with in-place i18n language switching via ?lang= query parameter
   
   // Navbar lang switch
   var btn = document.querySelector('.lang-switch-btn');
@@ -536,13 +536,14 @@ function toggleSeries(){
       // Skip if filename is empty or a hash
       if (!filename || filename.charAt(0) === '#') return;
       
+      var isDetailLink = /^(news-|case-|partner-|yacht-)/.test(filename);
       if (isEN) {
         // On actual EN pages: use enTarget logic
         var target = enTarget(filename);
         if (target) {
           e.preventDefault();
           e.stopPropagation();
-          if (/^(news-|case-|partner-)/.test(filename)) {
+          if (isDetailLink) {
             var resolved = new URL(href, window.location.href);
             window.location.href = resolved.pathname + '?lang=en';
           } else {
@@ -551,25 +552,32 @@ function toggleSeries(){
           }
         }
       } else if (langParam) {
-        // On CN detail page showing English: redirect nav links to EN equivalents
-        var target = enTarget(filename);
-        if (target) {
-          // Has EN equivalent page — navigate there with relative path
+        // On CN detail page showing English: handle nav links
+        if (isDetailLink) {
+          // Detail page → detail page: preserve ?lang=en on target
           e.preventDefault();
           e.stopPropagation();
-          window.location.href = target.slice(1);
-        } else if (!/^(news-|case-|partner-)/.test(filename)) {
-          // No EN equivalent and not a detail page — check if EN version exists
-          // EN pages that exist: en/[same-filename]
-          var enPages = ['index.html','yachts.html','yachts-sovereign.html','yachts-expedition.html',
-            'yachts-flybridge.html','yachts-daycruiser.html','custom.html','charter.html',
-            'management.html','cases.html','news.html','about.html','membership.html',
-            'partnership.html','contact.html','ir.html','honors.html','terms.html','privacy.html','sitemap.html'];
-          if (enPages.indexOf(filename) !== -1) {
+          var resolvedD = new URL(href, window.location.href);
+          window.location.href = resolvedD.pathname + '?lang=en';
+        } else {
+          var target = enTarget(filename);
+          if (target) {
+            // Has EN equivalent list page — navigate there
             e.preventDefault();
             e.stopPropagation();
-            var dir = window.location.pathname.split('/').slice(0, -1).join('/');
-            window.location.href = dir + '/en/' + filename;
+            window.location.href = target.slice(1);
+          } else {
+            // Check if EN version exists
+            var enPages = ['index.html','yachts.html','yachts-sovereign.html','yachts-expedition.html',
+              'yachts-flybridge.html','yachts-daycruiser.html','custom.html','charter.html',
+              'management.html','cases.html','news.html','about.html','membership.html',
+              'partnership.html','contact.html','ir.html','honors.html','terms.html','privacy.html','sitemap.html'];
+            if (enPages.indexOf(filename) !== -1) {
+              e.preventDefault();
+              e.stopPropagation();
+              var dir = window.location.pathname.split('/').slice(0, -1).join('/');
+              window.location.href = dir + '/en/' + filename;
+            }
           }
         }
       }
@@ -578,7 +586,7 @@ function toggleSeries(){
 
   // B) On CN-only pages: repurpose language switch
   var target = enTarget(p);
-  var isDetailPage = /^(news-|case-|partner-)/.test(p);
+  var isDetailPage = /^(news-|case-|partner-|yacht-)/.test(p);
   var hasLangParam = /[?&]lang=en/.test(window.location.search);
   
   if (target) {
@@ -588,21 +596,22 @@ function toggleSeries(){
         var b = btns[i];
         
         if (isDetailPage) {
-          // Detail pages: navigate to corresponding list page (no EN detail pages exist)
+          // Detail pages: use in-place i18n switching via ?lang= query parameter
+          // No EN detail pages exist, so we toggle ?lang=en to trigger applyI18n()
           if (hasLangParam) {
-            // Currently showing English via ?lang=en — go back to CN list page
-            b.textContent = '中文';
+            // Currently showing English via ?lang=en — switch back to Chinese
+            b.textContent = '\ud83c\udf10 中文';
             b.title = '切换到中文';
             b.setAttribute('aria-label','切换到中文');
-            // Relative: /en/news.html → news.html (same-directory CN list)
-            b.href = target.replace('/en/', '');
+            // Remove ?lang=en to switch back to CN
+            b.href = window.location.pathname;
           } else {
-            // CN detail page — navigate to EN list page
-            b.textContent = 'EN';
+            // CN detail page — switch to English via ?lang=en
+            b.textContent = '\ud83c\udf10 EN';
             b.title = 'Switch to English';
             b.setAttribute('aria-label','Switch to English');
-            // Relative: /en/news.html → en/news.html
-            b.href = target.slice(1);
+            // Add ?lang=en for in-place English
+            b.href = window.location.pathname + '?lang=en';
           }
           b.style.display = '';
           b.removeAttribute('onclick');
