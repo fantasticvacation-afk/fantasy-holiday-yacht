@@ -1,122 +1,45 @@
 /* main.js - 奇幻假期游艇网站主逻辑 */
 
-/* ===== Site Base Detection (handles both local dev at / and GitHub Pages at /fantasy-holiday-yacht/) ===== */
-(function(){
-  var p = window.location.pathname;
-  if (p.indexOf('/fantasy-holiday-yacht/') === 0) {
-    window._SITE_BASE = '/fantasy-holiday-yacht/';
-  } else {
-    window._SITE_BASE = '';
-  }
-})();
-
-/* ===== EN redirect mapping (must be defined first) ===== */
-window._EN_MAP = {
-  'about-history.html':'en/about.html','about-culture.html':'en/about.html','about-structure.html':'en/about.html',
-  'about-responsibility.html':'en/about.html','about-intro.html':'en/about.html',
-  'yachts-sovereign.html':'en/yachts-sovereign.html','yachts-expedition.html':'en/yachts-expedition.html',
-  'yachts-flybridge.html':'en/yachts-flybridge.html','yachts-daycruiser.html':'en/yachts-daycruiser.html',
-  'press.html':'en/news.html',
-  'terms.html':'en/terms.html','privacy.html':'en/privacy.html','sitemap.html':'en/sitemap.html',
-  // CN-only membership sub-pages → EN membership landing
-  'membership-addons.html':'en/membership.html','membership-berths.html':'en/membership.html',
-  'membership-brand.html':'en/membership.html','membership-contact.html':'en/membership.html',
-  'membership-corporate.html':'en/membership.html','membership-events.html':'en/membership.html',
-  'membership-fees.html':'en/membership.html','membership-points.html':'en/membership.html',
-  'membership-support.html':'en/membership.html','membership-terms.html':'en/membership.html',
-  'membership-transfer.html':'en/membership.html'
-};
-
-/* ===== enTarget — given a CN filename, return EN target path ===== */
-function enTarget(filename) {
-  var base = window._SITE_BASE || '';
-  if (window._EN_MAP[filename]) return base + window._EN_MAP[filename];
-  if (/^case-/.test(filename)) return base + 'en/cases.html';
-  if (/^news-/.test(filename)) return base + 'en/news.html';
-  if (/^tier[0-5]-/.test(filename)) return base + 'en/membership.html';
-  return null;
-}
-
-/* ===== CN→EN path computation (for pages with direct EN equivalents) ===== */
-function cnToEnPath(cnPath) {
-  // GitHub Pages: /fantasy-holiday-yacht/sub/page.html → /fantasy-holiday-yacht/en/sub/page.html
-  if (window._SITE_BASE) {
-    return cnPath.replace(window._SITE_BASE, window._SITE_BASE + 'en/');
-  }
-  // Local dev (file:// or simple HTTP server): use relative paths that work everywhere
-  var segments = cnPath.split('/').filter(Boolean);
-  var depth = segments.length - 1; // directories before filename
-  var prefix = depth > 0 ? '../'.repeat(depth) : '';
-  return prefix + 'en/' + cnPath.replace(/^\//, '');
-}
-
-/* ===== EN→CN path computation ===== */
-function enToCnPath(enPath) {
-  // GitHub Pages: /fantasy-holiday-yacht/en/sub/page.html → /fantasy-holiday-yacht/sub/page.html
-  if (window._SITE_BASE) {
-    return enPath.replace('/en/', '/');
-  }
-  // Local dev: use relative paths
-  var segments = enPath.split('/').filter(Boolean);
-  var depth = segments.length - 1; // directories including /en/ before filename
-  var prefix = depth > 0 ? '../'.repeat(depth) : '';
-  return prefix + enPath.replace('/en/', '').replace(/^\//, '');
-}
-
-/* ===== hasEnEquivalent — does this CN page have a dedicated EN page? ===== */
-function hasEnEquivalent(fn) {
-  // These redirect to generic EN pages (no dedicated EN page)
-  var CN_ONLY = ['about-history.html','about-culture.html','about-structure.html',
-    'about-responsibility.html','about-intro.html',
-    'press.html','terms.html','privacy.html','sitemap.html'];
-  if (CN_ONLY.indexOf(fn) !== -1) return false;
-  if (/^case-/.test(fn) || /^news-/.test(fn)) return false;
-  if (/^tier[0-5]-/.test(fn)) return false;
-  var CN_ONLY_MEM = ['membership-addons.html','membership-berths.html','membership-brand.html',
-    'membership-contact.html','membership-corporate.html','membership-events.html',
-    'membership-fees.html','membership-points.html','membership-support.html',
-    'membership-terms.html','membership-transfer.html'];
-  if (CN_ONLY_MEM.indexOf(fn) !== -1) return false;
-  return true;
-}
-
-/* === 语言切换按钮 —— DOM ready 后再执行 === */
+/* === 语言切换按钮智能跳转 === */
 (function(){
   var path = window.location.pathname;
   var isEN = path.indexOf('/en/') !== -1;
-  var filename = path.split('/').pop() || 'index.html';
-
-  function setup() {
-    var btn = document.querySelector('.lang-switch-btn');
-    if (btn) {
-      if (isEN) {
-        btn.href = enToCnPath(path);
-      } else {
-        if (hasEnEquivalent(filename)) {
-          btn.href = cnToEnPath(path);
-        }
-        /* pages without EN equivalent: keep the HTML hardcoded href */
-      }
-    }
-
-    var mobileBtn = document.querySelector('#mobileLangSwitch');
-    if (mobileBtn) {
-      if (isEN) {
-        mobileBtn.href = enToCnPath(path);
-        mobileBtn.textContent = '🌐 中文';
-      } else {
-        if (hasEnEquivalent(filename)) {
-          mobileBtn.href = cnToEnPath(path);
-        }
-        mobileBtn.textContent = '🌐 English Version';
-      }
+  var p = path.split('/').pop();
+  // Check if this is a detail page that should use in-place i18n switch
+  var isDetailPage = /^(news-|case-|partner-)/.test(p);
+  
+  // For detail pages, skip setting href here — the bottom IIFE (section B) will handle them
+  // with in-place i18n language switching instead of page navigation
+  
+  // Navbar lang switch
+  var btn = document.querySelector('.lang-switch-btn');
+  if (btn && !isDetailPage) {
+    if (isEN) btn.href = path.replace('/en/', '/');
+    else {
+      var parts = path.split('/');
+      var filename = parts[parts.length - 1] || 'index.html';
+      btn.href = parts.slice(0, -1).join('/') + '/en/' + filename;
     }
   }
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', setup);
-  } else {
-    setup();
+  
+  // Mobile menu lang switch
+  var mobileBtn = document.querySelector('#mobileLangSwitch');
+  if (mobileBtn && !isDetailPage) {
+    if (isEN) {
+      var cnPath = path.replace('/en/', '/');
+      // For sub-pages in membership/, the root is ../
+      if (path.indexOf('/membership/') !== -1) {
+        // EN membershp page: switch to CN membership/
+        cnPath = path.replace(/\/en\/(.*)/, '/$1');
+      }
+      mobileBtn.href = cnPath;
+      if (isEN) mobileBtn.textContent = '🌐 切换到中文';
+    } else {
+      var filename_m = path.split('/').pop() || 'index.html';
+      var dir_m = path.split('/').slice(0, -1).join('/');
+      mobileBtn.href = dir_m + '/en/' + filename_m;
+      mobileBtn.textContent = '🌐 English Version';
+    }
   }
 })();
 
@@ -394,7 +317,7 @@ window.addEventListener("DOMContentLoaded", function() {
 /* ===== Scroll Reveal Observer ===== */
 (function(){
   if(!("IntersectionObserver" in window)){
-    document.querySelectorAll('[class*="reveal"]').forEach(function(el){ el.classList.add('revealed'); });
+    document.querySelectorAll('.reveal').forEach(function(el){ el.classList.add('revealed'); });
     return;
   }
   var revealObserver = new IntersectionObserver(function(entries){
@@ -405,19 +328,27 @@ window.addEventListener("DOMContentLoaded", function() {
       }
     });
   }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
-  document.querySelectorAll('[class*="reveal"]').forEach(function(el){ revealObserver.observe(el); });
+  document.querySelectorAll('.reveal').forEach(function(el){ revealObserver.observe(el); });
 })();
 
 /* ===== Language Switch ===== */
+// Note: Language switching is handled by the top IIFE (page navigation)
+// and the bottom IIFE section B (in-place i18n for detail pages).
+// This block is kept as a fallback for any page using id="langSwitchBtn".
 document.addEventListener('DOMContentLoaded', function(){
   var langBtn = document.getElementById('langSwitchBtn');
   if(langBtn){
-    langBtn.addEventListener('click', function(){
+    langBtn.addEventListener('click', function(e){
+      e.preventDefault();
       var path = window.location.pathname;
-      var enPath = path.replace('/fantasy-holiday-yacht/', '/fantasy-holiday-yacht/en/');
       if(path.indexOf('/en/') === -1){
-        window.location.href = '/fantasy-holiday-yacht/en/index.html';
+        // CN page → go to EN equivalent
+        var parts = path.split('/');
+        var filename = parts[parts.length - 1] || 'index.html';
+        var dir = parts.slice(0, -1).join('/');
+        window.location.href = dir + '/en/' + filename;
       } else {
+        // EN page → go to CN equivalent
         window.location.href = path.replace('/en/', '/');
       }
     });
@@ -556,57 +487,157 @@ function toggleSeries(){
 
 /* ===== CN-only page → EN redirect logic ===== */
 (function() {
+  var EN_MAP = {
+    'about-history.html':'en/about.html','about-culture.html':'en/about.html','about-structure.html':'en/about.html',
+    'about-responsibility.html':'en/about.html','about-intro.html':'en/about.html',
+    'yachts-sovereign.html':'en/yachts-sovereign.html','yachts-expedition.html':'en/yachts-expedition.html',
+    'yachts-flybridge.html':'en/yachts-flybridge.html','yachts-daycruiser.html':'en/yachts-daycruiser.html',
+    'press.html':'en/news.html',
+    'terms.html':'en/terms.html','privacy.html':'en/privacy.html','sitemap.html':'en/sitemap.html',
+    'partner-apply.html':'en/partnership.html','partner-cases.html':'en/partnership.html',
+    'partner-list.html':'en/partnership.html','partner-map.html':'en/partnership.html',
+    'partner-process.html':'en/partnership.html',
+    'partner-type-shipyard.html':'en/partnership.html','partner-type-marina.html':'en/partnership.html',
+    'partner-type-aviation.html':'en/partnership.html','partner-type-hotel.html':'en/partnership.html',
+    'partner-type-art.html':'en/partnership.html','partner-type-association.html':'en/partnership.html',
+    'partner-type-brand.html':'en/partnership.html','partner-type-service.html':'en/partnership.html',
+    'partner-type-agent.html':'en/partnership.html','partner-type-tech.html':'en/partnership.html'
+  };
+
+  // Helper: given a filename, return the best EN target or null
+  function enTarget(filename) {
+    if (EN_MAP[filename]) return '/' + EN_MAP[filename];
+    if (/^case-/.test(filename)) return '/en/cases.html';
+    if (/^news-/.test(filename)) return '/en/news.html';
+    if (/^partner-/.test(filename)) return '/en/partnership.html';
+    return null;
+  }
 
   var path = window.location.pathname;
   var isEN = path.indexOf('/en/') !== -1;
-  var p = path.split('/').pop() || 'index.html';
+  var p = path.split('/').pop();
 
-  // A) On EN pages: intercept clicks on nav links that point to CN-only pages
-  //    (Skip lang-switch buttons — those should switch language, not redirect)
-  if (isEN) {
+  // A) On EN pages or CN pages showing English: intercept clicks on nav links
+  var langParam = /[?&]lang=en/.test(window.location.search);
+  var isEnglishMode = isEN || langParam;
+  if (isEnglishMode) {
     document.addEventListener('click', function(e) {
-      var el = (e.target && e.target.closest) ? e.target : null;
-      var a = el ? el.closest('a[href]') : null;
+      var a = e.target.closest('a[href]');
       if (!a) return;
-      // Never intercept lang-switch buttons
+      // Skip language switch buttons — handled by section B
       if (a.classList.contains('lang-switch-btn') || a.id === 'mobileLangSwitch') return;
-      // Only intercept navigation links (<nav> or mobile-nav); content-body links
-      // like "Read More" / "View Full Study" should navigate to CN detail pages
-      if (!a.closest('nav') && !a.classList.contains('mobile-nav-link')) return;
       var href = a.getAttribute('href');
       if (!href) return;
+      // Skip links that already have ?lang= parameter
+      if (href.indexOf('lang=') !== -1) return;
       // Resolve relative ../ hrefs to just the filename
       var parts = href.split('/');
       var filename = parts[parts.length - 1];
-      if (!filename) return;
-      // Skip if it looks like an external link or anchor
-      if (filename.indexOf('.html') === -1) return;
-      var target = enTarget(filename);
-      if (target) {
-        e.preventDefault();
-        e.stopPropagation();
-        window.location.href = target;
+      // Skip if filename is empty or a hash
+      if (!filename || filename.charAt(0) === '#') return;
+      
+      if (isEN) {
+        // On actual EN pages: use enTarget logic
+        var target = enTarget(filename);
+        if (target) {
+          e.preventDefault();
+          e.stopPropagation();
+          if (/^(news-|case-|partner-)/.test(filename)) {
+            var resolved = new URL(href, window.location.href);
+            window.location.href = resolved.pathname + '?lang=en';
+          } else {
+            window.location.href = target;
+          }
+        }
+      } else if (langParam) {
+        // On CN detail page showing English: redirect nav links to EN equivalents
+        var target = enTarget(filename);
+        if (target) {
+          // Has EN equivalent page — navigate there
+          e.preventDefault();
+          e.stopPropagation();
+          window.location.href = target;
+        } else if (!/^(news-|case-|partner-)/.test(filename)) {
+          // No EN equivalent and not a detail page — check if EN version exists
+          // EN pages that exist: en/[same-filename]
+          var enPages = ['index.html','yachts.html','yachts-sovereign.html','yachts-expedition.html',
+            'yachts-flybridge.html','yachts-daycruiser.html','custom.html','charter.html',
+            'management.html','cases.html','news.html','about.html','membership.html',
+            'partnership.html','contact.html','ir.html','honors.html','terms.html','privacy.html','sitemap.html'];
+          if (enPages.indexOf(filename) !== -1) {
+            e.preventDefault();
+            e.stopPropagation();
+            var dir = window.location.pathname.split('/').slice(0, -1).join('/');
+            window.location.href = dir + '/en/' + filename;
+          }
+        }
       }
     }, true);
   }
 
-  // B) On CN-only pages: repurpose language switch to show "EN" button
-  //    (Only runs on CN pages; on EN pages the navbar lang-switch already points to CN correctly)
-  if (!isEN) {
-    var target = enTarget(p);
-    if (target) {
-      var f = function(){
-        var btns = document.querySelectorAll('.lang-switch-btn, #mobileLangSwitch');
-        for (var i=0; i<btns.length; i++) {
-          var b = btns[i];
+  // B) On CN-only pages: repurpose language switch
+  var target = enTarget(p);
+  var isDetailPage = /^(news-|case-|partner-)/.test(p);
+  var hasLangParam = /[?&]lang=en/.test(window.location.search);
+  
+  if (target) {
+    var f = function(){
+      var btns = document.querySelectorAll('.lang-switch-btn, #mobileLangSwitch');
+      for (var i=0; i<btns.length; i++) {
+        var b = btns[i];
+        
+        if (isDetailPage) {
+          // Detail pages: use in-place i18n language switch instead of page jump
+          if (hasLangParam) {
+            // Currently showing English via ?lang=en
+            b.textContent = '中文';
+            b.title = '切换到中文';
+            b.setAttribute('aria-label','切换到中文');
+          } else {
+            b.textContent = 'EN';
+            b.title = 'Switch to English';
+            b.setAttribute('aria-label','Switch to English');
+          }
+          // Remove href to prevent navigation, use onclick instead
+          b.removeAttribute('href');
+          b.style.cursor = 'pointer';
+          b.style.display = '';
+          b.onclick = function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            var curLang = 'zh';
+            try { curLang = localStorage.getItem('fv-lang') || 'zh'; } catch(e2){}
+            var newLang = curLang === 'zh' ? 'en' : 'zh';
+            // Use switchLang if available (from i18n.js)
+            if (typeof switchLang === 'function') {
+              switchLang(newLang);
+            } else {
+              try { localStorage.setItem('fv-lang', newLang); } catch(e2){}
+              applyI18n(newLang);
+            }
+            // Update button text
+            var btns2 = document.querySelectorAll('.lang-switch-btn, #mobileLangSwitch');
+            for (var j=0; j<btns2.length; j++) {
+              btns2[j].textContent = newLang === 'zh' ? 'EN' : '中文';
+              btns2[j].title = newLang === 'zh' ? 'Switch to English' : '切换到中文';
+            }
+            // Update URL parameter
+            var url = new URL(window.location.href);
+            if (newLang === 'en') url.searchParams.set('lang', 'en');
+            else url.searchParams.delete('lang');
+            history.replaceState(null, '', url.toString());
+          };
+        } else {
+          // Non-detail CN-only pages: jump to EN page
           b.textContent = 'EN';
           b.href = target;
           b.title = 'Switch to English';
           b.setAttribute('aria-label','Switch to English');
+          b.style.display = '';
         }
-      };
-      if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', f);
-      else f();
-    }
+      }
+    };
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', f);
+    else f();
   }
 })();

@@ -80194,12 +80194,37 @@ function switchLang(lang) {
 }
 
 (function initI18n() {
+  // Check URL parameter first (?lang=en or ?lang=zh)
+  var urlLang = '';
+  try {
+    var params = new URLSearchParams(window.location.search);
+    urlLang = params.get('lang') || '';
+  } catch(e){}
+  
   var saved = 'zh';
   try { saved = localStorage.getItem('fv-lang') || 'zh'; } catch(e){}
+  
+  // URL param takes priority
+  var initLang = (urlLang === 'en' || urlLang === 'zh') ? urlLang : saved;
+  
+  // Persist URL-specified language
+  if (urlLang === 'en' || urlLang === 'zh') {
+    try { localStorage.setItem('fv-lang', urlLang); } catch(e){}
+  }
+  
+  // Prevent FOUC: hide content until i18n is applied
+  if (initLang !== 'zh' && document.documentElement) {
+    document.documentElement.style.opacity = '0';
+  }
+  
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', function() { switchLang(saved); });
+    document.addEventListener('DOMContentLoaded', function() {
+      switchLang(initLang);
+      document.documentElement.style.opacity = '';
+    });
   } else {
-    switchLang(saved);
+    switchLang(initLang);
+    document.documentElement.style.opacity = '';
   }
   var btn = document.getElementById('langSwitchBtn');
   if (btn) {
