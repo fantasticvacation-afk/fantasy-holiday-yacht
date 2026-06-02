@@ -546,17 +546,18 @@ function toggleSeries(){
             var resolved = new URL(href, window.location.href);
             window.location.href = resolved.pathname + '?lang=en';
           } else {
-            window.location.href = target;
+            // Relative from EN page: strip /en/ prefix → same-directory page
+            window.location.href = target.replace('/en/', '');
           }
         }
       } else if (langParam) {
         // On CN detail page showing English: redirect nav links to EN equivalents
         var target = enTarget(filename);
         if (target) {
-          // Has EN equivalent page — navigate there
+          // Has EN equivalent page — navigate there with relative path
           e.preventDefault();
           e.stopPropagation();
-          window.location.href = target;
+          window.location.href = target.slice(1);
         } else if (!/^(news-|case-|partner-)/.test(filename)) {
           // No EN equivalent and not a detail page — check if EN version exists
           // EN pages that exist: en/[same-filename]
@@ -593,19 +594,23 @@ function toggleSeries(){
             b.textContent = '中文';
             b.title = '切换到中文';
             b.setAttribute('aria-label','切换到中文');
-            b.href = target.replace('/en/', '/');
+            // Relative: /en/news.html → news.html (same-directory CN list)
+            b.href = target.replace('/en/', '');
           } else {
             // CN detail page — navigate to EN list page
             b.textContent = 'EN';
             b.title = 'Switch to English';
             b.setAttribute('aria-label','Switch to English');
-            b.href = target;
+            // Relative: /en/news.html → en/news.html
+            b.href = target.slice(1);
           }
           b.style.display = '';
+          b.removeAttribute('onclick');
         } else {
           // Non-detail CN-only pages: jump to EN page
           b.textContent = 'EN';
-          b.href = target;
+          // Relative: /en/foo.html → en/foo.html
+          b.href = target.slice(1);
           b.title = 'Switch to English';
           b.setAttribute('aria-label','Switch to English');
           b.style.display = '';
