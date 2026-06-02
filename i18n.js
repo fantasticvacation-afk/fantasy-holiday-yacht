@@ -80000,6 +80000,35 @@ var dict = {
   "membership.70": { "zh": "👑 尊享会员", "en": "👑 Membership" },
   "nav.member": { "zh": "👑 尊享会员", "en": "👑 MEMBERSHIP" },
 
+  "nav.products.sovereign": {
+    "zh": "君临系列",
+    "en": "Sovereign Series"
+  },
+  "nav.products.expedition": {
+    "zh": "远征系列",
+    "en": "Expedition Series"
+  },
+  "nav.products.flybridge": {
+    "zh": "飞桥系列",
+    "en": "Flybridge Series"
+  },
+  "nav.products.daycruiser": {
+    "zh": "日间系列",
+    "en": "Day Cruiser Series"
+  },
+  "nav.custom": {
+    "zh": "定制服务",
+    "en": "Custom Services"
+  },
+  "nav.cooperation": {
+    "zh": "资讯与合作",
+    "en": "News & Cooperation"
+  },
+  "nav.news.info": {
+    "zh": "新闻资讯",
+    "en": "News Updates"
+  },
+
   "membership.100": { "zh": "主导航", "en": "Main Nav" },
   "membership.101": { "zh": "奇幻假期 <em>FANTASTIC VACATION</em>", "en": "Fantastic Vacation <em>FANTASTIC VACATION</em>" },
   "membership.102": { "zh": "FANTASTIC VACATION", "en": "FANTASTIC VACATION" },
