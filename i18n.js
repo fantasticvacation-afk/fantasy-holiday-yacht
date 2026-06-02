@@ -76571,6 +76571,7 @@ var dict = {
     "zh": "\"维修后船体强度恢复至原厂98%，船东高度认可\"",
     "en": "Meeting completed successfully, exceeded all expectations, promised long-term cooperation."
   },
+  "invest.title": { "zh": "投资者关系 | 奇幻假期", "en": "Investor Relations | Fantasy Vacation" },
   "invest.03e1ba964a39": { "zh": "投资者关系", "en": "Investor Relations" },
   "invest.043b3b798720": { "zh": "业务板块拓展", "en": "Business Expansion" },
   "invest.0484eb79c912": { "zh": "公告披露", "en": "Announcements & Disclosures" },
@@ -79479,6 +79480,7 @@ var dict = {
   "nav-template.5": { "zh": "品牌标识", "en": "Brand" },
 
   "footer.member": { "zh": "👑 尊享会员", "en": "👑 Membership" },
+  "footer.100": { "zh": "👑 尊享会员", "en": "👑 Membership" },
   "membership.100_000": { "zh": "100,000 积分", "en": "100,000 points" },
   "membership.10": { "zh": "10天/年", "en": "10 days/yr" },
   "membership.200_000": { "zh": "200,000 积分", "en": "200,000 points" },
@@ -80055,6 +80057,7 @@ var dict = {
   "membership.421": { "zh": "专属游艇使用权 30天/年", "en": "Yacht Usage 30 Days/Year" },
   "membership.422": { "zh": "私人管家全程陪同", "en": "Personal Butler Service" },
   "membership.423": { "zh": "高端船厂优先参观", "en": "Priority Shipyard Visits" },
+  "membership": { "zh": "尊享会员", "en": "Premium Membership" },
   "m.hero_prefix": { "zh": "开启您的", "en": "Begin Your" },
   "m.cta_prefix": { "zh": "准备好", "en": "Ready to" },
   "m.apply.ph_name": { "zh": "姓名 *", "en": "Full Name *" },
