@@ -4,3 +4,4 @@ node_modules/
 .tmp/
 fantasy-holiday-yacht.zip
 fantasy-holiday-yacht.zip
+*.bak
