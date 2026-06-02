@@ -587,46 +587,21 @@ function toggleSeries(){
         var b = btns[i];
         
         if (isDetailPage) {
-          // Detail pages: use in-place i18n language switch instead of page jump
+          // Detail pages: navigate to corresponding list page (no EN detail pages exist)
           if (hasLangParam) {
-            // Currently showing English via ?lang=en
+            // Currently showing English via ?lang=en — go back to CN list page
             b.textContent = '中文';
             b.title = '切换到中文';
             b.setAttribute('aria-label','切换到中文');
+            b.href = target.replace('/en/', '/');
           } else {
+            // CN detail page — navigate to EN list page
             b.textContent = 'EN';
             b.title = 'Switch to English';
             b.setAttribute('aria-label','Switch to English');
+            b.href = target;
           }
-          // Remove href to prevent navigation, use onclick instead
-          b.removeAttribute('href');
-          b.style.cursor = 'pointer';
           b.style.display = '';
-          b.onclick = function(e) {
-            e.preventDefault();
-            e.stopPropagation();
-            var curLang = 'zh';
-            try { curLang = localStorage.getItem('fv-lang') || 'zh'; } catch(e2){}
-            var newLang = curLang === 'zh' ? 'en' : 'zh';
-            // Use switchLang if available (from i18n.js)
-            if (typeof switchLang === 'function') {
-              switchLang(newLang);
-            } else {
-              try { localStorage.setItem('fv-lang', newLang); } catch(e2){}
-              applyI18n(newLang);
-            }
-            // Update button text
-            var btns2 = document.querySelectorAll('.lang-switch-btn, #mobileLangSwitch');
-            for (var j=0; j<btns2.length; j++) {
-              btns2[j].textContent = newLang === 'zh' ? 'EN' : '中文';
-              btns2[j].title = newLang === 'zh' ? 'Switch to English' : '切换到中文';
-            }
-            // Update URL parameter
-            var url = new URL(window.location.href);
-            if (newLang === 'en') url.searchParams.set('lang', 'en');
-            else url.searchParams.delete('lang');
-            history.replaceState(null, '', url.toString());
-          };
         } else {
           // Non-detail CN-only pages: jump to EN page
           b.textContent = 'EN';
