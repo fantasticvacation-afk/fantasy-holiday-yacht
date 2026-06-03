@@ -6,7 +6,7 @@
   var isEN = path.indexOf('/en/') !== -1;
   var p = path.split('/').pop();
   // Check if this is a detail page that should use in-place i18n switch
-  var isDetailPage = /^(news-|case-|partner-|yacht-)/.test(p);
+  var isDetailPage = /^(news-|case-|partner-|yacht-[0-9])/.test(p);
   
   // For detail pages, skip setting href here — the bottom IIFE (section B) will handle them
   // with in-place i18n language switching via ?lang= query parameter
@@ -537,7 +537,7 @@ function toggleSeries(){
       // Skip if filename is empty or a hash
       if (!filename || filename.charAt(0) === '#') return;
       
-      var isDetailLink = /^(news-|case-|partner-|yacht-)/.test(filename);
+      var isDetailLink = /^(news-|case-|partner-|yacht-[0-9])/.test(filename);
       if (isEN) {
         // On actual EN pages: use enTarget logic
         var target = enTarget(filename);
@@ -548,8 +548,8 @@ function toggleSeries(){
             var resolved = new URL(href, window.location.href);
             window.location.href = resolved.pathname + '?lang=en';
           } else {
-            // Relative from EN page: strip /en/ prefix → same-directory page
-            window.location.href = target.replace('/en/', '');
+            // Relative from EN page: navigate to EN equivalent within current directory
+            window.location.href = target.split('/').pop();
           }
         }
       } else if (langParam) {
@@ -587,7 +587,7 @@ function toggleSeries(){
 
   // B) On CN-only pages: repurpose language switch
   var target = enTarget(p);
-  var isDetailPage = /^(news-|case-|partner-|yacht-)/.test(p);
+  var isDetailPage = /^(news-|case-|partner-|yacht-[0-9])/.test(p);
   var hasLangParam = /[?&]lang=en/.test(window.location.search);
   
   if (target) {
