@@ -586,6 +586,8 @@ function toggleSeries(){
   }
 
   // B) On CN-only pages: repurpose language switch
+  // Guard: only execute on CN pages (not EN). On EN pages the top IIFE already set correct lang switch href.
+  if (isEN) return;
   var target = enTarget(p);
   var isDetailPage = /^(news-|case-|partner-|yacht-[0-9])/.test(p);
   var hasLangParam = /[?&]lang=en/.test(window.location.search);
