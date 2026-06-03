@@ -80028,6 +80028,22 @@ var dict = {
     "zh": "新闻资讯",
     "en": "News Updates"
   },
+  "detail.recommended_reading": {
+    "zh": "推荐阅读",
+    "en": "Recommended Reading"
+  },
+  "detail.back_to_news": {
+    "zh": "返回新闻中心 →",
+    "en": "← Back to News Center"
+  },
+  "detail.view_cases": {
+    "zh": "查看案例展示 →",
+    "en": "View Case Showcase →"
+  },
+  "detail.consult_advisor": {
+    "zh": "咨询专业顾问 →",
+    "en": "Consult an Expert →"
+  },
 
   "membership.100": { "zh": "主导航", "en": "Main Nav" },
   "membership.101": { "zh": "奇幻假期 <em>FANTASTIC VACATION</em>", "en": "Fantastic Vacation <em>FANTASTIC VACATION</em>" },
