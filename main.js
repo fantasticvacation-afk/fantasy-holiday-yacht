@@ -316,8 +316,9 @@ window.addEventListener("DOMContentLoaded", function() {
 
 /* ===== Scroll Reveal Observer ===== */
 (function(){
+  var revealSel = '.reveal, .reveal-left, .reveal-right, .reveal-scale';
   if(!("IntersectionObserver" in window)){
-    document.querySelectorAll('.reveal').forEach(function(el){ el.classList.add('revealed'); });
+    document.querySelectorAll(revealSel).forEach(function(el){ el.classList.add('revealed'); });
     return;
   }
   var revealObserver = new IntersectionObserver(function(entries){
@@ -328,7 +329,7 @@ window.addEventListener("DOMContentLoaded", function() {
       }
     });
   }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
-  document.querySelectorAll('.reveal').forEach(function(el){ revealObserver.observe(el); });
+  document.querySelectorAll(revealSel).forEach(function(el){ revealObserver.observe(el); });
 })();
 
 /* ===== Language Switch ===== */
