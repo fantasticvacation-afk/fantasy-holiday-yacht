@@ -12,9 +12,9 @@
 #loader .brand{font-family:'Playfair Display',serif;font-size:clamp(24px,4vw,42px);color:#c9a96e;margin-bottom:40px;animation:fadeUp 1s 0.3s forwards;opacity:0}
 @keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
 /* Fleet page */
-.fleet-hero{position:relative;padding:180px 0 80px;text-align:center;background:linear-gradient(180deg,var(--dark1) 0%,var(--dark2) 100%);overflow:hidden}
-.fleet-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%,rgba(201,169,110,0.08) 0%,transparent 70%)}
-.fleet-hero-content{position:relative;z-index:2;max-width:800px;margin:0 auto;padding:0 24px}
+.fleet-hero{position:relative;padding:180px 0 80px;text-align:center;background:url('../images/fleet-hero-bg.jpg') center/cover no-repeat;overflow:hidden}
+.fleet-hero::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,11,20,0.65) 0%,rgba(7,11,20,0.85) 100%)}
+.fleet-hero::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%,rgba(201,169,110,0.06) 0%,transparent 70%);pointer-events:none}.fleet-hero-content{position:relative;z-index:2;max-width:800px;margin:0 auto;padding:0 24px}
 .fleet-hero h1{font-size:clamp(32px,5vw,60px);margin-bottom:12px}
 .fleet-hero p{color:var(--text-muted);font-size:16px;max-width:600px;margin:0 auto;line-height:1.8}
 /* Filters */
@@ -200,12 +200,19 @@
 <span>Email: hs@fantastic-vacation.com</span>
 </div>
 </div>
-<div class="fleet-card-footer">
-<span class="fleet-price">Price on Request</span>
-<span class="fleet-detail-btn">View Details →</span>
+<!-- Fleet Hero -->
+<section class="fleet-hero">
+<div class="fleet-hero-content">
+<div class="breadcrumb">
+<a href="../index.html">Home</a>
+<span>/</span>
+<span>Our Fleet</span>
 </div>
+<h1>Our Fleet</h1>
+<p>From 18m day cruisers to 120m superyachts — explore our complete spectrum of world-class luxury yachts</p>
 </div>
-</div>
+</section>
+
 <div class="fleet-card" data-series="Sovereign" data-len="110" data-use="Private" data-power="Hybrid" onclick="location.href='../yacht-2.html'">
 <div class="fleet-card-img">
 <img src="../images/yttp/yacht-018.jpg" alt="Sovereign 110 Supreme" loading="lazy"/>
