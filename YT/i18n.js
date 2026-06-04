@@ -4273,12 +4273,12 @@ var dict = {
     "en": "Rental services"
   },
   "nav.products.mgmt_svc": {
-    "zh": "游艇管理服务",
-    "en": "Yacht Management Services"
+    "zh": "托管服务",
+    "en": "Hosting services"
   },
   "nav.products.cases": {
-    "zh": "精选案例",
-    "en": "Selected Cases"
+    "zh": "客户案例",
+    "en": "Customer case"
   },
   "about-culture.92": {
     "zh": "新闻中心",
