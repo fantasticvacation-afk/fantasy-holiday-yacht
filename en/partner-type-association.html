@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<title data-i18n="partner-type-association.5">行业协会/监管机构 | Fantastic Vacation fantastic.vacation</title>
+<meta content="与国际游艇协会、海事监管机构保持紧密合作，确保合规运营、获取最新政策信息与行业资源。" name="description"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="../style.css" rel="stylesheet"/>
+<style>
+/* Loader 自动消失 - 三重保障 */
+@keyframes autoHideLoader{
+  0%,80%{opacity:1;visibility:visible}
+  85%{opacity:0.5}
+  90%{opacity:0.2}
+  95%{opacity:0;visibility:hidden}
+  100%{display:none}
+}
+#loader{animation:autoHideLoader 6s ease-in-out forwards}
+#loader.hidden,#loader[style*="display:none"]{animation:none!important;display:none!important}
+</style>
+<style>
+.sub-hero{position:relative;min-height:50vh;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(135deg,#0a1628 0%,#1a2a48 50%,#2d1810 100%)}
+.sub-hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:150px;background:linear-gradient(to top,var(--dark1),transparent)}
+.breadcrumb{font-size:12px;color:var(--text-muted);margin-bottom:20px;letter-spacing:1px}
+.breadcrumb a{color:var(--gold);text-decoration:none}
+.benefits-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px;margin-top:32px}
+.partners-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;margin-top:32px}
+</style>
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg"/></head>
+<body>
+<div id="loader"><div class="brand" data-i18n="partner-type-association.14">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div></div>
+<nav id="navbar" aria-label="Main Navigation">
+<div class="nav-inner">
+<a class="nav-logo" href="index.html" aria-label="Fantastic Vacation Industrial Co.Home">
+<svg fill="none" height="32" viewBox="0 0 32 32" width="32" aria-hidden="true">
+<path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
+<path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
+</svg>
+<span class="nav-logo-text">Fantastic Vacation Industrial Co. <em>FANTASTIC VACATION</em></span>
+</a>
+<div class="nav-links" role="menubar" aria-label="主导航菜单">
+<a href="index.html" class="nav-main-link" role="menuitem" data-i18n="nav.home">Home</a>
+<div class="nav-dropdown nav-megamenu" role="none">
+<a href="yachts.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false" data-i18n="nav.products">Products &amp; Services <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu nav-megamenu-panel" role="menu" aria-label="Products &amp; Services子菜单">
+<div class="megamenu-col">
+<a href="yachts-sovereign.html" role="menuitem" data-i18n="nav.products.sovereign">Sovereign Series</a>
+<a href="yachts-expedition.html" role="menuitem" data-i18n="nav.products.expedition">Expedition Series</a>
+<a href="yachts-flybridge.html" role="menuitem" data-i18n="nav.products.flybridge">Flybridge Series</a>
+<a href="yachts-daycruiser.html" role="menuitem" data-i18n="nav.products.daycruiser">Day Cruiser Series</a>
+</div>
+<div class="megamenu-col">
+<a href="custom.html" role="menuitem" data-i18n="nav.products.solutions">Custom Solutions</a>
+<a href="charter.html" role="menuitem" data-i18n="nav.products.charter_svc">Charter Services</a>
+<a href="management.html" role="menuitem" data-i18n="nav.products.mgmt_svc">Yacht Management</a>
+<a href="cases.html" role="menuitem" data-i18n="nav.products.cases">Selected Cases</a>
+</div>
+</div>
+</div>
+<div class="nav-dropdown" role="none">
+<a href="about.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false" data-i18n="nav.about">About <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="About子菜单">
+<a href="about.html" role="menuitem" data-i18n="nav.about.profile">Company Profile</a>
+<a href="about-history.html" role="menuitem" data-i18n="nav.about.history">Milestones</a>
+<a href="about-culture.html" role="menuitem" data-i18n="nav.about.culture">Culture</a>
+<a href="about-structure.html" role="menuitem" data-i18n="nav.about.structure">Organization</a>
+<a href="honors.html" role="menuitem" data-i18n="nav.about.honors">Honors</a>
+<a href="about-responsibility.html" role="menuitem" data-i18n="nav.about.responsibility">Social Responsibility</a>
+</div>
+</div>
+<div class="nav-dropdown" role="none">
+<a href="news.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false" data-i18n="nav.cooperation">News &amp; IR <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="News &amp; IR子菜单">
+<a href="news.html" role="menuitem" data-i18n="nav.news.info">News</a>
+<a href="ir.html" role="menuitem" data-i18n="nav.ir">Investor Relations</a>
+<a href="partnership.html" role="menuitem" data-i18n="nav.business.partnership">Partnerships</a>
+</div>
+</div>
+<div class="nav-cta-group" role="none">
+<a class="nav-cta-btn" href="membership.html" role="menuitem" data-i18n="nav.member">👑 Membership</a>
+<a class="nav-cta-btn nav-cta-primary" href="contact.html" role="menuitem" data-i18n="nav.contact">Contact Us</a>
+</div>
+</div>
+<div class="nav-actions" role="none">
+<button class="nav-search-btn" onclick="toggleSearch()" title="搜索" aria-label="搜索">
+<svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>
+</button>
+<a class="lang-switch-btn" href="../partner-type-association.html" title="Switch to Chinese" aria-label="中文">中文</a>
+<button class="nav-dark-toggle" id="darkToggle" onclick="toggleDarkMode()" title="深色模式" aria-label="切换深色模式">
+<svg class="icon-moon" fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg class="icon-sun" fill="none" height="18" stroke="currentColor" stroke-width="2" style="display:none" viewBox="0 0 24 24" width="18" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" x2="12" y1="1" y2="3"></line><line x1="12" x2="12" y1="21" y2="23"></line><line x1="4.22" x2="5.64" y1="4.22" y2="5.64"></line><line x1="18.36" x2="19.78" y1="18.36" y2="19.78"></line><line x1="1" x2="3" y1="12" y2="12"></line><line x1="21" x2="23" y1="12" y2="12"></line><line x1="4.22" x2="5.64" y1="19.78" y2="18.36"></line><line x1="18.36" x2="19.78" y1="5.64" y2="4.22"></line></svg>
+</button>
+<div class="hamburger" onclick="toggleMobile()" aria-label="打开移动端菜单" role="button" tabindex="0" aria-expanded="false">
+<span></span><span></span><span></span>
+</div>
+</div>
+</div>
+</nav>
+<!-- Search Overlay -->
+<div class="search-overlay" id="searchOverlay">
+<div class="search-box">
+<input autocomplete="off" class="search-input" id="searchInput" placeholder="Search yachts, news, cases..." type="text"/>
+<button class="search-close" onclick="toggleSearch()">
+<svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="20">
+<line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
+</svg>
+</button>
+</div>
+<div class="search-suggestions">
+<div class="search-suggestion-item" data-i18n="index.5">→ 探索Our Fleet</div>
+<div class="search-suggestion-item" data-i18n="index.6">→ 定制专属游艇</div>
+<div class="search-suggestion-item" data-i18n="index.7">→ 浏览全球航线</div>
+<div class="search-suggestion-item" data-i18n="index.8">→ 联系专业顾问</div>
+</div>
+</div>
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="移动端导航菜单">
+<button class="mobile-menu-close" onclick="toggleMobile()" aria-label="关闭菜单">
+<svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="24" aria-hidden="true">
+<line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
+</svg>
+</button>
+<div class="mobile-menu-logo">
+<svg fill="none" height="40" viewBox="0 0 32 32" width="40" aria-hidden="true">
+<path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
+<path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
+</svg>
+<span>Fantastic Vacation</span>
+</div>
+<a class="mobile-nav-link" href="index.html" data-i18n="nav.home">Home</a>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title" data-i18n="nav.products">Products &amp; Services</div>
+<a class="mobile-nav-link sub" href="yachts-sovereign.html" data-i18n="nav.products.sovereign">Sovereign Series</a>
+<a class="mobile-nav-link sub" href="yachts-expedition.html" data-i18n="nav.products.expedition">Expedition Series</a>
+<a class="mobile-nav-link sub" href="yachts-flybridge.html" data-i18n="nav.products.flybridge">Flybridge Series</a>
+<a class="mobile-nav-link sub" href="yachts-daycruiser.html" data-i18n="nav.products.daycruiser">Day Cruiser Series</a>
+<a class="mobile-nav-link sub" href="custom.html" data-i18n="nav.products.solutions">Custom Solutions</a>
+<a class="mobile-nav-link sub" href="charter.html" data-i18n="nav.products.charter_svc">Charter Services</a>
+<a class="mobile-nav-link sub" href="management.html" data-i18n="nav.products.mgmt_svc">Yacht Management</a>
+<a class="mobile-nav-link sub" href="cases.html" data-i18n="nav.products.cases">Selected Cases</a>
+</div>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title" data-i18n="nav.about">About</div>
+<a class="mobile-nav-link sub" href="about.html" data-i18n="nav.about.profile">Company Profile</a>
+<a class="mobile-nav-link sub" href="about-history.html" data-i18n="nav.about.history">Milestones</a>
+<a class="mobile-nav-link sub" href="about-culture.html" data-i18n="nav.about.culture">Culture</a>
+<a class="mobile-nav-link sub" href="about-structure.html" data-i18n="nav.about.structure">Organization</a>
+<a class="mobile-nav-link sub" href="honors.html" data-i18n="nav.about.honors">Honors</a>
+<a class="mobile-nav-link sub" href="about-responsibility.html" data-i18n="nav.about.responsibility">Social Responsibility</a>
+</div>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title" data-i18n="nav.cooperation">News &amp; IR</div>
+<a class="mobile-nav-link sub" href="news.html" data-i18n="nav.news.info">News</a>
+<a class="mobile-nav-link sub" href="ir.html" data-i18n="nav.ir">Investor Relations</a>
+<a class="mobile-nav-link sub" href="partnership.html" data-i18n="nav.business.partnership">Partnerships</a>
+</div>
+<a class="mobile-nav-link mobile-primary" href="membership.html" data-i18n="nav.member">👑 Membership</a>
+<a class="mobile-nav-link mobile-cta" href="contact.html" data-i18n="nav.contact">Contact Us</a>
+<div class="mobile-menu-footer">
+<a class="mobile-nav-link" href="../partner-type-association.html" id="mobileLangSwitch" style="border:1px solid rgba(201,169,110,0.3);border-radius:6px;display:inline-block;padding:12px 24px;color:#c9a96e;font-weight:600;margin-bottom:16px">🌐 English Version</a>
+<span>电话：13797920792 / +86 0755 3353-0188</span>
+<span>邮箱：hs@fantastic-vacation.com</span>
+</div>
+</div>
+</div>
+</section>
+<section class="section-padding" style="background:var(--dark2)">
+<div class="container">
+<div class="section-header reveal">
+<h2><span class="gold-gradient" data-i18n="partner-type-association.304">核心合作伙伴</span></h2>
+<div class="divider-gold"></div>
+</div>
+<div class="partners-grid reveal"><div data-i18n="partner-type-association.308" style="padding:24px;background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.08);border-radius:12px;text-align:center;font-size:14px;font-weight:600;color:var(--gold)">MYBA</div>
+<div data-i18n="partner-type-association.310" style="padding:24px;background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.08);border-radius:12px;text-align:center;font-size:14px;font-weight:600;color:var(--gold)">IYBA</div>
+<div data-i18n="partner-type-association.312" style="padding:24px;background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.08);border-radius:12px;text-align:center;font-size:14px;font-weight:600;color:var(--gold)">TYHA</div>
+<div data-i18n="partner-type-association.314" style="padding:24px;background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.08);border-radius:12px;text-align:center;font-size:14px;font-weight:600;color:var(--gold)">RYA</div>
+<div data-i18n="partner-type-association.316" style="padding:24px;background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.08);border-radius:12px;text-align:center;font-size:14px;font-weight:600;color:var(--gold)">MCA</div></div>
+</div>
+</section>
+    <!-- ===== 合作概述 ===== -->
+    <section class="section-padding" style="background:var(--dark2)">
+    <div class="container">
+    <div class="section-header reveal">
+    <h2><span class="gold-gradient" data-i18n="partner-type-association.601">合作概述</span></h2>
+    <div class="divider-gold"></div>
+    </div>
+    <div class="reveal">
+    <p style="font-size:16px;line-height:1.9;color:var(--text-secondary);max-width:900px;margin:0 auto;text-align:center" data-i18n="partner-type-association.600">Fantastic Vacation与全球主要游艇行业协会、海事监管机构与标准制定组织紧密合作，确保我们的服务始终符合最高行业标准与合规要求。通过协会网络，我们为客户提供政策信息、行业洞察与合规保障。</p>
+    </div>
+    </div>
+    </section>
+    <!-- ===== 合作优势 ===== -->
+    <section class="section-padding" style="background:var(--dark3)">
+    <div class="container">
+    <div class="section-header reveal">
+    <h2><span class="gold-gradient" data-i18n="partner-type-association.610">合作优势</span></h2>
+    <div class="divider-gold"></div>
+    </div>
+    <div class="benefits-grid reveal" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;margin-top:32px">
+    <div class="benefit-card reveal" style="padding:40px 32px;background:rgba(201,169,110,0.03);border:1px solid rgba(201,169,110,0.1);border-radius:16px;text-align:center;transition:transform .25s,box-shadow .25s">
+    <div style="font-size:18px;font-weight:600;color:var(--text-primary);margin-bottom:12px" data-i18n="partner-type-association.b0">行业标准制定的参与权</div>
+    </div>
+    <div class="benefit-card reveal" style="padding:40px 32px;background:rgba(201,169,110,0.03);border:1px solid rgba(201,169,110,0.1);border-radius:16px;text-align:center;transition:transform .25s,box-shadow .25s">
+    <div style="font-size:18px;font-weight:600;color:var(--text-primary);margin-bottom:12px" data-i18n="partner-type-association.b1">实时政策法规更新与合规指导</div>
+    </div>
+    <div class="benefit-card reveal" style="padding:40px 32px;background:rgba(201,169,110,0.03);border:1px solid rgba(201,169,110,0.1);border-radius:16px;text-align:center;transition:transform .25s,box-shadow .25s">
+    <div style="font-size:18px;font-weight:600;color:var(--text-primary);margin-bottom:12px" data-i18n="partner-type-association.b2">行业数据与市场报告共享</div>
+    </div>
+    <div class="benefit-card reveal" style="padding:40px 32px;background:rgba(201,169,110,0.03);border:1px solid rgba(201,169,110,0.1);border-radius:16px;text-align:center;transition:transform .25s,box-shadow .25s">
+    <div style="font-size:18px;font-weight:600;color:var(--text-primary);margin-bottom:12px" data-i18n="partner-type-association.b3">国际海事展会与论坛参与权</div>
+    </div>
+    <div class="benefit-card reveal" style="padding:40px 32px;background:rgba(201,169,110,0.03);border:1px solid rgba(201,169,110,0.1);border-radius:16px;text-align:center;transition:transform .25s,box-shadow .25s">
+    <div style="font-size:18px;font-weight:600;color:var(--text-primary);margin-bottom:12px" data-i18n="partner-type-association.b4">行业人才认证与培训体系</div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <!-- ===== 合作层级 ===== -->
+    <section class="section-padding" style="background:var(--dark2)">
+    <div class="container">
+    <div class="section-header reveal">
+    <h2><span class="gold-gradient" data-i18n="partner-type-association.620">合作层级</span></h2>
+    <div class="divider-gold"></div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;margin-top:32px">
+    <div class="tier-card reveal" style="padding:36px 28px;background:linear-gradient(135deg,rgba(201,169,110,0.15),rgba(201,169,110,0.02));border:1px solid rgba(201,169,110,0.12);border-radius:16px">
+    <div style="font-size:20px;font-weight:700;color:var(--gold);margin-bottom:10px" data-i18n="partner-type-association.tier0_name">战略合作</div>
+    <div style="font-size:14px;line-height:1.8;color:var(--text-secondary)" data-i18n="partner-type-association.tier0_desc">联合研究、标准制定、行业白皮书发布</div>
+    </div>
+    <div class="tier-card reveal" style="padding:36px 28px;background:linear-gradient(135deg,rgba(100,140,200,0.12),rgba(100,140,200,0.02));border:1px solid rgba(201,169,110,0.12);border-radius:16px">
+    <div style="font-size:20px;font-weight:700;color:var(--gold);margin-bottom:10px" data-i18n="partner-type-association.tier1_name">会员参与</div>
+    <div style="font-size:14px;line-height:1.8;color:var(--text-secondary)" data-i18n="partner-type-association.tier1_desc">行业数据、培训资源、展会参与</div>
+    </div>
+    <div class="tier-card reveal" style="padding:36px 28px;background:linear-gradient(135deg,rgba(150,150,150,0.1),rgba(150,150,150,0.02));border:1px solid rgba(201,169,110,0.12);border-radius:16px">
+    <div style="font-size:20px;font-weight:700;color:var(--gold);margin-bottom:10px" data-i18n="partner-type-association.tier2_name">认证对接</div>
+    <div style="font-size:14px;line-height:1.8;color:var(--text-secondary)" data-i18n="partner-type-association.tier2_desc">资质互认、标准宣贯、合规审核</div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <!-- ===== 合作流程 ===== -->
+    <section class="section-padding" style="background:var(--dark3)">
+    <div class="container">
+    <div class="section-header reveal">
+    <h2><span class="gold-gradient" data-i18n="partner-type-association.640">合作流程</span></h2>
+    <div class="divider-gold"></div>
+    </div>
+    <div style="max-width:800px;margin:32px auto 0">
+    <div class="process-step reveal" style="display:flex;gap:24px;align-items:flex-start;padding:28px 0;border-bottom:1px solid rgba(201,169,110,0.08)">
+    <div style="flex-shrink:0;width:48px;height:48px;background:var(--gold);color:var(--dark1);border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:20px">1</div>
+    <div>
+    <div style="font-size:18px;font-weight:600;color:var(--text-primary);margin-bottom:8px" data-i18n="partner-type-association.step0_name">协会对接</div>
+    <div style="font-size:14px;line-height:1.7;color:var(--text-secondary)" data-i18n="partner-type-association.step0_desc">确定目标协会，提交合作意向与资质材料</div>
+    </div>
+    </div>
+    <div class="process-step reveal" style="display:flex;gap:24px;align-items:flex-start;padding:28px 0;border-bottom:1px solid rgba(201,169,110,0.08)">
+    <div style="flex-shrink:0;width:48px;height:48px;background:var(--gold);color:var(--dark1);border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:20px">2</div>
+    <div>
+    <div style="font-size:18px;font-weight:600;color:var(--text-primary);margin-bottom:8px" data-i18n="partner-type-association.step1_name">入会审核</div>
+    <div style="font-size:14px;line-height:1.7;color:var(--text-secondary)" data-i18n="partner-type-association.step1_desc">通过协会审核，获取会员资格</div>
+    </div>
+    </div>
+    <div class="process-step reveal" style="display:flex;gap:24px;align-items:flex-start;padding:28px 0;border-bottom:1px solid rgba(201,169,110,0.08)">
+    <div style="flex-shrink:0;width:48px;height:48px;background:var(--gold);color:var(--dark1);border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:20px">3</div>
+    <div>
+    <div style="font-size:18px;font-weight:600;color:var(--text-primary);margin-bottom:8px" data-i18n="partner-type-association.step2_name">权益激活</div>
+    <div style="font-size:14px;line-height:1.7;color:var(--text-secondary)" data-i18n="partner-type-association.step2_desc">激活会员权益，接入资源与服务体系</div>
+    </div>
+    </div>
+    <div class="process-step reveal" style="display:flex;gap:24px;align-items:flex-start;padding:28px 0;border-bottom:1px solid rgba(201,169,110,0.08)">
+    <div style="flex-shrink:0;width:48px;height:48px;background:var(--gold);color:var(--dark1);border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:20px">4</div>
+    <div>
+    <div style="font-size:18px;font-weight:600;color:var(--text-primary);margin-bottom:8px" data-i18n="partner-type-association.step3_name">深度参与</div>
+    <div style="font-size:14px;line-height:1.7;color:var(--text-secondary)" data-i18n="partner-type-association.step3_desc">参加委员会、工作组，参与行业建设</div>
+    </div>
+    </div>
+    <div class="process-step reveal" style="display:flex;gap:24px;align-items:flex-start;padding:28px 0;border-bottom:1px solid rgba(201,169,110,0.08)">
+    <div style="flex-shrink:0;width:48px;height:48px;background:var(--gold);color:var(--dark1);border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:20px">5</div>
+    <div>
+    <div style="font-size:18px;font-weight:600;color:var(--text-primary);margin-bottom:8px" data-i18n="partner-type-association.step4_name">价值输出</div>
+    <div style="font-size:14px;line-height:1.7;color:var(--text-secondary)" data-i18n="partner-type-association.step4_desc">通过协会平台发布成果、分享经验</div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <!-- ===== 常见问题 ===== -->
+    <section class="section-padding" style="background:var(--dark2)">
+    <div class="container">
+    <div class="section-header reveal">
+    <h2><span class="gold-gradient" data-i18n="partner-type-association.650">常见问题</span></h2>
+    <div class="divider-gold"></div>
+    </div>
+    <style>.faq-item.active .faq-arrow{transform:rotate(180deg)}.faq-item.active .faq-answer{max-height:800px!important}</style>
+    <div style="max-width:800px;margin:32px auto 0">
+    <div class="faq-item reveal" style="border:1px solid rgba(201,169,110,0.1);border-radius:12px;margin-bottom:16px;overflow:hidden;cursor:pointer" onclick="this.classList.toggle('active')">
+    <div class="faq-question" style="padding:20px 24px;display:flex;justify-content:space-between;align-items:center;font-size:16px;font-weight:600;color:var(--text-primary)">
+    <span data-i18n="partner-type-association.faq0_q">加入协会对客户有什么价值？</span>
+    <span class="faq-arrow" style="font-size:12px;transition:transform .3s">▼</span>
+    </div>
+    <div class="faq-answer" style="max-height:0;overflow:hidden;transition:max-height .4s ease">
+    <div style="padding:0 24px 20px;font-size:14px;line-height:1.8;color:var(--text-secondary)" data-i18n="partner-type-association.faq0_a">协会成员身份确保我们的服务符合国际标准，客户可享受到受国际认可的合规服务、行业最新资讯以及更广泛的资源网络。</div>
+    </div>
+    </div>
+    <div class="faq-item reveal" style="border:1px solid rgba(201,169,110,0.1);border-radius:12px;margin-bottom:16px;overflow:hidden;cursor:pointer" onclick="this.classList.toggle('active')">
+    <div class="faq-question" style="padding:20px 24px;display:flex;justify-content:space-between;align-items:center;font-size:16px;font-weight:600;color:var(--text-primary)">
+    <span data-i18n="partner-type-association.faq1_q">你们加入了哪些协会？</span>
+    <span class="faq-arrow" style="font-size:12px;transition:transform .3s">▼</span>
+    </div>
+    <div class="faq-answer" style="max-height:0;overflow:hidden;transition:max-height .4s ease">
+    <div style="padding:0 24px 20px;font-size:14px;line-height:1.8;color:var(--text-secondary)" data-i18n="partner-type-association.faq1_a">我们与地中海船坞协会、国际游艇协会（IYBA）、亚洲游艇行业协会等保持密切合作，并通过战略合作伙伴覆盖全球主要海事认证体系。</div>
+    </div>
+    </div>
+    <div class="faq-item reveal" style="border:1px solid rgba(201,169,110,0.1);border-radius:12px;margin-bottom:16px;overflow:hidden;cursor:pointer" onclick="this.classList.toggle('active')">
+    <div class="faq-question" style="padding:20px 24px;display:flex;justify-content:space-between;align-items:center;font-size:16px;font-weight:600;color:var(--text-primary)">
+    <span data-i18n="partner-type-association.faq2_q">行业协会如何帮助合规？</span>
+    <span class="faq-arrow" style="font-size:12px;transition:transform .3s">▼</span>
+    </div>
+    <div class="faq-answer" style="max-height:0;overflow:hidden;transition:max-height .4s ease">
+    <div style="padding:0 24px 20px;font-size:14px;line-height:1.8;color:var(--text-secondary)" data-i18n="partner-type-association.faq2_a">通过协会获取最新的行业法规变化，我们能够在第一时间调整服务标准，确保客户的游艇运营始终合规，避免法律风险。</div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+<section style="padding:100px 0;text-align:center;background:linear-gradient(180deg,var(--dark3),var(--dark1))">
+<div class="container reveal" style="max-width:1200px">
+<h2 data-i18n="partner-type-association.322" style="font-family:'Playfair Display',serif;font-size:clamp(24px,3.5vw,40px);margin-bottom:24px">开启<span class="gold-gradient" data-i18n="partner-type-association.323">行业协会/监管机构</span>之旅</h2>
+<p data-i18n="partner-type-association.326" style="color:var(--text-muted);font-size:15px;line-height:1.8;margin-bottom:32px">我们的商务团队将为您提供定制化合作方案</p>
+<div style="display:flex;gap:20px;justify-content:center;flex-wrap:wrap">
+<a class="btn btn-primary btn-gold-sweep" data-i18n="partner-type-association.329" href="partner-apply.html">提交合作意向</a>
+<a class="btn btn-outline" data-i18n="partner-type-association.331" href="contact.html">Contact Us</a>
+</div>
+<p style="color:var(--text-dim);font-size:13px;margin-top:24px">✉️ hs@fantastic-vacation.com | 📞 +86 0755 3353-0188</p>
+</div>
+</section>
+<footer data-i18n="partner-type-association.508" id="footer">
+<div class="footer-top-bar"></div>
+<div class="footer-main">
+<div class="footer-grid" data-i18n="partner-type-association.342">
+<!-- Column 1: Brand -->
+<div class="footer-col footer-brand-col">
+<a class="footer-logo" href="index.html">
+<svg fill="none" height="40" viewbox="0 0 32 32" width="40">
+<path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
+<path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
+</svg>
+<div>
+<div class="footer-logo-name" data-i18n="partner-type-association.351">Fantastic Vacation</div>
+<div class="footer-logo-en" data-i18n="partner-type-association.353">FANTASTIC VACATION</div>
+</div>
+</a>
+<p class="footer-slogan" data-i18n="partner-type-association.357">「探索全球，不负假期」<br/>全球一体化高端游艇定制与私人海享生活缔造者</p>
+<p class="footer-brand-desc" data-i18n="partner-type-association.360">Fantastic Vacation Industrial Co.深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。</p>
+<div class="footer-socials">
+<a class="social-item" href="javascript:void(0)" title="微信公众号">
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M8.5 11a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5.5 4H20a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1h-1.5a4 4 0 0 1-3.98-3.64A5.97 5.97 0 0 0 12 15a6 6 0 0 0 6 6v1zm-7-7a4 4 0 0 0-4 4v5a4 4 0 0 0 3.15 3.85A3 3 0 0 0 8 18v1H5.5A1.5 1.5 0 0 1 4 17.5v-8A1.5 1.5 0 0 1 5.5 8h6z"></path></svg>
+<span data-i18n="partner-type-association.365">微信公众号</span>
+</a>
+<a class="social-item" href="javascript:void(0)" title="微博">
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M10.09 18c-3.69 0-7.09-1.69-7.09-4.28 0-1.35.7-2.96 1.88-4.57C6.57 7.57 9.5 6.4 10.55 7c1.41.8 2.29 2.38 2.55 3.82.1-.04.21-.06.32-.06 2.45 0 4.44 2.29 4.44 5.11 0 2.73-1.99 4.94-4.44 4.94-.27 0-.53-.02-.79-.06-.11.17-.23.34-.35.5l.05.01zM20 8.5C20 4.91 17.09 2 13.5 2H3C2.45 2 2 2.45 2 3v13c0 .55.45 1 1 1h10c4.17 0 7.58-3.06 7.98-7.05.05-.47.02-.95.02-1.45z"></path></svg>
+<span data-i18n="partner-type-association.370">微博</span>
+</a>
+<a class="social-item" href="javascript:void(0)" title="抖音">
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.82a8.18 8.18 0 0 0 4.77 1.52V6.68a4.85 4.85 0 0 1-1-.02z"></path></svg>
+<span data-i18n="partner-type-association.375">抖音</span>
+</a>
+<a class="social-item" href="javascript:void(0)" title="LinkedIn">
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path></svg>
+<span data-i18n="partner-type-association.380">LinkedIn</span>
+</a>
+<a class="social-item" href="javascript:void(0)" title="YouTube">
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
+<span data-i18n="partner-type-association.385">YouTube</span>
+</a>
+</div>
+</div>
+<!-- Column 2: Quick Navigation -->
+<div class="footer-col">
+<h4 class="footer-col-title" data-i18n="partner-type-association.393">Quick Links</h4>
+<ul class="footer-links">
+<li><a data-i18n="partner-type-association.396" href="index.html">Home</a></li>
+<li><a data-i18n="partner-type-association.398" href="about.html">About</a></li>
+<li><a data-i18n="partner-type-association.400" href="yachts.html">Our Fleet</a></li>
+          <li><a href="membership.html" data-i18n="footer.member" style="color:#c9a96e;font-weight:500">👑 Membership</a></li>
+<li><a data-i18n="partner-type-association.402" href="custom.html">Full Custom</a></li>
+<li><a data-i18n="partner-type-association.404" href="charter.html">Charter Routes</a></li>
+<li><a data-i18n="partner-type-association.406" href="management.html">Yacht Management</a></li>
+<li><a data-i18n="partner-type-association.408" href="cases.html">Case Studies</a></li>
+<li><a data-i18n="partner-type-association.410" href="news.html">News</a></li>
+<li><a data-i18n="partner-type-association.412" href="partnership.html">Partnerships</a></li>
+<li><a data-i18n="partner-type-association.414" href="sitemap.html">Sitemap</a></li>
+</ul>
+</div>
+<!-- Column 3: Contact -->
+<div class="footer-col">
+<h4 class="footer-col-title" data-i18n="partner-type-association.421">Contact Us</h4>
+<ul class="footer-contact">
+<li class="contact-item">
+<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+<div>
+<div class="contact-label" data-i18n="partner-type-association.427">Address</div>
+<div class="contact-value" data-i18n="partner-type-association.429">广东省深圳市宝安区<br/>松岗工业园1号</div>
+</div>
+</li>
+<li class="contact-item">
+<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 5.92 5.92l.96-.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+<div>
+<div class="contact-label" data-i18n="partner-type-association.437">Hotline</div>
+<div class="contact-value"><a data-i18n="partner-type-association.439" href="tel:13797920792">13797920792</a> / <a data-i18n="partner-type-association.441" href="tel:+86075533530188">+86 0755 3353-0188</a></div>
+</div>
+</li>
+<li class="contact-item">
+<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 5.92 5.92l.96-.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path><line x1="22" x2="11" y1="2" y2="13"></line></svg>
+<div>
+<div class="contact-label" data-i18n="partner-type-association.448">传真</div>
+<div class="contact-value" data-i18n="partner-type-association.450">0755-31530988</div>
+</div>
+</li>
+<li class="contact-item">
+<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+<div>
+<div class="contact-label" data-i18n="partner-type-association.457">Business Email</div>
+<div class="contact-value"><a href="mailto:hs@fantastic-vacation.com">hs@fantastic-vacation.com</a></div>
+</div>
+</li>
+</ul>
+<a class="footer-contact-btn" data-i18n="partner-type-association.465" href="contact.html">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+          在线咨询
+        </a>
+</div>
+<!-- Column 4: Certifications & Partners -->
+<div class="footer-col">
+<h4 class="footer-col-title" data-i18n="partner-type-association.471">Certifications &amp; Partners</h4>
+<div class="footer-certs">
+<div class="cert-item">
+<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18n="partner-type-association.476">ISO 9001质量管理体系认证</span>
+</div>
+<div class="cert-item">
+<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18n="partner-type-association.481">意大利 Ferretti 集团授权合作伙伴</span>
+</div>
+<div class="cert-item">
+<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18n="partner-type-association.486">荷兰Feadship技术合作伙伴</span>
+</div>
+<div class="cert-item">
+<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18n="partner-type-association.491">地中海船坞协会认证会员</span>
+</div>
+<div class="cert-item">
+<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18n="partner-type-association.496">亚洲最佳游艇服务商三连冠</span>
+</div>
+</div>
+<div class="footer-recruit">
+<a class="recruit-link" data-i18n="partner-type-association.502" href="contact.html">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            <span data-i18n="_recruit">Join Us · Careers</span>
+          </a>
+</div>
+</div>
+</div>
+</div>
+<!-- Copyright Bar -->
+<div class="footer-bottom">
+<div class="footer-bottom-inner">
+<div class="copyright">
+<span data-i18n="partner-type-association.513">© 2020-2026 Fantastic Vacation Industrial Co. FANTASTIC VACATION INDUSTRIAL CO., LTD. All rights reserved.</span>
+</div>
+<div class="legal-links">
+<a data-i18n="partner-type-association.517" href="privacy.html">Privacy Policy</a>
+<a data-i18n="partner-type-association.519" href="terms.html">Terms of Use</a>
+<a data-i18n="partner-type-association.521" href="sitemap.html">Sitemap</a>
+</div>
+</div>
+<div></div>
+</div></div></footer>
+<script>
+/* 立即执行 - 不等 DOMContentLoaded */
+(function(){
+  var ld=document.getElementById("loader");
+  if(!ld)return;
+  /* 5.5秒后强制隐藏 - 兜底 */
+  setTimeout(function(){
+    if(ld){ld.style.display="none";ld.style.visibility="hidden"}
+    document.body.style.overflow="";
+  },5500);
+})();
+</script>
+<script>
+window.addEventListener("DOMContentLoaded",function(){var loader=document.getElementById("loader");if(!loader)return;var progressEl=document.getElementById("progress");var progress=0;var interval=setInterval(function(){progress+=Math.random()*12+8;if(progress>=100){progress=100;clearInterval(interval);if(progressEl)progressEl.style.width="100%";setTimeout(function(){if(loader)loader.style.display="none";document.body.style.overflow=""},400)}else if(progressEl)progressEl.style.width=progress+"%"},180);setTimeout(function(){clearInterval(interval);if(loader)loader.style.display="none";document.body.style.overflow=""},5000)});
+window.addEventListener("scroll",function(){var nav=document.getElementById("navbar");if(window.scrollY>50)nav.classList.add("scrolled");else nav.classList.remove("scrolled")});
+function toggleMobile(){document.getElementById("mobile-menu").classList.toggle("active");document.querySelector(".hamburger").classList.toggle("active")}
+(function(){var o=new IntersectionObserver(function(e){e.forEach(function(e){if(e.isIntersecting)e.target.classList.add("revealed")})},{threshold:0.1});document.querySelectorAll(".reveal").forEach(function(e){o.observe(e)})})();
+
+function toggleSearch(){var s=document.getElementById("searchOverlay");if(s){s.classList.toggle("active");if(s.classList.contains("active")){setTimeout(function(){var i=document.getElementById("searchInput");if(i)i.focus()},100)}}}
+document.addEventListener("keydown",function(e){if(e.key==="Escape"){var s=document.getElementById("searchOverlay");if(s&&s.classList.contains("active"))s.classList.remove("active");var m=document.getElementById("mobile-menu");if(m&&m.classList.contains("active")){m.classList.remove("active");var h=document.querySelector(".hamburger");if(h)h.classList.remove("active")}}});function toggleDarkMode(){document.body.classList.toggle("dark-mode");var isDark=document.body.classList.contains("dark-mode");localStorage.setItem("fv-dark",isDark?"1":"0");var moon=document.querySelector(".icon-moon");var sun=document.querySelector(".icon-sun");if(moon)moon.style.display=isDark?"none":"inline";if(sun)sun.style.display=isDark?"inline":"none"}
+window.addEventListener("DOMContentLoaded",function(){var isDark=localStorage.getItem("fv-dark")==="1";if(isDark){document.body.classList.add("dark-mode");var moon=document.querySelector(".icon-moon");var sun=document.querySelector(".icon-sun");if(moon)moon.style.display="none";if(sun)sun.style.display="inline"}});window.addEventListener("DOMContentLoaded",function(){document.querySelectorAll(".search-suggestion-item").forEach(function(el){el.addEventListener("click",function(){var t=this.textContent.trim();if(t.indexOf("全系")!==-1||t.indexOf("All Yachts")!==-1)window.location.href="yachts.html";else if(t.indexOf("定制")!==-1||t.indexOf("Custom")!==-1)window.location.href="custom.html";else if(t.indexOf("航线")!==-1||t.indexOf("Routes")!==-1)window.location.href="charter.html";else if(t.indexOf("联系")!==-1||t.indexOf("Contact")!==-1||t.indexOf("顾问")!==-1||t.indexOf("Advisor")!==-1)window.location.href="contact.html"})})});</script>
+<script src="../main.js"></script>
+<script src="../i18n.js"></script>
+
+<a href="https://wa.me/85255380525" target="_blank" class="floating-cta" style="text-decoration:none" data-i18n="custom.1130">💎 Online Consultation</a>
+</body></html>

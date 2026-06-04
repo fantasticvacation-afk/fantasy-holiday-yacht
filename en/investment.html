@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<title data-i18n="invest.title">Investor Relations | Fantastic Vacation</title>
+<meta content="Fantastic VacationInvestor Relations栏目 — 公司概况、财务报告、公告披露，面向机构投资者与资本市场的专业信息披露平台" name="description"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="../style.css" rel="stylesheet"/>
+<link rel="icon" type="image/svg+xml" href="../favicon.svg"/>
+<style>
+.ir-hero{background:linear-gradient(135deg,#080e1a 0%,#0d1a2d 30%,#152238 60%,#0d1a2d 100%);padding:140px 0 80px;text-align:center;position:relative;overflow:hidden}
+.ir-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 30% 50%,rgba(201,169,110,.08) 0%,transparent 70%)}
+.ir-hero h1{font-family:'Playfair Display',serif;font-size:clamp(32px,5vw,56px);font-weight:800;color:#e8e8e8;margin-bottom:20px;position:relative}
+.ir-hero p{font-size:16px;color:rgba(255,255,255,.5);max-width:700px;margin:0 auto 40px;line-height:1.8;position:relative}
+.ir-badge{display:inline-block;padding:6px 20px;border:1px solid rgba(201,169,110,.3);border-radius:30px;color:#c9a96e;font-size:12px;letter-spacing:2px;text-transform:uppercase;margin-bottom:24px}
+.ir-section{padding:80px 0;max-width:1200px;margin:0 auto;position:relative}
+.ir-section h2{font-family:'Playfair Display',serif;font-size:clamp(24px,3.5vw,40px);font-weight:700;color:#e8e8e8;margin-bottom:16px}
+.ir-section .section-sub{font-size:15px;color:rgba(255,255,255,.45);max-width:600px;line-height:1.8}
+.ir-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:28px;margin-top:50px}
+.ir-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:14px;padding:36px;transition:all .3s;cursor:pointer;text-decoration:none;display:block}
+.ir-card:hover{background:rgba(255,255,255,.05);border-color:rgba(201,169,110,.2);transform:translateY(-2px)}
+.ir-card-icon{width:48px;height:48px;border-radius:12px;background:rgba(201,169,110,.1);display:flex;align-items:center;justify-content:center;margin-bottom:20px;font-size:22px}
+.ir-card h3{font-size:18px;font-weight:600;color:#e8e8e8;margin-bottom:10px}
+.ir-card p{font-size:14px;color:rgba(255,255,255,.45);line-height:1.7;margin:0}
+.ir-card .arrow{display:inline-flex;align-items:center;color:#c9a96e;font-size:13px;font-weight:500;margin-top:16px}
+.ir-card .arrow svg{width:16px;height:16px;margin-left:6px}
+.ir-section-divider{width:60px;height:3px;background:linear-gradient(90deg,#c9a96e,transparent);margin:30px 0 40px}
+
+/* Breadcrumb */
+.ir-breadcrumb{padding:20px 0 0;max-width:1200px;margin:0 auto;font-size:13px;color:rgba(255,255,255,.35)}
+.ir-breadcrumb a{color:rgba(255,255,255,.45);text-decoration:none}
+.ir-breadcrumb a:hover{color:#c9a96e}
+.ir-breadcrumb span{color:rgba(255,255,255,.25);margin:0 8px}
+
+/* Tables */
+.ir-table{width:100%;border-collapse:collapse;margin:30px 0;font-size:14px}
+.ir-table th{text-align:left;padding:14px 16px;border-bottom:2px solid rgba(201,169,110,.2);color:#c9a96e;font-weight:600;font-size:12px;letter-spacing:1px;text-transform:uppercase}
+.ir-table td{padding:14px 16px;border-bottom:1px solid rgba(255,255,255,.06);color:rgba(255,255,255,.7)}
+.ir-table tr:hover td{background:rgba(255,255,255,.02)}
+</style>
+</head><body>
+<div id="loader"><div style="color:#c9a96e">LOADING...</div></div>
+<nav id="navbar" aria-label="Main Navigation">
+<div class="nav-inner">
+<a class="nav-logo" href="index.html" aria-label="Fantastic Vacation Industrial Co.Home">
+<svg fill="none" height="32" viewBox="0 0 32 32" width="32" aria-hidden="true">
+<path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
+<path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
+</svg>
+<span class="nav-logo-text">Fantastic Vacation Industrial Co. <em>FANTASTIC VACATION</em></span>
+</a>
+<div class="nav-links" role="menubar" aria-label="主导航菜单">
+<a href="index.html" class="nav-main-link" role="menuitem" data-i18n="nav.home">Home</a>
+<div class="nav-dropdown nav-megamenu" role="none">
+<a href="yachts.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false" data-i18n="nav.products">Products &amp; Services <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu nav-megamenu-panel" role="menu" aria-label="Products &amp; Services子菜单">
+<div class="megamenu-col">
+<a href="yachts-sovereign.html" role="menuitem" data-i18n="nav.products.sovereign">Sovereign Series</a>
+<a href="yachts-expedition.html" role="menuitem" data-i18n="nav.products.expedition">Expedition Series</a>
+<a href="yachts-flybridge.html" role="menuitem" data-i18n="nav.products.flybridge">Flybridge Series</a>
+<a href="yachts-daycruiser.html" role="menuitem" data-i18n="nav.products.daycruiser">Day Cruiser Series</a>
+</div>
+<div class="megamenu-col">
+<a href="custom.html" role="menuitem" data-i18n="nav.products.solutions">Custom Solutions</a>
+<a href="charter.html" role="menuitem" data-i18n="nav.products.charter_svc">Charter Services</a>
+<a href="management.html" role="menuitem" data-i18n="nav.products.mgmt_svc">Yacht Management</a>
+<a href="cases.html" role="menuitem" data-i18n="nav.products.cases">Selected Cases</a>
+</div>
+</div>
+</div>
+<div class="nav-dropdown" role="none">
+<a href="about.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false" data-i18n="nav.about">About <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="About子菜单">
+<a href="about.html" role="menuitem" data-i18n="nav.about.profile">Company Profile</a>
+<a href="about-history.html" role="menuitem" data-i18n="nav.about.history">Milestones</a>
+<a href="about-culture.html" role="menuitem" data-i18n="nav.about.culture">Culture</a>
+<a href="about-structure.html" role="menuitem" data-i18n="nav.about.structure">Organization</a>
+<a href="honors.html" role="menuitem" data-i18n="nav.about.honors">Honors</a>
+<a href="about-responsibility.html" role="menuitem" data-i18n="nav.about.responsibility">Social Responsibility</a>
+</div>
+</div>
+<div class="nav-dropdown" role="none">
+<a href="news.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false" data-i18n="nav.cooperation">News &amp; IR <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="News &amp; IR子菜单">
+<a href="news.html" role="menuitem" data-i18n="nav.news.info">News</a>
+<a href="ir.html" role="menuitem" data-i18n="nav.ir">Investor Relations</a>
+<a href="partnership.html" role="menuitem" data-i18n="nav.business.partnership">Partnerships</a>
+</div>
+</div>
+<div class="nav-cta-group" role="none">
+<a class="nav-cta-btn" href="membership.html" role="menuitem" data-i18n="nav.member">👑 Membership</a>
+<a class="nav-cta-btn nav-cta-primary" href="contact.html" role="menuitem" data-i18n="nav.contact">Contact Us</a>
+</div>
+</div>
+<div class="nav-actions" role="none">
+<button class="nav-search-btn" onclick="toggleSearch()" title="搜索" aria-label="搜索">
+<svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>
+</button>
+<a class="lang-switch-btn" href="../investment.html" title="Switch to Chinese" aria-label="中文">中文</a>
+<button class="nav-dark-toggle" id="darkToggle" onclick="toggleDarkMode()" title="深色模式" aria-label="切换深色模式">
+<svg class="icon-moon" fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg class="icon-sun" fill="none" height="18" stroke="currentColor" stroke-width="2" style="display:none" viewBox="0 0 24 24" width="18" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" x2="12" y1="1" y2="3"></line><line x1="12" x2="12" y1="21" y2="23"></line><line x1="4.22" x2="5.64" y1="4.22" y2="5.64"></line><line x1="18.36" x2="19.78" y1="18.36" y2="19.78"></line><line x1="1" x2="3" y1="12" y2="12"></line><line x1="21" x2="23" y1="12" y2="12"></line><line x1="4.22" x2="5.64" y1="19.78" y2="18.36"></line><line x1="18.36" x2="19.78" y1="5.64" y2="4.22"></line></svg>
+</button>
+<div class="hamburger" onclick="toggleMobile()" aria-label="打开移动端菜单" role="button" tabindex="0" aria-expanded="false">
+<span></span><span></span><span></span>
+</div>
+</div>
+</div>
+</nav>
+<!-- Search Overlay -->
+<div class="search-overlay" id="searchOverlay">
+<div class="search-box">
+<input autocomplete="off" class="search-input" id="searchInput" placeholder="Search yachts, news, cases..." type="text"/>
+<button class="search-close" onclick="toggleSearch()">
+<svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="20">
+<line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
+</svg>
+</button>
+</div>
+<div class="search-suggestions">
+<div class="search-suggestion-item" data-i18n="index.5">→ 探索Our Fleet</div>
+<div class="search-suggestion-item" data-i18n="index.6">→ 定制专属游艇</div>
+<div class="search-suggestion-item" data-i18n="index.7">→ 浏览全球航线</div>
+<div class="search-suggestion-item" data-i18n="index.8">→ 联系专业顾问</div>
+</div>
+</div>
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="移动端导航菜单">
+<button class="mobile-menu-close" onclick="toggleMobile()" aria-label="关闭菜单">
+<svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="24" aria-hidden="true">
+<line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
+</svg>
+</button>
+<div class="mobile-menu-logo">
+<svg fill="none" height="40" viewBox="0 0 32 32" width="40" aria-hidden="true">
+<path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
+<path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
+</svg>
+<span>Fantastic Vacation</span>
+</div>
+<a class="mobile-nav-link" href="index.html" data-i18n="nav.home">Home</a>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title" data-i18n="nav.products">Products &amp; Services</div>
+<a class="mobile-nav-link sub" href="yachts-sovereign.html" data-i18n="nav.products.sovereign">Sovereign Series</a>
+<a class="mobile-nav-link sub" href="yachts-expedition.html" data-i18n="nav.products.expedition">Expedition Series</a>
+<a class="mobile-nav-link sub" href="yachts-flybridge.html" data-i18n="nav.products.flybridge">Flybridge Series</a>
+<a class="mobile-nav-link sub" href="yachts-daycruiser.html" data-i18n="nav.products.daycruiser">Day Cruiser Series</a>
+<a class="mobile-nav-link sub" href="custom.html" data-i18n="nav.products.solutions">Custom Solutions</a>
+<a class="mobile-nav-link sub" href="charter.html" data-i18n="nav.products.charter_svc">Charter Services</a>
+<a class="mobile-nav-link sub" href="management.html" data-i18n="nav.products.mgmt_svc">Yacht Management</a>
+<a class="mobile-nav-link sub" href="cases.html" data-i18n="nav.products.cases">Selected Cases</a>
+</div>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title" data-i18n="nav.about">About</div>
+<a class="mobile-nav-link sub" href="about.html" data-i18n="nav.about.profile">Company Profile</a>
+<a class="mobile-nav-link sub" href="about-history.html" data-i18n="nav.about.history">Milestones</a>
+<a class="mobile-nav-link sub" href="about-culture.html" data-i18n="nav.about.culture">Culture</a>
+<a class="mobile-nav-link sub" href="about-structure.html" data-i18n="nav.about.structure">Organization</a>
+<a class="mobile-nav-link sub" href="honors.html" data-i18n="nav.about.honors">Honors</a>
+<a class="mobile-nav-link sub" href="about-responsibility.html" data-i18n="nav.about.responsibility">Social Responsibility</a>
+</div>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title" data-i18n="nav.cooperation">News &amp; IR</div>
+<a class="mobile-nav-link sub" href="news.html" data-i18n="nav.news.info">News</a>
+<a class="mobile-nav-link sub" href="ir.html" data-i18n="nav.ir">Investor Relations</a>
+<a class="mobile-nav-link sub" href="partnership.html" data-i18n="nav.business.partnership">Partnerships</a>
+</div>
+<a class="mobile-nav-link mobile-primary" href="membership.html" data-i18n="nav.member">👑 Membership</a>
+<a class="mobile-nav-link mobile-cta" href="contact.html" data-i18n="nav.contact">Contact Us</a>
+<div class="mobile-menu-footer">
+<a class="mobile-nav-link" href="../investment.html" id="mobileLangSwitch" style="border:1px solid rgba(201,169,110,0.3);border-radius:6px;display:inline-block;padding:12px 24px;color:#c9a96e;font-weight:600;margin-bottom:16px">🌐 English Version</a>
+<span>电话：13797920792 / +86 0755 3353-0188</span>
+<span>邮箱：hs@fantastic-vacation.com</span>
+</div>
+</div>
+
+<div class="ir-section" style="text-align:center">
+  <div class="ir-section-divider" style="margin:30px auto 40px"></div>
+  <h2 data-i18n="invest.461d8df2fd4b">最新公告</h2>
+  <p class="section-sub" data-i18n="invest.745b0786b5e0">查看公司最新发布的重大事项、经营动态与Investor Relations公告</p>
+  <div style="margin-top:40px">
+    <a href="investment/disclosures.html" style="display:inline-block;padding:16px 48px;background:linear-gradient(135deg,#a07850,#c9a96e);color:#0a0e18;border-radius:40px;font-size:15px;font-weight:600;text-decoration:none;transition:all .3s" data-i18n="invest.f2b987f202f7">查看全部公告 →</a>
+  </div>
+</div>
+<footer>
+<div class="footer-inner">
+<div class="footer-col"><h4 data-i18n="footer-template.13">About</h4>
+<p data-i18n="footer-template.15">Fantastic Vacation Industrial Co. — 全球一体化高端游艇定制、租赁、托管服务商</p></div>
+<div class="footer-col"><h4 data-i18n="footer-template.101">快速链接</h4>
+<a data-i18n="footer-template.103" href="yachts.html">Our Fleet</a>
+<a data-i18n="footer-template.110" href="custom.html">Full Custom</a>
+<a data-i18n="footer-template.112" href="charter.html">Charter Routes</a>
+<a data-i18n="footer-template.119" href="membership.html">尊享会员</a>
+<a href="investment.html">Investor Relations</a></div>
+<div class="footer-col"><h4 data-i18n="footer-template.127">Contact Us</h4>
+<p data-i18n="footer-template.133">邮箱：hs@fantastic-vacation.com</p>
+<p data-i18n="footer-template.138">电话：+852 3421 6888</p>
+<p data-i18n="footer-template.143">地址：深圳市南山区望海路118号</p></div>
+<div class="footer-col"><h4 data-i18n="footer-template.148">关注我们</h4>
+<p data-i18n="footer-template.153">微信公众号：Fantastic Vacation</p>
+<p data-i18n="footer-template.158">微博：@Fantastic Vacation游艇</p>
+<p data-i18n="footer-template.164">抖音：Fantastic Vacation游艇</p></div>
+</div>
+<div class="footer-bottom" data-i18n="footer-template.170">&copy; 2025 Fantastic Vacation Industrial Co. 版权所有</div>
+</footer>
+<script src="../i18n.js"></script>
+<script src="../main.js"></script>
+
+<a href="https://wa.me/85255380525" target="_blank" class="floating-cta" style="text-decoration:none" data-i18n="custom.1130">💎 Online Consultation</a>
+</body></html>
