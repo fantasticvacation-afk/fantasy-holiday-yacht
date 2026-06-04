@@ -72,6 +72,26 @@
 /* Logo placeholder grid */
 .studio-logos{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;margin-top:16px}
 .studio-logo{padding:8px 18px;background:rgba(201,169,110,0.06);border:1px solid rgba(201,169,110,0.12);border-radius:8px;font-size:12px;color:#9ca3af;text-align:center;min-width:100px}
+/* Badge grid for certifications */
+.service-badges{display:flex;flex-direction:column;gap:10px;margin-top:16px}
+.badge-row{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.badge-item{display:flex;align-items:center;gap:8px;padding:8px 14px;background:rgba(201,169,110,0.06);border:1px solid rgba(201,169,110,0.12);border-radius:8px;min-width:150px}
+.badge-icon{font-size:18px;min-width:24px;text-align:center}
+.badge-text{font-size:11px;color:#e2e8f0;line-height:1.5}
+.badge-text small{display:block;color:#9ca3af;font-size:10px;margin-top:2px}
+/* Membership tier chips */
+.service-tiers{display:flex;flex-direction:column;gap:8px;margin-top:16px}
+.tier-row{display:flex;gap:8px;justify-content:center}
+.tier-row-center{justify-content:center}
+.tier-chip{padding:10px 16px;border-radius:8px;font-size:13px;font-weight:600;color:#e2e8f0;text-align:center;min-width:150px;border:1px solid rgba(201,169,110,0.15)}
+.tier-chip small{display:block;font-size:10px;color:#9ca3af;font-weight:400;margin-top:4px}
+.tier-silver{background:rgba(192,192,192,0.08);border-color:rgba(192,192,192,0.2)}
+.tier-gold{background:rgba(255,215,0,0.08);border-color:rgba(255,215,0,0.2)}
+.tier-platinum{background:rgba(229,228,226,0.08);border-color:rgba(229,228,226,0.2)}
+.tier-diamond{background:rgba(185,242,255,0.08);border-color:rgba(185,242,255,0.2)}
+.tier-black{background:rgba(201,169,110,0.12);border:1px solid rgba(201,169,110,0.35);font-size:14px}
+.tier-perks{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:12px}
+.perk-item{padding:5px 12px;background:rgba(201,169,110,0.06);border:1px solid rgba(201,169,110,0.1);border-radius:50px;font-size:11px;color:#e8d5a8}
 </style>
   <link rel="icon" type="image/svg+xml" href="favicon.svg"/></head><body>
 <div id="loader"><div class="brand">FANTASTIC VACATION</div></div>
@@ -301,6 +321,49 @@
 <div class="pyramid-level"><strong>⚡ 24h应急响应</strong> — 全球团队随时待命</div>
 </div>
 <a class="service-link" href="management.html">了解托管 →</a>
+</div>
+<div class="service-card reveal">
+<div class="service-icon">🏆</div>
+<h3>行业权威认证</h3>
+<p>多项国际权威资质与行业殊荣，以高标准定义行业标杆。</p>
+<div class="service-badges">
+<div class="badge-row">
+<div class="badge-item"><div class="badge-icon">✅</div><div class="badge-text">ISO 9001<br><small>质量管理体系</small></div></div>
+<div class="badge-item"><div class="badge-icon">🌿</div><div class="badge-text">ISO 14001<br><small>环境管理体系</small></div></div>
+<div class="badge-item"><div class="badge-icon">🛡️</div><div class="badge-text">ISO 45001<br><small>职业健康安全</small></div></div>
+</div>
+<div class="badge-row">
+<div class="badge-item"><div class="badge-icon">⭐</div><div class="badge-text">亚洲最佳游艇服务商<br><small>2024-2026 三连冠</small></div></div>
+<div class="badge-item"><div class="badge-icon">🌊</div><div class="badge-text">绿色海洋先锋企业<br><small>2025年度获评</small></div></div>
+<div class="badge-item"><div class="badge-icon">📡</div><div class="badge-text">最佳投资者关系管理<br><small>信息披露A级</small></div></div>
+</div>
+</div>
+<a class="service-link" href="honors.html">查看资质 →</a>
+</div>
+<div class="service-card reveal">
+<div class="service-icon">👑</div>
+<h3>尊享会员生态</h3>
+<p>五级会员体系构建高端生活方式闭环，让航海不止于航海。</p>
+<div class="service-tiers">
+<div class="tier-row">
+<div class="tier-chip tier-silver">⚪ 银帆会员<small>入门之选 · ¥28,000/年</small></div>
+<div class="tier-chip tier-gold">🟡 金帆会员<small>深度体验 · ¥68,000/年</small></div>
+</div>
+<div class="tier-row">
+<div class="tier-chip tier-platinum">💠 铂金会员<small>尊享特权 · ¥188,000/年</small></div>
+<div class="tier-chip tier-diamond">💎 钻石会员<small>私享定制 · ¥580,000/年</small></div>
+</div>
+<div class="tier-row tier-row-center">
+<div class="tier-chip tier-black">🖤 黑卡会员<small>至尊荣耀 · 仅7席 · 邀请制</small></div>
+</div>
+<div class="tier-perks">
+<div class="perk-item">🗺️ 全球泊位通</div>
+<div class="perk-item">🎓 航海学院</div>
+<div class="perk-item">🥂 圈层私享社交</div>
+<div class="perk-item">🏷️ 消费积分兑</div>
+</div>
+</div>
+<a class="service-link" href="membership.html">加入会员 →</a>
 </div>
 </div>
 </div>
