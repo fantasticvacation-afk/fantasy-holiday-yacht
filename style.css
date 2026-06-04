@@ -1210,3 +1210,33 @@ body.dark-mode .search-suggestion-item:hover{background:#0f172a;color:#c9a96e}
 .series-toggle-btn.expanded .toggle-arrow {
   transform:rotate(180deg);
 }
+
+
+/* ===== WHY CHOOSE: Badges & Membership Cards ===== */
+.service-badges{display:flex;flex-direction:column;gap:10px;margin-top:16px}
+.badge-row{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.badge-item{display:flex;align-items:center;gap:8px;padding:8px 14px;background:rgba(201,169,110,0.06);border:1px solid rgba(201,169,110,0.12);border-radius:8px;min-width:150px}
+.badge-icon{font-size:18px;min-width:24px;text-align:center}
+.badge-text{font-size:11px;color:#e2e8f0;line-height:1.5}
+.badge-text small{display:block;color:#9ca3af;font-size:10px;margin-top:2px}
+.service-tiers{display:flex;flex-direction:column;gap:8px;margin-top:16px}
+.tier-row{display:flex;gap:8px;justify-content:center}
+.tier-row-center{justify-content:center}
+.tier-chip{padding:10px 16px;border-radius:8px;font-size:13px;font-weight:600;color:#e2e8f0;text-align:center;min-width:150px;border:1px solid rgba(201,169,110,0.15)}
+.tier-chip small{display:block;font-size:10px;color:#9ca3af;font-weight:400;margin-top:4px}
+.tier-silver{background:rgba(192,192,192,0.08);border-color:rgba(192,192,192,0.2)}
+.tier-gold{background:rgba(255,215,0,0.08);border-color:rgba(255,215,0,0.2)}
+.tier-platinum{background:rgba(229,228,226,0.08);border-color:rgba(229,228,226,0.2)}
+.tier-diamond{background:rgba(185,242,255,0.08);border-color:rgba(185,242,255,0.2)}
+.tier-black{background:rgba(201,169,110,0.12);border:1px solid rgba(201,169,110,0.35);font-size:14px}
+.tier-perks{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:12px}
+.perk-item{padding:5px 12px;background:rgba(201,169,110,0.06);border:1px solid rgba(201,169,110,0.1);border-radius:50px;font-size:11px;color:#e8d5a8}
+.custom-tech-tags{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin:14px 0 10px}
+.tech-tag{padding:5px 12px;background:rgba(201,169,110,0.08);border:1px solid rgba(201,169,110,0.18);border-radius:50px;font-size:11px;color:#e8d5a8;letter-spacing:0.5px}
+.custom-feature-list{display:flex;flex-direction:column;gap:10px;margin:14px 0 0}
+.custom-feature{display:flex;align-items:flex-start;gap:10px;padding:10px 14px;background:rgba(201,169,110,0.05);border:1px solid rgba(201,169,110,0.1);border-radius:8px;text-align:left;transition:all 0.3s}
+.custom-feature:hover{background:rgba(201,169,110,0.1);border-color:rgba(201,169,110,0.2)}
+.cf-icon{font-size:16px;min-width:22px;text-align:center;flex-shrink:0;line-height:1.5}
+.cf-text{flex:1}
+.cf-text strong{display:block;font-size:12px;color:#e2e8f0;margin-bottom:2px}
+.cf-text small{display:block;font-size:11px;color:#9ca3af;line-height:1.5}
