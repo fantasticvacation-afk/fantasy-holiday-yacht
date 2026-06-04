@@ -92,6 +92,17 @@
 .tier-black{background:rgba(201,169,110,0.12);border:1px solid rgba(201,169,110,0.35);font-size:14px}
 .tier-perks{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:12px}
 .perk-item{padding:5px 12px;background:rgba(201,169,110,0.06);border:1px solid rgba(201,169,110,0.1);border-radius:50px;font-size:11px;color:#e8d5a8}
+/* Custom design tech tags */
+.custom-tech-tags{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin:14px 0 10px}
+.tech-tag{padding:5px 12px;background:rgba(201,169,110,0.08);border:1px solid rgba(201,169,110,0.18);border-radius:50px;font-size:11px;color:#e8d5a8;letter-spacing:0.5px}
+/* Custom design feature list */
+.custom-feature-list{display:flex;flex-direction:column;gap:10px;margin:14px 0 0}
+.custom-feature{display:flex;align-items:flex-start;gap:10px;padding:10px 14px;background:rgba(201,169,110,0.05);border:1px solid rgba(201,169,110,0.1);border-radius:8px;text-align:left;transition:all 0.3s}
+.custom-feature:hover{background:rgba(201,169,110,0.1);border-color:rgba(201,169,110,0.2)}
+.cf-icon{font-size:16px;min-width:22px;text-align:center;flex-shrink:0;line-height:1.5}
+.cf-text{flex:1}
+.cf-text strong{display:block;font-size:12px;color:#e2e8f0;margin-bottom:2px}
+.cf-text small{display:block;font-size:11px;color:#9ca3af;line-height:1.5}
 </style>
   <link rel="icon" type="image/svg+xml" href="favicon.svg"/></head><body>
 <div id="loader"><div class="brand">FANTASTIC VACATION</div></div>
@@ -438,10 +449,81 @@
 <p>"我们不制造游艇，我们编织海洋梦想"</p>
 </div>
 <div class="services-grid" style="grid-template-columns:repeat(auto-fit,minmax(240px,1fr))">
-<div class="service-card reveal"><div class="service-icon">🎨</div><h3>外观设计</h3><p>联合全球高端船舶设计工作室，打造独一无二的视觉语言。与意大利、荷兰等设计名所深度协同。</p><a class="service-link" href="exterior-design.html">了解更多 →</a></div>
-<div class="service-card reveal"><div class="service-icon">🛋️</div><h3>内饰配置</h3><p>精选意大利皮革、法国橡木、西班牙大理石等高端材料，呈现移动的海上宫殿。</p><a class="service-link" href="interior-config.html">了解更多 →</a></div>
-<div class="service-card reveal"><div class="service-icon">⚙️</div><h3>功能系统</h3><p>稳定系统、减摇鳍、零速鳍、岸电系统全面定制，确保航行舒适度。</p><a class="service-link" href="functional-systems.html">了解更多 →</a></div>
-<div class="service-card reveal"><div class="service-icon">🤖</div><h3>智能科技</h3><p>全船智能中控、卫星通信、水下灯光、影院系统，智慧融于无形。</p><a class="service-link" href="smart-tech.html">了解更多 →</a></div>
+<div class="service-card reveal">
+<div class="service-icon">🎨</div>
+<h3>外观设计</h3>
+<p>联合全球高端船舶设计工作室，打造独一无二的视觉语言。与意大利、荷兰等设计名所深度协同，赋予每一艘游艇不可复制的灵魂。</p>
+<div class="custom-feature-list">
+<div class="custom-feature"><span class="cf-icon">✏️</span><div class="cf-text"><strong>船型轮廓定制</strong><small>从经典飞桥到全宽探险艇，船体线条完全按您的审美量身雕琢</small></div></div>
+<div class="custom-feature"><span class="cf-icon">🎨</span><div class="cf-text"><strong>涂装与色彩方案</strong><small>PPG/Awlgrip 顶级船用漆，定制金属漆、哑光、渐变任意选择</small></div></div>
+<div class="custom-feature"><span class="cf-icon">🏗️</span><div class="cf-text"><strong>结构流体优化</strong><small>CFD 计算流体力学模拟，降低阻力 8–15%，提升航速与燃油经济性</small></div></div>
+</div>
+<a class="service-link" href="exterior-design.html">了解更多 →</a>
+</div>
+<div class="service-card reveal">
+<div class="service-icon">🛋️</div>
+<h3>内饰配置</h3>
+<p>精选意大利皮革、法国橡木、西班牙大理石等高端材料，由米兰/巴黎顶级室内设计团队操刀，呈现移动的海上宫殿。</p>
+<div class="custom-feature-list">
+<div class="custom-feature"><span class="cf-icon">🪵</span><div class="cf-text"><strong>奢品材料矩阵</strong><small>Poltrona Frau 皮革 · 法国橡木 · 卡拉拉大理石 · 施华洛世奇水晶</small></div></div>
+<div class="custom-feature"><span class="cf-icon">💡</span><div class="cf-text"><strong>灯光艺术方案</strong><small>场景化智能灯光编程 —— 晨光、晚宴、影院、派对一键切换</small></div></div>
+<div class="custom-feature"><span class="cf-icon">🛏️</span><div class="cf-text"><strong>舱室布局定制</strong><small>从 3 舱到 8 舱灵活配置，主卧套房可达 80㎡，尊享私属甲板</small></div></div>
+</div>
+<a class="service-link" href="interior-config.html">了解更多 →</a>
+</div>
+<div class="service-card reveal">
+<div class="service-icon">⚙️</div>
+<h3>功能系统</h3>
+<p>稳定系统、减摇鳍、零速鳍、岸电系统全面定制，让每一次航行都成为极致舒适的享受。</p>
+<div class="custom-feature-list">
+<div class="custom-feature"><span class="cf-icon">🌊</span><div class="cf-text"><strong>零速稳定系统</strong><small>锚泊时减摇 90%+，儿童、老人也能从容享受海上生活</small></div></div>
+<div class="custom-feature"><span class="cf-icon">❄️</span><div class="cf-text"><strong>全船气候控制</strong><small>分区独立温控 + 湿度管理，从迪拜 50°C 到挪威 -20°C 游刃有余</small></div></div>
+<div class="custom-feature"><span class="cf-icon">🚿</span><div class="cf-text"><strong>造水与给排水</strong><small>日产淡水 5–20 吨，海水淡化 + 紫外线杀菌，海上无限畅享</small></div></div>
+</div>
+<a class="service-link" href="functional-systems.html">了解更多 →</a>
+</div>
+<div class="service-card reveal">
+<div class="service-icon">🤖</div>
+<h3>智能科技</h3>
+<p>全船智能中控、卫星通信、水下灯光、影院系统，智慧融于无形，触手可及。</p>
+<div class="custom-feature-list">
+<div class="custom-feature"><span class="cf-icon">📱</span><div class="cf-text"><strong>全船智能中控</strong><small>iPad / 语音 / 手势三重控制，灯光、窗帘、影音、空调全场景联动</small></div></div>
+<div class="custom-feature"><span class="cf-icon">📡</span><div class="cf-text"><strong>卫星通信系统</strong><small>VSAT + Starlink Maritime 双链路，全球海域 200Mbps 高速上网</small></div></div>
+<div class="custom-feature"><span class="cf-icon">🎬</span><div class="cf-text"><strong>沉浸式影音娱乐</strong><small>Dolby Atmos 全景声影院 · 水下音响 · 甲板露天影院 · VR 游戏舱</small></div></div>
+</div>
+<a class="service-link" href="smart-tech.html">了解更多 →</a>
+</div>
+<div class="service-card reveal">
+<div class="service-icon">🚤</div>
+<h3>动力与推进系统</h3>
+<p>从传统柴油到纯电推进，全谱系动力方案满足您对速度、静谧性与续航的极致追求。我们与 MTU、Caterpillar、Volvo Penta 等全球顶尖动力品牌深度合作。</p>
+<div class="custom-tech-tags">
+<span class="tech-tag">传统柴油</span>
+<span class="tech-tag">柴电混合</span>
+<span class="tech-tag">纯电推进</span>
+<span class="tech-tag">氢燃料电池</span>
+</div>
+<div class="custom-feature-list">
+<div class="custom-feature"><span class="cf-icon">🎯</span><div class="cf-text"><strong>POD 全回转推进</strong><small>360°矢量推进，DP 动态定位精度 ±0.5m，一键泊船</small></div></div>
+<div class="custom-feature"><span class="cf-icon">🔇</span><div class="cf-text"><strong>主动降噪减震</strong><small>双层隔振浮筏 + 主动消音，主舱噪音 &lt;45dB，图书馆级静谧</small></div></div>
+<div class="custom-feature"><span class="cf-icon">⛽</span><div class="cf-text"><strong>智能油耗优化</strong><small>AI航速管理 + 船体阻力监测，综合节油最高达 30%</small></div></div>
+<div class="custom-feature"><span class="cf-icon">🔋</span><div class="cf-text"><strong>岸电静泊系统</strong><small>高压岸电接入 + 储能电池组，港口零排放，告别发电机轰鸣</small></div></div>
+</div>
+<a class="service-link" href="propulsion-systems.html">探索动力方案 →</a>
+</div>
+<div class="service-card reveal">
+<div class="service-icon">🌱</div>
+<h3>可持续环保方案</h3>
+<p>从材料选择到运营碳足迹，全链条绿色实践助力海洋永续。响应 IMO 2050 脱碳目标，为船东提供切实可行的绿色转型路径。</p>
+<div class="custom-feature-list">
+<div class="custom-feature"><span class="cf-icon">☀️</span><div class="cf-text"><strong>太阳能光伏系统</strong><small>柔性光伏甲板 + 储能电池，日均发电 15–25kWh，覆盖舱内照明与娱乐</small></div></div>
+<div class="custom-feature"><span class="cf-icon">💧</span><div class="cf-text"><strong>船载废水处理</strong><small>MEPC.227(64) 标准，膜生物反应器处理，排放水质优于市政标准</small></div></div>
+<div class="custom-feature"><span class="cf-icon">🌿</span><div class="cf-text"><strong>环保内饰选材</strong><small>FSC认证木材 · 再生海洋塑料织物 · 天然亚麻 · 水性低VOC涂料</small></div></div>
+<div class="custom-feature"><span class="cf-icon">🌍</span><div class="cf-text"><strong>碳中和航行计划</strong><small>年度碳足迹核算 + 黄金标准(GS)碳信用抵消，航行即环保</small></div></div>
+<div class="custom-feature"><span class="cf-icon">♻️</span><div class="cf-text"><strong>循环设计理念</strong><small>模块化舱室 + 可拆卸内饰，游艇退役后 85% 材料可回收再利用</small></div></div>
+</div>
+<a class="service-link" href="sustainability.html">了解绿色方案 →</a>
+</div>
 </div>
 <!-- Custom Process Flow -->
 <div class="reveal" style="margin-top:48px">
