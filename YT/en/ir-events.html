@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<title data-i18n="ir-events.6">Investor Events | Fantastic Vacation IR</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="../style.css" rel="stylesheet"/>
+<style>
+/* Loader auto-hide - triple safeguard */
+@keyframes autoHideLoader{
+  0%,80%{opacity:1;visibility:visible}
+  85%{opacity:0.5}
+  90%{opacity:0.2}
+  95%{opacity:0;visibility:hidden}
+  100%{display:none}
+}
+#loader{animation:autoHideLoader 6s ease-in-out forwards}
+#loader.hidden,#loader[style*="display:none"]{animation:none!important;display:none!important}
+</style>
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg"/></head>
+<body>
+<nav id="navbar" aria-label="Main Navigation">
+<div class="nav-inner">
+<a class="nav-logo" href="index.html" aria-label="Fantastic Vacation Industrial Co.Home">
+<svg fill="none" height="32" viewBox="0 0 32 32" width="32" aria-hidden="true">
+<path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
+<path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
+</svg>
+<span class="nav-logo-text">Fantastic Vacation Industrial Co. <em>FANTASTIC VACATION</em></span>
+</a>
+<div class="nav-links" role="menubar" aria-label="Main Navigation">
+<a href="index.html" class="nav-main-link" role="menuitem" data-i18n="nav.home">Home</a>
+<div class="nav-dropdown nav-megamenu" role="none">
+<a href="yachts.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false" data-i18n="nav.products">Products &amp; Services <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu nav-megamenu-panel" role="menu" aria-label="Products &amp; ServicesSubmenu">
+<div class="megamenu-col">
+<a href="yachts-sovereign.html" role="menuitem" data-i18n="nav.products.sovereign">Sovereign Series</a>
+<a href="yachts-expedition.html" role="menuitem" data-i18n="nav.products.expedition">Expedition Series</a>
+<a href="yachts-flybridge.html" role="menuitem" data-i18n="nav.products.flybridge">Flybridge Series</a>
+<a href="yachts-daycruiser.html" role="menuitem" data-i18n="nav.products.daycruiser">Day Cruiser Series</a>
+</div>
+<div class="megamenu-col">
+<a href="custom.html" role="menuitem" data-i18n="nav.products.solutions">Custom Solutions</a>
+<a href="charter.html" role="menuitem" data-i18n="nav.products.charter_svc">Charter Services</a>
+<a href="management.html" role="menuitem" data-i18n="nav.products.mgmt_svc">Yacht Management</a>
+<a href="cases.html" role="menuitem" data-i18n="nav.products.cases">Selected Cases</a>
+</div>
+</div>
+</div>
+<div class="nav-dropdown" role="none">
+<a href="about.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false" data-i18n="nav.about">About <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="AboutSubmenu">
+<a href="about.html" role="menuitem" data-i18n="nav.about.profile">Company Profile</a>
+<a href="about-history.html" role="menuitem" data-i18n="nav.about.history">Milestones</a>
+<a href="about-culture.html" role="menuitem" data-i18n="nav.about.culture">Culture</a>
+<a href="about-structure.html" role="menuitem" data-i18n="nav.about.structure">Organization</a>
+<a href="honors.html" role="menuitem" data-i18n="nav.about.honors">Honors</a>
+<a href="about-responsibility.html" role="menuitem" data-i18n="nav.about.responsibility">Social Responsibility</a>
+</div>
+</div>
+<div class="nav-dropdown" role="none">
+<a href="news.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false" data-i18n="nav.cooperation">News &amp; IR <span class="nav-arrow" aria-hidden="true"></span></a>
+<div class="nav-dropdown-menu" role="menu" aria-label="News &amp; IRSubmenu">
+<a href="news.html" role="menuitem" data-i18n="nav.news.info">News</a>
+<a href="ir.html" role="menuitem" data-i18n="nav.ir">Investor Relations</a>
+<a href="partnership.html" role="menuitem" data-i18n="nav.business.partnership">Partnerships</a>
+</div>
+</div>
+<div class="nav-cta-group" role="none">
+<a class="nav-cta-btn" href="membership.html" role="menuitem" data-i18n="nav.member">👑 Membership</a>
+<a class="nav-cta-btn nav-cta-primary" href="contact.html" role="menuitem" data-i18n="nav.contact">Contact Us</a>
+</div>
+</div>
+<div class="nav-actions" role="none">
+<button class="nav-search-btn" onclick="toggleSearch()" title="Search" aria-label="Search">
+<svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>
+</button>
+<a class="lang-switch-btn" href="../ir-events.html" title="Switch to Chinese" aria-label="CN">CN</a>
+<button class="nav-dark-toggle" id="darkToggle" onclick="toggleDarkMode()" title="Dark Mode" aria-label="Toggle Dark Mode">
+<svg class="icon-moon" fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg class="icon-sun" fill="none" height="18" stroke="currentColor" stroke-width="2" style="display:none" viewBox="0 0 24 24" width="18" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" x2="12" y1="1" y2="3"></line><line x1="12" x2="12" y1="21" y2="23"></line><line x1="4.22" x2="5.64" y1="4.22" y2="5.64"></line><line x1="18.36" x2="19.78" y1="18.36" y2="19.78"></line><line x1="1" x2="3" y1="12" y2="12"></line><line x1="21" x2="23" y1="12" y2="12"></line><line x1="4.22" x2="5.64" y1="19.78" y2="18.36"></line><line x1="18.36" x2="19.78" y1="5.64" y2="4.22"></line></svg>
+</button>
+<div class="hamburger" onclick="toggleMobile()" aria-label="Open Mobile Menu" role="button" tabindex="0" aria-expanded="false">
+<span></span><span></span><span></span>
+</div>
+</div>
+</div>
+</nav>
+</nav>
+<div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Mobile Navigation Menu">
+<button class="mobile-menu-close" onclick="toggleMobile()" aria-label="Close Menu">
+<svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="24" aria-hidden="true">
+<line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
+</svg>
+</button>
+<div class="mobile-menu-logo">
+<svg fill="none" height="40" viewBox="0 0 32 32" width="40" aria-hidden="true">
+<path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
+<path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
+</svg>
+<span>Fantastic Vacation</span>
+</div>
+<a class="mobile-nav-link" href="index.html" data-i18n="nav.home">Home</a>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title" data-i18n="nav.products">Products &amp; Services</div>
+<a class="mobile-nav-link sub" href="yachts-sovereign.html" data-i18n="nav.products.sovereign">Sovereign Series</a>
+<a class="mobile-nav-link sub" href="yachts-expedition.html" data-i18n="nav.products.expedition">Expedition Series</a>
+<a class="mobile-nav-link sub" href="yachts-flybridge.html" data-i18n="nav.products.flybridge">Flybridge Series</a>
+<a class="mobile-nav-link sub" href="yachts-daycruiser.html" data-i18n="nav.products.daycruiser">Day Cruiser Series</a>
+<a class="mobile-nav-link sub" href="custom.html" data-i18n="nav.products.solutions">Custom Solutions</a>
+<a class="mobile-nav-link sub" href="charter.html" data-i18n="nav.products.charter_svc">Charter Services</a>
+<a class="mobile-nav-link sub" href="management.html" data-i18n="nav.products.mgmt_svc">Yacht Management</a>
+<a class="mobile-nav-link sub" href="cases.html" data-i18n="nav.products.cases">Selected Cases</a>
+</div>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title" data-i18n="nav.about">About</div>
+<a class="mobile-nav-link sub" href="about.html" data-i18n="nav.about.profile">Company Profile</a>
+<a class="mobile-nav-link sub" href="about-history.html" data-i18n="nav.about.history">Milestones</a>
+<a class="mobile-nav-link sub" href="about-culture.html" data-i18n="nav.about.culture">Culture</a>
+<a class="mobile-nav-link sub" href="about-structure.html" data-i18n="nav.about.structure">Organization</a>
+<a class="mobile-nav-link sub" href="honors.html" data-i18n="nav.about.honors">Honors</a>
+<a class="mobile-nav-link sub" href="about-responsibility.html" data-i18n="nav.about.responsibility">Social Responsibility</a>
+</div>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title" data-i18n="nav.cooperation">News &amp; IR</div>
+<a class="mobile-nav-link sub" href="news.html" data-i18n="nav.news.info">News</a>
+<a class="mobile-nav-link sub" href="ir.html" data-i18n="nav.ir">Investor Relations</a>
+<a class="mobile-nav-link sub" href="partnership.html" data-i18n="nav.business.partnership">Partnerships</a>
+</div>
+<a class="mobile-nav-link mobile-primary" href="membership.html" data-i18n="nav.member">👑 Membership</a>
+<a class="mobile-nav-link mobile-cta" href="contact.html" data-i18n="nav.contact">Contact Us</a>
+<div class="mobile-menu-footer">
+<a class="mobile-nav-link" href="../ir-events.html" id="mobileLangSwitch" style="border:1px solid rgba(201,169,110,0.3);border-radius:6px;display:inline-block;padding:12px 24px;color:#c9a96e;font-weight:600;margin-bottom:16px">🌐 English Version</a>
+<span>Phone：13797920792 / +86 0755 3353-0188</span>
+<span>Email：hs@fantastic-vacation.com</span>
+</div>
+</div>
+<section class="section-padding" style="background:var(--dark2)"><div class="container"><div class="section-header reveal"><h2>Learn More</h2></div><div class="reveal" style="max-width:800px;margin:40px auto 0"><p style="color:var(--text-muted);line-height:1.9;font-size:15px">For more detailed information，pleaseContact Usprofessional team。We are committed to providing you with comprehensive、Professional service support。</p></div></div>
+
+<header class="page-hero"><div class="container reveal"><div class="hero-badge">✦ IR EVENTS ✦</div>
+<h1 class="gold-gradient">Investor Events</h1>
+<p>Participate in Company Events，Face-to-face with management</p>
+</div></header>
+<section class="section-padding"><div class="container"><div class="section-header reveal"><h2>Investor Events Calendar</h2></div>
+<div style="max-width:900px;margin:40px auto 0">
+<div style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:24px;margin-bottom:16px" class="reveal">
+    <h4 style="color:var(--gold);margin-bottom:12px;font-size:16px">📅 2026615 — 2025Annual General Meeting</h4>
+    <p style="color:var(--text-muted);font-size:14px;line-height:1.8">Location：Shenzhen HQ · Live Stream Available<br>Key Agenda：Agenda2025Annual Financial Report、Board of Directors Report、Profit Distribution Plan、Director Election and Other Resolutions</p>
+</div><div style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:24px;margin-bottom:16px" class="reveal">
+    <h4 style="color:var(--gold);margin-bottom:12px;font-size:16px">📅 20268late — 2026Semi-annual results announcement and earnings call</h4>
+    <p style="color:var(--text-muted);font-size:14px;line-height:1.8">Company management will host an investor conference call following the release of the semi-annual report，Review of H1 operating performance、Business progress and H2 outlook。Analysts and investors mayIRSubmit questions in advance via the website。</p>
+</div><div style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:24px;margin-bottom:16px" class="reveal">
+    <h4 style="color:var(--gold);margin-bottom:12px;font-size:16px">📅 202611 — Annual Investor Open Day</h4>
+    <p style="color:var(--text-muted);font-size:14px;line-height:1.8">Invite investors to tour the Shenzhen headquarters、Yacht marina and fleet under management，Face-to-face with management。Event includes company strategy presentation、Business experience and Q&A session，Limited40guests。</p>
+</div><div style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:24px;margin-bottom:16px" class="reveal">
+    <h4 style="color:var(--gold);margin-bottom:12px;font-size:16px">📅 After each quarter-end30within days — Quarterly Operations Briefing Call</h4>
+    <p style="color:var(--text-muted);font-size:14px;line-height:1.8">Held after each quarter-end30-minute investor conference call，Management will brief on quarterly operations and answer investor questions。Meeting recordings and transcripts will be available after24within hoursIRPublished Online。</p>
+</div></div></div></section>
+
+<section class="section-padding" style="background:var(--dark2)"><div class="container"><div class="section-header reveal"><h2>Investor Event Types</h2></div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;margin-top:40px">
+<div style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:32px;border-top:3px solid var(--gold);" class="reveal">
+    <div style="font-size:36px;margin-bottom:12px">📞</div>
+    <h4 style="color:var(--gold);margin-bottom:12px">📞 Quarterly Conference Call</h4>
+    <div style="color:var(--text-muted);font-size:14px;line-height:1.8">Held once per quarter，CEO/CFOHosted by，Open to all investors and analysts。Content includes quarterly performance review、Business Highlights、Financial analysis andQ&ASession。Meeting viaZoom/Tencent Meeting Live Stream，Bilingual (Chinese/English)</div>
+</div><div style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:32px;border-top:3px solid var(--gold);" class="reveal">
+    <div style="font-size:36px;margin-bottom:12px">🏢</div>
+    <h4 style="color:var(--gold);margin-bottom:12px">🏢 Investor Open Day</h4>
+    <div style="color:var(--text-muted);font-size:14px;line-height:1.8">Held annually1-2，Invite investors to tour company operational facilities，Including the Yacht Exhibition Center、Maintenance Workshop、membership club and more。Event includes management presentations、Business presentations and interactive exchanges，The objective is to help investors gain deep understanding of the company's business model</div>
+</div><div style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:32px;border-top:3px solid var(--gold);" class="reveal">
+    <div style="font-size:36px;margin-bottom:12px">🎤</div>
+    <h4 style="color:var(--gold);margin-bottom:12px">🎤 Industry Forums & Roadshows</h4>
+    <div style="color:var(--text-muted);font-size:14px;line-height:1.8">Periodically participates in domestic and international investment forums and roadshows，including the China International Yacht Show Investor Forum、Asia Consumer Upgrade Investment Summit、UBS China Investment Forum and others。Management discusses corporate strategy、One-on-one or small-group discussions on industry trends with institutional investors</div>
+</div><div style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:32px;border-top:3px solid var(--gold);" class="reveal">
+    <div style="font-size:36px;margin-bottom:12px">🔍</div>
+    <h4 style="color:var(--gold);margin-bottom:12px">🔍 Company Visit & Reception</h4>
+    <div style="color:var(--text-muted);font-size:14px;line-height:1.8">Welcome analysts、Institutional and prospective investors may schedule company visits，Face-to-face with management。Please book research visits in advance2email within weeksir@fantastic-vacation.com，We will arrange based on management's schedule</div>
+</div></div></div></section>
+
+<section class="section-padding"><div class="container"><div class="section-header reveal"><h2>Past Event Recordings</h2></div>
+<div style="max-width:900px;margin:40px auto 0">
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px">
+<div style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:24px;" class="reveal">
+    <h4 style="color:var(--gold);margin-bottom:12px">📼 2026 Q1Call Replay</h4>
+    <div style="color:var(--text-muted);font-size:14px;line-height:1.8">2026 Q1Quarterly Operations Briefing Call · 2026520 · CEO/CFOHosted by · Duration45minutes</div>
+</div><div style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:24px;" class="reveal">
+    <h4 style="color:var(--gold);margin-bottom:12px">📼 2025Annual Results Announcement</h4>
+    <div style="color:var(--text-muted);font-size:14px;line-height:1.8">2025Annual Results Announcement · 2026328 · Including comprehensive financial data interpretation andQ&A · Duration90minutes</div>
+</div><div style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:24px;" class="reveal">
+    <h4 style="color:var(--gold);margin-bottom:12px">📼 2025Investor Open Day</h4>
+    <div style="color:var(--text-muted);font-size:14px;line-height:1.8">2025annual Investor Open Day · 20251118 · Shenzhen HQ · 42investors attended · including on-site video highlights</div>
+</div><div style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:24px;" class="reveal">
+    <h4 style="color:var(--gold);margin-bottom:12px">📼 2025 Q3Call Replay</h4>
+    <div style="color:var(--text-muted);font-size:14px;line-height:1.8">2025 Q3Quarterly Operations Briefing Call · 2025115 · Duration40minutes</div>
+</div></div></div></div></section>
+
+<section class="section-padding" style="background:var(--dark2);text-align:center">
+<div class="container reveal">
+  <h2 style="font-family:'Playfair Display',serif;color:var(--gold);margin-bottom:16px">Participate in Investor Events</h2>
+  <p style="color:var(--text-muted);margin-bottom:32px;line-height:1.7;max-width:700px;margin-left:auto;margin-right:auto">Analysts and investors are welcome to register for company investor events。Please contact us viaContact Us，We will notify you of upcoming events in a timely manner。</p>
+  <div style="display:flex;gap:20px;justify-content:center;flex-wrap:wrap"><a href="ir-presentations.html" style="display:inline-block;background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:16px 32px;color:var(--text);text-decoration:none;transition:all 0.3s" onmouseover="this.style.borderColor='var(--gold)'" onmouseout="this.style.borderColor='var(--glass-border)'">🎤 Roadshow Materials</a>
+        <a href="ir-contact.html" style="display:inline-block;background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:16px 32px;color:var(--text);text-decoration:none;transition:all 0.3s" onmouseover="this.style.borderColor='var(--gold)'" onmouseout="this.style.borderColor='var(--glass-border)'">📧 ContactIRTeam</a>
+        <a href="ir-announcements.html" style="display:inline-block;background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:16px 32px;color:var(--text);text-decoration:none;transition:all 0.3s" onmouseover="this.style.borderColor='var(--gold)'" onmouseout="this.style.borderColor='var(--glass-border)'">📋 Latest Announcements</a>
+        </div>
+</div>
+</section>
+<footer data-i18n="index.965" id="footer">
+<div class="footer-top-bar"></div>
+<div class="footer-main">
+<div class="footer-grid" data-i18n="index.799">
+<!-- Column 1: Brand -->
+<div class="footer-col footer-brand-col">
+<a class="footer-logo" href="index.html">
+<svg fill="none" height="40" viewbox="0 0 32 32" width="40">
+<path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
+<path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
+</svg>
+<div>
+<div class="footer-logo-name" data-i18n="index.201">Fantastic Vacation</div>
+<div class="footer-logo-en" data-i18n="index.202">FANTASTIC VACATION</div>
+</div>
+</a>
+<p class="footer-slogan" data-i18n="index.814">「Explore Globally，Cherish Every Holiday」<br/>Global Integrated Premium Yacht Customization & Private Maritime Lifestyle Creator</p>
+<p class="footer-brand-desc" data-i18n="index.203">Fantastic Vacation Industrial Co.Deeply rooted in the high-end yachting industry15，200+providing yacht customization services for global HNW clients、Charter、Full-chain managed one-stop service。</p>
+<div class="footer-socials">
+<a class="social-item" href="javascript:void(0)" title="WeChat Official Account">
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M8.5 11a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5.5 4H20a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1h-1.5a4 4 0 0 1-3.98-3.64A5.97 5.97 0 0 0 12 15a6 6 0 0 0 6 6v1zm-7-7a4 4 0 0 0-4 4v5a4 4 0 0 0 3.15 3.85A3 3 0 0 0 8 18v1H5.5A1.5 1.5 0 0 1 4 17.5v-8A1.5 1.5 0 0 1 5.5 8h6z"></path></svg>
+<span data-i18n="index.204">WeChat Official Account</span>
+</a>
+<a class="social-item" href="javascript:void(0)" title="Weibo">
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M10.09 18c-3.69 0-7.09-1.69-7.09-4.28 0-1.35.7-2.96 1.88-4.57C6.57 7.57 9.5 6.4 10.55 7c1.41.8 2.29 2.38 2.55 3.82.1-.04.21-.06.32-.06 2.45 0 4.44 2.29 4.44 5.11 0 2.73-1.99 4.94-4.44 4.94-.27 0-.53-.02-.79-.06-.11.17-.23.34-.35.5l.05.01zM20 8.5C20 4.91 17.09 2 13.5 2H3C2.45 2 2 2.45 2 3v13c0 .55.45 1 1 1h10c4.17 0 7.58-3.06 7.98-7.05.05-.47.02-.95.02-1.45z"></path></svg>
+<span data-i18n="index.205">Weibo</span>
+</a>
+<a class="social-item" href="javascript:void(0)" title="Douyin">
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.82a8.18 8.18 0 0 0 4.77 1.52V6.68a4.85 4.85 0 0 1-1-.02z"></path></svg>
+<span data-i18n="index.206">Douyin</span>
+</a>
+<a class="social-item" href="javascript:void(0)" title="LinkedIn">
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path></svg>
+<span data-i18n="index.207">LinkedIn</span>
+</a>
+<a class="social-item" href="javascript:void(0)" title="YouTube">
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
+<span data-i18n="index.208">YouTube</span>
+</a>
+</div>
+</div>
+<!-- Column 2: Quick Navigation -->
+<div class="footer-col">
+<h4 class="footer-col-title" data-i18n="index.850">Quick Links</h4>
+<ul class="footer-links">
+<li data-i18n="index.209"><a data-i18n="index.210" href="index.html">Home</a></li>
+<li data-i18n="index.1"><a data-i18n="index.211" href="about.html">About</a></li>
+<li data-i18n="index.2"><a data-i18n="index.212" href="yachts.html">Our Fleet</a></li>
+          <li><a href="membership.html" data-i18n="footer.member" style="color:#c9a96e;font-weight:500">👑 Membership</a></li>
+<li data-i18n="index.3"><a data-i18n="index.213" href="custom.html">Full Custom</a></li>
+<li data-i18n="index.4"><a data-i18n="index.214" href="charter.html">Charter Routes</a></li>
+<li data-i18n="index.5"><a data-i18n="index.215" href="management.html">Yacht Management</a></li>
+<li data-i18n="index.6"><a data-i18n="index.216" href="cases.html">Case Studies</a></li>
+<li data-i18n="index.7"><a data-i18n="index.217" href="news.html">News</a></li>
+<li data-i18n="index.8"><a data-i18n="index.218" href="partnership.html">Partnerships</a></li>
+<li data-i18n="index.9"><a data-i18n="index.219" href="sitemap.html">Sitemap</a></li>
+</ul>
+</div>
+<!-- Column 3: Contact -->
+<div class="footer-col" data-i18n="index.10">
+<h4 class="footer-col-title" data-i18n="index.878">Contact Us</h4>
+<ul class="footer-contact">
+<li class="contact-item">
+<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+<div>
+<div class="contact-label" data-i18n="index.220">Address</div>
+<div class="contact-value" data-i18n="index.11">Bao'an District, Shenzhen, Guangdong<br/>Songgang Industrial Park1</div>
+</div>
+</li>
+<li class="contact-item" data-i18n="index.12">
+<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 5.92 5.92l.96-.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+<div>
+<div class="contact-label" data-i18n="index.221">Hotline</div>
+<div class="contact-value"><a data-i18n="index.896" href="tel:13797920792">13797920792</a> / <a data-i18n="index.898" href="tel:+86075533530188">+86 0755 3353-0188</a></div>
+</div>
+</li>
+<li class="contact-item" data-i18n="index.13">
+<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 5.92 5.92l.96-.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path><line x1="22" x2="11" y1="2" y2="13"></line></svg>
+<div>
+<div class="contact-label" data-i18n="index.222">Fax</div>
+<div class="contact-value" data-i18n="index.907">0755-31530988</div>
+</div>
+</li>
+<li class="contact-item" data-i18n="index.14">
+<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+<div>
+<div class="contact-label" data-i18n="index.223">Business Email</div>
+<div class="contact-value"><a data-i18n="index.224" href="mailto:hs@fantastic-vacation.com">hs@fantastic-vacation.com</a></div>
+</div>
+</li>
+</ul>
+<a class="footer-contact-btn" data-i18n="index.15" href="contact.html">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+          Online Inquiry
+        </a>
+</div>
+<!-- Column 4: Certifications & Partners -->
+<div class="footer-col" data-i18n="index.16">
+<h4 class="footer-col-title" data-i18n="index.928">Certifications &amp; Partners</h4>
+<div class="footer-certs">
+<div class="cert-item">
+<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18n="index.225">ISO 9001Quality Management System certification</span>
+</div>
+<div class="cert-item" data-i18n="index.17">
+<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18n="index.226">Italy Ferretti Group Authorized Partner</span>
+</div>
+<div class="cert-item" data-i18n="index.18">
+<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18n="index.227">NetherlandsFeadshipTechnology Partners</span>
+</div>
+<div class="cert-item" data-i18n="index.19">
+<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18n="index.228">Mediterranean Marina Association certified member</span>
+</div>
+<div class="cert-item" data-i18n="index.20">
+<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18n="index.229">Three-time champion of Asia's Best Yacht Service Provider</span>
+</div>
+</div>
+<div class="footer-recruit" data-i18n="index.21">
+<a class="recruit-link" data-i18n="index.959" href="contact.html">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            <span data-i18n="_recruit">Join Us · Careers</span>
+          </a>
+</div>
+</div>
+</div>
+</div>
+<!-- Copyright Bar -->
+<div class="footer-bottom" data-i18n="index.22">
+<div class="footer-bottom-inner">
+<div class="copyright">
+<span data-i18n="index.230">© 2020-2026 Fantastic Vacation Industrial Co. FANTASTIC VACATION INDUSTRIAL CO., LTD. All rights reserved.</span>
+</div>
+<div class="legal-links" data-i18n="index.23">
+<a data-i18n="index.231" href="privacy.html">Privacy Policy</a>
+<a data-i18n="index.232" href="terms.html">Terms of Use</a>
+<a data-i18n="index.233" href="sitemap.html">Sitemap</a>
+</div>
+</div>
+<div></div>
+</div></div></footer>
+
+<div class="search-overlay" id="searchOverlay">
+<div class="search-box">
+<input autocomplete="off" class="search-input" id="searchInput" placeholder="Search yachts, news, cases..." type="text"/>
+<button class="search-close" onclick="toggleSearch()">
+<svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="20">
+<line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
+</svg>
+</button>
+</div>
+<div class="search-suggestions">
+<div class="search-suggestion-item" data-i18n="index.5">→ ExploreOur Fleet</div>
+<div class="search-suggestion-item" data-i18n="index.6">→ Customize Your Yacht</div>
+<div class="search-suggestion-item" data-i18n="index.7">→ Browse Global Routes</div>
+<div class="search-suggestion-item" data-i18n="index.8">→ Contact a Professional Advisor</div>
+</div>
+</div>
+
+<a href="https://wa.me/85255380525" target="_blank" class="floating-cta" style="text-decoration:none" data-i18n="custom.1130">💎 Online Consultation</a>
+<script src="../main.js"></script>
+<script src="../i18n.js"></script>
+</body>
+</html>

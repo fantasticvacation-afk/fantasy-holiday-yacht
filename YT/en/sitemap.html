@@ -49,12 +49,12 @@
 <div class="nav-dropdown" role="none">
 <a href="about.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">About <span class="nav-arrow" aria-hidden="true"></span></a>
 <div class="nav-dropdown-menu" role="menu" aria-label="About Submenu">
-<a href="about.html" role="menuitem">Company</a>
-<a href="../about-history.html" role="menuitem">Milestones</a>
-<a href="../about-culture.html" role="menuitem">Culture</a>
-<a href="../about-structure.html" role="menuitem">Organization</a>
+<a href="about.html" role="menuitem">Company Profile</a>
+<a href="about-history.html" role="menuitem">Milestones</a>
+<a href="about-culture.html" role="menuitem">Culture</a>
+<a href="about-structure.html" role="menuitem">Organization</a>
 <a href="honors.html" role="menuitem">Honors</a>
-<a href="../about-responsibility.html" role="menuitem">ESG</a>
+<a href="about-responsibility.html" role="menuitem">Social Responsibility</a>
 </div>
 </div>
 <div class="nav-dropdown" role="none">
@@ -132,12 +132,12 @@
 </div>
 <div class="mobile-nav-group">
 <div class="mobile-nav-group-title">About</div>
-<a class="mobile-nav-link sub" href="about.html">Company</a>
-<a class="mobile-nav-link sub" href="../about-history.html">Milestones</a>
-<a class="mobile-nav-link sub" href="../about-culture.html">Culture</a>
-<a class="mobile-nav-link sub" href="../about-structure.html">Organization</a>
+<a class="mobile-nav-link sub" href="about.html">Company Profile</a>
+<a class="mobile-nav-link sub" href="about-history.html">Milestones</a>
+<a class="mobile-nav-link sub" href="about-culture.html">Culture</a>
+<a class="mobile-nav-link sub" href="about-structure.html">Organization</a>
 <a class="mobile-nav-link sub" href="honors.html">Honors</a>
-<a class="mobile-nav-link sub" href="../about-responsibility.html">ESG</a>
+<a class="mobile-nav-link sub" href="about-responsibility.html">Social Responsibility</a>
 </div>
 <div class="mobile-nav-group">
 <div class="mobile-nav-group-title">News &amp; IR</div>
@@ -180,7 +180,7 @@ document.addEventListener('DOMContentLoaded',()=>{initReveal();initCounters()});
 function toggleSearch(){var s=document.getElementById("searchOverlay");if(s){s.classList.toggle("active");if(s.classList.contains("active")){setTimeout(function(){var i=document.getElementById("searchInput");if(i)i.focus()},100)}}}document.addEventListener("keydown",function(e){if(e.key==="Escape"){var s=document.getElementById("searchOverlay");if(s&&s.classList.contains("active"))s.classList.remove("active");var m=document.getElementById("mobile-menu");if(m&&m.classList.contains("active")){m.classList.remove("active");document.querySelector(".hamburger").classList.remove("active")}}});function toggleDarkMode(){document.body.classList.toggle("dark-mode");var isDark=document.body.classList.contains("dark-mode");localStorage.setItem("fv-dark",isDark?"1":"0");var moon=document.querySelector(".icon-moon");var sun=document.querySelector(".icon-sun");if(moon)moon.style.display=isDark?"none":"inline";if(sun)sun.style.display=isDark?"inline":"none"}window.addEventListener("DOMContentLoaded",function(){var isDark=localStorage.getItem("fv-dark")==="1";if(isDark){document.body.classList.add("dark-mode");var moon=document.querySelector(".icon-moon");var sun=document.querySelector(".icon-sun");if(moon)moon.style.display="none";if(sun)sun.style.display="inline"}});window.addEventListener("DOMContentLoaded",function(){document.querySelectorAll(".search-suggestion-item").forEach(function(el){el.addEventListener("click",function(){var t=this.textContent.trim();if(t.indexOf("Full Fleet")!==-1||t.indexOf("All Yachts")!==-1)window.location.href="yachts.html";else if(t.indexOf("Custom Design")!==-1||t.indexOf("Custom")!==-1)window.location.href="custom.html";else if(t.indexOf("Routes")!==-1||t.indexOf("Routes")!==-1)window.location.href="charter.html";else if(t.indexOf("Contact")!==-1||t.indexOf("Contact")!==-1||t.indexOf("Advisor")!==-1||t.indexOf("Advisor")!==-1)window.location.href="contact.html"})})});</script>
 <div class="search-overlay" id="searchOverlay">
 <div class="search-box">
-<input autocomplete="off" class="search-input" id="searchInput" placeholder="搜索游艇、服务、案例..." data-i18n-attr="placeholder:_ph.sitemap.1" type="text"/>
+<input autocomplete="off" class="search-input" id="searchInput" placeholder="Search yachts, services, cases..." data-i18n-attr="placeholder:_ph.sitemap.1" type="text"/>
 <button class="search-close">
 <svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20"><line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line></svg>
 </button>
@@ -197,4 +197,5 @@ function toggleSearch(){var s=document.getElementById("searchOverlay");if(s){s.c
 </div>
 </div>
 <script src="../main.js"></script>
+<script src="../i18n.js"></script>
 </body></html>

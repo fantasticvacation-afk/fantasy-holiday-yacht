@@ -50,11 +50,11 @@
 <a href="about.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">About <span class="nav-arrow" aria-hidden="true"></span></a>
 <div class="nav-dropdown-menu" role="menu" aria-label="About Submenu">
 <a href="about.html" role="menuitem">Company Profile</a>
-<a href="../about-history.html" role="menuitem">Our History</a>
-<a href="../about-culture.html" role="menuitem">Corporate Culture</a>
-<a href="../about-structure.html" role="menuitem">Organization</a>
+<a href="about-history.html" role="menuitem">Milestones</a>
+<a href="about-culture.html" role="menuitem">Culture</a>
+<a href="about-structure.html" role="menuitem">Organization</a>
 <a href="honors.html" role="menuitem">Honors</a>
-<a href="../about-responsibility.html" role="menuitem">Social Responsibility</a>
+<a href="about-responsibility.html" role="menuitem">Social Responsibility</a>
 </div>
 </div>
 <div class="nav-dropdown" role="none">
@@ -74,7 +74,7 @@
 <button class="nav-search-btn" onclick="toggleSearch()" title="Search" aria-label="Search">
 <svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>
 </button>
-<a class="lang-switch-btn" href="../terms.html" title="Switch to Chinese (切换到中文)" aria-label="Switch to Chinese">中文</a>
+<a class="lang-switch-btn" href="../terms.html" title="Switch to Chinese (Switch to Chinese)" aria-label="Switch to Chinese">中文</a>
 <button class="nav-dark-toggle" id="darkToggle" onclick="toggleDarkMode()" title="Dark Mode" aria-label="Toggle Dark Mode">
 <svg class="icon-moon" fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
 <svg class="icon-sun" fill="none" height="18" stroke="currentColor" stroke-width="2" style="display:none" viewBox="0 0 24 24" width="18" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" x2="12" y1="1" y2="3"></line><line x1="12" x2="12" y1="21" y2="23"></line><line x1="4.22" x2="5.64" y1="4.22" y2="5.64"></line><line x1="18.36" x2="19.78" y1="18.36" y2="19.78"></line><line x1="1" x2="3" y1="12" y2="12"></line><line x1="21" x2="23" y1="12" y2="12"></line><line x1="4.22" x2="5.64" y1="19.78" y2="18.36"></line><line x1="18.36" x2="19.78" y1="5.64" y2="4.22"></line></svg>
@@ -85,6 +85,55 @@
 </div>
 </div>
 </nav>
+</nav>
+<div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Mobile Navigation Menu">
+<button class="mobile-menu-close" onclick="toggleMobile()" aria-label="Close Menu">
+<svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="24" aria-hidden="true">
+<line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
+</svg>
+</button>
+<div class="mobile-menu-logo">
+<svg fill="none" height="40" viewBox="0 0 32 32" width="40" aria-hidden="true">
+<path d="M4 24L16 4l12 20H4z" fill="none" stroke="#c9a96e" stroke-width="1.5"></path>
+<path d="M8 20h16l-8-12-8 12z" fill="rgba(201,169,110,0.15)" stroke="#c9a96e" stroke-width="1"></path>
+</svg>
+<span>Fantastic Vacation</span>
+</div>
+<a class="mobile-nav-link" href="index.html">Home</a>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title" data-i18n="nav.products">Products & Services</div>
+<a class="mobile-nav-link sub" href="yachts-sovereign.html">Sovereign Series</a>
+<a class="mobile-nav-link sub" href="yachts-expedition.html">Expedition Series</a>
+<a class="mobile-nav-link sub" href="yachts-flybridge.html">Flybridge Series</a>
+<a class="mobile-nav-link sub" href="yachts-daycruiser.html">Day Cruiser Series</a>
+<a class="mobile-nav-link sub" href="custom.html">Customized Solutions</a>
+<a class="mobile-nav-link sub" href="charter.html">Charter Services</a>
+<a class="mobile-nav-link sub" href="management.html">Yacht Management Services</a>
+<a class="mobile-nav-link sub" href="cases.html">Featured Cases</a>
+</div>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title" data-i18n="nav.about">About Us</div>
+<a class="mobile-nav-link sub" href="about.html">Company Profile</a>
+<a class="mobile-nav-link sub" href="about-history.html">Milestones</a>
+<a class="mobile-nav-link sub" href="about-culture.html">Corporate Culture</a>
+<a class="mobile-nav-link sub" href="about-structure.html">Organizational Structure</a>
+<a class="mobile-nav-link sub" href="honors.html">Honors & Certifications</a>
+<a class="mobile-nav-link sub" href="about-responsibility.html">Social Responsibility</a>
+</div>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title" data-i18n="nav.cooperation">News & Partnerships</div>
+<a class="mobile-nav-link sub" href="news.html">News</a>
+<a class="mobile-nav-link sub" href="ir.html">Investor Relations</a>
+<a class="mobile-nav-link sub" href="partnership.html">Global Partnerships</a>
+</div>
+<a class="mobile-nav-link mobile-primary" href="membership.html">👑 Exclusive Membership</a>
+<a class="mobile-nav-link mobile-cta" href="contact.html">Contact Us</a>
+<div class="mobile-menu-footer">
+<a class="mobile-nav-link" href="../terms.html" id="mobileLangSwitch" style="border:1px solid rgba(201,169,110,0.3);border-radius:6px;display:inline-block;padding:12px 24px;color:#c9a96e;font-weight:600;margin-bottom:16px">🌐 Chinese</a>
+<span>Phone：13797920792 / +86 0755 3353-0188</span>
+<span>Email：hs@fantastic-vacation.com</span>
+</div>
+</div>
 <header class="page-hero">
 <div class="container reveal">
 <div class="hero-badge">✦ TERMS OF SERVICE ✦</div>
@@ -106,15 +155,15 @@
 <div style="padding:18px 0;border-bottom:1px solid var(--glass-border)">
 <h4 style="color:var(--gold);font-size:14px;margin-bottom:8px">Article 3 — Cancellation &amp; Modification</h4>
 <p style="font-size:13px;color:var(--text-muted);line-height:1.8">Cancellation more than 60 days before departure: full refund (less 5% handling fee). 30-60 days before departure: 50% refund. 15-30 days before departure: 30% refund. Within 15 days of departure: non-refundable. If force majeure (extreme weather, natural disasters, political unrest, epidemic control measures, etc.) prevents travel, both parties shall negotiate a date adjustment or refund arrangement.</p>
-<p style="font-size:12px;color:var(--text-dim);line-height:1.7;margin-top:6px">Article 3 — Cancellation and Changes — 60 days or more before departure: ： — full refund (less 5% handling fee)。30-60 days before departure: ： — 50%。15-30 days before departure: ： — 30%。15天以内取消：不可 — 。因不可抗力（极端天气、自然灾害、政治动荡、疫情管控等）导致无法出行的，双方协商调整日期或 — 方案。</p></div>
+<p style="font-size:12px;color:var(--text-dim);line-height:1.7;margin-top:6px">Article 3 — Cancellation and Changes — 60 days or more before departure: ： — full refund (less 5% handling fee)。30-60 days before departure: ： — 50%。15-30 days before departure: ： — 30%。15Cancellation within 7 days: Non- — In the event of inability to travel due to force majeure (extreme weather, natural disasters, political unrest, pandemic control measures, etc.), both parties shall negotiate to reschedule or — Plan。</p></div>
 <div style="padding:18px 0;border-bottom:1px solid var(--glass-border)">
 <h4 style="color:var(--gold);font-size:14px;margin-bottom:8px">Article 4 — Safety Liability &amp; Insurance</h4>
 <p style="font-size:13px;color:var(--text-muted);line-height:1.8">All voyages are covered by vessel insurance and third-party liability insurance compliant with International Maritime Organization (IMO) standards. Users must sign a safety confirmation form before boarding. Users are advised to purchase their own travel accident insurance and personal property insurance. During the voyage, users must follow the captain's instructions; any breach of safety regulations may result in voyage termination without refund.</p>
-<p style="font-size:12px;color:var(--text-dim);line-height:1.7;margin-top:6px">Article 4 — Safety &amp; Insurance — All voyages carry vessel insurance and third-party liability insurance complying with IMO standards.Passengers must sign a safety acknowledgment before boarding.Passengers are advised to purchase personal travel accident and personal effects insurance.航行期间须听从船长指挥，任何违反安全规定的行为可能导致航行终止且不予 — 。</p></div>
+<p style="font-size:12px;color:var(--text-dim);line-height:1.7;margin-top:6px">Article 4 — Safety &amp; Insurance — All voyages carry vessel insurance and third-party liability insurance complying with IMO standards.Passengers must sign a safety acknowledgment before boarding.Passengers are advised to purchase personal travel accident and personal effects insurance.During the voyage, all passengers must follow the captain's instructions. Any violation of safety regulations may result in termination of the voyage without — 。</p></div>
 <div style="padding:18px 0;border-bottom:1px solid var(--glass-border)">
 <h4 style="color:var(--gold);font-size:14px;margin-bottom:8px">Article 5 — Privacy &amp; Data Protection</h4>
 <p style="font-size:13px;color:var(--text-muted);line-height:1.8">The Company strictly complies with the Personal Information Protection Law and related privacy regulations. User personal information is used solely for service provision, order management, and user experience optimization, and will not be sold, rented, or improperly shared with third parties. Users have the right to access, correct, or delete their personal information at any time.</p>
-<p style="font-size:12px;color:var(--text-dim);line-height:1.7;margin-top:6px">Article 5 — Privacy &amp; Data Protection — The Company strictly complies with the Personal Information Protection Law and related privacy regulations.Users' personal data is used solely for service delivery, order management, and user experience optimisation, and will not be sold, leased, or improperly shared with third parties.用户有权随时要求查阅、更正或删除其个人信息。</p></div>
+<p style="font-size:12px;color:var(--text-dim);line-height:1.7;margin-top:6px">Article 5 — Privacy &amp; Data Protection — The Company strictly complies with the Personal Information Protection Law and related privacy regulations.Users' personal data is used solely for service delivery, order management, and user experience optimisation, and will not be sold, leased, or improperly shared with third parties.Users have the right to request access to, correction of, or deletion of their personal information at any time.</p></div>
 <div style="padding:18px 0;border-bottom:1px solid var(--glass-border)">
 <h4 style="color:var(--gold);font-size:14px;margin-bottom:8px">Article 6 — Intellectual Property</h4>
 <p style="font-size:13px;color:var(--text-muted);line-height:1.8">All content on this website (including but not limited to text, images, logos, and designs) is the intellectual property of the Company. Unauthorized reproduction, reposting, or commercial use is prohibited without written permission.</p>
@@ -122,7 +171,7 @@
 <div style="padding:18px 0">
 <h4 style="color:var(--gold);font-size:14px;margin-bottom:8px">Article 7 — Governing Law &amp; Dispute Resolution</h4>
 <p style="font-size:13px;color:var(--text-muted);line-height:1.8">These Terms are governed by the laws of the People's Republic of China. Any disputes arising from these Terms shall be resolved through friendly negotiation between the parties; if negotiation fails, the dispute shall be submitted to the Shenzhen Court of International Arbitration (SCIA) for arbitration. The arbitration award shall be final and binding.</p>
-<p style="font-size:12px;color:var(--text-dim);line-height:1.7;margin-top:6px">Article 7 — Governing Law &amp; Dispute Resolution — 本条款适用中华人民共和国法律。因本条款产生的争议，双方应友好协商解决；协商不成的，提交深圳国际仲裁院（SCIA）仲裁裁决。仲裁裁决为终局裁决。</p></div>
+<p style="font-size:12px;color:var(--text-dim);line-height:1.7;margin-top:6px">Article 7 — Governing Law &amp; Dispute Resolution — These Terms shall be governed by the laws of the People's Republic of China. Any disputes arising from these Terms shall be resolved through friendly negotiation between the parties; if negotiation fails, the dispute shall be submitted to the Shenzhen Court of International Arbitration (SCIAarbitration award. The arbitration award shall be final and binding.</p></div>
 </div></div>
 </div>
 </section><section class="section-padding" style="background:var(--dark2);text-align:center"><div class="container reveal">
@@ -292,4 +341,5 @@
 </div>
 
 <a href="https://wa.me/85255380525" target="_blank" class="floating-cta" style="text-decoration:none">💎 Online Consultation</a>
+<script src="../main.js"></script>
 </body></html>
