@@ -28659,10 +28659,7 @@ var dict = {
     "zh": "8-14",
     "en": "8-14"
   },
-  "index.426": {
-    "zh": "¥880万起",
-    "en": "¥880Million from"
-  },
+  "index.426": {"zh": "¥880万起", "en": "¥8.8 Million from"},
   "index.435": {
     "zh": "Fantasy Day Cruiser",
     "en": "Fantasy Day Cruiser"
@@ -28679,10 +28676,7 @@ var dict = {
     "zh": "6-12",
     "en": "6-12"
   },
-  "index.449": {
-    "zh": "¥280万起",
-    "en": "¥280Million from"
-  },
+  "index.449": {"zh": "¥280万起", "en": "¥2.8 Million from"},
   "index.690": {
     "zh": "2026.05.10",
     "en": "2026.05.10"
@@ -48351,10 +48345,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-1.317": {
-    "zh": "¥8000万起",
-    "en": "¥8000Million from"
-  },
+  "yacht-1.317": {"zh": "¥8000万起", "en": "¥80,000,000 from"},
   "yacht-1.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -48387,10 +48378,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-1.354": {
-    "zh": "¥8000万起",
-    "en": "¥8000Million from"
-  },
+  "yacht-1.354": {"zh": "¥8000万起", "en": "¥80,000,000 from"},
   "yacht-1.356": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -48887,10 +48875,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-10.317": {
-    "zh": "¥900万起",
-    "en": "¥900Million from"
-  },
+  "yacht-10.317": {"zh": "¥900万起", "en": "¥9,000,000 from"},
   "yacht-10.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -48947,10 +48932,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-10.366": {
-    "zh": "¥900万起",
-    "en": "¥900Million from"
-  },
+  "yacht-10.366": {"zh": "¥900万起", "en": "¥9,000,000 from"},
   "yacht-10.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -49447,10 +49429,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-11.317": {
-    "zh": "¥780万起",
-    "en": "¥780Million from"
-  },
+  "yacht-11.317": {"zh": "¥780万起", "en": "¥7.8 Million from"},
   "yacht-11.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -49507,10 +49486,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-11.366": {
-    "zh": "¥780万起",
-    "en": "¥780Million from"
-  },
+  "yacht-11.366": {"zh": "¥780万起", "en": "¥7.8 Million from"},
   "yacht-11.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -50007,10 +49983,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-12.317": {
-    "zh": "¥650万起",
-    "en": "¥650Million from"
-  },
+  "yacht-12.317": {"zh": "¥650万起", "en": "¥6.5 Million from"},
   "yacht-12.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -50067,10 +50040,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-12.366": {
-    "zh": "¥650万起",
-    "en": "¥650Million from"
-  },
+  "yacht-12.366": {"zh": "¥650万起", "en": "¥6.5 Million from"},
   "yacht-12.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -50567,10 +50537,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-13.317": {
-    "zh": "¥2400万起",
-    "en": "¥2400Million from"
-  },
+  "yacht-13.317": {"zh": "¥2400万起", "en": "¥24,000,000 from"},
   "yacht-13.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -50627,10 +50594,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-13.366": {
-    "zh": "¥2400万起",
-    "en": "¥2400Million from"
-  },
+  "yacht-13.366": {"zh": "¥2400万起", "en": "¥24,000,000 from"},
   "yacht-13.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -51127,10 +51091,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-14.317": {
-    "zh": "¥1800万起",
-    "en": "¥1800Million from"
-  },
+  "yacht-14.317": {"zh": "¥1800万起", "en": "¥18,000,000 from"},
   "yacht-14.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -51187,10 +51148,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-14.366": {
-    "zh": "¥1800万起",
-    "en": "¥1800Million from"
-  },
+  "yacht-14.366": {"zh": "¥1800万起", "en": "¥18,000,000 from"},
   "yacht-14.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -51687,10 +51645,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-15.317": {
-    "zh": "¥1400万起",
-    "en": "¥1400Million from"
-  },
+  "yacht-15.317": {"zh": "¥1400万起", "en": "¥14,000,000 from"},
   "yacht-15.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -51747,10 +51702,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-15.366": {
-    "zh": "¥1400万起",
-    "en": "¥1400Million from"
-  },
+  "yacht-15.366": {"zh": "¥1400万起", "en": "¥14,000,000 from"},
   "yacht-15.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -52247,10 +52199,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-16.317": {
-    "zh": "¥1000万起",
-    "en": "¥1000Million from"
-  },
+  "yacht-16.317": {"zh": "¥1000万起", "en": "¥10,000,000 from"},
   "yacht-16.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -52307,10 +52256,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-16.366": {
-    "zh": "¥1000万起",
-    "en": "¥1000Million from"
-  },
+  "yacht-16.366": {"zh": "¥1000万起", "en": "¥10,000,000 from"},
   "yacht-16.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -52807,10 +52753,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-17.317": {
-    "zh": "¥720万起",
-    "en": "¥720Million from"
-  },
+  "yacht-17.317": {"zh": "¥720万起", "en": "¥7.2 Million from"},
   "yacht-17.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -52867,10 +52810,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-17.366": {
-    "zh": "¥720万起",
-    "en": "¥720Million from"
-  },
+  "yacht-17.366": {"zh": "¥720万起", "en": "¥7.2 Million from"},
   "yacht-17.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -53367,10 +53307,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-18.317": {
-    "zh": "¥560万起",
-    "en": "¥560Million from"
-  },
+  "yacht-18.317": {"zh": "¥560万起", "en": "¥5.6 Million from"},
   "yacht-18.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -53427,10 +53364,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-18.366": {
-    "zh": "¥560万起",
-    "en": "¥560Million from"
-  },
+  "yacht-18.366": {"zh": "¥560万起", "en": "¥5.6 Million from"},
   "yacht-18.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -53923,10 +53857,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-19.317": {
-    "zh": "¥420万起",
-    "en": "¥420Million from"
-  },
+  "yacht-19.317": {"zh": "¥420万起", "en": "¥4.2 Million from"},
   "yacht-19.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -53983,10 +53914,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-19.366": {
-    "zh": "¥420万起",
-    "en": "¥420Million from"
-  },
+  "yacht-19.366": {"zh": "¥420万起", "en": "¥4.2 Million from"},
   "yacht-19.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -54483,10 +54411,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-2.317": {
-    "zh": "¥6500万起",
-    "en": "¥6500Million from"
-  },
+  "yacht-2.317": {"zh": "¥6500万起", "en": "¥65,000,000 from"},
   "yacht-2.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -54531,10 +54456,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-2.360": {
-    "zh": "¥6500万起",
-    "en": "¥6500Million from"
-  },
+  "yacht-2.360": {"zh": "¥6500万起", "en": "¥65,000,000 from"},
   "yacht-2.362": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -55031,10 +54953,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-20.317": {
-    "zh": "¥640万起",
-    "en": "¥640Million from"
-  },
+  "yacht-20.317": {"zh": "¥640万起", "en": "¥6.4 Million from"},
   "yacht-20.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -55091,10 +55010,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-20.366": {
-    "zh": "¥640万起",
-    "en": "¥640Million from"
-  },
+  "yacht-20.366": {"zh": "¥640万起", "en": "¥6.4 Million from"},
   "yacht-20.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -55591,10 +55507,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-21.317": {
-    "zh": "¥800万起",
-    "en": "¥800Million from"
-  },
+  "yacht-21.317": {"zh": "¥800万起", "en": "¥8,000,000 from"},
   "yacht-21.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -55651,10 +55564,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-21.366": {
-    "zh": "¥800万起",
-    "en": "¥800Million from"
-  },
+  "yacht-21.366": {"zh": "¥800万起", "en": "¥8,000,000 from"},
   "yacht-21.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -56151,10 +56061,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-22.317": {
-    "zh": "¥1100万起",
-    "en": "¥1100Million from"
-  },
+  "yacht-22.317": {"zh": "¥1100万起", "en": "¥11,000,000 from"},
   "yacht-22.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -56211,10 +56118,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-22.366": {
-    "zh": "¥1100万起",
-    "en": "¥1100Million from"
-  },
+  "yacht-22.366": {"zh": "¥1100万起", "en": "¥11,000,000 from"},
   "yacht-22.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -56711,10 +56615,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-23.317": {
-    "zh": "¥760万起",
-    "en": "¥760Million from"
-  },
+  "yacht-23.317": {"zh": "¥760万起", "en": "¥7.6 Million from"},
   "yacht-23.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -56771,10 +56672,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-23.366": {
-    "zh": "¥760万起",
-    "en": "¥760Million from"
-  },
+  "yacht-23.366": {"zh": "¥760万起", "en": "¥7.6 Million from"},
   "yacht-23.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -57271,10 +57169,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-24.317": {
-    "zh": "¥950万起",
-    "en": "¥950Million from"
-  },
+  "yacht-24.317": {"zh": "¥950万起", "en": "¥9.5 Million from"},
   "yacht-24.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -57331,10 +57226,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-24.366": {
-    "zh": "¥950万起",
-    "en": "¥950Million from"
-  },
+  "yacht-24.366": {"zh": "¥950万起", "en": "¥9.5 Million from"},
   "yacht-24.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -57831,10 +57723,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-25.317": {
-    "zh": "¥620万起",
-    "en": "¥620Million from"
-  },
+  "yacht-25.317": {"zh": "¥620万起", "en": "¥6.2 Million from"},
   "yacht-25.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -57891,10 +57780,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-25.366": {
-    "zh": "¥620万起",
-    "en": "¥620Million from"
-  },
+  "yacht-25.366": {"zh": "¥620万起", "en": "¥6.2 Million from"},
   "yacht-25.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -58391,10 +58277,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-26.317": {
-    "zh": "¥450万起",
-    "en": "¥450Million from"
-  },
+  "yacht-26.317": {"zh": "¥450万起", "en": "¥4.5 Million from"},
   "yacht-26.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -58451,10 +58334,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-26.366": {
-    "zh": "¥450万起",
-    "en": "¥450Million from"
-  },
+  "yacht-26.366": {"zh": "¥450万起", "en": "¥4.5 Million from"},
   "yacht-26.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -58947,10 +58827,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-27.317": {
-    "zh": "¥320万起",
-    "en": "¥320Million from"
-  },
+  "yacht-27.317": {"zh": "¥320万起", "en": "¥3.2 Million from"},
   "yacht-27.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -59007,10 +58884,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-27.366": {
-    "zh": "¥320万起",
-    "en": "¥320Million from"
-  },
+  "yacht-27.366": {"zh": "¥320万起", "en": "¥3.2 Million from"},
   "yacht-27.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -59503,10 +59377,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-28.317": {
-    "zh": "¥220万起",
-    "en": "¥220Million from"
-  },
+  "yacht-28.317": {"zh": "¥220万起", "en": "¥2.2 Million from"},
   "yacht-28.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -59563,10 +59434,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-28.366": {
-    "zh": "¥220万起",
-    "en": "¥220Million from"
-  },
+  "yacht-28.366": {"zh": "¥220万起", "en": "¥2.2 Million from"},
   "yacht-28.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -60059,10 +59927,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-29.317": {
-    "zh": "¥160万起",
-    "en": "¥160Million from"
-  },
+  "yacht-29.317": {"zh": "¥160万起", "en": "¥1.6 Million from"},
   "yacht-29.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -60119,10 +59984,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-29.366": {
-    "zh": "¥160万起",
-    "en": "¥160Million from"
-  },
+  "yacht-29.366": {"zh": "¥160万起", "en": "¥1.6 Million from"},
   "yacht-29.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -60619,10 +60481,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-3.317": {
-    "zh": "¥5000万起",
-    "en": "¥5000Million from"
-  },
+  "yacht-3.317": {"zh": "¥5000万起", "en": "¥50,000,000 from"},
   "yacht-3.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -60679,10 +60538,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-3.366": {
-    "zh": "¥5000万起",
-    "en": "¥5000Million from"
-  },
+  "yacht-3.366": {"zh": "¥5000万起", "en": "¥50,000,000 from"},
   "yacht-3.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -61175,10 +61031,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-30.317": {
-    "zh": "¥110万起",
-    "en": "¥110Million from"
-  },
+  "yacht-30.317": {"zh": "¥110万起", "en": "¥1.1 Million from"},
   "yacht-30.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -61235,10 +61088,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-30.366": {
-    "zh": "¥110万起",
-    "en": "¥110Million from"
-  },
+  "yacht-30.366": {"zh": "¥110万起", "en": "¥1.1 Million from"},
   "yacht-30.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -61731,10 +61581,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-31.317": {
-    "zh": "¥80万起",
-    "en": "¥80Million from"
-  },
+  "yacht-31.317": {"zh": "¥80万起", "en": "¥800,000 from"},
   "yacht-31.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -61791,10 +61638,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-31.366": {
-    "zh": "¥80万起",
-    "en": "¥80Million from"
-  },
+  "yacht-31.366": {"zh": "¥80万起", "en": "¥800,000 from"},
   "yacht-31.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -62287,10 +62131,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-32.317": {
-    "zh": "¥55万起",
-    "en": "¥55Million from"
-  },
+  "yacht-32.317": {"zh": "¥55万起", "en": "¥550,000 from"},
   "yacht-32.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -62347,10 +62188,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-32.366": {
-    "zh": "¥55万起",
-    "en": "¥55Million from"
-  },
+  "yacht-32.366": {"zh": "¥55万起", "en": "¥550,000 from"},
   "yacht-32.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -62847,10 +62685,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-33.317": {
-    "zh": "¥560万起",
-    "en": "¥560Million from"
-  },
+  "yacht-33.317": {"zh": "¥560万起", "en": "¥5.6 Million from"},
   "yacht-33.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -62907,10 +62742,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-33.366": {
-    "zh": "¥560万起",
-    "en": "¥560Million from"
-  },
+  "yacht-33.366": {"zh": "¥560万起", "en": "¥5.6 Million from"},
   "yacht-33.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -63403,10 +63235,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-34.317": {
-    "zh": "¥360万起",
-    "en": "¥360Million from"
-  },
+  "yacht-34.317": {"zh": "¥360万起", "en": "¥3.6 Million from"},
   "yacht-34.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -63463,10 +63292,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-34.366": {
-    "zh": "¥360万起",
-    "en": "¥360Million from"
-  },
+  "yacht-34.366": {"zh": "¥360万起", "en": "¥3.6 Million from"},
   "yacht-34.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -63959,10 +63785,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-35.317": {
-    "zh": "¥260万起",
-    "en": "¥260Million from"
-  },
+  "yacht-35.317": {"zh": "¥260万起", "en": "¥2.6 Million from"},
   "yacht-35.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -64019,10 +63842,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-35.366": {
-    "zh": "¥260万起",
-    "en": "¥260Million from"
-  },
+  "yacht-35.366": {"zh": "¥260万起", "en": "¥2.6 Million from"},
   "yacht-35.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -64515,10 +64335,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-36.317": {
-    "zh": "¥130万起",
-    "en": "¥130Million from"
-  },
+  "yacht-36.317": {"zh": "¥130万起", "en": "¥1.3 Million from"},
   "yacht-36.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -64575,10 +64392,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-36.366": {
-    "zh": "¥130万起",
-    "en": "¥130Million from"
-  },
+  "yacht-36.366": {"zh": "¥130万起", "en": "¥1.3 Million from"},
   "yacht-36.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -65071,10 +64885,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-37.317": {
-    "zh": "¥190万起",
-    "en": "¥190Million from"
-  },
+  "yacht-37.317": {"zh": "¥190万起", "en": "¥1.9 Million from"},
   "yacht-37.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -65131,10 +64942,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-37.366": {
-    "zh": "¥190万起",
-    "en": "¥190Million from"
-  },
+  "yacht-37.366": {"zh": "¥190万起", "en": "¥1.9 Million from"},
   "yacht-37.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -65627,10 +65435,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-38.317": {
-    "zh": "¥48万起",
-    "en": "¥48Million from"
-  },
+  "yacht-38.317": {"zh": "¥48万起", "en": "¥480,000 from"},
   "yacht-38.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -65687,10 +65492,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-38.366": {
-    "zh": "¥48万起",
-    "en": "¥48Million from"
-  },
+  "yacht-38.366": {"zh": "¥48万起", "en": "¥480,000 from"},
   "yacht-38.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -66183,10 +65985,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-39.317": {
-    "zh": "¥32万起",
-    "en": "¥32Million from"
-  },
+  "yacht-39.317": {"zh": "¥32万起", "en": "¥320,000 from"},
   "yacht-39.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -66243,10 +66042,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-39.366": {
-    "zh": "¥32万起",
-    "en": "¥32Million from"
-  },
+  "yacht-39.366": {"zh": "¥32万起", "en": "¥320,000 from"},
   "yacht-39.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -66743,10 +66539,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-4.317": {
-    "zh": "¥4200万起",
-    "en": "¥4200Million from"
-  },
+  "yacht-4.317": {"zh": "¥4200万起", "en": "¥42,000,000 from"},
   "yacht-4.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -66803,10 +66596,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-4.366": {
-    "zh": "¥4200万起",
-    "en": "¥4200Million from"
-  },
+  "yacht-4.366": {"zh": "¥4200万起", "en": "¥42,000,000 from"},
   "yacht-4.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -67299,10 +67089,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-40.317": {
-    "zh": "¥22万起",
-    "en": "¥22Million from"
-  },
+  "yacht-40.317": {"zh": "¥22万起", "en": "¥220,000 from"},
   "yacht-40.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -67359,10 +67146,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-40.366": {
-    "zh": "¥22万起",
-    "en": "¥22Million from"
-  },
+  "yacht-40.366": {"zh": "¥22万起", "en": "¥220,000 from"},
   "yacht-40.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -67855,10 +67639,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-41.317": {
-    "zh": "¥15万起",
-    "en": "¥15Million from"
-  },
+  "yacht-41.317": {"zh": "¥15万起", "en": "¥150,000 from"},
   "yacht-41.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -67915,10 +67696,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-41.366": {
-    "zh": "¥15万起",
-    "en": "¥15Million from"
-  },
+  "yacht-41.366": {"zh": "¥15万起", "en": "¥150,000 from"},
   "yacht-41.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -68411,10 +68189,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-42.317": {
-    "zh": "¥10万起",
-    "en": "¥10Million from"
-  },
+  "yacht-42.317": {"zh": "¥10万起", "en": "¥100,000 from"},
   "yacht-42.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -68471,10 +68246,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-42.366": {
-    "zh": "¥10万起",
-    "en": "¥10Million from"
-  },
+  "yacht-42.366": {"zh": "¥10万起", "en": "¥100,000 from"},
   "yacht-42.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -68967,10 +68739,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-43.317": {
-    "zh": "¥38万起",
-    "en": "¥38Million from"
-  },
+  "yacht-43.317": {"zh": "¥38万起", "en": "¥380,000 from"},
   "yacht-43.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -69027,10 +68796,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-43.366": {
-    "zh": "¥38万起",
-    "en": "¥38Million from"
-  },
+  "yacht-43.366": {"zh": "¥38万起", "en": "¥380,000 from"},
   "yacht-43.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -69523,10 +69289,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-44.317": {
-    "zh": "¥26万起",
-    "en": "¥26Million from"
-  },
+  "yacht-44.317": {"zh": "¥26万起", "en": "¥260,000 from"},
   "yacht-44.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -69583,10 +69346,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-44.366": {
-    "zh": "¥26万起",
-    "en": "¥26Million from"
-  },
+  "yacht-44.366": {"zh": "¥26万起", "en": "¥260,000 from"},
   "yacht-44.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -70079,10 +69839,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-45.317": {
-    "zh": "¥18万起",
-    "en": "¥18Million from"
-  },
+  "yacht-45.317": {"zh": "¥18万起", "en": "¥180,000 from"},
   "yacht-45.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -70139,10 +69896,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-45.366": {
-    "zh": "¥18万起",
-    "en": "¥18Million from"
-  },
+  "yacht-45.366": {"zh": "¥18万起", "en": "¥180,000 from"},
   "yacht-45.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -70635,10 +70389,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-46.317": {
-    "zh": "¥42万起",
-    "en": "¥42Million from"
-  },
+  "yacht-46.317": {"zh": "¥42万起", "en": "¥420,000 from"},
   "yacht-46.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -70695,10 +70446,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-46.366": {
-    "zh": "¥42万起",
-    "en": "¥42Million from"
-  },
+  "yacht-46.366": {"zh": "¥42万起", "en": "¥420,000 from"},
   "yacht-46.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -71191,10 +70939,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-47.317": {
-    "zh": "¥52万起",
-    "en": "¥52Million from"
-  },
+  "yacht-47.317": {"zh": "¥52万起", "en": "¥520,000 from"},
   "yacht-47.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -71251,10 +70996,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-47.366": {
-    "zh": "¥52万起",
-    "en": "¥52Million from"
-  },
+  "yacht-47.366": {"zh": "¥52万起", "en": "¥520,000 from"},
   "yacht-47.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -71747,10 +71489,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-48.317": {
-    "zh": "¥58万起",
-    "en": "¥58Million from"
-  },
+  "yacht-48.317": {"zh": "¥58万起", "en": "¥580,000 from"},
   "yacht-48.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -71807,10 +71546,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-48.366": {
-    "zh": "¥58万起",
-    "en": "¥58Million from"
-  },
+  "yacht-48.366": {"zh": "¥58万起", "en": "¥580,000 from"},
   "yacht-48.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -72303,10 +72039,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-49.317": {
-    "zh": "¥65万起",
-    "en": "¥65Million from"
-  },
+  "yacht-49.317": {"zh": "¥65万起", "en": "¥650,000 from"},
   "yacht-49.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -72351,10 +72084,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-49.360": {
-    "zh": "¥65万起",
-    "en": "¥65Million from"
-  },
+  "yacht-49.360": {"zh": "¥65万起", "en": "¥650,000 from"},
   "yacht-49.362": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -72851,10 +72581,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-5.317": {
-    "zh": "¥3500万起",
-    "en": "¥3500Million from"
-  },
+  "yacht-5.317": {"zh": "¥3500万起", "en": "¥35,000,000 from"},
   "yacht-5.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -72911,10 +72638,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-5.366": {
-    "zh": "¥3500万起",
-    "en": "¥3500Million from"
-  },
+  "yacht-5.366": {"zh": "¥3500万起", "en": "¥35,000,000 from"},
   "yacht-5.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -73407,10 +73131,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-50.317": {
-    "zh": "¥72万起",
-    "en": "¥72Million from"
-  },
+  "yacht-50.317": {"zh": "¥72万起", "en": "¥720,000 from"},
   "yacht-50.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -73443,10 +73164,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-50.354": {
-    "zh": "¥72万起",
-    "en": "¥72Million from"
-  },
+  "yacht-50.354": {"zh": "¥72万起", "en": "¥720,000 from"},
   "yacht-50.356": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -73943,10 +73661,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-6.317": {
-    "zh": "¥2800万起",
-    "en": "¥2800Million from"
-  },
+  "yacht-6.317": {"zh": "¥2800万起", "en": "¥28,000,000 from"},
   "yacht-6.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -74003,10 +73718,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-6.366": {
-    "zh": "¥2800万起",
-    "en": "¥2800Million from"
-  },
+  "yacht-6.366": {"zh": "¥2800万起", "en": "¥28,000,000 from"},
   "yacht-6.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -74503,10 +74215,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-7.317": {
-    "zh": "¥2200万起",
-    "en": "¥2200Million from"
-  },
+  "yacht-7.317": {"zh": "¥2200万起", "en": "¥22,000,000 from"},
   "yacht-7.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -74563,10 +74272,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-7.366": {
-    "zh": "¥2200万起",
-    "en": "¥2200Million from"
-  },
+  "yacht-7.366": {"zh": "¥2200万起", "en": "¥22,000,000 from"},
   "yacht-7.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -75063,10 +74769,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-8.317": {
-    "zh": "¥1600万起",
-    "en": "¥1600Million from"
-  },
+  "yacht-8.317": {"zh": "¥1600万起", "en": "¥16,000,000 from"},
   "yacht-8.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -75123,10 +74826,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-8.366": {
-    "zh": "¥1600万起",
-    "en": "¥1600Million from"
-  },
+  "yacht-8.366": {"zh": "¥1600万起", "en": "¥16,000,000 from"},
   "yacht-8.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -75623,10 +75323,7 @@ var dict = {
     "zh": "参考价格",
     "en": "reference price"
   },
-  "yacht-9.317": {
-    "zh": "¥1200万起",
-    "en": "¥1200Million from"
-  },
+  "yacht-9.317": {"zh": "¥1200万起", "en": "¥12,000,000 from"},
   "yacht-9.322": {
     "zh": "实拍图库",
     "en": "Real shot gallery"
@@ -75683,10 +75380,7 @@ var dict = {
     "zh": "查看详情 →",
     "en": "View Details →"
   },
-  "yacht-9.366": {
-    "zh": "¥1200万起",
-    "en": "¥1200Million from"
-  },
+  "yacht-9.366": {"zh": "¥1200万起", "en": "¥12,000,000 from"},
   "yacht-9.368": {
     "zh": "参考价格，实际价格以定制配置为准",
     "en": "Reference price, actual price is subject to customized configuration"
@@ -75883,10 +75577,7 @@ var dict = {
     "zh": "📞 联系我们",
     "en": "📞 Contact Us"
   },
-  "yachts.495": {
-    "zh": "¥900万起",
-    "en": "¥900Million from"
-  },
+  "yachts.495": {"zh": "¥900万起", "en": "¥9,000,000 from"},
   "yachts.506": {
     "zh": "FH-48 · 48m · 传承经典 · 典藏级远洋游艇",
     "en": "FH-48 · 48m · Heritage classic · Collection-class ocean yacht"
@@ -75895,10 +75586,7 @@ var dict = {
     "zh": "10",
     "en": "10"
   },
-  "yachts.515": {
-    "zh": "¥780万起",
-    "en": "¥780Million from"
-  },
+  "yachts.515": {"zh": "¥780万起", "en": "¥7.8 Million from"},
   "yachts.526": {
     "zh": "FH-45 · 45m · 典雅旗舰 · 高端定制级游艇",
     "en": "FH-45 · 45m · Elegant flagship · High-end customized yacht"
@@ -75907,10 +75595,7 @@ var dict = {
     "zh": "10",
     "en": "10"
   },
-  "yachts.535": {
-    "zh": "¥650万起",
-    "en": "¥650Million from"
-  },
+  "yachts.535": {"zh": "¥650万起", "en": "¥6.5 Million from"},
   "yachts.546": {
     "zh": "FH-68 · 68m · 极地远征 · 冰区航行探险旗舰",
     "en": "FH-68 · 68m · Polar Expedition · Ice Navigation Expedition Flagship"
@@ -75919,10 +75604,7 @@ var dict = {
     "zh": "16",
     "en": "16"
   },
-  "yachts.555": {
-    "zh": "¥2400万起",
-    "en": "¥2400Million from"
-  },
+  "yachts.555": {"zh": "¥2400万起", "en": "¥24,000,000 from"},
   "yachts.566": {
     "zh": "FH-60 · 60m · 深海巡航 · 远洋科考探险游艇",
     "en": "FH-60 · 60m · Deep sea cruising · Ocean scientific research expedition yacht"
@@ -75931,10 +75613,7 @@ var dict = {
     "zh": "14",
     "en": "14"
   },
-  "yachts.575": {
-    "zh": "¥1800万起",
-    "en": "¥1800Million from"
-  },
+  "yachts.575": {"zh": "¥1800万起", "en": "¥18,000,000 from"},
   "yachts.586": {
     "zh": "FH-55 · 55m · 环球航海 · 无畏探险远航游艇",
     "en": "FH-55 · 55m · Global sailing · Fearless expedition yacht"
@@ -75943,10 +75622,7 @@ var dict = {
     "zh": "12",
     "en": "12"
   },
-  "yachts.595": {
-    "zh": "¥1400万起",
-    "en": "¥1400Million from"
-  },
+  "yachts.595": {"zh": "¥1400万起", "en": "¥14,000,000 from"},
   "yachts.606": {
     "zh": "FH-48 · 48m · 远洋探索 · 极限探险豪华游艇",
     "en": "FH-48 · 48m · Ocean Exploration · Extreme Adventure Luxury Yacht"
@@ -75955,10 +75631,7 @@ var dict = {
     "zh": "12",
     "en": "12"
   },
-  "yachts.615": {
-    "zh": "¥1000万起",
-    "en": "¥1000Million from"
-  },
+  "yachts.615": {"zh": "¥1000万起", "en": "¥10,000,000 from"},
   "yachts.626": {
     "zh": "FH-42 · 42m · 远航自由 · 无拘探索巡航游艇",
     "en": "FH-42 · 42m · Freedom of voyage · Unrestricted exploration cruising yacht"
@@ -75967,10 +75640,7 @@ var dict = {
     "zh": "10",
     "en": "10"
   },
-  "yachts.635": {
-    "zh": "¥720万起",
-    "en": "¥720Million from"
-  },
+  "yachts.635": {"zh": "¥720万起", "en": "¥7.2 Million from"},
   "yachts.646": {
     "zh": "FH-38 · 38m · 极光追踪 · 北极探险专属游艇",
     "en": "FH-38 · 38m · Aurora Tracking · Arctic Expedition Exclusive Yacht"
@@ -75979,18 +75649,12 @@ var dict = {
     "zh": "10",
     "en": "10"
   },
-  "yachts.655": {
-    "zh": "¥560万起",
-    "en": "¥560Million from"
-  },
+  "yachts.655": {"zh": "¥560万起", "en": "¥5.6 Million from"},
   "yachts.666": {
     "zh": "FH-35 · 35m · 风暴挑战 · 全天候远征游艇",
     "en": "FH-35 · 35m · Storm Challenge · All-Weather Expedition Yacht"
   },
-  "yachts.675": {
-    "zh": "¥420万起",
-    "en": "¥420Million from"
-  },
+  "yachts.675": {"zh": "¥420万起", "en": "¥4.2 Million from"},
   "yachts.686": {
     "zh": "FH-40 · 40m · 开辟新航 · 探险级远征旗舰",
     "en": "FH-40 · 40m · Opening up new routes · Adventure-class expedition flagship"
@@ -75999,10 +75663,7 @@ var dict = {
     "zh": "10",
     "en": "10"
   },
-  "yachts.695": {
-    "zh": "¥640万起",
-    "en": "¥640Million from"
-  },
+  "yachts.695": {"zh": "¥640万起", "en": "¥6.4 Million from"},
   "yachts.706": {
     "zh": "FH-44 · 44m · 远航开拓 · 大洋巡航游艇",
     "en": "FH-44 · 44m · Voyage development · Ocean cruising yacht"
@@ -76011,10 +75672,7 @@ var dict = {
     "zh": "10",
     "en": "10"
   },
-  "yachts.715": {
-    "zh": "¥800万起",
-    "en": "¥800Million from"
-  },
+  "yachts.715": {"zh": "¥800万起", "en": "¥8,000,000 from"},
   "yachts.726": {
     "zh": "FH-52 · 52m · 星空导航 · 远征级豪华游艇",
     "en": "FH-52 · 52m · Star navigation · Expedition-class luxury yacht"
@@ -76023,10 +75681,7 @@ var dict = {
     "zh": "12",
     "en": "12"
   },
-  "yachts.735": {
-    "zh": "¥1100万起",
-    "en": "¥1100Million from"
-  },
+  "yachts.735": {"zh": "¥1100万起", "en": "¥11,000,000 from"},
   "yachts.746": {
     "zh": "FH-46 · 46m · 深海探秘 · 科考级探险游艇",
     "en": "FH-46 · 46m · Deep sea exploration · Scientific expedition yacht"
@@ -76035,10 +75690,7 @@ var dict = {
     "zh": "10",
     "en": "10"
   },
-  "yachts.755": {
-    "zh": "¥760万起",
-    "en": "¥760Million from"
-  },
+  "yachts.755": {"zh": "¥760万起", "en": "¥7.6 Million from"},
   "yachts.766": {
     "zh": "FH-50 · 50m · 发现之旅 · 环球探险游艇",
     "en": "FH-50 · 50m · Journey of Discovery · Global Expedition Yacht"
@@ -76047,10 +75699,7 @@ var dict = {
     "zh": "12",
     "en": "12"
   },
-  "yachts.775": {
-    "zh": "¥950万起",
-    "en": "¥950Million from"
-  },
+  "yachts.775": {"zh": "¥950万起", "en": "¥9.5 Million from"},
   "yachts.786": {
     "zh": "FH-45 · 45m · 海上盛宴 · 超级派对飞桥游艇",
     "en": "FH-45 · 45m · Sea Feast · Super Party Flybridge Yacht"
@@ -76059,10 +75708,7 @@ var dict = {
     "zh": "10",
     "en": "10"
   },
-  "yachts.795": {
-    "zh": "¥620万起",
-    "en": "¥620Million from"
-  },
+  "yachts.795": {"zh": "¥620万起", "en": "¥6.2 Million from"},
   "yachts.806": {
     "zh": "FH-38 · 38m · 悠闲巡游 · 地中海风情飞桥游",
     "en": "FH-38 · 38m · Leisurely cruising · Mediterranean style fly bridge tour"
@@ -76071,58 +75717,37 @@ var dict = {
     "zh": "10",
     "en": "10"
   },
-  "yachts.815": {
-    "zh": "¥450万起",
-    "en": "¥450Million from"
-  },
+  "yachts.815": {"zh": "¥450万起", "en": "¥4.5 Million from"},
   "yachts.826": {
     "zh": "FH-32 · 32m · 慢享生活 · 休闲飞桥豪华游艇",
     "en": "FH-32 · 32m · Enjoy slow life · Leisure flybridge luxury yacht"
   },
-  "yachts.835": {
-    "zh": "¥320万起",
-    "en": "¥320Million from"
-  },
+  "yachts.835": {"zh": "¥320万起", "en": "¥3.2 Million from"},
   "yachts.846": {
     "zh": "FH-28 · 28m · 都市巡航 · 港湾飞桥轻奢游艇",
     "en": "FH-28 · 28m · Urban cruising · Harbor flybridge light luxury yacht"
   },
-  "yachts.855": {
-    "zh": "¥220万起",
-    "en": "¥220Million from"
-  },
+  "yachts.855": {"zh": "¥220万起", "en": "¥2.2 Million from"},
   "yachts.866": {
     "zh": "FH-25 · 25m · 北欧风情 · 极地飞桥游艇",
     "en": "FH-25 · 25m · Nordic style · Polar flybridge yacht"
   },
-  "yachts.875": {
-    "zh": "¥160万起",
-    "en": "¥160Million from"
-  },
+  "yachts.875": {"zh": "¥160万起", "en": "¥1.6 Million from"},
   "yachts.886": {
     "zh": "FH-22 · 22m · 绅士品味 · 经典飞桥游艇",
     "en": "FH-22 · 22m · Gentleman’s taste · Classic flybridge yacht"
   },
-  "yachts.895": {
-    "zh": "¥110万起",
-    "en": "¥110Million from"
-  },
+  "yachts.895": {"zh": "¥110万起", "en": "¥1.1 Million from"},
   "yachts.906": {
     "zh": "FH-20 · 20m · 灵活驾控 · 运动飞桥游艇",
     "en": "FH-20 · 20m · Flexible control · Sports flybridge yacht"
   },
-  "yachts.915": {
-    "zh": "¥80万起",
-    "en": "¥80Million from"
-  },
+  "yachts.915": {"zh": "¥80万起", "en": "¥800,000 from"},
   "yachts.926": {
     "zh": "FH-18 · 18m · 东方诗意 · 休闲飞桥游艇",
     "en": "FH-18 · 18m · Oriental poetry · Leisure flybridge yacht"
   },
-  "yachts.935": {
-    "zh": "¥55万起",
-    "en": "¥55Million from"
-  },
+  "yachts.935": {"zh": "¥55万起", "en": "¥550,000 from"},
   "yachts.946": {
     "zh": "FH-42 · 42m · 星光航线 · 豪华飞桥游艇",
     "en": "FH-42 · 42m · Starlight Line · Luxury flybridge yacht"
@@ -76131,146 +75756,92 @@ var dict = {
     "zh": "10",
     "en": "10"
   },
-  "yachts.955": {
-    "zh": "¥560万起",
-    "en": "¥560Million from"
-  },
+  "yachts.955": {"zh": "¥560万起", "en": "¥5.6 Million from"},
   "yachts.966": {
     "zh": "FH-35 · 35m · 热带天堂 · 度假飞桥游艇",
     "en": "FH-35 · 35m · Tropical Paradise · Holiday Flybridge Yacht"
   },
-  "yachts.975": {
-    "zh": "¥360万起",
-    "en": "¥360Million from"
-  },
+  "yachts.975": {"zh": "¥360万起", "en": "¥3.6 Million from"},
   "yachts.986": {
     "zh": "FH-30 · 30m · 人生悦享 · 舒适飞桥游艇",
     "en": "FH-30 · 30m · Enjoy life · Comfortable flybridge yacht"
   },
-  "yachts.995": {
-    "zh": "¥260万起",
-    "en": "¥260Million from"
-  },
+  "yachts.995": {"zh": "¥260万起", "en": "¥2.6 Million from"},
   "yachts.1006": {
     "zh": "FH-24 · 24m · 翡翠航线 · 轻奢飞桥游艇",
     "en": "FH-24 · 24m · Emerald Line · Light luxury flybridge yacht"
   },
-  "yachts.1015": {
-    "zh": "¥130万起",
-    "en": "¥130Million from"
-  },
+  "yachts.1015": {"zh": "¥130万起", "en": "¥1.3 Million from"},
   "yachts.1026": {
     "zh": "FH-27 · 27m · 日出巡航 · 晨间飞桥游艇",
     "en": "FH-27 · 27m · Sunrise Cruise · Morning Flybridge Yacht"
   },
-  "yachts.1035": {
-    "zh": "¥190万起",
-    "en": "¥190Million from"
-  },
+  "yachts.1035": {"zh": "¥190万起", "en": "¥1.9 Million from"},
   "yachts.1046": {
     "zh": "FH-18 · 18m · 极速运动 · 竞速级日间游艇",
     "en": "FH-18 · 18m · Extreme sports · Racing day yacht"
   },
-  "yachts.1055": {
-    "zh": "¥48万起",
-    "en": "¥48Million from"
-  },
+  "yachts.1055": {"zh": "¥48万起", "en": "¥480,000 from"},
   "yachts.1066": {
     "zh": "FH-15 · 15m · 速度与激情 · 竞速运动游艇",
     "en": "FH-15 · 15m · Fast and Furious · Racing Sports Yacht"
   },
-  "yachts.1075": {
-    "zh": "¥32万起",
-    "en": "¥32Million from"
-  },
+  "yachts.1075": {"zh": "¥32万起", "en": "¥320,000 from"},
   "yachts.1086": {
     "zh": "FH-13 · 13m · 飞跃浪尖 · 运动型日间游艇",
     "en": "FH-13 · 13m · Fly over the waves · Sports day yacht"
   },
-  "yachts.1095": {
-    "zh": "¥22万起",
-    "en": "¥22Million from"
-  },
+  "yachts.1095": {"zh": "¥22万起", "en": "¥220,000 from"},
   "yachts.1106": {
     "zh": "FH-11 · 11m · 闪电出击 · 极速日间游艇",
     "en": "FH-11 · 11m · Lightning Strike · Extremely fast day yacht"
   },
-  "yachts.1115": {
-    "zh": "¥15万起",
-    "en": "¥15Million from"
-  },
+  "yachts.1115": {"zh": "¥15万起", "en": "¥150,000 from"},
   "yachts.1126": {
     "zh": "FH-10 · 10m · 轻快巡航 · 入门运动游艇",
     "en": "FH-10 · 10m · Light cruising · Entry-level sports yacht"
   },
-  "yachts.1135": {
-    "zh": "¥10万起",
-    "en": "¥10Million from"
-  },
+  "yachts.1135": {"zh": "¥10万起", "en": "¥100,000 from"},
   "yachts.1146": {
     "zh": "FH-16 · 16m · 欢乐巡航 · 亲水运动游艇",
     "en": "FH-16 · 16m · Happy cruising · Water sports yacht"
   },
-  "yachts.1155": {
-    "zh": "¥38万起",
-    "en": "¥38Million from"
-  },
+  "yachts.1155": {"zh": "¥38万起", "en": "¥380,000 from"},
   "yachts.1166": {
     "zh": "FH-14 · 14m · 活力四射 · 运动日间游艇",
     "en": "FH-14 · 14m · Dynamic · Sports Day Yacht"
   },
-  "yachts.1175": {
-    "zh": "¥26万起",
-    "en": "¥26Million from"
-  },
+  "yachts.1175": {"zh": "¥26万起", "en": "¥260,000 from"},
   "yachts.1186": {
     "zh": "FH-12 · 12m · 破浪前行 · 运动型日间游艇",
     "en": "FH-12 · 12m · Breaking the waves · Sports day yacht"
   },
-  "yachts.1195": {
-    "zh": "¥18万起",
-    "en": "¥18Million from"
-  },
+  "yachts.1195": {"zh": "¥18万起", "en": "¥180,000 from"},
   "yachts.1206": {
     "zh": "FH-17 · 17m · 近海巡航 · 实用运动游艇",
     "en": "FH-17 · 17m · Offshore cruising · Practical sports yacht"
   },
-  "yachts.1215": {
-    "zh": "¥42万起",
-    "en": "¥42Million from"
-  },
+  "yachts.1215": {"zh": "¥42万起", "en": "¥420,000 from"},
   "yachts.1226": {
     "zh": "FH-19 · 19m · 青春领航 · 时尚运动游艇",
     "en": "FH-19 · 19m · Youth Navigation · Fashionable Sports Yacht"
   },
-  "yachts.1235": {
-    "zh": "¥52万起",
-    "en": "¥52Million from"
-  },
+  "yachts.1235": {"zh": "¥52万起", "en": "¥520,000 from"},
   "yachts.1246": {
     "zh": "FH-20 · 20m · 乘风而出 · 运动巡航游艇",
     "en": "FH-20 · 20m · Ride the Wind · Sports Cruising Yacht"
   },
-  "yachts.1255": {
-    "zh": "¥58万起",
-    "en": "¥58Million from"
-  },
+  "yachts.1255": {"zh": "¥58万起", "en": "¥580,000 from"},
   "yachts.1266": {
     "zh": "FH-22 · 22m · 海天一色 · 休闲运动游艇",
     "en": "FH-22 · 22m · Sea and sky · Leisure sports yacht"
   },
-  "yachts.1275": {
-    "zh": "¥65万起",
-    "en": "¥65Million from"
-  },
+  "yachts.1275": {"zh": "¥65万起", "en": "¥650,000 from"},
   "yachts.1286": {
     "zh": "FH-24 · 24m · 远翔出海 · 全能运动游艇",
     "en": "FH-24 · 24m · Go to sea · All-round sports yacht"
   },
-  "yachts.1295": {
-    "zh": "¥72万起",
-    "en": "¥72Million from"
-  },
+  "yachts.1295": {"zh": "¥72万起", "en": "¥720,000 from"},
   "yachts.1340": {
     "zh": "「探索全球，不负假期」",
     "en": "\"Explore the world and live up to your vacation\""
