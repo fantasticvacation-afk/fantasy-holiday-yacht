@@ -24,12 +24,12 @@
 .article-hero{position:relative;min-height:60vh;display:flex;align-items:center;justify-content:center;overflow:hidden;background:linear-gradient(135deg,#0a1628 0%,#1a2a48 50%,#2d1810 100%)}
 .article-hero::before{content:'';position:absolute;inset:0;background:url('images/yttp/yacht-123.jpg') center/cover no-repeat;opacity:0.35}
 .article-hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:200px;background:linear-gradient(to top,var(--dark1),transparent)}
-.article-hero-content{position:relative;z-index:3;text-align:center;padding:0 20px;max-width:900px}
+.article-hero-content{position:relative;z-index:3;text-align:center;padding:0 20px;max-width:1200px}
 .article-hero h1{font-family:'Playfair Display',serif;font-size:clamp(26px,4vw,44px);font-weight:800;line-height:1.3;margin-bottom:20px}
 .article-meta{display:flex;justify-content:center;gap:24px;margin-bottom:16px}
 .article-meta span{font-size:12px;color:var(--text-muted);letter-spacing:1px}
 .article-meta span:last-child{color:var(--gold);font-weight:500}
-.article-body{max-width:800px;margin:0 auto;padding:60px 20px}
+.article-body{max-width:1200px;margin:0 auto;padding:60px 20px}
 .article-body p{font-size:16px;line-height:1.9;color:var(--text);margin-bottom:24px}
 .article-body p:first-of-type{font-size:18px;color:var(--text-muted)}
 .breadcrumb{padding:20px 0;text-align:center}
@@ -41,50 +41,48 @@
 <div id="loader"><div class="brand" data-i18n="news-004.15">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div></div>
 <nav id="navbar" aria-label="主导航">
 <div class="nav-inner">
-<a class="nav-logo" href="index.html" aria-label="奇幻假期实业有限公司首页">
-<span class="nav-logo-text">奇幻假期实业有限公司 <em>FANTASTIC VACATION</em></span>
-</a>
+
 <div class="nav-links" role="menubar" aria-label="主导航菜单">
-<a href="index.html" class="nav-main-link" role="menuitem">首页</a>
+<a href="index.html" class="nav-main-link" role="menuitem" data-i18n="nav.home">首页</a>
 <div class="nav-dropdown nav-megamenu" role="none">
-<a href="yachts.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">产品与服务 <span class="nav-arrow" aria-hidden="true"></span></a>
+<a href="yachts.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false" data-i18n="nav.products">产品与服务 <span class="nav-arrow" aria-hidden="true"></span></a>
 <div class="nav-dropdown-menu nav-megamenu-panel" role="menu" aria-label="产品与服务子菜单">
 <div class="megamenu-col">
-<a href="yachts-sovereign.html" role="menuitem">君临系列</a>
-<a href="yachts-expedition.html" role="menuitem">远征系列</a>
-<a href="yachts-flybridge.html" role="menuitem">飞桥系列</a>
-<a href="yachts-daycruiser.html" role="menuitem">日间系列</a>
+<a href="yachts-sovereign.html" role="menuitem" data-i18n="nav.products.sovereign">君临系列</a>
+<a href="yachts-expedition.html" role="menuitem" data-i18n="nav.products.expedition">远征系列</a>
+<a href="yachts-flybridge.html" role="menuitem" data-i18n="nav.products.flybridge">飞桥系列</a>
+<a href="yachts-daycruiser.html" role="menuitem" data-i18n="nav.products.daycruiser">日间系列</a>
 </div>
 <div class="megamenu-col">
-<a href="custom.html" role="menuitem">定制解决方案</a>
-<a href="charter.html" role="menuitem">租赁服务</a>
-<a href="management.html" role="menuitem">游艇管理服务</a>
-<a href="cases.html" role="menuitem">精选案例</a>
+<a href="custom.html" role="menuitem" data-i18n="nav.products.solutions">定制解决方案</a>
+<a href="charter.html" role="menuitem" data-i18n="nav.products.charter_svc">租赁服务</a>
+<a href="management.html" role="menuitem" data-i18n="nav.products.mgmt_svc">游艇管理服务</a>
+<a href="cases.html" role="menuitem" data-i18n="nav.products.cases">精选案例</a>
 </div>
 </div>
 </div>
 <div class="nav-dropdown" role="none">
-<a href="about.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">关于我们 <span class="nav-arrow" aria-hidden="true"></span></a>
+<a href="about.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false" data-i18n="nav.about">关于我们 <span class="nav-arrow" aria-hidden="true"></span></a>
 <div class="nav-dropdown-menu" role="menu" aria-label="关于我们子菜单">
-<a href="about.html" role="menuitem">公司简介</a>
-<a href="about-history.html" role="menuitem">发展历程</a>
-<a href="about-culture.html" role="menuitem">企业文化</a>
-<a href="about-structure.html" role="menuitem">组织架构</a>
-<a href="honors.html" role="menuitem">荣誉资质</a>
-<a href="about-responsibility.html" role="menuitem">社会责任</a>
+<a href="about.html" role="menuitem" data-i18n="nav.about.profile">公司简介</a>
+<a href="about-history.html" role="menuitem" data-i18n="nav.about.history">发展历程</a>
+<a href="about-culture.html" role="menuitem" data-i18n="nav.about.culture">企业文化</a>
+<a href="about-structure.html" role="menuitem" data-i18n="nav.about.structure">组织架构</a>
+<a href="honors.html" role="menuitem" data-i18n="nav.about.honors">荣誉资质</a>
+<a href="about-responsibility.html" role="menuitem" data-i18n="nav.about.responsibility">社会责任</a>
 </div>
 </div>
 <div class="nav-dropdown" role="none">
-<a href="news.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false">资讯与合作 <span class="nav-arrow" aria-hidden="true"></span></a>
+<a href="news.html" class="nav-main-link" role="menuitem" aria-haspopup="true" aria-expanded="false" data-i18n="nav.cooperation">资讯与合作 <span class="nav-arrow" aria-hidden="true"></span></a>
 <div class="nav-dropdown-menu" role="menu" aria-label="资讯与合作子菜单">
-<a href="news.html" role="menuitem">新闻资讯</a>
-<a href="ir.html" role="menuitem">投资者关系</a>
-<a href="partnership.html" role="menuitem">全球合作</a>
+<a href="news.html" role="menuitem" data-i18n="nav.news.info">新闻资讯</a>
+<a href="ir.html" role="menuitem" data-i18n="nav.ir">投资者关系</a>
+<a href="partnership.html" role="menuitem" data-i18n="nav.business.partnership">全球合作</a>
 </div>
 </div>
 <div class="nav-cta-group" role="none">
-<a class="nav-cta-btn" href="membership.html" role="menuitem">👑 尊享会员</a>
-<a class="nav-cta-btn nav-cta-primary" href="contact.html" role="menuitem">联系我们</a>
+<a class="nav-cta-btn" href="membership.html" role="menuitem" data-i18n="nav.member">👑 尊享会员</a>
+<a class="nav-cta-btn nav-cta-primary" href="contact.html" role="menuitem" data-i18n="nav.contact">联系我们</a>
 </div>
 </div>
 <div class="nav-actions" role="none">
@@ -102,28 +100,74 @@
 </div>
 </div>
 </nav>
+</nav>
+<div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="移动端导航菜单">
+<button class="mobile-menu-close" onclick="toggleMobile()" aria-label="关闭菜单">
+<svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="24" aria-hidden="true">
+<line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line>
+</svg>
+</button>
+
+<a class="mobile-nav-link" href="index.html" data-i18n="nav.home">首页</a>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title" data-i18n="nav.products">产品与服务</div>
+<a class="mobile-nav-link sub" href="yachts-sovereign.html" data-i18n="nav.products.sovereign">君临系列</a>
+<a class="mobile-nav-link sub" href="yachts-expedition.html" data-i18n="nav.products.expedition">远征系列</a>
+<a class="mobile-nav-link sub" href="yachts-flybridge.html" data-i18n="nav.products.flybridge">飞桥系列</a>
+<a class="mobile-nav-link sub" href="yachts-daycruiser.html" data-i18n="nav.products.daycruiser">日间系列</a>
+<a class="mobile-nav-link sub" href="custom.html" data-i18n="nav.products.solutions">定制解决方案</a>
+<a class="mobile-nav-link sub" href="charter.html" data-i18n="nav.products.charter_svc">租赁服务</a>
+<a class="mobile-nav-link sub" href="management.html" data-i18n="nav.products.mgmt_svc">游艇管理服务</a>
+<a class="mobile-nav-link sub" href="cases.html" data-i18n="nav.products.cases">精选案例</a>
+</div>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title" data-i18n="nav.about">关于我们</div>
+<a class="mobile-nav-link sub" href="about.html" data-i18n="nav.about.profile">公司简介</a>
+<a class="mobile-nav-link sub" href="about-history.html" data-i18n="nav.about.history">发展历程</a>
+<a class="mobile-nav-link sub" href="about-culture.html" data-i18n="nav.about.culture">企业文化</a>
+<a class="mobile-nav-link sub" href="about-structure.html" data-i18n="nav.about.structure">组织架构</a>
+<a class="mobile-nav-link sub" href="honors.html" data-i18n="nav.about.honors">荣誉资质</a>
+<a class="mobile-nav-link sub" href="about-responsibility.html" data-i18n="nav.about.responsibility">社会责任</a>
+</div>
+<div class="mobile-nav-group">
+<div class="mobile-nav-group-title" data-i18n="nav.cooperation">资讯与合作</div>
+<a class="mobile-nav-link sub" href="news.html" data-i18n="nav.news.info">新闻资讯</a>
+<a class="mobile-nav-link sub" href="ir.html" data-i18n="nav.ir">投资者关系</a>
+<a class="mobile-nav-link sub" href="partnership.html" data-i18n="nav.business.partnership">全球合作</a>
+</div>
+<a class="mobile-nav-link mobile-primary" href="membership.html" data-i18n="nav.member">👑 尊享会员</a>
+<a class="mobile-nav-link mobile-cta" href="contact.html" data-i18n="nav.contact">联系我们</a>
+<div class="mobile-menu-footer">
+<a class="mobile-nav-link" href="en/index.html" id="mobileLangSwitch" style="border:1px solid rgba(201,169,110,0.3);border-radius:6px;display:inline-block;padding:12px 24px;color:#c9a96e;font-weight:600;margin-bottom:16px">🌐 English Version</a>
+<span>电话：13797920792 / +86 0755 3353-0188</span>
+<span>邮箱：hs@fantastic-vacation.com</span>
+</div>
+</div>
 <article class="single-news container"   style="margin-top:120px">
 <header class="news-article-header" style="margin-bottom:48px;text-align:center">
 <div class="news-meta" style="display:flex;gap:12px;justify-content:center;margin-bottom:16px;font-size:13px;color:var(--text-dim)">
-<span>2026年3月20日</span>
+<span data-i18n="news-004.923">2026年3月20日</span>
 <span>·</span>
-<span class="news-tag tag-industry" style="color:var(--gold);font-weight:500">行业趋势</span>
+<span class="news-tag tag-industry" style="color:var(--gold);font-weight:500" data-i18n="news-004.924">行业趋势</span>
 </div>
 <h1 class="gold-gradient" style="font-size:clamp(24px,4vw,36px);line-height:1.3;margin-bottom:20px">2026全球游艇市场报告：新能源动力游艇增长超40%</h1>
-<p class="news-lead" style="font-size:17px;color:var(--text-muted);margin:0 auto;line-height:1.7">权威机构发布年度报告，揭示游艇行业绿色转型的三大关键趋势</p>
+<p class="news-lead" style="font-size:17px;color:var(--text-muted);margin:0 auto;line-height:1.7" data-i18n="news-004.925">权威机构发布年度报告，揭示游艇行业绿色转型的三大关键趋势</p>
 </header>
 <div class="news-article-body container"  >
-<p style="color:var(--text-muted);line-height:2;font-size:15px;margin-bottom:20px">国际游艇行业协会今日发布《2026全球游艇市场年度报告》，数据显示全球新能源动力游艇（含混合动力与纯电动）的订单量较2025年增长超过40%，呈现爆发式增长态势。报告指出，这一增长主要受欧盟碳排放法规趋严、高端船东环保意识增强、以及电池技术的快速进步三大因素驱动。</p><p style="color:var(--text-muted);line-height:2;font-size:15px;margin-bottom:20px">报告同时披露了另外两个值得关注的趋势：一是"探险游艇"细分市场持续升温，极地与南太平洋成为最热门的新兴航向目的地；二是"数字孪生"技术在造船工艺中的应用，使得远程客户能够实时监看建造过程中的每一个细节。</p><p style="color:var(--text-muted);line-height:2;font-size:15px;margin-bottom:20px">奇幻假期技术团队表示，公司已在过去两年中向超过30位客户成功推荐了混合动力或纯电动方案，显著降低了船队整体碳排放。同时，公司与多家船厂合作开发了专为亚洲海域优化的混合动力推进配置。</p><p style="color:var(--text-muted);line-height:2;font-size:15px;margin-bottom:20px">报告预计，到2030年，全球新交付游艇中新能源动力占比将突破60%，这一趋势将重塑整个行业的竞争格局。</p>
+<p style="color:var(--text-muted);line-height:2;font-size:15px;margin-bottom:20px" data-i18n="news-004.926">全球游艇行业协会（GLA）发布的《2026全球游艇市场报告》显示，2025年全球游艇市场规模达约284亿美元，较前一年增长11.3%，预计到2030年将突破420亿美元。新能源动力游艇订单量同比增长42%，首次占据新增订单总量的18%。亚洲市场以15.8%的年增长率成为全球增长最快区域，中国市场增速高达27%。</p><p style="color:var(--text-muted);line-height:2;font-size:15px;margin-bottom:20px" data-i18n="news-004.927">报告由GLA联合麦肯锡、瑞银共同编撰，历时八个月，调研了全球89个国家和地区超过2000家游艇企业。报告指出，推动市场增长的核心动力已从「财富积累效应」转向「生活方式升级需求」。超过60%的受访高净值人士有意在五年内购买或租赁游艇，较三年前高出18个百分点。</p><p style="color:var(--text-muted);line-height:2;font-size:15px;margin-bottom:20px" data-i18n="news-004.928">2025年亚洲游艇市场规模达约127亿美元，占全球份额的45%，较五年前增长近一倍。中国以约35%的亚洲市场份额位居第一，亚洲买家平均采购预算约1800万美元，较欧洲买家高出约15%。</p><p style="color:var(--text-muted);line-height:2;font-size:15px;margin-bottom:20px" data-i18n="news-004.929">新能源游艇爆发式增长得益于三重因素：欧盟和IMO环保法规趋严；电池和电机技术快速进步；新能源汽车品牌培养了高净值人群对新能源产品的接受度。柴电混合动力是目前商业化程度最高的方案，荷兰Oceanco的55米混合动力游艇Artemis号碳排放降低38%，舱内噪音从72分贝降至52分贝。</p>
+
+<p style="color:var(--text-muted);line-height:2;font-size:15px;margin-bottom:20px" data-i18n="news-004.930">奇幻假期首席技术官赵明阳表示：「我们看好氢能游艇的未来，但短期内仍以混合动力为主流。公司计划2027年前将混合动力游艇在自有船队中占比提升至60%。」公司还启动了全面智能化升级，计划2027年推出自主研发的OceanX OS智能船队管理系统。</p>
+<p style="color:var(--text-muted);line-height:2;font-size:15px;margin-bottom:20px" data-i18n="news-004.931">报告预测全球游艇市场将呈现五大趋势：新能源化、智能化、共享化、体验化和绿色化。到2030年，新能源动力游艇在新增订单中的占比有望突破40%；智能驾驶辅助系统将成为30米以上游艇的标准配置。</p>
 </div>
 </article>
 
 <section class="section-padding" style="background:var(--dark2);text-align:center">
 <div class="container">
-<div class="section-header reveal"><h2>推荐阅读</h2></div>
+<div class="section-header reveal"><h2 data-i18n="detail.recommended_reading">推荐阅读</h2></div>
 <div class="cta-buttons" style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-top:32px">
-<a href="news.html" class="btn btn-outline">返回新闻中心 →</a>
-<a href="cases.html" class="btn btn-outline">查看案例展示 →</a>
-<a href="contact.html" class="btn btn-primary">咨询专业顾问 →</a>
+<a href="news.html" class="btn btn-outline" data-i18n="detail.back_to_news">返回新闻中心 →</a>
+<a href="cases.html" class="btn btn-outline" data-i18n="detail.view_cases">查看案例展示 →</a>
+<a href="contact.html" class="btn btn-primary" data-i18n="detail.consult_advisor">咨询专业顾问 →</a>
 </div>
 </div>
 </section>
@@ -134,7 +178,7 @@
 <div class="footer-grid" data-i18n="index.799">
 <!-- Column 1: Brand -->
 <div class="footer-col footer-brand-col">
-<a class="footer-logo" href="../index.html">
+<a class="footer-logo" href="index.html">
 <div>
 <div class="footer-logo-name" data-i18n="index.201">奇幻假期实业有限公司</div>
 <div class="footer-logo-en" data-i18n="index.202">FANTASTIC VACATION INDUSTRIAL CO., LTD.</div>
@@ -169,17 +213,17 @@
 <div class="footer-col">
 <h4 class="footer-col-title" data-i18n="index.850">快速导航</h4>
 <ul class="footer-links">
-<li data-i18n="index.209"><a data-i18n="index.210" href="../index.html">首页</a></li>
-<li data-i18n="index.1"><a data-i18n="index.211" href="../about.html">关于我们</a></li>
-<li data-i18n="index.2"><a data-i18n="index.212" href="../yachts.html">全系游艇</a></li>
-          <li><a href="../membership.html" data-i18n="footer.member" style="color:#c9a96e;font-weight:500">👑 尊享会员</a></li>
-<li data-i18n="index.3"><a data-i18n="index.213" href="../custom.html">全案定制</a></li>
-<li data-i18n="index.4"><a data-i18n="index.214" href="../charter.html">租赁航线</a></li>
-<li data-i18n="index.5"><a data-i18n="index.215" href="../management.html">托管维保</a></li>
-<li data-i18n="index.6"><a data-i18n="index.216" href="../cases.html">案例展示</a></li>
-<li data-i18n="index.7"><a data-i18n="index.217" href="../news.html">新闻资讯</a></li>
-<li data-i18n="index.8"><a data-i18n="index.218" href="../partnership.html">全球合作</a></li>
-<li data-i18n="index.9"><a data-i18n="index.219" href="../sitemap.html">网站地图</a></li>
+<li data-i18n="index.209"><a data-i18n="index.210" href="index.html">首页</a></li>
+<li data-i18n="index.1"><a data-i18n="index.211" href="about.html">关于我们</a></li>
+<li data-i18n="index.2"><a data-i18n="index.212" href="yachts.html">全系游艇</a></li>
+          <li><a href="membership.html" data-i18n="footer.member" style="color:#c9a96e;font-weight:500">👑 尊享会员</a></li>
+<li data-i18n="index.3"><a data-i18n="index.213" href="custom.html">全案定制</a></li>
+<li data-i18n="index.4"><a data-i18n="index.214" href="charter.html">租赁航线</a></li>
+<li data-i18n="index.5"><a data-i18n="index.215" href="management.html">托管维保</a></li>
+<li data-i18n="index.6"><a data-i18n="index.216" href="cases.html">案例展示</a></li>
+<li data-i18n="index.7"><a data-i18n="index.217" href="news.html">新闻资讯</a></li>
+<li data-i18n="index.8"><a data-i18n="index.218" href="partnership.html">全球合作</a></li>
+<li data-i18n="index.9"><a data-i18n="index.219" href="sitemap.html">网站地图</a></li>
 </ul>
 </div>
 <!-- Column 3: Contact -->
@@ -241,7 +285,7 @@
 </div>
 </div>
 <div class="footer-recruit" data-i18n="index.21">
-<a class="recruit-link" data-i18n="index.959" href="../contact.html">
+<a class="recruit-link" data-i18n="index.959" href="contact.html">
 <svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
             <span data-i18n="_recruit">加入我们 · 招聘职位</span>
           </a>
@@ -256,9 +300,9 @@
 <span data-i18n="index.230">© 2020-2026 奇幻假期实业有限公司 FANTASTIC VACATION INDUSTRIAL CO., LTD. 保留所有权利。</span>
 </div>
 <div class="legal-links" data-i18n="index.23">
-<a data-i18n="index.231" href="../privacy.html">隐私政策</a>
-<a data-i18n="index.232" href="../terms.html">使用条款</a>
-<a data-i18n="index.233" href="../sitemap.html">网站地图</a>
+<a data-i18n="index.231" href="privacy.html">隐私政策</a>
+<a data-i18n="index.232" href="terms.html">使用条款</a>
+<a data-i18n="index.233" href="sitemap.html">网站地图</a>
 </div>
 </div>
 <div></div>
@@ -274,12 +318,14 @@
 </button>
 </div>
 <div class="search-suggestions">
-<div class="search-suggestion-item">→ 探索全系游艇</div>
-<div class="search-suggestion-item">→ 定制专属游艇</div>
-<div class="search-suggestion-item">→ 浏览全球航线</div>
-<div class="search-suggestion-item">→ 联系专业顾问</div>
+<div class="search-suggestion-item" data-i18n="index.5">→ 探索全系游艇</div>
+<div class="search-suggestion-item" data-i18n="index.6">→ 定制专属游艇</div>
+<div class="search-suggestion-item" data-i18n="index.7">→ 浏览全球航线</div>
+<div class="search-suggestion-item" data-i18n="index.8">→ 联系专业顾问</div>
 </div>
 </div>
 
-<a href="https://wa.me/85255380525" target="_blank" class="floating-cta" style="text-decoration:none">💎 在线咨询</a>
+<a href="https://wa.me/85255380525" target="_blank" class="floating-cta" style="text-decoration:none" data-i18n="custom.1130">💎 在线咨询</a>
+<script src="main.js"></script>
+<script src="i18n.js"></script>
 </body></html>
