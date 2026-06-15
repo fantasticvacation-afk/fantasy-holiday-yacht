@@ -193,7 +193,7 @@
 }
 .cases-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
   gap: 32px;
 }
 .case-card {
@@ -276,7 +276,7 @@
 }
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
   gap: 40px;
   text-align: center;
 }
@@ -338,8 +338,8 @@
 
 /* Responsive */
 @media (max-width: 1024px) {
-  .cases-grid { grid-template-columns: repeat(2, 1fr); }
-  .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 30px; }
+  .cases-grid { grid-template-columns:repeat(auto-fit,minmax(350px,1fr)); }
+  .stats-grid { grid-template-columns:repeat(auto-fit,minmax(350px,1fr)); gap: 30px; }
 }
 @media (max-width: 640px) {
   .cases-grid { grid-template-columns: 1fr; }

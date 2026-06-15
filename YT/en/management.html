@@ -158,7 +158,7 @@
 /* Service Cards Grid */
 .service-grid-m {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
   gap: 28px;
 }
 .svc-card {
@@ -284,7 +284,7 @@
 /* Pricing Plans */
 .plans-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
   gap: 28px;
   align-items: start;
 }
@@ -400,7 +400,7 @@
 /* Advantages */
 .adv-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
   gap: 24px;
 }
 .adv-item {
@@ -484,9 +484,9 @@
 
 /* Responsive */
 @media (max-width: 1024px) {
-  .service-grid-m { grid-template-columns: repeat(2, 1fr); }
+  .service-grid-m { grid-template-columns:repeat(auto-fit,minmax(350px,1fr)); }
   .plans-grid { grid-template-columns: 1fr; max-width: 480px; margin: 0 auto; }
-  .adv-grid { grid-template-columns: repeat(2, 1fr); }
+  .adv-grid { grid-template-columns:repeat(auto-fit,minmax(350px,1fr)); }
 }
 @media (max-width: 640px) {
   .service-grid-m { grid-template-columns: 1fr; }
@@ -887,7 +887,7 @@
 <p data-i18n="management.685">Authoritative certifications with multi-layered protection</p>
 <div class="divider-line"></div>
 </div>
-<div class="service-grid-m reveal" style="grid-template-columns: repeat(4, 1fr);">
+<div class="service-grid-m reveal" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));">
 <div class="svc-card" style="text-align:center;padding:36px 20px;">
 <div style="font-size:40px;margin-bottom:14px;">🏆</div>
 <h3 data-i18n="management.693" style="font-size:16px;">ISO 9001 Certification</h3>

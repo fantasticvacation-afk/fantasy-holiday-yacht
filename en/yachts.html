@@ -36,7 +36,7 @@
 .fleet-card-body{padding:22px}
 .fleet-card-body h3{font-size:16px;margin-bottom:2px}
 .fleet-card-body .model-en{font-size:11px;color:var(--text-dim);letter-spacing:1px;margin-bottom:12px}
-.fleet-specs-row{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:14px}
+.fleet-specs-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin-bottom:14px}
 .fleet-spec-val{font-size:16px;color:var(--gold);font-weight:600;font-family:'Playfair Display',serif}
 .fleet-spec-label{font-size:10px;color:var(--text-dim);letter-spacing:0.5px;text-transform:uppercase}
 .fleet-card-footer{display:flex;justify-content:space-between;align-items:center;padding-top:14px;border-top:1px solid var(--glass-border)}
@@ -51,10 +51,10 @@
 .detail-spec-item{background:var(--dark2);padding:18px 14px;text-align:center}
 .detail-spec-item .spec-val{font-size:18px;color:var(--gold);font-family:'Playfair Display',serif;font-weight:600}
 .detail-spec-item .spec-label{font-size:10px;color:var(--text-dim);letter-spacing:1px;text-transform:uppercase;margin-top:4px}
-.detail-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:40px}
+.detail-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:40px}
 .detail-gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px;transition:transform 0.4s;cursor:pointer}
 .detail-gallery img:hover{transform:scale(1.03)}
-@media(max-width:768px){.detail-gallery{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:768px){.detail-gallery{grid-template-columns:repeat(auto-fit,minmax(350px,1fr))}}
 #backToTop{display:none;position:fixed;bottom:30px;right:30px;width:44px;height:44px;background:rgba(201,169,110,0.15);border:1px solid var(--gold);border-radius:50%;color:var(--gold);font-size:20px;cursor:pointer;z-index:99;transition:all 0.3s}
 #backToTop:hover{background:var(--gold);color:var(--dark1)}
 #backToTop.visible{display:flex;align-items:center;justify-content:center}
