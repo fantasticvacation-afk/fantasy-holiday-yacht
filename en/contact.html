@@ -58,7 +58,7 @@
 .form-privacy{font-size:11px;color:var(--text-dim);margin-top:10px;line-height:1.6}
 
 /* Offices */
-.office-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(390px,1fr));gap:24px}
+.office-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
 .office-card{background:rgba(255,255,255,0.015);border:1px solid rgba(255,255,255,0.04);border-radius:14px;padding:28px 24px;transition:all 0.35s;position:relative;overflow:hidden}
 .office-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--gold),transparent);opacity:0;transition:opacity 0.35s}
 .office-card:hover{border-color:rgba(201,169,110,0.2);transform:translateY(-4px)}
@@ -302,7 +302,7 @@
 </div>
 </div></section>
 <!-- Global Offices -->
-<section class="section-padding"><div class="container">
+<section class="section-padding"><div class="container container-wide">
 <div class="section-header reveal"><h2 data-i18n="contact.131"><span class="gold-gradient" data-i18n="contact.132">Global Offices</span></h2><p data-i18n="contact.133" style="color:var(--text-muted);margin:10px auto 30px;font-size:14px">Fantastic Vacation has established direct offices in the world's core yachting markets, providing native-language support and localized compliance assurance for local clients.</p></div>
 <div class="office-grid">
 <div class="office-card reveal">

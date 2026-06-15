@@ -27,7 +27,7 @@
 .partnership-hero-content{position:relative;z-index:3;padding:0 20px;max-width:1000px}
 .partnership-hero h1{font-family:'Playfair Display',serif;font-size:clamp(32px,5vw,56px);font-weight:800;letter-spacing:3px;margin-bottom:16px}
 .partnership-hero .subtitle{font-size:clamp(14px,1.6vw,20px);color:var(--text-muted);font-weight:300;letter-spacing:2px;margin-bottom:32px;line-height:1.7}
-.stats-row{display:flex;justify-content:center;gap:48px;margin-top:40px;flex-wrap:wrap}
+.stats-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:24px;margin-top:40px;max-width:800px;margin-left:auto;margin-right:auto}
 .stat-item{display:flex;flex-direction:column;align-items:center}
 .stat-val{font-size:clamp(32px,4vw,48px);font-weight:700;color:var(--gold);font-family:'Playfair Display',serif}
 .stat-label{font-size:12px;color:var(--text-muted);letter-spacing:1px;margin-top:8px;text-transform:uppercase}
@@ -65,9 +65,9 @@
 .logo-item[data-category="hotel"] span{color:#ee5a24}
 
 .network-map-section{padding:100px 0;background:linear-gradient(180deg,var(--dark1),var(--dark3))}
-.map-container{position:relative;border-radius:20px;overflow:hidden;background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.1);min-height:500px;display:flex;align-items:center;justify-content:center}
+.map-container{position:relative;border-radius:20px;overflow:hidden;background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.1);min-height:280px;display:flex;align-items:center;justify-content:center}
 .map-placeholder{color:var(--text-muted);font-size:14px;text-align:center;padding:40px}
-.map-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:24px;margin-top:48px}
+.map-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:32px}
 .map-stat{background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.1);border-radius:12px;padding:24px;text-align:center}
 .map-stat-val{font-size:32px;font-weight:700;color:var(--gold);font-family:'Playfair Display',serif}
 .map-stat-label{font-size:12px;color:var(--text-muted);margin-top:8px;letter-spacing:1px}
@@ -104,7 +104,7 @@
 .cta-contact{display:flex;flex-direction:column;gap:12px;margin-bottom:32px}
 .cta-contact div{font-size:15px;color:var(--text)}
 .cta-contact a{color:var(--gold);text-decoration:none}
-</style>
+@media(max-width:768px){.map-container{min-height:200px}.map-stats{grid-template-columns:repeat(2,1fr)}}@media(max-width:480px){.map-stats{grid-template-columns:1fr}}</style>
   <link rel="icon" type="image/svg+xml" href="../favicon.svg"/></head>
 <body>
 <div id="loader"><div class="brand" data-i18n="partnership.14">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div></div>

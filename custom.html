@@ -16,14 +16,14 @@
 .custom-hero-content{position:relative;z-index:2;max-width:1200px;margin:0 auto;padding:0 24px}
 .custom-hero h1{font-size:clamp(32px,5vw,60px);line-height:1.2;margin-bottom:12px}
 .design-quote{font-family:'Playfair Display',serif;font-size:clamp(18px,2.5vw,28px);color:var(--gold);font-style:italic;line-height:1.5;max-width:700px;margin:0 auto 24px}
-.flow-visual{display:flex;justify-content:center;gap:0;flex-wrap:wrap;align-items:flex-start;margin-top:32px;position:relative}
-.flow-node{flex:0 0 auto;text-align:center;padding:16px 8px;min-width:110px;position:relative}
-.flow-node-icon{width:56px;height:56px;border-radius:50%;background:rgba(201,169,110,0.1);border:2px solid rgba(201,169,110,0.3);display:flex;align-items:center;justify-content:center;margin:0 auto 10px;font-size:24px}
+.flow-visual{display:grid;grid-template-columns:repeat(3,1fr);gap:16px 24px;margin-top:32px;position:relative}
+.flow-node{text-align:center;padding:20px 12px;position:relative}
+.flow-node-icon{width:64px;height:64px;border-radius:50%;background:rgba(201,169,110,0.1);border:2px solid rgba(201,169,110,0.3);display:flex;align-items:center;justify-content:center;margin:0 auto 12px;font-size:26px}
 .flow-node-num{position:absolute;top:-6px;right:-6px;width:22px;height:22px;background:var(--gold);border-radius:50%;font-size:11px;color:var(--dark1);display:flex;align-items:center;justify-content:center;font-weight:700}
 .flow-node h5{font-size:13px;color:var(--gold);margin-bottom:4px}
 .flow-node p{font-size:10px;color:var(--text-dim);line-height:1.5}
-.flow-connector{color:var(--gold);font-size:18px;padding-top:24px}
-@media(max-width:768px){.flow-visual{gap:8px}.flow-connector{display:none}}
+.flow-connector{display:none}
+@media(max-width:768px){.flow-visual{grid-template-columns:repeat(2,1fr);gap:12px}.flow-connector{display:none}}
 .design-module{background:var(--card);border:1px solid var(--glass-border);border-radius:var(--radius);padding:40px 30px;transition:var(--transition);position:relative;overflow:hidden}
 .design-module:hover{transform:translateY(-6px);border-color:rgba(201,169,110,0.3);box-shadow:var(--shadow-gold)}
 .design-module::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,transparent,var(--gold),transparent);opacity:0;transition:opacity 0.4s}
