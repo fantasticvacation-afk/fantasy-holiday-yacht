@@ -1,0 +1,342 @@
+[
+  {
+    "file": "partner-type-brand.html",
+    "class": "benefits-grid",
+    "cards": 5,
+    "current_cols": 3,
+    "current_last_row": 2,
+    "best_cols": 3,
+    "current_minmax": 380,
+    "recommended_minmax": 390
+  },
+  {
+    "file": "partner-type-association.html",
+    "class": "benefits-grid",
+    "cards": 5,
+    "current_cols": 3,
+    "current_last_row": 2,
+    "best_cols": 3,
+    "current_minmax": 380,
+    "recommended_minmax": 390
+  },
+  {
+    "file": "partner-type-service.html",
+    "class": "benefits-grid",
+    "cards": 5,
+    "current_cols": 3,
+    "current_last_row": 2,
+    "best_cols": 3,
+    "current_minmax": 380,
+    "recommended_minmax": 390
+  },
+  {
+    "file": "partner-type-shipyard.html",
+    "class": "benefits-grid",
+    "cards": 5,
+    "current_cols": 3,
+    "current_last_row": 2,
+    "best_cols": 3,
+    "current_minmax": 380,
+    "recommended_minmax": 390
+  },
+  {
+    "file": "partner-type-tech.html",
+    "class": "benefits-grid",
+    "cards": 5,
+    "current_cols": 3,
+    "current_last_row": 2,
+    "best_cols": 3,
+    "current_minmax": 380,
+    "recommended_minmax": 390
+  },
+  {
+    "file": "partner-type-agent.html",
+    "class": "benefits-grid",
+    "cards": 5,
+    "current_cols": 3,
+    "current_last_row": 2,
+    "best_cols": 3,
+    "current_minmax": 380,
+    "recommended_minmax": 390
+  },
+  {
+    "file": "partner-type-hotel.html",
+    "class": "benefits-grid",
+    "cards": 5,
+    "current_cols": 3,
+    "current_last_row": 2,
+    "best_cols": 3,
+    "current_minmax": 380,
+    "recommended_minmax": 390
+  },
+  {
+    "file": "partner-type-art.html",
+    "class": "benefits-grid",
+    "cards": 5,
+    "current_cols": 3,
+    "current_last_row": 2,
+    "best_cols": 3,
+    "current_minmax": 380,
+    "recommended_minmax": 390
+  },
+  {
+    "file": "partner-type-marina.html",
+    "class": "benefits-grid",
+    "cards": 5,
+    "current_cols": 3,
+    "current_last_row": 2,
+    "best_cols": 3,
+    "current_minmax": 380,
+    "recommended_minmax": 390
+  },
+  {
+    "file": "partner-type-aviation.html",
+    "class": "benefits-grid",
+    "cards": 5,
+    "current_cols": 3,
+    "current_last_row": 2,
+    "best_cols": 3,
+    "current_minmax": 380,
+    "recommended_minmax": 390
+  },
+  {
+    "file": "partnership.html",
+    "class": "logo-wall",
+    "cards": 20,
+    "current_cols": 6,
+    "current_last_row": 2,
+    "best_cols": 5,
+    "current_minmax": 180,
+    "recommended_minmax": 230
+  },
+  {
+    "file": "YT/partnership.html",
+    "class": "logo-wall",
+    "cards": 20,
+    "current_cols": 6,
+    "current_last_row": 2,
+    "best_cols": 5,
+    "current_minmax": 180,
+    "recommended_minmax": 230
+  },
+  {
+    "file": "YT/en/partner-type-brand.html",
+    "class": "benefits-grid",
+    "cards": 5,
+    "current_cols": 3,
+    "current_last_row": 2,
+    "best_cols": 3,
+    "current_minmax": 380,
+    "recommended_minmax": 390
+  },
+  {
+    "file": "YT/en/partner-type-association.html",
+    "class": "benefits-grid",
+    "cards": 5,
+    "current_cols": 3,
+    "current_last_row": 2,
+    "best_cols": 3,
+    "current_minmax": 380,
+    "recommended_minmax": 390
+  },
+  {
+    "file": "YT/en/partner-type-service.html",
+    "class": "benefits-grid",
+    "cards": 5,
+    "current_cols": 3,
+    "current_last_row": 2,
+    "best_cols": 3,
+    "current_minmax": 380,
+    "recommended_minmax": 390
+  },
+  {
+    "file": "YT/en/partner-type-shipyard.html",
+    "class": "benefits-grid",
+    "cards": 5,
+    "current_cols": 3,
+    "current_last_row": 2,
+    "best_cols": 3,
+    "current_minmax": 380,
+    "recommended_minmax": 390
+  },
+  {
+    "file": "YT/en/partner-type-tech.html",
+    "class": "benefits-grid",
+    "cards": 5,
+    "current_cols": 3,
+    "current_last_row": 2,
+    "best_cols": 3,
+    "current_minmax": 380,
+    "recommended_minmax": 390
+  },
+  {
+    "file": "YT/en/partner-type-agent.html",
+    "class": "benefits-grid",
+    "cards": 5,
+    "current_cols": 3,
+    "current_last_row": 2,
+    "best_cols": 3,
+    "current_minmax": 380,
+    "recommended_minmax": 390
+  },
+  {
+    "file": "YT/en/partner-type-hotel.html",
+    "class": "benefits-grid",
+    "cards": 5,
+    "current_cols": 3,
+    "current_last_row": 2,
+    "best_cols": 3,
+    "current_minmax": 380,
+    "recommended_minmax": 390
+  },
+  {
+    "file": "YT/en/partner-type-art.html",
+    "class": "benefits-grid",
+    "cards": 5,
+    "current_cols": 3,
+    "current_last_row": 2,
+    "best_cols": 3,
+    "current_minmax": 380,
+    "recommended_minmax": 390
+  },
+  {
+    "file": "YT/en/partner-type-marina.html",
+    "class": "benefits-grid",
+    "cards": 5,
+    "current_cols": 3,
+    "current_last_row": 2,
+    "best_cols": 3,
+    "current_minmax": 380,
+    "recommended_minmax": 390
+  },
+  {
+    "file": "YT/en/partner-type-aviation.html",
+    "class": "benefits-grid",
+    "cards": 5,
+    "current_cols": 3,
+    "current_last_row": 2,
+    "best_cols": 3,
+    "current_minmax": 380,
+    "recommended_minmax": 390
+  },
+  {
+    "file": "YT/en/partnership.html",
+    "class": "logo-wall",
+    "cards": 20,
+    "current_cols": 6,
+    "current_last_row": 2,
+    "best_cols": 5,
+    "current_minmax": 180,
+    "recommended_minmax": 230
+  },
+  {
+    "file": "en/partner-type-brand.html",
+    "class": "benefits-grid",
+    "cards": 5,
+    "current_cols": 3,
+    "current_last_row": 2,
+    "best_cols": 3,
+    "current_minmax": 380,
+    "recommended_minmax": 390
+  },
+  {
+    "file": "en/partner-type-association.html",
+    "class": "benefits-grid",
+    "cards": 5,
+    "current_cols": 3,
+    "current_last_row": 2,
+    "best_cols": 3,
+    "current_minmax": 380,
+    "recommended_minmax": 390
+  },
+  {
+    "file": "en/partner-type-service.html",
+    "class": "benefits-grid",
+    "cards": 5,
+    "current_cols": 3,
+    "current_last_row": 2,
+    "best_cols": 3,
+    "current_minmax": 380,
+    "recommended_minmax": 390
+  },
+  {
+    "file": "en/partner-type-shipyard.html",
+    "class": "benefits-grid",
+    "cards": 5,
+    "current_cols": 3,
+    "current_last_row": 2,
+    "best_cols": 3,
+    "current_minmax": 380,
+    "recommended_minmax": 390
+  },
+  {
+    "file": "en/partner-type-tech.html",
+    "class": "benefits-grid",
+    "cards": 5,
+    "current_cols": 3,
+    "current_last_row": 2,
+    "best_cols": 3,
+    "current_minmax": 380,
+    "recommended_minmax": 390
+  },
+  {
+    "file": "en/partner-type-agent.html",
+    "class": "benefits-grid",
+    "cards": 5,
+    "current_cols": 3,
+    "current_last_row": 2,
+    "best_cols": 3,
+    "current_minmax": 380,
+    "recommended_minmax": 390
+  },
+  {
+    "file": "en/partner-type-hotel.html",
+    "class": "benefits-grid",
+    "cards": 5,
+    "current_cols": 3,
+    "current_last_row": 2,
+    "best_cols": 3,
+    "current_minmax": 380,
+    "recommended_minmax": 390
+  },
+  {
+    "file": "en/partner-type-art.html",
+    "class": "benefits-grid",
+    "cards": 5,
+    "current_cols": 3,
+    "current_last_row": 2,
+    "best_cols": 3,
+    "current_minmax": 380,
+    "recommended_minmax": 390
+  },
+  {
+    "file": "en/partner-type-marina.html",
+    "class": "benefits-grid",
+    "cards": 5,
+    "current_cols": 3,
+    "current_last_row": 2,
+    "best_cols": 3,
+    "current_minmax": 380,
+    "recommended_minmax": 390
+  },
+  {
+    "file": "en/partner-type-aviation.html",
+    "class": "benefits-grid",
+    "cards": 5,
+    "current_cols": 3,
+    "current_last_row": 2,
+    "best_cols": 3,
+    "current_minmax": 380,
+    "recommended_minmax": 390
+  },
+  {
+    "file": "en/partnership.html",
+    "class": "logo-wall",
+    "cards": 20,
+    "current_cols": 6,
+    "current_last_row": 2,
+    "best_cols": 5,
+    "current_minmax": 180,
+    "recommended_minmax": 230
+  }
+]
