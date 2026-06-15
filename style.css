@@ -236,7 +236,7 @@ html {
 .yacht-gallery-item{aspect-ratio:4/3;border-radius:var(--radius);overflow:hidden;cursor:pointer;transition:var(--transition)}
 .yacht-gallery-item:hover{transform:scale(1.03)}
 /* SERVICES */
-.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
+.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(350px,1fr));gap:24px}
 .service-card{background:var(--card);border:1px solid var(--glass-border);border-radius:var(--radius);padding:40px 28px;transition:var(--transition);position:relative;overflow:hidden}
 .service-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);opacity:0;transition:var(--transition)}
 .service-card:hover{transform:translateY(-6px);border-color:rgba(201,169,110,0.3);box-shadow:var(--shadow-gold)}
@@ -1088,7 +1088,7 @@ body.dark-mode .search-suggestion-item:hover{background:#0f172a;color:#c9a96e}
   .footer-brand-col{grid-column:1/-1}
   .yachts-grid,.news-grid,.cases-masonry{columns:2;column-gap:16px}
   .yacht-gallery{grid-template-columns:repeat(auto-fill,minmax(200px,1fr))}
-  .services-grid{grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}
+  .services-grid{grid-template-columns:repeat(auto-fill,minmax(350px,1fr))}
   .charter-grid,.partnership-grid{grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
 }
 

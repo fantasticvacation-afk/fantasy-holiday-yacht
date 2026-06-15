@@ -21,8 +21,8 @@
 .hero-slideshow::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 80%,rgba(15,30,60,0.6) 0%,var(--dark1) 70%);z-index:1}
 .hero-slideshow::before{content:'';position:absolute;bottom:0;left:0;right:0;height:40%;background:linear-gradient(0deg,rgba(7,11,20,0.9) 0%,transparent 100%);z-index:2}
 /* Role Cards */
-.role-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;max-width:1200px;margin:0 auto;padding:0 24px;position:relative;z-index:3}
-@media(max-width:900px){.role-cards{grid-template-columns:repeat(auto-fit,minmax(350px,1fr))}}
+.role-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(350px,1fr));gap:20px;max-width:1200px;margin:0 auto;padding:0 24px;position:relative;z-index:3}
+@media(max-width:900px){.role-cards{grid-template-columns:repeat(auto-fit,minmax(500px,1fr))}}
 @media(max-width:550px){.role-cards{grid-template-columns:1fr}}
 .role-card{background:rgba(12,18,32,0.85);border:1px solid rgba(201,169,110,0.2);border-radius:12px;padding:28px 20px;text-align:center;cursor:pointer;transition:all 0.4s;backdrop-filter:blur(10px)}
 .role-card:hover{transform:translateY(-6px);border-color:rgba(201,169,110,0.5);box-shadow:0 20px 50px rgba(0,0,0,0.4)}
@@ -245,7 +245,7 @@
 <div class="divider-gold"></div>
 <p>我们不只是游艇服务商，更是您海洋生活方式的全方位策展人</p>
 </div>
-<div class="services-grid">
+<div class="services-grid" style="grid-template-columns:repeat(2,1fr)">
 <div class="service-card reveal">
 <div class="service-icon">⚓</div>
 <h3>全产业链整合</h3>
@@ -366,7 +366,7 @@
 <div class="divider-gold"></div>
 <p>"我们不制造游艇，我们编织海洋梦想"</p>
 </div>
-<div class="services-grid" style="grid-template-columns:repeat(auto-fit,minmax(240px,1fr))">
+<div class="services-grid" style="grid-template-columns:repeat(2,1fr)">
 <div class="service-card reveal"><div class="service-icon">🎨</div><h3>外观设计</h3><p>联合全球顶级船舶设计工作室，打造独一无二的视觉语言。与意大利、荷兰等设计名所深度协同。</p><a class="service-link" href="custom.html">了解更多 →</a></div>
 <div class="service-card reveal"><div class="service-icon">🛋️</div><h3>内饰配置</h3><p>精选意大利皮革、法国橡木、西班牙大理石等顶级材料，呈现移动的海上宫殿。</p><a class="service-link" href="custom.html">了解更多 →</a></div>
 <div class="service-card reveal"><div class="service-icon">⚙️</div><h3>功能系统</h3><p>稳定系统、减摇鳍、零速鳍、岸电系统全面定制，确保航行舒适度。</p><a class="service-link" href="custom.html">了解更多 →</a></div>
