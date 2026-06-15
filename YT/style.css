@@ -1208,3 +1208,28 @@ body.dark-mode .search-suggestion-item:hover{background:#0f172a;color:#c9a96e}
 .series-toggle-btn.expanded .toggle-arrow {
   transform:rotate(180deg);
 }
+
+/* Benefits Grid - 5 cards in one row */
+.benefits-grid-5col {
+    grid-template-columns: repeat(5, 1fr) !important;
+    gap: 16px;
+}
+.benefits-grid-5col .benefit-card {
+    overflow: hidden;
+    min-width: 0;
+}
+.benefits-grid-5col .benefit-card h3,
+.benefits-grid-5col .benefit-card p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+}
+@media (max-width: 1200px) {
+    .benefits-grid-5col { grid-template-columns: repeat(3, 1fr) !important; }
+}
+@media (max-width: 768px) {
+    .benefits-grid-5col { grid-template-columns: repeat(2, 1fr) !important; }
+}
+@media (max-width: 480px) {
+    .benefits-grid-5col { grid-template-columns: 1fr !important; }
+}
