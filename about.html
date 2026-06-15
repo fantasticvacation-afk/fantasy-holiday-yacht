@@ -26,7 +26,7 @@
 .serve-card h3{font-size:18px;color:var(--gold);margin-bottom:12px}
 .serve-card p{font-size:14px;color:var(--text-muted);line-height:1.7}
 /* Core capabilities */
-.cap-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(350px,1fr));gap:24px;margin-top:40px}
+.cap-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:40px}
 .cap-card{background:var(--card);border:1px solid var(--glass-border);border-radius:var(--radius);padding:32px;text-align:center;transition:var(--transition)}
 .cap-card:hover{border-color:var(--gold);transform:translateY(-4px);box-shadow:var(--shadow-gold)}
 .cap-card .cap-icon{font-size:42px;margin-bottom:16px}
@@ -41,7 +41,7 @@
 .team-card .team-role{font-size:12px;color:var(--text-dim);letter-spacing:1px;text-transform:uppercase;margin-bottom:12px}
 .team-card p{font-size:12px;color:var(--text-muted);line-height:1.6}
 /* Certs wall */
-.cert-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(350px,1fr));gap:20px;margin-top:40px}
+.cert-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:40px}
 .cert-card{background:var(--card);border:1px solid var(--glass-border);border-radius:var(--radius);padding:28px;display:flex;gap:20px;transition:var(--transition)}
 .cert-card:hover{border-color:var(--gold)}
 .cert-card .cert-icon{font-size:32px;flex-shrink:0;margin-top:4px}
@@ -49,7 +49,7 @@
 .cert-card p{font-size:12px;color:var(--text-muted);line-height:1.6}
 /* Timeline enhanced */
 .timeline-item p.timeline-meaning{font-size:12px;color:var(--text-dim);margin-top:4px}
-</style>
+@media(max-width:768px){.cap-grid{grid-template-columns:1fr!important}.cert-grid{grid-template-columns:repeat(2,1fr)!important}}@media(max-width:480px){.cert-grid{grid-template-columns:1fr!important}}</style>
 <link rel="icon" type="image/svg+xml" href="favicon.svg"/>
 </head><body>
 <div id="loader"></div>
@@ -183,7 +183,7 @@
 <h2><span class="gold-gradient">行业地位与核心能力</span></h2>
 <div class="divider-gold"></div>
 </div>
-<div class="stats-grid reveal container container-narrow"   style="border:1px solid var(--glass-border);border-radius:var(--radius);overflow:hidden;margin-bottom:60px">
+<div class="stats-grid reveal"   style="border:1px solid var(--glass-border);border-radius:var(--radius);overflow:hidden;margin-bottom:60px">
 <div class="stat-item"><div class="stat-number">15<span>+</span></div><div class="stat-label">年行业深耕</div><p class="timeline-meaning">对客户的意义：15年深耕意味着我们对全球游艇产业链的每一个环节都形成了成熟判断力，能为客户提供经验背书下的最优决策建议</p></div>
 <div class="stat-item"><div class="stat-number">200<span>+</span></div><div class="stat-label">全球高净值客户</div><p class="timeline-meaning">对客户的意义：200+高净值客户的信任背书，意味着您的需求将在丰富的同类经验中获得验证与精进</p></div>
 <div class="stat-item"><div class="stat-number">50<span>+</span></div><div class="stat-label">运营豪华游艇</div><p class="timeline-meaning">对客户的意义：50+艘在管游艇的运营数据构成我们的行业知识库，让每一次决策都有据可依</p></div>
@@ -374,7 +374,7 @@
 
 <!-- ===== FINAL CTA ===== -->
 <section style="padding:100px 0;text-align:center">
-<div class="container reveal container-narrow"  >
+<div class="container reveal"  >
 <h2 style="font-family:'Playfair Display',serif;font-size:clamp(24px,3vw,38px);margin-bottom:24px">想更深入了解我们？</h2>
 <p style="color:var(--text-muted);font-size:15px;margin-bottom:36px">预约一次专属顾问沟通，我们将在24小时内为您安排</p>
 <a class="btn btn-primary btn-gold-sweep" href="contact.html">预约专属顾问 →</a>

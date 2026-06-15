@@ -127,7 +127,7 @@ img{max-width:100%;display:block}
 .value-card h5{font-size:14px;color:var(--gold);margin-bottom:6px;font-family:'Inter',sans-serif;font-weight:600;letter-spacing:1px}
 .value-card p{font-size:12px;color:var(--text-dim);line-height:1.5;margin-bottom:0}
 /* TIMELINE */
-.timeline{position:relative;max-width:800px;margin:0 auto;padding:40px 0}
+.timeline{position:relative;max-width:100%;margin:0 auto;padding:40px 0}
 .timeline::before{content:'';position:absolute;left:50%;top:0;bottom:0;width:1px;background:linear-gradient(180deg,transparent,var(--gold),transparent)}
 .timeline-item{position:relative;width:50%;padding:20px 40px}
 .timeline-item:nth-child(odd){left:0;text-align:right}
