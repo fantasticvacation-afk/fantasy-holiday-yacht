@@ -49,7 +49,7 @@
 .cert-card p{font-size:12px;color:var(--text-muted);line-height:1.6}
 /* Timeline enhanced */
 .timeline-item p.timeline-meaning{font-size:12px;color:var(--text-dim);margin-top:4px}
-@media(max-width:768px){.cap-grid{grid-template-columns:1fr!important}.cert-grid{grid-template-columns:repeat(2,1fr)!important}}@media(max-width:480px){.cert-grid{grid-template-columns:1fr!important}}</style>
+@media(max-width:768px){.cap-grid{grid-template-columns:1fr!important}.cert-grid{grid-template-columns:repeat(2,1fr)!important}}@media(max-width:480px){.cert-grid{grid-template-columns:1fr!important}}@media(max-width:768px){.stats-grid[style*="repeat(4"]{grid-template-columns:repeat(2,1fr)!important}}@media(max-width:480px){.stats-grid[style*="repeat(4"]{grid-template-columns:1fr!important}}</style>
 <link rel="icon" type="image/svg+xml" href="favicon.svg"/>
 </head><body>
 <div id="loader"></div>
@@ -183,7 +183,7 @@
 <h2><span class="gold-gradient">行业地位与核心能力</span></h2>
 <div class="divider-gold"></div>
 </div>
-<div class="stats-grid reveal"   style="border:1px solid var(--glass-border);border-radius:var(--radius);overflow:hidden;margin-bottom:60px">
+<div class="stats-grid reveal" style="grid-template-columns:repeat(4,1fr)"   style="border:1px solid var(--glass-border);border-radius:var(--radius);overflow:hidden;margin-bottom:60px">
 <div class="stat-item"><div class="stat-number">15<span>+</span></div><div class="stat-label">年行业深耕</div><p class="timeline-meaning">对客户的意义：15年深耕意味着我们对全球游艇产业链的每一个环节都形成了成熟判断力，能为客户提供经验背书下的最优决策建议</p></div>
 <div class="stat-item"><div class="stat-number">200<span>+</span></div><div class="stat-label">全球高净值客户</div><p class="timeline-meaning">对客户的意义：200+高净值客户的信任背书，意味着您的需求将在丰富的同类经验中获得验证与精进</p></div>
 <div class="stat-item"><div class="stat-number">50<span>+</span></div><div class="stat-label">运营豪华游艇</div><p class="timeline-meaning">对客户的意义：50+艘在管游艇的运营数据构成我们的行业知识库，让每一次决策都有据可依</p></div>
