@@ -805,7 +805,7 @@ var dict = {
   },
   "index.201": {
     "zh": "奇幻假期实业有限公司",
-    "en": "Fantastic Vacation"
+    "en": "Fantastic Vacation Industrial Co., Ltd."
   },
   "index.202": {
     "zh": "FANTASTIC VACATION INDUSTRIAL CO., LTD.",
