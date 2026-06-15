@@ -49,6 +49,10 @@ var dict = {
     "zh": "关于我们",
     "en": "About Us"
   },
+  "index.addr": {
+    "zh": "中国广东省深圳市南山区蛇口太子湾大道88号奇幻假期大厦28楼",
+    "en": "No.88 Taiziwan Avenue, Shekou, Nanshan District, Shenzhen, China, Floor 28, Fantastic Vacation Building"
+  },
   "index.12": {
     "zh": "公司简介",
     "en": "Company Profile"

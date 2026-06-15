@@ -49,6 +49,10 @@ var dict = {
     "zh": "关于我们",
     "en": "About Us"
   },
+  "index.addr": {
+    "zh": "中国广东省深圳市南山区蛇口太子湾大道88号奇幻假期大厦28楼",
+    "en": "No.88 Taiziwan Avenue, Shekou, Nanshan District, Shenzhen, China, Floor 28, Fantastic Vacation Building"
+  },
   "index.12": {
     "zh": "公司简介",
     "en": "Company Profile"
@@ -800,12 +804,12 @@ var dict = {
     "en": "Book Consultation Now"
   },
   "index.201": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "Fantastic Vacation"
   },
   "index.202": {
-    "zh": "FANTASTIC VACATION",
-    "en": "FANTASTIC VACATION"
+    "zh": "FANTASTIC VACATION INDUSTRIAL CO., LTD.",
+    "en": "FANTASTIC VACATION INDUSTRIAL CO., LTD."
   },
   "index.203": {
     "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
