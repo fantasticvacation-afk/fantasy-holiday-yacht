@@ -15,7 +15,59 @@ a{text-decoration:none;color:inherit;transition:var(--transition)}
 /* EXCEPTION: navbar links must NOT inherit body color */
 #navbar a,.nav-dropdown-menu a{color:#111827;font-weight:400;font-family:'Inter','PingFang SC','Microsoft YaHei',sans-serif;font-size:14px}
 img{max-width:100%;display:block}
-.container{max-width:1200px;margin:0 auto;padding:0 24px}
+
+/* ═══ 流式响应容器系统 — Fluid Responsive Container System ═══ */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 clamp(16px, 3vw, 40px);
+  width: 100%;
+  box-sizing: border-box;
+}
+.container-narrow {
+  max-width: 800px;
+}
+.container-wide {
+  max-width: 1100px;
+}
+
+/* 文本块 — 段落级宽度控制 */
+.text-block {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-block-md {
+  max-width: 700px;
+}
+.text-block-lg {
+  max-width: 800px;
+}
+.text-block-xl {
+  max-width: 900px;
+}
+.text-block-full {
+  max-width: 100%;
+}
+
+/* ═══ 流式排版 — Fluid Typography ═══ */
+html {
+  font-size: clamp(14px, 1vw + 10px, 16px);
+}
+.hero-title {
+  font-size: clamp(28px, 5vw, 56px) !important;
+}
+.hero-subtitle {
+  max-width: min(600px, 90vw);
+  margin: 0 auto;
+}
+.section-header h2 {
+  font-size: clamp(24px, 3.5vw, 42px) !important;
+}
+.section-header p {
+  font-size: clamp(14px, 1.5vw, 17px) !important;
+}
+
 .section-padding{padding:120px 0}
 .gold-text{color:var(--gold)}
 .gold-gradient{background:linear-gradient(135deg,var(--gold-dark),var(--gold),var(--gold-light));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
