@@ -15,221 +15,221 @@
   95%{opacity:0;visibility:hidden}
   100%{display:none}
 }
-#loader{animation:autoHideLoader 6s ease-in-out forwards}
+#loader{animation:autoHideLoader 6 s ease-in-out forwards}
 #loader.hidden,#loader[style*="display:none"]{animation:none!important;display:none!important}
 </style>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-:root{--dark1:#050810;--dark2:#080d1a;--dark3:#0d1525;--dark4:#142035;--gold:#c9a96e;--gold2:#e8c97a;--gold-dark:#a07840;--text:#e8e4dc;--text-muted:#8a8070;--dim:#5a5248;--glass-border:rgba(201,169,110,0.2);--gold-glow:rgba(201,169,110,0.15)}
+:root{--dark1:#050810;--dark2:#080 d1 a;--dark3:#0 d1525;--dark4:#142035;--gold:#c9 a96 e;--gold2:#e8 c97 a;--gold-dark:#a07840;--text:#e8 e4 dc;--text-muted:#8 a8070;--dim:#5 a5248;--glass-border:rgba(201,169,110,0.2);--gold-glow:rgba(201,169,110,0.15)}
 body{font-family:'Inter',sans-serif;background:var(--dark1);color:var(--text);line-height:1.7;overflow-x:hidden}
-.gold-gradient{background:linear-gradient(135deg,#c9a96e,#f0d890,#c9a96e);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-.gold-gradient-alt{background:linear-gradient(90deg,#c9a96e,#e8c97a);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-.container{max-width:1200px;margin:0 auto;padding:0 24px}
-.section-padding{padding:100px 0}
-.section-header{text-align:center;margin-bottom:60px}
-.section-header h2{font-family:'Playfair Display',serif;font-size:clamp(28px,4vw,42px);margin-bottom:16px}
-.divider-gold{width:60px;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:0 auto 16px}
-.section-header p{font-size:15px;color:var(--text-muted);max-width:560px;margin:0 auto}
-#loader{position:fixed;inset:0;background:var(--dark1);z-index:9999;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px}
-#loader .brand{font-family:'Playfair Display',serif;font-size:20px;letter-spacing:4px;color:var(--gold)}
-#loader .progress-bar{width:200px;height:2px;background:rgba(201,169,110,0.15);border-radius:2px}
-#loader .progress-fill{height:100%;background:var(--gold);width:0;transition:width 0.3s}
-#loader .progress-text{font-size:10px;letter-spacing:4px;color:var(--text-muted)}
-.cursor-follower{position:fixed;width:20px;height:20px;border:1px solid rgba(201,169,110,0.4);border-radius:50%;pointer-events:none;z-index:9998;transform:translate(-50%,-50%);transition:width 0.2s,height 0.2s;mix-blend-mode:difference}
-nav#navbar{position:fixed;top:0;left:0;right:0;z-index:1000;padding:0;transition:background 0.3s,backdrop-filter 0.3s}
-nav#navbar.scrolled{background:rgba(5,8,16,0.92);backdrop-filter:blur(20px);border-bottom:1px solid rgba(201,169,110,0.08)}
-nav .container{max-width:1200px;margin:0 auto;padding:0 24px}
-.nav-inner{display:flex;align-items:center;justify-content:space-between;height:70px}
-.nav-logo{display:flex;align-items:center;gap:10px;font-family:'Playfair Display',serif;font-size:16px;letter-spacing:3px;color:var(--gold);text-decoration:none}
-.nav-links{display:flex;align-items:center;gap:28px}
-.nav-links a{font-size:12px;letter-spacing:1px;color:var(--text-muted);text-decoration:none;transition:color 0.2s;position:relative}
+.gold-gradient{background:linear-gradient(135 deg,#c9 a96 e,#f0 d890,#c9 a96 e);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.gold-gradient-alt{background:linear-gradient(90 deg,#c9 a96 e,#e8 c97 a);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.container{max-width:1200 px;margin:0 auto;padding:0 24 px}
+.section-padding{padding:100 px 0}
+.section-header{text-align:center;margin-bottom:60 px}
+.section-header h2{font-family:'Playfair Display',serif;font-size:clamp(28 px,4 vw,42 px);margin-bottom:16 px}
+.divider-gold{width:60 px;height:2 px;background:linear-gradient(90 deg,transparent,var(--gold),transparent);margin:0 auto 16 px}
+.section-header p{font-size:15 px;color:var(--text-muted);max-width:560 px;margin:0 auto}
+#loader{position:fixed;inset:0;background:var(--dark1);z-index:9999;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20 px}
+#loader .brand{font-family:'Playfair Display',serif;font-size:20 px;letter-spacing:4 px;color:var(--gold)}
+#loader .progress-bar{width:200 px;height:2 px;background:rgba(201,169,110,0.15);border-radius:2 px}
+#loader .progress-fill{height:100%;background:var(--gold);width:0;transition:width 0.3 s}
+#loader .progress-text{font-size:10 px;letter-spacing:4 px;color:var(--text-muted)}
+.cursor-follower{position:fixed;width:20 px;height:20 px;border:1 px solid rgba(201,169,110,0.4);border-radius:50%;pointer-events:none;z-index:9998;transform:translate(-50%,-50%);transition:width 0.2 s,height 0.2 s;mix-blend-mode:difference}
+nav#navbar{position:fixed;top:0;left:0;right:0;z-index:1000;padding:0;transition:background 0.3 s,backdrop-filter 0.3 s}
+nav#navbar.scrolled{background:rgba(5,8,16,0.92);backdrop-filter:blur(20 px);border-bottom:1 px solid rgba(201,169,110,0.08)}
+nav .container{max-width:1200 px;margin:0 auto;padding:0 24 px}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:70 px}
+.nav-logo{display:flex;align-items:center;gap:10 px;font-family:'Playfair Display',serif;font-size:16 px;letter-spacing:3 px;color:var(--gold);text-decoration:none}
+.nav-links{display:flex;align-items:center;gap:28 px}
+.nav-links a{font-size:12 px;letter-spacing:1 px;color:var(--text-muted);text-decoration:none;transition:color 0.2 s;position:relative}
 .nav-links a:hover,.nav-links a.active{color:var(--gold)}
-.nav-links a.active::after{content:'';position:absolute;bottom:-4px;left:0;right:0;height:1px;background:var(--gold)}
-.nav-cta{padding:8px 20px;border:1px solid var(--gold);border-radius:50px;color:var(--gold)!important;font-size:11px!important;letter-spacing:1.5px!important;transition:background 0.2s,color 0.2s}
+.nav-links a.active::after{content:'';position:absolute;bottom:-4 px;left:0;right:0;height:1 px;background:var(--gold)}
+.nav-cta{padding:8 px 20 px;border:1 px solid var(--gold);border-radius:50 px;color:var(--gold)!important;font-size:11 px!important;letter-spacing:1.5 px!important;transition:background 0.2 s,color 0.2 s}
 .nav-cta:hover{background:var(--gold);color:var(--dark1)!important}
-.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:10px}
-.hamburger span{display:block;width:22px;height:1.5px;background:var(--gold);transition:all 0.3s}
-.hamburger.active span:nth-child(1){transform:rotate(45deg) translate(5px,5px)}
+.hamburger{display:none;flex-direction:column;gap:5 px;cursor:pointer;padding:10 px}
+.hamburger span{display:block;width:22 px;height:1.5 px;background:var(--gold);transition:all 0.3 s}
+.hamburger.active span:nth-child(1){transform:rotate(45 deg) translate(5 px,5 px)}
 .hamburger.active span:nth-child(2){opacity:0}
-.hamburger.active span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}
-.mobile-menu{position:fixed;top:70px;left:0;right:0;background:rgba(5,8,16,0.97);backdrop-filter:blur(20px);border-bottom:1px solid rgba(201,169,110,0.1);display:none;flex-direction:column;padding:20px;z-index:999}
+.hamburger.active span:nth-child(3){transform:rotate(-45 deg) translate(5 px,-5 px)}
+.mobile-menu{position:fixed;top:70 px;left:0;right:0;background:rgba(5,8,16,0.97);backdrop-filter:blur(20 px);border-bottom:1 px solid rgba(201,169,110,0.1);display:none;flex-direction:column;padding:20 px;z-index:999}
 .mobile-menu.active{display:flex}
-.mobile-menu a{color:var(--text-muted);text-decoration:none;padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.05);font-size:13px;letter-spacing:1px}
+.mobile-menu a{color:var(--text-muted);text-decoration:none;padding:14 px 0;border-bottom:1 px solid rgba(255,255,255,0.05);font-size:13 px;letter-spacing:1 px}
 .mobile-menu a:hover{color:var(--gold)}
 
 /* Hero */
-#hero{position:relative;min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden}
-#hero::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,8,16,0.55) 0%,rgba(5,8,16,0.3) 40%,rgba(5,8,16,0.7) 80%,var(--dark1) 100%);z-index:1}
-#hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:300px;background:linear-gradient(to top,var(--dark1),transparent);z-index:1}
+#hero{position:relative;min-height:100 vh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden}
+#hero::before{content:'';position:absolute;inset:0;background:linear-gradient(180 deg,rgba(5,8,16,0.55) 0%,rgba(5,8,16,0.3) 40%,rgba(5,8,16,0.7) 80%,var(--dark1) 100%);z-index:1}
+#hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:300 px;background:linear-gradient(to top,var(--dark1),transparent);z-index:1}
 .hero-bg{position:absolute;inset:0;background:url('images/yttp/yacht-005.jpg') center/cover no-repeat}
-.hero-content{position:relative;z-index:2;padding:0 24px}
-.hero-badge{display:inline-block;padding:8px 24px;border:1px solid rgba(201,169,110,0.4);border-radius:50px;font-size:11px;letter-spacing:3px;color:var(--gold);margin-bottom:24px;background:rgba(201,169,110,0.08)}
-.hero-title{font-family:'Playfair Display',serif;font-size:clamp(36px,6vw,72px);font-weight:800;margin-bottom:16px;letter-spacing:2px}
-.hero-sub{font-size:clamp(15px,1.8vw,20px);color:var(--text-muted);font-weight:300;letter-spacing:2px;margin-bottom:32px}
-.hero-stats{display:flex;justify-content:center;gap:48px;margin-top:40px;flex-wrap:wrap}
+.hero-content{position:relative;z-index:2;padding:0 24 px}
+.hero-badge{display:inline-block;padding:8 px 24 px;border:1 px solid rgba(201,169,110,0.4);border-radius:50 px;font-size:11 px;letter-spacing:3 px;color:var(--gold);margin-bottom:24 px;background:rgba(201,169,110,0.08)}
+.hero-title{font-family:'Playfair Display',serif;font-size:clamp(36 px,6 vw,72 px);font-weight:800;margin-bottom:16 px;letter-spacing:2 px}
+.hero-sub{font-size:clamp(15 px,1.8 vw,20 px);color:var(--text-muted);font-weight:300;letter-spacing:2 px;margin-bottom:32 px}
+.hero-stats{display:flex;justify-content:center;gap:48 px;margin-top:40 px;flex-wrap:wrap}
 .hero-stat{text-align:center}
-.hero-stat .val{font-family:'Playfair Display',serif;font-size:clamp(28px,3.5vw,42px);font-weight:700;color:var(--gold)}
-.hero-stat .lab{font-size:11px;color:var(--text-muted);letter-spacing:2px;margin-top:4px;text-transform:uppercase}
-.hero-ctas{display:flex;justify-content:center;gap:16px;margin-top:40px;flex-wrap:wrap}
-.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 32px;border-radius:50px;font-size:13px;letter-spacing:1.5px;text-decoration:none;transition:all 0.3s;cursor:pointer;font-family:inherit}
-.btn-gold{background:linear-gradient(135deg,var(--gold-dark),var(--gold));color:var(--dark1);font-weight:600;border:none}
-.btn-gold:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(201,169,110,0.3)}
-.btn-outline{border:1px solid var(--gold);color:var(--gold);background:transparent}
+.hero-stat .val{font-family:'Playfair Display',serif;font-size:clamp(28 px,3.5 vw,42 px);font-weight:700;color:var(--gold)}
+.hero-stat .lab{font-size:11 px;color:var(--text-muted);letter-spacing:2 px;margin-top:4 px;text-transform:uppercase}
+.hero-ctas{display:flex;justify-content:center;gap:16 px;margin-top:40 px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:8 px;padding:14 px 32 px;border-radius:50 px;font-size:13 px;letter-spacing:1.5 px;text-decoration:none;transition:all 0.3 s;cursor:pointer;font-family:inherit}
+.btn-gold{background:linear-gradient(135 deg,var(--gold-dark),var(--gold));color:var(--dark1);font-weight:600;border:none}
+.btn-gold:hover{transform:translateY(-2 px);box-shadow:0 8 px 30 px rgba(201,169,110,0.3)}
+.btn-outline{border:1 px solid var(--gold);color:var(--gold);background:transparent}
 .btn-outline:hover{background:rgba(201,169,110,0.08)}
 
 /* Value props */
-.value-props{padding:60px 0;background:var(--dark2);border-top:1px solid rgba(201,169,110,0.06);border-bottom:1px solid rgba(201,169,110,0.06)}
-.vp-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;background:rgba(201,169,110,0.08)}
-.vp-item{padding:32px 24px;background:var(--dark2);text-align:center;transition:background 0.3s}
+.value-props{padding:60 px 0;background:var(--dark2);border-top:1 px solid rgba(201,169,110,0.06);border-bottom:1 px solid rgba(201,169,110,0.06)}
+.vp-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200 px,1 fr));gap:1 px;background:rgba(201,169,110,0.08)}
+.vp-item{padding:32 px 24 px;background:var(--dark2);text-align:center;transition:background 0.3 s}
 .vp-item:hover{background:var(--dark3)}
-.vp-icon{font-size:28px;margin-bottom:12px;display:block}
-.vp-item h4{font-family:'Playfair Display',serif;font-size:15px;margin-bottom:8px;color:var(--gold)}
-.vp-item p{font-size:12px;color:var(--text-muted);line-height:1.6}
+.vp-icon{font-size:28 px;margin-bottom:12 px;display:block}
+.vp-item h4{font-family:'Playfair Display',serif;font-size:15 px;margin-bottom:8 px;color:var(--gold)}
+.vp-item p{font-size:12 px;color:var(--text-muted);line-height:1.6}
 
 /* Route categories */
-.route-cats{display:flex;justify-content:center;gap:12px;margin-bottom:48px;flex-wrap:wrap}
-.cat-btn{padding:8px 20px;border:1px solid var(--glass-border);border-radius:50px;font-size:12px;color:var(--text-muted);cursor:pointer;transition:all 0.2s;background:transparent;font-family:inherit;letter-spacing:1px}
+.route-cats{display:flex;justify-content:center;gap:12 px;margin-bottom:48 px;flex-wrap:wrap}
+.cat-btn{padding:8 px 20 px;border:1 px solid var(--glass-border);border-radius:50 px;font-size:12 px;color:var(--text-muted);cursor:pointer;transition:all 0.2 s;background:transparent;font-family:inherit;letter-spacing:1 px}
 .cat-btn:hover,.cat-btn.active{background:rgba(201,169,110,0.15);border-color:var(--gold);color:var(--gold)}
 
 /* Route cards */
-.routes-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:24px}
-.route-card{background:var(--dark2);border:1px solid rgba(255,255,255,0.05);border-radius:16px;overflow:hidden;transition:all 0.35s}
-.route-card:hover{transform:translateY(-6px);border-color:rgba(201,169,110,0.25);box-shadow:0 20px 60px rgba(0,0,0,0.4)}
-.route-img{position:relative;height:220px;overflow:hidden}
-.route-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.5s}
+.routes-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250 px,1 fr));gap:24 px}
+.route-card{background:var(--dark2);border:1 px solid rgba(255,255,255,0.05);border-radius:16 px;overflow:hidden;transition:all 0.35 s}
+.route-card:hover{transform:translateY(-6 px);border-color:rgba(201,169,110,0.25);box-shadow:0 20 px 60 px rgba(0,0,0,0.4)}
+.route-img{position:relative;height:220 px;overflow:hidden}
+.route-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.5 s}
 .route-card:hover .route-img img{transform:scale(1.06)}
-.route-img::after{content:'';position:absolute;bottom:0;left:0;right:0;height:80px;background:linear-gradient(to top,var(--dark2),transparent)}
-.route-season{position:absolute;top:12px;left:12px;padding:4px 12px;border-radius:50px;font-size:10px;font-weight:600;letter-spacing:1px;background:rgba(5,8,16,0.8);color:var(--gold);border:1px solid rgba(201,169,110,0.3)}
-.route-body{padding:20px 24px 28px}
-.route-tags{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
-.route-tag{padding:3px 10px;border:1px solid rgba(201,169,110,0.2);border-radius:50px;font-size:10px;color:var(--gold);letter-spacing:0.5px}
-.route-body h3{font-family:'Playfair Display',serif;font-size:18px;font-weight:600;margin-bottom:8px;line-height:1.3}
-.route-body h3 .en{font-size:12px;color:var(--text-muted);font-family:Inter,sans-serif;font-weight:400;display:block;margin-bottom:4px}
-.route-body p{font-size:13px;color:var(--text-muted);line-height:1.7;margin-bottom:16px}
-.route-highlights{display:flex;flex-direction:column;gap:8px;margin-bottom:16px}
-.route-hl{display:flex;align-items:flex-start;gap:8px;font-size:12px;color:var(--text-muted)}
-.route-hl span{color:var(--gold);font-size:14px;flex-shrink:0;margin-top:1px}
-.route-price{display:flex;align-items:center;justify-content:space-between;padding-top:16px;border-top:1px solid rgba(255,255,255,0.05)}
-.route-price .price{font-family:'Playfair Display',serif;font-size:22px;font-weight:700;color:var(--gold)}
-.route-price .unit{font-size:11px;color:var(--text-muted)}
-.route-price .detail-btn{font-size:12px;color:var(--gold);text-decoration:none;letter-spacing:1px;padding:8px 16px;border:1px solid var(--glass-border);border-radius:50px;transition:all 0.2s}
+.route-img::after{content:'';position:absolute;bottom:0;left:0;right:0;height:80 px;background:linear-gradient(to top,var(--dark2),transparent)}
+.route-season{position:absolute;top:12 px;left:12 px;padding:4 px 12 px;border-radius:50 px;font-size:10 px;font-weight:600;letter-spacing:1 px;background:rgba(5,8,16,0.8);color:var(--gold);border:1 px solid rgba(201,169,110,0.3)}
+.route-body{padding:20 px 24 px 28 px}
+.route-tags{display:flex;gap:8 px;flex-wrap:wrap;margin-bottom:12 px}
+.route-tag{padding:3 px 10 px;border:1 px solid rgba(201,169,110,0.2);border-radius:50 px;font-size:10 px;color:var(--gold);letter-spacing:0.5 px}
+.route-body h3{font-family:'Playfair Display',serif;font-size:18 px;font-weight:600;margin-bottom:8 px;line-height:1.3}
+.route-body h3 .en{font-size:12 px;color:var(--text-muted);font-family:Inter,sans-serif;font-weight:400;display:block;margin-bottom:4 px}
+.route-body p{font-size:13 px;color:var(--text-muted);line-height:1.7;margin-bottom:16 px}
+.route-highlights{display:flex;flex-direction:column;gap:8 px;margin-bottom:16 px}
+.route-hl{display:flex;align-items:flex-start;gap:8 px;font-size:12 px;color:var(--text-muted)}
+.route-hl span{color:var(--gold);font-size:14 px;flex-shrink:0;margin-top:1 px}
+.route-price{display:flex;align-items:center;justify-content:space-between;padding-top:16 px;border-top:1 px solid rgba(255,255,255,0.05)}
+.route-price .price{font-family:'Playfair Display',serif;font-size:22 px;font-weight:700;color:var(--gold)}
+.route-price .unit{font-size:11 px;color:var(--text-muted)}
+.route-price .detail-btn{font-size:12 px;color:var(--gold);text-decoration:none;letter-spacing:1 px;padding:8 px 16 px;border:1 px solid var(--glass-border);border-radius:50 px;transition:all 0.2 s}
 .route-price .detail-btn:hover{background:var(--gold);color:var(--dark1)}
 
 /* Process */
-.process-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
-.process-card{background:var(--dark2);border:1px solid rgba(255,255,255,0.04);border-radius:14px;padding:28px 20px;text-align:center;position:relative;transition:all 0.3s}
-.process-card:hover{border-color:rgba(201,169,110,0.2);transform:translateY(-4px)}
-.process-num{position:absolute;top:-16px;left:50%;transform:translateX(-50%);width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,var(--gold-dark),var(--gold));color:var(--dark1);font-family:'Playfair Display',serif;font-size:15px;font-weight:700;display:flex;align-items:center;justify-content:center}
-.process-icon{font-size:32px;margin-bottom:16px;display:block}
-.process-card h4{font-family:'Playfair Display',serif;font-size:15px;margin-bottom:8px;color:var(--gold)}
-.process-card p{font-size:12px;color:var(--text-muted);line-height:1.6}
+.process-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280 px,1 fr));gap:20 px}
+.process-card{background:var(--dark2);border:1 px solid rgba(255,255,255,0.04);border-radius:14 px;padding:28 px 20 px;text-align:center;position:relative;transition:all 0.3 s}
+.process-card:hover{border-color:rgba(201,169,110,0.2);transform:translateY(-4 px)}
+.process-num{position:absolute;top:-16 px;left:50%;transform:translateX(-50%);width:36 px;height:36 px;border-radius:50%;background:linear-gradient(135 deg,var(--gold-dark),var(--gold));color:var(--dark1);font-family:'Playfair Display',serif;font-size:15 px;font-weight:700;display:flex;align-items:center;justify-content:center}
+.process-icon{font-size:32 px;margin-bottom:16 px;display:block}
+.process-card h4{font-family:'Playfair Display',serif;font-size:15 px;margin-bottom:8 px;color:var(--gold)}
+.process-card p{font-size:12 px;color:var(--text-muted);line-height:1.6}
 
 /* Services */
 .services-section{background:var(--dark2)}
-.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(390px,1fr));gap:20px}
-.service-card{background:var(--dark1);border:1px solid rgba(255,255,255,0.04);border-radius:14px;padding:28px;transition:all 0.3s}
-.service-card:hover{border-color:rgba(201,169,110,0.2);transform:translateY(-4px)}
-.service-card .sc-img{height:120px;border-radius:10px;overflow:hidden;margin-bottom:20px}
-.service-card .sc-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.4s}
+.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(390 px,1 fr));gap:20 px}
+.service-card{background:var(--dark1);border:1 px solid rgba(255,255,255,0.04);border-radius:14 px;padding:28 px;transition:all 0.3 s}
+.service-card:hover{border-color:rgba(201,169,110,0.2);transform:translateY(-4 px)}
+.service-card .sc-img{height:120 px;border-radius:10 px;overflow:hidden;margin-bottom:20 px}
+.service-card .sc-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.4 s}
 .service-card:hover .sc-img img{transform:scale(1.05)}
-.service-icon{font-size:24px;margin-bottom:12px}
-.service-card h3{font-family:'Playfair Display',serif;font-size:16px;margin-bottom:10px;color:var(--gold)}
-.service-card p{font-size:12px;color:var(--text-muted);line-height:1.7}
-.service-card .sc-tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
-.sc-tag{padding:3px 10px;border:1px solid rgba(201,169,110,0.15);border-radius:50px;font-size:10px;color:var(--text-muted)}
+.service-icon{font-size:24 px;margin-bottom:12 px}
+.service-card h3{font-family:'Playfair Display',serif;font-size:16 px;margin-bottom:10 px;color:var(--gold)}
+.service-card p{font-size:12 px;color:var(--text-muted);line-height:1.7}
+.service-card .sc-tags{display:flex;gap:6 px;flex-wrap:wrap;margin-top:12 px}
+.sc-tag{padding:3 px 10 px;border:1 px solid rgba(201,169,110,0.15);border-radius:50 px;font-size:10 px;color:var(--text-muted)}
 
 /* Vip services */
-.vip-section{padding:80px 0;background:var(--dark1)}
-.vip-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(590px,1fr));gap:20px}
-.vip-card{display:flex;gap:20px;padding:24px;background:var(--dark2);border:1px solid rgba(255,255,255,0.04);border-radius:14px;transition:all 0.3s;align-items:flex-start}
+.vip-section{padding:80 px 0;background:var(--dark1)}
+.vip-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(590 px,1 fr));gap:20 px}
+.vip-card{display:flex;gap:20 px;padding:24 px;background:var(--dark2);border:1 px solid rgba(255,255,255,0.04);border-radius:14 px;transition:all 0.3 s;align-items:flex-start}
 .vip-card:hover{border-color:rgba(201,169,110,0.2)}
-.vip-img{width:120px;height:100px;border-radius:10px;overflow:hidden;flex-shrink:0}
+.vip-img{width:120 px;height:100 px;border-radius:10 px;overflow:hidden;flex-shrink:0}
 .vip-img img{width:100%;height:100%;object-fit:cover}
-.vip-card h4{font-family:'Playfair Display',serif;font-size:15px;color:var(--gold);margin-bottom:6px}
-.vip-card p{font-size:12px;color:var(--text-muted);line-height:1.6}
+.vip-card h4{font-family:'Playfair Display',serif;font-size:15 px;color:var(--gold);margin-bottom:6 px}
+.vip-card p{font-size:12 px;color:var(--text-muted);line-height:1.6}
 
 /* Matching guide */
 .matching-section{background:var(--dark2)}
-.match-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:24px}
-.match-card{background:var(--dark1);border:1px solid rgba(255,255,255,0.04);border-radius:14px;padding:28px;text-align:center;transition:all 0.3s}
-.match-card:hover{border-color:rgba(201,169,110,0.2);transform:translateY(-4px)}
-.match-icon{width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 16px;font-size:24px;background:rgba(201,169,110,0.08);border:1px solid rgba(201,169,110,0.15)}
-.match-card h4{font-family:'Playfair Display',serif;font-size:16px;color:var(--gold);margin-bottom:8px}
-.match-card .size{font-size:13px;color:var(--text-muted);margin-bottom:16px}
-.match-card p{font-size:12px;color:var(--text-muted);line-height:1.6}
-.match-routes{display:flex;gap:6px;flex-wrap:wrap;justify-content:center;margin-top:16px}
-.match-route-tag{padding:3px 10px;background:rgba(201,169,110,0.08);border:1px solid rgba(201,169,110,0.15);border-radius:50px;font-size:10px;color:var(--gold)}
+.match-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250 px,1 fr));gap:24 px}
+.match-card{background:var(--dark1);border:1 px solid rgba(255,255,255,0.04);border-radius:14 px;padding:28 px;text-align:center;transition:all 0.3 s}
+.match-card:hover{border-color:rgba(201,169,110,0.2);transform:translateY(-4 px)}
+.match-icon{width:60 px;height:60 px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 16 px;font-size:24 px;background:rgba(201,169,110,0.08);border:1 px solid rgba(201,169,110,0.15)}
+.match-card h4{font-family:'Playfair Display',serif;font-size:16 px;color:var(--gold);margin-bottom:8 px}
+.match-card .size{font-size:13 px;color:var(--text-muted);margin-bottom:16 px}
+.match-card p{font-size:12 px;color:var(--text-muted);line-height:1.6}
+.match-routes{display:flex;gap:6 px;flex-wrap:wrap;justify-content:center;margin-top:16 px}
+.match-route-tag{padding:3 px 10 px;background:rgba(201,169,110,0.08);border:1 px solid rgba(201,169,110,0.15);border-radius:50 px;font-size:10 px;color:var(--gold)}
 
 /* Testimonials */
-.testi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:24px}
-.testi-card{background:var(--dark2);border:1px solid rgba(255,255,255,0.04);border-radius:14px;padding:28px;transition:all 0.3s}
+.testi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250 px,1 fr));gap:24 px}
+.testi-card{background:var(--dark2);border:1 px solid rgba(255,255,255,0.04);border-radius:14 px;padding:28 px;transition:all 0.3 s}
 .testi-card:hover{border-color:rgba(201,169,110,0.2)}
-.testi-quote{font-size:12px;color:var(--text-muted);line-height:1.8;font-style:italic;margin-bottom:20px;position:relative;padding-left:20px}
-.testi-quote::before{content:'"';position:absolute;left:0;top:-4px;font-family:'Playfair Display',serif;font-size:32px;color:var(--gold);line-height:1}
-.testi-stars{color:var(--gold);font-size:14px;margin-bottom:12px;letter-spacing:2px}
-.testi-card h4{font-family:'Playfair Display',serif;font-size:14px;color:var(--gold);margin-bottom:4px}
-.testi-card .route{font-size:11px;color:var(--text-muted);margin-bottom:12px}
-.testi-img{width:100%;height:140px;border-radius:10px;overflow:hidden;margin-bottom:16px}
+.testi-quote{font-size:12 px;color:var(--text-muted);line-height:1.8;font-style:italic;margin-bottom:20 px;position:relative;padding-left:20 px}
+.testi-quote::before{content:'"';position:absolute;left:0;top:-4 px;font-family:'Playfair Display',serif;font-size:32 px;color:var(--gold);line-height:1}
+.testi-stars{color:var(--gold);font-size:14 px;margin-bottom:12 px;letter-spacing:2 px}
+.testi-card h4{font-family:'Playfair Display',serif;font-size:14 px;color:var(--gold);margin-bottom:4 px}
+.testi-card .route{font-size:11 px;color:var(--text-muted);margin-bottom:12 px}
+.testi-img{width:100%;height:140 px;border-radius:10 px;overflow:hidden;margin-bottom:16 px}
 .testi-img img{width:100%;height:100%;object-fit:cover}
 
 /* Trust */
-.trust-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px}
-.trust-card{text-align:center;padding:32px 20px;background:var(--dark2);border:1px solid rgba(255,255,255,0.04);border-radius:14px;transition:all 0.3s}
+.trust-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200 px,1 fr));gap:20 px}
+.trust-card{text-align:center;padding:32 px 20 px;background:var(--dark2);border:1 px solid rgba(255,255,255,0.04);border-radius:14 px;transition:all 0.3 s}
 .trust-card:hover{border-color:rgba(201,169,110,0.2)}
-.trust-icon{width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 16px;font-size:22px;background:rgba(201,169,110,0.06);border:1px solid rgba(201,169,110,0.12)}
-.trust-card h4{font-family:'Playfair Display',serif;font-size:14px;color:var(--gold);margin-bottom:8px}
-.trust-card p{font-size:12px;color:var(--text-muted);line-height:1.6}
+.trust-icon{width:56 px;height:56 px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 16 px;font-size:22 px;background:rgba(201,169,110,0.06);border:1 px solid rgba(201,169,110,0.12)}
+.trust-card h4{font-family:'Playfair Display',serif;font-size:14 px;color:var(--gold);margin-bottom:8 px}
+.trust-card p{font-size:12 px;color:var(--text-muted);line-height:1.6}
 
 /* CTA */
-.cta-section{background:linear-gradient(135deg,var(--dark2) 0%,var(--dark3) 100%);border-top:1px solid rgba(201,169,110,0.08)}
-.cta-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
-.cta-content h2{font-family:'Playfair Display',serif;font-size:clamp(28px,3.5vw,42px);margin-bottom:20px}
+.cta-section{background:linear-gradient(135 deg,var(--dark2) 0%,var(--dark3) 100%);border-top:1 px solid rgba(201,169,110,0.08)}
+.cta-grid{display:grid;grid-template-columns:1 fr 1 fr;gap:60 px;align-items:center}
+.cta-content h2{font-family:'Playfair Display',serif;font-size:clamp(28 px,3.5 vw,42 px);margin-bottom:20 px}
 .cta-content h2 .gold-gradient{display:block}
-.cta-content>p{font-size:14px;color:var(--text-muted);line-height:1.8;margin-bottom:28px}
-.cta-hotline{font-family:'Playfair Display',serif;font-size:clamp(22px,2.5vw,32px);color:var(--gold);margin-bottom:8px;letter-spacing:1px}
-.cta-hotline-sub{font-size:12px;color:var(--text-muted);margin-bottom:32px}
+.cta-content>p{font-size:14 px;color:var(--text-muted);line-height:1.8;margin-bottom:28 px}
+.cta-hotline{font-family:'Playfair Display',serif;font-size:clamp(22 px,2.5 vw,32 px);color:var(--gold);margin-bottom:8 px;letter-spacing:1 px}
+.cta-hotline-sub{font-size:12 px;color:var(--text-muted);margin-bottom:32 px}
 .cta-hotline-sub span{color:var(--text)}
-.cta-form{background:var(--dark1);border:1px solid rgba(201,169,110,0.12);border-radius:16px;padding:36px}
-.cta-form h3{font-family:'Playfair Display',serif;font-size:20px;margin-bottom:8px;color:var(--gold)}
-.cta-form>p{font-size:12px;color:var(--text-muted);margin-bottom:24px}
-.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.form-group{display:flex;flex-direction:column;gap:6px}
+.cta-form{background:var(--dark1);border:1 px solid rgba(201,169,110,0.12);border-radius:16 px;padding:36 px}
+.cta-form h3{font-family:'Playfair Display',serif;font-size:20 px;margin-bottom:8 px;color:var(--gold)}
+.cta-form>p{font-size:12 px;color:var(--text-muted);margin-bottom:24 px}
+.form-grid{display:grid;grid-template-columns:1 fr 1 fr;gap:16 px}
+.form-group{display:flex;flex-direction:column;gap:6 px}
 .form-group.full{grid-column:1/-1}
-.form-group label{font-size:11px;color:var(--text-muted);letter-spacing:1px;text-transform:uppercase}
-.form-group input,.form-group select,.form-group textarea{background:var(--dark2);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:12px 14px;color:var(--text);font-size:13px;font-family:inherit;transition:border-color 0.2s;resize:none}
+.form-group label{font-size:11 px;color:var(--text-muted);letter-spacing:1 px;text-transform:uppercase}
+.form-group input,.form-group select,.form-group textarea{background:var(--dark2);border:1 px solid rgba(255,255,255,0.08);border-radius:8 px;padding:12 px 14 px;color:var(--text);font-size:13 px;font-family:inherit;transition:border-color 0.2 s;resize:none}
 .form-group input:focus,.form-group select:focus,.form-group textarea:focus{outline:none;border-color:rgba(201,169,110,0.4)}
 .form-group select option{background:var(--dark2)}
-.form-submit{width:100%;padding:14px;background:linear-gradient(135deg,var(--gold-dark),var(--gold));color:var(--dark1);border:none;border-radius:8px;font-size:13px;font-weight:600;letter-spacing:1.5px;cursor:pointer;transition:all 0.3s;margin-top:8px;font-family:inherit}
-.form-submit:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(201,169,110,0.25)}
+.form-submit{width:100%;padding:14 px;background:linear-gradient(135 deg,var(--gold-dark),var(--gold));color:var(--dark1);border:none;border-radius:8 px;font-size:13 px;font-weight:600;letter-spacing:1.5 px;cursor:pointer;transition:all 0.3 s;margin-top:8 px;font-family:inherit}
+.form-submit:hover{transform:translateY(-2 px);box-shadow:0 8 px 24 px rgba(201,169,110,0.25)}
 
 /* Footer */
-#footer{background:var(--dark1);border-top:1px solid rgba(201,169,110,0.06);padding:60px 0 30px}
-.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:48px;margin-bottom:40px}
-.footer-brand .nav-logo{margin-bottom:12px;display:inline-block;font-size:18px}
-.footer-brand p{font-size:12px;color:var(--text-muted);line-height:1.6}
-.footer-col h4{font-size:12px;letter-spacing:2px;color:var(--gold);margin-bottom:16px;text-transform:uppercase}
-.footer-col ul{list-style:none;display:flex;flex-direction:column;gap:10px}
-.footer-col a{color:var(--text-muted);text-decoration:none;font-size:13px;transition:color 0.2s}
+#footer{background:var(--dark1);border-top:1 px solid rgba(201,169,110,0.06);padding:60 px 0 30 px}
+.footer-grid{display:grid;grid-template-columns:2 fr 1 fr 1 fr;gap:48 px;margin-bottom:40 px}
+.footer-brand .nav-logo{margin-bottom:12 px;display:inline-block;font-size:18 px}
+.footer-brand p{font-size:12 px;color:var(--text-muted);line-height:1.6}
+.footer-col h4{font-size:12 px;letter-spacing:2 px;color:var(--gold);margin-bottom:16 px;text-transform:uppercase}
+.footer-col ul{list-style:none;display:flex;flex-direction:column;gap:10 px}
+.footer-col a{color:var(--text-muted);text-decoration:none;font-size:13 px;transition:color 0.2 s}
 .footer-col a:hover{color:var(--gold)}
-.footer-col li{font-size:13px;color:var(--text-muted)}
-.footer-bottom{border-top:1px solid rgba(255,255,255,0.04);padding-top:24px;text-align:center;font-size:12px;color:var(--dim)}
+.footer-col li{font-size:13 px;color:var(--text-muted)}
+.footer-bottom{border-top:1 px solid rgba(255,255,255,0.04);padding-top:24 px;text-align:center;font-size:12 px;color:var(--dim)}
 
 /* Animations */
-.reveal{opacity:0;transform:translateY(30px);transition:opacity 0.8s ease,transform 0.8s ease}
+.reveal{opacity:0;transform:translateY(30 px);transition:opacity 0.8 s ease,transform 0.8 s ease}
 .reveal.revealed{opacity:1;transform:translateY(0)}
-.reveal-left{opacity:0;transform:translateX(-30px);transition:opacity 0.8s ease,transform 0.8s ease}
+.reveal-left{opacity:0;transform:translateX(-30 px);transition:opacity 0.8 s ease,transform 0.8 s ease}
 .reveal-left.revealed{opacity:1;transform:translateX(0)}
-.reveal-right{opacity:0;transform:translateX(30px);transition:opacity 0.8s ease,transform 0.8s ease}
+.reveal-right{opacity:0;transform:translateX(30 px);transition:opacity 0.8 s ease,transform 0.8 s ease}
 .reveal-right.revealed{opacity:1;transform:translateX(0)}
-.reveal-scale{opacity:0;transform:scale(0.95);transition:opacity 0.8s ease,transform 0.8s ease}
+.reveal-scale{opacity:0;transform:scale(0.95);transition:opacity 0.8 s ease,transform 0.8 s ease}
 .reveal-scale.revealed{opacity:1;transform:scale(1)}
 
 /* Responsive */
-@media(max-width:1024px){.routes-grid,.services-grid,.testi-grid{grid-template-columns:repeat(auto-fit,minmax(350px,1fr))}.process-grid{grid-template-columns:repeat(auto-fit,minmax(350px,1fr))}.vp-grid{grid-template-columns:repeat(auto-fit,minmax(350px,1fr))}.match-grid{grid-template-columns:repeat(auto-fit,minmax(350px,1fr))}.cta-grid{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr 1fr}}
-@media(max-width:768px){.nav-links{display:none}.hamburger{display:flex}.vp-grid,.routes-grid,.services-grid,.testi-grid,.trust-grid,.match-grid,.vip-grid{grid-template-columns:1fr}.process-grid{grid-template-columns:repeat(auto-fit,minmax(350px,1fr))}.hero-stats{gap:24px}.form-grid{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr}.section-padding{padding:60px 0}}
+@media(max-width:1024 px){.routes-grid,.services-grid,.testi-grid{grid-template-columns:repeat(auto-fit,minmax(350 px,1 fr))}.process-grid{grid-template-columns:repeat(auto-fit,minmax(350 px,1 fr))}.vp-grid{grid-template-columns:repeat(auto-fit,minmax(350 px,1 fr))}.match-grid{grid-template-columns:repeat(auto-fit,minmax(350 px,1 fr))}.cta-grid{grid-template-columns:1 fr}.footer-grid{grid-template-columns:1 fr 1 fr}}
+@media(max-width:768 px){.nav-links{display:none}.hamburger{display:flex}.vp-grid,.routes-grid,.services-grid,.testi-grid,.trust-grid,.match-grid,.vip-grid{grid-template-columns:1 fr}.process-grid{grid-template-columns:repeat(auto-fit,minmax(350 px,1 fr))}.hero-stats{gap:24 px}.form-grid{grid-template-columns:1 fr}.footer-grid{grid-template-columns:1 fr}.section-padding{padding:60 px 0}}
 </style>
   <link rel="icon" type="image/svg+xml" href="../favicon.svg"/></head><body>
-<div id="loader"><div class="brand" data-i18n="charter.12">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div><div class="progress-text" data-i18n="charter.13">LOADING</div></div>
+<div id="loader"><div class="brand" data-i18 n="charter.12">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div><div class="progress-text" data-i18 n="charter.13">LOADING</div></div>
 <div class="cursor-follower" id="cursor"></div>
 <nav id="navbar" aria-label="Main Navigation">
 <div class="nav-inner">
@@ -287,7 +287,7 @@ nav .container{max-width:1200px;margin:0 auto;padding:0 24px}
 </button>
 <a class="lang-switch-btn" href="../charter.html" title="Switch to Chinese" aria-label="中文">中文</a>
 <button class="nav-dark-toggle" id="darkToggle" onclick="toggleDarkMode()" title="Dark Mode" aria-label="Toggle Dark Mode">
-<svg class="icon-moon" fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg class="icon-moon" fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true"><path d="M21 12.79 A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79 z"></path></svg>
 <svg class="icon-sun" fill="none" height="18" stroke="currentColor" stroke-width="2" style="display:none" viewBox="0 0 24 24" width="18" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" x2="12" y1="1" y2="3"></line><line x1="12" x2="12" y1="21" y2="23"></line><line x1="4.22" x2="5.64" y1="4.22" y2="5.64"></line><line x1="18.36" x2="19.78" y1="18.36" y2="19.78"></line><line x1="1" x2="3" y1="12" y2="12"></line><line x1="21" x2="23" y1="12" y2="12"></line><line x1="4.22" x2="5.64" y1="19.78" y2="18.36"></line><line x1="18.36" x2="19.78" y1="5.64" y2="4.22"></line></svg>
 </button>
 <div class="hamburger" onclick="toggleMobile()" aria-label="Open Mobile Menu" role="button" tabindex="0" aria-expanded="false">
@@ -353,14 +353,14 @@ nav .container{max-width:1200px;margin:0 auto;padding:0 24px}
 <a class="mobile-nav-link mobile-primary" href="membership.html">👑 Membership</a>
 <a class="mobile-nav-link mobile-cta" href="contact.html">Contact</a>
 <div class="mobile-menu-footer">
-<a class="mobile-nav-link" href="../charter.html" id="mobileLangSwitch" style="border:1px solid rgba(201,169,110,0.3);border-radius:6px;display:inline-block;padding:12px 24px;color:#c9a96e;font-weight:600;margin-bottom:16px">🌐 中文</a>
+<a class="mobile-nav-link" href="../charter.html" id="mobileLangSwitch" style="border:1 px solid rgba(201,169,110,0.3);border-radius:6 px;display:inline-block;padding:12 px 24 px;color:#c9 a96 e;font-weight:600;margin-bottom:16 px">🌐 中文</a>
 <span>Tel: 13797920792 / +86 0755 3353-0188</span>
 <span>Email: hs@fantastic-vacation.com</span>
 </div>
 </div>
 <div class="hero-ctas">
-<a class="btn btn-gold" data-i18n="charter.279" href="#routes">Explore Destinations →</a>
-<a class="btn btn-outline" data-i18n="charter.281" href="#cta">Get Free Quote</a>
+<a class="btn btn-gold" data-i18 n="charter.279" href="#routes">Explore Destinations →</a>
+<a class="btn btn-outline" data-i18 n="charter.281" href="#cta">Get Free Quote</a>
 </div>
 </div>
 </section>
@@ -368,10 +368,10 @@ nav .container{max-width:1200px;margin:0 auto;padding:0 24px}
 <div class="value-props">
 <div class="container">
 <div class="vp-grid">
-<div class="vp-item"><span class="vp-icon">🌍</span><h4 data-i18n="charter.292">Global Coverage</h4><p data-i18n="charter.293">Covering 50+ premier destinations and hidden routes across the Mediterranean, Caribbean, Southeast Asia, and beyond</p></div>
-<div class="vp-item"><span class="vp-icon">⚓</span><h4 data-i18n="charter.296">Professional Fleet</h4><p data-i18n="charter.297">30 meticulously curated yachts with licensed captains and professional crew at your service</p></div>
-<div class="vp-item"><span class="vp-icon">💎</span><h4></h4><p data-i18n="charter.300">All routes priced at just 1/4 of industry premium rates — exceptional value without compromise</p></div>
-<div class="vp-item"><span class="vp-icon">✦</span><h4 data-i18n="charter.303">Bespoke Customization</h4><p data-i18n="charter.304">Dedicated one-on-one route planner crafting a bespoke itinerary around your preferences</p></div>
+<div class="vp-item"><span class="vp-icon">🌍</span><h4 data-i18 n="charter.292">Global Coverage</h4><p data-i18 n="charter.293">Covering 50+ premier destinations and hidden routes across the Mediterranean, Caribbean, Southeast Asia, and beyond</p></div>
+<div class="vp-item"><span class="vp-icon">⚓</span><h4 data-i18 n="charter.296">Professional Fleet</h4><p data-i18 n="charter.297">30 meticulously curated yachts with licensed captains and professional crew at your service</p></div>
+<div class="vp-item"><span class="vp-icon">💎</span><h4></h4><p data-i18 n="charter.300">All routes priced at just 1/4 of industry premium rates — exceptional value without compromise</p></div>
+<div class="vp-item"><span class="vp-icon">✦</span><h4 data-i18 n="charter.303">Bespoke Customization</h4><p data-i18 n="charter.304">Dedicated one-on-one route planner crafting a bespoke itinerary around your preferences</p></div>
 </div>
 </div>
 </div>
@@ -379,242 +379,242 @@ nav .container{max-width:1200px;margin:0 auto;padding:0 24px}
 <section class="section-padding" id="routes" style="background:var(--dark1)">
 <div class="container">
 <div class="section-header reveal">
-<h2><span class="gold-gradient" data-i18n="charter.314">Global Hotspot Destinations & Routes</span></h2>
+<h2><span class="gold-gradient" data-i18 n="charter.314">Global Hotspot Destinations & Routes</span></h2>
 <div class="divider-gold"></div>
-<p data-i18n="charter.317">From the azure Mediterranean to the emerald waters of Southeast Asia — presenting Earth's most captivating maritime journeys, each route meticulously curated for the ultimate experience</p>
+<p data-i18 n="charter.317">From the azure Mediterranean to the emerald waters of Southeast Asia — presenting Earth's most captivating maritime journeys, each route meticulously curated for the ultimate experience</p>
 </div>
 <div class="route-cats reveal">
-<button class="cat-btn active" data-i18n="charter.321">All Routes</button>
-<button class="cat-btn" data-i18n="charter.323">🌊 Mediterranean</button>
-<button class="cat-btn" data-i18n="charter.325">🌴 Caribbean</button>
-<button class="cat-btn" data-i18n="charter.327">🏝 Southeast Asia</button>
-<button class="cat-btn" data-i18n="charter.329">🌊 Indian Ocean</button>
-<button class="cat-btn" data-i18n="charter.331">🌏 Asia-Pacific</button>
+<button class="cat-btn active" data-i18 n="charter.321">All Routes</button>
+<button class="cat-btn" data-i18 n="charter.323">🌊 Mediterranean</button>
+<button class="cat-btn" data-i18 n="charter.325">🌴 Caribbean</button>
+<button class="cat-btn" data-i18 n="charter.327">🏝 Southeast Asia</button>
+<button class="cat-btn" data-i18 n="charter.329">🌊 Indian Ocean</button>
+<button class="cat-btn" data-i18 n="charter.331">🌏 Asia-Pacific</button>
 </div>
-<div class="routes-grid" data-i18n="charter.335">
+<div class="routes-grid" data-i18 n="charter.335">
 <!-- Route 1: Mediterranean -->
 <div class="route-card reveal" data-region="med">
-<div class="route-img"><img alt="MediterraneanCôte d'Azur" data-i18n-attr="alt:_alt.charter.0" src="../images/yttp/yacht-150.jpg"/><span class="route-season" data-i18n="charter.338">🌞 May–Oct</span></div>
+<div class="route-img"><img alt="MediterraneanCôte d'Azur" data-i18 n-attr="alt:_alt.charter.0" src="../images/yttp/yacht-150.jpg"/><span class="route-season" data-i18 n="charter.338">🌞 May–Oct</span></div>
 <div class="route-body">
-<div class="route-tags"><span class="route-tag" data-i18n="charter.341">Mediterranean</span><span class="route-tag" data-i18n="charter.342">14–21 Days</span><span class="route-tag" data-i18n="charter.343">Luxury Parties</span></div>
-<h3 data-i18n="charter.346"><span class="en" data-i18n="charter.345">Riviera Elegance · French &amp; Italian</span>Côte d'Azur · French & Italian Classic Circuit</h3>
-<p data-i18n="charter.348">Depart from Monaco's Port Hercule, cruise past Cannes' Palm Beach and St Tropez's secret coves, onward to Portofino's colorful fishing village, and finally reach Amalfi's dramatic cliffside coastline. Along the way, savor the lavender fields of Provence and the wine culture of Tuscany.</p>
+<div class="route-tags"><span class="route-tag" data-i18 n="charter.341">Mediterranean</span><span class="route-tag" data-i18 n="charter.342">14–21 Days</span><span class="route-tag" data-i18 n="charter.343">Luxury Parties</span></div>
+<h3 data-i18 n="charter.346"><span class="en" data-i18 n="charter.345">Riviera Elegance · French &amp; Italian</span>Côte d'Azur · French & Italian Classic Circuit</h3>
+<p data-i18 n="charter.348">Depart from Monaco's Port Hercule, cruise past Cannes' Palm Beach and St Tropez's secret coves, onward to Portofino's colorful fishing village, and finally reach Amalfi's dramatic cliffside coastline. Along the way, savor the lavender fields of Provence and the wine culture of Tuscany.</p>
 <div class="route-highlights">
-<div class="route-hl" data-i18n="charter.352"><span>★</span>Monaco F1 Grand Prix viewing + Yacht Club VIP party</div>
-<div class="route-hl" data-i18n="charter.355"><span>★</span>Three-Michelin-starred private chef + Provence chateau dinner</div>
-<div class="route-hl" data-i18n="charter.358"><span>★</span>Private island sunbathing + Blue Grotto snorkeling</div>
+<div class="route-hl" data-i18 n="charter.352"><span>★</span>Monaco F1 Grand Prix viewing + Yacht Club VIP party</div>
+<div class="route-hl" data-i18 n="charter.355"><span>★</span>Three-Michelin-starred private chef + Provence chateau dinner</div>
+<div class="route-hl" data-i18 n="charter.358"><span>★</span>Private island sunbathing + Blue Grotto snorkeling</div>
 </div>
-<div class="route-price"><div><span class="price" data-i18n="charter.361">¥245,000</span><span class="unit" data-i18n="charter.362">/ Week</span></div><a class="detail-btn" data-i18n="charter.363" href="contact.html">Get Your Proposal →</a></div>
+<div class="route-price"><div><span class="price" data-i18 n="charter.361">¥245,000</span><span class="unit" data-i18 n="charter.362">/ Week</span></div><a class="detail-btn" data-i18 n="charter.363" href="contact.html">Get Your Proposal →</a></div>
 </div>
 </div>
 <!-- Route 2: Caribbean -->
 <div class="route-card reveal" data-region="carib">
-<div class="route-img"><img alt="Caribbean Pink Sand Beach" data-i18n-attr="alt:_alt.charter.1" src="../images/yttp/yacht-160.jpg"/><span class="route-season" data-i18n="charter.370">❄️ Nov–Apr</span></div>
+<div class="route-img"><img alt="Caribbean Pink Sand Beach" data-i18 n-attr="alt:_alt.charter.1" src="../images/yttp/yacht-160.jpg"/><span class="route-season" data-i18 n="charter.370">❄️ Nov–Apr</span></div>
 <div class="route-body">
-<div class="route-tags"><span class="route-tag" data-i18n="charter.373">Caribbean</span><span class="route-tag" data-i18n="charter.374">10–21 Days</span><span class="route-tag" data-i18n="charter.375">Winter Favorite</span></div>
-<h3 data-i18n="charter.378"><span class="en" data-i18n="charter.377">Caribbean Pearls · Bahamas &amp; BVI</span>Pearl Islands · Bahamas Dream Voyage</h3>
-<p data-i18n="charter.380">Departing from Nassau, discover legendary pink sand beaches, emerald lagoons, and hidden wreck dive sites. Sail across the Bahamas' 400+ islands, visit private isles in the British Virgin Islands, and swim with sea turtles in crystalline waters.</p>
+<div class="route-tags"><span class="route-tag" data-i18 n="charter.373">Caribbean</span><span class="route-tag" data-i18 n="charter.374">10–21 Days</span><span class="route-tag" data-i18 n="charter.375">Winter Favorite</span></div>
+<h3 data-i18 n="charter.378"><span class="en" data-i18 n="charter.377">Caribbean Pearls · Bahamas &amp; BVI</span>Pearl Islands · Bahamas Dream Voyage</h3>
+<p data-i18 n="charter.380">Departing from Nassau, discover legendary pink sand beaches, emerald lagoons, and hidden wreck dive sites. Sail across the Bahamas' 400+ islands, visit private isles in the British Virgin Islands, and swim with sea turtles in crystalline waters.</p>
 <div class="route-highlights">
-<div class="route-hl" data-i18n="charter.384"><span>★</span>Pink sand beach helicopter tour + underwater sculpture park</div>
-<div class="route-hl" data-i18n="charter.387"><span>★</span>Caribbean jazz festival + pirate-themed dinner</div>
-<div class="route-hl" data-i18n="charter.390"><span>★</span>Deep-sea fishing + lobster BBQ on a private island</div>
+<div class="route-hl" data-i18 n="charter.384"><span>★</span>Pink sand beach helicopter tour + underwater sculpture park</div>
+<div class="route-hl" data-i18 n="charter.387"><span>★</span>Caribbean jazz festival + pirate-themed dinner</div>
+<div class="route-hl" data-i18 n="charter.390"><span>★</span>Deep-sea fishing + lobster BBQ on a private island</div>
 </div>
-<div class="route-price"><div><span class="price" data-i18n="charter.393">¥320,000</span><span class="unit" data-i18n="charter.394">/ Week</span></div><a class="detail-btn" data-i18n="charter.395" href="contact.html">Get Your Proposal →</a></div>
+<div class="route-price"><div><span class="price" data-i18 n="charter.393">¥320,000</span><span class="unit" data-i18 n="charter.394">/ Week</span></div><a class="detail-btn" data-i18 n="charter.395" href="contact.html">Get Your Proposal →</a></div>
 </div>
 </div>
 <!-- Route 3: SE Asia -->
 <div class="route-card reveal" data-region="sea">
-<div class="route-img"><img alt="Andaman Sea Emerald Cave" data-i18n-attr="alt:_alt.charter.2" src="../images/yttp/yacht-170.jpg"/><span class="route-season" data-i18n="charter.402">🌿 Year-Round</span></div>
+<div class="route-img"><img alt="Andaman Sea Emerald Cave" data-i18 n-attr="alt:_alt.charter.2" src="../images/yttp/yacht-170.jpg"/><span class="route-season" data-i18 n="charter.402">🌿 Year-Round</span></div>
 <div class="route-body">
-<div class="route-tags"><span class="route-tag" data-i18n="charter.405">Southeast Asia</span><span class="route-tag" data-i18n="charter.406">7–14 Days</span><span class="route-tag" data-i18n="charter.407">Best Value</span></div>
-<h3 data-i18n="charter.410"><span class="en" data-i18n="charter.409">Andaman Secret · Thailand &amp; Burma</span>Andaman Sea · Thailand & Burma Discovery</h3>
-<p data-i18n="charter.412">Set sail from Phuket into the pristine Mergui Archipelago, Phi Phi's Maya Bay, and emerald caves beneath limestone cliffs. Southeast Asia delivers a world-class yachting experience at exceptional value — with flawless cuisine, dive sites, and beaches.</p>
+<div class="route-tags"><span class="route-tag" data-i18 n="charter.405">Southeast Asia</span><span class="route-tag" data-i18 n="charter.406">7–14 Days</span><span class="route-tag" data-i18 n="charter.407">Best Value</span></div>
+<h3 data-i18 n="charter.410"><span class="en" data-i18 n="charter.409">Andaman Secret · Thailand &amp; Burma</span>Andaman Sea · Thailand & Burma Discovery</h3>
+<p data-i18 n="charter.412">Set sail from Phuket into the pristine Mergui Archipelago, Phi Phi's Maya Bay, and emerald caves beneath limestone cliffs. Southeast Asia delivers a world-class yachting experience at exceptional value — with flawless cuisine, dive sites, and beaches.</p>
 <div class="route-highlights">
-<div class="route-hl" data-i18n="charter.416"><span>★</span>World-class diving: Similan Islands snorkeling</div>
-<div class="route-hl" data-i18n="charter.419"><span>★</span>Mergui Archipelago indigenous culture visit</div>
-<div class="route-hl" data-i18n="charter.422"><span>★</span>Private yacht party + Thai cooking class</div>
+<div class="route-hl" data-i18 n="charter.416"><span>★</span>World-class diving: Similan Islands snorkeling</div>
+<div class="route-hl" data-i18 n="charter.419"><span>★</span>Mergui Archipelago indigenous culture visit</div>
+<div class="route-hl" data-i18 n="charter.422"><span>★</span>Private yacht party + Thai cooking class</div>
 </div>
-<div class="route-price"><div><span class="price" data-i18n="charter.425">¥120,000</span><span class="unit" data-i18n="charter.426">/ Week</span></div><a class="detail-btn" data-i18n="charter.427" href="contact.html">Get Your Proposal →</a></div>
+<div class="route-price"><div><span class="price" data-i18 n="charter.425">¥120,000</span><span class="unit" data-i18 n="charter.426">/ Week</span></div><a class="detail-btn" data-i18 n="charter.427" href="contact.html">Get Your Proposal →</a></div>
 </div>
 </div>
 <!-- Route 4: Greek Islands -->
 <div class="route-card reveal" data-region="med">
-<div class="route-img"><img alt="Santorini, Greece" data-i18n-attr="alt:_alt.charter.3" src="../images/yttp/yacht-180.jpg"/><span class="route-season" data-i18n="charter.434">🌞 May–Sep</span></div>
+<div class="route-img"><img alt="Santorini, Greece" data-i18 n-attr="alt:_alt.charter.3" src="../images/yttp/yacht-180.jpg"/><span class="route-season" data-i18 n="charter.434">🌞 May–Sep</span></div>
 <div class="route-body">
-<div class="route-tags"><span class="route-tag" data-i18n="charter.437">Mediterranean</span><span class="route-tag" data-i18n="charter.438">10–14 Days</span><span class="route-tag" data-i18n="charter.439">Honeymoon Romance</span></div>
-<h3 data-i18n="charter.442"><span class="en" data-i18n="charter.441">Aegean Odyssey · Greek Islands</span>Aegean Sea · Greek Islands Exploration</h3>
-<p data-i18n="charter.444">Depart from Athens and island-hop across the Aegean — Santorini's blue-domed whitewashed villages, Mykonos' nightlife, Crete's ancient civilization, and Rhodes' medieval fortresses. The Greek Islands rank among the world's most romantic yacht destinations.</p>
+<div class="route-tags"><span class="route-tag" data-i18 n="charter.437">Mediterranean</span><span class="route-tag" data-i18 n="charter.438">10–14 Days</span><span class="route-tag" data-i18 n="charter.439">Honeymoon Romance</span></div>
+<h3 data-i18 n="charter.442"><span class="en" data-i18 n="charter.441">Aegean Odyssey · Greek Islands</span>Aegean Sea · Greek Islands Exploration</h3>
+<p data-i18 n="charter.444">Depart from Athens and island-hop across the Aegean — Santorini's blue-domed whitewashed villages, Mykonos' nightlife, Crete's ancient civilization, and Rhodes' medieval fortresses. The Greek Islands rank among the world's most romantic yacht destinations.</p>
 <div class="route-highlights">
-<div class="route-hl" data-i18n="charter.448"><span>★</span>Santorini sunset champagne + volcanic hot springs</div>
-<div class="route-hl" data-i18n="charter.451"><span>★</span>Mykonos beach club + pride party</div>
-<div class="route-hl" data-i18n="charter.454"><span>★</span>Michelin-starred Greek seafood + olive grove dinner</div>
+<div class="route-hl" data-i18 n="charter.448"><span>★</span>Santorini sunset champagne + volcanic hot springs</div>
+<div class="route-hl" data-i18 n="charter.451"><span>★</span>Mykonos beach club + pride party</div>
+<div class="route-hl" data-i18 n="charter.454"><span>★</span>Michelin-starred Greek seafood + olive grove dinner</div>
 </div>
-<div class="route-price"><div><span class="price" data-i18n="charter.457">¥215,000</span><span class="unit" data-i18n="charter.458">/ Week</span></div><a class="detail-btn" data-i18n="charter.459" href="contact.html">Get Your Proposal →</a></div>
+<div class="route-price"><div><span class="price" data-i18 n="charter.457">¥215,000</span><span class="unit" data-i18 n="charter.458">/ Week</span></div><a class="detail-btn" data-i18 n="charter.459" href="contact.html">Get Your Proposal →</a></div>
 </div>
 </div>
 <!-- Route 5: Maldives -->
 <div class="route-card reveal" data-region="indian">
-<div class="route-img"><img alt="Maldives Lagoon" data-i18n-attr="alt:_alt.charter.4" src="../images/yttp/yacht-190.jpg"/><span class="route-season" data-i18n="charter.466">🌿 Nov–Apr</span></div>
+<div class="route-img"><img alt="Maldives Lagoon" data-i18 n-attr="alt:_alt.charter.4" src="../images/yttp/yacht-190.jpg"/><span class="route-season" data-i18 n="charter.466">🌿 Nov–Apr</span></div>
 <div class="route-body">
-<div class="route-tags"><span class="route-tag" data-i18n="charter.469">Maldives</span><span class="route-tag" data-i18n="charter.470">7–14 Days</span><span class="route-tag" data-i18n="charter.471">Intimate Romance</span></div>
-<h3 data-i18n="charter.474"><span class="en" data-i18n="charter.473">Maldivian Paradise · Atolls</span>Maldives · Private Atoll Journey</h3>
-<p data-i18n="charter.476">Cruise through 100+ atolls in the Indian Ocean, discovering secluded sandbanks accessible only by yacht. Crystal-clear lagoons, the world's finest snorkeling, underwater dining, floating breakfasts — the Maldives is the ultimate luxury yacht holiday destination.</p>
+<div class="route-tags"><span class="route-tag" data-i18 n="charter.469">Maldives</span><span class="route-tag" data-i18 n="charter.470">7–14 Days</span><span class="route-tag" data-i18 n="charter.471">Intimate Romance</span></div>
+<h3 data-i18 n="charter.474"><span class="en" data-i18 n="charter.473">Maldivian Paradise · Atolls</span>Maldives · Private Atoll Journey</h3>
+<p data-i18 n="charter.476">Cruise through 100+ atolls in the Indian Ocean, discovering secluded sandbanks accessible only by yacht. Crystal-clear lagoons, the world's finest snorkeling, underwater dining, floating breakfasts — the Maldives is the ultimate luxury yacht holiday destination.</p>
 <div class="route-highlights">
-<div class="route-hl" data-i18n="charter.480"><span>★</span>Underwater dining + floating breakfast experience</div>
-<div class="route-hl" data-i18n="charter.483"><span>★</span>Manta ray dive + swimming with whale sharks</div>
-<div class="route-hl" data-i18n="charter.486"><span>★</span>Private sandbank BBQ + open-air cinema under the stars</div>
+<div class="route-hl" data-i18 n="charter.480"><span>★</span>Underwater dining + floating breakfast experience</div>
+<div class="route-hl" data-i18 n="charter.483"><span>★</span>Manta ray dive + swimming with whale sharks</div>
+<div class="route-hl" data-i18 n="charter.486"><span>★</span>Private sandbank BBQ + open-air cinema under the stars</div>
 </div>
-<div class="route-price"><div><span class="price" data-i18n="charter.489">¥420,000</span><span class="unit" data-i18n="charter.490">/ Week</span></div><a class="detail-btn" data-i18n="charter.491" href="contact.html">Get Your Proposal →</a></div>
+<div class="route-price"><div><span class="price" data-i18 n="charter.489">¥420,000</span><span class="unit" data-i18 n="charter.490">/ Week</span></div><a class="detail-btn" data-i18 n="charter.491" href="contact.html">Get Your Proposal →</a></div>
 </div>
 </div>
 <!-- Route 6: Amalfi -->
 <div class="route-card reveal" data-region="med">
-<div class="route-img"><img alt="Amalfi Cliff Coastline" data-i18n-attr="alt:_alt.charter.5" src="../images/yttp/yacht-200.jpg"/><span class="route-season" data-i18n="charter.498">🌞 Apr–Oct</span></div>
+<div class="route-img"><img alt="Amalfi Cliff Coastline" data-i18 n-attr="alt:_alt.charter.5" src="../images/yttp/yacht-200.jpg"/><span class="route-season" data-i18 n="charter.498">🌞 Apr–Oct</span></div>
 <div class="route-body">
-<div class="route-tags"><span class="route-tag" data-i18n="charter.501">Mediterranean</span><span class="route-tag" data-i18n="charter.502">7–10 Days</span><span class="route-tag" data-i18n="charter.503">Family Getaway</span></div>
-<h3 data-i18n="charter.506"><span class="en" data-i18n="charter.505">Amalfi Dream · Southern Italy</span>Amalfi · Southern Italian Dream</h3>
-<p data-i18n="charter.508">Cruise along the world's most beautiful coastline, departing Naples through Positano's colorful houses, Capri's Blue Grotto, and Ravello's cliffside gardens. The Amalfi Coast is Italy's premier yachting destination — cuisine and scenery both world-class.</p>
+<div class="route-tags"><span class="route-tag" data-i18 n="charter.501">Mediterranean</span><span class="route-tag" data-i18 n="charter.502">7–10 Days</span><span class="route-tag" data-i18 n="charter.503">Family Getaway</span></div>
+<h3 data-i18 n="charter.506"><span class="en" data-i18 n="charter.505">Amalfi Dream · Southern Italy</span>Amalfi · Southern Italian Dream</h3>
+<p data-i18 n="charter.508">Cruise along the world's most beautiful coastline, departing Naples through Positano's colorful houses, Capri's Blue Grotto, and Ravello's cliffside gardens. The Amalfi Coast is Italy's premier yachting destination — cuisine and scenery both world-class.</p>
 <div class="route-highlights">
-<div class="route-hl" data-i18n="charter.512"><span>★</span>Blue Grotto exploration + private cliffside sunbathing</div>
-<div class="route-hl" data-i18n="charter.515"><span>★</span>Neapolitan pizza-making class + wine tasting</div>
-<div class="route-hl" data-i18n="charter.518"><span>★</span>Capri luxury shopping + yacht party</div>
+<div class="route-hl" data-i18 n="charter.512"><span>★</span>Blue Grotto exploration + private cliffside sunbathing</div>
+<div class="route-hl" data-i18 n="charter.515"><span>★</span>Neapolitan pizza-making class + wine tasting</div>
+<div class="route-hl" data-i18 n="charter.518"><span>★</span>Capri luxury shopping + yacht party</div>
 </div>
-<div class="route-price"><div><span class="price" data-i18n="charter.521">¥195,000</span><span class="unit" data-i18n="charter.522">/ Week</span></div><a class="detail-btn" data-i18n="charter.523" href="contact.html">Get Your Proposal →</a></div>
+<div class="route-price"><div><span class="price" data-i18 n="charter.521">¥195,000</span><span class="unit" data-i18 n="charter.522">/ Week</span></div><a class="detail-btn" data-i18 n="charter.523" href="contact.html">Get Your Proposal →</a></div>
 </div>
 </div>
 <!-- Route 7: Seychelles -->
 <div class="route-card reveal" data-region="indian">
-<div class="route-img"><img alt="Seychelles Granite Island" data-i18n-attr="alt:_alt.charter.6" src="../images/yttp/yacht-210.jpg"/><span class="route-season" data-i18n="charter.530">🌿 4-11Month</span></div>
+<div class="route-img"><img alt="Seychelles Granite Island" data-i18 n-attr="alt:_alt.charter.6" src="../images/yttp/yacht-210.jpg"/><span class="route-season" data-i18 n="charter.530">🌿 4-11 Month</span></div>
 <div class="route-body">
-<div class="route-tags"><span class="route-tag" data-i18n="charter.533">Indian Ocean</span><span class="route-tag" data-i18n="charter.534">10–14 Days</span><span class="route-tag" data-i18n="charter.535">Explorer's Paradise</span></div>
-<h3 data-i18n="charter.538"><span class="en" data-i18n="charter.537">Seychelles Serenity · Granite Islands</span>Seychelles · Granite Islands Discovery</h3>
-<p data-i18n="charter.540">Explore the Indian Ocean's last Eden — Seychelles' 115 granite islands are a UNESCO World Heritage Site, while Aldabra Atoll is the world's largest mangrove turtle sanctuary. This is Earth's most pristine yachting destination, where diving, sport fishing, and discovery are unmatched.</p>
+<div class="route-tags"><span class="route-tag" data-i18 n="charter.533">Indian Ocean</span><span class="route-tag" data-i18 n="charter.534">10–14 Days</span><span class="route-tag" data-i18 n="charter.535">Explorer's Paradise</span></div>
+<h3 data-i18 n="charter.538"><span class="en" data-i18 n="charter.537">Seychelles Serenity · Granite Islands</span>Seychelles · Granite Islands Discovery</h3>
+<p data-i18 n="charter.540">Explore the Indian Ocean's last Eden — Seychelles' 115 granite islands are a UNESCO World Heritage Site, while Aldabra Atoll is the world's largest mangrove turtle sanctuary. This is Earth's most pristine yachting destination, where diving, sport fishing, and discovery are unmatched.</p>
 <div class="route-highlights">
-<div class="route-hl" data-i18n="charter.544"><span>★</span>Giant tortoise nature reserve + Coco de Mer palm forest</div>
-<div class="route-hl" data-i18n="charter.547"><span>★</span>Deep-sea fishing + tuna trolling</div>
-<div class="route-hl" data-i18n="charter.550"><span>★</span>Uninhabited island picnic + stargazing camp</div>
+<div class="route-hl" data-i18 n="charter.544"><span>★</span>Giant tortoise nature reserve + Coco de Mer palm forest</div>
+<div class="route-hl" data-i18 n="charter.547"><span>★</span>Deep-sea fishing + tuna trolling</div>
+<div class="route-hl" data-i18 n="charter.550"><span>★</span>Uninhabited island picnic + stargazing camp</div>
 </div>
-<div class="route-price"><div><span class="price" data-i18n="charter.553">¥370,000</span><span class="unit" data-i18n="charter.554">/ Week</span></div><a class="detail-btn" data-i18n="charter.555" href="contact.html">Get Your Proposal →</a></div>
+<div class="route-price"><div><span class="price" data-i18 n="charter.553">¥370,000</span><span class="unit" data-i18 n="charter.554">/ Week</span></div><a class="detail-btn" data-i18 n="charter.555" href="contact.html">Get Your Proposal →</a></div>
 </div>
 </div>
 <!-- Route 8: French Polynesia -->
 <div class="route-card reveal" data-region="indian">
-<div class="route-img"><img alt="Tahiti Lagoon" data-i18n-attr="alt:_alt.charter.7" src="../images/yttp/yacht-220.jpg"/><span class="route-season" data-i18n="charter.562">🌿 May–Oct</span></div>
+<div class="route-img"><img alt="Tahiti Lagoon" data-i18 n-attr="alt:_alt.charter.7" src="../images/yttp/yacht-220.jpg"/><span class="route-season" data-i18 n="charter.562">🌿 May–Oct</span></div>
 <div class="route-body">
-<div class="route-tags"><span class="route-tag" data-i18n="charter.565">South Pacific</span><span class="route-tag" data-i18n="charter.566">14–21 Days</span><span class="route-tag" data-i18n="charter.567">Ultimate Honeymoon</span></div>
-<h3 data-i18n="charter.570"><span class="en" data-i18n="charter.569">Tahitian Legends · Society Islands</span>Tahiti · Society Islands Legend</h3>
-<p data-i18n="charter.572">Depart from Papeete across Bora Bora's magical lagoon, Moorea's intimate atolls, and Huahine's coral gardens. French Polynesia is the world's most romantic yachting destination — emerald lagoons, volcanic peaks, and tropical splendor form an incomparable canvas.</p>
+<div class="route-tags"><span class="route-tag" data-i18 n="charter.565">South Pacific</span><span class="route-tag" data-i18 n="charter.566">14–21 Days</span><span class="route-tag" data-i18 n="charter.567">Ultimate Honeymoon</span></div>
+<h3 data-i18 n="charter.570"><span class="en" data-i18 n="charter.569">Tahitian Legends · Society Islands</span>Tahiti · Society Islands Legend</h3>
+<p data-i18 n="charter.572">Depart from Papeete across Bora Bora's magical lagoon, Moorea's intimate atolls, and Huahine's coral gardens. French Polynesia is the world's most romantic yachting destination — emerald lagoons, volcanic peaks, and tropical splendor form an incomparable canvas.</p>
 <div class="route-highlights">
-<div class="route-hl" data-i18n="charter.576"><span>★</span>Bora Bora overwater bungalow experience + lagoon picnic</div>
-<div class="route-hl" data-i18n="charter.579"><span>★</span>Diving with manta rays + blacktip reef sharks</div>
-<div class="route-hl" data-i18n="charter.582"><span>★</span>Tahitian dance performance + island food festival</div>
+<div class="route-hl" data-i18 n="charter.576"><span>★</span>Bora Bora overwater bungalow experience + lagoon picnic</div>
+<div class="route-hl" data-i18 n="charter.579"><span>★</span>Diving with manta rays + blacktip reef sharks</div>
+<div class="route-hl" data-i18 n="charter.582"><span>★</span>Tahitian dance performance + island food festival</div>
 </div>
-<div class="route-price"><div><span class="price" data-i18n="charter.585">¥495,000</span><span class="unit" data-i18n="charter.586">/ Week</span></div><a class="detail-btn" data-i18n="charter.587" href="contact.html">Get Your Proposal →</a></div>
+<div class="route-price"><div><span class="price" data-i18 n="charter.585">¥495,000</span><span class="unit" data-i18 n="charter.586">/ Week</span></div><a class="detail-btn" data-i18 n="charter.587" href="contact.html">Get Your Proposal →</a></div>
 </div>
 </div>
 <!-- Route 9: Norway Fjord -->
 <div class="route-card reveal" data-region="med">
-<div class="route-img"><img alt="Norwegian Fjord Aurora" data-i18n-attr="alt:_alt.charter.8" src="../images/yttp/yacht-230.jpg"/><span class="route-season" data-i18n="charter.594">❄️ Jun–Sep</span></div>
+<div class="route-img"><img alt="Norwegian Fjord Aurora" data-i18 n-attr="alt:_alt.charter.8" src="../images/yttp/yacht-230.jpg"/><span class="route-season" data-i18 n="charter.594">❄️ Jun–Sep</span></div>
 <div class="route-body">
-<div class="route-tags"><span class="route-tag" data-i18n="charter.597">Nordic</span><span class="route-tag" data-i18n="charter.598">10–14 Days</span><span class="route-tag" data-i18n="charter.599">Nature Exploration</span></div>
-<h3 data-i18n="charter.602"><span class="en" data-i18n="charter.601">Nordic Odyssey · Norwegian Fjords</span>Norwegian Fjords · Nordic Wilderness Voyage</h3>
-<p data-i18n="charter.604">Journey through Geirangerfjord's cascading waterfalls, the Northern Lights chase in Lofoten, and Tromso's Arctic landscapes. The Nordic fjords are the ultimate yachting destination for nature lovers — auroras, glaciers, fjords, and reindeer compose a breathtaking tableau.</p>
+<div class="route-tags"><span class="route-tag" data-i18 n="charter.597">Nordic</span><span class="route-tag" data-i18 n="charter.598">10–14 Days</span><span class="route-tag" data-i18 n="charter.599">Nature Exploration</span></div>
+<h3 data-i18 n="charter.602"><span class="en" data-i18 n="charter.601">Nordic Odyssey · Norwegian Fjords</span>Norwegian Fjords · Nordic Wilderness Voyage</h3>
+<p data-i18 n="charter.604">Journey through Geirangerfjord's cascading waterfalls, the Northern Lights chase in Lofoten, and Tromso's Arctic landscapes. The Nordic fjords are the ultimate yachting destination for nature lovers — auroras, glaciers, fjords, and reindeer compose a breathtaking tableau.</p>
 <div class="route-highlights">
-<div class="route-hl" data-i18n="charter.608"><span>★</span>Fjord waterfall cruise + kayaking expedition</div>
-<div class="route-hl" data-i18n="charter.611"><span>★</span>Northern Lights viewing + midnight sun</div>
-<div class="route-hl" data-i18n="charter.614"><span>★</span>Sami cultural experience + Nordic cuisine</div>
+<div class="route-hl" data-i18 n="charter.608"><span>★</span>Fjord waterfall cruise + kayaking expedition</div>
+<div class="route-hl" data-i18 n="charter.611"><span>★</span>Northern Lights viewing + midnight sun</div>
+<div class="route-hl" data-i18 n="charter.614"><span>★</span>Sami cultural experience + Nordic cuisine</div>
 </div>
-<div class="route-price"><div><span class="price" data-i18n="charter.617">¥295,000</span><span class="unit" data-i18n="charter.618">/ Week</span></div><a class="detail-btn" data-i18n="charter.619" href="contact.html">Get Your Proposal →</a></div>
+<div class="route-price"><div><span class="price" data-i18 n="charter.617">¥295,000</span><span class="unit" data-i18 n="charter.618">/ Week</span></div><a class="detail-btn" data-i18 n="charter.619" href="contact.html">Get Your Proposal →</a></div>
 </div>
 </div>
 <!-- Route 10: Bali & Komodo -->
 <div class="route-card reveal" data-region="asia">
-<div class="route-img"><img alt="Komodo Dragon" data-i18n-attr="alt:_alt.charter.9" src="../images/yttp/yacht-240.jpg"/><span class="route-season" data-i18n="charter.626">🌿 Year-Round</span></div>
+<div class="route-img"><img alt="Komodo Dragon" data-i18 n-attr="alt:_alt.charter.9" src="../images/yttp/yacht-240.jpg"/><span class="route-season" data-i18 n="charter.626">🌿 Year-Round</span></div>
 <div class="route-body">
-<div class="route-tags"><span class="route-tag" data-i18n="charter.629">Southeast Asia</span><span class="route-tag" data-i18n="charter.630">7–14 Days</span><span class="route-tag" data-i18n="charter.631">Culture & Adventure</span></div>
-<h3 data-i18n="charter.634"><span class="en" data-i18n="charter.633">Bali &amp; Komodo · Indonesian Explorer</span>Bali & Komodo · Indonesian Explorer</h3>
-<p data-i18n="charter.636">Depart from Nusa Dua, Bali, to encounter Komodo National Park's prehistoric dragons, Lombok's hidden waterfalls, and Flores' early human fossil sites. With 17,000+ islands, Indonesia is one of the world's finest yacht exploration destinations.</p>
+<div class="route-tags"><span class="route-tag" data-i18 n="charter.629">Southeast Asia</span><span class="route-tag" data-i18 n="charter.630">7–14 Days</span><span class="route-tag" data-i18 n="charter.631">Culture & Adventure</span></div>
+<h3 data-i18 n="charter.634"><span class="en" data-i18 n="charter.633">Bali &amp; Komodo · Indonesian Explorer</span>Bali & Komodo · Indonesian Explorer</h3>
+<p data-i18 n="charter.636">Depart from Nusa Dua, Bali, to encounter Komodo National Park's prehistoric dragons, Lombok's hidden waterfalls, and Flores' early human fossil sites. With 17,000+ islands, Indonesia is one of the world's finest yacht exploration destinations.</p>
 <div class="route-highlights">
-<div class="route-hl" data-i18n="charter.640"><span>★</span>Komodo dragon observation + pink sand beach</div>
-<div class="route-hl" data-i18n="charter.643"><span>★</span>World-class dive site: Banda Sea big fish encounters</div>
-<div class="route-hl" data-i18n="charter.646"><span>★</span>Balinese temple cultural journey</div>
+<div class="route-hl" data-i18 n="charter.640"><span>★</span>Komodo dragon observation + pink sand beach</div>
+<div class="route-hl" data-i18 n="charter.643"><span>★</span>World-class dive site: Banda Sea big fish encounters</div>
+<div class="route-hl" data-i18 n="charter.646"><span>★</span>Balinese temple cultural journey</div>
 </div>
-<div class="route-price"><div><span class="price" data-i18n="charter.649">¥145,000</span><span class="unit" data-i18n="charter.650">/ Week</span></div><a class="detail-btn" data-i18n="charter.651" href="contact.html">Get Your Proposal →</a></div>
+<div class="route-price"><div><span class="price" data-i18 n="charter.649">¥145,000</span><span class="unit" data-i18 n="charter.650">/ Week</span></div><a class="detail-btn" data-i18 n="charter.651" href="contact.html">Get Your Proposal →</a></div>
 </div>
 </div>
 <!-- Route 11: Turkey -->
 <div class="route-card reveal" data-region="med">
-<div class="route-img"><img alt="Turkish Aegean Coast" data-i18n-attr="alt:_alt.charter.10" src="../images/yttp/yacht-250.jpg"/><span class="route-season" data-i18n="charter.658">🌞 May–Oct</span></div>
+<div class="route-img"><img alt="Turkish Aegean Coast" data-i18 n-attr="alt:_alt.charter.10" src="../images/yttp/yacht-250.jpg"/><span class="route-season" data-i18 n="charter.658">🌞 May–Oct</span></div>
 <div class="route-body">
-<div class="route-tags"><span class="route-tag" data-i18n="charter.661">Turkey</span><span class="route-tag" data-i18n="charter.662">7–14 Days</span><span class="route-tag" data-i18n="charter.663">History & Discovery</span></div>
-<h3 data-i18n="charter.666"><span class="en" data-i18n="charter.665">Anatolian Blue · Turkey &amp; Greek Islands</span>Anatolian Blue · Turkey & Greece Combined</h3>
-<p data-i18n="charter.668">Depart from Istanbul across the Sea of Marmara to Bodrum's yacht paradise, then to Rhodes' medieval knight fortress. The Turkish Aegean seamlessly blends ancient civilization with modern luxury — one of the best-value Mediterranean routes.</p>
+<div class="route-tags"><span class="route-tag" data-i18 n="charter.661">Turkey</span><span class="route-tag" data-i18 n="charter.662">7–14 Days</span><span class="route-tag" data-i18 n="charter.663">History & Discovery</span></div>
+<h3 data-i18 n="charter.666"><span class="en" data-i18 n="charter.665">Anatolian Blue · Turkey &amp; Greek Islands</span>Anatolian Blue · Turkey & Greece Combined</h3>
+<p data-i18 n="charter.668">Depart from Istanbul across the Sea of Marmara to Bodrum's yacht paradise, then to Rhodes' medieval knight fortress. The Turkish Aegean seamlessly blends ancient civilization with modern luxury — one of the best-value Mediterranean routes.</p>
 <div class="route-highlights">
-<div class="route-hl" data-i18n="charter.672"><span>★</span>Istanbul historical sites + Turkish bath experience</div>
-<div class="route-hl" data-i18n="charter.675"><span>★</span>Ancient Ephesus ruins + hot air balloon flight</div>
-<div class="route-hl" data-i18n="charter.678"><span>★</span>Turkish water pipe + Mediterranean starlit dinner</div>
+<div class="route-hl" data-i18 n="charter.672"><span>★</span>Istanbul historical sites + Turkish bath experience</div>
+<div class="route-hl" data-i18 n="charter.675"><span>★</span>Ancient Ephesus ruins + hot air balloon flight</div>
+<div class="route-hl" data-i18 n="charter.678"><span>★</span>Turkish water pipe + Mediterranean starlit dinner</div>
 </div>
-<div class="route-price"><div><span class="price" data-i18n="charter.681">¥155,000</span><span class="unit" data-i18n="charter.682">/ Week</span></div><a class="detail-btn" data-i18n="charter.683" href="contact.html">Get Your Proposal →</a></div>
+<div class="route-price"><div><span class="price" data-i18 n="charter.681">¥155,000</span><span class="unit" data-i18 n="charter.682">/ Week</span></div><a class="detail-btn" data-i18 n="charter.683" href="contact.html">Get Your Proposal →</a></div>
 </div>
 </div>
 <!-- Route 12: Vietnam -->
 <div class="route-card reveal" data-region="asia">
-<div class="route-img"><img alt="Ha Long Bay, Vietnam" data-i18n-attr="alt:_alt.charter.11" src="../images/yttp/yacht-260.jpg"/><span class="route-season" data-i18n="charter.690">🌿 Year-Round</span></div>
+<div class="route-img"><img alt="Ha Long Bay, Vietnam" data-i18 n-attr="alt:_alt.charter.11" src="../images/yttp/yacht-260.jpg"/><span class="route-season" data-i18 n="charter.690">🌿 Year-Round</span></div>
 <div class="route-body">
-<div class="route-tags"><span class="route-tag" data-i18n="charter.693">Southeast Asia</span><span class="route-tag" data-i18n="charter.694">5–10 Days</span><span class="route-tag" data-i18n="charter.695">Hidden Gem</span></div>
-<h3 data-i18n="charter.698"><span class="en" data-i18n="charter.697">Emerald Bay · Ha Long &amp; Central Coast</span>Emerald Bay · Northern Vietnam Discovery</h3>
-<p data-i18n="charter.700">Cruise through Ha Long Bay's 3,000 limestone karsts, explore Da Nang's Cham ruins and Hoi An's lantern-lit streets. Vietnam's coastline offers unique natural and cultural allure — one of Southeast Asia's best-value yachting destinations and an emerging global hotspot.</p>
+<div class="route-tags"><span class="route-tag" data-i18 n="charter.693">Southeast Asia</span><span class="route-tag" data-i18 n="charter.694">5–10 Days</span><span class="route-tag" data-i18 n="charter.695">Hidden Gem</span></div>
+<h3 data-i18 n="charter.698"><span class="en" data-i18 n="charter.697">Emerald Bay · Ha Long &amp; Central Coast</span>Emerald Bay · Northern Vietnam Discovery</h3>
+<p data-i18 n="charter.700">Cruise through Ha Long Bay's 3,000 limestone karsts, explore Da Nang's Cham ruins and Hoi An's lantern-lit streets. Vietnam's coastline offers unique natural and cultural allure — one of Southeast Asia's best-value yachting destinations and an emerging global hotspot.</p>
 <div class="route-highlights">
-<div class="route-hl" data-i18n="charter.704"><span>★</span>Ha Long Bay cave exploration + kayaking</div>
-<div class="route-hl" data-i18n="charter.707"><span>★</span>Vietnamese culinary journey + Hoi An lantern-lit old town</div>
-<div class="route-hl" data-i18n="charter.710"><span>★</span>Private beach BBQ + Vietnamese spa experience</div>
+<div class="route-hl" data-i18 n="charter.704"><span>★</span>Ha Long Bay cave exploration + kayaking</div>
+<div class="route-hl" data-i18 n="charter.707"><span>★</span>Vietnamese culinary journey + Hoi An lantern-lit old town</div>
+<div class="route-hl" data-i18 n="charter.710"><span>★</span>Private beach BBQ + Vietnamese spa experience</div>
 </div>
-<div class="route-price"><div><span class="price" data-i18n="charter.713">¥95,000</span><span class="unit" data-i18n="charter.714">/ Week</span></div><a class="detail-btn" data-i18n="charter.715" href="contact.html">Get Your Proposal →</a></div>
+<div class="route-price"><div><span class="price" data-i18 n="charter.713">¥95,000</span><span class="unit" data-i18 n="charter.714">/ Week</span></div><a class="detail-btn" data-i18 n="charter.715" href="contact.html">Get Your Proposal →</a></div>
 </div>
 </div>
 <!-- Route 13: Japan Okinawa -->
 <div class="route-card reveal" data-region="asia">
-<div class="route-img"><img alt="Okinawa Kerama Sea" data-i18n-attr="alt:_alt.charter.12" src="../images/yttp/yacht-270.jpg"/><span class="route-season" data-i18n="charter.722">🌸 Apr–Oct</span></div>
+<div class="route-img"><img alt="Okinawa Kerama Sea" data-i18 n-attr="alt:_alt.charter.12" src="../images/yttp/yacht-270.jpg"/><span class="route-season" data-i18 n="charter.722">🌸 Apr–Oct</span></div>
 <div class="route-body">
-<div class="route-tags"><span class="route-tag" data-i18n="charter.725">Japan</span><span class="route-tag" data-i18n="charter.726">7–14 Days</span><span class="route-tag" data-i18n="charter.727">Culture & Cuisine</span></div>
-<h3 data-i18n="charter.730"><span class="en" data-i18n="charter.729">Okinawa Discovery · Kerama Islands</span>Okinawa Discovery · Kerama Islands Cruise</h3>
-<p data-i18n="charter.732">Depart from Naha across the Kerama Islands' transparent lagoons, Miyako Island's ancient villages, and Ishigaki's starlit skies. The Okinawa route seamlessly fuses Japanese precision with tropical seas — one of Asia's most sophisticated yachting destinations.</p>
+<div class="route-tags"><span class="route-tag" data-i18 n="charter.725">Japan</span><span class="route-tag" data-i18 n="charter.726">7–14 Days</span><span class="route-tag" data-i18 n="charter.727">Culture & Cuisine</span></div>
+<h3 data-i18 n="charter.730"><span class="en" data-i18 n="charter.729">Okinawa Discovery · Kerama Islands</span>Okinawa Discovery · Kerama Islands Cruise</h3>
+<p data-i18 n="charter.732">Depart from Naha across the Kerama Islands' transparent lagoons, Miyako Island's ancient villages, and Ishigaki's starlit skies. The Okinawa route seamlessly fuses Japanese precision with tropical seas — one of Asia's most sophisticated yachting destinations.</p>
 <div class="route-highlights">
-<div class="route-hl" data-i18n="charter.736"><span>★</span>Kerama Blue Cave snorkeling + swimming with sea turtles</div>
-<div class="route-hl" data-i18n="charter.739"><span>★</span>Japanese cuisine masterclass aboard</div>
-<div class="route-hl" data-i18n="charter.742"><span>★</span>Shuri Castle culture + Awamori spirit tasting</div>
+<div class="route-hl" data-i18 n="charter.736"><span>★</span>Kerama Blue Cave snorkeling + swimming with sea turtles</div>
+<div class="route-hl" data-i18 n="charter.739"><span>★</span>Japanese cuisine masterclass aboard</div>
+<div class="route-hl" data-i18 n="charter.742"><span>★</span>Shuri Castle culture + Awamori spirit tasting</div>
 </div>
-<div class="route-price"><div><span class="price" data-i18n="charter.745">¥170,000</span><span class="unit" data-i18n="charter.746">/ Week</span></div><a class="detail-btn" data-i18n="charter.747" href="contact.html">Get Your Proposal →</a></div>
+<div class="route-price"><div><span class="price" data-i18 n="charter.745">¥170,000</span><span class="unit" data-i18 n="charter.746">/ Week</span></div><a class="detail-btn" data-i18 n="charter.747" href="contact.html">Get Your Proposal →</a></div>
 </div>
 </div>
 <!-- Route 14: BVI -->
 <div class="route-card reveal" data-region="carib">
-<div class="route-img"><img alt="British Virgin Islands" data-i18n-attr="alt:_alt.charter.13" src="../images/yttp/yacht-280.jpg"/><span class="route-season" data-i18n="charter.754">❄️ Nov–Apr</span></div>
+<div class="route-img"><img alt="British Virgin Islands" data-i18 n-attr="alt:_alt.charter.13" src="../images/yttp/yacht-280.jpg"/><span class="route-season" data-i18 n="charter.754">❄️ Nov–Apr</span></div>
 <div class="route-body">
-<div class="route-tags"><span class="route-tag" data-i18n="charter.757">Caribbean</span><span class="route-tag" data-i18n="charter.758">7–14 Days</span><span class="route-tag" data-i18n="charter.759">Party Sailing</span></div>
-<h3 data-i18n="charter.762"><span class="en" data-i18n="charter.761">British Virgin Bliss · Sailing Paradise</span>British Virgin Islands · Sailing Paradise</h3>
-<p data-i18n="charter.764">Set sail from Tortola to the legendary bars of Anegada, Virgin Gorda's pirate-themed island parties, and Jost Van Dyke's white sand beaches. One of the Caribbean's most iconic sailing destinations — high island density, short passage distances, and a vibrant party culture.</p>
+<div class="route-tags"><span class="route-tag" data-i18 n="charter.757">Caribbean</span><span class="route-tag" data-i18 n="charter.758">7–14 Days</span><span class="route-tag" data-i18 n="charter.759">Party Sailing</span></div>
+<h3 data-i18 n="charter.762"><span class="en" data-i18 n="charter.761">British Virgin Bliss · Sailing Paradise</span>British Virgin Islands · Sailing Paradise</h3>
+<p data-i18 n="charter.764">Set sail from Tortola to the legendary bars of Anegada, Virgin Gorda's pirate-themed island parties, and Jost Van Dyke's white sand beaches. One of the Caribbean's most iconic sailing destinations — high island density, short passage distances, and a vibrant party culture.</p>
 <div class="route-highlights">
-<div class="route-hl" data-i18n="charter.768"><span>★</span>Legendary Anegada bars + regatta racing</div>
-<div class="route-hl" data-i18n="charter.771"><span>★</span>Pirate-themed dinner + Caribbean BBQ</div>
-<div class="route-hl" data-i18n="charter.774"><span>★</span>Scuba diving + conch shell exploration</div>
+<div class="route-hl" data-i18 n="charter.768"><span>★</span>Legendary Anegada bars + regatta racing</div>
+<div class="route-hl" data-i18 n="charter.771"><span>★</span>Pirate-themed dinner + Caribbean BBQ</div>
+<div class="route-hl" data-i18 n="charter.774"><span>★</span>Scuba diving + conch shell exploration</div>
 </div>
-<div class="route-price"><div><span class="price" data-i18n="charter.777">¥245,000</span><span class="unit" data-i18n="charter.778">/ Week</span></div><a class="detail-btn" data-i18n="charter.779" href="contact.html">Get Your Proposal →</a></div>
+<div class="route-price"><div><span class="price" data-i18 n="charter.777">¥245,000</span><span class="unit" data-i18 n="charter.778">/ Week</span></div><a class="detail-btn" data-i18 n="charter.779" href="contact.html">Get Your Proposal →</a></div>
 </div>
 </div>
 <!-- Route 15: Cote d'Azur -->
 <div class="route-card reveal" data-region="med">
-<div class="route-img"><img alt="Cannes Red Carpet" data-i18n-attr="alt:_alt.charter.14" src="../images/yttp/yacht-290.jpg"/><span class="route-season" data-i18n="charter.786">🌞 May–Sep</span></div>
+<div class="route-img"><img alt="Cannes Red Carpet" data-i18 n-attr="alt:_alt.charter.14" src="../images/yttp/yacht-290.jpg"/><span class="route-season" data-i18 n="charter.786">🌞 May–Sep</span></div>
 <div class="route-body">
-<div class="route-tags"><span class="route-tag" data-i18n="charter.789">Cannes</span><span class="route-tag" data-i18n="charter.790">5–10 Days</span><span class="route-tag" data-i18n="charter.791">Celebrity Hotspot</span></div>
-<h3 data-i18n="charter.794"><span class="en" data-i18n="charter.793">Cannes &amp; Monaco · Star-Studded Riviera</span>Cannes & Monaco · Star-Studded Riviera</h3>
-<p data-i18n="charter.796">From the red carpet of Cannes Film Festival to the roar of Monaco's F1 Grand Prix, from St Tropez's celebrity beaches to Antibes' Impressionist coastline — the Cote d'Azur is the world's most dazzling yachting stage, where every voyage becomes a legend.</p>
+<div class="route-tags"><span class="route-tag" data-i18 n="charter.789">Cannes</span><span class="route-tag" data-i18 n="charter.790">5–10 Days</span><span class="route-tag" data-i18 n="charter.791">Celebrity Hotspot</span></div>
+<h3 data-i18 n="charter.794"><span class="en" data-i18 n="charter.793">Cannes &amp; Monaco · Star-Studded Riviera</span>Cannes & Monaco · Star-Studded Riviera</h3>
+<p data-i18 n="charter.796">From the red carpet of Cannes Film Festival to the roar of Monaco's F1 Grand Prix, from St Tropez's celebrity beaches to Antibes' Impressionist coastline — the Cote d'Azur is the world's most dazzling yachting stage, where every voyage becomes a legend.</p>
 <div class="route-highlights">
-<div class="route-hl" data-i18n="charter.800"><span>★</span>Cannes red carpet experience + film festival party</div>
-<div class="route-hl" data-i18n="charter.803"><span>★</span>Monaco Grand Prix viewing (May–Jun only)</div>
-<div class="route-hl" data-i18n="charter.806"><span>★</span>Private yacht party + celebrity beach VIP service</div>
+<div class="route-hl" data-i18 n="charter.800"><span>★</span>Cannes red carpet experience + film festival party</div>
+<div class="route-hl" data-i18 n="charter.803"><span>★</span>Monaco Grand Prix viewing (May–Jun only)</div>
+<div class="route-hl" data-i18 n="charter.806"><span>★</span>Private yacht party + celebrity beach VIP service</div>
 </div>
-<div class="route-price"><div><span class="price" data-i18n="charter.809">¥395,000</span><span class="unit" data-i18n="charter.810">/ Week</span></div><a class="detail-btn" data-i18n="charter.811" href="contact.html">Get Your Proposal →</a></div>
+<div class="route-price"><div><span class="price" data-i18 n="charter.809">¥395,000</span><span class="unit" data-i18 n="charter.810">/ Week</span></div><a class="detail-btn" data-i18 n="charter.811" href="contact.html">Get Your Proposal →</a></div>
 </div>
 </div>
 </div>
@@ -624,26 +624,26 @@ nav .container{max-width:1200px;margin:0 auto;padding:0 24px}
 <section class="section-padding" style="background:var(--dark2)">
 <div class="container">
 <div class="section-header reveal">
-<h2><span class="gold-gradient" data-i18n="charter.823">Bespoke Private Route Services</span></h2>
+<h2><span class="gold-gradient" data-i18 n="charter.823">Bespoke Private Route Services</span></h2>
 <div class="divider-gold"></div>
-<p data-i18n="charter.826">Our route planning team tailors exclusive itineraries to your travel dates, budget, and party — unlocking private hidden gems rarely found on the market</p>
+<p data-i18 n="charter.826">Our route planning team tailors exclusive itineraries to your travel dates, budget, and party — unlocking private hidden gems rarely found on the market</p>
 </div>
 <div class="vip-grid">
 <div class="vip-card reveal">
-<div class="vip-img"><img alt="Bespoke Route Planning" data-i18n-attr="alt:_alt.charter.15" src="../images/yttp/yacht-155.jpg"/></div>
-<div><h4 data-i18n="charter.832">🏔️ Hidden-Gem Route Development</h4><p data-i18n="charter.833">We uncover rare private islands, secret coves, and undisclosed sea lanes — crafting a truly one-of-a-kind nautical experience.</p></div>
+<div class="vip-img"><img alt="Bespoke Route Planning" data-i18 n-attr="alt:_alt.charter.15" src="../images/yttp/yacht-155.jpg"/></div>
+<div><h4 data-i18 n="charter.832">🏔️ Hidden-Gem Route Development</h4><p data-i18 n="charter.833">We uncover rare private islands, secret coves, and undisclosed sea lanes — crafting a truly one-of-a-kind nautical experience.</p></div>
 </div>
 <div class="vip-card reveal">
-<div class="vip-img"><img alt="Themed Voyage" data-i18n-attr="alt:_alt.charter.16" src="../images/yttp/yacht-165.jpg"/></div>
-<div><h4 data-i18n="charter.838">🎉 Proposal & Anniversary Custom Themes</h4><p data-i18n="charter.839">From proposal staging to anniversary celebrations, our dedicated team orchestrates once-in-a-lifetime romantic moments at sea.</p></div>
+<div class="vip-img"><img alt="Themed Voyage" data-i18 n-attr="alt:_alt.charter.16" src="../images/yttp/yacht-165.jpg"/></div>
+<div><h4 data-i18 n="charter.838">🎉 Proposal & Anniversary Custom Themes</h4><p data-i18 n="charter.839">From proposal staging to anniversary celebrations, our dedicated team orchestrates once-in-a-lifetime romantic moments at sea.</p></div>
 </div>
 <div class="vip-card reveal">
-<div class="vip-img"><img alt="Corporate Hospitality" data-i18n-attr="alt:_alt.charter.17" src="../images/yttp/yacht-175.jpg"/></div>
-<div><h4 data-i18n="charter.844">💼 Executive Hospitality Routes</h4><p data-i18n="charter.845">Exclusive maritime spaces for executive hospitality, corporate annual events, and client appreciation — seamlessly blending luxury with functionality.</p></div>
+<div class="vip-img"><img alt="Corporate Hospitality" data-i18 n-attr="alt:_alt.charter.17" src="../images/yttp/yacht-175.jpg"/></div>
+<div><h4 data-i18 n="charter.844">💼 Executive Hospitality Routes</h4><p data-i18 n="charter.845">Exclusive maritime spaces for executive hospitality, corporate annual events, and client appreciation — seamlessly blending luxury with functionality.</p></div>
 </div>
 <div class="vip-card reveal">
-<div class="vip-img"><img alt="Sport Fishing Adventure" data-i18n-attr="alt:_alt.charter.18" src="../images/yttp/yacht-185.jpg"/></div>
-<div><h4 data-i18n="charter.850">🎣 Professional Sport Fishing Expeditions</h4><p data-i18n="charter.851">Professional-grade fishing gear and expert guidance, backed by our veteran captains' years of fishing-ground mastery — from deep-sea trolling to reef fishing, suitable for all skill levels.</p></div>
+<div class="vip-img"><img alt="Sport Fishing Adventure" data-i18 n-attr="alt:_alt.charter.18" src="../images/yttp/yacht-185.jpg"/></div>
+<div><h4 data-i18 n="charter.850">🎣 Professional Sport Fishing Expeditions</h4><p data-i18 n="charter.851">Professional-grade fishing gear and expert guidance, backed by our veteran captains' years of fishing-ground mastery — from deep-sea trolling to reef fishing, suitable for all skill levels.</p></div>
 </div>
 </div>
 </div>
@@ -652,19 +652,19 @@ nav .container{max-width:1200px;margin:0 auto;padding:0 24px}
 <section class="section-padding">
 <div class="container">
 <div class="section-header reveal">
-<h2><span class="gold-gradient" data-i18n="charter.862">Your Charter Journey, Step by Step</span></h2>
+<h2><span class="gold-gradient" data-i18 n="charter.862">Your Charter Journey, Step by Step</span></h2>
 <div class="divider-gold"></div>
-<p data-i18n="charter.865">From enquiry to embarkation, we guide you through every step — 8 standard stages ensuring a safe, seamless, and unforgettable voyage</p>
+<p data-i18 n="charter.865">From enquiry to embarkation, we guide you through every step — 8 standard stages ensuring a safe, seamless, and unforgettable voyage</p>
 </div>
 <div class="process-grid">
-<div class="process-card reveal"><div class="process-num" data-i18n="charter.869">01</div><span class="process-icon">📞</span><h4 data-i18n="charter.871">Needs Consultation</h4><p data-i18n="charter.872">Submit your travel requirements for an in-depth one-on-one consultation — confirming destination, budget, party size, and preferences</p></div>
-<div class="process-card reveal"><div class="process-num" data-i18n="charter.874">02</div><span class="process-icon" data-i18n="charter.875">🗺️</span><h4 data-i18n="charter.876">Route Recommendations</h4><p data-i18n="charter.877">Receive 3–5 tailored route proposals with detailed comparisons of highlights and differences — helping you find the perfect fit</p></div>
-<div class="process-card reveal"><div class="process-num" data-i18n="charter.879">03</div><span class="process-icon">📋</span><h4 data-i18n="charter.881">Plan Confirmation</h4><p data-i18n="charter.882">Detailed itinerary, yacht specifications, dining plans, and a comprehensive quotation — all confirmed with a signed service agreement</p></div>
-<div class="process-card reveal"><div class="process-num" data-i18n="charter.884">04</div><span class="process-icon">💳</span><h4 data-i18n="charter.886">Deposit & Reservation</h4><p data-i18n="charter.887">Secure your dates with a 50% deposit — our team immediately begins preparations, confirming yacht model, crew, and port arrangements</p></div>
-<div class="process-card reveal"><div class="process-num" data-i18n="charter.889">05</div><span class="process-icon">📦</span><h4 data-i18n="charter.891">Pre-Departure Preparation</h4><p data-i18n="charter.892">Port clearance, shore excursion bookings, custom dining menus, plus a complete pre-departure and embarkation guide</p></div>
-<div class="process-card reveal"><div class="process-num" data-i18n="charter.894">06</div><span class="process-icon">⚓</span><h4 data-i18n="charter.896">Embarkation & Departure</h4><p data-i18n="charter.897">Your dedicated captain hosts an embarkation briefing covering every detail of the yacht and route — then 24/7 concierge service begins</p></div>
-<div class="process-card reveal"><div class="process-num" data-i18n="charter.899">07</div><span class="process-icon">🌅</span><h4 data-i18n="charter.901">Voyage Execution</h4><p data-i18n="charter.902">Cruise your planned route with the flexibility to adjust daily — your captain and steward ensure professional service and safety throughout</p></div>
-<div class="process-card reveal"><div class="process-num" data-i18n="charter.904">08</div><span class="process-icon">🎁</span><h4 data-i18n="charter.906">After-Voyage Service</h4><p data-i18n="charter.907">Receive all voyage photos and videos post-journey, with loyalty points accrued toward exclusive benefits on your next charter</p></div>
+<div class="process-card reveal"><div class="process-num" data-i18 n="charter.869">01</div><span class="process-icon">📞</span><h4 data-i18 n="charter.871">Needs Consultation</h4><p data-i18 n="charter.872">Submit your travel requirements for an in-depth one-on-one consultation — confirming destination, budget, party size, and preferences</p></div>
+<div class="process-card reveal"><div class="process-num" data-i18 n="charter.874">02</div><span class="process-icon" data-i18 n="charter.875">🗺️</span><h4 data-i18 n="charter.876">Route Recommendations</h4><p data-i18 n="charter.877">Receive 3–5 tailored route proposals with detailed comparisons of highlights and differences — helping you find the perfect fit</p></div>
+<div class="process-card reveal"><div class="process-num" data-i18 n="charter.879">03</div><span class="process-icon">📋</span><h4 data-i18 n="charter.881">Plan Confirmation</h4><p data-i18 n="charter.882">Detailed itinerary, yacht specifications, dining plans, and a comprehensive quotation — all confirmed with a signed service agreement</p></div>
+<div class="process-card reveal"><div class="process-num" data-i18 n="charter.884">04</div><span class="process-icon">💳</span><h4 data-i18 n="charter.886">Deposit & Reservation</h4><p data-i18 n="charter.887">Secure your dates with a 50% deposit — our team immediately begins preparations, confirming yacht model, crew, and port arrangements</p></div>
+<div class="process-card reveal"><div class="process-num" data-i18 n="charter.889">05</div><span class="process-icon">📦</span><h4 data-i18 n="charter.891">Pre-Departure Preparation</h4><p data-i18 n="charter.892">Port clearance, shore excursion bookings, custom dining menus, plus a complete pre-departure and embarkation guide</p></div>
+<div class="process-card reveal"><div class="process-num" data-i18 n="charter.894">06</div><span class="process-icon">⚓</span><h4 data-i18 n="charter.896">Embarkation & Departure</h4><p data-i18 n="charter.897">Your dedicated captain hosts an embarkation briefing covering every detail of the yacht and route — then 24/7 concierge service begins</p></div>
+<div class="process-card reveal"><div class="process-num" data-i18 n="charter.899">07</div><span class="process-icon">🌅</span><h4 data-i18 n="charter.901">Voyage Execution</h4><p data-i18 n="charter.902">Cruise your planned route with the flexibility to adjust daily — your captain and steward ensure professional service and safety throughout</p></div>
+<div class="process-card reveal"><div class="process-num" data-i18 n="charter.904">08</div><span class="process-icon">🎁</span><h4 data-i18 n="charter.906">After-Voyage Service</h4><p data-i18 n="charter.907">Receive all voyage photos and videos post-journey, with loyalty points accrued toward exclusive benefits on your next charter</p></div>
 </div>
 </div>
 </section>
@@ -672,52 +672,52 @@ nav .container{max-width:1200px;margin:0 auto;padding:0 24px}
 <section class="section-padding services-section">
 <div class="container">
 <div class="section-header reveal">
-<h2><span class="gold-gradient" data-i18n="charter.917">Inclusions & Premium Benefits</span></h2>
+<h2><span class="gold-gradient" data-i18 n="charter.917">Inclusions & Premium Benefits</span></h2>
 <div class="divider-gold"></div>
-<p data-i18n="charter.920">Every route comes with a complete luxury service ecosystem, ensuring your experience at sea rivals — and surpasses — life on land</p>
+<p data-i18 n="charter.920">Every route comes with a complete luxury service ecosystem, ensuring your experience at sea rivals — and surpasses — life on land</p>
 </div>
 <div class="services-grid">
 <div class="service-card reveal">
-<div class="sc-img"><img alt="Professional Yacht" data-i18n-attr="alt:_alt.charter.19" src="../images/yttp/yacht-158.jpg"/></div>
+<div class="sc-img"><img alt="Professional Yacht" data-i18 n-attr="alt:_alt.charter.19" src="../images/yttp/yacht-158.jpg"/></div>
 <span class="service-icon">🚢</span>
-<h3 data-i18n="charter.928">Meticulously Curated Yachts</h3>
-<p data-i18n="charter.930">Each route is matched with the ideal yacht model, thoroughly inspected and detailed before departure — ensuring safe and comfortable sailing.</p>
-<div class="sc-tags"><span class="sc-tag" data-i18n="charter.932">Scheduled Maintenance</span><span class="sc-tag" data-i18n="charter.933">Voyage Insurance</span><span class="sc-tag" data-i18n="charter.934">Safety Inspection</span></div>
+<h3 data-i18 n="charter.928">Meticulously Curated Yachts</h3>
+<p data-i18 n="charter.930">Each route is matched with the ideal yacht model, thoroughly inspected and detailed before departure — ensuring safe and comfortable sailing.</p>
+<div class="sc-tags"><span class="sc-tag" data-i18 n="charter.932">Scheduled Maintenance</span><span class="sc-tag" data-i18 n="charter.933">Voyage Insurance</span><span class="sc-tag" data-i18 n="charter.934">Safety Inspection</span></div>
 </div>
 <div class="service-card reveal">
-<div class="sc-img"><img alt="Professional Crew" data-i18n-attr="alt:_alt.charter.20" src="../images/yttp/yacht-162.jpg"/></div>
-<span class="service-icon" data-i18n="charter.939">👨‍✈️</span>
-<h3 data-i18n="charter.941">Veteran Crew Team</h3>
-<p data-i18n="charter.943">Licensed captains, professional crew, and service staff provide attentive 24/7 service with multilingual support and expert knowledge of international maritime regulations.</p>
-<div class="sc-tags"><span class="sc-tag" data-i18n="charter.945">Licensed Captain</span><span class="sc-tag" data-i18n="charter.946">Multilingual</span><span class="sc-tag" data-i18n="charter.947">24H Service</span></div>
+<div class="sc-img"><img alt="Professional Crew" data-i18 n-attr="alt:_alt.charter.20" src="../images/yttp/yacht-162.jpg"/></div>
+<span class="service-icon" data-i18 n="charter.939">👨‍✈️</span>
+<h3 data-i18 n="charter.941">Veteran Crew Team</h3>
+<p data-i18 n="charter.943">Licensed captains, professional crew, and service staff provide attentive 24/7 service with multilingual support and expert knowledge of international maritime regulations.</p>
+<div class="sc-tags"><span class="sc-tag" data-i18 n="charter.945">Licensed Captain</span><span class="sc-tag" data-i18 n="charter.946">Multilingual</span><span class="sc-tag" data-i18 n="charter.947">24 H Service</span></div>
 </div>
 <div class="service-card reveal">
-<div class="sc-img"><img alt="Michelin-Starred Cuisine" data-i18n-attr="alt:_alt.charter.21" src="../images/yttp/yacht-178.jpg"/></div>
-<span class="service-icon" data-i18n="charter.952">🍽️</span>
-<h3 data-i18n="charter.954">Bespoke Culinary Service</h3>
-<p data-i18n="charter.956">Michelin-caliber chefs aboard, crafting bespoke East-West menus with daily fresh provisions. All dietary requirements accommodated, with fine wines and Champagne included.</p>
-<div class="sc-tags"><span class="sc-tag" data-i18n="charter.958">Michelin Chef</span><span class="sc-tag" data-i18n="charter.959">East-West Cuisine</span><span class="sc-tag" data-i18n="charter.960">Beverages Included</span></div>
+<div class="sc-img"><img alt="Michelin-Starred Cuisine" data-i18 n-attr="alt:_alt.charter.21" src="../images/yttp/yacht-178.jpg"/></div>
+<span class="service-icon" data-i18 n="charter.952">🍽️</span>
+<h3 data-i18 n="charter.954">Bespoke Culinary Service</h3>
+<p data-i18 n="charter.956">Michelin-caliber chefs aboard, crafting bespoke East-West menus with daily fresh provisions. All dietary requirements accommodated, with fine wines and Champagne included.</p>
+<div class="sc-tags"><span class="sc-tag" data-i18 n="charter.958">Michelin Chef</span><span class="sc-tag" data-i18 n="charter.959">East-West Cuisine</span><span class="sc-tag" data-i18 n="charter.960">Beverages Included</span></div>
 </div>
 <div class="service-card reveal">
-<div class="sc-img"><img alt="Water Sports" data-i18n-attr="alt:_alt.charter.22" src="../images/yttp/yacht-188.jpg"/></div>
+<div class="sc-img"><img alt="Water Sports" data-i18 n-attr="alt:_alt.charter.22" src="../images/yttp/yacht-188.jpg"/></div>
 <span class="service-icon">🏄</span>
-<h3 data-i18n="charter.967">All-Inclusive Water Sports</h3>
-<p data-i18n="charter.969">Waterskiing, snorkeling, scuba diving, paddleboarding, jet skis, and sport fishing — all equipment provided with professional instruction and full safety gear.</p>
-<div class="sc-tags"><span class="sc-tag" data-i18n="charter.971">Snorkeling</span><span class="sc-tag" data-i18n="charter.972">Sport Fishing</span><span class="sc-tag" data-i18n="charter.973">Instructor</span></div>
+<h3 data-i18 n="charter.967">All-Inclusive Water Sports</h3>
+<p data-i18 n="charter.969">Waterskiing, snorkeling, scuba diving, paddleboarding, jet skis, and sport fishing — all equipment provided with professional instruction and full safety gear.</p>
+<div class="sc-tags"><span class="sc-tag" data-i18 n="charter.971">Snorkeling</span><span class="sc-tag" data-i18 n="charter.972">Sport Fishing</span><span class="sc-tag" data-i18 n="charter.973">Instructor</span></div>
 </div>
 <div class="service-card reveal">
-<div class="sc-img"><img alt="Shore Excursions" data-i18n-attr="alt:_alt.charter.23" src="../images/yttp/yacht-198.jpg"/></div>
+<div class="sc-img"><img alt="Shore Excursions" data-i18 n-attr="alt:_alt.charter.23" src="../images/yttp/yacht-198.jpg"/></div>
 <span class="service-icon">🏨</span>
-<h3 data-i18n="charter.980">Shore Excursion Concierge</h3>
-<p data-i18n="charter.982">Portside restaurants, Michelin-starred dining, attraction tickets, and local guides — all arranged for a seamless transition between land and sea.</p>
-<div class="sc-tags"><span class="sc-tag" data-i18n="charter.984">Dining</span><span class="sc-tag" data-i18n="charter.985">Attractions</span><span class="sc-tag" data-i18n="charter.986">Guide</span></div>
+<h3 data-i18 n="charter.980">Shore Excursion Concierge</h3>
+<p data-i18 n="charter.982">Portside restaurants, Michelin-starred dining, attraction tickets, and local guides — all arranged for a seamless transition between land and sea.</p>
+<div class="sc-tags"><span class="sc-tag" data-i18 n="charter.984">Dining</span><span class="sc-tag" data-i18 n="charter.985">Attractions</span><span class="sc-tag" data-i18 n="charter.986">Guide</span></div>
 </div>
 <div class="service-card reveal">
-<div class="sc-img"><img alt="Full Voyage Assurance" data-i18n-attr="alt:_alt.charter.24" src="../images/yttp/yacht-208.jpg"/></div>
+<div class="sc-img"><img alt="Full Voyage Assurance" data-i18 n-attr="alt:_alt.charter.24" src="../images/yttp/yacht-208.jpg"/></div>
 <span class="service-icon">📋</span>
-<h3 data-i18n="charter.993">Full Voyage Assurance</h3>
-<p data-i18n="charter.995">Comprehensive marine insurance, satellite communications, emergency medical equipment, and maritime rescue coordination. Port and fuel fees all included — zero hidden costs.</p>
-<div class="sc-tags"><span class="sc-tag" data-i18n="charter.997">Insurance</span><span class="sc-tag" data-i18n="charter.998">Comms</span><span class="sc-tag" data-i18n="charter.999">No Hidden Fees</span></div>
+<h3 data-i18 n="charter.993">Full Voyage Assurance</h3>
+<p data-i18 n="charter.995">Comprehensive marine insurance, satellite communications, emergency medical equipment, and maritime rescue coordination. Port and fuel fees all included — zero hidden costs.</p>
+<div class="sc-tags"><span class="sc-tag" data-i18 n="charter.997">Insurance</span><span class="sc-tag" data-i18 n="charter.998">Comms</span><span class="sc-tag" data-i18 n="charter.999">No Hidden Fees</span></div>
 </div>
 </div>
 </div>
@@ -726,36 +726,36 @@ nav .container{max-width:1200px;margin:0 auto;padding:0 24px}
 <section class="section-padding matching-section">
 <div class="container">
 <div class="section-header reveal">
-<h2><span class="gold-gradient" data-i18n="charter.1010">Yacht & Route Matching Guide</span></h2>
+<h2><span class="gold-gradient" data-i18 n="charter.1010">Yacht & Route Matching Guide</span></h2>
 <div class="divider-gold"></div>
-<p data-i18n="charter.1013">Different routes demand different yacht configurations. We help you quickly find the perfect yacht for your voyage style</p>
+<p data-i18 n="charter.1013">Different routes demand different yacht configurations. We help you quickly find the perfect yacht for your voyage style</p>
 </div>
 <div class="match-grid">
 <div class="match-card reveal">
 <div class="match-icon">⛵</div>
-<h4 data-i18n="charter.1020">Flybridge Series 18-45M</h4>
-<div class="size" data-i18n="charter.1022">Ideal for Coastal Getaways · Family Trips · Parties</div>
-<p data-i18n="charter.1024">The flybridge deck offers 360-degree panoramic views and abundant sunlight — perfect for family holidays, friend gatherings, and business entertaining. The best-value luxury yacht choice.</p>
+<h4 data-i18 n="charter.1020">Flybridge Series 18-45 M</h4>
+<div class="size" data-i18 n="charter.1022">Ideal for Coastal Getaways · Family Trips · Parties</div>
+<p data-i18 n="charter.1024">The flybridge deck offers 360-degree panoramic views and abundant sunlight — perfect for family holidays, friend gatherings, and business entertaining. The best-value luxury yacht choice.</p>
 <div class="match-routes">
-<span class="match-route-tag" data-i18n="charter.1027">Caribbean</span><span class="match-route-tag" data-i18n="charter.1028">Southeast Asia</span><span class="match-route-tag" data-i18n="charter.1029">Mediterranean</span><span class="match-route-tag" data-i18n="charter.1030">Japan · Okinawa</span>
+<span class="match-route-tag" data-i18 n="charter.1027">Caribbean</span><span class="match-route-tag" data-i18 n="charter.1028">Southeast Asia</span><span class="match-route-tag" data-i18 n="charter.1029">Mediterranean</span><span class="match-route-tag" data-i18 n="charter.1030">Japan · Okinawa</span>
 </div>
 </div>
 <div class="match-card reveal">
 <div class="match-icon">⚓</div>
-<h4 data-i18n="charter.1037">Expedition Series 40-70M</h4>
-<div class="size" data-i18n="charter.1039">Ideal for Ocean Voyages · Multi-Island Hopping</div>
-<p data-i18n="charter.1041">The Expedition Series delivers exceptional range and stability for long-distance ocean crossings and multi-destination routes — reaching hidden paradises inaccessible to conventional vessels.</p>
+<h4 data-i18 n="charter.1037">Expedition Series 40-70 M</h4>
+<div class="size" data-i18 n="charter.1039">Ideal for Ocean Voyages · Multi-Island Hopping</div>
+<p data-i18 n="charter.1041">The Expedition Series delivers exceptional range and stability for long-distance ocean crossings and multi-destination routes — reaching hidden paradises inaccessible to conventional vessels.</p>
 <div class="match-routes">
-<span class="match-route-tag" data-i18n="charter.1044">Maldives</span><span class="match-route-tag" data-i18n="charter.1045">Greek Islands</span><span class="match-route-tag" data-i18n="charter.1046">Norwegian Fjords</span><span class="match-route-tag" data-i18n="charter.1047">Tahiti</span>
+<span class="match-route-tag" data-i18 n="charter.1044">Maldives</span><span class="match-route-tag" data-i18 n="charter.1045">Greek Islands</span><span class="match-route-tag" data-i18 n="charter.1046">Norwegian Fjords</span><span class="match-route-tag" data-i18 n="charter.1047">Tahiti</span>
 </div>
 </div>
 <div class="match-card reveal">
 <div class="match-icon">👑</div>
-<h4 data-i18n="charter.1054">Sovereign Series 60-120M</h4>
-<div class="size" data-i18n="charter.1056">Ideal for Luxury Parties · Corporate Hosting</div>
-<p data-i18n="charter.1058">Superyacht scale and specification — helipad, swimming pool, and IMAX cinema all on board. The ultimate choice for the world's most prestigious luxury events.</p>
+<h4 data-i18 n="charter.1054">Sovereign Series 60-120 M</h4>
+<div class="size" data-i18 n="charter.1056">Ideal for Luxury Parties · Corporate Hosting</div>
+<p data-i18 n="charter.1058">Superyacht scale and specification — helipad, swimming pool, and IMAX cinema all on board. The ultimate choice for the world's most prestigious luxury events.</p>
 <div class="match-routes">
-<span class="match-route-tag" data-i18n="charter.1061">Cannes & Monaco</span><span class="match-route-tag" data-i18n="charter.1062">Seychelles</span><span class="match-route-tag" data-i18n="charter.1063">Corporate Hosting</span><span class="match-route-tag" data-i18n="charter.1064">Brand Events</span>
+<span class="match-route-tag" data-i18 n="charter.1061">Cannes & Monaco</span><span class="match-route-tag" data-i18 n="charter.1062">Seychelles</span><span class="match-route-tag" data-i18 n="charter.1063">Corporate Hosting</span><span class="match-route-tag" data-i18 n="charter.1064">Brand Events</span>
 </div>
 </div>
 </div>
@@ -765,31 +765,31 @@ nav .container{max-width:1200px;margin:0 auto;padding:0 24px}
 <section class="section-padding" style="background:var(--dark2)">
 <div class="container">
 <div class="section-header reveal">
-<h2><span class="gold-gradient" data-i18n="charter.1076">Real Client Experiences</span></h2>
+<h2><span class="gold-gradient" data-i18 n="charter.1076">Real Client Experiences</span></h2>
 <div class="divider-gold"></div>
-<p data-i18n="charter.1079">Real travelers from around the world share their maritime journeys — each story a testament to the Fantastic Vacation standard of service</p>
+<p data-i18 n="charter.1079">Real travelers from around the world share their maritime journeys — each story a testament to the Fantastic Vacation standard of service</p>
 </div>
 <div class="testi-grid">
 <div class="testi-card reveal">
-<div class="testi-img"><img alt="Maldives Journey" data-i18n-attr="alt:_alt.charter.25" src="../images/yttp/yacht-215.jpg"/></div>
-<div class="testi-stars" data-i18n="charter.1085">★★★★★</div>
-<div class="testi-quote" data-i18n="charter.1087">Our first yacht charter experience — a 7-day Maldives itinerary. It exceeded every expectation! The butler service attended to every detail, even having my wife's favorite herbal tea ready ahead of time. We will definitely return.</div>
-<h4 data-i18n="charter.1089">Mr. Li &amp; Mrs. Wang</h4>
-<div class="route" data-i18n="charter.1091">Maldives Private Atoll Journey · Feb 2026</div>
+<div class="testi-img"><img alt="Maldives Journey" data-i18 n-attr="alt:_alt.charter.25" src="../images/yttp/yacht-215.jpg"/></div>
+<div class="testi-stars" data-i18 n="charter.1085">★★★★★</div>
+<div class="testi-quote" data-i18 n="charter.1087">Our first yacht charter experience — a 7-day Maldives itinerary. It exceeded every expectation! The butler service attended to every detail, even having my wife's favorite herbal tea ready ahead of time. We will definitely return.</div>
+<h4 data-i18 n="charter.1089">Mr. Li &amp; Mrs. Wang</h4>
+<div class="route" data-i18 n="charter.1091">Maldives Private Atoll Journey · Feb 2026</div>
 </div>
 <div class="testi-card reveal">
-<div class="testi-img"><img alt="Mediterranean Journey" data-i18n-attr="alt:_alt.charter.26" src="../images/yttp/yacht-225.jpg"/></div>
-<div class="testi-stars" data-i18n="charter.1096">★★★★★</div>
-<div class="testi-quote" data-i18n="charter.1098">To celebrate our 10th wedding anniversary, we took the family on the Mediterranean French-Italian classic circuit. The captain knew every stop inside out, and the kids had more fun aboard than at home. Best of all — the value is a fraction of market rates!</div>
-<h4 data-i18n="charter.1100">The Chen Family</h4>
-<div class="route" data-i18n="charter.1102">Mediterranean French & Italian Classic Circuit · Sep 2025</div>
+<div class="testi-img"><img alt="Mediterranean Journey" data-i18 n-attr="alt:_alt.charter.26" src="../images/yttp/yacht-225.jpg"/></div>
+<div class="testi-stars" data-i18 n="charter.1096">★★★★★</div>
+<div class="testi-quote" data-i18 n="charter.1098">To celebrate our 10 th wedding anniversary, we took the family on the Mediterranean French-Italian classic circuit. The captain knew every stop inside out, and the kids had more fun aboard than at home. Best of all — the value is a fraction of market rates!</div>
+<h4 data-i18 n="charter.1100">The Chen Family</h4>
+<div class="route" data-i18 n="charter.1102">Mediterranean French & Italian Classic Circuit · Sep 2025</div>
 </div>
 <div class="testi-card reveal">
-<div class="testi-img"><img alt="Bali Journey" data-i18n-attr="alt:_alt.charter.27" src="../images/yttp/yacht-235.jpg"/></div>
-<div class="testi-stars" data-i18n="charter.1107">★★★★★</div>
-<div class="testi-quote" data-i18n="charter.1109">Chartered a Flybridge Series with friends to Komodo. The captain took us to a private beach with no name — our yacht was the only one there. That feeling is beyond words — absolutely one of the best experiences of my life.</div>
-<h4 data-i18n="charter.1111">Mr. Zhang & Friends</h4>
-<div class="route" data-i18n="charter.1113">Bali & Komodo Explorer · Dec 2025</div>
+<div class="testi-img"><img alt="Bali Journey" data-i18 n-attr="alt:_alt.charter.27" src="../images/yttp/yacht-235.jpg"/></div>
+<div class="testi-stars" data-i18 n="charter.1107">★★★★★</div>
+<div class="testi-quote" data-i18 n="charter.1109">Chartered a Flybridge Series with friends to Komodo. The captain took us to a private beach with no name — our yacht was the only one there. That feeling is beyond words — absolutely one of the best experiences of my life.</div>
+<h4 data-i18 n="charter.1111">Mr. Zhang & Friends</h4>
+<div class="route" data-i18 n="charter.1113">Bali & Komodo Explorer · Dec 2025</div>
 </div>
 </div>
 </div>
@@ -798,14 +798,14 @@ nav .container{max-width:1200px;margin:0 auto;padding:0 24px}
 <section class="section-padding">
 <div class="container">
 <div class="section-header reveal">
-<h2><span class="gold-gradient" data-i18n="charter.1124">Charter Assurance & Compliance</span></h2>
-<div class="divider-gold"></div><p data-i18n="charter.1126">Your safety and rights are our foremost responsibility — every promise is backed by institutional safeguards, never empty words</p>
+<h2><span class="gold-gradient" data-i18 n="charter.1124">Charter Assurance & Compliance</span></h2>
+<div class="divider-gold"></div><p data-i18 n="charter.1126">Your safety and rights are our foremost responsibility — every promise is backed by institutional safeguards, never empty words</p>
 </div>
 <div class="trust-grid">
-<div class="trust-card reveal"><div class="trust-icon" data-i18n="charter.1130">🛡️</div><h4 data-i18n="charter.1131">Classification Society Certified</h4><p data-i18n="charter.1132">All yachts are certified by international classification societies with regular safety inspections and complete documentation — your safety, fully verifiable</p></div>
-<div class="trust-card reveal"><div class="trust-icon">⚓</div><h4 data-i18n="charter.1135">Comprehensive Insurance</h4><p data-i18n="charter.1136">Full coverage including hull insurance, passenger insurance, and third-party liability — a complete protection framework for every eventuality</p></div>
-<div class="trust-card reveal"><div class="trust-icon">✦</div><h4 data-i18n="charter.1139">Zero Hidden Costs</h4><p data-i18n="charter.1140">Quotations include all standard services with full transparency — any additional costs are disclosed upfront, with zero hidden fee traps</p></div>
-<div class="trust-card reveal"><div class="trust-icon">🤝</div><h4 data-i18n="charter.1143">Itinerary Protection</h4><p data-i18n="charter.1144">In the event of weather or force majeure itinerary adjustments, our team manages every detail — you will never bear additional losses</p></div>
+<div class="trust-card reveal"><div class="trust-icon" data-i18 n="charter.1130">🛡️</div><h4 data-i18 n="charter.1131">Classification Society Certified</h4><p data-i18 n="charter.1132">All yachts are certified by international classification societies with regular safety inspections and complete documentation — your safety, fully verifiable</p></div>
+<div class="trust-card reveal"><div class="trust-icon">⚓</div><h4 data-i18 n="charter.1135">Comprehensive Insurance</h4><p data-i18 n="charter.1136">Full coverage including hull insurance, passenger insurance, and third-party liability — a complete protection framework for every eventuality</p></div>
+<div class="trust-card reveal"><div class="trust-icon">✦</div><h4 data-i18 n="charter.1139">Zero Hidden Costs</h4><p data-i18 n="charter.1140">Quotations include all standard services with full transparency — any additional costs are disclosed upfront, with zero hidden fee traps</p></div>
+<div class="trust-card reveal"><div class="trust-icon">🤝</div><h4 data-i18 n="charter.1143">Itinerary Protection</h4><p data-i18 n="charter.1144">In the event of weather or force majeure itinerary adjustments, our team manages every detail — you will never bear additional losses</p></div>
 </div>
 </div>
 </section>
@@ -814,175 +814,175 @@ nav .container{max-width:1200px;margin:0 auto;padding:0 24px}
 <div class="container">
 <div class="cta-grid">
 <div class="cta-content reveal-left">
-<h2><span class="gold-gradient" data-i18n="charter.1155">Begin Your Bespoke Voyage</span></h2>
-<p data-i18n="charter.1157">It starts with a single call. Let the Fantastic Vacation route planning team craft a one-of-a-kind maritime journey tailored to you — whether it's a romantic honeymoon, a family adventure, or an executive hospitality showcase — we turn your vision into reality.</p>
-<div class="cta-hotline" data-i18n="charter.1159">📞 +86 0755 3353-0188</div>
-<div class="cta-hotline-sub" data-i18n="charter.1161">or via<span data-i18n="charter.1162">WhatsApp: +852 6789 1234</span>for direct consultation</div>
-<div style="display:flex;gap:12px;flex-wrap:wrap">
-<a class="btn btn-outline" data-i18n="charter.1166" href="yachts.html">Explore Fleet →</a>
-<a class="btn btn-outline" data-i18n="charter.1168" href="custom.html">Custom Yachts</a>
+<h2><span class="gold-gradient" data-i18 n="charter.1155">Begin Your Bespoke Voyage</span></h2>
+<p data-i18 n="charter.1157">It starts with a single call. Let the Fantastic Vacation route planning team craft a one-of-a-kind maritime journey tailored to you — whether it's a romantic honeymoon, a family adventure, or an executive hospitality showcase — we turn your vision into reality.</p>
+<div class="cta-hotline" data-i18 n="charter.1159">📞 +86 0755 3353-0188</div>
+<div class="cta-hotline-sub" data-i18 n="charter.1161">or via<span data-i18 n="charter.1162">WhatsApp: +852 6789 1234</span>for direct consultation</div>
+<div style="display:flex;gap:12 px;flex-wrap:wrap">
+<a class="btn btn-outline" data-i18 n="charter.1166" href="yachts.html">Explore Fleet →</a>
+<a class="btn btn-outline" data-i18 n="charter.1168" href="custom.html">Custom Yachts</a>
 </div>
 </div>
 <div class="cta-form reveal-right">
-<h3 data-i18n="charter.1173">Reserve Your Personal Route Planner</h3>
-<p data-i18n="charter.1175">Submit your requirements and a specialist consultant will contact you within 24 hours</p>
+<h3 data-i18 n="charter.1173">Reserve Your Personal Route Planner</h3>
+<p data-i18 n="charter.1175">Submit your requirements and a specialist consultant will contact you within 24 hours</p>
 <form action="https://formspree.io/f/xgodgjld" id="bookingForm" method="POST" onsubmit="return handleSubmit(event)">
 <div class="form-grid">
-<div class="form-group"><label data-i18n="charter.1179">Your Name</label><input id="booking_name" name="from_name" placeholder="John Doe" data-i18n-attr="placeholder:_ph.charter.1" type="text"/></div>
-<div class="form-group"><label data-i18n="charter.1181">Phone Number</label><input id="booking_phone" name="phone" placeholder="138 0000 0000" data-i18n-attr="placeholder:_ph.charter.phone" type="tel"/></div>
-<div class="form-group"><label data-i18n="charter.email_label">Email</label><input id="booking_email" name="email" placeholder="your@email.com" data-i18n-attr="placeholder:_ph.charter.email" type="email"/></div>
-<div class="form-group"><label data-i18n="charter.1183">Preferred Destination</label>
-<select id="booking_destination" name="destination"><option data-i18n="charter.1185" value="">Please Select</option><option data-i18n="charter.1186">Mediterranean (France/Italy/Greece/Turkey)</option><option data-i18n="charter.1187">Caribbean (Bahamas/BVI)</option><option data-i18n="charter.1188">Southeast Asia (Thailand/Burma/Indonesia/Vietnam)</option><option data-i18n="charter.1189">Maldives / Seychelles</option><option data-i18n="charter.1190">Tahiti / Japan Okinawa</option><option data-i18n="charter.1191">Other / To Be Planned</option></select>
+<div class="form-group"><label data-i18 n="charter.1179">Your Name</label><input id="booking_name" name="from_name" placeholder="John Doe" data-i18 n-attr="placeholder:_ph.charter.1" type="text"/></div>
+<div class="form-group"><label data-i18 n="charter.1181">Phone Number</label><input id="booking_phone" name="phone" placeholder="138 0000 0000" data-i18 n-attr="placeholder:_ph.charter.phone" type="tel"/></div>
+<div class="form-group"><label data-i18 n="charter.email_label">Email</label><input id="booking_email" name="email" placeholder="your@email.com" data-i18 n-attr="placeholder:_ph.charter.email" type="email"/></div>
+<div class="form-group"><label data-i18 n="charter.1183">Preferred Destination</label>
+<select id="booking_destination" name="destination"><option data-i18 n="charter.1185" value="">Please Select</option><option data-i18 n="charter.1186">Mediterranean (France/Italy/Greece/Turkey)</option><option data-i18 n="charter.1187">Caribbean (Bahamas/BVI)</option><option data-i18 n="charter.1188">Southeast Asia (Thailand/Burma/Indonesia/Vietnam)</option><option data-i18 n="charter.1189">Maldives / Seychelles</option><option data-i18 n="charter.1190">Tahiti / Japan Okinawa</option><option data-i18 n="charter.1191">Other / To Be Planned</option></select>
 </div>
-<div class="form-group"><label data-i18n="charter.1194">Travel Date</label>
-<select id="booking_departure" name="departure"><option data-i18n="charter.1196" value="">Please Select</option><option data-i18n="charter.1197">Within 1 Month</option><option data-i18n="charter.1198">1–3 Months</option><option data-i18n="charter.1199">3–6 Months</option><option data-i18n="charter.1200">6–12 Months</option><option data-i18n="charter.1201">12+ Months</option></select>
+<div class="form-group"><label data-i18 n="charter.1194">Travel Date</label>
+<select id="booking_departure" name="departure"><option data-i18 n="charter.1196" value="">Please Select</option><option data-i18 n="charter.1197">Within 1 Month</option><option data-i18 n="charter.1198">1–3 Months</option><option data-i18 n="charter.1199">3–6 Months</option><option data-i18 n="charter.1200">6–12 Months</option><option data-i18 n="charter.1201">12+ Months</option></select>
 </div>
-<div class="form-group"><label data-i18n="charter.1204">Party Size</label>
-<select id="booking_people" name="people"><option data-i18n="charter.1206" value="">Please Select</option><option data-i18n="charter.1207">2–4 Guests</option><option data-i18n="charter.1208">5–8 Guests</option><option data-i18n="charter.1209">9–16 Guests</option><option data-i18n="charter.1210">16+ Guests</option></select>
+<div class="form-group"><label data-i18 n="charter.1204">Party Size</label>
+<select id="booking_people" name="people"><option data-i18 n="charter.1206" value="">Please Select</option><option data-i18 n="charter.1207">2–4 Guests</option><option data-i18 n="charter.1208">5–8 Guests</option><option data-i18 n="charter.1209">9–16 Guests</option><option data-i18 n="charter.1210">16+ Guests</option></select>
 </div>
-<div class="form-group"><label data-i18n="charter.1213">Budget Range</label>
-<select id="booking_budget" name="budget"><option data-i18n="charter.1215" value="">Please Select</option><option data-i18n="charter.1216">¥300K–500K / Week</option><option data-i18n="charter.1217">¥500K–800K / Week</option><option data-i18n="charter.1218">¥800K–1.5M / Week</option><option data-i18n="charter.1219">¥1.5M–3M / Week</option><option data-i18n="charter.1220">¥3M+ / Week</option></select>
+<div class="form-group"><label data-i18 n="charter.1213">Budget Range</label>
+<select id="booking_budget" name="budget"><option data-i18 n="charter.1215" value="">Please Select</option><option data-i18 n="charter.1216">¥300 K–500 K / Week</option><option data-i18 n="charter.1217">¥500 K–800 K / Week</option><option data-i18 n="charter.1218">¥800 K–1.5 M / Week</option><option data-i18 n="charter.1219">¥1.5 M–3 M / Week</option><option data-i18 n="charter.1220">¥3 M+ / Week</option></select>
 </div>
-<div class="form-group full"><label data-i18n="charter.1223">Special Requests (Optional)</label><textarea id="booking_notes" name="notes" placeholder="Please describe any special requests, e.g.: proposal setup, corporate hosting, family vacation, etc." data-i18n-attr="placeholder:_ph.charter.2" rows="3"></textarea></div>
+<div class="form-group full"><label data-i18 n="charter.1223">Special Requests (Optional)</label><textarea id="booking_notes" name="notes" placeholder="Please describe any special requests, e.g.: proposal setup, corporate hosting, family vacation, etc." data-i18 n-attr="placeholder:_ph.charter.2" rows="3"></textarea></div>
 </div>
-<button class="form-submit" data-i18n="charter.1226" type="submit">🔒 Submit Booking</button>
+<button class="form-submit" data-i18 n="charter.1226" type="submit">🔒 Submit Booking</button>
 <input name="_subject" type="hidden" value="[Fantastic Vacation] New Booking Notification"/>
 </form>
 </div>
 </div>
 </div>
 </section>
-<footer data-i18n="index.965" id="footer">
+<footer data-i18 n="index.965" id="footer">
 <div class="footer-top-bar"></div>
 <div class="footer-main">
-<div class="footer-grid" data-i18n="index.799">
+<div class="footer-grid" data-i18 n="index.799">
 <!-- Column 1: Brand -->
 <div class="footer-col footer-brand-col">
 <a class="footer-logo" href="../../index.html">
 <div>
-<div class="footer-logo-name" data-i18n="index.201">奇幻假期实业有限公司</div>
-<div class="footer-logo-en" data-i18n="index.202">FANTASTIC VACATION INDUSTRIAL CO., LTD.</div>
+<div class="footer-logo-name" data-i18 n="index.201">奇幻假期实业有限公司</div>
+<div class="footer-logo-en" data-i18 n="index.202">FANTASTIC VACATION INDUSTRIAL CO., LTD.</div>
 </div>
 </a>
-<p class="footer-slogan" data-i18n="index.814">「探索全球，不负假期」<br/>全球一体化高端游艇定制与私人海享生活缔造者</p>
-<p class="footer-brand-desc" data-i18n="index.203">奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。</p>
+<p class="footer-slogan" data-i18 n="index.814">「探索全球，不负假期」<br/>全球一体化高端游艇定制与私人海享生活缔造者</p>
+<p class="footer-brand-desc" data-i18 n="index.203">奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。</p>
 <div class="footer-socials">
 <a class="social-item" href="javascript:void(0)" title="微信公众号">
-<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M8.5 11a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5.5 4H20a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1h-1.5a4 4 0 0 1-3.98-3.64A5.97 5.97 0 0 0 12 15a6 6 0 0 0 6 6v1zm-7-7a4 4 0 0 0-4 4v5a4 4 0 0 0 3.15 3.85A3 3 0 0 0 8 18v1H5.5A1.5 1.5 0 0 1 4 17.5v-8A1.5 1.5 0 0 1 5.5 8h6z"></path></svg>
-<span data-i18n="index.204">微信公众号</span>
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M8.5 11 a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3 zm5 0 a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3 zm5.5 4 H20 a1 1 0 0 1 1 1 v9 a1 1 0 0 1-1 1 h-1.5 a4 4 0 0 1-3.98-3.64 A5.97 5.97 0 0 0 12 15 a6 6 0 0 0 6 6 v1 zm-7-7 a4 4 0 0 0-4 4 v5 a4 4 0 0 0 3.15 3.85 A3 3 0 0 0 8 18 v1 H5.5 A1.5 1.5 0 0 1 4 17.5 v-8 A1.5 1.5 0 0 1 5.5 8 h6 z"></path></svg>
+<span data-i18 n="index.204">微信公众号</span>
 </a>
 <a class="social-item" href="javascript:void(0)" title="微博">
-<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M10.09 18c-3.69 0-7.09-1.69-7.09-4.28 0-1.35.7-2.96 1.88-4.57C6.57 7.57 9.5 6.4 10.55 7c1.41.8 2.29 2.38 2.55 3.82.1-.04.21-.06.32-.06 2.45 0 4.44 2.29 4.44 5.11 0 2.73-1.99 4.94-4.44 4.94-.27 0-.53-.02-.79-.06-.11.17-.23.34-.35.5l.05.01zM20 8.5C20 4.91 17.09 2 13.5 2H3C2.45 2 2 2.45 2 3v13c0 .55.45 1 1 1h10c4.17 0 7.58-3.06 7.98-7.05.05-.47.02-.95.02-1.45z"></path></svg>
-<span data-i18n="index.205">微博</span>
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M10.09 18 c-3.69 0-7.09-1.69-7.09-4.28 0-1.35.7-2.96 1.88-4.57 C6.57 7.57 9.5 6.4 10.55 7 c1.41.8 2.29 2.38 2.55 3.82.1-.04.21-.06.32-.06 2.45 0 4.44 2.29 4.44 5.11 0 2.73-1.99 4.94-4.44 4.94-.27 0-.53-.02-.79-.06-.11.17-.23.34-.35.5 l.05.01 zM20 8.5 C20 4.91 17.09 2 13.5 2 H3 C2.45 2 2 2.45 2 3 v13 c0 .55.45 1 1 1 h10 c4.17 0 7.58-3.06 7.98-7.05.05-.47.02-.95.02-1.45 z"></path></svg>
+<span data-i18 n="index.205">微博</span>
 </a>
 <a class="social-item" href="javascript:void(0)" title="抖音">
-<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.82a8.18 8.18 0 0 0 4.77 1.52V6.68a4.85 4.85 0 0 1-1-.02z"></path></svg>
-<span data-i18n="index.206">抖音</span>
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M19.59 6.69 a4.83 4.83 0 0 1-3.77-4.25 V2 h-3.45 v13.67 a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89 c.28 0 .54.04.79.1 V9.01 a6.27 6.27 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34 V8.82 a8.18 8.18 0 0 0 4.77 1.52 V6.68 a4.85 4.85 0 0 1-1-.02 z"></path></svg>
+<span data-i18 n="index.206">抖音</span>
 </a>
 <a class="social-item" href="javascript:void(0)" title="LinkedIn">
-<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path></svg>
-<span data-i18n="index.207">LinkedIn</span>
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M20.447 20.452 h-3.554 v-5.569 c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939 v5.667 H9.351 V9 h3.414 v1.561 h.046 c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455 v6.286 zM5.337 7.433 a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065 zm1.782 13.019 H3.555 V9 h3.564 v11.452 zM22.225 0 H1.771 C.792 0 0 .774 0 1.729 v20.542 C0 23.227.792 24 1.771 24 h20.451 C23.2 24 24 23.227 24 22.271 V1.729 C24 .774 23.2 0 22.222 0 h.003 z"></path></svg>
+<span data-i18 n="index.207">LinkedIn</span>
 </a>
 <a class="social-item" href="javascript:void(0)" title="YouTube">
-<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
-<span data-i18n="index.208">YouTube</span>
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M23.498 6.186 a3.016 3.016 0 0 0-2.122-2.136 C19.505 3.545 12 3.545 12 3.545 s-7.505 0-9.377.505 A3.017 3.017 0 0 0 .502 6.186 C0 8.07 0 12 0 12 s0 3.93.502 5.814 a3.016 3.016 0 0 0 2.122 2.136 c1.871.505 9.376.505 9.376.505 s7.505 0 9.377-.505 a3.015 3.015 0 0 0 2.122-2.136 C24 15.93 24 12 24 12 s0-3.93-.502-5.814 zM9.545 15.568 V8.432 L15.818 12 l-6.273 3.568 z"></path></svg>
+<span data-i18 n="index.208">YouTube</span>
 </a>
 </div>
 </div>
 <!-- Column 2: Quick Navigation -->
 <div class="footer-col">
-<h4 class="footer-col-title" data-i18n="index.850">快速导航</h4>
+<h4 class="footer-col-title" data-i18 n="index.850">快速导航</h4>
 <ul class="footer-links">
-<li data-i18n="index.209"><a data-i18n="index.210" href="../../index.html">首页</a></li>
-<li data-i18n="index.1"><a data-i18n="index.211" href="../../about.html">关于我们</a></li>
-<li data-i18n="index.2"><a data-i18n="index.212" href="../../yachts.html">全系游艇</a></li>
-          <li><a href="../../membership.html" data-i18n="footer.member" style="color:#c9a96e;font-weight:500">👑 尊享会员</a></li>
-<li data-i18n="index.3"><a data-i18n="index.213" href="../../custom.html">全案定制</a></li>
-<li data-i18n="index.4"><a data-i18n="index.214" href="../../charter.html">租赁航线</a></li>
-<li data-i18n="index.5"><a data-i18n="index.215" href="../../management.html">托管维保</a></li>
-<li data-i18n="index.6"><a data-i18n="index.216" href="../../cases.html">案例展示</a></li>
-<li data-i18n="index.7"><a data-i18n="index.217" href="../../news.html">新闻资讯</a></li>
-<li data-i18n="index.8"><a data-i18n="index.218" href="../../partnership.html">全球合作</a></li>
-<li data-i18n="index.9"><a data-i18n="index.219" href="../../sitemap.html">网站地图</a></li>
+<li data-i18 n="index.209"><a data-i18 n="index.210" href="../../index.html">首页</a></li>
+<li data-i18 n="index.1"><a data-i18 n="index.211" href="../../about.html">关于我们</a></li>
+<li data-i18 n="index.2"><a data-i18 n="index.212" href="../../yachts.html">全系游艇</a></li>
+          <li><a href="../../membership.html" data-i18 n="footer.member" style="color:#c9 a96 e;font-weight:500">👑 尊享会员</a></li>
+<li data-i18 n="index.3"><a data-i18 n="index.213" href="../../custom.html">全案定制</a></li>
+<li data-i18 n="index.4"><a data-i18 n="index.214" href="../../charter.html">租赁航线</a></li>
+<li data-i18 n="index.5"><a data-i18 n="index.215" href="../../management.html">托管维保</a></li>
+<li data-i18 n="index.6"><a data-i18 n="index.216" href="../../cases.html">案例展示</a></li>
+<li data-i18 n="index.7"><a data-i18 n="index.217" href="../../news.html">新闻资讯</a></li>
+<li data-i18 n="index.8"><a data-i18 n="index.218" href="../../partnership.html">全球合作</a></li>
+<li data-i18 n="index.9"><a data-i18 n="index.219" href="../../sitemap.html">网站地图</a></li>
 </ul>
 </div>
 <!-- Column 3: Contact -->
-<div class="footer-col" data-i18n="index.10">
-<h4 class="footer-col-title" data-i18n="index.878">联系我们</h4>
+<div class="footer-col" data-i18 n="index.10">
+<h4 class="footer-col-title" data-i18 n="index.878">联系我们</h4>
 <ul class="footer-contact">
 <li class="contact-item">
-<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+<svg fill="none" height="16" stroke="#c9 a96 e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M21 10 c0 7-9 13-9 13 s-9-6-9-13 a9 9 0 0 1 18 0 z"></path><circle cx="12" cy="10" r="3"></circle></svg>
 <div>
-<div class="contact-label" data-i18n="index.220">公司地址</div>
-<div class="contact-value" data-i18n="index.addr">中国广东省深圳市南山区蛇口太子湾大道88号奇幻假期大厦28楼</div>
+<div class="contact-label" data-i18 n="index.220">公司地址</div>
+<div class="contact-value" data-i18 n="index.addr">中国广东省深圳市南山区蛇口太子湾大道88号奇幻假期大厦28楼</div>
 </div>
 </li>
-<li class="contact-item" data-i18n="index.12">
-<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 5.92 5.92l.96-.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+<li class="contact-item" data-i18 n="index.12">
+<svg fill="none" height="16" stroke="#c9 a96 e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M22 16.92 v3 a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.22 h3 a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11 L7.91 8.8 a16 16 0 0 0 5.92 5.92 l.96-.96 a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7 A2 2 0 0 1 22 16.92 z"></path></svg>
 <div>
-<div class="contact-label" data-i18n="index.221">咨询热线</div>
-<div class="contact-value"><a data-i18n="index.896" href="tel:13797920792">13797920792</a> / <a data-i18n="index.898" href="tel:+86075533530188">+86 0755 3353-0188</a></div>
+<div class="contact-label" data-i18 n="index.221">咨询热线</div>
+<div class="contact-value"><a data-i18 n="index.896" href="tel:13797920792">13797920792</a> / <a data-i18 n="index.898" href="tel:+86075533530188">+86 0755 3353-0188</a></div>
 </div>
 </li>
-<li class="contact-item" data-i18n="index.13">
-<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 5.92 5.92l.96-.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path><line x1="22" x2="11" y1="2" y2="13"></line></svg>
+<li class="contact-item" data-i18 n="index.13">
+<svg fill="none" height="16" stroke="#c9 a96 e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M22 16.92 v3 a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.22 h3 a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11 L7.91 8.8 a16 16 0 0 0 5.92 5.92 l.96-.96 a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7 A2 2 0 0 1 22 16.92 z"></path><line x1="22" x2="11" y1="2" y2="13"></line></svg>
 <div>
-<div class="contact-label" data-i18n="index.222">传真</div>
-<div class="contact-value" data-i18n="index.907">0755-31530988</div>
+<div class="contact-label" data-i18 n="index.222">传真</div>
+<div class="contact-value" data-i18 n="index.907">0755-31530988</div>
 </div>
 </li>
-<li class="contact-item" data-i18n="index.14">
-<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+<li class="contact-item" data-i18 n="index.14">
+<svg fill="none" height="16" stroke="#c9 a96 e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M4 4 h16 c1.1 0 2 .9 2 2 v12 c0 1.1-.9 2-2 2 H4 c-1.1 0-2-.9-2-2 V6 c0-1.1.9-2 2-2 z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
 <div>
-<div class="contact-label" data-i18n="index.223">商务邮箱</div>
-<div class="contact-value"><a data-i18n="index.224" href="mailto:hs@fantastic-vacation.com">hs@fantastic-vacation.com</a></div>
+<div class="contact-label" data-i18 n="index.223">商务邮箱</div>
+<div class="contact-value"><a data-i18 n="index.224" href="mailto:hs@fantastic-vacation.com">hs@fantastic-vacation.com</a></div>
 </div>
 </li>
 </ul></div>
 <!-- Column 4: Certifications & Partners -->
-<div class="footer-col" data-i18n="index.16">
-<h4 class="footer-col-title" data-i18n="index.928">资质与合作</h4>
+<div class="footer-col" data-i18 n="index.16">
+<h4 class="footer-col-title" data-i18 n="index.928">资质与合作</h4>
 <div class="footer-certs">
 <div class="cert-item">
-<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-<span data-i18n="index.225">ISO 9001质量管理体系认证</span>
+<svg fill="none" height="14" stroke="#c9 a96 e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08 V12 a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18 n="index.225">ISO 9001质量管理体系认证</span>
 </div>
-<div class="cert-item" data-i18n="index.17">
-<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-<span data-i18n="index.226">意大利 Ferretti 集团授权合作伙伴</span>
+<div class="cert-item" data-i18 n="index.17">
+<svg fill="none" height="14" stroke="#c9 a96 e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08 V12 a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18 n="index.226">意大利 Ferretti 集团授权合作伙伴</span>
 </div>
-<div class="cert-item" data-i18n="index.18">
-<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-<span data-i18n="index.227">荷兰Feadship技术合作伙伴</span>
+<div class="cert-item" data-i18 n="index.18">
+<svg fill="none" height="14" stroke="#c9 a96 e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08 V12 a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18 n="index.227">荷兰Feadship技术合作伙伴</span>
 </div>
-<div class="cert-item" data-i18n="index.19">
-<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-<span data-i18n="index.228">地中海船坞协会认证会员</span>
+<div class="cert-item" data-i18 n="index.19">
+<svg fill="none" height="14" stroke="#c9 a96 e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08 V12 a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18 n="index.228">地中海船坞协会认证会员</span>
 </div>
-<div class="cert-item" data-i18n="index.20">
-<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-<span data-i18n="index.229">亚洲最佳游艇服务商三连冠</span>
+<div class="cert-item" data-i18 n="index.20">
+<svg fill="none" height="14" stroke="#c9 a96 e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08 V12 a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18 n="index.229">亚洲最佳游艇服务商三连冠</span>
 </div>
 </div>
-<div class="footer-recruit" data-i18n="index.21">
-<a class="recruit-link" data-i18n="index.959" href="../../contact.html">
-<svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
-            <span data-i18n="_recruit">加入我们 · 招聘职位</span>
+<div class="footer-recruit" data-i18 n="index.21">
+<a class="recruit-link" data-i18 n="index.959" href="../../contact.html">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M17 21 v-2 a4 4 0 0 0-4-4 H5 a4 4 0 0 0-4 4 v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21 v-2 a4 4 0 0 0-3-3.87"></path><path d="M16 3.13 a4 4 0 0 1 0 7.75"></path></svg>
+            <span data-i18 n="_recruit">加入我们 · 招聘职位</span>
           </a>
 </div>
 </div>
 </div>
 </div>
 <!-- Copyright Bar -->
-<div class="footer-bottom" data-i18n="index.22">
+<div class="footer-bottom" data-i18 n="index.22">
 <div class="footer-bottom-inner">
 <div class="copyright">
-<span data-i18n="index.230">© 2020-2026 奇幻假期实业有限公司 FANTASTIC VACATION INDUSTRIAL CO., LTD. 保留所有权利。</span>
+<span data-i18 n="index.230">© 2020-2026 奇幻假期实业有限公司 FANTASTIC VACATION INDUSTRIAL CO., LTD. 保留所有权利。</span>
 </div>
-<div class="legal-links" data-i18n="index.23">
-<a data-i18n="index.231" href="../../privacy.html">隐私政策</a>
-<a data-i18n="index.232" href="../../terms.html">使用条款</a>
-<a data-i18n="index.233" href="../../sitemap.html">网站地图</a>
+<div class="legal-links" data-i18 n="index.23">
+<a data-i18 n="index.231" href="../../privacy.html">隐私政策</a>
+<a data-i18 n="index.232" href="../../terms.html">使用条款</a>
+<a data-i18 n="index.233" href="../../sitemap.html">网站地图</a>
 </div>
 </div>
 
@@ -1063,16 +1063,16 @@ function handleSubmit(e) {
     }).then(function(response) {
         if (response.ok) {
             btn.innerHTML = '<span>✓ Booking submitted! We will contact you shortly</span>';
-            btn.style.background = 'linear-gradient(135deg,#2a8a4a,#3cb371)';
+            btn.style.background = 'linear-gradient(135 deg,#2 a8 a4 a,#3 cb371)';
             form.reset();
         } else {
             btn.innerHTML = '<span>Submission failed. Please contact customer service</span>';
-            btn.style.background = 'linear-gradient(135deg,#c0392b,#e74c3c)';
+            btn.style.background = 'linear-gradient(135 deg,#c0392 b,#e74 c3 c)';
         }
     }).catch(function() {
         // Network error - still show success
         btn.innerHTML = '<span>✓ Booking submitted! We will contact you shortly</span>';
-        btn.style.background = 'linear-gradient(135deg,#2a8a4a,#3cb371)';
+        btn.style.background = 'linear-gradient(135 deg,#2 a8 a4 a,#3 cb371)';
         form.reset();
     }).finally(function() {
         setTimeout(function() {

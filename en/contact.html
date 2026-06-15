@@ -15,80 +15,80 @@
   95%{opacity:0;visibility:hidden}
   100%{display:none}
 }
-#loader{animation:autoHideLoader 6s ease-in-out forwards}
+#loader{animation:autoHideLoader 6 s ease-in-out forwards}
 #loader.hidden,#loader[style*="display:none"]{animation:none!important;display:none!important}
 </style>
 <style>
-.contact-hero{position:relative;min-height:75vh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;background:linear-gradient(135deg,#080e1a 0%,#0d1b33 40%,#1a1030 80%,#0a0810 100%)}
+.contact-hero{position:relative;min-height:75 vh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;background:linear-gradient(135 deg,#080 e1 a 0%,#0 d1 b33 40%,#1 a1030 80%,#0 a0810 100%)}
 .contact-hero::before{content:'';position:absolute;inset:0;background:url('images/yttp/yacht-063.jpg') center/cover no-repeat;opacity:0.1;transform:scale(1.05)}
-.contact-hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:200px;background:linear-gradient(to top,var(--dark1),transparent)}
-.contact-hero-content{position:relative;z-index:3;padding:0 20px}
-.contact-hero h1{font-family:'Playfair Display',serif;font-size:clamp(36px,5vw,58px);font-weight:800;letter-spacing:3px;margin-bottom:14px}
-.contact-hero .sub{font-size:clamp(14px,1.5vw,18px);color:var(--text-muted);font-weight:300;letter-spacing:2px;max-width:600px;margin:0 auto}
+.contact-hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:200 px;background:linear-gradient(to top,var(--dark1),transparent)}
+.contact-hero-content{position:relative;z-index:3;padding:0 20 px}
+.contact-hero h1{font-family:'Playfair Display',serif;font-size:clamp(36 px,5 vw,58 px);font-weight:800;letter-spacing:3 px;margin-bottom:14 px}
+.contact-hero .sub{font-size:clamp(14 px,1.5 vw,18 px);color:var(--text-muted);font-weight:300;letter-spacing:2 px;max-width:600 px;margin:0 auto}
 
 /* Quick Contact Bar */
-.quick-bar{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;background:rgba(201,169,110,0.08);border-radius:16px;overflow:hidden;margin:-50px auto 0;max-width:1100px;position:relative;z-index:5}
-.quick-item{background:rgba(10,14,26,0.95);padding:28px 20px;text-align:center;transition:all 0.3s}
+.quick-bar{display:grid;grid-template-columns:repeat(auto-fit,minmax(200 px,1 fr));gap:1 px;background:rgba(201,169,110,0.08);border-radius:16 px;overflow:hidden;margin:-50 px auto 0;max-width:1100 px;position:relative;z-index:5}
+.quick-item{background:rgba(10,14,26,0.95);padding:28 px 20 px;text-align:center;transition:all 0.3 s}
 .quick-item:hover{background:rgba(201,169,110,0.06)}
-.quick-icon{font-size:28px;margin-bottom:10px}
-.quick-label{font-size:11px;color:var(--text-dim);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:6px}
-.quick-value{font-size:16px;color:var(--gold);font-weight:600;font-family:'Playfair Display',serif}
-.quick-note{font-size:11px;color:var(--text-dim);margin-top:4px}
+.quick-icon{font-size:28 px;margin-bottom:10 px}
+.quick-label{font-size:11 px;color:var(--text-dim);letter-spacing:1.5 px;text-transform:uppercase;margin-bottom:6 px}
+.quick-value{font-size:16 px;color:var(--gold);font-weight:600;font-family:'Playfair Display',serif}
+.quick-note{font-size:11 px;color:var(--text-dim);margin-top:4 px}
 
 /* Hotlines */
-.hotline-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(390px,1fr));gap:20px;margin-top:30px}
-.hotline-card{background:rgba(255,255,255,0.015);border:1px solid rgba(255,255,255,0.04);border-radius:12px;padding:22px;transition:all 0.35s;position:relative}
-.hotline-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);opacity:0;transition:opacity 0.35s;border-radius:12px 12px 0 0}
-.hotline-card:hover{border-color:rgba(201,169,110,0.2);transform:translateY(-3px)}
+.hotline-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(390 px,1 fr));gap:20 px;margin-top:30 px}
+.hotline-card{background:rgba(255,255,255,0.015);border:1 px solid rgba(255,255,255,0.04);border-radius:12 px;padding:22 px;transition:all 0.35 s;position:relative}
+.hotline-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2 px;background:linear-gradient(90 deg,transparent,var(--gold),transparent);opacity:0;transition:opacity 0.35 s;border-radius:12 px 12 px 0 0}
+.hotline-card:hover{border-color:rgba(201,169,110,0.2);transform:translateY(-3 px)}
 .hotline-card:hover::before{opacity:1}
-.hotline-card h4{font-size:15px;font-weight:600;margin-bottom:6px;color:#e8e8e8}
-.hotline-num{font-size:18px;color:var(--gold);font-family:'Playfair Display',serif;font-weight:600;margin-bottom:4px}
-.hotline-time{font-size:11px;color:var(--text-dim)}
+.hotline-card h4{font-size:15 px;font-weight:600;margin-bottom:6 px;color:#e8 e8 e8}
+.hotline-num{font-size:18 px;color:var(--gold);font-family:'Playfair Display',serif;font-weight:600;margin-bottom:4 px}
+.hotline-time{font-size:11 px;color:var(--text-dim)}
 
 /* Form */
-.form-section{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:start}
-.form-group{margin-bottom:18px}
-.form-group label{display:block;font-size:12px;color:var(--text-muted);margin-bottom:6px;font-weight:500;letter-spacing:0.5px}
-.form-group input,.form-group select,.form-group textarea{width:100%;padding:13px 16px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:8px;color:var(--text);font-size:14px;font-family:'Inter',sans-serif;transition:border-color 0.3s}
+.form-section{display:grid;grid-template-columns:1 fr 1 fr;gap:50 px;align-items:start}
+.form-group{margin-bottom:18 px}
+.form-group label{display:block;font-size:12 px;color:var(--text-muted);margin-bottom:6 px;font-weight:500;letter-spacing:0.5 px}
+.form-group input,.form-group select,.form-group textarea{width:100%;padding:13 px 16 px;background:rgba(255,255,255,0.03);border:1 px solid rgba(255,255,255,0.06);border-radius:8 px;color:var(--text);font-size:14 px;font-family:'Inter',sans-serif;transition:border-color 0.3 s}
 .form-group input:focus,.form-group select:focus,.form-group textarea:focus{outline:none;border-color:rgba(201,169,110,0.4)}
-.form-group select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23c9a96e' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 16px center}
-.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.form-submit{width:100%;padding:16px;background:linear-gradient(135deg,#c9a96e,#a07850);color:#000;border:none;border-radius:8px;font-size:15px;font-weight:600;cursor:pointer;transition:all 0.3s;font-family:'Inter',sans-serif}
-.form-submit:hover{transform:translateY(-2px);box-shadow:0 8px 25px rgba(201,169,110,0.2)}
-.form-privacy{font-size:11px;color:var(--text-dim);margin-top:10px;line-height:1.6}
+.form-group select{appearance:none;background-image:url("data:image/svg+xml,%3 Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3 E%3 Cpath d='M1 1 l5 5 5-5' stroke='%23 c9 a96 e' stroke-width='1.5' fill='none'/%3 E%3 C/svg%3 E");background-repeat:no-repeat;background-position:right 16 px center}
+.form-row{display:grid;grid-template-columns:1 fr 1 fr;gap:16 px}
+.form-submit{width:100%;padding:16 px;background:linear-gradient(135 deg,#c9 a96 e,#a07850);color:#000;border:none;border-radius:8 px;font-size:15 px;font-weight:600;cursor:pointer;transition:all 0.3 s;font-family:'Inter',sans-serif}
+.form-submit:hover{transform:translateY(-2 px);box-shadow:0 8 px 25 px rgba(201,169,110,0.2)}
+.form-privacy{font-size:11 px;color:var(--text-dim);margin-top:10 px;line-height:1.6}
 
 /* Offices */
-.office-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
-.office-card{background:rgba(255,255,255,0.015);border:1px solid rgba(255,255,255,0.04);border-radius:14px;padding:28px 24px;transition:all 0.35s;position:relative;overflow:hidden}
-.office-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--gold),transparent);opacity:0;transition:opacity 0.35s}
-.office-card:hover{border-color:rgba(201,169,110,0.2);transform:translateY(-4px)}
+.office-grid{display:grid;grid-template-columns:repeat(3,1 fr);gap:24 px}
+.office-card{background:rgba(255,255,255,0.015);border:1 px solid rgba(255,255,255,0.04);border-radius:14 px;padding:28 px 24 px;transition:all 0.35 s;position:relative;overflow:hidden}
+.office-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3 px;background:linear-gradient(90 deg,var(--gold),transparent);opacity:0;transition:opacity 0.35 s}
+.office-card:hover{border-color:rgba(201,169,110,0.2);transform:translateY(-4 px)}
 .office-card:hover::after{opacity:1}
-.office-flag{font-size:32px;margin-bottom:10px}
-.office-card h3{font-size:17px;font-weight:600;margin-bottom:4px;color:#e8e8e8}
-.office-card .office-role{font-size:11px;color:var(--gold);font-weight:500;margin-bottom:14px;letter-spacing:1px}
-.office-detail{font-size:13px;color:var(--text-muted);line-height:1.8}
+.office-flag{font-size:32 px;margin-bottom:10 px}
+.office-card h3{font-size:17 px;font-weight:600;margin-bottom:4 px;color:#e8 e8 e8}
+.office-card .office-role{font-size:11 px;color:var(--gold);font-weight:500;margin-bottom:14 px;letter-spacing:1 px}
+.office-detail{font-size:13 px;color:var(--text-muted);line-height:1.8}
 .office-detail strong{color:var(--text);font-weight:500}
 
 /* Promise */
-.promise-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:24px}
-.promise-card{text-align:center;padding:28px 20px}
-.promise-icon{font-size:36px;margin-bottom:12px}
-.promise-card h4{font-size:15px;font-weight:600;margin-bottom:8px;color:#e8e8e8}
-.promise-card p{font-size:13px;color:var(--text-muted);line-height:1.6}
+.promise-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220 px,1 fr));gap:24 px}
+.promise-card{text-align:center;padding:28 px 20 px}
+.promise-icon{font-size:36 px;margin-bottom:12 px}
+.promise-card h4{font-size:15 px;font-weight:600;margin-bottom:8 px;color:#e8 e8 e8}
+.promise-card p{font-size:13 px;color:var(--text-muted);line-height:1.6}
 
 /* Compliance */
-.compliance-box{background:rgba(255,255,255,0.01);border:1px solid rgba(255,255,255,0.04);border-radius:12px;padding:28px 32px;max-width:900px;margin:0 auto}
-.compliance-box p{font-size:13px;color:var(--text-dim);line-height:1.8}
+.compliance-box{background:rgba(255,255,255,0.01);border:1 px solid rgba(255,255,255,0.04);border-radius:12 px;padding:28 px 32 px;max-width:900 px;margin:0 auto}
+.compliance-box p{font-size:13 px;color:var(--text-dim);line-height:1.8}
 .compliance-box strong{color:var(--text-muted);font-weight:500}
 
-@media(max-width:768px){
-.quick-bar{grid-template-columns:repeat(auto-fit,minmax(350px,1fr));margin:-30px 16px 0}
-.form-section{grid-template-columns:1fr;gap:30px}
-.form-row{grid-template-columns:1fr}
-.hotline-grid{grid-template-columns:1fr}
+@media(max-width:768 px){
+.quick-bar{grid-template-columns:repeat(auto-fit,minmax(350 px,1 fr));margin:-30 px 16 px 0}
+.form-section{grid-template-columns:1 fr;gap:30 px}
+.form-row{grid-template-columns:1 fr}
+.hotline-grid{grid-template-columns:1 fr}
 }
 </style>  <link rel="icon" type="image/svg+xml" href="../favicon.svg"/></head><body>
-<div id="loader"><div class="brand" data-i18n="contact.1">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div><div class="progress-text" data-i18n="contact.2">LOADING</div></div>
+<div id="loader"><div class="brand" data-i18 n="contact.1">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div><div class="progress-text" data-i18 n="contact.2">LOADING</div></div>
 <nav id="navbar" aria-label="Main Navigation">
 <div class="nav-inner">
 <a class="nav-logo" href="index.html" aria-label="Fantastic Vacation Home">
@@ -145,7 +145,7 @@
 </button>
 <a class="lang-switch-btn" href="../contact.html" title="Switch to Chinese" aria-label="中文">中文</a>
 <button class="nav-dark-toggle" id="darkToggle" onclick="toggleDarkMode()" title="Dark Mode" aria-label="Toggle Dark Mode">
-<svg class="icon-moon" fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg class="icon-moon" fill="none" height="18" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" aria-hidden="true"><path d="M21 12.79 A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79 z"></path></svg>
 <svg class="icon-sun" fill="none" height="18" stroke="currentColor" stroke-width="2" style="display:none" viewBox="0 0 24 24" width="18" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" x2="12" y1="1" y2="3"></line><line x1="12" x2="12" y1="21" y2="23"></line><line x1="4.22" x2="5.64" y1="4.22" y2="5.64"></line><line x1="18.36" x2="19.78" y1="18.36" y2="19.78"></line><line x1="1" x2="3" y1="12" y2="12"></line><line x1="21" x2="23" y1="12" y2="12"></line><line x1="4.22" x2="5.64" y1="19.78" y2="18.36"></line><line x1="18.36" x2="19.78" y1="5.64" y2="4.22"></line></svg>
 </button>
 <div class="hamburger" onclick="toggleMobile()" aria-label="Open Mobile Menu" role="button" tabindex="0" aria-expanded="false">
@@ -211,324 +211,324 @@
 <a class="mobile-nav-link mobile-primary" href="membership.html">👑 Membership</a>
 <a class="mobile-nav-link mobile-cta" href="contact.html">Contact</a>
 <div class="mobile-menu-footer">
-<a class="mobile-nav-link" href="../contact.html" id="mobileLangSwitch" style="border:1px solid rgba(201,169,110,0.3);border-radius:6px;display:inline-block;padding:12px 24px;color:#c9a96e;font-weight:600;margin-bottom:16px">🌐 中文</a>
+<a class="mobile-nav-link" href="../contact.html" id="mobileLangSwitch" style="border:1 px solid rgba(201,169,110,0.3);border-radius:6 px;display:inline-block;padding:12 px 24 px;color:#c9 a96 e;font-weight:600;margin-bottom:16 px">🌐 中文</a>
 <span>Tel: 13797920792 / +86 0755 3353-0188</span>
 <span>Email: hs@fantastic-vacation.com</span>
 </div>
 </div>
 <!-- Service Hotlines -->
 <section class="section-padding"><div class="container">
-<div class="section-header reveal"><h2 data-i18n="contact.51"><span class="gold-gradient" data-i18n="contact.52">Dedicated Service Lines</span></h2><p data-i18n="contact.53" style="color:var(--text-muted);margin:10px auto 30px;font-size:14px">We maintain dedicated hotlines for each service scenario, ensuring every call reaches the right specialist team immediately.</p></div>
+<div class="section-header reveal"><h2 data-i18 n="contact.51"><span class="gold-gradient" data-i18 n="contact.52">Dedicated Service Lines</span></h2><p data-i18 n="contact.53" style="color:var(--text-muted);margin:10 px auto 30 px;font-size:14 px">We maintain dedicated hotlines for each service scenario, ensuring every call reaches the right specialist team immediately.</p></div>
 <div class="hotline-grid">
-<div class="hotline-card reveal"><h4 data-i18n="contact.54">🛥️ Yacht Custom Hotline</h4><div class="hotline-num" data-i18n="contact.55">+86 0755 3353-0188 Ext. 1001</div><div class="hotline-time" data-i18n="contact.56">Mon-Fri 09:00-20:00 | 1-on-1 Custom Consultant</div></div>
-<div class="hotline-card reveal"><h4 data-i18n="contact.57">⚓ Charter Routes Hotline</h4><div class="hotline-num" data-i18n="contact.58">+86 0755 3353-0188 Ext. 1002</div><div class="hotline-time" data-i18n="contact.59">Daily 08:00-22:00 | Route Consultant Instant Response</div></div>
-<div class="hotline-card reveal"><h4 data-i18n="contact.60">🔧 Management Hotline</h4><div class="hotline-num" data-i18n="contact.61">+86 0755 3353-0188 Ext. 1003</div><div class="hotline-time" data-i18n="contact.62">7×24h | Emergency Maritime Rescue on Standby</div></div>
-<div class="hotline-card reveal"><h4 data-i18n="contact.63">🤝 Business Cooperation Hotline</h4><div class="hotline-num" data-i18n="contact.64">+86 0755 3353-0188 Ext. 1004</div><div class="hotline-time" data-i18n="contact.65">Mon-Fri 10:00-18:00 | Direct Line to Partnership Director</div></div>
-<div class="hotline-card reveal"><h4 data-i18n="contact.66">📰 Media Cooperation Hotline</h4><div class="hotline-num" data-i18n="contact.67">+86 0755 3353-0188 Ext. 1005</div><div class="hotline-time" data-i18n="contact.68">Mon-Fri 10:00-18:00 | Brand & PR Department</div></div>
-<div class="hotline-card reveal"><h4 data-i18n="contact.69">👥 Talent Recruitment Hotline</h4><div class="hotline-num" data-i18n="contact.70">+86 0755 3353-0188 Ext. 1006</div><div class="hotline-time" data-i18n="contact.71">Mon-Fri 09:00-18:00 | Human Resources</div></div>
+<div class="hotline-card reveal"><h4 data-i18 n="contact.54">🛥️ Yacht Custom Hotline</h4><div class="hotline-num" data-i18 n="contact.55">+86 0755 3353-0188 Ext. 1001</div><div class="hotline-time" data-i18 n="contact.56">Mon-Fri 09:00-20:00 | 1-on-1 Custom Consultant</div></div>
+<div class="hotline-card reveal"><h4 data-i18 n="contact.57">⚓ Charter Routes Hotline</h4><div class="hotline-num" data-i18 n="contact.58">+86 0755 3353-0188 Ext. 1002</div><div class="hotline-time" data-i18 n="contact.59">Daily 08:00-22:00 | Route Consultant Instant Response</div></div>
+<div class="hotline-card reveal"><h4 data-i18 n="contact.60">🔧 Management Hotline</h4><div class="hotline-num" data-i18 n="contact.61">+86 0755 3353-0188 Ext. 1003</div><div class="hotline-time" data-i18 n="contact.62">7×24 h | Emergency Maritime Rescue on Standby</div></div>
+<div class="hotline-card reveal"><h4 data-i18 n="contact.63">🤝 Business Cooperation Hotline</h4><div class="hotline-num" data-i18 n="contact.64">+86 0755 3353-0188 Ext. 1004</div><div class="hotline-time" data-i18 n="contact.65">Mon-Fri 10:00-18:00 | Direct Line to Partnership Director</div></div>
+<div class="hotline-card reveal"><h4 data-i18 n="contact.66">📰 Media Cooperation Hotline</h4><div class="hotline-num" data-i18 n="contact.67">+86 0755 3353-0188 Ext. 1005</div><div class="hotline-time" data-i18 n="contact.68">Mon-Fri 10:00-18:00 | Brand & PR Department</div></div>
+<div class="hotline-card reveal"><h4 data-i18 n="contact.69">👥 Talent Recruitment Hotline</h4><div class="hotline-num" data-i18 n="contact.70">+86 0755 3353-0188 Ext. 1006</div><div class="hotline-time" data-i18 n="contact.71">Mon-Fri 09:00-18:00 | Human Resources</div></div>
 </div>
 </div></section>
 <!-- Consultation Form -->
 <section class="section-padding" style="background:var(--dark2)"><div class="container">
-<div class="section-header reveal"><h2 data-i18n="contact.72"><span class="gold-gradient" data-i18n="contact.73">Book a Private Consultation</span></h2><p data-i18n="contact.74" style="color:var(--text-muted);margin:10px auto 30px;font-size:14px">Fill in the details below and our specialist advisors will contact you within 2 hours to tailor a bespoke solution.</p></div>
+<div class="section-header reveal"><h2 data-i18 n="contact.72"><span class="gold-gradient" data-i18 n="contact.73">Book a Private Consultation</span></h2><p data-i18 n="contact.74" style="color:var(--text-muted);margin:10 px auto 30 px;font-size:14 px">Fill in the details below and our specialist advisors will contact you within 2 hours to tailor a bespoke solution.</p></div>
 <div class="form-section">
 <div class="reveal">
 <form action="https://formspree.io/f/xgodgjld" id="contactForm" method="POST">
 <input name="_subject" type="hidden" value="【Fantastic Vacation】Online Consultation & Booking"/>
 <div class="form-row">
-<div class="form-group"><label data-i18n="contact.75">Name *</label><input name="name" placeholder="Your Name" data-i18n-attr="placeholder:_ph.contact.1" required="" type="text"/></div>
-<div class="form-group"><label data-i18n="contact.76">Phone *</label><input name="phone" placeholder="Your Phone Number" data-i18n-attr="placeholder:_ph.contact.2" required="" type="tel"/></div>
+<div class="form-group"><label data-i18 n="contact.75">Name *</label><input name="name" placeholder="Your Name" data-i18 n-attr="placeholder:_ph.contact.1" required="" type="text"/></div>
+<div class="form-group"><label data-i18 n="contact.76">Phone *</label><input name="phone" placeholder="Your Phone Number" data-i18 n-attr="placeholder:_ph.contact.2" required="" type="tel"/></div>
 </div>
 <div class="form-row">
-<div class="form-group"><label data-i18n="contact.77">Email</label><input name="email" placeholder="Enter your email address" data-i18n-attr="placeholder:_ph.contact.3" type="email"/></div>
-<div class="form-group"><label data-i18n="contact.78">Consultation Type *</label><select name="consult_type" required="">
-<option data-i18n="contact.79" value="">Select consultation type</option>
-<option data-i18n="contact.80" value="custom">Yacht Full Custom</option>
-<option data-i18n="contact.81" value="charter">Charter Routes Booking</option>
-<option data-i18n="contact.82" value="management">Management Consultation</option>
-<option data-i18n="contact.83" value="purchase">Yacht Purchase Inquiry</option>
-<option data-i18n="contact.84" value="event">Corporate / Event Charter</option>
-<option data-i18n="contact.85" value="cooperation">Business Cooperation</option>
-<option data-i18n="contact.86" value="media">Media / Brand Partnership</option>
-<option data-i18n="contact.87" value="career">Talent Recruitment</option>
-<option data-i18n="contact.88" value="other">Other</option>
+<div class="form-group"><label data-i18 n="contact.77">Email</label><input name="email" placeholder="Enter your email address" data-i18 n-attr="placeholder:_ph.contact.3" type="email"/></div>
+<div class="form-group"><label data-i18 n="contact.78">Consultation Type *</label><select name="consult_type" required="">
+<option data-i18 n="contact.79" value="">Select consultation type</option>
+<option data-i18 n="contact.80" value="custom">Yacht Full Custom</option>
+<option data-i18 n="contact.81" value="charter">Charter Routes Booking</option>
+<option data-i18 n="contact.82" value="management">Management Consultation</option>
+<option data-i18 n="contact.83" value="purchase">Yacht Purchase Inquiry</option>
+<option data-i18 n="contact.84" value="event">Corporate / Event Charter</option>
+<option data-i18 n="contact.85" value="cooperation">Business Cooperation</option>
+<option data-i18 n="contact.86" value="media">Media / Brand Partnership</option>
+<option data-i18 n="contact.87" value="career">Talent Recruitment</option>
+<option data-i18 n="contact.88" value="other">Other</option>
 </select></div>
 </div>
 <div class="form-row">
-<div class="form-group"><label data-i18n="contact.89">Preferred Yacht Size</label><select name="yacht_size">
-<option data-i18n="contact.90" value="">Select preferred size</option>
-<option data-i18n="contact.91" value="10-18m">Day Cruiser Series 10-18M</option>
-<option data-i18n="contact.92" value="18-45m">Flybridge Series 18-45M</option>
-<option data-i18n="contact.93" value="40-70m">Expedition Series 40-70M</option>
-<option data-i18n="contact.94" value="60-120m">Sovereign Series 60-120M</option>
-<option data-i18n="contact.95" value="undecided">Undecided</option>
+<div class="form-group"><label data-i18 n="contact.89">Preferred Yacht Size</label><select name="yacht_size">
+<option data-i18 n="contact.90" value="">Select preferred size</option>
+<option data-i18 n="contact.91" value="10-18 m">Day Cruiser Series 10-18 M</option>
+<option data-i18 n="contact.92" value="18-45 m">Flybridge Series 18-45 M</option>
+<option data-i18 n="contact.93" value="40-70 m">Expedition Series 40-70 M</option>
+<option data-i18 n="contact.94" value="60-120 m">Sovereign Series 60-120 M</option>
+<option data-i18 n="contact.95" value="undecided">Undecided</option>
 </select></div>
-<div class="form-group"><label data-i18n="contact.96">Expected Travel Date</label><input name="travel_date" placeholder="e.g. August 2026 or Flexible" data-i18n-attr="placeholder:_ph.contact.4" type="text"/></div>
+<div class="form-group"><label data-i18 n="contact.96">Expected Travel Date</label><input name="travel_date" placeholder="e.g. August 2026 or Flexible" data-i18 n-attr="placeholder:_ph.contact.4" type="text"/></div>
 </div>
 <div class="form-row">
-<div class="form-group"><label data-i18n="contact.97">Number of Guests</label><select name="guests">
-<option data-i18n="contact.98" value="">Select number of guests</option>
-<option data-i18n="contact.99" value="2-4">2-4 Guests</option>
-<option data-i18n="contact.100" value="5-8">5-8 Guests</option>
-<option data-i18n="contact.101" value="9-16">9-16 Guests</option>
-<option data-i18n="contact.102" value="17-36">17-36 Guests</option>
-<option data-i18n="contact.103" value="36+">36+ Guests</option>
+<div class="form-group"><label data-i18 n="contact.97">Number of Guests</label><select name="guests">
+<option data-i18 n="contact.98" value="">Select number of guests</option>
+<option data-i18 n="contact.99" value="2-4">2-4 Guests</option>
+<option data-i18 n="contact.100" value="5-8">5-8 Guests</option>
+<option data-i18 n="contact.101" value="9-16">9-16 Guests</option>
+<option data-i18 n="contact.102" value="17-36">17-36 Guests</option>
+<option data-i18 n="contact.103" value="36+">36+ Guests</option>
 </select></div>
-<div class="form-group"><label data-i18n="contact.104">Budget Range</label><select name="budget">
-<option data-i18n="contact.105" value="">Select budget range</option>
-<option data-i18n="contact.106" value="10-50w">¥100K-500K</option>
-<option data-i18n="contact.107" value="50-200w">¥500K-2M</option>
-<option data-i18n="contact.108" value="200-500w">¥2M-5M</option>
-<option data-i18n="contact.109" value="500-2000w">¥5M-20M</option>
-<option data-i18n="contact.110" value="2000w+">¥20M+</option>
-<option data-i18n="contact.111" value="undisclosed">Prefer not to disclose</option>
+<div class="form-group"><label data-i18 n="contact.104">Budget Range</label><select name="budget">
+<option data-i18 n="contact.105" value="">Select budget range</option>
+<option data-i18 n="contact.106" value="10-50 w">¥100 K-500 K</option>
+<option data-i18 n="contact.107" value="50-200 w">¥500 K-2 M</option>
+<option data-i18 n="contact.108" value="200-500 w">¥2 M-5 M</option>
+<option data-i18 n="contact.109" value="500-2000 w">¥5 M-20 M</option>
+<option data-i18 n="contact.110" value="2000 w+">¥20 M+</option>
+<option data-i18 n="contact.111" value="undisclosed">Prefer not to disclose</option>
 </select></div>
 </div>
-<div class="form-group"><label data-i18n="contact.112">Detailed Requirements</label><textarea name="message" placeholder="Briefly describe your needs, preferences, or special requirements. Our advisors will prepare a tailored solution accordingly..." data-i18n-attr="placeholder:_ph.contact.5" rows="4"></textarea></div>
-<button class="form-submit" data-i18n="contact.113" type="submit">Submit Inquiry →</button>
-<p class="form-privacy" data-i18n="contact.415">🔒 Your personal information will be kept strictly confidential and used solely for our dedicated advisors to contact you. We promise never to share your information with any third party. See our<a data-i18n="contact.114" href="privacy.html" style="color:var(--gold)">Privacy Policy</a>。</p>
+<div class="form-group"><label data-i18 n="contact.112">Detailed Requirements</label><textarea name="message" placeholder="Briefly describe your needs, preferences, or special requirements. Our advisors will prepare a tailored solution accordingly..." data-i18 n-attr="placeholder:_ph.contact.5" rows="4"></textarea></div>
+<button class="form-submit" data-i18 n="contact.113" type="submit">Submit Inquiry →</button>
+<p class="form-privacy" data-i18 n="contact.415">🔒 Your personal information will be kept strictly confidential and used solely for our dedicated advisors to contact you. We promise never to share your information with any third party. See our<a data-i18 n="contact.114" href="privacy.html" style="color:var(--gold)">Privacy Policy</a>。</p>
 </form>
 </div>
-<div class="reveal" style="padding-top:10px">
-<h3 data-i18n="contact.115" style="font-size:20px;margin-bottom:20px;color:#e0e0e0">Why Choose Fantastic Vacation?</h3>
-<div style="display:flex;flex-direction:column;gap:18px">
-<div style="display:flex;gap:14px;align-items:flex-start"><div data-i18n="contact.116" style="width:40px;height:40px;border-radius:8px;background:rgba(201,169,110,0.1);display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0">🏆</div><div><h5 data-i18n="contact.117" style="font-size:14px;color:#e8e8e8;margin-bottom:3px">Industry-Leading Service Excellence</h5><p data-i18n="contact.118" style="font-size:12px;color:var(--text-muted);line-height:1.5">Named "Asia's Best Yacht Service Provider" 3 years running, 98% client satisfaction</p></div></div>
-<div style="display:flex;gap:14px;align-items:flex-start"><div data-i18n="contact.119" style="width:40px;height:40px;border-radius:8px;background:rgba(201,169,110,0.1);display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0">⚡</div><div><h5 data-i18n="contact.120" style="font-size:14px;color:#e8e8e8;margin-bottom:3px">Rapid Response Commitment</h5><p data-i18n="contact.121" style="font-size:12px;color:var(--text-muted);line-height:1.5">Inquiry forms answered within 2 hours. Urgent matters responded within 30 minutes. We never keep you waiting.</p></div></div>
-<div style="display:flex;gap:14px;align-items:flex-start"><div data-i18n="contact.122" style="width:40px;height:40px;border-radius:8px;background:rgba(201,169,110,0.1);display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0">👨‍✈️</div><div><h5 data-i18n="contact.123" style="font-size:14px;color:#e8e8e8;margin-bottom:3px">Dedicated Advisor Throughout</h5><p data-i18n="contact.124" style="font-size:12px;color:var(--text-muted);line-height:1.5">One dedicated advisor from initial consultation to project delivery — zero information gaps, seamless communication.</p></div></div>
-<div style="display:flex;gap:14px;align-items:flex-start"><div data-i18n="contact.125" style="width:40px;height:40px;border-radius:8px;background:rgba(201,169,110,0.1);display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0">🌍</div><div><h5 data-i18n="contact.126" style="font-size:14px;color:#e8e8e8;margin-bottom:3px">Global Service Network Assurance</h5><p data-i18n="contact.127" style="font-size:12px;color:var(--text-muted);line-height:1.5">5 continents, 6 regional offices, 50+ marina bases — dedicated service wherever you are.</p></div></div>
-<div style="display:flex;gap:14px;align-items:flex-start"><div data-i18n="contact.128" style="width:40px;height:40px;border-radius:8px;background:rgba(201,169,110,0.1);display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0">🔐</div><div><h5 data-i18n="contact.129" style="font-size:14px;color:#e8e8e8;margin-bottom:3px">Absolute Privacy Protection</h5><p data-i18n="contact.130" style="font-size:12px;color:var(--text-muted);line-height:1.5">International privacy protection standards. Client data encrypted with signed NDA for every engagement.</p></div></div>
+<div class="reveal" style="padding-top:10 px">
+<h3 data-i18 n="contact.115" style="font-size:20 px;margin-bottom:20 px;color:#e0 e0 e0">Why Choose Fantastic Vacation?</h3>
+<div style="display:flex;flex-direction:column;gap:18 px">
+<div style="display:flex;gap:14 px;align-items:flex-start"><div data-i18 n="contact.116" style="width:40 px;height:40 px;border-radius:8 px;background:rgba(201,169,110,0.1);display:flex;align-items:center;justify-content:center;font-size:18 px;flex-shrink:0">🏆</div><div><h5 data-i18 n="contact.117" style="font-size:14 px;color:#e8 e8 e8;margin-bottom:3 px">Industry-Leading Service Excellence</h5><p data-i18 n="contact.118" style="font-size:12 px;color:var(--text-muted);line-height:1.5">Named "Asia's Best Yacht Service Provider" 3 years running, 98% client satisfaction</p></div></div>
+<div style="display:flex;gap:14 px;align-items:flex-start"><div data-i18 n="contact.119" style="width:40 px;height:40 px;border-radius:8 px;background:rgba(201,169,110,0.1);display:flex;align-items:center;justify-content:center;font-size:18 px;flex-shrink:0">⚡</div><div><h5 data-i18 n="contact.120" style="font-size:14 px;color:#e8 e8 e8;margin-bottom:3 px">Rapid Response Commitment</h5><p data-i18 n="contact.121" style="font-size:12 px;color:var(--text-muted);line-height:1.5">Inquiry forms answered within 2 hours. Urgent matters responded within 30 minutes. We never keep you waiting.</p></div></div>
+<div style="display:flex;gap:14 px;align-items:flex-start"><div data-i18 n="contact.122" style="width:40 px;height:40 px;border-radius:8 px;background:rgba(201,169,110,0.1);display:flex;align-items:center;justify-content:center;font-size:18 px;flex-shrink:0">👨‍✈️</div><div><h5 data-i18 n="contact.123" style="font-size:14 px;color:#e8 e8 e8;margin-bottom:3 px">Dedicated Advisor Throughout</h5><p data-i18 n="contact.124" style="font-size:12 px;color:var(--text-muted);line-height:1.5">One dedicated advisor from initial consultation to project delivery — zero information gaps, seamless communication.</p></div></div>
+<div style="display:flex;gap:14 px;align-items:flex-start"><div data-i18 n="contact.125" style="width:40 px;height:40 px;border-radius:8 px;background:rgba(201,169,110,0.1);display:flex;align-items:center;justify-content:center;font-size:18 px;flex-shrink:0">🌍</div><div><h5 data-i18 n="contact.126" style="font-size:14 px;color:#e8 e8 e8;margin-bottom:3 px">Global Service Network Assurance</h5><p data-i18 n="contact.127" style="font-size:12 px;color:var(--text-muted);line-height:1.5">5 continents, 6 regional offices, 50+ marina bases — dedicated service wherever you are.</p></div></div>
+<div style="display:flex;gap:14 px;align-items:flex-start"><div data-i18 n="contact.128" style="width:40 px;height:40 px;border-radius:8 px;background:rgba(201,169,110,0.1);display:flex;align-items:center;justify-content:center;font-size:18 px;flex-shrink:0">🔐</div><div><h5 data-i18 n="contact.129" style="font-size:14 px;color:#e8 e8 e8;margin-bottom:3 px">Absolute Privacy Protection</h5><p data-i18 n="contact.130" style="font-size:12 px;color:var(--text-muted);line-height:1.5">International privacy protection standards. Client data encrypted with signed NDA for every engagement.</p></div></div>
 </div>
 </div>
 </div>
 </div></section>
 <!-- Global Offices -->
 <section class="section-padding"><div class="container container-wide">
-<div class="section-header reveal"><h2 data-i18n="contact.131"><span class="gold-gradient" data-i18n="contact.132">Global Offices</span></h2><p data-i18n="contact.133" style="color:var(--text-muted);margin:10px auto 30px;font-size:14px">Fantastic Vacation has established direct offices in the world's core yachting markets, providing native-language support and localized compliance assurance for local clients.</p></div>
+<div class="section-header reveal"><h2 data-i18 n="contact.131"><span class="gold-gradient" data-i18 n="contact.132">Global Offices</span></h2><p data-i18 n="contact.133" style="color:var(--text-muted);margin:10 px auto 30 px;font-size:14 px">Fantastic Vacation has established direct offices in the world's core yachting markets, providing native-language support and localized compliance assurance for local clients.</p></div>
 <div class="office-grid">
 <div class="office-card reveal">
-<div class="office-flag" data-i18n="contact.134">🇭🇰</div>
-<h3 data-i18n="contact.135">Shenzhen · Global HQ</h3>
-<div class="office-role" data-i18n="contact.136">Asia-Pacific Strategic Hub · Brand Management Center</div>
-<div class="office-detail" data-i18n="contact.465">
-<strong data-i18n="contact.137">Address: </strong>28/F, Fantastic Vacation Building, 88 Taiziwan Avenue, Shekou, Nanshan, Shenzhen, China<br/>
-<strong data-i18n="contact.138">Postal Code: </strong>999077<br/>
-<strong data-i18n="contact.139">Tel: </strong>+852 55380525<br/>
-<strong data-i18n="contact.140">Email: </strong>hk@fantastic.vacation<br/>
-<strong data-i18n="contact.141">Services: </strong>Brand strategy, global operations coordination, luxury custom project management<br/>
-<strong data-i18n="contact.142">Office Hours: </strong>Mon-Fri 09:00-19:00
+<div class="office-flag" data-i18 n="contact.134">🇭🇰</div>
+<h3 data-i18 n="contact.135">Shenzhen · Global HQ</h3>
+<div class="office-role" data-i18 n="contact.136">Asia-Pacific Strategic Hub · Brand Management Center</div>
+<div class="office-detail" data-i18 n="contact.465">
+<strong data-i18 n="contact.137">Address: </strong>28/F, Fantastic Vacation Building, 88 Taiziwan Avenue, Shekou, Nanshan, Shenzhen, China<br/>
+<strong data-i18 n="contact.138">Postal Code: </strong>999077<br/>
+<strong data-i18 n="contact.139">Tel: </strong>+852 55380525<br/>
+<strong data-i18 n="contact.140">Email: </strong>hk@fantastic.vacation<br/>
+<strong data-i18 n="contact.141">Services: </strong>Brand strategy, global operations coordination, luxury custom project management<br/>
+<strong data-i18 n="contact.142">Office Hours: </strong>Mon-Fri 09:00-19:00
 </div></div>
 <div class="office-card reveal">
-<div class="office-flag" data-i18n="contact.143">🇸🇬</div>
-<h3 data-i18n="contact.144">Singapore · Asia-Pacific Ops Center</h3>
-<div class="office-role" data-i18n="contact.145">Southeast Asia Route Operations · Charter Dispatch Center</div>
-<div class="office-detail" data-i18n="contact.491">
-<strong data-i18n="contact.146">Address: </strong>1 Raffles Place, Tower 2, #42-01, Singapore 048616<br/>
-<strong data-i18n="contact.147">Tel: </strong>+65 6234 5678<br/>
-<strong data-i18n="contact.148">Email: </strong>sg@fantastic.vacation<br/>
-<strong data-i18n="contact.149">Services: </strong>Southeast Asia route planning, charter dispatch, local marina coordination<br/>
-<strong data-i18n="contact.150">Office Hours: </strong>Mon-Sat 09:00-21:00
+<div class="office-flag" data-i18 n="contact.143">🇸🇬</div>
+<h3 data-i18 n="contact.144">Singapore · Asia-Pacific Ops Center</h3>
+<div class="office-role" data-i18 n="contact.145">Southeast Asia Route Operations · Charter Dispatch Center</div>
+<div class="office-detail" data-i18 n="contact.491">
+<strong data-i18 n="contact.146">Address: </strong>1 Raffles Place, Tower 2, #42-01, Singapore 048616<br/>
+<strong data-i18 n="contact.147">Tel: </strong>+65 6234 5678<br/>
+<strong data-i18 n="contact.148">Email: </strong>sg@fantastic.vacation<br/>
+<strong data-i18 n="contact.149">Services: </strong>Southeast Asia route planning, charter dispatch, local marina coordination<br/>
+<strong data-i18 n="contact.150">Office Hours: </strong>Mon-Sat 09:00-21:00
 </div></div>
 <div class="office-card reveal">
-<div class="office-flag" data-i18n="contact.151">🇲🇨</div>
-<h3 data-i18n="contact.152">Monaco · Europe Business Center</h3>
-<div class="office-role" data-i18n="contact.153">Mediterranean Route · European Shipyard Partnership Hub</div>
-<div class="office-detail" data-i18n="contact.514">
-<strong data-i18n="contact.154">Address: </strong>7 Avenue des Ligures, 98000 Monaco<br/>
-<strong data-i18n="contact.155">Tel: </strong>+377 97 70 8888<br/>
-<strong data-i18n="contact.156">Email: </strong>mc@fantastic.vacation<br/>
-<strong data-i18n="contact.157">Services: </strong>Mediterranean route operations, European shipyard liaison, yacht purchase agency<br/>
-<strong data-i18n="contact.158">Office Hours: </strong>Mon-Fri 09:00-19:00 CET
+<div class="office-flag" data-i18 n="contact.151">🇲🇨</div>
+<h3 data-i18 n="contact.152">Monaco · Europe Business Center</h3>
+<div class="office-role" data-i18 n="contact.153">Mediterranean Route · European Shipyard Partnership Hub</div>
+<div class="office-detail" data-i18 n="contact.514">
+<strong data-i18 n="contact.154">Address: </strong>7 Avenue des Ligures, 98000 Monaco<br/>
+<strong data-i18 n="contact.155">Tel: </strong>+377 97 70 8888<br/>
+<strong data-i18 n="contact.156">Email: </strong>mc@fantastic.vacation<br/>
+<strong data-i18 n="contact.157">Services: </strong>Mediterranean route operations, European shipyard liaison, yacht purchase agency<br/>
+<strong data-i18 n="contact.158">Office Hours: </strong>Mon-Fri 09:00-19:00 CET
 </div></div>
 <div class="office-card reveal">
-<div class="office-flag" data-i18n="contact.159">🇦🇪</div>
-<h3 data-i18n="contact.160">Dubai · Middle East Business Center</h3>
-<div class="office-role" data-i18n="contact.161">Middle East Royal Services · Premium Corporate Event Customization</div>
-<div class="office-detail" data-i18n="contact.537">
-<strong data-i18n="contact.162">Address: </strong>DIFC, Gate Village 7, Office 302, Dubai, UAE<br/>
-<strong data-i18n="contact.163">Tel: </strong>+971 4 567 8888<br/>
-<strong data-i18n="contact.164">Email: </strong>ae@fantastic.vacation<br/>
-<strong data-i18n="contact.165">Services: </strong>Middle East royal customization, corporate event planning, Gulf routes<br/>
-<strong data-i18n="contact.166">Office Hours: </strong>Sun-Thu 10:00-20:00 GST
+<div class="office-flag" data-i18 n="contact.159">🇦🇪</div>
+<h3 data-i18 n="contact.160">Dubai · Middle East Business Center</h3>
+<div class="office-role" data-i18 n="contact.161">Middle East Royal Services · Premium Corporate Event Customization</div>
+<div class="office-detail" data-i18 n="contact.537">
+<strong data-i18 n="contact.162">Address: </strong>DIFC, Gate Village 7, Office 302, Dubai, UAE<br/>
+<strong data-i18 n="contact.163">Tel: </strong>+971 4 567 8888<br/>
+<strong data-i18 n="contact.164">Email: </strong>ae@fantastic.vacation<br/>
+<strong data-i18 n="contact.165">Services: </strong>Middle East royal customization, corporate event planning, Gulf routes<br/>
+<strong data-i18 n="contact.166">Office Hours: </strong>Sun-Thu 10:00-20:00 GST
 </div></div>
 <div class="office-card reveal">
-<div class="office-flag" data-i18n="contact.167">🇺🇸</div>
-<h3 data-i18n="contact.168">Miami · Americas Business Center</h3>
-<div class="office-role" data-i18n="contact.169">Caribbean Route · Americas Market Development</div>
-<div class="office-detail" data-i18n="contact.560">
-<strong data-i18n="contact.170">Address: </strong>600 Brickell Ave, Suite 2020, Miami, FL 33131<br/>
-<strong data-i18n="contact.171">Tel: </strong>+1 305 888 9999<br/>
-<strong data-i18n="contact.172">Email: </strong>us@fantastic.vacation<br/>
-<strong data-i18n="contact.173">Services: </strong>Caribbean routes, Americas yacht market, transoceanic delivery<br/>
-<strong data-i18n="contact.174">Office Hours: </strong>Mon-Fri 09:00-19:00 EST
+<div class="office-flag" data-i18 n="contact.167">🇺🇸</div>
+<h3 data-i18 n="contact.168">Miami · Americas Business Center</h3>
+<div class="office-role" data-i18 n="contact.169">Caribbean Route · Americas Market Development</div>
+<div class="office-detail" data-i18 n="contact.560">
+<strong data-i18 n="contact.170">Address: </strong>600 Brickell Ave, Suite 2020, Miami, FL 33131<br/>
+<strong data-i18 n="contact.171">Tel: </strong>+1 305 888 9999<br/>
+<strong data-i18 n="contact.172">Email: </strong>us@fantastic.vacation<br/>
+<strong data-i18 n="contact.173">Services: </strong>Caribbean routes, Americas yacht market, transoceanic delivery<br/>
+<strong data-i18 n="contact.174">Office Hours: </strong>Mon-Fri 09:00-19:00 EST
 </div></div>
 <div class="office-card reveal">
-<div class="office-flag" data-i18n="contact.175">🇨🇳</div>
-<h3 data-i18n="contact.176">Shanghai · China HQ</h3>
-<div class="office-role" data-i18n="contact.177">Mainland China Operations · Client Service Center</div>
-<div class="office-detail" data-i18n="contact.583">
-<strong data-i18n="contact.178">Address: </strong>1288 Lujiazui Ring Road, Pudong New Area, Shanghai<br/>
-<strong data-i18n="contact.179">Postal Code: </strong>200120<br/>
-<strong data-i18n="contact.180">Tel: </strong>+86 13797920792<br/>
-<strong data-i18n="contact.181">Email: </strong>sh@fantastic.vacation<br/>
-<strong data-i18n="contact.182">Services: </strong>Mainland China client services, yacht importation, domestic marina coordination<br/>
-<strong data-i18n="contact.183">Office Hours: </strong>Mon-Fri 09:00-19:00
+<div class="office-flag" data-i18 n="contact.175">🇨🇳</div>
+<h3 data-i18 n="contact.176">Shanghai · China HQ</h3>
+<div class="office-role" data-i18 n="contact.177">Mainland China Operations · Client Service Center</div>
+<div class="office-detail" data-i18 n="contact.583">
+<strong data-i18 n="contact.178">Address: </strong>1288 Lujiazui Ring Road, Pudong New Area, Shanghai<br/>
+<strong data-i18 n="contact.179">Postal Code: </strong>200120<br/>
+<strong data-i18 n="contact.180">Tel: </strong>+86 13797920792<br/>
+<strong data-i18 n="contact.181">Email: </strong>sh@fantastic.vacation<br/>
+<strong data-i18 n="contact.182">Services: </strong>Mainland China client services, yacht importation, domestic marina coordination<br/>
+<strong data-i18 n="contact.183">Office Hours: </strong>Mon-Fri 09:00-19:00
 </div></div>
 </div>
 </div></section>
 <!-- Service Promise -->
 <section class="section-padding" style="background:var(--dark2)"><div class="container">
-<div class="section-header reveal" data-i18n="contact.184"><h2 data-i18n="contact.185"><span class="gold-gradient" data-i18n="contact.186">Our Promise</span></h2></div>
+<div class="section-header reveal" data-i18 n="contact.184"><h2 data-i18 n="contact.185"><span class="gold-gradient" data-i18 n="contact.186">Our Promise</span></h2></div>
 <div class="promise-grid">
-<div class="promise-card reveal"><div class="promise-icon" data-i18n="contact.187">⚡</div><h4 data-i18n="contact.188">Rapid Response</h4><p data-i18n="contact.610">Inquiry form answered within 2 hours<br/>Urgent matters responded within 30 minutes</p></div>
-<div class="promise-card reveal"><div class="promise-icon" data-i18n="contact.189">🎯</div><h4 data-i18n="contact.190">Precision Matching</h4><p data-i18n="contact.615">Smart advisor matching based on your needs<br/>Zero communication loss, direct access to expert team</p></div>
-<div class="promise-card reveal"><div class="promise-icon" data-i18n="contact.191">🔐</div><h4 data-i18n="contact.192">Absolute Confidentiality</h4><p data-i18n="contact.620">International-standard privacy protection<br/>Client data encrypted storage</p></div>
-<div class="promise-card reveal"><div class="promise-icon" data-i18n="contact.193">📋</div><h4 data-i18n="contact.194">End-to-End Tracking</h4><p data-i18n="contact.625">Full tracking for every inquiry ticket<br/>Closed-loop service, nothing overlooked</p></div>
+<div class="promise-card reveal"><div class="promise-icon" data-i18 n="contact.187">⚡</div><h4 data-i18 n="contact.188">Rapid Response</h4><p data-i18 n="contact.610">Inquiry form answered within 2 hours<br/>Urgent matters responded within 30 minutes</p></div>
+<div class="promise-card reveal"><div class="promise-icon" data-i18 n="contact.189">🎯</div><h4 data-i18 n="contact.190">Precision Matching</h4><p data-i18 n="contact.615">Smart advisor matching based on your needs<br/>Zero communication loss, direct access to expert team</p></div>
+<div class="promise-card reveal"><div class="promise-icon" data-i18 n="contact.191">🔐</div><h4 data-i18 n="contact.192">Absolute Confidentiality</h4><p data-i18 n="contact.620">International-standard privacy protection<br/>Client data encrypted storage</p></div>
+<div class="promise-card reveal"><div class="promise-icon" data-i18 n="contact.193">📋</div><h4 data-i18 n="contact.194">End-to-End Tracking</h4><p data-i18 n="contact.625">Full tracking for every inquiry ticket<br/>Closed-loop service, nothing overlooked</p></div>
 </div>
 </div></section>
 <!-- Compliance -->
-<section style="padding:60px 0"><div class="container">
-<div class="section-header reveal" data-i18n="contact.195"><h2 data-i18n="contact.196"><span class="gold-gradient" data-i18n="contact.197">Corporate Compliance</span></h2></div>
+<section style="padding:60 px 0"><div class="container">
+<div class="section-header reveal" data-i18 n="contact.195"><h2 data-i18 n="contact.196"><span class="gold-gradient" data-i18 n="contact.197">Corporate Compliance</span></h2></div>
 <div class="compliance-box reveal">
-<p data-i18n="contact.638">
-<strong data-i18n="contact.198">Corporate Name: </strong>Fantastic Vacation Industrial Co., Ltd. (FANTASTIC VACATION LIMITED)<br/>
-<strong data-i18n="contact.202">Registered Address: </strong>No.1 Songgang Industrial Park, Bao'an District, Shenzhen, Guangdong, China<br/>
-<strong data-i18n="contact.203">Legal Representative: </strong>Wang Xiaosheng<br/>
-<strong data-i18n="contact.204">Regulatory Filings: </strong>Licensed by China's Ministry of Transport for yacht operations, China Maritime Safety Administration, and Singapore MPA certified<br/>
-<strong data-i18n="contact.205">Insurance Partners: </strong>Global marine insurance partnership agreements with Lloyd's and Allianz
+<p data-i18 n="contact.638">
+<strong data-i18 n="contact.198">Corporate Name: </strong>Fantastic Vacation Industrial Co., Ltd. (FANTASTIC VACATION LIMITED)<br/>
+<strong data-i18 n="contact.202">Registered Address: </strong>No.1 Songgang Industrial Park, Bao'an District, Shenzhen, Guangdong, China<br/>
+<strong data-i18 n="contact.203">Legal Representative: </strong>Wang Xiaosheng<br/>
+<strong data-i18 n="contact.204">Regulatory Filings: </strong>Licensed by China's Ministry of Transport for yacht operations, China Maritime Safety Administration, and Singapore MPA certified<br/>
+<strong data-i18 n="contact.205">Insurance Partners: </strong>Global marine insurance partnership agreements with Lloyd's and Allianz
 </p>
 </div>
 </div></section>
-<footer data-i18n="index.965" id="footer">
+<footer data-i18 n="index.965" id="footer">
 <div class="footer-top-bar"></div>
 <div class="footer-main">
-<div class="footer-grid" data-i18n="index.799">
+<div class="footer-grid" data-i18 n="index.799">
 <!-- Column 1: Brand -->
 <div class="footer-col footer-brand-col">
 <a class="footer-logo" href="../index.html">
 <div>
-<div class="footer-logo-name" data-i18n="index.201">奇幻假期实业有限公司</div>
-<div class="footer-logo-en" data-i18n="index.202">FANTASTIC VACATION INDUSTRIAL CO., LTD.</div>
+<div class="footer-logo-name" data-i18 n="index.201">奇幻假期实业有限公司</div>
+<div class="footer-logo-en" data-i18 n="index.202">FANTASTIC VACATION INDUSTRIAL CO., LTD.</div>
 </div>
 </a>
-<p class="footer-slogan" data-i18n="index.814">「探索全球，不负假期」<br/>全球一体化高端游艇定制与私人海享生活缔造者</p>
-<p class="footer-brand-desc" data-i18n="index.203">奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。</p>
+<p class="footer-slogan" data-i18 n="index.814">「探索全球，不负假期」<br/>全球一体化高端游艇定制与私人海享生活缔造者</p>
+<p class="footer-brand-desc" data-i18 n="index.203">奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。</p>
 <div class="footer-socials">
 <a class="social-item" href="javascript:void(0)" title="微信公众号">
-<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M8.5 11a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5.5 4H20a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1h-1.5a4 4 0 0 1-3.98-3.64A5.97 5.97 0 0 0 12 15a6 6 0 0 0 6 6v1zm-7-7a4 4 0 0 0-4 4v5a4 4 0 0 0 3.15 3.85A3 3 0 0 0 8 18v1H5.5A1.5 1.5 0 0 1 4 17.5v-8A1.5 1.5 0 0 1 5.5 8h6z"></path></svg>
-<span data-i18n="index.204">微信公众号</span>
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M8.5 11 a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3 zm5 0 a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3 zm5.5 4 H20 a1 1 0 0 1 1 1 v9 a1 1 0 0 1-1 1 h-1.5 a4 4 0 0 1-3.98-3.64 A5.97 5.97 0 0 0 12 15 a6 6 0 0 0 6 6 v1 zm-7-7 a4 4 0 0 0-4 4 v5 a4 4 0 0 0 3.15 3.85 A3 3 0 0 0 8 18 v1 H5.5 A1.5 1.5 0 0 1 4 17.5 v-8 A1.5 1.5 0 0 1 5.5 8 h6 z"></path></svg>
+<span data-i18 n="index.204">微信公众号</span>
 </a>
 <a class="social-item" href="javascript:void(0)" title="微博">
-<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M10.09 18c-3.69 0-7.09-1.69-7.09-4.28 0-1.35.7-2.96 1.88-4.57C6.57 7.57 9.5 6.4 10.55 7c1.41.8 2.29 2.38 2.55 3.82.1-.04.21-.06.32-.06 2.45 0 4.44 2.29 4.44 5.11 0 2.73-1.99 4.94-4.44 4.94-.27 0-.53-.02-.79-.06-.11.17-.23.34-.35.5l.05.01zM20 8.5C20 4.91 17.09 2 13.5 2H3C2.45 2 2 2.45 2 3v13c0 .55.45 1 1 1h10c4.17 0 7.58-3.06 7.98-7.05.05-.47.02-.95.02-1.45z"></path></svg>
-<span data-i18n="index.205">微博</span>
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M10.09 18 c-3.69 0-7.09-1.69-7.09-4.28 0-1.35.7-2.96 1.88-4.57 C6.57 7.57 9.5 6.4 10.55 7 c1.41.8 2.29 2.38 2.55 3.82.1-.04.21-.06.32-.06 2.45 0 4.44 2.29 4.44 5.11 0 2.73-1.99 4.94-4.44 4.94-.27 0-.53-.02-.79-.06-.11.17-.23.34-.35.5 l.05.01 zM20 8.5 C20 4.91 17.09 2 13.5 2 H3 C2.45 2 2 2.45 2 3 v13 c0 .55.45 1 1 1 h10 c4.17 0 7.58-3.06 7.98-7.05.05-.47.02-.95.02-1.45 z"></path></svg>
+<span data-i18 n="index.205">微博</span>
 </a>
 <a class="social-item" href="javascript:void(0)" title="抖音">
-<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.82a8.18 8.18 0 0 0 4.77 1.52V6.68a4.85 4.85 0 0 1-1-.02z"></path></svg>
-<span data-i18n="index.206">抖音</span>
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M19.59 6.69 a4.83 4.83 0 0 1-3.77-4.25 V2 h-3.45 v13.67 a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89 c.28 0 .54.04.79.1 V9.01 a6.27 6.27 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34 V8.82 a8.18 8.18 0 0 0 4.77 1.52 V6.68 a4.85 4.85 0 0 1-1-.02 z"></path></svg>
+<span data-i18 n="index.206">抖音</span>
 </a>
 <a class="social-item" href="javascript:void(0)" title="LinkedIn">
-<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path></svg>
-<span data-i18n="index.207">LinkedIn</span>
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M20.447 20.452 h-3.554 v-5.569 c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939 v5.667 H9.351 V9 h3.414 v1.561 h.046 c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455 v6.286 zM5.337 7.433 a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065 zm1.782 13.019 H3.555 V9 h3.564 v11.452 zM22.225 0 H1.771 C.792 0 0 .774 0 1.729 v20.542 C0 23.227.792 24 1.771 24 h20.451 C23.2 24 24 23.227 24 22.271 V1.729 C24 .774 23.2 0 22.222 0 h.003 z"></path></svg>
+<span data-i18 n="index.207">LinkedIn</span>
 </a>
 <a class="social-item" href="javascript:void(0)" title="YouTube">
-<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
-<span data-i18n="index.208">YouTube</span>
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M23.498 6.186 a3.016 3.016 0 0 0-2.122-2.136 C19.505 3.545 12 3.545 12 3.545 s-7.505 0-9.377.505 A3.017 3.017 0 0 0 .502 6.186 C0 8.07 0 12 0 12 s0 3.93.502 5.814 a3.016 3.016 0 0 0 2.122 2.136 c1.871.505 9.376.505 9.376.505 s7.505 0 9.377-.505 a3.015 3.015 0 0 0 2.122-2.136 C24 15.93 24 12 24 12 s0-3.93-.502-5.814 zM9.545 15.568 V8.432 L15.818 12 l-6.273 3.568 z"></path></svg>
+<span data-i18 n="index.208">YouTube</span>
 </a>
 </div>
 </div>
 <!-- Column 2: Quick Navigation -->
 <div class="footer-col">
-<h4 class="footer-col-title" data-i18n="index.850">快速导航</h4>
+<h4 class="footer-col-title" data-i18 n="index.850">快速导航</h4>
 <ul class="footer-links">
-<li data-i18n="index.209"><a data-i18n="index.210" href="../index.html">首页</a></li>
-<li data-i18n="index.1"><a data-i18n="index.211" href="../about.html">关于我们</a></li>
-<li data-i18n="index.2"><a data-i18n="index.212" href="../yachts.html">全系游艇</a></li>
-          <li><a href="../membership.html" data-i18n="footer.member" style="color:#c9a96e;font-weight:500">👑 尊享会员</a></li>
-<li data-i18n="index.3"><a data-i18n="index.213" href="../custom.html">全案定制</a></li>
-<li data-i18n="index.4"><a data-i18n="index.214" href="../charter.html">租赁航线</a></li>
-<li data-i18n="index.5"><a data-i18n="index.215" href="../management.html">托管维保</a></li>
-<li data-i18n="index.6"><a data-i18n="index.216" href="../cases.html">案例展示</a></li>
-<li data-i18n="index.7"><a data-i18n="index.217" href="../news.html">新闻资讯</a></li>
-<li data-i18n="index.8"><a data-i18n="index.218" href="../partnership.html">全球合作</a></li>
-<li data-i18n="index.9"><a data-i18n="index.219" href="../sitemap.html">网站地图</a></li>
+<li data-i18 n="index.209"><a data-i18 n="index.210" href="../index.html">首页</a></li>
+<li data-i18 n="index.1"><a data-i18 n="index.211" href="../about.html">关于我们</a></li>
+<li data-i18 n="index.2"><a data-i18 n="index.212" href="../yachts.html">全系游艇</a></li>
+          <li><a href="../membership.html" data-i18 n="footer.member" style="color:#c9 a96 e;font-weight:500">👑 尊享会员</a></li>
+<li data-i18 n="index.3"><a data-i18 n="index.213" href="../custom.html">全案定制</a></li>
+<li data-i18 n="index.4"><a data-i18 n="index.214" href="../charter.html">租赁航线</a></li>
+<li data-i18 n="index.5"><a data-i18 n="index.215" href="../management.html">托管维保</a></li>
+<li data-i18 n="index.6"><a data-i18 n="index.216" href="../cases.html">案例展示</a></li>
+<li data-i18 n="index.7"><a data-i18 n="index.217" href="../news.html">新闻资讯</a></li>
+<li data-i18 n="index.8"><a data-i18 n="index.218" href="../partnership.html">全球合作</a></li>
+<li data-i18 n="index.9"><a data-i18 n="index.219" href="../sitemap.html">网站地图</a></li>
 </ul>
 </div>
 <!-- Column 3: Contact -->
-<div class="footer-col" data-i18n="index.10">
-<h4 class="footer-col-title" data-i18n="index.878">联系我们</h4>
+<div class="footer-col" data-i18 n="index.10">
+<h4 class="footer-col-title" data-i18 n="index.878">联系我们</h4>
 <ul class="footer-contact">
 <li class="contact-item">
-<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+<svg fill="none" height="16" stroke="#c9 a96 e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M21 10 c0 7-9 13-9 13 s-9-6-9-13 a9 9 0 0 1 18 0 z"></path><circle cx="12" cy="10" r="3"></circle></svg>
 <div>
-<div class="contact-label" data-i18n="index.220">公司地址</div>
-<div class="contact-value" data-i18n="index.addr">中国广东省深圳市南山区蛇口太子湾大道88号奇幻假期大厦28楼</div>
+<div class="contact-label" data-i18 n="index.220">公司地址</div>
+<div class="contact-value" data-i18 n="index.addr">中国广东省深圳市南山区蛇口太子湾大道88号奇幻假期大厦28楼</div>
 </div>
 </li>
-<li class="contact-item" data-i18n="index.12">
-<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 5.92 5.92l.96-.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+<li class="contact-item" data-i18 n="index.12">
+<svg fill="none" height="16" stroke="#c9 a96 e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M22 16.92 v3 a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.22 h3 a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11 L7.91 8.8 a16 16 0 0 0 5.92 5.92 l.96-.96 a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7 A2 2 0 0 1 22 16.92 z"></path></svg>
 <div>
-<div class="contact-label" data-i18n="index.221">咨询热线</div>
-<div class="contact-value"><a data-i18n="index.896" href="tel:13797920792">13797920792</a> / <a data-i18n="index.898" href="tel:+86075533530188">+86 0755 3353-0188</a></div>
+<div class="contact-label" data-i18 n="index.221">咨询热线</div>
+<div class="contact-value"><a data-i18 n="index.896" href="tel:13797920792">13797920792</a> / <a data-i18 n="index.898" href="tel:+86075533530188">+86 0755 3353-0188</a></div>
 </div>
 </li>
-<li class="contact-item" data-i18n="index.13">
-<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 5.92 5.92l.96-.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path><line x1="22" x2="11" y1="2" y2="13"></line></svg>
+<li class="contact-item" data-i18 n="index.13">
+<svg fill="none" height="16" stroke="#c9 a96 e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M22 16.92 v3 a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.22 h3 a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11 L7.91 8.8 a16 16 0 0 0 5.92 5.92 l.96-.96 a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7 A2 2 0 0 1 22 16.92 z"></path><line x1="22" x2="11" y1="2" y2="13"></line></svg>
 <div>
-<div class="contact-label" data-i18n="index.222">传真</div>
-<div class="contact-value" data-i18n="index.907">0755-31530988</div>
+<div class="contact-label" data-i18 n="index.222">传真</div>
+<div class="contact-value" data-i18 n="index.907">0755-31530988</div>
 </div>
 </li>
-<li class="contact-item" data-i18n="index.14">
-<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+<li class="contact-item" data-i18 n="index.14">
+<svg fill="none" height="16" stroke="#c9 a96 e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M4 4 h16 c1.1 0 2 .9 2 2 v12 c0 1.1-.9 2-2 2 H4 c-1.1 0-2-.9-2-2 V6 c0-1.1.9-2 2-2 z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
 <div>
-<div class="contact-label" data-i18n="index.223">商务邮箱</div>
-<div class="contact-value"><a data-i18n="index.224" href="mailto:hs@fantastic-vacation.com">hs@fantastic-vacation.com</a></div>
+<div class="contact-label" data-i18 n="index.223">商务邮箱</div>
+<div class="contact-value"><a data-i18 n="index.224" href="mailto:hs@fantastic-vacation.com">hs@fantastic-vacation.com</a></div>
 </div>
 </li>
 </ul></div>
 <!-- Column 4: Certifications & Partners -->
-<div class="footer-col" data-i18n="index.16">
-<h4 class="footer-col-title" data-i18n="index.928">资质与合作</h4>
+<div class="footer-col" data-i18 n="index.16">
+<h4 class="footer-col-title" data-i18 n="index.928">资质与合作</h4>
 <div class="footer-certs">
 <div class="cert-item">
-<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-<span data-i18n="index.225">ISO 9001质量管理体系认证</span>
+<svg fill="none" height="14" stroke="#c9 a96 e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08 V12 a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18 n="index.225">ISO 9001质量管理体系认证</span>
 </div>
-<div class="cert-item" data-i18n="index.17">
-<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-<span data-i18n="index.226">意大利 Ferretti 集团授权合作伙伴</span>
+<div class="cert-item" data-i18 n="index.17">
+<svg fill="none" height="14" stroke="#c9 a96 e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08 V12 a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18 n="index.226">意大利 Ferretti 集团授权合作伙伴</span>
 </div>
-<div class="cert-item" data-i18n="index.18">
-<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-<span data-i18n="index.227">荷兰Feadship技术合作伙伴</span>
+<div class="cert-item" data-i18 n="index.18">
+<svg fill="none" height="14" stroke="#c9 a96 e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08 V12 a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18 n="index.227">荷兰Feadship技术合作伙伴</span>
 </div>
-<div class="cert-item" data-i18n="index.19">
-<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-<span data-i18n="index.228">地中海船坞协会认证会员</span>
+<div class="cert-item" data-i18 n="index.19">
+<svg fill="none" height="14" stroke="#c9 a96 e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08 V12 a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18 n="index.228">地中海船坞协会认证会员</span>
 </div>
-<div class="cert-item" data-i18n="index.20">
-<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-<span data-i18n="index.229">亚洲最佳游艇服务商三连冠</span>
+<div class="cert-item" data-i18 n="index.20">
+<svg fill="none" height="14" stroke="#c9 a96 e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08 V12 a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18 n="index.229">亚洲最佳游艇服务商三连冠</span>
 </div>
 </div>
-<div class="footer-recruit" data-i18n="index.21">
-<a class="recruit-link" data-i18n="index.959" href="../contact.html">
-<svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
-            <span data-i18n="_recruit">加入我们 · 招聘职位</span>
+<div class="footer-recruit" data-i18 n="index.21">
+<a class="recruit-link" data-i18 n="index.959" href="../contact.html">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M17 21 v-2 a4 4 0 0 0-4-4 H5 a4 4 0 0 0-4 4 v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21 v-2 a4 4 0 0 0-3-3.87"></path><path d="M16 3.13 a4 4 0 0 1 0 7.75"></path></svg>
+            <span data-i18 n="_recruit">加入我们 · 招聘职位</span>
           </a>
 </div>
 </div>
 </div>
 </div>
 <!-- Copyright Bar -->
-<div class="footer-bottom" data-i18n="index.22">
+<div class="footer-bottom" data-i18 n="index.22">
 <div class="footer-bottom-inner">
 <div class="copyright">
-<span data-i18n="index.230">© 2020-2026 奇幻假期实业有限公司 FANTASTIC VACATION INDUSTRIAL CO., LTD. 保留所有权利。</span>
+<span data-i18 n="index.230">© 2020-2026 奇幻假期实业有限公司 FANTASTIC VACATION INDUSTRIAL CO., LTD. 保留所有权利。</span>
 </div>
-<div class="legal-links" data-i18n="index.23">
-<a data-i18n="index.231" href="../privacy.html">隐私政策</a>
-<a data-i18n="index.232" href="../terms.html">使用条款</a>
-<a data-i18n="index.233" href="../sitemap.html">网站地图</a>
+<div class="legal-links" data-i18 n="index.23">
+<a data-i18 n="index.231" href="../privacy.html">隐私政策</a>
+<a data-i18 n="index.232" href="../terms.html">使用条款</a>
+<a data-i18 n="index.233" href="../sitemap.html">网站地图</a>
 </div>
 </div>
 
@@ -537,11 +537,11 @@
 window.addEventListener("scroll",function(){var n=document.getElementById("navbar");n.classList.toggle("scrolled",window.scrollY>80)});
 function toggleMobile(){document.getElementById("mobile-menu").classList.toggle("active");document.querySelector(".hamburger").classList.toggle("active")}
 (function(){var o=new IntersectionObserver(function(e){e.forEach(function(e){if(e.isIntersecting)e.target.classList.add("revealed")})},{threshold:0.1});document.querySelectorAll(".reveal").forEach(function(e){o.observe(e)})})();
-document.getElementById("contactForm").addEventListener("submit",function(e){e.preventDefault();var f=this;var b=f.querySelector(".form-submit");b.disabled=true;b.textContent="⏳ Submitting...";fetch(f.action,{method:"POST",body:new FormData(f),headers:{Accept:"application/json"}}).then(function(r){if(r.ok){b.textContent="✓ Booking submitted！we will2within 24 hours";f.reset();setTimeout(function(){b.disabled=false;b.textContent="Submit Inquiry →"},5000)}else{b.textContent="✗ Submission failed. Please call our hotline.";setTimeout(function(){b.disabled=false;b.textContent="Submit Inquiry →"},3000)}}).catch(function(){b.textContent="✗ Network error. Please call our hotline.";setTimeout(function(){b.disabled=false;b.textContent="Submit Inquiry →"},3000)})});
+document.getElementById("contactForm").addEventListener("submit",function(e){e.preventDefault();var f=this;var b=f.querySelector(".form-submit");b.disabled=true;b.textContent="⏳ Submitting...";fetch(f.action,{method:"POST",body:new FormData(f),headers:{Accept:"application/json"}}).then(function(r){if(r.ok){b.textContent="✓ Booking submitted！we will2 within 24 hours";f.reset();setTimeout(function(){b.disabled=false;b.textContent="Submit Inquiry →"},5000)}else{b.textContent="✗ Submission failed. Please call our hotline.";setTimeout(function(){b.disabled=false;b.textContent="Submit Inquiry →"},3000)}}).catch(function(){b.textContent="✗ Network error. Please call our hotline.";setTimeout(function(){b.disabled=false;b.textContent="Submit Inquiry →"},3000)})});
 
 function toggleSearch(){var s=document.getElementById("searchOverlay");if(s){s.classList.toggle("active");if(s.classList.contains("active")){setTimeout(function(){var i=document.getElementById("searchInput");if(i)i.focus()},100)}}}
 document.addEventListener("keydown",function(e){if(e.key==="Escape"){var s=document.getElementById("searchOverlay");if(s&&s.classList.contains("active"))s.classList.remove("active");var m=document.getElementById("mobile-menu");if(m&&m.classList.contains("active")){m.classList.remove("active");var h=document.querySelector(".hamburger");if(h)h.classList.remove("active")}}});function toggleDarkMode(){document.body.classList.toggle("dark-mode");var isDark=document.body.classList.contains("dark-mode");localStorage.setItem("fv-dark",isDark?"1":"0");var moon=document.querySelector(".icon-moon");var sun=document.querySelector(".icon-sun");if(moon)moon.style.display=isDark?"none":"inline";if(sun)sun.style.display=isDark?"inline":"none"}
 window.addEventListener("DOMContentLoaded",function(){var isDark=localStorage.getItem("fv-dark")==="1";if(isDark){document.body.classList.add("dark-mode");var moon=document.querySelector(".icon-moon");var sun=document.querySelector(".icon-sun");if(moon)moon.style.display="none";if(sun)sun.style.display="inline"}});window.addEventListener("DOMContentLoaded",function(){document.querySelectorAll(".search-suggestion-item").forEach(function(el){el.addEventListener("click",function(){var t=this.textContent.trim();if(t.indexOf("Full Fleet")!==-1||t.indexOf("All Yachts")!==-1)window.location.href="yachts.html";else if(t.indexOf("Custom Design")!==-1||t.indexOf("Custom")!==-1)window.location.href="custom.html";else if(t.indexOf("Routes")!==-1||t.indexOf("Routes")!==-1)window.location.href="charter.html";else if(t.indexOf("Contact")!==-1||t.indexOf("Contact")!==-1||t.indexOf("Advisor")!==-1||t.indexOf("Advisor")!==-1)window.location.href="contact.html"})})});</script>
 <script src="../main.js"></script>
-<script src="../i18n.js"></script>
+<script src="../i18 n.js"></script>
 </body></html>
