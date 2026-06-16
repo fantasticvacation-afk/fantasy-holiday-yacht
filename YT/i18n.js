@@ -38,8 +38,8 @@ var dict = {
     "en": "→ Contact Advisor"
   },
   "index.9": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "index.10": {
     "zh": "首页",
@@ -51,7 +51,7 @@ var dict = {
   },
   "index.addr": {
     "zh": "中国广东省深圳市南山区蛇口太子湾大道88号奇幻假期大厦28楼",
-    "en": "No.88 Taiziwan Avenue, Shekou, Nanshan District, Shenzhen, China, Floor 28, Fantastic Vacation Building"
+    "en": "No.88 Taiziwan Avenue, Shekou, Nanshan District, Shenzhen, China, Floor 28, Fantastic Vacation Industrial Co., Ltd Building"
   },
   "index.12": {
     "zh": "公司简介",
@@ -110,7 +110,7 @@ var dict = {
     "en": "Company News"
   },
   "index.26": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "index.27": {
@@ -178,11 +178,11 @@ var dict = {
     "en": "Covering International Waters"
   },
   "index.43": {
-    "zh": "为何选择奇幻假期",
+    "zh": "为何选择奇幻假期实业有限公司",
     "en": "Why Choose FANTASTIC VACATION"
   },
   "index.44": {
-    "zh": "为何选择奇幻假期",
+    "zh": "为何选择奇幻假期实业有限公司",
     "en": "Why Choose FANTASTIC VACATION"
   },
   "index.45": {
@@ -416,8 +416,8 @@ var dict = {
     "en": "Full-Process Customization Capability"
   },
   "index.103": {
-    "zh": "从最初的概念草图到最终的海上交付，奇幻假期的定制服务涵盖游艇诞生的每一个环节。",
-    "en": "From initial concept sketches to final ocean delivery, Fantastic Vacation's customization service covers every stage of a yacht's birth."
+    "zh": "从最初的概念草图到最终的海上交付，奇幻假期实业有限公司的定制服务涵盖游艇诞生的每一个环节。",
+    "en": "From initial concept sketches to final ocean delivery, Fantastic Vacation Industrial Co., Ltd's customization service covers every stage of a yacht's birth."
   },
   "index.104": {
     "zh": "我们的国际化团队汇聚了来自意大利、荷兰、德国、日本的顶尖设计师与工程师，在船体流体力学、内部空间规划、智能系统集成、环保动力方案等领域拥有深厚的专业积累。",
@@ -692,20 +692,20 @@ var dict = {
     "en": "News & Updates"
   },
   "index.173": {
-    "zh": "了解奇幻假期的最新动态与海洋生活方式资讯",
-    "en": "Stay updated with Fantastic Vacation's latest news and marine lifestyle insights"
+    "zh": "了解奇幻假期实业有限公司的最新动态与海洋生活方式资讯",
+    "en": "Stay updated with Fantastic Vacation Industrial Co., Ltd's latest news and marine lifestyle insights"
   },
   "index.174": {
     "zh": "品牌动态",
     "en": "Brand News"
   },
   "index.175": {
-    "zh": "奇幻假期香港运营中心正式启用",
-    "en": "Fantastic Vacation Hong Kong Operation Center Officially Opened"
+    "zh": "奇幻假期实业有限公司香港运营中心正式启用",
+    "en": "Fantastic Vacation Industrial Co., Ltd Hong Kong Operation Center Officially Opened"
   },
   "index.176": {
-    "zh": "2026年5月，奇幻假期在香港中环设立亚太区总部，统筹亚太地区业务。",
-    "en": "May 2026, Fantastic Vacation establishes Asia-Pacific HQ in Central, Hong Kong, overseeing regional operations."
+    "zh": "2026年5月，奇幻假期实业有限公司在香港中环设立亚太区总部，统筹亚太地区业务。",
+    "en": "May 2026, Fantastic Vacation Industrial Co., Ltd establishes Asia-Pacific HQ in Central, Hong Kong, overseeing regional operations."
   },
   "index.177": {
     "zh": "行业趋势",
@@ -804,8 +804,8 @@ var dict = {
     "en": "Book Consultation Now"
   },
   "index.201": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "index.202": {
     "zh": "FANTASTIC VACATION",
@@ -936,7 +936,7 @@ var dict = {
     "en": "Site Map"
   },
   "about.0": {
-    "zh": "公司简介 | 奇幻假期",
+    "zh": "公司简介 | 奇幻假期实业有限公司",
     "en": "Company Profile | Fantastic Vacation"
   },
   "about.1": {
@@ -960,8 +960,8 @@ var dict = {
     "en": "Brand Positioning & Industry Standing"
   },
   "about.6": {
-    "zh": "奇幻假期（Fantastic Vacation）是中国领先的豪华游艇定制与海上生活服务商，致力于为高端客群打造世界级的游艇体验。公司汇聚全球顶尖游艇制造商资源，提供从定制设计、租赁航线到托管维保的全方位服务。",
-    "en": "Fantastic Vacation is China's leading luxury yacht customization and marine lifestyle service provider, dedicated to creating world-class yacht experiences for high-end clientele. The company brings together global top yacht manufacturer resources, providing end-to-end services from custom design and charter routes to management and maintenance."
+    "zh": "奇幻假期实业有限公司（Fantastic Vacation Industrial Co., Ltd）是中国领先的豪华游艇定制与海上生活服务商，致力于为高端客群打造世界级的游艇体验。公司汇聚全球顶尖游艇制造商资源，提供从定制设计、租赁航线到托管维保的全方位服务。",
+    "en": "Fantastic Vacation Industrial Co., Ltd is China's leading luxury yacht customization and marine lifestyle service provider, dedicated to creating world-class yacht experiences for high-end clientele. The company brings together global top yacht manufacturer resources, providing end-to-end services from custom design and charter routes to management and maintenance."
   },
   "about.7": {
     "zh": "作为Ferretti集团中国区独家战略合作伙伴、Feadship技术合作方，公司已成为中国高端游艇市场的行业标杆。",
@@ -1032,7 +1032,7 @@ var dict = {
     "en": "🏢"
   },
   "about.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "about.25": {
@@ -1088,8 +1088,8 @@ var dict = {
     "en": "Europe HQ"
   },
   "about.38": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "about.39": {
     "zh": "FANTASTIC VACATION",
@@ -1292,8 +1292,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "contact.9": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "contact.10": {
     "zh": "首页",
@@ -1360,7 +1360,7 @@ var dict = {
     "en": "Company news"
   },
   "contact.26": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "contact.27": {
@@ -1785,8 +1785,8 @@ var dict = {
     "en": "Global Offices"
   },
   "contact.133": {
-    "zh": "奇幻假期在全球核心游艇市场设立直属办事处，为当地客户提供母语级服务支持与属地化合规保障。",
-    "en": "Fantastic Vacation has established direct offices in key global yacht markets, providing native-level service support and localized compliance assurance."
+    "zh": "奇幻假期实业有限公司在全球核心游艇市场设立直属办事处，为当地客户提供母语级服务支持与属地化合规保障。",
+    "en": "Fantastic Vacation Industrial Co., Ltd has established direct offices in key global yacht markets, providing native-level service support and localized compliance assurance."
   },
   "contact.134": {
     "zh": "🇭🇰",
@@ -2065,8 +2065,8 @@ var dict = {
     "en": "Insurance Partners: "
   },
   "contact.206": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "contact.207": {
     "zh": "FANTASTIC VACATION",
@@ -2074,7 +2074,7 @@ var dict = {
   },
   "contact.208": {
     "zh": "奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。",
-    "en": "Fantastic Vacation has been dedicated to the premium yacht industry for 15 years, providing one-stop yacht customization, charter, and management services for 200+ global high-net-worth clients."
+    "en": "Fantastic Vacation Industrial Co., Ltd has been dedicated to the premium yacht industry for 15 years, providing one-stop yacht customization, charter, and management services for 200+ global high-net-worth clients."
   },
   "contact.209": {
     "zh": "微信公众号",
@@ -2269,8 +2269,8 @@ var dict = {
     "en": "→ Contact Advisor"
   },
   "yachts.9": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yachts.10": {
     "zh": "首页",
@@ -2345,7 +2345,7 @@ var dict = {
     "en": "Media Reports"
   },
   "yachts.28": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yachts.29": {
@@ -4017,7 +4017,7 @@ var dict = {
     "en": "Can't find the boat type you like?"
   },
   "yachts.446": {
-    "zh": "我们提供全流程定制服务，从概念设计到交付运营，打造独一无二的专属游艇。奇幻假期原创设计团队将您的愿景变为现实。",
+    "zh": "我们提供全流程定制服务，从概念设计到交付运营，打造独一无二的专属游艇。奇幻假期实业有限公司原创设计团队将您的愿景变为现实。",
     "en": "We provide full-process customization services, from concept design to delivery and operation, to create unique and exclusive yachts. The Fantasy Vacation Original Design team brings your vision to life."
   },
   "yachts.447": {
@@ -4029,8 +4029,8 @@ var dict = {
     "en": "Consult Now"
   },
   "yachts.449": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yachts.450": {
     "zh": "FANTASTIC VACATION",
@@ -4197,11 +4197,11 @@ var dict = {
     "en": "Site Map"
   },
   "about-culture.6": {
-    "zh": "企业文化 | 奇幻假期",
+    "zh": "企业文化 | 奇幻假期实业有限公司",
     "en": "Corporate Culture | Fantastic Vacation"
   },
   "about-culture.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "about-culture.25": {
@@ -4369,7 +4369,7 @@ var dict = {
     "en": "Craftsman spirit and shipbuilding culture"
   },
   "about-culture.194": {
-    "zh": "在奇幻假期，每一艘游艇都是匠心之作。我们传承欧洲百年造船工艺，结合现代科技与东方美学，为客户打造独一无二的海上艺术品。",
+    "zh": "在奇幻假期实业有限公司，每一艘游艇都是匠心之作。我们传承欧洲百年造船工艺，结合现代科技与东方美学，为客户打造独一无二的海上艺术品。",
     "en": "On a fantasy vacation, every yacht is a work of art. We inherit centuries-old European shipbuilding craftsmanship, combine modern technology with oriental aesthetics, and create unique maritime works of art for our customers."
   },
   "about-culture.196": {
@@ -4377,8 +4377,8 @@ var dict = {
     "en": "\\'Making every cruise an unforgettable experience\\' is our commitment to our customers."
   },
   "about-culture.213": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "about-culture.215": {
     "zh": "FANTASTIC VACATION",
@@ -4533,11 +4533,11 @@ var dict = {
     "en": "Site Map"
   },
   "about-history.6": {
-    "zh": "发展历程 | 奇幻假期",
+    "zh": "发展历程 | 奇幻假期实业有限公司",
     "en": "History | Fantastic Vacation"
   },
   "about-history.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "about-history.25": {
@@ -4645,8 +4645,8 @@ var dict = {
     "en": "Professional team"
   },
   "about-history.207": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "about-history.209": {
     "zh": "FANTASTIC VACATION",
@@ -4801,11 +4801,11 @@ var dict = {
     "en": "Site Map"
   },
   "about-intro.6": {
-    "zh": "公司简介 | 奇幻假期",
+    "zh": "公司简介 | 奇幻假期实业有限公司",
     "en": "Company Profile | Fantastic Vacation"
   },
   "about-intro.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "about-intro.25": {
@@ -4849,8 +4849,8 @@ var dict = {
     "en": "Brand positioning and industry status"
   },
   "about-intro.165": {
-    "zh": "奇幻假期（Fantastic Vacation）是中国领先的豪华游艇定制与海上生活服务商，致力于为高端客群打造世界级的游艇体验。公司汇聚全球顶尖游艇制造商资源，提供从定制设计、租赁航线到托管维保的全方位服务。",
-    "en": "Fantastic Vacation is China's leading luxury yacht customization and maritime life service provider, committed to creating a world-class yacht experience for high-end customers. The company brings together the resources of the world's top yacht manufacturers to provide a full range of services from customized design, charter routes to managed maintenance."
+    "zh": "奇幻假期实业有限公司（Fantastic Vacation Industrial Co., Ltd）是中国领先的豪华游艇定制与海上生活服务商，致力于为高端客群打造世界级的游艇体验。公司汇聚全球顶尖游艇制造商资源，提供从定制设计、租赁航线到托管维保的全方位服务。",
+    "en": "Fantastic Vacation Industrial Co., Ltd is China's leading luxury yacht customization and maritime life service provider, committed to creating a world-class yacht experience for high-end customers. The company brings together the resources of the world's top yacht manufacturers to provide a full range of services from customized design, charter routes to managed maintenance."
   },
   "about-intro.167": {
     "zh": "作为Ferretti集团中国区独家战略合作伙伴、Feadship技术合作方，公司已成为中国高端游艇市场的行业标杆。",
@@ -4969,8 +4969,8 @@ var dict = {
     "en": "European Headquarters"
   },
   "about-intro.249": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "about-intro.251": {
     "zh": "FANTASTIC VACATION",
@@ -5125,11 +5125,11 @@ var dict = {
     "en": "Site Map"
   },
   "about-responsibility.6": {
-    "zh": "社会责任 | 奇幻假期",
+    "zh": "社会责任 | 奇幻假期实业有限公司",
     "en": "Social Responsibility | Fantastic Vacation"
   },
   "about-responsibility.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "about-responsibility.25": {
@@ -5253,8 +5253,8 @@ var dict = {
     "en": "Participate in the formulation of industry standards and promote the healthy development of the industry."
   },
   "about-responsibility.222": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "about-responsibility.224": {
     "zh": "FANTASTIC VACATION",
@@ -5409,11 +5409,11 @@ var dict = {
     "en": "Site Map"
   },
   "about-structure.6": {
-    "zh": "组织架构 | 奇幻假期",
+    "zh": "组织架构 | 奇幻假期实业有限公司",
     "en": "Organization | Fantastic Vacation"
   },
   "about-structure.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "about-structure.25": {
@@ -5457,8 +5457,8 @@ var dict = {
     "en": "→ Customize your exclusive plan"
   },
   "about-structure.173": {
-    "zh": "→ 了解奇幻假期",
-    "en": "→ LearnFantastic Vacation"
+    "zh": "→ 了解奇幻假期实业有限公司",
+    "en": "→ LearnFantastic Vacation Industrial Co., Ltd"
   },
   "about-structure.186": {
     "zh": "首页",
@@ -5741,8 +5741,8 @@ var dict = {
     "en": "Efficient collaboration across departments"
   },
   "about-structure.456": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "about-structure.458": {
     "zh": "FANTASTIC VACATION",
@@ -5949,7 +5949,7 @@ var dict = {
     "en": "Qualifications and cooperation"
   },
   "case-001.6": {
-    "zh": "82米超级游艇「幻蓝号」Fantasy Blue 中东王室定制案例 | 奇幻假期",
+    "zh": "82米超级游艇「幻蓝号」Fantasy Blue 中东王室定制案例 | 奇幻假期实业有限公司",
     "en": "82-meter super yacht \"Fantasy Blue\" Customized case for the Middle Eastern royal family | Fantasy vacation"
   },
   "case-001.15": {
@@ -5957,7 +5957,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-001.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "case-001.30": {
@@ -6005,8 +6005,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "case-001.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-001.197": {
     "zh": "首页",
@@ -6589,8 +6589,8 @@ var dict = {
     "en": "Our professional team will create an exclusive yacht customization plan for you"
   },
   "case-001.626": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-001.628": {
     "zh": "FANTASTIC VACATION",
@@ -6745,7 +6745,7 @@ var dict = {
     "en": "Site Map"
   },
   "case-002.6": {
-    "zh": "地中海30天深度巡航 | 奇幻假期 fantastic.vacation 租赁航行案例",
+    "zh": "地中海30天深度巡航 | 奇幻假期实业有限公司 fantastic.vacation 租赁航行案例",
     "en": "30-day in-depth cruise in the Mediterranean | Fantasy vacation fantastic.vacation charter sailing case"
   },
   "case-002.15": {
@@ -6753,7 +6753,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-002.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "case-002.30": {
@@ -6801,8 +6801,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "case-002.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-002.197": {
     "zh": "首页",
@@ -7373,8 +7373,8 @@ var dict = {
     "en": "Our professional team will tailor-make an exclusive Mediterranean in-depth cruise experience for you"
   },
   "case-002.619": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-002.621": {
     "zh": "FANTASTIC VACATION",
@@ -7529,7 +7529,7 @@ var dict = {
     "en": "Site Map"
   },
   "case-003.6": {
-    "zh": "中东王室船队5年全托管 | 奇幻假期 fantastic.vacation 托管运维案例",
+    "zh": "中东王室船队5年全托管 | 奇幻假期实业有限公司 fantastic.vacation 托管运维案例",
     "en": "Middle East royal fleet fully managed for 5 years | Fantasy vacation fantastic.vacation managed operation and maintenance case"
   },
   "case-003.15": {
@@ -7537,7 +7537,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-003.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "case-003.30": {
@@ -7585,8 +7585,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "case-003.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-003.197": {
     "zh": "首页",
@@ -8161,8 +8161,8 @@ var dict = {
     "en": "Our professional team will create an exclusive yacht hosting solution for you"
   },
   "case-003.623": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-003.625": {
     "zh": "FANTASTIC VACATION",
@@ -8317,7 +8317,7 @@ var dict = {
     "en": "Site Map"
   },
   "case-004.6": {
-    "zh": "45米探险游艇「极光号」Aurora 极地定制案例 | 奇幻假期",
+    "zh": "45米探险游艇「极光号」Aurora 极地定制案例 | 奇幻假期实业有限公司",
     "en": "45-meter expedition yacht \"Aurora\" Polar Customization Case | Fantasy Vacation"
   },
   "case-004.15": {
@@ -8325,7 +8325,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-004.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "case-004.30": {
@@ -8373,8 +8373,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "case-004.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-004.197": {
     "zh": "首页",
@@ -8945,8 +8945,8 @@ var dict = {
     "en": "Our professional team will create an exclusive polar expedition yacht customization plan for you."
   },
   "case-004.620": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-004.622": {
     "zh": "FANTASTIC VACATION",
@@ -9101,7 +9101,7 @@ var dict = {
     "en": "Site Map"
   },
   "case-005.6": {
-    "zh": "加勒比海豪华婚礼包船 | 奇幻假期 fantastic.vacation 婚礼包船案例",
+    "zh": "加勒比海豪华婚礼包船 | 奇幻假期实业有限公司 fantastic.vacation 婚礼包船案例",
     "en": "Caribbean Luxury Wedding Charter | Fantasy Vacation fantastic.vacation Wedding Charter Case"
   },
   "case-005.15": {
@@ -9109,7 +9109,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-005.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "case-005.30": {
@@ -9157,8 +9157,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "case-005.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-005.197": {
     "zh": "首页",
@@ -9721,8 +9721,8 @@ var dict = {
     "en": "Our professional team will tailor-make an exclusive sea wedding plan for you"
   },
   "case-005.619": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-005.621": {
     "zh": "FANTASTIC VACATION",
@@ -9877,7 +9877,7 @@ var dict = {
     "en": "Site Map"
   },
   "case-006.3": {
-    "zh": "企业年会海上托管 | 奇幻假期 fantastic.vacation 商务活动案例",
+    "zh": "企业年会海上托管 | 奇幻假期实业有限公司 fantastic.vacation 商务活动案例",
     "en": "Corporate Annual Meeting Offshore Hosting | Fantasy Vacation fantastic.vacation Business Event Case"
   },
   "case-006.10": {
@@ -9885,7 +9885,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-006.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "case-006.25": {
@@ -9933,8 +9933,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "case-006.189": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-006.192": {
     "zh": "首页",
@@ -10341,8 +10341,8 @@ var dict = {
     "en": "Our professional team will tailor-make an exclusive offshore hosting solution for your corporate annual meeting"
   },
   "case-006.421": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-006.423": {
     "zh": "FANTASTIC VACATION",
@@ -10497,7 +10497,7 @@ var dict = {
     "en": "Site Map"
   },
   "case-007.3": {
-    "zh": "62m超级游艇改装翻新案例 | 奇幻假期 fantastic.vacation 改装案例",
+    "zh": "62m超级游艇改装翻新案例 | 奇幻假期实业有限公司 fantastic.vacation 改装案例",
     "en": "62m superyacht modification and renovation case | Fantasy vacation fantastic.vacation modification case"
   },
   "case-007.10": {
@@ -10505,7 +10505,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-007.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "case-007.25": {
@@ -10553,8 +10553,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "case-007.189": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-007.192": {
     "zh": "首页",
@@ -10845,8 +10845,8 @@ var dict = {
     "en": "Our professional team will tailor-make your own yacht modification and renovation plan"
   },
   "case-007.364": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-007.366": {
     "zh": "FANTASTIC VACATION",
@@ -11001,7 +11001,7 @@ var dict = {
     "en": "Site Map"
   },
   "case-008.3": {
-    "zh": "国际帆船赛赛事保障案例 | 奇幻假期 fantastic.vacation 赛事案例",
+    "zh": "国际帆船赛赛事保障案例 | 奇幻假期实业有限公司 fantastic.vacation 赛事案例",
     "en": "International sailing regatta event guarantee case | Fantasy vacation fantastic.vacation event case"
   },
   "case-008.10": {
@@ -11009,7 +11009,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-008.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "case-008.25": {
@@ -11057,8 +11057,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "case-008.189": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-008.192": {
     "zh": "首页",
@@ -11301,8 +11301,8 @@ var dict = {
     "en": "Our professional team will provide you with complete event support fleet services"
   },
   "case-008.340": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-008.342": {
     "zh": "FANTASTIC VACATION",
@@ -11457,7 +11457,7 @@ var dict = {
     "en": "Site Map"
   },
   "case-009.3": {
-    "zh": "东南亚私人度假航线 | 奇幻假期 fantastic.vacation 私人航线案例",
+    "zh": "东南亚私人度假航线 | 奇幻假期实业有限公司 fantastic.vacation 私人航线案例",
     "en": "Southeast Asia Private Vacation Route | Fantasy Vacation fantastic.vacation Private Route Case"
   },
   "case-009.10": {
@@ -11465,7 +11465,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-009.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "case-009.25": {
@@ -11513,8 +11513,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "case-009.189": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-009.192": {
     "zh": "首页",
@@ -11761,8 +11761,8 @@ var dict = {
     "en": "Our professional team will tailor-make your own private vacation route plan"
   },
   "case-009.340": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-009.342": {
     "zh": "FANTASTIC VACATION",
@@ -11917,7 +11917,7 @@ var dict = {
     "en": "Site Map"
   },
   "case-010.3": {
-    "zh": "南太平洋探险巡航 | 奇幻假期 fantastic.vacation 探险航线案例",
+    "zh": "南太平洋探险巡航 | 奇幻假期实业有限公司 fantastic.vacation 探险航线案例",
     "en": "South Pacific Adventure Cruise | Fantasy Vacation fantastic.vacation Adventure Route Case"
   },
   "case-010.10": {
@@ -11925,7 +11925,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-010.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "case-010.25": {
@@ -11973,8 +11973,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "case-010.189": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-010.192": {
     "zh": "首页",
@@ -12221,8 +12221,8 @@ var dict = {
     "en": "Our professional team will tailor-make your own South Pacific adventure cruise plan"
   },
   "case-010.340": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-010.342": {
     "zh": "FANTASTIC VACATION",
@@ -12377,7 +12377,7 @@ var dict = {
     "en": "Site Map"
   },
   "case-011.6": {
-    "zh": "私人高端游艇出海休闲度假 | 奇幻假期 fantastic.vacation 案例详情",
+    "zh": "私人高端游艇出海休闲度假 | 奇幻假期实业有限公司 fantastic.vacation 案例详情",
     "en": "Private high-end yacht sailing for leisure vacation | Fantasy vacation fantastic.vacation case details"
   },
   "case-011.15": {
@@ -12385,7 +12385,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-011.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "case-011.30": {
@@ -12433,8 +12433,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "case-011.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-011.197": {
     "zh": "首页",
@@ -12685,7 +12685,7 @@ var dict = {
     "en": "Project implementation results"
   },
   "case-011.335": {
-    "zh": "客户满意度100%，表示下次还会选择奇幻假期，已预约下季度行程",
+    "zh": "客户满意度100%，表示下次还会选择奇幻假期实业有限公司，已预约下季度行程",
     "en": "Customer satisfaction is 100%. He said he would choose a fantasy vacation next time and has already booked a trip for next quarter."
   },
   "case-011.337": {
@@ -12705,8 +12705,8 @@ var dict = {
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-011.367": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-011.369": {
     "zh": "FANTASTIC VACATION",
@@ -12861,7 +12861,7 @@ var dict = {
     "en": "Site Map"
   },
   "case-012.6": {
-    "zh": "海上亲子出游周末行 | 奇幻假期 fantastic.vacation 案例详情",
+    "zh": "海上亲子出游周末行 | 奇幻假期实业有限公司 fantastic.vacation 案例详情",
     "en": "Family weekend trip at sea | Fantasy vacation fantastic.vacation case details"
   },
   "case-012.15": {
@@ -12869,7 +12869,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-012.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "case-012.30": {
@@ -12917,8 +12917,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "case-012.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-012.197": {
     "zh": "首页",
@@ -13181,8 +13181,8 @@ var dict = {
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-012.364": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-012.366": {
     "zh": "FANTASTIC VACATION",
@@ -13337,7 +13337,7 @@ var dict = {
     "en": "Site Map"
   },
   "case-013.6": {
-    "zh": "情侣浪漫海上之旅 | 奇幻假期 fantastic.vacation 案例详情",
+    "zh": "情侣浪漫海上之旅 | 奇幻假期实业有限公司 fantastic.vacation 案例详情",
     "en": "Romantic sea trip for couples | Fantasy vacation fantastic.vacation case details"
   },
   "case-013.15": {
@@ -13345,7 +13345,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-013.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "case-013.30": {
@@ -13393,8 +13393,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "case-013.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-013.197": {
     "zh": "首页",
@@ -13653,8 +13653,8 @@ var dict = {
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-013.362": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-013.364": {
     "zh": "FANTASTIC VACATION",
@@ -13809,7 +13809,7 @@ var dict = {
     "en": "Site Map"
   },
   "case-014.6": {
-    "zh": "好友圈层海上聚会 | 奇幻假期 fantastic.vacation 案例详情",
+    "zh": "好友圈层海上聚会 | 奇幻假期实业有限公司 fantastic.vacation 案例详情",
     "en": "Friends circle gathering at sea | Fantasy vacation fantastic.vacation case details"
   },
   "case-014.15": {
@@ -13817,7 +13817,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-014.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "case-014.30": {
@@ -13865,8 +13865,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "case-014.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-014.197": {
     "zh": "首页",
@@ -14125,8 +14125,8 @@ var dict = {
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-014.362": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-014.364": {
     "zh": "FANTASTIC VACATION",
@@ -14281,7 +14281,7 @@ var dict = {
     "en": "Site Map"
   },
   "case-015.6": {
-    "zh": "海上下午茶轻奢体验 | 奇幻假期 fantastic.vacation 案例详情",
+    "zh": "海上下午茶轻奢体验 | 奇幻假期实业有限公司 fantastic.vacation 案例详情",
     "en": "Afternoon tea at sea luxury experience | Fantasy vacation fantastic.vacation case details"
   },
   "case-015.15": {
@@ -14289,7 +14289,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-015.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "case-015.30": {
@@ -14337,8 +14337,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "case-015.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-015.197": {
     "zh": "首页",
@@ -14597,8 +14597,8 @@ var dict = {
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-015.362": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-015.364": {
     "zh": "FANTASTIC VACATION",
@@ -14753,7 +14753,7 @@ var dict = {
     "en": "Site Map"
   },
   "case-016.6": {
-    "zh": "企业高层商务游艇会晤 | 奇幻假期 fantastic.vacation 案例详情",
+    "zh": "企业高层商务游艇会晤 | 奇幻假期实业有限公司 fantastic.vacation 案例详情",
     "en": "Business yacht meeting with corporate executives | Fantasy vacation fantastic.vacation case details"
   },
   "case-016.15": {
@@ -14761,7 +14761,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-016.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "case-016.30": {
@@ -14809,8 +14809,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "case-016.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-016.197": {
     "zh": "首页",
@@ -15069,8 +15069,8 @@ var dict = {
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-016.362": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-016.364": {
     "zh": "FANTASTIC VACATION",
@@ -15225,7 +15225,7 @@ var dict = {
     "en": "Site Map"
   },
   "case-017.6": {
-    "zh": "商务客户高端宴请 | 奇幻假期 fantastic.vacation 案例详情",
+    "zh": "商务客户高端宴请 | 奇幻假期实业有限公司 fantastic.vacation 案例详情",
     "en": "High-end banquet for business clients | Fantasy vacation fantastic.vacation case details"
   },
   "case-017.15": {
@@ -15233,7 +15233,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-017.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "case-017.30": {
@@ -15281,8 +15281,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "case-017.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-017.197": {
     "zh": "首页",
@@ -15541,8 +15541,8 @@ var dict = {
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-017.362": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-017.364": {
     "zh": "FANTASTIC VACATION",
@@ -15697,7 +15697,7 @@ var dict = {
     "en": "Site Map"
   },
   "case-018.6": {
-    "zh": "奢侈品牌海上发布会 | 奇幻假期 fantastic.vacation 案例详情",
+    "zh": "奢侈品牌海上发布会 | 奇幻假期实业有限公司 fantastic.vacation 案例详情",
     "en": "Luxury Brand Overseas Press Conference | Fantasy Vacation fantastic.vacation Case Details"
   },
   "case-018.15": {
@@ -15705,7 +15705,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-018.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "case-018.30": {
@@ -15753,8 +15753,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "case-018.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-018.197": {
     "zh": "首页",
@@ -16013,8 +16013,8 @@ var dict = {
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-018.362": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-018.364": {
     "zh": "FANTASTIC VACATION",
@@ -16169,7 +16169,7 @@ var dict = {
     "en": "Site Map"
   },
   "case-019.6": {
-    "zh": "企业周年海上庆典 | 奇幻假期 fantastic.vacation 案例详情",
+    "zh": "企业周年海上庆典 | 奇幻假期实业有限公司 fantastic.vacation 案例详情",
     "en": "Corporate Anniversary Celebration at Sea | Fantasy Vacation fantastic.vacation Case Details"
   },
   "case-019.15": {
@@ -16177,7 +16177,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-019.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "case-019.30": {
@@ -16225,8 +16225,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "case-019.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-019.197": {
     "zh": "首页",
@@ -16485,8 +16485,8 @@ var dict = {
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-019.362": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-019.364": {
     "zh": "FANTASTIC VACATION",
@@ -16641,7 +16641,7 @@ var dict = {
     "en": "Site Map"
   },
   "case-020.6": {
-    "zh": "海上浪漫求婚策划 | 奇幻假期 fantastic.vacation 案例详情",
+    "zh": "海上浪漫求婚策划 | 奇幻假期实业有限公司 fantastic.vacation 案例详情",
     "en": "Romantic Proposal Planning at Sea | Fantasy Vacation fantastic.vacation Case Details"
   },
   "case-020.15": {
@@ -16649,7 +16649,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-020.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "case-020.30": {
@@ -16697,8 +16697,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "case-020.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-020.197": {
     "zh": "首页",
@@ -16957,8 +16957,8 @@ var dict = {
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-020.362": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-020.364": {
     "zh": "FANTASTIC VACATION",
@@ -17113,7 +17113,7 @@ var dict = {
     "en": "Site Map"
   },
   "case-021.6": {
-    "zh": "生日高端海上派对 | 奇幻假期 fantastic.vacation 案例详情",
+    "zh": "生日高端海上派对 | 奇幻假期实业有限公司 fantastic.vacation 案例详情",
     "en": "Birthday high-end sea party | Fantasy vacation fantastic.vacation case details"
   },
   "case-021.15": {
@@ -17121,7 +17121,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-021.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "case-021.30": {
@@ -17169,8 +17169,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "case-021.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-021.197": {
     "zh": "首页",
@@ -17429,8 +17429,8 @@ var dict = {
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-021.362": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-021.364": {
     "zh": "FANTASTIC VACATION",
@@ -17585,7 +17585,7 @@ var dict = {
     "en": "Site Map"
   },
   "case-022.6": {
-    "zh": "私人定制海上晚宴 | 奇幻假期 fantastic.vacation 案例详情",
+    "zh": "私人定制海上晚宴 | 奇幻假期实业有限公司 fantastic.vacation 案例详情",
     "en": "Private Customized Dinner at Sea | Fantasy Vacation fantastic.vacation Case Details"
   },
   "case-022.15": {
@@ -17593,7 +17593,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-022.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "case-022.30": {
@@ -17641,8 +17641,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "case-022.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-022.197": {
     "zh": "首页",
@@ -17901,8 +17901,8 @@ var dict = {
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-022.362": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-022.364": {
     "zh": "FANTASTIC VACATION",
@@ -18057,7 +18057,7 @@ var dict = {
     "en": "Site Map"
   },
   "case-023.6": {
-    "zh": "中小型游艇日常全托管运维 | 奇幻假期 fantastic.vacation 案例详情",
+    "zh": "中小型游艇日常全托管运维 | 奇幻假期实业有限公司 fantastic.vacation 案例详情",
     "en": "Daily full management and operation of small and medium-sized yachts | Fantasy vacation fantastic.vacation case details"
   },
   "case-023.15": {
@@ -18065,7 +18065,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-023.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "case-023.30": {
@@ -18113,8 +18113,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "case-023.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-023.197": {
     "zh": "首页",
@@ -18377,8 +18377,8 @@ var dict = {
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-023.364": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-023.366": {
     "zh": "FANTASTIC VACATION",
@@ -18533,7 +18533,7 @@ var dict = {
     "en": "Site Map"
   },
   "case-024.6": {
-    "zh": "大型豪华游艇年度整船保养 | 奇幻假期 fantastic.vacation 案例详情",
+    "zh": "大型豪华游艇年度整船保养 | 奇幻假期实业有限公司 fantastic.vacation 案例详情",
     "en": "Annual maintenance of large luxury yachts | Fantasy vacation fantastic.vacation case details"
   },
   "case-024.15": {
@@ -18541,7 +18541,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-024.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "case-024.30": {
@@ -18589,8 +18589,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "case-024.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-024.197": {
     "zh": "首页",
@@ -18853,8 +18853,8 @@ var dict = {
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-024.364": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-024.366": {
     "zh": "FANTASTIC VACATION",
@@ -19009,7 +19009,7 @@ var dict = {
     "en": "Site Map"
   },
   "case-025.6": {
-    "zh": "游艇船体深度维修修护 | 奇幻假期 fantastic.vacation 案例详情",
+    "zh": "游艇船体深度维修修护 | 奇幻假期实业有限公司 fantastic.vacation 案例详情",
     "en": "Yacht hull in-depth repair and maintenance | Fantasy vacation fantastic.vacation case details"
   },
   "case-025.15": {
@@ -19017,7 +19017,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-025.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "case-025.30": {
@@ -19065,8 +19065,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "case-025.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-025.197": {
     "zh": "首页",
@@ -19329,8 +19329,8 @@ var dict = {
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-025.364": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-025.366": {
     "zh": "FANTASTIC VACATION",
@@ -19485,7 +19485,7 @@ var dict = {
     "en": "Site Map"
   },
   "case-026.6": {
-    "zh": "游艇动力系统专项检修 | 奇幻假期 fantastic.vacation 案例详情",
+    "zh": "游艇动力系统专项检修 | 奇幻假期实业有限公司 fantastic.vacation 案例详情",
     "en": "Special inspection of yacht power system | Fantasy vacation fantastic.vacation case details"
   },
   "case-026.15": {
@@ -19493,7 +19493,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-026.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "case-026.30": {
@@ -19541,8 +19541,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "case-026.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-026.197": {
     "zh": "首页",
@@ -19805,8 +19805,8 @@ var dict = {
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-026.364": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-026.366": {
     "zh": "FANTASTIC VACATION",
@@ -19961,7 +19961,7 @@ var dict = {
     "en": "Site Map"
   },
   "case-027.6": {
-    "zh": "游艇四季封存养护 | 奇幻假期 fantastic.vacation 案例详情",
+    "zh": "游艇四季封存养护 | 奇幻假期实业有限公司 fantastic.vacation 案例详情",
     "en": "Yacht storage and maintenance for all seasons | Fantasy vacation fantastic.vacation case details"
   },
   "case-027.15": {
@@ -19969,7 +19969,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-027.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "case-027.30": {
@@ -20017,8 +20017,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "case-027.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-027.197": {
     "zh": "首页",
@@ -20277,8 +20277,8 @@ var dict = {
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-027.362": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-027.364": {
     "zh": "FANTASTIC VACATION",
@@ -20433,7 +20433,7 @@ var dict = {
     "en": "Site Map"
   },
   "case-028.6": {
-    "zh": "游艇出海前全面安全质检 | 奇幻假期 fantastic.vacation 案例详情",
+    "zh": "游艇出海前全面安全质检 | 奇幻假期实业有限公司 fantastic.vacation 案例详情",
     "en": "Comprehensive safety and quality inspection before the yacht goes to sea | Fantasy vacation fantastic.vacation case details"
   },
   "case-028.15": {
@@ -20441,7 +20441,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-028.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "case-028.30": {
@@ -20489,8 +20489,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "case-028.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-028.197": {
     "zh": "首页",
@@ -20753,8 +20753,8 @@ var dict = {
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-028.364": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-028.366": {
     "zh": "FANTASTIC VACATION",
@@ -20909,7 +20909,7 @@ var dict = {
     "en": "Site Map"
   },
   "case-029.6": {
-    "zh": "180天环球巡航定制 | 奇幻假期 fantastic.vacation 案例详情",
+    "zh": "180天环球巡航定制 | 奇幻假期实业有限公司 fantastic.vacation 案例详情",
     "en": "180-day customized round-the-world cruise | Fantasy vacation fantastic.vacation case details"
   },
   "case-029.15": {
@@ -20917,7 +20917,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-029.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "case-029.30": {
@@ -20965,8 +20965,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "case-029.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-029.197": {
     "zh": "首页",
@@ -21229,8 +21229,8 @@ var dict = {
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-029.364": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-029.366": {
     "zh": "FANTASTIC VACATION",
@@ -21385,7 +21385,7 @@ var dict = {
     "en": "Site Map"
   },
   "case-030.6": {
-    "zh": "国际电影剧组取景拍摄 | 奇幻假期 fantastic.vacation 案例详情",
+    "zh": "国际电影剧组取景拍摄 | 奇幻假期实业有限公司 fantastic.vacation 案例详情",
     "en": "International film crew shooting | Fantasy vacation fantastic.vacation case details"
   },
   "case-030.15": {
@@ -21393,7 +21393,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "case-030.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "case-030.30": {
@@ -21441,8 +21441,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "case-030.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-030.197": {
     "zh": "首页",
@@ -21705,8 +21705,8 @@ var dict = {
     "en": "If you are interested in this case, please contact us to obtain an exclusive customized solution"
   },
   "case-030.364": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "case-030.366": {
     "zh": "FANTASTIC VACATION",
@@ -21861,7 +21861,7 @@ var dict = {
     "en": "Site Map"
   },
   "cases-charter.6": {
-    "zh": "租赁航行案例 | 奇幻假期 fantastic.vacation — 全球航线定制专家",
+    "zh": "租赁航行案例 | 奇幻假期实业有限公司 fantastic.vacation — 全球航线定制专家",
     "en": "Charter sailing case | Fantasy vacation fantastic.vacation — Global route customization expert"
   },
   "cases-charter.15": {
@@ -21869,7 +21869,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "cases-charter.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "cases-charter.30": {
@@ -21917,8 +21917,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "cases-charter.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "cases-charter.197": {
     "zh": "首页",
@@ -22137,8 +22137,8 @@ var dict = {
     "en": "View full case"
   },
   "cases-charter.378": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "cases-charter.380": {
     "zh": "FANTASTIC VACATION",
@@ -22293,7 +22293,7 @@ var dict = {
     "en": "Site Map"
   },
   "cases-custom.6": {
-    "zh": "全案定制案例 | 奇幻假期 fantastic.vacation — 超级游艇定制专家",
+    "zh": "全案定制案例 | 奇幻假期实业有限公司 fantastic.vacation — 超级游艇定制专家",
     "en": "Full customization case | Fantasy vacation fantastic.vacation — superyacht customization expert"
   },
   "cases-custom.15": {
@@ -22301,7 +22301,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "cases-custom.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "cases-custom.30": {
@@ -22349,8 +22349,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "cases-custom.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "cases-custom.197": {
     "zh": "首页",
@@ -22573,8 +22573,8 @@ var dict = {
     "en": "View full case"
   },
   "cases-custom.378": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "cases-custom.380": {
     "zh": "FANTASTIC VACATION",
@@ -22729,7 +22729,7 @@ var dict = {
     "en": "Site Map"
   },
   "cases-event.6": {
-    "zh": "商务活动案例 | 奇幻假期 fantastic.vacation — 海上活动专家",
+    "zh": "商务活动案例 | 奇幻假期实业有限公司 fantastic.vacation — 海上活动专家",
     "en": "Business event case | Fantasy vacation fantastic.vacation — Maritime activity expert"
   },
   "cases-event.15": {
@@ -22737,7 +22737,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "cases-event.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "cases-event.30": {
@@ -22785,8 +22785,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "cases-event.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "cases-event.197": {
     "zh": "首页",
@@ -23005,8 +23005,8 @@ var dict = {
     "en": "View full case"
   },
   "cases-event.378": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "cases-event.380": {
     "zh": "FANTASTIC VACATION",
@@ -23161,7 +23161,7 @@ var dict = {
     "en": "Site Map"
   },
   "cases-management.6": {
-    "zh": "托管运维案例 | 奇幻假期 fantastic.vacation — 游艇托管专家",
+    "zh": "托管运维案例 | 奇幻假期实业有限公司 fantastic.vacation — 游艇托管专家",
     "en": "Hosting operation and maintenance case | Fantasy vacation fantastic.vacation — Yacht hosting expert"
   },
   "cases-management.15": {
@@ -23169,7 +23169,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "cases-management.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "cases-management.30": {
@@ -23217,8 +23217,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "cases-management.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "cases-management.197": {
     "zh": "首页",
@@ -23437,8 +23437,8 @@ var dict = {
     "en": "View full case"
   },
   "cases-management.378": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "cases-management.380": {
     "zh": "FANTASTIC VACATION",
@@ -23593,7 +23593,7 @@ var dict = {
     "en": "Site Map"
   },
   "cases.6": {
-    "zh": "案例展示 | 奇幻假期 fantastic.vacation — 全球游艇服务案例集",
+    "zh": "案例展示 | 奇幻假期实业有限公司 fantastic.vacation — 全球游艇服务案例集",
     "en": "Case display | Fantasy vacation fantastic.vacation — Global Yacht Service Case Collection"
   },
   "cases.17": {
@@ -23605,7 +23605,7 @@ var dict = {
     "en": "LOADING"
   },
   "cases.34": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "cases.35": {
@@ -23653,8 +23653,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "cases.199": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "cases.202": {
     "zh": "首页",
@@ -24545,7 +24545,7 @@ var dict = {
     "en": "% customer satisfaction"
   },
   "cases.1030": {
-    "zh": "您的游艇故事，从奇幻假期开始",
+    "zh": "您的游艇故事，从奇幻假期实业有限公司开始",
     "en": "Your yacht story starts with a magical vacation"
   },
   "cases.1032": {
@@ -24553,8 +24553,8 @@ var dict = {
     "en": "Whether your dream is superyacht customization, global route planning, or worry-free managed operation and maintenance, our professional team will tailor it for you"
   },
   "cases.1055": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "cases.1057": {
     "zh": "FANTASTIC VACATION",
@@ -24721,7 +24721,7 @@ var dict = {
     "en": "LOADING"
   },
   "charter.28": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "charter.29": {
@@ -24769,8 +24769,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "charter.193": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "charter.196": {
     "zh": "首页",
@@ -25893,7 +25893,7 @@ var dict = {
     "en": "Real customer journey experience"
   },
   "charter.1079": {
-    "zh": "来自全球各地的真实旅行者分享他们的海上之旅，每一段故事都是对奇幻假期服务最好的背书",
+    "zh": "来自全球各地的真实旅行者分享他们的海上之旅，每一段故事都是对奇幻假期实业有限公司服务最好的背书",
     "en": "Real travelers from all over the world share their sea journeys. Each story is the best endorsement of the fantasy vacation service."
   },
   "charter.1085": {
@@ -25993,7 +25993,7 @@ var dict = {
     "en": "Start your exclusive route"
   },
   "charter.1157": {
-    "zh": "从一通电话开始，让奇幻假期的专业航线规划团队为您量身定制独一无二的海上旅程。无论您想要浪漫的蜜月航线、家庭冒险之旅，还是商务接待的奢华排场——我们都能让您的梦想成真。",
+    "zh": "从一通电话开始，让奇幻假期实业有限公司的专业航线规划团队为您量身定制独一无二的海上旅程。无论您想要浪漫的蜜月航线、家庭冒险之旅，还是商务接待的奢华排场——我们都能让您的梦想成真。",
     "en": "Starting with a phone call, let Fantasy Vacation's professional route planning team tailor a unique maritime journey for you. Whether you want a romantic honeymoon, a family adventure, or the luxury of a business reception - we can make your dreams come true."
   },
   "charter.1159": {
@@ -26158,8 +26158,8 @@ var dict = {
     "en": "🔒 Submit an appointment"
   },
   "charter.1248": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "charter.1250": {
     "zh": "FANTASTIC VACATION",
@@ -26382,7 +26382,7 @@ var dict = {
     "en": "LOADING"
   },
   "custom.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "custom.28": {
@@ -26430,8 +26430,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "custom.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "custom.195": {
     "zh": "首页",
@@ -26554,7 +26554,7 @@ var dict = {
     "en": "Every inch of space,"
   },
   "custom.291": {
-    "zh": "在奇幻假期，我们深信真正的奢华并非堆砌昂贵材质，而是对每一位船东生活方式的深刻理解与精准诠释。从地中海的蔚蓝海岸到加勒比的碧波万顷，我们为全球精英阶层打造独一无二的海上移动行宫——这不仅是一艘游艇，更是您个人品味、生活哲学与航海梦想的具象化呈现。",
+    "zh": "在奇幻假期实业有限公司，我们深信真正的奢华并非堆砌昂贵材质，而是对每一位船东生活方式的深刻理解与精准诠释。从地中海的蔚蓝海岸到加勒比的碧波万顷，我们为全球精英阶层打造独一无二的海上移动行宫——这不仅是一艘游艇，更是您个人品味、生活哲学与航海梦想的具象化呈现。",
     "en": "At Fantasy Vacations, we firmly believe that true luxury is not about piling up expensive materials, but about a deep understanding and accurate interpretation of each ship owner’s lifestyle. From the Cote d'Azur of the Mediterranean to the vast blue waters of the Caribbean, we create a unique maritime mobile palace for the global elite - this is not only a yacht, but also a concrete representation of your personal taste, life philosophy and sailing dreams."
   },
   "custom.293": {
@@ -26582,7 +26582,7 @@ var dict = {
     "en": "Full process customization capabilities"
   },
   "custom.325": {
-    "zh": "从最初的概念草图到最终的海上交付，奇幻假期的定制服务涵盖游艇诞生的每一个环节，每一个细节都由专业团队精心把控",
+    "zh": "从最初的概念草图到最终的海上交付，奇幻假期实业有限公司的定制服务涵盖游艇诞生的每一个环节，每一个细节都由专业团队精心把控",
     "en": "From the initial concept sketch to the final delivery at sea, Fantasy Vacation's customized services cover every aspect of the birth of the yacht, and every detail is carefully controlled by a professional team"
   },
   "custom.335": {
@@ -27427,8 +27427,8 @@ var dict = {
     "en": "+86 0755 3353-0188"
   },
   "custom.954": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "custom.956": {
     "zh": "FANTASTIC VACATION",
@@ -27616,7 +27616,7 @@ var dict = {
     "en": "📞 Contact Us"
   },
   "faq.3": {
-    "zh": "常见问题 | 奇幻假期 fantastic.vacation FAQ",
+    "zh": "常见问题 | 奇幻假期实业有限公司 fantastic.vacation FAQ",
     "en": "FAQ | fantastic.vacation FAQ"
   },
   "faq.10": {
@@ -27624,7 +27624,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "faq.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "faq.25": {
@@ -27672,8 +27672,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "faq.189": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "faq.192": {
     "zh": "首页",
@@ -27768,7 +27768,7 @@ var dict = {
     "en": "FAQ"
   },
   "faq.252": {
-    "zh": "奇幻假期fantastic.vacation — 您的疑问，我们为您解答",
+    "zh": "奇幻假期实业有限公司fantastic.vacation — 您的疑问，我们为您解答",
     "en": "Fantasy vacation fantastic.vacation — Your questions, we’ll answer them for you"
   },
   "faq.257": {
@@ -27852,8 +27852,8 @@ var dict = {
     "en": "How to make an appointment for consultation services?"
   },
   "faq.316": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "faq.318": {
     "zh": "FANTASTIC VACATION",
@@ -28008,8 +28008,8 @@ var dict = {
     "en": "Site Map"
   },
   "footer-template.13": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "footer-template.15": {
     "zh": "FANTASTIC VACATION",
@@ -28164,7 +28164,7 @@ var dict = {
     "en": "Site Map"
   },
   "honors.3": {
-    "zh": "荣誉资质 | 奇幻假期 fantastic.vacation 行业认证与奖项",
+    "zh": "荣誉资质 | 奇幻假期实业有限公司 fantastic.vacation 行业认证与奖项",
     "en": "Honors and Qualifications | fantastic.vacation Industry Certifications and Awards"
   },
   "honors.10": {
@@ -28172,7 +28172,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "honors.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "honors.25": {
@@ -28220,8 +28220,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "honors.189": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "honors.192": {
     "zh": "首页",
@@ -28316,7 +28316,7 @@ var dict = {
     "en": "Honors & Certifications"
   },
   "honors.252": {
-    "zh": "奇幻假期fantastic.vacation — 用专业与诚信，赢得行业与客户的认可",
+    "zh": "奇幻假期实业有限公司fantastic.vacation — 用专业与诚信，赢得行业与客户的认可",
     "en": "fantasy vacation fantastic.vacation — Use professionalism and integrity to win recognition from the industry and customers"
   },
   "honors.258": {
@@ -28424,8 +28424,8 @@ var dict = {
     "en": "Member of governing unit"
   },
   "honors.318": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "honors.320": {
     "zh": "FANTASTIC VACATION",
@@ -28694,7 +28694,7 @@ var dict = {
     "en": "We don’t build yachts, we weave ocean dreams."
   },
   "index.769": {
-    "zh": "每一艘出自奇幻假期的作品，都是对极致生活方式的重新定义。",
+    "zh": "每一艘出自奇幻假期实业有限公司的作品，都是对极致生活方式的重新定义。",
     "en": "Every creation from Fantasy Vacation is a redefinition of the ultimate lifestyle."
   },
   "index.777": {
@@ -28730,11 +28730,11 @@ var dict = {
     "en": "Qualifications and cooperation"
   },
   "ir-about.6": {
-    "zh": "公司概况 | 奇幻假期 IR",
+    "zh": "公司概况 | 奇幻假期实业有限公司 IR",
     "en": "Company Profile | Fantasy Vacation IR"
   },
   "ir-about.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "ir-about.25": {
@@ -28810,8 +28810,8 @@ var dict = {
     "en": "Fantasy Holiday Industrial Co., Ltd. was established, headquartered in Shanghai"
   },
   "ir-about.193": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "ir-about.195": {
     "zh": "FANTASTIC VACATION",
@@ -28966,11 +28966,11 @@ var dict = {
     "en": "Site Map"
   },
   "ir-announcements.6": {
-    "zh": "公司公告 | 奇幻假期 IR",
+    "zh": "公司公告 | 奇幻假期实业有限公司 IR",
     "en": "Company Announcement | Fantasy Vacation IR"
   },
   "ir-announcements.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "ir-announcements.25": {
@@ -29034,8 +29034,8 @@ var dict = {
     "en": "2025 Annual Report Disclosure"
   },
   "ir-announcements.197": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "ir-announcements.199": {
     "zh": "FANTASTIC VACATION",
@@ -29190,11 +29190,11 @@ var dict = {
     "en": "Site Map"
   },
   "ir-contact.6": {
-    "zh": "IR联系方式 | 奇幻假期 IR",
+    "zh": "IR联系方式 | 奇幻假期实业有限公司 IR",
     "en": "IR Contact Information | Fantasy Vacation IR"
   },
   "ir-contact.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "ir-contact.25": {
@@ -29246,8 +29246,8 @@ var dict = {
     "en": "Address: No. 1, Songgang Industrial Park, Baoan District, Shenzhen City, Guangdong Province"
   },
   "ir-contact.187": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "ir-contact.189": {
     "zh": "FANTASTIC VACATION",
@@ -29402,11 +29402,11 @@ var dict = {
     "en": "Site Map"
   },
   "ir-data.6": {
-    "zh": "财务数据 | 奇幻假期 IR",
+    "zh": "财务数据 | 奇幻假期实业有限公司 IR",
     "en": "Financial Data | Fantasy Vacations IR"
   },
   "ir-data.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "ir-data.25": {
@@ -29526,8 +29526,8 @@ var dict = {
     "en": "28"
   },
   "ir-data.206": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "ir-data.208": {
     "zh": "FANTASTIC VACATION",
@@ -29682,11 +29682,11 @@ var dict = {
     "en": "Site Map"
   },
   "ir-disclosure.6": {
-    "zh": "监管披露 | 奇幻假期 IR",
+    "zh": "监管披露 | 奇幻假期实业有限公司 IR",
     "en": "Regulatory Disclosure | Fantasy Vacation IR"
   },
   "ir-disclosure.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "ir-disclosure.25": {
@@ -29746,8 +29746,8 @@ var dict = {
     "en": "Board of Directors Rules of Procedure"
   },
   "ir-disclosure.193": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "ir-disclosure.195": {
     "zh": "FANTASTIC VACATION",
@@ -29902,11 +29902,11 @@ var dict = {
     "en": "Site Map"
   },
   "ir-esg.6": {
-    "zh": "ESG | 奇幻假期 IR",
+    "zh": "ESG | 奇幻假期实业有限公司 IR",
     "en": "ESG | Fantastic Vacation IR"
   },
   "ir-esg.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "ir-esg.25": {
@@ -29970,8 +29970,8 @@ var dict = {
     "en": "Independent directors account for 1/3 of the board of directors. The audit committee provides comprehensive supervision and establishes a complete compliance system."
   },
   "ir-esg.197": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "ir-esg.199": {
     "zh": "FANTASTIC VACATION",
@@ -30126,11 +30126,11 @@ var dict = {
     "en": "Site Map"
   },
   "ir-events.6": {
-    "zh": "投资者活动 | 奇幻假期 IR",
+    "zh": "投资者活动 | 奇幻假期实业有限公司 IR",
     "en": "Investor Events | Fantasy Vacation IR"
   },
   "ir-events.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "ir-events.25": {
@@ -30194,8 +30194,8 @@ var dict = {
     "en": "View review →"
   },
   "ir-events.195": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "ir-events.197": {
     "zh": "FANTASTIC VACATION",
@@ -30350,11 +30350,11 @@ var dict = {
     "en": "Site Map"
   },
   "ir-faq.6": {
-    "zh": "投资者FAQ | 奇幻假期 IR",
+    "zh": "投资者FAQ | 奇幻假期实业有限公司 IR",
     "en": "Investor FAQ | Fantasy Vacation IR"
   },
   "ir-faq.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "ir-faq.25": {
@@ -30410,8 +30410,8 @@ var dict = {
     "en": "Shareholders can participate in the annual general meeting of shareholders on-site or online. The specific participation methods will be detailed in the meeting announcement."
   },
   "ir-faq.191": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "ir-faq.193": {
     "zh": "FANTASTIC VACATION",
@@ -30566,11 +30566,11 @@ var dict = {
     "en": "Site Map"
   },
   "ir-financial.6": {
-    "zh": "业绩报告 | 奇幻假期 IR",
+    "zh": "业绩报告 | 奇幻假期实业有限公司 IR",
     "en": "Performance Report | Fantasy Vacation IR"
   },
   "ir-financial.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "ir-financial.25": {
@@ -30646,8 +30646,8 @@ var dict = {
     "en": "DownloadPDF"
   },
   "ir-financial.200": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "ir-financial.202": {
     "zh": "FANTASTIC VACATION",
@@ -30802,11 +30802,11 @@ var dict = {
     "en": "Site Map"
   },
   "ir-governance.6": {
-    "zh": "公司治理 | 奇幻假期 IR",
+    "zh": "公司治理 | 奇幻假期实业有限公司 IR",
     "en": "Corporate Governance | Fantasy Vacation IR"
   },
   "ir-governance.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "ir-governance.25": {
@@ -30882,8 +30882,8 @@ var dict = {
     "en": "5%"
   },
   "ir-governance.193": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "ir-governance.195": {
     "zh": "FANTASTIC VACATION",
@@ -31038,11 +31038,11 @@ var dict = {
     "en": "Site Map"
   },
   "ir-media.6": {
-    "zh": "媒体报道 | 奇幻假期 IR",
+    "zh": "媒体报道 | 奇幻假期实业有限公司 IR",
     "en": "Media Reports | Fantastic Vacation IR"
   },
   "ir-media.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "ir-media.25": {
@@ -31086,7 +31086,7 @@ var dict = {
     "en": "Caixin | 2026-05-10"
   },
   "ir-media.167": {
-    "zh": "中国高端游艇市场崛起：奇幻假期如何抓住消费升级机遇",
+    "zh": "中国高端游艇市场崛起：奇幻假期实业有限公司如何抓住消费升级机遇",
     "en": "The rise of China's high-end yacht market: How fantasy vacations can seize the opportunity of consumption upgrade"
   },
   "ir-media.169": {
@@ -31102,8 +31102,8 @@ var dict = {
     "en": "Read the original text →"
   },
   "ir-media.195": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "ir-media.197": {
     "zh": "FANTASTIC VACATION",
@@ -31258,11 +31258,11 @@ var dict = {
     "en": "Site Map"
   },
   "ir-presentations.6": {
-    "zh": "投资者演示 | 奇幻假期 IR",
+    "zh": "投资者演示 | 奇幻假期实业有限公司 IR",
     "en": "Investor Presentation | Fantasy Vacation IR"
   },
   "ir-presentations.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "ir-presentations.25": {
@@ -31326,8 +31326,8 @@ var dict = {
     "en": "DownloadPPT →"
   },
   "ir-presentations.195": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "ir-presentations.197": {
     "zh": "FANTASTIC VACATION",
@@ -31482,11 +31482,11 @@ var dict = {
     "en": "Site Map"
   },
   "ir-shareholder.6": {
-    "zh": "股东服务 | 奇幻假期 IR",
+    "zh": "股东服务 | 奇幻假期实业有限公司 IR",
     "en": "Shareholder Services | Fantasy Vacation IR"
   },
   "ir-shareholder.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "ir-shareholder.25": {
@@ -31538,8 +31538,8 @@ var dict = {
     "en": "share registration"
   },
   "ir-shareholder.191": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "ir-shareholder.193": {
     "zh": "FANTASTIC VACATION",
@@ -31694,11 +31694,11 @@ var dict = {
     "en": "Site Map"
   },
   "ir-team.6": {
-    "zh": "管理层 | 奇幻假期 IR",
+    "zh": "管理层 | 奇幻假期实业有限公司 IR",
     "en": "Management | Fantasy Vacation IR"
   },
   "ir-team.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "ir-team.25": {
@@ -31746,7 +31746,7 @@ var dict = {
     "en": "Founder and CEO"
   },
   "ir-team.169": {
-    "zh": "深耕奢侈品行业15年，曾任职于LVMH集团游艇事业部。2023年创立奇幻假期，致力于为中国高端客群打造世界级游艇服务体验。",
+    "zh": "深耕奢侈品行业15年，曾任职于LVMH集团游艇事业部。2023年创立奇幻假期实业有限公司，致力于为中国高端客群打造世界级游艇服务体验。",
     "en": "He has been deeply involved in the luxury goods industry for 15 years and once worked in the yacht division of LVMH Group. Fantasy Vacations was founded in 2023 and is committed to creating a world-class yacht service experience for China's high-end customer base."
   },
   "ir-team.173": {
@@ -31762,8 +31762,8 @@ var dict = {
     "en": "Former director of Morgan Stanley's investment banking department, he was responsible for leading the company's A and B rounds of financing, and led the completion of a total of more than 300 million yuan in financing."
   },
   "ir-team.195": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "ir-team.197": {
     "zh": "FANTASTIC VACATION",
@@ -31918,11 +31918,11 @@ var dict = {
     "en": "Site Map"
   },
   "ir-value.6": {
-    "zh": "投资亮点 | 奇幻假期 IR",
+    "zh": "投资亮点 | 奇幻假期实业有限公司 IR",
     "en": "Investment Highlights | Fantasy Vacation IR"
   },
   "ir-value.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "ir-value.25": {
@@ -31986,8 +31986,8 @@ var dict = {
     "en": "Exclusive cooperation with top brands such as Ferretti/Feadship"
   },
   "ir-value.203": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "ir-value.205": {
     "zh": "FANTASTIC VACATION",
@@ -32142,11 +32142,11 @@ var dict = {
     "en": "Site Map"
   },
   "ir.6": {
-    "zh": "投资者关系 | 奇幻假期 IR",
+    "zh": "投资者关系 | 奇幻假期实业有限公司 IR",
     "en": "Investor Relations | Fantastic Vacation IR"
   },
   "ir.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "ir.25": {
@@ -32246,8 +32246,8 @@ var dict = {
     "en": "Reached exclusive strategic cooperation with Italian Ferretti Group in China"
   },
   "ir.217": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "ir.219": {
     "zh": "FANTASTIC VACATION",
@@ -32402,7 +32402,7 @@ var dict = {
     "en": "Site Map"
   },
   "management.6": {
-    "zh": "托管维保 | 奇幻假期 fantastic.vacation — 高端私人游艇全托管一站式服务",
+    "zh": "托管维保 | 奇幻假期实业有限公司 fantastic.vacation — 高端私人游艇全托管一站式服务",
     "en": "Managed maintenance | Fantasy vacation fantastic.vacation — One-stop service for full managed high-end private yachts"
   },
   "management.17": {
@@ -32414,7 +32414,7 @@ var dict = {
     "en": "LOADING"
   },
   "management.34": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "management.35": {
@@ -32462,8 +32462,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "management.199": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "management.202": {
     "zh": "首页",
@@ -32562,7 +32562,7 @@ var dict = {
     "en": "Hosting · Maintenance · Housekeeping"
   },
   "management.268": {
-    "zh": "奇幻假期fantastic.vacation为您的海上资产提供全生命周期管家式托管服务",
+    "zh": "奇幻假期实业有限公司fantastic.vacation为您的海上资产提供全生命周期管家式托管服务",
     "en": "Fantastic.vacation provides full life cycle stewardship services for your offshore assets"
   },
   "management.273": {
@@ -32994,7 +32994,7 @@ var dict = {
     "en": "Yacht asset inheritance planning consultation"
   },
   "management.620": {
-    "zh": "优先享用奇幻假期全系资源",
+    "zh": "优先享用奇幻假期实业有限公司全系资源",
     "en": "Prioritize access to all fantasy vacation resources"
   },
   "management.622": {
@@ -33006,7 +33006,7 @@ var dict = {
     "en": "Inquire about this plan"
   },
   "management.636": {
-    "zh": "为什么选择奇幻假期",
+    "zh": "为什么选择奇幻假期实业有限公司",
     "en": "Why Choose Fantasy Vacations"
   },
   "management.638": {
@@ -33098,8 +33098,8 @@ var dict = {
     "en": "Contact our professional consultants now to get free asset evaluation and customized custody solutions"
   },
   "management.754": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "management.756": {
     "zh": "FANTASTIC VACATION",
@@ -33254,7 +33254,7 @@ var dict = {
     "en": "Site Map"
   },
   "map.3": {
-    "zh": "全球服务网络 | 奇幻假期 fantastic.vacation 全球服务地图",
+    "zh": "全球服务网络 | 奇幻假期实业有限公司 fantastic.vacation 全球服务地图",
     "en": "Global service network | fantastic vacation fantastic.vacation global service map"
   },
   "map.10": {
@@ -33262,7 +33262,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "map.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "map.25": {
@@ -33310,8 +33310,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "map.189": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "map.192": {
     "zh": "首页",
@@ -33406,7 +33406,7 @@ var dict = {
     "en": "Global service network"
   },
   "map.252": {
-    "zh": "奇幻假期fantastic.vacation — 服务全球20+海域，50+港口，您在哪里，我们就在哪里",
+    "zh": "奇幻假期实业有限公司fantastic.vacation — 服务全球20+海域，50+港口，您在哪里，我们就在哪里",
     "en": "Fantasy vacation fantastic.vacation — Serving 20+ sea areas and 50+ ports around the world, we are where you are"
   },
   "map.257": {
@@ -33638,8 +33638,8 @@ var dict = {
     "en": "Rio de Janeiro, Brazil"
   },
   "map.347": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "map.349": {
     "zh": "FANTASTIC VACATION",
@@ -33794,7 +33794,7 @@ var dict = {
     "en": "Site Map"
   },
   "nav-template.12": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "nav-template.13": {
@@ -33826,7 +33826,7 @@ var dict = {
     "en": "EN"
   },
   "news-001.6": {
-    "zh": "奇幻假期荣获2026年度亚洲最佳游艇服务商大奖 | 奇幻假期 fantastic.vacation",
+    "zh": "奇幻假期实业有限公司荣获2026年度亚洲最佳游艇服务商大奖 | 奇幻假期实业有限公司 fantastic.vacation",
     "en": "Fantasy Vacation won the 2026 Asia's Best Yacht Service Provider Award | Fantasy Vacation fantastic.vacation"
   },
   "news-001.15": {
@@ -33834,7 +33834,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "news-001.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "news-001.30": {
@@ -33882,8 +33882,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "news-001.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "news-001.197": {
     "zh": "首页",
@@ -33982,7 +33982,7 @@ var dict = {
     "en": "Brand news"
   },
   "news-001.261": {
-    "zh": "奇幻假期荣获2026年度亚洲最佳游艇服务商大奖",
+    "zh": "奇幻假期实业有限公司荣获2026年度亚洲最佳游艇服务商大奖",
     "en": "Fantasy Vacations won the 2026 Asia's Best Yacht Service Provider Award"
   },
   "news-001.264": {
@@ -33990,12 +33990,12 @@ var dict = {
     "en": "← Return to news list"
   },
   "news-001.267": {
-    "zh": "2026年5月15日，新加坡——在备受瞩目的亚洲游艇产业盛典颁奖典礼上，奇幻假期（fantastic.vacation）荣获2026年度亚洲最佳游艇服务商大奖。这一殊荣是对奇幻假期过去一年在游艇定制、租赁、托管维保等领域卓越表现的最高认可。颁奖典礼现场，奇幻假期亚太区总裁王潇生先生代表品牌领奖并发表感言。他表示：这一荣誉属于每一位奇幻假期团队成员，也属于所有信任和支持我们的客户。我们将继续秉持客户至上、追求卓越的理念，为全球游艇爱好者提供更优质的服务体验。",
+    "zh": "2026年5月15日，新加坡——在备受瞩目的亚洲游艇产业盛典颁奖典礼上，奇幻假期实业有限公司（fantastic.vacation）荣获2026年度亚洲最佳游艇服务商大奖。这一殊荣是对奇幻假期实业有限公司过去一年在游艇定制、租赁、托管维保等领域卓越表现的最高认可。颁奖典礼现场，奇幻假期实业有限公司亚太区总裁王潇生先生代表品牌领奖并发表感言。他表示：这一荣誉属于每一位奇幻假期实业有限公司团队成员，也属于所有信任和支持我们的客户。我们将继续秉持客户至上、追求卓越的理念，为全球游艇爱好者提供更优质的服务体验。",
     "en": "May 15, 2026, Singapore - At the high-profile Asian Yachting Industry Awards Ceremony, fantasy vacation (fantastic.vacation) won the 2026 Asia's Best Yachting Service Provider Award. This award is the highest recognition of Fantasy Vacation's outstanding performance in the fields of yacht customization, rental, hosting and maintenance over the past year. At the award ceremony, Mr. Chen Hanyu, President of Fantasy Vacations Asia Pacific, accepted the award on behalf of the brand and delivered a speech. He said: This honor belongs to every Fantasy Vacations team member and to all customers who trust and support us. We will continue to uphold the philosophy of putting customers first and pursuing excellence to provide a better service experience for yachting enthusiasts around the world."
   },
   "news-001.285": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "news-001.287": {
     "zh": "FANTASTIC VACATION",
@@ -34150,7 +34150,7 @@ var dict = {
     "en": "Site Map"
   },
   "news-002.6": {
-    "zh": "奇幻假期宣布进军亚太市场，香港运营中心正式启用 | 奇幻假期 fantastic.vacation",
+    "zh": "奇幻假期实业有限公司宣布进军亚太市场，香港运营中心正式启用 | 奇幻假期实业有限公司 fantastic.vacation",
     "en": "Fantasy Vacation announced its entry into the Asia-Pacific market, and the Hong Kong operation center was officially opened | Fantasy Vacation fantastic.vacation"
   },
   "news-002.15": {
@@ -34158,7 +34158,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "news-002.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "news-002.30": {
@@ -34206,8 +34206,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "news-002.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "news-002.197": {
     "zh": "首页",
@@ -34306,7 +34306,7 @@ var dict = {
     "en": "Brand news"
   },
   "news-002.261": {
-    "zh": "奇幻假期宣布进军亚太市场，香港运营中心正式启用",
+    "zh": "奇幻假期实业有限公司宣布进军亚太市场，香港运营中心正式启用",
     "en": "Fantasy Holidays announced its entry into the Asia-Pacific market, and the Hong Kong operation center was officially opened"
   },
   "news-002.264": {
@@ -34314,12 +34314,12 @@ var dict = {
     "en": "← Return to news list"
   },
   "news-002.267": {
-    "zh": "香港，2026年5月10日——奇幻假期（fantastic.vacation）今日宣布其位于香港中环的亚太区运营中心正式启用。这一战略举措标志着品牌全球化布局迈入全新阶段。新运营中心选址于香港金融核心区域，办公面积超过1500平方米，设有游艇展示厅、VIP客户接待区、设计工作室及全数字化运营指挥中心。中心将统筹协调亚太地区所有业务板块，包括游艇销售、定制服务、租赁航线及托管维保。",
+    "zh": "香港，2026年5月10日——奇幻假期实业有限公司（fantastic.vacation）今日宣布其位于香港中环的亚太区运营中心正式启用。这一战略举措标志着品牌全球化布局迈入全新阶段。新运营中心选址于香港金融核心区域，办公面积超过1500平方米，设有游艇展示厅、VIP客户接待区、设计工作室及全数字化运营指挥中心。中心将统筹协调亚太地区所有业务板块，包括游艇销售、定制服务、租赁航线及托管维保。",
     "en": "Hong Kong, May 10, 2026 - Fantasy Vacation (fantastic.vacation) today announced the official opening of its Asia Pacific operations center in Central, Hong Kong. This strategic move marks a new stage in the brand's global layout. The new operation center is located in the core financial area of ​​Hong Kong, with an office area of ​​more than 1,500 square meters and equipped with a yacht showroom, VIP customer reception area, design studio and fully digital operation command center. The center will coordinate all business sectors in the Asia-Pacific region, including yacht sales, customization services, charter routes, and custody and maintenance."
   },
   "news-002.285": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "news-002.287": {
     "zh": "FANTASTIC VACATION",
@@ -34474,7 +34474,7 @@ var dict = {
     "en": "Site Map"
   },
   "news-003.6": {
-    "zh": "摩纳哥游艇展2026：超级游艇订单创历史新高 | 奇幻假期 fantastic.vacation",
+    "zh": "摩纳哥游艇展2026：超级游艇订单创历史新高 | 奇幻假期实业有限公司 fantastic.vacation",
     "en": "Monaco Yacht Show 2026: Superyacht orders hit record high | fantastic vacation fantastic.vacation"
   },
   "news-003.15": {
@@ -34482,7 +34482,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "news-003.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "news-003.30": {
@@ -34530,8 +34530,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "news-003.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "news-003.197": {
     "zh": "首页",
@@ -34638,12 +34638,12 @@ var dict = {
     "en": "← Return to news list"
   },
   "news-003.267": {
-    "zh": "摩纳哥，2026年4月28日——为期四天的第33届摩纳哥游艇展于昨日圆满落幕。据组委会官方数据显示，本届展会共吸引来自全球45个国家的580家参展商，接待专业观众超过33,000人次，期间签约超级游艇订单总额突破35亿欧元，创下游艇展历史新高。奇幻假期作为中国唯一受邀参展商，携最新设计的君临88M东方美学版概念船型亮相展会。",
+    "zh": "摩纳哥，2026年4月28日——为期四天的第33届摩纳哥游艇展于昨日圆满落幕。据组委会官方数据显示，本届展会共吸引来自全球45个国家的580家参展商，接待专业观众超过33,000人次，期间签约超级游艇订单总额突破35亿欧元，创下游艇展历史新高。奇幻假期实业有限公司作为中国唯一受邀参展商，携最新设计的君临88M东方美学版概念船型亮相展会。",
     "en": "Monaco, April 28, 2026 - The four-day 33rd Monaco Yacht Show concluded successfully yesterday. According to official data from the organizing committee, this exhibition attracted a total of 580 exhibitors from 45 countries around the world and received more than 33,000 professional visitors. During the period, the total number of superyacht orders signed exceeded 3.5 billion euros, setting a record high in the history of the boat show. Fantasy Holidays, as the only invited exhibitor from China, debuted at the exhibition with the latest designed Junlin 88M Oriental Aesthetic Edition concept ship."
   },
   "news-003.285": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "news-003.287": {
     "zh": "FANTASTIC VACATION",
@@ -34798,7 +34798,7 @@ var dict = {
     "en": "Site Map"
   },
   "news-004.6": {
-    "zh": "2026全球游艇市场报告：新能源动力游艇增长超40% | 奇幻假期 fantastic.vacation",
+    "zh": "2026全球游艇市场报告：新能源动力游艇增长超40% | 奇幻假期实业有限公司 fantastic.vacation",
     "en": "2026 Global Yacht Market Report: New Energy Power Yachts Growth Over 40% | Fantasy Vacation fantastic.vacation"
   },
   "news-004.15": {
@@ -34806,7 +34806,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "news-004.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "news-004.30": {
@@ -34854,8 +34854,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "news-004.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "news-004.197": {
     "zh": "首页",
@@ -34966,8 +34966,8 @@ var dict = {
     "en": "Shanghai, April 22, 2026 - Superyacht Intelligence, the world's authoritative yacht industry research organization, today released the 2026 Global Luxury Yacht Market White Paper. The report shows that despite the multiple challenges faced by the global economy, the luxury yacht market still maintains strong growth, with new energy-powered yachts becoming the biggest bright spot. Core data of the report: The total size of the global yacht market reached 28.5 billion euros, a year-on-year increase of 8.3%."
   },
   "news-004.285": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "news-004.287": {
     "zh": "FANTASTIC VACATION",
@@ -35122,7 +35122,7 @@ var dict = {
     "en": "Site Map"
   },
   "news-005.6": {
-    "zh": "奇幻假期与意大利Ferretti集团签署战略合作协议 | 奇幻假期 fantastic.vacation",
+    "zh": "奇幻假期实业有限公司与意大利Ferretti集团签署战略合作协议 | 奇幻假期实业有限公司 fantastic.vacation",
     "en": "Fantasy Vacation signed a strategic cooperation agreement with Italian Ferretti Group | Fantasy Vacation fantastic.vacation"
   },
   "news-005.15": {
@@ -35130,7 +35130,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "news-005.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "news-005.30": {
@@ -35178,8 +35178,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "news-005.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "news-005.197": {
     "zh": "首页",
@@ -35278,7 +35278,7 @@ var dict = {
     "en": "Brand news"
   },
   "news-005.261": {
-    "zh": "奇幻假期与意大利Ferretti集团签署战略合作协议",
+    "zh": "奇幻假期实业有限公司与意大利Ferretti集团签署战略合作协议",
     "en": "Fantasy Vacations signed a strategic cooperation agreement with the Italian Ferretti Group"
   },
   "news-005.264": {
@@ -35286,12 +35286,12 @@ var dict = {
     "en": "← Return to news list"
   },
   "news-005.267": {
-    "zh": "上海，2026年4月15日——奇幻假期（fantastic.vacation）今日宣布与全球顶级游艇制造集团Ferretti Group签署长期战略合作协议，正式成为后者在大中华区的授权经销商。根据协议，奇幻假期将独家代理Ferretti Group旗下多个顶级品牌产品线，包括：Azimut（阿兹慕）、Ferretti Yachts（法拉帝游艇）、Pershing（博星）等。",
+    "zh": "上海，2026年4月15日——奇幻假期实业有限公司（fantastic.vacation）今日宣布与全球顶级游艇制造集团Ferretti Group签署长期战略合作协议，正式成为后者在大中华区的授权经销商。根据协议，奇幻假期实业有限公司将独家代理Ferretti Group旗下多个顶级品牌产品线，包括：Azimut（阿兹慕）、Ferretti Yachts（法拉帝游艇）、Pershing（博星）等。",
     "en": "Shanghai, April 15, 2026 - Fantasy Vacation (fantastic.vacation) announced today that it has signed a long-term strategic cooperation agreement with Ferretti Group, the world's top yacht manufacturing group, and officially became the latter's authorized dealer in Greater China. According to the agreement, Fantasy Vacations will be the exclusive agent for multiple top brand product lines of Ferretti Group, including: Azimut, Ferretti Yachts, Pershing, etc."
   },
   "news-005.285": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "news-005.287": {
     "zh": "FANTASTIC VACATION",
@@ -35446,7 +35446,7 @@ var dict = {
     "en": "Site Map"
   },
   "news-006.6": {
-    "zh": "海上生活方式指南：如何策划一场完美的游艇生日派对 | 奇幻假期 fantastic.vacation",
+    "zh": "海上生活方式指南：如何策划一场完美的游艇生日派对 | 奇幻假期实业有限公司 fantastic.vacation",
     "en": "Lifestyle Guide at Sea: How to Plan the Perfect Birthday Party on a Yacht | Fantasy Vacation fantastic.vacation"
   },
   "news-006.15": {
@@ -35454,7 +35454,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "news-006.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "news-006.30": {
@@ -35502,8 +35502,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "news-006.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "news-006.197": {
     "zh": "首页",
@@ -35610,12 +35610,12 @@ var dict = {
     "en": "← Return to news list"
   },
   "news-006.267": {
-    "zh": "在游艇上举办生日派对，已成为高净值人群庆祝特殊时刻的时尚选择。奇幻假期活动策划团队拥有数百场海上派对组织经验，为您分享策划一场完美游艇生日派对的核心要点。一、主题设计与场景布置。二、菜单定制。三、娱乐活动安排。四、安全与服务保障。",
+    "zh": "在游艇上举办生日派对，已成为高净值人群庆祝特殊时刻的时尚选择。奇幻假期实业有限公司活动策划团队拥有数百场海上派对组织经验，为您分享策划一场完美游艇生日派对的核心要点。一、主题设计与场景布置。二、菜单定制。三、娱乐活动安排。四、安全与服务保障。",
     "en": "Holding birthday parties on yachts has become a fashionable choice for high-net-worth individuals to celebrate special moments. The Fantasy Vacation event planning team has experience in organizing hundreds of parties at sea and will share with you the core points of planning a perfect yacht birthday party. 1. Theme design and scene layout. 2. Menu customization. 3. Arrangement of entertainment activities. 4. Safety and service guarantee."
   },
   "news-006.285": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "news-006.287": {
     "zh": "FANTASTIC VACATION",
@@ -35770,7 +35770,7 @@ var dict = {
     "en": "Site Map"
   },
   "news-007.6": {
-    "zh": "南极探险实录：奇幻假期船队成功完成首次南极航行 | 奇幻假期 fantastic.vacation",
+    "zh": "南极探险实录：奇幻假期实业有限公司船队成功完成首次南极航行 | 奇幻假期实业有限公司 fantastic.vacation",
     "en": "Antarctic expedition record: Fantasy Vacation fleet successfully completed its first Antarctic voyage | Fantasy Vacation fantastic.vacation"
   },
   "news-007.15": {
@@ -35778,7 +35778,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "news-007.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "news-007.30": {
@@ -35826,8 +35826,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "news-007.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "news-007.197": {
     "zh": "首页",
@@ -35926,7 +35926,7 @@ var dict = {
     "en": "Yachting Life"
   },
   "news-007.261": {
-    "zh": "南极探险实录：奇幻假期船队成功完成首次南极航行",
+    "zh": "南极探险实录：奇幻假期实业有限公司船队成功完成首次南极航行",
     "en": "Antarctic Adventure Record: Fantasy Vacations Fleet Successfully Completes First Antarctic Voyage"
   },
   "news-007.264": {
@@ -35934,12 +35934,12 @@ var dict = {
     "en": "← Return to news list"
   },
   "news-007.267": {
-    "zh": "南极，2026年3月28日——奇幻假期（fantastic.vacation）探险船队于今日圆满完成首次南极大陆探险航行，历时21天，航程超过8,000海里。此次航行由奇幻假期旗下极光号探险游艇执航，搭载6位VIP客户及专业探险团队共28人。航线从智利蓬塔阿雷纳斯出发，穿越德雷克海峡，深入南极圈，最终抵达南设得兰群岛。",
+    "zh": "南极，2026年3月28日——奇幻假期实业有限公司（fantastic.vacation）探险船队于今日圆满完成首次南极大陆探险航行，历时21天，航程超过8,000海里。此次航行由奇幻假期实业有限公司旗下极光号探险游艇执航，搭载6位VIP客户及专业探险团队共28人。航线从智利蓬塔阿雷纳斯出发，穿越德雷克海峡，深入南极圈，最终抵达南设得兰群岛。",
     "en": "Antarctica, March 28, 2026 - The fantasy vacation (fantastic.vacation) expedition fleet successfully completed its first expedition voyage to the Antarctic continent today, which lasted 21 days and covered a voyage of more than 8,000 nautical miles. The voyage was operated by the Aurora expedition yacht owned by Fantasy Vacations, carrying 6 VIP customers and a professional expedition team of 28 people. The route starts from Punta Arenas, Chile, crosses the Drake Passage, goes deep into the Antarctic Circle, and finally reaches the South Shetland Islands."
   },
   "news-007.285": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "news-007.287": {
     "zh": "FANTASTIC VACATION",
@@ -36094,7 +36094,7 @@ var dict = {
     "en": "Site Map"
   },
   "news-008.6": {
-    "zh": "亚太游艇市场崛起：新加坡成为新兴游艇中心 | 奇幻假期 fantastic.vacation",
+    "zh": "亚太游艇市场崛起：新加坡成为新兴游艇中心 | 奇幻假期实业有限公司 fantastic.vacation",
     "en": "The rise of the Asia-Pacific yachting market: Singapore has become an emerging yachting center | Fantasy vacation fantastic.vacation"
   },
   "news-008.15": {
@@ -36102,7 +36102,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "news-008.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "news-008.30": {
@@ -36150,8 +36150,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "news-008.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "news-008.197": {
     "zh": "首页",
@@ -36262,8 +36262,8 @@ var dict = {
     "en": "Singapore, March 20, 2026 - According to the latest industry report released by the Asian Yachting Association, Singapore has surpassed Hong Kong to become the most dynamic yachting industry center in the Asia-Pacific region. The report shows that as of the first quarter of 2026, the number of registered yachts in Singapore reached 2,850, an increase of 68% from 2020."
   },
   "news-008.285": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "news-008.287": {
     "zh": "FANTASTIC VACATION",
@@ -36418,7 +36418,7 @@ var dict = {
     "en": "Site Map"
   },
   "news-009.6": {
-    "zh": "奇幻假期发布2026-2028三年发展战略 | 奇幻假期 fantastic.vacation",
+    "zh": "奇幻假期实业有限公司发布2026-2028三年发展战略 | 奇幻假期实业有限公司 fantastic.vacation",
     "en": "Fantasy Vacation releases 2026-2028 three-year development strategy | Fantasy Vacation fantastic.vacation"
   },
   "news-009.15": {
@@ -36426,7 +36426,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "news-009.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "news-009.30": {
@@ -36474,8 +36474,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "news-009.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "news-009.197": {
     "zh": "首页",
@@ -36574,7 +36574,7 @@ var dict = {
     "en": "Brand news"
   },
   "news-009.261": {
-    "zh": "奇幻假期发布2026-2028三年发展战略",
+    "zh": "奇幻假期实业有限公司发布2026-2028三年发展战略",
     "en": "Fantasy Holidays releases 2026-2028 three-year development strategy"
   },
   "news-009.264": {
@@ -36582,12 +36582,12 @@ var dict = {
     "en": "← Return to news list"
   },
   "news-009.267": {
-    "zh": "上海，2026年3月12日——奇幻假期（fantastic.vacation）今日正式发布2026-2028三年发展战略白皮书，明确提出打造全球顶级游艇服务集团的愿景目标。战略核心要点包括市场布局、产品战略、服务升级和数字化建设。",
+    "zh": "上海，2026年3月12日——奇幻假期实业有限公司（fantastic.vacation）今日正式发布2026-2028三年发展战略白皮书，明确提出打造全球顶级游艇服务集团的愿景目标。战略核心要点包括市场布局、产品战略、服务升级和数字化建设。",
     "en": "Shanghai, March 12, 2026 - Fantasy Vacation (fantastic.vacation) officially released a three-year development strategy white paper from 2026 to 2028 today, clearly proposing the vision and goal of building the world's top yacht service group. The core strategic points include market layout, product strategy, service upgrade and digital construction."
   },
   "news-009.285": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "news-009.287": {
     "zh": "FANTASTIC VACATION",
@@ -36742,7 +36742,7 @@ var dict = {
     "en": "Site Map"
   },
   "news-010.6": {
-    "zh": "地中海航线攻略：30天深度巡航全指南 | 奇幻假期 fantastic.vacation",
+    "zh": "地中海航线攻略：30天深度巡航全指南 | 奇幻假期实业有限公司 fantastic.vacation",
     "en": "Mediterranean Route Guide: A Complete Guide to 30-Day In-depth Cruise | Fantasy Vacation fantastic.vacation"
   },
   "news-010.15": {
@@ -36750,7 +36750,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "news-010.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "news-010.30": {
@@ -36798,8 +36798,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "news-010.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "news-010.197": {
     "zh": "首页",
@@ -36906,12 +36906,12 @@ var dict = {
     "en": "← Return to news list"
   },
   "news-010.267": {
-    "zh": "地中海，全球最受欢迎的游艇巡航目的地之一，每年吸引超过10万艘游艇前来探索。奇幻假期航线策划团队基于多年运营经验，为您呈现30天地中海深度巡航完整攻略。一、航线概览。二、分段航线详解。三、服务保障。四、费用参考。",
+    "zh": "地中海，全球最受欢迎的游艇巡航目的地之一，每年吸引超过10万艘游艇前来探索。奇幻假期实业有限公司航线策划团队基于多年运营经验，为您呈现30天地中海深度巡航完整攻略。一、航线概览。二、分段航线详解。三、服务保障。四、费用参考。",
     "en": "The Mediterranean, one of the world's most popular yacht cruising destinations, attracts more than 100,000 yachts to explore every year. Based on years of operational experience, the fantasy vacation route planning team presents you with a complete guide for a 30-day in-depth Mediterranean cruise. 1. Route overview. 2. Detailed explanation of segmented routes. 3. Service guarantee. 4. Cost reference."
   },
   "news-010.285": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "news-010.287": {
     "zh": "FANTASTIC VACATION",
@@ -37074,7 +37074,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "news.29": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "news.30": {
@@ -37122,8 +37122,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "news.194": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "news.197": {
     "zh": "首页",
@@ -37278,11 +37278,11 @@ var dict = {
     "en": "Company News"
   },
   "news.296": {
-    "zh": "奇幻假期荣获2026年度亚洲最佳游艇服务商大奖",
+    "zh": "奇幻假期实业有限公司荣获2026年度亚洲最佳游艇服务商大奖",
     "en": "Fantasy Vacations won the 2026 Asia's Best Yacht Service Provider Award"
   },
   "news.298": {
-    "zh": "在新加坡举办的亚洲游艇产业盛典上，奇幻假期凭借卓越的服务品质和创新业务模式，荣获年度最佳游艇服务商殊荣。",
+    "zh": "在新加坡举办的亚洲游艇产业盛典上，奇幻假期实业有限公司凭借卓越的服务品质和创新业务模式，荣获年度最佳游艇服务商殊荣。",
     "en": "At the Asian Yachting Industry Ceremony held in Singapore, Fantasy Vacations won the award of Best Yachting Service Provider of the Year for its excellent service quality and innovative business model."
   },
   "news.300": {
@@ -37298,11 +37298,11 @@ var dict = {
     "en": "Company News"
   },
   "news.310": {
-    "zh": "奇幻假期宣布进军亚太市场，香港运营中心正式启用",
+    "zh": "奇幻假期实业有限公司宣布进军亚太市场，香港运营中心正式启用",
     "en": "Fantasy Holidays announced its entry into the Asia-Pacific market, and the Hong Kong operation center was officially opened"
   },
   "news.312": {
-    "zh": "奇幻假期在香港中环设立亚太区总部，标志着品牌全球化战略迈入新阶段。",
+    "zh": "奇幻假期实业有限公司在香港中环设立亚太区总部，标志着品牌全球化战略迈入新阶段。",
     "en": "Fantasy Holidays has established its Asia-Pacific headquarters in Central, Hong Kong, marking a new stage in the brand's globalization strategy."
   },
   "news.314": {
@@ -37322,7 +37322,7 @@ var dict = {
     "en": "Monaco Yacht Show 2026: Superyacht orders hit record high"
   },
   "news.326": {
-    "zh": "第33届摩纳哥游艇展签约超级游艇订单总额突破35亿欧元，奇幻假期作为中国唯一受邀参展商成功签订3艘定制合同。",
+    "zh": "第33届摩纳哥游艇展签约超级游艇订单总额突破35亿欧元，奇幻假期实业有限公司作为中国唯一受邀参展商成功签订3艘定制合同。",
     "en": "The total number of superyacht orders signed at the 33rd Monaco Yacht Show exceeded 3.5 billion euros. Fantasy Holidays, as the only invited exhibitor in China, successfully signed three customized contracts."
   },
   "news.328": {
@@ -37358,11 +37358,11 @@ var dict = {
     "en": "Company News"
   },
   "news.352": {
-    "zh": "奇幻假期与意大利Ferretti集团签署战略合作协议",
+    "zh": "奇幻假期实业有限公司与意大利Ferretti集团签署战略合作协议",
     "en": "Fantasy Vacations signed a strategic cooperation agreement with the Italian Ferretti Group"
   },
   "news.354": {
-    "zh": "奇幻假期正式成为Ferretti Group大中华区授权经销商，引进Azimut、Ferretti Yachts等顶级品牌。",
+    "zh": "奇幻假期实业有限公司正式成为Ferretti Group大中华区授权经销商，引进Azimut、Ferretti Yachts等顶级品牌。",
     "en": "Fantasy Holidays has officially become the authorized dealer of Ferretti Group in Greater China, introducing top brands such as Azimut and Ferretti Yachts."
   },
   "news.356": {
@@ -37398,7 +37398,7 @@ var dict = {
     "en": "Yachting Life"
   },
   "news.380": {
-    "zh": "南极探险实录：奇幻假期船队成功完成首次南极航行",
+    "zh": "南极探险实录：奇幻假期实业有限公司船队成功完成首次南极航行",
     "en": "Antarctic Adventure Record: Fantasy Vacations Fleet Successfully Completes First Antarctic Voyage"
   },
   "news.382": {
@@ -37438,7 +37438,7 @@ var dict = {
     "en": "Announcements"
   },
   "news.408": {
-    "zh": "奇幻假期发布2026-2028三年发展战略",
+    "zh": "奇幻假期实业有限公司发布2026-2028三年发展战略",
     "en": "Fantasy Holidays releases 2026-2028 three-year development strategy"
   },
   "news.410": {
@@ -37478,7 +37478,7 @@ var dict = {
     "en": "Announcements"
   },
   "news.436": {
-    "zh": "奇幻假期2025年度总结：营收突破10亿",
+    "zh": "奇幻假期实业有限公司2025年度总结：营收突破10亿",
     "en": "Fantasy Holiday 2025 annual summary: revenue exceeds 1 billion"
   },
   "news.438": {
@@ -37518,7 +37518,7 @@ var dict = {
     "en": "Company News"
   },
   "news.464": {
-    "zh": "奇幻假期新加坡办事处正式开业",
+    "zh": "奇幻假期实业有限公司新加坡办事处正式开业",
     "en": "Fantasy Vacation Singapore office officially opened"
   },
   "news.466": {
@@ -37558,7 +37558,7 @@ var dict = {
     "en": "Announcements"
   },
   "news.492": {
-    "zh": "奇幻假期完成B轮融资，估值突破20亿人民币",
+    "zh": "奇幻假期实业有限公司完成B轮融资，估值突破20亿人民币",
     "en": "Fantasy Holidays completed Series B financing, with valuation exceeding RMB 2 billion"
   },
   "news.494": {
@@ -37582,7 +37582,7 @@ var dict = {
     "en": "America's Cup 2025: Team New Zealand successfully defends title"
   },
   "news.508": {
-    "zh": "奇幻假期作为中国唯一游艇服务商受邀观赛，组织VIP客户前往巴塞罗那。",
+    "zh": "奇幻假期实业有限公司作为中国唯一游艇服务商受邀观赛，组织VIP客户前往巴塞罗那。",
     "en": "As the only yacht service provider in China, Fantasy Holidays was invited to watch the race and organized VIP customers to go to Barcelona."
   },
   "news.510": {
@@ -37598,7 +37598,7 @@ var dict = {
     "en": "Company News"
   },
   "news.520": {
-    "zh": "奇幻假期发布首款新能源混合动力游艇",
+    "zh": "奇幻假期实业有限公司发布首款新能源混合动力游艇",
     "en": "Fantasy Vacation releases its first new energy hybrid yacht"
   },
   "news.522": {
@@ -37638,7 +37638,7 @@ var dict = {
     "en": "Company News"
   },
   "news.548": {
-    "zh": "奇幻假期与荷兰Feadship签署技术合作协议",
+    "zh": "奇幻假期实业有限公司与荷兰Feadship签署技术合作协议",
     "en": "Fantasy Vacations signs technology cooperation agreement with Dutch Feadship"
   },
   "news.550": {
@@ -37662,7 +37662,7 @@ var dict = {
     "en": "Cannes Yachting Festival 2025: Record number of Chinese exhibitors"
   },
   "news.564": {
-    "zh": "中国参展商达到25家，奇幻假期作为中国领军企业精彩亮相。",
+    "zh": "中国参展商达到25家，奇幻假期实业有限公司作为中国领军企业精彩亮相。",
     "en": "The number of Chinese exhibitors reached 25, and Fantasy Holidays made a wonderful appearance as a leading Chinese company."
   },
   "news.566": {
@@ -37678,7 +37678,7 @@ var dict = {
     "en": "Company News"
   },
   "news.576": {
-    "zh": "奇幻假期荣获2024年度中国最佳游艇服务商称号",
+    "zh": "奇幻假期实业有限公司荣获2024年度中国最佳游艇服务商称号",
     "en": "Fantasy Vacations won the title of China's Best Yacht Service Provider in 2024"
   },
   "news.578": {
@@ -37718,7 +37718,7 @@ var dict = {
     "en": "Company News"
   },
   "news.604": {
-    "zh": "奇幻假期与中东皇室签署超级游艇定制协议",
+    "zh": "奇幻假期实业有限公司与中东皇室签署超级游艇定制协议",
     "en": "Fantasy Vacations signs superyacht customization agreement with Middle Eastern royal family"
   },
   "news.606": {
@@ -37758,7 +37758,7 @@ var dict = {
     "en": "Announcements"
   },
   "news.632": {
-    "zh": "奇幻假期完成A轮融资，融资金额1.2亿人民币",
+    "zh": "奇幻假期实业有限公司完成A轮融资，融资金额1.2亿人民币",
     "en": "Fantasy Holidays completed Series A financing with a financing amount of RMB 120 million"
   },
   "news.634": {
@@ -37782,7 +37782,7 @@ var dict = {
     "en": "Record of a circumnavigation: 365 days, 35 countries, one man’s maritime legend"
   },
   "news.648": {
-    "zh": "奇幻假期客户张先生独自驾驶62米游艇完成环球航行。",
+    "zh": "奇幻假期实业有限公司客户张先生独自驾驶62米游艇完成环球航行。",
     "en": "Mr. Zhang, a customer of Fantasy Vacation, sailed around the world alone on a 62-meter yacht."
   },
   "news.650": {
@@ -37818,7 +37818,7 @@ var dict = {
     "en": "Company News"
   },
   "news.674": {
-    "zh": "奇幻假期发布智能游艇管理系统iYacht 2.0",
+    "zh": "奇幻假期实业有限公司发布智能游艇管理系统iYacht 2.0",
     "en": "Fantasy Vacation releases iYacht 2.0, an intelligent yacht management system"
   },
   "news.676": {
@@ -37838,7 +37838,7 @@ var dict = {
     "en": "Announcements"
   },
   "news.688": {
-    "zh": "奇幻假期2023年度业绩突破5亿，同比翻番",
+    "zh": "奇幻假期实业有限公司2023年度业绩突破5亿，同比翻番",
     "en": "Fantasy Holidays’ 2023 annual performance exceeds 500 million, doubling year-on-year"
   },
   "news.690": {
@@ -37878,7 +37878,7 @@ var dict = {
     "en": "Company News"
   },
   "news.716": {
-    "zh": "奇幻假期正式成立，开启中国游艇服务新篇章",
+    "zh": "奇幻假期实业有限公司正式成立，开启中国游艇服务新篇章",
     "en": "Fantasy Holidays was officially established, opening a new chapter in China’s yacht service"
   },
   "news.718": {
@@ -38074,8 +38074,8 @@ var dict = {
     "en": "Subscribe to news emails"
   },
   "news.867": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "news.869": {
     "zh": "FANTASTIC VACATION",
@@ -38230,7 +38230,7 @@ var dict = {
     "en": "Site Map"
   },
   "partner-apply.5": {
-    "zh": "合作意向申请 | 奇幻假期 fantastic.vacation",
+    "zh": "合作意向申请 | 奇幻假期实业有限公司 fantastic.vacation",
     "en": "Application for cooperation intention | fantastic vacation fantastic.vacation"
   },
   "partner-apply.14": {
@@ -38238,7 +38238,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "partner-apply.28": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "partner-apply.29": {
@@ -38286,8 +38286,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "partner-apply.193": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partner-apply.196": {
     "zh": "首页",
@@ -38582,8 +38582,8 @@ var dict = {
     "en": "If you have any questions, please feel free to contact us"
   },
   "partner-apply.442": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partner-apply.444": {
     "zh": "FANTASTIC VACATION",
@@ -38738,7 +38738,7 @@ var dict = {
     "en": "Site Map"
   },
   "partner-cases.3": {
-    "zh": "标杆合作案例 | 奇幻假期 fantastic.vacation",
+    "zh": "标杆合作案例 | 奇幻假期实业有限公司 fantastic.vacation",
     "en": "Benchmark Cooperation Case | Fantasy Vacation fantastic.vacation"
   },
   "partner-cases.10": {
@@ -38750,7 +38750,7 @@ var dict = {
     "en": "LOADING"
   },
   "partner-cases.25": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "partner-cases.26": {
@@ -38798,8 +38798,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "partner-cases.190": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partner-cases.193": {
     "zh": "首页",
@@ -38942,7 +38942,7 @@ var dict = {
     "en": "Singapore ONE°15 Marina long-term berthing cooperation"
   },
   "partner-cases.284": {
-    "zh": "与亚洲顶级超级游艇码头ONE°15 Marina签署3年战略停泊合作协议，为奇幻假期客户提供优先停泊权、专属VIP休息室、码头side服务及通关便利等全方位权益。",
+    "zh": "与亚洲顶级超级游艇码头ONE°15 Marina签署3年战略停泊合作协议，为奇幻假期实业有限公司客户提供优先停泊权、专属VIP休息室、码头side服务及通关便利等全方位权益。",
     "en": "Signed a three-year strategic berthing cooperation agreement with Asia's top superyacht marina ONE°15 Marina to provide fantasy vacation customers with comprehensive rights such as priority berthing rights, exclusive VIP lounges, dockside services and customs clearance convenience."
   },
   "partner-cases.286": {
@@ -38998,7 +38998,7 @@ var dict = {
     "en": "Aman sea vacation package cooperation"
   },
   "partner-cases.314": {
-    "zh": "与传奇度假品牌Aman合作推出「海上+陆地」无缝衔接度假体验。客户在Aman酒店入住期间可享受奇幻假期游艇日间巡航服务，覆盖Amanzoe（希腊）、Amanoi（越南）、Amanera（巴厘岛）三大目的地。",
+    "zh": "与传奇度假品牌Aman合作推出「海上+陆地」无缝衔接度假体验。客户在Aman酒店入住期间可享受奇幻假期实业有限公司游艇日间巡航服务，覆盖Amanzoe（希腊）、Amanoi（越南）、Amanera（巴厘岛）三大目的地。",
     "en": "Cooperating with the legendary resort brand Aman to launch a \"sea + land\" seamless vacation experience. During their stay at the Aman Hotel, customers can enjoy the fantasy vacation yacht day cruise service, covering the three major destinations of Amanzoe (Greece), Amanoi (Vietnam), and Amanera (Bali)."
   },
   "partner-cases.316": {
@@ -39086,8 +39086,8 @@ var dict = {
     "en": "📝Submit cooperation intention →"
   },
   "partner-cases.377": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partner-cases.379": {
     "zh": "FANTASTIC VACATION",
@@ -39242,7 +39242,7 @@ var dict = {
     "en": "Site Map"
   },
   "partner-list.5": {
-    "zh": "核心合作伙伴列表 | 奇幻假期 fantastic.vacation",
+    "zh": "核心合作伙伴列表 | 奇幻假期实业有限公司 fantastic.vacation",
     "en": "Core Partner List | Fantasy Vacation fantastic.vacation"
   },
   "partner-list.14": {
@@ -39250,7 +39250,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "partner-list.28": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "partner-list.29": {
@@ -39298,8 +39298,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "partner-list.193": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partner-list.196": {
     "zh": "首页",
@@ -39762,8 +39762,8 @@ var dict = {
     "en": "transportation insurance"
   },
   "partner-list.537": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partner-list.539": {
     "zh": "FANTASTIC VACATION",
@@ -39918,7 +39918,7 @@ var dict = {
     "en": "Site Map"
   },
   "partner-map.3": {
-    "zh": "全球服务网络 | 奇幻假期 fantastic.vacation",
+    "zh": "全球服务网络 | 奇幻假期实业有限公司 fantastic.vacation",
     "en": "Global Service Network | Fantasy Vacation fantastic.vacation"
   },
   "partner-map.10": {
@@ -39930,7 +39930,7 @@ var dict = {
     "en": "LOADING"
   },
   "partner-map.25": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "partner-map.26": {
@@ -39978,8 +39978,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "partner-map.190": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partner-map.193": {
     "zh": "首页",
@@ -40410,8 +40410,8 @@ var dict = {
     "en": "📝 Apply to become a partner →"
   },
   "partner-map.405": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partner-map.407": {
     "zh": "FANTASTIC VACATION",
@@ -40566,7 +40566,7 @@ var dict = {
     "en": "Site Map"
   },
   "partner-process.3": {
-    "zh": "合作流程 | 奇幻假期 fantastic.vacation",
+    "zh": "合作流程 | 奇幻假期实业有限公司 fantastic.vacation",
     "en": "Cooperation Process | Fantasy Vacation fantastic.vacation"
   },
   "partner-process.10": {
@@ -40578,7 +40578,7 @@ var dict = {
     "en": "LOADING"
   },
   "partner-process.25": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "partner-process.26": {
@@ -40626,8 +40626,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "partner-process.190": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partner-process.193": {
     "zh": "首页",
@@ -40962,8 +40962,8 @@ var dict = {
     "en": "📝Submit cooperation intention →"
   },
   "partner-process.402": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partner-process.404": {
     "zh": "FANTASTIC VACATION",
@@ -41118,7 +41118,7 @@ var dict = {
     "en": "Site Map"
   },
   "partner-type-agent.5": {
-    "zh": "渠道代理合作 | 奇幻假期 fantastic.vacation",
+    "zh": "渠道代理合作 | 奇幻假期实业有限公司 fantastic.vacation",
     "en": "Channel agent cooperation | fantastic vacation fantastic.vacation"
   },
   "partner-type-agent.14": {
@@ -41126,7 +41126,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "partner-type-agent.28": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "partner-type-agent.29": {
@@ -41174,8 +41174,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "partner-type-agent.193": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partner-type-agent.196": {
     "zh": "首页",
@@ -41274,7 +41274,7 @@ var dict = {
     "en": "🌐 Channel agent cooperation"
   },
   "partner-type-agent.260": {
-    "zh": "成为奇幻假期区域代理商，共享品牌资源、销售支持与培训体系，共同开拓区域市场。",
+    "zh": "成为奇幻假期实业有限公司区域代理商，共享品牌资源、销售支持与培训体系，共同开拓区域市场。",
     "en": "Become the regional agent of Fantasy Vacation, share brand resources, sales support and training system, and jointly develop the regional market."
   },
   "partner-type-agent.267": {
@@ -41358,8 +41358,8 @@ var dict = {
     "en": "Contact Us"
   },
   "partner-type-agent.349": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partner-type-agent.351": {
     "zh": "FANTASTIC VACATION",
@@ -41514,7 +41514,7 @@ var dict = {
     "en": "Site Map"
   },
   "partner-type-art.5": {
-    "zh": "艺术品收藏/高端生活 | 奇幻假期 fantastic.vacation",
+    "zh": "艺术品收藏/高端生活 | 奇幻假期实业有限公司 fantastic.vacation",
     "en": "Art Collection/High-End Life | Fantasy Vacation fantastic.vacation"
   },
   "partner-type-art.14": {
@@ -41522,7 +41522,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "partner-type-art.28": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "partner-type-art.29": {
@@ -41570,8 +41570,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "partner-type-art.193": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partner-type-art.196": {
     "zh": "首页",
@@ -41758,8 +41758,8 @@ var dict = {
     "en": "Contact Us"
   },
   "partner-type-art.349": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partner-type-art.351": {
     "zh": "FANTASTIC VACATION",
@@ -41914,7 +41914,7 @@ var dict = {
     "en": "Site Map"
   },
   "partner-type-association.5": {
-    "zh": "行业协会/监管机构 | 奇幻假期 fantastic.vacation",
+    "zh": "行业协会/监管机构 | 奇幻假期实业有限公司 fantastic.vacation",
     "en": "Industry associations/regulatory agencies | fantastic vacation fantastic.vacation"
   },
   "partner-type-association.14": {
@@ -41922,7 +41922,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "partner-type-association.28": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "partner-type-association.29": {
@@ -41970,8 +41970,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "partner-type-association.193": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partner-type-association.196": {
     "zh": "首页",
@@ -42154,8 +42154,8 @@ var dict = {
     "en": "Contact Us"
   },
   "partner-type-association.351": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partner-type-association.353": {
     "zh": "FANTASTIC VACATION",
@@ -42310,7 +42310,7 @@ var dict = {
     "en": "Site Map"
   },
   "partner-type-aviation.5": {
-    "zh": "私人航空/海陆空联运 | 奇幻假期 fantastic.vacation",
+    "zh": "私人航空/海陆空联运 | 奇幻假期实业有限公司 fantastic.vacation",
     "en": "Private Aviation/Sea, Land and Air Transport | Fantasy Vacation fantastic.vacation"
   },
   "partner-type-aviation.14": {
@@ -42318,7 +42318,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "partner-type-aviation.28": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "partner-type-aviation.29": {
@@ -42366,8 +42366,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "partner-type-aviation.193": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partner-type-aviation.196": {
     "zh": "首页",
@@ -42550,8 +42550,8 @@ var dict = {
     "en": "Contact Us"
   },
   "partner-type-aviation.349": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partner-type-aviation.351": {
     "zh": "FANTASTIC VACATION",
@@ -42706,7 +42706,7 @@ var dict = {
     "en": "Site Map"
   },
   "partner-type-brand.5": {
-    "zh": "品牌联名合作 | 奇幻假期 fantastic.vacation",
+    "zh": "品牌联名合作 | 奇幻假期实业有限公司 fantastic.vacation",
     "en": "Brand co-branding | fantastic vacation fantastic.vacation"
   },
   "partner-type-brand.14": {
@@ -42714,7 +42714,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "partner-type-brand.28": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "partner-type-brand.29": {
@@ -42762,8 +42762,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "partner-type-brand.193": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partner-type-brand.196": {
     "zh": "首页",
@@ -42946,8 +42946,8 @@ var dict = {
     "en": "Contact Us"
   },
   "partner-type-brand.349": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partner-type-brand.351": {
     "zh": "FANTASTIC VACATION",
@@ -43102,7 +43102,7 @@ var dict = {
     "en": "Site Map"
   },
   "partner-type-hotel.5": {
-    "zh": "高端酒店/度假地合作 | 奇幻假期 fantastic.vacation",
+    "zh": "高端酒店/度假地合作 | 奇幻假期实业有限公司 fantastic.vacation",
     "en": "High-end hotel/resort cooperation | fantasy vacation fantastic.vacation"
   },
   "partner-type-hotel.14": {
@@ -43110,7 +43110,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "partner-type-hotel.28": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "partner-type-hotel.29": {
@@ -43158,8 +43158,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "partner-type-hotel.193": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partner-type-hotel.196": {
     "zh": "首页",
@@ -43290,7 +43290,7 @@ var dict = {
     "en": "Mutual recognition of membership levels"
   },
   "partner-type-hotel.289": {
-    "zh": "奇幻假期船东与酒店顶级会员权益互认。",
+    "zh": "奇幻假期实业有限公司船东与酒店顶级会员权益互认。",
     "en": "Fantasy Vacations ship owners and top hotel members have mutual recognition of their rights and interests."
   },
   "partner-type-hotel.295": {
@@ -43346,8 +43346,8 @@ var dict = {
     "en": "Contact Us"
   },
   "partner-type-hotel.351": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partner-type-hotel.353": {
     "zh": "FANTASTIC VACATION",
@@ -43502,7 +43502,7 @@ var dict = {
     "en": "Site Map"
   },
   "partner-type-marina.5": {
-    "zh": "全球码头/港口联盟 | 奇幻假期 fantastic.vacation",
+    "zh": "全球码头/港口联盟 | 奇幻假期实业有限公司 fantastic.vacation",
     "en": "Global Terminal/Port Alliance | Fantasy Vacation fantastic.vacation"
   },
   "partner-type-marina.14": {
@@ -43510,7 +43510,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "partner-type-marina.28": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "partner-type-marina.29": {
@@ -43558,8 +43558,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "partner-type-marina.193": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partner-type-marina.196": {
     "zh": "首页",
@@ -43754,8 +43754,8 @@ var dict = {
     "en": "Contact Us"
   },
   "partner-type-marina.360": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partner-type-marina.362": {
     "zh": "FANTASTIC VACATION",
@@ -43910,7 +43910,7 @@ var dict = {
     "en": "Site Map"
   },
   "partner-type-service.5": {
-    "zh": "服务整合合作 | 奇幻假期 fantastic.vacation",
+    "zh": "服务整合合作 | 奇幻假期实业有限公司 fantastic.vacation",
     "en": "Service integration cooperation | fantastic vacation fantastic.vacation"
   },
   "partner-type-service.14": {
@@ -43918,7 +43918,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "partner-type-service.28": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "partner-type-service.29": {
@@ -43966,8 +43966,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "partner-type-service.193": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partner-type-service.196": {
     "zh": "首页",
@@ -44066,7 +44066,7 @@ var dict = {
     "en": "🔗Service integration cooperation"
   },
   "partner-type-service.260": {
-    "zh": "将优质服务融入奇幻假期客户服务体系，共享高净值客群资源，实现互利共赢。",
+    "zh": "将优质服务融入奇幻假期实业有限公司客户服务体系，共享高净值客群资源，实现互利共赢。",
     "en": "Integrate high-quality services into the Fantasy Holidays customer service system, share the resources of high-net-worth customer groups, and achieve mutual benefit and win-win results."
   },
   "partner-type-service.267": {
@@ -44078,7 +44078,7 @@ var dict = {
     "en": "Customer group sharing"
   },
   "partner-type-service.275": {
-    "zh": "共享奇幻假期全球高净值客户资源。",
+    "zh": "共享奇幻假期实业有限公司全球高净值客户资源。",
     "en": "Share fantasy vacation global high-net-worth client resources."
   },
   "partner-type-service.281": {
@@ -44086,7 +44086,7 @@ var dict = {
     "en": "Service integration"
   },
   "partner-type-service.282": {
-    "zh": "将合作方服务无缝嵌入奇幻假期服务体系。",
+    "zh": "将合作方服务无缝嵌入奇幻假期实业有限公司服务体系。",
     "en": "Seamlessly integrate partner services into the fantasy vacation service system."
   },
   "partner-type-service.288": {
@@ -44146,8 +44146,8 @@ var dict = {
     "en": "Contact Us"
   },
   "partner-type-service.349": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partner-type-service.351": {
     "zh": "FANTASTIC VACATION",
@@ -44302,7 +44302,7 @@ var dict = {
     "en": "Site Map"
   },
   "partner-type-shipyard.5": {
-    "zh": "船厂战略合作 | 奇幻假期 fantastic.vacation",
+    "zh": "船厂战略合作 | 奇幻假期实业有限公司 fantastic.vacation",
     "en": "Shipyard strategic cooperation | fantastic vacation fantastic.vacation"
   },
   "partner-type-shipyard.14": {
@@ -44310,7 +44310,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "partner-type-shipyard.28": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "partner-type-shipyard.29": {
@@ -44358,8 +44358,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "partner-type-shipyard.193": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partner-type-shipyard.196": {
     "zh": "首页",
@@ -44570,8 +44570,8 @@ var dict = {
     "en": "Contact Us"
   },
   "partner-type-shipyard.364": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partner-type-shipyard.366": {
     "zh": "FANTASTIC VACATION",
@@ -44726,7 +44726,7 @@ var dict = {
     "en": "Site Map"
   },
   "partner-type-tech.5": {
-    "zh": "技术合作 | 奇幻假期 fantastic.vacation",
+    "zh": "技术合作 | 奇幻假期实业有限公司 fantastic.vacation",
     "en": "Technical Cooperation | Fantasy Vacation fantastic.vacation"
   },
   "partner-type-tech.14": {
@@ -44734,7 +44734,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "partner-type-tech.28": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "partner-type-tech.29": {
@@ -44782,8 +44782,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "partner-type-tech.193": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partner-type-tech.196": {
     "zh": "首页",
@@ -44966,8 +44966,8 @@ var dict = {
     "en": "Contact Us"
   },
   "partner-type-tech.349": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partner-type-tech.351": {
     "zh": "FANTASTIC VACATION",
@@ -45122,7 +45122,7 @@ var dict = {
     "en": "Site Map"
   },
   "partnership.5": {
-    "zh": "全球合作网络 | 奇幻假期 fantastic.vacation",
+    "zh": "全球合作网络 | 奇幻假期实业有限公司 fantastic.vacation",
     "en": "Global Cooperation Network | Fantasy Vacation fantastic.vacation"
   },
   "partnership.14": {
@@ -45130,7 +45130,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "partnership.28": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "partnership.29": {
@@ -45178,8 +45178,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "partnership.193": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partnership.196": {
     "zh": "首页",
@@ -45518,7 +45518,7 @@ var dict = {
     "en": "Service integration cooperation"
   },
   "partnership.451": {
-    "zh": "将您的优质服务融入奇幻假期客户服务体系，共享高净值客群资源，实现互利共赢。",
+    "zh": "将您的优质服务融入奇幻假期实业有限公司客户服务体系，共享高净值客群资源，实现互利共赢。",
     "en": "Integrate your high-quality services into the Fantasy Holiday customer service system, share the resources of high-net-worth customer groups, and achieve mutual benefit and win-win results."
   },
   "partnership.454": {
@@ -45542,7 +45542,7 @@ var dict = {
     "en": "Channel agent cooperation"
   },
   "partnership.472": {
-    "zh": "成为奇幻假期区域代理商，共享品牌资源、销售支持与培训体系，共同开拓区域市场。",
+    "zh": "成为奇幻假期实业有限公司区域代理商，共享品牌资源、销售支持与培训体系，共同开拓区域市场。",
     "en": "Become the regional agent of Fantasy Vacation, share brand resources, sales support and training system, and jointly develop the regional market."
   },
   "partnership.475": {
@@ -45754,7 +45754,7 @@ var dict = {
     "en": "Benchmark cooperation cases"
   },
   "partnership.641": {
-    "zh": "真实合作案例，见证奇幻假期的全球资源整合实力",
+    "zh": "真实合作案例，见证奇幻假期实业有限公司的全球资源整合实力",
     "en": "Real cooperation cases, witness the global resource integration strength of Fantasy Holidays"
   },
   "partnership.648": {
@@ -45902,8 +45902,8 @@ var dict = {
     "en": "become"
   },
   "partnership.792": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partnership.795": {
     "zh": "无论您是顶级船厂、奢华酒店、私人航空还是高端生活方式品牌，我们都期待与您建立深度合作关系，共同为高净值客户提供极致体验。",
@@ -45922,8 +45922,8 @@ var dict = {
     "en": "Contact Us"
   },
   "partnership.828": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "partnership.830": {
     "zh": "FANTASTIC VACATION",
@@ -46078,7 +46078,7 @@ var dict = {
     "en": "Site Map"
   },
   "press.3": {
-    "zh": "媒体报道 | 奇幻假期 fantastic.vacation 媒体新闻中心",
+    "zh": "媒体报道 | 奇幻假期实业有限公司 fantastic.vacation 媒体新闻中心",
     "en": "Media Reports | Fantasy Vacation fantastic.vacation Media News Center"
   },
   "press.10": {
@@ -46086,7 +46086,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "press.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "press.25": {
@@ -46134,8 +46134,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "press.189": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "press.192": {
     "zh": "首页",
@@ -46230,7 +46230,7 @@ var dict = {
     "en": "Media Reports"
   },
   "press.252": {
-    "zh": "奇幻假期fantastic.vacation — 主流媒体持续关注的行业标杆",
+    "zh": "奇幻假期实业有限公司fantastic.vacation — 主流媒体持续关注的行业标杆",
     "en": "Fantasy vacation fantastic.vacation — an industry benchmark that mainstream media continues to pay attention to"
   },
   "press.257": {
@@ -46238,7 +46238,7 @@ var dict = {
     "en": "Sina Finance"
   },
   "press.258": {
-    "zh": "奇幻假期斩获亚洲最佳游艇服务商大奖",
+    "zh": "奇幻假期实业有限公司斩获亚洲最佳游艇服务商大奖",
     "en": "Fantasy Vacations wins Asia's Best Yacht Service Provider Award"
   },
   "press.260": {
@@ -46250,11 +46250,11 @@ var dict = {
     "en": "yachting world magazine"
   },
   "press.263": {
-    "zh": "专访奇幻假期创始人：游艇行业的东方力量",
+    "zh": "专访奇幻假期实业有限公司创始人：游艇行业的东方力量",
     "en": "Exclusive Interview with the Founder of Fantasy Vacations: The Eastern Power of the Yachting Industry"
   },
   "press.264": {
-    "zh": "从一家小型游艇租赁公司到亚洲顶级游艇服务集团，奇幻假期用10年时间书写了中国游艇行业的传奇。创始人接受本刊独家专访，分享成功背后的故事。",
+    "zh": "从一家小型游艇租赁公司到亚洲顶级游艇服务集团，奇幻假期实业有限公司用10年时间书写了中国游艇行业的传奇。创始人接受本刊独家专访，分享成功背后的故事。",
     "en": "From a small yacht rental company to Asia's top yacht service group, Fantasy Vacation has written the legend of China's yacht industry in 10 years. The founder accepted an exclusive interview with this publication and shared the story behind its success."
   },
   "press.265": {
@@ -46266,7 +46266,7 @@ var dict = {
     "en": "ifeng.com Finance"
   },
   "press.269": {
-    "zh": "国内首艘完全自主设计的80米以上超级游艇正式交付，标志着中国游艇制造业迈入世界顶级水平。奇幻假期在游艇定制领域的突破引发行业震动。",
+    "zh": "国内首艘完全自主设计的80米以上超级游艇正式交付，标志着中国游艇制造业迈入世界顶级水平。奇幻假期实业有限公司在游艇定制领域的突破引发行业震动。",
     "en": "The official delivery of China's first fully independently designed superyacht over 80 meters marks the entry of China's yacht manufacturing industry into the world's top level. Fantasy Vacation's breakthrough in the field of yacht customization caused a shock in the industry."
   },
   "press.270": {
@@ -46278,7 +46278,7 @@ var dict = {
     "en": "Tencent Finance"
   },
   "press.273": {
-    "zh": "海上婚礼新标杆：奇幻假期加勒比海案例解析",
+    "zh": "海上婚礼新标杆：奇幻假期实业有限公司加勒比海案例解析",
     "en": "A new benchmark for weddings at sea: Fantasy vacation Caribbean case analysis"
   },
   "press.275": {
@@ -46290,11 +46290,11 @@ var dict = {
     "en": "NetEase News"
   },
   "press.278": {
-    "zh": "奇幻假期完成中东王室5年全托管项目",
+    "zh": "奇幻假期实业有限公司完成中东王室5年全托管项目",
     "en": "Fantasy Vacation completes 5-year full trusteeship project for the Middle Eastern royal family"
   },
   "press.279": {
-    "zh": "中东王室船队5年全托管服务项目圆满收官，奇幻假期以零安全事故的完美表现，赢得国际顶级客户的认可，进一步巩固全球市场地位。",
+    "zh": "中东王室船队5年全托管服务项目圆满收官，奇幻假期实业有限公司以零安全事故的完美表现，赢得国际顶级客户的认可，进一步巩固全球市场地位。",
     "en": "The five-year fully managed service project of the Middle East royal fleet has come to a successful conclusion. Fantasy Vacation has won the recognition of top international customers with its perfect performance of zero safety incidents and further consolidated its global market position."
   },
   "press.280": {
@@ -46306,7 +46306,7 @@ var dict = {
     "en": "Forbes China"
   },
   "press.283": {
-    "zh": "奇幻假期入选中国高端服务品牌榜单",
+    "zh": "奇幻假期实业有限公司入选中国高端服务品牌榜单",
     "en": "Fantasy Holidays was selected into the list of China’s high-end service brands"
   },
   "press.285": {
@@ -46314,8 +46314,8 @@ var dict = {
     "en": "2024Year7Month18Day"
   },
   "press.302": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "press.304": {
     "zh": "FANTASTIC VACATION",
@@ -46474,7 +46474,7 @@ var dict = {
     "en": "Privacy Policy | Fantastic Vacation Industrial Co., Ltd."
   },
   "privacy.20": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "privacy.21": {
@@ -46522,8 +46522,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "privacy.185": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "privacy.188": {
     "zh": "首页",
@@ -46642,8 +46642,8 @@ var dict = {
     "en": "This Privacy Policy was last updated on January 1, 2025."
   },
   "privacy.270": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "privacy.272": {
     "zh": "FANTASTIC VACATION",
@@ -46834,7 +46834,7 @@ var dict = {
     "en": "📞 Contact Us"
   },
   "reviews.3": {
-    "zh": "客户评价 | 奇幻假期 fantastic.vacation 真实客户反馈",
+    "zh": "客户评价 | 奇幻假期实业有限公司 fantastic.vacation 真实客户反馈",
     "en": "Customer testimonials | fantastic.vacation real customer feedback"
   },
   "reviews.10": {
@@ -46842,7 +46842,7 @@ var dict = {
     "en": "FANTASTIC VACATION"
   },
   "reviews.24": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "reviews.25": {
@@ -46890,8 +46890,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "reviews.189": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "reviews.192": {
     "zh": "首页",
@@ -46986,7 +46986,7 @@ var dict = {
     "en": "Real customer reviews"
   },
   "reviews.252": {
-    "zh": "奇幻假期fantastic.vacation — 您的信任是我们最大的荣耀",
+    "zh": "奇幻假期实业有限公司fantastic.vacation — 您的信任是我们最大的荣耀",
     "en": "fantasy vacation fantastic.vacation — Your trust is our greatest honor"
   },
   "reviews.255": {
@@ -47130,8 +47130,8 @@ var dict = {
     "en": "wedding charter boat"
   },
   "reviews.337": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "reviews.339": {
     "zh": "FANTASTIC VACATION",
@@ -47290,7 +47290,7 @@ var dict = {
     "en": "Sitemap | Fantastic Vacation Industrial Co., Ltd."
   },
   "sitemap.20": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "sitemap.21": {
@@ -47338,8 +47338,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "sitemap.185": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "sitemap.188": {
     "zh": "首页",
@@ -47482,8 +47482,8 @@ var dict = {
     "en": "Contact Us"
   },
   "sitemap.277": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "sitemap.279": {
     "zh": "FANTASTIC VACATION",
@@ -47678,7 +47678,7 @@ var dict = {
     "en": "Terms of Service | Fantasy Holidays Industrial Co., Ltd."
   },
   "terms.20": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "terms.21": {
@@ -47726,8 +47726,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "terms.185": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "terms.188": {
     "zh": "首页",
@@ -47834,7 +47834,7 @@ var dict = {
     "en": "Welcome to use the services provided by Fantasy Holidays Industrial Co., Ltd. By using our website and services, you agree to the following terms."
   },
   "terms.252": {
-    "zh": "1. 本网站所有内容，包括但不限于文字、图片、设计、标识，均为奇幻假期所有，受知识产权法保护。",
+    "zh": "1. 本网站所有内容，包括但不限于文字、图片、设计、标识，均为奇幻假期实业有限公司所有，受知识产权法保护。",
     "en": "1. All content on this website, including but not limited to text, pictures, designs, and logos, are owned by Fantasy Holidays and protected by intellectual property laws."
   },
   "terms.253": {
@@ -47854,8 +47854,8 @@ var dict = {
     "en": "5. These Terms shall be governed by the laws of the People's Republic of China."
   },
   "terms.271": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "terms.273": {
     "zh": "FANTASTIC VACATION",
@@ -48058,7 +48058,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-1.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-1.28": {
@@ -48106,8 +48106,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-1.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-1.195": {
     "zh": "首页",
@@ -48388,8 +48388,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-1.374": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-1.376": {
     "zh": "FANTASTIC VACATION",
@@ -48588,7 +48588,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-10.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-10.28": {
@@ -48636,8 +48636,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-10.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-10.195": {
     "zh": "首页",
@@ -48942,8 +48942,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-10.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-10.388": {
     "zh": "FANTASTIC VACATION",
@@ -49142,7 +49142,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-11.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-11.28": {
@@ -49190,8 +49190,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-11.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-11.195": {
     "zh": "首页",
@@ -49496,8 +49496,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-11.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-11.388": {
     "zh": "FANTASTIC VACATION",
@@ -49696,7 +49696,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-12.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-12.28": {
@@ -49744,8 +49744,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-12.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-12.195": {
     "zh": "首页",
@@ -50050,8 +50050,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-12.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-12.388": {
     "zh": "FANTASTIC VACATION",
@@ -50250,7 +50250,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-13.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-13.28": {
@@ -50298,8 +50298,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-13.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-13.195": {
     "zh": "首页",
@@ -50604,8 +50604,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-13.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-13.388": {
     "zh": "FANTASTIC VACATION",
@@ -50804,7 +50804,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-14.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-14.28": {
@@ -50852,8 +50852,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-14.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-14.195": {
     "zh": "首页",
@@ -51158,8 +51158,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-14.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-14.388": {
     "zh": "FANTASTIC VACATION",
@@ -51358,7 +51358,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-15.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-15.28": {
@@ -51406,8 +51406,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-15.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-15.195": {
     "zh": "首页",
@@ -51712,8 +51712,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-15.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-15.388": {
     "zh": "FANTASTIC VACATION",
@@ -51912,7 +51912,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-16.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-16.28": {
@@ -51960,8 +51960,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-16.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-16.195": {
     "zh": "首页",
@@ -52266,8 +52266,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-16.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-16.388": {
     "zh": "FANTASTIC VACATION",
@@ -52466,7 +52466,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-17.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-17.28": {
@@ -52514,8 +52514,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-17.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-17.195": {
     "zh": "首页",
@@ -52820,8 +52820,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-17.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-17.388": {
     "zh": "FANTASTIC VACATION",
@@ -53020,7 +53020,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-18.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-18.28": {
@@ -53068,8 +53068,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-18.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-18.195": {
     "zh": "首页",
@@ -53374,8 +53374,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-18.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-18.388": {
     "zh": "FANTASTIC VACATION",
@@ -53574,7 +53574,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-19.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-19.28": {
@@ -53622,8 +53622,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-19.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-19.195": {
     "zh": "首页",
@@ -53924,8 +53924,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-19.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-19.388": {
     "zh": "FANTASTIC VACATION",
@@ -54124,7 +54124,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-2.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-2.28": {
@@ -54172,8 +54172,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-2.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-2.195": {
     "zh": "首页",
@@ -54466,8 +54466,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-2.380": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-2.382": {
     "zh": "FANTASTIC VACATION",
@@ -54666,7 +54666,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-20.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-20.28": {
@@ -54714,8 +54714,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-20.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-20.195": {
     "zh": "首页",
@@ -55020,8 +55020,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-20.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-20.388": {
     "zh": "FANTASTIC VACATION",
@@ -55220,7 +55220,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-21.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-21.28": {
@@ -55268,8 +55268,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-21.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-21.195": {
     "zh": "首页",
@@ -55574,8 +55574,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-21.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-21.388": {
     "zh": "FANTASTIC VACATION",
@@ -55774,7 +55774,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-22.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-22.28": {
@@ -55822,8 +55822,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-22.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-22.195": {
     "zh": "首页",
@@ -56128,8 +56128,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-22.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-22.388": {
     "zh": "FANTASTIC VACATION",
@@ -56328,7 +56328,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-23.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-23.28": {
@@ -56376,8 +56376,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-23.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-23.195": {
     "zh": "首页",
@@ -56682,8 +56682,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-23.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-23.388": {
     "zh": "FANTASTIC VACATION",
@@ -56882,7 +56882,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-24.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-24.28": {
@@ -56930,8 +56930,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-24.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-24.195": {
     "zh": "首页",
@@ -57236,8 +57236,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-24.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-24.388": {
     "zh": "FANTASTIC VACATION",
@@ -57436,7 +57436,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-25.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-25.28": {
@@ -57484,8 +57484,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-25.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-25.195": {
     "zh": "首页",
@@ -57790,8 +57790,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-25.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-25.388": {
     "zh": "FANTASTIC VACATION",
@@ -57990,7 +57990,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-26.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-26.28": {
@@ -58038,8 +58038,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-26.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-26.195": {
     "zh": "首页",
@@ -58344,8 +58344,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-26.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-26.388": {
     "zh": "FANTASTIC VACATION",
@@ -58544,7 +58544,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-27.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-27.28": {
@@ -58592,8 +58592,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-27.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-27.195": {
     "zh": "首页",
@@ -58894,8 +58894,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-27.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-27.388": {
     "zh": "FANTASTIC VACATION",
@@ -59094,7 +59094,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-28.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-28.28": {
@@ -59142,8 +59142,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-28.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-28.195": {
     "zh": "首页",
@@ -59444,8 +59444,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-28.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-28.388": {
     "zh": "FANTASTIC VACATION",
@@ -59644,7 +59644,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-29.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-29.28": {
@@ -59692,8 +59692,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-29.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-29.195": {
     "zh": "首页",
@@ -59994,8 +59994,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-29.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-29.388": {
     "zh": "FANTASTIC VACATION",
@@ -60194,7 +60194,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-3.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-3.28": {
@@ -60242,8 +60242,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-3.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-3.195": {
     "zh": "首页",
@@ -60548,8 +60548,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-3.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-3.388": {
     "zh": "FANTASTIC VACATION",
@@ -60748,7 +60748,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-30.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-30.28": {
@@ -60796,8 +60796,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-30.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-30.195": {
     "zh": "首页",
@@ -61098,8 +61098,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-30.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-30.388": {
     "zh": "FANTASTIC VACATION",
@@ -61298,7 +61298,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-31.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-31.28": {
@@ -61346,8 +61346,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-31.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-31.195": {
     "zh": "首页",
@@ -61648,8 +61648,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-31.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-31.388": {
     "zh": "FANTASTIC VACATION",
@@ -61848,7 +61848,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-32.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-32.28": {
@@ -61896,8 +61896,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-32.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-32.195": {
     "zh": "首页",
@@ -62198,8 +62198,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-32.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-32.388": {
     "zh": "FANTASTIC VACATION",
@@ -62398,7 +62398,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-33.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-33.28": {
@@ -62446,8 +62446,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-33.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-33.195": {
     "zh": "首页",
@@ -62752,8 +62752,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-33.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-33.388": {
     "zh": "FANTASTIC VACATION",
@@ -62952,7 +62952,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-34.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-34.28": {
@@ -63000,8 +63000,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-34.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-34.195": {
     "zh": "首页",
@@ -63302,8 +63302,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-34.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-34.388": {
     "zh": "FANTASTIC VACATION",
@@ -63502,7 +63502,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-35.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-35.28": {
@@ -63550,8 +63550,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-35.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-35.195": {
     "zh": "首页",
@@ -63852,8 +63852,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-35.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-35.388": {
     "zh": "FANTASTIC VACATION",
@@ -64052,7 +64052,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-36.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-36.28": {
@@ -64100,8 +64100,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-36.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-36.195": {
     "zh": "首页",
@@ -64402,8 +64402,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-36.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-36.388": {
     "zh": "FANTASTIC VACATION",
@@ -64602,7 +64602,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-37.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-37.28": {
@@ -64650,8 +64650,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-37.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-37.195": {
     "zh": "首页",
@@ -64952,8 +64952,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-37.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-37.388": {
     "zh": "FANTASTIC VACATION",
@@ -65152,7 +65152,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-38.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-38.28": {
@@ -65200,8 +65200,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-38.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-38.195": {
     "zh": "首页",
@@ -65502,8 +65502,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-38.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-38.388": {
     "zh": "FANTASTIC VACATION",
@@ -65702,7 +65702,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-39.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-39.28": {
@@ -65750,8 +65750,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-39.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-39.195": {
     "zh": "首页",
@@ -66052,8 +66052,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-39.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-39.388": {
     "zh": "FANTASTIC VACATION",
@@ -66252,7 +66252,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-4.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-4.28": {
@@ -66300,8 +66300,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-4.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-4.195": {
     "zh": "首页",
@@ -66606,8 +66606,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-4.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-4.388": {
     "zh": "FANTASTIC VACATION",
@@ -66806,7 +66806,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-40.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-40.28": {
@@ -66854,8 +66854,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-40.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-40.195": {
     "zh": "首页",
@@ -67156,8 +67156,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-40.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-40.388": {
     "zh": "FANTASTIC VACATION",
@@ -67356,7 +67356,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-41.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-41.28": {
@@ -67404,8 +67404,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-41.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-41.195": {
     "zh": "首页",
@@ -67706,8 +67706,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-41.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-41.388": {
     "zh": "FANTASTIC VACATION",
@@ -67906,7 +67906,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-42.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-42.28": {
@@ -67954,8 +67954,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-42.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-42.195": {
     "zh": "首页",
@@ -68256,8 +68256,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-42.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-42.388": {
     "zh": "FANTASTIC VACATION",
@@ -68456,7 +68456,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-43.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-43.28": {
@@ -68504,8 +68504,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-43.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-43.195": {
     "zh": "首页",
@@ -68806,8 +68806,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-43.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-43.388": {
     "zh": "FANTASTIC VACATION",
@@ -69006,7 +69006,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-44.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-44.28": {
@@ -69054,8 +69054,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-44.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-44.195": {
     "zh": "首页",
@@ -69356,8 +69356,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-44.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-44.388": {
     "zh": "FANTASTIC VACATION",
@@ -69556,7 +69556,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-45.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-45.28": {
@@ -69604,8 +69604,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-45.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-45.195": {
     "zh": "首页",
@@ -69906,8 +69906,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-45.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-45.388": {
     "zh": "FANTASTIC VACATION",
@@ -70106,7 +70106,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-46.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-46.28": {
@@ -70154,8 +70154,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-46.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-46.195": {
     "zh": "首页",
@@ -70456,8 +70456,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-46.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-46.388": {
     "zh": "FANTASTIC VACATION",
@@ -70656,7 +70656,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-47.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-47.28": {
@@ -70704,8 +70704,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-47.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-47.195": {
     "zh": "首页",
@@ -71006,8 +71006,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-47.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-47.388": {
     "zh": "FANTASTIC VACATION",
@@ -71206,7 +71206,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-48.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-48.28": {
@@ -71254,8 +71254,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-48.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-48.195": {
     "zh": "首页",
@@ -71556,8 +71556,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-48.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-48.388": {
     "zh": "FANTASTIC VACATION",
@@ -71756,7 +71756,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-49.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-49.28": {
@@ -71804,8 +71804,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-49.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-49.195": {
     "zh": "首页",
@@ -72094,8 +72094,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-49.380": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-49.382": {
     "zh": "FANTASTIC VACATION",
@@ -72294,7 +72294,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-5.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-5.28": {
@@ -72342,8 +72342,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-5.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-5.195": {
     "zh": "首页",
@@ -72648,8 +72648,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-5.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-5.388": {
     "zh": "FANTASTIC VACATION",
@@ -72848,7 +72848,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-50.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-50.28": {
@@ -72896,8 +72896,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-50.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-50.195": {
     "zh": "首页",
@@ -73174,8 +73174,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-50.374": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-50.376": {
     "zh": "FANTASTIC VACATION",
@@ -73374,7 +73374,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-6.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-6.28": {
@@ -73422,8 +73422,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-6.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-6.195": {
     "zh": "首页",
@@ -73728,8 +73728,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-6.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-6.388": {
     "zh": "FANTASTIC VACATION",
@@ -73928,7 +73928,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-7.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-7.28": {
@@ -73976,8 +73976,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-7.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-7.195": {
     "zh": "首页",
@@ -74282,8 +74282,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-7.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-7.388": {
     "zh": "FANTASTIC VACATION",
@@ -74482,7 +74482,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-8.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-8.28": {
@@ -74530,8 +74530,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-8.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-8.195": {
     "zh": "首页",
@@ -74836,8 +74836,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-8.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-8.388": {
     "zh": "FANTASTIC VACATION",
@@ -75036,7 +75036,7 @@ var dict = {
     "en": "LOADING"
   },
   "yacht-9.27": {
-    "zh": "奇幻假期",
+    "zh": "奇幻假期实业有限公司",
     "en": "FANTASTIC VACATION"
   },
   "yacht-9.28": {
@@ -75084,8 +75084,8 @@ var dict = {
     "en": "→ Contact a professional consultant"
   },
   "yacht-9.192": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-9.195": {
     "zh": "首页",
@@ -75390,8 +75390,8 @@ var dict = {
     "en": "InquireCustom"
   },
   "yacht-9.386": {
-    "zh": "奇幻假期",
-    "en": "Fantastic Vacation"
+    "zh": "奇幻假期实业有限公司",
+    "en": "Fantastic Vacation Industrial Co., Ltd"
   },
   "yacht-9.388": {
     "zh": "FANTASTIC VACATION",
@@ -75875,7 +75875,7 @@ var dict = {
     "en": "Qualifications and cooperation"
   },
   "news.0": {
-    "zh": "新闻中心 | 奇幻假期",
+    "zh": "新闻中心 | 奇幻假期实业有限公司",
     "en": "News Center | Fantastic Vacation"
   },
   "news.1": {
@@ -75907,12 +75907,12 @@ var dict = {
     "en": "China Yacht Industry Policy Eased, Yacht License Exam Simplified"
   },
   "news.9": {
-    "zh": "南极探险实录：奇幻假期船队成功完成首次南极航行",
-    "en": "Antarctic Expedition Record: Fantastic Vacation Fleet Successfully Completes First Antarctic Voyage"
+    "zh": "南极探险实录：奇幻假期实业有限公司船队成功完成首次南极航行",
+    "en": "Antarctic Expedition Record: Fantastic Vacation Industrial Co., Ltd Fleet Successfully Completes First Antarctic Voyage"
   },
   "news.10": {
-    "zh": "新加坡游艇展：奇幻假期签约5艘超级游艇订单",
-    "en": "Singapore Yacht Show: Fantastic Vacation Signs 5 Superyacht Orders"
+    "zh": "新加坡游艇展：奇幻假期实业有限公司签约5艘超级游艇订单",
+    "en": "Singapore Yacht Show: Fantastic Vacation Industrial Co., Ltd Signs 5 Superyacht Orders"
   },
   "_recruit": {
     "zh": "加入我们 · 招聘职位",
@@ -75935,24 +75935,24 @@ var dict = {
     "en": "Awarded 'Best Annual Event Partner' by Corporate Events Industry Association for innovative fleet solution."
   },
   "case-006.380": {
-    "zh": "\"这是我们公司历史上最成功的年度峰会。奇幻假期团队用专业的服务与创新的活动策划，让200位同事度过了终生难忘的5天。从编队航行的震撼体验到年会晚会的完美执行，每一个环节都超出了我们的期望。感谢你们创造了这场海上传奇。\"",
-    "en": "The most successful annual summit in our company's history. Fantastic Vacation team delivered perfect service and innovative planning for 200 colleagues."
+    "zh": "\"这是我们公司历史上最成功的年度峰会。奇幻假期实业有限公司团队用专业的服务与创新的活动策划，让200位同事度过了终生难忘的5天。从编队航行的震撼体验到年会晚会的完美执行，每一个环节都超出了我们的期望。感谢你们创造了这场海上传奇。\"",
+    "en": "The most successful annual summit in our company's history. Fantastic Vacation Industrial Co., Ltd team delivered perfect service and innovative planning for 200 colleagues."
   },
   "press.259": {
-    "zh": "在2024年度亚洲游艇行业颁奖盛典上，奇幻假期凭借卓越的服务品质与创新能力，荣获\"亚洲最佳游艇服务商\"称号，成为中国首家获此殊荣的企业。",
-    "en": "Fantastic Vacation won 'Asia's Best Yacht Service Provider' at 2024 Asia Yacht Industry Awards."
+    "zh": "在2024年度亚洲游艇行业颁奖盛典上，奇幻假期实业有限公司凭借卓越的服务品质与创新能力，荣获\"亚洲最佳游艇服务商\"称号，成为中国首家获此殊荣的企业。",
+    "en": "Fantastic Vacation Industrial Co., Ltd won 'Asia's Best Yacht Service Provider' at 2024 Asia Yacht Industry Awards."
   },
   "press.268": {
-    "zh": "奇幻假期82米超级游艇\"幻蓝号\"交付",
-    "en": "Fantastic Vacation 82m Superyacht 'Fantasy Blue' Delivered"
+    "zh": "奇幻假期实业有限公司82米超级游艇\"幻蓝号\"交付",
+    "en": "Fantastic Vacation Industrial Co., Ltd 82m Superyacht 'Fantasy Blue' Delivered"
   },
   "press.274": {
-    "zh": "一场耗资千万的海上婚礼如何成为行业标杆？奇幻假期为亚洲家族打造的加勒比海婚礼包船案例，被业内评为\"年度最佳海上婚礼\"。",
+    "zh": "一场耗资千万的海上婚礼如何成为行业标杆？奇幻假期实业有限公司为亚洲家族打造的加勒比海婚礼包船案例，被业内评为\"年度最佳海上婚礼\"。",
     "en": "How did a $10M+ sea wedding become an industry benchmark? Rated 'Most Innovative Luxury Event of the Year'."
   },
   "press.284": {
-    "zh": "在福布斯中国发布的\"2024年度高端服务品牌榜\"中，奇幻假期作为唯一游艇服务企业入选，彰显其在高端生活方式服务领域的领先地位。",
-    "en": "Fantastic Vacation selected for Forbes China '2024 High-End Service Brands List' as only yacht service company."
+    "zh": "在福布斯中国发布的\"2024年度高端服务品牌榜\"中，奇幻假期实业有限公司作为唯一游艇服务企业入选，彰显其在高端生活方式服务领域的领先地位。",
+    "en": "Fantastic Vacation Industrial Co., Ltd selected for Forbes China '2024 High-End Service Brands List' as only yacht service company."
   },
   "index.60": {
     "zh": "业务板块",
@@ -75967,15 +75967,15 @@ var dict = {
     "en": "82m Superyacht 'Fantasy Blue'"
   },
   "case-011.340": {
-    "zh": "\"客户满意度100%，表示下次还会选择奇幻假期，已预约下季度行程\"",
-    "en": "100% client satisfaction, will definitely choose Fantastic Vacation again, already booked next quarter"
+    "zh": "\"客户满意度100%，表示下次还会选择奇幻假期实业有限公司，已预约下季度行程\"",
+    "en": "100% client satisfaction, will definitely choose Fantastic Vacation Industrial Co., Ltd again, already booked next quarter"
   },
   "case-007.256": {
     "zh": "历时18个月的全面改装项目，涵盖内饰焕新、动力升级、智能系统安装，获评\"年度最佳改装项目\"，游艇市场估值提升35%。",
     "en": "18-month refit project, interior renovation, power upgrade, smart systems, awarded 'Refit Project of the Year'"
   },
   "case-007.323": {
-    "zh": "\"永恒之星的改装超出了我的所有期望。奇幻假期团队用18个月的时间，把这艘10年船龄的游艇变成了一艘全新的海上宫殿。无论是设计还是技术，每一个细节都完美。感谢你们让我的游艇焕发新生。\"",
+    "zh": "\"永恒之星的改装超出了我的所有期望。奇幻假期实业有限公司团队用18个月的时间，把这艘10年船龄的游艇变成了一艘全新的海上宫殿。无论是设计还是技术，每一个细节都完美。感谢你们让我的游艇焕发新生。\"",
     "en": "The refit exceeded expectations, better than a new yacht"
   },
   "cases-charter.301": {
@@ -75995,7 +75995,7 @@ var dict = {
     "en": "Four core dimensions covering every yacht customization detail, realizing 'One Yacht, One World' personalized experience"
   },
   "custom.614": {
-    "zh": "在奇幻假期，我们深知\"所见即所得\"对于百万级投资决策的重要性。因此，我们在行业内率先推出",
+    "zh": "在奇幻假期实业有限公司，我们深知\"所见即所得\"对于百万级投资决策的重要性。因此，我们在行业内率先推出",
     "en": "We understand 'what you see is what you get' for million-dollar investments. Therefore, we launched..."
   },
   "custom.658": {
@@ -76035,8 +76035,8 @@ var dict = {
     "en": "Client announced additional investment on the spot, banquet ROI exceeded expectations."
   },
   "case-001.580": {
-    "zh": "\"奇幻假期团队不仅交付了一艘超级游艇，更交付了一座行走在海上的宫殿。从设计到建造，从试航到交付，每一个细节都超出了我们的期望。感谢你们让家族的梦想成真。\"",
-    "en": "The Fantastic Vacation team didn't just deliver a superyacht, they delivered a floating palace. From design to construction, from sea trials to delivery, every detail..."
+    "zh": "\"奇幻假期实业有限公司团队不仅交付了一艘超级游艇，更交付了一座行走在海上的宫殿。从设计到建造，从试航到交付，每一个细节都超出了我们的期望。感谢你们让家族的梦想成真。\"",
+    "en": "The Fantastic Vacation Industrial Co., Ltd team didn't just deliver a superyacht, they delivered a floating palace. From design to construction, from sea trials to delivery, every detail..."
   },
   "case-014.335": {
     "zh": "\"成员评价最成功的一次聚会，已预订明年同款行程\"",
@@ -76047,8 +76047,8 @@ var dict = {
     "en": "Sea activity management for multinational corporate annual summit, 3-yacht fleet formation sailing, 200 executives and guests, zero accidents. Awarded 'Best Corporate Event'."
   },
   "case-002.573": {
-    "zh": "\"这不仅仅是一次度假，更是一场改变生活方式的旅程。奇幻假期团队的细节把控与专业服务，让我们重新定义了什么是真正的奢华。30天，12个国家，每一个港口都是一段新的故事。\"",
-    "en": "This wasn't just a vacation, it was a life-changing journey. The Fantastic Vacation team's attention to detail and professional service redefined our understanding of luxury travel."
+    "zh": "\"这不仅仅是一次度假，更是一场改变生活方式的旅程。奇幻假期实业有限公司团队的细节把控与专业服务，让我们重新定义了什么是真正的奢华。30天，12个国家，每一个港口都是一段新的故事。\"",
+    "en": "This wasn't just a vacation, it was a life-changing journey. The Fantastic Vacation Industrial Co., Ltd team's attention to detail and professional service redefined our understanding of luxury travel."
   },
   "case-022.335": {
     "zh": "\"家族成员一致好评，已预订明年家族聚会\"",
@@ -76067,8 +76067,8 @@ var dict = {
     "en": "Zero major failures for 3 consecutive years, 100% shipowner satisfaction, renewed 5-year contract."
   },
   "case-003.577": {
-    "zh": "\"奇幻假期团队用5年的专业服务证明了他们是值得信赖的合作伙伴。从日常运营到紧急响应，从成本优化到资产保值，每一个细节都超出了我们的期望。感谢你们让家族的每一艘游艇都保持在最佳状态。\"",
-    "en": "The Fantastic Vacation team proved with 5 years of professional service that they are a trustworthy partner. From daily operations to emergency response, from cost optimization to asset appreciation..."
+    "zh": "\"奇幻假期实业有限公司团队用5年的专业服务证明了他们是值得信赖的合作伙伴。从日常运营到紧急响应，从成本优化到资产保值，每一个细节都超出了我们的期望。感谢你们让家族的每一艘游艇都保持在最佳状态。\"",
+    "en": "The Fantastic Vacation Industrial Co., Ltd team proved with 5 years of professional service that they are a trustworthy partner. From daily operations to emergency response, from cost optimization to asset appreciation..."
   },
   "case-015.335": {
     "zh": "\"内容发布后获得10万加互动，品牌方主动联系合作\"",
@@ -76084,7 +76084,7 @@ var dict = {
   },
   "case-008.315": {
     "zh": "凭借专业的船队管理与零安全事故记录，荣获组委会\"最佳赛事合作伙伴\"称号。",
-    "en": "This refit exceeded all expectations. The Fantastic Vacation team transformed this 8-year-old yacht into a brand-new vessel in 16 months."
+    "en": "This refit exceeded all expectations. The Fantastic Vacation Industrial Co., Ltd team transformed this 8-year-old yacht into a brand-new vessel in 16 months."
   },
   "case-028.337": {
     "zh": "\"发现问题3处并及时修复，航行安全无忧完成\"",
@@ -76095,8 +76095,8 @@ var dict = {
     "en": "Power performance improved 15%, fuel consumption reduced 8%, shipowner very satisfied."
   },
   "reviews.281": {
-    "zh": "\"奇幻假期为我们打造的82米超级游艇'幻蓝号'，从概念设计到交付仅用20个月。团队的创新能力与执行力远超预期，这是我们家族最值得骄傲的资产。\"",
-    "en": "Professional service, will definitely choose Fantastic Vacation again."
+    "zh": "\"奇幻假期实业有限公司为我们打造的82米超级游艇'幻蓝号'，从概念设计到交付仅用20个月。团队的创新能力与执行力远超预期，这是我们家族最值得骄傲的资产。\"",
+    "en": "Professional service, will definitely choose Fantastic Vacation Industrial Co., Ltd again."
   },
   "reviews.288": {
     "zh": "\"30天的地中海巡航，每一站都精心安排。船员团队非常专业，孩子玩得开心，我们也能真正放松。这是全家最难忘的暑假。\"",
@@ -76112,15 +76112,15 @@ var dict = {
   },
   "reviews.309": {
     "zh": "\"极光号的改装完全超出了我的预期。太阳能混合动力系统让我可以在南极航行时保持零排放，这是环保与奢华的完美结合。\"",
-    "en": "Proposal succeeded! Thank you Fantastic Vacation for the perfect arrangement."
+    "en": "Proposal succeeded! Thank you Fantastic Vacation Industrial Co., Ltd for the perfect arrangement."
   },
   "reviews.316": {
     "zh": "\"加勒比海的婚礼包船，120位宾客全程零意外。直升机空中入场、水下派对、米其林婚宴，每个环节都是梦幻级别的。\"",
     "en": "Corporate event was a huge success, partners praised it, will cooperate again."
   },
   "case-004.574": {
-    "zh": "\"极光号不仅实现了我多年的极地探险梦想，更让我有机会亲身参与气候变化研究。奇幻假期团队用专业的技术方案与细致的服务，让这艘游艇成为了海上移动实验室与环保大使。\"",
-    "en": "This was the most successful product launch in our company's history. Fantastic Vacation team..."
+    "zh": "\"极光号不仅实现了我多年的极地探险梦想，更让我有机会亲身参与气候变化研究。奇幻假期实业有限公司团队用专业的技术方案与细致的服务，让这艘游艇成为了海上移动实验室与环保大使。\"",
+    "en": "This was the most successful product launch in our company's history. Fantastic Vacation Industrial Co., Ltd team..."
   },
   "ir-media.175": {
     "zh": "独家对话王潇生：要做中国游艇行业的\"法拉利\"",
@@ -76131,7 +76131,7 @@ var dict = {
     "en": "Brand launch event, 85m superyacht, 200 guests, 7 days 6 nights, Mediterranean route. Full event planning and execution."
   },
   "case-005.573": {
-    "zh": "\"这是我们家族历史上最难忘的时刻。奇幻假期团队用专业的服务与极致的细节，让女儿的婚礼成为了所有宾客心中最美好的回忆。从空中入场到水下派对，每一个环节都超出了我们的期望。感谢你们创造了这场海上奇迹。\"",
+    "zh": "\"这是我们家族历史上最难忘的时刻。奇幻假期实业有限公司团队用专业的服务与极致的细节，让女儿的婚礼成为了所有宾客心中最美好的回忆。从空中入场到水下派对，每一个环节都超出了我们的期望。感谢你们创造了这场海上奇迹。\"",
     "en": "The brand launch event received widespread media coverage, 100% brand satisfaction, already booked next year's global roadshow."
   },
   "case-013.335": {
@@ -76154,7 +76154,7 @@ var dict = {
   "invest.0bbda4ccb82f": { "zh": "历年财务报告", "en": "Historical Financial Reports" },
   "invest.0f6c74c7c363": { "zh": "会计准则", "en": "Accounting Standards" },
   "invest.100": { "zh": "五级尊享会员体系正式上线，首年吸纳100+首批会员", "en": "Five-tier exclusive membership officially launched, 100+ founding members in first year" },
-  "invest.118_28f": { "zh": "深圳南山区望海路118号 奇幻假期大厦28F", "en": "28F, Fantastic Vacation Bldg, 118 Wanghai Rd, Nanshan, Shenzhen" },
+  "invest.118_28f": { "zh": "深圳南山区望海路118号 奇幻假期大厦28F", "en": "28F, Fantastic Vacation Industrial Co., Ltd Bldg, 118 Wanghai Rd, Nanshan, Shenzhen" },
   "invest.12": { "zh": "12年数字化转型管理经验，前阿里巴巴高级技术总监", "en": "12 years in digital transformation, ex-Alibaba Senior Tech Director" },
   "invest.14f398502609": { "zh": "以编年体形式记录公司从创立至今的关键节点与战略意义", "en": "Chronological record of key milestones and strategic significance since founding" },
   "invest.150b9e393b63": { "zh": "数字化战略启动", "en": "Digital Strategy Launch" },
@@ -76224,12 +76224,12 @@ var dict = {
   "invest.6cb59bb63eec": { "zh": "报告期", "en": "Period" },
   "invest.6e4371f5937f": { "zh": "东南亚", "en": "Southeast Asia" },
   "invest.6f8017576377": { "zh": "定制、会员服务", "en": "Custom, Membership" },
-  "invest.701329a00828": { "zh": "三位创始人在深圳南山成立奇幻假期工作室，专注于游艇租赁代理业务", "en": "Three founders established Fantastic Vacation studio in Nanshan, Shenzhen, focusing on yacht charter agency" },
+  "invest.701329a00828": { "zh": "三位创始人在深圳南山成立奇幻假期实业有限公司工作室，专注于游艇租赁代理业务", "en": "Three founders established Fantastic Vacation Industrial Co., Ltd studio in Nanshan, Shenzhen, focusing on yacht charter agency" },
   "invest.72ffb14d57c2": { "zh": "游艇定制业务按照完工百分比法确认营收，租赁及服务业务按照服务提供时点确认营收。", "en": "Custom yacht revenue recognized by percentage-of-completion method; charter and services recognized at point of service delivery." },
   "invest.745b0786b5e0": { "zh": "查看公司最新发布的重大事项、经营动态与投资者关系公告", "en": "View our latest material events, business updates & investor relations announcements" },
   "invest.7487d243f4ff": { "zh": "深圳（全球总部）", "en": "Shenzhen (Global HQ)" },
   "invest.74ca8439a37c": { "zh": "迪拜（代表处）", "en": "Dubai (Rep. Office)" },
-  "invest.785cadd2aad0": { "zh": "面向机构投资者、股东及资本市场的专业信息披露平台，全面呈现奇幻假期的公司价值、财务表现与长期发展战略。", "en": "A professional information disclosure platform for institutional investors, shareholders and capital markets — presenting Fantastic Vacation's corporate value, financial performance and long-term strategy." },
+  "invest.785cadd2aad0": { "zh": "面向机构投资者、股东及资本市场的专业信息披露平台，全面呈现奇幻假期实业有限公司的公司价值、财务表现与长期发展战略。", "en": "A professional information disclosure platform for institutional investors, shareholders and capital markets — presenting Fantastic Vacation Industrial Co., Ltd's corporate value, financial performance and long-term strategy." },
   "invest.78f6c95bc987": { "zh": "公司致力于为股东创造长期、稳定的价值回报，保持透明、可预期的分红政策", "en": "Committed to creating long-term, stable value returns for shareholders with transparent, predictable dividend policy" },
   "invest.79cf6bdbdd27": { "zh": "重大事项", "en": "Material Event" },
   "invest.7a402f964f3d": { "zh": "全业务板块", "en": "All Segments" },
@@ -76256,7 +76256,7 @@ var dict = {
   "invest.92bd56ef2ef8": { "zh": "大额合同、投资并购、重大资产处置等对公司经营产生重要影响的事项公告", "en": "Large contracts, investment & M&A, significant asset disposals and other events materially impacting operations" },
   "invest.92c1931f0d6c": { "zh": "新增二手游艇经纪业务与全生命周期管理服务，完成“定制+经纪+托管”布局", "en": "Added pre-owned yacht brokerage and lifecycle management services, completing custom-brokerage-management layout" },
   "invest.93dfcfcb0f94": { "zh": "经营业务", "en": "Business" },
-  "invest.98209625f7d7": { "zh": "全面了解奇幻假期的公司架构、战略定位、核心业务与全球布局", "en": "Comprehensive overview of Fantastic Vacation's corporate structure, strategic positioning, core business and global presence" },
+  "invest.98209625f7d7": { "zh": "全面了解奇幻假期实业有限公司的公司架构、战略定位、核心业务与全球布局", "en": "Comprehensive overview of Fantastic Vacation Industrial Co., Ltd's corporate structure, strategic positioning, core business and global presence" },
   "invest.9866534716b2": { "zh": "路演公告、业绩说明会、机构调研纪要、分析师会议材料归档", "en": "Roadshow announcements, earnings calls, institutional research notes, analyst meeting archives" },
   "invest.9ab9eb8f0f51": { "zh": "品牌升级", "en": "Brand Upgrade" },
   "invest.9ad7c92f500b": { "zh": "投资者关系栏目", "en": "Investor Relations Hub" },
@@ -76347,7 +76347,7 @@ var dict = {
   "invest.vision": { "zh": "愿景 Vision", "en": "Vision" },
   "invest.04c9e3ab21a9": { "zh": "企业", "en": "Company" },
   "invest.0a14e8d05052": { "zh": "连续第二年获奖，体现公司在市场拓展与服务创新上的持续领先", "en": "Second consecutive year, demonstrating sustained leadership in market expansion and service innovation" },
-  "invest.15_5_2024_nps_78": { "zh": "15年深耕建立奇幻假期高端品牌认知，业界口碑卓越。连续5年获亚太区最佳游艇服务商，2024年NPS（净推荐值）达78分", "en": "15 years building Fantastic Vacation premium brand recognition with outstanding industry reputation. Best Yacht Service Provider in Asia-Pacific for 5 consecutive years, 2024 NPS score of 78" },
+  "invest.15_5_2024_nps_78": { "zh": "15年深耕建立奇幻假期实业有限公司高端品牌认知，业界口碑卓越。连续5年获亚太区最佳游艇服务商，2024年NPS（净推荐值）达78分", "en": "15 years building Fantastic Vacation Industrial Co., Ltd premium brand recognition with outstanding industry reputation. Best Yacht Service Provider in Asia-Pacific for 5 consecutive years, 2024 NPS score of 78" },
   "invest.1d32fb3eca44": { "zh": "荣誉资质与行业认可", "en": "PLACEHOLDER" },
   "invest.1dbd87793708": { "zh": "排名/份额", "en": "Rank/Share" },
   "invest.200_38_45": { "zh": "累计服务200+高净值客户，包含知名企业家、上市公司高管及家族办公室。客户复购率38%，转介绍率45%", "en": "200+ HNW clients served including renowned entrepreneurs, listed company executives & family offices. 38% repeat purchase rate, 45% referral rate" },
@@ -76375,7 +76375,7 @@ var dict = {
   "invest.7790b39b0226": { "zh": "中国游艇行业金帆奖 - 年度最佳企业", "en": "China Yacht Industry Golden Sail Award - Company of the Year" },
   "invest.7999aff883ed": { "zh": "表彰公司在高端消费服务领域的商业模式创新与客户体验升级", "en": "Recognizing business model innovation and customer experience upgrade in luxury services" },
   "invest.8": { "zh": "覆盖全国8大热门海域，船队规模行业第一", "en": "Note" },
-  "invest.89045e561690": { "zh": "注：奇幻假期为未上市公司，数据基于行业分析估算。毛利率领先源于全产业链服务模式带来的高附加值溢价", "en": "Note: Fantastic Vacation is unlisted; data is industry-analyst estimated" },
+  "invest.89045e561690": { "zh": "注：奇幻假期实业有限公司为未上市公司，数据基于行业分析估算。毛利率领先源于全产业链服务模式带来的高附加值溢价", "en": "Note: Fantastic Vacation Industrial Co., Ltd is unlisted; data is industry-analyst estimated" },
   "invest.9db8dc7c6757": { "zh": "亚洲唯一进入全球前十的游艇经纪机构", "en": "Note" },
   "invest.a094e5b7699e": { "zh": "数据来源", "en": "Source" },
   "invest.a625b0fb0ba6": { "zh": "中国游艇租赁市场占有率", "en": "Row" },
@@ -76442,7 +76442,7 @@ var dict = {
   "invest.mda_t3": { "zh": "品牌升级 · 会员体系发布", "en": "Brand Upgrade · Membership Launch" },
   "invest.mda_t4": { "zh": "全产业链布局完成", "en": "Full-Chain Layout Complete" },
   "invest.mda_theme": { "zh": "主题", "en": "Theme" },
-  "invest.mda_title": { "zh": "管理层讨论与分析 | 投资者关系 | 奇幻假期", "en": "Management Discussion & Analysis" },
+  "invest.mda_title": { "zh": "管理层讨论与分析 | 投资者关系 | 奇幻假期实业有限公司", "en": "Management Discussion & Analysis" },
   "invest.mda_view": { "zh": "查看详情 →", "en": "View Details →" },
   "nav.about": {
     "zh": "关于我们",
@@ -77089,79 +77089,79 @@ var dict = {
   "news-010.436": { "zh": "436", "en": "436" },
   "news-010.442": { "zh": "442", "en": "442" },
   "news-001.903": {"zh": "2026年5月15日，新加坡滨海湾金沙会展中心星光熠熠，亚洲游艇行业最具影响力的年度盛典——2026年度亚洲游艇产业盛典（Asia Yachting Awards）在此隆重举办。全球12个国家和地区的86家游艇企业代表、行业专家及媒体记者齐聚一堂，共同见证这一荣耀时刻。在当晚的颁奖典礼上，奇幻假期实业有限公司凭借过去一年在游艇定制、租赁运营及会员服务领域的卓越表现，从激烈竞争中脱颖而出，荣膺全场最受瞩目的「2026年度亚洲最佳游艇服务商」大奖。这是奇幻假期连续第四年蝉联该奖项，标志着其在亚洲高端游艇综合服务领域的标杆地位得到业界广泛认可。", "en": "On May 15, 2026, the Marina Bay Sands Convention Centre in Singapore glittered with stars as the 2026 Asia Yachting Awards — the most prestigious annual event in the Asian yachting industry — unfolded in grand style. Representatives from 86 yachting enterprises across 12 countries and regions gathered to witness this moment of glory. At the evening ceremony, Fantastic Vacation Industrial Co., Ltd. stood out from fierce competition to win the most coveted award: '2026 Best Yacht Service Provider in Asia'. This was Fantastic Vacation's fourth consecutive year winning the award, marking its widely recognized benchmark status in Asia's high-end yacht comprehensive services sector."},
-  "news-001.904": {"zh": "亚洲游艇产业盛典由亚太游艇行业协会（Asia Pacific Yachting Association, APYA）联合《亚洲航海》杂志（Asia Nautical Review）共同主办，已连续举办十二年。本届盛典评审委员会由来自新加坡国立大学海洋工程学院、香港游艇会及多位独立行业顾问组成，采用盲审方式进行评选，确保公正性与权威性。评审维度涵盖服务品质、客户满意度、技术创新、品牌信誉及社会责任贡献五大模块，共计31项细分指标。奇幻假期在所有评审维度的综合得分均位居参评企业首位。", "en": "The Asia Yachting Awards, co-hosted by the Asia Pacific Yachting Association (APYA) and Asia Nautical Review magazine, has been held for twelve consecutive years. This year's judging panel comprised experts from the National University of Singapore's Marine Engineering School, the Hong Kong Yacht Club, and several independent industry consultants, who conducted blind reviews to ensure fairness and authority. The evaluation covered five major modules and 31 detailed indicators across service quality, customer satisfaction, technological innovation, brand reputation and social responsibility. Fantastic Vacation ranked first among all participating companies in aggregate scores across every evaluation dimension."},
-  "news-001.905": {"zh": "奇幻假期首席执行官陈永健先生在接受颁奖时表示：「这份荣誉属于每一位信赖我们的船东，以及全球合作伙伴。四年连续获奖不是终点，而是鞭策——它提醒我们必须以更高的标准要求自己。」陈永健先生从事游艇行业超过25年，曾任职于多家国际顶级游艇经纪公司，2011年创立奇幻假期，致力于将欧洲先进的游艇管理理念引入亚洲市场。", "en": "Fantastic Vacation CEO Mr. Chen Yongjian said while receiving the award: 'This honour belongs to every shipowner who trusts us, and to our global partners. Four consecutive years of winning is not an ending, but a spur — it reminds us that we must demand more of ourselves with higher standards.' Mr. Chen has been in the yachting industry for over 25 years, having held positions at several international top yacht brokerage firms before founding Fantastic Vacation in 2011, dedicated to introducing Europe's advanced yacht management philosophy to the Asian market."},
-  "news-001.906": {"zh": "评审委员会在颁奖词中特别提到，奇幻假期之所以持续获得行业认可，主要得益于三大核心竞争优势：首先是其独特的「从概念设计到终生运维」全链条服务能力，从游艇最初的设计咨询、建造监造，到交付后的日常管理、船员培训、维修保养，再到最终的二手交易或报废处理，奇幻假期均可提供一站式专业服务；其次是严格的国际质量标准，公司所有运营流程均通过ISO 9001:2015质量管理体系认证，并在行业内率先引入瑞士SGS集团的第三方检验机制；第三个关键因素是其在绿色航运与海洋环保领域的先锋实践。", "en": "The judging committee's citation highlighted Fantastic Vacation's three core competitive advantages: first, its unique 'from concept design to lifetime operation and maintenance' full-chain service capability — from initial design consultation and build supervision, through post-delivery daily management, crew training and maintenance, to final second-hand transaction or decommissioning; second, strict international quality standards, with all operating processes certified under ISO 9001:2015 and the industry's first introduction of SGS Group's third-party inspection mechanism; and third, its pioneering practices in green shipping and marine environmental protection."},
-  "news-001.907": {"zh": "在绿色航运方面，奇幻假期于2024年率先在亚洲推出混合动力游艇解决方案，通过将传统柴油动力与电动推进系统相结合，使游艇在巡航过程中的碳排放降低35%至40%。公司还与芬兰知名造船商Hybrid Marine Systems合作，共同研发适用于亚洲海域的专用混合动力模块。此外，奇幻假期是亚洲首个承诺在2030年前实现船队全面碳中和的游艇服务商，并为此设立了专项绿色海洋基金，每年投入不少于营业收入的3%用于海洋生态修复和海洋塑料清理项目。", "en": "In green shipping, Fantastic Vacation pioneered Asia's first hybrid power yacht solution in 2024, reducing carbon emissions during cruising by 35-40% through combining traditional diesel power with electric propulsion systems. The company also partnered with Finnish shipbuilder Hybrid Marine Systems to jointly develop hybrid power modules specifically suited for Asian waters. Furthermore, Fantastic Vacation is Asia's first yacht service provider to commit to achieving full fleet carbon neutrality by 2030, establishing a dedicated Green Ocean Fund with an annual investment of no less than 3% of operating revenue for marine ecological restoration and ocean plastic cleanup projects."},
-  "news-001.908": {"zh": "奇幻假期的客户满意度连续五年保持在97%以上，这在很大程度上归功于其独创的「管家式会员服务体系」。每位会员客户均配备专属客户经理，提供7×24小时中英双语服务，从航线规划、港口预订、岸上接待到船上餐饮、潜水装备、庆祝活动策划，均可按需定制。据公司2025年年报显示，其会员续费率高达89%，远高于行业平均水平。", "en": "Fantastic Vacation's customer satisfaction has maintained above 97% for five consecutive years, largely due to its unique 'butler-style membership service system.' Each member client is assigned a dedicated account manager providing 7x24 bilingual Chinese-English service, with fully customisable options ranging from itinerary planning, port bookings and shore receptions to onboard dining, diving equipment and celebration event planning. According to the company's 2025 annual report, member renewal rates reached 89%, far above the industry average."},
-  "news-001.909": {"zh": "奇幻假期的全球码头网络也是其核心竞争力之一。截至2026年5月，公司已与全球52个国家和地区的超过380个优质码头建立战略合作关系，其中包括地中海区域的摩纳哥港、巴塞罗那港、戛纳港，东南亚的圣淘沙港、普吉岛Yacht Haven，拉丁美洲的卡波圣卢卡斯及加勒比海的圣马丁岛等明星码头。会员客户可享受优先泊位、费用折扣及专属接待服务。", "en": "Fantastic Vacation's global port network is also a core competitive advantage. As of May 2026, the company has established strategic partnerships with over 380 quality ports in 52 countries and regions worldwide, including Monaco Port, Barcelona Port and Cannes Port in the Mediterranean region; Sentosa Port and Yacht Haven in Phuket in Southeast Asia; Cabo San Lucas in Latin America; and Sint Maarten in the Caribbean. Member clients enjoy priority berthing, fee discounts and exclusive reception services."},
-  "news-001.910": {"zh": "本届盛典的另一位评委、新加坡国立大学海洋工程学院副院长林志远教授指出：「奇幻假期的成功并非偶然。他们对服务品质的执着追求、对技术创新的持续投入，以及对可持续发展的深刻理解，构成了其难以复制的竞争优势。在当前全球游艇行业加速洗牌的背景下，这样的企业将成为推动行业健康发展的中坚力量。」", "en": "Professor Lin Zhiyuan, Vice Dean of the School of Marine Engineering at the National University of Singapore, noted: 'Fantastic Vacation's success is no accident. Their unwavering pursuit of service quality, continuous investment in technological innovation, and deep understanding of sustainable development constitute competitive advantages that are difficult to replicate. Against the backdrop of accelerating restructuring in the global yachting industry, such enterprises will become the backbone driving healthy industry development.'"},
-  "news-001.911": {"zh": "奇幻假期此次获奖也引发了媒体的广泛关注。《亚洲航海》杂志在颁奖后刊发的专题报道中，以「亚洲游艇服务的新标杆」为题，深入分析了奇幻假期的商业模式与服务创新。文章指出，奇幻假期的崛起标志着亚洲游艇市场从早期的「代购代销」模式，向「综合服务商」模式的全面转型。", "en": "The special report published by Asia Nautical Review magazine, titled 'The New Benchmark for Asian Yachting Services', provided an in-depth analysis of Fantastic Vacation's business model and service innovation. The article pointed out that Fantastic Vacation's rise marks the comprehensive transformation of the Asian yachting market from the early 'purchasing and reselling' model to the 'comprehensive service provider' model."},
-  "news-001.912": {"zh": "展望未来，奇幻假期表示将继续加大在智能化船队管理系统、绿色动力技术和全球码头网络建设方面的投入。公司计划于2027年在香港启德码头设立亚太区运营中心，进一步强化对华南及东南亚市场的服务覆盖。同时，奇幻假期正在与多家国际造船厂商洽谈，计划在2028年前引入至少三艘液化天然气（LNG）动力超级游艇，以满足日益增长的环保高端客户需求。", "en": "Looking ahead, Fantastic Vacation stated it will continue to increase investment in intelligent fleet management systems, green power technology and global port network construction. The company plans to establish an Asia-Pacific Operations Centre at Hong Kong's Kai Tak Terminal in 2027 to further strengthen service coverage for the South China and Southeast Asian markets. Meanwhile, Fantastic Vacation is negotiating with several international shipbuilders to introduce at least three LNG-powered superyachts before 2028 to meet growing demand from environmentally conscious high-end clients."},
-  "news-001.913": {"zh": "颁奖典礼当晚，奇幻假期还同期发布了《2026亚洲高端游艇市场白皮书》，涵盖亚洲游艇市场最新数据、消费者行为分析及未来五年发展趋势预测。白皮书显示，2025年亚洲游艇市场规模达到约127亿美元，年增长率保持在8.7%，预计到2030年将突破200亿美元。中国市场以约35%的份额位居亚洲第一，其中高净值人群对游艇定制和托管服务的需求增速尤为显著。", "en": "On the evening of the awards ceremony, Fantastic Vacation also released the '2026 Asia High-End Yacht Market White Paper', covering the latest data on the Asian yachting market, consumer behaviour analysis and predictions for future five-year development trends. The white paper shows that the Asian yachting market reached approximately $12.7 billion in 2025, with an annual growth rate of 8.7%, and is expected to exceed $20 billion by 2030. The Chinese market, with approximately 35% share, ranks first in Asia."},
-  "news-001.914": {"zh": "此外，奇幻假期还在盛典期间与来自迪拜、阿布扎比的多家超级游艇经纪公司进行了深入交流，初步达成了在阿联酋市场开展联合营销及客户互换的战略合作意向。这标志着奇幻假期的全球化战略进入新的发展阶段，从专注亚洲市场向打造全球网络布局迈出重要一步。", "en": "Additionally, during the ceremony, Fantastic Vacation engaged in in-depth exchanges with superyacht brokerage companies from Dubai and Abu Dhabi, reaching preliminary strategic cooperation intentions for joint marketing and client exchange in the UAE market. This marks Fantastic Vacation's global strategy entering a new stage of development, taking an important step from focusing on the Asian market to building a global network."},
-  "news-001.915": {"zh": "值得一提的是，奇幻假期此次获奖的背景正值全球游艇行业经历深刻变革。随着新冠疫情后全球高净值人群财富持续增长，以及「在家工作」新常态带来的生活方式转变，越来越多的精英阶层开始将游艇视为继房产、汽车之后的第三大消费品。与此同时，环保法规趋严、数字化转型加速、共享经济模式兴起等行业趋势，也在深刻重塑游艇服务业的竞争格局。奇幻假期能够在这样的背景下连续四年蝉联亚洲最佳服务商，充分证明了其战略眼光与执行能力。", "en": "It is worth noting that Fantastic Vacation's award came against the backdrop of profound transformation in the global yachting industry. With the continued growth of high-net-worth individuals' wealth post-pandemic and lifestyle changes brought by the 'work from home' new normal, more and more elite individuals are beginning to view yachts as the third major consumer product after real estate and automobiles. At the same time, tightening environmental regulations, accelerating digital transformation and the rise of the sharing economy are profoundly reshaping the competitive landscape."},
-  "news-001.916": {"zh": "在当晚的庆祝酒会上，来自全球各地的数百位行业同仁向奇幻假期团队表达了祝贺。许多嘉宾表示，奇幻假期的成功为整个亚洲游艇行业树立了榜样，也为全球游艇服务商提供了宝贵的发展经验。奇幻假期首席运营官张婉婷女士表示：「我们会继续努力，不辜负大家的信任。亚洲游艇市场的黄金时代才刚刚开始，我们期待与所有合作伙伴一起，共同创造更加辉煌的未来。」", "en": "At the celebration reception, hundreds of industry colleagues from around the world extended congratulations to the Fantastic Vacation team. Many guests stated that Fantastic Vacation's success has set an example for the entire Asian yachting industry and provided valuable development experience for global yachting service providers. Fantastic Vacation's Chief Operating Officer Ms. Zhang Wanting said: 'We will continue to work hard and not let everyone's trust down. The golden era of the Asian yachting market has just begun, and we look forward to creating an even more brilliant future together with all our partners.'"},
+  "news-001.904": {"zh": "亚洲游艇产业盛典由亚太游艇行业协会（Asia Pacific Yachting Association, APYA）联合《亚洲航海》杂志（Asia Nautical Review）共同主办，已连续举办十二年。本届盛典评审委员会由来自新加坡国立大学海洋工程学院、香港游艇会及多位独立行业顾问组成，采用盲审方式进行评选，确保公正性与权威性。评审维度涵盖服务品质、客户满意度、技术创新、品牌信誉及社会责任贡献五大模块，共计31项细分指标。奇幻假期实业有限公司在所有评审维度的综合得分均位居参评企业首位。", "en": "The Asia Yachting Awards, co-hosted by the Asia Pacific Yachting Association (APYA) and Asia Nautical Review magazine, has been held for twelve consecutive years. This year's judging panel comprised experts from the National University of Singapore's Marine Engineering School, the Hong Kong Yacht Club, and several independent industry consultants, who conducted blind reviews to ensure fairness and authority. The evaluation covered five major modules and 31 detailed indicators across service quality, customer satisfaction, technological innovation, brand reputation and social responsibility. Fantastic Vacation Industrial Co., Ltd ranked first among all participating companies in aggregate scores across every evaluation dimension."},
+  "news-001.905": {"zh": "奇幻假期实业有限公司首席执行官陈永健先生在接受颁奖时表示：「这份荣誉属于每一位信赖我们的船东，以及全球合作伙伴。四年连续获奖不是终点，而是鞭策——它提醒我们必须以更高的标准要求自己。」陈永健先生从事游艇行业超过25年，曾任职于多家国际顶级游艇经纪公司，2011年创立奇幻假期实业有限公司，致力于将欧洲先进的游艇管理理念引入亚洲市场。", "en": "Fantastic Vacation Industrial Co., Ltd CEO Mr. Chen Yongjian said while receiving the award: 'This honour belongs to every shipowner who trusts us, and to our global partners. Four consecutive years of winning is not an ending, but a spur — it reminds us that we must demand more of ourselves with higher standards.' Mr. Chen has been in the yachting industry for over 25 years, having held positions at several international top yacht brokerage firms before founding Fantastic Vacation Industrial Co., Ltd in 2011, dedicated to introducing Europe's advanced yacht management philosophy to the Asian market."},
+  "news-001.906": {"zh": "评审委员会在颁奖词中特别提到，奇幻假期实业有限公司之所以持续获得行业认可，主要得益于三大核心竞争优势：首先是其独特的「从概念设计到终生运维」全链条服务能力，从游艇最初的设计咨询、建造监造，到交付后的日常管理、船员培训、维修保养，再到最终的二手交易或报废处理，奇幻假期实业有限公司均可提供一站式专业服务；其次是严格的国际质量标准，公司所有运营流程均通过ISO 9001:2015质量管理体系认证，并在行业内率先引入瑞士SGS集团的第三方检验机制；第三个关键因素是其在绿色航运与海洋环保领域的先锋实践。", "en": "The judging committee's citation highlighted Fantastic Vacation Industrial Co., Ltd's three core competitive advantages: first, its unique 'from concept design to lifetime operation and maintenance' full-chain service capability — from initial design consultation and build supervision, through post-delivery daily management, crew training and maintenance, to final second-hand transaction or decommissioning; second, strict international quality standards, with all operating processes certified under ISO 9001:2015 and the industry's first introduction of SGS Group's third-party inspection mechanism; and third, its pioneering practices in green shipping and marine environmental protection."},
+  "news-001.907": {"zh": "在绿色航运方面，奇幻假期实业有限公司于2024年率先在亚洲推出混合动力游艇解决方案，通过将传统柴油动力与电动推进系统相结合，使游艇在巡航过程中的碳排放降低35%至40%。公司还与芬兰知名造船商Hybrid Marine Systems合作，共同研发适用于亚洲海域的专用混合动力模块。此外，奇幻假期实业有限公司是亚洲首个承诺在2030年前实现船队全面碳中和的游艇服务商，并为此设立了专项绿色海洋基金，每年投入不少于营业收入的3%用于海洋生态修复和海洋塑料清理项目。", "en": "In green shipping, Fantastic Vacation Industrial Co., Ltd pioneered Asia's first hybrid power yacht solution in 2024, reducing carbon emissions during cruising by 35-40% through combining traditional diesel power with electric propulsion systems. The company also partnered with Finnish shipbuilder Hybrid Marine Systems to jointly develop hybrid power modules specifically suited for Asian waters. Furthermore, Fantastic Vacation Industrial Co., Ltd is Asia's first yacht service provider to commit to achieving full fleet carbon neutrality by 2030, establishing a dedicated Green Ocean Fund with an annual investment of no less than 3% of operating revenue for marine ecological restoration and ocean plastic cleanup projects."},
+  "news-001.908": {"zh": "奇幻假期实业有限公司的客户满意度连续五年保持在97%以上，这在很大程度上归功于其独创的「管家式会员服务体系」。每位会员客户均配备专属客户经理，提供7×24小时中英双语服务，从航线规划、港口预订、岸上接待到船上餐饮、潜水装备、庆祝活动策划，均可按需定制。据公司2025年年报显示，其会员续费率高达89%，远高于行业平均水平。", "en": "Fantastic Vacation Industrial Co., Ltd's customer satisfaction has maintained above 97% for five consecutive years, largely due to its unique 'butler-style membership service system.' Each member client is assigned a dedicated account manager providing 7x24 bilingual Chinese-English service, with fully customisable options ranging from itinerary planning, port bookings and shore receptions to onboard dining, diving equipment and celebration event planning. According to the company's 2025 annual report, member renewal rates reached 89%, far above the industry average."},
+  "news-001.909": {"zh": "奇幻假期实业有限公司的全球码头网络也是其核心竞争力之一。截至2026年5月，公司已与全球52个国家和地区的超过380个优质码头建立战略合作关系，其中包括地中海区域的摩纳哥港、巴塞罗那港、戛纳港，东南亚的圣淘沙港、普吉岛Yacht Haven，拉丁美洲的卡波圣卢卡斯及加勒比海的圣马丁岛等明星码头。会员客户可享受优先泊位、费用折扣及专属接待服务。", "en": "Fantastic Vacation Industrial Co., Ltd's global port network is also a core competitive advantage. As of May 2026, the company has established strategic partnerships with over 380 quality ports in 52 countries and regions worldwide, including Monaco Port, Barcelona Port and Cannes Port in the Mediterranean region; Sentosa Port and Yacht Haven in Phuket in Southeast Asia; Cabo San Lucas in Latin America; and Sint Maarten in the Caribbean. Member clients enjoy priority berthing, fee discounts and exclusive reception services."},
+  "news-001.910": {"zh": "本届盛典的另一位评委、新加坡国立大学海洋工程学院副院长林志远教授指出：「奇幻假期实业有限公司的成功并非偶然。他们对服务品质的执着追求、对技术创新的持续投入，以及对可持续发展的深刻理解，构成了其难以复制的竞争优势。在当前全球游艇行业加速洗牌的背景下，这样的企业将成为推动行业健康发展的中坚力量。」", "en": "Professor Lin Zhiyuan, Vice Dean of the School of Marine Engineering at the National University of Singapore, noted: 'Fantastic Vacation Industrial Co., Ltd's success is no accident. Their unwavering pursuit of service quality, continuous investment in technological innovation, and deep understanding of sustainable development constitute competitive advantages that are difficult to replicate. Against the backdrop of accelerating restructuring in the global yachting industry, such enterprises will become the backbone driving healthy industry development.'"},
+  "news-001.911": {"zh": "奇幻假期实业有限公司此次获奖也引发了媒体的广泛关注。《亚洲航海》杂志在颁奖后刊发的专题报道中，以「亚洲游艇服务的新标杆」为题，深入分析了奇幻假期实业有限公司的商业模式与服务创新。文章指出，奇幻假期实业有限公司的崛起标志着亚洲游艇市场从早期的「代购代销」模式，向「综合服务商」模式的全面转型。", "en": "The special report published by Asia Nautical Review magazine, titled 'The New Benchmark for Asian Yachting Services', provided an in-depth analysis of Fantastic Vacation Industrial Co., Ltd's business model and service innovation. The article pointed out that Fantastic Vacation Industrial Co., Ltd's rise marks the comprehensive transformation of the Asian yachting market from the early 'purchasing and reselling' model to the 'comprehensive service provider' model."},
+  "news-001.912": {"zh": "展望未来，奇幻假期实业有限公司表示将继续加大在智能化船队管理系统、绿色动力技术和全球码头网络建设方面的投入。公司计划于2027年在香港启德码头设立亚太区运营中心，进一步强化对华南及东南亚市场的服务覆盖。同时，奇幻假期实业有限公司正在与多家国际造船厂商洽谈，计划在2028年前引入至少三艘液化天然气（LNG）动力超级游艇，以满足日益增长的环保高端客户需求。", "en": "Looking ahead, Fantastic Vacation Industrial Co., Ltd stated it will continue to increase investment in intelligent fleet management systems, green power technology and global port network construction. The company plans to establish an Asia-Pacific Operations Centre at Hong Kong's Kai Tak Terminal in 2027 to further strengthen service coverage for the South China and Southeast Asian markets. Meanwhile, Fantastic Vacation Industrial Co., Ltd is negotiating with several international shipbuilders to introduce at least three LNG-powered superyachts before 2028 to meet growing demand from environmentally conscious high-end clients."},
+  "news-001.913": {"zh": "颁奖典礼当晚，奇幻假期实业有限公司还同期发布了《2026亚洲高端游艇市场白皮书》，涵盖亚洲游艇市场最新数据、消费者行为分析及未来五年发展趋势预测。白皮书显示，2025年亚洲游艇市场规模达到约127亿美元，年增长率保持在8.7%，预计到2030年将突破200亿美元。中国市场以约35%的份额位居亚洲第一，其中高净值人群对游艇定制和托管服务的需求增速尤为显著。", "en": "On the evening of the awards ceremony, Fantastic Vacation Industrial Co., Ltd also released the '2026 Asia High-End Yacht Market White Paper', covering the latest data on the Asian yachting market, consumer behaviour analysis and predictions for future five-year development trends. The white paper shows that the Asian yachting market reached approximately $12.7 billion in 2025, with an annual growth rate of 8.7%, and is expected to exceed $20 billion by 2030. The Chinese market, with approximately 35% share, ranks first in Asia."},
+  "news-001.914": {"zh": "此外，奇幻假期实业有限公司还在盛典期间与来自迪拜、阿布扎比的多家超级游艇经纪公司进行了深入交流，初步达成了在阿联酋市场开展联合营销及客户互换的战略合作意向。这标志着奇幻假期实业有限公司的全球化战略进入新的发展阶段，从专注亚洲市场向打造全球网络布局迈出重要一步。", "en": "Additionally, during the ceremony, Fantastic Vacation Industrial Co., Ltd engaged in in-depth exchanges with superyacht brokerage companies from Dubai and Abu Dhabi, reaching preliminary strategic cooperation intentions for joint marketing and client exchange in the UAE market. This marks Fantastic Vacation Industrial Co., Ltd's global strategy entering a new stage of development, taking an important step from focusing on the Asian market to building a global network."},
+  "news-001.915": {"zh": "值得一提的是，奇幻假期实业有限公司此次获奖的背景正值全球游艇行业经历深刻变革。随着新冠疫情后全球高净值人群财富持续增长，以及「在家工作」新常态带来的生活方式转变，越来越多的精英阶层开始将游艇视为继房产、汽车之后的第三大消费品。与此同时，环保法规趋严、数字化转型加速、共享经济模式兴起等行业趋势，也在深刻重塑游艇服务业的竞争格局。奇幻假期实业有限公司能够在这样的背景下连续四年蝉联亚洲最佳服务商，充分证明了其战略眼光与执行能力。", "en": "It is worth noting that Fantastic Vacation Industrial Co., Ltd's award came against the backdrop of profound transformation in the global yachting industry. With the continued growth of high-net-worth individuals' wealth post-pandemic and lifestyle changes brought by the 'work from home' new normal, more and more elite individuals are beginning to view yachts as the third major consumer product after real estate and automobiles. At the same time, tightening environmental regulations, accelerating digital transformation and the rise of the sharing economy are profoundly reshaping the competitive landscape."},
+  "news-001.916": {"zh": "在当晚的庆祝酒会上，来自全球各地的数百位行业同仁向奇幻假期实业有限公司团队表达了祝贺。许多嘉宾表示，奇幻假期实业有限公司的成功为整个亚洲游艇行业树立了榜样，也为全球游艇服务商提供了宝贵的发展经验。奇幻假期实业有限公司首席运营官张婉婷女士表示：「我们会继续努力，不辜负大家的信任。亚洲游艇市场的黄金时代才刚刚开始，我们期待与所有合作伙伴一起，共同创造更加辉煌的未来。」", "en": "At the celebration reception, hundreds of industry colleagues from around the world extended congratulations to the Fantastic Vacation Industrial Co., Ltd team. Many guests stated that Fantastic Vacation Industrial Co., Ltd's success has set an example for the entire Asian yachting industry and provided valuable development experience for global yachting service providers. Fantastic Vacation Industrial Co., Ltd's Chief Operating Officer Ms. Zhang Wanting said: 'We will continue to work hard and not let everyone's trust down. The golden era of the Asian yachting market has just begun, and we look forward to creating an even more brilliant future together with all our partners.'"},
   "news-002.912": {"zh": "2026年5月10日，奇幻假期实业有限公司深圳总部启用仪式在深圳市南山区太子湾片区隆重举行。深圳市委书记王伟中、南山区区长黄湘岳等市区领导，以及来自全球20多个国家的200余位游艇行业嘉宾、企业合作伙伴及媒体记者共同见证了这一历史性时刻。奇幻假期深圳总部的启用，标志着这家深耕亚洲高端游艇市场十五年的领军企业，正式从区域服务商向全球网络布局的战略转型。", "en": "On May 10, 2026, the inauguration ceremony of Fantastic Vacation Industrial Co., Ltd.'s Shenzhen headquarters was held in the Taiziwan area of Nanshan District, Shenzhen. Municipal and district leaders including Shenzhen Party Secretary Wang Weizhong and Nanshan District Governor Huang Xiangyue, along with over 200 yachting industry guests, corporate partners and media journalists from more than 20 countries, jointly witnessed this historic moment. The opening of the Shenzhen headquarters marks the strategic transformation of this leading enterprise, which has been deeply rooted in the Asian high-end yachting market for fifteen years, from a regional service provider to a global network layout."},
-  "news-002.913": {"zh": "奇幻假期深圳总部位于南山区蛇口太子湾大道88号奇幻假期大厦，总建筑面积约18000平方米，地上28层，地下3层。大厦由国际知名建筑事务所Foster + Partners担纲设计，以「扬帆远航」为设计理念，建筑外立面采用流线型曲面玻璃幕墙，夜间通过智能LED灯光系统可呈现波浪流动效果，成为太子湾片区的标志性建筑之一。大厦顶层设有会员专属空中会所，可270度俯瞰深圳湾与香港仔海峡，配备无边泳池、威士忌吧及雪茄室等高端设施。", "en": "The Fantastic Vacation Shenzhen headquarters is located at No. 88 Taiziwan Avenue, Shekou, Nanshan District, Shenzhen — the Fantastic Vacation Building. With a total construction area of approximately 18,000 square metres, 28 above-ground floors and 3 underground levels, the building was designed by internationally renowned architecture firm Foster + Partners with the concept of 'Setting Sail', featuring a streamlined curved glass curtain wall facade that can display wave-flow effects at night through an intelligent LED lighting system, making it one of the landmark buildings in the Taiziwan area. The top floor houses a members-only sky club with 270-degree views of Shenzhen Bay and the Aberdeen Channel, featuring an infinity pool, whisky bar and cigar lounge."},
-  "news-002.914": {"zh": "奇幻假期深圳总部的核心功能包括：亚太区运营管理中心、全球会员服务呼叫中心、游艇技术研发中心、船员培训学院及海丝文化展示中心。其中，位于三楼的亚太区运营管理中心配备全球领先的智能船队管理系统，可实时监控分布在全球各地的超过120艘托管游艇的运行状态，包括发动机数据、燃油消耗、航线轨迹、天气预警及船员排班等信息，实现了「一键通联、全域协同」的高效运营模式。", "en": "The core functions of the Fantastic Vacation Shenzhen headquarters include: Asia-Pacific Operations Management Centre, Global Member Service Call Centre, Yacht Technology R&D Centre, Crew Training Academy and Maritime Silk Road Culture Exhibition Centre. The Asia-Pacific Operations Management Centre on the third floor is equipped with a globally leading intelligent fleet management system that can monitor the operational status of over 120 managed yachts worldwide in real time, including engine data, fuel consumption, route tracking, weather warnings and crew scheduling information, achieving an efficient 'one-key connection, full-domain coordination' operational model."},
+  "news-002.913": {"zh": "奇幻假期深圳总部位于南山区蛇口太子湾大道88号奇幻假期大厦，总建筑面积约18000平方米，地上28层，地下3层。大厦由国际知名建筑事务所Foster + Partners担纲设计，以「扬帆远航」为设计理念，建筑外立面采用流线型曲面玻璃幕墙，夜间通过智能LED灯光系统可呈现波浪流动效果，成为太子湾片区的标志性建筑之一。大厦顶层设有会员专属空中会所，可270度俯瞰深圳湾与香港仔海峡，配备无边泳池、威士忌吧及雪茄室等高端设施。", "en": "The Fantastic Vacation Industrial Co., Ltd Shenzhen headquarters is located at No. 88 Taiziwan Avenue, Shekou, Nanshan District, Shenzhen — the Fantastic Vacation Industrial Co., Ltd Building. With a total construction area of approximately 18,000 square metres, 28 above-ground floors and 3 underground levels, the building was designed by internationally renowned architecture firm Foster + Partners with the concept of 'Setting Sail', featuring a streamlined curved glass curtain wall facade that can display wave-flow effects at night through an intelligent LED lighting system, making it one of the landmark buildings in the Taiziwan area. The top floor houses a members-only sky club with 270-degree views of Shenzhen Bay and the Aberdeen Channel, featuring an infinity pool, whisky bar and cigar lounge."},
+  "news-002.914": {"zh": "奇幻假期实业有限公司深圳总部的核心功能包括：亚太区运营管理中心、全球会员服务呼叫中心、游艇技术研发中心、船员培训学院及海丝文化展示中心。其中，位于三楼的亚太区运营管理中心配备全球领先的智能船队管理系统，可实时监控分布在全球各地的超过120艘托管游艇的运行状态，包括发动机数据、燃油消耗、航线轨迹、天气预警及船员排班等信息，实现了「一键通联、全域协同」的高效运营模式。", "en": "The core functions of the Fantastic Vacation Industrial Co., Ltd Shenzhen headquarters include: Asia-Pacific Operations Management Centre, Global Member Service Call Centre, Yacht Technology R&D Centre, Crew Training Academy and Maritime Silk Road Culture Exhibition Centre. The Asia-Pacific Operations Management Centre on the third floor is equipped with a globally leading intelligent fleet management system that can monitor the operational status of over 120 managed yachts worldwide in real time, including engine data, fuel consumption, route tracking, weather warnings and crew scheduling information, achieving an efficient 'one-key connection, full-domain coordination' operational model."},
   "news-002.915": {"zh": "船员培训学院是深圳总部的另一大亮点。学院与澳大利亚皇家游艇协会（RYA）、美国帆船协会（US Sailing）及新加坡游艇协会建立合作，提供从基础驾驶到超级游艇管理的全系列认证课程。学院拥有亚洲最大的室内模拟驾驶舱，可模拟全球50余个热门海域的航行环境，包括风浪、暗礁、海盗活动区域等特殊场景。首期超级游艇船长培训班已于4月结业，22名学员全部获得国际认可的船长资质认证。", "en": "The Crew Training Academy is another highlight of the Shenzhen headquarters. The Academy has established partnerships with the Royal Yachting Association (RYA) of Australia, US Sailing and the Singapore Yachting Association, offering a full range of certification courses from basic driving to superyacht management. The Academy boasts Asia's largest indoor simulation bridge that can simulate navigation environments of over 50 popular sea areas worldwide, including special scenarios such as wind and waves, reefs and piracy activity zones. The first superyacht captain training class graduated in April, with all 22 trainees receiving internationally recognised captain certification."},
-  "news-002.916": {"zh": "在启用仪式上，奇幻假期与深圳市文化广电旅游体育局联合发布了「深圳海洋城市游艇产业规划建议书」，提出将深圳太子湾片区打造成为「亚洲游艇总部基地」的构想。建议书涵盖政策支持、基础设施建设、产业配套及人才培养等多个维度，建议深圳市设立游艇产业发展专项基金，对在深注册的游艇服务企业给予税收优惠和运营补贴。", "en": "At the inauguration ceremony, Fantastic Vacation and the Shenzhen Municipal Bureau of Culture, Radio, Television, Tourism and Sports jointly released the 'Shenzhen Marine City Yacht Industry Planning Proposal', proposing the vision of developing the Taiziwan area into an 'Asian Yacht Headquarters Base'. The proposal covers policy support, infrastructure construction, industry supporting facilities and talent development across multiple dimensions, suggesting that Shenzhen establish a special fund for yachting industry development, providing tax incentives and operational subsidies for yacht service enterprises registered in Shenzhen."},
-  "news-002.917": {"zh": "奇幻假期首席执行官陈永健在致辞中表示：「深圳是中国最具创新活力的城市，也是粤港澳大湾区的核心引擎。将总部设在深圳，是我们深思熟虑的战略选择。太子湾片区拥有优越的区位优势、一流的基础设施和开放的政策环境，非常适合发展高端游艇服务业。我们希望以深圳为支点，辐射整个亚太市场，同时借助深圳的科技优势，推动游艇服务的数字化和智能化升级。」", "en": "Fantastic Vacation CEO Chen Yongjian stated in his speech: 'Shenzhen is China's most innovative city and the core engine of the Guangdong-Hong Kong-Macao Greater Bay Area. Establishing our headquarters here is a carefully considered strategic choice. The Taiziwan area has superior locational advantages, world-class infrastructure and an open policy environment, making it highly suitable for developing high-end yacht services. We hope to use Shenzhen as a fulcrum to radiate across the entire Asia-Pacific market while leveraging Shenzhen's technological advantages to drive digitalisation and intelligent upgrades in yacht services.'"},
-  "news-002.918": {"zh": "启用仪式现场，奇幻假期还与招商局港口集团、深圳市海洋综合执法支队分别签署了战略合作框架协议。根据协议，奇幻假期将在太子湾游艇码头建设智能化泊位管理系统，实现游艇进出港的自动化调度；同时，公司将参与深圳市海洋应急救援体系建设，为海上搜救提供专业力量支持。", "en": "At the ceremony, Fantastic Vacation also signed strategic cooperation framework agreements with China Merchants Port Group and the Shenzhen Marine Comprehensive Law Enforcement Detachment respectively. Under the agreements, Fantastic Vacation will build an intelligent berthing management system at the Taiziwan Yacht Terminal to achieve automated scheduling of yacht entry and exit; meanwhile, the company will participate in the construction of Shenzhen's maritime emergency rescue system, providing professional support for maritime search and rescue operations."},
-  "news-002.919": {"zh": "出席启用仪式的香港中华总商会会长卢锦华先生表示：「奇幻假期深圳总部的启用，是深港两地游艇产业合作的标志性事件。随着深港两地水域逐步开放，未来香港和深圳的游艇爱好者可以更加便捷地共享彼此的码头资源和航线服务，这将极大地促进两地高端旅游业的发展。」他透露，香港中华总商会正与奇幻假期探讨联合开发深港双城游艇旅游路线的可能性。", "en": "Mr. Lo Kam Wah, President of the Chinese General Chamber of Commerce in Hong Kong, who attended the ceremony, stated: 'The opening of Fantastic Vacation's Shenzhen headquarters is a landmark event for yachting industry cooperation between Shenzhen and Hong Kong. As waters between the two cities gradually open up, yacht enthusiasts from both sides will be able to more conveniently share each other's port resources and cruise services, which will greatly promote the development of high-end tourism in both cities.' He revealed that the Chinese General Chamber of Commerce is discussing with Fantastic Vacation the possibility of jointly developing Shenzhen-Hong Kong dual-city yacht tourism routes."},
-  "news-002.920": {"zh": "奇幻假期深圳总部的启用也引发国际关注。摩纳哥游艇协会（MNA）主席伊莎贝拉·德·罗丝柴尔德伯爵夫人专程发来视频致辞，称赞奇幻假期「为亚洲游艇服务业树立了新的标准」。欧洲游艇联合会（EBI）执行董事马克·范·德·伯克也表示：「深圳总部的落成让我们看到了奇幻假期打造全球网络的雄心。我们期待与奇幻假期在标准制定、市场推广和人才培养等方面开展更深入的合作。」", "en": "The opening of the Shenzhen headquarters also attracted international attention. The Chair of the Monaco Yacht Association (MNA), Countess Isabella de Rothschild, sent a special video message praising Fantastic Vacation for 'setting new standards for Asian yachting services'. The Executive Director of the European Boating Industry (EBI), Mark van der Burg, also stated: 'The completion of the Shenzhen headquarters shows us Fantastic Vacation's ambition to build a global network. We look forward to deeper cooperation with Fantastic Vacation in standard-setting, market promotion and talent development.'"},
-  "news-002.921": {"zh": "深圳总部的建设过程也体现了奇幻假期对可持续发展的重视。大厦采用海绵城市设计理念，雨水回收系统可满足大楼30%的景观用水需求；屋顶光伏装机容量达280千瓦，年发电量约30万度；所有装修材料均选用低VOC环保产品；大楼获得中国绿色建筑三星级认证。此外，大厦还配备了深圳首个游艇行业专用的污水处理设施，对停靠码头产生的含油污水进行专业处理后再排入市政管网。", "en": "The construction process of the Shenzhen headquarters also reflects Fantastic Vacation's commitment to sustainable development. The building adopts a sponge city design concept, with a rainwater recycling system that can meet 30% of the building's landscape water needs; rooftop photovoltaic installations total 280 kilowatts with annual power generation of approximately 300,000 kWh; all decoration materials are low-VOC environmentally friendly products; the building has received China's Three-Star Green Building certification. Additionally, the building is equipped with Shenzhen's first dedicated sewage treatment facility for the yachting industry, professionally treating oily wastewater from docked vessels before discharging into the municipal network."},
-  "news-002.922": {"zh": "在全球化战略方面，奇幻假期深圳总部将作为亚太区的战略枢纽，与公司在新加坡、悉尼、迪拜、米兰和迈阿密的五个区域中心形成协同。根据公司规划，到2028年前，奇幻假期将在全球主要游艇目的地设立不少于15个区域服务中心，实现对全球90%以上热门游艇航区的服务覆盖。深圳总部将在这一全球网络中扮演「大脑」角色，统筹协调各区域中心的资源调配和战略执行。", "en": "In terms of globalisation strategy, the Shenzhen headquarters will serve as the strategic hub for the Asia-Pacific region, synergising with the company's five regional centres in Singapore, Sydney, Dubai, Milan and Miami. According to the company's plan, by 2028, Fantastic Vacation will establish no fewer than 15 regional service centres in major global yachting destinations, achieving service coverage of over 90% of the world's popular yachting routes. The Shenzhen headquarters will play the 'brain' role in this global network, coordinating resource allocation and strategic execution across regional centres."},
-  "news-002.923": {"zh": "启用仪式当天，奇幻假期还宣布启动「千帆计划」——在未来三年内投入10亿元人民币，用于扩充自有游艇船队、建设智能化管理系统和培养国际认证船员。根据计划，到2028年底，奇幻假期托管游艇数量将从目前的120艘增至300艘，船员队伍将从450人扩充至1200人，其中具有超级游艇管理经验的高级船员占比不低于40%。", "en": "On the day of the inauguration, Fantastic Vacation also announced the launch of the 'Thousand Sails Plan' — investing 1 billion RMB over the next three years to expand its own yacht fleet, build intelligent management systems and train internationally certified crew. Under the plan, by the end of 2028, Fantastic Vacation's managed yachts will increase from the current 120 to 300, and the crew team will expand from 450 to 1,200, with senior crew members having superyacht management experience accounting for no less than 40%."},
-  "news-003.919": {"zh": "2026年4月28日，为期四天的第32届摩纳哥国际游艇展（Monaco International Yacht Show 2026）在赫库勒斯港圆满落幕。本届展会共吸引来自全球42个国家的628家参展商，展出超过120艘超级游艇，参观人数达38500人次。展会期间游艇订单总金额达47亿欧元，较上届增长23%，创历史新高。奇幻假期作为亚洲唯一受邀参展的游艇综合服务商，签下6艘超级游艇托管意向协议，总金额约2.8亿欧元，并荣获「最佳亚洲展商」大奖。", "en": "On April 28, 2026, the 32nd Monaco International Yacht Show concluded its four-day run at Port Hercule. The exhibition attracted 628 exhibitors from 42 countries, showcasing over 120 superyachts with a record 38,500 visitors. Cumulative yacht orders totalled 4.7 billion euros, a 23% increase, setting a new record. Fantastic Vacation, the only Asian comprehensive yacht service provider invited to exhibit, signed agreements for 6 superyacht management contracts worth approximately 280 million euros and won the 'Best Asian Exhibitor' award."},
-  "news-003.920": {"zh": "摩纳哥国际游艇展创办于1991年，是全球规模最大、最具影响力的超级游艇专业展会。本届最大亮点是亚洲买家强势崛起，贡献了展会总成交额的41%，较五年前翻了两番多。奇幻假期首席商务官林浩然指出：「亚洲买家与传统欧洲买家在需求偏好上存在显著差异。欧洲客户更看重游艇的历史底蕴和工艺传承，而亚洲客户则对智能化配置、个性化定制和娱乐系统有更高要求。」", "en": "The biggest highlight of this edition was the strong rise of Asian buyers, contributing 41% of total transaction value, more than quadrupling from five years ago. Fantastic Vacation CCO Lin Haoran noted: 'Asian buyers differ significantly from traditional European buyers in their preferences. European clients value heritage and craftsmanship more, while Asian clients have higher requirements for intelligent configurations, personalisation and entertainment systems.'"},
-  "news-003.921": {"zh": "新能源动力游艇成为展会最热话题。意大利阿兹姆SeaXplorer 72采用柴电混合动力，巡航半径达6500海里；荷兰Feadship的Project X是全球首艘固态电池全电动超级游艇；德国Lürssen展示了112米LNG动力巨型游艇。奇幻假期与多家厂商签订战略合作协议，将在两年内引进至少10艘新能源超级游艇。", "en": "New energy-powered yachts became the hottest topic. Italian Azimut's SeaXplorer 72 uses diesel-electric hybrid power with a 6,500-nautical-mile range; Dutch Feadship's Project X is the world's first solid-state battery fully electric superyacht; German Lürssen displayed a 112-metre LNG-powered mega yacht. Fantastic Vacation signed strategic agreements with several manufacturers to introduce at least 10 new energy superyachts within two years."},
-  "news-003.922": {"zh": "奇幻假期与意大利Ferretti集团签署的五年战略合作协议成为全场焦点。奇幻假期将成为Ferretti集团亚太区独家代理经销商，同时双方将共同投资3000万欧元成立合资公司，首款合作产品——45米「东西融合」系列豪华游艇预计2027年下水。Ferretti集团CEO阿尔贝托·加尔维斯表示：「奇幻假期拥有无与伦比的亚洲市场网络和客户资源，是我们拓展亚太市场的最佳战略伙伴。」", "en": "The five-year strategic cooperation agreement between Fantastic Vacation and the Italian Ferretti Group was the centrepiece. Fantastic Vacation will become Ferretti Group's exclusive distributor in the Asia-Pacific region, while both parties will jointly invest 30 million euros in a joint venture. The first collaborative product — a 45-metre 'East Meets West' series luxury yacht — is expected to launch in 2027. Ferretti Group CEO Alberto Galvani stated: 'Fantastic Vacation has unparalleled Asian market networks and customer resources, making it our best strategic partner for Asia-Pacific expansion.'"},
-  "news-003.923": {"zh": "在闭幕式上，奇幻假期被授予「最佳亚洲展商」称号。摩纳哥公国元首阿尔贝托二世亲王接见了奇幻假期代表团，并对公司「绿色海洋」计划表示赞赏。亲王殿下指出：「海洋是人类共同的财富，保护海洋环境是每一位航海者的责任。」", "en": "At the closing ceremony, Fantastic Vacation was awarded the 'Best Asian Exhibitor' title. Monaco's Grand Master Prince Albert II personally met with the Fantastic Vacation delegation and praised the company's 'Green Ocean' initiative, stating: 'The ocean is humanity's shared wealth, and protecting the marine environment is every seafarer's responsibility.'"},
-  "news-003.924": {"zh": "展会期间，奇幻假期还发布了「环游世界66天」超级游艇之旅产品：从摩纳哥出发，穿越苏伊士运河，经印度洋到新加坡，再到香港、东京，最后横跨太平洋抵达洛杉矶，全程约22000海里。该航线将于2027年正式推出，每期限额12位宾客，已有7位客户完成预订。", "en": "During the exhibition, Fantastic Vacation launched the '66-Day Around the World' superyacht journey: from Monaco, through the Suez Canal, across the Indian Ocean to Singapore, then Hong Kong and Tokyo, finally across the Pacific to Los Angeles — approximately 22,000 nautical miles. This route will officially launch in 2027, with 12 guests per departure, and 7 clients have already booked."},
+  "news-002.916": {"zh": "在启用仪式上，奇幻假期实业有限公司与深圳市文化广电旅游体育局联合发布了「深圳海洋城市游艇产业规划建议书」，提出将深圳太子湾片区打造成为「亚洲游艇总部基地」的构想。建议书涵盖政策支持、基础设施建设、产业配套及人才培养等多个维度，建议深圳市设立游艇产业发展专项基金，对在深注册的游艇服务企业给予税收优惠和运营补贴。", "en": "At the inauguration ceremony, Fantastic Vacation Industrial Co., Ltd and the Shenzhen Municipal Bureau of Culture, Radio, Television, Tourism and Sports jointly released the 'Shenzhen Marine City Yacht Industry Planning Proposal', proposing the vision of developing the Taiziwan area into an 'Asian Yacht Headquarters Base'. The proposal covers policy support, infrastructure construction, industry supporting facilities and talent development across multiple dimensions, suggesting that Shenzhen establish a special fund for yachting industry development, providing tax incentives and operational subsidies for yacht service enterprises registered in Shenzhen."},
+  "news-002.917": {"zh": "奇幻假期实业有限公司首席执行官陈永健在致辞中表示：「深圳是中国最具创新活力的城市，也是粤港澳大湾区的核心引擎。将总部设在深圳，是我们深思熟虑的战略选择。太子湾片区拥有优越的区位优势、一流的基础设施和开放的政策环境，非常适合发展高端游艇服务业。我们希望以深圳为支点，辐射整个亚太市场，同时借助深圳的科技优势，推动游艇服务的数字化和智能化升级。」", "en": "Fantastic Vacation Industrial Co., Ltd CEO Chen Yongjian stated in his speech: 'Shenzhen is China's most innovative city and the core engine of the Guangdong-Hong Kong-Macao Greater Bay Area. Establishing our headquarters here is a carefully considered strategic choice. The Taiziwan area has superior locational advantages, world-class infrastructure and an open policy environment, making it highly suitable for developing high-end yacht services. We hope to use Shenzhen as a fulcrum to radiate across the entire Asia-Pacific market while leveraging Shenzhen's technological advantages to drive digitalisation and intelligent upgrades in yacht services.'"},
+  "news-002.918": {"zh": "启用仪式现场，奇幻假期实业有限公司还与招商局港口集团、深圳市海洋综合执法支队分别签署了战略合作框架协议。根据协议，奇幻假期实业有限公司将在太子湾游艇码头建设智能化泊位管理系统，实现游艇进出港的自动化调度；同时，公司将参与深圳市海洋应急救援体系建设，为海上搜救提供专业力量支持。", "en": "At the ceremony, Fantastic Vacation Industrial Co., Ltd also signed strategic cooperation framework agreements with China Merchants Port Group and the Shenzhen Marine Comprehensive Law Enforcement Detachment respectively. Under the agreements, Fantastic Vacation Industrial Co., Ltd will build an intelligent berthing management system at the Taiziwan Yacht Terminal to achieve automated scheduling of yacht entry and exit; meanwhile, the company will participate in the construction of Shenzhen's maritime emergency rescue system, providing professional support for maritime search and rescue operations."},
+  "news-002.919": {"zh": "出席启用仪式的香港中华总商会会长卢锦华先生表示：「奇幻假期实业有限公司深圳总部的启用，是深港两地游艇产业合作的标志性事件。随着深港两地水域逐步开放，未来香港和深圳的游艇爱好者可以更加便捷地共享彼此的码头资源和航线服务，这将极大地促进两地高端旅游业的发展。」他透露，香港中华总商会正与奇幻假期实业有限公司探讨联合开发深港双城游艇旅游路线的可能性。", "en": "Mr. Lo Kam Wah, President of the Chinese General Chamber of Commerce in Hong Kong, who attended the ceremony, stated: 'The opening of Fantastic Vacation Industrial Co., Ltd's Shenzhen headquarters is a landmark event for yachting industry cooperation between Shenzhen and Hong Kong. As waters between the two cities gradually open up, yacht enthusiasts from both sides will be able to more conveniently share each other's port resources and cruise services, which will greatly promote the development of high-end tourism in both cities.' He revealed that the Chinese General Chamber of Commerce is discussing with Fantastic Vacation Industrial Co., Ltd the possibility of jointly developing Shenzhen-Hong Kong dual-city yacht tourism routes."},
+  "news-002.920": {"zh": "奇幻假期实业有限公司深圳总部的启用也引发国际关注。摩纳哥游艇协会（MNA）主席伊莎贝拉·德·罗丝柴尔德伯爵夫人专程发来视频致辞，称赞奇幻假期实业有限公司「为亚洲游艇服务业树立了新的标准」。欧洲游艇联合会（EBI）执行董事马克·范·德·伯克也表示：「深圳总部的落成让我们看到了奇幻假期实业有限公司打造全球网络的雄心。我们期待与奇幻假期实业有限公司在标准制定、市场推广和人才培养等方面开展更深入的合作。」", "en": "The opening of the Shenzhen headquarters also attracted international attention. The Chair of the Monaco Yacht Association (MNA), Countess Isabella de Rothschild, sent a special video message praising Fantastic Vacation Industrial Co., Ltd for 'setting new standards for Asian yachting services'. The Executive Director of the European Boating Industry (EBI), Mark van der Burg, also stated: 'The completion of the Shenzhen headquarters shows us Fantastic Vacation Industrial Co., Ltd's ambition to build a global network. We look forward to deeper cooperation with Fantastic Vacation Industrial Co., Ltd in standard-setting, market promotion and talent development.'"},
+  "news-002.921": {"zh": "深圳总部的建设过程也体现了奇幻假期实业有限公司对可持续发展的重视。大厦采用海绵城市设计理念，雨水回收系统可满足大楼30%的景观用水需求；屋顶光伏装机容量达280千瓦，年发电量约30万度；所有装修材料均选用低VOC环保产品；大楼获得中国绿色建筑三星级认证。此外，大厦还配备了深圳首个游艇行业专用的污水处理设施，对停靠码头产生的含油污水进行专业处理后再排入市政管网。", "en": "The construction process of the Shenzhen headquarters also reflects Fantastic Vacation Industrial Co., Ltd's commitment to sustainable development. The building adopts a sponge city design concept, with a rainwater recycling system that can meet 30% of the building's landscape water needs; rooftop photovoltaic installations total 280 kilowatts with annual power generation of approximately 300,000 kWh; all decoration materials are low-VOC environmentally friendly products; the building has received China's Three-Star Green Building certification. Additionally, the building is equipped with Shenzhen's first dedicated sewage treatment facility for the yachting industry, professionally treating oily wastewater from docked vessels before discharging into the municipal network."},
+  "news-002.922": {"zh": "在全球化战略方面，奇幻假期实业有限公司深圳总部将作为亚太区的战略枢纽，与公司在新加坡、悉尼、迪拜、米兰和迈阿密的五个区域中心形成协同。根据公司规划，到2028年前，奇幻假期实业有限公司将在全球主要游艇目的地设立不少于15个区域服务中心，实现对全球90%以上热门游艇航区的服务覆盖。深圳总部将在这一全球网络中扮演「大脑」角色，统筹协调各区域中心的资源调配和战略执行。", "en": "In terms of globalisation strategy, the Shenzhen headquarters will serve as the strategic hub for the Asia-Pacific region, synergising with the company's five regional centres in Singapore, Sydney, Dubai, Milan and Miami. According to the company's plan, by 2028, Fantastic Vacation Industrial Co., Ltd will establish no fewer than 15 regional service centres in major global yachting destinations, achieving service coverage of over 90% of the world's popular yachting routes. The Shenzhen headquarters will play the 'brain' role in this global network, coordinating resource allocation and strategic execution across regional centres."},
+  "news-002.923": {"zh": "启用仪式当天，奇幻假期实业有限公司还宣布启动「千帆计划」——在未来三年内投入10亿元人民币，用于扩充自有游艇船队、建设智能化管理系统和培养国际认证船员。根据计划，到2028年底，奇幻假期实业有限公司托管游艇数量将从目前的120艘增至300艘，船员队伍将从450人扩充至1200人，其中具有超级游艇管理经验的高级船员占比不低于40%。", "en": "On the day of the inauguration, Fantastic Vacation Industrial Co., Ltd also announced the launch of the 'Thousand Sails Plan' — investing 1 billion RMB over the next three years to expand its own yacht fleet, build intelligent management systems and train internationally certified crew. Under the plan, by the end of 2028, Fantastic Vacation Industrial Co., Ltd's managed yachts will increase from the current 120 to 300, and the crew team will expand from 450 to 1,200, with senior crew members having superyacht management experience accounting for no less than 40%."},
+  "news-003.919": {"zh": "2026年4月28日，为期四天的第32届摩纳哥国际游艇展（Monaco International Yacht Show 2026）在赫库勒斯港圆满落幕。本届展会共吸引来自全球42个国家的628家参展商，展出超过120艘超级游艇，参观人数达38500人次。展会期间游艇订单总金额达47亿欧元，较上届增长23%，创历史新高。奇幻假期实业有限公司作为亚洲唯一受邀参展的游艇综合服务商，签下6艘超级游艇托管意向协议，总金额约2.8亿欧元，并荣获「最佳亚洲展商」大奖。", "en": "On April 28, 2026, the 32nd Monaco International Yacht Show concluded its four-day run at Port Hercule. The exhibition attracted 628 exhibitors from 42 countries, showcasing over 120 superyachts with a record 38,500 visitors. Cumulative yacht orders totalled 4.7 billion euros, a 23% increase, setting a new record. Fantastic Vacation Industrial Co., Ltd, the only Asian comprehensive yacht service provider invited to exhibit, signed agreements for 6 superyacht management contracts worth approximately 280 million euros and won the 'Best Asian Exhibitor' award."},
+  "news-003.920": {"zh": "摩纳哥国际游艇展创办于1991年，是全球规模最大、最具影响力的超级游艇专业展会。本届最大亮点是亚洲买家强势崛起，贡献了展会总成交额的41%，较五年前翻了两番多。奇幻假期实业有限公司首席商务官林浩然指出：「亚洲买家与传统欧洲买家在需求偏好上存在显著差异。欧洲客户更看重游艇的历史底蕴和工艺传承，而亚洲客户则对智能化配置、个性化定制和娱乐系统有更高要求。」", "en": "The biggest highlight of this edition was the strong rise of Asian buyers, contributing 41% of total transaction value, more than quadrupling from five years ago. Fantastic Vacation Industrial Co., Ltd CCO Lin Haoran noted: 'Asian buyers differ significantly from traditional European buyers in their preferences. European clients value heritage and craftsmanship more, while Asian clients have higher requirements for intelligent configurations, personalisation and entertainment systems.'"},
+  "news-003.921": {"zh": "新能源动力游艇成为展会最热话题。意大利阿兹姆SeaXplorer 72采用柴电混合动力，巡航半径达6500海里；荷兰Feadship的Project X是全球首艘固态电池全电动超级游艇；德国Lürssen展示了112米LNG动力巨型游艇。奇幻假期实业有限公司与多家厂商签订战略合作协议，将在两年内引进至少10艘新能源超级游艇。", "en": "New energy-powered yachts became the hottest topic. Italian Azimut's SeaXplorer 72 uses diesel-electric hybrid power with a 6,500-nautical-mile range; Dutch Feadship's Project X is the world's first solid-state battery fully electric superyacht; German Lürssen displayed a 112-metre LNG-powered mega yacht. Fantastic Vacation Industrial Co., Ltd signed strategic agreements with several manufacturers to introduce at least 10 new energy superyachts within two years."},
+  "news-003.922": {"zh": "奇幻假期实业有限公司与意大利Ferretti集团签署的五年战略合作协议成为全场焦点。奇幻假期实业有限公司将成为Ferretti集团亚太区独家代理经销商，同时双方将共同投资3000万欧元成立合资公司，首款合作产品——45米「东西融合」系列豪华游艇预计2027年下水。Ferretti集团CEO阿尔贝托·加尔维斯表示：「奇幻假期实业有限公司拥有无与伦比的亚洲市场网络和客户资源，是我们拓展亚太市场的最佳战略伙伴。」", "en": "The five-year strategic cooperation agreement between Fantastic Vacation Industrial Co., Ltd and the Italian Ferretti Group was the centrepiece. Fantastic Vacation Industrial Co., Ltd will become Ferretti Group's exclusive distributor in the Asia-Pacific region, while both parties will jointly invest 30 million euros in a joint venture. The first collaborative product — a 45-metre 'East Meets West' series luxury yacht — is expected to launch in 2027. Ferretti Group CEO Alberto Galvani stated: 'Fantastic Vacation Industrial Co., Ltd has unparalleled Asian market networks and customer resources, making it our best strategic partner for Asia-Pacific expansion.'"},
+  "news-003.923": {"zh": "在闭幕式上，奇幻假期实业有限公司被授予「最佳亚洲展商」称号。摩纳哥公国元首阿尔贝托二世亲王接见了奇幻假期实业有限公司代表团，并对公司「绿色海洋」计划表示赞赏。亲王殿下指出：「海洋是人类共同的财富，保护海洋环境是每一位航海者的责任。」", "en": "At the closing ceremony, Fantastic Vacation Industrial Co., Ltd was awarded the 'Best Asian Exhibitor' title. Monaco's Grand Master Prince Albert II personally met with the Fantastic Vacation Industrial Co., Ltd delegation and praised the company's 'Green Ocean' initiative, stating: 'The ocean is humanity's shared wealth, and protecting the marine environment is every seafarer's responsibility.'"},
+  "news-003.924": {"zh": "展会期间，奇幻假期实业有限公司还发布了「环游世界66天」超级游艇之旅产品：从摩纳哥出发，穿越苏伊士运河，经印度洋到新加坡，再到香港、东京，最后横跨太平洋抵达洛杉矶，全程约22000海里。该航线将于2027年正式推出，每期限额12位宾客，已有7位客户完成预订。", "en": "During the exhibition, Fantastic Vacation Industrial Co., Ltd launched the '66-Day Around the World' superyacht journey: from Monaco, through the Suez Canal, across the Indian Ocean to Singapore, then Hong Kong and Tokyo, finally across the Pacific to Los Angeles — approximately 22,000 nautical miles. This route will officially launch in 2027, with 12 guests per departure, and 7 clients have already booked."},
   "news-004.926": {"zh": "全球游艇行业协会（GLA）发布的《2026全球游艇市场报告》显示，2025年全球游艇市场规模达约284亿美元，较前一年增长11.3%，预计到2030年将突破420亿美元。新能源动力游艇订单量同比增长42%，首次占据新增订单总量的18%。亚洲市场以15.8%的年增长率成为全球增长最快区域，中国市场增速高达27%。", "en": "The Global Yachting Association (GLA) released the '2026 Global Yacht Market Report' showing the global yachting market reached approximately $28.4 billion in 2025, an 11.3% increase, expected to exceed $42 billion by 2030. New energy yacht orders grew 42% year-on-year, accounting for 18% of all new orders for the first time. The Asian market grew at 15.8% annually, becoming the world's fastest-growing region, with China at 27%."},
   "news-004.927": {"zh": "报告由GLA联合麦肯锡、瑞银共同编撰，历时八个月，调研了全球89个国家和地区超过2000家游艇企业。报告指出，推动市场增长的核心动力已从「财富积累效应」转向「生活方式升级需求」。超过60%的受访高净值人士有意在五年内购买或租赁游艇，较三年前高出18个百分点。", "en": "The report, compiled by GLA with McKinsey and UBS over eight months, surveyed over 2,000 yachting enterprises across 89 countries. It noted that the core growth driver has shifted from 'wealth accumulation' to 'lifestyle upgrade demand'. Over 60% of high-net-worth respondents expressed interest in purchasing or chartering a yacht within five years, 18 percentage points higher than three years ago."},
   "news-004.928": {"zh": "2025年亚洲游艇市场规模达约127亿美元，占全球份额的45%，较五年前增长近一倍。中国以约35%的亚洲市场份额位居第一，亚洲买家平均采购预算约1800万美元，较欧洲买家高出约15%。", "en": "In 2025, the Asian yachting market reached approximately $12.7 billion, 45% of the global share, nearly doubling from five years ago. China ranks first with approximately 35% of the Asian market. Asian buyers' average purchase budget is approximately $18 million, about 15% higher than European buyers."},
   "news-004.929": {"zh": "新能源游艇爆发式增长得益于三重因素：欧盟和IMO环保法规趋严；电池和电机技术快速进步；新能源汽车品牌培养了高净值人群对新能源产品的接受度。柴电混合动力是目前商业化程度最高的方案，荷兰Oceanco的55米混合动力游艇Artemis号碳排放降低38%，舱内噪音从72分贝降至52分贝。", "en": "The explosive growth of new energy yachts is driven by three factors: tightening EU and IMO environmental regulations; rapid advances in battery and motor technology; and new energy vehicle brands cultivating HNWIs' acceptance of new energy products. Diesel-electric hybrid is the most commercially mature solution; Dutch Oceanco's 55-metre hybrid yacht Artemis reduces carbon emissions by 38% and cabin noise from 72 to 52 decibels."},
-  "news-004.930": {"zh": "奇幻假期首席技术官赵明阳表示：「我们看好氢能游艇的未来，但短期内仍以混合动力为主流。公司计划2027年前将混合动力游艇在自有船队中占比提升至60%。」公司还启动了全面智能化升级，计划2027年推出自主研发的OceanX OS智能船队管理系统。", "en": "Fantastic Vacation CTO Zhao Mingyang stated: 'We are optimistic about hydrogen-powered yachts' future, but hybrid power will remain the mainstream short-term solution. The company plans to increase hybrid yachts in its owned fleet to 60% before 2027.' The company has also launched a comprehensive intelligentisation upgrade, planning to release its OceanX OS intelligent fleet management system in 2027."},
+  "news-004.930": {"zh": "奇幻假期实业有限公司首席技术官赵明阳表示：「我们看好氢能游艇的未来，但短期内仍以混合动力为主流。公司计划2027年前将混合动力游艇在自有船队中占比提升至60%。」公司还启动了全面智能化升级，计划2027年推出自主研发的OceanX OS智能船队管理系统。", "en": "Fantastic Vacation Industrial Co., Ltd CTO Zhao Mingyang stated: 'We are optimistic about hydrogen-powered yachts' future, but hybrid power will remain the mainstream short-term solution. The company plans to increase hybrid yachts in its owned fleet to 60% before 2027.' The company has also launched a comprehensive intelligentisation upgrade, planning to release its OceanX OS intelligent fleet management system in 2027."},
   "news-004.931": {"zh": "报告预测全球游艇市场将呈现五大趋势：新能源化、智能化、共享化、体验化和绿色化。到2030年，新能源动力游艇在新增订单中的占比有望突破40%；智能驾驶辅助系统将成为30米以上游艇的标准配置。", "en": "The report predicts five major trends: new energy transition, intelligentisation, sharing economy, experiential focus and green development. By 2030, new energy yachts are expected to exceed 40% of new orders; intelligent driving assistance systems will become standard on yachts over 30 metres."},
-  "news-005.933": {"zh": "2026年4月15日，奇幻假期与意大利Ferretti集团在米兰总部举行战略合作签约仪式。奇幻假期将成为Ferretti集团旗下全部七个品牌在亚太区的独家代理经销商，同时双方将共同投资3000万欧元成立合资公司。这是Ferretti集团160年历史上首次与亚洲企业达成如此深度的战略合作。", "en": "On April 15, 2026, Fantastic Vacation and the Italian Ferretti Group held a strategic cooperation signing ceremony at Ferretti's Milan headquarters. Fantastic Vacation will become the exclusive distributor for all seven Ferretti Group brands in the Asia-Pacific region, while both parties will jointly invest 30 million euros to establish a joint venture. This is the first time in Ferretti Group's 160-year history that it has entered such deep strategic cooperation with an Asian enterprise."},
-  "news-005.934": {"zh": "Ferretti集团年营收超过10亿欧元，2025年亚洲市场贡献了集团全球营收的22%。奇幻假期拥有亚洲最大的游艇买家数据库，涵盖15个国家和地区的超过5000位活跃高净值客户，这正是Ferretti选择奇幻假期的关键原因。", "en": "Ferretti Group generates annual revenue exceeding 1 billion euros, with the Asian market contributing 22% of global revenue in 2025. Fantastic Vacation possesses Asia's largest yacht buyer database, covering over 5,000 active high-net-worth clients across 15 countries and regions — the key reason Ferretti chose Fantastic Vacation."},
+  "news-005.933": {"zh": "2026年4月15日，奇幻假期实业有限公司与意大利Ferretti集团在米兰总部举行战略合作签约仪式。奇幻假期实业有限公司将成为Ferretti集团旗下全部七个品牌在亚太区的独家代理经销商，同时双方将共同投资3000万欧元成立合资公司。这是Ferretti集团160年历史上首次与亚洲企业达成如此深度的战略合作。", "en": "On April 15, 2026, Fantastic Vacation Industrial Co., Ltd and the Italian Ferretti Group held a strategic cooperation signing ceremony at Ferretti's Milan headquarters. Fantastic Vacation Industrial Co., Ltd will become the exclusive distributor for all seven Ferretti Group brands in the Asia-Pacific region, while both parties will jointly invest 30 million euros to establish a joint venture. This is the first time in Ferretti Group's 160-year history that it has entered such deep strategic cooperation with an Asian enterprise."},
+  "news-005.934": {"zh": "Ferretti集团年营收超过10亿欧元，2025年亚洲市场贡献了集团全球营收的22%。奇幻假期实业有限公司拥有亚洲最大的游艇买家数据库，涵盖15个国家和地区的超过5000位活跃高净值客户，这正是Ferretti选择奇幻假期实业有限公司的关键原因。", "en": "Ferretti Group generates annual revenue exceeding 1 billion euros, with the Asian market contributing 22% of global revenue in 2025. Fantastic Vacation Industrial Co., Ltd possesses Asia's largest yacht buyer database, covering over 5,000 active high-net-worth clients across 15 countries and regions — the key reason Ferretti chose Fantastic Vacation Industrial Co., Ltd."},
   "news-005.935": {"zh": "合资公司将在深圳设立亚洲研发中心，首期开发两款定制产品：45米「东西合璧」系列豪华游艇（融合意大利经典工艺与中国传统文化元素），预计2027年下水；65米「亚洲雄心」系列超级游艇（配备智能化中医养生舱和粤菜专业厨房），预计2028年交付。", "en": "The joint venture will establish an Asia R&D Centre in Shenzhen, initially developing two customised products: a 45-metre 'East Meets West' series luxury yacht blending Italian classic craftsmanship with Chinese cultural elements, expected to launch in 2027; and a 65-metre 'Asian Ambition' series superyacht with an intelligent TCM wellness cabin and Cantonese kitchen, expected for delivery in 2028."},
-  "news-005.936": {"zh": "协议还包含船员培训与认证合作。Ferretti集团授权奇幻假期船员培训学院使用其全球认证体系，并派遣意大利资深船长和工程师定期来华授课。首期联合培训班计划2026年第三季度开课，预计培养30名国际认证高级船员。", "en": "The agreement also includes crew training and certification cooperation. Ferretti Group authorises Fantastic Vacation's Crew Training Academy to use its global certification system and will send Italian senior captains and engineers to China for regular teaching. The first joint training class is planned for Q3 2026, expecting to train 30 internationally certified senior crew members."},
-  "news-005.937": {"zh": "瑞银游艇行业分析师弗朗索瓦·杜邦表示：「奇幻假期与Ferretti的联姻是双赢选择，有望催生年营收超过5亿美元的亚太游艇服务巨头。」消息公布后，Ferretti集团股价单日上涨8.3%，创近三年最大单日涨幅。", "en": "UBS yachting industry analyst Francois Dupont stated: 'The marriage of Fantastic Vacation and Ferretti is a win-win choice, expected to give birth to an Asia-Pacific yachting service giant with annual revenue exceeding $500 million.' Following the announcement, Ferretti Group's stock rose 8.3% in a single day, its largest single-day increase in nearly three years."},
-  "news-006.939": {"zh": "游艇生日派对正在成为全球高净值人群最追捧的庆祝方式之一。不同于传统酒店宴会，游艇派对将庆典与旅行、美食、探索融为一体，创造独一无二的沉浸式体验。奇幻假期已为超过300位客户策划执行了各类海上庆典活动。", "en": "Yacht birthday parties are becoming one of the most sought-after celebration methods among global high-net-worth individuals. Different from traditional hotel banquets, yacht parties integrate celebrations with travel, cuisine and exploration. Fantastic Vacation has planned and executed various sea celebrations for over 300 clients."},
+  "news-005.936": {"zh": "协议还包含船员培训与认证合作。Ferretti集团授权奇幻假期实业有限公司船员培训学院使用其全球认证体系，并派遣意大利资深船长和工程师定期来华授课。首期联合培训班计划2026年第三季度开课，预计培养30名国际认证高级船员。", "en": "The agreement also includes crew training and certification cooperation. Ferretti Group authorises Fantastic Vacation Industrial Co., Ltd's Crew Training Academy to use its global certification system and will send Italian senior captains and engineers to China for regular teaching. The first joint training class is planned for Q3 2026, expecting to train 30 internationally certified senior crew members."},
+  "news-005.937": {"zh": "瑞银游艇行业分析师弗朗索瓦·杜邦表示：「奇幻假期实业有限公司与Ferretti的联姻是双赢选择，有望催生年营收超过5亿美元的亚太游艇服务巨头。」消息公布后，Ferretti集团股价单日上涨8.3%，创近三年最大单日涨幅。", "en": "UBS yachting industry analyst Francois Dupont stated: 'The marriage of Fantastic Vacation Industrial Co., Ltd and Ferretti is a win-win choice, expected to give birth to an Asia-Pacific yachting service giant with annual revenue exceeding $500 million.' Following the announcement, Ferretti Group's stock rose 8.3% in a single day, its largest single-day increase in nearly three years."},
+  "news-006.939": {"zh": "游艇生日派对正在成为全球高净值人群最追捧的庆祝方式之一。不同于传统酒店宴会，游艇派对将庆典与旅行、美食、探索融为一体，创造独一无二的沉浸式体验。奇幻假期实业有限公司已为超过300位客户策划执行了各类海上庆典活动。", "en": "Yacht birthday parties are becoming one of the most sought-after celebration methods among global high-net-worth individuals. Different from traditional hotel banquets, yacht parties integrate celebrations with travel, cuisine and exploration. Fantastic Vacation Industrial Co., Ltd has planned and executed various sea celebrations for over 300 clients."},
   "news-006.940": {"zh": "选址规划是第一步。亚洲拥有得天独厚的游艇巡航资源：偏好热闹氛围可选泰国苏梅岛和印尼巴厘岛，拥有沙滩酒吧和海上浮台，适合双场景派对；追求宁静私密可选菲律宾巴拉望艾妮岛，以石灰岩峭壁和晶莹湖水闻名。", "en": "Location planning is the first step. Asia offers uniquely privileged yachting resources: for vibrant atmospheres, Koh Samui and Bali feature beach bars and sea platforms for dual-scene parties; for tranquility, El Nido in Palawan, Philippines, is famous for its limestone cliffs and crystal-clear waters."},
-  "news-006.941": {"zh": "场景布置决定派对氛围。奇幻假期建议：主色调选香槟金与象牙白营造高级感；甲板区适合悬挂花艺装置，室内适合桌面花艺和烛台组合；日落时分用暖色串灯和蜡烛，日落后切换彩色LED和激光灯效果。", "en": "Scene decoration determines the atmosphere. Fantastic Vacation recommends: champagne gold and ivory white for premium feel; hanging floral installations for deck areas, table florals and candelabras for interiors; warm string lights and candles at sunset, switching to coloured LED strips and laser effects after dark."},
-  "news-006.942": {"zh": "餐饮策划是核心环节。奇幻假期与全球超过80位米其林厨师合作，可安排随船主厨现场烹制各国美食。菜单建议：欢迎饮品配开胃小食、鱼子酱和牛塔塔松露鹅肝冻、主菜根据巡航海域选新鲜海钓鱼类龙虾或和牛、翻糖蛋糕配时令水果。", "en": "Catering planning is the core. Fantastic Vacation partners with over 80 Michelin chefs worldwide for onboard dining. Recommended menu: welcome drinks with appetisers, caviar and wagyu tartare with truffle foie gras, main course featuring fresh local catch or wagyu, fondant cake with seasonal fruits."},
+  "news-006.941": {"zh": "场景布置决定派对氛围。奇幻假期实业有限公司建议：主色调选香槟金与象牙白营造高级感；甲板区适合悬挂花艺装置，室内适合桌面花艺和烛台组合；日落时分用暖色串灯和蜡烛，日落后切换彩色LED和激光灯效果。", "en": "Scene decoration determines the atmosphere. Fantastic Vacation Industrial Co., Ltd recommends: champagne gold and ivory white for premium feel; hanging floral installations for deck areas, table florals and candelabras for interiors; warm string lights and candles at sunset, switching to coloured LED strips and laser effects after dark."},
+  "news-006.942": {"zh": "餐饮策划是核心环节。奇幻假期实业有限公司与全球超过80位米其林厨师合作，可安排随船主厨现场烹制各国美食。菜单建议：欢迎饮品配开胃小食、鱼子酱和牛塔塔松露鹅肝冻、主菜根据巡航海域选新鲜海钓鱼类龙虾或和牛、翻糖蛋糕配时令水果。", "en": "Catering planning is the core. Fantastic Vacation Industrial Co., Ltd partners with over 80 Michelin chefs worldwide for onboard dining. Recommended menu: welcome drinks with appetisers, caviar and wagyu tartare with truffle foie gras, main course featuring fresh local catch or wagyu, fondant cake with seasonal fruits."},
   "news-006.943": {"zh": "娱乐安排要「动静结合」：静态活动包括海上SPA、美甲护理、摄影写真和品酒会；动态活动可安排浮潜、水上摩托、拖曳伞、皮划艇和海钓。派对高潮通常在日落时分——点燃海上烟花配合专业DJ音乐，将氛围推向顶点。", "en": "Entertainment should combine 'dynamic and static': static activities include sea SPA, manicures, photography sessions and wine tasting; dynamic activities include snorkelling, jet skis, parasailing, kayaking and deep-sea fishing. The party climax is typically at sunset — fireworks accompanied by a professional DJ's music push the atmosphere to its peak."},
-  "news-006.944": {"zh": "安全预案不容忽视。奇幻假期标准配置包括：持国际救生证书的专业救生员、全套急救设备含AED、与海岸警卫队建立通讯联络、水上活动必须穿戴救生衣、派对区与游泳区设浮标隔离。所有宾客登船前须签署免责协议并接受安全简报。", "en": "Safety planning is indispensable. Fantastic Vacation's standard configuration includes: professional lifeguards with international certification, full first aid equipment including AED, established coast guard communication links, mandatory life jackets for water activities, buoy barriers between party and swimming areas. All guests must sign waivers and receive safety briefings before boarding."},
-  "news-007.948": {"zh": "2026年3月28日，奇幻假期探险船队「极光号」和「冰魂号」顺利返航悉尼港，完成中国商业游艇服务业首次南极商业探险巡航。航行从阿根廷乌斯怀亚出发，穿越德雷克海峡，抵达南极半岛及南设得兰群岛，航程约5800海里。CEO陈永健表示：「这不仅是一次商业航行，更是人类探索精神的致敬。我们向世界证明，中国企业有能力到达地球上最遥远的地方。」", "en": "On March 28, 2026, Fantastic Vacation's expedition fleet 'Aurora' and 'Ice Spirit' returned to Sydney Harbour, completing China's first commercial Antarctic expedition cruise. The voyage departed from Ushuaia, Argentina, crossed the Drake Passage, reached the Antarctic Peninsula and South Shetland Islands, covering approximately 5,800 nautical miles. CEO Chen Yongjian stated: 'This is not merely a commercial voyage, but a tribute to the human spirit of exploration. We have proven that Chinese enterprises can reach the most remote places on Earth.'"},
+  "news-006.944": {"zh": "安全预案不容忽视。奇幻假期实业有限公司标准配置包括：持国际救生证书的专业救生员、全套急救设备含AED、与海岸警卫队建立通讯联络、水上活动必须穿戴救生衣、派对区与游泳区设浮标隔离。所有宾客登船前须签署免责协议并接受安全简报。", "en": "Safety planning is indispensable. Fantastic Vacation Industrial Co., Ltd's standard configuration includes: professional lifeguards with international certification, full first aid equipment including AED, established coast guard communication links, mandatory life jackets for water activities, buoy barriers between party and swimming areas. All guests must sign waivers and receive safety briefings before boarding."},
+  "news-007.948": {"zh": "2026年3月28日，奇幻假期实业有限公司探险船队「极光号」和「冰魂号」顺利返航悉尼港，完成中国商业游艇服务业首次南极商业探险巡航。航行从阿根廷乌斯怀亚出发，穿越德雷克海峡，抵达南极半岛及南设得兰群岛，航程约5800海里。CEO陈永健表示：「这不仅是一次商业航行，更是人类探索精神的致敬。我们向世界证明，中国企业有能力到达地球上最遥远的地方。」", "en": "On March 28, 2026, Fantastic Vacation Industrial Co., Ltd's expedition fleet 'Aurora' and 'Ice Spirit' returned to Sydney Harbour, completing China's first commercial Antarctic expedition cruise. The voyage departed from Ushuaia, Argentina, crossed the Drake Passage, reached the Antarctic Peninsula and South Shetland Islands, covering approximately 5,800 nautical miles. CEO Chen Yongjian stated: 'This is not merely a commercial voyage, but a tribute to the human spirit of exploration. We have proven that Chinese enterprises can reach the most remote places on Earth.'"},
   "news-007.949": {"zh": "筹备工作从一年前启动，组建了15人专业团队，含三位南极航行经验外籍探险队长、两位极地科学家和九位精选船员。「极光号」为38米极地改装双引擎探险游艇，配备加固船体和防冰雷达；「冰魂号」为专用极地探险艇，配伸缩螺旋桨和加厚保温舱壁。两船均配Inmarsat卫星通讯和铱星应急定位。", "en": "Preparations began a year in advance with a 15-person professional team, including three foreign expedition leaders with Antarctic experience, two polar scientists and nine screened crew. 'Aurora' is a 38-metre polar-modified twin-engine expedition yacht with reinforced hull and ice-penetrating radar; 'Ice Spirit' is a dedicated polar expedition vessel with retractable propellers and insulated bulkheads. Both carry Inmarsat satellite communications and Iridium emergency beacons."},
   "news-007.950": {"zh": "穿越德雷克海峡是最具挑战的阶段。这片海域以恶劣天气著称，海浪常超10米。船队在3月窗口期出发，仍遭遇三天强风暴。探险队长、挪威极地航海专家埃里克·拉尔森凭借二十余次穿越经验，成功带领船队安全通过。", "en": "Crossing the Drake Passage was the most challenging phase. This body of water is notorious for severe weather, with waves frequently exceeding 10 metres. Despite departing during the March window, the fleet encountered a three-day severe storm. Expedition leader Erik Larsson, a Norwegian polar expert with over twenty Drake Passage crossings, guided the fleet through safely."},
   "news-007.951": {"zh": "驶入南极水域后，眼前的世界令人屏息：绵延冰川倾泻入海，巨大冰山呈现蓝白色调，成千上万企鹅列队行进，鲸鱼喷水柱此起彼伏。探险队在欺骗岛天然港湾抛锚——古老的火山口内部，风浪极小。队员们徒步登上火山口边缘，俯瞰海湾壮丽景色。", "en": "Entering Antarctic waters, the world was breathtaking: glaciers cascading into the sea, massive icebergs in layered blue-white tones, thousands of penguins parading on shore, whale spouts rising in the distance. The team anchored at Deception Island's natural harbour — an ancient volcanic crater with calm conditions. Members hiked to the crater rim for panoramic views."},
-  "news-007.952": {"zh": "环保是核心原则。奇幻假期严格执行《南极条约》环保议定书：所有废弃物带回船处理；登岸人员须清洁检查防外来物种入侵；与野生动物保持5米最小距离。探险期间队员们自发组织两次海滩清洁，清理约200公斤海洋塑料垃圾。", "en": "Environmental protection was the core principle. Fantastic Vacation strictly observed the Antarctic Treaty Environmental Protocol: all waste returned to ship; landing personnel cleaned and inspected gear to prevent alien species; minimum 5-metre distance from wildlife. Team members organised two beach clean-ups, removing approximately 200 kg of marine plastic."},
-  "news-007.953": {"zh": "奇幻假期已将南极航线纳入产品目录，每年3月定期发团，限额16位宾客，行程30天。2027年3月名额开售仅两小时即售罄，定价18.8万美元/人，充分证明市场热切需求。", "en": "Fantastic Vacation has added Antarctic routes to its product catalogue, departing every March with 16 guests maximum per 30-day trip. 2027 March spots sold out within two hours at $188,000 per person, demonstrating eager market demand."},
-  "news-008.954": {"zh": "新加坡以其独特地理优势、稳定政治环境和开放金融政策，迅速崛起为亚太地区最具吸引力的游艇中心。奇幻假期已在新加坡设立亚太区运营中心超过五年，深刻感受到这座城市国家在全球游艇产业格局中日益增长的影响力。", "en": "Singapore has rapidly risen to become the most attractive yachting centre in Asia-Pacific, leveraging its unique geographical advantages, stable politics and open financial policies. Fantastic Vacation has operated its Asia-Pacific Operations Centre in Singapore for over five years, deeply feeling this city-state's growing influence."},
+  "news-007.952": {"zh": "环保是核心原则。奇幻假期实业有限公司严格执行《南极条约》环保议定书：所有废弃物带回船处理；登岸人员须清洁检查防外来物种入侵；与野生动物保持5米最小距离。探险期间队员们自发组织两次海滩清洁，清理约200公斤海洋塑料垃圾。", "en": "Environmental protection was the core principle. Fantastic Vacation Industrial Co., Ltd strictly observed the Antarctic Treaty Environmental Protocol: all waste returned to ship; landing personnel cleaned and inspected gear to prevent alien species; minimum 5-metre distance from wildlife. Team members organised two beach clean-ups, removing approximately 200 kg of marine plastic."},
+  "news-007.953": {"zh": "奇幻假期实业有限公司已将南极航线纳入产品目录，每年3月定期发团，限额16位宾客，行程30天。2027年3月名额开售仅两小时即售罄，定价18.8万美元/人，充分证明市场热切需求。", "en": "Fantastic Vacation Industrial Co., Ltd has added Antarctic routes to its product catalogue, departing every March with 16 guests maximum per 30-day trip. 2027 March spots sold out within two hours at $188,000 per person, demonstrating eager market demand."},
+  "news-008.954": {"zh": "新加坡以其独特地理优势、稳定政治环境和开放金融政策，迅速崛起为亚太地区最具吸引力的游艇中心。奇幻假期实业有限公司已在新加坡设立亚太区运营中心超过五年，深刻感受到这座城市国家在全球游艇产业格局中日益增长的影响力。", "en": "Singapore has rapidly risen to become the most attractive yachting centre in Asia-Pacific, leveraging its unique geographical advantages, stable politics and open financial policies. Fantastic Vacation Industrial Co., Ltd has operated its Asia-Pacific Operations Centre in Singapore for over five years, deeply feeling this city-state's growing influence."},
   "news-008.955": {"zh": "新加坡游艇产业发展得益于多重优势：地理上扼守马六甲海峡，24小时内可达东南亚所有主要游艇目的地；气候上地处赤道无风带，全年水温26至30度，风浪小，适合全年巡航；政策上对游艇服务业开放友好，个人所得税最高税率仅22%，远低于周边国家。", "en": "Singapore's yachting development benefits from multiple advantages: geographically commanding the Malacca Strait, reaching all major Southeast Asian yachting destinations within 24 hours; climatically in the equatorial calm belt with year-round water temperatures of 26-30 degrees Celsius; and politically open to yachting services with a maximum personal income tax rate of just 22%."},
   "news-008.956": {"zh": "基础设施方面，圣淘沙One°15游艇会拥有超过200个泊位，可停靠100米超级游艇。滨海盛景城市游艇俱乐部以便利市区位置吸引中小型游艇主。大士超级码头配套项目中专门规划了游艇服务中心，预计2028年完工后将大幅提升接待能力。", "en": "Infrastructure-wise, Sentosa Cove Yacht Club has over 200 berths for superyachts up to 100 metres. Marina at Keppel Bay attracts medium and small yacht owners with convenient city-centre location. The Tuas Mega Port project includes a dedicated yacht service centre, expected to substantially enhance capacity upon 2028 completion."},
-  "news-008.957": {"zh": "游艇经纪业务增长显著。辛普森游艇年均交易额超2亿美元，英国Burlington和意大利FSY也先后在新加坡设立亚太总部。奇幻假期观察到中国内地买家成交比例持续上升，已占其新加坡业务量40%以上。", "en": "Yacht brokerage has grown significantly. Simpson Marine's annual transactions exceed $200 million. British Burlington and Italian FSY have established Asia-Pacific headquarters in Singapore. Fantastic Vacation observes mainland Chinese buyers now account for over 40% of its Singapore business."},
+  "news-008.957": {"zh": "游艇经纪业务增长显著。辛普森游艇年均交易额超2亿美元，英国Burlington和意大利FSY也先后在新加坡设立亚太总部。奇幻假期实业有限公司观察到中国内地买家成交比例持续上升，已占其新加坡业务量40%以上。", "en": "Yacht brokerage has grown significantly. Simpson Marine's annual transactions exceed $200 million. British Burlington and Italian FSY have established Asia-Pacific headquarters in Singapore. Fantastic Vacation Industrial Co., Ltd observes mainland Chinese buyers now account for over 40% of its Singapore business."},
   "news-008.958": {"zh": "游艇保险和金融服务快速完善。苏黎世保险和安联均在新加坡设亚太游艇保险团队，提供全险、战争险和租船责任险。星展银行和华侨银行开发出游艇抵押贷款产品，贷款成数最高60%，期限最长15年。", "en": "Yacht insurance and financial services are rapidly improving. Zurich Insurance and Allianz both have Asia-Pacific yacht insurance teams in Singapore. DBS Bank and OCBC have developed yacht mortgage products with loan-to-value ratios up to 60% and terms up to 15 years."},
   "news-008.959": {"zh": "新加坡政府计划将游艇服务业打造为「五个转型产业」之一，目标2030年前游艇相关产业对GDP贡献提升至10亿新元。政府正研究设立游艇自由贸易区、推出专业人才签证、简化登记检验流程等政策，进一步巩固新加坡作为亚洲游艇中心的地位。", "en": "The Singapore government plans to develop yachting as one of five 'transformation industries', targeting a GDP contribution of S$1 billion by 2030. Policies under study include a yacht free trade zone, professional talent visas and simplified registration procedures, further consolidating Singapore's position as Asia's yachting centre."},
-  "news-009.960": {"zh": "2026年3月12日，奇幻假期在深圳总部召开战略发布会，公布《2026-2028三年发展战略规划》。CEO陈永健表示：「全球游艇产业正处于前所未有的黄金发展期。我们的目标是在2028年前成为亚太地区首个营收超过5亿美元的游艇综合服务商。」", "en": "On March 12, 2026, Fantastic Vacation held a strategic press conference at its Shenzhen headquarters, unveiling the '2026-2028 Three-Year Strategic Development Plan'. CEO Chen Yongjian stated: 'The global yachting industry is in an unprecedented golden period. Our goal is to become the first Asia-Pacific yachting comprehensive service provider with revenue exceeding $500 million before 2028.'"},
+  "news-009.960": {"zh": "2026年3月12日，奇幻假期实业有限公司在深圳总部召开战略发布会，公布《2026-2028三年发展战略规划》。CEO陈永健表示：「全球游艇产业正处于前所未有的黄金发展期。我们的目标是在2028年前成为亚太地区首个营收超过5亿美元的游艇综合服务商。」", "en": "On March 12, 2026, Fantastic Vacation Industrial Co., Ltd held a strategic press conference at its Shenzhen headquarters, unveiling the '2026-2028 Three-Year Strategic Development Plan'. CEO Chen Yongjian stated: 'The global yachting industry is in an unprecedented golden period. Our goal is to become the first Asia-Pacific yachting comprehensive service provider with revenue exceeding $500 million before 2028.'"},
   "news-009.961": {"zh": "三年战略核心是「一个平台、三大引擎、五大市场」框架：全球云服务平台；船队扩张引擎、服务升级引擎、科技赋能引擎；中国大陆、东南亚、东亚、中东和南太平洋五大核心市场。计划三年内累计投入不少于18亿元人民币。", "en": "The three-year strategy centres on 'One Platform, Three Engines, Five Markets': a global cloud service platform; fleet expansion, service upgrade and technology empowerment engines; and five core markets — mainland China, Southeast Asia, East Asia, Middle East and South Pacific. The plan calls for cumulative investment of no less than 1.8 billion RMB."},
   "news-009.962": {"zh": "船队扩张方面，托管游艇从120艘扩充至350艘，自有船队从15艘增至50艘（含3艘LNG动力超级游艇）。30至50米中型游艇占比从35%提升至50%，50至80米大型游艇占比从15%提升至30%。", "en": "Fleet expansion: managed yachts from 120 to 350, owned fleet from 15 to 50 (including 3 LNG superyachts). Medium 30-50 metre yachts increase from 35% to 50%, large 50-80 metre yachts from 15% to 30%."},
   "news-009.963": {"zh": "服务升级推出「钻石会籍」计划，设翡翠、蓝宝石、钻石三等级。钻石会籍享有全年无限制使用全球100艘游艇权益（业内首创）。服务范围扩展至岸上生活体验，含直升机接送、米其林预订、私人飞机包机等。", "en": "Service upgrade launches the 'Diamond Membership' programme with Jade, Sapphire and Diamond tiers. Diamond members enjoy unlimited access to 100 yachts worldwide (an industry-first). Services expand to shore-based lifestyle experiences including helicopter transfers, Michelin reservations and private jet charters."},
   "news-009.964": {"zh": "科技赋能投入3亿元，主要包括：新一代OceanX OS船队管理平台（整合物联网、大数据和AI）；客户关系管理系统升级（机器学习推荐个性化游艇和航线）；区块链游艇资产确权系统（2027年推出）。", "en": "Technology empowerment invests 300 million RMB in: the next-generation OceanX OS fleet management platform (integrating IoT, big data and AI); CRM system upgrades with machine learning for personalised recommendations; and blockchain yacht asset confirmation system (launching 2027)."},
   "news-009.965": {"zh": "可持续发展承诺2028年实现三个「百分百」：自有船队100%获环保认证、托管船队新能源游艇占比100%、合作码头100%落实环保标准。每年营收2%注入「蓝色海洋基金」，用于海洋生态修复和极地保护研究。", "en": "Sustainability commitments for 2028: three '100%' goals — owned fleet 100% environmentally certified, managed fleet 100% new energy yachts, partner ports 100% green operating standards. 2% of annual revenue goes to the 'Blue Ocean Fund' for marine ecological restoration and polar protection research."},
-  "news-010.968": {"zh": "从摩纳哥的奢华到希腊的古韵，地中海是全球游艇爱好者心中的「终极巡航目的地」。奇幻假期根据十五年执行经验，策划了这条跨越六国、全程约3000海里的30天深度巡航全指南，涵盖航线规划、港口推荐、季节选择和预算参考。", "en": "From Monaco's opulence to Greece's ancient charm, the Mediterranean is the 'ultimate cruising destination' for yachting enthusiasts worldwide. Based on fifteen years of experience, Fantastic Vacation presents this 30-day deep-cruise guide spanning six countries and approximately 3,000 nautical miles, covering route planning, port recommendations, season selection and budget references."},
+  "news-010.968": {"zh": "从摩纳哥的奢华到希腊的古韵，地中海是全球游艇爱好者心中的「终极巡航目的地」。奇幻假期实业有限公司根据十五年执行经验，策划了这条跨越六国、全程约3000海里的30天深度巡航全指南，涵盖航线规划、港口推荐、季节选择和预算参考。", "en": "From Monaco's opulence to Greece's ancient charm, the Mediterranean is the 'ultimate cruising destination' for yachting enthusiasts worldwide. Based on fifteen years of experience, Fantastic Vacation Industrial Co., Ltd presents this 30-day deep-cruise guide spanning six countries and approximately 3,000 nautical miles, covering route planning, port recommendations, season selection and budget references."},
   "news-010.969": {"zh": "航线分五段：摩纳哥→戛纳（280海里，3天）→巴塞罗那（200海里，2天）→直布罗陀（450海里，5天）→雅典经撒丁岛、西西里岛、马耳他（900海里，10天）→爱琴海环游经米克诺斯、圣托里尼、罗德岛、博德鲁姆（650海里，10天）。各段间建议1-2天休整。", "en": "Five route segments: Monaco to Cannes (280nm, 3 days), Cannes to Barcelona (200nm, 2 days), Barcelona to Gibraltar (450nm, 5 days), Gibraltar to Athens via Sardinia, Sicily and Malta (900nm, 10 days), Athens Aegean cruise via Mykonos, Santorini, Rhodes and Bodrum (650nm, 10 days). Allow 1-2 days rest between segments."},
   "news-010.970": {"zh": "最佳季节5-10月，6-9月旺季。避开人潮可选5月中旬（薰衣草季，蔚蓝海岸最美）或9月下旬（温暖但游客散去）。10月后不建议进入，北部海域季风风浪增大。", "en": "Best season May-October, peak June-September. To avoid crowds, choose mid-May (lavender season on the Riviera) or late September (warm but fewer tourists). Not recommended after October due to monsoon season in northern waters."},
   "news-010.971": {"zh": "摩纳哥是完美起点，赫库勒斯港可停700+游艇。戛纳以电影节闻名，尼斯更悠闲。蔚蓝海岸航程海水从浅蓝到深蓝渐变，美得令人窒息。巴塞罗那是文化高点——高迪建筑、兰布拉大道和博格利亚市场不可错过，建议停留三天。", "en": "Monaco is the perfect starting point with 700+ yacht berths at Port Hercule. Cannes is famous for its film festival; Nice is more laid-back. The Riviera passage features a breathtaking sea gradient from light to deep blue. Barcelona is the cultural highlight — Gaudí's architecture, Las Ramblas and La Boqueria are unmissable; recommended 3-day stay."},
   "news-010.972": {"zh": "撒丁岛翡翠海岸是欧洲皇室和好莱坞明星最青睐的度假地，切尔沃港出发可到拉马达莱娜群岛的白沙滩。西西里岛巴勒莫融合阿拉伯、诺曼和拜占庭风格，50+世界遗产景点。陶尔米纳古希腊剧场背靠埃特纳火山，风景无与伦比。马耳他瓦莱塔是UNESCO世界遗产。", "en": "Sardinia's Costa Smeralda is favoured by European royalty and Hollywood stars; from Porto Cervo, visit La Maddalena's white beaches. Sicily's Palermo blends Arab, Norman and Byzantine styles with 50+ UNESCO sites. Taormina's ancient Greek theatre with Mount Etna backdrop is unparalleled. Malta's Valletta is a UNESCO World Heritage site."},
   "news-010.973": {"zh": "希腊爱琴海是精华所在。米克诺斯岛——「爱琴海派对之都」，有风车落日和洁白建筑。圣托里尼——从海上望悬崖上白色房屋和蓝色圆顶，是永恒经典画面。罗德岛中世纪古城是UNESCO世界遗产。土耳其博德鲁姆是最后一站，曾是七大奇迹所在地，如今是时尚海滨度假地。", "en": "The Greek Aegean is the essence of the voyage. Mykonos — the 'Party Capital of the Aegean' — with windmill sunsets and white Cycladic architecture. Santorini — cliffside white houses and blue domes are an eternal postcard classic. Rhodes' medieval old town is UNESCO-listed. Turkey's Bodrum is the final stop, once home to one of the Seven Wonders, now a fashionable seaside resort."},
-  "news-010.974": {"zh": "预算参考：25万至45万美元（6-8人中大型游艇），含游艇租赁（如共享可分摊至15-40万）、港口费（约5万）、燃油（3-8万）、餐饮服务（5-10万）、岸上活动（2万）和机票签证（1万）。奇幻假期提供从行程规划到岸上活动的全套餐服务，船上专业厨师根据各站特色烹制当地美食。", "en": "Budget reference: $250,000-$450,000 (6-8 guest mid-to-large yacht), including charter (sharable to $150,000-$400,000), port fees (~$50,000), fuel ($30,000-$80,000), dining ($50,000-$100,000), shore activities (~$20,000) and flights/visas (~$10,000). Fantastic Vacation provides full-package services with onboard chefs preparing local cuisine at each stop."},
+  "news-010.974": {"zh": "预算参考：25万至45万美元（6-8人中大型游艇），含游艇租赁（如共享可分摊至15-40万）、港口费（约5万）、燃油（3-8万）、餐饮服务（5-10万）、岸上活动（2万）和机票签证（1万）。奇幻假期实业有限公司提供从行程规划到岸上活动的全套餐服务，船上专业厨师根据各站特色烹制当地美食。", "en": "Budget reference: $250,000-$450,000 (6-8 guest mid-to-large yacht), including charter (sharable to $150,000-$400,000), port fees (~$50,000), fuel ($30,000-$80,000), dining ($50,000-$100,000), shore activities (~$20,000) and flights/visas (~$10,000). Fantastic Vacation Industrial Co., Ltd provides full-package services with onboard chefs preparing local cuisine at each stop."},
   "news.1018": { "zh": "1018", "en": "1018" },
   "news.1024": { "zh": "1024", "en": "1024" },
   "news.137": { "zh": "137", "en": "137" },
@@ -79543,15 +79543,15 @@ var dict = {
   "_alt.management.3": { "zh": "海事合规代办", "en": "Yacht Photo" },
   "_alt.management.4": { "zh": "保险理赔协助", "en": "Yacht Photo" },
   "_alt.management.5": { "zh": "资产保值规划", "en": "Yacht Photo" },
-  "_alt.news.0": { "zh": "奇幻假期荣获2026年度亚洲最佳游艇服务商大奖", "en": "Yacht Photo" },
-  "_alt.news.1": { "zh": "奇幻假期宣布进军亚太市场，香港运营中心正式启用", "en": "Yacht Photo" },
+  "_alt.news.0": { "zh": "奇幻假期实业有限公司荣获2026年度亚洲最佳游艇服务商大奖", "en": "Yacht Photo" },
+  "_alt.news.1": { "zh": "奇幻假期实业有限公司宣布进军亚太市场，香港运营中心正式启用", "en": "Yacht Photo" },
   "_alt.news.2": { "zh": "摩纳哥游艇展2026：超级游艇订单创历史新高", "en": "Yacht Photo" },
   "_alt.news.3": { "zh": "2026全球游艇市场报告：新能源动力游艇增长超40%", "en": "Yacht Photo" },
-  "_alt.news.4": { "zh": "奇幻假期与意大利Ferretti集团签署战略合作协议", "en": "Yacht Photo" },
+  "_alt.news.4": { "zh": "奇幻假期实业有限公司与意大利Ferretti集团签署战略合作协议", "en": "Yacht Photo" },
   "_alt.news.5": { "zh": "海上生活方式指南：如何策划一场完美的游艇生日派对", "en": "Yacht Photo" },
-  "_alt.news.6": { "zh": "南极探险实录：奇幻假期船队成功完成首次南极航行", "en": "Yacht Photo" },
+  "_alt.news.6": { "zh": "南极探险实录：奇幻假期实业有限公司船队成功完成首次南极航行", "en": "Yacht Photo" },
   "_alt.news.7": { "zh": "亚太游艇市场崛起：新加坡成为新兴游艇中心", "en": "Yacht Photo" },
-  "_alt.news.8": { "zh": "奇幻假期发布2026-2028三年发展战略", "en": "Yacht Photo" },
+  "_alt.news.8": { "zh": "奇幻假期实业有限公司发布2026-2028三年发展战略", "en": "Yacht Photo" },
   "_alt.news.9": { "zh": "地中海航线攻略：30天深度巡航全指南", "en": "Yacht Photo" },
   "_alt.partner-cases.0": { "zh": "Ferretti定制", "en": "FerrettiCustom" },
   "_alt.partnership.0": { "zh": "船厂合作", "en": "Yacht Photo" },
@@ -80141,7 +80141,7 @@ var dict = {
   "membership.": { "zh": "全程配备星级主厨与侍酒师，含酒单定制与食材直供", "en": "Star chef & sommelier throughout, custom wine list & premium ingredients" },
   "membership.": { "zh": "八步标准化入会流程", "en": "8-Step Standard Enrollment Process" },
   "membership.": { "zh": "关于会员申请、费用、权益等常见疑问的详细解答", "en": "Detailed answers about membership application, fees, benefits & more" },
-  "membership.": { "zh": "关于奇幻假期尊享会员俱乐部的创办愿景、核心价值与全球资源布局", "en": "About the founding vision, core values & global resource layout of our Exclusive Members Club" },
+  "membership.": { "zh": "关于奇幻假期实业有限公司尊享会员俱乐部的创办愿景、核心价值与全球资源布局", "en": "About the founding vision, core values & global resource layout of our Exclusive Members Club" },
   "membership.": { "zh": "冬季·黑卡圈层年会", "en": "Winter · Black Card Circle Annual Gala" },
   "membership.": { "zh": "准备好开启您的", "en": "Ready to embark on your" },
   "membership.": { "zh": "出行期间配备专属私人管家，从行程规划、餐饮安排到娱乐活动全流程服务", "en": "Dedicated private butler throughout: itinerary planning, dining arrangement, entertainment" },
@@ -80171,9 +80171,9 @@ var dict = {
   "membership.": { "zh": "填写基本信息，选择目标会员等级，提交申请表单", "en": "Fill in basic info, select target tier, submit application form" },
   "membership.f1": { "zh": "夏季·摩纳哥F1贵宾观赛", "en": "Summer · Monaco F1 VIP Viewing" },
   "membership.": { "zh": "大溪地 · 斐济 · 新喀里多尼亚 · 库克群岛", "en": "Tahiti · Fiji · New Caledonia · Cook Islands" },
-  "membership.": { "zh": "奇幻假期大厦 · 会员接待中心", "en": "Fantastic Vacation Building · Member Reception Center" },
-  "membership.2012": { "zh": "奇幻假期尊享会员俱乐部创立于2012年，源于一个宏大愿景——为全球最具品味的人士打造一个真正属于海洋精英的私享圈层。我们深信，海洋不仅是旅行的目的地，更是一种生活哲学的载体。", "en": "Founded in 2012 with a grand vision — creating a truly exclusive circle for the world's most discerning individuals. We believe the ocean is not just a destination, but a way of life." },
-  "membership.": { "zh": "奇幻假期尊享会员俱乐部服务条款与会员协议", "en": "Fantastic Vacation Exclusive Members Club — Service Terms & Membership Agreement" },
+  "membership.": { "zh": "奇幻假期大厦 · 会员接待中心", "en": "Fantastic Vacation Industrial Co., Ltd Building · Member Reception Center" },
+  "membership.2012": { "zh": "奇幻假期实业有限公司尊享会员俱乐部创立于2012年，源于一个宏大愿景——为全球最具品味的人士打造一个真正属于海洋精英的私享圈层。我们深信，海洋不仅是旅行的目的地，更是一种生活哲学的载体。", "en": "Founded in 2012 with a grand vision — creating a truly exclusive circle for the world's most discerning individuals. We believe the ocean is not just a destination, but a way of life." },
+  "membership.": { "zh": "奇幻假期实业有限公司尊享会员俱乐部服务条款与会员协议", "en": "Fantastic Vacation Industrial Co., Ltd Exclusive Members Club — Service Terms & Membership Agreement" },
   "membership.": { "zh": "如何申请成为尊享会员？", "en": "How do I apply for membership?" },
   "membership.": { "zh": "如果一年内未使用过服务能否退费？", "en": "Can I get a refund for unused services?" },
   "membership.": { "zh": "安排首次专属服务体验，开启海上尊享之旅", "en": "Arrange first exclusive experience, begin your maritime journey" },
@@ -80346,7 +80346,7 @@ var dict = {
   "membership.00ecadbbfdd6": { "zh": "全程配备星级主厨与侍酒师，含酒单定制与食材直供", "en": "Star chef & sommelier throughout, custom wine list & premium ingredients" },
   "membership.6419f2939289": { "zh": "八步标准化入会流程", "en": "8-Step Standard Enrollment Process" },
   "membership.072cb4075b92": { "zh": "关于会员申请、费用、权益等常见疑问的详细解答", "en": "Detailed answers about membership application, fees, benefits & more" },
-  "membership.216d2e518361": { "zh": "关于奇幻假期尊享会员俱乐部的创办愿景、核心价值与全球资源布局", "en": "About the founding vision, core values & global resource layout of our Exclusive Members Club" },
+  "membership.216d2e518361": { "zh": "关于奇幻假期实业有限公司尊享会员俱乐部的创办愿景、核心价值与全球资源布局", "en": "About the founding vision, core values & global resource layout of our Exclusive Members Club" },
   "membership.46bdf897cd98": { "zh": "冬季·黑卡圈层年会", "en": "Winter · Black Card Circle Annual Gala" },
   "membership.211509aaa6c8": { "zh": "加入会员参与活动 →", "en": "Join to Participate →" },
   "membership.e129f08a4702": { "zh": "加入我们的圈层 →", "en": "Join Our Circle →" },
@@ -80368,7 +80368,7 @@ var dict = {
   "membership.ace126290523": { "zh": "填写基本信息选择等级", "en": "Fill in basic info & select tier" },
   "membership.1cc1e85c896e": { "zh": "填写基本信息，选择目标会员等级，提交申请表单", "en": "Fill in basic info, select target tier, submit application form" },
   "membership.b184c6cd45ef": { "zh": "大溪地 · 斐济 · 新喀里多尼亚 · 库克群岛", "en": "Tahiti · Fiji · New Caledonia · Cook Islands" },
-  "membership.cd7a3e09549e": { "zh": "奇幻假期尊享会员俱乐部服务条款与会员协议", "en": "Fantastic Vacation Exclusive Members Club — Service Terms & Membership Agreement" },
+  "membership.cd7a3e09549e": { "zh": "奇幻假期实业有限公司尊享会员俱乐部服务条款与会员协议", "en": "Fantastic Vacation Industrial Co., Ltd Exclusive Members Club — Service Terms & Membership Agreement" },
   "membership.a53c1f52e667": { "zh": "如何申请成为尊享会员？", "en": "How do I apply for membership?" },
   "membership.e3f20f9ecfb8": { "zh": "如果一年内未使用过服务能否退费？", "en": "Can I get a refund for unused services?" },
   "membership.ba901ea6283e": { "zh": "钻石会员", "en": "Diamond Sail" },
@@ -80476,10 +80476,10 @@ var dict = {
   "membership.118": { "zh": "深圳市南山区望海路 118 号", "en": "118 Wanghai Road, Nanshan District, Shenzhen" },
   "membership.134418964d7f": { "zh": "海上传奇人生", "en": "Legendary Maritime Life" },
   "membership.427fff348292": { "zh": "选择适合您的", "en": "Choose the Right One for" },
-  "membership.4ec768d3d355": { "zh": "奇幻假期尊享会员俱乐部（以下简称\"本俱乐部\"）会员资格仅向符合以下条件的个人或企业开放：", "en": "Fantastic Vacation Exclusive Members Club (\"the Club\") membership is open to individuals or corporations meeting the following criteria:" },
+  "membership.4ec768d3d355": { "zh": "奇幻假期实业有限公司尊享会员俱乐部（以下简称\"本俱乐部\"）会员资格仅向符合以下条件的个人或企业开放：", "en": "Fantastic Vacation Industrial Co., Ltd Exclusive Members Club (\"the Club\") membership is open to individuals or corporations meeting the following criteria:" },
   "membership.6e2fe3ad0c0e": { "zh": "尊享会员等级", "en": "Membership Tiers" },
   "membership.84a9ab6e062a": { "zh": "为每位会员量身定制", "en": "Tailored for Every Member" },
-  "membership.a9dd7e23bd06": { "zh": "奇幻假期大厦 · 会员接待中心", "en": "Fantastic Vacation Building · Member Reception Center" },
+  "membership.a9dd7e23bd06": { "zh": "奇幻假期大厦 · 会员接待中心", "en": "Fantastic Vacation Industrial Co., Ltd Building · Member Reception Center" },
   "membership.bea78b7b6617": { "zh": "海上尊享人生了吗？", "en": "Exclusive Maritime Life?" },
   "membership.0": { "zh": "尊享会员申请 | 奇幻假期 FANTASTIC VACATION - 全球顶级游艇俱乐部", "en": "Exclusive Membership Application | Fantastic Vacation - World's Premier Yacht Club" },
   "membership.1": { "zh": "FANTASTIC VACATION", "en": "FANTASTIC VACATION" },
@@ -80487,7 +80487,7 @@ var dict = {
   "membership.5": { "zh": "FANTASTIC VACATION", "en": "FANTASTIC VACATION" },
   "membership.6": { "zh": "", "en": "" },
   "membership.7": { "zh": "", "en": "" },
-  "membership.8": { "zh": "奇幻假期", "en": "Fantastic Vacation" },
+  "membership.8": { "zh": "奇幻假期实业有限公司", "en": "Fantastic Vacation Industrial Co., Ltd" },
   "membership.9": { "zh": "👑 尊享会员俱乐部", "en": "👑 Exclusive Members Club" },
   "membership.11": { "zh": "会员申请", "en": "Membership Application" },
   "membership.13": { "zh": "专属游艇定制", "en": "Yacht Customization" },
@@ -80534,12 +80534,12 @@ var dict = {
   "membership.56": { "zh": "请确认以下信息并同意相关条款，完成会员申请", "en": "Please review and agree to the terms to complete your application" },
   "membership.57": { "zh": "您是通过什么渠道了解我们的？", "en": "How did you hear about us?" },
   "membership.58": { "zh": "推荐人姓名/会员编号（如有）", "en": "Referrer Name / Member ID (optional)" },
-  "membership.59": { "zh": "我已阅读并同意《隐私保护政策》和《会员服务条款》。我理解奇幻假期将严格保护我的个人信息，仅用于会员服务相关事宜。", "en": "I have read and agree to the Privacy Policy and Membership Terms. I understand Fantastic Vacation will protect my personal information strictly for membership services only." },
+  "membership.59": { "zh": "我已阅读并同意《隐私保护政策》和《会员服务条款》。我理解奇幻假期实业有限公司将严格保护我的个人信息，仅用于会员服务相关事宜。", "en": "I have read and agree to the Privacy Policy and Membership Terms. I understand Fantastic Vacation Industrial Co., Ltd will protect my personal information strictly for membership services only." },
   "membership.61": { "zh": "提交会员申请", "en": "Submit Application" },
   "membership.62": { "zh": "申请已提交！", "en": "Application Submitted!" },
-  "membership.63": { "zh": "感谢您申请奇幻假期尊享会员。我们的会员顾问将在24小时内与您联系，为您介绍会员权益并完成入会流程。", "en": "Thank you for applying. Our membership advisor will contact you within 24 hours to introduce your member benefits and complete the enrollment process." },
+  "membership.63": { "zh": "感谢您申请奇幻假期实业有限公司尊享会员。我们的会员顾问将在24小时内与您联系，为您介绍会员权益并完成入会流程。", "en": "Thank you for applying. Our membership advisor will contact you within 24 hours to introduce your member benefits and complete the enrollment process." },
   "membership.64": { "zh": "您现在可以返回首页浏览更多内容，或直接拨打会员专线：13797920792", "en": "You may now return to the homepage or call our membership hotline: +86 13797920792" },
-  "membership.65": { "zh": "奇幻假期", "en": "Fantastic Vacation" },
+  "membership.65": { "zh": "奇幻假期实业有限公司", "en": "Fantastic Vacation Industrial Co., Ltd" },
   "membership.66": { "zh": "FANTASTIC VACATION", "en": "FANTASTIC VACATION" },
   "membership.67": { "zh": "「探索全球，不负假期」", "en": "Explore the World, Never Waste a Holiday" },
   "membership.68": { "zh": "快速导航", "en": "Quick Links" },
@@ -80548,7 +80548,7 @@ var dict = {
   "nav.member": { "zh": "👑 尊享会员", "en": "👑 MEMBERSHIP" },
 
   "membership.100": { "zh": "主导航", "en": "Main Nav" },
-  "membership.101": { "zh": "奇幻假期 <em>FANTASTIC VACATION</em>", "en": "Fantastic Vacation <em>FANTASTIC VACATION</em>" },
+  "membership.101": { "zh": "奇幻假期实业有限公司 <em>FANTASTIC VACATION</em>", "en": "Fantastic Vacation <em>FANTASTIC VACATION</em>" },
   "membership.102": { "zh": "FANTASTIC VACATION", "en": "FANTASTIC VACATION" },
   "membership.103": { "zh": "主导航", "en": "Main Nav" },
   "membership.104": { "zh": "操作区", "en": "Actions" },

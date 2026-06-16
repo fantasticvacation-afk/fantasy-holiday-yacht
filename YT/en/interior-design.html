@@ -173,10 +173,10 @@
 <p style="font-family:'Playfair Display',serif;font-size:18 px;color:var(--gold);font-style:italic;margin:0 auto">"A great yacht is recognizable from a hundred meters away. Its silhouette, posture, and relationship with the ocean are all unique aesthetic declarations."</p>
 </div>
 
-<div class="reveal container"  >
+<div class="reveal container" >
 <h4 style="color:var(--gold);font-size:16 px;margin-bottom:16 px;border-bottom:1 px solid var(--glass-border);padding-bottom:8 px">Design Philosophy</h4>
 <p style="color:var(--text-muted);line-height:2;font-size:14 px;margin-bottom:32 px">
-Interior design is the soul of a yacht. At Fantastic Vacation, we believe yacht interiors must not only "look good" but "live well" — every material choice, every lighting design, every spatial arrangement must serve the owner's quality of life during weeks or months at sea.
+Interior design is the soul of a yacht. At Fantastic Vacation Industrial Co., Ltd, we believe yacht interiors must not only "look good" but "live well" — every material choice, every lighting design, every spatial arrangement must serve the owner's quality of life during weeks or months at sea.
 <br/><br/>
 Our interior design team brings together senior designers from Milan, Paris, and London with an average of 20+ years in superyacht interiors. Our work has been repeatedly featured in Boat International's "Best Interior" rankings.
 <br/><br/>
@@ -316,7 +316,7 @@ We maintain long-term relationships with the world's leading yacht design studio
 <li data-i18 n="index.209"><a data-i18 n="index.210" href="../../index.html">首页</a></li>
 <li data-i18 n="index.1"><a data-i18 n="index.211" href="../../about.html">关于我们</a></li>
 <li data-i18 n="index.2"><a data-i18 n="index.212" href="../../yachts.html">全系游艇</a></li>
-          <li><a href="../../membership.html" data-i18 n="footer.member" style="color:#c9 a96 e;font-weight:500">👑 尊享会员</a></li>
+ <li><a href="../../membership.html" data-i18 n="footer.member" style="color:#c9 a96 e;font-weight:500">👑 尊享会员</a></li>
 <li data-i18 n="index.3"><a data-i18 n="index.213" href="../../custom.html">全案定制</a></li>
 <li data-i18 n="index.4"><a data-i18 n="index.214" href="../../charter.html">租赁航线</a></li>
 <li data-i18 n="index.5"><a data-i18 n="index.215" href="../../management.html">托管维保</a></li>
@@ -387,8 +387,8 @@ We maintain long-term relationships with the world's leading yacht design studio
 <div class="footer-recruit" data-i18 n="index.21">
 <a class="recruit-link" data-i18 n="index.959" href="../../contact.html">
 <svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M17 21 v-2 a4 4 0 0 0-4-4 H5 a4 4 0 0 0-4 4 v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21 v-2 a4 4 0 0 0-3-3.87"></path><path d="M16 3.13 a4 4 0 0 1 0 7.75"></path></svg>
-            <span data-i18 n="_recruit">加入我们 · 招聘职位</span>
-          </a>
+ <span data-i18 n="_recruit">加入我们 · 招聘职位</span>
+ </a>
 </div>
 </div>
 </div>
@@ -410,138 +410,138 @@ We maintain long-term relationships with the world's leading yacht design studio
 <script>
 // Mobile menu toggle
 function toggleMobile(){
-    document.getElementById('mobile-menu').classList.toggle('show');
+ document.getElementById('mobile-menu').classList.toggle('show');
 }
 
 // Reveal animation
 (function(){
-    var o=new IntersectionObserver(function(entries){
-        entries.forEach(function(e){
-            if(e.isIntersecting)e.target.classList.add("revealed");
-        });
-    },{threshold:0.1});
-    document.querySelectorAll(".reveal,.reveal-left,.reveal-right,.reveal-scale").forEach(function(e){o.observe(e)});
+ var o=new IntersectionObserver(function(entries){
+ entries.forEach(function(e){
+ if(e.isIntersecting)e.target.classList.add("revealed");
+ });
+ },{threshold:0.1});
+ document.querySelectorAll(".reveal,.reveal-left,.reveal-right,.reveal-scale").forEach(function(e){o.observe(e)});
 })();
 
 // Counter animation
 (function(){
-    var counters=document.querySelectorAll(".counter");
-    var o=new IntersectionObserver(function(entries){
-        entries.forEach(function(entry){
-            if(entry.isIntersecting){
-                var el=entry.target;
-                var target=parseInt(el.getAttribute("data-count"));
-                var current=0;
-                var step=Math.ceil(target/60);
-                var timer=setInterval(function(){
-                    current+=step;
-                    if(current>=target){current=target;clearInterval(timer);}
-                    el.textContent=current.toLocaleString();
-                },30);
-                o.unobserve(el);
-            }
-        });
-    },{threshold:0.5});
-    counters.forEach(function(c){o.observe(c)});
+ var counters=document.querySelectorAll(".counter");
+ var o=new IntersectionObserver(function(entries){
+ entries.forEach(function(entry){
+ if(entry.isIntersecting){
+ var el=entry.target;
+ var target=parseInt(el.getAttribute("data-count"));
+ var current=0;
+ var step=Math.ceil(target/60);
+ var timer=setInterval(function(){
+ current+=step;
+ if(current>=target){current=target;clearInterval(timer);}
+ el.textContent=current.toLocaleString();
+ },30);
+ o.unobserve(el);
+ }
+ });
+ },{threshold:0.5});
+ counters.forEach(function(c){o.observe(c)});
 })();
 
 // Mobile menu toggle
 function toggleMobile(){
-    document.getElementById('mobile-menu').classList.toggle('show');
+ document.getElementById('mobile-menu').classList.toggle('show');
 }
 
 // Formspree AJAX - custom form
 function handleCustomSubmit(e) {
-    e.preventDefault();
-    var form = document.getElementById('customForm');
-    var btn = form.querySelector('.btn-submit');
-    var originalText = btn.innerHTML;
-    btn.disabled = true;
-    btn.innerHTML = '<span>⏳ Submitting...</span>';
-    
-    fetch(form.action, {
-        method: 'POST',
-        body: new FormData(form),
-        headers: { 'Accept': 'application/json' }
-    }).then(function(response) {
-        if (response.ok) {
-            btn.innerHTML = '<span>✓ Submitted! We'll contact you shortly.</span>';
-            btn.style.background = 'linear-gradient(135 deg,#2 d5 a27,#4 a8 c3 f)';
-            form.reset();
-        } else {
-            btn.innerHTML = '<span>Submission failed. Please contact customer service.</span>';
-            btn.style.background = '#8 b2500';
-        }
-    }).catch(function() {
-        btn.innerHTML = '<span>✓ Submitted! We'll contact you shortly.</span>';
-        btn.style.background = 'linear-gradient(135 deg,#2 d5 a27,#4 a8 c3 f)';
-        form.reset();
-    }).finally(function() {
-        setTimeout(function() {
-            btn.innerHTML = originalText;
-            btn.style.background = '';
-            btn.disabled = false;
-        }, 5000);
-    });
-    return false;
+ e.preventDefault();
+ var form = document.getElementById('customForm');
+ var btn = form.querySelector('.btn-submit');
+ var originalText = btn.innerHTML;
+ btn.disabled = true;
+ btn.innerHTML = '<span>⏳ Submitting...</span>';
+ 
+ fetch(form.action, {
+ method: 'POST',
+ body: new FormData(form),
+ headers: { 'Accept': 'application/json' }
+ }).then(function(response) {
+ if (response.ok) {
+ btn.innerHTML = '<span>✓ Submitted! We'll contact you shortly.</span>';
+ btn.style.background = 'linear-gradient(135 deg,#2 d5 a27,#4 a8 c3 f)';
+ form.reset();
+ } else {
+ btn.innerHTML = '<span>Submission failed. Please contact customer service.</span>';
+ btn.style.background = '#8 b2500';
+ }
+ }).catch(function() {
+ btn.innerHTML = '<span>✓ Submitted! We'll contact you shortly.</span>';
+ btn.style.background = 'linear-gradient(135 deg,#2 d5 a27,#4 a8 c3 f)';
+ form.reset();
+ }).finally(function() {
+ setTimeout(function() {
+ btn.innerHTML = originalText;
+ btn.style.background = '';
+ btn.disabled = false;
+ }, 5000);
+ });
+ return false;
 }
 
 // Loader hide
 window.addEventListener("DOMContentLoaded", function() {
-    var loader = document.getElementById("loader");
-    if (!loader) return;
-    var progressEl = document.getElementById("progress");
-    var progress = 0;
-    var interval = setInterval(function() {
-        progress += Math.random() * 12 + 8;
-        if (progress >= 100) {
-            progress = 100;
-            clearInterval(interval);
-            if (progressEl) progressEl.style.width = "100%";
-            setTimeout(function() {
-                if (loader) loader.style.display = "none";
-                document.body.style.overflow = "";
-            }, 400);
-        } else if (progressEl) {
-            progressEl.style.width = progress + "%";
-        }
-    }, 180);
-    setTimeout(function() {
-        clearInterval(interval);
-        if (loader) loader.style.display = "none";
-        document.body.style.overflow = "";
-    }, 5000);
+ var loader = document.getElementById("loader");
+ if (!loader) return;
+ var progressEl = document.getElementById("progress");
+ var progress = 0;
+ var interval = setInterval(function() {
+ progress += Math.random() * 12 + 8;
+ if (progress >= 100) {
+ progress = 100;
+ clearInterval(interval);
+ if (progressEl) progressEl.style.width = "100%";
+ setTimeout(function() {
+ if (loader) loader.style.display = "none";
+ document.body.style.overflow = "";
+ }, 400);
+ } else if (progressEl) {
+ progressEl.style.width = progress + "%";
+ }
+ }, 180);
+ setTimeout(function() {
+ clearInterval(interval);
+ if (loader) loader.style.display = "none";
+ document.body.style.overflow = "";
+ }, 5000);
 });
 
 // Navbar scroll
 window.addEventListener("scroll", function() {
-    var nav = document.getElementById("navbar");
-    if (nav) {
-        if (window.scrollY > 50) nav.classList.add("scrolled");
-        else nav.classList.remove("scrolled");
-    }
+ var nav = document.getElementById("navbar");
+ if (nav) {
+ if (window.scrollY > 50) nav.classList.add("scrolled");
+ else nav.classList.remove("scrolled");
+ }
 });
 
 // Mobile menu
 function toggleMobile() {
-    var menu = document.getElementById("mobile-menu");
-    var hamburger = document.querySelector(".hamburger");
-    if (menu) menu.classList.toggle("active");
-    if (hamburger) hamburger.classList.toggle("active");
+ var menu = document.getElementById("mobile-menu");
+ var hamburger = document.querySelector(".hamburger");
+ if (menu) menu.classList.toggle("active");
+ if (hamburger) hamburger.classList.toggle("active");
 }
 
 // Reveal animations
 (function() {
-    var observer = new IntersectionObserver(function(entries) {
-        entries.forEach(function(entry) {
-            if (entry.isIntersecting) {
-                entry.target.classList.add("revealed");
-            }
-        });
-    }, { threshold: 0.1 });
-    document.querySelectorAll(".reveal").forEach(function(el) {
-        observer.observe(el);
-    });
+ var observer = new IntersectionObserver(function(entries) {
+ entries.forEach(function(entry) {
+ if (entry.isIntersecting) {
+ entry.target.classList.add("revealed");
+ }
+ });
+ }, { threshold: 0.1 });
+ document.querySelectorAll(".reveal").forEach(function(el) {
+ observer.observe(el);
+ });
 })();
 
 function toggleSearch(){var s=document.getElementById("searchOverlay");if(s){s.classList.toggle("active");if(s.classList.contains("active")){setTimeout(function(){var i=document.getElementById("searchInput");if(i)i.focus()},100)}}}document.addEventListener("keydown",function(e){if(e.key==="Escape"){var s=document.getElementById("searchOverlay");if(s&&s.classList.contains("active"))s.classList.remove("active");var m=document.getElementById("mobile-menu");if(m&&m.classList.contains("active")){m.classList.remove("active");document.querySelector(".hamburger").classList.remove("active")}}});function toggleDarkMode(){document.body.classList.toggle("dark-mode");var isDark=document.body.classList.contains("dark-mode");localStorage.setItem("fv-dark",isDark?"1":"0");var moon=document.querySelector(".icon-moon");var sun=document.querySelector(".icon-sun");if(moon)moon.style.display=isDark?"none":"inline";if(sun)sun.style.display=isDark?"inline":"none"}window.addEventListener("DOMContentLoaded",function(){var isDark=localStorage.getItem("fv-dark")==="1";if(isDark){document.body.classList.add("dark-mode");var moon=document.querySelector(".icon-moon");var sun=document.querySelector(".icon-sun");if(moon)moon.style.display="none";if(sun)sun.style.display="inline"}});window.addEventListener("DOMContentLoaded",function(){document.querySelectorAll(".search-suggestion-item").forEach(function(el){el.addEventListener("click",function(){var t=this.textContent.trim();if(t.indexOf("Full Fleet")!==-1||t.indexOf("All Yachts")!==-1)window.location.href="yachts.html";else if(t.indexOf("Custom Design")!==-1||t.indexOf("Custom")!==-1)window.location.href="custom.html";else if(t.indexOf("Routes")!==-1||t.indexOf("Routes")!==-1)window.location.href="charter.html";else if(t.indexOf("Contact")!==-1||t.indexOf("Contact")!==-1||t.indexOf("Advisor")!==-1||t.indexOf("Advisor")!==-1)window.location.href="contact.html"})})});</script>
@@ -566,14 +566,14 @@ function toggleSearch(){var s=document.getElementById("searchOverlay");if(s){s.c
 <script src="../../main.js"></script>
 <script src="../../i18 n.js"></script>
 
-    <!-- Floating Contact -->
-    <a href="tel:+8613797920792" class="floating-contact" title="联系我们">
-        <span class="floating-contact-icon">
-            <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.36 11.36 0 003.58.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.58 1 1 0 01-.25 1.01l-2.2 2.2z"/></svg>
-        </span>
-        <span class="floating-contact-text">
-            <span style="display:block;opacity:0.7;font-size:0.8em;">联系热线</span>
-            <span class="floating-contact-number">+86 13797920792</span>
-        </span>
-    </a>
+ <!-- Floating Contact -->
+ <a href="tel:+8613797920792" class="floating-contact" title="联系我们">
+ <span class="floating-contact-icon">
+ <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.36 11.36 0 003.58.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.58 1 1 0 01-.25 1.01l-2.2 2.2z"/></svg>
+ </span>
+ <span class="floating-contact-text">
+ <span style="display:block;opacity:0.7;font-size:0.8em;">联系热线</span>
+ <span class="floating-contact-number">+86 13797920792</span>
+ </span>
+ </a>
 </body></html>

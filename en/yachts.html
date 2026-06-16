@@ -2,7 +2,7 @@
 <html lang="en"><head>
 <meta charset="utf-8"/><meta content="width=device-width,initial-scale=1.0" name="viewport"/>
 <title>Our Fleet | Fantastic Vacation</title>
-<meta content="Fantastic Vacation — Global luxury yacht customization, charter & management. 15 years, 200+ HNW clients, 50+ yachts across 30+ waters." name="description"/>
+<meta content="Fantastic Vacation Industrial Co., Ltd —  Global luxury yacht customization, charter & management. 15 years, 200+ HNW clients, 50+ yachts across 30+ waters." name="description"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
 <link href="../style.css" rel="stylesheet"/>
@@ -482,71 +482,71 @@
 <!-- ===== Filter JS ===== -->
 <script>
 (function(){
-  var chips = document.querySelectorAll('.filter-chip');
-  var lenSel = document.getElementById('lengthFilter');
-  var useSel = document.getElementById('useFilter');
-  var powSel = document.getElementById('powerFilter');
-  var cards = document.querySelectorAll('.fleet-card');
-  var noRes = document.getElementById('noResults');
-  var activeSeries = 'all';
+ var chips = document.querySelectorAll('.filter-chip');
+ var lenSel = document.getElementById('lengthFilter');
+ var useSel = document.getElementById('useFilter');
+ var powSel = document.getElementById('powerFilter');
+ var cards = document.querySelectorAll('.fleet-card');
+ var noRes = document.getElementById('noResults');
+ var activeSeries = 'all';
 
-  function applyFilters(){
-    var lenVal = lenSel.value;
-    var useVal = useSel.value;
-    var powVal = powSel.value;
-    var visible = 0;
-    cards.forEach(function(c){
-      var s = c.dataset.series;
-      var l = parseInt(c.dataset.len);
-      var u = c.dataset.use;
-      var p = c.dataset.power;
+ function applyFilters(){
+ var lenVal = lenSel.value;
+ var useVal = useSel.value;
+ var powVal = powSel.value;
+ var visible = 0;
+ cards.forEach(function(c){
+ var s = c.dataset.series;
+ var l = parseInt(c.dataset.len);
+ var u = c.dataset.use;
+ var p = c.dataset.power;
 
-      var match = true;
-      if(activeSeries !== 'all' && s !== activeSeries) match = false;
-      if(lenVal !== 'all'){
-        var range = lenVal.split('-');
-        if(range[1] === '+'){
-          if(l < parseInt(range[0])) match = false;
-        } else {
-          if(l < parseInt(range[0]) || l >= parseInt(range[1])) match = false;
-        }
-      }
-      if(useVal !== 'all' && u !== useVal) match = false;
-      if(powVal !== 'all' && p !== powVal) match = false;
+ var match = true;
+ if(activeSeries !== 'all' && s !== activeSeries) match = false;
+ if(lenVal !== 'all'){
+ var range = lenVal.split('-');
+ if(range[1] === '+'){
+ if(l < parseInt(range[0])) match = false;
+ } else {
+ if(l < parseInt(range[0]) || l >= parseInt(range[1])) match = false;
+ }
+ }
+ if(useVal !== 'all' && u !== useVal) match = false;
+ if(powVal !== 'all' && p !== powVal) match = false;
 
-      if(match){ c.classList.remove('hidden'); visible++; }
-      else{ c.classList.add('hidden'); }
-    });
-    if(visible === 0){ noRes.classList.remove('hidden'); }
-    else{ noRes.classList.add('hidden'); }
-  }
+ if(match){ c.classList.remove('hidden'); visible++; }
+ else{ c.classList.add('hidden'); }
+ });
+ if(visible === 0){ noRes.classList.remove('hidden'); }
+ else{ noRes.classList.add('hidden'); }
+ }
 
-  chips.forEach(function(chip){
-    chip.addEventListener('click', function(){
-      chips.forEach(function(c){ c.classList.remove('active'); });
-      chip.classList.add('active');
-      activeSeries = chip.dataset.filter;
-      applyFilters();
-    });
-  });
+ chips.forEach(function(chip){
+ chip.addEventListener('click', function(){
+ chips.forEach(function(c){ c.classList.remove('active'); });
+ chip.classList.add('active');
+ activeSeries = chip.dataset.filter;
+ applyFilters();
+ });
+ });
 
-  lenSel.addEventListener('change', applyFilters);
-  useSel.addEventListener('change', applyFilters);
-  powSel.addEventListener('change', applyFilters);
+ lenSel.addEventListener('change', applyFilters);
+ useSel.addEventListener('change', applyFilters);
+ powSel.addEventListener('change', applyFilters);
 
-  // Back to top
-  var btn = document.getElementById('backToTop');
-  window.addEventListener('scroll', function(){
-    if(window.scrollY > 400){ btn.classList.add('visible'); }
-    else{ btn.classList.remove('visible'); }
-  });
-  btn.addEventListener('click', function(){ window.scrollTo({top:0,behavior:'smooth'}); });
+ // Back to top
+ var btn = document.getElementById('backToTop');
+ window.addEventListener('scroll', function(){
+ if(window.scrollY > 400){ btn.classList.add('visible'); }
+ else{ btn.classList.remove('visible'); }
+ });
+ btn.addEventListener('click', function(){ window.scrollTo({top:0,behavior:'smooth'}); });
 })();
 </script>
 
 <!-- ===== FINAL CTA ===== -->
 <section style="padding:100px 0;text-align:center;background:var(--dark2);border-top:1px solid var(--glass-border)">
-<div class="container reveal"  >
+<div class="container reveal" >
 <h2 style="font-family:'Playfair Display',serif;font-size:clamp(24px,3vw,38px);margin-bottom:20px">Find Your<span class="gold-gradient">Dream Yacht</span></h2>
 <p style="color:var(--text-muted);font-size:15px;margin-bottom:36px">Not sure which one suits you best? Our expert advisors will match you with the optimal solution within 24 hours</p>
 <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap">
@@ -600,7 +600,7 @@
 <li data-i18n="index.209"><a data-i18n="index.210" href="../index.html">Home</a></li>
 <li data-i18n="index.1"><a data-i18n="index.211" href="../about.html">About Us</a></li>
 <li data-i18n="index.2"><a data-i18n="index.212" href="../yachts.html">All Yachts</a></li>
-          <li><a href="../membership.html" data-i18n="footer.member" style="color:#c9a96e;font-weight:500">👑 Membership</a></li>
+ <li><a href="../membership.html" data-i18n="footer.member" style="color:#c9a96e;font-weight:500">👑 Membership</a></li>
 <li data-i18n="index.3"><a data-i18n="index.213" href="../custom.html">Customization</a></li>
 <li data-i18n="index.4"><a data-i18n="index.214" href="../charter.html">Charter Routes</a></li>
 <li data-i18n="index.5"><a data-i18n="index.215" href="../management.html">Management</a></li>
@@ -671,8 +671,8 @@
 <div class="footer-recruit" data-i18n="index.21">
 <a class="recruit-link" data-i18n="index.959" href="../contact.html">
 <svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M17 21 v-2 a4 4 0 0 0-4-4 H5 a4 4 0 0 0-4 4 v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21 v-2 a4 4 0 0 0-3-3.87"></path><path d="M16 3.13 a4 4 0 0 1 0 7.75"></path></svg>
-            <span data-i18n="_recruit">Join Us · Careers</span>
-          </a>
+ <span data-i18n="_recruit">Join Us · Careers</span>
+ </a>
 </div>
 </div>
 </div>
@@ -694,14 +694,14 @@
 <button id="backToTop">↑</button>
 <script src="../main.js"></script>
 
-    <!-- Floating Contact -->
-    <a href="tel:+8613797920792" class="floating-contact" title="联系我们">
-        <span class="floating-contact-icon">
-            <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.36 11.36 0 003.58.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.58 1 1 0 01-.25 1.01l-2.2 2.2z"/></svg>
-        </span>
-        <span class="floating-contact-text">
-            <span style="display:block;opacity:0.7;font-size:0.8em;">联系热线</span>
-            <span class="floating-contact-number">+86 13797920792</span>
-        </span>
-    </a>
+ <!-- Floating Contact -->
+ <a href="tel:+8613797920792" class="floating-contact" title="联系我们">
+ <span class="floating-contact-icon">
+ <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.36 11.36 0 003.58.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.58 1 1 0 01-.25 1.01l-2.2 2.2z"/></svg>
+ </span>
+ <span class="floating-contact-text">
+ <span style="display:block;opacity:0.7;font-size:0.8em;">联系热线</span>
+ <span class="floating-contact-number">+86 13797920792</span>
+ </span>
+ </a>
 </body></html>
