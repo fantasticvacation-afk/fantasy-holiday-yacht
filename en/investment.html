@@ -11,38 +11,38 @@
 <link href="../style.css" rel="stylesheet"/>
 <link rel="icon" type="image/svg+xml" href="../favicon.svg"/>
 <style>
-.ir-hero{background:linear-gradient(135 deg,#080 e1 a 0%,#0 d1 a2 d 30%,#152238 60%,#0 d1 a2 d 100%);padding:140 px 0 80 px;text-align:center;position:relative;overflow:hidden}
+.ir-hero{background:linear-gradient(135deg,#080e1a0%,#0d1a2d 30%,#15223860%,#0d1a2d 100%);padding:140px 0 80px;text-align:center;position:relative;overflow:hidden}
 .ir-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 30% 50%,rgba(201,169,110,.08) 0%,transparent 70%)}
-.ir-hero h1{font-family:'Playfair Display',serif;font-size:clamp(32 px,5 vw,56 px);font-weight:800;color:#e8 e8 e8;margin-bottom:20 px;position:relative}
-.ir-hero p{font-size:16 px;color:rgba(255,255,255,.5);max-width:700 px;margin:0 auto 40 px;line-height:1.8;position:relative}
-.ir-badge{display:inline-block;padding:6 px 20 px;border:1 px solid rgba(201,169,110,.3);border-radius:30 px;color:#c9 a96 e;font-size:12 px;letter-spacing:2 px;text-transform:uppercase;margin-bottom:24 px}
-.ir-section{padding:80 px 0;max-width:1200 px;margin:0 auto;position:relative}
-.ir-section h2{font-family:'Playfair Display',serif;font-size:clamp(24 px,3.5 vw,40 px);font-weight:700;color:#e8 e8 e8;margin-bottom:16 px}
-.ir-section .section-sub{font-size:15 px;color:rgba(255,255,255,.45);max-width:600 px;line-height:1.8}
-.ir-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340 px,1 fr));gap:28 px;margin-top:50 px}
-.ir-card{background:rgba(255,255,255,.03);border:1 px solid rgba(255,255,255,.06);border-radius:14 px;padding:36 px;transition:all .3 s;cursor:pointer;text-decoration:none;display:block}
-.ir-card:hover{background:rgba(255,255,255,.05);border-color:rgba(201,169,110,.2);transform:translateY(-2 px)}
-.ir-card-icon{width:48 px;height:48 px;border-radius:12 px;background:rgba(201,169,110,.1);display:flex;align-items:center;justify-content:center;margin-bottom:20 px;font-size:22 px}
-.ir-card h3{font-size:18 px;font-weight:600;color:#e8 e8 e8;margin-bottom:10 px}
-.ir-card p{font-size:14 px;color:rgba(255,255,255,.45);line-height:1.7;margin:0}
-.ir-card .arrow{display:inline-flex;align-items:center;color:#c9 a96 e;font-size:13 px;font-weight:500;margin-top:16 px}
-.ir-card .arrow svg{width:16 px;height:16 px;margin-left:6 px}
-.ir-section-divider{width:60 px;height:3 px;background:linear-gradient(90 deg,#c9 a96 e,transparent);margin:30 px 0 40 px}
+.ir-hero h1{font-family:'Playfair Display',serif;font-size:clamp(32px,5vw,56px);font-weight:800;color:#e8e8e8;margin-bottom:20px;position:relative}
+.ir-hero p{font-size:16px;color:rgba(255,255,255,.5);max-width:700px;margin:0 auto 40px;line-height:1.8;position:relative}
+.ir-badge{display:inline-block;padding:6px 20px;border:1px solid rgba(201,169,110,.3);border-radius:30px;color:#c9a96e;font-size:12px;letter-spacing:2px;text-transform:uppercase;margin-bottom:24px}
+.ir-section{padding:80px 0;max-width:1200px;margin:0 auto;position:relative}
+.ir-section h2{font-family:'Playfair Display',serif;font-size:clamp(24px,3.5vw,40px);font-weight:700;color:#e8e8e8;margin-bottom:16px}
+.ir-section .section-sub{font-size:15px;color:rgba(255,255,255,.45);max-width:600px;line-height:1.8}
+.ir-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:28px;margin-top:50px}
+.ir-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:14px;padding:36px;transition:all .3s;cursor:pointer;text-decoration:none;display:block}
+.ir-card:hover{background:rgba(255,255,255,.05);border-color:rgba(201,169,110,.2);transform:translateY(-2px)}
+.ir-card-icon{width:48px;height:48px;border-radius:12px;background:rgba(201,169,110,.1);display:flex;align-items:center;justify-content:center;margin-bottom:20px;font-size:22px}
+.ir-card h3{font-size:18px;font-weight:600;color:#e8e8e8;margin-bottom:10px}
+.ir-card p{font-size:14px;color:rgba(255,255,255,.45);line-height:1.7;margin:0}
+.ir-card .arrow{display:inline-flex;align-items:center;color:#c9a96e;font-size:13px;font-weight:500;margin-top:16px}
+.ir-card .arrow svg{width:16px;height:16px;margin-left:6px}
+.ir-section-divider{width:60px;height:3px;background:linear-gradient(90deg,#c9a96e,transparent);margin:30px 0 40px}
 
 /* Breadcrumb */
-.ir-breadcrumb{padding:20 px 0 0;max-width:1200 px;margin:0 auto;font-size:13 px;color:rgba(255,255,255,.35)}
+.ir-breadcrumb{padding:20px 0 0;max-width:1200px;margin:0 auto;font-size:13px;color:rgba(255,255,255,.35)}
 .ir-breadcrumb a{color:rgba(255,255,255,.45);text-decoration:none}
-.ir-breadcrumb a:hover{color:#c9 a96 e}
-.ir-breadcrumb span{color:rgba(255,255,255,.25);margin:0 8 px}
+.ir-breadcrumb a:hover{color:#c9a96e}
+.ir-breadcrumb span{color:rgba(255,255,255,.25);margin:0 8px}
 
 /* Tables */
-.ir-table{width:100%;border-collapse:collapse;margin:30 px 0;font-size:14 px}
-.ir-table th{text-align:left;padding:14 px 16 px;border-bottom:2 px solid rgba(201,169,110,.2);color:#c9 a96 e;font-weight:600;font-size:12 px;letter-spacing:1 px;text-transform:uppercase}
-.ir-table td{padding:14 px 16 px;border-bottom:1 px solid rgba(255,255,255,.06);color:rgba(255,255,255,.7)}
+.ir-table{width:100%;border-collapse:collapse;margin:30px 0;font-size:14px}
+.ir-table th{text-align:left;padding:14px 16px;border-bottom:2px solid rgba(201,169,110,.2);color:#c9a96e;font-weight:600;font-size:12px;letter-spacing:1px;text-transform:uppercase}
+.ir-table td{padding:14px 16px;border-bottom:1px solid rgba(255,255,255,.06);color:rgba(255,255,255,.7)}
 .ir-table tr:hover td{background:rgba(255,255,255,.02)}
 </style>
 </head><body>
-<div id="loader"><div style="color:#c9 a96 e">LOADING...</div></div>
+<div id="loader"><div style="color:#c9a96e">LOADING...</div></div>
 <nav id="navbar" aria-label="Main Navigation">
 <div class="nav-inner">
 <a class="nav-logo" href="index.html" aria-label="Fantastic Vacation Industrial Co.Home">
@@ -163,18 +163,18 @@
 <a class="mobile-nav-link mobile-primary" href="membership.html" data-i18 n="nav.member">👑 Membership</a>
 <a class="mobile-nav-link mobile-cta" href="contact.html" data-i18 n="nav.contact">Contact Us</a>
 <div class="mobile-menu-footer">
-<a class="mobile-nav-link" href="../investment.html" id="mobileLangSwitch" style="border:1 px solid rgba(201,169,110,0.3);border-radius:6 px;display:inline-block;padding:12 px 24 px;color:#c9 a96 e;font-weight:600;margin-bottom:16 px">🌐 English Version</a>
+<a class="mobile-nav-link" href="../investment.html" id="mobileLangSwitch" style="border:1px solid rgba(201,169,110,0.3);border-radius:6px;display:inline-block;padding:12px 24px;color:#c9a96e;font-weight:600;margin-bottom:16px">🌐 English Version</a>
 <span>Phone：13797920792 / +86 0755 3353-0188</span>
 <span>Email：hs@fantastic-vacation.com</span>
 </div>
 </div>
 
 <div class="ir-section" style="text-align:center">
-  <div class="ir-section-divider" style="margin:30 px auto 40 px"></div>
+  <div class="ir-section-divider" style="margin:30px auto 40px"></div>
   <h2 data-i18 n="invest.461 d8 df2 fd4 b">Latest Announcements</h2>
   <p class="section-sub" data-i18 n="invest.745 b0786 b5 e0">View the latest material announcements from the company、Business Updates &Investor RelationsAnnouncement</p>
-  <div style="margin-top:40 px">
-    <a href="ir-announcements.html" style="display:inline-block;padding:16 px 48 px;background:linear-gradient(135 deg,#a07850,#c9 a96 e);color:#0 a0 e18;border-radius:40 px;font-size:15 px;font-weight:600;text-decoration:none;transition:all .3 s" data-i18 n="invest.f2 b987 f202 f7">View AllAnnouncement →</a>
+  <div style="margin-top:40px">
+    <a href="ir-announcements.html" style="display:inline-block;padding:16px 48px;background:linear-gradient(135deg,#a07850,#c9a96e);color:#0a0e18;border-radius:40px;font-size:15px;font-weight:600;text-decoration:none;transition:all .3s" data-i18 n="invest.f2 b987 f202 f7">View AllAnnouncement →</a>
   </div>
 </div>
 <footer data-i18 n="index.965" id="footer">
@@ -221,7 +221,7 @@
 <li data-i18 n="index.209"><a data-i18 n="index.210" href="../index.html">首页</a></li>
 <li data-i18 n="index.1"><a data-i18 n="index.211" href="../about.html">关于我们</a></li>
 <li data-i18 n="index.2"><a data-i18 n="index.212" href="../yachts.html">全系游艇</a></li>
-          <li><a href="../membership.html" data-i18 n="footer.member" style="color:#c9 a96 e;font-weight:500">👑 尊享会员</a></li>
+          <li><a href="../membership.html" data-i18 n="footer.member" style="color:#c9a96e;font-weight:500">👑 尊享会员</a></li>
 <li data-i18 n="index.3"><a data-i18 n="index.213" href="../custom.html">全案定制</a></li>
 <li data-i18 n="index.4"><a data-i18 n="index.214" href="../charter.html">租赁航线</a></li>
 <li data-i18 n="index.5"><a data-i18 n="index.215" href="../management.html">托管维保</a></li>

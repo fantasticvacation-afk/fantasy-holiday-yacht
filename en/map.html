@@ -15,10 +15,10 @@
   95%{opacity:0;visibility:hidden}
   100%{display:none}
 }
-#loader{animation:autoHideLoader 6 s ease-in-out forwards}
+#loader{animation:autoHideLoader 6s ease-in-out forwards}
 #loader.hidden,#loader[style*="display:none"]{animation:none!important;display:none!important}
 </style>
-<style>.map-hero{position:relative;min-height:70 vh;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(135 deg,#0 a1628 0%,#1 a2 a48 50%,#0 d1 a2 d 100%)}.map-hero h1{font-family:'Playfair Display',serif;font-size:clamp(32 px,5 vw,56 px);font-weight:800;letter-spacing:3 px;margin-bottom:16 px}.map-hero p{font-size:16 px;color:rgba(200,210,225,0.6);max-width:600 px;margin:0 auto}.section-map{padding:80 px 0}.region-grid{display:grid;grid-template-columns:repeat(3,1 fr);gap:24 px}.region-card{background:linear-gradient(145 deg,rgba(255,255,255,0.02),rgba(255,255,255,0.005));border:1 px solid rgba(201,169,110,0.08);border-radius:16 px;padding:32 px;transition:all 0.3 s}.region-card:hover{border-color:rgba(201,169,110,0.25);transform:translateY(-4 px)}.region-card h3{font-family:'Playfair Display',serif;font-size:20 px;font-weight:700;color:#c9 a96 e;margin-bottom:16 px}.region-card ul{list-style:none;padding:0}.region-card li{font-size:13 px;color:rgba(200,210,225,0.6);line-height:1.8;padding-left:16 px;position:relative}.region-card li::before{content:'⚓';position:absolute;left:0;font-size:10 px}.stats-banner{background:linear-gradient(90 deg,rgba(201,169,110,0.08),rgba(201,169,110,0.02));padding:48 px 0;margin:60 px 0}.stats-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(140 px,1 fr));gap:20 px;max-width:1000 px;margin:0 auto}.stat-item{text-align:center}.stat-num{font-family:'Playfair Display',serif;font-size:48 px;font-weight:800;color:#c9 a96 e}.stat-label{font-size:12 px;color:rgba(200,210,225,0.5);margin-top:8 px;letter-spacing:1 px}@media (max-width:1024 px){.region-grid{grid-template-columns:repeat(auto-fit,minmax(350 px,1 fr))}}@media (max-width:640 px){.region-grid{grid-template-columns:1 fr}.stats-row{gap:32 px}}
+<style>.map-hero{position:relative;min-height:70vh;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(135deg,#0a16280%,#1a2a4850%,#0d1a2d 100%)}.map-hero h1{font-family:'Playfair Display',serif;font-size:clamp(32px,5vw,56px);font-weight:800;letter-spacing:3px;margin-bottom:16px}.map-hero p{font-size:16px;color:rgba(200,210,225,0.6);max-width:600px;margin:0 auto}.section-map{padding:80px 0}.region-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.region-card{background:linear-gradient(145deg,rgba(255,255,255,0.02),rgba(255,255,255,0.005));border:1px solid rgba(201,169,110,0.08);border-radius:16px;padding:32px;transition:all 0.3s}.region-card:hover{border-color:rgba(201,169,110,0.25);transform:translateY(-4px)}.region-card h3{font-family:'Playfair Display',serif;font-size:20px;font-weight:700;color:#c9a96e;margin-bottom:16px}.region-card ul{list-style:none;padding:0}.region-card li{font-size:13px;color:rgba(200,210,225,0.6);line-height:1.8;padding-left:16px;position:relative}.region-card li::before{content:'⚓';position:absolute;left:0;font-size:10px}.stats-banner{background:linear-gradient(90deg,rgba(201,169,110,0.08),rgba(201,169,110,0.02));padding:48px 0;margin:60px 0}.stats-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:20px;max-width:1000px;margin:0 auto}.stat-item{text-align:center}.stat-num{font-family:'Playfair Display',serif;font-size:48px;font-weight:800;color:#c9a96e}.stat-label{font-size:12px;color:rgba(200,210,225,0.5);margin-top:8px;letter-spacing:1px}@media (max-width:1024px){.region-grid{grid-template-columns:repeat(auto-fit,minmax(350px,1fr))}}@media (max-width:640px){.region-grid{grid-template-columns:1fr}.stats-row{gap:32px}}
 </style>  <link rel="icon" type="image/svg+xml" href="../favicon.svg"/></head><body>
 <div id="loader"><div class="brand" data-i18 n="map.10">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div></div>
 <nav id="navbar" aria-label="Main Navigation">
@@ -141,7 +141,7 @@
 <a class="mobile-nav-link mobile-primary" href="membership.html" data-i18 n="nav.member">👑 Membership</a>
 <a class="mobile-nav-link mobile-cta" href="contact.html" data-i18 n="nav.contact">Contact Us</a>
 <div class="mobile-menu-footer">
-<a class="mobile-nav-link" href="../map.html" id="mobileLangSwitch" style="border:1 px solid rgba(201,169,110,0.3);border-radius:6 px;display:inline-block;padding:12 px 24 px;color:#c9 a96 e;font-weight:600;margin-bottom:16 px">🌐 中文</a>
+<a class="mobile-nav-link" href="../map.html" id="mobileLangSwitch" style="border:1px solid rgba(201,169,110,0.3);border-radius:6px;display:inline-block;padding:12px 24px;color:#c9a96e;font-weight:600;margin-bottom:16px">🌐 中文</a>
 <span>Tel: 13797920792 / +86 0755 3353-0188</span>
 <span>Email: hs@fantastic-vacation.com</span>
 </div>
@@ -204,7 +204,7 @@
 <li data-i18 n="index.209"><a data-i18 n="index.210" href="../index.html">首页</a></li>
 <li data-i18 n="index.1"><a data-i18 n="index.211" href="../about.html">关于我们</a></li>
 <li data-i18 n="index.2"><a data-i18 n="index.212" href="../yachts.html">全系游艇</a></li>
-          <li><a href="../membership.html" data-i18 n="footer.member" style="color:#c9 a96 e;font-weight:500">👑 尊享会员</a></li>
+          <li><a href="../membership.html" data-i18 n="footer.member" style="color:#c9a96e;font-weight:500">👑 尊享会员</a></li>
 <li data-i18 n="index.3"><a data-i18 n="index.213" href="../custom.html">全案定制</a></li>
 <li data-i18 n="index.4"><a data-i18 n="index.214" href="../charter.html">租赁航线</a></li>
 <li data-i18 n="index.5"><a data-i18 n="index.215" href="../management.html">托管维保</a></li>

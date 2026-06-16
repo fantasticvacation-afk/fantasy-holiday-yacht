@@ -17,36 +17,36 @@
   95%{opacity:0;visibility:hidden}
   100%{display:none}
 }
-#loader{animation:autoHideLoader 6 s ease-in-out forwards}
+#loader{animation:autoHideLoader 6s ease-in-out forwards}
 #loader.hidden,#loader[style*="display:none"]{animation:none!important;display:none!important}
 </style>
 <style>
-.form-hero{position:relative;min-height:50 vh;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(135 deg,#0 a1628 0%,#1 a2 a48 50%,#2 d1810 100%)}
-.form-hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:150 px;background:linear-gradient(to top,var(--dark1),transparent)}
-.breadcrumb{font-size:12 px;color:var(--text-muted);margin-bottom:20 px;letter-spacing:1 px}
+.form-hero{position:relative;min-height:50vh;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(135deg,#0a16280%,#1a2a4850%,#2d1810100%)}
+.form-hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:150px;background:linear-gradient(to top,var(--dark1),transparent)}
+.breadcrumb{font-size:12px;color:var(--text-muted);margin-bottom:20px;letter-spacing:1px}
 .breadcrumb a{color:var(--gold);text-decoration:none}
 
-.apply-form{max-width:1200 px;margin:0 auto;background:rgba(255,255,255,0.02);border:1 px solid rgba(201,169,110,0.1);border-radius:20 px;padding:48 px}
-.form-section{margin-bottom:32 px}
-.form-section h3{font-size:16 px;font-weight:600;margin-bottom:20 px;padding-bottom:12 px;border-bottom:1 px solid rgba(201,169,110,0.1)}
-.form-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(280 px,1 fr));gap:24 px;margin-bottom:20 px}
-.form-group{margin-bottom:20 px}
-.form-group label{display:block;font-size:12 px;color:var(--text-muted);margin-bottom:8 px;letter-spacing:0.5 px}
-.form-group input,.form-group select,.form-group textarea{width:100%;padding:14 px 16 px;background:rgba(255,255,255,0.03);border:1 px solid rgba(201,169,110,0.15);border-radius:10 px;font-size:14 px;color:var(--text);transition:all 0.3 s;font-family:inherit}
+.apply-form{max-width:1200px;margin:0 auto;background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.1);border-radius:20px;padding:48px}
+.form-section{margin-bottom:32px}
+.form-section h3{font-size:16px;font-weight:600;margin-bottom:20px;padding-bottom:12px;border-bottom:1px solid rgba(201,169,110,0.1)}
+.form-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;margin-bottom:20px}
+.form-group{margin-bottom:20px}
+.form-group label{display:block;font-size:12px;color:var(--text-muted);margin-bottom:8px;letter-spacing:0.5px}
+.form-group input,.form-group select,.form-group textarea{width:100%;padding:14px 16px;background:rgba(255,255,255,0.03);border:1px solid rgba(201,169,110,0.15);border-radius:10px;font-size:14px;color:var(--text);transition:all 0.3s;font-family:inherit}
 .form-group input:focus,.form-group select:focus,.form-group textarea:focus{outline:none;border-color:var(--gold);background:rgba(255,255,255,0.05)}
-.form-group textarea{min-height:120 px;resize:vertical}
-.form-group select{cursor:pointer;appearance:none;background-image:url("data:image/svg+xml,%3 Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%23 c9 a96 e' viewBox='0 0 16 16'%3 E%3 Cpath d='M8 11 L3 6 h10 l-5 5 z'/%3 E%3 C/svg%3 E");background-repeat:no-repeat;background-position:right 16 px center}
+.form-group textarea{min-height:120px;resize:vertical}
+.form-group select{cursor:pointer;appearance:none;background-image:url("data:image/svg+xml,%3 Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%23 c9 a96 e' viewBox='0 0 16 16'%3 E%3 Cpath d='M8 11 L3 6 h10 l-5 5 z'/%3 E%3 C/svg%3 E");background-repeat:no-repeat;background-position:right 16px center}
 .form-group select option{background:var(--dark2);color:var(--text)}
-.checkbox-group{display:flex;flex-wrap:wrap;gap:12 px}
-.checkbox-item{display:flex;align-items:center;gap:8 px;padding:10 px 16 px;background:rgba(255,255,255,0.03);border:1 px solid rgba(201,169,110,0.1);border-radius:8 px;cursor:pointer;transition:all 0.3 s}
+.checkbox-group{display:flex;flex-wrap:wrap;gap:12px}
+.checkbox-item{display:flex;align-items:center;gap:8px;padding:10px 16px;background:rgba(255,255,255,0.03);border:1px solid rgba(201,169,110,0.1);border-radius:8px;cursor:pointer;transition:all 0.3s}
 .checkbox-item:hover{border-color:rgba(201,169,110,0.3)}
-.checkbox-item input{width:16 px;height:16 px;accent-color:var(--gold)}
-.checkbox-item span{font-size:13 px}
-.form-note{font-size:12 px;color:var(--text-dim);margin-top:16 px;padding:12 px;background:rgba(201,169,110,0.05);border-radius:8 px;line-height:1.6}
-.form-submit{text-align:center;margin-top:40 px}
-.form-submit button{padding:16 px 48 px;font-size:14 px;letter-spacing:1 px}
-.form-contact-info{margin-top:32 px;padding-top:24 px;border-top:1 px solid rgba(201,169,110,0.1);text-align:center}
-.form-contact-info p{font-size:13 px;color:var(--text-muted);margin-bottom:8 px}
+.checkbox-item input{width:16px;height:16px;accent-color:var(--gold)}
+.checkbox-item span{font-size:13px}
+.form-note{font-size:12px;color:var(--text-dim);margin-top:16px;padding:12px;background:rgba(201,169,110,0.05);border-radius:8px;line-height:1.6}
+.form-submit{text-align:center;margin-top:40px}
+.form-submit button{padding:16px 48px;font-size:14px;letter-spacing:1px}
+.form-contact-info{margin-top:32px;padding-top:24px;border-top:1px solid rgba(201,169,110,0.1);text-align:center}
+.form-contact-info p{font-size:13px;color:var(--text-muted);margin-bottom:8px}
 .form-contact-info a{color:var(--gold);text-decoration:none}
 </style>
   <link rel="icon" type="image/svg+xml" href="../favicon.svg"/></head>
@@ -172,7 +172,7 @@
 <a class="mobile-nav-link mobile-primary" href="membership.html" data-i18 n="nav.member">👑 Membership</a>
 <a class="mobile-nav-link mobile-cta" href="contact.html" data-i18 n="nav.contact">Contact Us</a>
 <div class="mobile-menu-footer">
-<a class="mobile-nav-link" href="../partner-apply.html" id="mobileLangSwitch" style="border:1 px solid rgba(201,169,110,0.3);border-radius:6 px;display:inline-block;padding:12 px 24 px;color:#c9 a96 e;font-weight:600;margin-bottom:16 px">🌐 English Version</a>
+<a class="mobile-nav-link" href="../partner-apply.html" id="mobileLangSwitch" style="border:1px solid rgba(201,169,110,0.3);border-radius:6px;display:inline-block;padding:12px 24px;color:#c9a96e;font-weight:600;margin-bottom:16px">🌐 English Version</a>
 <span>Phone：13797920792 / +86 0755 3353-0188</span>
 <span>Email：hs@fantastic-vacation.com</span>
 </div>
@@ -278,7 +278,7 @@
 <li data-i18 n="index.209"><a data-i18 n="index.210" href="../index.html">首页</a></li>
 <li data-i18 n="index.1"><a data-i18 n="index.211" href="../about.html">关于我们</a></li>
 <li data-i18 n="index.2"><a data-i18 n="index.212" href="../yachts.html">全系游艇</a></li>
-          <li><a href="../membership.html" data-i18 n="footer.member" style="color:#c9 a96 e;font-weight:500">👑 尊享会员</a></li>
+          <li><a href="../membership.html" data-i18 n="footer.member" style="color:#c9a96e;font-weight:500">👑 尊享会员</a></li>
 <li data-i18 n="index.3"><a data-i18 n="index.213" href="../custom.html">全案定制</a></li>
 <li data-i18 n="index.4"><a data-i18 n="index.214" href="../charter.html">租赁航线</a></li>
 <li data-i18 n="index.5"><a data-i18 n="index.215" href="../management.html">托管维保</a></li>

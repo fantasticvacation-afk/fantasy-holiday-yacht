@@ -7,41 +7,41 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
 <link href="../style.css" rel="stylesheet"/>
 <style>
-#loader{position:fixed;inset:0;background:#080 e1 a;display:flex;align-items:center;justify-content:center;z-index:9999;transition:opacity 0.6 s,visibility 0.6 s}
+#loader{position:fixed;inset:0;background:#080e1a;display:flex;align-items:center;justify-content:center;z-index:9999;transition:opacity 0.6s,visibility 0.6s}
 #loader.hidden{opacity:0;visibility:hidden}
-#loader .brand{font-family:'Playfair Display',serif;font-size:clamp(24 px,4 vw,42 px);color:#c9 a96 e;margin-bottom:40 px;animation:fadeUp 1 s 0.3 s forwards;opacity:0}
-@keyframes fadeUp{from{opacity:0;transform:translateY(20 px)}to{opacity:1;transform:translateY(0)}}
-.custom-hero{position:relative;padding:180 px 0 100 px;text-align:center;background:linear-gradient(180 deg,var(--dark1) 0%,var(--dark2) 100%);overflow:hidden}
+#loader .brand{font-family:'Playfair Display',serif;font-size:clamp(24px,4vw,42px);color:#c9a96e;margin-bottom:40px;animation:fadeUp 1s 0.3s forwards;opacity:0}
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.custom-hero{position:relative;padding:180px 0 100px;text-align:center;background:linear-gradient(180deg,var(--dark1) 0%,var(--dark2) 100%);overflow:hidden}
 .custom-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%,rgba(201,169,110,0.08) 0%,transparent 70%)}
-.custom-hero-content{position:relative;z-index:2;max-width:800 px;margin:0 auto;padding:0 24 px}
-.custom-hero h1{font-size:clamp(32 px,5 vw,60 px);line-height:1.2;margin-bottom:12 px}
-.design-quote{font-family:'Playfair Display',serif;font-size:clamp(18 px,2.5 vw,28 px);color:var(--gold);font-style:italic;line-height:1.5;max-width:700 px;margin:0 auto 24 px}
-.flow-visual{display:flex;justify-content:center;gap:0;flex-wrap:wrap;align-items:flex-start;margin-top:32 px;position:relative}
-.flow-node{flex:0 0 auto;text-align:center;padding:16 px 8 px;min-width:110 px;position:relative}
-.flow-node-icon{width:56 px;height:56 px;border-radius:50%;background:rgba(201,169,110,0.1);border:2 px solid rgba(201,169,110,0.3);display:flex;align-items:center;justify-content:center;margin:0 auto 10 px;font-size:24 px}
-.flow-node-num{position:absolute;top:-6 px;right:-6 px;width:22 px;height:22 px;background:var(--gold);border-radius:50%;font-size:11 px;color:var(--dark1);display:flex;align-items:center;justify-content:center;font-weight:700}
-.flow-node h5{font-size:13 px;color:var(--gold);margin-bottom:4 px}
-.flow-node p{font-size:10 px;color:var(--text-dim);line-height:1.5}
-.flow-connector{color:var(--gold);font-size:18 px;padding-top:24 px}
-@media(max-width:768 px){.flow-visual{gap:8 px}.flow-connector{display:none}}
-.design-module{background:var(--card);border:1 px solid var(--glass-border);border-radius:var(--radius);padding:40 px 30 px;transition:var(--transition);position:relative;overflow:hidden}
-.design-module:hover{transform:translateY(-6 px);border-color:rgba(201,169,110,0.3);box-shadow:var(--shadow-gold)}
-.design-module::before{content:'';position:absolute;top:0;left:0;right:0;height:3 px;background:linear-gradient(90 deg,transparent,var(--gold),transparent);opacity:0;transition:opacity 0.4 s}
+.custom-hero-content{position:relative;z-index:2;max-width:800px;margin:0 auto;padding:0 24px}
+.custom-hero h1{font-size:clamp(32px,5vw,60px);line-height:1.2;margin-bottom:12px}
+.design-quote{font-family:'Playfair Display',serif;font-size:clamp(18px,2.5vw,28px);color:var(--gold);font-style:italic;line-height:1.5;max-width:700px;margin:0 auto 24px}
+.flow-visual{display:flex;justify-content:center;gap:0;flex-wrap:wrap;align-items:flex-start;margin-top:32px;position:relative}
+.flow-node{flex:0 0 auto;text-align:center;padding:16px 8px;min-width:110px;position:relative}
+.flow-node-icon{width:56px;height:56px;border-radius:50%;background:rgba(201,169,110,0.1);border:2px solid rgba(201,169,110,0.3);display:flex;align-items:center;justify-content:center;margin:0 auto 10px;font-size:24px}
+.flow-node-num{position:absolute;top:-6px;right:-6px;width:22px;height:22px;background:var(--gold);border-radius:50%;font-size:11px;color:var(--dark1);display:flex;align-items:center;justify-content:center;font-weight:700}
+.flow-node h5{font-size:13px;color:var(--gold);margin-bottom:4px}
+.flow-node p{font-size:10px;color:var(--text-dim);line-height:1.5}
+.flow-connector{color:var(--gold);font-size:18px;padding-top:24px}
+@media(max-width:768px){.flow-visual{gap:8px}.flow-connector{display:none}}
+.design-module{background:var(--card);border:1px solid var(--glass-border);border-radius:var(--radius);padding:40px 30px;transition:var(--transition);position:relative;overflow:hidden}
+.design-module:hover{transform:translateY(-6px);border-color:rgba(201,169,110,0.3);box-shadow:var(--shadow-gold)}
+.design-module::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,transparent,var(--gold),transparent);opacity:0;transition:opacity 0.4s}
 .design-module:hover::before{opacity:1}
-.design-module-icon{font-size:36 px;margin-bottom:16 px}
-.design-module h3{font-size:18 px;color:var(--gold);margin-bottom:10 px}
-.design-module p{font-size:13 px;color:var(--text-muted);line-height:1.7;margin-bottom:6 px}
-.design-module .partner-note{font-size:11 px;color:var(--text-dim);margin-bottom:14 px}
-.design-module .cta-sm{font-size:11 px;color:var(--gold);letter-spacing:1 px;text-transform:uppercase}
-.case-entry-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280 px,1 fr));gap:20 px;margin-top:32 px}
-.case-entry{background:var(--card);border:1 px solid var(--glass-border);border-radius:var(--radius);overflow:hidden;transition:var(--transition);cursor:pointer}
-.case-entry:hover{transform:translateY(-4 px);border-color:rgba(201,169,110,0.3)}
+.design-module-icon{font-size:36px;margin-bottom:16px}
+.design-module h3{font-size:18px;color:var(--gold);margin-bottom:10px}
+.design-module p{font-size:13px;color:var(--text-muted);line-height:1.7;margin-bottom:6px}
+.design-module .partner-note{font-size:11px;color:var(--text-dim);margin-bottom:14px}
+.design-module .cta-sm{font-size:11px;color:var(--gold);letter-spacing:1px;text-transform:uppercase}
+.case-entry-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;margin-top:32px}
+.case-entry{background:var(--card);border:1px solid var(--glass-border);border-radius:var(--radius);overflow:hidden;transition:var(--transition);cursor:pointer}
+.case-entry:hover{transform:translateY(-4px);border-color:rgba(201,169,110,0.3)}
 .case-entry-img{aspect-ratio:16/9;overflow:hidden}
-.case-entry-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.6 s}
+.case-entry-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.6s}
 .case-entry:hover .case-entry-img img{transform:scale(1.05)}
-.case-entry-body{padding:20 px}
-.case-entry-body h4{font-size:16 px;margin-bottom:6 px}
-.case-entry-body p{font-size:12 px;color:var(--text-dim);line-height:1.6}
+.case-entry-body{padding:20px}
+.case-entry-body h4{font-size:16px;margin-bottom:6px}
+.case-entry-body p{font-size:12px;color:var(--text-dim);line-height:1.6}
 </style>
 <link rel="icon" type="image/svg+xml" href="../favicon.svg"/>
 </head>
@@ -152,30 +152,30 @@
 <a class="mobile-nav-link mobile-primary" href="membership.html">👑 Membership</a>
 <a class="mobile-nav-link mobile-cta" href="contact.html">Contact</a>
 <div class="mobile-menu-footer">
-<a class="mobile-nav-link" href="../interior-design.html" id="mobileLangSwitch" style="border:1 px solid rgba(201,169,110,0.3);border-radius:6 px;display:inline-block;padding:12 px 24 px;color:#c9 a96 e;font-weight:600;margin-bottom:16 px">🌐 Switch to Chinese</a>
+<a class="mobile-nav-link" href="../interior-design.html" id="mobileLangSwitch" style="border:1px solid rgba(201,169,110,0.3);border-radius:6px;display:inline-block;padding:12px 24px;color:#c9a96e;font-weight:600;margin-bottom:16px">🌐 Switch to Chinese</a>
 <span>Tel: 13797920792 / +86 0755 3353-0188</span>
 <span>Email: hs@fantastic-vacation.com</span>
 </div>
 </div>
-</section><section class="section-padding" style="background:linear-gradient(180 deg,var(--dark1) 0%,var(--dark2) 100%);text-align:center;padding:180 px 0 100 px">
+</section><section class="section-padding" style="background:linear-gradient(180deg,var(--dark1) 0%,var(--dark2) 100%);text-align:center;padding:180px 0 100px">
 <div class="container">
-<h1 style="font-size:clamp(36 px,5 vw,56 px);line-height:1.2"><span class="gold-gradient">Interior Design</span></h1>
-<p style="color:var(--text-dim);font-size:15 px;margin:16 px auto 0">FANTASTIC VACATION exterior yacht design — partnering with world-leading naval architecture studios to craft iconic silhouettes from hull lines to superstructure.</p>
+<h1 style="font-size:clamp(36px,5vw,56px);line-height:1.2"><span class="gold-gradient">Interior Design</span></h1>
+<p style="color:var(--text-dim);font-size:15px;margin:16px auto 0">FANTASTIC VACATION exterior yacht design — partnering with world-leading naval architecture studios to craft iconic silhouettes from hull lines to superstructure.</p>
 </div>
 </section>
 
 <section class="section-padding" id="exterior" style="background:var(--dark2)">
 <div class="container">
 <div class="section-header reveal">
-<div style="font-size:48 px;margin-bottom:16 px">🛋️</div>
+<div style="font-size:48px;margin-bottom:16px">🛋️</div>
 <h2><span class="gold-gradient">Exterior Design — Defining the Visual Language of the Sea</span></h2>
 <div class="divider-gold"></div>
-<p style="font-family:'Playfair Display',serif;font-size:18 px;color:var(--gold);font-style:italic;margin:0 auto">"A great yacht is recognizable from a hundred meters away. Its silhouette, posture, and relationship with the ocean are all unique aesthetic declarations."</p>
+<p style="font-family:'Playfair Display',serif;font-size:18px;color:var(--gold);font-style:italic;margin:0 auto">"A great yacht is recognizable from a hundred meters away. Its silhouette, posture, and relationship with the ocean are all unique aesthetic declarations."</p>
 </div>
 
 <div class="reveal container"  >
-<h4 style="color:var(--gold);font-size:16 px;margin-bottom:16 px;border-bottom:1 px solid var(--glass-border);padding-bottom:8 px">Design Philosophy</h4>
-<p style="color:var(--text-muted);line-height:2;font-size:14 px;margin-bottom:32 px">
+<h4 style="color:var(--gold);font-size:16px;margin-bottom:16px;border-bottom:1px solid var(--glass-border);padding-bottom:8px">Design Philosophy</h4>
+<p style="color:var(--text-muted);line-height:2;font-size:14px;margin-bottom:32px">
 Interior design is the soul of a yacht. At Fantastic Vacation, we believe yacht interiors must not only "look good" but "live well" — every material choice, every lighting design, every spatial arrangement must serve the owner's quality of life during weeks or months at sea.
 <br/><br/>
 Our interior design team brings together senior designers from Milan, Paris, and London with an average of 20+ years in superyacht interiors. Our work has been repeatedly featured in Boat International's "Best Interior" rankings.
@@ -183,69 +183,69 @@ Our interior design team brings together senior designers from Milan, Paris, and
 We follow a "Sensory Narrative" methodology — from the moment you step into the main salon, the warmth of fine wood, the subtle scent of leather, the gentle layering of light, the flowing rhythm of space — together composing a complete sensory journey. Every material is traceable to its origin through our exclusive supplier network.
 </p>
 
-<h4 style="color:var(--gold);font-size:16 px;margin-bottom:16 px;border-bottom:1 px solid var(--glass-border);padding-bottom:8 px">Core Technical Dimensions</h4>
-<div style="display:grid;grid-template-columns:repeat(2,1 fr);gap:20 px;margin-bottom:32 px">
+<h4 style="color:var(--gold);font-size:16px;margin-bottom:16px;border-bottom:1px solid var(--glass-border);padding-bottom:8px">Core Technical Dimensions</h4>
+<div style="display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-bottom:32px">
 
-<div style="background:var(--card);border:1 px solid var(--glass-border);border-radius:var(--radius);padding:24 px">
-<h5 style="color:var(--gold);margin-bottom:10 px;font-size:14 px">🪵 Luxury Material Selection</h5>
-<p style="color:var(--text-muted);font-size:13 px;line-height:1.8">Curated global rare materials: Italian premium leather (Poltrona Frau, Foglizzo), French century-old oak (Burgundy forest, 5+ years natural seasoning), Spanish Carrara marble, Japanese handmade washi paper, Swiss precision hardware. Every wood grain and leather texture is personally selected by our designers to ensure visual harmony and tactile consistency throughout.</p>
+<div style="background:var(--card);border:1px solid var(--glass-border);border-radius:var(--radius);padding:24px">
+<h5 style="color:var(--gold);margin-bottom:10px;font-size:14px">🪵 Luxury Material Selection</h5>
+<p style="color:var(--text-muted);font-size:13px;line-height:1.8">Curated global rare materials: Italian premium leather (Poltrona Frau, Foglizzo), French century-old oak (Burgundy forest, 5+ years natural seasoning), Spanish Carrara marble, Japanese handmade washi paper, Swiss precision hardware. Every wood grain and leather texture is personally selected by our designers to ensure visual harmony and tactile consistency throughout.</p>
 </div>
-<div style="background:var(--card);border:1 px solid var(--glass-border);border-radius:var(--radius);padding:24 px">
-<h5 style="color:var(--gold);margin-bottom:10 px;font-size:14 px">💡 Lighting Art System</h5>
-<p style="color:var(--text-muted);font-size:13 px;line-height:1.8">Custom lighting architecture with ambient, accent, and decorative layers. Main salon features tunable-white LED arrays (2700 K–5500 K) simulating natural circadian rhythms. Underwater lighting supports 16.8 million dynamic color variations. Partnerships with Flos (Italy), Occhio (Germany) ensure every fixture is a work of art.</p>
+<div style="background:var(--card);border:1px solid var(--glass-border);border-radius:var(--radius);padding:24px">
+<h5 style="color:var(--gold);margin-bottom:10px;font-size:14px">💡 Lighting Art System</h5>
+<p style="color:var(--text-muted);font-size:13px;line-height:1.8">Custom lighting architecture with ambient, accent, and decorative layers. Main salon features tunable-white LED arrays (2700 K–5500 K) simulating natural circadian rhythms. Underwater lighting supports 16.8 million dynamic color variations. Partnerships with Flos (Italy), Occhio (Germany) ensure every fixture is a work of art.</p>
 </div>
-<div style="background:var(--card);border:1 px solid var(--glass-border);border-radius:var(--radius);padding:24 px">
-<h5 style="color:var(--gold);margin-bottom:10 px;font-size:14 px">🛏️ Private Cabin Customization</h5>
-<p style="color:var(--text-muted);font-size:13 px;line-height:1.8">Bespoke design for master suites, VIP cabins, and children rooms. Each cabin features independent climate control, double-wall acoustic insulation (STC ≥55), custom bedding (Frette or equivalent). Master suite includes walk-in wardrobe, private study, and panoramic floor-to-ceiling windows. All VIP cabins feature en-suite bathrooms with Dornbracht or equivalent fixtures.</p>
+<div style="background:var(--card);border:1px solid var(--glass-border);border-radius:var(--radius);padding:24px">
+<h5 style="color:var(--gold);margin-bottom:10px;font-size:14px">🛏️ Private Cabin Customization</h5>
+<p style="color:var(--text-muted);font-size:13px;line-height:1.8">Bespoke design for master suites, VIP cabins, and children rooms. Each cabin features independent climate control, double-wall acoustic insulation (STC ≥55), custom bedding (Frette or equivalent). Master suite includes walk-in wardrobe, private study, and panoramic floor-to-ceiling windows. All VIP cabins feature en-suite bathrooms with Dornbracht or equivalent fixtures.</p>
 </div>
-<div style="background:var(--card);border:1 px solid var(--glass-border);border-radius:var(--radius);padding:24 px">
-<h5 style="color:var(--gold);margin-bottom:10 px;font-size:14 px">🎭 Art & Curation</h5>
-<p style="color:var(--text-muted);font-size:13 px;line-height:1.8">Dedicated art consultants providing global artwork advisory — from contemporary paintings and sculpture installations to custom carpets and handcrafted glass art. Partnerships with Sotheby's, Christie's, and Saatchi Gallery. Every artwork undergoes specialized anti-vibration, moisture-proof, and UV-protection treatment for long-term preservation in the marine environment.</p>
+<div style="background:var(--card);border:1px solid var(--glass-border);border-radius:var(--radius);padding:24px">
+<h5 style="color:var(--gold);margin-bottom:10px;font-size:14px">🎭 Art & Curation</h5>
+<p style="color:var(--text-muted);font-size:13px;line-height:1.8">Dedicated art consultants providing global artwork advisory — from contemporary paintings and sculpture installations to custom carpets and handcrafted glass art. Partnerships with Sotheby's, Christie's, and Saatchi Gallery. Every artwork undergoes specialized anti-vibration, moisture-proof, and UV-protection treatment for long-term preservation in the marine environment.</p>
 </div>
-</div>
-</div>
-
-<h4 style="color:var(--gold);font-size:16 px;margin-bottom:16 px;border-bottom:1 px solid var(--glass-border);padding-bottom:8 px">Design Process</h4>
-<div style="display:flex;flex-wrap:wrap;gap:12 px;justify-content:center;margin-bottom:32 px">
-<div style="text-align:center;padding:20 px;background:var(--card);border:1 px solid var(--glass-border);border-radius:var(--radius);min-width:140 px">
-<div style="width:40 px;height:40 px;border-radius:50%;background:rgba(201,169,110,0.15);display:flex;align-items:center;justify-content:center;margin:0 auto 10 px;color:var(--gold);font-weight:700">1</div>
-<h5 style="color:var(--gold);font-size:12 px;margin-bottom:6 px">Concept Brief</h5>
-<p style="color:var(--text-dim);font-size:11 px;line-height:1.5">Gather owner aesthetic<br/>preferences & lifestyle</p>
-</div>
-<div style="color:var(--gold);font-size:24 px;display:flex;align-items:center">→</div>
-<div style="text-align:center;padding:20 px;background:var(--card);border:1 px solid var(--glass-border);border-radius:var(--radius);min-width:140 px">
-<div style="width:40 px;height:40 px;border-radius:50%;background:rgba(201,169,110,0.15);display:flex;align-items:center;justify-content:center;margin:0 auto 10 px;color:var(--gold);font-weight:700">2</div>
-<h5 style="color:var(--gold);font-size:12 px;margin-bottom:6 px">Concept Design</h5>
-<p style="color:var(--text-dim);font-size:11 px;line-height:1.5">3-5 concept sketches<br/>scale models & renders</p>
-</div>
-<div style="color:var(--gold);font-size:24 px;display:flex;align-items:center">→</div>
-<div style="text-align:center;padding:20 px;background:var(--card);border:1 px solid var(--glass-border);border-radius:var(--radius);min-width:140 px">
-<div style="width:40 px;height:40 px;border-radius:50%;background:rgba(201,169,110,0.15);display:flex;align-items:center;justify-content:center;margin:0 auto 10 px;color:var(--gold);font-weight:700">3</div>
-<h5 style="color:var(--gold);font-size:12 px;margin-bottom:6 px">Hydrodynamic Opt.</h5>
-<p style="color:var(--text-dim);font-size:11 px;line-height:1.5">CFD simulation<br/>model basin testing</p>
-</div>
-<div style="color:var(--gold);font-size:24 px;display:flex;align-items:center">→</div>
-<div style="text-align:center;padding:20 px;background:var(--card);border:1 px solid var(--glass-border);border-radius:var(--radius);min-width:140 px">
-<div style="width:40 px;height:40 px;border-radius:50%;background:rgba(201,169,110,0.15);display:flex;align-items:center;justify-content:center;margin:0 auto 10 px;color:var(--gold);font-weight:700">4</div>
-<h5 style="color:var(--gold);font-size:12 px;margin-bottom:6 px">Detailed Design</h5>
-<p style="color:var(--text-dim);font-size:11 px;line-height:1.5">Engineering drawings<br/>BOM & specifications</p>
-</div>
-<div style="color:var(--gold);font-size:24 px;display:flex;align-items:center">→</div>
-<div style="text-align:center;padding:20 px;background:var(--card);border:1 px solid var(--glass-border);border-radius:var(--radius);min-width:140 px">
-<div style="width:40 px;height:40 px;border-radius:50%;background:rgba(201,169,110,0.15);display:flex;align-items:center;justify-content:center;margin:0 auto 10 px;color:var(--gold);font-weight:700">5</div>
-<h5 style="color:var(--gold);font-size:12 px;margin-bottom:6 px">Shipyard Handoff</h5>
-<p style="color:var(--text-dim);font-size:11 px;line-height:1.5">Technical brief<br/>construction detailing</p>
-</div>
-<div style="color:var(--gold);font-size:24 px;display:flex;align-items:center">→</div>
-<div style="text-align:center;padding:20 px;background:var(--card);border:1 px solid var(--glass-border);border-radius:var(--radius);min-width:140 px">
-<div style="width:40 px;height:40 px;border-radius:50%;background:rgba(201,169,110,0.15);display:flex;align-items:center;justify-content:center;margin:0 auto 10 px;color:var(--gold);font-weight:700">6</div>
-<h5 style="color:var(--gold);font-size:12 px;margin-bottom:6 px">On-Site Review</h5>
-<p style="color:var(--text-dim);font-size:11 px;line-height:1.5">Resident supervision<br/>detail acceptance</p>
 </div>
 </div>
 
-<h4 style="color:var(--gold);font-size:16 px;margin-bottom:16 px;border-bottom:1 px solid var(--glass-border);padding-bottom:8 px">Collaborative Design Partners</h4>
-<p style="color:var(--text-muted);line-height:2;font-size:14 px;margin-bottom:24 px">
+<h4 style="color:var(--gold);font-size:16px;margin-bottom:16px;border-bottom:1px solid var(--glass-border);padding-bottom:8px">Design Process</h4>
+<div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-bottom:32px">
+<div style="text-align:center;padding:20px;background:var(--card);border:1px solid var(--glass-border);border-radius:var(--radius);min-width:140px">
+<div style="width:40px;height:40px;border-radius:50%;background:rgba(201,169,110,0.15);display:flex;align-items:center;justify-content:center;margin:0 auto 10px;color:var(--gold);font-weight:700">1</div>
+<h5 style="color:var(--gold);font-size:12px;margin-bottom:6px">Concept Brief</h5>
+<p style="color:var(--text-dim);font-size:11px;line-height:1.5">Gather owner aesthetic<br/>preferences & lifestyle</p>
+</div>
+<div style="color:var(--gold);font-size:24px;display:flex;align-items:center">→</div>
+<div style="text-align:center;padding:20px;background:var(--card);border:1px solid var(--glass-border);border-radius:var(--radius);min-width:140px">
+<div style="width:40px;height:40px;border-radius:50%;background:rgba(201,169,110,0.15);display:flex;align-items:center;justify-content:center;margin:0 auto 10px;color:var(--gold);font-weight:700">2</div>
+<h5 style="color:var(--gold);font-size:12px;margin-bottom:6px">Concept Design</h5>
+<p style="color:var(--text-dim);font-size:11px;line-height:1.5">3-5 concept sketches<br/>scale models & renders</p>
+</div>
+<div style="color:var(--gold);font-size:24px;display:flex;align-items:center">→</div>
+<div style="text-align:center;padding:20px;background:var(--card);border:1px solid var(--glass-border);border-radius:var(--radius);min-width:140px">
+<div style="width:40px;height:40px;border-radius:50%;background:rgba(201,169,110,0.15);display:flex;align-items:center;justify-content:center;margin:0 auto 10px;color:var(--gold);font-weight:700">3</div>
+<h5 style="color:var(--gold);font-size:12px;margin-bottom:6px">Hydrodynamic Opt.</h5>
+<p style="color:var(--text-dim);font-size:11px;line-height:1.5">CFD simulation<br/>model basin testing</p>
+</div>
+<div style="color:var(--gold);font-size:24px;display:flex;align-items:center">→</div>
+<div style="text-align:center;padding:20px;background:var(--card);border:1px solid var(--glass-border);border-radius:var(--radius);min-width:140px">
+<div style="width:40px;height:40px;border-radius:50%;background:rgba(201,169,110,0.15);display:flex;align-items:center;justify-content:center;margin:0 auto 10px;color:var(--gold);font-weight:700">4</div>
+<h5 style="color:var(--gold);font-size:12px;margin-bottom:6px">Detailed Design</h5>
+<p style="color:var(--text-dim);font-size:11px;line-height:1.5">Engineering drawings<br/>BOM & specifications</p>
+</div>
+<div style="color:var(--gold);font-size:24px;display:flex;align-items:center">→</div>
+<div style="text-align:center;padding:20px;background:var(--card);border:1px solid var(--glass-border);border-radius:var(--radius);min-width:140px">
+<div style="width:40px;height:40px;border-radius:50%;background:rgba(201,169,110,0.15);display:flex;align-items:center;justify-content:center;margin:0 auto 10px;color:var(--gold);font-weight:700">5</div>
+<h5 style="color:var(--gold);font-size:12px;margin-bottom:6px">Shipyard Handoff</h5>
+<p style="color:var(--text-dim);font-size:11px;line-height:1.5">Technical brief<br/>construction detailing</p>
+</div>
+<div style="color:var(--gold);font-size:24px;display:flex;align-items:center">→</div>
+<div style="text-align:center;padding:20px;background:var(--card);border:1px solid var(--glass-border);border-radius:var(--radius);min-width:140px">
+<div style="width:40px;height:40px;border-radius:50%;background:rgba(201,169,110,0.15);display:flex;align-items:center;justify-content:center;margin:0 auto 10px;color:var(--gold);font-weight:700">6</div>
+<h5 style="color:var(--gold);font-size:12px;margin-bottom:6px">On-Site Review</h5>
+<p style="color:var(--text-dim);font-size:11px;line-height:1.5">Resident supervision<br/>detail acceptance</p>
+</div>
+</div>
+
+<h4 style="color:var(--gold);font-size:16px;margin-bottom:16px;border-bottom:1px solid var(--glass-border);padding-bottom:8px">Collaborative Design Partners</h4>
+<p style="color:var(--text-muted);line-height:2;font-size:14px;margin-bottom:24px">
 We maintain long-term relationships with the world's leading yacht design studios, including but not limited to:
 <br/><br/>
 <strong style="color:var(--gold)">Italy</strong> — Pininfarina (Ferrari design DNA in yacht aesthetics), Nuvolari Lenard (Venetian master studio, multiple World Superyacht Award winner), Zuccon International Project (Sanlorenzo's signature design firm)
@@ -257,7 +257,7 @@ We maintain long-term relationships with the world's leading yacht design studio
 <strong style="color:var(--gold)">United Kingdom</strong> — Bannenberg & Rowell (founded by legendary yacht designer Jon Bannenberg), RWD (Rolls-Royce yacht design partner)
 </p>
 
-<div style="text-align:center;margin-top:24 px">
+<div style="text-align:center;margin-top:24px">
 <a class="btn btn-primary btn-gold-sweep" href="contact.html">Get Interior Design Proposal →</a>
 </div>
 </div>
@@ -266,9 +266,9 @@ We maintain long-term relationships with the world's leading yacht design studio
 
 <section class="section-padding" style="background:var(--dark2);text-align:center">
 <div class="container">
-<h3 style="color:var(--gold);font-size:22 px;margin-bottom:12 px">Start Your Custom Journey</h3>
-<p style="color:var(--text-dim);font-size:14 px;margin-bottom:24 px;margin-left:auto;margin-right:auto">Every great yacht begins with a brave conversation. Contact our advisor and bring your seaborne dream to life.</p>
-<a class="btn btn-primary btn-gold-sweep" href="contact.html" style="font-size:14 px;padding:14 px 40 px">Contact Us · Start Custom Journey</a>
+<h3 style="color:var(--gold);font-size:22px;margin-bottom:12px">Start Your Custom Journey</h3>
+<p style="color:var(--text-dim);font-size:14px;margin-bottom:24px;margin-left:auto;margin-right:auto">Every great yacht begins with a brave conversation. Contact our advisor and bring your seaborne dream to life.</p>
+<a class="btn btn-primary btn-gold-sweep" href="contact.html" style="font-size:14px;padding:14px 40px">Contact Us · Start Custom Journey</a>
 </div>
 </section>
 
@@ -316,7 +316,7 @@ We maintain long-term relationships with the world's leading yacht design studio
 <li data-i18 n="index.209"><a data-i18 n="index.210" href="../index.html">首页</a></li>
 <li data-i18 n="index.1"><a data-i18 n="index.211" href="../about.html">关于我们</a></li>
 <li data-i18 n="index.2"><a data-i18 n="index.212" href="../yachts.html">全系游艇</a></li>
-          <li><a href="../membership.html" data-i18 n="footer.member" style="color:#c9 a96 e;font-weight:500">👑 尊享会员</a></li>
+          <li><a href="../membership.html" data-i18 n="footer.member" style="color:#c9a96e;font-weight:500">👑 尊享会员</a></li>
 <li data-i18 n="index.3"><a data-i18 n="index.213" href="../custom.html">全案定制</a></li>
 <li data-i18 n="index.4"><a data-i18 n="index.214" href="../charter.html">租赁航线</a></li>
 <li data-i18 n="index.5"><a data-i18 n="index.215" href="../management.html">托管维保</a></li>

@@ -17,34 +17,34 @@
   95%{opacity:0;visibility:hidden}
   100%{display:none}
 }
-#loader{animation:autoHideLoader 6 s ease-in-out forwards}
+#loader{animation:autoHideLoader 6s ease-in-out forwards}
 #loader.hidden,#loader[style*="display:none"]{animation:none!important;display:none!important}
 </style>
 <style>
-.sub-hero{position:relative;min-height:70 vh;display:flex;align-items:center;justify-content:center;overflow:hidden;background:linear-gradient(135 deg,#0 a1628 0%,#0 d2137 40%,#1 a3045 70%,#0 f1 e30 100%)}
+.sub-hero{position:relative;min-height:70vh;display:flex;align-items:center;justify-content:center;overflow:hidden;background:linear-gradient(135deg,#0a16280%,#0d213740%,#1a304570%,#0f1e30100%)}
 .sub-hero .hero-bg-img{position:absolute;inset:0;background:url('images/yttp/yacht-015.jpg') center/cover no-repeat;opacity:0.45;filter:saturate(0.65)}
-.sub-hero::before{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(10,22,40,0.3),rgba(10,22,40,0.9) 70%,#0 a1628);z-index:1}
-.sub-hero .hero-inner{position:relative;z-index:3;text-align:center;padding:0 24 px;max-width:800 px}
-.sub-hero h1{font-family:'Playfair Display',serif;font-size:clamp(32 px,4.5 vw,52 px);font-weight:800;letter-spacing:3 px;margin-bottom:16 px;background:linear-gradient(135 deg,#c9 a96 e,#e8 d5 a8);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-.sub-hero .hero-sub{font-size:clamp(13 px,1.4 vw,16 px);color:rgba(200,210,225,0.65);font-weight:300;letter-spacing:1.5 px}
-.breadcrumb{padding:20 px 0;background:#0 a1628;text-align:center}
-.breadcrumb a{color:rgba(201,169,110,0.8);text-decoration:none;font-size:12 px;letter-spacing:1 px}
-.breadcrumb span{color:rgba(200,210,225,0.4);margin:0 10 px}
+.sub-hero::before{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(10,22,40,0.3),rgba(10,22,40,0.9) 70%,#0a1628);z-index:1}
+.sub-hero .hero-inner{position:relative;z-index:3;text-align:center;padding:0 24px;max-width:800px}
+.sub-hero h1{font-family:'Playfair Display',serif;font-size:clamp(32px,4.5vw,52px);font-weight:800;letter-spacing:3px;margin-bottom:16px;background:linear-gradient(135deg,#c9a96e,#e8d5a8);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.sub-hero .hero-sub{font-size:clamp(13px,1.4vw,16px);color:rgba(200,210,225,0.65);font-weight:300;letter-spacing:1.5px}
+.breadcrumb{padding:20px 0;background:#0a1628;text-align:center}
+.breadcrumb a{color:rgba(201,169,110,0.8);text-decoration:none;font-size:12px;letter-spacing:1px}
+.breadcrumb span{color:rgba(200,210,225,0.4);margin:0 10px}
 .breadcrumb .current{color:rgba(200,210,225,0.6)}
-.case-list-section{padding:70 px 0;background:linear-gradient(180 deg,#0 c1829 0%,#0 a1628 100%)}
-.case-grid-s{display:grid;grid-template-columns:repeat(auto-fit,minmax(350 px,1 fr));gap:32 px}
-.case-card-l{background:linear-gradient(145 deg,rgba(255,255,255,0.025),rgba(255,255,255,0.005));border:1 px solid rgba(201,169,110,0.08);border-radius:18 px;overflow:hidden;transition:all 0.4 s ease;display:flex;flex-direction:column}
-.case-card-l:hover{transform:translateY(-6 px);border-color:rgba(201,169,110,0.3);box-shadow:0 20 px 60 px rgba(0,0,0,0.35)}
-.case-card-l img{width:100%;height:280 px;object-fit:cover;transition:transform 0.5 s ease}
+.case-list-section{padding:70px 0;background:linear-gradient(180deg,#0c18290%,#0a1628100%)}
+.case-grid-s{display:grid;grid-template-columns:repeat(auto-fit,minmax(350px,1fr));gap:32px}
+.case-card-l{background:linear-gradient(145deg,rgba(255,255,255,0.025),rgba(255,255,255,0.005));border:1px solid rgba(201,169,110,0.08);border-radius:18px;overflow:hidden;transition:all 0.4s ease;display:flex;flex-direction:column}
+.case-card-l:hover{transform:translateY(-6px);border-color:rgba(201,169,110,0.3);box-shadow:0 20px 60px rgba(0,0,0,0.35)}
+.case-card-l img{width:100%;height:280px;object-fit:cover;transition:transform 0.5s ease}
 .case-card-l:hover img{transform:scale(1.05)}
-.case-card-l-body{padding:28 px 24 px 32 px;flex:1;display:flex;flex-direction:column}
-.case-card-l h3{font-family:'Playfair Display',serif;font-size:20 px;font-weight:700;color:#e8 eef5;margin-bottom:10 px}
-.case-card-l p{font-size:13.5 px;color:rgba(200,210,225,0.55);line-height:1.7;margin-bottom:16 px;flex:1}
-.case-card-l .tags{display:flex;flex-wrap:wrap;gap:6 px;margin-bottom:18 px}
-.case-card-l .tag{font-size:10 px;padding:4 px 12 px;border-radius:20 px;background:rgba(201,169,110,0.1);border:1 px solid rgba(201,169,110,0.15);color:rgba(201,169,110,0.9);text-transform:uppercase}
-.case-card-l .link-btn{display:inline-flex;align-items:center;gap:8 px;font-size:12.5 px;font-weight:600;color:#c9 a96 e;text-decoration:none;transition:gap 0.3 s}
-.case-card-l .link-btn:hover{gap:12 px}
-@media (max-width:768 px){.case-grid-s{grid-template-columns:1 fr}}
+.case-card-l-body{padding:28px 24px 32px;flex:1;display:flex;flex-direction:column}
+.case-card-l h3{font-family:'Playfair Display',serif;font-size:20px;font-weight:700;color:#e8eef5;margin-bottom:10px}
+.case-card-l p{font-size:13.5px;color:rgba(200,210,225,0.55);line-height:1.7;margin-bottom:16px;flex:1}
+.case-card-l .tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:18px}
+.case-card-l .tag{font-size:10px;padding:4px 12px;border-radius:20px;background:rgba(201,169,110,0.1);border:1px solid rgba(201,169,110,0.15);color:rgba(201,169,110,0.9);text-transform:uppercase}
+.case-card-l .link-btn{display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:600;color:#c9a96e;text-decoration:none;transition:gap 0.3s}
+.case-card-l .link-btn:hover{gap:12px}
+@media (max-width:768px){.case-grid-s{grid-template-columns:1fr}}
 </style>
   <link rel="icon" type="image/svg+xml" href="../favicon.svg"/></head>
 <body>
@@ -169,7 +169,7 @@
 <a class="mobile-nav-link mobile-primary" href="membership.html" data-i18 n="nav.member">👑 Membership</a>
 <a class="mobile-nav-link mobile-cta" href="contact.html" data-i18 n="nav.contact">Contact Us</a>
 <div class="mobile-menu-footer">
-<a class="mobile-nav-link" href="../cases-custom.html" id="mobileLangSwitch" style="border:1 px solid rgba(201,169,110,0.3);border-radius:6 px;display:inline-block;padding:12 px 24 px;color:#c9 a96 e;font-weight:600;margin-bottom:16 px">🌐 English Version</a>
+<a class="mobile-nav-link" href="../cases-custom.html" id="mobileLangSwitch" style="border:1px solid rgba(201,169,110,0.3);border-radius:6px;display:inline-block;padding:12px 24px;color:#c9a96e;font-weight:600;margin-bottom:16px">🌐 English Version</a>
 <span>Phone：13797920792 / +86 0755 3353-0188</span>
 <span>Email：hs@fantastic-vacation.com</span>
 </div>
@@ -220,7 +220,7 @@
 <li data-i18 n="index.209"><a data-i18 n="index.210" href="../index.html">首页</a></li>
 <li data-i18 n="index.1"><a data-i18 n="index.211" href="../about.html">关于我们</a></li>
 <li data-i18 n="index.2"><a data-i18 n="index.212" href="../yachts.html">全系游艇</a></li>
-          <li><a href="../membership.html" data-i18 n="footer.member" style="color:#c9 a96 e;font-weight:500">👑 尊享会员</a></li>
+          <li><a href="../membership.html" data-i18 n="footer.member" style="color:#c9a96e;font-weight:500">👑 尊享会员</a></li>
 <li data-i18 n="index.3"><a data-i18 n="index.213" href="../custom.html">全案定制</a></li>
 <li data-i18 n="index.4"><a data-i18 n="index.214" href="../charter.html">租赁航线</a></li>
 <li data-i18 n="index.5"><a data-i18 n="index.215" href="../management.html">托管维保</a></li>

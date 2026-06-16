@@ -36,10 +36,9 @@
 .news-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(590px,1fr));gap:28px}
 .news-card{background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.08);border-radius:16px;overflow:hidden;transition:all 0.4s}
 .news-card:hover{transform:translateY(-6px);border-color:rgba(201,169,110,0.25);box-shadow:0 20px 60px rgba(0,0,0,0.3)}
-.news-img{height:200px;overflow:hidden;position:relative}
-.news-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.6s}
-.news-card:hover .news-img img{transform:scale(1.08)}
-.news-img::after{content:'';position:absolute;bottom:0;left:0;right:0;height:80px;background:linear-gradient(to top,rgba(10,22,40,0.9),transparent)}
+.news-img-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;height:220px;overflow:hidden}
+.news-img-grid img{width:100%;height:220px;object-fit:cover;transition:transform 0.6s}
+.news-card:hover .news-img-grid img{transform:scale(1.05)}
 .news-body{padding:24px}
 .news-meta{display:flex;gap:16px;margin-bottom:12px}
 .news-meta span{font-size:11px;color:var(--text-muted);letter-spacing:0.5px}
@@ -188,7 +187,7 @@
 <section class="section-padding"><div class="container">
 <div class="news-grid">
 <div class="news-card reveal" data-category="公司动态">
-<div class="news-img"><img alt="奇幻假期荣获2026年度亚洲最佳游艇服务商大奖" data-i18n-attr="alt:_alt.news.0" src="images/yttp/yacht-120.jpg"/></div>
+<div class="news-img-grid"><img alt="" src="images/yttp/yacht-058.jpg" /><img alt="" src="images/yttp/yacht-338.jpg" /><img alt="" src="images/yttp/yacht-120.jpg" /></div>
 <div class="news-body">
 <div class="news-meta"><span data-i18n="news.293">2026.05.15</span><span data-i18n="news.294">公司动态</span></div>
 <h3 data-i18n="news.296">奇幻假期荣获2026年度亚洲最佳游艇服务商大奖</h3>
@@ -199,7 +198,7 @@
 </div>
 </div>
 <div class="news-card reveal" data-category="公司动态">
-<div class="news-img"><img alt="奇幻假期深圳总部正式启用，全球化战略迈入新阶段" data-i18n-attr="alt:_alt.news.1" src="images/yttp/yacht-121.jpg"/></div>
+<div class="news-img-grid"><img alt="" src="images/yttp/yacht-137.jpg" /><img alt="" src="images/yttp/yacht-116.jpg" /><img alt="" src="images/yttp/yacht-121.jpg" /></div>
 <div class="news-body">
 <div class="news-meta"><span data-i18n="news.307">2026.05.10</span><span data-i18n="news.308">公司动态</span></div>
 <h3 data-i18n="news.310">奇幻假期深圳总部正式启用，全球化战略迈入新阶段</h3>
@@ -210,7 +209,7 @@
 </div>
 </div>
 <div class="news-card reveal" data-category="行业资讯">
-<div class="news-img"><img alt="摩纳哥游艇展2026：超级游艇订单创历史新高" data-i18n-attr="alt:_alt.news.2" src="images/yttp/yacht-122.jpg"/></div>
+<div class="news-img-grid"><img alt="" src="images/yttp/yacht-361.jpg" /><img alt="" src="images/yttp/yacht-122.jpg" /><img alt="" src="images/yttp/yacht-394.jpg" /></div>
 <div class="news-body">
 <div class="news-meta"><span data-i18n="news.321">2026.04.28</span><span data-i18n="news.322">行业资讯</span></div>
 <h3 data-i18n="news.324">摩纳哥游艇展2026：超级游艇订单创历史新高</h3>
@@ -221,7 +220,7 @@
 </div>
 </div>
 <div class="news-card reveal" data-category="行业资讯">
-<div class="news-img"><img alt="2026全球游艇市场报告：新能源动力游艇增长超40%" data-i18n-attr="alt:_alt.news.3" src="images/yttp/yacht-123.jpg"/></div>
+<div class="news-img-grid"><img alt="" src="images/yttp/yacht-316.jpg" /><img alt="" src="images/yttp/yacht-230.jpg" /><img alt="" src="images/yttp/yacht-123.jpg" /></div>
 <div class="news-body">
 <div class="news-meta"><span data-i18n="news.335">2026.04.22</span><span data-i18n="news.336">行业资讯</span></div>
 <h3 data-i18n="news.338">2026全球游艇市场报告：新能源动力游艇增长超40%</h3>
@@ -232,7 +231,7 @@
 </div>
 </div>
 <div class="news-card reveal" data-category="公司动态">
-<div class="news-img"><img alt="奇幻假期与意大利Ferretti集团签署战略合作协议" data-i18n-attr="alt:_alt.news.4" src="images/yttp/yacht-124.jpg"/></div>
+<div class="news-img-grid"><img alt="" src="images/yttp/yacht-048.jpg" /><img alt="" src="images/yttp/yacht-113.jpg" /><img alt="" src="images/yttp/yacht-124.jpg" /></div>
 <div class="news-body">
 <div class="news-meta"><span data-i18n="news.349">2026.04.15</span><span data-i18n="news.350">公司动态</span></div>
 <h3 data-i18n="news.352">奇幻假期与意大利Ferretti集团签署战略合作协议</h3>
@@ -243,7 +242,7 @@
 </div>
 </div>
 <div class="news-card reveal" data-category="航海生活">
-<div class="news-img"><img alt="海上生活方式指南：如何策划一场完美的游艇生日派对" data-i18n-attr="alt:_alt.news.5" src="images/yttp/yacht-125.jpg"/></div>
+<div class="news-img-grid"><img alt="" src="images/yttp/yacht-125.jpg" /><img alt="" src="images/yttp/yacht-304.jpg" /><img alt="" src="images/yttp/yacht-104.jpg" /></div>
 <div class="news-body">
 <div class="news-meta"><span data-i18n="news.363">2026.04.08</span><span data-i18n="news.364">航海生活</span></div>
 <h3 data-i18n="news.366">海上生活方式指南：如何策划一场完美的游艇生日派对</h3>
@@ -254,7 +253,7 @@
 </div>
 </div>
 <div class="news-card reveal" data-category="航海生活">
-<div class="news-img"><img alt="南极探险实录：奇幻假期船队成功完成首次南极航行" data-i18n-attr="alt:_alt.news.6" src="images/yttp/yacht-126.jpg"/></div>
+<div class="news-img-grid"><img alt="" src="images/yttp/yacht-126.jpg" /><img alt="" src="images/yttp/yacht-118.jpg" /><img alt="" src="images/yttp/yacht-247.jpg" /></div>
 <div class="news-body">
 <div class="news-meta"><span data-i18n="news.377">2026.03.28</span><span data-i18n="news.378">航海生活</span></div>
 <h3 data-i18n="news.380">南极探险实录：奇幻假期船队成功完成首次南极航行</h3>
@@ -265,7 +264,7 @@
 </div>
 </div>
 <div class="news-card reveal" data-category="行业资讯">
-<div class="news-img"><img alt="亚太游艇市场崛起：新加坡成为新兴游艇中心" data-i18n-attr="alt:_alt.news.7" src="images/yttp/yacht-127.jpg"/></div>
+<div class="news-img-grid"><img alt="" src="images/yttp/yacht-127.jpg" /><img alt="" src="images/yttp/yacht-004.jpg" /><img alt="" src="images/yttp/yacht-084.jpg" /></div>
 <div class="news-body">
 <div class="news-meta"><span data-i18n="news.391">2026.03.20</span><span data-i18n="news.392">行业资讯</span></div>
 <h3 data-i18n="news.394">亚太游艇市场崛起：新加坡成为新兴游艇中心</h3>
@@ -276,7 +275,7 @@
 </div>
 </div>
 <div class="news-card reveal" data-category="公告通知">
-<div class="news-img"><img alt="奇幻假期发布2026-2028三年发展战略" data-i18n-attr="alt:_alt.news.8" src="images/yttp/yacht-128.jpg"/></div>
+<div class="news-img-grid"><img alt="" src="images/yttp/yacht-194.jpg" /><img alt="" src="images/yttp/yacht-162.jpg" /><img alt="" src="images/yttp/yacht-128.jpg" /></div>
 <div class="news-body">
 <div class="news-meta"><span data-i18n="news.405">2026.03.12</span><span data-i18n="news.406">公告通知</span></div>
 <h3 data-i18n="news.408">奇幻假期发布2026-2028三年发展战略</h3>
@@ -287,7 +286,7 @@
 </div>
 </div>
 <div class="news-card reveal" data-category="航海生活">
-<div class="news-img"><img alt="地中海航线攻略：30天深度巡航全指南" data-i18n-attr="alt:_alt.news.9" src="images/yttp/yacht-129.jpg"/></div>
+<div class="news-img-grid"><img alt="" src="images/yttp/yacht-055.jpg" /><img alt="" src="images/yttp/yacht-193.jpg" /><img alt="" src="images/yttp/yacht-129.jpg" /></div>
 <div class="news-body">
 <div class="news-meta"><span data-i18n="news.419">2026.03.05</span><span data-i18n="news.420">航海生活</span></div>
 <h3 data-i18n="news.422">地中海航线攻略：30天深度巡航全指南</h3>

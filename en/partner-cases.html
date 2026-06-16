@@ -15,31 +15,31 @@
   95%{opacity:0;visibility:hidden}
   100%{display:none}
 }
-#loader{animation:autoHideLoader 6 s ease-in-out forwards}
+#loader{animation:autoHideLoader 6s ease-in-out forwards}
 #loader.hidden,#loader[style*="display:none"]{animation:none!important;display:none!important}
 </style>
 <style>
-.sub-hero{position:relative;min-height:55 vh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;background:linear-gradient(135 deg,#0 a1628 0%,#1 a2 a48 50%,#2 d1810 100%)}
+.sub-hero{position:relative;min-height:55vh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;background:linear-gradient(135deg,#0a16280%,#1a2a4850%,#2d1810100%)}
 .sub-hero::before{content:'';position:absolute;inset:0;background:url('images/yttp/yacht-055.jpg') center/cover no-repeat;opacity:0.12;transform:scale(1.1)}
-.sub-hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:150 px;background:linear-gradient(to top,var(--dark1),transparent)}
-.sub-hero-content{position:relative;z-index:3;padding:0 20 px}
-.sub-hero h1{font-family:'Playfair Display',serif;font-size:clamp(32 px,4.5 vw,52 px);font-weight:800;letter-spacing:3 px;margin-bottom:12 px}
-.sub-hero .sub{font-size:clamp(13 px,1.4 vw,17 px);color:var(--text-muted);font-weight:300;letter-spacing:2 px}
-.breadcrumb{margin-bottom:16 px;font-size:13 px;color:var(--text-muted)}
+.sub-hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:150px;background:linear-gradient(to top,var(--dark1),transparent)}
+.sub-hero-content{position:relative;z-index:3;padding:0 20px}
+.sub-hero h1{font-family:'Playfair Display',serif;font-size:clamp(32px,4.5vw,52px);font-weight:800;letter-spacing:3px;margin-bottom:12px}
+.sub-hero .sub{font-size:clamp(13px,1.4vw,17px);color:var(--text-muted);font-weight:300;letter-spacing:2px}
+.breadcrumb{margin-bottom:16px;font-size:13px;color:var(--text-muted)}
 .breadcrumb a{color:var(--gold);text-decoration:none}
-.case-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340 px,1 fr));gap:24 px;margin-top:40 px}
-.case-card{background:rgba(255,255,255,0.02);border:1 px solid rgba(255,255,255,0.05);border-radius:14 px;overflow:hidden;transition:all 0.35 s}
-.case-card:hover{border-color:rgba(201,169,110,0.25);transform:translateY(-5 px)}
-.case-img{height:200 px;overflow:hidden;position:relative}
-.case-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.5 s}
+.case-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:24px;margin-top:40px}
+.case-card{background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.05);border-radius:14px;overflow:hidden;transition:all 0.35s}
+.case-card:hover{border-color:rgba(201,169,110,0.25);transform:translateY(-5px)}
+.case-img{height:200px;overflow:hidden;position:relative}
+.case-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.5s}
 .case-card:hover .case-img img{transform:scale(1.06)}
-.case-tag{position:absolute;top:12 px;left:12 px;background:linear-gradient(135 deg,rgba(201,169,110,0.85),rgba(160,120,80,0.9));color:#000;padding:4 px 14 px;border-radius:15 px;font-size:11 px;font-weight:600;z-index:2}
-.case-body{padding:22 px}
-.case-body h3{font-size:17 px;font-weight:600;margin-bottom:8 px;color:#e8 e8 e8}
-.case-body p{font-size:13 px;color:var(--text-muted);line-height:1.6;margin-bottom:14 px}
-.case-meta{display:flex;gap:16 px;flex-wrap:wrap}
-.case-meta span{font-size:11 px;color:var(--gold);background:rgba(201,169,110,0.08);padding:3 px 10 px;border-radius:10 px}
-.case-link{display:inline-block;color:var(--gold);font-size:13 px;font-weight:500;text-decoration:none;border-bottom:1 px solid transparent;transition:border-color 0.3 s}
+.case-tag{position:absolute;top:12px;left:12px;background:linear-gradient(135deg,rgba(201,169,110,0.85),rgba(160,120,80,0.9));color:#000;padding:4px 14px;border-radius:15px;font-size:11px;font-weight:600;z-index:2}
+.case-body{padding:22px}
+.case-body h3{font-size:17px;font-weight:600;margin-bottom:8px;color:#e8e8e8}
+.case-body p{font-size:13px;color:var(--text-muted);line-height:1.6;margin-bottom:14px}
+.case-meta{display:flex;gap:16px;flex-wrap:wrap}
+.case-meta span{font-size:11px;color:var(--gold);background:rgba(201,169,110,0.08);padding:3px 10px;border-radius:10px}
+.case-link{display:inline-block;color:var(--gold);font-size:13px;font-weight:500;text-decoration:none;border-bottom:1px solid transparent;transition:border-color 0.3s}
 .case-link:hover{border-color:var(--gold)}
 </style>  <link rel="icon" type="image/svg+xml" href="../favicon.svg"/></head><body>
 <div id="loader"><div class="brand" data-i18 n="partner-cases.10">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div><div class="progress-text" data-i18 n="partner-cases.11">LOADING</div></div>
@@ -163,17 +163,17 @@
 <a class="mobile-nav-link mobile-primary" href="membership.html" data-i18 n="nav.member">👑 Membership</a>
 <a class="mobile-nav-link mobile-cta" href="contact.html" data-i18 n="nav.contact">Contact Us</a>
 <div class="mobile-menu-footer">
-<a class="mobile-nav-link" href="../partner-cases.html" id="mobileLangSwitch" style="border:1 px solid rgba(201,169,110,0.3);border-radius:6 px;display:inline-block;padding:12 px 24 px;color:#c9 a96 e;font-weight:600;margin-bottom:16 px">🌐 English Version</a>
+<a class="mobile-nav-link" href="../partner-cases.html" id="mobileLangSwitch" style="border:1px solid rgba(201,169,110,0.3);border-radius:6px;display:inline-block;padding:12px 24px;color:#c9a96e;font-weight:600;margin-bottom:16px">🌐 English Version</a>
 <span>Phone：13797920792 / +86 0755 3353-0188</span>
 <span>Email：hs@fantastic-vacation.com</span>
 </div>
 </div>
 </div></section>
-<section style="padding:60 px 0;text-align:center;background:linear-gradient(180 deg,rgba(201,169,110,0.06),transparent)">
+<section style="padding:60px 0;text-align:center;background:linear-gradient(180deg,rgba(201,169,110,0.06),transparent)">
 <div class="container reveal">
-<h2 data-i18 n="partner-cases.357" style="font-family:'Playfair Display',serif;font-size:28 px;margin-bottom:12 px">Become the next benchmark case?</h2>
-<p data-i18 n="partner-cases.359" style="color:var(--text-muted);margin-bottom:24 px;font-size:14 px">Whether you are a brand, service provider, or channel partner, we look forward to creating something extraordinary together.</p>
-<a data-i18 n="partner-cases.361" href="partner-apply.html" style="display:inline-block;background:linear-gradient(135 deg,#c9 a96 e,#a07850);color:#000;padding:14 px 40 px;border-radius:30 px;font-weight:600;font-size:15 px;text-decoration:none">📝 Submit Partnership Inquiry →</a>
+<h2 data-i18 n="partner-cases.357" style="font-family:'Playfair Display',serif;font-size:28px;margin-bottom:12px">Become the next benchmark case?</h2>
+<p data-i18 n="partner-cases.359" style="color:var(--text-muted);margin-bottom:24px;font-size:14px">Whether you are a brand, service provider, or channel partner, we look forward to creating something extraordinary together.</p>
+<a data-i18 n="partner-cases.361" href="partner-apply.html" style="display:inline-block;background:linear-gradient(135deg,#c9a96e,#a07850);color:#000;padding:14px 40px;border-radius:30px;font-weight:600;font-size:15px;text-decoration:none">📝 Submit Partnership Inquiry →</a>
 </div></section>
 <footer data-i18 n="index.965" id="footer">
 <div class="footer-top-bar"></div>
@@ -219,7 +219,7 @@
 <li data-i18 n="index.209"><a data-i18 n="index.210" href="../index.html">首页</a></li>
 <li data-i18 n="index.1"><a data-i18 n="index.211" href="../about.html">关于我们</a></li>
 <li data-i18 n="index.2"><a data-i18 n="index.212" href="../yachts.html">全系游艇</a></li>
-          <li><a href="../membership.html" data-i18 n="footer.member" style="color:#c9 a96 e;font-weight:500">👑 尊享会员</a></li>
+          <li><a href="../membership.html" data-i18 n="footer.member" style="color:#c9a96e;font-weight:500">👑 尊享会员</a></li>
 <li data-i18 n="index.3"><a data-i18 n="index.213" href="../custom.html">全案定制</a></li>
 <li data-i18 n="index.4"><a data-i18 n="index.214" href="../charter.html">租赁航线</a></li>
 <li data-i18 n="index.5"><a data-i18 n="index.215" href="../management.html">托管维保</a></li>

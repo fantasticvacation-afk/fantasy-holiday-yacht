@@ -7,60 +7,60 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
 <link href="../style.css" rel="stylesheet"/>
 <style>
-#loader{position:fixed;inset:0;background:#080 e1 a;display:flex;align-items:center;justify-content:center;z-index:9999;transition:opacity 0.6 s,visibility 0.6 s}
+#loader{position:fixed;inset:0;background:#080e1a;display:flex;align-items:center;justify-content:center;z-index:9999;transition:opacity 0.6s,visibility 0.6s}
 #loader.hidden{opacity:0;visibility:hidden}
-#loader .brand{font-family:'Playfair Display',serif;font-size:clamp(24 px,4 vw,42 px);color:#c9 a96 e;margin-bottom:40 px;animation:fadeUp 1 s 0.3 s forwards;opacity:0}
-@keyframes fadeUp{from{opacity:0;transform:translateY(20 px)}to{opacity:1;transform:translateY(0)}}
+#loader .brand{font-family:'Playfair Display',serif;font-size:clamp(24px,4vw,42px);color:#c9a96e;margin-bottom:40px;animation:fadeUp 1s 0.3s forwards;opacity:0}
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
 /* Fleet page */
-.fleet-hero{position:relative;padding:180 px 0 80 px;text-align:center;background:url('../images/fleet-hero-bg.jpg') center/cover no-repeat;overflow:hidden}
-.fleet-hero::before{content:'';position:absolute;inset:0;background:linear-gradient(180 deg,rgba(7,11,20,0.65) 0%,rgba(7,11,20,0.85) 100%)}
-.fleet-hero::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%,rgba(201,169,110,0.06) 0%,transparent 70%);pointer-events:none}.fleet-hero-content{position:relative;z-index:2;max-width:800 px;margin:0 auto;padding:0 24 px}
-.fleet-hero h1{font-size:clamp(32 px,5 vw,60 px);margin-bottom:12 px}
-.fleet-hero p{color:var(--text-muted);font-size:16 px;max-width:600 px;margin:0 auto;line-height:1.8}
+.fleet-hero{position:relative;padding:180px 0 80px;text-align:center;background:url('../images/fleet-hero-bg.jpg') center/cover no-repeat;overflow:hidden}
+.fleet-hero::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,11,20,0.65) 0%,rgba(7,11,20,0.85) 100%)}
+.fleet-hero::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%,rgba(201,169,110,0.06) 0%,transparent 70%);pointer-events:none}.fleet-hero-content{position:relative;z-index:2;max-width:800px;margin:0 auto;padding:0 24px}
+.fleet-hero h1{font-size:clamp(32px,5vw,60px);margin-bottom:12px}
+.fleet-hero p{color:var(--text-muted);font-size:16px;max-width:600px;margin:0 auto;line-height:1.8}
 /* Filters */
-.fleet-filters{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:10 px;margin-bottom:48 px;padding:0 24 px}
-.filter-chip{padding:10 px 22 px;font-size:12 px;letter-spacing:1 px;border:1 px solid var(--glass-border);border-radius:50 px;background:transparent;color:var(--text-muted);cursor:pointer;transition:all 0.3 s;font-family:'Inter',sans-serif;white-space:nowrap}
+.fleet-filters{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:10px;margin-bottom:48px;padding:0 24px}
+.filter-chip{padding:10px 22px;font-size:12px;letter-spacing:1px;border:1px solid var(--glass-border);border-radius:50px;background:transparent;color:var(--text-muted);cursor:pointer;transition:all 0.3s;font-family:'Inter',sans-serif;white-space:nowrap}
 .filter-chip:hover,.filter-chip.active{background:rgba(201,169,110,0.12);border-color:var(--gold);color:var(--gold)}
-.filter-divider{width:1 px;height:20 px;background:var(--glass-border);margin:0 8 px}
-.filter-select{background:var(--dark3);border:1 px solid var(--glass-border);color:var(--text);padding:10 px 16 px;border-radius:50 px;font-size:12 px;font-family:'Inter',sans-serif;cursor:pointer;outline:none}
+.filter-divider{width:1px;height:20px;background:var(--glass-border);margin:0 8px}
+.filter-select{background:var(--dark3);border:1px solid var(--glass-border);color:var(--text);padding:10px 16px;border-radius:50px;font-size:12px;font-family:'Inter',sans-serif;cursor:pointer;outline:none}
 .filter-select:focus{border-color:var(--gold)}
 /* Fleet grid */
-.fleet-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320 px,1 fr));gap:24 px}
-.fleet-card{background:var(--card);border:1 px solid var(--glass-border);border-radius:var(--radius);overflow:hidden;transition:var(--transition);cursor:pointer}
-.fleet-card:hover{transform:translateY(-6 px);box-shadow:var(--shadow-gold);border-color:var(--gold)}
+.fleet-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:24px}
+.fleet-card{background:var(--card);border:1px solid var(--glass-border);border-radius:var(--radius);overflow:hidden;transition:var(--transition);cursor:pointer}
+.fleet-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-gold);border-color:var(--gold)}
 .fleet-card.hidden{display:none}
 .fleet-card-img{position:relative;aspect-ratio:16/10;overflow:hidden}
-.fleet-card-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.6 s}
+.fleet-card-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.6s}
 .fleet-card:hover .fleet-card-img img{transform:scale(1.06)}
-.fleet-card-badge{position:absolute;top:14 px;left:14 px;padding:5 px 12 px;background:rgba(7,11,20,0.85);border:1 px solid var(--glass-border);border-radius:4 px;font-size:10 px;letter-spacing:1 px;text-transform:uppercase;color:var(--gold);backdrop-filter:blur(8 px)}
-.fleet-card-body{padding:22 px}
-.fleet-card-body h3{font-size:16 px;margin-bottom:2 px}
-.fleet-card-body .model-en{font-size:11 px;color:var(--text-dim);letter-spacing:1 px;margin-bottom:12 px}
-.fleet-specs-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(200 px,1 fr));gap:10 px;margin-bottom:14 px}
-.fleet-spec-val{font-size:16 px;color:var(--gold);font-weight:600;font-family:'Playfair Display',serif}
-.fleet-spec-label{font-size:10 px;color:var(--text-dim);letter-spacing:0.5 px;text-transform:uppercase}
-.fleet-card-footer{display:flex;justify-content:space-between;align-items:center;padding-top:14 px;border-top:1 px solid var(--glass-border)}
-.fleet-price{font-size:13 px;color:var(--gold);font-weight:600}
-.fleet-detail-btn{font-size:11 px;color:var(--text-muted);letter-spacing:1 px;transition:var(--transition)}
+.fleet-card-badge{position:absolute;top:14px;left:14px;padding:5px 12px;background:rgba(7,11,20,0.85);border:1px solid var(--glass-border);border-radius:4px;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--gold);backdrop-filter:blur(8px)}
+.fleet-card-body{padding:22px}
+.fleet-card-body h3{font-size:16px;margin-bottom:2px}
+.fleet-card-body .model-en{font-size:11px;color:var(--text-dim);letter-spacing:1px;margin-bottom:12px}
+.fleet-specs-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin-bottom:14px}
+.fleet-spec-val{font-size:16px;color:var(--gold);font-weight:600;font-family:'Playfair Display',serif}
+.fleet-spec-label{font-size:10px;color:var(--text-dim);letter-spacing:0.5px;text-transform:uppercase}
+.fleet-card-footer{display:flex;justify-content:space-between;align-items:center;padding-top:14px;border-top:1px solid var(--glass-border)}
+.fleet-price{font-size:13px;color:var(--gold);font-weight:600}
+.fleet-detail-btn{font-size:11px;color:var(--text-muted);letter-spacing:1px;transition:var(--transition)}
 .fleet-detail-btn:hover{color:var(--gold)}
 /* Detail page styles */
-.yacht-detail-hero{position:relative;padding:160 px 0;text-align:center;background:var(--dark1)}
-.yacht-detail-hero h1{font-size:clamp(28 px,4 vw,48 px);margin-bottom:8 px}
-.yacht-detail-hero .yacht-tagline{font-size:16 px;color:var(--gold);font-style:italic;letter-spacing:0.5 px}
-.detail-specs-table{max-width:900 px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(160 px,1 fr));gap:1 px;background:var(--glass-border);border-radius:var(--radius);overflow:hidden}
-.detail-spec-item{background:var(--dark2);padding:18 px 14 px;text-align:center}
-.detail-spec-item .spec-val{font-size:18 px;color:var(--gold);font-family:'Playfair Display',serif;font-weight:600}
-.detail-spec-item .spec-label{font-size:10 px;color:var(--text-dim);letter-spacing:1 px;text-transform:uppercase;margin-top:4 px}
-.detail-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(200 px,1 fr));gap:12 px;margin-top:40 px}
-.detail-gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8 px;transition:transform 0.4 s;cursor:pointer}
+.yacht-detail-hero{position:relative;padding:160px 0;text-align:center;background:var(--dark1)}
+.yacht-detail-hero h1{font-size:clamp(28px,4vw,48px);margin-bottom:8px}
+.yacht-detail-hero .yacht-tagline{font-size:16px;color:var(--gold);font-style:italic;letter-spacing:0.5px}
+.detail-specs-table{max-width:900px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:1px;background:var(--glass-border);border-radius:var(--radius);overflow:hidden}
+.detail-spec-item{background:var(--dark2);padding:18px 14px;text-align:center}
+.detail-spec-item .spec-val{font-size:18px;color:var(--gold);font-family:'Playfair Display',serif;font-weight:600}
+.detail-spec-item .spec-label{font-size:10px;color:var(--text-dim);letter-spacing:1px;text-transform:uppercase;margin-top:4px}
+.detail-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:40px}
+.detail-gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px;transition:transform 0.4s;cursor:pointer}
 .detail-gallery img:hover{transform:scale(1.03)}
-@media(max-width:768 px){.detail-gallery{grid-template-columns:repeat(auto-fit,minmax(350 px,1 fr))}}
-#backToTop{display:none;position:fixed;bottom:30 px;right:30 px;width:44 px;height:44 px;background:rgba(201,169,110,0.15);border:1 px solid var(--gold);border-radius:50%;color:var(--gold);font-size:20 px;cursor:pointer;z-index:99;transition:all 0.3 s}
+@media(max-width:768px){.detail-gallery{grid-template-columns:repeat(auto-fit,minmax(350px,1fr))}}
+#backToTop{display:none;position:fixed;bottom:30px;right:30px;width:44px;height:44px;background:rgba(201,169,110,0.15);border:1px solid var(--gold);border-radius:50%;color:var(--gold);font-size:20px;cursor:pointer;z-index:99;transition:all 0.3s}
 #backToTop:hover{background:var(--gold);color:var(--dark1)}
 #backToTop.visible{display:flex;align-items:center;justify-content:center}
-.no-results{text-align:center;padding:60 px 20 px;grid-column:1/-1}
-.no-results h3{font-size:20 px;color:var(--text-muted);margin-bottom:8 px}
-.no-results p{font-size:14 px;color:var(--text-dim)}
+.no-results{text-align:center;padding:60px 20px;grid-column:1/-1}
+.no-results h3{font-size:20px;color:var(--text-muted);margin-bottom:8px}
+.no-results p{font-size:14px;color:var(--text-dim)}
 </style>
 <link rel="icon" type="image/svg+xml" href="../favicon.svg"/>
 </head><body>
@@ -187,7 +187,7 @@
 <a class="mobile-nav-link mobile-primary" href="membership.html">👑 Membership</a>
 <a class="mobile-nav-link mobile-cta" href="contact.html">Contact</a>
 <div class="mobile-menu-footer">
-<a class="mobile-nav-link" href="../yachts.html" id="mobileLangSwitch" style="border:1 px solid rgba(201,169,110,0.3);border-radius:6 px;display:inline-block;padding:12 px 24 px;color:#c9 a96 e;font-weight:600;margin-bottom:16 px">🌐 Switch to Chinese</a>
+<a class="mobile-nav-link" href="../yachts.html" id="mobileLangSwitch" style="border:1px solid rgba(201,169,110,0.3);border-radius:6px;display:inline-block;padding:12px 24px;color:#c9a96e;font-weight:600;margin-bottom:16px">🌐 Switch to Chinese</a>
 <span>Tel: 13797920792 / +86 0755 3353-0188</span>
 <span>Email: hs@fantastic-vacation.com</span>
 </div>
@@ -545,11 +545,11 @@
 </script>
 
 <!-- ===== FINAL CTA ===== -->
-<section style="padding:100 px 0;text-align:center;background:var(--dark2);border-top:1 px solid var(--glass-border)">
+<section style="padding:100px 0;text-align:center;background:var(--dark2);border-top:1px solid var(--glass-border)">
 <div class="container reveal"  >
-<h2 style="font-family:'Playfair Display',serif;font-size:clamp(24 px,3 vw,38 px);margin-bottom:20 px">Find Your<span class="gold-gradient">Dream Yacht</span></h2>
-<p style="color:var(--text-muted);font-size:15 px;margin-bottom:36 px">Not sure which one suits you best? Our expert advisors will match you with the optimal solution within 24 hours</p>
-<div style="display:flex;gap:16 px;justify-content:center;flex-wrap:wrap">
+<h2 style="font-family:'Playfair Display',serif;font-size:clamp(24px,3vw,38px);margin-bottom:20px">Find Your<span class="gold-gradient">Dream Yacht</span></h2>
+<p style="color:var(--text-muted);font-size:15px;margin-bottom:36px">Not sure which one suits you best? Our expert advisors will match you with the optimal solution within 24 hours</p>
+<div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap">
 <a class="btn btn-primary btn-gold-sweep" href="contact.html">Book an Advisor</a>
 <a class="btn btn-outline" href="custom.html">Learn Full Custom</a>
 </div>
@@ -600,7 +600,7 @@
 <li data-i18 n="index.209"><a data-i18 n="index.210" href="../index.html">首页</a></li>
 <li data-i18 n="index.1"><a data-i18 n="index.211" href="../about.html">关于我们</a></li>
 <li data-i18 n="index.2"><a data-i18 n="index.212" href="../yachts.html">全系游艇</a></li>
-          <li><a href="../membership.html" data-i18 n="footer.member" style="color:#c9 a96 e;font-weight:500">👑 尊享会员</a></li>
+          <li><a href="../membership.html" data-i18 n="footer.member" style="color:#c9a96e;font-weight:500">👑 尊享会员</a></li>
 <li data-i18 n="index.3"><a data-i18 n="index.213" href="../custom.html">全案定制</a></li>
 <li data-i18 n="index.4"><a data-i18 n="index.214" href="../charter.html">租赁航线</a></li>
 <li data-i18 n="index.5"><a data-i18 n="index.215" href="../management.html">托管维保</a></li>

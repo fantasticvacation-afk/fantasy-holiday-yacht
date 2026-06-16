@@ -15,32 +15,32 @@
   95%{opacity:0;visibility:hidden}
   100%{display:none}
 }
-#loader{animation:autoHideLoader 6 s ease-in-out forwards}
+#loader{animation:autoHideLoader 6s ease-in-out forwards}
 #loader.hidden,#loader[style*="display:none"]{animation:none!important;display:none!important}
 </style>
 <style>
-.sub-hero{position:relative;min-height:55 vh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;background:linear-gradient(135 deg,#0 a1628 0%,#1 a2 a48 50%,#2 d1810 100%)}
+.sub-hero{position:relative;min-height:55vh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;background:linear-gradient(135deg,#0a16280%,#1a2a4850%,#2d1810100%)}
 .sub-hero::before{content:'';position:absolute;inset:0;background:url('images/yttp/yacht-145.jpg') center/cover no-repeat;opacity:0.15;transform:scale(1.1)}
-.sub-hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:150 px;background:linear-gradient(to top,var(--dark1),transparent)}
-.sub-hero-content{position:relative;z-index:3;padding:0 20 px}
-.sub-hero h1{font-family:'Playfair Display',serif;font-size:clamp(32 px,4.5 vw,52 px);font-weight:800;letter-spacing:3 px;margin-bottom:12 px}
-.sub-hero .sub{font-size:clamp(13 px,1.4 vw,17 px);color:var(--text-muted);font-weight:300;letter-spacing:2 px}
-.breadcrumb{margin-bottom:16 px;font-size:13 px;color:var(--text-muted)}
+.sub-hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:150px;background:linear-gradient(to top,var(--dark1),transparent)}
+.sub-hero-content{position:relative;z-index:3;padding:0 20px}
+.sub-hero h1{font-family:'Playfair Display',serif;font-size:clamp(32px,4.5vw,52px);font-weight:800;letter-spacing:3px;margin-bottom:12px}
+.sub-hero .sub{font-size:clamp(13px,1.4vw,17px);color:var(--text-muted);font-weight:300;letter-spacing:2px}
+.breadcrumb{margin-bottom:16px;font-size:13px;color:var(--text-muted)}
 .breadcrumb a{color:var(--gold);text-decoration:none}
-.process-timeline{display:flex;flex-direction:column;gap:0;max-width:1200 px;margin:60 px auto 0;position:relative}
-.process-timeline::before{content:'';position:absolute;left:28 px;top:0;bottom:0;width:2 px;background:linear-gradient(180 deg,var(--gold),rgba(201,169,110,0.15))}
-.process-step{display:flex;gap:30 px;align-items:flex-start;padding:30 px 0;position:relative}
-.process-step-num{width:56 px;height:56 px;border-radius:50%;background:linear-gradient(135 deg,rgba(201,169,110,0.25),rgba(201,169,110,0.05));border:2 px solid rgba(201,169,110,0.4);display:flex;align-items:center;justify-content:center;font-size:20 px;font-weight:700;color:var(--gold);font-family:'Playfair Display',serif;flex-shrink:0;z-index:2}
-.process-step-content h3{font-size:18 px;font-weight:600;margin-bottom:8 px;color:#e8 e8 e8}
-.process-step-content p{font-size:14 px;color:var(--text-muted);line-height:1.7;margin-bottom:6 px}
-.process-step-content .detail-list{margin-top:10 px;padding-left:18 px;border-left:2 px solid rgba(201,169,110,0.2)}
-.process-step-content .detail-list li{font-size:13 px;color:var(--text-dim);margin-bottom:4 px;line-height:1.6}
-.time-badge{display:inline-block;background:rgba(201,169,110,0.12);color:var(--gold);padding:2 px 10 px;border-radius:10 px;font-size:11 px;font-weight:600;margin-left:8 px}
-.faq-section{max-width:1200 px;margin:0 auto}
-.faq-item{background:rgba(255,255,255,0.02);border:1 px solid rgba(255,255,255,0.05);border-radius:12 px;padding:24 px;margin-bottom:16 px;transition:all 0.3 s}
+.process-timeline{display:flex;flex-direction:column;gap:0;max-width:1200px;margin:60px auto 0;position:relative}
+.process-timeline::before{content:'';position:absolute;left:28px;top:0;bottom:0;width:2px;background:linear-gradient(180deg,var(--gold),rgba(201,169,110,0.15))}
+.process-step{display:flex;gap:30px;align-items:flex-start;padding:30px 0;position:relative}
+.process-step-num{width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,rgba(201,169,110,0.25),rgba(201,169,110,0.05));border:2px solid rgba(201,169,110,0.4);display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:700;color:var(--gold);font-family:'Playfair Display',serif;flex-shrink:0;z-index:2}
+.process-step-content h3{font-size:18px;font-weight:600;margin-bottom:8px;color:#e8e8e8}
+.process-step-content p{font-size:14px;color:var(--text-muted);line-height:1.7;margin-bottom:6px}
+.process-step-content .detail-list{margin-top:10px;padding-left:18px;border-left:2px solid rgba(201,169,110,0.2)}
+.process-step-content .detail-list li{font-size:13px;color:var(--text-dim);margin-bottom:4px;line-height:1.6}
+.time-badge{display:inline-block;background:rgba(201,169,110,0.12);color:var(--gold);padding:2px 10px;border-radius:10px;font-size:11px;font-weight:600;margin-left:8px}
+.faq-section{max-width:1200px;margin:0 auto}
+.faq-item{background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.05);border-radius:12px;padding:24px;margin-bottom:16px;transition:all 0.3s}
 .faq-item:hover{border-color:rgba(201,169,110,0.3);background:rgba(255,255,255,0.03)}
-.faq-item h3{font-size:16 px;font-weight:600;margin-bottom:10 px;color:#e0 e0 e0}
-.faq-item p{font-size:14 px;color:var(--text-muted);line-height:1.7}
+.faq-item h3{font-size:16px;font-weight:600;margin-bottom:10px;color:#e0e0e0}
+.faq-item p{font-size:14px;color:var(--text-muted);line-height:1.7}
 </style>  <link rel="icon" type="image/svg+xml" href="../favicon.svg"/></head><body>
 <div id="loader"><div class="brand" data-i18 n="partner-process.10">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div><div class="progress-text" data-i18 n="partner-process.11">LOADING</div></div>
 <nav id="navbar" aria-label="Main Navigation">
@@ -163,14 +163,14 @@
 <a class="mobile-nav-link mobile-primary" href="membership.html" data-i18 n="nav.member">👑 Membership</a>
 <a class="mobile-nav-link mobile-cta" href="contact.html" data-i18 n="nav.contact">Contact Us</a>
 <div class="mobile-menu-footer">
-<a class="mobile-nav-link" href="../partner-process.html" id="mobileLangSwitch" style="border:1 px solid rgba(201,169,110,0.3);border-radius:6 px;display:inline-block;padding:12 px 24 px;color:#c9 a96 e;font-weight:600;margin-bottom:16 px">🌐 English Version</a>
+<a class="mobile-nav-link" href="../partner-process.html" id="mobileLangSwitch" style="border:1px solid rgba(201,169,110,0.3);border-radius:6px;display:inline-block;padding:12px 24px;color:#c9a96e;font-weight:600;margin-bottom:16px">🌐 English Version</a>
 <span>Phone：13797920792 / +86 0755 3353-0188</span>
 <span>Email：hs@fantastic-vacation.com</span>
 </div>
 </div>
 </div></section>
 <!-- FAQ -->
-<section style="background:var(--dark1);padding:80 px 0"><div class="container">
+<section style="background:var(--dark1);padding:80px 0"><div class="container">
 <div class="section-header reveal"><h2><span class="gold-gradient" data-i18 n="partner-process.356">FAQ</span></h2></div>
 <div class="faq-section">
 <div class="faq-item reveal"><h3 data-i18 n="partner-process.359">❓ What are the requirements for partnership?</h3><p data-i18 n="partner-process.360">We welcome enterprises or individuals with legitimate business qualifications, strong industry reputation, and stable client resources to join our partnership network. Specific requirements vary by partnership type. ——For example, shipyard agents need yacht sales qualifications, and marina partners require port operation permits. Please Contact Usfor a detailed list of entry requirements.</p></div>
@@ -181,11 +181,11 @@
 </div>
 </div></section>
 <!-- CTA -->
-<section style="padding:80 px 0;text-align:center;background:linear-gradient(180 deg,rgba(201,169,110,0.06),transparent)">
+<section style="padding:80px 0;text-align:center;background:linear-gradient(180deg,rgba(201,169,110,0.06),transparent)">
 <div class="container reveal">
-<h2 data-i18 n="partner-process.380" style="font-family:'Playfair Display',serif;font-size:30 px;margin-bottom:16 px">Start<span class="gold-gradient" data-i18 n="partner-process.381">Strategic Partnership</span>Journey</h2>
-<p data-i18 n="partner-process.384" style="color:var(--text-muted);margin-bottom:30 px;font-size:15 px;margin-left:auto;margin-right:auto">Whether you are a shipyard, marina operator, service provider, or brand, we look forward to partnering with you to create value together.</p>
-<a data-i18 n="partner-process.386" href="partner-apply.html" style="display:inline-block;background:linear-gradient(135 deg,#c9 a96 e,#a07850);color:#000;padding:14 px 40 px;border-radius:30 px;font-weight:600;font-size:15 px;text-decoration:none;transition:all 0.3 s">📝 Submit Partnership Inquiry →</a>
+<h2 data-i18 n="partner-process.380" style="font-family:'Playfair Display',serif;font-size:30px;margin-bottom:16px">Start<span class="gold-gradient" data-i18 n="partner-process.381">Strategic Partnership</span>Journey</h2>
+<p data-i18 n="partner-process.384" style="color:var(--text-muted);margin-bottom:30px;font-size:15px;margin-left:auto;margin-right:auto">Whether you are a shipyard, marina operator, service provider, or brand, we look forward to partnering with you to create value together.</p>
+<a data-i18 n="partner-process.386" href="partner-apply.html" style="display:inline-block;background:linear-gradient(135deg,#c9a96e,#a07850);color:#000;padding:14px 40px;border-radius:30px;font-weight:600;font-size:15px;text-decoration:none;transition:all 0.3s">📝 Submit Partnership Inquiry →</a>
 </div></section>
 <footer data-i18 n="index.965" id="footer">
 <div class="footer-top-bar"></div>
@@ -231,7 +231,7 @@
 <li data-i18 n="index.209"><a data-i18 n="index.210" href="../index.html">首页</a></li>
 <li data-i18 n="index.1"><a data-i18 n="index.211" href="../about.html">关于我们</a></li>
 <li data-i18 n="index.2"><a data-i18 n="index.212" href="../yachts.html">全系游艇</a></li>
-          <li><a href="../membership.html" data-i18 n="footer.member" style="color:#c9 a96 e;font-weight:500">👑 尊享会员</a></li>
+          <li><a href="../membership.html" data-i18 n="footer.member" style="color:#c9a96e;font-weight:500">👑 尊享会员</a></li>
 <li data-i18 n="index.3"><a data-i18 n="index.213" href="../custom.html">全案定制</a></li>
 <li data-i18 n="index.4"><a data-i18 n="index.214" href="../charter.html">租赁航线</a></li>
 <li data-i18 n="index.5"><a data-i18 n="index.215" href="../management.html">托管维保</a></li>

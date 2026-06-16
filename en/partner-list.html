@@ -17,37 +17,37 @@
   95%{opacity:0;visibility:hidden}
   100%{display:none}
 }
-#loader{animation:autoHideLoader 6 s ease-in-out forwards}
+#loader{animation:autoHideLoader 6s ease-in-out forwards}
 #loader.hidden,#loader[style*="display:none"]{animation:none!important;display:none!important}
 </style>
 <style>
-.sub-hero{position:relative;min-height:50 vh;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(135 deg,#0 a1628 0%,#1 a2 a48 50%,#2 d1810 100%)}
-.sub-hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:150 px;background:linear-gradient(to top,var(--dark1),transparent)}
-.breadcrumb{font-size:12 px;color:var(--text-muted);margin-bottom:20 px;letter-spacing:1 px}
+.sub-hero{position:relative;min-height:50vh;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(135deg,#0a16280%,#1a2a4850%,#2d1810100%)}
+.sub-hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:150px;background:linear-gradient(to top,var(--dark1),transparent)}
+.breadcrumb{font-size:12px;color:var(--text-muted);margin-bottom:20px;letter-spacing:1px}
 .breadcrumb a{color:var(--gold);text-decoration:none}
 
-.partner-categories{display:flex;gap:16 px;flex-wrap:wrap;justify-content:center;margin-bottom:48 px}
-.partner-category-btn{padding:10 px 24 px;border-radius:24 px;font-size:13 px;font-weight:500;letter-spacing:1 px;background:rgba(255,255,255,0.03);border:1 px solid rgba(201,169,110,0.15);color:var(--text-muted);cursor:pointer;transition:all 0.3 s}
+.partner-categories{display:flex;gap:16px;flex-wrap:wrap;justify-content:center;margin-bottom:48px}
+.partner-category-btn{padding:10px 24px;border-radius:24px;font-size:13px;font-weight:500;letter-spacing:1px;background:rgba(255,255,255,0.03);border:1px solid rgba(201,169,110,0.15);color:var(--text-muted);cursor:pointer;transition:all 0.3s}
 .partner-category-btn:hover,.partner-category-btn.active{background:rgba(201,169,110,0.15);border-color:var(--gold);color:var(--gold)}
 
-.partners-detail-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320 px,1 fr));gap:28 px}
-.partner-detail-card{background:rgba(255,255,255,0.02);border:1 px solid rgba(201,169,110,0.08);border-radius:16 px;overflow:hidden;transition:all 0.4 s}
-.partner-detail-card:hover{transform:translateY(-6 px);border-color:rgba(201,169,110,0.25);box-shadow:0 20 px 60 px rgba(0,0,0,0.3)}
-.partner-detail-img{height:200 px;overflow:hidden;position:relative}
-.partner-detail-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.6 s}
+.partners-detail-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:28px}
+.partner-detail-card{background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.08);border-radius:16px;overflow:hidden;transition:all 0.4s}
+.partner-detail-card:hover{transform:translateY(-6px);border-color:rgba(201,169,110,0.25);box-shadow:0 20px 60px rgba(0,0,0,0.3)}
+.partner-detail-img{height:200px;overflow:hidden;position:relative}
+.partner-detail-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.6s}
 .partner-detail-card:hover .partner-detail-img img{transform:scale(1.08)}
-.partner-category-badge{position:absolute;top:12 px;left:12 px;padding:4 px 12 px;border-radius:12 px;font-size:10 px;font-weight:600;letter-spacing:1 px;background:rgba(0,0,0,0.7);backdrop-filter:blur(8 px)}
-.partner-category-badge.shipyard{color:#64 b4 ff}
-.partner-category-badge.marina{color:#50 c878}
-.partner-category-badge.aviation{color:#ff9 f43}
-.partner-category-badge.hotel{color:#ee5 a24}
-.partner-category-badge.art{color:#9 b59 b6}
-.partner-detail-body{padding:24 px}
-.partner-detail-body h3{font-size:18 px;font-weight:600;margin-bottom:8 px}
-.partner-detail-body .origin{font-size:12 px;color:var(--text-dim);margin-bottom:12 px}
-.partner-detail-body p{font-size:13 px;color:var(--text-muted);line-height:1.7;margin-bottom:16 px}
-.partner-benefits{display:flex;flex-wrap:wrap;gap:8 px;margin-bottom:16 px}
-.partner-benefit{padding:4 px 10 px;background:rgba(201,169,110,0.08);border-radius:8 px;font-size:11 px;color:var(--gold)}
+.partner-category-badge{position:absolute;top:12px;left:12px;padding:4px 12px;border-radius:12px;font-size:10px;font-weight:600;letter-spacing:1px;background:rgba(0,0,0,0.7);backdrop-filter:blur(8px)}
+.partner-category-badge.shipyard{color:#64b4ff}
+.partner-category-badge.marina{color:#50c878}
+.partner-category-badge.aviation{color:#ff9f43}
+.partner-category-badge.hotel{color:#ee5a24}
+.partner-category-badge.art{color:#9b59b6}
+.partner-detail-body{padding:24px}
+.partner-detail-body h3{font-size:18px;font-weight:600;margin-bottom:8px}
+.partner-detail-body .origin{font-size:12px;color:var(--text-dim);margin-bottom:12px}
+.partner-detail-body p{font-size:13px;color:var(--text-muted);line-height:1.7;margin-bottom:16px}
+.partner-benefits{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.partner-benefit{padding:4px 10px;background:rgba(201,169,110,0.08);border-radius:8px;font-size:11px;color:var(--gold)}
 </style>
   <link rel="icon" type="image/svg+xml" href="../favicon.svg"/></head>
 <body>
@@ -172,7 +172,7 @@
 <a class="mobile-nav-link mobile-primary" href="membership.html" data-i18 n="nav.member">👑 Membership</a>
 <a class="mobile-nav-link mobile-cta" href="contact.html" data-i18 n="nav.contact">Contact Us</a>
 <div class="mobile-menu-footer">
-<a class="mobile-nav-link" href="../partner-list.html" id="mobileLangSwitch" style="border:1 px solid rgba(201,169,110,0.3);border-radius:6 px;display:inline-block;padding:12 px 24 px;color:#c9 a96 e;font-weight:600;margin-bottom:16 px">🌐 English Version</a>
+<a class="mobile-nav-link" href="../partner-list.html" id="mobileLangSwitch" style="border:1px solid rgba(201,169,110,0.3);border-radius:6px;display:inline-block;padding:12px 24px;color:#c9a96e;font-weight:600;margin-bottom:16px">🌐 English Version</a>
 <span>Phone：13797920792 / +86 0755 3353-0188</span>
 <span>Email：hs@fantastic-vacation.com</span>
 </div>
@@ -367,7 +367,7 @@
 <li data-i18 n="index.209"><a data-i18 n="index.210" href="../index.html">首页</a></li>
 <li data-i18 n="index.1"><a data-i18 n="index.211" href="../about.html">关于我们</a></li>
 <li data-i18 n="index.2"><a data-i18 n="index.212" href="../yachts.html">全系游艇</a></li>
-          <li><a href="../membership.html" data-i18 n="footer.member" style="color:#c9 a96 e;font-weight:500">👑 尊享会员</a></li>
+          <li><a href="../membership.html" data-i18 n="footer.member" style="color:#c9a96e;font-weight:500">👑 尊享会员</a></li>
 <li data-i18 n="index.3"><a data-i18 n="index.213" href="../custom.html">全案定制</a></li>
 <li data-i18 n="index.4"><a data-i18 n="index.214" href="../charter.html">租赁航线</a></li>
 <li data-i18 n="index.5"><a data-i18 n="index.215" href="../management.html">托管维保</a></li>

@@ -8,101 +8,101 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
 <link href="../style.css" rel="stylesheet"/>
 <style>
-#loader{position:fixed;inset:0;background:#080 e1 a;display:flex;align-items:center;justify-content:center;z-index:9999;transition:opacity 0.6 s,visibility 0.6 s}
+#loader{position:fixed;inset:0;background:#080e1a;display:flex;align-items:center;justify-content:center;z-index:9999;transition:opacity 0.6s,visibility 0.6s}
 #loader.hidden{opacity:0;visibility:hidden}
-#loader .brand{font-family:'Playfair Display',serif;font-size:clamp(24 px,4 vw,42 px);color:#c9 a96 e;margin-bottom:40 px;animation:fadeUp 1 s 0.3 s forwards;opacity:0}
-@keyframes fadeUp{from{opacity:0;transform:translateY(20 px)}to{opacity:1;transform:translateY(0)}}
+#loader .brand{font-family:'Playfair Display',serif;font-size:clamp(24px,4vw,42px);color:#c9a96e;margin-bottom:40px;animation:fadeUp 1s 0.3s forwards;opacity:0}
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
 /* Hero slideshow */
 .hero-slideshow{position:absolute;inset:0}
-.hero-slide{position:absolute;inset:0;background-size:cover;background-position:center;background-repeat:no-repeat;opacity:0;animation:heroCrossfade 16 s ease-in-out infinite}
-.hero-slide:first-child{animation-delay:0 s}
-.hero-slide:nth-child(2){animation-delay:8 s}
+.hero-slide{position:absolute;inset:0;background-size:cover;background-position:center;background-repeat:no-repeat;opacity:0;animation:heroCrossfade 16s ease-in-out infinite}
+.hero-slide:first-child{animation-delay:0s}
+.hero-slide:nth-child(2){animation-delay:8s}
 @keyframes heroCrossfade{0%,40%{opacity:1;transform:scale(1)}50%,90%{opacity:0;transform:scale(1.05)}100%{opacity:1;transform:scale(1)}}
 .hero-slideshow::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 80%,rgba(15,30,60,0.6) 0%,var(--dark1) 70%);z-index:1}
-.hero-slideshow::before{content:'';position:absolute;bottom:0;left:0;right:0;height:40%;background:linear-gradient(0 deg,rgba(7,11,20,0.9) 0%,transparent 100%);z-index:2}
+.hero-slideshow::before{content:'';position:absolute;bottom:0;left:0;right:0;height:40%;background:linear-gradient(0deg,rgba(7,11,20,0.9) 0%,transparent 100%);z-index:2}
 /* Role Cards */
-.role-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(350 px,1 fr));gap:20 px;max-width:1200 px;margin:0 auto;padding:0 24 px;position:relative;z-index:3}
-@media(max-width:900 px){.role-cards{grid-template-columns:repeat(auto-fit,minmax(350 px,1 fr))}}
-@media(max-width:550 px){.role-cards{grid-template-columns:1 fr}}
-.role-card{background:rgba(12,18,32,0.85);border:1 px solid rgba(201,169,110,0.2);border-radius:12 px;padding:28 px 20 px;text-align:center;cursor:pointer;transition:all 0.4 s;backdrop-filter:blur(10 px)}
-.role-card:hover{transform:translateY(-6 px);border-color:rgba(201,169,110,0.5);box-shadow:0 20 px 50 px rgba(0,0,0,0.4)}
-.role-card-icon{font-size:40 px;margin-bottom:12 px}
-.role-card h3{font-size:16 px;color:#c9 a96 e;margin-bottom:8 px;font-family:'Inter',sans-serif;font-weight:600}
-.role-card p{font-size:13 px;color:#9 ca3 af;line-height:1.6}
-.role-card-links{margin-top:14 px;display:flex;gap:8 px;justify-content:center;flex-wrap:wrap}
-.role-card-links a{font-size:11 px;padding:6 px 14 px;border:1 px solid rgba(201,169,110,0.3);border-radius:50 px;color:#e8 d5 a8;transition:all 0.3 s}
-.role-card-links a:hover{background:rgba(201,169,110,0.15);border-color:#c9 a96 e}
+.role-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(350px,1fr));gap:20px;max-width:1200px;margin:0 auto;padding:0 24px;position:relative;z-index:3}
+@media(max-width:900px){.role-cards{grid-template-columns:repeat(auto-fit,minmax(350px,1fr))}}
+@media(max-width:550px){.role-cards{grid-template-columns:1fr}}
+.role-card{background:rgba(12,18,32,0.85);border:1px solid rgba(201,169,110,0.2);border-radius:12px;padding:28px 20px;text-align:center;cursor:pointer;transition:all 0.4s;backdrop-filter:blur(10px)}
+.role-card:hover{transform:translateY(-6px);border-color:rgba(201,169,110,0.5);box-shadow:0 20px 50px rgba(0,0,0,0.4)}
+.role-card-icon{font-size:40px;margin-bottom:12px}
+.role-card h3{font-size:16px;color:#c9a96e;margin-bottom:8px;font-family:'Inter',sans-serif;font-weight:600}
+.role-card p{font-size:13px;color:#9ca3af;line-height:1.6}
+.role-card-links{margin-top:14px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.role-card-links a{font-size:11px;padding:6px 14px;border:1px solid rgba(201,169,110,0.3);border-radius:50px;color:#e8d5a8;transition:all 0.3s}
+.role-card-links a:hover{background:rgba(201,169,110,0.15);border-color:#c9a96e}
 /* Exp selector */
-.exp-selector{display:flex;gap:12 px;justify-content:center;margin-top:24 px;flex-wrap:wrap}
-.exp-btn{padding:12 px 28 px;border:1 px solid rgba(201,169,110,0.3);border-radius:50 px;color:#e8 d5 a8;font-size:14 px;cursor:pointer;transition:all 0.3 s;background:rgba(201,169,110,0.05)}
-.exp-btn:hover,.exp-btn.active{background:rgba(201,169,110,0.2);border-color:#c9 a96 e}
+.exp-selector{display:flex;gap:12px;justify-content:center;margin-top:24px;flex-wrap:wrap}
+.exp-btn{padding:12px 28px;border:1px solid rgba(201,169,110,0.3);border-radius:50px;color:#e8d5a8;font-size:14px;cursor:pointer;transition:all 0.3s;background:rgba(201,169,110,0.05)}
+.exp-btn:hover,.exp-btn.active{background:rgba(201,169,110,0.2);border-color:#c9a96e}
 /* Flow steps */
-.flow-steps{display:flex;justify-content:center;gap:0;flex-wrap:wrap;margin-top:24 px;position:relative}
-.flow-step{flex:0 0 auto;text-align:center;padding:16 px 12 px;position:relative;min-width:100 px}
-.flow-step-num{width:36 px;height:36 px;border:2 px solid #c9 a96 e;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 8 px;color:#c9 a96 e;font-size:14 px;font-weight:700}
-.flow-step h5{font-size:12 px;color:#e2 e8 f0;margin-bottom:4 px}
-.flow-step p{font-size:10 px;color:#9 ca3 af;line-height:1.4}
-.flow-arrow{position:absolute;top:18 px;right:-8 px;color:#c9 a96 e;font-size:16 px}
-@media(max-width:768 px){.flow-arrow{display:none}.flow-steps{gap:8 px}}
+.flow-steps{display:flex;justify-content:center;gap:0;flex-wrap:wrap;margin-top:24px;position:relative}
+.flow-step{flex:0 0 auto;text-align:center;padding:16px 12px;position:relative;min-width:100px}
+.flow-step-num{width:36px;height:36px;border:2px solid #c9a96e;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 8px;color:#c9a96e;font-size:14px;font-weight:700}
+.flow-step h5{font-size:12px;color:#e2e8f0;margin-bottom:4px}
+.flow-step p{font-size:10px;color:#9ca3af;line-height:1.4}
+.flow-arrow{position:absolute;top:18px;right:-8px;color:#c9a96e;font-size:16px}
+@media(max-width:768px){.flow-arrow{display:none}.flow-steps{gap:8px}}
 /* Service pyramid */
-.service-pyramid{display:flex;flex-direction:column;align-items:center;gap:8 px;margin-top:16 px}
-.pyramid-level{padding:10 px 24 px;background:rgba(201,169,110,0.08);border:1 px solid rgba(201,169,110,0.15);border-radius:6 px;text-align:center;font-size:13 px;color:#e2 e8 f0;max-width:400 px}
+.service-pyramid{display:flex;flex-direction:column;align-items:center;gap:8px;margin-top:16px}
+.pyramid-level{padding:10px 24px;background:rgba(201,169,110,0.08);border:1px solid rgba(201,169,110,0.15);border-radius:6px;text-align:center;font-size:13px;color:#e2e8f0;max-width:400px}
 .pyramid-level:nth-child(1){width:60%}
 .pyramid-level:nth-child(2){width:72%}
 .pyramid-level:nth-child(3){width:84%}
 .pyramid-level:nth-child(4){width:92%}
 .pyramid-level:nth-child(5){width:100%;background:rgba(201,169,110,0.15);border-color:rgba(201,169,110,0.3)}
-.pyramid-level strong{color:#c9 a96 e}
+.pyramid-level strong{color:#c9a96e}
 /* Colored management cards */
-.mgmt-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(180 px,1 fr));gap:16 px}
-.mgmt-card{padding:28 px 18 px;border-radius:12 px;text-align:center;transition:all 0.3 s;border:1 px solid transparent}
-.mgmt-card:hover{transform:translateY(-4 px)}
+.mgmt-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px}
+.mgmt-card{padding:28px 18px;border-radius:12px;text-align:center;transition:all 0.3s;border:1px solid transparent}
+.mgmt-card:hover{transform:translateY(-4px)}
 .mgmt-card:nth-child(1){background:rgba(59,130,246,0.1);border-color:rgba(59,130,246,0.25)}
 .mgmt-card:nth-child(2){background:rgba(16,185,129,0.1);border-color:rgba(16,185,129,0.25)}
 .mgmt-card:nth-child(3){background:rgba(245,158,11,0.1);border-color:rgba(245,158,11,0.25)}
 .mgmt-card:nth-child(4){background:rgba(139,92,246,0.1);border-color:rgba(139,92,246,0.25)}
 .mgmt-card:nth-child(5){background:rgba(239,68,68,0.1);border-color:rgba(239,68,68,0.25)}
-.mgmt-card-icon{font-size:32 px;margin-bottom:12 px}
-.mgmt-card h4{font-size:15 px;color:#e2 e8 f0;margin-bottom:8 px}
-.mgmt-card p{font-size:12 px;color:#9 ca3 af;line-height:1.6}
-.mgmt-card a{font-size:11 px;color:#c9 a96 e;margin-top:10 px;display:inline-block}
+.mgmt-card-icon{font-size:32px;margin-bottom:12px}
+.mgmt-card h4{font-size:15px;color:#e2e8f0;margin-bottom:8px}
+.mgmt-card p{font-size:12px;color:#9ca3af;line-height:1.6}
+.mgmt-card a{font-size:11px;color:#c9a96e;margin-top:10px;display:inline-block}
 /* City inline list */
-.city-list{display:flex;flex-wrap:wrap;gap:8 px;justify-content:center;margin-top:12 px}
-.city-chip{padding:6 px 14 px;background:rgba(201,169,110,0.08);border:1 px solid rgba(201,169,110,0.2);border-radius:50 px;font-size:12 px;color:#e8 d5 a8;display:flex;align-items:center;gap:6 px}
+.city-list{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:12px}
+.city-chip{padding:6px 14px;background:rgba(201,169,110,0.08);border:1px solid rgba(201,169,110,0.2);border-radius:50px;font-size:12px;color:#e8d5a8;display:flex;align-items:center;gap:6px}
 /* Logo placeholder grid */
-.studio-logos{display:flex;flex-wrap:wrap;gap:16 px;justify-content:center;margin-top:16 px}
-.studio-logo{padding:8 px 18 px;background:rgba(201,169,110,0.06);border:1 px solid rgba(201,169,110,0.12);border-radius:8 px;font-size:12 px;color:#9 ca3 af;text-align:center;min-width:100 px}
+.studio-logos{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;margin-top:16px}
+.studio-logo{padding:8px 18px;background:rgba(201,169,110,0.06);border:1px solid rgba(201,169,110,0.12);border-radius:8px;font-size:12px;color:#9ca3af;text-align:center;min-width:100px}
 /* Badge grid for certifications */
-.service-badges{display:flex;flex-direction:column;gap:10 px;margin-top:16 px}
-.badge-row{display:flex;gap:8 px;justify-content:center;flex-wrap:wrap}
-.badge-item{display:flex;align-items:center;gap:8 px;padding:8 px 14 px;background:rgba(201,169,110,0.06);border:1 px solid rgba(201,169,110,0.12);border-radius:8 px;min-width:150 px}
-.badge-icon{font-size:18 px;min-width:24 px;text-align:center}
-.badge-text{font-size:11 px;color:#e2 e8 f0;line-height:1.5}
-.badge-text small{display:block;color:#9 ca3 af;font-size:10 px;margin-top:2 px}
+.service-badges{display:flex;flex-direction:column;gap:10px;margin-top:16px}
+.badge-row{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.badge-item{display:flex;align-items:center;gap:8px;padding:8px 14px;background:rgba(201,169,110,0.06);border:1px solid rgba(201,169,110,0.12);border-radius:8px;min-width:150px}
+.badge-icon{font-size:18px;min-width:24px;text-align:center}
+.badge-text{font-size:11px;color:#e2e8f0;line-height:1.5}
+.badge-text small{display:block;color:#9ca3af;font-size:10px;margin-top:2px}
 /* Membership tier chips */
-.service-tiers{display:flex;flex-direction:column;gap:8 px;margin-top:16 px}
-.tier-row{display:flex;gap:8 px;justify-content:center}
+.service-tiers{display:flex;flex-direction:column;gap:8px;margin-top:16px}
+.tier-row{display:flex;gap:8px;justify-content:center}
 .tier-row-center{justify-content:center}
-.tier-chip{padding:10 px 16 px;border-radius:8 px;font-size:13 px;font-weight:600;color:#e2 e8 f0;text-align:center;min-width:150 px;border:1 px solid rgba(201,169,110,0.15)}
-.tier-chip small{display:block;font-size:10 px;color:#9 ca3 af;font-weight:400;margin-top:4 px}
+.tier-chip{padding:10px 16px;border-radius:8px;font-size:13px;font-weight:600;color:#e2e8f0;text-align:center;min-width:150px;border:1px solid rgba(201,169,110,0.15)}
+.tier-chip small{display:block;font-size:10px;color:#9ca3af;font-weight:400;margin-top:4px}
 .tier-silver{background:rgba(192,192,192,0.08);border-color:rgba(192,192,192,0.2)}
 .tier-gold{background:rgba(255,215,0,0.08);border-color:rgba(255,215,0,0.2)}
 .tier-platinum{background:rgba(229,228,226,0.08);border-color:rgba(229,228,226,0.2)}
 .tier-diamond{background:rgba(185,242,255,0.08);border-color:rgba(185,242,255,0.2)}
-.tier-black{background:rgba(201,169,110,0.12);border:1 px solid rgba(201,169,110,0.35);font-size:14 px}
-.tier-perks{display:flex;flex-wrap:wrap;gap:6 px;justify-content:center;margin-top:12 px}
-.perk-item{padding:5 px 12 px;background:rgba(201,169,110,0.06);border:1 px solid rgba(201,169,110,0.1);border-radius:50 px;font-size:11 px;color:#e8 d5 a8}
+.tier-black{background:rgba(201,169,110,0.12);border:1px solid rgba(201,169,110,0.35);font-size:14px}
+.tier-perks{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:12px}
+.perk-item{padding:5px 12px;background:rgba(201,169,110,0.06);border:1px solid rgba(201,169,110,0.1);border-radius:50px;font-size:11px;color:#e8d5a8}
 /* Custom design tech tags */
-.custom-tech-tags{display:flex;flex-wrap:wrap;gap:6 px;justify-content:center;margin:14 px 0 10 px}
-.tech-tag{padding:5 px 12 px;background:rgba(201,169,110,0.08);border:1 px solid rgba(201,169,110,0.18);border-radius:50 px;font-size:11 px;color:#e8 d5 a8;letter-spacing:0.5 px}
+.custom-tech-tags{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin:14px 0 10px}
+.tech-tag{padding:5px 12px;background:rgba(201,169,110,0.08);border:1px solid rgba(201,169,110,0.18);border-radius:50px;font-size:11px;color:#e8d5a8;letter-spacing:0.5px}
 /* Custom design feature list */
-.custom-feature-list{display:flex;flex-direction:column;gap:10 px;margin:14 px 0 0}
-.custom-feature{display:flex;align-items:flex-start;gap:10 px;padding:10 px 14 px;background:rgba(201,169,110,0.05);border:1 px solid rgba(201,169,110,0.1);border-radius:8 px;text-align:left;transition:all 0.3 s}
+.custom-feature-list{display:flex;flex-direction:column;gap:10px;margin:14px 0 0}
+.custom-feature{display:flex;align-items:flex-start;gap:10px;padding:10px 14px;background:rgba(201,169,110,0.05);border:1px solid rgba(201,169,110,0.1);border-radius:8px;text-align:left;transition:all 0.3s}
 .custom-feature:hover{background:rgba(201,169,110,0.1);border-color:rgba(201,169,110,0.2)}
-.cf-icon{font-size:16 px;min-width:22 px;text-align:center;flex-shrink:0;line-height:1.5}
+.cf-icon{font-size:16px;min-width:22px;text-align:center;flex-shrink:0;line-height:1.5}
 .cf-text{flex:1}
-.cf-text strong{display:block;font-size:12 px;color:#e2 e8 f0;margin-bottom:2 px}
-.cf-text small{display:block;font-size:11 px;color:#9 ca3 af;line-height:1.5}
+.cf-text strong{display:block;font-size:12px;color:#e2e8f0;margin-bottom:2px}
+.cf-text small{display:block;font-size:11px;color:#9ca3af;line-height:1.5}
 </style>
   <link rel="icon" type="image/svg+xml" href="../favicon.svg"/></head><body>
 <div id="loader"><div class="brand">FANTASTIC VACATION</div></div>
@@ -229,7 +229,7 @@
 <a class="mobile-nav-link mobile-primary" href="membership.html">👑 Membership</a>
 <a class="mobile-nav-link mobile-cta" href="contact.html">Contact</a>
 <div class="mobile-menu-footer">
-<a class="mobile-nav-link" href="../index.html" id="mobileLangSwitch" style="border:1 px solid rgba(201,169,110,0.3);border-radius:6 px;display:inline-block;padding:12 px 24 px;color:#c9 a96 e;font-weight:600;margin-bottom:16 px">🌐 中文</a>
+<a class="mobile-nav-link" href="../index.html" id="mobileLangSwitch" style="border:1px solid rgba(201,169,110,0.3);border-radius:6px;display:inline-block;padding:12px 24px;color:#c9a96e;font-weight:600;margin-bottom:16px">🌐 中文</a>
 <span>Tel: 13797920792 / +86 0755 3353-0188</span>
 <span>Email: hs@fantastic-vacation.com</span>
 </div>
@@ -241,18 +241,18 @@
 <section id="hero">
 <div class="hero-bg hero-slideshow">
   <div class="hero-slide" style="background-image:url('images/yttp/hero-bg-1.png')"></div>
-  <div class="hero-slide" style="background-image:url('images/yttp/hero-bg-2.png');animation-delay:8 s"></div>
+  <div class="hero-slide" style="background-image:url('images/yttp/hero-bg-2.png');animation-delay:8s"></div>
 </div>
 <div class="hero-content">
 <div class="hero-badge">✦ EST. 2010 · GLOBAL LUXURY MARINE ✦</div>
 <h1 class="hero-title"><span class="gold-gradient">Master the Blue Horizon<span class="line">Redefine Ocean Luxury</span></span></h1>
-<p class="hero-subtitle text-block"  >Global Luxury Yacht Customization & Private Maritime Lifestyle Creator<br/><span style="color:var(--text-dim);font-size:15 px">From concept design to ocean delivery — every inch of maritime experience, redefined</span></p>
+<p class="hero-subtitle text-block"  >Global Luxury Yacht Customization & Private Maritime Lifestyle Creator<br/><span style="color:var(--text-dim);font-size:15px">From concept design to ocean delivery — every inch of maritime experience, redefined</span></p>
 <div class="hero-actions">
 <a class="btn btn-primary btn-gold-sweep" href="yachts.html">Explore Our Fleet</a>
 <a class="btn btn-outline" href="contact.html">Book an Advisor</a>
 </div>
 <div class="exp-selector">
-<span style="color:var(--text-muted);font-size:13 px;margin-right:8 px">Do you already have yachting experience?</span>
+<span style="color:var(--text-muted);font-size:13px;margin-right:8px">Do you already have yachting experience?</span>
 <a class="exp-btn" href="custom.html">I'm considering a yacht for the first time</a>
 <a class="exp-btn" href="management.html">I already own a yacht</a>
 </div>
@@ -263,10 +263,10 @@
 <!-- ===== STATS BAR ===== -->
 <section id="stats-bar">
 <div class="stats-grid">
-<div class="stat-item reveal"><div class="stat-number">15<span>+</span></div><div class="stat-label">Years in Industry</div><a href="about.html" style="color:var(--gold);font-size:11 px;margin-top:6 px;display:inline-block">Learn More →</a></div>
-<div class="stat-item reveal"><div class="stat-number">200<span>+</span></div><div class="stat-label">Global HNW Clients</div><a href="cases.html" style="color:var(--gold);font-size:11 px;margin-top:6 px;display:inline-block">Learn More →</a></div>
-<div class="stat-item reveal"><div class="stat-number">50<span>+</span></div><div class="stat-label">Luxury Yachts Managed</div><a href="yachts.html" style="color:var(--gold);font-size:11 px;margin-top:6 px;display:inline-block">Learn More →</a></div>
-<div class="stat-item reveal"><div class="stat-number">30<span>+</span></div><div class="stat-label">Global Waters Covered</div><a href="charter.html" style="color:var(--gold);font-size:11 px;margin-top:6 px;display:inline-block">Learn More →</a></div>
+<div class="stat-item reveal"><div class="stat-number">15<span>+</span></div><div class="stat-label">Years in Industry</div><a href="about.html" style="color:var(--gold);font-size:11px;margin-top:6px;display:inline-block">Learn More →</a></div>
+<div class="stat-item reveal"><div class="stat-number">200<span>+</span></div><div class="stat-label">Global HNW Clients</div><a href="cases.html" style="color:var(--gold);font-size:11px;margin-top:6px;display:inline-block">Learn More →</a></div>
+<div class="stat-item reveal"><div class="stat-number">50<span>+</span></div><div class="stat-label">Luxury Yachts Managed</div><a href="yachts.html" style="color:var(--gold);font-size:11px;margin-top:6px;display:inline-block">Learn More →</a></div>
+<div class="stat-item reveal"><div class="stat-number">30<span>+</span></div><div class="stat-label">Global Waters Covered</div><a href="charter.html" style="color:var(--gold);font-size:11px;margin-top:6px;display:inline-block">Learn More →</a></div>
 </div>
 </section>
 
@@ -390,7 +390,7 @@
 <h3>Fantasy Sovereign <span class="gold-text">Sovereign Series</span></h3>
 <p class="yacht-en">60 m - 120 m Superyacht</p>
 <div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">60-120 m</div><div class="yacht-spec-label">LOA</div></div><div class="yacht-spec"><div class="yacht-spec-val">12-36</div><div class="yacht-spec-label">Max Guests</div></div><div class="yacht-spec"><div class="yacht-spec-val">Unrestricted</div><div class="yacht-spec-label">Navigation Class</div></div></div>
-<p style="font-size:12 px;color:#c9 a96 e;margin-top:10 px">For: International top families / Royal-level clients</p>
+<p style="font-size:12px;color:#c9a96e;margin-top:10px">For: International top families / Royal-level clients</p>
 <div class="yacht-card-footer"><span class="yacht-price">Request Quote</span><a class="yacht-detail-btn" href="yachts-sovereign.html">View Fleet →</a></div>
 </div>
 </div>
@@ -400,7 +400,7 @@
 <h3>Fantasy Expedition <span class="gold-text">Expedition Series</span></h3>
 <p class="yacht-en">40 m - 70 m Explorer Yacht</p>
 <div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">40-70 m</div><div class="yacht-spec-label">LOA</div></div><div class="yacht-spec"><div class="yacht-spec-val">10-20</div><div class="yacht-spec-label">Max Guests</div></div><div class="yacht-spec"><div class="yacht-spec-val">Polar/Ice Class</div><div class="yacht-spec-label">Special Cert</div></div></div>
-<p style="font-size:12 px;color:#c9 a96 e;margin-top:10 px">For: Exploratory ocean clients (Antarctic, polar regions etc.)</p>
+<p style="font-size:12px;color:#c9a96e;margin-top:10px">For: Exploratory ocean clients (Antarctic, polar regions etc.)</p>
 <div class="yacht-card-footer"><span class="yacht-price">Request Quote</span><a class="yacht-detail-btn" href="yachts-expedition.html">View Fleet →</a></div>
 </div>
 </div>
@@ -410,7 +410,7 @@
 <h3>Fantasy Flybridge <span class="gold-text">Flybridge Series</span></h3>
 <p class="yacht-en">18 m - 45 m Motor Yacht</p>
 <div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">18-45 m</div><div class="yacht-spec-label">LOA</div></div><div class="yacht-spec"><div class="yacht-spec-val">8-14</div><div class="yacht-spec-label">Max Guests</div></div><div class="yacht-spec"><div class="yacht-spec-val">28 kn+</div><div class="yacht-spec-label">Max Speed</div></div></div>
-<p style="font-size:12 px;color:#c9 a96 e;margin-top:10 px">For: Mediterranean coastal holidays, family gatherings</p>
+<p style="font-size:12px;color:#c9a96e;margin-top:10px">For: Mediterranean coastal holidays, family gatherings</p>
 <div class="yacht-card-footer"><span class="yacht-price">From ¥8.8 M</span><a class="yacht-detail-btn" href="yachts-flybridge.html">View Fleet →</a></div>
 </div>
 </div>
@@ -420,7 +420,7 @@
 <h3>Fantasy Day Cruiser <span class="gold-text">Day Cruiser Series</span></h3>
 <p class="yacht-en">10 m - 18 m Day Cruiser</p>
 <div class="yacht-specs"><div class="yacht-spec"><div class="yacht-spec-val">10-18 m</div><div class="yacht-spec-label">LOA</div></div><div class="yacht-spec"><div class="yacht-spec-val">6-12</div><div class="yacht-spec-label">Max Guests</div></div><div class="yacht-spec"><div class="yacht-spec-val">35 kn+</div><div class="yacht-spec-label">Max Speed</div></div></div>
-<p style="font-size:12 px;color:#c9 a96 e;margin-top:10 px">For: Young adults day cruising, entry-level luxury</p>
+<p style="font-size:12px;color:#c9a96e;margin-top:10px">For: Young adults day cruising, entry-level luxury</p>
 <div class="yacht-card-footer"><span class="yacht-price">From ¥2.8 M</span><a class="yacht-detail-btn" href="yachts-daycruiser.html">View Fleet →</a></div>
 </div>
 </div>
@@ -431,7 +431,7 @@
 <span class="toggle-arrow">▼</span>
 </button>
 </div>
-<div class="reveal" style="text-align:center;margin-top:24 px"><a class="btn btn-outline" href="yachts.html">View All 50 Yachts →</a></div>
+<div class="reveal" style="text-align:center;margin-top:24px"><a class="btn btn-outline" href="yachts.html">View All 50 Yachts →</a></div>
 </div>
 </section>
 
@@ -443,7 +443,7 @@
 <div class="divider-gold"></div>
 <p>"We don't build yachts — we weave maritime dreams"</p>
 </div>
-<div class="services-grid" style="grid-template-columns:repeat(auto-fit,minmax(350 px,1 fr))">
+<div class="services-grid" style="grid-template-columns:repeat(auto-fit,minmax(350px,1fr))">
 <div class="service-card reveal">
 <div class="service-icon">🎨</div>
 <h3>Exterior Design</h3>
@@ -521,18 +521,18 @@
 </div>
 </div>
 <!-- Custom Process Flow -->
-<div class="reveal" style="margin-top:48 px">
-<h4 style="text-align:center;color:#c9 a96 e;margin-bottom:24 px;font-size:18 px">Custom Process</h4>
+<div class="reveal" style="margin-top:48px">
+<h4 style="text-align:center;color:#c9a96e;margin-bottom:24px;font-size:18px">Custom Process</h4>
 <div class="flow-steps" style="flex-wrap:wrap;justify-content:center">
 <div class="flow-step"><div class="flow-step-num">1</div><h5>Need Interview</h5><p>Deep-dive into your vision<br/>and lifestyle requirements</p></div>
-<div class="flow-step"><div class="flow-arrow" style="display:inline-block;position:static;vertical-align:top;margin-top:10 px">→</div><div class="flow-step-num">2</div><h5>Concept Design</h5><p>Concept renderings and<br/>preliminary layout proposals</p></div>
-<div class="flow-step"><div class="flow-arrow" style="display:inline-block;position:static;vertical-align:top;margin-top:10 px">→</div><div class="flow-step-num">3</div><h5>Engineering</h5><p>Shipyard selection and<br/>engineering development</p></div>
-<div class="flow-step"><div class="flow-arrow" style="display:inline-block;position:static;vertical-align:top;margin-top:10 px">→</div><div class="flow-step-num">4</div><h5>Shipyard Oversight</h5><p>On-site supervision<br/>and quality control</p></div>
-<div class="flow-step"><div class="flow-arrow" style="display:inline-block;position:static;vertical-align:top;margin-top:10 px">→</div><div class="flow-step-num">5</div><h5>Delivery & Training</h5><p>Sea trials and<br/>crew training</p></div>
-<div class="flow-step"><div class="flow-arrow" style="display:inline-block;position:static;vertical-align:top;margin-top:10 px">→</div><div class="flow-step-num">6</div><h5>After-Sales</h5><p>Lifetime after-sales<br/>support and upgrades</p></div>
+<div class="flow-step"><div class="flow-arrow" style="display:inline-block;position:static;vertical-align:top;margin-top:10px">→</div><div class="flow-step-num">2</div><h5>Concept Design</h5><p>Concept renderings and<br/>preliminary layout proposals</p></div>
+<div class="flow-step"><div class="flow-arrow" style="display:inline-block;position:static;vertical-align:top;margin-top:10px">→</div><div class="flow-step-num">3</div><h5>Engineering</h5><p>Shipyard selection and<br/>engineering development</p></div>
+<div class="flow-step"><div class="flow-arrow" style="display:inline-block;position:static;vertical-align:top;margin-top:10px">→</div><div class="flow-step-num">4</div><h5>Shipyard Oversight</h5><p>On-site supervision<br/>and quality control</p></div>
+<div class="flow-step"><div class="flow-arrow" style="display:inline-block;position:static;vertical-align:top;margin-top:10px">→</div><div class="flow-step-num">5</div><h5>Delivery & Training</h5><p>Sea trials and<br/>crew training</p></div>
+<div class="flow-step"><div class="flow-arrow" style="display:inline-block;position:static;vertical-align:top;margin-top:10px">→</div><div class="flow-step-num">6</div><h5>After-Sales</h5><p>Lifetime after-sales<br/>support and upgrades</p></div>
 </div>
 </div>
-<div class="reveal" style="text-align:center;margin-top:40 px"><a class="btn btn-primary btn-gold-sweep" href="custom.html">Start Custom Journey</a></div>
+<div class="reveal" style="text-align:center;margin-top:40px"><a class="btn btn-primary btn-gold-sweep" href="custom.html">Start Custom Journey</a></div>
 </div>
 </section><!-- ===== CHARTER ROUTES ===== -->
 <section class="section-padding">
@@ -546,44 +546,44 @@
 <div class="charter-card reveal">
 <div class="charter-card-img"><img alt="Mediterranean" src="../images/yttp/yacht-042.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/></div>
 <div class="charter-card-body">
-<div style="display:flex;gap:8 px;flex-wrap:wrap;margin-bottom:12 px">
-<span style="padding:4 px 12 px;background:rgba(201,169,110,0.1);border:1 px solid var(--glass-border);border-radius:50 px;font-size:10 px;color:var(--gold);letter-spacing:1 px">Mediterranean</span>
-<span style="padding:4 px 12 px;background:rgba(201,169,110,0.1);border:1 px solid var(--glass-border);border-radius:50 px;font-size:10 px;color:var(--gold);letter-spacing:1 px">7-14 Days</span>
+<div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px">
+<span style="padding:4px 12px;background:rgba(201,169,110,0.1);border:1px solid var(--glass-border);border-radius:50px;font-size:10px;color:var(--gold);letter-spacing:1px">Mediterranean</span>
+<span style="padding:4px 12px;background:rgba(201,169,110,0.1);border:1px solid var(--glass-border);border-radius:50px;font-size:10px;color:var(--gold);letter-spacing:1px">7-14 Days</span>
 </div>
 <h3>Côte d'Azur · Classic Mediterranean Circuit</h3>
-<p style="font-size:13 px;color:#9 ca3 af">Monaco → Nice → Cannes → Genoa → Amalfi Coast</p>
-<p style="font-size:12 px;color:#6 b7280;margin-top:8 px">Best Season: May–October</p>
+<p style="font-size:13px;color:#9ca3af">Monaco → Nice → Cannes → Genoa → Amalfi Coast</p>
+<p style="font-size:12px;color:#6 b7280;margin-top:8px">Best Season: May–October</p>
 <div class="charter-price"><span class="price">From €85,000/week</span><span class="unit">Including Captain &amp; Crew · Full Service</span></div>
 </div>
 </div>
 <div class="charter-card reveal">
 <div class="charter-card-img"><img alt="Caribbean" src="../images/yttp/yacht-050.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/></div>
 <div class="charter-card-body">
-<div style="display:flex;gap:8 px;flex-wrap:wrap;margin-bottom:12 px">
-<span style="padding:4 px 12 px;background:rgba(201,169,110,0.1);border:1 px solid var(--glass-border);border-radius:50 px;font-size:10 px;color:var(--gold);letter-spacing:1 px">Caribbean</span>
-<span style="padding:4 px 12 px;background:rgba(201,169,110,0.1);border:1 px solid var(--glass-border);border-radius:50 px;font-size:10 px;color:var(--gold);letter-spacing:1 px">10-21 Days</span>
+<div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px">
+<span style="padding:4px 12px;background:rgba(201,169,110,0.1);border:1px solid var(--glass-border);border-radius:50px;font-size:10px;color:var(--gold);letter-spacing:1px">Caribbean</span>
+<span style="padding:4px 12px;background:rgba(201,169,110,0.1);border:1px solid var(--glass-border);border-radius:50px;font-size:10px;color:var(--gold);letter-spacing:1px">10-21 Days</span>
 </div>
 <h3>Pearl Islands · Caribbean Luxury Journey</h3>
-<p style="font-size:13 px;color:#9 ca3 af">Bahamas → Turks &amp; Caicos → British Virgin Islands</p>
-<p style="font-size:12 px;color:#6 b7280;margin-top:8 px">Best Season: November–April</p>
+<p style="font-size:13px;color:#9ca3af">Bahamas → Turks &amp; Caicos → British Virgin Islands</p>
+<p style="font-size:12px;color:#6 b7280;margin-top:8px">Best Season: November–April</p>
 <div class="charter-price"><span class="price">From $95,000/week</span><span class="unit">Including Captain &amp; Crew · Full Service</span></div>
 </div>
 </div>
 <div class="charter-card reveal">
 <div class="charter-card-img"><img alt="Southeast Asia" src="../images/yttp/yacht-058.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/></div>
 <div class="charter-card-body">
-<div style="display:flex;gap:8 px;flex-wrap:wrap;margin-bottom:12 px">
-<span style="padding:4 px 12 px;background:rgba(201,169,110,0.1);border:1 px solid var(--glass-border);border-radius:50 px;font-size:10 px;color:var(--gold);letter-spacing:1 px">Southeast Asia</span>
-<span style="padding:4 px 12 px;background:rgba(201,169,110,0.1);border:1 px solid var(--glass-border);border-radius:50 px;font-size:10 px;color:var(--gold);letter-spacing:1 px">5-14 Days</span>
+<div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px">
+<span style="padding:4px 12px;background:rgba(201,169,110,0.1);border:1px solid var(--glass-border);border-radius:50px;font-size:10px;color:var(--gold);letter-spacing:1px">Southeast Asia</span>
+<span style="padding:4px 12px;background:rgba(201,169,110,0.1);border:1px solid var(--glass-border);border-radius:50px;font-size:10px;color:var(--gold);letter-spacing:1px">5-14 Days</span>
 </div>
 <h3>Emerald Waters · Andaman Sea Hidden Gems</h3>
-<p style="font-size:13 px;color:#9 ca3 af">Phuket → Phi Phi Islands → Myanmar Mergui Archipelago</p>
-<p style="font-size:12 px;color:#6 b7280;margin-top:8 px">Best Season: November–April</p>
+<p style="font-size:13px;color:#9ca3af">Phuket → Phi Phi Islands → Myanmar Mergui Archipelago</p>
+<p style="font-size:12px;color:#6 b7280;margin-top:8px">Best Season: November–April</p>
 <div class="charter-price"><span class="price">From ¥380,000/week</span><span class="unit">Including Captain &amp; Crew · Full Service</span></div>
 </div>
 </div>
 </div>
-<div style="text-align:center;margin-top:48 px;display:flex;gap:16 px;justify-content:center;flex-wrap:wrap">
+<div style="text-align:center;margin-top:48px;display:flex;gap:16px;justify-content:center;flex-wrap:wrap">
 <a class="btn btn-outline" href="charter.html">View All Routes →</a>
 <a class="btn btn-outline" href="contact.html" style="border-color:rgba(201,169,110,0.4)">Custom Route →</a>
 </div>
@@ -605,8 +605,8 @@
 <div class="mgmt-card"><div class="mgmt-card-icon">📜</div><h4>Compliance Inspection</h4><p>Class society surveys, certificate renewal</p><a href="management.html">Learn More →</a></div>
 <div class="mgmt-card"><div class="mgmt-card-icon">🛡️</div><h4>Insurance Claims</h4><p>H&M arrangement, P&I liaison, incident handling</p><a href="management.html">Learn More →</a></div>
 </div>
-<p class="reveal" style="text-align:center;margin-top:32 px;color:#c9 a96 e;font-size:15 px">Wherever you are, our remote and local teams respond within 24 hours</p>
-<div class="reveal" style="text-align:center;margin-top:32 px"><a class="btn btn-primary btn-gold-sweep" href="management.html">Full Management Plan →</a></div>
+<p class="reveal" style="text-align:center;margin-top:32px;color:#c9a96e;font-size:15px">Wherever you are, our remote and local teams respond within 24 hours</p>
+<div class="reveal" style="text-align:center;margin-top:32px"><a class="btn btn-primary btn-gold-sweep" href="management.html">Full Management Plan →</a></div>
 </div>
 </section>
 
@@ -622,32 +622,32 @@
 <div class="case-item reveal" style="--aspect:16/10">
 <div class="case-img"><img alt="Phantom Blue" src="../images/yttp/yacht-066.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/></div>
 <div class="case-info">
-<span style="font-size:10 px;color:#c9 a96 e;letter-spacing:2 px;text-transform:uppercase">Full Custom</span>
-<h4>82 m Superyacht "Phantom Blue" <span style="font-size:13 px;color:#9 ca3 af">「Fantasy Blue」</span></h4>
-<p style="font-size:12 px;color:#9 ca3 af;margin:4 px 0">Client: Middle East Royalty / Top Yacht Clients</p>
+<span style="font-size:10px;color:#c9a96e;letter-spacing:2px;text-transform:uppercase">Full Custom</span>
+<h4>82 m Superyacht "Phantom Blue" <span style="font-size:13px;color:#9ca3af">「Fantasy Blue」</span></h4>
+<p style="font-size:12px;color:#9ca3af;margin:4px 0">Client: Middle East Royalty / Top Yacht Clients</p>
 <p>Commissioned by a Middle Eastern royal family over 38 months, featuring helipad, submersible garage, and IMAX cinema. Awarded Asia Boating Awards Best Custom Yacht 2024.</p>
 </div>
 </div>
 <div class="case-item reveal" style="--aspect:4/3">
 <div class="case-img"><img alt="Mediterranean Cruise" src="../images/yttp/yacht-074.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/></div>
 <div class="case-info">
-<span style="font-size:10 px;color:#c9 a96 e;letter-spacing:2 px;text-transform:uppercase">CHARTER CRUISE</span>
+<span style="font-size:10px;color:#c9a96e;letter-spacing:2px;text-transform:uppercase">CHARTER CRUISE</span>
 <h4>30-Day Mediterranean Deep Cruise</h4>
-<p style="font-size:12 px;color:#9 ca3 af;margin:4 px 0">Client: European Family Business</p>
+<p style="font-size:12px;color:#9ca3af;margin:4px 0">Client: European Family Business</p>
 <p>Exploring 12 countries across 24 ports with Michelin-star chef and private dive instructor.</p>
 </div>
 </div>
 <div class="case-item reveal" style="--aspect:16/9">
 <div class="case-img"><img alt="Fleet Management" src="../images/yttp/yacht-082.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/></div>
 <div class="case-info">
-<span style="font-size:10 px;color:#c9 a96 e;letter-spacing:2 px;text-transform:uppercase">FLEET MANAGEMENT</span>
+<span style="font-size:10px;color:#c9a96e;letter-spacing:2px;text-transform:uppercase">FLEET MANAGEMENT</span>
 <h4>Middle Eastern Royal Fleet — 5-Year Full Management</h4>
-<p style="font-size:12 px;color:#9 ca3 af;margin:4 px 0">Client: Middle Eastern Royal Fleet</p>
+<p style="font-size:12px;color:#9ca3af;margin:4px 0">Client: Middle Eastern Royal Fleet</p>
 <p>Managing 3 superyachts (45 m/62 m/88 m) with a clean 5-year safety record and zero major incidents.</p>
 </div>
 </div>
 </div>
-<div class="reveal" style="text-align:center;margin-top:48 px"><a class="btn btn-outline" href="cases.html">View All Cases →</a></div>
+<div class="reveal" style="text-align:center;margin-top:48px"><a class="btn btn-outline" href="cases.html">View All Cases →</a></div>
 </div>
 </section>
 
@@ -661,7 +661,7 @@
 </div>
 <div class="news-grid">
 <div class="news-card reveal">
-<div class="news-img"><img alt="News 1" src="../images/yttp/yacht-090.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/></div>
+<div class="news-img-grid"><img alt="" src="../images/yttp/yacht-090.jpg" /><img alt="" src="../images/yttp/yacht-163.jpg" /><img alt="" src="../images/yttp/yacht-017.jpg" /></div>
 <div class="news-body">
 <div class="news-meta"><span>10 May 2026</span><span>Brand News</span></div>
 <h3>Fantastic Vacation Opens Shenzhen Global HQ</h3>
@@ -669,7 +669,7 @@
 </div>
 </div>
 <div class="news-card reveal">
-<div class="news-img"><img alt="News 2" src="../images/yttp/yacht-098.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/></div>
+<div class="news-img-grid"><img alt="" src="../images/yttp/yacht-098.jpg" /><img alt="" src="../images/yttp/yacht-035.jpg" /><img alt="" src="../images/yttp/yacht-111.jpg" /></div>
 <div class="news-body">
 <div class="news-meta"><span>22 April 2026</span><span>Industry Trends</span></div>
 <h3>New Energy Yacht Orders Surge 40%+</h3>
@@ -677,7 +677,7 @@
 </div>
 </div>
 <div class="news-card reveal">
-<div class="news-img"><img alt="News 3" src="../images/yttp/yacht-106.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/></div>
+<div class="news-img-grid"><img alt="" src="../images/yttp/yacht-106.jpg" /><img alt="" src="../images/yttp/yacht-341.jpg" /><img alt="" src="../images/yttp/yacht-113.jpg" /></div>
 <div class="news-body">
 <div class="news-meta"><span>8 April 2026</span><span>Lifestyle</span></div>
 <h3>Ultimate Guide: Hosting the Perfect Yacht Party</h3>
@@ -685,7 +685,7 @@
 </div>
 </div>
 </div>
-<div class="reveal" style="text-align:center;margin-top:48 px;display:flex;gap:16 px;justify-content:center;flex-wrap:wrap">
+<div class="reveal" style="text-align:center;margin-top:48px;display:flex;gap:16px;justify-content:center;flex-wrap:wrap">
 <a class="btn btn-outline" href="cases.html">More Stories →</a>
 <a class="btn btn-outline" href="news.html">More News →</a>
 </div>
@@ -703,17 +703,17 @@
 <div class="partnership-grid">
 <div class="partner-card reveal">
 <h3>🏗️ Top Shipyard Partners</h3>
-<div class="studio-logos" style="margin-top:12 px;margin-bottom:12 px">
-<div class="studio-logo" style="font-size:11 px">Ferretti Group</div>
-<div class="studio-logo" style="font-size:11 px">Feadship</div>
-<div class="studio-logo" style="font-size:11 px">Lürssen</div>
+<div class="studio-logos" style="margin-top:12px;margin-bottom:12px">
+<div class="studio-logo" style="font-size:11px">Ferretti Group</div>
+<div class="studio-logo" style="font-size:11px">Feadship</div>
+<div class="studio-logo" style="font-size:11px">Lürssen</div>
 </div>
 <p>Strategic partnerships with world-class shipyards including Ferretti Group, Feadship, and Lürssen.</p>
 </div>
 <div class="partner-card reveal">
 <h3>🏝️ Marina Network</h3>
 <p>Covering 80+ premier yacht marinas worldwide with priority berth reservations and VIP reception.</p>
-<div class="city-list" style="margin-top:12 px">
+<div class="city-list" style="margin-top:12px">
 <div class="city-chip">🇲🇨 Monte Carlo</div><div class="city-chip">🇫🇷 Saint-Tropez</div>
 <div class="city-chip">🇮🇹 Portofino</div><div class="city-chip">🇺🇸 Miami</div>
 <div class="city-chip">🇹🇭 Phuket</div><div class="city-chip">🇸🇬 Sentosa</div>
@@ -722,31 +722,31 @@
 <div class="partner-card reveal">
 <h3>✈️ Luxury Lifestyle</h3>
 <p>Integrating private aviation, five-star hospitality, and art advisory — crafting a seamless luxury ecosystem.</p>
-<p style="font-size:12 px;color:#9 ca3 af;margin-top:10 px">We can arrange private jets, luxury hotel stays, and onshore reception for a seamlessly integrated luxury experience.</p>
+<p style="font-size:12px;color:#9ca3af;margin-top:10px">We can arrange private jets, luxury hotel stays, and onshore reception for a seamlessly integrated luxury experience.</p>
 </div>
 </div>
-<div class="reveal" style="text-align:center;margin-top:48 px"><a class="btn btn-outline" href="partnership.html">Partnership Details →</a></div>
+<div class="reveal" style="text-align:center;margin-top:48px"><a class="btn btn-outline" href="partnership.html">Partnership Details →</a></div>
 </div>
 </section>
 
 <!-- ===== MANIFESTO ===== -->
-<section style="background:var(--dark2);padding:120 px 0;text-align:center;border-top:1 px solid var(--glass-border);border-bottom:1 px solid var(--glass-border)">
+<section style="background:var(--dark2);padding:120px 0;text-align:center;border-top:1px solid var(--glass-border);border-bottom:1px solid var(--glass-border)">
 <div class="container reveal"  >
-<svg fill="none" style="width:48 px;height:48 px;margin:0 auto 32 px" viewBox="0 0 60 60"><path d="M8 48 L30 8 l22 40 H8 z" fill="none" stroke="#c9 a96 e" stroke-width="2"></path><path d="M16 40 h28 L30 18 16 40 z" fill="rgba(201,169,110,0.08)" stroke="#c9 a96 e" stroke-width="1.5"></path></svg>
-<h2 style="font-family:'Playfair Display',serif;font-size:clamp(24 px,4 vw,40 px);line-height:1.5;font-weight:300;font-style:italic;margin-bottom:32 px">We don't build yachts — we weave maritime dreams.<br/><span class="gold-text">Every creation from Fantastic Vacation is a redefinition of the ultimate lifestyle.</span></h2>
+<svg fill="none" style="width:48px;height:48px;margin:0 auto 32px" viewBox="0 0 60 60"><path d="M8 48 L30 8 l22 40 H8 z" fill="none" stroke="#c9 a96 e" stroke-width="2"></path><path d="M16 40 h28 L30 18 16 40 z" fill="rgba(201,169,110,0.08)" stroke="#c9 a96 e" stroke-width="1.5"></path></svg>
+<h2 style="font-family:'Playfair Display',serif;font-size:clamp(24px,4vw,40px);line-height:1.5;font-weight:300;font-style:italic;margin-bottom:32px">We don't build yachts — we weave maritime dreams.<br/><span class="gold-text">Every creation from Fantastic Vacation is a redefinition of the ultimate lifestyle.</span></h2>
 </div>
 </section>
 
 <!-- ===== FINAL CTA ===== -->
-<section style="padding:140 px 0;text-align:center;background:linear-gradient(180 deg,var(--dark3) 0%,var(--dark1) 100%)">
+<section style="padding:140px 0;text-align:center;background:linear-gradient(180deg,var(--dark3) 0%,var(--dark1) 100%)">
 <div class="container reveal"  >
-<h2 style="font-family:'Playfair Display',serif;font-size:clamp(28 px,4 vw,48 px);margin-bottom:24 px">Ready to Begin Your <span class="gold-gradient">Legend at Sea</span>?</h2>
-<p style="color:var(--text-muted);font-size:16 px;line-height:1.7;margin-bottom:40 px">Whether you're searching for your first dream yacht or upgrading existing services, our expert advisors are ready to assist.</p>
-<div style="display:flex;flex-direction:column;gap:16 px;align-items:center;margin-bottom:40 px">
-<div style="font-size:18 px;color:var(--gold)">📞 +86 0755 3353-0188</div>
-<div style="font-size:18 px;color:var(--gold)">✉️ hs@fantastic-vacation.com</div>
+<h2 style="font-family:'Playfair Display',serif;font-size:clamp(28px,4vw,48px);margin-bottom:24px">Ready to Begin Your <span class="gold-gradient">Legend at Sea</span>?</h2>
+<p style="color:var(--text-muted);font-size:16px;line-height:1.7;margin-bottom:40px">Whether you're searching for your first dream yacht or upgrading existing services, our expert advisors are ready to assist.</p>
+<div style="display:flex;flex-direction:column;gap:16px;align-items:center;margin-bottom:40px">
+<div style="font-size:18px;color:var(--gold)">📞 +86 0755 3353-0188</div>
+<div style="font-size:18px;color:var(--gold)">✉️ hs@fantastic-vacation.com</div>
 </div>
-<a class="btn btn-primary btn-gold-sweep" href="contact.html" style="padding:18 px 56 px">Book Consultation Now</a>
+<a class="btn btn-primary btn-gold-sweep" href="contact.html" style="padding:18px 56px">Book Consultation Now</a>
 </div>
 </section>
 <!-- FOOTER -->
@@ -794,7 +794,7 @@
 <li data-i18 n="index.209"><a data-i18 n="index.210" href="../index.html">首页</a></li>
 <li data-i18 n="index.1"><a data-i18 n="index.211" href="../about.html">关于我们</a></li>
 <li data-i18 n="index.2"><a data-i18 n="index.212" href="../yachts.html">全系游艇</a></li>
-          <li><a href="../membership.html" data-i18 n="footer.member" style="color:#c9 a96 e;font-weight:500">👑 尊享会员</a></li>
+          <li><a href="../membership.html" data-i18 n="footer.member" style="color:#c9a96e;font-weight:500">👑 尊享会员</a></li>
 <li data-i18 n="index.3"><a data-i18 n="index.213" href="../custom.html">全案定制</a></li>
 <li data-i18 n="index.4"><a data-i18 n="index.214" href="../charter.html">租赁航线</a></li>
 <li data-i18 n="index.5"><a data-i18 n="index.215" href="../management.html">托管维保</a></li>

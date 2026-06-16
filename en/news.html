@@ -17,38 +17,37 @@
   95%{opacity:0;visibility:hidden}
   100%{display:none}
 }
-#loader{animation:autoHideLoader 6 s ease-in-out forwards}
+#loader{animation:autoHideLoader 6s ease-in-out forwards}
 #loader.hidden,#loader[style*="display:none"]{animation:none!important;display:none!important}
 </style>
 <style>
-.news-hero{position:relative;min-height:70 vh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;background:linear-gradient(135 deg,#0 a1628 0%,#1 a2 a48 50%,#2 d1810 100%)}
+.news-hero{position:relative;min-height:70vh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;background:linear-gradient(135deg,#0a16280%,#1a2a4850%,#2d1810100%)}
 .news-hero::before{content:'';position:absolute;inset:0;background:url('images/yttp/yacht-008.jpg') center/cover no-repeat;opacity:0.3}
-.news-hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:200 px;background:linear-gradient(to top,var(--dark1),transparent)}
-.news-hero-content{position:relative;z-index:3;padding:0 20 px}
-.news-hero h1{font-family:'Playfair Display',serif;font-size:clamp(36 px,5 vw,60 px);font-weight:800;letter-spacing:3 px;margin-bottom:16 px}
-.news-hero .stats-row{display:flex;justify-content:center;gap:40 px;margin-top:32 px;flex-wrap:wrap}
+.news-hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:200px;background:linear-gradient(to top,var(--dark1),transparent)}
+.news-hero-content{position:relative;z-index:3;padding:0 20px}
+.news-hero h1{font-family:'Playfair Display',serif;font-size:clamp(36px,5vw,60px);font-weight:800;letter-spacing:3px;margin-bottom:16px}
+.news-hero .stats-row{display:flex;justify-content:center;gap:40px;margin-top:32px;flex-wrap:wrap}
 .news-hero .stat{display:flex;flex-direction:column;align-items:center}
-.news-hero .stat-val{font-size:32 px;font-weight:700;color:var(--gold);font-family:'Playfair Display',serif}
-.news-hero .stat-label{font-size:11 px;color:var(--text-muted);letter-spacing:1 px;margin-top:4 px}
-.filter-bar{display:flex;justify-content:center;gap:12 px;flex-wrap:wrap;padding:32 px 0;background:rgba(0,0,0,0.3);border-bottom:1 px solid rgba(201,169,110,0.1)}
-.filter-btn{padding:8 px 20 px;border-radius:20 px;font-size:12 px;font-weight:500;letter-spacing:1 px;background:rgba(255,255,255,0.03);border:1 px solid rgba(201,169,110,0.2);color:var(--text-muted);cursor:pointer;transition:all 0.3 s}
+.news-hero .stat-val{font-size:32px;font-weight:700;color:var(--gold);font-family:'Playfair Display',serif}
+.news-hero .stat-label{font-size:11px;color:var(--text-muted);letter-spacing:1px;margin-top:4px}
+.filter-bar{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;padding:32px 0;background:rgba(0,0,0,0.3);border-bottom:1px solid rgba(201,169,110,0.1)}
+.filter-btn{padding:8px 20px;border-radius:20px;font-size:12px;font-weight:500;letter-spacing:1px;background:rgba(255,255,255,0.03);border:1px solid rgba(201,169,110,0.2);color:var(--text-muted);cursor:pointer;transition:all 0.3s}
 .filter-btn:hover,.filter-btn.active{background:rgba(201,169,110,0.15);border-color:var(--gold);color:var(--gold)}
-.news-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(590 px,1 fr));gap:28 px}
-.news-card{background:rgba(255,255,255,0.02);border:1 px solid rgba(201,169,110,0.08);border-radius:16 px;overflow:hidden;transition:all 0.4 s}
-.news-card:hover{transform:translateY(-6 px);border-color:rgba(201,169,110,0.25);box-shadow:0 20 px 60 px rgba(0,0,0,0.3)}
-.news-img{height:200 px;overflow:hidden;position:relative}
-.news-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.6 s}
-.news-card:hover .news-img img{transform:scale(1.08)}
-.news-img::after{content:'';position:absolute;bottom:0;left:0;right:0;height:80 px;background:linear-gradient(to top,rgba(10,22,40,0.9),transparent)}
-.news-body{padding:24 px}
-.news-meta{display:flex;gap:16 px;margin-bottom:12 px}
-.news-meta span{font-size:11 px;color:var(--text-muted);letter-spacing:0.5 px}
+.news-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(590px,1fr));gap:28px}
+.news-card{background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.08);border-radius:16px;overflow:hidden;transition:all 0.4s}
+.news-card:hover{transform:translateY(-6px);border-color:rgba(201,169,110,0.25);box-shadow:0 20px 60px rgba(0,0,0,0.3)}
+.news-img-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;height:220px;overflow:hidden}
+.news-img-grid img{width:100%;height:220px;object-fit:cover;transition:transform 0.6s}
+.news-card:hover .news-img-grid img{transform:scale(1.05)}
+.news-body{padding:24px}
+.news-meta{display:flex;gap:16px;margin-bottom:12px}
+.news-meta span{font-size:11px;color:var(--text-muted);letter-spacing:0.5px}
 .news-meta span:last-child{color:var(--gold);font-weight:500}
-.news-card h3{font-size:16 px;font-weight:600;line-height:1.5;margin-bottom:12 px;color:var(--text)}
-.news-card p{font-size:13 px;line-height:1.7;color:var(--text-muted);margin-bottom:16 px}
-.news-link{font-size:12 px;color:var(--gold);letter-spacing:1 px;text-decoration:none;transition:letter-spacing 0.3 s}
-.news-link:hover{letter-spacing:2 px}
-.load-more{text-align:center;padding:48 px 0}
+.news-card h3{font-size:16px;font-weight:600;line-height:1.5;margin-bottom:12px;color:var(--text)}
+.news-card p{font-size:13px;line-height:1.7;color:var(--text-muted);margin-bottom:16px}
+.news-link{font-size:12px;color:var(--gold);letter-spacing:1px;text-decoration:none;transition:letter-spacing 0.3s}
+.news-link:hover{letter-spacing:2px}
+.load-more{text-align:center;padding:48px 0}
 </style>
   <link rel="icon" type="image/svg+xml" href="../favicon.svg"/></head>
 <body>
@@ -175,7 +174,7 @@
 <a class="mobile-nav-link mobile-primary" href="membership.html">👑 Membership</a>
 <a class="mobile-nav-link mobile-cta" href="contact.html">Contact</a>
 <div class="mobile-menu-footer">
-<a class="mobile-nav-link" href="../news.html" id="mobileLangSwitch" style="border:1 px solid rgba(201,169,110,0.3);border-radius:6 px;display:inline-block;padding:12 px 24 px;color:#c9 a96 e;font-weight:600;margin-bottom:16 px">🌐 中文</a>
+<a class="mobile-nav-link" href="../news.html" id="mobileLangSwitch" style="border:1px solid rgba(201,169,110,0.3);border-radius:6px;display:inline-block;padding:12px 24px;color:#c9a96e;font-weight:600;margin-bottom:16px">🌐 中文</a>
 <span>Tel: 13797920792 / +86 0755 3353-0188</span>
 <span>Email: hs@fantastic-vacation.com</span>
 </div>
@@ -194,7 +193,7 @@
 <section class="section-padding"><div class="container">
 <div class="news-grid">
 <div class="news-card reveal" data-category="Brand News">
-<div class="news-img"><img alt="Fantastic VacationWins 2026 Asia Best Yacht Service Provider Award" data-i18 n-attr="alt:_alt.news.0" src="../images/yttp/yacht-120.jpg"/></div>
+<div class="news-img-grid"><img alt="" src="../images/yttp/yacht-120.jpg" /><img alt="" src="../images/yttp/yacht-194.jpg" /><img alt="" src="../images/yttp/yacht-050.jpg" /></div>
 <div class="news-body">
 <div class="news-meta"><span data-i18 n="news.293">2026.05.15</span><span data-i18 n="news.294">Brand News</span></div>
 <h3 data-i18 n="news.296">Fantastic VacationWins 2026 Asia Best Yacht Service Provider Award</h3>
@@ -205,7 +204,7 @@
 </div>
 </div>
 <div class="news-card reveal" data-category="Brand News">
-<div class="news-img"><img alt="Fantastic Vacation Officially Opens Shenzhen Global HQ, Global Strategy Enters New Chapter" data-i18 n-attr="alt:_alt.news.1" src="../images/yttp/yacht-121.jpg"/></div>
+<div class="news-img-grid"><img alt="" src="../images/yttp/yacht-386.jpg" /><img alt="" src="../images/yttp/yacht-121.jpg" /><img alt="" src="../images/yttp/yacht-023.jpg" /></div>
 <div class="news-body">
 <div class="news-meta"><span data-i18 n="news.307">2026.05.10</span><span data-i18 n="news.308">Brand News</span></div>
 <h3 data-i18 n="news.310">Fantastic Vacation Officially Opens Shenzhen Global HQ, Global Strategy Enters New Chapter</h3>
@@ -216,7 +215,7 @@
 </div>
 </div>
 <div class="news-card reveal" data-category="Industry Insights">
-<div class="news-img"><img alt="Monaco Yacht Show 2026: Superyacht Orders Hit Record High" data-i18 n-attr="alt:_alt.news.2" src="../images/yttp/yacht-122.jpg"/></div>
+<div class="news-img-grid"><img alt="" src="../images/yttp/yacht-122.jpg" /><img alt="" src="../images/yttp/yacht-207.jpg" /><img alt="" src="../images/yttp/yacht-042.jpg" /></div>
 <div class="news-body">
 <div class="news-meta"><span data-i18 n="news.321">2026.04.28</span><span data-i18 n="news.322">Industry Insights</span></div>
 <h3 data-i18 n="news.324">Monaco Yacht Show 2026: Superyacht Orders Hit Record High</h3>
@@ -227,7 +226,7 @@
 </div>
 </div>
 <div class="news-card reveal" data-category="Industry Insights">
-<div class="news-img"><img alt="2026 Global Yacht Market Report: New Energy Yachts Surge Over 40%" data-i18 n-attr="alt:_alt.news.3" src="../images/yttp/yacht-123.jpg"/></div>
+<div class="news-img-grid"><img alt="" src="../images/yttp/yacht-332.jpg" /><img alt="" src="../images/yttp/yacht-123.jpg" /><img alt="" src="../images/yttp/yacht-337.jpg" /></div>
 <div class="news-body">
 <div class="news-meta"><span data-i18 n="news.335">2026.04.22</span><span data-i18 n="news.336">Industry Insights</span></div>
 <h3 data-i18 n="news.338">2026 Global Yacht Market Report: New Energy Yachts Surge Over 40%</h3>
@@ -238,7 +237,7 @@
 </div>
 </div>
 <div class="news-card reveal" data-category="Brand News">
-<div class="news-img"><img alt="Fantastic Vacation Signs Strategic Partnership with Italy's Ferretti Group" data-i18 n-attr="alt:_alt.news.4" src="../images/yttp/yacht-124.jpg"/></div>
+<div class="news-img-grid"><img alt="" src="../images/yttp/yacht-378.jpg" /><img alt="" src="../images/yttp/yacht-037.jpg" /><img alt="" src="../images/yttp/yacht-124.jpg" /></div>
 <div class="news-body">
 <div class="news-meta"><span data-i18 n="news.349">2026.04.15</span><span data-i18 n="news.350">Brand News</span></div>
 <h3 data-i18 n="news.352">Fantastic Vacation Signs Strategic Partnership with Italy's Ferretti Group</h3>
@@ -249,7 +248,7 @@
 </div>
 </div>
 <div class="news-card reveal" data-category="Yachting Life">
-<div class="news-img"><img alt="Seaside Lifestyle Guide: How to Plan the Perfect Yacht Birthday Party" data-i18 n-attr="alt:_alt.news.5" src="../images/yttp/yacht-125.jpg"/></div>
+<div class="news-img-grid"><img alt="" src="../images/yttp/yacht-163.jpg" /><img alt="" src="../images/yttp/yacht-044.jpg" /><img alt="" src="../images/yttp/yacht-125.jpg" /></div>
 <div class="news-body">
 <div class="news-meta"><span data-i18 n="news.363">2026.04.08</span><span data-i18 n="news.364">Yachting Life</span></div>
 <h3 data-i18 n="news.366">Seaside Lifestyle Guide: How to Plan the Perfect Yacht Birthday Party</h3>
@@ -260,7 +259,7 @@
 </div>
 </div>
 <div class="news-card reveal" data-category="Yachting Life">
-<div class="news-img"><img alt="Antarctic Expedition Report: Fantastic Vacation Fleet Completes First Antarctic Voyage" data-i18 n-attr="alt:_alt.news.6" src="../images/yttp/yacht-126.jpg"/></div>
+<div class="news-img-grid"><img alt="" src="../images/yttp/yacht-126.jpg" /><img alt="" src="../images/yttp/yacht-158.jpg" /><img alt="" src="../images/yttp/yacht-213.jpg" /></div>
 <div class="news-body">
 <div class="news-meta"><span data-i18 n="news.377">2026.03.28</span><span data-i18 n="news.378">Yachting Life</span></div>
 <h3 data-i18 n="news.380">Antarctic Expedition Report: Fantastic Vacation Fleet Completes First Antarctic Voyage</h3>
@@ -271,7 +270,7 @@
 </div>
 </div>
 <div class="news-card reveal" data-category="Industry Insights">
-<div class="news-img"><img alt="Asia-Pacific Yacht Market Rising: Singapore Emerges as a New Yachting Hub" data-i18 n-attr="alt:_alt.news.7" src="../images/yttp/yacht-127.jpg"/></div>
+<div class="news-img-grid"><img alt="" src="../images/yttp/yacht-209.jpg" /><img alt="" src="../images/yttp/yacht-127.jpg" /><img alt="" src="../images/yttp/yacht-089.jpg" /></div>
 <div class="news-body">
 <div class="news-meta"><span data-i18 n="news.391">2026.03.20</span><span data-i18 n="news.392">Industry Insights</span></div>
 <h3 data-i18 n="news.394">Asia-Pacific Yacht Market Rising: Singapore Emerges as a New Yachting Hub</h3>
@@ -282,7 +281,7 @@
 </div>
 </div>
 <div class="news-card reveal" data-category="Announcements">
-<div class="news-img"><img alt="Fantastic Vacation Unveils 2026-2028 Three-Year Strategic Plan" data-i18 n-attr="alt:_alt.news.8" src="../images/yttp/yacht-128.jpg"/></div>
+<div class="news-img-grid"><img alt="" src="../images/yttp/yacht-368.png" /><img alt="" src="../images/yttp/yacht-128.jpg" /><img alt="" src="../images/yttp/yacht-153.jpg" /></div>
 <div class="news-body">
 <div class="news-meta"><span data-i18 n="news.405">2026.03.12</span><span data-i18 n="news.406">Announcements</span></div>
 <h3 data-i18 n="news.408">Fantastic Vacation Unveils 2026-2028 Three-Year Strategic Plan</h3>
@@ -293,7 +292,7 @@
 </div>
 </div>
 <div class="news-card reveal" data-category="Yachting Life">
-<div class="news-img"><img alt="Mediterranean Route Guide: Complete 30-Day Deep Cruise Handbook" data-i18 n-attr="alt:_alt.news.9" src="../images/yttp/yacht-129.jpg"/></div>
+<div class="news-img-grid"><img alt="" src="../images/yttp/yacht-336.jpg" /><img alt="" src="../images/yttp/yacht-351.jpg" /><img alt="" src="../images/yttp/yacht-129.jpg" /></div>
 <div class="news-body">
 <div class="news-meta"><span data-i18 n="news.419">2026.03.05</span><span data-i18 n="news.420">Yachting Life</span></div>
 <h3 data-i18 n="news.422">Mediterranean Route Guide: Complete 30-Day Deep Cruise Handbook</h3>
@@ -351,7 +350,7 @@
 <li data-i18 n="index.209"><a data-i18 n="index.210" href="../index.html">首页</a></li>
 <li data-i18 n="index.1"><a data-i18 n="index.211" href="../about.html">关于我们</a></li>
 <li data-i18 n="index.2"><a data-i18 n="index.212" href="../yachts.html">全系游艇</a></li>
-          <li><a href="../membership.html" data-i18 n="footer.member" style="color:#c9 a96 e;font-weight:500">👑 尊享会员</a></li>
+          <li><a href="../membership.html" data-i18 n="footer.member" style="color:#c9a96e;font-weight:500">👑 尊享会员</a></li>
 <li data-i18 n="index.3"><a data-i18 n="index.213" href="../custom.html">全案定制</a></li>
 <li data-i18 n="index.4"><a data-i18 n="index.214" href="../charter.html">租赁航线</a></li>
 <li data-i18 n="index.5"><a data-i18 n="index.215" href="../management.html">托管维保</a></li>
