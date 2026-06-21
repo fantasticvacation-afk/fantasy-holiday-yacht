@@ -19,7 +19,59 @@
 #loader.hidden,#loader[style*="display:none"]{animation:none!important;display:none!important}
 </style>
 <style>.case-hero{position:relative;min-height:90 vh;display:flex;align-items:flex-end;overflow:hidden;background:#0 a1628}.case-hero-bg{position:absolute;inset:0;background:url('images/yttp/yacht-079.jpg') center/cover no-repeat fixed;opacity:0.48}.case-hero::before{content:'';position:absolute;inset:0;background:linear-gradient(to top,#0 a1628 0%,rgba(10,22,40,0.7) 50%,rgba(10,22,40,0.3) 100%)}.case-hero-content{position:relative;z-index:3;padding:60 px 24 px;max-width:1200 px}.case-hero-tags{display:flex;flex-wrap:wrap;gap:8 px;margin-bottom:20 px}.case-hero-tag{font-size:10 px;padding:6 px 16 px;border-radius:24 px;background:rgba(201,169,110,0.15);border:1 px solid rgba(201,169,110,0.3);color:#c9 a96 e;text-transform:uppercase;letter-spacing:1.5 px}.case-hero h1{font-family:'Playfair Display',serif;font-size:clamp(36 px,5 vw,62 px);font-weight:800;letter-spacing:2 px;margin-bottom:14 px;color:#e8 eef5}.case-hero-sub{font-size:clamp(14 px,1.5 vw,18 px);color:rgba(200,210,225,0.6);font-weight:300;letter-spacing:1 px;margin-bottom:30 px;max-width:1200 px}.case-stats-row{display:flex;flex-wrap:wrap;gap:32 px;margin-top:36 px}.case-stat{display:flex;flex-direction:column}.case-stat-num{font-family:'Playfair Display',serif;font-size:28 px;font-weight:700;color:#c9 a96 e}.case-stat-label{font-size:11 px;color:rgba(200,210,225,0.5);margin-top:4 px;letter-spacing:1 px;text-transform:uppercase}.section-case{padding:80 px 0}.section-case-alt{padding:80 px 0;background:linear-gradient(180 deg,#0 c1829 0%,#0 a1628 100%)}.section-header-case h2{font-family:'Playfair Display',serif;font-size:clamp(26 px,3 vw,36 px);font-weight:700;color:#e8 eef5;margin-bottom:12 px;letter-spacing:1 px}.section-header-case p{font-size:14 px;color:rgba(200,210,225,0.55);max-width:1200 px;margin-bottom:48 px}.info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280 px,1 fr));gap:24 px}.info-card{background:linear-gradient(145 deg,rgba(255,255,255,0.025),rgba(255,255,255,0.005));border:1 px solid rgba(201,169,110,0.08);border-radius:14 px;padding:28 px 24 px;text-align:center}.info-card-label{font-size:10 px;color:rgba(200,210,225,0.5);letter-spacing:1.5 px;text-transform:uppercase;margin-bottom:10 px}.info-card-value{font-family:'Playfair Display',serif;font-size:22 px;font-weight:700;color:#e8 eef5}.info-card-note{font-size:12 px;color:rgba(201,169,110,0.8);margin-top:6 px}.highlight-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(390 px,1 fr));gap:24 px;margin-top:36 px}.highlight-card{background:linear-gradient(145 deg,rgba(201,169,110,0.08),rgba(201,169,110,0.02));border:1 px solid rgba(201,169,110,0.15);border-radius:16 px;padding:32 px 24 px;text-align:center}.highlight-card h4{font-size:16 px;font-weight:600;color:#c9 a96 e;margin-bottom:14 px}.highlight-card p{font-size:13 px;color:rgba(200,210,225,0.6);line-height:1.75}.cta-case{padding:80 px 0;text-align:center;background:linear-gradient(180 deg,#0 a1628 0%,#0 c1829 100%)}.cta-case h2{font-family:'Playfair Display',serif;font-size:clamp(28 px,3.5 vw,42 px);font-weight:700;margin-bottom:16 px;background:linear-gradient(135 deg,#c9 a96 e,#e8 d5 a8);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}.cta-case p{font-size:15 px;color:rgba(200,210,225,0.55);margin-bottom:32 px;max-width:1200 px;margin-left:auto;margin-right:auto}.cta-email{display:inline-flex;align-items:center;gap:12 px;padding:16 px 40 px;border-radius:30 px;background:linear-gradient(135 deg,rgba(201,169,110,0.15),rgba(201,169,110,0.04));border:1 px solid rgba(201,169,110,0.35);color:#c9 a96 e;font-size:15 px;text-decoration:none}@media (max-width:1024 px){.info-grid,.highlight-cards{grid-template-columns:repeat(auto-fit,minmax(350 px,1 fr))}}@media (max-width:640 px){.info-grid,.highlight-cards{grid-template-columns:1 fr}}
-</style> <link rel="icon" type="image/svg+xml" href="../favicon.svg"/></head><body>
+</style> <link rel="icon" type="image/svg+xml" href="../favicon.svg"/>
+<!-- ultimate_mobile_inject -->
+<style>
+@media(max-width:768px){
+  /* 表单输入iOS防缩放 */
+  input,textarea,select{font-size:16px !important}
+  /* 按钮触控 */
+  .btn,button,a.btn{min-height:44px !important;min-width:44px !important;display:inline-flex !important;align-items:center !important;justify-content:center !important}
+  /* 表格滚动 */
+  table{display:block !important;overflow-x:auto !important;-webkit-overflow-scrolling:touch}
+  /* 安全边距 */
+  body{overflow-x:hidden}
+  /* 内容防贴边 */
+  .container,.content,.main-content,.page-content{padding-left:16px !important;padding-right:16px !important}
+  /* 深层页表单 */
+  form{padding:16px !important}
+  form input,form textarea,form select{font-size:16px !important;padding:12px 16px !important;min-height:44px !important;width:100% !important;box-sizing:border-box !important;border-radius:8px !important}
+  form label{font-size:14px !important;font-weight:500 !important;margin-bottom:6px !important;display:block !important}
+  /* 复选/单选 */
+  input[type="checkbox"],input[type="radio"]{width:20px !important;height:20px !important;accent-color:#c9a96e !important}
+  /* 申请/联系表单 */
+  .apply-form,.contact-form,.membership-apply,.membership-contact{padding:20px 16px !important}
+  /* 内容排版 */
+  p{line-height:1.7 !important;font-size:14px !important}
+  li{line-height:1.7 !important;font-size:14px !important}
+  h1{font-size:24px !important;line-height:1.3 !important}
+  h2{font-size:20px !important;line-height:1.35 !important}
+  h3{font-size:17px !important;line-height:1.4 !important}
+  h4{font-size:15px !important;line-height:1.4 !important}
+  h5{font-size:13px !important}
+  /* 图片防溢 */
+  img{max-width:100% !important;height:auto !important}
+  /* 段落间距 */
+  p{margin-bottom:12px !important}
+  /* 列表 */
+  ul,ol{padding-left:20px !important;margin-bottom:12px !important}
+  li{margin-bottom:6px !important}
+}
+@media(max-width:480px){
+  p{font-size:13px !important}
+  h1{font-size:22px !important}
+  h2{font-size:18px !important}
+  h3{font-size:16px !important}
+  input,textarea,select{font-size:16px !important}
+  .btn,button{min-height:44px !important;padding:10px 20px !important;font-size:13px !important}
+}
+@media(max-width:375px){
+  p{font-size:12px !important}
+  h1{font-size:20px !important}
+  h2{font-size:17px !important}
+}
+</style>
+</head><body>
 <div id="loader"><div class="brand" data-i18 n="case-010.10">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div></div>
 <nav id="navbar" aria-label="Main Navigation">
 <div class="nav-inner">
