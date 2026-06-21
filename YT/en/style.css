@@ -1098,6 +1098,72 @@ body.dark-mode .search-suggestion-item:hover{background:#0f172a;color:#c9a96e}
   /* 全局间距 - 大幅压缩 */
   .section-padding{padding:48px 0 !important}
   section[style*="padding"]{padding:48px 0 !important}
+  /* Case page overrides */
+  .section-case,.section-case-alt,.cta-case{padding:48px 0 !important}
+  /* Case content */
+  .case-content{padding:0 !important}
+  .case-image img{aspect-ratio:16/10;object-fit:cover}
+  .case-text h3{font-size:16px !important;margin-bottom:8px !important}
+  .case-text p{font-size:13px !important;line-height:1.5 !important}
+  /* Charter route cards */
+  .route-card{padding:20px 16px !important;margin-bottom:16px !important}
+  .route-card h3{font-size:15px !important}
+  .route-card p{font-size:12px !important;line-height:1.5 !important}
+  /* News detail */
+  .news-detail-content{padding:0 4px !important}
+  .news-detail-content p{font-size:13px !important;line-height:1.6 !important}
+  .news-detail-content h2,.news-detail-content h3{font-size:16px !important}
+  /* Yacht detail */
+  .yacht-detail-section{padding:48px 0 !important}
+  .yacht-spec-table{font-size:12px !important}
+  .yacht-spec-table th,.yacht-spec-table td{padding:8px 10px !important}
+  .yacht-feature{padding:16px !important;margin-bottom:12px !important}
+  .yacht-feature h4{font-size:14px !important}
+  .yacht-feature p{font-size:12px !important;line-height:1.5 !important}
+  /* IR pages */
+  .ir-section{padding:48px 0 !important}
+  .ir-card{padding:16px !important;margin-bottom:12px !important}
+  .ir-table{font-size:11px !important}
+  .ir-table th,.ir-table td{padding:6px 8px !important}
+  /* Partner pages */
+  .partner-card{padding:16px !important;margin-bottom:12px !important}
+  .partner-card h3{font-size:14px !important}
+  .partner-card p{font-size:12px !important;line-height:1.5 !important}
+  /* About sub-pages */
+  .about-section{padding:48px 0 !important}
+  .about-card{padding:16px !important}
+  /* Honors/awards */
+  .honor-card{padding:12px !important;margin-bottom:8px !important}
+  .honor-card h4{font-size:13px !important}
+  .honor-card p{font-size:11px !important}
+  /* General content blocks */
+  .content-block,.detail-block{padding:16px !important;margin-bottom:12px !important}
+  .content-block h3,.detail-block h3{font-size:15px !important;margin-bottom:6px !important}
+  .content-block p,.detail-block p{font-size:13px !important;line-height:1.5 !important}
+  /* List items */
+  .feature-list li,.benefit-list li{padding:6px 0 !important;font-size:13px !important}
+  /* Page hero */
+  .page-hero h1{font-size:24px !important}
+  .page-hero p{font-size:13px !important}
+  /* CTA sections */
+  .cta-section{padding:48px 0 !important}
+  .cta-section h2{font-size:20px !important}
+  .cta-section p{font-size:13px !important}
+  /* Map/contact */
+  .contact-info-item{padding:12px !important}
+  .contact-info-item h4{font-size:13px !important}
+  .contact-info-item p{font-size:12px !important}
+  /* Form */
+  .contact-form{padding:16px !important}
+  .form-row{gap:12px !important}
+  /* FAQ */
+  .faq-item{padding:12px !important;margin-bottom:8px !important}
+  .faq-item h4{font-size:14px !important}
+  .faq-item p{font-size:12px !important;line-height:1.5 !important}
+  /* Sitemap */
+  .sitemap-section{padding:16px !important}
+  .sitemap-list a{font-size:12px !important;padding:4px 0 !important}
+
   .container{padding:0 16px}
   .section-header{margin-bottom:40px}
   /* Hero */
@@ -1180,6 +1246,18 @@ body.dark-mode .search-suggestion-item:hover{background:#0f172a;color:#c9a96e}
   input,textarea,select{font-size:14px !important;padding:10px 14px !important}
   .section-padding{padding:36px 0 !important}
   section[style*="padding"]{padding:36px 0 !important}
+  .section-case,.section-case-alt,.cta-case{padding:36px 0 !important}
+  .route-card{padding:16px 12px !important}
+  .case-text h3{font-size:14px !important}
+  .case-text p{font-size:12px !important}
+  .yacht-feature{padding:12px !important}
+  .ir-card{padding:12px !important}
+  .partner-card{padding:12px !important}
+  .honor-card{padding:10px !important}
+  .content-block,.detail-block{padding:12px !important}
+  .faq-item{padding:10px !important}
+  .cta-section{padding:36px 0 !important}
+
   .container{padding:0 14px !important}
   /* 卡片内边距压缩 */
   .office-card,.value-card{padding:16px !important}
@@ -1250,6 +1328,14 @@ body.dark-mode .search-suggestion-item:hover{background:#0f172a;color:#c9a96e}
   /* 间距 */
   .section-padding{padding:28px 0 !important}
   section[style*="padding"]{padding:28px 0 !important}
+  .section-case,.section-case-alt,.cta-case{padding:28px 0 !important}
+  .route-card{padding:12px 10px !important}
+  .yacht-feature{padding:10px !important}
+  .ir-card{padding:10px !important}
+  .partner-card{padding:10px !important}
+  .content-block,.detail-block{padding:10px !important}
+  .cta-section{padding:28px 0 !important}
+
   .container{padding:0 10px !important}
 
   /* 隐藏装饰元素 */

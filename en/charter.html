@@ -25,7 +25,7 @@ body{font-family:'Inter',sans-serif;background:var(--dark1);color:var(--text);li
 .gold-gradient{background:linear-gradient(135deg,#c9a96e,#f0d890,#c9a96e);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 .gold-gradient-alt{background:linear-gradient(90deg,#c9a96e,#e8c97a);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 .container{max-width:1200px;margin:0 auto;padding:0 24px}
-.section-padding{padding:100px 0}
+.section-padding{padding:33px 0}
 .section-header{text-align:center;margin-bottom:60px}
 .section-header h2{font-family:'Playfair Display',serif;font-size:clamp(28px,4vw,42px);margin-bottom:16px}
 .divider-gold{width:60px;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:0 auto 16px}
@@ -78,7 +78,7 @@ nav .container{max-width:1200px;margin:0 auto;padding:0 24px}
 .btn-outline:hover{background:rgba(201,169,110,0.08)}
 
 /* Value props */
-.value-props{padding:60px 0;background:var(--dark2);border-top:1px solid rgba(201,169,110,0.06);border-bottom:1px solid rgba(201,169,110,0.06)}
+.value-props{padding:20px 0;background:var(--dark2);border-top:1px solid rgba(201,169,110,0.06);border-bottom:1px solid rgba(201,169,110,0.06)}
 .vp-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;background:rgba(201,169,110,0.08)}
 .vp-item{padding:32px 24px;background:var(--dark2);text-align:center;transition:background 0.3s}
 .vp-item:hover{background:var(--dark3)}
@@ -139,7 +139,7 @@ nav .container{max-width:1200px;margin:0 auto;padding:0 24px}
 .sc-tag{padding:3px 10px;border:1px solid rgba(201,169,110,0.15);border-radius:50px;font-size:10px;color:var(--text-muted)}
 
 /* Vip services */
-.vip-section{padding:80px 0;background:var(--dark1)}
+.vip-section{padding:26px 0;background:var(--dark1)}
 .vip-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(590px,1fr));gap:20px}
 .vip-card{display:flex;gap:20px;padding:24px;background:var(--dark2);border:1px solid rgba(255,255,255,0.04);border-radius:14px;transition:all 0.3s;align-items:flex-start}
 .vip-card:hover{border-color:rgba(201,169,110,0.2)}
@@ -226,9 +226,37 @@ nav .container{max-width:1200px;margin:0 auto;padding:0 24px}
 
 /* Responsive */
 @media(max-width:1024px){.routes-grid,.services-grid,.testi-grid{grid-template-columns:repeat(auto-fit,minmax(350px,1fr))}.process-grid{grid-template-columns:repeat(auto-fit,minmax(350px,1fr))}.vp-grid{grid-template-columns:repeat(auto-fit,minmax(350px,1fr))}.match-grid{grid-template-columns:repeat(auto-fit,minmax(350px,1fr))}.cta-grid{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr 1fr}}
-@media(max-width:768px){.nav-links{display:none}.hamburger{display:flex}.vp-grid,.routes-grid,.services-grid,.testi-grid,.trust-grid,.match-grid,.vip-grid{grid-template-columns:1fr}.process-grid{grid-template-columns:repeat(auto-fit,minmax(350px,1fr))}.hero-stats{gap:24px}.form-grid{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr}.section-padding{padding:60px 0}}
+@media(max-width:768px){.nav-links{display:none}.hamburger{display:flex}.vp-grid,.routes-grid,.services-grid,.testi-grid,.trust-grid,.match-grid,.vip-grid{grid-template-columns:1fr}.process-grid{grid-template-columns:repeat(auto-fit,minmax(350px,1fr))}.hero-stats{gap:24px}.form-grid{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr}.section-padding{padding:20px 0}}
 </style>
- <link rel="icon" type="image/svg+xml" href="../favicon.svg"/></head><body>
+ <link rel="icon" type="image/svg+xml" href="../favicon.svg"/><!-- mobile_media_override -->
+<style>
+@media(max-width:768px){
+  .section-case,.section-case-alt,.cta-case,.section-padding,.yacht-detail-section,.ir-section,.about-section{padding:48px 0 !important}
+  .case-content,.case-text,.yacht-feature,.ir-card,.partner-card,.honor-card,.content-block,.detail-block,.faq-item{padding:16px !important;margin-bottom:12px !important}
+  .case-text h3,.yacht-feature h4,.ir-card h4,.partner-card h3,.content-block h3,.detail-block h3,.faq-item h4{font-size:16px !important;margin-bottom:8px !important}
+  .case-text p,.yacht-feature p,.ir-card p,.partner-card p,.content-block p,.detail-block p,.faq-item p{font-size:13px !important;line-height:1.5 !important}
+  .route-card{padding:20px 16px !important;margin-bottom:16px !important}
+  .route-card h3{font-size:15px !important}
+  .route-card p{font-size:12px !important;line-height:1.5 !important}
+  .page-hero{padding:60px 0 30px !important}
+  .page-hero h1{font-size:24px !important}
+  .page-hero p{font-size:13px !important}
+}
+@media(max-width:480px){
+  .section-case,.section-case-alt,.cta-case,.section-padding{padding:36px 0 !important}
+  .case-content,.case-text,.yacht-feature,.ir-card,.partner-card,.honor-card,.content-block,.detail-block,.faq-item{padding:12px !important;margin-bottom:8px !important}
+  .case-text h3,.yacht-feature h4,.ir-card h4,.partner-card h3,.content-block h3,.detail-block h3,.faq-item h4{font-size:14px !important}
+  .case-text p,.yacht-feature p,.ir-card p,.partner-card p,.content-block p,.detail-block p,.faq-item p{font-size:12px !important;line-height:1.5 !important}
+  .route-card{padding:16px 12px !important}
+  .page-hero{padding:48px 0 24px !important}
+}
+@media(max-width:375px){
+  .section-case,.section-case-alt,.cta-case,.section-padding{padding:28px 0 !important}
+  .route-card{padding:12px 10px !important}
+  .page-hero{padding:40px 0 20px !important}
+}
+</style>
+</head><body>
 <div id="loader"><div class="brand" data-i18n="charter.12">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div><div class="progress-text" data-i18n="charter.13">LOADING</div></div>
 <div class="cursor-follower" id="cursor"></div>
 <nav id="navbar" aria-label="Main Navigation">
