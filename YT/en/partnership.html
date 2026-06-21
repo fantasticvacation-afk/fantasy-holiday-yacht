@@ -17,94 +17,94 @@
  95%{opacity:0;visibility:hidden}
  100%{display:none}
 }
-#loader{animation:autoHideLoader 6 s ease-in-out forwards}
+#loader{animation:autoHideLoader 6s ease-in-out forwards}
 #loader.hidden,#loader[style*="display:none"]{animation:none!important;display:none!important}
 </style>
 <style>
-.partnership-hero{position:relative;min-height:85 vh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;background:linear-gradient(135 deg,#0 a1628 0%,#1 a2 a48 40%,#2 d1810 80%,#1 a0 f08 100%)}
+.partnership-hero{position:relative;min-height:85vh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;background:linear-gradient(135deg,#0a1628 0%,#1a2a4840%,#2d1810 80%,#1a0f08100%)}
 .partnership-hero::before{content:'';position:absolute;inset:0;background:url('images/yttp/yacht-009.png') center/cover no-repeat;opacity:0.25;transform:scale(1.1)}
-.partnership-hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:250 px;background:linear-gradient(to top,var(--dark1),transparent)}
-.partnership-hero-content{position:relative;z-index:3;padding:0 20 px;max-width:1000 px}
-.partnership-hero h1{font-family:'Playfair Display',serif;font-size:clamp(32 px,5 vw,56 px);font-weight:800;letter-spacing:3 px;margin-bottom:16 px}
-.partnership-hero .subtitle{font-size:clamp(14 px,1.6 vw,20 px);color:var(--text-muted);font-weight:300;letter-spacing:2 px;margin-bottom:32 px;line-height:1.7}
-.stats-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(120 px,1 fr));gap:24 px;margin-top:40 px;max-width:800 px;margin-left:auto;margin-right:auto}
+.partnership-hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:250px;background:linear-gradient(to top,var(--dark1),transparent)}
+.partnership-hero-content{position:relative;z-index:3;padding:0 20px;max-width:1000px}
+.partnership-hero h1{font-family:'Playfair Display',serif;font-size:clamp(32px,5vw,56px);font-weight:800;letter-spacing:3px;margin-bottom:16px}
+.partnership-hero .subtitle{font-size:clamp(14px,1.6vw,20px);color:var(--text-muted);font-weight:300;letter-spacing:2px;margin-bottom:32px;line-height:1.7}
+.stats-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:24px;margin-top:40px;max-width:800px;margin-left:auto;margin-right:auto}
 .stat-item{display:flex;flex-direction:column;align-items:center}
-.stat-val{font-size:clamp(32 px,4 vw,48 px);font-weight:700;color:var(--gold);font-family:'Playfair Display',serif}
-.stat-label{font-size:12 px;color:var(--text-muted);letter-spacing:1 px;margin-top:8 px;text-transform:uppercase}
-.cta-buttons{display:flex;gap:20 px;justify-content:center;margin-top:48 px;flex-wrap:wrap}
+.stat-val{font-size:clamp(32px,4vw,48px);font-weight:700;color:var(--gold);font-family:'Playfair Display',serif}
+.stat-label{font-size:12px;color:var(--text-muted);letter-spacing:1px;margin-top:8px;text-transform:uppercase}
+.cta-buttons{display:flex;gap:20px;justify-content:center;margin-top:48px;flex-wrap:wrap}
 
-.types-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320 px,1 fr));gap:24 px;margin-top:48 px}
-.type-card{background:rgba(255,255,255,0.02);border:1 px solid rgba(201,169,110,0.1);border-radius:16 px;overflow:hidden;transition:all 0.4 s;position:relative}
-.type-card:hover{transform:translateY(-8 px);border-color:rgba(201,169,110,0.3);box-shadow:0 20 px 60 px rgba(0,0,0,0.4)}
-.type-card-img{height:180 px;overflow:hidden;position:relative}
-.type-card-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.6 s}
+.types-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:24px;margin-top:48px}
+.type-card{background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.1);border-radius:16px;overflow:hidden;transition:all 0.4s;position:relative}
+.type-card:hover{transform:translateY(-8px);border-color:rgba(201,169,110,0.3);box-shadow:0 20px 60px rgba(0,0,0,0.4)}
+.type-card-img{height:180px;overflow:hidden;position:relative}
+.type-card-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.6s}
 .type-card:hover .type-card-img img{transform:scale(1.1)}
-.type-card-img::after{content:'';position:absolute;bottom:0;left:0;right:0;height:80 px;background:linear-gradient(to top,rgba(10,22,40,0.95),transparent)}
-.type-card-body{padding:24 px}
-.type-card-icon{font-size:28 px;margin-bottom:12 px}
-.type-card h3{font-size:18 px;font-weight:600;margin-bottom:12 px}
-.type-card p{font-size:13 px;color:var(--text-muted);line-height:1.7;margin-bottom:16 px}
-.type-tags{display:flex;flex-wrap:wrap;gap:8 px;margin-bottom:16 px}
-.type-tag{padding:4 px 12 px;background:rgba(201,169,110,0.1);border-radius:12 px;font-size:11 px;color:var(--gold);letter-spacing:0.5 px}
-.type-link{font-size:12 px;color:var(--gold);letter-spacing:1 px;text-decoration:none;display:inline-flex;align-items:center;gap:6 px;transition:gap 0.3 s}
-.type-link:hover{gap:12 px}
+.type-card-img::after{content:'';position:absolute;bottom:0;left:0;right:0;height:80px;background:linear-gradient(to top,rgba(10,22,40,0.95),transparent)}
+.type-card-body{padding:24px}
+.type-card-icon{font-size:28px;margin-bottom:12px}
+.type-card h3{font-size:18px;font-weight:600;margin-bottom:12px}
+.type-card p{font-size:13px;color:var(--text-muted);line-height:1.7;margin-bottom:16px}
+.type-tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.type-tag{padding:4px 12px;background:rgba(201,169,110,0.1);border-radius:12px;font-size:11px;color:var(--gold);letter-spacing:0.5px}
+.type-link{font-size:12px;color:var(--gold);letter-spacing:1px;text-decoration:none;display:inline-flex;align-items:center;gap:6px;transition:gap 0.3s}
+.type-link:hover{gap:12px}
 
-.partners-section{padding:100 px 0;background:var(--dark2)}
-.partners-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:48 px;flex-wrap:wrap;gap:24 px}
-.partner-filters{display:flex;gap:12 px;flex-wrap:wrap}
-.partner-filter{padding:8 px 20 px;border-radius:20 px;font-size:12 px;font-weight:500;letter-spacing:1 px;background:rgba(255,255,255,0.03);border:1 px solid rgba(201,169,110,0.15);color:var(--text-muted);cursor:pointer;transition:all 0.3 s}
+.partners-section{padding:100px 0;background:var(--dark2)}
+.partners-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:48px;flex-wrap:wrap;gap:24px}
+.partner-filters{display:flex;gap:12px;flex-wrap:wrap}
+.partner-filter{padding:8px 20px;border-radius:20px;font-size:12px;font-weight:500;letter-spacing:1px;background:rgba(255,255,255,0.03);border:1px solid rgba(201,169,110,0.15);color:var(--text-muted);cursor:pointer;transition:all 0.3s}
 .partner-filter:hover,.partner-filter.active{background:rgba(201,169,110,0.15);border-color:var(--gold);color:var(--gold)}
 
-.logo-wall{display:grid;grid-template-columns:repeat(auto-fill,minmax(180 px,1 fr));gap:20 px}
-.logo-item{background:rgba(255,255,255,0.03);border:1 px solid rgba(201,169,110,0.08);border-radius:12 px;padding:32 px 24 px;display:flex;align-items:center;justify-content:center;min-height:100 px;transition:all 0.3 s;cursor:pointer}
+.logo-wall{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:20px}
+.logo-item{background:rgba(255,255,255,0.03);border:1px solid rgba(201,169,110,0.08);border-radius:12px;padding:32px 24px;display:flex;align-items:center;justify-content:center;min-height:100px;transition:all 0.3s;cursor:pointer}
 .logo-item:hover{background:rgba(255,255,255,0.06);border-color:rgba(201,169,110,0.2);transform:scale(1.05)}
-.logo-item span{font-size:14 px;font-weight:600;letter-spacing:1 px;text-align:center}
-.logo-item[data-category="shipyard"] span{color:#64 b4 ff}
-.logo-item[data-category="marina"] span{color:#50 c878}
+.logo-item span{font-size:14px;font-weight:600;letter-spacing:1px;text-align:center}
+.logo-item[data-category="shipyard"] span{color:#64b4ff}
+.logo-item[data-category="marina"] span{color:#50c878}
 .logo-item[data-category="aviation"] span{color:#ff9 f43}
 .logo-item[data-category="hotel"] span{color:#ee5 a24}
 
-.network-map-section{padding:100 px 0;background:linear-gradient(180 deg,var(--dark1),var(--dark3))}
-.map-container{position:relative;border-radius:20 px;overflow:hidden;background:rgba(255,255,255,0.02);border:1 px solid rgba(201,169,110,0.1);min-height:280 px;display:flex;align-items:center;justify-content:center}
-.map-placeholder{color:var(--text-muted);font-size:14 px;text-align:center;padding:40 px}
-.map-stats{display:grid;grid-template-columns:repeat(4,1 fr);gap:20 px;margin-top:32 px}
-.map-stat{background:rgba(255,255,255,0.02);border:1 px solid rgba(201,169,110,0.1);border-radius:12 px;padding:24 px;text-align:center}
-.map-stat-val{font-size:32 px;font-weight:700;color:var(--gold);font-family:'Playfair Display',serif}
-.map-stat-label{font-size:12 px;color:var(--text-muted);margin-top:8 px;letter-spacing:1 px}
+.network-map-section{padding:100px 0;background:linear-gradient(180deg,var(--dark1),var(--dark3))}
+.map-container{position:relative;border-radius:20px;overflow:hidden;background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.1);min-height:280px;display:flex;align-items:center;justify-content:center}
+.map-placeholder{color:var(--text-muted);font-size:14px;text-align:center;padding:40px}
+.map-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:32px}
+.map-stat{background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.1);border-radius:12px;padding:24px;text-align:center}
+.map-stat-val{font-size:32px;font-weight:700;color:var(--gold);font-family:'Playfair Display',serif}
+.map-stat-label{font-size:12px;color:var(--text-muted);margin-top:8px;letter-spacing:1px}
 
-.cases-preview{padding:100 px 0}
-.case-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(350 px,1 fr));gap:28 px;margin-top:48 px}
-.case-card{background:rgba(255,255,255,0.02);border:1 px solid rgba(201,169,110,0.08);border-radius:16 px;overflow:hidden;transition:all 0.4 s}
-.case-card:hover{transform:translateY(-6 px);border-color:rgba(201,169,110,0.25);box-shadow:0 20 px 60 px rgba(0,0,0,0.3)}
-.case-card-img{height:200 px;overflow:hidden;position:relative}
-.case-card-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.6 s}
+.cases-preview{padding:100px 0}
+.case-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(350px,1fr));gap:28px;margin-top:48px}
+.case-card{background:rgba(255,255,255,0.02);border:1px solid rgba(201,169,110,0.08);border-radius:16px;overflow:hidden;transition:all 0.4s}
+.case-card:hover{transform:translateY(-6px);border-color:rgba(201,169,110,0.25);box-shadow:0 20px 60px rgba(0,0,0,0.3)}
+.case-card-img{height:200px;overflow:hidden;position:relative}
+.case-card-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.6s}
 .case-card:hover .case-card-img img{transform:scale(1.08)}
-.case-card-body{padding:24 px}
-.case-card-badge{display:inline-block;padding:4 px 12 px;background:rgba(201,169,110,0.15);border-radius:12 px;font-size:10 px;color:var(--gold);letter-spacing:1 px;margin-bottom:12 px}
-.case-card h3{font-size:16 px;font-weight:600;margin-bottom:12 px}
-.case-card p{font-size:13 px;color:var(--text-muted);line-height:1.7;margin-bottom:16 px}
-.case-result{display:flex;gap:24 px;padding-top:16 px;border-top:1 px solid rgba(201,169,110,0.1)}
+.case-card-body{padding:24px}
+.case-card-badge{display:inline-block;padding:4px 12px;background:rgba(201,169,110,0.15);border-radius:12px;font-size:10px;color:var(--gold);letter-spacing:1px;margin-bottom:12px}
+.case-card h3{font-size:16px;font-weight:600;margin-bottom:12px}
+.case-card p{font-size:13px;color:var(--text-muted);line-height:1.7;margin-bottom:16px}
+.case-result{display:flex;gap:24px;padding-top:16px;border-top:1px solid rgba(201,169,110,0.1)}
 .case-result-item{flex:1}
-.case-result-val{font-size:18 px;font-weight:700;color:var(--gold)}
-.case-result-label{font-size:11 px;color:var(--text-dim);margin-top:4 px}
+.case-result-val{font-size:18px;font-weight:700;color:var(--gold)}
+.case-result-label{font-size:11px;color:var(--text-dim);margin-top:4px}
 
-.process-section{padding:100 px 0;background:var(--dark2)}
-.process-timeline{display:flex;justify-content:space-between;position:relative;margin-top:60 px;flex-wrap:wrap;gap:24 px}
-.process-timeline::before{content:'';position:absolute;top:40 px;left:10%;right:10%;height:2 px;background:linear-gradient(90 deg,transparent,rgba(201,169,110,0.3),transparent)}
-.process-step{flex:1;min-width:180 px;max-width:220 px;text-align:center;position:relative}
-.process-step-num{width:80 px;height:80 px;border-radius:50%;background:linear-gradient(135 deg,rgba(201,169,110,0.2),rgba(201,169,110,0.05));border:2 px solid rgba(201,169,110,0.3);display:flex;align-items:center;justify-content:center;margin:0 auto 20 px;font-size:24 px;font-weight:700;color:var(--gold);font-family:'Playfair Display',serif}
-.process-step h4{font-size:14 px;font-weight:600;margin-bottom:8 px}
-.process-step p{font-size:12 px;color:var(--text-muted);line-height:1.6}
+.process-section{padding:100px 0;background:var(--dark2)}
+.process-timeline{display:flex;justify-content:space-between;position:relative;margin-top:60px;flex-wrap:wrap;gap:24px}
+.process-timeline::before{content:'';position:absolute;top:40px;left:10%;right:10%;height:2px;background:linear-gradient(90deg,transparent,rgba(201,169,110,0.3),transparent)}
+.process-step{flex:1;min-width:180px;max-width:220px;text-align:center;position:relative}
+.process-step-num{width:80px;height:80px;border-radius:50%;background:linear-gradient(135deg,rgba(201,169,110,0.2),rgba(201,169,110,0.05));border:2px solid rgba(201,169,110,0.3);display:flex;align-items:center;justify-content:center;margin:0 auto 20px;font-size:24px;font-weight:700;color:var(--gold);font-family:'Playfair Display',serif}
+.process-step h4{font-size:14px;font-weight:600;margin-bottom:8px}
+.process-step p{font-size:12px;color:var(--text-muted);line-height:1.6}
 
-.cta-section{padding:120 px 0;text-align:center;background:linear-gradient(180 deg,var(--dark3),var(--dark1));position:relative;overflow:hidden}
+.cta-section{padding:120px 0;text-align:center;background:linear-gradient(180deg,var(--dark3),var(--dark1));position:relative;overflow:hidden}
 .cta-section::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,rgba(201,169,110,0.06) 0%,transparent 70%);pointer-events:none}
-.cta-content{position:relative;z-index:2;max-width:700 px;margin:0 auto}
-.cta-section h2{font-family:'Playfair Display',serif;font-size:clamp(28 px,4 vw,44 px);margin-bottom:24 px}
-.cta-section p{color:var(--text-muted);font-size:16 px;line-height:1.8;margin-bottom:40 px}
-.cta-contact{display:flex;flex-direction:column;gap:12 px;margin-bottom:32 px}
-.cta-contact div{font-size:15 px;color:var(--text)}
+.cta-content{position:relative;z-index:2;max-width:700px;margin:0 auto}
+.cta-section h2{font-family:'Playfair Display',serif;font-size:clamp(28px,4vw,44px);margin-bottom:24px}
+.cta-section p{color:var(--text-muted);font-size:16px;line-height:1.8;margin-bottom:40px}
+.cta-contact{display:flex;flex-direction:column;gap:12px;margin-bottom:32px}
+.cta-contact div{font-size:15px;color:var(--text)}
 .cta-contact a{color:var(--gold);text-decoration:none}
-@media(max-width:768 px){.map-container{min-height:200 px}.map-stats{grid-template-columns:repeat(2,1 fr)}}@media(max-width:480 px){.map-stats{grid-template-columns:1 fr}}</style>
+@media(max-width:768px){.map-container{min-height:200px}.map-stats{grid-template-columns:repeat(2,1fr)}}@media(max-width:480px){.map-stats{grid-template-columns:1fr}}</style>
  <link rel="icon" type="image/svg+xml" href="../favicon.svg"/>
 <!-- ultimate_mobile_inject -->
 <style>
@@ -159,7 +159,7 @@
 </style>
 </head>
 <body>
-<div id="loader"><div class="brand" data-i18 n="partnership.14">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div></div>
+<div id="loader"><div class="brand" data-i18n="partnership.14">FANTASTIC VACATION</div><div class="progress-bar"><div class="progress-fill" id="progress"></div></div></div>
 <nav id="navbar" aria-label="Main Navigation">
 <div class="nav-inner">
 <a class="nav-logo" href="index.html" aria-label="Fantastic Vacation Industrial Co., Ltd Home">
@@ -282,14 +282,14 @@
 <a class="mobile-nav-link mobile-primary" href="membership.html">👑 Membership</a>
 <a class="mobile-nav-link mobile-cta" href="contact.html">Contact</a>
 <div class="mobile-menu-footer">
-<a class="mobile-nav-link" href="../partnership.html" id="mobileLangSwitch" style="border:1 px solid rgba(201,169,110,0.3);border-radius:6 px;display:inline-block;padding:12 px 24 px;color:#c9 a96 e;font-weight:600;margin-bottom:16 px">🌐 中文</a>
+<a class="mobile-nav-link" href="../partnership.html" id="mobileLangSwitch" style="border:1px solid rgba(201,169,110,0.3);border-radius:6px;display:inline-block;padding:12px 24px;color:#c9a96e;font-weight:600;margin-bottom:16px">🌐 中文</a>
 <span>Tel: 13797920792 / +86 0755 3353-0188</span>
 <span>Email: hs@fantastic-vacation.com</span>
 </div>
 </div>
 <div class="cta-buttons">
-<a class="btn btn-primary btn-gold-sweep" data-i18 n="partnership.278" href="#types">Learn About Partnership Models</a>
-<a class="btn btn-outline" data-i18 n="partnership.280" href="../partner-apply.html">Submit Partnership Inquiry</a>
+<a class="btn btn-primary btn-gold-sweep" data-i18n="partnership.278" href="#types">Learn About Partnership Models</a>
+<a class="btn btn-outline" data-i18n="partnership.280" href="../partner-apply.html">Submit Partnership Inquiry</a>
 </div>
 </div>
 </section>
@@ -297,149 +297,149 @@
 <section class="section-padding" id="types">
 <div class="container">
 <div class="section-header reveal">
-<h2><span class="gold-gradient" data-i18 n="partnership.290">Ten Partnership Categories</span></h2>
+<h2><span class="gold-gradient" data-i18n="partnership.290">Ten Partnership Categories</span></h2>
 <div class="divider-gold"></div>
-<p data-i18 n="partnership.293">A comprehensive partnership ecosystem spanning the full yacht lifecycle and premium lifestyle</p>
+<p data-i18n="partnership.293">A comprehensive partnership ecosystem spanning the full yacht lifecycle and premium lifestyle</p>
 </div>
 <div class="types-grid">
 <div class="type-card reveal">
-<div class="type-card-img"><img alt="Shipyard Partnership" data-i18 n-attr="alt:_alt.partnership.0" src="../images/yttp/yacht-017.jpg"/></div>
+<div class="type-card-img"><img alt="Shipyard Partnership" data-i18n-attr="alt:_alt.partnership.0" src="../images/yttp/yacht-017.jpg"/></div>
 <div class="type-card-body">
-<div class="type-card-icon" data-i18 n="partnership.300">🏗️</div>
-<h3 data-i18 n="partnership.302">Strategic Shipyard Partnerships</h3>
-<p data-i18 n="partnership.304">Establish deep collaboration with the world's premier yacht manufacturers, providing clients with priority build slots, guaranteed custom production capacity, and factory-level after-sales support.</p>
+<div class="type-card-icon" data-i18n="partnership.300">🏗️</div>
+<h3 data-i18n="partnership.302">Strategic Shipyard Partnerships</h3>
+<p data-i18n="partnership.304">Establish deep collaboration with the world's premier yacht manufacturers, providing clients with priority build slots, guaranteed custom production capacity, and factory-level after-sales support.</p>
 <div class="type-tags">
-<span class="type-tag" data-i18 n="partnership.307">Priority Build Slots</span>
-<span class="type-tag" data-i18 n="partnership.309">Custom Capacity</span>
-<span class="type-tag" data-i18 n="partnership.311">Factory After-Sales</span>
+<span class="type-tag" data-i18n="partnership.307">Priority Build Slots</span>
+<span class="type-tag" data-i18n="partnership.309">Custom Capacity</span>
+<span class="type-tag" data-i18n="partnership.311">Factory After-Sales</span>
 </div>
-<a class="type-link" data-i18 n="partnership.314" href="../partner-type-shipyard.html">Learn More →</a>
+<a class="type-link" data-i18n="partnership.314" href="../partner-type-shipyard.html">Learn More →</a>
 </div>
 </div>
 <div class="type-card reveal">
-<div class="type-card-img"><img alt="Marina Network" data-i18 n-attr="alt:_alt.partnership.1" src="../images/yttp/yacht-025.jpg"/></div>
+<div class="type-card-img"><img alt="Marina Network" data-i18n-attr="alt:_alt.partnership.1" src="../images/yttp/yacht-025.jpg"/></div>
 <div class="type-card-body">
-<div class="type-card-icon" data-i18 n="partnership.321">🏝️</div>
-<h3 data-i18 n="partnership.323">Global Marina/Harbor Alliance</h3>
-<p data-i18 n="partnership.325">Covering 80+ top-tier yacht marinas worldwide, offering Priority Berth reservations, VIP reception access, harbor fee concessions, and emergency repair green channels.</p>
+<div class="type-card-icon" data-i18n="partnership.321">🏝️</div>
+<h3 data-i18n="partnership.323">Global Marina/Harbor Alliance</h3>
+<p data-i18n="partnership.325">Covering 80+ top-tier yacht marinas worldwide, offering Priority Berth reservations, VIP reception access, harbor fee concessions, and emergency repair green channels.</p>
 <div class="type-tags">
-<span class="type-tag" data-i18 n="partnership.328">Priority Berths</span>
-<span class="type-tag" data-i18 n="partnership.330">VIP Access</span>
-<span class="type-tag" data-i18 n="partnership.332">Fee Concessions</span>
+<span class="type-tag" data-i18n="partnership.328">Priority Berths</span>
+<span class="type-tag" data-i18n="partnership.330">VIP Access</span>
+<span class="type-tag" data-i18n="partnership.332">Fee Concessions</span>
 </div>
-<a class="type-link" data-i18 n="partnership.335" href="../partner-type-marina.html">Learn More →</a>
+<a class="type-link" data-i18n="partnership.335" href="../partner-type-marina.html">Learn More →</a>
 </div>
 </div>
 <div class="type-card reveal">
-<div class="type-card-img"><img alt="Private Aviation" data-i18 n-attr="alt:_alt.partnership.2" src="../images/yttp/yacht-033.jpg"/></div>
+<div class="type-card-img"><img alt="Private Aviation" data-i18n-attr="alt:_alt.partnership.2" src="../images/yttp/yacht-033.jpg"/></div>
 <div class="type-card-body">
-<div class="type-card-icon" data-i18 n="partnership.342">✈️</div>
-<h3 data-i18 n="partnership.344">Private Aviation / Sea-Land-Air Transport</h3>
-<p data-i18 n="partnership.346">Partnering with top private aviation operators including VistaJet and NetJets to provide worldwide helicopter transfers, yacht helipad certification, and seamless sea-to-air connections.</p>
+<div class="type-card-icon" data-i18n="partnership.342">✈️</div>
+<h3 data-i18n="partnership.344">Private Aviation / Sea-Land-Air Transport</h3>
+<p data-i18n="partnership.346">Partnering with top private aviation operators including VistaJet and NetJets to provide worldwide helicopter transfers, yacht helipad certification, and seamless sea-to-air connections.</p>
 <div class="type-tags">
-<span class="type-tag" data-i18 n="partnership.349">Helicopter Transfer</span>
-<span class="type-tag" data-i18 n="partnership.351">Helipad Certification</span>
-<span class="type-tag" data-i18 n="partnership.353">Sea-Air Link</span>
+<span class="type-tag" data-i18n="partnership.349">Helicopter Transfer</span>
+<span class="type-tag" data-i18n="partnership.351">Helipad Certification</span>
+<span class="type-tag" data-i18n="partnership.353">Sea-Air Link</span>
 </div>
-<a class="type-link" data-i18 n="partnership.356" href="../partner-type-aviation.html">Learn More →</a>
+<a class="type-link" data-i18n="partnership.356" href="../partner-type-aviation.html">Learn More →</a>
 </div>
 </div>
 <div class="type-card reveal">
-<div class="type-card-img"><img alt="Luxury Hotels" data-i18 n-attr="alt:_alt.partnership.3" src="../images/yttp/yacht-041.jpg"/></div>
+<div class="type-card-img"><img alt="Luxury Hotels" data-i18n-attr="alt:_alt.partnership.3" src="../images/yttp/yacht-041.jpg"/></div>
 <div class="type-card-body">
 <div class="type-card-icon">🏨</div>
-<h3 data-i18 n="partnership.365">Luxury Hotel &amp; Resort Partnerships</h3>
-<p data-i18 n="partnership.367">Establish exclusive agreements with Aman, Four Seasons, Ritz-Carlton and other premier resort hotels, offering yacht-hotel bundled packages and sea-arrival concierge services.</p>
+<h3 data-i18n="partnership.365">Luxury Hotel &amp; Resort Partnerships</h3>
+<p data-i18n="partnership.367">Establish exclusive agreements with Aman, Four Seasons, Ritz-Carlton and other premier resort hotels, offering yacht-hotel bundled packages and sea-arrival concierge services.</p>
 <div class="type-tags">
-<span class="type-tag" data-i18 n="partnership.370">Bundled Packages</span>
-<span class="type-tag" data-i18 n="partnership.372">Sea Arrival</span>
-<span class="type-tag" data-i18 n="partnership.374">Member Recognition</span>
+<span class="type-tag" data-i18n="partnership.370">Bundled Packages</span>
+<span class="type-tag" data-i18n="partnership.372">Sea Arrival</span>
+<span class="type-tag" data-i18n="partnership.374">Member Recognition</span>
 </div>
-<a class="type-link" data-i18 n="partnership.377" href="../partner-type-hotel.html">Learn More →</a>
+<a class="type-link" data-i18n="partnership.377" href="../partner-type-hotel.html">Learn More →</a>
 </div>
 </div>
 <div class="type-card reveal">
-<div class="type-card-img"><img alt="Art Collection" data-i18 n-attr="alt:_alt.partnership.4" src="../images/yttp/yacht-049.jpg"/></div>
+<div class="type-card-img"><img alt="Art Collection" data-i18n-attr="alt:_alt.partnership.4" src="../images/yttp/yacht-049.jpg"/></div>
 <div class="type-card-body">
 <div class="type-card-icon">🎨</div>
-<h3 data-i18 n="partnership.386">Art Collection &amp; Premium Lifestyle</h3>
-<p data-i18 n="partnership.388">Connecting with Sotheby's, Christie's and other leading auction houses, offering yacht-exclusive art customization, private collection appreciation, and maritime art transport insurance services.</p>
+<h3 data-i18n="partnership.386">Art Collection &amp; Premium Lifestyle</h3>
+<p data-i18n="partnership.388">Connecting with Sotheby's, Christie's and other leading auction houses, offering yacht-exclusive art customization, private collection appreciation, and maritime art transport insurance services.</p>
 <div class="type-tags">
-<span class="type-tag" data-i18 n="partnership.391">Art Customization</span>
-<span class="type-tag" data-i18 n="partnership.393">Collection Appreciation</span>
-<span class="type-tag" data-i18 n="partnership.395">Transport Insurance</span>
+<span class="type-tag" data-i18n="partnership.391">Art Customization</span>
+<span class="type-tag" data-i18n="partnership.393">Collection Appreciation</span>
+<span class="type-tag" data-i18n="partnership.395">Transport Insurance</span>
 </div>
-<a class="type-link" data-i18 n="partnership.398" href="../partner-type-art.html">Learn More →</a>
+<a class="type-link" data-i18n="partnership.398" href="../partner-type-art.html">Learn More →</a>
 </div>
 </div>
 <div class="type-card reveal">
-<div class="type-card-img"><img alt="Industry Association" data-i18 n-attr="alt:_alt.partnership.5" src="../images/yttp/yacht-057.jpg"/></div>
+<div class="type-card-img"><img alt="Industry Association" data-i18n-attr="alt:_alt.partnership.5" src="../images/yttp/yacht-057.jpg"/></div>
 <div class="type-card-body">
-<div class="type-card-icon" data-i18 n="partnership.405">🏛️</div>
-<h3 data-i18 n="partnership.407">Industry Associations &amp; Regulatory Bodies</h3>
-<p data-i18 n="partnership.409">Maintain close collaboration with international yacht associations and maritime regulatory bodies to ensure compliant operations and access the latest policy insights and industry resources.</p>
+<div class="type-card-icon" data-i18n="partnership.405">🏛️</div>
+<h3 data-i18n="partnership.407">Industry Associations &amp; Regulatory Bodies</h3>
+<p data-i18n="partnership.409">Maintain close collaboration with international yacht associations and maritime regulatory bodies to ensure compliant operations and access the latest policy insights and industry resources.</p>
 <div class="type-tags">
-<span class="type-tag" data-i18 n="partnership.412">Compliance Assurance</span>
-<span class="type-tag" data-i18 n="partnership.414">Policy Insights</span>
-<span class="type-tag" data-i18 n="partnership.416">Industry Resources</span>
+<span class="type-tag" data-i18n="partnership.412">Compliance Assurance</span>
+<span class="type-tag" data-i18n="partnership.414">Policy Insights</span>
+<span class="type-tag" data-i18n="partnership.416">Industry Resources</span>
 </div>
-<a class="type-link" data-i18 n="partnership.419" href="../partner-type-association.html">Learn More →</a>
+<a class="type-link" data-i18n="partnership.419" href="../partner-type-association.html">Learn More →</a>
 </div>
 </div>
 <div class="type-card reveal">
-<div class="type-card-img"><img alt="Brand Co-branding" data-i18 n-attr="alt:_alt.partnership.6" src="../images/yttp/yacht-065.jpg"/></div>
+<div class="type-card-img"><img alt="Brand Co-branding" data-i18n-attr="alt:_alt.partnership.6" src="../images/yttp/yacht-065.jpg"/></div>
 <div class="type-card-body">
 <div class="type-card-icon">🤝</div>
-<h3 data-i18 n="partnership.428">Co-Branding Partnerships</h3>
-<p data-i18 n="partnership.430">Collaborate with leading luxury and premium lifestyle brands to launch limited-edition yachts, co-branded events, and cross-category projects, creating shared brand value.</p>
+<h3 data-i18n="partnership.428">Co-Branding Partnerships</h3>
+<p data-i18n="partnership.430">Collaborate with leading luxury and premium lifestyle brands to launch limited-edition yachts, co-branded events, and cross-category projects, creating shared brand value.</p>
 <div class="type-tags">
-<span class="type-tag" data-i18 n="partnership.433">Limited Editions</span>
-<span class="type-tag" data-i18 n="partnership.435">Co-Branded Events</span>
-<span class="type-tag" data-i18 n="partnership.437">Cross-Category Marketing</span>
+<span class="type-tag" data-i18n="partnership.433">Limited Editions</span>
+<span class="type-tag" data-i18n="partnership.435">Co-Branded Events</span>
+<span class="type-tag" data-i18n="partnership.437">Cross-Category Marketing</span>
 </div>
-<a class="type-link" data-i18 n="partnership.440" href="../partner-type-brand.html">Learn More →</a>
+<a class="type-link" data-i18n="partnership.440" href="../partner-type-brand.html">Learn More →</a>
 </div>
 </div>
 <div class="type-card reveal">
-<div class="type-card-img"><img alt="Service Integration" data-i18 n-attr="alt:_alt.partnership.7" src="../images/yttp/yacht-073.jpg"/></div>
+<div class="type-card-img"><img alt="Service Integration" data-i18n-attr="alt:_alt.partnership.7" src="../images/yttp/yacht-073.jpg"/></div>
 <div class="type-card-body">
 <div class="type-card-icon">🔗</div>
-<h3 data-i18 n="partnership.449">Service Integration Partnerships</h3>
-<p data-i18 n="partnership.451">Integrate your premium services into Fantastic Vacation Industrial Co., Ltd's client service ecosystem, share access to our HNW client base, and achieve mutual growth.</p>
+<h3 data-i18n="partnership.449">Service Integration Partnerships</h3>
+<p data-i18n="partnership.451">Integrate your premium services into Fantastic Vacation Industrial Co., Ltd's client service ecosystem, share access to our HNW client base, and achieve mutual growth.</p>
 <div class="type-tags">
-<span class="type-tag" data-i18 n="partnership.454">Client Base Sharing</span>
-<span class="type-tag" data-i18 n="partnership.456">Service Integration</span>
-<span class="type-tag" data-i18 n="partnership.458">Mutual Growth</span>
+<span class="type-tag" data-i18n="partnership.454">Client Base Sharing</span>
+<span class="type-tag" data-i18n="partnership.456">Service Integration</span>
+<span class="type-tag" data-i18n="partnership.458">Mutual Growth</span>
 </div>
-<a class="type-link" data-i18 n="partnership.461" href="../partner-type-service.html">Learn More →</a>
+<a class="type-link" data-i18n="partnership.461" href="../partner-type-service.html">Learn More →</a>
 </div>
 </div>
 <div class="type-card reveal">
-<div class="type-card-img"><img alt="Channel Agency" data-i18 n-attr="alt:_alt.partnership.8" src="../images/yttp/yacht-081.jpg"/></div>
+<div class="type-card-img"><img alt="Channel Agency" data-i18n-attr="alt:_alt.partnership.8" src="../images/yttp/yacht-081.jpg"/></div>
 <div class="type-card-body">
 <div class="type-card-icon">🌐</div>
-<h3 data-i18 n="partnership.470">Channel Agency Partnerships</h3>
-<p data-i18 n="partnership.472">Become a Fantastic Vacation Industrial Co., Ltd regional agent, sharing brand resources, sales support, and training systems to jointly develop regional markets.</p>
+<h3 data-i18n="partnership.470">Channel Agency Partnerships</h3>
+<p data-i18n="partnership.472">Become a Fantastic Vacation Industrial Co., Ltd regional agent, sharing brand resources, sales support, and training systems to jointly develop regional markets.</p>
 <div class="type-tags">
-<span class="type-tag" data-i18 n="partnership.475">Brand Licensing</span>
-<span class="type-tag" data-i18 n="partnership.477">Sales Support</span>
-<span class="type-tag" data-i18 n="partnership.479">Regional Exclusivity</span>
+<span class="type-tag" data-i18n="partnership.475">Brand Licensing</span>
+<span class="type-tag" data-i18n="partnership.477">Sales Support</span>
+<span class="type-tag" data-i18n="partnership.479">Regional Exclusivity</span>
 </div>
-<a class="type-link" data-i18 n="partnership.482" href="../partner-type-agent.html">Learn More →</a>
+<a class="type-link" data-i18n="partnership.482" href="../partner-type-agent.html">Learn More →</a>
 </div>
 </div>
 <div class="type-card reveal">
-<div class="type-card-img"><img alt="Technology Cooperation" data-i18 n-attr="alt:_alt.partnership.9" src="../images/yttp/yacht-089.jpg"/></div>
+<div class="type-card-img"><img alt="Technology Cooperation" data-i18n-attr="alt:_alt.partnership.9" src="../images/yttp/yacht-089.jpg"/></div>
 <div class="type-card-body">
-<div class="type-card-icon" data-i18 n="partnership.489">⚙️</div>
-<h3 data-i18 n="partnership.491">Technology Cooperation</h3>
-<p data-i18 n="partnership.493">Partner with naval design firms, smart system suppliers, and new energy technology companies to drive yacht technology innovation and upgrades.</p>
+<div class="type-card-icon" data-i18n="partnership.489">⚙️</div>
+<h3 data-i18n="partnership.491">Technology Cooperation</h3>
+<p data-i18n="partnership.493">Partner with naval design firms, smart system suppliers, and new energy technology companies to drive yacht technology innovation and upgrades.</p>
 <div class="type-tags">
-<span class="type-tag" data-i18 n="partnership.496">Joint R&amp;D</span>
-<span class="type-tag" data-i18 n="partnership.498">Technology Upgrade</span>
-<span class="type-tag" data-i18 n="partnership.500">Innovative Applications</span>
+<span class="type-tag" data-i18n="partnership.496">Joint R&amp;D</span>
+<span class="type-tag" data-i18n="partnership.498">Technology Upgrade</span>
+<span class="type-tag" data-i18n="partnership.500">Innovative Applications</span>
 </div>
-<a class="type-link" data-i18 n="partnership.503" href="../partner-type-tech.html">Learn More →</a>
+<a class="type-link" data-i18n="partnership.503" href="../partner-type-tech.html">Learn More →</a>
 </div>
 </div>
 </div>
@@ -450,41 +450,41 @@
 <div class="container">
 <div class="partners-header">
 <div class="section-header reveal" style="margin-bottom:0">
-<h2><span class="gold-gradient" data-i18 n="partnership.516">Core Partners</span></h2>
-<p data-i18 n="partnership.518" style="color:var(--text-muted);font-size:14 px;margin-top:12 px">Global Premium Brand Resource Network</p>
+<h2><span class="gold-gradient" data-i18n="partnership.516">Core Partners</span></h2>
+<p data-i18n="partnership.518" style="color:var(--text-muted);font-size:14px;margin-top:12px">Global Premium Brand Resource Network</p>
 </div>
 <div class="partner-filters reveal">
-<button class="partner-filter active" data-filter="all" data-i18 n="partnership.522">All</button>
-<button class="partner-filter" data-filter="shipyard" data-i18 n="partnership.524">Shipyards</button>
-<button class="partner-filter" data-filter="marina" data-i18 n="partnership.526">Marinas</button>
-<button class="partner-filter" data-filter="aviation" data-i18 n="partnership.528">Aviation</button>
-<button class="partner-filter" data-filter="hotel" data-i18 n="partnership.530">Hotels</button>
+<button class="partner-filter active" data-filter="all" data-i18n="partnership.522">All</button>
+<button class="partner-filter" data-filter="shipyard" data-i18n="partnership.524">Shipyards</button>
+<button class="partner-filter" data-filter="marina" data-i18n="partnership.526">Marinas</button>
+<button class="partner-filter" data-filter="aviation" data-i18n="partnership.528">Aviation</button>
+<button class="partner-filter" data-filter="hotel" data-i18n="partnership.530">Hotels</button>
 </div>
 </div>
 <div class="logo-wall reveal">
-<div class="logo-item" data-category="shipyard"><span data-i18 n="partnership.535">Ferretti Group</span></div>
-<div class="logo-item" data-category="shipyard"><span data-i18 n="partnership.537">Feadship</span></div>
-<div class="logo-item" data-category="shipyard"><span data-i18 n="partnership.539">Lürssen</span></div>
-<div class="logo-item" data-category="shipyard"><span data-i18 n="partnership.541">Sunseeker</span></div>
-<div class="logo-item" data-category="shipyard"><span data-i18 n="partnership.543">Azimut-Benetti</span></div>
-<div class="logo-item" data-category="shipyard"><span data-i18 n="partnership.545">Princess Yachts</span></div>
-<div class="logo-item" data-category="marina"><span data-i18 n="partnership.547">Port Hercules Monaco</span></div>
-<div class="logo-item" data-category="marina"><span data-i18 n="partnership.549">Palm Jumeirah Marina</span></div>
-<div class="logo-item" data-category="marina"><span data-i18 n="partnership.551">ONE°15 Marina</span></div>
-<div class="logo-item" data-category="marina"><span data-i18 n="partnership.553">Discovery Bay Marina Club</span></div>
-<div class="logo-item" data-category="marina"><span data-i18 n="partnership.555">Marina Bay Sands</span></div>
-<div class="logo-item" data-category="marina"><span data-i18 n="partnership.557">Portofino Marina</span></div>
-<div class="logo-item" data-category="aviation"><span data-i18 n="partnership.559">VistaJet</span></div>
-<div class="logo-item" data-category="aviation"><span data-i18 n="partnership.561">NetJets</span></div>
-<div class="logo-item" data-category="aviation"><span data-i18 n="partnership.563">Flexjet</span></div>
-<div class="logo-item" data-category="hotel"><span data-i18 n="partnership.565">Aman Resorts</span></div>
-<div class="logo-item" data-category="hotel"><span data-i18 n="partnership.567">Four Seasons</span></div>
-<div class="logo-item" data-category="hotel"><span data-i18 n="partnership.569">Ritz-Carlton</span></div>
-<div class="logo-item" data-category="hotel"><span data-i18 n="partnership.571">One&amp;Only</span></div>
-<div class="logo-item" data-category="shipyard"><span data-i18 n="partnership.573">Heesen Yachts</span></div>
+<div class="logo-item" data-category="shipyard"><span data-i18n="partnership.535">Ferretti Group</span></div>
+<div class="logo-item" data-category="shipyard"><span data-i18n="partnership.537">Feadship</span></div>
+<div class="logo-item" data-category="shipyard"><span data-i18n="partnership.539">Lürssen</span></div>
+<div class="logo-item" data-category="shipyard"><span data-i18n="partnership.541">Sunseeker</span></div>
+<div class="logo-item" data-category="shipyard"><span data-i18n="partnership.543">Azimut-Benetti</span></div>
+<div class="logo-item" data-category="shipyard"><span data-i18n="partnership.545">Princess Yachts</span></div>
+<div class="logo-item" data-category="marina"><span data-i18n="partnership.547">Port Hercules Monaco</span></div>
+<div class="logo-item" data-category="marina"><span data-i18n="partnership.549">Palm Jumeirah Marina</span></div>
+<div class="logo-item" data-category="marina"><span data-i18n="partnership.551">ONE°15 Marina</span></div>
+<div class="logo-item" data-category="marina"><span data-i18n="partnership.553">Discovery Bay Marina Club</span></div>
+<div class="logo-item" data-category="marina"><span data-i18n="partnership.555">Marina Bay Sands</span></div>
+<div class="logo-item" data-category="marina"><span data-i18n="partnership.557">Portofino Marina</span></div>
+<div class="logo-item" data-category="aviation"><span data-i18n="partnership.559">VistaJet</span></div>
+<div class="logo-item" data-category="aviation"><span data-i18n="partnership.561">NetJets</span></div>
+<div class="logo-item" data-category="aviation"><span data-i18n="partnership.563">Flexjet</span></div>
+<div class="logo-item" data-category="hotel"><span data-i18n="partnership.565">Aman Resorts</span></div>
+<div class="logo-item" data-category="hotel"><span data-i18n="partnership.567">Four Seasons</span></div>
+<div class="logo-item" data-category="hotel"><span data-i18n="partnership.569">Ritz-Carlton</span></div>
+<div class="logo-item" data-category="hotel"><span data-i18n="partnership.571">One&amp;Only</span></div>
+<div class="logo-item" data-category="shipyard"><span data-i18n="partnership.573">Heesen Yachts</span></div>
 </div>
-<div class="reveal" style="text-align:center;margin-top:48 px">
-<a class="btn btn-outline" data-i18 n="partnership.577" href="../partner-list.html">View All Partners →</a>
+<div class="reveal" style="text-align:center;margin-top:48px">
+<a class="btn btn-outline" data-i18n="partnership.577" href="../partner-list.html">View All Partners →</a>
 </div>
 </div>
 </section>
@@ -492,36 +492,36 @@
 <section class="network-map-section">
 <div class="container">
 <div class="section-header reveal">
-<h2><span class="gold-gradient" data-i18 n="partnership.587">Global Service Network</span></h2>
+<h2><span class="gold-gradient" data-i18n="partnership.587">Global Service Network</span></h2>
 <div class="divider-gold"></div>
-<p data-i18 n="partnership.590">Covering 30+ countries and regions worldwide, delivering a seamless global service experience</p>
+<p data-i18n="partnership.590">Covering 30+ countries and regions worldwide, delivering a seamless global service experience</p>
 </div>
 <div class="map-container reveal">
 <div class="map-placeholder">
-<p data-i18 n="partnership.595" style="font-size:16 px;margin-bottom:12 px">🗺️ Global Partnership Network Map</p>
-<p data-i18 n="partnership.597">Mediterranean | Caribbean | Southeast Asia | Middle East | South Pacific | Northern Europe</p>
+<p data-i18n="partnership.595" style="font-size:16px;margin-bottom:12px">🗺️ Global Partnership Network Map</p>
+<p data-i18n="partnership.597">Mediterranean | Caribbean | Southeast Asia | Middle East | South Pacific | Northern Europe</p>
 </div>
 </div>
 <div class="map-stats reveal">
 <div class="map-stat">
-<div class="map-stat-val" data-i18 n="partnership.603">80+</div>
-<div class="map-stat-label" data-i18 n="partnership.605">Partner Marinas</div>
+<div class="map-stat-val" data-i18n="partnership.603">80+</div>
+<div class="map-stat-label" data-i18n="partnership.605">Partner Marinas</div>
 </div>
 <div class="map-stat">
-<div class="map-stat-val" data-i18 n="partnership.609">30+</div>
-<div class="map-stat-label" data-i18 n="partnership.611">Countries Served</div>
+<div class="map-stat-val" data-i18n="partnership.609">30+</div>
+<div class="map-stat-label" data-i18n="partnership.611">Countries Served</div>
 </div>
 <div class="map-stat">
-<div class="map-stat-val" data-i18 n="partnership.615">50+</div>
-<div class="map-stat-label" data-i18 n="partnership.617">Port Cities</div>
+<div class="map-stat-val" data-i18n="partnership.615">50+</div>
+<div class="map-stat-label" data-i18n="partnership.617">Port Cities</div>
 </div>
 <div class="map-stat">
 <div class="map-stat-val">5</div>
-<div class="map-stat-label" data-i18 n="partnership.623">Continents Covered</div>
+<div class="map-stat-label" data-i18n="partnership.623">Continents Covered</div>
 </div>
 </div>
-<div class="reveal" style="text-align:center;margin-top:48 px">
-<a class="btn btn-outline" data-i18 n="partnership.628" href="../partner-map.html">View Detailed Map →</a>
+<div class="reveal" style="text-align:center;margin-top:48px">
+<a class="btn btn-outline" data-i18n="partnership.628" href="../partner-map.html">View Detailed Map →</a>
 </div>
 </div>
 </section>
@@ -529,68 +529,68 @@
 <section class="cases-preview">
 <div class="container">
 <div class="section-header reveal">
-<h2><span class="gold-gradient" data-i18 n="partnership.638">Benchmark Case Studies</span></h2>
+<h2><span class="gold-gradient" data-i18n="partnership.638">Benchmark Case Studies</span></h2>
 <div class="divider-gold"></div>
-<p data-i18 n="partnership.641">Real case studies showcasing Fantastic Vacation Industrial Co., Ltd's global resource integration capabilities</p>
+<p data-i18n="partnership.641">Real case studies showcasing Fantastic Vacation Industrial Co., Ltd's global resource integration capabilities</p>
 </div>
 <div class="case-cards">
 <div class="case-card reveal">
-<div class="case-card-img"><img alt="Ferretti Case Study" data-i18 n-attr="alt:_alt.partnership.10" src="../images/yttp/yacht-095.png"/></div>
+<div class="case-card-img"><img alt="Ferretti Case Study" data-i18n-attr="alt:_alt.partnership.10" src="../images/yttp/yacht-095.png"/></div>
 <div class="case-card-body">
-<span class="case-card-badge" data-i18 n="partnership.648">Shipyard Strategic Partnership</span>
-<h3 data-i18 n="partnership.650">Joint Custom Project with Ferretti Group</h3>
-<p data-i18 n="partnership.652">Custom-built an 82-meter superyacht for a Middle Eastern royal client, providing full tracking from design to delivery, coordinating Ferretti priority production capacity to save 18 months of waiting time.</p>
+<span class="case-card-badge" data-i18n="partnership.648">Shipyard Strategic Partnership</span>
+<h3 data-i18n="partnership.650">Joint Custom Project with Ferretti Group</h3>
+<p data-i18n="partnership.652">Custom-built an 82-meter superyacht for a Middle Eastern royal client, providing full tracking from design to delivery, coordinating Ferretti priority production capacity to save 18 months of waiting time.</p>
 <div class="case-result">
 <div class="case-result-item">
-<div class="case-result-val" data-i18 n="partnership.656">18 Months</div>
-<div class="case-result-label" data-i18 n="partnership.658">Waiting Time Saved</div>
+<div class="case-result-val" data-i18n="partnership.656">18 Months</div>
+<div class="case-result-label" data-i18n="partnership.658">Waiting Time Saved</div>
 </div>
 <div class="case-result-item">
-<div class="case-result-val" data-i18 n="partnership.662">100%</div>
-<div class="case-result-label" data-i18 n="partnership.664">Client Satisfaction</div>
+<div class="case-result-val" data-i18n="partnership.662">100%</div>
+<div class="case-result-label" data-i18n="partnership.664">Client Satisfaction</div>
 </div>
 </div>
 </div>
 </div>
 <div class="case-card reveal">
-<div class="case-card-img"><img alt="MarinasCase Studies" data-i18 n-attr="alt:_alt.partnership.11" src="../images/yttp/yacht-103.jpg"/></div>
+<div class="case-card-img"><img alt="MarinasCase Studies" data-i18n-attr="alt:_alt.partnership.11" src="../images/yttp/yacht-103.jpg"/></div>
 <div class="case-card-body">
-<span class="case-card-badge" data-i18 n="partnership.673">Marina Alliance</span>
-<h3 data-i18 n="partnership.675">Singapore ONE°15 Marina Long-Term Berthing Partnership</h3>
-<p data-i18 n="partnership.677">Providing Asia-based clients with priority berthing rights in Singapore, VIP reception access, 30% harbor fee concessions, and emergency response at any port within 72 hours.</p>
+<span class="case-card-badge" data-i18n="partnership.673">Marina Alliance</span>
+<h3 data-i18n="partnership.675">Singapore ONE°15 Marina Long-Term Berthing Partnership</h3>
+<p data-i18n="partnership.677">Providing Asia-based clients with priority berthing rights in Singapore, VIP reception access, 30% harbor fee concessions, and emergency response at any port within 72 hours.</p>
 <div class="case-result">
 <div class="case-result-item">
-<div class="case-result-val" data-i18 n="partnership.681">30%</div>
-<div class="case-result-label" data-i18 n="partnership.683">Fee Concessions</div>
+<div class="case-result-val" data-i18n="partnership.681">30%</div>
+<div class="case-result-label" data-i18n="partnership.683">Fee Concessions</div>
 </div>
 <div class="case-result-item">
-<div class="case-result-val" data-i18 n="partnership.687">72 Hours</div>
-<div class="case-result-label" data-i18 n="partnership.689">Emergency Response</div>
+<div class="case-result-val" data-i18n="partnership.687">72 Hours</div>
+<div class="case-result-label" data-i18n="partnership.689">Emergency Response</div>
 </div>
 </div>
 </div>
 </div>
 <div class="case-card reveal">
-<div class="case-card-img"><img alt="Sea-Air Link案例" data-i18 n-attr="alt:_alt.partnership.12" src="../images/yttp/yacht-111.jpg"/></div>
+<div class="case-card-img"><img alt="Sea-Air Link案例" data-i18n-attr="alt:_alt.partnership.12" src="../images/yttp/yacht-111.jpg"/></div>
 <div class="case-card-body">
-<span class="case-card-badge" data-i18 n="partnership.698">Sea-Air Link</span>
-<h3 data-i18 n="partnership.700">VistaJet Seamless Sea-Land-Air Service</h3>
-<p data-i18 n="partnership.702">Partnering with VistaJet to deliver worldwide helicopter transfer services, offering a zero-wait transit experience from private jets to yachts.</p>
+<span class="case-card-badge" data-i18n="partnership.698">Sea-Air Link</span>
+<h3 data-i18n="partnership.700">VistaJet Seamless Sea-Land-Air Service</h3>
+<p data-i18n="partnership.702">Partnering with VistaJet to deliver worldwide helicopter transfer services, offering a zero-wait transit experience from private jets to yachts.</p>
 <div class="case-result">
 <div class="case-result-item">
-<div class="case-result-val" data-i18 n="partnership.706">Zero Wait</div>
-<div class="case-result-label" data-i18 n="partnership.708">Transit Experience</div>
+<div class="case-result-val" data-i18n="partnership.706">Zero Wait</div>
+<div class="case-result-label" data-i18n="partnership.708">Transit Experience</div>
 </div>
 <div class="case-result-item">
-<div class="case-result-val" data-i18 n="partnership.712">24/7</div>
-<div class="case-result-label" data-i18 n="partnership.714">Global Response</div>
+<div class="case-result-val" data-i18n="partnership.712">24/7</div>
+<div class="case-result-label" data-i18n="partnership.714">Global Response</div>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="reveal" style="text-align:center;margin-top:48 px">
-<a class="btn btn-outline" data-i18 n="partnership.722" href="../partner-cases.html">View All Cases →</a>
+<div class="reveal" style="text-align:center;margin-top:48px">
+<a class="btn btn-outline" data-i18n="partnership.722" href="../partner-cases.html">View All Cases →</a>
 </div>
 </div>
 </section>
@@ -598,39 +598,39 @@
 <section class="process-section">
 <div class="container">
 <div class="section-header reveal">
-<h2><span class="gold-gradient" data-i18 n="partnership.732">Partnership Process</span></h2>
+<h2><span class="gold-gradient" data-i18n="partnership.732">Partnership Process</span></h2>
 <div class="divider-gold"></div>
-<p data-i18 n="partnership.735">From inquiry to project launch, professional service every step of the way</p>
+<p data-i18n="partnership.735">From inquiry to project launch, professional service every step of the way</p>
 </div>
 <div class="process-timeline reveal">
 <div class="process-step">
 <div class="process-step-num">1</div>
-<h4 data-i18 n="partnership.742">Submit Inquiry</h4>
-<p data-i18 n="partnership.744">Complete the partnership inquiry form, specifying partnership type and requirements</p>
+<h4 data-i18n="partnership.742">Submit Inquiry</h4>
+<p data-i18n="partnership.744">Complete the partnership inquiry form, specifying partnership type and requirements</p>
 </div>
 <div class="process-step">
 <div class="process-step-num">2</div>
-<h4 data-i18 n="partnership.750">Qualification Review</h4>
-<p data-i18 n="partnership.752">We will complete qualification assessment and background check within 5 business days</p>
+<h4 data-i18n="partnership.750">Qualification Review</h4>
+<p data-i18n="partnership.752">We will complete qualification assessment and background check within 5 business days</p>
 </div>
 <div class="process-step">
 <div class="process-step-num">3</div>
-<h4 data-i18 n="partnership.758">Proposal Discussion</h4>
-<p data-i18 n="partnership.760">In-depth discussions between both parties to develop a customized partnership proposal</p>
+<h4 data-i18n="partnership.758">Proposal Discussion</h4>
+<p data-i18n="partnership.760">In-depth discussions between both parties to develop a customized partnership proposal</p>
 </div>
 <div class="process-step">
 <div class="process-step-num">4</div>
-<h4 data-i18 n="partnership.766">Contract Signing</h4>
-<p data-i18 n="partnership.768">Sign the formal partnership agreement, clearly defining rights and responsibilities</p>
+<h4 data-i18n="partnership.766">Contract Signing</h4>
+<p data-i18n="partnership.768">Sign the formal partnership agreement, clearly defining rights and responsibilities</p>
 </div>
 <div class="process-step">
 <div class="process-step-num">5</div>
-<h4 data-i18 n="partnership.774">Project Launch</h4>
-<p data-i18 n="partnership.776">Launch the partnership project with ongoing tracking and optimization</p>
+<h4 data-i18n="partnership.774">Project Launch</h4>
+<p data-i18n="partnership.776">Launch the partnership project with ongoing tracking and optimization</p>
 </div>
 </div>
-<div class="reveal" style="text-align:center;margin-top:60 px">
-<a class="btn btn-outline" data-i18 n="partnership.781" href="../partner-process.html">View Detailed Process →</a>
+<div class="reveal" style="text-align:center;margin-top:60px">
+<a class="btn btn-outline" data-i18n="partnership.781" href="../partner-process.html">View Detailed Process →</a>
 </div>
 </div>
 </section>
@@ -638,151 +638,151 @@
 <section class="cta-section">
 <div class="container">
 <div class="cta-content reveal">
-<h2 data-i18 n="partnership.791">Become a <span class="gold-gradient" data-i18 n="partnership.792"> Fantastic Vacation Industrial Co., Ltd </span> Partner</h2>
-<p data-i18 n="partnership.795">Whether you are a leading shipyard, luxury hotel, private aviation operator, or premium lifestyle brand, we look forward to building a deep partnership with you to deliver exceptional experiences for HNW clients together.</p>
+<h2 data-i18n="partnership.791">Become a <span class="gold-gradient" data-i18n="partnership.792"> Fantastic Vacation Industrial Co., Ltd </span> Partner</h2>
+<p data-i18n="partnership.795">Whether you are a leading shipyard, luxury hotel, private aviation operator, or premium lifestyle brand, we look forward to building a deep partnership with you to deliver exceptional experiences for HNW clients together.</p>
 <div class="cta-contact">
 <div>📧 <a href="mailto:partnership@fantastic.vacation">partnership@fantastic.vacation</a></div>
-<div data-i18 n="partnership.801">📞 +86 0755 3353-0188 (Business Partnership Hotline)</div>
+<div data-i18n="partnership.801">📞 +86 0755 3353-0188 (Business Partnership Hotline)</div>
 </div>
-<div style="display:flex;gap:20 px;justify-content:center;flex-wrap:wrap">
-<a class="btn btn-primary btn-gold-sweep" data-i18 n="partnership.805" href="../partner-apply.html">Submit Partnership Inquiry</a>
-<a class="btn btn-outline" data-i18 n="partnership.807" href="contact.html">Contact Us</a>
+<div style="display:flex;gap:20px;justify-content:center;flex-wrap:wrap">
+<a class="btn btn-primary btn-gold-sweep" data-i18n="partnership.805" href="../partner-apply.html">Submit Partnership Inquiry</a>
+<a class="btn btn-outline" data-i18n="partnership.807" href="contact.html">Contact Us</a>
 </div>
 </div>
 </div>
 </section>
 <!-- Footer -->
-<footer data-i18 n="index.965" id="footer">
+<footer data-i18n="index.965" id="footer">
 <div class="footer-top-bar"></div>
 <div class="footer-main">
-<div class="footer-grid" data-i18 n="index.799">
+<div class="footer-grid" data-i18n="index.799">
 <!-- Column 1: Brand -->
 <div class="footer-col footer-brand-col">
 <a class="footer-logo" href="../../index.html">
 <div>
-<div class="footer-logo-name" data-i18 n="index.201">奇幻假期实业有限公司</div>
-<div class="footer-logo-en" data-i18 n="index.202">FANTASTIC VACATION INDUSTRIAL CO., LTD.</div>
+<div class="footer-logo-name" data-i18n="index.201">奇幻假期实业有限公司</div>
+<div class="footer-logo-en" data-i18n="index.202">FANTASTIC VACATION INDUSTRIAL CO., LTD.</div>
 </div>
 </a>
-<p class="footer-slogan" data-i18 n="index.814">「探索全球，不负假期」<br/>全球一体化高端游艇定制与私人海享生活缔造者</p>
-<p class="footer-brand-desc" data-i18 n="index.203">奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。</p>
+<p class="footer-slogan" data-i18n="index.814">「探索全球，不负假期」<br/>全球一体化高端游艇定制与私人海享生活缔造者</p>
+<p class="footer-brand-desc" data-i18n="index.203">奇幻假期实业有限公司深耕高端游艇行业15年，为200+全球高净值客户提供游艇定制、租赁、托管全产业链一站式服务。</p>
 <div class="footer-socials">
 <a class="social-item" href="javascript:void(0)" title="微信公众号">
 <svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M8.5 11 a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3 zm5 0 a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3 zm5.5 4 H20 a1 1 0 0 1 1 1 v9 a1 1 0 0 1-1 1 h-1.5 a4 4 0 0 1-3.98-3.64 A5.97 5.97 0 0 0 12 15 a6 6 0 0 0 6 6 v1 zm-7-7 a4 4 0 0 0-4 4 v5 a4 4 0 0 0 3.15 3.85 A3 3 0 0 0 8 18 v1 H5.5 A1.5 1.5 0 0 1 4 17.5 v-8 A1.5 1.5 0 0 1 5.5 8 h6 z"></path></svg>
-<span data-i18 n="index.204">微信公众号</span>
+<span data-i18n="index.204">微信公众号</span>
 </a>
 <a class="social-item" href="javascript:void(0)" title="微博">
 <svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M10.09 18 c-3.69 0-7.09-1.69-7.09-4.28 0-1.35.7-2.96 1.88-4.57 C6.57 7.57 9.5 6.4 10.55 7 c1.41.8 2.29 2.38 2.55 3.82.1-.04.21-.06.32-.06 2.45 0 4.44 2.29 4.44 5.11 0 2.73-1.99 4.94-4.44 4.94-.27 0-.53-.02-.79-.06-.11.17-.23.34-.35.5 l.05.01 zM20 8.5 C20 4.91 17.09 2 13.5 2 H3 C2.45 2 2 2.45 2 3 v13 c0 .55.45 1 1 1 h10 c4.17 0 7.58-3.06 7.98-7.05.05-.47.02-.95.02-1.45 z"></path></svg>
-<span data-i18 n="index.205">微博</span>
+<span data-i18n="index.205">微博</span>
 </a>
 <a class="social-item" href="javascript:void(0)" title="抖音">
 <svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M19.59 6.69 a4.83 4.83 0 0 1-3.77-4.25 V2 h-3.45 v13.67 a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89 c.28 0 .54.04.79.1 V9.01 a6.27 6.27 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34 V8.82 a8.18 8.18 0 0 0 4.77 1.52 V6.68 a4.85 4.85 0 0 1-1-.02 z"></path></svg>
-<span data-i18 n="index.206">抖音</span>
+<span data-i18n="index.206">抖音</span>
 </a>
 <a class="social-item" href="javascript:void(0)" title="LinkedIn">
 <svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M20.447 20.452 h-3.554 v-5.569 c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939 v5.667 H9.351 V9 h3.414 v1.561 h.046 c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455 v6.286 zM5.337 7.433 a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065 zm1.782 13.019 H3.555 V9 h3.564 v11.452 zM22.225 0 H1.771 C.792 0 0 .774 0 1.729 v20.542 C0 23.227.792 24 1.771 24 h20.451 C23.2 24 24 23.227 24 22.271 V1.729 C24 .774 23.2 0 22.222 0 h.003 z"></path></svg>
-<span data-i18 n="index.207">LinkedIn</span>
+<span data-i18n="index.207">LinkedIn</span>
 </a>
 <a class="social-item" href="javascript:void(0)" title="YouTube">
-<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M23.498 6.186 a3.016 3.016 0 0 0-2.122-2.136 C19.505 3.545 12 3.545 12 3.545 s-7.505 0-9.377.505 A3.017 3.017 0 0 0 .502 6.186 C0 8.07 0 12 0 12 s0 3.93.502 5.814 a3.016 3.016 0 0 0 2.122 2.136 c1.871.505 9.376.505 9.376.505 s7.505 0 9.377-.505 a3.015 3.015 0 0 0 2.122-2.136 C24 15.93 24 12 24 12 s0-3.93-.502-5.814 zM9.545 15.568 V8.432 L15.818 12 l-6.273 3.568 z"></path></svg>
-<span data-i18 n="index.208">YouTube</span>
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M23.498 6.186 a3.016 3.016 0 0 0-2.122-2.136 C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505 A3.017 3.017 0 0 0 .502 6.186 C0 8.07 0 12 0 12 s0 3.93.502 5.814 a3.016 3.016 0 0 0 2.122 2.136 c1.871.505 9.376.505 9.376.505 s7.505 0 9.377-.505 a3.015 3.015 0 0 0 2.122-2.136 C24 15.93 24 12 24 12 s0-3.93-.502-5.814 zM9.545 15.568 V8.432 L15.818 12 l-6.273 3.568 z"></path></svg>
+<span data-i18n="index.208">YouTube</span>
 </a>
 </div>
 </div>
 <!-- Column 2: Quick Navigation -->
 <div class="footer-col">
-<h4 class="footer-col-title" data-i18 n="index.850">快速导航</h4>
+<h4 class="footer-col-title" data-i18n="index.850">快速导航</h4>
 <ul class="footer-links">
-<li data-i18 n="index.209"><a data-i18 n="index.210" href="../../index.html">首页</a></li>
-<li data-i18 n="index.1"><a data-i18 n="index.211" href="../../about.html">关于我们</a></li>
-<li data-i18 n="index.2"><a data-i18 n="index.212" href="../../yachts.html">全系游艇</a></li>
- <li><a href="../../membership.html" data-i18 n="footer.member" style="color:#c9 a96 e;font-weight:500">👑 尊享会员</a></li>
-<li data-i18 n="index.3"><a data-i18 n="index.213" href="../../custom.html">全案定制</a></li>
-<li data-i18 n="index.4"><a data-i18 n="index.214" href="../../charter.html">租赁航线</a></li>
-<li data-i18 n="index.5"><a data-i18 n="index.215" href="../../management.html">托管维保</a></li>
-<li data-i18 n="index.6"><a data-i18 n="index.216" href="../../cases.html">案例展示</a></li>
-<li data-i18 n="index.7"><a data-i18 n="index.217" href="../../news.html">新闻资讯</a></li>
-<li data-i18 n="index.8"><a data-i18 n="index.218" href="../../partnership.html">全球合作</a></li>
-<li data-i18 n="index.9"><a data-i18 n="index.219" href="../../sitemap.html">网站地图</a></li>
+<li data-i18n="index.209"><a data-i18n="index.210" href="../../index.html">首页</a></li>
+<li data-i18n="index.1"><a data-i18n="index.211" href="../../about.html">关于我们</a></li>
+<li data-i18n="index.2"><a data-i18n="index.212" href="../../yachts.html">全系游艇</a></li>
+ <li><a href="../../membership.html" data-i18n="footer.member" style="color:#c9a96e;font-weight:500">👑 尊享会员</a></li>
+<li data-i18n="index.3"><a data-i18n="index.213" href="../../custom.html">全案定制</a></li>
+<li data-i18n="index.4"><a data-i18n="index.214" href="../../charter.html">租赁航线</a></li>
+<li data-i18n="index.5"><a data-i18n="index.215" href="../../management.html">托管维保</a></li>
+<li data-i18n="index.6"><a data-i18n="index.216" href="../../cases.html">案例展示</a></li>
+<li data-i18n="index.7"><a data-i18n="index.217" href="../../news.html">新闻资讯</a></li>
+<li data-i18n="index.8"><a data-i18n="index.218" href="../../partnership.html">全球合作</a></li>
+<li data-i18n="index.9"><a data-i18n="index.219" href="../../sitemap.html">网站地图</a></li>
 </ul>
 </div>
 <!-- Column 3: Contact -->
-<div class="footer-col" data-i18 n="index.10">
-<h4 class="footer-col-title" data-i18 n="index.878">联系我们</h4>
+<div class="footer-col" data-i18n="index.10">
+<h4 class="footer-col-title" data-i18n="index.878">联系我们</h4>
 <ul class="footer-contact">
 <li class="contact-item">
-<svg fill="none" height="16" stroke="#c9 a96 e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M21 10 c0 7-9 13-9 13 s-9-6-9-13 a9 9 0 0 1 18 0 z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M21 10 c0 7-9 13-9 13s-9-6-9-13 a9 9 0 0 1 18 0 z"></path><circle cx="12" cy="10" r="3"></circle></svg>
 <div>
-<div class="contact-label" data-i18 n="index.220">公司地址</div>
-<div class="contact-value" data-i18 n="index.addr">中国广东省深圳市南山区蛇口太子湾大道88号奇幻假期大厦28楼</div>
+<div class="contact-label" data-i18n="index.220">公司地址</div>
+<div class="contact-value" data-i18n="index.addr">中国广东省深圳市南山区蛇口太子湾大道88号奇幻假期大厦28楼</div>
 </div>
 </li>
-<li class="contact-item" data-i18 n="index.12">
-<svg fill="none" height="16" stroke="#c9 a96 e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M22 16.92 v3 a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.22 h3 a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11 L7.91 8.8 a16 16 0 0 0 5.92 5.92 l.96-.96 a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7 A2 2 0 0 1 22 16.92 z"></path></svg>
+<li class="contact-item" data-i18n="index.12">
+<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M22 16.92 v3 a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.22 h3 a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11 L7.91 8.8 a16 16 0 0 0 5.92 5.92 l.96-.96 a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7 A2 2 0 0 1 22 16.92 z"></path></svg>
 <div>
-<div class="contact-label" data-i18 n="index.221">咨询热线</div>
-<div class="contact-value"><a data-i18 n="index.896" href="tel:13797920792">13797920792</a> / <a data-i18 n="index.898" href="tel:+86075533530188">+86 0755 3353-0188</a></div>
+<div class="contact-label" data-i18n="index.221">咨询热线</div>
+<div class="contact-value"><a data-i18n="index.896" href="tel:13797920792">13797920792</a> / <a data-i18n="index.898" href="tel:+86075533530188">+86 0755 3353-0188</a></div>
 </div>
 </li>
-<li class="contact-item" data-i18 n="index.13">
-<svg fill="none" height="16" stroke="#c9 a96 e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M22 16.92 v3 a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.22 h3 a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11 L7.91 8.8 a16 16 0 0 0 5.92 5.92 l.96-.96 a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7 A2 2 0 0 1 22 16.92 z"></path><line x1="22" x2="11" y1="2" y2="13"></line></svg>
+<li class="contact-item" data-i18n="index.13">
+<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M22 16.92 v3 a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.22 h3 a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11 L7.91 8.8 a16 16 0 0 0 5.92 5.92 l.96-.96 a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7 A2 2 0 0 1 22 16.92 z"></path><line x1="22" x2="11" y1="2" y2="13"></line></svg>
 <div>
-<div class="contact-label" data-i18 n="index.222">传真</div>
-<div class="contact-value" data-i18 n="index.907">0755-31530988</div>
+<div class="contact-label" data-i18n="index.222">传真</div>
+<div class="contact-value" data-i18n="index.907">0755-31530988</div>
 </div>
 </li>
-<li class="contact-item" data-i18 n="index.14">
-<svg fill="none" height="16" stroke="#c9 a96 e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M4 4 h16 c1.1 0 2 .9 2 2 v12 c0 1.1-.9 2-2 2 H4 c-1.1 0-2-.9-2-2 V6 c0-1.1.9-2 2-2 z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+<li class="contact-item" data-i18n="index.14">
+<svg fill="none" height="16" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M4 4 h16 c1.1 0 2 .9 2 2 v12 c0 1.1-.9 2-2 2 H4 c-1.1 0-2-.9-2-2 V6 c0-1.1.9-2 2-2 z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
 <div>
-<div class="contact-label" data-i18 n="index.223">商务邮箱</div>
-<div class="contact-value"><a data-i18 n="index.224" href="mailto:hs@fantastic-vacation.com">hs@fantastic-vacation.com</a></div>
+<div class="contact-label" data-i18n="index.223">商务邮箱</div>
+<div class="contact-value"><a data-i18n="index.224" href="mailto:hs@fantastic-vacation.com">hs@fantastic-vacation.com</a></div>
 </div>
 </li>
 </ul></div>
 <!-- Column 4: Certifications & Partners -->
-<div class="footer-col" data-i18 n="index.16">
-<h4 class="footer-col-title" data-i18 n="index.928">资质与合作</h4>
+<div class="footer-col" data-i18n="index.16">
+<h4 class="footer-col-title" data-i18n="index.928">资质与合作</h4>
 <div class="footer-certs">
 <div class="cert-item">
-<svg fill="none" height="14" stroke="#c9 a96 e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08 V12 a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-<span data-i18 n="index.225">ISO 9001质量管理体系认证</span>
+<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08 V12 a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18n="index.225">ISO 9001质量管理体系认证</span>
 </div>
-<div class="cert-item" data-i18 n="index.17">
-<svg fill="none" height="14" stroke="#c9 a96 e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08 V12 a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-<span data-i18 n="index.226">意大利 Ferretti 集团授权合作伙伴</span>
+<div class="cert-item" data-i18n="index.17">
+<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08 V12 a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18n="index.226">意大利 Ferretti 集团授权合作伙伴</span>
 </div>
-<div class="cert-item" data-i18 n="index.18">
-<svg fill="none" height="14" stroke="#c9 a96 e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08 V12 a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-<span data-i18 n="index.227">荷兰Feadship技术合作伙伴</span>
+<div class="cert-item" data-i18n="index.18">
+<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08 V12 a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18n="index.227">荷兰Feadship技术合作伙伴</span>
 </div>
-<div class="cert-item" data-i18 n="index.19">
-<svg fill="none" height="14" stroke="#c9 a96 e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08 V12 a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-<span data-i18 n="index.228">地中海船坞协会认证会员</span>
+<div class="cert-item" data-i18n="index.19">
+<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08 V12 a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18n="index.228">地中海船坞协会认证会员</span>
 </div>
-<div class="cert-item" data-i18 n="index.20">
-<svg fill="none" height="14" stroke="#c9 a96 e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08 V12 a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-<span data-i18 n="index.229">亚洲最佳游艇服务商三连冠</span>
+<div class="cert-item" data-i18n="index.20">
+<svg fill="none" height="14" stroke="#c9a96e" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M22 11.08 V12 a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<span data-i18n="index.229">亚洲最佳游艇服务商三连冠</span>
 </div>
 </div>
-<div class="footer-recruit" data-i18 n="index.21">
-<a class="recruit-link" data-i18 n="index.959" href="../../contact.html">
+<div class="footer-recruit" data-i18n="index.21">
+<a class="recruit-link" data-i18n="index.959" href="../../contact.html">
 <svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M17 21 v-2 a4 4 0 0 0-4-4 H5 a4 4 0 0 0-4 4 v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21 v-2 a4 4 0 0 0-3-3.87"></path><path d="M16 3.13 a4 4 0 0 1 0 7.75"></path></svg>
- <span data-i18 n="_recruit">加入我们 · 招聘职位</span>
+ <span data-i18n="_recruit">加入我们 · 招聘职位</span>
  </a>
 </div>
 </div>
 </div>
 </div>
 <!-- Copyright Bar -->
-<div class="footer-bottom" data-i18 n="index.22">
+<div class="footer-bottom" data-i18n="index.22">
 <div class="footer-bottom-inner">
 <div class="copyright">
-<span data-i18 n="index.230">© 2020-2026 奇幻假期实业有限公司 FANTASTIC VACATION INDUSTRIAL CO., LTD. 保留所有权利。</span>
+<span data-i18n="index.230">© 2020-2026 奇幻假期实业有限公司 FANTASTIC VACATION INDUSTRIAL CO., LTD. 保留所有权利。</span>
 </div>
-<div class="legal-links" data-i18 n="index.23">
-<a data-i18 n="index.231" href="../../privacy.html">隐私政策</a>
-<a data-i18 n="index.232" href="../../terms.html">使用条款</a>
-<a data-i18 n="index.233" href="../../sitemap.html">网站地图</a>
+<div class="legal-links" data-i18n="index.23">
+<a data-i18n="index.231" href="../../privacy.html">隐私政策</a>
+<a data-i18n="index.232" href="../../terms.html">使用条款</a>
+<a data-i18n="index.233" href="../../sitemap.html">网站地图</a>
 </div>
 </div>
 
@@ -792,7 +792,7 @@
 (function(){
  var ld=document.getElementById("loader");
  if(!ld)return;
- /* 5.5 Force hide after 5.5 s - fallback */
+ /* 5.5 Force hide after 5.5s - fallback */
  setTimeout(function(){
  if(ld){ld.style.display="none";ld.style.visibility="hidden"}
  document.body.style.overflow="";
