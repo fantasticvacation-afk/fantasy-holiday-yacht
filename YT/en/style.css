@@ -1134,6 +1134,14 @@ body.dark-mode .search-suggestion-item:hover{background:#0f172a;color:#c9a96e}
   /* 卡片压缩 */
   .yacht-card,.news-card,.case-card,.office-card,.value-card{margin-bottom:0}
   .yacht-card-img{aspect-ratio:16/10}
+  .service-card{padding:24px 18px !important}
+  .service-icon{width:36px !important;height:36px !important;margin-bottom:12px !important;font-size:18px !important}
+  .service-card h3{font-size:16px !important;margin-bottom:8px !important}
+  .service-card p{font-size:13px !important;line-height:1.5 !important;margin-bottom:12px !important}
+  .custom-feature{padding:8px 10px !important}
+  .custom-feature-list{gap:6px !important}
+  .flow-step h5{font-size:11px !important}
+  .studio-logo{font-size:11px !important;padding:6px 10px !important}
   /* 页脚 */
   .footer-main{padding-left:16px;padding-right:16px;padding-top:40px;padding-bottom:32px}
   .footer-grid{grid-template-columns:1fr;gap:28px}
@@ -1176,6 +1184,12 @@ body.dark-mode .search-suggestion-item:hover{background:#0f172a;color:#c9a96e}
   /* 卡片内边距压缩 */
   .office-card,.value-card{padding:16px !important}
   .yacht-card-body{padding:14px !important}
+  .service-card{padding:20px 14px !important}
+  .service-icon{width:32px !important;height:32px !important;margin-bottom:10px !important;font-size:16px !important}
+  .service-card h3{font-size:15px !important;margin-bottom:6px !important}
+  .service-card p{font-size:12px !important;line-height:1.5 !important;margin-bottom:10px !important}
+  .custom-feature{padding:6px 8px !important;font-size:11px !important}
+  .custom-feature-list{gap:5px !important}
   /* 统计区压缩 */
   .stat-item{padding:16px 8px !important}
   .stat-number{font-size:26px !important}
